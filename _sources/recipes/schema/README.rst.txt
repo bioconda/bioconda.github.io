@@ -1,54 +1,66 @@
-.. _`schema`:
+.. title:: Package Recipe 'schema'
+.. highlight: bash
+
 
 schema
 ======
 
-|downloads|
+.. conda:recipe:: schema
+   :replaces_section_title:
 
-Simple data validation library
+   Simple data validation library
 
-============= ===========
-Home          https://github.com/keleshev/schema
-Versions      0.6.8, 0.6.6, 0.4.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//schema/meta.yaml
+   :homepage: https://github.com/keleshev/schema
+   :license: MIT License
+   :recipe: /`schema <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schema>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schema/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: schema
 
-Installation
-------------
+   |downloads_schema| |docker_schema|
 
-.. highlight: bash
+   :versions: 0.6.8, 0.6.6, 0.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install schema
+   :required~by: |required_by_schema|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update schema
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install schema
+
+   and update with::
+
+      conda update schema
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/schema
+
+
+.. |required_by_schema| conda:required_by:: schema
+.. |downloads_schema| image:: https://img.shields.io/conda/dn/bioconda/schema.svg?style=flat
+   :alt:   (downloads)
+.. |docker_schema| image:: https://quay.io/repository/biocontainers/schema/status
+   :target: https://quay.io/repository/biocontainers/schema
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/schema.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/schema/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/schema/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/schema/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/schema/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/schema
-.. |docker| image:: https://quay.io/repository/biocontainers/schema/status
-                :target: https://quay.io/repository/biocontainers/schema
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/schema/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-mirna10cdf`:
+.. title:: Package Recipe 'bioconductor-mirna10cdf'
+.. highlight: bash
+
 
 bioconductor-mirna10cdf
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-mirna10cdf
+   :replaces_section_title:
 
-A package containing an environment representing the miRNA\-1\_0.CDF file.
+   A package containing an environment representing the miRNA\-1\_0.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mirna10cdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirna10cdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mirna10cdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-mirna10cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mirna10cdf
 
-Installation
-------------
+   |downloads_bioconductor-mirna10cdf| |docker_bioconductor-mirna10cdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mirna10cdf
+   :required~by: |required_by_bioconductor-mirna10cdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mirna10cdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mirna10cdf
+
+   and update with::
+
+      conda update bioconductor-mirna10cdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mirna10cdf
+
+
+.. |required_by_bioconductor-mirna10cdf| conda:required_by:: bioconductor-mirna10cdf
+.. |downloads_bioconductor-mirna10cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirna10cdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mirna10cdf| image:: https://quay.io/repository/biocontainers/bioconductor-mirna10cdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mirna10cdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mirna10cdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirna10cdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirna10cdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mirna10cdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mirna10cdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mirna10cdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirna10cdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mirna10cdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mirna10cdf/README.html
 

@@ -1,54 +1,66 @@
-.. _`r-genenet`:
+.. title:: Package Recipe 'r-genenet'
+.. highlight: bash
+
 
 r-genenet
 =========
 
-|downloads|
+.. conda:recipe:: r-genenet
+   :replaces_section_title:
 
-Analyzes gene expression \(time series\) data with focus on the inference of gene networks. In particular\, GeneNet implements the methods of Schaefer and  Strimmer \(2005a\,b\,c\) and Opgen\-Rhein and Strimmer \(2006\, 2007\) for learning large\-scale gene association networks \(including assignment of putative directions\).  
+   
 
-============= ===========
-Home          http://strimmerlab.org/software/genenet/
-Versions      1.2.13
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-genenet/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-genenet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genenet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genenet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-genenet
 
-Installation
-------------
+   |downloads_r-genenet| |docker_r-genenet|
 
-.. highlight: bash
+   :versions: 1.2.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor` >=1.6.8 :conda:package:`r-fdrtool` >=1.2.15 :conda:package:`r-longitudinal` >=1.1.12 
 
-   conda install r-genenet
+   :required~by: |required_by_r-genenet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-genenet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-genenet
+
+   and update with::
+
+      conda update r-genenet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-genenet
+
+
+.. |required_by_r-genenet| conda:required_by:: r-genenet
+.. |downloads_r-genenet| image:: https://img.shields.io/conda/dn/bioconda/r-genenet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-genenet| image:: https://quay.io/repository/biocontainers/r-genenet/status
+   :target: https://quay.io/repository/biocontainers/r-genenet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-genenet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-genenet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-genenet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-genenet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-genenet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-genenet
-.. |docker| image:: https://quay.io/repository/biocontainers/r-genenet/status
-                :target: https://quay.io/repository/biocontainers/r-genenet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-genenet/README.html
 

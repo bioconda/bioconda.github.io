@@ -1,54 +1,66 @@
-.. _`bioconductor-ebcoexpress`:
+.. title:: Package Recipe 'bioconductor-ebcoexpress'
+.. highlight: bash
+
 
 bioconductor-ebcoexpress
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ebcoexpress
+   :replaces_section_title:
 
-An Empirical Bayesian Approach to Differential Co\-Expression Analysis at the Gene\-Pair Level
+   An Empirical Bayesian Approach to Differential Co\-Expression Analysis at the Gene\-Pair Level
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/EBcoexpress.html
-Versions      1.26.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ebcoexpress/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EBcoexpress.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-ebcoexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ebcoexpress
 
-Installation
-------------
+   |downloads_bioconductor-ebcoexpress| |docker_bioconductor-ebcoexpress|
 
-.. highlight: bash
+   :versions: 1.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-ebarrays` >=2.46.0,<2.47.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mclust`  :conda:package:`r-minqa`  
 
-   conda install bioconductor-ebcoexpress
+   :required~by: |required_by_bioconductor-ebcoexpress|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ebcoexpress
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ebcoexpress
+
+   and update with::
+
+      conda update bioconductor-ebcoexpress
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ebcoexpress
+
+
+.. |required_by_bioconductor-ebcoexpress| conda:required_by:: bioconductor-ebcoexpress
+.. |downloads_bioconductor-ebcoexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebcoexpress.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ebcoexpress| image:: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ebcoexpress.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ebcoexpress/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ebcoexpress/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ebcoexpress/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ebcoexpress/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ebcoexpress
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ebcoexpress/README.html
 

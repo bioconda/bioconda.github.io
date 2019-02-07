@@ -1,54 +1,66 @@
-.. _`perl-convert-binary-c`:
+.. title:: Package Recipe 'perl-convert-binary-c'
+.. highlight: bash
+
 
 perl-convert-binary-c
 =====================
 
-|downloads|
+.. conda:recipe:: perl-convert-binary-c
+   :replaces_section_title:
 
-Binary Data Conversion using C Types
+   Binary Data Conversion using C Types
 
-============= ===========
-Home          http://search.cpan.org/~mhx/Convert-Binary-C/
-Versions      0.78
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-convert-binary-c/meta.yaml
+   :homepage: http://search.cpan.org/~mhx/Convert-Binary-C/
+   :license: perl_5
+   :recipe: /`perl-convert-binary-c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-convert-binary-c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-convert-binary-c/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-convert-binary-c
 
-Installation
-------------
+   |downloads_perl-convert-binary-c| |docker_perl-convert-binary-c|
 
-.. highlight: bash
+   :versions: 0.78
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-convert-binary-c
+   :required~by: |required_by_perl-convert-binary-c|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-convert-binary-c
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-convert-binary-c
+
+   and update with::
+
+      conda update perl-convert-binary-c
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-convert-binary-c
+
+
+.. |required_by_perl-convert-binary-c| conda:required_by:: perl-convert-binary-c
+.. |downloads_perl-convert-binary-c| image:: https://img.shields.io/conda/dn/bioconda/perl-convert-binary-c.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-convert-binary-c| image:: https://quay.io/repository/biocontainers/perl-convert-binary-c/status
+   :target: https://quay.io/repository/biocontainers/perl-convert-binary-c
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-convert-binary-c.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-convert-binary-c/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-convert-binary-c/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-convert-binary-c/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-convert-binary-c/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-convert-binary-c
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-convert-binary-c/status
-                :target: https://quay.io/repository/biocontainers/perl-convert-binary-c
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-convert-binary-c/README.html
 

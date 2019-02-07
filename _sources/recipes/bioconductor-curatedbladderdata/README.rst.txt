@@ -1,54 +1,66 @@
-.. _`bioconductor-curatedbladderdata`:
+.. title:: Package Recipe 'bioconductor-curatedbladderdata'
+.. highlight: bash
+
 
 bioconductor-curatedbladderdata
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-curatedbladderdata
+   :replaces_section_title:
 
-The curatedBladderData package provides relevant functions and data for gene expression analysis in patients with bladder cancer.
+   The curatedBladderData package provides relevant functions and data for gene expression analysis in patients with bladder cancer.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedBladderData.html
-Versions      1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-curatedbladderdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/curatedBladderData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-curatedbladderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-curatedbladderdata
 
-Installation
-------------
+   |downloads_bioconductor-curatedbladderdata| |docker_bioconductor-curatedbladderdata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-curatedbladderdata
+   :required~by: |required_by_bioconductor-curatedbladderdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-curatedbladderdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-curatedbladderdata
+
+   and update with::
+
+      conda update bioconductor-curatedbladderdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-curatedbladderdata
+
+
+.. |required_by_bioconductor-curatedbladderdata| conda:required_by:: bioconductor-curatedbladderdata
+.. |downloads_bioconductor-curatedbladderdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedbladderdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-curatedbladderdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-curatedbladderdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-curatedbladderdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-curatedbladderdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-curatedbladderdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-curatedbladderdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-curatedbladderdata/README.html
 

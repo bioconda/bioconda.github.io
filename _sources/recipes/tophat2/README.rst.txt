@@ -1,54 +1,66 @@
-.. _`tophat`:
+.. title:: Package Recipe 'tophat'
+.. highlight: bash
+
 
 tophat
 ======
 
-|downloads|
+.. conda:recipe:: tophat2
+   :replaces_section_title:
 
-A spliced read mapper for RNA\-Seq
+   A spliced read mapper for RNA\-Seq
 
-============= ===========
-Home          http://ccb.jhu.edu/software/tophat/index.shtml
-Versions      2.1.1, 2.1.0, 2.0.13
-License       Boost Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tophat2/meta.yaml
+   :homepage: http://ccb.jhu.edu/software/tophat/index.shtml
+   :license: Boost Software License
+   :recipe: /`tophat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tophat
 
-Installation
-------------
+   |downloads_tophat| |docker_tophat|
 
-.. highlight: bash
+   :versions: 2.1.1, 2.1.0, 2.0.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install tophat
+   :required~by: |required_by_tophat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tophat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tophat
+
+   and update with::
+
+      conda update tophat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tophat
+
+
+.. |required_by_tophat| conda:required_by:: tophat
+.. |downloads_tophat| image:: https://img.shields.io/conda/dn/bioconda/tophat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tophat| image:: https://quay.io/repository/biocontainers/tophat/status
+   :target: https://quay.io/repository/biocontainers/tophat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tophat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tophat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tophat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tophat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tophat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tophat
-.. |docker| image:: https://quay.io/repository/biocontainers/tophat/status
-                :target: https://quay.io/repository/biocontainers/tophat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tophat/README.html
 

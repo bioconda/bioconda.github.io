@@ -1,54 +1,66 @@
-.. _`swiftlink`:
+.. title:: Package Recipe 'swiftlink'
+.. highlight: bash
+
 
 swiftlink
 =========
 
-|downloads|
+.. conda:recipe:: swiftlink
+   :replaces_section_title:
 
-A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i.e. many markers\, but larger pedigrees.
+   A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i.e. many markers\, but larger pedigrees.
 
-============= ===========
-Home          https://github.com/ajm/swiftlink
-Versions      1.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//swiftlink/meta.yaml
+   :homepage: https://github.com/ajm/swiftlink
+   :license: GPLv3
+   :recipe: /`swiftlink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swiftlink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swiftlink/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: swiftlink
 
-Installation
-------------
+   |downloads_swiftlink| |docker_swiftlink|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`openblas`  :conda:package:`openmp`  
 
-   conda install swiftlink
+   :required~by: |required_by_swiftlink|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update swiftlink
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install swiftlink
+
+   and update with::
+
+      conda update swiftlink
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/swiftlink
+
+
+.. |required_by_swiftlink| conda:required_by:: swiftlink
+.. |downloads_swiftlink| image:: https://img.shields.io/conda/dn/bioconda/swiftlink.svg?style=flat
+   :alt:   (downloads)
+.. |docker_swiftlink| image:: https://quay.io/repository/biocontainers/swiftlink/status
+   :target: https://quay.io/repository/biocontainers/swiftlink
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/swiftlink.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/swiftlink/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/swiftlink/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/swiftlink/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/swiftlink/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/swiftlink
-.. |docker| image:: https://quay.io/repository/biocontainers/swiftlink/status
-                :target: https://quay.io/repository/biocontainers/swiftlink
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/swiftlink/README.html
 

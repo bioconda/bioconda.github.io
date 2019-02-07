@@ -1,54 +1,66 @@
-.. _`gvcftools`:
+.. title:: Package Recipe 'gvcftools'
+.. highlight: bash
+
 
 gvcftools
 =========
 
-|downloads|
+.. conda:recipe:: gvcftools
+   :replaces_section_title:
 
-a set of utilities to help create and analyze Genome VCF \(gVCF\) files.
+   a set of utilities to help create and analyze Genome VCF \(gVCF\) files.
 
-============= ===========
-Home          https://sites.google.com/site/gvcftools/home
-Versions      0.17.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gvcftools/meta.yaml
+   :homepage: https://sites.google.com/site/gvcftools/home
+   :license: MIT
+   :recipe: /`gvcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcftools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gvcftools
 
-Installation
-------------
+   |downloads_gvcftools| |docker_gvcftools|
 
-.. highlight: bash
+   :versions: 0.17.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install gvcftools
+   :required~by: |required_by_gvcftools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gvcftools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gvcftools
+
+   and update with::
+
+      conda update gvcftools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gvcftools
+
+
+.. |required_by_gvcftools| conda:required_by:: gvcftools
+.. |downloads_gvcftools| image:: https://img.shields.io/conda/dn/bioconda/gvcftools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gvcftools| image:: https://quay.io/repository/biocontainers/gvcftools/status
+   :target: https://quay.io/repository/biocontainers/gvcftools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gvcftools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gvcftools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gvcftools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gvcftools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gvcftools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gvcftools
-.. |docker| image:: https://quay.io/repository/biocontainers/gvcftools/status
-                :target: https://quay.io/repository/biocontainers/gvcftools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gvcftools/README.html
 

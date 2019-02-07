@@ -1,54 +1,66 @@
-.. _`bioconductor-tissueenrich`:
+.. title:: Package Recipe 'bioconductor-tissueenrich'
+.. highlight: bash
+
 
 bioconductor-tissueenrich
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-tissueenrich
+   :replaces_section_title:
 
-The TissueEnrich package is used to calculate enrichment of tissue\-specific genes in a set of input genes. For example\, the user can input the most highly expressed genes from RNA\-Seq data\, or gene co\-expression modules to determine which tissue\-specific genes are enriched in those datasets. Tissue\-specific genes were defined by processing RNA\-Seq data from the Human Protein Atlas \(HPA\) \(Uhlén et al. 2015\)\, GTEx \(Ardlie et al. 2015\)\, and mouse ENCODE \(Shen et al. 2012\) using the algorithm from the HPA \(Uhlén et al. 2015\).The hypergeometric test is being used to determine if the tissue\-specific genes are enriched among the input genes. Along with tissue\-specific gene enrichment\, the TissueEnrich package can also be used to define tissue\-specific genes from expression datasets provided by the user\, which can then be used to calculate tissue\-specific gene enrichments.
+   The TissueEnrich package is used to calculate enrichment of tissue\-specific genes in a set of input genes. For example\, the user can input the most highly expressed genes from RNA\-Seq data\, or gene co\-expression modules to determine which tissue\-specific genes are enriched in those datasets. Tissue\-specific genes were defined by processing RNA\-Seq data from the Human Protein Atlas \(HPA\) \(Uhlén et al. 2015\)\, GTEx \(Ardlie et al. 2015\)\, and mouse ENCODE \(Shen et al. 2012\) using the algorithm from the HPA \(Uhlén et al. 2015\).The hypergeometric test is being used to determine if the tissue\-specific genes are enriched among the input genes. Along with tissue\-specific gene enrichment\, the TissueEnrich package can also be used to define tissue\-specific genes from expression datasets provided by the user\, which can then be used to calculate tissue\-specific gene enrichments.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TissueEnrich.html
-Versions      1.2.1, 1.0.7
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tissueenrich/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TissueEnrich.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-tissueenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissueenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissueenrich/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tissueenrich
 
-Installation
-------------
+   |downloads_bioconductor-tissueenrich| |docker_bioconductor-tissueenrich|
 
-.. highlight: bash
+   :versions: 1.2.1, 1.0.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.3 :conda:package:`r-ensurer` >=1.1.0 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-tidyr` >=0.8.0 
 
-   conda install bioconductor-tissueenrich
+   :required~by: |required_by_bioconductor-tissueenrich|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tissueenrich
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tissueenrich
+
+   and update with::
+
+      conda update bioconductor-tissueenrich
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tissueenrich
+
+
+.. |required_by_bioconductor-tissueenrich| conda:required_by:: bioconductor-tissueenrich
+.. |downloads_bioconductor-tissueenrich| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tissueenrich.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tissueenrich| image:: https://quay.io/repository/biocontainers/bioconductor-tissueenrich/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tissueenrich
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tissueenrich.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tissueenrich/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tissueenrich/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tissueenrich/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tissueenrich/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tissueenrich
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tissueenrich/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tissueenrich
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tissueenrich/README.html
 

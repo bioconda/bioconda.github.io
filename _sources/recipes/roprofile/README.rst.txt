@@ -1,54 +1,66 @@
-.. _`roprofile`:
+.. title:: Package Recipe 'roprofile'
+.. highlight: bash
+
 
 roprofile
 =========
 
-|downloads|
+.. conda:recipe:: roprofile
+   :replaces_section_title:
 
-Generation of pan\-genome profile files using Roary output.
+   Generation of pan\-genome profile files using Roary output.
 
-============= ===========
-Home          https://github.com/cimendes/roProfile
-Versions      1.4.5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//roprofile/meta.yaml
+   :homepage: https://github.com/cimendes/roProfile
+   :license: GPLv3
+   :recipe: /`roprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roprofile/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: roprofile
 
-Installation
-------------
+   |downloads_roprofile| |docker_roprofile|
 
-.. highlight: bash
+   :versions: 1.4.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.66 :conda:package:`matplotlib` >=1.5.2 :conda:package:`mpld3` >=0.2 :conda:package:`pandas` >=0.15.0 :conda:package:`python` 2.7* 
 
-   conda install roprofile
+   :required~by: |required_by_roprofile|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update roprofile
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install roprofile
+
+   and update with::
+
+      conda update roprofile
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/roprofile
+
+
+.. |required_by_roprofile| conda:required_by:: roprofile
+.. |downloads_roprofile| image:: https://img.shields.io/conda/dn/bioconda/roprofile.svg?style=flat
+   :alt:   (downloads)
+.. |docker_roprofile| image:: https://quay.io/repository/biocontainers/roprofile/status
+   :target: https://quay.io/repository/biocontainers/roprofile
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/roprofile.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/roprofile/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/roprofile/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/roprofile/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/roprofile/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/roprofile
-.. |docker| image:: https://quay.io/repository/biocontainers/roprofile/status
-                :target: https://quay.io/repository/biocontainers/roprofile
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/roprofile/README.html
 

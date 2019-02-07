@@ -1,54 +1,66 @@
-.. _`python-hppy`:
+.. title:: Package Recipe 'python-hppy'
+.. highlight: bash
+
 
 python-hppy
 ===========
 
-|downloads|
+.. conda:recipe:: python-hppy
+   :replaces_section_title:
 
-An intuitive HyPhy interface for Python
+   An intuitive HyPhy interface for Python
 
-============= ===========
-Home          https://github.com/veg/hppy
-Versions      0.9.8, 0.9.6
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-hppy/meta.yaml
+   :homepage: https://github.com/veg/hppy
+   :license: GPL-3
+   :recipe: /`python-hppy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-hppy
 
-Installation
-------------
+   |downloads_python-hppy| |docker_python-hppy|
 
-.. highlight: bash
+   :versions: 0.9.8, 0.9.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`python`  :conda:package:`python-fakemp`  :conda:package:`python-hyphy-python`  
 
-   conda install python-hppy
+   :required~by: |required_by_python-hppy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-hppy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-hppy
+
+   and update with::
+
+      conda update python-hppy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-hppy
+
+
+.. |required_by_python-hppy| conda:required_by:: python-hppy
+.. |downloads_python-hppy| image:: https://img.shields.io/conda/dn/bioconda/python-hppy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-hppy| image:: https://quay.io/repository/biocontainers/python-hppy/status
+   :target: https://quay.io/repository/biocontainers/python-hppy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-hppy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-hppy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-hppy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-hppy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-hppy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-hppy
-.. |docker| image:: https://quay.io/repository/biocontainers/python-hppy/status
-                :target: https://quay.io/repository/biocontainers/python-hppy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-hppy/README.html
 

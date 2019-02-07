@@ -1,56 +1,67 @@
-.. _`bioconductor-ssize`:
+.. title:: Package Recipe 'bioconductor-ssize'
+.. highlight: bash
+
 
 bioconductor-ssize
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-ssize
+   :replaces_section_title:
 
-Functions for computing and displaying sample size information for gene expression arrays.
+   Functions for computing and displaying sample size information for gene expression arrays.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ssize.html
-Versions      1.56.0, 1.54.0, 1.52.0, 1.50.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ssize/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ssize.html
+   :license: LGPL
+   :recipe: /`bioconductor-ssize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize/meta.yaml>`_
+   :links: biotools: :biotools:`ssize`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`ssize`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ssize
 
-Installation
-------------
+   |downloads_bioconductor-ssize| |docker_bioconductor-ssize|
 
-.. highlight: bash
+   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-xtable`  
 
-   conda install bioconductor-ssize
+   :required~by: |required_by_bioconductor-ssize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ssize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ssize
+
+   and update with::
+
+      conda update bioconductor-ssize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ssize
+
+
+.. |required_by_bioconductor-ssize| conda:required_by:: bioconductor-ssize
+.. |downloads_bioconductor-ssize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ssize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ssize| image:: https://quay.io/repository/biocontainers/bioconductor-ssize/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ssize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ssize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ssize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ssize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ssize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ssize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ssize
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ssize/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ssize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ssize/README.html
 

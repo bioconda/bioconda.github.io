@@ -1,54 +1,66 @@
-.. _`mirtop`:
+.. title:: Package Recipe 'mirtop'
+.. highlight: bash
+
 
 mirtop
 ======
 
-|downloads|
+.. conda:recipe:: mirtop
+   :replaces_section_title:
 
-Small RNA\-seq annotation
+   Small RNA\-seq annotation
 
-============= ===========
-Home          http://github.com/mirtop/mirtop
-Versions      0.4.15a, 0.3.17, 0.3.11a0, 0.3.6a0, 0.3.2a0, 0.1.8a0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mirtop/meta.yaml
+   :homepage: http://github.com/mirtop/mirtop
+   :license: MIT / MIT License
+   :recipe: /`mirtop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mirtop
 
-Installation
-------------
+   |downloads_mirtop| |docker_mirtop|
 
-.. highlight: bash
+   :versions: 0.4.15a, 0.3.17, 0.3.11a0, 0.3.6a0, 0.3.2a0, 0.1.8a0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`pandas`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install mirtop
+   :required~by: |required_by_mirtop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mirtop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mirtop
+
+   and update with::
+
+      conda update mirtop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mirtop
+
+
+.. |required_by_mirtop| conda:required_by:: mirtop
+.. |downloads_mirtop| image:: https://img.shields.io/conda/dn/bioconda/mirtop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mirtop| image:: https://quay.io/repository/biocontainers/mirtop/status
+   :target: https://quay.io/repository/biocontainers/mirtop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mirtop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mirtop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mirtop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mirtop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mirtop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mirtop
-.. |docker| image:: https://quay.io/repository/biocontainers/mirtop/status
-                :target: https://quay.io/repository/biocontainers/mirtop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mirtop/README.html
 

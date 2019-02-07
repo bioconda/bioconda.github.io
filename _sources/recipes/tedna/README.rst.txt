@@ -1,54 +1,66 @@
-.. _`tedna`:
+.. title:: Package Recipe 'tedna'
+.. highlight: bash
+
 
 tedna
 =====
 
-|downloads|
+.. conda:recipe:: tedna
+   :replaces_section_title:
 
-Tedna is a lightweight de novo transposable element assembler
+   Tedna is a lightweight de novo transposable element assembler
 
-============= ===========
-Home          https://urgi.versailles.inra.fr/Tools/Tedna
-Versions      1.2.2
-License       GNU Affero General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tedna/meta.yaml
+   :homepage: https://urgi.versailles.inra.fr/Tools/Tedna
+   :license: GNU Affero General Public License
+   :recipe: /`tedna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tedna
 
-Installation
-------------
+   |downloads_tedna| |docker_tedna|
 
-.. highlight: bash
+   :versions: 1.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`google-sparsehash`  :conda:package:`libgcc`  
 
-   conda install tedna
+   :required~by: |required_by_tedna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tedna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tedna
+
+   and update with::
+
+      conda update tedna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tedna
+
+
+.. |required_by_tedna| conda:required_by:: tedna
+.. |downloads_tedna| image:: https://img.shields.io/conda/dn/bioconda/tedna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tedna| image:: https://quay.io/repository/biocontainers/tedna/status
+   :target: https://quay.io/repository/biocontainers/tedna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tedna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tedna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tedna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tedna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tedna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tedna
-.. |docker| image:: https://quay.io/repository/biocontainers/tedna/status
-                :target: https://quay.io/repository/biocontainers/tedna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tedna/README.html
 

@@ -1,54 +1,66 @@
-.. _`infernal`:
+.. title:: Package Recipe 'infernal'
+.. highlight: bash
+
 
 infernal
 ========
 
-|downloads|
+.. conda:recipe:: infernal
+   :replaces_section_title:
 
-Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities.
+   Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities.
 
-============= ===========
-Home          http://infernal.janelia.org/
-Versions      1.1.2, 1.1.1, 1.0.2
-License       3-Clause BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//infernal/meta.yaml
+   :homepage: http://infernal.janelia.org/
+   :license: 3-Clause BSD
+   :recipe: /`infernal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: infernal
 
-Installation
-------------
+   |downloads_infernal| |docker_infernal|
 
-.. highlight: bash
+   :versions: 1.1.2, 1.1.1, 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install infernal
+   :required~by: |required_by_infernal|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update infernal
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install infernal
+
+   and update with::
+
+      conda update infernal
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/infernal
+
+
+.. |required_by_infernal| conda:required_by:: infernal
+.. |downloads_infernal| image:: https://img.shields.io/conda/dn/bioconda/infernal.svg?style=flat
+   :alt:   (downloads)
+.. |docker_infernal| image:: https://quay.io/repository/biocontainers/infernal/status
+   :target: https://quay.io/repository/biocontainers/infernal
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/infernal.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/infernal/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/infernal/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/infernal/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/infernal/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/infernal
-.. |docker| image:: https://quay.io/repository/biocontainers/infernal/status
-                :target: https://quay.io/repository/biocontainers/infernal
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/infernal/README.html
 

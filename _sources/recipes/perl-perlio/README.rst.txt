@@ -1,54 +1,66 @@
-.. _`perl-perlio`:
+.. title:: Package Recipe 'perl-perlio'
+.. highlight: bash
+
 
 perl-perlio
 ===========
 
-|downloads|
+.. conda:recipe:: perl-perlio/1.09
+   :replaces_section_title:
 
-On demand loader for PerlIO layers and root of PerlIO\:\:\* name space
+   On demand loader for PerlIO layers and root of PerlIO\:\:\* name space
 
-============= ===========
-Home          http://metacpan.org/pod/PerlIO
-Versions      1.09
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perlio/1.09/meta.yaml
+   :homepage: http://metacpan.org/pod/PerlIO
+   :license: perl_5
+   :recipe: /`perl-perlio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio>`_/`1.09 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio/1.09>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio/1.09/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-perlio
 
-Installation
-------------
+   |downloads_perl-perlio| |docker_perl-perlio|
 
-.. highlight: bash
+   :versions: 1.09
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-perlio
+   :required~by: |required_by_perl-perlio|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-perlio
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-perlio
+
+   and update with::
+
+      conda update perl-perlio
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-perlio
+
+
+.. |required_by_perl-perlio| conda:required_by:: perl-perlio
+.. |downloads_perl-perlio| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-perlio| image:: https://quay.io/repository/biocontainers/perl-perlio/status
+   :target: https://quay.io/repository/biocontainers/perl-perlio
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-perlio.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-perlio/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-perlio/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-perlio/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-perlio/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-perlio
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio/status
-                :target: https://quay.io/repository/biocontainers/perl-perlio
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-perlio/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-motifdb`:
+.. title:: Package Recipe 'bioconductor-motifdb'
+.. highlight: bash
+
 
 bioconductor-motifdb
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-motifdb
+   :replaces_section_title:
 
-More than 9900 annotated position frequency matrices from 14 public sources\, for multiple organisms.
+   More than 9900 annotated position frequency matrices from 14 public sources\, for multiple organisms.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MotifDb.html
-Versions      1.24.1, 1.22.0, 1.20.0, 1.18.0, 1.16.0
-License       Artistic-2.0 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-motifdb/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MotifDb.html
+   :license: Artistic-2.0 | file LICENSE
+   :recipe: /`bioconductor-motifdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb/meta.yaml>`_
+   :links: biotools: :biotools:`motifdb`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`motifdb`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-motifdb
 
-Installation
-------------
+   |downloads_bioconductor-motifdb| |docker_bioconductor-motifdb|
 
-.. highlight: bash
+   :versions: 1.24.1, 1.22.0, 1.20.0, 1.18.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-splitstackshape`  
 
-   conda install bioconductor-motifdb
+   :required~by: |required_by_bioconductor-motifdb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-motifdb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-motifdb
+
+   and update with::
+
+      conda update bioconductor-motifdb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-motifdb
+
+
+.. |required_by_bioconductor-motifdb| conda:required_by:: bioconductor-motifdb
+.. |downloads_bioconductor-motifdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifdb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-motifdb| image:: https://quay.io/repository/biocontainers/bioconductor-motifdb/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-motifdb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-motifdb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-motifdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-motifdb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-motifdb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-motifdb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-motifdb
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-motifdb/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-motifdb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-motifdb/README.html
 

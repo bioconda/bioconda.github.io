@@ -1,54 +1,66 @@
-.. _`zifa`:
+.. title:: Package Recipe 'zifa'
+.. highlight: bash
+
 
 zifa
 ====
 
-|downloads|
+.. conda:recipe:: zifa
+   :replaces_section_title:
 
-Dimensionality reduction for zero\-inflated single\-cell gene expression analysis
+   Dimensionality reduction for zero\-inflated single\-cell gene expression analysis
 
-============= ===========
-Home          https://github.com/epierson9/ZIFA
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//zifa/meta.yaml
+   :homepage: https://github.com/epierson9/ZIFA
+   :license: MIT / MIT
+   :recipe: /`zifa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zifa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zifa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: zifa
 
-Installation
-------------
+   |downloads_zifa| |docker_zifa|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install zifa
+   :required~by: |required_by_zifa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update zifa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install zifa
+
+   and update with::
+
+      conda update zifa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/zifa
+
+
+.. |required_by_zifa| conda:required_by:: zifa
+.. |downloads_zifa| image:: https://img.shields.io/conda/dn/bioconda/zifa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_zifa| image:: https://quay.io/repository/biocontainers/zifa/status
+   :target: https://quay.io/repository/biocontainers/zifa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/zifa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/zifa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/zifa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/zifa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/zifa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/zifa
-.. |docker| image:: https://quay.io/repository/biocontainers/zifa/status
-                :target: https://quay.io/repository/biocontainers/zifa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/zifa/README.html
 

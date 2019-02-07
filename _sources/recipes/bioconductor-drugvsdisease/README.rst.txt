@@ -1,56 +1,67 @@
-.. _`bioconductor-drugvsdisease`:
+.. title:: Package Recipe 'bioconductor-drugvsdisease'
+.. highlight: bash
+
 
 bioconductor-drugvsdisease
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-drugvsdisease
+   :replaces_section_title:
 
-This package generates ranked lists of differential gene expression for either disease or drug profiles. Input data can be downloaded from Array Express or GEO\, or from local CEL files. Ranked lists of differential expression and associated p\-values are calculated using Limma. Enrichment scores \(Subramanian et al. PNAS 2005\) are calculated to a reference set of default drug or disease profiles\, or a set of custom data supplied by the user. Network visualisation of significant scores are output in Cytoscape format.
+   This package generates ranked lists of differential gene expression for either disease or drug profiles. Input data can be downloaded from Array Express or GEO\, or from local CEL files. Ranked lists of differential expression and associated p\-values are calculated using Limma. Enrichment scores \(Subramanian et al. PNAS 2005\) are calculated to a reference set of default drug or disease profiles\, or a set of custom data supplied by the user. Network visualisation of significant scores are output in Cytoscape format.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DrugVsDisease.html
-Versions      2.24.2, 2.22.0, 2.20.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-drugvsdisease/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DrugVsDisease.html
+   :license: GPL-3
+   :recipe: /`bioconductor-drugvsdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease/meta.yaml>`_
+   :links: biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-drugvsdisease
 
-Installation
-------------
+   |downloads_bioconductor-drugvsdisease| |docker_bioconductor-drugvsdisease|
 
-.. highlight: bash
+   :versions: 2.24.2, 2.22.0, 2.20.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-arrayexpress` >=1.42.0,<1.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-cmap2data` >=1.18.0,<1.19.0 :conda:package:`bioconductor-drugvsdiseasedata` >=1.18.0,<1.19.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-hgu133a.db` >=3.2.0,<3.3.0 :conda:package:`bioconductor-hgu133a2.db` >=3.2.0,<3.3.0 :conda:package:`bioconductor-hgu133plus2.db` >=3.2.0,<3.3.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-runit`  :conda:package:`r-xtable`  
 
-   conda install bioconductor-drugvsdisease
+   :required~by: |required_by_bioconductor-drugvsdisease|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-drugvsdisease
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-drugvsdisease
+
+   and update with::
+
+      conda update bioconductor-drugvsdisease
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-drugvsdisease
+
+
+.. |required_by_bioconductor-drugvsdisease| conda:required_by:: bioconductor-drugvsdisease
+.. |downloads_bioconductor-drugvsdisease| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drugvsdisease.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-drugvsdisease| image:: https://quay.io/repository/biocontainers/bioconductor-drugvsdisease/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-drugvsdisease
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-drugvsdisease.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-drugvsdisease/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-drugvsdisease/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-drugvsdisease/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-drugvsdisease/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-drugvsdisease
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-drugvsdisease/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-drugvsdisease
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-drugvsdisease/README.html
 

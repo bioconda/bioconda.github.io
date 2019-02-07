@@ -1,54 +1,66 @@
-.. _`tinyfasta`:
+.. title:: Package Recipe 'tinyfasta'
+.. highlight: bash
+
 
 tinyfasta
 =========
 
-|downloads|
+.. conda:recipe:: tinyfasta
+   :replaces_section_title:
 
-Tiny Python package\, with no external dependencies\, for parsing FASTA sequence files.
+   Tiny Python package\, with no external dependencies\, for parsing FASTA sequence files.
 
-============= ===========
-Home          https://github.com/tjelvar-olsson/tinyfasta
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tinyfasta/meta.yaml
+   :homepage: https://github.com/tjelvar-olsson/tinyfasta
+   :license: MIT
+   :recipe: /`tinyfasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinyfasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinyfasta/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tinyfasta
 
-Installation
-------------
+   |downloads_tinyfasta| |docker_tinyfasta|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install tinyfasta
+   :required~by: |required_by_tinyfasta|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tinyfasta
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tinyfasta
+
+   and update with::
+
+      conda update tinyfasta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tinyfasta
+
+
+.. |required_by_tinyfasta| conda:required_by:: tinyfasta
+.. |downloads_tinyfasta| image:: https://img.shields.io/conda/dn/bioconda/tinyfasta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tinyfasta| image:: https://quay.io/repository/biocontainers/tinyfasta/status
+   :target: https://quay.io/repository/biocontainers/tinyfasta
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tinyfasta.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tinyfasta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tinyfasta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tinyfasta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tinyfasta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tinyfasta
-.. |docker| image:: https://quay.io/repository/biocontainers/tinyfasta/status
-                :target: https://quay.io/repository/biocontainers/tinyfasta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tinyfasta/README.html
 

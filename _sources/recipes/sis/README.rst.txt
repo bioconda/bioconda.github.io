@@ -1,54 +1,66 @@
-.. _`sis`:
+.. title:: Package Recipe 'sis'
+.. highlight: bash
+
 
 sis
 ===
 
-|downloads|
+.. conda:recipe:: sis
+   :replaces_section_title:
 
-A tool that uses mummer to scaffold small genomes.
+   A tool that uses mummer to scaffold small genomes.
 
-============= ===========
-Home          http://marte.ic.unicamp.br:8747/
-Versions      0.1.2, 0.1.0
-License       GPLv2+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sis/meta.yaml
+   :homepage: http://marte.ic.unicamp.br:8747/
+   :license: GPLv2+
+   :recipe: /`sis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sis/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sis
 
-Installation
-------------
+   |downloads_sis| |docker_sis|
 
-.. highlight: bash
+   :versions: 0.1.2, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mummer`  :conda:package:`perl` 5.22.0* :conda:package:`python` 3.5* 
 
-   conda install sis
+   :required~by: |required_by_sis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sis
+
+   and update with::
+
+      conda update sis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sis
+
+
+.. |required_by_sis| conda:required_by:: sis
+.. |downloads_sis| image:: https://img.shields.io/conda/dn/bioconda/sis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sis| image:: https://quay.io/repository/biocontainers/sis/status
+   :target: https://quay.io/repository/biocontainers/sis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sis
-.. |docker| image:: https://quay.io/repository/biocontainers/sis/status
-                :target: https://quay.io/repository/biocontainers/sis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sis/README.html
 

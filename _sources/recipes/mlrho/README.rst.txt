@@ -1,56 +1,67 @@
-.. _`mlrho`:
+.. title:: Package Recipe 'mlrho'
+.. highlight: bash
+
 
 mlrho
 =====
 
-|downloads|
+.. conda:recipe:: mlrho
+   :replaces_section_title:
 
-Takes as input a file with assembled reads from a single diploid individual and returns maximum likelihood estimates of the population mutation rate\, \, the sequencing error \, the zygosity correlation\, and the population recombination rate.
+   Takes as input a file with assembled reads from a single diploid individual and returns maximum likelihood estimates of the population mutation rate\, \, the sequencing error \, the zygosity correlation\, and the population recombination rate.
 
-============= ===========
-Home          http://guanine.evolbio.mpg.de/mlRho/
-Versions      2.9
-License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mlrho/meta.yaml
+   :homepage: http://guanine.evolbio.mpg.de/mlRho/
+   :license: file
+   :recipe: /`mlrho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mlrho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mlrho/meta.yaml>`_
+   :links: biotools: :biotools:`mlRho`, doi: :doi:`10.1111/j.1365-294X.2009.04482.x`
 
-
-
-Links         biotools: :biotools:`mlRho`, doi: :doi:`10.1111/j.1365-294X.2009.04482.x`
-
-============= ===========
+   
 
 
+.. conda:package:: mlrho
 
-Installation
-------------
+   |downloads_mlrho| |docker_mlrho|
 
-.. highlight: bash
+   :versions: 2.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
 
-   conda install mlrho
+   :required~by: |required_by_mlrho|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mlrho
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mlrho
+
+   and update with::
+
+      conda update mlrho
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mlrho
+
+
+.. |required_by_mlrho| conda:required_by:: mlrho
+.. |downloads_mlrho| image:: https://img.shields.io/conda/dn/bioconda/mlrho.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mlrho| image:: https://quay.io/repository/biocontainers/mlrho/status
+   :target: https://quay.io/repository/biocontainers/mlrho
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mlrho.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mlrho/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mlrho/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mlrho/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mlrho/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mlrho
-.. |docker| image:: https://quay.io/repository/biocontainers/mlrho/status
-                :target: https://quay.io/repository/biocontainers/mlrho
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mlrho/README.html
 

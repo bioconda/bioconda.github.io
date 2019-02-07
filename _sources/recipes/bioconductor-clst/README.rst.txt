@@ -1,56 +1,67 @@
-.. _`bioconductor-clst`:
+.. title:: Package Recipe 'bioconductor-clst'
+.. highlight: bash
+
 
 bioconductor-clst
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-clst
+   :replaces_section_title:
 
-Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons.
+   Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/clst.html
-Versions      1.30.0, 1.28.0, 1.26.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clst/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clst.html
+   :license: GPL-3
+   :recipe: /`bioconductor-clst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clst/meta.yaml>`_
+   :links: biotools: :biotools:`clst`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`clst`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clst
 
-Installation
-------------
+   |downloads_bioconductor-clst| |docker_bioconductor-clst|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-roc` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  
 
-   conda install bioconductor-clst
+   :required~by: |required_by_bioconductor-clst|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clst
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clst
+
+   and update with::
+
+      conda update bioconductor-clst
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clst
+
+
+.. |required_by_bioconductor-clst| conda:required_by:: bioconductor-clst
+.. |downloads_bioconductor-clst| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clst.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clst| image:: https://quay.io/repository/biocontainers/bioconductor-clst/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clst
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clst.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clst/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clst/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clst/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clst/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clst
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clst/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clst
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clst/README.html
 

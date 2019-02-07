@@ -1,61 +1,72 @@
-.. _`abundancebin`:
+.. title:: Package Recipe 'abundancebin'
+.. highlight: bash
+
 
 abundancebin
 ============
 
-|downloads|
+.. conda:recipe:: abundancebin
+   :replaces_section_title:
 
-Abundance\-based tool for binning metagenomic sequences
+   Abundance\-based tool for binning metagenomic sequences
 
-============= ===========
-Home          http://omics.informatics.indiana.edu/AbundanceBin/
-Versions      1.0.1
-License       copyright
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//abundancebin/meta.yaml
+   :homepage: http://omics.informatics.indiana.edu/AbundanceBin/
+   :license: copyright
+   :recipe: /`abundancebin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin/meta.yaml>`_
+   :links: doi: :doi:`10.1007/978-3-642-12683-3_35`
 
-
-
-Links         doi: :doi:`10.1007/978-3-642-12683-3_35`
-
-============= ===========
-
-AbundanceBin is an abundance\-based tool for binning metagenomic sequences\,
-such that the reads classified in a bin belong to species of identical or
-very similar abundances. AbundanceBin also gives estimations of species
-abundances and their genome sizes — two important characteristic parameters
-for a microbial community.
-
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install abundancebin
-
-and update with::
-
-   conda update abundancebin
+   AbundanceBin is an abundance\-based tool for binning metagenomic sequences\,
+   such that the reads classified in a bin belong to species of identical or
+   very similar abundances. AbundanceBin also gives estimations of species
+   abundances and their genome sizes — two important characteristic parameters
+   for a microbial community.
 
 
 
-|docker|
+.. conda:package:: abundancebin
 
-A Docker container is available at https://quay.io/repository/biocontainers/abundancebin.
+   |downloads_abundancebin| |docker_abundancebin|
+
+   :versions: 1.0.1
+
+   :depends: :conda:package:`libgcc`  
+
+   :required~by: |required_by_abundancebin|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install abundancebin
+
+   and update with::
+
+      conda update abundancebin
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/abundancebin
+
+
+.. |required_by_abundancebin| conda:required_by:: abundancebin
+.. |downloads_abundancebin| image:: https://img.shields.io/conda/dn/bioconda/abundancebin.svg?style=flat
+   :alt:   (downloads)
+.. |docker_abundancebin| image:: https://quay.io/repository/biocontainers/abundancebin/status
+   :target: https://quay.io/repository/biocontainers/abundancebin
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/abundancebin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/abundancebin/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/abundancebin/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/abundancebin/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/abundancebin
-.. |docker| image:: https://quay.io/repository/biocontainers/abundancebin/status
-                :target: https://quay.io/repository/biocontainers/abundancebin
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/abundancebin/README.html
 

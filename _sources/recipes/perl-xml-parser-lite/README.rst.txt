@@ -1,54 +1,66 @@
-.. _`perl-xml-parser-lite`:
+.. title:: Package Recipe 'perl-xml-parser-lite'
+.. highlight: bash
+
 
 perl-xml-parser-lite
 ====================
 
-|downloads|
+.. conda:recipe:: perl-xml-parser-lite
+   :replaces_section_title:
 
-Lightweight pure\-perl XML Parser \(based on regexps\)
+   Lightweight pure\-perl XML Parser \(based on regexps\)
 
-============= ===========
-Home          http://metacpan.org/pod/XML-Parser-Lite
-Versions      0.722, 0.721
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-parser-lite/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-Parser-Lite
+   :license: perl_5
+   :recipe: /`perl-xml-parser-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser-lite/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-parser-lite
 
-Installation
-------------
+   |downloads_perl-xml-parser-lite| |docker_perl-xml-parser-lite|
 
-.. highlight: bash
+   :versions: 0.722, 0.721
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-xml-parser-lite
+   :required~by: |required_by_perl-xml-parser-lite|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-parser-lite
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-parser-lite
+
+   and update with::
+
+      conda update perl-xml-parser-lite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-parser-lite
+
+
+.. |required_by_perl-xml-parser-lite| conda:required_by:: perl-xml-parser-lite
+.. |downloads_perl-xml-parser-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-parser-lite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-parser-lite| image:: https://quay.io/repository/biocontainers/perl-xml-parser-lite/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-parser-lite
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-parser-lite.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-parser-lite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-parser-lite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-parser-lite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-parser-lite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-parser-lite
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-parser-lite/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-parser-lite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-parser-lite/README.html
 

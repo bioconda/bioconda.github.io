@@ -1,54 +1,66 @@
-.. _`perl-test-classapi`:
+.. title:: Package Recipe 'perl-test-classapi'
+.. highlight: bash
+
 
 perl-test-classapi
 ==================
 
-|downloads|
+.. conda:recipe:: perl-test-classapi
+   :replaces_section_title:
 
-Provides basic first\-pass API testing for large class trees
+   Provides basic first\-pass API testing for large class trees
 
-============= ===========
-Home          https://github.com/karenetheridge/Test-ClassAPI
-Versions      1.07, 1.06
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-classapi/meta.yaml
+   :homepage: https://github.com/karenetheridge/Test-ClassAPI
+   :license: perl_5
+   :recipe: /`perl-test-classapi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-classapi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-classapi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-classapi
 
-Installation
-------------
+   |downloads_perl-test-classapi| |docker_perl-test-classapi|
 
-.. highlight: bash
+   :versions: 1.07, 1.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-class-inspector`  :conda:package:`perl-config-tiny`  :conda:package:`perl-params-util`  
 
-   conda install perl-test-classapi
+   :required~by: |required_by_perl-test-classapi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-classapi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-classapi
+
+   and update with::
+
+      conda update perl-test-classapi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-classapi
+
+
+.. |required_by_perl-test-classapi| conda:required_by:: perl-test-classapi
+.. |downloads_perl-test-classapi| image:: https://img.shields.io/conda/dn/bioconda/perl-test-classapi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-classapi| image:: https://quay.io/repository/biocontainers/perl-test-classapi/status
+   :target: https://quay.io/repository/biocontainers/perl-test-classapi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-classapi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-classapi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-classapi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-classapi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-classapi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-classapi
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-classapi/status
-                :target: https://quay.io/repository/biocontainers/perl-test-classapi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-classapi/README.html
 

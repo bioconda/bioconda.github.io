@@ -1,56 +1,67 @@
-.. _`rseqc`:
+.. title:: Package Recipe 'rseqc'
+.. highlight: bash
+
 
 rseqc
 =====
 
-|downloads|
+.. conda:recipe:: rseqc
+   :replaces_section_title:
 
-RNA\-seq QC Package
+   RNA\-seq QC Package
 
-============= ===========
-Home          http://rseqc.sourceforge.net/
-Versions      3.0.0, 2.6.4, 2.6.2
-License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rseqc/meta.yaml
+   :homepage: http://rseqc.sourceforge.net/
+   :license: GPL2 / GNU General Public License v2 (GPLv2)
+   :recipe: /`rseqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc/meta.yaml>`_
+   :links: biotools: :biotools:`rseqc`, doi: :doi:`10.1093/bioinformatics/bts356`
 
-
-
-Links         biotools: :biotools:`rseqc`, doi: :doi:`10.1093/bioinformatics/bts356`
-
-============= ===========
+   
 
 
+.. conda:package:: rseqc
 
-Installation
-------------
+   |downloads_rseqc| |docker_rseqc|
 
-.. highlight: bash
+   :versions: 3.0.0, 2.6.4, 2.6.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bx-python`  :conda:package:`cython` >=0.17 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-base`  
 
-   conda install rseqc
+   :required~by: |required_by_rseqc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rseqc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rseqc
+
+   and update with::
+
+      conda update rseqc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rseqc
+
+
+.. |required_by_rseqc| conda:required_by:: rseqc
+.. |downloads_rseqc| image:: https://img.shields.io/conda/dn/bioconda/rseqc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rseqc| image:: https://quay.io/repository/biocontainers/rseqc/status
+   :target: https://quay.io/repository/biocontainers/rseqc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rseqc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rseqc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rseqc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rseqc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rseqc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rseqc
-.. |docker| image:: https://quay.io/repository/biocontainers/rseqc/status
-                :target: https://quay.io/repository/biocontainers/rseqc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rseqc/README.html
 

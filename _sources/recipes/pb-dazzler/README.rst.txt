@@ -1,54 +1,66 @@
-.. _`pb-dazzler`:
+.. title:: Package Recipe 'pb-dazzler'
+.. highlight: bash
+
 
 pb-dazzler
 ==========
 
-|downloads|
+.. conda:recipe:: pb-dazzler
+   :replaces_section_title:
 
-The Dresden Assembler suite \-\- Pacific Biosciences forks
+   The Dresden Assembler suite \-\- Pacific Biosciences forks
 
-============= ===========
-Home          https://github.com/PacificBiosciences
-Versions      0.0.0
-License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pb-dazzler/meta.yaml
+   :homepage: https://github.com/PacificBiosciences
+   :license: Custom
+   :recipe: /`pb-dazzler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-dazzler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-dazzler/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pb-dazzler
 
-Installation
-------------
+   |downloads_pb-dazzler| |docker_pb-dazzler|
 
-.. highlight: bash
+   :versions: 0.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install pb-dazzler
+   :required~by: |required_by_pb-dazzler|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pb-dazzler
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pb-dazzler
+
+   and update with::
+
+      conda update pb-dazzler
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pb-dazzler
+
+
+.. |required_by_pb-dazzler| conda:required_by:: pb-dazzler
+.. |downloads_pb-dazzler| image:: https://img.shields.io/conda/dn/bioconda/pb-dazzler.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pb-dazzler| image:: https://quay.io/repository/biocontainers/pb-dazzler/status
+   :target: https://quay.io/repository/biocontainers/pb-dazzler
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pb-dazzler.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pb-dazzler/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pb-dazzler/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pb-dazzler/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pb-dazzler/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pb-dazzler
-.. |docker| image:: https://quay.io/repository/biocontainers/pb-dazzler/status
-                :target: https://quay.io/repository/biocontainers/pb-dazzler
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pb-dazzler/README.html
 

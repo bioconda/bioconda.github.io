@@ -1,54 +1,66 @@
-.. _`r-pegas`:
+.. title:: Package Recipe 'r-pegas'
+.. highlight: bash
+
 
 r-pegas
 =======
 
-|downloads|
+.. conda:recipe:: r-pegas
+   :replaces_section_title:
 
-Functions for reading\, writing\, plotting\, analysing\, and manipulating allelic and haplotypic data\, including from VCF files\, and for the analysis of population nucleotide sequences and micro\-satellites including coalescent analyses\, linkage disequilibrium\, population structure \(Fst\, Amova\) and equilibrium \(HWE\)\, haplotype networks\, minimum spanning tree and network\, and median\-joining networks.
+   Functions for reading\, writing\, plotting\, analysing\, and manipulating allelic and haplotypic data\, including from VCF files\, and for the analysis of population nucleotide sequences and micro\-satellites including coalescent analyses\, linkage disequilibrium\, population structure \(Fst\, Amova\) and equilibrium \(HWE\)\, haplotype networks\, minimum spanning tree and network\, and median\-joining networks.
 
-============= ===========
-Home          http://ape-package.ird.fr/pegas.html
-Versions      0.11, 0.10
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pegas/meta.yaml
+   :homepage: http://ape-package.ird.fr/pegas.html
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-pegas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pegas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pegas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-pegas
 
-Installation
-------------
+   |downloads_r-pegas| |docker_r-pegas|
 
-.. highlight: bash
+   :versions: 0.11, 0.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-adegenet`  :conda:package:`r-ape` >=2.4 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install r-pegas
+   :required~by: |required_by_r-pegas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-pegas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-pegas
+
+   and update with::
+
+      conda update r-pegas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-pegas
+
+
+.. |required_by_r-pegas| conda:required_by:: r-pegas
+.. |downloads_r-pegas| image:: https://img.shields.io/conda/dn/bioconda/r-pegas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-pegas| image:: https://quay.io/repository/biocontainers/r-pegas/status
+   :target: https://quay.io/repository/biocontainers/r-pegas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-pegas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-pegas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-pegas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-pegas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-pegas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-pegas
-.. |docker| image:: https://quay.io/repository/biocontainers/r-pegas/status
-                :target: https://quay.io/repository/biocontainers/r-pegas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-pegas/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-genepredhisto`:
+.. title:: Package Recipe 'ucsc-genepredhisto'
+.. highlight: bash
+
 
 ucsc-genepredhisto
 ==================
 
-|downloads|
+.. conda:recipe:: ucsc-genepredhisto
+   :replaces_section_title:
 
-get data for generating histograms from a genePred file.
+   get data for generating histograms from a genePred file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-genepredhisto/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-genepredhisto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredhisto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredhisto/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-genepredhisto
 
-Installation
-------------
+   |downloads_ucsc-genepredhisto| |docker_ucsc-genepredhisto|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-genepredhisto
+   :required~by: |required_by_ucsc-genepredhisto|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-genepredhisto
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-genepredhisto
+
+   and update with::
+
+      conda update ucsc-genepredhisto
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-genepredhisto
+
+
+.. |required_by_ucsc-genepredhisto| conda:required_by:: ucsc-genepredhisto
+.. |downloads_ucsc-genepredhisto| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredhisto.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-genepredhisto| image:: https://quay.io/repository/biocontainers/ucsc-genepredhisto/status
+   :target: https://quay.io/repository/biocontainers/ucsc-genepredhisto
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-genepredhisto.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-genepredhisto/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-genepredhisto/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-genepredhisto/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-genepredhisto/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-genepredhisto
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-genepredhisto/status
-                :target: https://quay.io/repository/biocontainers/ucsc-genepredhisto
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-genepredhisto/README.html
 

@@ -1,54 +1,66 @@
-.. _`python-levenshtein`:
+.. title:: Package Recipe 'python-levenshtein'
+.. highlight: bash
+
 
 python-levenshtein
 ==================
 
-|downloads|
+.. conda:recipe:: python-levenshtein
+   :replaces_section_title:
 
-Python extension for computing string edit distances and similarities.
+   Python extension for computing string edit distances and similarities.
 
-============= ===========
-Home          https://pypi.python.org/pypi/python-Levenshtein/
-Versions      0.12.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-levenshtein/meta.yaml
+   :homepage: https://pypi.python.org/pypi/python-Levenshtein/
+   :license: GPL
+   :recipe: /`python-levenshtein <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-levenshtein>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-levenshtein/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-levenshtein
 
-Installation
-------------
+   |downloads_python-levenshtein| |docker_python-levenshtein|
 
-.. highlight: bash
+   :versions: 0.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`nose`  
 
-   conda install python-levenshtein
+   :required~by: |required_by_python-levenshtein|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-levenshtein
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-levenshtein
+
+   and update with::
+
+      conda update python-levenshtein
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-levenshtein
+
+
+.. |required_by_python-levenshtein| conda:required_by:: python-levenshtein
+.. |downloads_python-levenshtein| image:: https://img.shields.io/conda/dn/bioconda/python-levenshtein.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-levenshtein| image:: https://quay.io/repository/biocontainers/python-levenshtein/status
+   :target: https://quay.io/repository/biocontainers/python-levenshtein
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-levenshtein.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-levenshtein/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-levenshtein/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-levenshtein/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-levenshtein/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-levenshtein
-.. |docker| image:: https://quay.io/repository/biocontainers/python-levenshtein/status
-                :target: https://quay.io/repository/biocontainers/python-levenshtein
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-levenshtein/README.html
 

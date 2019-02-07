@@ -1,56 +1,67 @@
-.. _`ksw`:
+.. title:: Package Recipe 'ksw'
+.. highlight: bash
+
 
 ksw
 ===
 
-|downloads|
+.. conda:recipe:: ksw
+   :replaces_section_title:
 
-Ksw\: \(interactive\) smith\-waterman in C
+   Ksw\: \(interactive\) smith\-waterman in C
 
-============= ===========
-Home          https://github.com/nh13/ksw
-Versions      0.2.1, 0.2.0, 0.1.0a, 0.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ksw/meta.yaml
+   :homepage: https://github.com/nh13/ksw
+   :license: MIT
+   :recipe: /`ksw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ksw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ksw/meta.yaml>`_
+   :links: biotools: :biotools:`ksw`
 
-
-
-Links         biotools: :biotools:`ksw`
-
-============= ===========
+   
 
 
+.. conda:package:: ksw
 
-Installation
-------------
+   |downloads_ksw| |docker_ksw|
 
-.. highlight: bash
+   :versions: 0.2.1, 0.2.0, 0.1.0a, 0.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ksw
+   :required~by: |required_by_ksw|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ksw
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ksw
+
+   and update with::
+
+      conda update ksw
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ksw
+
+
+.. |required_by_ksw| conda:required_by:: ksw
+.. |downloads_ksw| image:: https://img.shields.io/conda/dn/bioconda/ksw.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ksw| image:: https://quay.io/repository/biocontainers/ksw/status
+   :target: https://quay.io/repository/biocontainers/ksw
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ksw.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ksw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ksw/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ksw/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ksw/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ksw
-.. |docker| image:: https://quay.io/repository/biocontainers/ksw/status
-                :target: https://quay.io/repository/biocontainers/ksw
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ksw/README.html
 

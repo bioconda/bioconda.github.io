@@ -1,58 +1,68 @@
-.. _`ivar`:
+.. title:: Package Recipe 'ivar'
+.. highlight: bash
+
 
 ivar
 ====
 
-|downloads|
+.. conda:recipe:: ivar
+   :replaces_section_title:
 
-iVar is a computational package that contains functions broadly useful for viral amplicon\-based sequencing.
+   iVar is a computational package that contains functions broadly useful for viral amplicon\-based sequencing.
 
-============= ===========
-Home          https://andersen-lab.github.io/ivar/html/
-Versions      1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ivar/meta.yaml
+   :homepage: https://andersen-lab.github.io/ivar/html/
+   :developer docs: https://github.com/gkarthik/ivar
+   :license: GPL-3.0
+   :recipe: /`ivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar/meta.yaml>`_
+   :links: biotools: :biotools:`ivar`
 
-
-Development   https://github.com/gkarthik/ivar
-
-
-Links         biotools: :biotools:`ivar`
-
-============= ===========
+   
 
 
+.. conda:package:: ivar
 
-Installation
-------------
+   |downloads_ivar| |docker_ivar|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libdeflate` >=1.0,<1.1.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ivar
+   :required~by: |required_by_ivar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ivar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ivar
+
+   and update with::
+
+      conda update ivar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ivar
+
+
+.. |required_by_ivar| conda:required_by:: ivar
+.. |downloads_ivar| image:: https://img.shields.io/conda/dn/bioconda/ivar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ivar| image:: https://quay.io/repository/biocontainers/ivar/status
+   :target: https://quay.io/repository/biocontainers/ivar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ivar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ivar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ivar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ivar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ivar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ivar
-.. |docker| image:: https://quay.io/repository/biocontainers/ivar/status
-                :target: https://quay.io/repository/biocontainers/ivar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ivar/README.html
 

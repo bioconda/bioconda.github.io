@@ -1,54 +1,66 @@
-.. _`lambda`:
+.. title:: Package Recipe 'lambda'
+.. highlight: bash
+
 
 lambda
 ======
 
-|downloads|
+.. conda:recipe:: lambda
+   :replaces_section_title:
 
-Lambda is a local aligner optimized for many query sequences and searches in protein space
+   Lambda is a local aligner optimized for many query sequences and searches in protein space
 
-============= ===========
-Home          http://seqan.github.io/lambda/
-Versions      1.0.3
-License       AGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lambda/meta.yaml
+   :homepage: http://seqan.github.io/lambda/
+   :license: AGPLv3
+   :recipe: /`lambda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lambda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lambda/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lambda
 
-Installation
-------------
+   |downloads_lambda| |docker_lambda|
 
-.. highlight: bash
+   :versions: 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install lambda
+   :required~by: |required_by_lambda|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lambda
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lambda
+
+   and update with::
+
+      conda update lambda
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lambda
+
+
+.. |required_by_lambda| conda:required_by:: lambda
+.. |downloads_lambda| image:: https://img.shields.io/conda/dn/bioconda/lambda.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lambda| image:: https://quay.io/repository/biocontainers/lambda/status
+   :target: https://quay.io/repository/biocontainers/lambda
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lambda.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lambda/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lambda/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lambda/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lambda/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lambda
-.. |docker| image:: https://quay.io/repository/biocontainers/lambda/status
-                :target: https://quay.io/repository/biocontainers/lambda
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lambda/README.html
 

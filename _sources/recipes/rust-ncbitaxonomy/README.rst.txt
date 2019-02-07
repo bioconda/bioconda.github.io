@@ -1,57 +1,68 @@
-.. _`rust-ncbitaxonomy`:
+.. title:: Package Recipe 'rust-ncbitaxonomy'
+.. highlight: bash
+
 
 rust-ncbitaxonomy
 =================
 
-|downloads|
+.. conda:recipe:: rust-ncbitaxonomy
+   :replaces_section_title:
 
-A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides the taxonomy\_filter\_refseq commmand
+   A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides the taxonomy\_filter\_refseq commmand
 
+   :homepage: https://github.com/pvanheus/ncbitaxonomy
+   :documentation: https://docs.rs/crate/ncbitaxonomy/0.1.5
+   
+   :license: MIT
+   :recipe: /`rust-ncbitaxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/pvanheus/ncbitaxonomy
-Versions      0.1.5, 0.1.4, 0.1.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rust-ncbitaxonomy/meta.yaml
-
-Documentation https://docs.rs/crate/ncbitaxonomy/0.1.5
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: rust-ncbitaxonomy
 
-Installation
-------------
+   |downloads_rust-ncbitaxonomy| |docker_rust-ncbitaxonomy|
 
-.. highlight: bash
+   :versions: 0.1.5, 0.1.4, 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install rust-ncbitaxonomy
+   :required~by: |required_by_rust-ncbitaxonomy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rust-ncbitaxonomy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rust-ncbitaxonomy
+
+   and update with::
+
+      conda update rust-ncbitaxonomy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rust-ncbitaxonomy
+
+
+.. |required_by_rust-ncbitaxonomy| conda:required_by:: rust-ncbitaxonomy
+.. |downloads_rust-ncbitaxonomy| image:: https://img.shields.io/conda/dn/bioconda/rust-ncbitaxonomy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rust-ncbitaxonomy| image:: https://quay.io/repository/biocontainers/rust-ncbitaxonomy/status
+   :target: https://quay.io/repository/biocontainers/rust-ncbitaxonomy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rust-ncbitaxonomy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rust-ncbitaxonomy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rust-ncbitaxonomy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rust-ncbitaxonomy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rust-ncbitaxonomy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rust-ncbitaxonomy
-.. |docker| image:: https://quay.io/repository/biocontainers/rust-ncbitaxonomy/status
-                :target: https://quay.io/repository/biocontainers/rust-ncbitaxonomy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rust-ncbitaxonomy/README.html
 

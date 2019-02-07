@@ -1,56 +1,67 @@
-.. _`bioconductor-tspair`:
+.. title:: Package Recipe 'bioconductor-tspair'
+.. highlight: bash
+
 
 bioconductor-tspair
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-tspair
+   :replaces_section_title:
 
-These functions calculate the pair of genes that show the maximum difference in ranking between two user specified groups. This \"top scoring pair\" maximizes the average of sensitivity and specificity over all rank based classifiers using a pair of genes in the data set. The advantage of classifying samples based on only the relative rank of a pair of genes is \(a\) the classifiers are much simpler and often more interpretable than more complicated classification schemes and \(b\) if arrays can be classified using only a pair of genes\, PCR based tests could be used for classification of samples. See the references for the tspcalc\(\) function for references regarding TSP classifiers.
+   These functions calculate the pair of genes that show the maximum difference in ranking between two user specified groups. This \"top scoring pair\" maximizes the average of sensitivity and specificity over all rank based classifiers using a pair of genes in the data set. The advantage of classifying samples based on only the relative rank of a pair of genes is \(a\) the classifiers are much simpler and often more interpretable than more complicated classification schemes and \(b\) if arrays can be classified using only a pair of genes\, PCR based tests could be used for classification of samples. See the references for the tspcalc\(\) function for references regarding TSP classifiers.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/tspair.html
-Versions      1.40.0, 1.38.0, 1.36.0, 1.34.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tspair/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tspair.html
+   :license: GPL-2
+   :recipe: /`bioconductor-tspair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair/meta.yaml>`_
+   :links: biotools: :biotools:`tspair`, doi: :doi:`10.1093/bioinformatics/btp126`
 
-
-
-Links         biotools: :biotools:`tspair`, doi: :doi:`10.1093/bioinformatics/btp126`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tspair
 
-Installation
-------------
+   |downloads_bioconductor-tspair| |docker_bioconductor-tspair|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-tspair
+   :required~by: |required_by_bioconductor-tspair|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tspair
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tspair
+
+   and update with::
+
+      conda update bioconductor-tspair
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tspair
+
+
+.. |required_by_bioconductor-tspair| conda:required_by:: bioconductor-tspair
+.. |downloads_bioconductor-tspair| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tspair.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tspair| image:: https://quay.io/repository/biocontainers/bioconductor-tspair/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tspair
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tspair.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tspair/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tspair/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tspair/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tspair/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tspair
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tspair/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tspair
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tspair/README.html
 

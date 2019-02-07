@@ -1,54 +1,66 @@
-.. _`r-dnet`:
+.. title:: Package Recipe 'r-dnet'
+.. highlight: bash
+
 
 r-dnet
 ======
 
-|downloads|
+.. conda:recipe:: r-dnet
+   :replaces_section_title:
 
-The focus of the dnet by Fang and Gough \(2014\) \<doi\:10.1186\/s13073\-014\-0064\-8\> is to make sense of omics data \(such as gene expression and mutations\) from different angles including\: integration with molecular networks\, enrichments using ontologies\, and relevance to gene evolutionary ages. Integration is achieved to identify a gene subnetwork from the whole gene network whose nodes\/genes are labelled with informative data \(such as the significant levels of differential expression or survival risks\). To help make sense of identified gene networks\, enrichment analysis is also supported using a wide variety of pre\-compiled ontologies and phylostratific gene age information in major organisms including\: human\, mouse\, rat\, chicken\, C.elegans\, fruit fly\, zebrafish and arabidopsis. Add\-on functionalities are supports for calculating semantic similarity between ontology terms \(and between genes\) and for calculating network affinity based on random walk\; both can be done via high\-performance parallel computing.
+   The focus of the dnet by Fang and Gough \(2014\) \<doi\:10.1186\/s13073\-014\-0064\-8\> is to make sense of omics data \(such as gene expression and mutations\) from different angles including\: integration with molecular networks\, enrichments using ontologies\, and relevance to gene evolutionary ages. Integration is achieved to identify a gene subnetwork from the whole gene network whose nodes\/genes are labelled with informative data \(such as the significant levels of differential expression or survival risks\). To help make sense of identified gene networks\, enrichment analysis is also supported using a wide variety of pre\-compiled ontologies and phylostratific gene age information in major organisms including\: human\, mouse\, rat\, chicken\, C.elegans\, fruit fly\, zebrafish and arabidopsis. Add\-on functionalities are supports for calculating semantic similarity between ontology terms \(and between genes\) and for calculating network affinity based on random walk\; both can be done via high\-performance parallel computing.
 
-============= ===========
-Home          http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet
-Versions      1.1.4
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-dnet/meta.yaml
+   :homepage: http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet
+   :license: GPL2 / GPL-2
+   :recipe: /`r-dnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dnet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-dnet
 
-Installation
-------------
+   |downloads_r-dnet| |docker_r-dnet|
 
-.. highlight: bash
+   :versions: 1.1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph`  :conda:package:`bioconductor-rgraphviz`  :conda:package:`bioconductor-suprahex`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  
 
-   conda install r-dnet
+   :required~by: |required_by_r-dnet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-dnet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-dnet
+
+   and update with::
+
+      conda update r-dnet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-dnet
+
+
+.. |required_by_r-dnet| conda:required_by:: r-dnet
+.. |downloads_r-dnet| image:: https://img.shields.io/conda/dn/bioconda/r-dnet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-dnet| image:: https://quay.io/repository/biocontainers/r-dnet/status
+   :target: https://quay.io/repository/biocontainers/r-dnet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-dnet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-dnet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-dnet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-dnet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-dnet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-dnet
-.. |docker| image:: https://quay.io/repository/biocontainers/r-dnet/status
-                :target: https://quay.io/repository/biocontainers/r-dnet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-dnet/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-genegeneinter`:
+.. title:: Package Recipe 'bioconductor-genegeneinter'
+.. highlight: bash
+
 
 bioconductor-genegeneinter
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-genegeneinter
+   :replaces_section_title:
 
-The aim of this package is to propose several methods for testing gene\-gene interaction in case\-control association studies. Such a test can be done by aggregating SNP\-SNP interaction tests performed at the SNP level \(SSI\) or by using gene\-gene multidimensionnal methods \(GGI\) methods. The package also proposes tools for a graphic display of the results.
+   The aim of this package is to propose several methods for testing gene\-gene interaction in case\-control association studies. Such a test can be done by aggregating SNP\-SNP interaction tests performed at the SNP level \(SSI\) or by using gene\-gene multidimensionnal methods \(GGI\) methods. The package also proposes tools for a graphic display of the results.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneGeneInteR.html
-Versions      1.8.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genegeneinter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneGeneInteR.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-genegeneinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genegeneinter
 
-Installation
-------------
+   |downloads_bioconductor-genegeneinter| |docker_bioconductor-genegeneinter|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-ggtools` >=5.18.0,<5.19.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-factominer`  :conda:package:`r-igraph`  :conda:package:`r-kernlab`  :conda:package:`r-mvtnorm`  :conda:package:`r-plspm`  :conda:package:`r-rioja`  
 
-   conda install bioconductor-genegeneinter
+   :required~by: |required_by_bioconductor-genegeneinter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genegeneinter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genegeneinter
+
+   and update with::
+
+      conda update bioconductor-genegeneinter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genegeneinter
+
+
+.. |required_by_bioconductor-genegeneinter| conda:required_by:: bioconductor-genegeneinter
+.. |downloads_bioconductor-genegeneinter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genegeneinter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genegeneinter| image:: https://quay.io/repository/biocontainers/bioconductor-genegeneinter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genegeneinter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genegeneinter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genegeneinter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genegeneinter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genegeneinter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genegeneinter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genegeneinter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genegeneinter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genegeneinter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genegeneinter/README.html
 

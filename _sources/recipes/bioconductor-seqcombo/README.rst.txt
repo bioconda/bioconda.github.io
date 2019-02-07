@@ -1,54 +1,66 @@
-.. _`bioconductor-seqcombo`:
+.. title:: Package Recipe 'bioconductor-seqcombo'
+.. highlight: bash
+
 
 bioconductor-seqcombo
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-seqcombo
+   :replaces_section_title:
 
-Provides useful functions for visualizing sequence recombination and virus reassortment events.
+   Provides useful functions for visualizing sequence recombination and virus reassortment events.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/seqcombo.html
-Versions      1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcombo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqcombo.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-seqcombo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-seqcombo
 
-Installation
-------------
+   |downloads_bioconductor-seqcombo| |docker_bioconductor-seqcombo|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-rvcheck`  
 
-   conda install bioconductor-seqcombo
+   :required~by: |required_by_bioconductor-seqcombo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-seqcombo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-seqcombo
+
+   and update with::
+
+      conda update bioconductor-seqcombo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-seqcombo
+
+
+.. |required_by_bioconductor-seqcombo| conda:required_by:: bioconductor-seqcombo
+.. |downloads_bioconductor-seqcombo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcombo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-seqcombo| image:: https://quay.io/repository/biocontainers/bioconductor-seqcombo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-seqcombo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-seqcombo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-seqcombo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-seqcombo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-seqcombo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-seqcombo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-seqcombo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seqcombo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-seqcombo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-seqcombo/README.html
 

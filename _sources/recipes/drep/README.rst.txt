@@ -1,54 +1,66 @@
-.. _`drep`:
+.. title:: Package Recipe 'drep'
+.. highlight: bash
+
 
 drep
 ====
 
-|downloads|
+.. conda:recipe:: drep
+   :replaces_section_title:
 
-De\-replication of microbial genomes assembled from multiple samples
+   De\-replication of microbial genomes assembled from multiple samples
 
-============= ===========
-Home          https://github.com/MrOlm/drep
-Versions      2.2.3, 2.0.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//drep/meta.yaml
+   :homepage: https://github.com/MrOlm/drep
+   :license: MIT / MIT
+   :recipe: /`drep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drep/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: drep
 
-Installation
-------------
+   |downloads_drep| |docker_drep|
 
-.. highlight: bash
+   :versions: 2.2.3, 2.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn`  :conda:package:`seaborn`  
 
-   conda install drep
+   :required~by: |required_by_drep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update drep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install drep
+
+   and update with::
+
+      conda update drep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/drep
+
+
+.. |required_by_drep| conda:required_by:: drep
+.. |downloads_drep| image:: https://img.shields.io/conda/dn/bioconda/drep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_drep| image:: https://quay.io/repository/biocontainers/drep/status
+   :target: https://quay.io/repository/biocontainers/drep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/drep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/drep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/drep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/drep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/drep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/drep
-.. |docker| image:: https://quay.io/repository/biocontainers/drep/status
-                :target: https://quay.io/repository/biocontainers/drep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/drep/README.html
 

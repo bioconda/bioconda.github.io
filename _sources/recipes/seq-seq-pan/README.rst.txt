@@ -1,54 +1,66 @@
-.. _`seq-seq-pan`:
+.. title:: Package Recipe 'seq-seq-pan'
+.. highlight: bash
+
 
 seq-seq-pan
 ===========
 
-|downloads|
+.. conda:recipe:: seq-seq-pan
+   :replaces_section_title:
 
-seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment.
+   seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment.
 
-============= ===========
-Home          https://gitlab.com/chrjan/seq-seq-pan
-Versions      1.0.1, 1.0.0
-License       FreeBSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seq-seq-pan/meta.yaml
+   :homepage: https://gitlab.com/chrjan/seq-seq-pan
+   :license: FreeBSD
+   :recipe: /`seq-seq-pan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: seq-seq-pan
 
-Installation
-------------
+   |downloads_seq-seq-pan| |docker_seq-seq-pan|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argparse`  :conda:package:`biopython` 1.69 :conda:package:`blat` 35 :conda:package:`mauvealigner` 1.2.0 :conda:package:`openjdk`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`snakemake`  
 
-   conda install seq-seq-pan
+   :required~by: |required_by_seq-seq-pan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seq-seq-pan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seq-seq-pan
+
+   and update with::
+
+      conda update seq-seq-pan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seq-seq-pan
+
+
+.. |required_by_seq-seq-pan| conda:required_by:: seq-seq-pan
+.. |downloads_seq-seq-pan| image:: https://img.shields.io/conda/dn/bioconda/seq-seq-pan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seq-seq-pan| image:: https://quay.io/repository/biocontainers/seq-seq-pan/status
+   :target: https://quay.io/repository/biocontainers/seq-seq-pan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seq-seq-pan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seq-seq-pan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seq-seq-pan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seq-seq-pan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seq-seq-pan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seq-seq-pan
-.. |docker| image:: https://quay.io/repository/biocontainers/seq-seq-pan/status
-                :target: https://quay.io/repository/biocontainers/seq-seq-pan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seq-seq-pan/README.html
 

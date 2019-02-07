@@ -1,54 +1,66 @@
-.. _`micro_razers`:
+.. title:: Package Recipe 'micro_razers'
+.. highlight: bash
+
 
 micro_razers
 ============
 
-|downloads|
+.. conda:recipe:: micro_razers
+   :replaces_section_title:
 
-MicroRazerS \- Rapid Alignment of Small RNA Reads
+   MicroRazerS \- Rapid Alignment of Small RNA Reads
 
-============= ===========
-Home          https://github.com/seqan/seqan/tree/seqan-v2.1.1/apps/micro_razers
-Versions      1.0.6
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//micro_razers/meta.yaml
+   :homepage: https://github.com/seqan/seqan/tree/seqan-v2.1.1/apps/micro_razers
+   :license: GPLv3
+   :recipe: /`micro_razers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micro_razers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/micro_razers/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: micro_razers
 
-Installation
-------------
+   |downloads_micro_razers| |docker_micro_razers|
 
-.. highlight: bash
+   :versions: 1.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` 1.0* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install micro_razers
+   :required~by: |required_by_micro_razers|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update micro_razers
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install micro_razers
+
+   and update with::
+
+      conda update micro_razers
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/micro_razers
+
+
+.. |required_by_micro_razers| conda:required_by:: micro_razers
+.. |downloads_micro_razers| image:: https://img.shields.io/conda/dn/bioconda/micro_razers.svg?style=flat
+   :alt:   (downloads)
+.. |docker_micro_razers| image:: https://quay.io/repository/biocontainers/micro_razers/status
+   :target: https://quay.io/repository/biocontainers/micro_razers
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/micro_razers.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/micro_razers/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/micro_razers/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/micro_razers/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/micro_razers/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/micro_razers
-.. |docker| image:: https://quay.io/repository/biocontainers/micro_razers/status
-                :target: https://quay.io/repository/biocontainers/micro_razers
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/micro_razers/README.html
 

@@ -1,60 +1,70 @@
-.. _`abyss`:
+.. title:: Package Recipe 'abyss'
+.. highlight: bash
+
 
 abyss
 =====
 
-|downloads|
+.. conda:recipe:: abyss
+   :replaces_section_title:
 
-Assembly By Short Sequences \- a de novo\, parallel\, paired\-end sequence assembler
+   Assembly By Short Sequences \- a de novo\, parallel\, paired\-end sequence assembler
 
-============= ===========
-Home          http://www.bcgsc.ca/platform/bioinfo/software/abyss
-Versions      2.1.5, 2.1.4, 2.1.3, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 1.9.0, 1.5.2
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//abyss/meta.yaml
+   :homepage: http://www.bcgsc.ca/platform/bioinfo/software/abyss
+   :documentation: https://github.com/bcgsc/abyss#readme
+   
+   :developer docs: https://github.com/bcgsc/abyss
+   :license: GPL3
+   :recipe: /`abyss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss/meta.yaml>`_
+   :links: biotools: :biotools:`abyss`, doi: :doi:`10.1101/gr.214346.116`, doi: :doi:`10.1101/gr.089532.108`
 
-Documentation https://github.com/bcgsc/abyss#readme
-
-
-Development   https://github.com/bcgsc/abyss
-
-
-Links         biotools: :biotools:`abyss`, doi: :doi:`10.1101/gr.214346.116`, doi: :doi:`10.1101/gr.089532.108`
-
-============= ===========
+   
 
 
+.. conda:package:: abyss
 
-Installation
-------------
+   |downloads_abyss| |docker_abyss|
 
-.. highlight: bash
+   :versions: 2.1.5, 2.1.4, 2.1.3, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 1.9.0, 1.5.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`make`  :conda:package:`openmpi` >=3.1,<3.2.0a0 
 
-   conda install abyss
+   :required~by: |required_by_abyss|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update abyss
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install abyss
+
+   and update with::
+
+      conda update abyss
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/abyss
+
+
+.. |required_by_abyss| conda:required_by:: abyss
+.. |downloads_abyss| image:: https://img.shields.io/conda/dn/bioconda/abyss.svg?style=flat
+   :alt:   (downloads)
+.. |docker_abyss| image:: https://quay.io/repository/biocontainers/abyss/status
+   :target: https://quay.io/repository/biocontainers/abyss
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/abyss.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/abyss/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/abyss/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/abyss/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/abyss/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/abyss
-.. |docker| image:: https://quay.io/repository/biocontainers/abyss/status
-                :target: https://quay.io/repository/biocontainers/abyss
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/abyss/README.html
 

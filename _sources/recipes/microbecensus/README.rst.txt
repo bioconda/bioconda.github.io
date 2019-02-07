@@ -1,54 +1,66 @@
-.. _`microbecensus`:
+.. title:: Package Recipe 'microbecensus'
+.. highlight: bash
+
 
 microbecensus
 =============
 
-|downloads|
+.. conda:recipe:: microbecensus
+   :replaces_section_title:
 
-A command\-line tool for estimating average genome size from shotgun sequence data
+   A command\-line tool for estimating average genome size from shotgun sequence data
 
-============= ===========
-Home          https://github.com/snayfach/MicrobeCensus
-Versions      1.1.1, 1.1.0
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//microbecensus/meta.yaml
+   :homepage: https://github.com/snayfach/MicrobeCensus
+   :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`microbecensus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/microbecensus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/microbecensus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: microbecensus
 
-Installation
-------------
+   |downloads_microbecensus| |docker_microbecensus|
 
-.. highlight: bash
+   :versions: 1.1.1, 1.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<3 
 
-   conda install microbecensus
+   :required~by: |required_by_microbecensus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update microbecensus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install microbecensus
+
+   and update with::
+
+      conda update microbecensus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/microbecensus
+
+
+.. |required_by_microbecensus| conda:required_by:: microbecensus
+.. |downloads_microbecensus| image:: https://img.shields.io/conda/dn/bioconda/microbecensus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_microbecensus| image:: https://quay.io/repository/biocontainers/microbecensus/status
+   :target: https://quay.io/repository/biocontainers/microbecensus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/microbecensus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/microbecensus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/microbecensus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/microbecensus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/microbecensus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/microbecensus
-.. |docker| image:: https://quay.io/repository/biocontainers/microbecensus/status
-                :target: https://quay.io/repository/biocontainers/microbecensus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/microbecensus/README.html
 

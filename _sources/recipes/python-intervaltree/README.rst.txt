@@ -1,54 +1,66 @@
-.. _`python-intervaltree`:
+.. title:: Package Recipe 'python-intervaltree'
+.. highlight: bash
+
 
 python-intervaltree
 ===================
 
-|downloads|
+.. conda:recipe:: python-intervaltree
+   :replaces_section_title:
 
-Faster than intervaltree\_bio
+   Faster than intervaltree\_bio
 
-============= ===========
-Home          https://pypi.org/project/intervaltree/#description
-Versions      3.0.2, 3.0.1, 2.1.0
-License       Apache
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-intervaltree/meta.yaml
+   :homepage: https://pypi.org/project/intervaltree/#description
+   :license: Apache
+   :recipe: /`python-intervaltree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-intervaltree
 
-Installation
-------------
+   |downloads_python-intervaltree| |docker_python-intervaltree|
 
-.. highlight: bash
+   :versions: 3.0.2, 3.0.1, 2.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  :conda:package:`python-sortedcontainers`  
 
-   conda install python-intervaltree
+   :required~by: |required_by_python-intervaltree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-intervaltree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-intervaltree
+
+   and update with::
+
+      conda update python-intervaltree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-intervaltree
+
+
+.. |required_by_python-intervaltree| conda:required_by:: python-intervaltree
+.. |downloads_python-intervaltree| image:: https://img.shields.io/conda/dn/bioconda/python-intervaltree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-intervaltree| image:: https://quay.io/repository/biocontainers/python-intervaltree/status
+   :target: https://quay.io/repository/biocontainers/python-intervaltree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-intervaltree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-intervaltree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-intervaltree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-intervaltree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-intervaltree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-intervaltree
-.. |docker| image:: https://quay.io/repository/biocontainers/python-intervaltree/status
-                :target: https://quay.io/repository/biocontainers/python-intervaltree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-intervaltree/README.html
 

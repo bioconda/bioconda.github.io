@@ -1,54 +1,66 @@
-.. _`metagene_annotator`:
+.. title:: Package Recipe 'metagene_annotator'
+.. highlight: bash
+
 
 metagene_annotator
 ==================
 
-|downloads|
+.. conda:recipe:: metagene_annotator
+   :replaces_section_title:
 
-MetaGeneAnnotator is a gene\-finding program for prokaryote and phage
+   MetaGeneAnnotator is a gene\-finding program for prokaryote and phage
 
-============= ===========
-Home          http://metagene.cb.k.u-tokyo.ac.jp/
-Versions      1.0
-License       The software is freely available for academic use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metagene_annotator/meta.yaml
+   :homepage: http://metagene.cb.k.u-tokyo.ac.jp/
+   :license: The software is freely available for academic use
+   :recipe: /`metagene_annotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagene_annotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagene_annotator/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metagene_annotator
 
-Installation
-------------
+   |downloads_metagene_annotator| |docker_metagene_annotator|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install metagene_annotator
+   :required~by: |required_by_metagene_annotator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metagene_annotator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metagene_annotator
+
+   and update with::
+
+      conda update metagene_annotator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metagene_annotator
+
+
+.. |required_by_metagene_annotator| conda:required_by:: metagene_annotator
+.. |downloads_metagene_annotator| image:: https://img.shields.io/conda/dn/bioconda/metagene_annotator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metagene_annotator| image:: https://quay.io/repository/biocontainers/metagene_annotator/status
+   :target: https://quay.io/repository/biocontainers/metagene_annotator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metagene_annotator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metagene_annotator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metagene_annotator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metagene_annotator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metagene_annotator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metagene_annotator
-.. |docker| image:: https://quay.io/repository/biocontainers/metagene_annotator/status
-                :target: https://quay.io/repository/biocontainers/metagene_annotator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metagene_annotator/README.html
 

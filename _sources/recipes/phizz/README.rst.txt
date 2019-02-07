@@ -1,54 +1,66 @@
-.. _`phizz`:
+.. title:: Package Recipe 'phizz'
+.. highlight: bash
+
 
 phizz
 =====
 
-|downloads|
+.. conda:recipe:: phizz
+   :replaces_section_title:
 
-Tool to query hpo database and some other sources
+   Tool to query hpo database and some other sources
 
-============= ===========
-Home          https://github.com/moonso/query_hpo
-Versions      0.0.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phizz/meta.yaml
+   :homepage: https://github.com/moonso/query_hpo
+   :license: MIT License
+   :recipe: /`phizz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: phizz
 
-Installation
-------------
+   |downloads_phizz| |docker_phizz|
 
-.. highlight: bash
+   :versions: 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`configobj`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
 
-   conda install phizz
+   :required~by: |required_by_phizz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update phizz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install phizz
+
+   and update with::
+
+      conda update phizz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/phizz
+
+
+.. |required_by_phizz| conda:required_by:: phizz
+.. |downloads_phizz| image:: https://img.shields.io/conda/dn/bioconda/phizz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_phizz| image:: https://quay.io/repository/biocontainers/phizz/status
+   :target: https://quay.io/repository/biocontainers/phizz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/phizz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/phizz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/phizz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/phizz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/phizz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/phizz
-.. |docker| image:: https://quay.io/repository/biocontainers/phizz/status
-                :target: https://quay.io/repository/biocontainers/phizz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/phizz/README.html
 

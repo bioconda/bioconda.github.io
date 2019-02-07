@@ -1,54 +1,66 @@
-.. _`metilene`:
+.. title:: Package Recipe 'metilene'
+.. highlight: bash
+
 
 metilene
 ========
 
-|downloads|
+.. conda:recipe:: metilene
+   :replaces_section_title:
 
-Fast and sensitive detection of differential DNA methylation
+   Fast and sensitive detection of differential DNA methylation
 
-============= ===========
-Home          http://www.bioinf.uni-leipzig.de/Software/metilene/
-Versions      0.2.6
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metilene/meta.yaml
+   :homepage: http://www.bioinf.uni-leipzig.de/Software/metilene/
+   :license: GPLv2
+   :recipe: /`metilene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metilene
 
-Installation
-------------
+   |downloads_metilene| |docker_metilene|
 
-.. highlight: bash
+   :versions: 0.2.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools` >=2.24 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`r-ggplot2` >=2.0.0 
 
-   conda install metilene
+   :required~by: |required_by_metilene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metilene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metilene
+
+   and update with::
+
+      conda update metilene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metilene
+
+
+.. |required_by_metilene| conda:required_by:: metilene
+.. |downloads_metilene| image:: https://img.shields.io/conda/dn/bioconda/metilene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metilene| image:: https://quay.io/repository/biocontainers/metilene/status
+   :target: https://quay.io/repository/biocontainers/metilene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metilene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metilene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metilene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metilene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metilene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metilene
-.. |docker| image:: https://quay.io/repository/biocontainers/metilene/status
-                :target: https://quay.io/repository/biocontainers/metilene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metilene/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-r4rna`:
+.. title:: Package Recipe 'bioconductor-r4rna'
+.. highlight: bash
+
 
 bioconductor-r4rna
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-r4rna
+   :replaces_section_title:
 
-A package for RNA basepair analysis\, including the visualization of basepairs as arc diagrams for easy comparison and annotation of sequence and structure.  Arc diagrams can additionally be projected onto multiple sequence alignments to assess basepair conservation and covariation\, with numerical methods for computing statistics for each.
+   A package for RNA basepair analysis\, including the visualization of basepairs as arc diagrams for easy comparison and annotation of sequence and structure.  Arc diagrams can additionally be projected onto multiple sequence alignments to assess basepair conservation and covariation\, with numerical methods for computing statistics for each.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/R4RNA.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-r4rna/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/R4RNA.html
+   :license: GPL-3
+   :recipe: /`bioconductor-r4rna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna/meta.yaml>`_
+   :links: biotools: :biotools:`r4rna`
 
-
-
-Links         biotools: :biotools:`r4rna`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-r4rna
 
-Installation
-------------
+   |downloads_bioconductor-r4rna| |docker_bioconductor-r4rna|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-r4rna
+   :required~by: |required_by_bioconductor-r4rna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-r4rna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-r4rna
+
+   and update with::
+
+      conda update bioconductor-r4rna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-r4rna
+
+
+.. |required_by_bioconductor-r4rna| conda:required_by:: bioconductor-r4rna
+.. |downloads_bioconductor-r4rna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r4rna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-r4rna| image:: https://quay.io/repository/biocontainers/bioconductor-r4rna/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-r4rna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-r4rna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-r4rna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-r4rna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-r4rna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-r4rna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-r4rna
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-r4rna/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-r4rna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-r4rna/README.html
 

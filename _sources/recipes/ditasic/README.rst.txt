@@ -1,54 +1,66 @@
-.. _`ditasic`:
+.. title:: Package Recipe 'ditasic'
+.. highlight: bash
+
 
 ditasic
 =======
 
-|downloads|
+.. conda:recipe:: ditasic
+   :replaces_section_title:
 
-DiTASiC is designed as a comprehensive approach for abundance estimation and differential abundance assessment of individual taxa in metagenomics samples.
+   DiTASiC is designed as a comprehensive approach for abundance estimation and differential abundance assessment of individual taxa in metagenomics samples.
 
-============= ===========
-Home          https://rki_bioinformatics.gitlab.io/ditasic/
-Versions      0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ditasic/meta.yaml
+   :homepage: https://rki_bioinformatics.gitlab.io/ditasic/
+   :license: MIT
+   :recipe: /`ditasic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ditasic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ditasic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ditasic
 
-Installation
-------------
+   |downloads_ditasic| |docker_ditasic|
 
-.. highlight: bash
+   :versions: 0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.70 :conda:package:`kallisto` >=0.43.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`mason` >=2.0.7 :conda:package:`numpy` >=1.8.0 :conda:package:`python` >=3.7,<3.8.0a0 
 
-   conda install ditasic
+   :required~by: |required_by_ditasic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ditasic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ditasic
+
+   and update with::
+
+      conda update ditasic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ditasic
+
+
+.. |required_by_ditasic| conda:required_by:: ditasic
+.. |downloads_ditasic| image:: https://img.shields.io/conda/dn/bioconda/ditasic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ditasic| image:: https://quay.io/repository/biocontainers/ditasic/status
+   :target: https://quay.io/repository/biocontainers/ditasic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ditasic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ditasic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ditasic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ditasic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ditasic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ditasic
-.. |docker| image:: https://quay.io/repository/biocontainers/ditasic/status
-                :target: https://quay.io/repository/biocontainers/ditasic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ditasic/README.html
 

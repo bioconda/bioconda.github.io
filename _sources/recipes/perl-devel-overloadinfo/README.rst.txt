@@ -1,54 +1,66 @@
-.. _`perl-devel-overloadinfo`:
+.. title:: Package Recipe 'perl-devel-overloadinfo'
+.. highlight: bash
+
 
 perl-devel-overloadinfo
 =======================
 
-|downloads|
+.. conda:recipe:: perl-devel-overloadinfo
+   :replaces_section_title:
 
-introspect overloaded operators
+   introspect overloaded operators
 
-============= ===========
-Home          http://metacpan.org/pod/Devel::OverloadInfo
-Versions      0.005
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-overloadinfo/meta.yaml
+   :homepage: http://metacpan.org/pod/Devel::OverloadInfo
+   :license: perl_5
+   :recipe: /`perl-devel-overloadinfo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-overloadinfo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-overloadinfo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-devel-overloadinfo
 
-Installation
-------------
+   |downloads_perl-devel-overloadinfo| |docker_perl-devel-overloadinfo|
 
-.. highlight: bash
+   :versions: 0.005
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-exporter`  :conda:package:`perl-mro-compat`  :conda:package:`perl-package-stash`  :conda:package:`perl-sub-identify`  
 
-   conda install perl-devel-overloadinfo
+   :required~by: |required_by_perl-devel-overloadinfo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-devel-overloadinfo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-devel-overloadinfo
+
+   and update with::
+
+      conda update perl-devel-overloadinfo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-devel-overloadinfo
+
+
+.. |required_by_perl-devel-overloadinfo| conda:required_by:: perl-devel-overloadinfo
+.. |downloads_perl-devel-overloadinfo| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-overloadinfo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-devel-overloadinfo| image:: https://quay.io/repository/biocontainers/perl-devel-overloadinfo/status
+   :target: https://quay.io/repository/biocontainers/perl-devel-overloadinfo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-devel-overloadinfo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-devel-overloadinfo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-devel-overloadinfo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-devel-overloadinfo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-devel-overloadinfo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-devel-overloadinfo
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-overloadinfo/status
-                :target: https://quay.io/repository/biocontainers/perl-devel-overloadinfo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-devel-overloadinfo/README.html
 

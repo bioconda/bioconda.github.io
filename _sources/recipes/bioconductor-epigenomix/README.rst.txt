@@ -1,56 +1,67 @@
-.. _`bioconductor-epigenomix`:
+.. title:: Package Recipe 'bioconductor-epigenomix'
+.. highlight: bash
+
 
 bioconductor-epigenomix
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-epigenomix
+   :replaces_section_title:
 
-A package for the integrative analysis of RNA\-seq or microarray based gene transcription and histone modification data obtained by ChIP\-seq. The package provides methods for data preprocessing and matching as well as methods for fitting bayesian mixture models in order to detect genes with differences in both data types.
+   A package for the integrative analysis of RNA\-seq or microarray based gene transcription and histone modification data obtained by ChIP\-seq. The package provides methods for data preprocessing and matching as well as methods for fitting bayesian mixture models in order to detect genes with differences in both data types.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/epigenomix.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-epigenomix/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epigenomix.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-epigenomix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix/meta.yaml>`_
+   :links: biotools: :biotools:`epigenomix`
 
-
-
-Links         biotools: :biotools:`epigenomix`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-epigenomix
 
-Installation
-------------
+   |downloads_bioconductor-epigenomix| |docker_bioconductor-epigenomix|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-beadarray` >=2.32.0,<2.33.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mcmcpack`  
 
-   conda install bioconductor-epigenomix
+   :required~by: |required_by_bioconductor-epigenomix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-epigenomix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-epigenomix
+
+   and update with::
+
+      conda update bioconductor-epigenomix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-epigenomix
+
+
+.. |required_by_bioconductor-epigenomix| conda:required_by:: bioconductor-epigenomix
+.. |downloads_bioconductor-epigenomix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epigenomix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-epigenomix| image:: https://quay.io/repository/biocontainers/bioconductor-epigenomix/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-epigenomix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-epigenomix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-epigenomix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-epigenomix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-epigenomix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-epigenomix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-epigenomix
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-epigenomix/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-epigenomix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-epigenomix/README.html
 

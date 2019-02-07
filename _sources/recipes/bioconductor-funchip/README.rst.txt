@@ -1,56 +1,67 @@
-.. _`bioconductor-funchip`:
+.. title:: Package Recipe 'bioconductor-funchip'
+.. highlight: bash
+
 
 bioconductor-funchip
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-funchip
+   :replaces_section_title:
 
-Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them.
+   Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FunChIP.html
-Versions      1.8.0, 1.6.0, 1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-funchip/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FunChIP.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-funchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip/meta.yaml>`_
+   :links: biotools: :biotools:`funchip`, doi: :doi:`10.1093/bioinformatics/btx201`
 
-
-
-Links         biotools: :biotools:`funchip`, doi: :doi:`10.1093/bioinformatics/btx201`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-funchip
 
-Installation
-------------
+   |downloads_bioconductor-funchip| |docker_bioconductor-funchip|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-fda`  :conda:package:`r-foreach`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-shiny`  
 
-   conda install bioconductor-funchip
+   :required~by: |required_by_bioconductor-funchip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-funchip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-funchip
+
+   and update with::
+
+      conda update bioconductor-funchip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-funchip
+
+
+.. |required_by_bioconductor-funchip| conda:required_by:: bioconductor-funchip
+.. |downloads_bioconductor-funchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-funchip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-funchip| image:: https://quay.io/repository/biocontainers/bioconductor-funchip/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-funchip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-funchip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-funchip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-funchip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-funchip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-funchip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-funchip
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-funchip/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-funchip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-funchip/README.html
 

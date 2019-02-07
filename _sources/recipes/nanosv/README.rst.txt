@@ -1,54 +1,66 @@
-.. _`nanosv`:
+.. title:: Package Recipe 'nanosv'
+.. highlight: bash
+
 
 nanosv
 ======
 
-|downloads|
+.. conda:recipe:: nanosv
+   :replaces_section_title:
 
-Structural variation detection tool for Oxford Nanopore data.
+   Structural variation detection tool for Oxford Nanopore data.
 
-============= ===========
-Home          https://github.com/mroosmalen/nanosv
-Versions      1.2.3, 1.2.2, 1.2.0, 1.1.2, 0.0.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanosv/meta.yaml
+   :homepage: https://github.com/mroosmalen/nanosv
+   :license: MIT / MIT License
+   :recipe: /`nanosv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nanosv
 
-Installation
-------------
+   |downloads_nanosv| |docker_nanosv|
 
-.. highlight: bash
+   :versions: 1.2.3, 1.2.2, 1.2.0, 1.1.2, 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyvcf`  
 
-   conda install nanosv
+   :required~by: |required_by_nanosv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nanosv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nanosv
+
+   and update with::
+
+      conda update nanosv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nanosv
+
+
+.. |required_by_nanosv| conda:required_by:: nanosv
+.. |downloads_nanosv| image:: https://img.shields.io/conda/dn/bioconda/nanosv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nanosv| image:: https://quay.io/repository/biocontainers/nanosv/status
+   :target: https://quay.io/repository/biocontainers/nanosv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nanosv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nanosv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanosv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nanosv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nanosv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nanosv
-.. |docker| image:: https://quay.io/repository/biocontainers/nanosv/status
-                :target: https://quay.io/repository/biocontainers/nanosv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nanosv/README.html
 

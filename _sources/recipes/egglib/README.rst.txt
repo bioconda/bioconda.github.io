@@ -1,54 +1,66 @@
-.. _`egglib`:
+.. title:: Package Recipe 'egglib'
+.. highlight: bash
+
 
 egglib
 ======
 
-|downloads|
+.. conda:recipe:: egglib
+   :replaces_section_title:
 
-EggLib is a C\+\+\/Python library and program package for evolutionary genetics and genomics. Main features are sequence data management\, sequence polymorphism analysis\, and coalescent simulations. EggLib is a flexible Python module with a performant underlying C\+\+ library and allows fast and intuitive development of Python programs and scripts.
+   EggLib is a C\+\+\/Python library and program package for evolutionary genetics and genomics. Main features are sequence data management\, sequence polymorphism analysis\, and coalescent simulations. EggLib is a flexible Python module with a performant underlying C\+\+ library and allows fast and intuitive development of Python programs and scripts.
 
-============= ===========
-Home          http://mycor.nancy.inra.fr/egglib/
-Versions      3.0.0b21
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//egglib/meta.yaml
+   :homepage: http://mycor.nancy.inra.fr/egglib/
+   :license: GPL / GPL3
+   :recipe: /`egglib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: egglib
 
-Installation
-------------
+   |downloads_egglib| |docker_egglib|
 
-.. highlight: bash
+   :versions: 3.0.0b21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc` >=7.2.0 :conda:package:`python` <3 
 
-   conda install egglib
+   :required~by: |required_by_egglib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update egglib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install egglib
+
+   and update with::
+
+      conda update egglib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/egglib
+
+
+.. |required_by_egglib| conda:required_by:: egglib
+.. |downloads_egglib| image:: https://img.shields.io/conda/dn/bioconda/egglib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_egglib| image:: https://quay.io/repository/biocontainers/egglib/status
+   :target: https://quay.io/repository/biocontainers/egglib
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/egglib.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/egglib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/egglib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/egglib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/egglib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/egglib
-.. |docker| image:: https://quay.io/repository/biocontainers/egglib/status
-                :target: https://quay.io/repository/biocontainers/egglib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/egglib/README.html
 

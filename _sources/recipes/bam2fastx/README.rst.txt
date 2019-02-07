@@ -1,54 +1,66 @@
-.. _`bam2fastx`:
+.. title:: Package Recipe 'bam2fastx'
+.. highlight: bash
+
 
 bam2fastx
 =========
 
-|downloads|
+.. conda:recipe:: bam2fastx
+   :replaces_section_title:
 
-Converting and demultiplexing of PacBio BAM files into gzipped fasta and fastq files
+   Converting and demultiplexing of PacBio BAM files into gzipped fasta and fastq files
 
-============= ===========
-Home          https://github.com/PacificBiosciences/bam2fastx
-Versions      1.3.0
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bam2fastx/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/bam2fastx
+   :license: BSD-3-Clause-Clear
+   :recipe: /`bam2fastx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fastx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fastx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bam2fastx
 
-Installation
-------------
+   |downloads_bam2fastx| |docker_bam2fastx|
 
-.. highlight: bash
+   :versions: 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 :conda:package:`pbcopper` >=0.4.1 :conda:package:`zlib` 1.2.11* 
 
-   conda install bam2fastx
+   :required~by: |required_by_bam2fastx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bam2fastx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bam2fastx
+
+   and update with::
+
+      conda update bam2fastx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bam2fastx
+
+
+.. |required_by_bam2fastx| conda:required_by:: bam2fastx
+.. |downloads_bam2fastx| image:: https://img.shields.io/conda/dn/bioconda/bam2fastx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bam2fastx| image:: https://quay.io/repository/biocontainers/bam2fastx/status
+   :target: https://quay.io/repository/biocontainers/bam2fastx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bam2fastx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bam2fastx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bam2fastx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bam2fastx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bam2fastx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bam2fastx
-.. |docker| image:: https://quay.io/repository/biocontainers/bam2fastx/status
-                :target: https://quay.io/repository/biocontainers/bam2fastx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bam2fastx/README.html
 

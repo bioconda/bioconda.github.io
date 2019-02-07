@@ -1,54 +1,66 @@
-.. _`savage`:
+.. title:: Package Recipe 'savage'
+.. highlight: bash
+
 
 savage
 ======
 
-|downloads|
+.. conda:recipe:: savage
+   :replaces_section_title:
 
-SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample.
+   SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample.
 
-============= ===========
-Home          https://bitbucket.org/jbaaijens/savage
-Versions      0.4.0, 0.3.0, 0.2.1
-License       GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//savage/meta.yaml
+   :homepage: https://bitbucket.org/jbaaijens/savage
+   :license: GPL v3
+   :recipe: /`savage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savage/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: savage
 
-Installation
-------------
+   |downloads_savage| |docker_savage|
 
-.. highlight: bash
+   :versions: 0.4.0, 0.3.0, 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.61* :conda:package:`bwa`  :conda:package:`kallisto` >=0.43.0 :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`rust-overlaps`  
 
-   conda install savage
+   :required~by: |required_by_savage|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update savage
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install savage
+
+   and update with::
+
+      conda update savage
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/savage
+
+
+.. |required_by_savage| conda:required_by:: savage
+.. |downloads_savage| image:: https://img.shields.io/conda/dn/bioconda/savage.svg?style=flat
+   :alt:   (downloads)
+.. |docker_savage| image:: https://quay.io/repository/biocontainers/savage/status
+   :target: https://quay.io/repository/biocontainers/savage
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/savage.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/savage/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/savage/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/savage/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/savage/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/savage
-.. |docker| image:: https://quay.io/repository/biocontainers/savage/status
-                :target: https://quay.io/repository/biocontainers/savage
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/savage/README.html
 

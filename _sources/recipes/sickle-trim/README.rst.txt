@@ -1,54 +1,66 @@
-.. _`sickle-trim`:
+.. title:: Package Recipe 'sickle-trim'
+.. highlight: bash
+
 
 sickle-trim
 ===========
 
-|downloads|
+.. conda:recipe:: sickle-trim
+   :replaces_section_title:
 
-Windowed Adaptive Trimming for fastq files using quality
+   Windowed Adaptive Trimming for fastq files using quality
 
-============= ===========
-Home          https://github.com/najoshi/sickle
-Versions      1.33
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sickle-trim/meta.yaml
+   :homepage: https://github.com/najoshi/sickle
+   :license: MIT
+   :recipe: /`sickle-trim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sickle-trim
 
-Installation
-------------
+   |downloads_sickle-trim| |docker_sickle-trim|
 
-.. highlight: bash
+   :versions: 1.33
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install sickle-trim
+   :required~by: |required_by_sickle-trim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sickle-trim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sickle-trim
+
+   and update with::
+
+      conda update sickle-trim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sickle-trim
+
+
+.. |required_by_sickle-trim| conda:required_by:: sickle-trim
+.. |downloads_sickle-trim| image:: https://img.shields.io/conda/dn/bioconda/sickle-trim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sickle-trim| image:: https://quay.io/repository/biocontainers/sickle-trim/status
+   :target: https://quay.io/repository/biocontainers/sickle-trim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sickle-trim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sickle-trim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sickle-trim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sickle-trim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sickle-trim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sickle-trim
-.. |docker| image:: https://quay.io/repository/biocontainers/sickle-trim/status
-                :target: https://quay.io/repository/biocontainers/sickle-trim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sickle-trim/README.html
 

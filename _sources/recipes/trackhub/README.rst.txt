@@ -1,54 +1,66 @@
-.. _`trackhub`:
+.. title:: Package Recipe 'trackhub'
+.. highlight: bash
+
 
 trackhub
 ========
 
-|downloads|
+.. conda:recipe:: trackhub
+   :replaces_section_title:
 
-Create and manage UCSC track hubs from Python
+   Create and manage UCSC track hubs from Python
 
-============= ===========
-Home          http://github.com/daler/trackhub
-Versions      0.2.4, 0.1.3, 0.1.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trackhub/meta.yaml
+   :homepage: http://github.com/daler/trackhub
+   :license: MIT
+   :recipe: /`trackhub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: trackhub
 
-Installation
-------------
+   |downloads_trackhub| |docker_trackhub|
 
-.. highlight: bash
+   :versions: 0.2.4, 0.1.3, 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`docutils`  :conda:package:`python` 2.7* 
 
-   conda install trackhub
+   :required~by: |required_by_trackhub|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update trackhub
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trackhub
+
+   and update with::
+
+      conda update trackhub
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/trackhub
+
+
+.. |required_by_trackhub| conda:required_by:: trackhub
+.. |downloads_trackhub| image:: https://img.shields.io/conda/dn/bioconda/trackhub.svg?style=flat
+   :alt:   (downloads)
+.. |docker_trackhub| image:: https://quay.io/repository/biocontainers/trackhub/status
+   :target: https://quay.io/repository/biocontainers/trackhub
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/trackhub.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/trackhub/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trackhub/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/trackhub/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/trackhub/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/trackhub
-.. |docker| image:: https://quay.io/repository/biocontainers/trackhub/status
-                :target: https://quay.io/repository/biocontainers/trackhub
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trackhub/README.html
 

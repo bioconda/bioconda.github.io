@@ -1,54 +1,66 @@
-.. _`r-asics`:
+.. title:: Package Recipe 'r-asics'
+.. highlight: bash
+
 
 r-asics
 =======
 
-|downloads|
+.. conda:recipe:: r-asics
+   :replaces_section_title:
 
-With a set of pure metabolite spectra\, ASICS quantifies  metabolites concentration in a complex spectrum. The identification of  metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are  described in Tardivel et al. \(2017\) \<doi\:10.1007\/s11306\-017\-1244\-5\>. 
+   With a set of pure metabolite spectra\, ASICS quantifies  metabolites concentration in a complex spectrum. The identification of  metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are  described in Tardivel et al. \(2017\) \<doi\:10.1007\/s11306\-017\-1244\-5\>. 
 
-============= ===========
-Home          https://CRAN.R-project.org/package=ASICS
-Versions      1.0.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-asics/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=ASICS
+   :license: GPL (>= 2)
+   :recipe: /`r-asics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-asics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-asics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-asics
 
-Installation
-------------
+   |downloads_r-asics| |docker_r-asics|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-quadprog`  :conda:package:`r-zoo`  
 
-   conda install r-asics
+   :required~by: |required_by_r-asics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-asics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-asics
+
+   and update with::
+
+      conda update r-asics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-asics
+
+
+.. |required_by_r-asics| conda:required_by:: r-asics
+.. |downloads_r-asics| image:: https://img.shields.io/conda/dn/bioconda/r-asics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-asics| image:: https://quay.io/repository/biocontainers/r-asics/status
+   :target: https://quay.io/repository/biocontainers/r-asics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-asics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-asics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-asics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-asics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-asics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-asics
-.. |docker| image:: https://quay.io/repository/biocontainers/r-asics/status
-                :target: https://quay.io/repository/biocontainers/r-asics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-asics/README.html
 

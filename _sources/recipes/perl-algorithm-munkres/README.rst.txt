@@ -1,54 +1,66 @@
-.. _`perl-algorithm-munkres`:
+.. title:: Package Recipe 'perl-algorithm-munkres'
+.. highlight: bash
+
 
 perl-algorithm-munkres
 ======================
 
-|downloads|
+.. conda:recipe:: perl-algorithm-munkres
+   :replaces_section_title:
 
-Munkres.pm
+   Munkres.pm
 
-============= ===========
-Home          http://metacpan.org/pod/Algorithm-Munkres
-Versions      0.08
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-algorithm-munkres/meta.yaml
+   :homepage: http://metacpan.org/pod/Algorithm-Munkres
+   :license: unknown
+   :recipe: /`perl-algorithm-munkres <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-munkres>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-munkres/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-algorithm-munkres
 
-Installation
-------------
+   |downloads_perl-algorithm-munkres| |docker_perl-algorithm-munkres|
 
-.. highlight: bash
+   :versions: 0.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-algorithm-munkres
+   :required~by: |required_by_perl-algorithm-munkres|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-algorithm-munkres
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-algorithm-munkres
+
+   and update with::
+
+      conda update perl-algorithm-munkres
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-algorithm-munkres
+
+
+.. |required_by_perl-algorithm-munkres| conda:required_by:: perl-algorithm-munkres
+.. |downloads_perl-algorithm-munkres| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-munkres.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-algorithm-munkres| image:: https://quay.io/repository/biocontainers/perl-algorithm-munkres/status
+   :target: https://quay.io/repository/biocontainers/perl-algorithm-munkres
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-algorithm-munkres.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-algorithm-munkres/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-algorithm-munkres/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-algorithm-munkres/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-algorithm-munkres/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-algorithm-munkres
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-algorithm-munkres/status
-                :target: https://quay.io/repository/biocontainers/perl-algorithm-munkres
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-algorithm-munkres/README.html
 

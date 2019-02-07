@@ -1,54 +1,66 @@
-.. _`seq2c`:
+.. title:: Package Recipe 'seq2c'
+.. highlight: bash
+
 
 seq2c
 =====
 
-|downloads|
+.. conda:recipe:: seq2c
+   :replaces_section_title:
 
-Cohort based copy number calling in gene regions
+   Cohort based copy number calling in gene regions
 
-============= ===========
-Home          https://github.com/AstraZeneca-NGS/Seq2C
-Versions      2018.12.05, 2016.03.23
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seq2c/meta.yaml
+   :homepage: https://github.com/AstraZeneca-NGS/Seq2C
+   :license: MIT
+   :recipe: /`seq2c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2c/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: seq2c
 
-Installation
-------------
+   |downloads_seq2c| |docker_seq2c|
 
-.. highlight: bash
+   :versions: 2018.12.05, 2016.03.23
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-statistics-ttest`  
 
-   conda install seq2c
+   :required~by: |required_by_seq2c|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seq2c
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seq2c
+
+   and update with::
+
+      conda update seq2c
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seq2c
+
+
+.. |required_by_seq2c| conda:required_by:: seq2c
+.. |downloads_seq2c| image:: https://img.shields.io/conda/dn/bioconda/seq2c.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seq2c| image:: https://quay.io/repository/biocontainers/seq2c/status
+   :target: https://quay.io/repository/biocontainers/seq2c
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seq2c.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seq2c/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seq2c/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seq2c/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seq2c/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seq2c
-.. |docker| image:: https://quay.io/repository/biocontainers/seq2c/status
-                :target: https://quay.io/repository/biocontainers/seq2c
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seq2c/README.html
 

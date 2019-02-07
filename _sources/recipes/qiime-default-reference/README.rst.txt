@@ -1,54 +1,66 @@
-.. _`qiime-default-reference`:
+.. title:: Package Recipe 'qiime-default-reference'
+.. highlight: bash
+
 
 qiime-default-reference
 =======================
 
-|downloads|
+.. conda:recipe:: qiime-default-reference/0.1.3
+   :replaces_section_title:
 
-Default reference data files for use with QIIME.
+   Default reference data files for use with QIIME.
 
-============= ===========
-Home          http://www.qiime.org
-Versions      0.1.3
-License       CC BY-SA 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qiime-default-reference/0.1.3/meta.yaml
+   :homepage: http://www.qiime.org
+   :license: CC BY-SA 3.0
+   :recipe: /`qiime-default-reference <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference>`_/`0.1.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qiime-default-reference
 
-Installation
-------------
+   |downloads_qiime-default-reference| |docker_qiime-default-reference|
 
-.. highlight: bash
+   :versions: 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`six`  
 
-   conda install qiime-default-reference
+   :required~by: |required_by_qiime-default-reference|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qiime-default-reference
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qiime-default-reference
+
+   and update with::
+
+      conda update qiime-default-reference
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qiime-default-reference
+
+
+.. |required_by_qiime-default-reference| conda:required_by:: qiime-default-reference
+.. |downloads_qiime-default-reference| image:: https://img.shields.io/conda/dn/bioconda/qiime-default-reference.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qiime-default-reference| image:: https://quay.io/repository/biocontainers/qiime-default-reference/status
+   :target: https://quay.io/repository/biocontainers/qiime-default-reference
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qiime-default-reference.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qiime-default-reference/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qiime-default-reference/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qiime-default-reference/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qiime-default-reference/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qiime-default-reference
-.. |docker| image:: https://quay.io/repository/biocontainers/qiime-default-reference/status
-                :target: https://quay.io/repository/biocontainers/qiime-default-reference
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qiime-default-reference/README.html
 

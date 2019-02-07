@@ -1,56 +1,67 @@
-.. _`ms`:
+.. title:: Package Recipe 'ms'
+.. highlight: bash
+
 
 ms
 ==
 
-|downloads|
+.. conda:recipe:: ms
+   :replaces_section_title:
 
-Generates random independent samples according to a simple Wright\-Fisher neutral model.
+   Generates random independent samples according to a simple Wright\-Fisher neutral model.
 
-============= ===========
-Home          http://home.uchicago.edu/rhudson1/source/mksamples.html
-Versions      2014_03_04
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ms/meta.yaml
+   :homepage: http://home.uchicago.edu/rhudson1/source/mksamples.html
+   :license: Unknown
+   :recipe: /`ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms/meta.yaml>`_
+   :links: biotools: :biotools:`ms`, doi: :doi:`10.1093/bioinformatics/18.2.337`
 
-
-
-Links         biotools: :biotools:`ms`, doi: :doi:`10.1093/bioinformatics/18.2.337`
-
-============= ===========
+   
 
 
+.. conda:package:: ms
 
-Installation
-------------
+   |downloads_ms| |docker_ms|
 
-.. highlight: bash
+   :versions: 2014_03_04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install ms
+   :required~by: |required_by_ms|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ms
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ms
+
+   and update with::
+
+      conda update ms
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ms
+
+
+.. |required_by_ms| conda:required_by:: ms
+.. |downloads_ms| image:: https://img.shields.io/conda/dn/bioconda/ms.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ms| image:: https://quay.io/repository/biocontainers/ms/status
+   :target: https://quay.io/repository/biocontainers/ms
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ms.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ms/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ms/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ms/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ms/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ms
-.. |docker| image:: https://quay.io/repository/biocontainers/ms/status
-                :target: https://quay.io/repository/biocontainers/ms
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ms/README.html
 

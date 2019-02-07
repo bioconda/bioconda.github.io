@@ -1,56 +1,67 @@
-.. _`bioconductor-findmyfriends`:
+.. title:: Package Recipe 'bioconductor-findmyfriends'
+.. highlight: bash
+
 
 bioconductor-findmyfriends
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-findmyfriends
+   :replaces_section_title:
 
-A framework for doing microbial comparative genomics in R. The main purpose of the package is assisting in the creation of pangenome matrices where genes from related organisms are grouped by similarity\, as well as the analysis of these data. FindMyFriends provides many novel approaches to doing pangenome analysis and supports a gene grouping algorithm that scales linearly\, thus making the creation of huge pangenomes feasible.
+   A framework for doing microbial comparative genomics in R. The main purpose of the package is assisting in the creation of pangenome matrices where genes from related organisms are grouped by similarity\, as well as the analysis of these data. FindMyFriends provides many novel approaches to doing pangenome analysis and supports a gene grouping algorithm that scales linearly\, thus making the creation of huge pangenomes feasible.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FindMyFriends.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-findmyfriends/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FindMyFriends.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-findmyfriends <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-findmyfriends>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-findmyfriends/meta.yaml>`_
+   :links: biotools: :biotools:`findmyfriends`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`findmyfriends`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-findmyfriends
 
-Installation
-------------
+   |downloads_bioconductor-findmyfriends| |docker_bioconductor-findmyfriends|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-kebabs` >=1.16.0,<1.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-filehash`  :conda:package:`r-ggdendro`  :conda:package:`r-ggplot2`  :conda:package:`r-gtable`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcpp`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-findmyfriends
+   :required~by: |required_by_bioconductor-findmyfriends|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-findmyfriends
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-findmyfriends
+
+   and update with::
+
+      conda update bioconductor-findmyfriends
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-findmyfriends
+
+
+.. |required_by_bioconductor-findmyfriends| conda:required_by:: bioconductor-findmyfriends
+.. |downloads_bioconductor-findmyfriends| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-findmyfriends.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-findmyfriends| image:: https://quay.io/repository/biocontainers/bioconductor-findmyfriends/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-findmyfriends
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-findmyfriends.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-findmyfriends/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-findmyfriends/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-findmyfriends/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-findmyfriends/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-findmyfriends
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-findmyfriends/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-findmyfriends
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-findmyfriends/README.html
 

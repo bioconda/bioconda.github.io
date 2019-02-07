@@ -1,56 +1,67 @@
-.. _`bioconductor-mzr`:
+.. title:: Package Recipe 'bioconductor-mzr'
+.. highlight: bash
+
 
 bioconductor-mzr
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-mzr
+   :replaces_section_title:
 
-mzR provides a unified API to the common file formats and parsers available for mass spectrometry data. It comes with a wrapper for the ISB random access parser for mass spectrometry mzXML\, mzData and mzML files. The package contains the original code written by the ISB\, and a subset of the proteowizard library for mzML and mzIdentML. The netCDF reading code has previously been used in XCMS.
+   mzR provides a unified API to the common file formats and parsers available for mass spectrometry data. It comes with a wrapper for the ISB random access parser for mass spectrometry mzXML\, mzData and mzML files. The package contains the original code written by the ISB\, and a subset of the proteowizard library for mzML and mzIdentML. The netCDF reading code has previously been used in XCMS.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/mzR.html
-Versions      2.16.0, 2.12.0, 2.10.0, 2.6.3, 2.4.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mzr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mzR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mzr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr/meta.yaml>`_
+   :links: biotools: :biotools:`mzr`
 
-
-
-Links         biotools: :biotools:`mzr`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mzr
 
-Installation
-------------
+   |downloads_bioconductor-mzr| |docker_bioconductor-mzr|
 
-.. highlight: bash
+   :versions: 2.16.0, 2.12.0, 2.10.0, 2.6.3, 2.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`bioconductor-rhdf5lib` >=1.4.0,<1.5.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ncdf4`  :conda:package:`r-rcpp` >=0.10.1 
 
-   conda install bioconductor-mzr
+   :required~by: |required_by_bioconductor-mzr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mzr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mzr
+
+   and update with::
+
+      conda update bioconductor-mzr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mzr
+
+
+.. |required_by_bioconductor-mzr| conda:required_by:: bioconductor-mzr
+.. |downloads_bioconductor-mzr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mzr| image:: https://quay.io/repository/biocontainers/bioconductor-mzr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mzr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mzr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mzr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mzr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mzr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mzr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mzr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mzr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mzr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mzr/README.html
 

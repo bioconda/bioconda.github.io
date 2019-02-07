@@ -1,54 +1,66 @@
-.. _`flapjack`:
+.. title:: Package Recipe 'flapjack'
+.. highlight: bash
+
 
 flapjack
 ========
 
-|downloads|
+.. conda:recipe:: flapjack
+   :replaces_section_title:
 
-Flapjack provides interactive visualizations of high\-throughput genotyping data.
+   Flapjack provides interactive visualizations of high\-throughput genotyping data.
 
-============= ===========
-Home          https://ics.hutton.ac.uk/flapjack
-Versions      1.18.06.29, 1.18.06.13, 1.16.10.31
-License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flapjack/meta.yaml
+   :homepage: https://ics.hutton.ac.uk/flapjack
+   :license: BSD-2-Clause
+   :recipe: /`flapjack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flapjack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flapjack/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: flapjack
 
-Installation
-------------
+   |downloads_flapjack| |docker_flapjack|
 
-.. highlight: bash
+   :versions: 1.18.06.29, 1.18.06.13, 1.16.10.31
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8,<9 
 
-   conda install flapjack
+   :required~by: |required_by_flapjack|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flapjack
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flapjack
+
+   and update with::
+
+      conda update flapjack
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flapjack
+
+
+.. |required_by_flapjack| conda:required_by:: flapjack
+.. |downloads_flapjack| image:: https://img.shields.io/conda/dn/bioconda/flapjack.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flapjack| image:: https://quay.io/repository/biocontainers/flapjack/status
+   :target: https://quay.io/repository/biocontainers/flapjack
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flapjack.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flapjack/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flapjack/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flapjack/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flapjack/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flapjack
-.. |docker| image:: https://quay.io/repository/biocontainers/flapjack/status
-                :target: https://quay.io/repository/biocontainers/flapjack
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flapjack/README.html
 

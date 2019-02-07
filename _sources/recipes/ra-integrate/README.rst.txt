@@ -1,54 +1,66 @@
-.. _`ra-integrate`:
+.. title:: Package Recipe 'ra-integrate'
+.. highlight: bash
+
 
 ra-integrate
 ============
 
-|downloads|
+.. conda:recipe:: ra-integrate
+   :replaces_section_title:
 
-Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data.
+   Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data.
 
-============= ===========
-Home          https://github.com/mariokostelac/ra-integrate
-Versions      0.1
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ra-integrate/meta.yaml
+   :homepage: https://github.com/mariokostelac/ra-integrate
+   :license: GPL3
+   :recipe: /`ra-integrate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra-integrate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra-integrate/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ra-integrate
 
-Installation
-------------
+   |downloads_ra-integrate| |docker_ra-integrate|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`graphviz`  :conda:package:`libgcc`  :conda:package:`ra`  :conda:package:`ruby`  
 
-   conda install ra-integrate
+   :required~by: |required_by_ra-integrate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ra-integrate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ra-integrate
+
+   and update with::
+
+      conda update ra-integrate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ra-integrate
+
+
+.. |required_by_ra-integrate| conda:required_by:: ra-integrate
+.. |downloads_ra-integrate| image:: https://img.shields.io/conda/dn/bioconda/ra-integrate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ra-integrate| image:: https://quay.io/repository/biocontainers/ra-integrate/status
+   :target: https://quay.io/repository/biocontainers/ra-integrate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ra-integrate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ra-integrate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ra-integrate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ra-integrate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ra-integrate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ra-integrate
-.. |docker| image:: https://quay.io/repository/biocontainers/ra-integrate/status
-                :target: https://quay.io/repository/biocontainers/ra-integrate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ra-integrate/README.html
 

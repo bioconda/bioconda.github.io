@@ -1,56 +1,67 @@
-.. _`bioconductor-networkbma`:
+.. title:: Package Recipe 'bioconductor-networkbma'
+.. highlight: bash
+
 
 bioconductor-networkbma
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-networkbma
+   :replaces_section_title:
 
-An extension of Bayesian Model Averaging \(BMA\) for network construction using time series gene expression data. Includes assessment functions and sample test data.
+   An extension of Bayesian Model Averaging \(BMA\) for network construction using time series gene expression data. Includes assessment functions and sample test data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/networkBMA.html
-Versions      2.22.0, 2.20.0, 2.18.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-networkbma/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/networkBMA.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-networkbma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-networkbma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-networkbma/meta.yaml>`_
+   :links: biotools: :biotools:`networkbma`, doi: :doi:`10.1186/1752-0509-8-47`
 
-
-
-Links         biotools: :biotools:`networkbma`, doi: :doi:`10.1186/1752-0509-8-47`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-networkbma
 
-Installation
-------------
+   |downloads_bioconductor-networkbma| |docker_bioconductor-networkbma|
 
-.. highlight: bash
+   :versions: 2.22.0, 2.20.0, 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-bma`  :conda:package:`r-leaps`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcpparmadillo` >=0.3.810.2 :conda:package:`r-rcppeigen` >=0.3.1.2.1 
 
-   conda install bioconductor-networkbma
+   :required~by: |required_by_bioconductor-networkbma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-networkbma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-networkbma
+
+   and update with::
+
+      conda update bioconductor-networkbma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-networkbma
+
+
+.. |required_by_bioconductor-networkbma| conda:required_by:: bioconductor-networkbma
+.. |downloads_bioconductor-networkbma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-networkbma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-networkbma| image:: https://quay.io/repository/biocontainers/bioconductor-networkbma/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-networkbma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-networkbma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-networkbma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-networkbma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-networkbma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-networkbma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-networkbma
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-networkbma/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-networkbma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-networkbma/README.html
 

@@ -1,54 +1,66 @@
-.. _`kid`:
+.. title:: Package Recipe 'kid'
+.. highlight: bash
+
 
 kid
 ===
 
-|downloads|
+.. conda:recipe:: kid
+   :replaces_section_title:
 
-A simple and pythonic XML template language
+   A simple and pythonic XML template language
 
-============= ===========
-Home          https://pypi.python.org/pypi/kid
-Versions      0.9.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kid/meta.yaml
+   :homepage: https://pypi.python.org/pypi/kid
+   :license: MIT
+   :recipe: /`kid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kid/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kid
 
-Installation
-------------
+   |downloads_kid| |docker_kid|
 
-.. highlight: bash
+   :versions: 0.9.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install kid
+   :required~by: |required_by_kid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kid
+
+   and update with::
+
+      conda update kid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kid
+
+
+.. |required_by_kid| conda:required_by:: kid
+.. |downloads_kid| image:: https://img.shields.io/conda/dn/bioconda/kid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kid| image:: https://quay.io/repository/biocontainers/kid/status
+   :target: https://quay.io/repository/biocontainers/kid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kid
-.. |docker| image:: https://quay.io/repository/biocontainers/kid/status
-                :target: https://quay.io/repository/biocontainers/kid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kid/README.html
 

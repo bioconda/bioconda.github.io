@@ -1,54 +1,66 @@
-.. _`python-chado`:
+.. title:: Package Recipe 'python-chado'
+.. highlight: bash
+
 
 python-chado
 ============
 
-|downloads|
+.. conda:recipe:: python-chado
+   :replaces_section_title:
 
-Chado library
+   Chado library
 
-============= ===========
-Home          https://github.com/galaxy-genome-annotation/python-chado
-Versions      2.2.5, 2.2.3, 2.2.2, 2.2.1, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1, 2.0.1, 2.0, 1.2
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-chado/meta.yaml
+   :homepage: https://github.com/galaxy-genome-annotation/python-chado
+   :license: MIT / MIT License
+   :recipe: /`python-chado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-chado
 
-Installation
-------------
+   |downloads_python-chado| |docker_python-chado|
 
-.. highlight: bash
+   :versions: 2.2.5, 2.2.3, 2.2.2, 2.2.1, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1, 2.0.1, 2.0, 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcbiogff` >=0.6.4 :conda:package:`biopython`  :conda:package:`click`  :conda:package:`future`  :conda:package:`psycopg2`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`sqlalchemy`  :conda:package:`wrapt`  
 
-   conda install python-chado
+   :required~by: |required_by_python-chado|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-chado
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-chado
+
+   and update with::
+
+      conda update python-chado
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-chado
+
+
+.. |required_by_python-chado| conda:required_by:: python-chado
+.. |downloads_python-chado| image:: https://img.shields.io/conda/dn/bioconda/python-chado.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-chado| image:: https://quay.io/repository/biocontainers/python-chado/status
+   :target: https://quay.io/repository/biocontainers/python-chado
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-chado.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-chado/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-chado/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-chado/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-chado/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-chado
-.. |docker| image:: https://quay.io/repository/biocontainers/python-chado/status
-                :target: https://quay.io/repository/biocontainers/python-chado
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-chado/README.html
 

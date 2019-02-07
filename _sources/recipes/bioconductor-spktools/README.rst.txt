@@ -1,56 +1,67 @@
-.. _`bioconductor-spktools`:
+.. title:: Package Recipe 'bioconductor-spktools'
+.. highlight: bash
+
 
 bioconductor-spktools
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-spktools
+   :replaces_section_title:
 
-The package contains functions that can be used to compare expression measures on different array platforms.
+   The package contains functions that can be used to compare expression measures on different array platforms.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/spkTools.html
-Versions      1.38.0, 1.36.0, 1.34.0, 1.32.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spktools/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/spkTools.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-spktools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spktools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spktools/meta.yaml>`_
+   :links: biotools: :biotools:`spktools`, doi: :doi:`10.1093/nar/gkn430`
 
-
-
-Links         biotools: :biotools:`spktools`, doi: :doi:`10.1093/nar/gkn430`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-spktools
 
-Installation
-------------
+   |downloads_bioconductor-spktools| |docker_bioconductor-spktools|
 
-.. highlight: bash
+   :versions: 1.38.0, 1.36.0, 1.34.0, 1.32.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-spktools
+   :required~by: |required_by_bioconductor-spktools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-spktools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-spktools
+
+   and update with::
+
+      conda update bioconductor-spktools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-spktools
+
+
+.. |required_by_bioconductor-spktools| conda:required_by:: bioconductor-spktools
+.. |downloads_bioconductor-spktools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spktools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-spktools| image:: https://quay.io/repository/biocontainers/bioconductor-spktools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-spktools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-spktools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-spktools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-spktools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-spktools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-spktools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-spktools
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spktools/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-spktools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-spktools/README.html
 

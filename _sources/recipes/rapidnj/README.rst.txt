@@ -1,56 +1,67 @@
-.. _`rapidnj`:
+.. title:: Package Recipe 'rapidnj'
+.. highlight: bash
+
 
 rapidnj
 =======
 
-|downloads|
+.. conda:recipe:: rapidnj
+   :replaces_section_title:
 
-RapidNJ is an algorithmic engineered implementation of canonical neighbour\-joining. It uses an efficient search heuristic to speed\-up the core computations of the neighbour\-joining method that enables RapidNJ to outperform other state\-of\-the\-art neighbour\-joining implementations.
+   RapidNJ is an algorithmic engineered implementation of canonical neighbour\-joining. It uses an efficient search heuristic to speed\-up the core computations of the neighbour\-joining method that enables RapidNJ to outperform other state\-of\-the\-art neighbour\-joining implementations.
 
-============= ===========
-Home          http://birc.au.dk/software/rapidnj/
-Versions      v2.3.2
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rapidnj/meta.yaml
+   :homepage: http://birc.au.dk/software/rapidnj/
+   :license: GPL / GPL-2
+   :recipe: /`rapidnj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj/meta.yaml>`_
+   :links: doi: :doi:`10.1007/978-3-540-87361-7_10`
 
-
-
-Links         doi: :doi:`10.1007/978-3-540-87361-7_10`
-
-============= ===========
+   
 
 
+.. conda:package:: rapidnj
 
-Installation
-------------
+   |downloads_rapidnj| |docker_rapidnj|
 
-.. highlight: bash
+   :versions: v2.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install rapidnj
+   :required~by: |required_by_rapidnj|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rapidnj
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rapidnj
+
+   and update with::
+
+      conda update rapidnj
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rapidnj
+
+
+.. |required_by_rapidnj| conda:required_by:: rapidnj
+.. |downloads_rapidnj| image:: https://img.shields.io/conda/dn/bioconda/rapidnj.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rapidnj| image:: https://quay.io/repository/biocontainers/rapidnj/status
+   :target: https://quay.io/repository/biocontainers/rapidnj
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rapidnj.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rapidnj/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rapidnj/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rapidnj/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rapidnj/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rapidnj
-.. |docker| image:: https://quay.io/repository/biocontainers/rapidnj/status
-                :target: https://quay.io/repository/biocontainers/rapidnj
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rapidnj/README.html
 

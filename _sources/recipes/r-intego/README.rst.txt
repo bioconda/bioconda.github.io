@@ -1,56 +1,67 @@
-.. _`r-intego`:
+.. title:: Package Recipe 'r-intego'
+.. highlight: bash
+
 
 r-intego
 ========
 
-|downloads|
+.. conda:recipe:: r-intego
+   :replaces_section_title:
 
-An unsupervised gene clustering algorithm based on the integration of external biological knowledge\, such as Gene Ontology annotations\, into expression data.
+   An unsupervised gene clustering algorithm based on the integration of external biological knowledge\, such as Gene Ontology annotations\, into expression data.
 
-============= ===========
-Home          http://marie.verbanck.free.fr/packages/InteGO/
-Versions      2.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-intego/meta.yaml
+   :homepage: http://marie.verbanck.free.fr/packages/InteGO/
+   :license: GPL3
+   :recipe: /`r-intego <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-intego>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-intego/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-14-42`
 
-
-
-Links         doi: :doi:`10.1186/1471-2105-14-42`
-
-============= ===========
+   
 
 
+.. conda:package:: r-intego
 
-Installation
-------------
+   |downloads_r-intego| |docker_r-intego|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-factominer`  
 
-   conda install r-intego
+   :required~by: |required_by_r-intego|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-intego
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-intego
+
+   and update with::
+
+      conda update r-intego
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-intego
+
+
+.. |required_by_r-intego| conda:required_by:: r-intego
+.. |downloads_r-intego| image:: https://img.shields.io/conda/dn/bioconda/r-intego.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-intego| image:: https://quay.io/repository/biocontainers/r-intego/status
+   :target: https://quay.io/repository/biocontainers/r-intego
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-intego.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-intego/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-intego/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-intego/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-intego/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-intego
-.. |docker| image:: https://quay.io/repository/biocontainers/r-intego/status
-                :target: https://quay.io/repository/biocontainers/r-intego
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-intego/README.html
 

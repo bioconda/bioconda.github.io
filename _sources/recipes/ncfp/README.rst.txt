@@ -1,58 +1,69 @@
-.. _`ncfp`:
+.. title:: Package Recipe 'ncfp'
+.. highlight: bash
+
 
 ncfp
 ====
 
-|downloads|
+.. conda:recipe:: ncfp
+   :replaces_section_title:
 
-A program\/module to find nt sequences that code for aa sequences
+   A program\/module to find nt sequences that code for aa sequences
 
-============= ===========
-Home          http://widdowquinn.github.io/ncfp/
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ncfp/meta.yaml
+   :homepage: http://widdowquinn.github.io/ncfp/
+   :documentation: https://ncfp.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/widdowquinn/ncfp
+   :license: MIT / MIT
+   :recipe: /`ncfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp/meta.yaml>`_
 
-Documentation https://ncfp.readthedocs.io/en/latest/
-
-
-Development   https://github.com/widdowquinn/ncfp
-
-
-============= ===========
-
-ncfp is a script and module that facilitates recovery of nucleotide sequences from NCBI that encode a set of input protein sequences
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install ncfp
-
-and update with::
-
-   conda update ncfp
+   ncfp is a script and module that facilitates recovery of nucleotide sequences from NCBI that encode a set of input protein sequences
 
 
+.. conda:package:: ncfp
 
-|docker|
+   |downloads_ncfp| |docker_ncfp|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ncfp.
+   :versions: 0.1.0
+
+   :depends: :conda:package:`biopython`  :conda:package:`python` 3.5* :conda:package:`tqdm`  
+
+   :required~by: |required_by_ncfp|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ncfp
+
+   and update with::
+
+      conda update ncfp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ncfp
+
+
+.. |required_by_ncfp| conda:required_by:: ncfp
+.. |downloads_ncfp| image:: https://img.shields.io/conda/dn/bioconda/ncfp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ncfp| image:: https://quay.io/repository/biocontainers/ncfp/status
+   :target: https://quay.io/repository/biocontainers/ncfp
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ncfp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ncfp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ncfp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ncfp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ncfp
-.. |docker| image:: https://quay.io/repository/biocontainers/ncfp/status
-                :target: https://quay.io/repository/biocontainers/ncfp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ncfp/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-fabiadata`:
+.. title:: Package Recipe 'bioconductor-fabiadata'
+.. highlight: bash
+
 
 bioconductor-fabiadata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-fabiadata
+   :replaces_section_title:
 
-Supplying gene expression data sets for the demos of the biclustering method \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). The following three data sets are provided\: A\) breast cancer \(van\'t Veer\, Nature\, 2002\)\, B\) multiple tissues \(Su\, PNAS\, 2002\)\, and C\) diffuse large\-B\-cell lymphoma \(Rosenwald\, N Engl J Med\, 2002\).
+   Supplying gene expression data sets for the demos of the biclustering method \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). The following three data sets are provided\: A\) breast cancer \(van\'t Veer\, Nature\, 2002\)\, B\) multiple tissues \(Su\, PNAS\, 2002\)\, and C\) diffuse large\-B\-cell lymphoma \(Rosenwald\, N Engl J Med\, 2002\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/fabiaData.html
-Versions      1.20.0
-License       LGPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fabiadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/fabiaData.html
+   :license: LGPL (>= 2.1)
+   :recipe: /`bioconductor-fabiadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fabiadata
 
-Installation
-------------
+   |downloads_bioconductor-fabiadata| |docker_bioconductor-fabiadata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-fabiadata
+   :required~by: |required_by_bioconductor-fabiadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fabiadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fabiadata
+
+   and update with::
+
+      conda update bioconductor-fabiadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fabiadata
+
+
+.. |required_by_bioconductor-fabiadata| conda:required_by:: bioconductor-fabiadata
+.. |downloads_bioconductor-fabiadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fabiadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fabiadata| image:: https://quay.io/repository/biocontainers/bioconductor-fabiadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fabiadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fabiadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fabiadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fabiadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fabiadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fabiadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fabiadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fabiadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fabiadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fabiadata/README.html
 

@@ -1,54 +1,66 @@
-.. _`intermine`:
+.. title:: Package Recipe 'intermine'
+.. highlight: bash
+
 
 intermine
 =========
 
-|downloads|
+.. conda:recipe:: python-intermine
+   :replaces_section_title:
 
-InterMine WebService client
+   InterMine WebService client
 
-============= ===========
-Home          http://www.intermine.org
-Versions      1.11.0, 1.10.0, 1.09.09, 1.09.05
-License       GNU Library or Lesser General Public License (LGPL) or BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-intermine/meta.yaml
+   :homepage: http://www.intermine.org
+   :license: LGPL / GNU Library or Lesser General Public License (LGPL) or BSD License
+   :recipe: /`python-intermine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intermine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intermine/meta.yaml>`_
 
-
-
-============= ===========
-
-InterMine Webservice Client\:A Python API to access bioinformatics data warehouses powered by the InterMine platform.
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install intermine
-
-and update with::
-
-   conda update intermine
+   InterMine Webservice Client\:A Python API to access bioinformatics data warehouses powered by the InterMine platform.
 
 
+.. conda:package:: intermine
 
-|docker|
+   |downloads_intermine| |docker_intermine|
 
-A Docker container is available at https://quay.io/repository/biocontainers/intermine.
+   :versions: 1.11.0, 1.10.0, 1.09.09, 1.09.05
+
+   :depends: :conda:package:`lxml`  :conda:package:`python`  :conda:package:`requests`  
+
+   :required~by: |required_by_intermine|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install intermine
+
+   and update with::
+
+      conda update intermine
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/intermine
+
+
+.. |required_by_intermine| conda:required_by:: intermine
+.. |downloads_intermine| image:: https://img.shields.io/conda/dn/bioconda/intermine.svg?style=flat
+   :alt:   (downloads)
+.. |docker_intermine| image:: https://quay.io/repository/biocontainers/intermine/status
+   :target: https://quay.io/repository/biocontainers/intermine
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/intermine/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/intermine/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/intermine/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/intermine/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/intermine
-.. |docker| image:: https://quay.io/repository/biocontainers/intermine/status
-                :target: https://quay.io/repository/biocontainers/intermine
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/intermine/README.html
 

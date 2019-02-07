@@ -1,54 +1,66 @@
-.. _`perl-parse-yapp`:
+.. title:: Package Recipe 'perl-parse-yapp'
+.. highlight: bash
+
 
 perl-parse-yapp
 ===============
 
-|downloads|
+.. conda:recipe:: perl-parse-yapp
+   :replaces_section_title:
 
-A perl frontend to the Parse\:\:Yapp module
+   A perl frontend to the Parse\:\:Yapp module
 
-============= ===========
-Home          http://metacpan.org/pod/Parse::Yapp
-Versions      1.21, 1.05
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-parse-yapp/meta.yaml
+   :homepage: http://metacpan.org/pod/Parse::Yapp
+   :license: unknown
+   :recipe: /`perl-parse-yapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-yapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-yapp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-parse-yapp
 
-Installation
-------------
+   |downloads_perl-parse-yapp| |docker_perl-parse-yapp|
 
-.. highlight: bash
+   :versions: 1.21, 1.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-parse-yapp
+   :required~by: |required_by_perl-parse-yapp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-parse-yapp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-parse-yapp
+
+   and update with::
+
+      conda update perl-parse-yapp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-parse-yapp
+
+
+.. |required_by_perl-parse-yapp| conda:required_by:: perl-parse-yapp
+.. |downloads_perl-parse-yapp| image:: https://img.shields.io/conda/dn/bioconda/perl-parse-yapp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-parse-yapp| image:: https://quay.io/repository/biocontainers/perl-parse-yapp/status
+   :target: https://quay.io/repository/biocontainers/perl-parse-yapp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-parse-yapp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-parse-yapp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-parse-yapp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-parse-yapp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-parse-yapp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-parse-yapp
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-parse-yapp/status
-                :target: https://quay.io/repository/biocontainers/perl-parse-yapp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-parse-yapp/README.html
 

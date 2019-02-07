@@ -1,56 +1,67 @@
-.. _`fastqc`:
+.. title:: Package Recipe 'fastqc'
+.. highlight: bash
+
 
 fastqc
 ======
 
-|downloads|
+.. conda:recipe:: fastqc
+   :replaces_section_title:
 
-A quality control tool for high throughput sequence data.
+   A quality control tool for high throughput sequence data.
 
-============= ===========
-Home          http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-Versions      0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.10.1
-License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastqc/meta.yaml
+   :homepage: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+   :license: GPL >=3
+   :recipe: /`fastqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc/meta.yaml>`_
+   :links: biotools: :biotools:`fastqc`
 
-
-
-Links         biotools: :biotools:`fastqc`
-
-============= ===========
+   
 
 
+.. conda:package:: fastqc
 
-Installation
-------------
+   |downloads_fastqc| |docker_fastqc|
 
-.. highlight: bash
+   :versions: 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.10.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8.0.144 :conda:package:`perl`  
 
-   conda install fastqc
+   :required~by: |required_by_fastqc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastqc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastqc
+
+   and update with::
+
+      conda update fastqc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastqc
+
+
+.. |required_by_fastqc| conda:required_by:: fastqc
+.. |downloads_fastqc| image:: https://img.shields.io/conda/dn/bioconda/fastqc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastqc| image:: https://quay.io/repository/biocontainers/fastqc/status
+   :target: https://quay.io/repository/biocontainers/fastqc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastqc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastqc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastqc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastqc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastqc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastqc
-.. |docker| image:: https://quay.io/repository/biocontainers/fastqc/status
-                :target: https://quay.io/repository/biocontainers/fastqc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastqc/README.html
 

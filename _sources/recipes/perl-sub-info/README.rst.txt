@@ -1,54 +1,66 @@
-.. _`perl-sub-info`:
+.. title:: Package Recipe 'perl-sub-info'
+.. highlight: bash
+
 
 perl-sub-info
 =============
 
-|downloads|
+.. conda:recipe:: perl-sub-info
+   :replaces_section_title:
 
-Tool for inspecting subroutines.
+   Tool for inspecting subroutines.
 
-============= ===========
-Home          http://metacpan.org/pod/Sub::Info
-Versions      0.002
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-info/meta.yaml
+   :homepage: http://metacpan.org/pod/Sub::Info
+   :license: perl_5
+   :recipe: /`perl-sub-info <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-info>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-info/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sub-info
 
-Installation
-------------
+   |downloads_perl-sub-info| |docker_perl-sub-info|
 
-.. highlight: bash
+   :versions: 0.002
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-importer`  
 
-   conda install perl-sub-info
+   :required~by: |required_by_perl-sub-info|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sub-info
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sub-info
+
+   and update with::
+
+      conda update perl-sub-info
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sub-info
+
+
+.. |required_by_perl-sub-info| conda:required_by:: perl-sub-info
+.. |downloads_perl-sub-info| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-info.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sub-info| image:: https://quay.io/repository/biocontainers/perl-sub-info/status
+   :target: https://quay.io/repository/biocontainers/perl-sub-info
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sub-info.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sub-info/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sub-info/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sub-info/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sub-info/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sub-info
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-info/status
-                :target: https://quay.io/repository/biocontainers/perl-sub-info
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sub-info/README.html
 

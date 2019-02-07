@@ -1,54 +1,66 @@
-.. _`bioconductor-hdcytodata`:
+.. title:: Package Recipe 'bioconductor-hdcytodata'
+.. highlight: bash
+
 
 bioconductor-hdcytodata
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hdcytodata
+   :replaces_section_title:
 
-Data package containing a set of high\-dimensional cytometry datasets saved in SummarizedExperiment and flowSet Bioconductor object formats\, including row and column metadata describing samples\, cell populations \(clusters\)\, and protein markers.
+   Data package containing a set of high\-dimensional cytometry datasets saved in SummarizedExperiment and flowSet Bioconductor object formats\, including row and column metadata describing samples\, cell populations \(clusters\)\, and protein markers.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/HDCytoData.html
-Versions      1.2.1
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hdcytodata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HDCytoData.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-hdcytodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hdcytodata
 
-Installation
-------------
+   |downloads_bioconductor-hdcytodata| |docker_bioconductor-hdcytodata|
 
-.. highlight: bash
+   :versions: 1.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hdcytodata
+   :required~by: |required_by_bioconductor-hdcytodata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hdcytodata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hdcytodata
+
+   and update with::
+
+      conda update bioconductor-hdcytodata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hdcytodata
+
+
+.. |required_by_bioconductor-hdcytodata| conda:required_by:: bioconductor-hdcytodata
+.. |downloads_bioconductor-hdcytodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hdcytodata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hdcytodata| image:: https://quay.io/repository/biocontainers/bioconductor-hdcytodata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hdcytodata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hdcytodata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hdcytodata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hdcytodata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hdcytodata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hdcytodata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hdcytodata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hdcytodata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hdcytodata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hdcytodata/README.html
 

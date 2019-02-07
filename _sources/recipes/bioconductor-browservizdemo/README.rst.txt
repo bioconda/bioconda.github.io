@@ -1,56 +1,67 @@
-.. _`bioconductor-browservizdemo`:
+.. title:: Package Recipe 'bioconductor-browservizdemo'
+.. highlight: bash
+
 
 bioconductor-browservizdemo
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-browservizdemo
+   :replaces_section_title:
 
-A BrowserViz subclassing example\, xy plotting in the browser using d3.
+   A BrowserViz subclassing example\, xy plotting in the browser using d3.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/BrowserVizDemo.html
-Versions      1.11.0, 1.10.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-browservizdemo/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/BrowserVizDemo.html
+   :license: GPL-2
+   :recipe: /`bioconductor-browservizdemo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browservizdemo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browservizdemo/meta.yaml>`_
+   :links: biotools: :biotools:`browservizdemo`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`browservizdemo`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-browservizdemo
 
-Installation
-------------
+   |downloads_bioconductor-browservizdemo| |docker_bioconductor-browservizdemo|
 
-.. highlight: bash
+   :versions: 1.11.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-browserviz` >=2.2.0,<2.4.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-httpuv` >=1.3.2 :conda:package:`r-jsonlite` >=0.9.15 :conda:package:`r-rcpp` >=0.11.5 
 
-   conda install bioconductor-browservizdemo
+   :required~by: |required_by_bioconductor-browservizdemo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-browservizdemo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-browservizdemo
+
+   and update with::
+
+      conda update bioconductor-browservizdemo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-browservizdemo
+
+
+.. |required_by_bioconductor-browservizdemo| conda:required_by:: bioconductor-browservizdemo
+.. |downloads_bioconductor-browservizdemo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-browservizdemo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-browservizdemo| image:: https://quay.io/repository/biocontainers/bioconductor-browservizdemo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-browservizdemo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-browservizdemo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-browservizdemo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-browservizdemo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-browservizdemo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-browservizdemo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-browservizdemo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-browservizdemo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-browservizdemo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-browservizdemo/README.html
 

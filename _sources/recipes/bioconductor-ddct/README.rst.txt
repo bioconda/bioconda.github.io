@@ -1,56 +1,67 @@
-.. _`bioconductor-ddct`:
+.. title:: Package Recipe 'bioconductor-ddct'
+.. highlight: bash
+
 
 bioconductor-ddct
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-ddct
+   :replaces_section_title:
 
-The Delta\-Delta\-Ct \(ddCt\) Algorithm is an approximation method to determine relative gene expression with quantitative real\-time PCR \(qRT\-PCR\) experiments. Compared to other approaches\, it requires no standard curve for each primer\-target pair\, therefore reducing the working load and yet returning accurate enough results as long as the assumptions of the amplification efficiency hold. The ddCt package implements a pipeline to collect\, analyse and visualize qRT\-PCR results\, for example those from TaqMan SDM software\, mainly using the ddCt method. The pipeline can be either invoked by a script in command\-line or through the API consisting of S4\-Classes\, methods and functions.
+   The Delta\-Delta\-Ct \(ddCt\) Algorithm is an approximation method to determine relative gene expression with quantitative real\-time PCR \(qRT\-PCR\) experiments. Compared to other approaches\, it requires no standard curve for each primer\-target pair\, therefore reducing the working load and yet returning accurate enough results as long as the assumptions of the amplification efficiency hold. The ddCt package implements a pipeline to collect\, analyse and visualize qRT\-PCR results\, for example those from TaqMan SDM software\, mainly using the ddCt method. The pipeline can be either invoked by a script in command\-line or through the API consisting of S4\-Classes\, methods and functions.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ddCt.html
-Versions      1.38.0, 1.36.0, 1.34.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ddct/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ddCt.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-ddct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct/meta.yaml>`_
+   :links: biotools: :biotools:`ddct`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`ddct`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ddct
 
-Installation
-------------
+   |downloads_bioconductor-ddct| |docker_bioconductor-ddct|
 
-.. highlight: bash
+   :versions: 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-rcolorbrewer` >=0.1-3 :conda:package:`r-xtable`  
 
-   conda install bioconductor-ddct
+   :required~by: |required_by_bioconductor-ddct|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ddct
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ddct
+
+   and update with::
+
+      conda update bioconductor-ddct
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ddct
+
+
+.. |required_by_bioconductor-ddct| conda:required_by:: bioconductor-ddct
+.. |downloads_bioconductor-ddct| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ddct.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ddct| image:: https://quay.io/repository/biocontainers/bioconductor-ddct/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ddct
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ddct.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ddct/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ddct/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ddct/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ddct/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ddct
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ddct/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ddct
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ddct/README.html
 

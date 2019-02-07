@@ -1,56 +1,67 @@
-.. _`bioconductor-dupchecker`:
+.. title:: Package Recipe 'bioconductor-dupchecker'
+.. highlight: bash
+
 
 bioconductor-dupchecker
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-dupchecker
+   :replaces_section_title:
 
-Meta\-analysis has become a popular approach for high\-throughput genomic data analysis because it often can significantly increase power to detect biological signals or patterns in datasets. However\, when using public\-available databases for meta\-analysis\, duplication of samples is an often encountered problem\, especially for gene expression data. Not removing duplicates would make study results questionable. We developed a Bioconductor package DupChecker that efficiently identifies duplicated samples by generating MD5 fingerprints for raw data.
+   Meta\-analysis has become a popular approach for high\-throughput genomic data analysis because it often can significantly increase power to detect biological signals or patterns in datasets. However\, when using public\-available databases for meta\-analysis\, duplication of samples is an often encountered problem\, especially for gene expression data. Not removing duplicates would make study results questionable. We developed a Bioconductor package DupChecker that efficiently identifies duplicated samples by generating MD5 fingerprints for raw data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DupChecker.html
-Versions      1.20.0, 1.18.0, 1.16.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dupchecker/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DupChecker.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-dupchecker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker/meta.yaml>`_
+   :links: biotools: :biotools:`dupchecker`
 
-
-
-Links         biotools: :biotools:`dupchecker`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dupchecker
 
-Installation
-------------
+   |downloads_bioconductor-dupchecker| |docker_bioconductor-dupchecker|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-r.utils`  :conda:package:`r-rcurl`  
 
-   conda install bioconductor-dupchecker
+   :required~by: |required_by_bioconductor-dupchecker|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dupchecker
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dupchecker
+
+   and update with::
+
+      conda update bioconductor-dupchecker
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dupchecker
+
+
+.. |required_by_bioconductor-dupchecker| conda:required_by:: bioconductor-dupchecker
+.. |downloads_bioconductor-dupchecker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dupchecker.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dupchecker| image:: https://quay.io/repository/biocontainers/bioconductor-dupchecker/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dupchecker
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dupchecker.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dupchecker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dupchecker/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dupchecker/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dupchecker/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dupchecker
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dupchecker/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dupchecker
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dupchecker/README.html
 

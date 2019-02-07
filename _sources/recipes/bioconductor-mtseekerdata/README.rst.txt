@@ -1,54 +1,66 @@
-.. _`bioconductor-mtseekerdata`:
+.. title:: Package Recipe 'bioconductor-mtseekerdata'
+.. highlight: bash
+
 
 bioconductor-mtseekerdata
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mtseekerdata
+   :replaces_section_title:
 
-Provides examples for the MTseeker package vignette.
+   Provides examples for the MTseeker package vignette.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/MTseekerData.html
-Versions      1.0.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mtseekerdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MTseekerData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mtseekerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtseekerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtseekerdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mtseekerdata
 
-Installation
-------------
+   |downloads_bioconductor-mtseekerdata| |docker_bioconductor-mtseekerdata|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-homo.sapiens` >=1.3.0,<1.4.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-mtseeker` >=1.0.0,<1.1.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mtseekerdata
+   :required~by: |required_by_bioconductor-mtseekerdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mtseekerdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mtseekerdata
+
+   and update with::
+
+      conda update bioconductor-mtseekerdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mtseekerdata
+
+
+.. |required_by_bioconductor-mtseekerdata| conda:required_by:: bioconductor-mtseekerdata
+.. |downloads_bioconductor-mtseekerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mtseekerdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mtseekerdata| image:: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mtseekerdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mtseekerdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mtseekerdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mtseekerdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mtseekerdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mtseekerdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mtseekerdata/README.html
 

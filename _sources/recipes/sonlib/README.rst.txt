@@ -1,54 +1,66 @@
-.. _`sonlib`:
+.. title:: Package Recipe 'sonlib'
+.. highlight: bash
+
 
 sonlib
 ======
 
-|downloads|
+.. conda:recipe:: sonlib
+   :replaces_section_title:
 
-Small general purpose library for C and Python with focus on bioinformatics.
+   Small general purpose library for C and Python with focus on bioinformatics.
 
-============= ===========
-Home          https://github.com/benedictpaten/sonLib
-Versions      1.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sonlib/meta.yaml
+   :homepage: https://github.com/benedictpaten/sonLib
+   :license: MIT
+   :recipe: /`sonlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonlib/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sonlib
 
-Installation
-------------
+   |downloads_sonlib| |docker_sonlib|
 
-.. highlight: bash
+   :versions: 1.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install sonlib
+   :required~by: |required_by_sonlib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sonlib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sonlib
+
+   and update with::
+
+      conda update sonlib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sonlib
+
+
+.. |required_by_sonlib| conda:required_by:: sonlib
+.. |downloads_sonlib| image:: https://img.shields.io/conda/dn/bioconda/sonlib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sonlib| image:: https://quay.io/repository/biocontainers/sonlib/status
+   :target: https://quay.io/repository/biocontainers/sonlib
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sonlib.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sonlib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sonlib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sonlib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sonlib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sonlib
-.. |docker| image:: https://quay.io/repository/biocontainers/sonlib/status
-                :target: https://quay.io/repository/biocontainers/sonlib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sonlib/README.html
 

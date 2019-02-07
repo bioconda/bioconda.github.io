@@ -1,54 +1,66 @@
-.. _`bpipe`:
+.. title:: Package Recipe 'bpipe'
+.. highlight: bash
+
 
 bpipe
 =====
 
-|downloads|
+.. conda:recipe:: bpipe
+   :replaces_section_title:
 
-Bpipe \- a tool for running and managing bioinformatics pipelines
+   Bpipe \- a tool for running and managing bioinformatics pipelines
 
-============= ===========
-Home          http://docs.bpipe.org/
-Versions      0.9.9.2
-License       BSD-3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bpipe/meta.yaml
+   :homepage: http://docs.bpipe.org/
+   :license: BSD-3-clause
+   :recipe: /`bpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bpipe
 
-Installation
-------------
+   |downloads_bpipe| |docker_bpipe|
 
-.. highlight: bash
+   :versions: 0.9.9.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` 8.0* zulu8* 
 
-   conda install bpipe
+   :required~by: |required_by_bpipe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bpipe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bpipe
+
+   and update with::
+
+      conda update bpipe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bpipe
+
+
+.. |required_by_bpipe| conda:required_by:: bpipe
+.. |downloads_bpipe| image:: https://img.shields.io/conda/dn/bioconda/bpipe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bpipe| image:: https://quay.io/repository/biocontainers/bpipe/status
+   :target: https://quay.io/repository/biocontainers/bpipe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bpipe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bpipe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bpipe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bpipe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bpipe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bpipe
-.. |docker| image:: https://quay.io/repository/biocontainers/bpipe/status
-                :target: https://quay.io/repository/biocontainers/bpipe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bpipe/README.html
 

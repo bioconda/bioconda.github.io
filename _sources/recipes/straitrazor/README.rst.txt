@@ -1,54 +1,66 @@
-.. _`straitrazor`:
+.. title:: Package Recipe 'straitrazor'
+.. highlight: bash
+
 
 straitrazor
 ===========
 
-|downloads|
+.. conda:recipe:: straitrazor
+   :replaces_section_title:
 
-The STR Allele Identification Tool
+   The STR Allele Identification Tool
 
-============= ===========
-Home          https://github.com/Ahhgust/STRaitRazor
-Versions      3.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//straitrazor/meta.yaml
+   :homepage: https://github.com/Ahhgust/STRaitRazor
+   :license: MIT
+   :recipe: /`straitrazor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/straitrazor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/straitrazor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: straitrazor
 
-Installation
-------------
+   |downloads_straitrazor| |docker_straitrazor|
 
-.. highlight: bash
+   :versions: 3.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install straitrazor
+   :required~by: |required_by_straitrazor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update straitrazor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install straitrazor
+
+   and update with::
+
+      conda update straitrazor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/straitrazor
+
+
+.. |required_by_straitrazor| conda:required_by:: straitrazor
+.. |downloads_straitrazor| image:: https://img.shields.io/conda/dn/bioconda/straitrazor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_straitrazor| image:: https://quay.io/repository/biocontainers/straitrazor/status
+   :target: https://quay.io/repository/biocontainers/straitrazor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/straitrazor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/straitrazor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/straitrazor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/straitrazor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/straitrazor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/straitrazor
-.. |docker| image:: https://quay.io/repository/biocontainers/straitrazor/status
-                :target: https://quay.io/repository/biocontainers/straitrazor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/straitrazor/README.html
 

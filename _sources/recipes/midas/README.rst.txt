@@ -1,54 +1,66 @@
-.. _`midas`:
+.. title:: Package Recipe 'midas'
+.. highlight: bash
+
 
 midas
 =====
 
-|downloads|
+.. conda:recipe:: midas
+   :replaces_section_title:
 
-An integrated pipeline for estimating strain\-level genomic variation from metagenomic data
+   An integrated pipeline for estimating strain\-level genomic variation from metagenomic data
 
-============= ===========
-Home          https://github.com/snayfach/MIDAS
-Versions      1.3.2, 1.3.1, 1.3.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//midas/meta.yaml
+   :homepage: https://github.com/snayfach/MIDAS
+   :license: GPL / GPL-3.0
+   :recipe: /`midas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/midas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/midas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: midas
 
-Installation
-------------
+   |downloads_midas| |docker_midas|
 
-.. highlight: bash
+   :versions: 1.3.2, 1.3.1, 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`bowtie2`  :conda:package:`hs-blastn`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools` >=1.4.0 
 
-   conda install midas
+   :required~by: |required_by_midas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update midas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install midas
+
+   and update with::
+
+      conda update midas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/midas
+
+
+.. |required_by_midas| conda:required_by:: midas
+.. |downloads_midas| image:: https://img.shields.io/conda/dn/bioconda/midas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_midas| image:: https://quay.io/repository/biocontainers/midas/status
+   :target: https://quay.io/repository/biocontainers/midas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/midas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/midas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/midas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/midas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/midas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/midas
-.. |docker| image:: https://quay.io/repository/biocontainers/midas/status
-                :target: https://quay.io/repository/biocontainers/midas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/midas/README.html
 

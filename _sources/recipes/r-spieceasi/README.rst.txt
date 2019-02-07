@@ -1,54 +1,66 @@
-.. _`r-spieceasi`:
+.. title:: Package Recipe 'r-spieceasi'
+.. highlight: bash
+
 
 r-spieceasi
 ===========
 
-|downloads|
+.. conda:recipe:: r-spieceasi
+   :replaces_section_title:
 
-A means to explore the structure of 16S rRNA surveys using a Structural  Topic Model coupled with functional prediction. The user provides an abundance  table\, sample metadata\, and taxonomy information\, and themetagenomics infers  associations between topics and sample features\, as well as topics and predicted  functional content. Functional prediction can be accomplished via Tax4Fun \(for  Silva references\) and PICRUSt \(for GreenGeenes references\).
+   A means to explore the structure of 16S rRNA surveys using a Structural  Topic Model coupled with functional prediction. The user provides an abundance  table\, sample metadata\, and taxonomy information\, and themetagenomics infers  associations between topics and sample features\, as well as topics and predicted  functional content. Functional prediction can be accomplished via Tax4Fun \(for  Silva references\) and PICRUSt \(for GreenGeenes references\).
 
-============= ===========
-Home          http://github.com/EESI/themetagenomics
-Versions      0.1.4
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-spieceasi/meta.yaml
+   :homepage: http://github.com/EESI/themetagenomics
+   :license: MIT / MIT
+   :recipe: /`r-spieceasi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-spieceasi
 
-Installation
-------------
+   |downloads_r-spieceasi| |docker_r-spieceasi|
 
-.. highlight: bash
+   :versions: 0.1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-huge`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-vgam`  
 
-   conda install r-spieceasi
+   :required~by: |required_by_r-spieceasi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-spieceasi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-spieceasi
+
+   and update with::
+
+      conda update r-spieceasi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-spieceasi
+
+
+.. |required_by_r-spieceasi| conda:required_by:: r-spieceasi
+.. |downloads_r-spieceasi| image:: https://img.shields.io/conda/dn/bioconda/r-spieceasi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-spieceasi| image:: https://quay.io/repository/biocontainers/r-spieceasi/status
+   :target: https://quay.io/repository/biocontainers/r-spieceasi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-spieceasi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-spieceasi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-spieceasi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-spieceasi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-spieceasi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-spieceasi
-.. |docker| image:: https://quay.io/repository/biocontainers/r-spieceasi/status
-                :target: https://quay.io/repository/biocontainers/r-spieceasi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-spieceasi/README.html
 

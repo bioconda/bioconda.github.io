@@ -1,54 +1,66 @@
-.. _`qfilt`:
+.. title:: Package Recipe 'qfilt'
+.. highlight: bash
+
 
 qfilt
 =====
 
-|downloads|
+.. conda:recipe:: qfilt
+   :replaces_section_title:
 
-Filter sequencing data using some simple heuristics
+   Filter sequencing data using some simple heuristics
 
-============= ===========
-Home          https://github.com/veg/qfilt
-Versions      0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qfilt/meta.yaml
+   :homepage: https://github.com/veg/qfilt
+   :license: MIT
+   :recipe: /`qfilt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qfilt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qfilt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qfilt
 
-Installation
-------------
+   |downloads_qfilt| |docker_qfilt|
 
-.. highlight: bash
+   :versions: 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install qfilt
+   :required~by: |required_by_qfilt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qfilt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qfilt
+
+   and update with::
+
+      conda update qfilt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qfilt
+
+
+.. |required_by_qfilt| conda:required_by:: qfilt
+.. |downloads_qfilt| image:: https://img.shields.io/conda/dn/bioconda/qfilt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qfilt| image:: https://quay.io/repository/biocontainers/qfilt/status
+   :target: https://quay.io/repository/biocontainers/qfilt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qfilt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qfilt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qfilt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qfilt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qfilt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qfilt
-.. |docker| image:: https://quay.io/repository/biocontainers/qfilt/status
-                :target: https://quay.io/repository/biocontainers/qfilt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qfilt/README.html
 

@@ -1,56 +1,67 @@
-.. _`selscan`:
+.. title:: Package Recipe 'selscan'
+.. highlight: bash
+
 
 selscan
 =======
 
-|downloads|
+.. conda:recipe:: selscan
+   :replaces_section_title:
 
-a program to calculate EHH\-based scans for positive selection in genomes
+   a program to calculate EHH\-based scans for positive selection in genomes
 
-============= ===========
-Home          https://github.com/szpiech/selscan
-Versions      1.2.0a, 1.1.0b
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//selscan/meta.yaml
+   :homepage: https://github.com/szpiech/selscan
+   :license: GPL / GPL-3.0
+   :recipe: /`selscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selscan/meta.yaml>`_
+   :links: biotools: :biotools:`selscan`, doi: :doi:`10.1093/molbev/msu211`
 
-
-
-Links         biotools: :biotools:`selscan`, doi: :doi:`10.1093/molbev/msu211`
-
-============= ===========
+   
 
 
+.. conda:package:: selscan
 
-Installation
-------------
+   |downloads_selscan| |docker_selscan|
 
-.. highlight: bash
+   :versions: 1.2.0a, 1.1.0b
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install selscan
+   :required~by: |required_by_selscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update selscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install selscan
+
+   and update with::
+
+      conda update selscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/selscan
+
+
+.. |required_by_selscan| conda:required_by:: selscan
+.. |downloads_selscan| image:: https://img.shields.io/conda/dn/bioconda/selscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_selscan| image:: https://quay.io/repository/biocontainers/selscan/status
+   :target: https://quay.io/repository/biocontainers/selscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/selscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/selscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/selscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/selscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/selscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/selscan
-.. |docker| image:: https://quay.io/repository/biocontainers/selscan/status
-                :target: https://quay.io/repository/biocontainers/selscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/selscan/README.html
 

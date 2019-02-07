@@ -1,54 +1,66 @@
-.. _`bioconductor-ngscopy`:
+.. title:: Package Recipe 'bioconductor-ngscopy'
+.. highlight: bash
+
 
 bioconductor-ngscopy
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ngscopy
+   :replaces_section_title:
 
-NGScopy provides a quantitative caller for detecting copy number variations in next generation sequencing \(NGS\)\, including whole genome sequencing \(WGS\)\, whole exome sequencing \(WES\) and targeted panel sequencing \(TPS\). The caller can be parallelized by chromosomes to use multiple processors\/cores on one computer.
+   NGScopy provides a quantitative caller for detecting copy number variations in next generation sequencing \(NGS\)\, including whole genome sequencing \(WGS\)\, whole exome sequencing \(WES\) and targeted panel sequencing \(TPS\). The caller can be parallelized by chromosomes to use multiple processors\/cores on one computer.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/NGScopy.html
-Versions      1.16.1
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ngscopy/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NGScopy.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-ngscopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ngscopy
 
-Installation
-------------
+   |downloads_bioconductor-ngscopy| |docker_bioconductor-ngscopy|
 
-.. highlight: bash
+   :versions: 1.16.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-changepoint` >=2.1.1 :conda:package:`r-rbamtools` >=2.6.0 :conda:package:`r-xmisc` >=0.2.1 
 
-   conda install bioconductor-ngscopy
+   :required~by: |required_by_bioconductor-ngscopy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ngscopy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ngscopy
+
+   and update with::
+
+      conda update bioconductor-ngscopy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ngscopy
+
+
+.. |required_by_bioconductor-ngscopy| conda:required_by:: bioconductor-ngscopy
+.. |downloads_bioconductor-ngscopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ngscopy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ngscopy| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopy/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ngscopy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ngscopy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ngscopy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ngscopy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ngscopy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ngscopy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ngscopy
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopy/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ngscopy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ngscopy/README.html
 

@@ -1,56 +1,67 @@
-.. _`r-dbchip`:
+.. title:: Package Recipe 'r-dbchip'
+.. highlight: bash
+
 
 r-dbchip
 ========
 
-|downloads|
+.. conda:recipe:: r-dbchip
+   :replaces_section_title:
 
-ChIP\-seq differential binding
+   ChIP\-seq differential binding
 
-============= ===========
-Home          http://pages.cs.wisc.edu/~kliang/DBChIP
-Versions      1.1.6
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-dbchip/meta.yaml
+   :homepage: http://pages.cs.wisc.edu/~kliang/DBChIP
+   :license: GPL (>= 2)
+   :recipe: /`r-dbchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dbchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dbchip/meta.yaml>`_
+   :links: biotools: :biotools:`dbchip`, doi: :doi:`10.1093/bioinformatics/btr605`
 
-
-
-Links         biotools: :biotools:`dbchip`, doi: :doi:`10.1093/bioinformatics/btr605`
-
-============= ===========
+   
 
 
+.. conda:package:: r-dbchip
 
-Installation
-------------
+   |downloads_r-dbchip| |docker_r-dbchip|
 
-.. highlight: bash
+   :versions: 1.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-deseq`  :conda:package:`bioconductor-edger`  
 
-   conda install r-dbchip
+   :required~by: |required_by_r-dbchip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-dbchip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-dbchip
+
+   and update with::
+
+      conda update r-dbchip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-dbchip
+
+
+.. |required_by_r-dbchip| conda:required_by:: r-dbchip
+.. |downloads_r-dbchip| image:: https://img.shields.io/conda/dn/bioconda/r-dbchip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-dbchip| image:: https://quay.io/repository/biocontainers/r-dbchip/status
+   :target: https://quay.io/repository/biocontainers/r-dbchip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-dbchip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-dbchip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-dbchip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-dbchip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-dbchip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-dbchip
-.. |docker| image:: https://quay.io/repository/biocontainers/r-dbchip/status
-                :target: https://quay.io/repository/biocontainers/r-dbchip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-dbchip/README.html
 

@@ -1,54 +1,66 @@
-.. _`spectral_hk`:
+.. title:: Package Recipe 'spectral_hk'
+.. highlight: bash
+
 
 spectral_hk
 ===========
 
-|downloads|
+.. conda:recipe:: spectral_hk
+   :replaces_section_title:
 
-NCGC Spectral HashKey
+   NCGC Spectral HashKey
 
-============= ===========
-Home          https://bitbucket.org/ncgc/spectral_hk
-Versions      0.1
-License       PUBLIC DOMAIN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spectral_hk/meta.yaml
+   :homepage: https://bitbucket.org/ncgc/spectral_hk
+   :license: PUBLIC DOMAIN
+   :recipe: /`spectral_hk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectral_hk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectral_hk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: spectral_hk
 
-Installation
-------------
+   |downloads_spectral_hk| |docker_spectral_hk|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install spectral_hk
+   :required~by: |required_by_spectral_hk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update spectral_hk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install spectral_hk
+
+   and update with::
+
+      conda update spectral_hk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/spectral_hk
+
+
+.. |required_by_spectral_hk| conda:required_by:: spectral_hk
+.. |downloads_spectral_hk| image:: https://img.shields.io/conda/dn/bioconda/spectral_hk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_spectral_hk| image:: https://quay.io/repository/biocontainers/spectral_hk/status
+   :target: https://quay.io/repository/biocontainers/spectral_hk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/spectral_hk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/spectral_hk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/spectral_hk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/spectral_hk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/spectral_hk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/spectral_hk
-.. |docker| image:: https://quay.io/repository/biocontainers/spectral_hk/status
-                :target: https://quay.io/repository/biocontainers/spectral_hk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/spectral_hk/README.html
 

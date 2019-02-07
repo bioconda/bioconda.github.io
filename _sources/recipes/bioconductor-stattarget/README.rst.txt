@@ -1,54 +1,66 @@
-.. _`bioconductor-stattarget`:
+.. title:: Package Recipe 'bioconductor-stattarget'
+.. highlight: bash
+
 
 bioconductor-stattarget
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-stattarget
+   :replaces_section_title:
 
-A streamlined tool provides a graphical user interface for quality control based signal drift correction \(QC\-RFSC\)\, integration of data from multi\-batch MS\-based experiments\, and the comprehensive statistical analysis in metabolomics and proteomics.
+   A streamlined tool provides a graphical user interface for quality control based signal drift correction \(QC\-RFSC\)\, integration of data from multi\-batch MS\-based experiments\, and the comprehensive statistical analysis in metabolomics and proteomics.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/statTarget.html
-Versions      1.12.0
-License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stattarget/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/statTarget.html
+   :license: LGPL (>= 3)
+   :recipe: /`bioconductor-stattarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-stattarget
 
-Installation
-------------
+   |downloads_bioconductor-stattarget| |docker_bioconductor-stattarget|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-roc` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pdist`  :conda:package:`r-pls`  :conda:package:`r-plyr`  :conda:package:`r-randomforest`  :conda:package:`r-rrcov`  
 
-   conda install bioconductor-stattarget
+   :required~by: |required_by_bioconductor-stattarget|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-stattarget
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-stattarget
+
+   and update with::
+
+      conda update bioconductor-stattarget
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-stattarget
+
+
+.. |required_by_bioconductor-stattarget| conda:required_by:: bioconductor-stattarget
+.. |downloads_bioconductor-stattarget| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stattarget.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-stattarget| image:: https://quay.io/repository/biocontainers/bioconductor-stattarget/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-stattarget
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-stattarget.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-stattarget/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-stattarget/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-stattarget/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-stattarget/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-stattarget
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-stattarget/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-stattarget
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-stattarget/README.html
 

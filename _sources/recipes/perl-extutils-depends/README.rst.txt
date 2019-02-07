@@ -1,54 +1,66 @@
-.. _`perl-extutils-depends`:
+.. title:: Package Recipe 'perl-extutils-depends'
+.. highlight: bash
+
 
 perl-extutils-depends
 =====================
 
-|downloads|
+.. conda:recipe:: perl-extutils-depends
+   :replaces_section_title:
 
-Easily build XS extensions that depend on XS extensions
+   Easily build XS extensions that depend on XS extensions
 
-============= ===========
-Home          http://gtk2-perl.sourceforge.net
-Versions      0.405
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-depends/meta.yaml
+   :homepage: http://gtk2-perl.sourceforge.net
+   :license: perl_5
+   :recipe: /`perl-extutils-depends <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-depends>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-depends/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-extutils-depends
 
-Installation
-------------
+   |downloads_perl-extutils-depends| |docker_perl-extutils-depends|
 
-.. highlight: bash
+   :versions: 0.405
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-data-dumper`  :conda:package:`perl-pathtools`  
 
-   conda install perl-extutils-depends
+   :required~by: |required_by_perl-extutils-depends|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-extutils-depends
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-extutils-depends
+
+   and update with::
+
+      conda update perl-extutils-depends
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-extutils-depends
+
+
+.. |required_by_perl-extutils-depends| conda:required_by:: perl-extutils-depends
+.. |downloads_perl-extutils-depends| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-depends.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-extutils-depends| image:: https://quay.io/repository/biocontainers/perl-extutils-depends/status
+   :target: https://quay.io/repository/biocontainers/perl-extutils-depends
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-extutils-depends.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-extutils-depends/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-extutils-depends/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-extutils-depends/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-extutils-depends/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-extutils-depends
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-depends/status
-                :target: https://quay.io/repository/biocontainers/perl-extutils-depends
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-extutils-depends/README.html
 

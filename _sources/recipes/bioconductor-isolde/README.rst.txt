@@ -1,56 +1,67 @@
-.. _`bioconductor-isolde`:
+.. title:: Package Recipe 'bioconductor-isolde'
+.. highlight: bash
+
 
 bioconductor-isolde
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-isolde
+   :replaces_section_title:
 
-This package provides ISoLDE a new method for identifying imprinted genes. This method is dedicated to data arising from RNA sequencing technologies. The ISoLDE package implements original statistical methodology described in the publication below.
+   This package provides ISoLDE a new method for identifying imprinted genes. This method is dedicated to data arising from RNA sequencing technologies. The ISoLDE package implements original statistical methodology described in the publication below.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ISoLDE.html
-Versions      1.10.1, 1.10.0, 1.8.0, 1.6.0
-License       GPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-isolde/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ISoLDE.html
+   :license: GPL (>= 2.0)
+   :recipe: /`bioconductor-isolde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isolde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isolde/meta.yaml>`_
+   :links: biotools: :biotools:`isolde`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`isolde`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-isolde
 
-Installation
-------------
+   |downloads_bioconductor-isolde| |docker_bioconductor-isolde|
 
-.. highlight: bash
+   :versions: 1.10.1, 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-isolde
+   :required~by: |required_by_bioconductor-isolde|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-isolde
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-isolde
+
+   and update with::
+
+      conda update bioconductor-isolde
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-isolde
+
+
+.. |required_by_bioconductor-isolde| conda:required_by:: bioconductor-isolde
+.. |downloads_bioconductor-isolde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isolde.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-isolde| image:: https://quay.io/repository/biocontainers/bioconductor-isolde/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-isolde
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-isolde.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-isolde/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-isolde/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-isolde/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-isolde/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-isolde
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-isolde/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-isolde
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-isolde/README.html
 

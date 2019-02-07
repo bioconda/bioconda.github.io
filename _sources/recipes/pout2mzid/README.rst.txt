@@ -1,54 +1,66 @@
-.. _`pout2mzid`:
+.. title:: Package Recipe 'pout2mzid'
+.. highlight: bash
+
 
 pout2mzid
 =========
 
-|downloads|
+.. conda:recipe:: pout2mzid
+   :replaces_section_title:
 
-Adds percolator statistics to mzIdentML files that were used as input to percolator
+   Adds percolator statistics to mzIdentML files that were used as input to percolator
 
-============= ===========
-Home          https://github.com/percolator/pout2mzid
-Versions      0.3.03
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pout2mzid/meta.yaml
+   :homepage: https://github.com/percolator/pout2mzid
+   :license: Apache License, Version 2.0
+   :recipe: /`pout2mzid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pout2mzid
 
-Installation
-------------
+   |downloads_pout2mzid| |docker_pout2mzid|
 
-.. highlight: bash
+   :versions: 0.3.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` ==1.62 :conda:package:`libgcc`  :conda:package:`xerces-c`  :conda:package:`xsd`  
 
-   conda install pout2mzid
+   :required~by: |required_by_pout2mzid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pout2mzid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pout2mzid
+
+   and update with::
+
+      conda update pout2mzid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pout2mzid
+
+
+.. |required_by_pout2mzid| conda:required_by:: pout2mzid
+.. |downloads_pout2mzid| image:: https://img.shields.io/conda/dn/bioconda/pout2mzid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pout2mzid| image:: https://quay.io/repository/biocontainers/pout2mzid/status
+   :target: https://quay.io/repository/biocontainers/pout2mzid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pout2mzid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pout2mzid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pout2mzid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pout2mzid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pout2mzid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pout2mzid
-.. |docker| image:: https://quay.io/repository/biocontainers/pout2mzid/status
-                :target: https://quay.io/repository/biocontainers/pout2mzid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pout2mzid/README.html
 

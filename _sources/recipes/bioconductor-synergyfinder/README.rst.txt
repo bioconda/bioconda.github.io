@@ -1,56 +1,67 @@
-.. _`bioconductor-synergyfinder`:
+.. title:: Package Recipe 'bioconductor-synergyfinder'
+.. highlight: bash
+
 
 bioconductor-synergyfinder
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-synergyfinder
+   :replaces_section_title:
 
-Efficient implementations for all the popular synergy scoring models for drug combinations\, including HSA\, Loewe\, Bliss and ZIP and visualization of the synergy scores as either a two\-dimensional or a three\-dimensional interaction surface over the dose matrix.
+   Efficient implementations for all the popular synergy scoring models for drug combinations\, including HSA\, Loewe\, Bliss and ZIP and visualization of the synergy scores as either a two\-dimensional or a three\-dimensional interaction surface over the dose matrix.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/synergyfinder.html
-Versions      1.8.0, 1.6.1, 1.4.0, 1.2.0, 1.0.0
-License       Mozilla Public License 2.0 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-synergyfinder/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/synergyfinder.html
+   :license: Mozilla Public License 2.0 + file LICENSE
+   :recipe: /`bioconductor-synergyfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder/meta.yaml>`_
+   :links: biotools: :biotools:`synergyfinder`, doi: :doi:`10.1093/bioinformatics/btx162`
 
-
-
-Links         biotools: :biotools:`synergyfinder`, doi: :doi:`10.1093/bioinformatics/btx162`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-synergyfinder
 
-Installation
-------------
+   |downloads_bioconductor-synergyfinder| |docker_bioconductor-synergyfinder|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.1, 1.4.0, 1.2.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-drc` >=2.5-12 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-gplots` >=3.0.0 :conda:package:`r-gridbase` >=0.4-7 :conda:package:`r-lattice` >=0.20-33 :conda:package:`r-nleqslv` >=3.0 :conda:package:`r-reshape2` >=1.4.1 :conda:package:`r-spatialextremes` >=2.0-2 
 
-   conda install bioconductor-synergyfinder
+   :required~by: |required_by_bioconductor-synergyfinder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-synergyfinder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-synergyfinder
+
+   and update with::
+
+      conda update bioconductor-synergyfinder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-synergyfinder
+
+
+.. |required_by_bioconductor-synergyfinder| conda:required_by:: bioconductor-synergyfinder
+.. |downloads_bioconductor-synergyfinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synergyfinder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-synergyfinder| image:: https://quay.io/repository/biocontainers/bioconductor-synergyfinder/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-synergyfinder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-synergyfinder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-synergyfinder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-synergyfinder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-synergyfinder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-synergyfinder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-synergyfinder
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-synergyfinder/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-synergyfinder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-synergyfinder/README.html
 

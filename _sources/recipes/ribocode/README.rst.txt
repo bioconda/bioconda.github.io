@@ -1,54 +1,66 @@
-.. _`ribocode`:
+.. title:: Package Recipe 'ribocode'
+.. highlight: bash
+
 
 ribocode
 ========
 
-|downloads|
+.. conda:recipe:: ribocode
+   :replaces_section_title:
 
-A package for identifying the translated ORFs using ribosome\-profiling data
+   A package for identifying the translated ORFs using ribosome\-profiling data
 
-============= ===========
-Home          https://github.com/xryanglab/RiboCode
-Versions      1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ribocode/meta.yaml
+   :homepage: https://github.com/xryanglab/RiboCode
+   :license: MIT / MIT
+   :recipe: /`ribocode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribocode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribocode/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ribocode
 
-Installation
-------------
+   |downloads_ribocode| |docker_ribocode|
 
-.. highlight: bash
+   :versions: 1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`future`  :conda:package:`h5py`  :conda:package:`htseq`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`pysam` >0.8.4 :conda:package:`python`  :conda:package:`scipy`  
 
-   conda install ribocode
+   :required~by: |required_by_ribocode|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ribocode
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ribocode
+
+   and update with::
+
+      conda update ribocode
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ribocode
+
+
+.. |required_by_ribocode| conda:required_by:: ribocode
+.. |downloads_ribocode| image:: https://img.shields.io/conda/dn/bioconda/ribocode.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ribocode| image:: https://quay.io/repository/biocontainers/ribocode/status
+   :target: https://quay.io/repository/biocontainers/ribocode
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ribocode.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ribocode/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ribocode/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ribocode/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ribocode/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ribocode
-.. |docker| image:: https://quay.io/repository/biocontainers/ribocode/status
-                :target: https://quay.io/repository/biocontainers/ribocode
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ribocode/README.html
 

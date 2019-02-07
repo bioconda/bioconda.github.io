@@ -1,54 +1,66 @@
-.. _`bioconductor-vulcandata`:
+.. title:: Package Recipe 'bioconductor-vulcandata'
+.. highlight: bash
+
 
 bioconductor-vulcandata
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-vulcandata
+   :replaces_section_title:
 
-This package provides a dummy regulatory network and ChIP\-Seq dataset for running examples in the vulcan package
+   This package provides a dummy regulatory network and ChIP\-Seq dataset for running examples in the vulcan package
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/vulcandata.html
-Versions      1.4.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vulcandata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/vulcandata.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-vulcandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-vulcandata
 
-Installation
-------------
+   |downloads_bioconductor-vulcandata| |docker_bioconductor-vulcandata|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-vulcandata
+   :required~by: |required_by_bioconductor-vulcandata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-vulcandata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-vulcandata
+
+   and update with::
+
+      conda update bioconductor-vulcandata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-vulcandata
+
+
+.. |required_by_bioconductor-vulcandata| conda:required_by:: bioconductor-vulcandata
+.. |downloads_bioconductor-vulcandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vulcandata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-vulcandata| image:: https://quay.io/repository/biocontainers/bioconductor-vulcandata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-vulcandata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-vulcandata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-vulcandata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-vulcandata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-vulcandata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-vulcandata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-vulcandata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-vulcandata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-vulcandata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-vulcandata/README.html
 

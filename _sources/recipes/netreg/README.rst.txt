@@ -1,56 +1,68 @@
-.. _`netreg`:
+.. title:: Package Recipe 'netreg'
+.. highlight: bash
+
 
 netreg
 ======
 
-|downloads|
+.. conda:recipe:: netreg
+   :replaces_section_title:
 
-netReg fits linear regression models using network\-penalization.
+   netReg fits linear regression models using network\-penalization.
 
-============= ===========
-Home          https://github.com/dirmeier/netReg
-Versions      1.6.0, 1.4.0, 1.2.0, 1.0.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//netreg/meta.yaml
+   :homepage: https://github.com/dirmeier/netReg
+   :documentation: https://dirmeier.github.io/netReg/
+   
+   :license: GPL3
+   :recipe: /`netreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netreg/meta.yaml>`_
 
-Documentation https://dirmeier.github.io/netReg/
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: netreg
 
-Installation
-------------
+   |downloads_netreg| |docker_netreg|
 
-.. highlight: bash
+   :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`armadillo` >=7.800.1 :conda:package:`armadillo` >=9.200,<10.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install netreg
+   :required~by: |required_by_netreg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update netreg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install netreg
+
+   and update with::
+
+      conda update netreg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/netreg
+
+
+.. |required_by_netreg| conda:required_by:: netreg
+.. |downloads_netreg| image:: https://img.shields.io/conda/dn/bioconda/netreg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_netreg| image:: https://quay.io/repository/biocontainers/netreg/status
+   :target: https://quay.io/repository/biocontainers/netreg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/netreg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/netreg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/netreg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/netreg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/netreg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/netreg
-.. |docker| image:: https://quay.io/repository/biocontainers/netreg/status
-                :target: https://quay.io/repository/biocontainers/netreg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/netreg/README.html
 

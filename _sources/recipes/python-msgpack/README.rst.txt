@@ -1,54 +1,66 @@
-.. _`python-msgpack`:
+.. title:: Package Recipe 'python-msgpack'
+.. highlight: bash
+
 
 python-msgpack
 ==============
 
-|downloads|
+.. conda:recipe:: python-msgpack
+   :replaces_section_title:
 
-It\'s like JSON. But fast and small.
+   It\'s like JSON. But fast and small.
 
-============= ===========
-Home          https://pypi.org/project/msgpack/#description
-Versions      0.5.6
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-msgpack/meta.yaml
+   :homepage: https://pypi.org/project/msgpack/#description
+   :license: Apache 2.0
+   :recipe: /`python-msgpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-msgpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-msgpack/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-msgpack
 
-Installation
-------------
+   |downloads_python-msgpack| |docker_python-msgpack|
 
-.. highlight: bash
+   :versions: 0.5.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install python-msgpack
+   :required~by: |required_by_python-msgpack|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-msgpack
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-msgpack
+
+   and update with::
+
+      conda update python-msgpack
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-msgpack
+
+
+.. |required_by_python-msgpack| conda:required_by:: python-msgpack
+.. |downloads_python-msgpack| image:: https://img.shields.io/conda/dn/bioconda/python-msgpack.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-msgpack| image:: https://quay.io/repository/biocontainers/python-msgpack/status
+   :target: https://quay.io/repository/biocontainers/python-msgpack
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-msgpack.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-msgpack/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-msgpack/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-msgpack/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-msgpack/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-msgpack
-.. |docker| image:: https://quay.io/repository/biocontainers/python-msgpack/status
-                :target: https://quay.io/repository/biocontainers/python-msgpack
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-msgpack/README.html
 

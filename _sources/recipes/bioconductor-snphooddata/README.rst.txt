@@ -1,54 +1,66 @@
-.. _`bioconductor-snphooddata`:
+.. title:: Package Recipe 'bioconductor-snphooddata'
+.. highlight: bash
+
 
 bioconductor-snphooddata
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-snphooddata
+   :replaces_section_title:
 
-This companion package for SNPhood provides some example datasets of a larger size than allowed for the SNPhood package. They include full and real\-world examples for performing analyses with the SNPhood package.
+   This companion package for SNPhood provides some example datasets of a larger size than allowed for the SNPhood package. They include full and real\-world examples for performing analyses with the SNPhood package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/SNPhoodData.html
-Versions      1.12.0
-License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snphooddata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SNPhoodData.html
+   :license: LGPL (>= 3)
+   :recipe: /`bioconductor-snphooddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-snphooddata
 
-Installation
-------------
+   |downloads_bioconductor-snphooddata| |docker_bioconductor-snphooddata|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-snphooddata
+   :required~by: |required_by_bioconductor-snphooddata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-snphooddata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-snphooddata
+
+   and update with::
+
+      conda update bioconductor-snphooddata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-snphooddata
+
+
+.. |required_by_bioconductor-snphooddata| conda:required_by:: bioconductor-snphooddata
+.. |downloads_bioconductor-snphooddata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snphooddata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-snphooddata| image:: https://quay.io/repository/biocontainers/bioconductor-snphooddata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-snphooddata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-snphooddata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-snphooddata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-snphooddata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-snphooddata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-snphooddata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-snphooddata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snphooddata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-snphooddata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-snphooddata/README.html
 

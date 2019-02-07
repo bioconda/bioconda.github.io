@@ -1,54 +1,66 @@
-.. _`bis-snp-utils`:
+.. title:: Package Recipe 'bis-snp-utils'
+.. highlight: bash
+
 
 bis-snp-utils
 =============
 
-|downloads|
+.. conda:recipe:: bis-snp-utils
+   :replaces_section_title:
 
-bis\-snp\-utils are support tools for Bis\-SNP
+   bis\-snp\-utils are support tools for Bis\-SNP
 
-============= ===========
-Home          http://people.csail.mit.edu/dnaase/bissnp2011/
-Versions      0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bis-snp-utils/meta.yaml
+   :homepage: http://people.csail.mit.edu/dnaase/bissnp2011/
+   :license: MIT
+   :recipe: /`bis-snp-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp-utils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bis-snp-utils
 
-Installation
-------------
+   |downloads_bis-snp-utils| |docker_bis-snp-utils|
 
-.. highlight: bash
+   :versions: 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl`  :conda:package:`perl-getopt-long`  
 
-   conda install bis-snp-utils
+   :required~by: |required_by_bis-snp-utils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bis-snp-utils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bis-snp-utils
+
+   and update with::
+
+      conda update bis-snp-utils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bis-snp-utils
+
+
+.. |required_by_bis-snp-utils| conda:required_by:: bis-snp-utils
+.. |downloads_bis-snp-utils| image:: https://img.shields.io/conda/dn/bioconda/bis-snp-utils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bis-snp-utils| image:: https://quay.io/repository/biocontainers/bis-snp-utils/status
+   :target: https://quay.io/repository/biocontainers/bis-snp-utils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bis-snp-utils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bis-snp-utils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bis-snp-utils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bis-snp-utils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bis-snp-utils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bis-snp-utils
-.. |docker| image:: https://quay.io/repository/biocontainers/bis-snp-utils/status
-                :target: https://quay.io/repository/biocontainers/bis-snp-utils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bis-snp-utils/README.html
 

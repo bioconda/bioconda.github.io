@@ -1,54 +1,66 @@
-.. _`openmg`:
+.. title:: Package Recipe 'openmg'
+.. highlight: bash
+
 
 openmg
 ======
 
-|downloads|
+.. conda:recipe:: openmg
+   :replaces_section_title:
 
-Exhaustive generation of chemical structures
+   Exhaustive generation of chemical structures
 
-============= ===========
-Home          https://sourceforge.net/projects/openmg
-Versions      0.1
-License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openmg/meta.yaml
+   :homepage: https://sourceforge.net/projects/openmg
+   :license: GNU General Public License
+   :recipe: /`openmg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: openmg
 
-Installation
-------------
+   |downloads_openmg| |docker_openmg|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=6 
 
-   conda install openmg
+   :required~by: |required_by_openmg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update openmg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install openmg
+
+   and update with::
+
+      conda update openmg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/openmg
+
+
+.. |required_by_openmg| conda:required_by:: openmg
+.. |downloads_openmg| image:: https://img.shields.io/conda/dn/bioconda/openmg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_openmg| image:: https://quay.io/repository/biocontainers/openmg/status
+   :target: https://quay.io/repository/biocontainers/openmg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/openmg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/openmg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/openmg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/openmg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/openmg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/openmg
-.. |docker| image:: https://quay.io/repository/biocontainers/openmg/status
-                :target: https://quay.io/repository/biocontainers/openmg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/openmg/README.html
 

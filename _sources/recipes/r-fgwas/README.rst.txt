@@ -1,56 +1,67 @@
-.. _`r-fgwas`:
+.. title:: Package Recipe 'r-fgwas'
+.. highlight: bash
+
 
 r-fgwas
 =======
 
-|downloads|
+.. conda:recipe:: r-fgwas
+   :replaces_section_title:
 
-GWAS tools for longitudinal genetic traits based on fGWAS statistical model.
+   GWAS tools for longitudinal genetic traits based on fGWAS statistical model.
 
-============= ===========
-Home          https://github.com/wzhy2000/fGWAS
-Versions      0.3.6, 0.3.5
-License       GNU GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-fgwas/meta.yaml
+   :homepage: https://github.com/wzhy2000/fGWAS
+   :license: LGPL / GNU GPL
+   :recipe: /`r-fgwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fgwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fgwas/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.jgg.2018.06.006`
 
-
-
-Links         doi: :doi:`10.1016/j.jgg.2018.06.006`
-
-============= ===========
+   
 
 
+.. conda:package:: r-fgwas
 
-Installation
-------------
+   |downloads_r-fgwas| |docker_r-fgwas|
 
-.. highlight: bash
+   :versions: 0.3.6, 0.3.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-snpstats`  :conda:package:`parallel`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-minpack.lm`  :conda:package:`r-mvtnorm`  
 
-   conda install r-fgwas
+   :required~by: |required_by_r-fgwas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-fgwas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-fgwas
+
+   and update with::
+
+      conda update r-fgwas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-fgwas
+
+
+.. |required_by_r-fgwas| conda:required_by:: r-fgwas
+.. |downloads_r-fgwas| image:: https://img.shields.io/conda/dn/bioconda/r-fgwas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-fgwas| image:: https://quay.io/repository/biocontainers/r-fgwas/status
+   :target: https://quay.io/repository/biocontainers/r-fgwas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-fgwas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-fgwas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-fgwas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-fgwas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-fgwas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-fgwas
-.. |docker| image:: https://quay.io/repository/biocontainers/r-fgwas/status
-                :target: https://quay.io/repository/biocontainers/r-fgwas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-fgwas/README.html
 

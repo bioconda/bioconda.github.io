@@ -1,54 +1,66 @@
-.. _`r-classdiscovery`:
+.. title:: Package Recipe 'r-classdiscovery'
+.. highlight: bash
+
 
 r-classdiscovery
 ================
 
-|downloads|
+.. conda:recipe:: r-classdiscovery
+   :replaces_section_title:
 
-Defines the classes used for \"class discovery\" problems in the OOMPA project \(\<http\:\/\/oompa.r\-forge.r\-project.org\/\>\). Class discovery primarily consists of unsupervised clustering methods with attempts to assess their statistical significance. 
+   Defines the classes used for \"class discovery\" problems in the OOMPA project \(\<http\:\/\/oompa.r\-forge.r\-project.org\/\>\). Class discovery primarily consists of unsupervised clustering methods with attempts to assess their statistical significance. 
 
-============= ===========
-Home          http://oompa.r-forge.r-project.org/
-Versions      3.3.9
-License       Apache (== 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-classdiscovery/meta.yaml
+   :homepage: http://oompa.r-forge.r-project.org/
+   :license: APACHE / Apache (== 2.0)
+   :recipe: /`r-classdiscovery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-classdiscovery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-classdiscovery/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-classdiscovery
 
-Installation
-------------
+   |downloads_r-classdiscovery| |docker_r-classdiscovery|
 
-.. highlight: bash
+   :versions: 3.3.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-mclust`  :conda:package:`r-oompabase` >=3.0.1 :conda:package:`r-oompadata`  
 
-   conda install r-classdiscovery
+   :required~by: |required_by_r-classdiscovery|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-classdiscovery
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-classdiscovery
+
+   and update with::
+
+      conda update r-classdiscovery
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-classdiscovery
+
+
+.. |required_by_r-classdiscovery| conda:required_by:: r-classdiscovery
+.. |downloads_r-classdiscovery| image:: https://img.shields.io/conda/dn/bioconda/r-classdiscovery.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-classdiscovery| image:: https://quay.io/repository/biocontainers/r-classdiscovery/status
+   :target: https://quay.io/repository/biocontainers/r-classdiscovery
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-classdiscovery.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-classdiscovery/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-classdiscovery/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-classdiscovery/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-classdiscovery/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-classdiscovery
-.. |docker| image:: https://quay.io/repository/biocontainers/r-classdiscovery/status
-                :target: https://quay.io/repository/biocontainers/r-classdiscovery
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-classdiscovery/README.html
 

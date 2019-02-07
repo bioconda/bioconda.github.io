@@ -1,54 +1,66 @@
-.. _`consan`:
+.. title:: Package Recipe 'consan'
+.. highlight: bash
+
 
 consan
 ======
 
-|downloads|
+.. conda:recipe:: consan
+   :replaces_section_title:
 
-Pairwise RNA structural alignment\, both unconstrained and constrained on alignment pins.
+   Pairwise RNA structural alignment\, both unconstrained and constrained on alignment pins.
 
-============= ===========
-Home          http://eddylab.org/software/consan/
-Versions      1.2
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//consan/meta.yaml
+   :homepage: http://eddylab.org/software/consan/
+   :license: GPL-3.0
+   :recipe: /`consan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: consan
 
-Installation
-------------
+   |downloads_consan| |docker_consan|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install consan
+   :required~by: |required_by_consan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update consan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install consan
+
+   and update with::
+
+      conda update consan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/consan
+
+
+.. |required_by_consan| conda:required_by:: consan
+.. |downloads_consan| image:: https://img.shields.io/conda/dn/bioconda/consan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_consan| image:: https://quay.io/repository/biocontainers/consan/status
+   :target: https://quay.io/repository/biocontainers/consan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/consan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/consan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/consan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/consan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/consan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/consan
-.. |docker| image:: https://quay.io/repository/biocontainers/consan/status
-                :target: https://quay.io/repository/biocontainers/consan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/consan/README.html
 

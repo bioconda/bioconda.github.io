@@ -1,54 +1,66 @@
-.. _`perl-sereal-encoder`:
+.. title:: Package Recipe 'perl-sereal-encoder'
+.. highlight: bash
+
 
 perl-sereal-encoder
 ===================
 
-|downloads|
+.. conda:recipe:: perl-sereal-encoder
+   :replaces_section_title:
 
-Fast\, compact\, powerful binary serialization
+   Fast\, compact\, powerful binary serialization
 
-============= ===========
-Home          http://metacpan.org/pod/Sereal::Encoder
-Versions      4.005, 3.015
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sereal-encoder/meta.yaml
+   :homepage: http://metacpan.org/pod/Sereal::Encoder
+   :license: perl_5
+   :recipe: /`perl-sereal-encoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sereal-encoder
 
-Installation
-------------
+   |downloads_perl-sereal-encoder| |docker_perl-sereal-encoder|
 
-.. highlight: bash
+   :versions: 4.005, 3.015
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-sereal-encoder
+   :required~by: |required_by_perl-sereal-encoder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sereal-encoder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sereal-encoder
+
+   and update with::
+
+      conda update perl-sereal-encoder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sereal-encoder
+
+
+.. |required_by_perl-sereal-encoder| conda:required_by:: perl-sereal-encoder
+.. |downloads_perl-sereal-encoder| image:: https://img.shields.io/conda/dn/bioconda/perl-sereal-encoder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sereal-encoder| image:: https://quay.io/repository/biocontainers/perl-sereal-encoder/status
+   :target: https://quay.io/repository/biocontainers/perl-sereal-encoder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sereal-encoder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sereal-encoder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sereal-encoder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sereal-encoder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sereal-encoder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sereal-encoder
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sereal-encoder/status
-                :target: https://quay.io/repository/biocontainers/perl-sereal-encoder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sereal-encoder/README.html
 

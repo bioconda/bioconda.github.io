@@ -1,54 +1,66 @@
-.. _`perl-params-validate`:
+.. title:: Package Recipe 'perl-params-validate'
+.. highlight: bash
+
 
 perl-params-validate
 ====================
 
-|downloads|
+.. conda:recipe:: perl-params-validate
+   :replaces_section_title:
 
-Validate method\/function parameters
+   Validate method\/function parameters
 
-============= ===========
-Home          http://metacpan.org/pod/Params-Validate
-Versions      1.29, 1.26, 1.08
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-params-validate/meta.yaml
+   :homepage: http://metacpan.org/pod/Params-Validate
+   :license: artistic_2
+   :recipe: /`perl-params-validate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validate/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-params-validate
 
-Installation
-------------
+   |downloads_perl-params-validate| |docker_perl-params-validate|
 
-.. highlight: bash
+   :versions: 1.29, 1.26, 1.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  :conda:package:`perl-xsloader`  
 
-   conda install perl-params-validate
+   :required~by: |required_by_perl-params-validate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-params-validate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-params-validate
+
+   and update with::
+
+      conda update perl-params-validate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-params-validate
+
+
+.. |required_by_perl-params-validate| conda:required_by:: perl-params-validate
+.. |downloads_perl-params-validate| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-params-validate| image:: https://quay.io/repository/biocontainers/perl-params-validate/status
+   :target: https://quay.io/repository/biocontainers/perl-params-validate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-params-validate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-params-validate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-params-validate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-params-validate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-params-validate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-params-validate
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-params-validate/status
-                :target: https://quay.io/repository/biocontainers/perl-params-validate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-params-validate/README.html
 

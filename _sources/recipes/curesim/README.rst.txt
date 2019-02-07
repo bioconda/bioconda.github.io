@@ -1,54 +1,66 @@
-.. _`curesim`:
+.. title:: Package Recipe 'curesim'
+.. highlight: bash
+
 
 curesim
 =======
 
-|downloads|
+.. conda:recipe:: curesim
+   :replaces_section_title:
 
-CuReSim \(Customized Read Simulator\) is a customized tool which generates synthetic New\-Generation Sequencing reads\, supporting read simulation for major letter\-base sequencing platforms..
+   CuReSim \(Customized Read Simulator\) is a customized tool which generates synthetic New\-Generation Sequencing reads\, supporting read simulation for major letter\-base sequencing platforms..
 
-============= ===========
-Home          http://www.pegase-biosciences.com/curesim-a-customized-read-simulator/
-Versions      1.3
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//curesim/meta.yaml
+   :homepage: http://www.pegase-biosciences.com/curesim-a-customized-read-simulator/
+   :license: unknown
+   :recipe: /`curesim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curesim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curesim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: curesim
 
-Installation
-------------
+   |downloads_curesim| |docker_curesim|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`coreutils`  :conda:package:`java-jdk` >=8 
 
-   conda install curesim
+   :required~by: |required_by_curesim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update curesim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install curesim
+
+   and update with::
+
+      conda update curesim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/curesim
+
+
+.. |required_by_curesim| conda:required_by:: curesim
+.. |downloads_curesim| image:: https://img.shields.io/conda/dn/bioconda/curesim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_curesim| image:: https://quay.io/repository/biocontainers/curesim/status
+   :target: https://quay.io/repository/biocontainers/curesim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/curesim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/curesim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/curesim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/curesim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/curesim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/curesim
-.. |docker| image:: https://quay.io/repository/biocontainers/curesim/status
-                :target: https://quay.io/repository/biocontainers/curesim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/curesim/README.html
 

@@ -1,54 +1,66 @@
-.. _`extern`:
+.. title:: Package Recipe 'extern'
+.. highlight: bash
+
 
 extern
 ======
 
-|downloads|
+.. conda:recipe:: extern
+   :replaces_section_title:
 
-Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code.
+   Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code.
 
-============= ===========
-Home          https://pypi.python.org/pypi/extern/
-Versions      0.2.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//extern/meta.yaml
+   :homepage: https://pypi.python.org/pypi/extern/
+   :license: MIT / MIT
+   :recipe: /`extern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: extern
 
-Installation
-------------
+   |downloads_extern| |docker_extern|
 
-.. highlight: bash
+   :versions: 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install extern
+   :required~by: |required_by_extern|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update extern
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install extern
+
+   and update with::
+
+      conda update extern
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/extern
+
+
+.. |required_by_extern| conda:required_by:: extern
+.. |downloads_extern| image:: https://img.shields.io/conda/dn/bioconda/extern.svg?style=flat
+   :alt:   (downloads)
+.. |docker_extern| image:: https://quay.io/repository/biocontainers/extern/status
+   :target: https://quay.io/repository/biocontainers/extern
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/extern.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/extern/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/extern/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/extern/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/extern/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/extern
-.. |docker| image:: https://quay.io/repository/biocontainers/extern/status
-                :target: https://quay.io/repository/biocontainers/extern
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/extern/README.html
 

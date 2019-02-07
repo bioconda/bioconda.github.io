@@ -1,54 +1,66 @@
-.. _`perl-term-table`:
+.. title:: Package Recipe 'perl-term-table'
+.. highlight: bash
+
 
 perl-term-table
 ===============
 
-|downloads|
+.. conda:recipe:: perl-term-table
+   :replaces_section_title:
 
-Format a header and rows into a table
+   Format a header and rows into a table
 
-============= ===========
-Home          http://metacpan.org/pod/Term::Table
-Versions      0.013, 0.012
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-term-table/meta.yaml
+   :homepage: http://metacpan.org/pod/Term::Table
+   :license: perl_5
+   :recipe: /`perl-term-table <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-table>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-table/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-term-table
 
-Installation
-------------
+   |downloads_perl-term-table| |docker_perl-term-table|
 
-.. highlight: bash
+   :versions: 0.013, 0.012
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-importer`  
 
-   conda install perl-term-table
+   :required~by: |required_by_perl-term-table|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-term-table
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-term-table
+
+   and update with::
+
+      conda update perl-term-table
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-term-table
+
+
+.. |required_by_perl-term-table| conda:required_by:: perl-term-table
+.. |downloads_perl-term-table| image:: https://img.shields.io/conda/dn/bioconda/perl-term-table.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-term-table| image:: https://quay.io/repository/biocontainers/perl-term-table/status
+   :target: https://quay.io/repository/biocontainers/perl-term-table
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-term-table.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-term-table/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-term-table/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-term-table/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-term-table/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-term-table
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-term-table/status
-                :target: https://quay.io/repository/biocontainers/perl-term-table
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-term-table/README.html
 

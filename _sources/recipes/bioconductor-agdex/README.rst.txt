@@ -1,56 +1,67 @@
-.. _`bioconductor-agdex`:
+.. title:: Package Recipe 'bioconductor-agdex'
+.. highlight: bash
+
 
 bioconductor-agdex
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-agdex
+   :replaces_section_title:
 
-A tool to evaluate agreement of differential expression for cross\-species genomics
+   A tool to evaluate agreement of differential expression for cross\-species genomics
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/AGDEX.html
-Versions      1.30.0, 1.28.0, 1.26.0, 1.24.0
-License       GPL Version 2 or later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-agdex/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AGDEX.html
+   :license: GPL Version 2 or later
+   :recipe: /`bioconductor-agdex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agdex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agdex/meta.yaml>`_
+   :links: biotools: :biotools:`agdex`, doi: :doi:`10.1093/bioinformatics/btr362`
 
-
-
-Links         biotools: :biotools:`agdex`, doi: :doi:`10.1093/bioinformatics/btr362`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-agdex
 
-Installation
-------------
+   |downloads_bioconductor-agdex| |docker_bioconductor-agdex|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-agdex
+   :required~by: |required_by_bioconductor-agdex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-agdex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-agdex
+
+   and update with::
+
+      conda update bioconductor-agdex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-agdex
+
+
+.. |required_by_bioconductor-agdex| conda:required_by:: bioconductor-agdex
+.. |downloads_bioconductor-agdex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-agdex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-agdex| image:: https://quay.io/repository/biocontainers/bioconductor-agdex/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-agdex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-agdex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-agdex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-agdex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-agdex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-agdex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-agdex
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-agdex/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-agdex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-agdex/README.html
 

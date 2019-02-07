@@ -1,54 +1,66 @@
-.. _`neurodocker`:
+.. title:: Package Recipe 'neurodocker'
+.. highlight: bash
+
 
 neurodocker
 ===========
 
-|downloads|
+.. conda:recipe:: neurodocker
+   :replaces_section_title:
 
-Neurodocker is a command\-line program that generates custom Dockerfiles and Singularity recipes for neuroimaging and minifies existing containers.
+   Neurodocker is a command\-line program that generates custom Dockerfiles and Singularity recipes for neuroimaging and minifies existing containers.
 
-============= ===========
-Home          https://github.com/kaczmarj/neurodocker
-Versions      0.4.3, 0.4.2, 0.4.1
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//neurodocker/meta.yaml
+   :homepage: https://github.com/kaczmarj/neurodocker
+   :license: Apache / Apache-2.0
+   :recipe: /`neurodocker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neurodocker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neurodocker/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: neurodocker
 
-Installation
-------------
+   |downloads_neurodocker| |docker_neurodocker|
 
-.. highlight: bash
+   :versions: 0.4.3, 0.4.2, 0.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`jinja2` >=2.0 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml` >=3.0 
 
-   conda install neurodocker
+   :required~by: |required_by_neurodocker|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update neurodocker
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install neurodocker
+
+   and update with::
+
+      conda update neurodocker
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/neurodocker
+
+
+.. |required_by_neurodocker| conda:required_by:: neurodocker
+.. |downloads_neurodocker| image:: https://img.shields.io/conda/dn/bioconda/neurodocker.svg?style=flat
+   :alt:   (downloads)
+.. |docker_neurodocker| image:: https://quay.io/repository/biocontainers/neurodocker/status
+   :target: https://quay.io/repository/biocontainers/neurodocker
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/neurodocker.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/neurodocker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/neurodocker/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/neurodocker/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/neurodocker/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/neurodocker
-.. |docker| image:: https://quay.io/repository/biocontainers/neurodocker/status
-                :target: https://quay.io/repository/biocontainers/neurodocker
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/neurodocker/README.html
 

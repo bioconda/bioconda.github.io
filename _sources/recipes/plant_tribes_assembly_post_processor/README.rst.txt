@@ -1,54 +1,66 @@
-.. _`plant_tribes_assembly_post_processor`:
+.. title:: Package Recipe 'plant_tribes_assembly_post_processor'
+.. highlight: bash
+
 
 plant_tribes_assembly_post_processor
 ====================================
 
-|downloads|
+.. conda:recipe:: plant_tribes_assembly_post_processor/1.0.4
+   :replaces_section_title:
 
-Transcriptome assembly post processing pipeline
+   Transcriptome assembly post processing pipeline
 
-============= ===========
-Home          https://github.com/dePamphilis/PlantTribes
-Versions      1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plant_tribes_assembly_post_processor/1.0.4/meta.yaml
+   :homepage: https://github.com/dePamphilis/PlantTribes
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`plant_tribes_assembly_post_processor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor>`_/`1.0.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/1.0.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/1.0.4/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: plant_tribes_assembly_post_processor
 
-Installation
-------------
+   |downloads_plant_tribes_assembly_post_processor| |docker_plant_tribes_assembly_post_processor|
 
-.. highlight: bash
+   :versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cap3`  :conda:package:`genometools-genometools` >=1,<2 :conda:package:`hmmer` >=3 :conda:package:`mafft` >=7,<8 :conda:package:`perl` >=5.22 :conda:package:`perl-estscan2`  :conda:package:`transdecoder` >=5,<6 :conda:package:`trimal` >=1.4,<2 
 
-   conda install plant_tribes_assembly_post_processor
+   :required~by: |required_by_plant_tribes_assembly_post_processor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update plant_tribes_assembly_post_processor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install plant_tribes_assembly_post_processor
+
+   and update with::
+
+      conda update plant_tribes_assembly_post_processor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
+
+
+.. |required_by_plant_tribes_assembly_post_processor| conda:required_by:: plant_tribes_assembly_post_processor
+.. |downloads_plant_tribes_assembly_post_processor| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_assembly_post_processor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_plant_tribes_assembly_post_processor| image:: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor/status
+   :target: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/plant_tribes_assembly_post_processor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/plant_tribes_assembly_post_processor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/plant_tribes_assembly_post_processor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/plant_tribes_assembly_post_processor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/plant_tribes_assembly_post_processor
-.. |docker| image:: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor/status
-                :target: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/plant_tribes_assembly_post_processor/README.html
 

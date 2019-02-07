@@ -1,56 +1,67 @@
-.. _`bioconductor-xde`:
+.. title:: Package Recipe 'bioconductor-xde'
+.. highlight: bash
+
 
 bioconductor-xde
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-xde
+   :replaces_section_title:
 
-Multi\-level model for cross\-study detection of differential gene expression.
+   Multi\-level model for cross\-study detection of differential gene expression.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/XDE.html
-Versions      2.28.0, 2.26.0, 2.24.0, 2.22.0
-License       LGPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xde/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/XDE.html
+   :license: LGPL-2
+   :recipe: /`bioconductor-xde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xde/meta.yaml>`_
+   :links: biotools: :biotools:`xde`
 
-
-
-Links         biotools: :biotools:`xde`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-xde
 
-Installation
-------------
+   |downloads_bioconductor-xde| |docker_bioconductor-xde|
 
-.. highlight: bash
+   :versions: 2.28.0, 2.26.0, 2.24.0, 2.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-genemeta` >=1.54.0,<1.55.0 :conda:package:`bioconductor-mergemaid` >=2.54.0,<2.55.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-xde
+   :required~by: |required_by_bioconductor-xde|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-xde
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-xde
+
+   and update with::
+
+      conda update bioconductor-xde
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-xde
+
+
+.. |required_by_bioconductor-xde| conda:required_by:: bioconductor-xde
+.. |downloads_bioconductor-xde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xde.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-xde| image:: https://quay.io/repository/biocontainers/bioconductor-xde/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-xde
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-xde.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-xde/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-xde/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-xde/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-xde/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-xde
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-xde/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-xde
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-xde/README.html
 

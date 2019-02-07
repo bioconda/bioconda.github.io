@@ -1,54 +1,66 @@
-.. _`perl-string-rewriteprefix`:
+.. title:: Package Recipe 'perl-string-rewriteprefix'
+.. highlight: bash
+
 
 perl-string-rewriteprefix
 =========================
 
-|downloads|
+.. conda:recipe:: perl-string-rewriteprefix
+   :replaces_section_title:
 
-rewrite strings based on a set of known prefixes
+   rewrite strings based on a set of known prefixes
 
-============= ===========
-Home          https://github.com/rjbs/String-RewritePrefix
-Versions      0.007
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-string-rewriteprefix/meta.yaml
+   :homepage: https://github.com/rjbs/String-RewritePrefix
+   :license: perl_5
+   :recipe: /`perl-string-rewriteprefix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-rewriteprefix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-rewriteprefix/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-string-rewriteprefix
 
-Installation
-------------
+   |downloads_perl-string-rewriteprefix| |docker_perl-string-rewriteprefix|
 
-.. highlight: bash
+   :versions: 0.007
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-sub-exporter`  
 
-   conda install perl-string-rewriteprefix
+   :required~by: |required_by_perl-string-rewriteprefix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-string-rewriteprefix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-string-rewriteprefix
+
+   and update with::
+
+      conda update perl-string-rewriteprefix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-string-rewriteprefix
+
+
+.. |required_by_perl-string-rewriteprefix| conda:required_by:: perl-string-rewriteprefix
+.. |downloads_perl-string-rewriteprefix| image:: https://img.shields.io/conda/dn/bioconda/perl-string-rewriteprefix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-string-rewriteprefix| image:: https://quay.io/repository/biocontainers/perl-string-rewriteprefix/status
+   :target: https://quay.io/repository/biocontainers/perl-string-rewriteprefix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-string-rewriteprefix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-string-rewriteprefix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-string-rewriteprefix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-string-rewriteprefix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-string-rewriteprefix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-string-rewriteprefix
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-string-rewriteprefix/status
-                :target: https://quay.io/repository/biocontainers/perl-string-rewriteprefix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-string-rewriteprefix/README.html
 

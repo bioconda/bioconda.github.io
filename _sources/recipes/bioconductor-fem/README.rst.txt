@@ -1,54 +1,66 @@
-.. _`bioconductor-fem`:
+.. title:: Package Recipe 'bioconductor-fem'
+.. highlight: bash
+
 
 bioconductor-fem
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-fem
+   :replaces_section_title:
 
-The FEM package performs a systems\-level integrative analysis of DNA methylation and gene expression data. It seeks modules of functionally related genes which exhibit differential promoter DNA methylation and differential expression\, where an inverse association between promoter DNA methylation and gene expression is assumed. For full details\, see Jiao et al Bioinformatics 2014.
+   The FEM package performs a systems\-level integrative analysis of DNA methylation and gene expression data. It seeks modules of functionally related genes which exhibit differential promoter DNA methylation and differential expression\, where an inverse association between promoter DNA methylation and gene expression is assumed. For full details\, see Jiao et al Bioinformatics 2014.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FEM.html
-Versions      3.10.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fem/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FEM.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-fem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fem
 
-Installation
-------------
+   |downloads_bioconductor-fem| |docker_bioconductor-fem|
 
-.. highlight: bash
+   :versions: 3.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corrplot`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  
 
-   conda install bioconductor-fem
+   :required~by: |required_by_bioconductor-fem|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fem
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fem
+
+   and update with::
+
+      conda update bioconductor-fem
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fem
+
+
+.. |required_by_bioconductor-fem| conda:required_by:: bioconductor-fem
+.. |downloads_bioconductor-fem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fem.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fem| image:: https://quay.io/repository/biocontainers/bioconductor-fem/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fem
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fem.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fem/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fem/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fem/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fem/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fem
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fem/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fem
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fem/README.html
 

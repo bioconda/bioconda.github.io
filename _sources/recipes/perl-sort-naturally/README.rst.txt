@@ -1,54 +1,66 @@
-.. _`perl-sort-naturally`:
+.. title:: Package Recipe 'perl-sort-naturally'
+.. highlight: bash
+
 
 perl-sort-naturally
 ===================
 
-|downloads|
+.. conda:recipe:: perl-sort-naturally
+   :replaces_section_title:
 
-sort lexically\, but sort numeral parts numerically
+   sort lexically\, but sort numeral parts numerically
 
-============= ===========
-Home          http://metacpan.org/pod/Sort-Naturally
-Versions      1.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sort-naturally/meta.yaml
+   :homepage: http://metacpan.org/pod/Sort-Naturally
+   :license: perl_5
+   :recipe: /`perl-sort-naturally <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-naturally>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-naturally/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sort-naturally
 
-Installation
-------------
+   |downloads_perl-sort-naturally| |docker_perl-sort-naturally|
 
-.. highlight: bash
+   :versions: 1.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-sort-naturally
+   :required~by: |required_by_perl-sort-naturally|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sort-naturally
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sort-naturally
+
+   and update with::
+
+      conda update perl-sort-naturally
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sort-naturally
+
+
+.. |required_by_perl-sort-naturally| conda:required_by:: perl-sort-naturally
+.. |downloads_perl-sort-naturally| image:: https://img.shields.io/conda/dn/bioconda/perl-sort-naturally.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sort-naturally| image:: https://quay.io/repository/biocontainers/perl-sort-naturally/status
+   :target: https://quay.io/repository/biocontainers/perl-sort-naturally
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sort-naturally.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sort-naturally/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sort-naturally/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sort-naturally/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sort-naturally/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sort-naturally
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sort-naturally/status
-                :target: https://quay.io/repository/biocontainers/perl-sort-naturally
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sort-naturally/README.html
 

@@ -1,54 +1,66 @@
-.. _`data_hacks`:
+.. title:: Package Recipe 'data_hacks'
+.. highlight: bash
+
 
 data_hacks
 ==========
 
-|downloads|
+.. conda:recipe:: data_hacks
+   :replaces_section_title:
 
-Command line utilities for data analysis.
+   Command line utilities for data analysis.
 
-============= ===========
-Home          https://github.com/bitly/data_hacks
-Versions      0.3.1
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//data_hacks/meta.yaml
+   :homepage: https://github.com/bitly/data_hacks
+   :license: Apache 2.0
+   :recipe: /`data_hacks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/data_hacks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/data_hacks/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: data_hacks
 
-Installation
-------------
+   |downloads_data_hacks| |docker_data_hacks|
 
-.. highlight: bash
+   :versions: 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install data_hacks
+   :required~by: |required_by_data_hacks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update data_hacks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install data_hacks
+
+   and update with::
+
+      conda update data_hacks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/data_hacks
+
+
+.. |required_by_data_hacks| conda:required_by:: data_hacks
+.. |downloads_data_hacks| image:: https://img.shields.io/conda/dn/bioconda/data_hacks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_data_hacks| image:: https://quay.io/repository/biocontainers/data_hacks/status
+   :target: https://quay.io/repository/biocontainers/data_hacks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/data_hacks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/data_hacks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/data_hacks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/data_hacks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/data_hacks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/data_hacks
-.. |docker| image:: https://quay.io/repository/biocontainers/data_hacks/status
-                :target: https://quay.io/repository/biocontainers/data_hacks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/data_hacks/README.html
 

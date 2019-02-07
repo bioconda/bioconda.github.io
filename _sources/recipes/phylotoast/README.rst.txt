@@ -1,54 +1,66 @@
-.. _`phylotoast`:
+.. title:: Package Recipe 'phylotoast'
+.. highlight: bash
+
 
 phylotoast
 ==========
 
-|downloads|
+.. conda:recipe:: phylotoast
+   :replaces_section_title:
 
-Tools for phylogenetic data analysis including visualization and cluster\-computing support. 
+   Tools for phylogenetic data analysis including visualization and cluster\-computing support. 
 
-============= ===========
-Home          https://github.com/smdabdoub/phylotoast
-Versions      1.4.0rc2, 1.3.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phylotoast/meta.yaml
+   :homepage: https://github.com/smdabdoub/phylotoast
+   :license: MIT
+   :recipe: /`phylotoast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylotoast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylotoast/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: phylotoast
 
-Installation
-------------
+   |downloads_phylotoast| |docker_phylotoast|
 
-.. highlight: bash
+   :versions: 1.4.0rc2, 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biom-format` >=2.1.5 :conda:package:`biopython` >=1.60 :conda:package:`h5py`  :conda:package:`matplotlib` <=1.5.3 :conda:package:`numpy`  :conda:package:`palettable`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-bio` <=0.4.2 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`statsmodels`  
 
-   conda install phylotoast
+   :required~by: |required_by_phylotoast|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update phylotoast
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install phylotoast
+
+   and update with::
+
+      conda update phylotoast
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/phylotoast
+
+
+.. |required_by_phylotoast| conda:required_by:: phylotoast
+.. |downloads_phylotoast| image:: https://img.shields.io/conda/dn/bioconda/phylotoast.svg?style=flat
+   :alt:   (downloads)
+.. |docker_phylotoast| image:: https://quay.io/repository/biocontainers/phylotoast/status
+   :target: https://quay.io/repository/biocontainers/phylotoast
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/phylotoast.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/phylotoast/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/phylotoast/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/phylotoast/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/phylotoast/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/phylotoast
-.. |docker| image:: https://quay.io/repository/biocontainers/phylotoast/status
-                :target: https://quay.io/repository/biocontainers/phylotoast
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/phylotoast/README.html
 

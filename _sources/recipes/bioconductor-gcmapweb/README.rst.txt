@@ -1,54 +1,66 @@
-.. _`bioconductor-gcmapweb`:
+.. title:: Package Recipe 'bioconductor-gcmapweb'
+.. highlight: bash
+
 
 bioconductor-gcmapweb
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-gcmapweb
+   :replaces_section_title:
 
-The gCMAPWeb R package provides a graphical user interface for the gCMAP package. gCMAPWeb uses the Rook package and can be used either on a local machine\, leveraging R\'s internal web server\, or run on a dedicated rApache web server installation. gCMAPWeb allows users to search their own data sources and instructions to generate reference datasets from public repositories are included with the package. The package supports three common types of analyses\, specifically queries with 1. one or two sets of query gene identifiers\, whose members are expected to show changes in gene expression in a consistent direction. For example\, an up\-regulated gene set might contain genes activated by a transcription factor\, a down\-regulated geneset targets repressed by the same factor. 2. a single set of query gene identifiers\, whose members are expected to show divergent differential expression \(non\-directional query\). For example\, members of a particular signaling pathway\, some of which may be up\- some down\-regulated in response to a stimulus. 3. a query with the complete results of a differential expression profiling experiment. For example\, gene identifiers and z\-scores from a previous perturbation experiment. gCMAPWeb accepts three types of identifiers\: EntreIds\, gene Symbols and microarray probe ids and can be configured to work with any species supported by Bioconductor. For each query submission\, significantly similar reference datasets will be identified and reported in graphical and tabular form.
+   The gCMAPWeb R package provides a graphical user interface for the gCMAP package. gCMAPWeb uses the Rook package and can be used either on a local machine\, leveraging R\'s internal web server\, or run on a dedicated rApache web server installation. gCMAPWeb allows users to search their own data sources and instructions to generate reference datasets from public repositories are included with the package. The package supports three common types of analyses\, specifically queries with 1. one or two sets of query gene identifiers\, whose members are expected to show changes in gene expression in a consistent direction. For example\, an up\-regulated gene set might contain genes activated by a transcription factor\, a down\-regulated geneset targets repressed by the same factor. 2. a single set of query gene identifiers\, whose members are expected to show divergent differential expression \(non\-directional query\). For example\, members of a particular signaling pathway\, some of which may be up\- some down\-regulated in response to a stimulus. 3. a query with the complete results of a differential expression profiling experiment. For example\, gene identifiers and z\-scores from a previous perturbation experiment. gCMAPWeb accepts three types of identifiers\: EntreIds\, gene Symbols and microarray probe ids and can be configured to work with any species supported by Bioconductor. For each query submission\, significantly similar reference datasets will be identified and reported in graphical and tabular form.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/gCMAPWeb.html
-Versions      1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gcmapweb/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gCMAPWeb.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-gcmapweb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmapweb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmapweb/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gcmapweb
 
-Installation
-------------
+   |downloads_bioconductor-gcmapweb| |docker_bioconductor-gcmapweb|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotate` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-gcmap` >=1.26.0,<1.27.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-brew`  :conda:package:`r-hwriter`  :conda:package:`r-rook`  :conda:package:`r-yaml`  
 
-   conda install bioconductor-gcmapweb
+   :required~by: |required_by_bioconductor-gcmapweb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gcmapweb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gcmapweb
+
+   and update with::
+
+      conda update bioconductor-gcmapweb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gcmapweb
+
+
+.. |required_by_bioconductor-gcmapweb| conda:required_by:: bioconductor-gcmapweb
+.. |downloads_bioconductor-gcmapweb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcmapweb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gcmapweb| image:: https://quay.io/repository/biocontainers/bioconductor-gcmapweb/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gcmapweb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gcmapweb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gcmapweb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gcmapweb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gcmapweb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gcmapweb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gcmapweb
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gcmapweb/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gcmapweb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gcmapweb/README.html
 

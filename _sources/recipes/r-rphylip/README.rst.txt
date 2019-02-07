@@ -1,54 +1,66 @@
-.. _`r-rphylip`:
+.. title:: Package Recipe 'r-rphylip'
+.. highlight: bash
+
 
 r-rphylip
 =========
 
-|downloads|
+.. conda:recipe:: r-rphylip
+   :replaces_section_title:
 
-Rphylip provides an R interface for the PHYLIP package. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package \(Felsenstein 2013\). See http\:\/\/www.phylip.com for more  information about installing PHYLIP.
+   
 
-============= ===========
-Home          http://www.phytools.org/Rphylip
-Versions      0.1_23
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rphylip/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-rphylip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphylip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphylip/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rphylip
 
-Installation
-------------
+   |downloads_r-rphylip| |docker_r-rphylip|
 
-.. highlight: bash
+   :versions: 0.1_23
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-ape` >=3.0_10 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-rphylip
+   :required~by: |required_by_r-rphylip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rphylip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rphylip
+
+   and update with::
+
+      conda update r-rphylip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rphylip
+
+
+.. |required_by_r-rphylip| conda:required_by:: r-rphylip
+.. |downloads_r-rphylip| image:: https://img.shields.io/conda/dn/bioconda/r-rphylip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rphylip| image:: https://quay.io/repository/biocontainers/r-rphylip/status
+   :target: https://quay.io/repository/biocontainers/r-rphylip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rphylip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rphylip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rphylip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rphylip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rphylip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rphylip
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rphylip/status
-                :target: https://quay.io/repository/biocontainers/r-rphylip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rphylip/README.html
 

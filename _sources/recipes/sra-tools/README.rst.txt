@@ -1,36 +1,56 @@
-.. _`sra-tools`:
+.. title:: Package Recipe 'sra-tools'
+.. highlight: bash
+
 
 sra-tools
 =========
 
-|downloads|
+.. conda:recipe:: sra-tools
+   :replaces_section_title:
 
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.
+   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.
 
-============= ===========
-Home          https://github.com/ncbi/sra-tools
-Versions      2.9.1_1, 2.9.1, 2.9.0, 2.8.2, 2.8.1, 2.8.0, 2.7.0, 2.6.3, 2.6.2
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sra-tools/meta.yaml
+   :homepage: https://github.com/ncbi/sra-tools
+   :license: Public Domain
+   :recipe: /`sra-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sra-tools
 
-Installation
-------------
+   |downloads_sra-tools| |docker_sra-tools|
 
-.. highlight: bash
+   :versions: 2.9.1_1, 2.9.1, 2.9.0, 2.8.2, 2.8.1, 2.8.0, 2.7.0, 2.6.3, 2.6.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install sra-tools
+   :required~by: |required_by_sra-tools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sra-tools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sra-tools
+
+   and update with::
+
+      conda update sra-tools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sra-tools
+
+
+.. |required_by_sra-tools| conda:required_by:: sra-tools
+.. |downloads_sra-tools| image:: https://img.shields.io/conda/dn/bioconda/sra-tools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sra-tools| image:: https://quay.io/repository/biocontainers/sra-tools/status
+   :target: https://quay.io/repository/biocontainers/sra-tools
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 After installation\, you should run the configuration tool\: .\/vdb\-config \-i. This tool will setup your download\/cache area for downloaded files and references.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/sra-tools.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sra-tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sra-tools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sra-tools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sra-tools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sra-tools
-.. |docker| image:: https://quay.io/repository/biocontainers/sra-tools/status
-                :target: https://quay.io/repository/biocontainers/sra-tools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sra-tools/README.html
 

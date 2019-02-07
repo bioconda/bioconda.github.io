@@ -1,54 +1,66 @@
-.. _`ucsc-hgloadout`:
+.. title:: Package Recipe 'ucsc-hgloadout'
+.. highlight: bash
+
 
 ucsc-hgloadout
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-hgloadout
+   :replaces_section_title:
 
-load RepeatMasker .out files into database
+   load RepeatMasker .out files into database
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-hgloadout/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-hgloadout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadout/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-hgloadout
 
-Installation
-------------
+   |downloads_ucsc-hgloadout| |docker_ucsc-hgloadout|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-hgloadout
+   :required~by: |required_by_ucsc-hgloadout|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-hgloadout
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-hgloadout
+
+   and update with::
+
+      conda update ucsc-hgloadout
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-hgloadout
+
+
+.. |required_by_ucsc-hgloadout| conda:required_by:: ucsc-hgloadout
+.. |downloads_ucsc-hgloadout| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadout.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-hgloadout| image:: https://quay.io/repository/biocontainers/ucsc-hgloadout/status
+   :target: https://quay.io/repository/biocontainers/ucsc-hgloadout
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-hgloadout.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-hgloadout/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-hgloadout/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-hgloadout/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-hgloadout/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-hgloadout
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgloadout/status
-                :target: https://quay.io/repository/biocontainers/ucsc-hgloadout
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-hgloadout/README.html
 

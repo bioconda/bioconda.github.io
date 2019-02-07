@@ -1,54 +1,66 @@
-.. _`gatb`:
+.. title:: Package Recipe 'gatb'
+.. highlight: bash
+
 
 gatb
 ====
 
-|downloads|
+.. conda:recipe:: gatb/1.4.1
+   :replaces_section_title:
 
-The Genome Analysis Toolbox with de\-Bruijn graph
+   The Genome Analysis Toolbox with de\-Bruijn graph
 
-============= ===========
-Home          https://gatb.inria.fr/
-Versions      1.4.1
-License       AGPL 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gatb/1.4.1/meta.yaml
+   :homepage: https://gatb.inria.fr/
+   :license: AGPL 3.0
+   :recipe: /`gatb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb>`_/`1.4.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb/1.4.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb/1.4.1/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gatb
 
-Installation
-------------
+   |downloads_gatb| |docker_gatb|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.2,<1.10.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install gatb
+   :required~by: |required_by_gatb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gatb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gatb
+
+   and update with::
+
+      conda update gatb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gatb
+
+
+.. |required_by_gatb| conda:required_by:: gatb
+.. |downloads_gatb| image:: https://img.shields.io/conda/dn/bioconda/gatb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gatb| image:: https://quay.io/repository/biocontainers/gatb/status
+   :target: https://quay.io/repository/biocontainers/gatb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gatb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gatb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gatb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gatb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gatb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gatb
-.. |docker| image:: https://quay.io/repository/biocontainers/gatb/status
-                :target: https://quay.io/repository/biocontainers/gatb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gatb/README.html
 

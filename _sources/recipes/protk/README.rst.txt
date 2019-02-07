@@ -1,54 +1,66 @@
-.. _`protk`:
+.. title:: Package Recipe 'protk'
+.. highlight: bash
+
 
 protk
 =====
 
-|downloads|
+.. conda:recipe:: protk
+   :replaces_section_title:
 
-protk \(Proteomics toolkit\)
+   protk \(Proteomics toolkit\)
 
-============= ===========
-Home          https://github.com/iracooke/protk
-Versions      1.4.4a
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//protk/meta.yaml
+   :homepage: https://github.com/iracooke/protk
+   :license: MIT
+   :recipe: /`protk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: protk
 
-Installation
-------------
+   |downloads_protk| |docker_protk|
 
-.. highlight: bash
+   :versions: 1.4.4a
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`libxml2` 2.9.* :conda:package:`ruby` >=2.4 :conda:package:`tpp`  
 
-   conda install protk
+   :required~by: |required_by_protk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update protk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install protk
+
+   and update with::
+
+      conda update protk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/protk
+
+
+.. |required_by_protk| conda:required_by:: protk
+.. |downloads_protk| image:: https://img.shields.io/conda/dn/bioconda/protk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_protk| image:: https://quay.io/repository/biocontainers/protk/status
+   :target: https://quay.io/repository/biocontainers/protk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/protk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/protk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/protk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/protk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/protk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/protk
-.. |docker| image:: https://quay.io/repository/biocontainers/protk/status
-                :target: https://quay.io/repository/biocontainers/protk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/protk/README.html
 

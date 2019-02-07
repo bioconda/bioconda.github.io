@@ -1,54 +1,66 @@
-.. _`perl-extutils-helpers`:
+.. title:: Package Recipe 'perl-extutils-helpers'
+.. highlight: bash
+
 
 perl-extutils-helpers
 =====================
 
-|downloads|
+.. conda:recipe:: perl-extutils-helpers
+   :replaces_section_title:
 
-Various portability utilities for module builders
+   Various portability utilities for module builders
 
-============= ===========
-Home          http://metacpan.org/pod/ExtUtils::Helpers
-Versions      0.026, 0.022
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-helpers/meta.yaml
+   :homepage: http://metacpan.org/pod/ExtUtils::Helpers
+   :license: perl_5
+   :recipe: /`perl-extutils-helpers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-helpers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-helpers/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-extutils-helpers
 
-Installation
-------------
+   |downloads_perl-extutils-helpers| |docker_perl-extutils-helpers|
 
-.. highlight: bash
+   :versions: 0.026, 0.022
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-text-parsewords`  
 
-   conda install perl-extutils-helpers
+   :required~by: |required_by_perl-extutils-helpers|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-extutils-helpers
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-extutils-helpers
+
+   and update with::
+
+      conda update perl-extutils-helpers
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-extutils-helpers
+
+
+.. |required_by_perl-extutils-helpers| conda:required_by:: perl-extutils-helpers
+.. |downloads_perl-extutils-helpers| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-helpers.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-extutils-helpers| image:: https://quay.io/repository/biocontainers/perl-extutils-helpers/status
+   :target: https://quay.io/repository/biocontainers/perl-extutils-helpers
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-extutils-helpers.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-extutils-helpers/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-extutils-helpers/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-extutils-helpers/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-extutils-helpers/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-extutils-helpers
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-helpers/status
-                :target: https://quay.io/repository/biocontainers/perl-extutils-helpers
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-extutils-helpers/README.html
 

@@ -1,54 +1,66 @@
-.. _`kronik`:
+.. title:: Package Recipe 'kronik'
+.. highlight: bash
+
 
 kronik
 ======
 
-|downloads|
+.. conda:recipe:: kronik
+   :replaces_section_title:
 
-Utility for processing Hardklor features to find candidate peptides by chromatographic profiling
+   Utility for processing Hardklor features to find candidate peptides by chromatographic profiling
 
-============= ===========
-Home          https://github.com/mhoopmann/kronik
-Versions      2.20
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kronik/meta.yaml
+   :homepage: https://github.com/mhoopmann/kronik
+   :license: Apache License, Version 2.0
+   :recipe: /`kronik <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kronik
 
-Installation
-------------
+   |downloads_kronik| |docker_kronik|
 
-.. highlight: bash
+   :versions: 2.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install kronik
+   :required~by: |required_by_kronik|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kronik
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kronik
+
+   and update with::
+
+      conda update kronik
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kronik
+
+
+.. |required_by_kronik| conda:required_by:: kronik
+.. |downloads_kronik| image:: https://img.shields.io/conda/dn/bioconda/kronik.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kronik| image:: https://quay.io/repository/biocontainers/kronik/status
+   :target: https://quay.io/repository/biocontainers/kronik
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kronik.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kronik/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kronik/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kronik/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kronik/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kronik
-.. |docker| image:: https://quay.io/repository/biocontainers/kronik/status
-                :target: https://quay.io/repository/biocontainers/kronik
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kronik/README.html
 

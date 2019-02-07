@@ -1,54 +1,66 @@
-.. _`tinysink`:
+.. title:: Package Recipe 'tinysink'
+.. highlight: bash
+
 
 tinysink
 ========
 
-|downloads|
+.. conda:recipe:: tinysink
+   :replaces_section_title:
 
-Synchronise Nanopore reads with a server.
+   Synchronise Nanopore reads with a server.
 
-============= ===========
-Home          https://github.com/mbhall88/tinysink
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tinysink/meta.yaml
+   :homepage: https://github.com/mbhall88/tinysink
+   :license: MIT
+   :recipe: /`tinysink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinysink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinysink/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tinysink
 
-Installation
-------------
+   |downloads_tinysink| |docker_tinysink|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`rsync`  
 
-   conda install tinysink
+   :required~by: |required_by_tinysink|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tinysink
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tinysink
+
+   and update with::
+
+      conda update tinysink
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tinysink
+
+
+.. |required_by_tinysink| conda:required_by:: tinysink
+.. |downloads_tinysink| image:: https://img.shields.io/conda/dn/bioconda/tinysink.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tinysink| image:: https://quay.io/repository/biocontainers/tinysink/status
+   :target: https://quay.io/repository/biocontainers/tinysink
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tinysink.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tinysink/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tinysink/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tinysink/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tinysink/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tinysink
-.. |docker| image:: https://quay.io/repository/biocontainers/tinysink/status
-                :target: https://quay.io/repository/biocontainers/tinysink
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tinysink/README.html
 

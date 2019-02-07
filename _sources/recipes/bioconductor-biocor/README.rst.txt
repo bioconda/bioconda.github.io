@@ -1,54 +1,66 @@
-.. _`bioconductor-biocor`:
+.. title:: Package Recipe 'bioconductor-biocor'
+.. highlight: bash
+
 
 bioconductor-biocor
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-biocor
+   :replaces_section_title:
 
-Calculates functional similarities based on the pathways described on KEGG and REACTOME or in gene sets. These similarities can be calculated for pathways or gene sets\, genes\, or clusters and combined with other similarities. They can be used to improve networks\, gene selection\, testing relationships...
+   Calculates functional similarities based on the pathways described on KEGG and REACTOME or in gene sets. These similarities can be calculated for pathways or gene sets\, genes\, or clusters and combined with other similarities. They can be used to improve networks\, gene selection\, testing relationships...
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BioCor.html
-Versions      1.6.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocor/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BioCor.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-biocor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biocor
 
-Installation
-------------
+   |downloads_bioconductor-biocor| |docker_bioconductor-biocor|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  
 
-   conda install bioconductor-biocor
+   :required~by: |required_by_bioconductor-biocor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biocor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biocor
+
+   and update with::
+
+      conda update bioconductor-biocor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biocor
+
+
+.. |required_by_bioconductor-biocor| conda:required_by:: bioconductor-biocor
+.. |downloads_bioconductor-biocor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biocor| image:: https://quay.io/repository/biocontainers/bioconductor-biocor/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biocor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biocor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biocor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biocor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biocor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biocor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biocor
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocor/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biocor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biocor/README.html
 

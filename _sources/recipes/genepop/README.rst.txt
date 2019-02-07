@@ -1,54 +1,66 @@
-.. _`genepop`:
+.. title:: Package Recipe 'genepop'
+.. highlight: bash
+
 
 genepop
 =======
 
-|downloads|
+.. conda:recipe:: genepop
+   :replaces_section_title:
 
-The Genepop population genetics package.
+   The Genepop population genetics package.
 
-============= ===========
-Home          http://kimura.univ-montp2.fr/~rousset/Genepop.htm
-Versions      4.6, 4.5.1
-License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genepop/meta.yaml
+   :homepage: http://kimura.univ-montp2.fr/~rousset/Genepop.htm
+   :license: CeCILL
+   :recipe: /`genepop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: genepop
 
-Installation
-------------
+   |downloads_genepop| |docker_genepop|
 
-.. highlight: bash
+   :versions: 4.6, 4.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install genepop
+   :required~by: |required_by_genepop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genepop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genepop
+
+   and update with::
+
+      conda update genepop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genepop
+
+
+.. |required_by_genepop| conda:required_by:: genepop
+.. |downloads_genepop| image:: https://img.shields.io/conda/dn/bioconda/genepop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genepop| image:: https://quay.io/repository/biocontainers/genepop/status
+   :target: https://quay.io/repository/biocontainers/genepop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genepop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genepop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genepop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genepop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genepop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genepop
-.. |docker| image:: https://quay.io/repository/biocontainers/genepop/status
-                :target: https://quay.io/repository/biocontainers/genepop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genepop/README.html
 

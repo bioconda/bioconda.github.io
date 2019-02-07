@@ -1,54 +1,66 @@
-.. _`synapseclient`:
+.. title:: Package Recipe 'synapseclient'
+.. highlight: bash
+
 
 synapseclient
 =============
 
-|downloads|
+.. conda:recipe:: synapseclient
+   :replaces_section_title:
 
-A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together.
+   A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together.
 
-============= ===========
-Home          http://synapse.sagebase.org/
-Versions      1.7.5, 1.7.1, 1.6.2, 1.5
-License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//synapseclient/meta.yaml
+   :homepage: http://synapse.sagebase.org/
+   :license: Apache Software License
+   :recipe: /`synapseclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: synapseclient
 
-Installation
-------------
+   |downloads_synapseclient| |docker_synapseclient|
 
-.. highlight: bash
+   :versions: 1.7.5, 1.7.1, 1.6.2, 1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`backports.csv`  :conda:package:`future`  :conda:package:`python` 2.7* :conda:package:`requests` >=1.2 :conda:package:`six`  
 
-   conda install synapseclient
+   :required~by: |required_by_synapseclient|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update synapseclient
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install synapseclient
+
+   and update with::
+
+      conda update synapseclient
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/synapseclient
+
+
+.. |required_by_synapseclient| conda:required_by:: synapseclient
+.. |downloads_synapseclient| image:: https://img.shields.io/conda/dn/bioconda/synapseclient.svg?style=flat
+   :alt:   (downloads)
+.. |docker_synapseclient| image:: https://quay.io/repository/biocontainers/synapseclient/status
+   :target: https://quay.io/repository/biocontainers/synapseclient
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/synapseclient.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/synapseclient/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/synapseclient/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/synapseclient/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/synapseclient/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/synapseclient
-.. |docker| image:: https://quay.io/repository/biocontainers/synapseclient/status
-                :target: https://quay.io/repository/biocontainers/synapseclient
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/synapseclient/README.html
 

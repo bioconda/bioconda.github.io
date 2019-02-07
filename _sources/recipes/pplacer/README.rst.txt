@@ -1,56 +1,67 @@
-.. _`pplacer`:
+.. title:: Package Recipe 'pplacer'
+.. highlight: bash
+
 
 pplacer
 =======
 
-|downloads|
+.. conda:recipe:: pplacer
+   :replaces_section_title:
 
-Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.
+   Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.
 
-============= ===========
-Home          http://matsen.fredhutch.org/pplacer/
-Versions      1.1.alpha19, 1.1.alpha17
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pplacer/meta.yaml
+   :homepage: http://matsen.fredhutch.org/pplacer/
+   :developer docs: https://github.com/matsen/pplacer/
+   :license: GPL / GPL-3.0
+   :recipe: /`pplacer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pplacer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pplacer/meta.yaml>`_
 
-
-Development   https://github.com/matsen/pplacer/
-
-
-============= ===========
+   
 
 
+.. conda:package:: pplacer
 
-Installation
-------------
+   |downloads_pplacer| |docker_pplacer|
 
-.. highlight: bash
+   :versions: 1.1.alpha19, 1.1.alpha17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install pplacer
+   :required~by: |required_by_pplacer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pplacer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pplacer
+
+   and update with::
+
+      conda update pplacer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pplacer
+
+
+.. |required_by_pplacer| conda:required_by:: pplacer
+.. |downloads_pplacer| image:: https://img.shields.io/conda/dn/bioconda/pplacer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pplacer| image:: https://quay.io/repository/biocontainers/pplacer/status
+   :target: https://quay.io/repository/biocontainers/pplacer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pplacer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pplacer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pplacer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pplacer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pplacer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pplacer
-.. |docker| image:: https://quay.io/repository/biocontainers/pplacer/status
-                :target: https://quay.io/repository/biocontainers/pplacer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pplacer/README.html
 

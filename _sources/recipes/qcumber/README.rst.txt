@@ -1,54 +1,66 @@
-.. _`qcumber`:
+.. title:: Package Recipe 'qcumber'
+.. highlight: bash
+
 
 qcumber
 =======
 
-|downloads|
+.. conda:recipe:: qcumber
+   :replaces_section_title:
 
-Quality control\, quality trimming\, adapter removal and sequence content check of NGS data.
+   Quality control\, quality trimming\, adapter removal and sequence content check of NGS data.
 
-============= ===========
-Home          https://gitlab.com/RKIBioinformaticsPipelines/QCumber
-Versions      2.0.4
-License       LGPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qcumber/meta.yaml
+   :homepage: https://gitlab.com/RKIBioinformaticsPipelines/QCumber
+   :license: LGPL3
+   :recipe: /`qcumber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcumber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcumber/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qcumber
 
-Installation
-------------
+   |downloads_qcumber| |docker_qcumber|
 
-.. highlight: bash
+   :versions: 2.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-savr`  :conda:package:`bitstring`  :conda:package:`bowtie2` 2.3.* :conda:package:`docopt`  :conda:package:`fastqc` 0.11.* :conda:package:`jinja2`  :conda:package:`kraken` 0.10.* :conda:package:`krona`  :conda:package:`matplotlib` 2.0.* :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.6.* :conda:package:`pyyaml` 3.12.* :conda:package:`r` 3.3.* :conda:package:`r-ggplot2` 2.2.* :conda:package:`r-quantreg`  :conda:package:`r-reshape2`  :conda:package:`r-stringi`  :conda:package:`samtools` 1.3.* :conda:package:`seaborn`  :conda:package:`setuptools`  :conda:package:`snakemake` 3.12.* :conda:package:`trimmomatic` 0.36.* :conda:package:`xmltodict`  
 
-   conda install qcumber
+   :required~by: |required_by_qcumber|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qcumber
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qcumber
+
+   and update with::
+
+      conda update qcumber
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qcumber
+
+
+.. |required_by_qcumber| conda:required_by:: qcumber
+.. |downloads_qcumber| image:: https://img.shields.io/conda/dn/bioconda/qcumber.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qcumber| image:: https://quay.io/repository/biocontainers/qcumber/status
+   :target: https://quay.io/repository/biocontainers/qcumber
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qcumber.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qcumber/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qcumber/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qcumber/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qcumber/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qcumber
-.. |docker| image:: https://quay.io/repository/biocontainers/qcumber/status
-                :target: https://quay.io/repository/biocontainers/qcumber
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qcumber/README.html
 

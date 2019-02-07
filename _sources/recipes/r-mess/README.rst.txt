@@ -1,54 +1,66 @@
-.. _`r-mess`:
+.. title:: Package Recipe 'r-mess'
+.. highlight: bash
+
 
 r-mess
 ======
 
-|downloads|
+.. conda:recipe:: r-mess
+   :replaces_section_title:
 
-A mixed collection of useful and semi\-useful diverse statistical functions\, some of which may even be referenced in The R Primer book.
+   A mixed collection of useful and semi\-useful diverse statistical functions\, some of which may even be referenced in The R Primer book.
 
-============= ===========
-Home          https://github.com/ekstroem/MESS
-Versions      0.5.4
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mess/meta.yaml
+   :homepage: https://github.com/ekstroem/MESS
+   :license: GPL2 / GPL-2
+   :recipe: /`r-mess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mess/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-mess
 
-Installation
-------------
+   |downloads_r-mess| |docker_r-mess|
 
-.. highlight: bash
+   :versions: 0.5.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geem`  :conda:package:`r-geepack`  :conda:package:`r-glmnet`  :conda:package:`r-kinship2`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  
 
-   conda install r-mess
+   :required~by: |required_by_r-mess|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-mess
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-mess
+
+   and update with::
+
+      conda update r-mess
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-mess
+
+
+.. |required_by_r-mess| conda:required_by:: r-mess
+.. |downloads_r-mess| image:: https://img.shields.io/conda/dn/bioconda/r-mess.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-mess| image:: https://quay.io/repository/biocontainers/r-mess/status
+   :target: https://quay.io/repository/biocontainers/r-mess
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-mess.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-mess/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-mess/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-mess/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-mess/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-mess
-.. |docker| image:: https://quay.io/repository/biocontainers/r-mess/status
-                :target: https://quay.io/repository/biocontainers/r-mess
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-mess/README.html
 

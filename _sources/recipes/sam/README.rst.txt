@@ -1,54 +1,66 @@
-.. _`sam`:
+.. title:: Package Recipe 'sam'
+.. highlight: bash
+
 
 sam
 ===
 
-|downloads|
+.. conda:recipe:: sam
+   :replaces_section_title:
 
-SAM \- Sequence Alignment and Modeling System
+   SAM \- Sequence Alignment and Modeling System
 
-============= ===========
-Home          https://compbio.soe.ucsc.edu/sam2src/
-Versions      3.5
-License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sam/meta.yaml
+   :homepage: https://compbio.soe.ucsc.edu/sam2src/
+   :license: academic
+   :recipe: /`sam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sam
 
-Installation
-------------
+   |downloads_sam| |docker_sam|
 
-.. highlight: bash
+   :versions: 3.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install sam
+   :required~by: |required_by_sam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sam
+
+   and update with::
+
+      conda update sam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sam
+
+
+.. |required_by_sam| conda:required_by:: sam
+.. |downloads_sam| image:: https://img.shields.io/conda/dn/bioconda/sam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sam| image:: https://quay.io/repository/biocontainers/sam/status
+   :target: https://quay.io/repository/biocontainers/sam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sam
-.. |docker| image:: https://quay.io/repository/biocontainers/sam/status
-                :target: https://quay.io/repository/biocontainers/sam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sam/README.html
 

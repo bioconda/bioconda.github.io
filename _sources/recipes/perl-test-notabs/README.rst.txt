@@ -1,54 +1,66 @@
-.. _`perl-test-notabs`:
+.. title:: Package Recipe 'perl-test-notabs'
+.. highlight: bash
+
 
 perl-test-notabs
 ================
 
-|downloads|
+.. conda:recipe:: perl-test-notabs
+   :replaces_section_title:
 
-Check the presence of tabs in your project
+   Check the presence of tabs in your project
 
-============= ===========
-Home          http://metacpan.org/pod/Test-NoTabs
-Versions      2.02, 1.4
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-notabs/meta.yaml
+   :homepage: http://metacpan.org/pod/Test-NoTabs
+   :license: perl_5
+   :recipe: /`perl-test-notabs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-notabs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-notabs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-notabs
 
-Installation
-------------
+   |downloads_perl-test-notabs| |docker_perl-test-notabs|
 
-.. highlight: bash
+   :versions: 2.02, 1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-test-notabs
+   :required~by: |required_by_perl-test-notabs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-notabs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-notabs
+
+   and update with::
+
+      conda update perl-test-notabs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-notabs
+
+
+.. |required_by_perl-test-notabs| conda:required_by:: perl-test-notabs
+.. |downloads_perl-test-notabs| image:: https://img.shields.io/conda/dn/bioconda/perl-test-notabs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-notabs| image:: https://quay.io/repository/biocontainers/perl-test-notabs/status
+   :target: https://quay.io/repository/biocontainers/perl-test-notabs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-notabs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-notabs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-notabs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-notabs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-notabs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-notabs
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-notabs/status
-                :target: https://quay.io/repository/biocontainers/perl-test-notabs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-notabs/README.html
 

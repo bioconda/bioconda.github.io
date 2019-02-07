@@ -1,56 +1,67 @@
-.. _`bioconductor-motifstack`:
+.. title:: Package Recipe 'bioconductor-motifstack'
+.. highlight: bash
+
 
 bioconductor-motifstack
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-motifstack
+   :replaces_section_title:
 
-The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA\/RNA sequence motif and amino acid sequence motif. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.
+   The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA\/RNA sequence motif and amino acid sequence motif. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/motifStack.html
-Versions      1.26.0, 1.24.1, 1.22.0, 1.20.1, 1.18.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-motifstack/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/motifStack.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-motifstack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack/meta.yaml>`_
+   :links: biotools: :biotools:`motifstack`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`motifstack`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-motifstack
 
-Installation
-------------
+   |downloads_bioconductor-motifstack| |docker_bioconductor-motifstack|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.1, 1.22.0, 1.20.1, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-motiv` >=1.38.0,<1.39.0 :conda:package:`r-ade4`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grimport`  :conda:package:`r-htmlwidgets`  :conda:package:`r-scales`  :conda:package:`r-xml`  
 
-   conda install bioconductor-motifstack
+   :required~by: |required_by_bioconductor-motifstack|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-motifstack
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-motifstack
+
+   and update with::
+
+      conda update bioconductor-motifstack
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-motifstack
+
+
+.. |required_by_bioconductor-motifstack| conda:required_by:: bioconductor-motifstack
+.. |downloads_bioconductor-motifstack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifstack.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-motifstack| image:: https://quay.io/repository/biocontainers/bioconductor-motifstack/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-motifstack
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-motifstack.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-motifstack/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-motifstack/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-motifstack/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-motifstack/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-motifstack
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-motifstack/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-motifstack
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-motifstack/README.html
 

@@ -1,54 +1,66 @@
-.. _`sqt`:
+.. title:: Package Recipe 'sqt'
+.. highlight: bash
+
 
 sqt
 ===
 
-|downloads|
+.. conda:recipe:: sqt
+   :replaces_section_title:
 
-Command\-line tools for the analysis of high\-throughput sequencing data
+   Command\-line tools for the analysis of high\-throughput sequencing data
 
-============= ===========
-Home          https://bitbucket.org/marcelm/sqt
-Versions      0.8.0, 0.7.0, 0.6.3, 0.6.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sqt/meta.yaml
+   :homepage: https://bitbucket.org/marcelm/sqt
+   :license: MIT
+   :recipe: /`sqt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sqt
 
-Installation
-------------
+   |downloads_sqt| |docker_sqt|
 
-.. highlight: bash
+   :versions: 0.8.0, 0.7.0, 0.6.3, 0.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cutadapt`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 3.4* :conda:package:`seaborn`  :conda:package:`xopen`  
 
-   conda install sqt
+   :required~by: |required_by_sqt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sqt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sqt
+
+   and update with::
+
+      conda update sqt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sqt
+
+
+.. |required_by_sqt| conda:required_by:: sqt
+.. |downloads_sqt| image:: https://img.shields.io/conda/dn/bioconda/sqt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sqt| image:: https://quay.io/repository/biocontainers/sqt/status
+   :target: https://quay.io/repository/biocontainers/sqt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sqt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sqt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sqt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sqt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sqt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sqt
-.. |docker| image:: https://quay.io/repository/biocontainers/sqt/status
-                :target: https://quay.io/repository/biocontainers/sqt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sqt/README.html
 

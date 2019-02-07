@@ -1,54 +1,66 @@
-.. _`bioconductor-dks`:
+.. title:: Package Recipe 'bioconductor-dks'
+.. highlight: bash
+
 
 bioconductor-dks
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-dks
+   :replaces_section_title:
 
-The dks package consists of a set of diagnostic functions for multiple testing methods. The functions can be used to determine if the p\-values produced by a multiple testing procedure are correct. These functions are designed to be applied to simulated data. The functions require the entire set of p\-values from multiple simulated studies\, so that the joint distribution can be evaluated.
+   The dks package consists of a set of diagnostic functions for multiple testing methods. The functions can be used to determine if the p\-values produced by a multiple testing procedure are correct. These functions are designed to be applied to simulated data. The functions require the entire set of p\-values from multiple simulated studies\, so that the joint distribution can be evaluated.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/dks.html
-Versions      1.28.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dks/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/dks.html
+   :license: GPL
+   :recipe: /`bioconductor-dks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dks
 
-Installation
-------------
+   |downloads_bioconductor-dks| |docker_bioconductor-dks|
 
-.. highlight: bash
+   :versions: 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cubature`  
 
-   conda install bioconductor-dks
+   :required~by: |required_by_bioconductor-dks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dks
+
+   and update with::
+
+      conda update bioconductor-dks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dks
+
+
+.. |required_by_bioconductor-dks| conda:required_by:: bioconductor-dks
+.. |downloads_bioconductor-dks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dks| image:: https://quay.io/repository/biocontainers/bioconductor-dks/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dks
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dks/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dks/README.html
 

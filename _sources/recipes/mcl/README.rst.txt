@@ -1,54 +1,66 @@
-.. _`mcl`:
+.. title:: Package Recipe 'mcl'
+.. highlight: bash
+
 
 mcl
 ===
 
-|downloads|
+.. conda:recipe:: mcl
+   :replaces_section_title:
 
-MCL \- a cluster algorithm for graphs
+   MCL \- a cluster algorithm for graphs
 
-============= ===========
-Home          http://micans.org/mcl/
-Versions      14.137
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mcl/meta.yaml
+   :homepage: http://micans.org/mcl/
+   :license: GPL3
+   :recipe: /`mcl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mcl
 
-Installation
-------------
+   |downloads_mcl| |docker_mcl|
 
-.. highlight: bash
+   :versions: 14.137
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install mcl
+   :required~by: |required_by_mcl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mcl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mcl
+
+   and update with::
+
+      conda update mcl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mcl
+
+
+.. |required_by_mcl| conda:required_by:: mcl
+.. |downloads_mcl| image:: https://img.shields.io/conda/dn/bioconda/mcl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mcl| image:: https://quay.io/repository/biocontainers/mcl/status
+   :target: https://quay.io/repository/biocontainers/mcl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mcl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mcl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mcl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mcl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mcl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mcl
-.. |docker| image:: https://quay.io/repository/biocontainers/mcl/status
-                :target: https://quay.io/repository/biocontainers/mcl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mcl/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-par`:
+.. title:: Package Recipe 'perl-par'
+.. highlight: bash
+
 
 perl-par
 ========
 
-|downloads|
+.. conda:recipe:: perl-par/1.014
+   :replaces_section_title:
 
-Perl Archive Tookit
+   Perl Archive Tookit
 
-============= ===========
-Home          http://metacpan.org/pod/PAR
-Versions      1.014
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-par/1.014/meta.yaml
+   :homepage: http://metacpan.org/pod/PAR
+   :license: perl_5
+   :recipe: /`perl-par <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par>`_/`1.014 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par/1.014>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par/1.014/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-par
 
-Installation
-------------
+   |downloads_perl-par| |docker_perl-par|
 
-.. highlight: bash
+   :versions: 1.014
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-archive-zip`  :conda:package:`perl-par-dist`  
 
-   conda install perl-par
+   :required~by: |required_by_perl-par|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-par
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-par
+
+   and update with::
+
+      conda update perl-par
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-par
+
+
+.. |required_by_perl-par| conda:required_by:: perl-par
+.. |downloads_perl-par| image:: https://img.shields.io/conda/dn/bioconda/perl-par.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-par| image:: https://quay.io/repository/biocontainers/perl-par/status
+   :target: https://quay.io/repository/biocontainers/perl-par
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-par.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-par/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-par/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-par/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-par/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-par
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-par/status
-                :target: https://quay.io/repository/biocontainers/perl-par
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-par/README.html
 

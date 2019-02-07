@@ -1,56 +1,68 @@
-.. _`pvacseq`:
+.. title:: Package Recipe 'pvacseq'
+.. highlight: bash
+
 
 pvacseq
 =======
 
-|downloads|
+.. conda:recipe:: pvacseq
+   :replaces_section_title:
 
-Personalized Variant Antigens by Cancer Sequencing \(pVAC\-Seq\)
+   Personalized Variant Antigens by Cancer Sequencing \(pVAC\-Seq\)
 
-============= ===========
-Home          https://github.com/griffithlab/pVAC-Seq
-Versions      4.0.10, 4.0.9
-License       NPOSL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pvacseq/meta.yaml
+   :homepage: https://github.com/griffithlab/pVAC-Seq
+   :documentation: http://pvac-seq.readthedocs.io/
+   
+   :license: Other / NPOSL-3.0
+   :recipe: /`pvacseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pvacseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pvacseq/meta.yaml>`_
 
-Documentation http://pvac-seq.readthedocs.io/
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: pvacseq
 
-Installation
-------------
+   |downloads_pvacseq| |docker_pvacseq|
 
-.. highlight: bash
+   :versions: 4.0.10, 4.0.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`connexion`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`pyvcf`  :conda:package:`pyyaml`  :conda:package:`requests`  
 
-   conda install pvacseq
+   :required~by: |required_by_pvacseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pvacseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pvacseq
+
+   and update with::
+
+      conda update pvacseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pvacseq
+
+
+.. |required_by_pvacseq| conda:required_by:: pvacseq
+.. |downloads_pvacseq| image:: https://img.shields.io/conda/dn/bioconda/pvacseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pvacseq| image:: https://quay.io/repository/biocontainers/pvacseq/status
+   :target: https://quay.io/repository/biocontainers/pvacseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pvacseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pvacseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pvacseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pvacseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pvacseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pvacseq
-.. |docker| image:: https://quay.io/repository/biocontainers/pvacseq/status
-                :target: https://quay.io/repository/biocontainers/pvacseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pvacseq/README.html
 

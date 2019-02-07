@@ -1,54 +1,66 @@
-.. _`pybel`:
+.. title:: Package Recipe 'pybel'
+.. highlight: bash
+
 
 pybel
 =====
 
-|downloads|
+.. conda:recipe:: pybel
+   :replaces_section_title:
 
-PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\)
+   PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\)
 
-============= ===========
-Home          https://github.com/pybel/pybel
-Versions      0.9.3, 0.5.4, 0.4.0
-License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pybel/meta.yaml
+   :homepage: https://github.com/pybel/pybel
+   :license: Apache Software License
+   :recipe: /`pybel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pybel
 
-Installation
-------------
+   |downloads_pybel| |docker_pybel|
 
-.. highlight: bash
+   :versions: 0.9.3, 0.5.4, 0.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`configparser`  :conda:package:`ndex-python`  :conda:package:`networkx`  :conda:package:`onto2nx`  :conda:package:`py2neo`  :conda:package:`pyparsing`  :conda:package:`python` 2.7* :conda:package:`requests`  :conda:package:`requests-file`  :conda:package:`sqlalchemy`  
 
-   conda install pybel
+   :required~by: |required_by_pybel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pybel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pybel
+
+   and update with::
+
+      conda update pybel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pybel
+
+
+.. |required_by_pybel| conda:required_by:: pybel
+.. |downloads_pybel| image:: https://img.shields.io/conda/dn/bioconda/pybel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pybel| image:: https://quay.io/repository/biocontainers/pybel/status
+   :target: https://quay.io/repository/biocontainers/pybel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pybel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pybel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pybel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pybel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pybel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pybel
-.. |docker| image:: https://quay.io/repository/biocontainers/pybel/status
-                :target: https://quay.io/repository/biocontainers/pybel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pybel/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-mafspeciessubset`:
+.. title:: Package Recipe 'ucsc-mafspeciessubset'
+.. highlight: bash
+
 
 ucsc-mafspeciessubset
 =====================
 
-|downloads|
+.. conda:recipe:: ucsc-mafspeciessubset
+   :replaces_section_title:
 
-Extract a maf that just has a subset of species.
+   Extract a maf that just has a subset of species.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-mafspeciessubset/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-mafspeciessubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafspeciessubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafspeciessubset/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-mafspeciessubset
 
-Installation
-------------
+   |downloads_ucsc-mafspeciessubset| |docker_ucsc-mafspeciessubset|
 
-.. highlight: bash
+   :versions: 366, 357, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-mafspeciessubset
+   :required~by: |required_by_ucsc-mafspeciessubset|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-mafspeciessubset
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-mafspeciessubset
+
+   and update with::
+
+      conda update ucsc-mafspeciessubset
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-mafspeciessubset
+
+
+.. |required_by_ucsc-mafspeciessubset| conda:required_by:: ucsc-mafspeciessubset
+.. |downloads_ucsc-mafspeciessubset| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafspeciessubset.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-mafspeciessubset| image:: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset/status
+   :target: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-mafspeciessubset.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-mafspeciessubset/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-mafspeciessubset/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-mafspeciessubset/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-mafspeciessubset/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-mafspeciessubset
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset/status
-                :target: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-mafspeciessubset/README.html
 

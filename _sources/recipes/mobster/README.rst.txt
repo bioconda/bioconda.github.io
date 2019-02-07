@@ -1,36 +1,56 @@
-.. _`mobster`:
+.. title:: Package Recipe 'mobster'
+.. highlight: bash
+
 
 mobster
 =======
 
-|downloads|
+.. conda:recipe:: mobster
+   :replaces_section_title:
 
-NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data\, see Thung et al. Genome Biol. 2014 for more information.
+   NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data\, see Thung et al. Genome Biol. 2014 for more information.
 
-============= ===========
-Home          https://github.com/jyhehir/mobster
-Versions      0.2.4.1, 0.2.3.1, 0.2.2, 0.2.1
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mobster/meta.yaml
+   :homepage: https://github.com/jyhehir/mobster
+   :license: GPL3
+   :recipe: /`mobster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mobster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mobster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mobster
 
-Installation
-------------
+   |downloads_mobster| |docker_mobster|
 
-.. highlight: bash
+   :versions: 0.2.4.1, 0.2.3.1, 0.2.2, 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mosaik`  :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install mobster
+   :required~by: |required_by_mobster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mobster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mobster
+
+   and update with::
+
+      conda update mobster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mobster
+
+
+.. |required_by_mobster| conda:required_by:: mobster
+.. |downloads_mobster| image:: https://img.shields.io/conda/dn/bioconda/mobster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mobster| image:: https://quay.io/repository/biocontainers/mobster/status
+   :target: https://quay.io/repository/biocontainers/mobster
+
+
+
+
 
 
 Notes
@@ -39,22 +59,13 @@ After installation\, mobster is available as command \`mobster\`.
 Further\, you can convert mobster output to vcf with the command \`mobster\-to\-vcf\`.
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/mobster.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mobster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mobster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mobster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mobster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mobster
-.. |docker| image:: https://quay.io/repository/biocontainers/mobster/status
-                :target: https://quay.io/repository/biocontainers/mobster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mobster/README.html
 

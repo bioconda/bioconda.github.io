@@ -1,54 +1,66 @@
-.. _`ucsc-chopfalines`:
+.. title:: Package Recipe 'ucsc-chopfalines'
+.. highlight: bash
+
 
 ucsc-chopfalines
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-chopfalines
+   :replaces_section_title:
 
-Read in FA file with long lines and rewrite it with shorter lines
+   Read in FA file with long lines and rewrite it with shorter lines
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-chopfalines/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-chopfalines <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chopfalines>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chopfalines/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-chopfalines
 
-Installation
-------------
+   |downloads_ucsc-chopfalines| |docker_ucsc-chopfalines|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-chopfalines
+   :required~by: |required_by_ucsc-chopfalines|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-chopfalines
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-chopfalines
+
+   and update with::
+
+      conda update ucsc-chopfalines
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-chopfalines
+
+
+.. |required_by_ucsc-chopfalines| conda:required_by:: ucsc-chopfalines
+.. |downloads_ucsc-chopfalines| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chopfalines.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-chopfalines| image:: https://quay.io/repository/biocontainers/ucsc-chopfalines/status
+   :target: https://quay.io/repository/biocontainers/ucsc-chopfalines
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-chopfalines.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-chopfalines/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-chopfalines/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-chopfalines/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-chopfalines/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-chopfalines
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-chopfalines/status
-                :target: https://quay.io/repository/biocontainers/ucsc-chopfalines
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-chopfalines/README.html
 

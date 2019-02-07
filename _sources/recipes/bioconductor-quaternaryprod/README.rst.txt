@@ -1,56 +1,67 @@
-.. _`bioconductor-quaternaryprod`:
+.. title:: Package Recipe 'bioconductor-quaternaryprod'
+.. highlight: bash
+
 
 bioconductor-quaternaryprod
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-quaternaryprod
+   :replaces_section_title:
 
-QuaternaryProd is an R package that performs causal reasoning on biological networks\, including publicly available networks such as STRINGdb. QuaternaryProd is an open\-source alternative to commercial products such as Inginuity Pathway Analysis. For a given a set of differentially expressed genes\, QuaternaryProd computes the significance of upstream regulators in the network by performing causal reasoning using the Quaternary Dot Product Scoring Statistic \(Quaternary Statistic\)\, Ternary Dot product Scoring Statistic \(Ternary Statistic\) and Fisher\'s exact test \(Enrichment test\). The Quaternary Statistic handles signed\, unsigned and ambiguous edges in the network. Ambiguity arises when the direction of causality is unknown\, or when the source node \(e.g.\, a protein\) has edges with conflicting signs for the same target gene. On the other hand\, the Ternary Statistic provides causal reasoning using the signed and unambiguous edges only. The Vignette provides more details on the Quaternary Statistic and illustrates an example of how to perform causal reasoning using STRINGdb.
+   QuaternaryProd is an R package that performs causal reasoning on biological networks\, including publicly available networks such as STRINGdb. QuaternaryProd is an open\-source alternative to commercial products such as Inginuity Pathway Analysis. For a given a set of differentially expressed genes\, QuaternaryProd computes the significance of upstream regulators in the network by performing causal reasoning using the Quaternary Dot Product Scoring Statistic \(Quaternary Statistic\)\, Ternary Dot product Scoring Statistic \(Ternary Statistic\) and Fisher\'s exact test \(Enrichment test\). The Quaternary Statistic handles signed\, unsigned and ambiguous edges in the network. Ambiguity arises when the direction of causality is unknown\, or when the source node \(e.g.\, a protein\) has edges with conflicting signs for the same target gene. On the other hand\, the Ternary Statistic provides causal reasoning using the signed and unambiguous edges only. The Vignette provides more details on the Quaternary Statistic and illustrates an example of how to perform causal reasoning using STRINGdb.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/QuaternaryProd.html
-Versions      1.16.0, 1.14.0, 1.6.0
-License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-quaternaryprod/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/QuaternaryProd.html
+   :license: GPL (>=3)
+   :recipe: /`bioconductor-quaternaryprod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quaternaryprod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quaternaryprod/meta.yaml>`_
+   :links: biotools: :biotools:`quaternaryprod`
 
-
-
-Links         biotools: :biotools:`quaternaryprod`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-quaternaryprod
 
-Installation
-------------
+   |downloads_bioconductor-quaternaryprod| |docker_bioconductor-quaternaryprod|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-yaml` >=2.1.18 
 
-   conda install bioconductor-quaternaryprod
+   :required~by: |required_by_bioconductor-quaternaryprod|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-quaternaryprod
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-quaternaryprod
+
+   and update with::
+
+      conda update bioconductor-quaternaryprod
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-quaternaryprod
+
+
+.. |required_by_bioconductor-quaternaryprod| conda:required_by:: bioconductor-quaternaryprod
+.. |downloads_bioconductor-quaternaryprod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quaternaryprod.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-quaternaryprod| image:: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-quaternaryprod.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-quaternaryprod/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-quaternaryprod/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-quaternaryprod/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-quaternaryprod/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-quaternaryprod
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-quaternaryprod/README.html
 

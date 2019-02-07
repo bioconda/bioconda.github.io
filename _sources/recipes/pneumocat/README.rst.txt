@@ -1,54 +1,66 @@
-.. _`pneumocat`:
+.. title:: Package Recipe 'pneumocat'
+.. highlight: bash
+
 
 pneumocat
 =========
 
-|downloads|
+.. conda:recipe:: pneumocat
+   :replaces_section_title:
 
-PneumoCaT \(Pneumococcal Capsular Typing\) uses a two\-step step approach to assign capsular type to S.pneumoniae genomic data \(Illumina\)
+   PneumoCaT \(Pneumococcal Capsular Typing\) uses a two\-step step approach to assign capsular type to S.pneumoniae genomic data \(Illumina\)
 
-============= ===========
-Home          https://github.com/phe-bioinformatics/pneumocat
-Versions      1.2, 1.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pneumocat/meta.yaml
+   :homepage: https://github.com/phe-bioinformatics/pneumocat
+   :license: GPL / GPL-3.0
+   :recipe: /`pneumocat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumocat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumocat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pneumocat
 
-Installation
-------------
+   |downloads_pneumocat| |docker_pneumocat|
 
-.. highlight: bash
+   :versions: 1.2, 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`bowtie2`  :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`samtools` ==0.1.19 
 
-   conda install pneumocat
+   :required~by: |required_by_pneumocat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pneumocat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pneumocat
+
+   and update with::
+
+      conda update pneumocat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pneumocat
+
+
+.. |required_by_pneumocat| conda:required_by:: pneumocat
+.. |downloads_pneumocat| image:: https://img.shields.io/conda/dn/bioconda/pneumocat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pneumocat| image:: https://quay.io/repository/biocontainers/pneumocat/status
+   :target: https://quay.io/repository/biocontainers/pneumocat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pneumocat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pneumocat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pneumocat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pneumocat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pneumocat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pneumocat
-.. |docker| image:: https://quay.io/repository/biocontainers/pneumocat/status
-                :target: https://quay.io/repository/biocontainers/pneumocat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pneumocat/README.html
 

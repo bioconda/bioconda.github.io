@@ -1,56 +1,67 @@
-.. _`bwa`:
+.. title:: Package Recipe 'bwa'
+.. highlight: bash
+
 
 bwa
 ===
 
-|downloads|
+.. conda:recipe:: bwa
+   :replaces_section_title:
 
-The BWA read mapper.
+   The BWA read mapper.
 
-============= ===========
-Home          https://github.com/lh3/bwa
-Versions      0.7.17, 0.7.16, 0.7.15, 0.7.13, 0.7.12, 0.7.8, 0.7.4, 0.7.3a, 0.6.2, 0.5.9
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bwa/meta.yaml
+   :homepage: https://github.com/lh3/bwa
+   :license: GPL3
+   :recipe: /`bwa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa/meta.yaml>`_
+   :links: biotools: :biotools:`bwa`
 
-
-
-Links         biotools: :biotools:`bwa`
-
-============= ===========
+   
 
 
+.. conda:package:: bwa
 
-Installation
-------------
+   |downloads_bwa| |docker_bwa|
 
-.. highlight: bash
+   :versions: 0.7.17, 0.7.16, 0.7.15, 0.7.13, 0.7.12, 0.7.8, 0.7.4, 0.7.3a, 0.6.2, 0.5.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bwa
+   :required~by: |required_by_bwa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bwa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bwa
+
+   and update with::
+
+      conda update bwa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bwa
+
+
+.. |required_by_bwa| conda:required_by:: bwa
+.. |downloads_bwa| image:: https://img.shields.io/conda/dn/bioconda/bwa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bwa| image:: https://quay.io/repository/biocontainers/bwa/status
+   :target: https://quay.io/repository/biocontainers/bwa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bwa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bwa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bwa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bwa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bwa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bwa
-.. |docker| image:: https://quay.io/repository/biocontainers/bwa/status
-                :target: https://quay.io/repository/biocontainers/bwa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bwa/README.html
 

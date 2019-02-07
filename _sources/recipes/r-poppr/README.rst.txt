@@ -1,54 +1,66 @@
-.. _`r-poppr`:
+.. title:: Package Recipe 'r-poppr'
+.. highlight: bash
+
 
 r-poppr
 =======
 
-|downloads|
+.. conda:recipe:: r-poppr
+   :replaces_section_title:
 
-An R package for genetic analysis of populations with mixed \(clonal\/sexual\) reproduction
+   An R package for genetic analysis of populations with mixed \(clonal\/sexual\) reproduction
 
-============= ===========
-Home          https://github.com/grunwaldlab/poppr
-Versions      2.8.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-poppr/meta.yaml
+   :homepage: https://github.com/grunwaldlab/poppr
+   :license: GPL (>= 2)
+   :recipe: /`r-poppr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-poppr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-poppr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-poppr
 
-Installation
-------------
+   |downloads_r-poppr| |docker_r-poppr|
 
-.. highlight: bash
+   :versions: 2.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-ade4`  :conda:package:`r-adegenet`  :conda:package:`r-ape`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-knitr`  :conda:package:`r-magrittr`  :conda:package:`r-pegas`  :conda:package:`r-phangorn`  :conda:package:`r-polysat`  :conda:package:`r-rlang`  :conda:package:`r-rmarkdown`  :conda:package:`r-shiny`  :conda:package:`r-testthat`  :conda:package:`r-vegan`  
 
-   conda install r-poppr
+   :required~by: |required_by_r-poppr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-poppr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-poppr
+
+   and update with::
+
+      conda update r-poppr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-poppr
+
+
+.. |required_by_r-poppr| conda:required_by:: r-poppr
+.. |downloads_r-poppr| image:: https://img.shields.io/conda/dn/bioconda/r-poppr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-poppr| image:: https://quay.io/repository/biocontainers/r-poppr/status
+   :target: https://quay.io/repository/biocontainers/r-poppr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-poppr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-poppr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-poppr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-poppr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-poppr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-poppr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-poppr/status
-                :target: https://quay.io/repository/biocontainers/r-poppr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-poppr/README.html
 

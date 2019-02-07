@@ -1,54 +1,66 @@
-.. _`bioconductor-lymphoseqdb`:
+.. title:: Package Recipe 'bioconductor-lymphoseqdb'
+.. highlight: bash
+
 
 bioconductor-lymphoseqdb
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-lymphoseqdb
+   :replaces_section_title:
 
-This package provides annotation databases that support the package LymphoSeq.
+   This package provides annotation databases that support the package LymphoSeq.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/LymphoSeqDB.html
-Versions      0.99.2
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lymphoseqdb/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LymphoSeqDB.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-lymphoseqdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lymphoseqdb
 
-Installation
-------------
+   |downloads_bioconductor-lymphoseqdb| |docker_bioconductor-lymphoseqdb|
 
-.. highlight: bash
+   :versions: 0.99.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lymphoseqdb
+   :required~by: |required_by_bioconductor-lymphoseqdb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lymphoseqdb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lymphoseqdb
+
+   and update with::
+
+      conda update bioconductor-lymphoseqdb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lymphoseqdb
+
+
+.. |required_by_bioconductor-lymphoseqdb| conda:required_by:: bioconductor-lymphoseqdb
+.. |downloads_bioconductor-lymphoseqdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lymphoseqdb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lymphoseqdb| image:: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lymphoseqdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lymphoseqdb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lymphoseqdb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lymphoseqdb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lymphoseqdb
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lymphoseqdb/README.html
 

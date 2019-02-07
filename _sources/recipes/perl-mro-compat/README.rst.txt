@@ -1,54 +1,66 @@
-.. _`perl-mro-compat`:
+.. title:: Package Recipe 'perl-mro-compat'
+.. highlight: bash
+
 
 perl-mro-compat
 ===============
 
-|downloads|
+.. conda:recipe:: perl-mro-compat
+   :replaces_section_title:
 
-mro\:\:\* interface compatibility for Perls \< 5.9.5
+   mro\:\:\* interface compatibility for Perls \< 5.9.5
 
-============= ===========
-Home          https://metacpan.org/release/MRO-Compat
-Versions      0.13
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mro-compat/meta.yaml
+   :homepage: https://metacpan.org/release/MRO-Compat
+   :license: perl_5
+   :recipe: /`perl-mro-compat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mro-compat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mro-compat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mro-compat
 
-Installation
-------------
+   |downloads_perl-mro-compat| |docker_perl-mro-compat|
 
-.. highlight: bash
+   :versions: 0.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-mro-compat
+   :required~by: |required_by_perl-mro-compat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mro-compat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mro-compat
+
+   and update with::
+
+      conda update perl-mro-compat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mro-compat
+
+
+.. |required_by_perl-mro-compat| conda:required_by:: perl-mro-compat
+.. |downloads_perl-mro-compat| image:: https://img.shields.io/conda/dn/bioconda/perl-mro-compat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mro-compat| image:: https://quay.io/repository/biocontainers/perl-mro-compat/status
+   :target: https://quay.io/repository/biocontainers/perl-mro-compat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mro-compat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mro-compat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mro-compat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mro-compat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mro-compat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mro-compat
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mro-compat/status
-                :target: https://quay.io/repository/biocontainers/perl-mro-compat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mro-compat/README.html
 

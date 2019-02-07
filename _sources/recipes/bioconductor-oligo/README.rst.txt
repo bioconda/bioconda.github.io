@@ -1,56 +1,67 @@
-.. _`bioconductor-oligo`:
+.. title:: Package Recipe 'bioconductor-oligo'
+.. highlight: bash
+
 
 bioconductor-oligo
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-oligo
+   :replaces_section_title:
 
-A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at probe\-level. It currently supports Affymetrix \(CEL files\) and NimbleGen arrays \(XYS files\).
+   A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at probe\-level. It currently supports Affymetrix \(CEL files\) and NimbleGen arrays \(XYS files\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/oligo.html
-Versions      1.46.0, 1.44.0, 1.42.0, 1.40.2, 1.40.1
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oligo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/oligo.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-oligo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo/meta.yaml>`_
+   :links: biotools: :biotools:`oligo`
 
-
-
-Links         biotools: :biotools:`oligo`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-oligo
 
-Installation
-------------
+   |downloads_bioconductor-oligo| |docker_bioconductor-oligo|
 
-.. highlight: bash
+   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.2, 1.40.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affxparser` >=1.54.0,<1.55.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-ff`  :conda:package:`r-rsqlite` >=1.0.0 
 
-   conda install bioconductor-oligo
+   :required~by: |required_by_bioconductor-oligo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-oligo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-oligo
+
+   and update with::
+
+      conda update bioconductor-oligo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-oligo
+
+
+.. |required_by_bioconductor-oligo| conda:required_by:: bioconductor-oligo
+.. |downloads_bioconductor-oligo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oligo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-oligo| image:: https://quay.io/repository/biocontainers/bioconductor-oligo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-oligo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-oligo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-oligo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-oligo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-oligo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-oligo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-oligo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-oligo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-oligo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-oligo/README.html
 

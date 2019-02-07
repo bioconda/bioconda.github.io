@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu133abarcodevecs`:
+.. title:: Package Recipe 'bioconductor-hgu133abarcodevecs'
+.. highlight: bash
+
 
 bioconductor-hgu133abarcodevecs
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu133abarcodevecs
+   :replaces_section_title:
 
-Data used by the barcode package for microarrays of type hgu133a.
+   Data used by the barcode package for microarrays of type hgu133a.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/hgu133abarcodevecs.html
-Versions      1.20.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133abarcodevecs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hgu133abarcodevecs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hgu133abarcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133abarcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133abarcodevecs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu133abarcodevecs
 
-Installation
-------------
+   |downloads_bioconductor-hgu133abarcodevecs| |docker_bioconductor-hgu133abarcodevecs|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu133abarcodevecs
+   :required~by: |required_by_bioconductor-hgu133abarcodevecs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu133abarcodevecs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu133abarcodevecs
+
+   and update with::
+
+      conda update bioconductor-hgu133abarcodevecs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs
+
+
+.. |required_by_bioconductor-hgu133abarcodevecs| conda:required_by:: bioconductor-hgu133abarcodevecs
+.. |downloads_bioconductor-hgu133abarcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133abarcodevecs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu133abarcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu133abarcodevecs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu133abarcodevecs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu133abarcodevecs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu133abarcodevecs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu133abarcodevecs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu133abarcodevecs/README.html
 

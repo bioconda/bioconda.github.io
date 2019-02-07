@@ -1,56 +1,67 @@
-.. _`bioconductor-frmatools`:
+.. title:: Package Recipe 'bioconductor-frmatools'
+.. highlight: bash
+
 
 bioconductor-frmatools
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-frmatools
+   :replaces_section_title:
 
-Tools for advanced use of the frma package.
+   Tools for advanced use of the frma package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/frmaTools.html
-Versions      1.34.0, 1.32.0, 1.28.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-frmatools/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/frmaTools.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-frmatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmatools/meta.yaml>`_
+   :links: biotools: :biotools:`frmatools`
 
-
-
-Links         biotools: :biotools:`frmatools`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-frmatools
 
-Installation
-------------
+   |downloads_bioconductor-frmatools| |docker_bioconductor-frmatools|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  
 
-   conda install bioconductor-frmatools
+   :required~by: |required_by_bioconductor-frmatools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-frmatools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-frmatools
+
+   and update with::
+
+      conda update bioconductor-frmatools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-frmatools
+
+
+.. |required_by_bioconductor-frmatools| conda:required_by:: bioconductor-frmatools
+.. |downloads_bioconductor-frmatools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frmatools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-frmatools| image:: https://quay.io/repository/biocontainers/bioconductor-frmatools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-frmatools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-frmatools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-frmatools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-frmatools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-frmatools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-frmatools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-frmatools
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-frmatools/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-frmatools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-frmatools/README.html
 

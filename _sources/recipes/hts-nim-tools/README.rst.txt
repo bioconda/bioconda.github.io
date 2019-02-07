@@ -1,54 +1,66 @@
-.. _`hts-nim-tools`:
+.. title:: Package Recipe 'hts-nim-tools'
+.. highlight: bash
+
 
 hts-nim-tools
 =============
 
-|downloads|
+.. conda:recipe:: hts-nim-tools
+   :replaces_section_title:
 
-useful command\-line tools written to show\-case hts\-nim
+   useful command\-line tools written to show\-case hts\-nim
 
-============= ===========
-Home          https://github.com/brentp/hts-nim-tools
-Versions      0.1.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hts-nim-tools/meta.yaml
+   :homepage: https://github.com/brentp/hts-nim-tools
+   :license: MIT
+   :recipe: /`hts-nim-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hts-nim-tools
 
-Installation
-------------
+   |downloads_hts-nim-tools| |docker_hts-nim-tools|
 
-.. highlight: bash
+   :versions: 0.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`pcre`  
 
-   conda install hts-nim-tools
+   :required~by: |required_by_hts-nim-tools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hts-nim-tools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hts-nim-tools
+
+   and update with::
+
+      conda update hts-nim-tools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hts-nim-tools
+
+
+.. |required_by_hts-nim-tools| conda:required_by:: hts-nim-tools
+.. |downloads_hts-nim-tools| image:: https://img.shields.io/conda/dn/bioconda/hts-nim-tools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hts-nim-tools| image:: https://quay.io/repository/biocontainers/hts-nim-tools/status
+   :target: https://quay.io/repository/biocontainers/hts-nim-tools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hts-nim-tools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hts-nim-tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hts-nim-tools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hts-nim-tools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hts-nim-tools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hts-nim-tools
-.. |docker| image:: https://quay.io/repository/biocontainers/hts-nim-tools/status
-                :target: https://quay.io/repository/biocontainers/hts-nim-tools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hts-nim-tools/README.html
 

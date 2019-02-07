@@ -1,54 +1,66 @@
-.. _`logol`:
+.. title:: Package Recipe 'logol'
+.. highlight: bash
+
 
 logol
 =====
 
-|downloads|
+.. conda:recipe:: logol
+   :replaces_section_title:
 
-Logol is a pattern matching grammar language and a set of tools to search a pattern in a sequence \(nucleic or proteic\)
+   Logol is a pattern matching grammar language and a set of tools to search a pattern in a sequence \(nucleic or proteic\)
 
-============= ===========
-Home          https://github.com/genouest/logol
-Versions      1.7.8
-License       Affero GPL 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//logol/meta.yaml
+   :homepage: https://github.com/genouest/logol
+   :license: Affero GPL 3.0
+   :recipe: /`logol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logol/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: logol
 
-Installation
-------------
+   |downloads_logol| |docker_logol|
 
-.. highlight: bash
+   :versions: 1.7.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cassiopee`  :conda:package:`openjdk`  :conda:package:`ruby` >=2.4 :conda:package:`swi-prolog`  
 
-   conda install logol
+   :required~by: |required_by_logol|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update logol
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install logol
+
+   and update with::
+
+      conda update logol
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/logol
+
+
+.. |required_by_logol| conda:required_by:: logol
+.. |downloads_logol| image:: https://img.shields.io/conda/dn/bioconda/logol.svg?style=flat
+   :alt:   (downloads)
+.. |docker_logol| image:: https://quay.io/repository/biocontainers/logol/status
+   :target: https://quay.io/repository/biocontainers/logol
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/logol.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/logol/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logol/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/logol/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/logol/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/logol
-.. |docker| image:: https://quay.io/repository/biocontainers/logol/status
-                :target: https://quay.io/repository/biocontainers/logol
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/logol/README.html
 

@@ -1,54 +1,66 @@
-.. _`sprinkles`:
+.. title:: Package Recipe 'sprinkles'
+.. highlight: bash
+
 
 sprinkles
 =========
 
-|downloads|
+.. conda:recipe:: sprinkles
+   :replaces_section_title:
 
-Plugins\! Easy\!
+   Plugins\! Easy\!
 
-============= ===========
-Home          http://an9.org/w/SprinklesPy
-Versions      0.4.6
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sprinkles/meta.yaml
+   :homepage: http://an9.org/w/SprinklesPy
+   :license: MIT License
+   :recipe: /`sprinkles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sprinkles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sprinkles/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sprinkles
 
-Installation
-------------
+   |downloads_sprinkles| |docker_sprinkles|
 
-.. highlight: bash
+   :versions: 0.4.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install sprinkles
+   :required~by: |required_by_sprinkles|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sprinkles
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sprinkles
+
+   and update with::
+
+      conda update sprinkles
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sprinkles
+
+
+.. |required_by_sprinkles| conda:required_by:: sprinkles
+.. |downloads_sprinkles| image:: https://img.shields.io/conda/dn/bioconda/sprinkles.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sprinkles| image:: https://quay.io/repository/biocontainers/sprinkles/status
+   :target: https://quay.io/repository/biocontainers/sprinkles
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sprinkles.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sprinkles/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sprinkles/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sprinkles/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sprinkles/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sprinkles
-.. |docker| image:: https://quay.io/repository/biocontainers/sprinkles/status
-                :target: https://quay.io/repository/biocontainers/sprinkles
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sprinkles/README.html
 

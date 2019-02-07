@@ -1,54 +1,66 @@
-.. _`moreutils`:
+.. title:: Package Recipe 'moreutils'
+.. highlight: bash
+
 
 moreutils
 =========
 
-|downloads|
+.. conda:recipe:: moreutils
+   :replaces_section_title:
 
-a growing collection of the unix tools that nobody thought to write long ago when unix was young
+   a growing collection of the unix tools that nobody thought to write long ago when unix was young
 
-============= ===========
-Home          http://joeyh.name/code/moreutils/
-Versions      0.5.7
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//moreutils/meta.yaml
+   :homepage: http://joeyh.name/code/moreutils/
+   :license: GPLv2
+   :recipe: /`moreutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moreutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moreutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: moreutils
 
-Installation
-------------
+   |downloads_moreutils| |docker_moreutils|
 
-.. highlight: bash
+   :versions: 0.5.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install moreutils
+   :required~by: |required_by_moreutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update moreutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install moreutils
+
+   and update with::
+
+      conda update moreutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/moreutils
+
+
+.. |required_by_moreutils| conda:required_by:: moreutils
+.. |downloads_moreutils| image:: https://img.shields.io/conda/dn/bioconda/moreutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_moreutils| image:: https://quay.io/repository/biocontainers/moreutils/status
+   :target: https://quay.io/repository/biocontainers/moreutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/moreutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/moreutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/moreutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/moreutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/moreutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/moreutils
-.. |docker| image:: https://quay.io/repository/biocontainers/moreutils/status
-                :target: https://quay.io/repository/biocontainers/moreutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/moreutils/README.html
 

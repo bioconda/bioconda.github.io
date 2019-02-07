@@ -1,56 +1,67 @@
-.. _`bioconductor-rrho`:
+.. title:: Package Recipe 'bioconductor-rrho'
+.. highlight: bash
+
 
 bioconductor-rrho
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-rrho
+   :replaces_section_title:
 
-The package is aimed at inference on the amount of agreement in two sorted lists using the Rank\-Rank Hypergeometric Overlap test.
+   The package is aimed at inference on the amount of agreement in two sorted lists using the Rank\-Rank Hypergeometric Overlap test.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RRHO.html
-Versions      1.22.0, 1.20.0, 1.18.0, 1.16.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rrho/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RRHO.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rrho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho/meta.yaml>`_
+   :links: biotools: :biotools:`rrho`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`rrho`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rrho
 
-Installation
-------------
+   |downloads_bioconductor-rrho| |docker_bioconductor-rrho|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-venndiagram`  
 
-   conda install bioconductor-rrho
+   :required~by: |required_by_bioconductor-rrho|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rrho
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rrho
+
+   and update with::
+
+      conda update bioconductor-rrho
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rrho
+
+
+.. |required_by_bioconductor-rrho| conda:required_by:: bioconductor-rrho
+.. |downloads_bioconductor-rrho| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rrho.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rrho| image:: https://quay.io/repository/biocontainers/bioconductor-rrho/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rrho
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rrho.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rrho/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rrho/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rrho/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rrho/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rrho
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rrho/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rrho
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rrho/README.html
 

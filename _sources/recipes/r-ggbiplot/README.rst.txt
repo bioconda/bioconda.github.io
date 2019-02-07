@@ -1,54 +1,66 @@
-.. _`r-ggbiplot`:
+.. title:: Package Recipe 'r-ggbiplot'
+.. highlight: bash
+
 
 r-ggbiplot
 ==========
 
-|downloads|
+.. conda:recipe:: r-ggbiplot
+   :replaces_section_title:
 
-A biplot based on ggplot2
+   A biplot based on ggplot2
 
-============= ===========
-Home          http://github.com/vqv/ggbiplot
-Versions      0.55
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ggbiplot/meta.yaml
+   :homepage: http://github.com/vqv/ggbiplot
+   :license: GPL-2
+   :recipe: /`r-ggbiplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggbiplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggbiplot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-ggbiplot
 
-Installation
-------------
+   |downloads_r-ggbiplot| |docker_r-ggbiplot|
 
-.. highlight: bash
+   :versions: 0.55
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-plyr`  :conda:package:`r-scales`  
 
-   conda install r-ggbiplot
+   :required~by: |required_by_r-ggbiplot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-ggbiplot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-ggbiplot
+
+   and update with::
+
+      conda update r-ggbiplot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-ggbiplot
+
+
+.. |required_by_r-ggbiplot| conda:required_by:: r-ggbiplot
+.. |downloads_r-ggbiplot| image:: https://img.shields.io/conda/dn/bioconda/r-ggbiplot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-ggbiplot| image:: https://quay.io/repository/biocontainers/r-ggbiplot/status
+   :target: https://quay.io/repository/biocontainers/r-ggbiplot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-ggbiplot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ggbiplot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ggbiplot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-ggbiplot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-ggbiplot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-ggbiplot
-.. |docker| image:: https://quay.io/repository/biocontainers/r-ggbiplot/status
-                :target: https://quay.io/repository/biocontainers/r-ggbiplot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-ggbiplot/README.html
 

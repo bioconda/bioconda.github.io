@@ -1,54 +1,66 @@
-.. _`bioconductor-easyqpcr`:
+.. title:: Package Recipe 'bioconductor-easyqpcr'
+.. highlight: bash
+
 
 bioconductor-easyqpcr
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-easyqpcr
+   :replaces_section_title:
 
-This package is based on the qBase algorithms published by Hellemans et al. in 2007. The EasyqpcR package allows you to import easily qPCR data files as described in the vignette. Thereafter\, you can calculate amplification efficiencies\, relative quantities and their standard errors\, normalization factors based on the best reference genes choosen \(using the SLqPCR package\)\, and then the normalized relative quantities\, the NRQs scaled to your control and their standard errors. This package has been created for low\-throughput qPCR data analysis.
+   This package is based on the qBase algorithms published by Hellemans et al. in 2007. The EasyqpcR package allows you to import easily qPCR data files as described in the vignette. Thereafter\, you can calculate amplification efficiencies\, relative quantities and their standard errors\, normalization factors based on the best reference genes choosen \(using the SLqPCR package\)\, and then the normalized relative quantities\, the NRQs scaled to your control and their standard errors. This package has been created for low\-throughput qPCR data analysis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/EasyqpcR.html
-Versions      
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-easyqpcr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EasyqpcR.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-easyqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-easyqpcr
 
-Installation
-------------
+   |downloads_bioconductor-easyqpcr| |docker_bioconductor-easyqpcr|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-easyqpcr
+   :required~by: |required_by_bioconductor-easyqpcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-easyqpcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-easyqpcr
+
+   and update with::
+
+      conda update bioconductor-easyqpcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-easyqpcr
+
+
+.. |required_by_bioconductor-easyqpcr| conda:required_by:: bioconductor-easyqpcr
+.. |downloads_bioconductor-easyqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-easyqpcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-easyqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-easyqpcr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-easyqpcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-easyqpcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-easyqpcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-easyqpcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-easyqpcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-easyqpcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-easyqpcr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-easyqpcr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-easyqpcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-easyqpcr/README.html
 

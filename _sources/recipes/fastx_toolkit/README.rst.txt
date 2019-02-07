@@ -1,71 +1,82 @@
-.. _`fastx_toolkit`:
+.. title:: Package Recipe 'fastx_toolkit'
+.. highlight: bash
+
 
 fastx_toolkit
 =============
 
-|downloads|
+.. conda:recipe:: fastx_toolkit
+   :replaces_section_title:
 
-The FASTX\-Toolkit is a collection of command line tools for
-Short\-Reads FASTA\/FASTQ files preprocessing.
+   The FASTX\-Toolkit is a collection of command line tools for
+   Short\-Reads FASTA\/FASTQ files preprocessing.
 
-Next\-Generation sequencing machines usually produce FASTA or FASTQ files\,
-containing multiple short\-reads sequences \(possibly with quality
-information\).
+   Next\-Generation sequencing machines usually produce FASTA or FASTQ files\,
+   containing multiple short\-reads sequences \(possibly with quality
+   information\).
 
-The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the
-sequences to reference genomes or other databases using specialized
-programs. Example of such mapping programs are\: Blat\, SHRiMP\, LastZ\, MAQ
-and many many others
+   The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the
+   sequences to reference genomes or other databases using specialized
+   programs. Example of such mapping programs are\: Blat\, SHRiMP\, LastZ\, MAQ
+   and many many others
 
-However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files
-before mapping the sequences to the genome \- manipulating the sequences to
-produce better mapping results.
+   However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files
+   before mapping the sequences to the genome \- manipulating the sequences to
+   produce better mapping results.
 
-The FASTX\-Toolkit tools perform some of these preprocessing tasks.\'
+   The FASTX\-Toolkit tools perform some of these preprocessing tasks.\'
 
+   :homepage: https://github.com/agordon/fastx_toolkit
+   :license: AGPL
+   :recipe: /`fastx_toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastx_toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastx_toolkit/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/agordon/fastx_toolkit
-Versions      0.0.14
-License       AGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastx_toolkit/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastx_toolkit
 
-Installation
-------------
+   |downloads_fastx_toolkit| |docker_fastx_toolkit|
 
-.. highlight: bash
+   :versions: 0.0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`libgtextutils`  :conda:package:`nose`  
 
-   conda install fastx_toolkit
+   :required~by: |required_by_fastx_toolkit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastx_toolkit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastx_toolkit
+
+   and update with::
+
+      conda update fastx_toolkit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastx_toolkit
+
+
+.. |required_by_fastx_toolkit| conda:required_by:: fastx_toolkit
+.. |downloads_fastx_toolkit| image:: https://img.shields.io/conda/dn/bioconda/fastx_toolkit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastx_toolkit| image:: https://quay.io/repository/biocontainers/fastx_toolkit/status
+   :target: https://quay.io/repository/biocontainers/fastx_toolkit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastx_toolkit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastx_toolkit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastx_toolkit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastx_toolkit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastx_toolkit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastx_toolkit
-.. |docker| image:: https://quay.io/repository/biocontainers/fastx_toolkit/status
-                :target: https://quay.io/repository/biocontainers/fastx_toolkit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastx_toolkit/README.html
 

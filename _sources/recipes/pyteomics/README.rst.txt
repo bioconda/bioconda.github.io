@@ -1,56 +1,67 @@
-.. _`pyteomics`:
+.. title:: Package Recipe 'pyteomics'
+.. highlight: bash
+
 
 pyteomics
 =========
 
-|downloads|
+.. conda:recipe:: pyteomics
+   :replaces_section_title:
 
-A framework for proteomics data analysis.
+   A framework for proteomics data analysis.
 
-============= ===========
-Home          https://bitbucket.org/levitsky/pyteomics
-Versions      4.0.1, 3.5.1, 3.4
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyteomics/meta.yaml
+   :homepage: https://bitbucket.org/levitsky/pyteomics
+   :license: Apache License, Version 2.0
+   :recipe: /`pyteomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics/meta.yaml>`_
+   :links: biotools: :biotools:`pyteomics`
 
-
-
-Links         biotools: :biotools:`pyteomics`
-
-============= ===========
+   
 
 
+.. conda:package:: pyteomics
 
-Installation
-------------
+   |downloads_pyteomics| |docker_pyteomics|
 
-.. highlight: bash
+   :versions: 4.0.1, 3.5.1, 3.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`lxml`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`sqlalchemy`  
 
-   conda install pyteomics
+   :required~by: |required_by_pyteomics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyteomics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyteomics
+
+   and update with::
+
+      conda update pyteomics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyteomics
+
+
+.. |required_by_pyteomics| conda:required_by:: pyteomics
+.. |downloads_pyteomics| image:: https://img.shields.io/conda/dn/bioconda/pyteomics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyteomics| image:: https://quay.io/repository/biocontainers/pyteomics/status
+   :target: https://quay.io/repository/biocontainers/pyteomics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyteomics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyteomics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyteomics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyteomics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyteomics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyteomics
-.. |docker| image:: https://quay.io/repository/biocontainers/pyteomics/status
-                :target: https://quay.io/repository/biocontainers/pyteomics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyteomics/README.html
 

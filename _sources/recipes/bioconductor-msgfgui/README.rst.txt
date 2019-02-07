@@ -1,54 +1,66 @@
-.. _`bioconductor-msgfgui`:
+.. title:: Package Recipe 'bioconductor-msgfgui'
+.. highlight: bash
+
 
 bioconductor-msgfgui
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-msgfgui
+   :replaces_section_title:
 
-This package makes it possible to perform analyses using the MSGFplus package in a GUI environment. Furthermore it enables the user to investigate the results using interactive plots\, summary statistics and filtering. Lastly it exposes the current results to another R session so the user can seamlessly integrate the gui into other workflows.
+   This package makes it possible to perform analyses using the MSGFplus package in a GUI environment. Furthermore it enables the user to investigate the results using interactive plots\, summary statistics and filtering. Lastly it exposes the current results to another R session so the user can seamlessly integrate the gui into other workflows.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MSGFgui.html
-Versions      
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msgfgui/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MSGFgui.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-msgfgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfgui/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-msgfgui
 
-Installation
-------------
+   |downloads_bioconductor-msgfgui| |docker_bioconductor-msgfgui|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-msgfgui
+   :required~by: |required_by_bioconductor-msgfgui|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-msgfgui
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-msgfgui
+
+   and update with::
+
+      conda update bioconductor-msgfgui
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-msgfgui
+
+
+.. |required_by_bioconductor-msgfgui| conda:required_by:: bioconductor-msgfgui
+.. |downloads_bioconductor-msgfgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msgfgui.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-msgfgui| image:: https://quay.io/repository/biocontainers/bioconductor-msgfgui/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-msgfgui
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-msgfgui.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-msgfgui/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-msgfgui/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-msgfgui/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-msgfgui/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-msgfgui
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-msgfgui/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-msgfgui
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-msgfgui/README.html
 

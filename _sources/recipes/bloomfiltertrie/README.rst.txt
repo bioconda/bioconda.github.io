@@ -1,54 +1,66 @@
-.. _`bloomfiltertrie`:
+.. title:: Package Recipe 'bloomfiltertrie'
+.. highlight: bash
+
 
 bloomfiltertrie
 ===============
 
-|downloads|
+.. conda:recipe:: bloomfiltertrie
+   :replaces_section_title:
 
-An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing.
+   An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing.
 
-============= ===========
-Home          https://github.com/GuillaumeHolley/BloomFilterTrie
-Versions      0.8.7, 0.8.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bloomfiltertrie/meta.yaml
+   :homepage: https://github.com/GuillaumeHolley/BloomFilterTrie
+   :license: MIT / MIT
+   :recipe: /`bloomfiltertrie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloomfiltertrie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloomfiltertrie/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bloomfiltertrie
 
-Installation
-------------
+   |downloads_bloomfiltertrie| |docker_bloomfiltertrie|
 
-.. highlight: bash
+   :versions: 0.8.7, 0.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`jemalloc`  :conda:package:`judy`  :conda:package:`libgcc-ng` >=4.9 
 
-   conda install bloomfiltertrie
+   :required~by: |required_by_bloomfiltertrie|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bloomfiltertrie
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bloomfiltertrie
+
+   and update with::
+
+      conda update bloomfiltertrie
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bloomfiltertrie
+
+
+.. |required_by_bloomfiltertrie| conda:required_by:: bloomfiltertrie
+.. |downloads_bloomfiltertrie| image:: https://img.shields.io/conda/dn/bioconda/bloomfiltertrie.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bloomfiltertrie| image:: https://quay.io/repository/biocontainers/bloomfiltertrie/status
+   :target: https://quay.io/repository/biocontainers/bloomfiltertrie
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bloomfiltertrie.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bloomfiltertrie/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bloomfiltertrie/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bloomfiltertrie/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bloomfiltertrie/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bloomfiltertrie
-.. |docker| image:: https://quay.io/repository/biocontainers/bloomfiltertrie/status
-                :target: https://quay.io/repository/biocontainers/bloomfiltertrie
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bloomfiltertrie/README.html
 

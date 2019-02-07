@@ -1,54 +1,66 @@
-.. _`r-sads`:
+.. title:: Package Recipe 'r-sads'
+.. highlight: bash
+
 
 r-sads
 ======
 
-|downloads|
+.. conda:recipe:: r-sads
+   :replaces_section_title:
 
-Maximum likelihood tools to fit and compare models of species abundance distributions and of species rank\-abundance distributions.
+   Maximum likelihood tools to fit and compare models of species abundance distributions and of species rank\-abundance distributions.
 
-============= ===========
-Home          http://piLaboratory.github.io/sads, https://github.com/piklprado/sads
-Versions      0.4.2
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-sads/meta.yaml
+   :homepage: http://piLaboratory.github.io/sads, https://github.com/piklprado/sads
+   :license: GPL2 / GPL-2
+   :recipe: /`r-sads <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sads>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sads/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-sads
 
-Installation
-------------
+   |downloads_r-sads| |docker_r-sads|
 
-.. highlight: bash
+   :versions: 0.4.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmle` >=1.0.19 :conda:package:`r-guilds`  :conda:package:`r-mass`  :conda:package:`r-poilog`  :conda:package:`r-vgam`  
 
-   conda install r-sads
+   :required~by: |required_by_r-sads|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-sads
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-sads
+
+   and update with::
+
+      conda update r-sads
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-sads
+
+
+.. |required_by_r-sads| conda:required_by:: r-sads
+.. |downloads_r-sads| image:: https://img.shields.io/conda/dn/bioconda/r-sads.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-sads| image:: https://quay.io/repository/biocontainers/r-sads/status
+   :target: https://quay.io/repository/biocontainers/r-sads
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-sads.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-sads/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-sads/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-sads/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-sads/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-sads
-.. |docker| image:: https://quay.io/repository/biocontainers/r-sads/status
-                :target: https://quay.io/repository/biocontainers/r-sads
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-sads/README.html
 

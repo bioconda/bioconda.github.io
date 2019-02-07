@@ -1,54 +1,66 @@
-.. _`newick_utils`:
+.. title:: Package Recipe 'newick_utils'
+.. highlight: bash
+
 
 newick_utils
 ============
 
-|downloads|
+.. conda:recipe:: newick_utils
+   :replaces_section_title:
 
-The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees. We distribute the package under the BSD License. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\).
+   The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees. We distribute the package under the BSD License. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\).
 
-============= ===========
-Home          http://cegg.unige.ch/newick_utils
-Versions      1.6
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//newick_utils/meta.yaml
+   :homepage: http://cegg.unige.ch/newick_utils
+   :license: BSD License
+   :recipe: /`newick_utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/newick_utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/newick_utils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: newick_utils
 
-Installation
-------------
+   |downloads_newick_utils| |docker_newick_utils|
 
-.. highlight: bash
+   :versions: 1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`libxml2` 2.9.* 
 
-   conda install newick_utils
+   :required~by: |required_by_newick_utils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update newick_utils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install newick_utils
+
+   and update with::
+
+      conda update newick_utils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/newick_utils
+
+
+.. |required_by_newick_utils| conda:required_by:: newick_utils
+.. |downloads_newick_utils| image:: https://img.shields.io/conda/dn/bioconda/newick_utils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_newick_utils| image:: https://quay.io/repository/biocontainers/newick_utils/status
+   :target: https://quay.io/repository/biocontainers/newick_utils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/newick_utils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/newick_utils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/newick_utils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/newick_utils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/newick_utils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/newick_utils
-.. |docker| image:: https://quay.io/repository/biocontainers/newick_utils/status
-                :target: https://quay.io/repository/biocontainers/newick_utils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/newick_utils/README.html
 

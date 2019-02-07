@@ -1,54 +1,66 @@
-.. _`compalignp`:
+.. title:: Package Recipe 'compalignp'
+.. highlight: bash
+
 
 compalignp
 ==========
 
-|downloads|
+.. conda:recipe:: compalignp
+   :replaces_section_title:
 
-Compute fractional \"identity\" between trusted alignment and test alignment.
+   Compute fractional \"identity\" between trusted alignment and test alignment.
 
-============= ===========
-Home          http://www.biophys.uni-duesseldorf.de/bralibase/
-Versions      1.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//compalignp/meta.yaml
+   :homepage: http://www.biophys.uni-duesseldorf.de/bralibase/
+   :license: GPL
+   :recipe: /`compalignp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: compalignp
 
-Installation
-------------
+   |downloads_compalignp| |docker_compalignp|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install compalignp
+   :required~by: |required_by_compalignp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update compalignp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install compalignp
+
+   and update with::
+
+      conda update compalignp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/compalignp
+
+
+.. |required_by_compalignp| conda:required_by:: compalignp
+.. |downloads_compalignp| image:: https://img.shields.io/conda/dn/bioconda/compalignp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_compalignp| image:: https://quay.io/repository/biocontainers/compalignp/status
+   :target: https://quay.io/repository/biocontainers/compalignp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/compalignp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/compalignp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/compalignp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/compalignp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/compalignp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/compalignp
-.. |docker| image:: https://quay.io/repository/biocontainers/compalignp/status
-                :target: https://quay.io/repository/biocontainers/compalignp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/compalignp/README.html
 

@@ -1,54 +1,66 @@
-.. _`scoop`:
+.. title:: Package Recipe 'scoop'
+.. highlight: bash
+
 
 scoop
 =====
 
-|downloads|
+.. conda:recipe:: scoop
+   :replaces_section_title:
 
-Scalable COncurrent Operations in Python
+   Scalable COncurrent Operations in Python
 
-============= ===========
-Home          http://github.com/soravux/scoop
-Versions      0.7.1.1
-License       GNU Library or Lesser General Public License (LGPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scoop/meta.yaml
+   :homepage: http://github.com/soravux/scoop
+   :license: GNU Library or Lesser General Public License (LGPL)
+   :recipe: /`scoop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: scoop
 
-Installation
-------------
+   |downloads_scoop| |docker_scoop|
 
-.. highlight: bash
+   :versions: 0.7.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`greenlet` >=0.3.4 :conda:package:`python` 2.7* :conda:package:`pyzmq` >=13.1.0 
 
-   conda install scoop
+   :required~by: |required_by_scoop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update scoop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install scoop
+
+   and update with::
+
+      conda update scoop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/scoop
+
+
+.. |required_by_scoop| conda:required_by:: scoop
+.. |downloads_scoop| image:: https://img.shields.io/conda/dn/bioconda/scoop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_scoop| image:: https://quay.io/repository/biocontainers/scoop/status
+   :target: https://quay.io/repository/biocontainers/scoop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/scoop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/scoop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scoop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/scoop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/scoop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/scoop
-.. |docker| image:: https://quay.io/repository/biocontainers/scoop/status
-                :target: https://quay.io/repository/biocontainers/scoop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/scoop/README.html
 

@@ -1,40 +1,59 @@
-.. _`control-freec`:
+.. title:: Package Recipe 'control-freec'
+.. highlight: bash
+
 
 control-freec
 =============
 
-|downloads|
+.. conda:recipe:: control-freec
+   :replaces_section_title:
 
-Copy number and genotype annotation from whole genome and whole exome
-sequencing data.
-
-
-============= ===========
-Home          https://github.com/BoevaLab/FREEC
-Versions      11.4, 10.6, 10.5
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//control-freec/meta.yaml
+   Copy number and genotype annotation from whole genome and whole exome
+   sequencing data.
 
 
+   :homepage: https://github.com/BoevaLab/FREEC
+   :license: GPL (>=2)
+   :recipe: /`control-freec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec/meta.yaml>`_
+   :links: biotools: :biotools:`freec`
 
-Links         biotools: :biotools:`freec`
-
-============= ===========
+   
 
 
+.. conda:package:: control-freec
 
-Installation
-------------
+   |downloads_control-freec| |docker_control-freec|
 
-.. highlight: bash
+   :versions: 11.4, 10.6, 10.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtracklayer`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  
 
-   conda install control-freec
+   :required~by: |required_by_control-freec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update control-freec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install control-freec
+
+   and update with::
+
+      conda update control-freec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/control-freec
+
+
+.. |required_by_control-freec| conda:required_by:: control-freec
+.. |downloads_control-freec| image:: https://img.shields.io/conda/dn/bioconda/control-freec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_control-freec| image:: https://quay.io/repository/biocontainers/control-freec/status
+   :target: https://quay.io/repository/biocontainers/control-freec
+
+
+
+
 
 
 Notes
@@ -46,21 +65,13 @@ command line as well.
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/control-freec.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/control-freec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/control-freec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/control-freec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/control-freec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/control-freec
-.. |docker| image:: https://quay.io/repository/biocontainers/control-freec/status
-                :target: https://quay.io/repository/biocontainers/control-freec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/control-freec/README.html
 

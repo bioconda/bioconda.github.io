@@ -1,54 +1,66 @@
-.. _`bamhash`:
+.. title:: Package Recipe 'bamhash'
+.. highlight: bash
+
 
 bamhash
 =======
 
-|downloads|
+.. conda:recipe:: bamhash/1.1
+   :replaces_section_title:
 
-Hash BAM and FASTQ files to verify data integrity
+   Hash BAM and FASTQ files to verify data integrity
 
-============= ===========
-Home          https://github.com/DecodeGenetics/BamHash
-Versions      1.1, 1.0
-License       GPL-3-0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bamhash/1.1/meta.yaml
+   :homepage: https://github.com/DecodeGenetics/BamHash
+   :license: GPL-3-0
+   :recipe: /`bamhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash>`_/`1.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bamhash
 
-Installation
-------------
+   |downloads_bamhash| |docker_bamhash|
 
-.. highlight: bash
+   :versions: 1.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openssl`  :conda:package:`zlib`  
 
-   conda install bamhash
+   :required~by: |required_by_bamhash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bamhash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bamhash
+
+   and update with::
+
+      conda update bamhash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bamhash
+
+
+.. |required_by_bamhash| conda:required_by:: bamhash
+.. |downloads_bamhash| image:: https://img.shields.io/conda/dn/bioconda/bamhash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bamhash| image:: https://quay.io/repository/biocontainers/bamhash/status
+   :target: https://quay.io/repository/biocontainers/bamhash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bamhash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bamhash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bamhash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bamhash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bamhash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bamhash
-.. |docker| image:: https://quay.io/repository/biocontainers/bamhash/status
-                :target: https://quay.io/repository/biocontainers/bamhash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bamhash/README.html
 

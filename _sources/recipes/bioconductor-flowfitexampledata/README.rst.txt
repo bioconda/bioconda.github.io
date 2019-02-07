@@ -1,54 +1,66 @@
-.. _`bioconductor-flowfitexampledata`:
+.. title:: Package Recipe 'bioconductor-flowfitexampledata'
+.. highlight: bash
+
 
 bioconductor-flowfitexampledata
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-flowfitexampledata
+   :replaces_section_title:
 
-Two dataset that can be used to run examples from the flowFit vignette and examples
+   Two dataset that can be used to run examples from the flowFit vignette and examples
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/flowFitExampleData.html
-Versions      1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowfitexampledata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/flowFitExampleData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-flowfitexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-flowfitexampledata
 
-Installation
-------------
+   |downloads_bioconductor-flowfitexampledata| |docker_bioconductor-flowfitexampledata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-flowfitexampledata
+   :required~by: |required_by_bioconductor-flowfitexampledata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-flowfitexampledata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-flowfitexampledata
+
+   and update with::
+
+      conda update bioconductor-flowfitexampledata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-flowfitexampledata
+
+
+.. |required_by_bioconductor-flowfitexampledata| conda:required_by:: bioconductor-flowfitexampledata
+.. |downloads_bioconductor-flowfitexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowfitexampledata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-flowfitexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-flowfitexampledata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-flowfitexampledata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-flowfitexampledata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-flowfitexampledata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-flowfitexampledata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-flowfitexampledata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-flowfitexampledata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-flowfitexampledata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowfitexampledata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-flowfitexampledata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-flowfitexampledata/README.html
 

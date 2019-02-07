@@ -1,54 +1,66 @@
-.. _`perl-devel-size`:
+.. title:: Package Recipe 'perl-devel-size'
+.. highlight: bash
+
 
 perl-devel-size
 ===============
 
-|downloads|
+.. conda:recipe:: perl-devel-size
+   :replaces_section_title:
 
-Perl extension for finding the memory usage of Perl variables
+   Perl extension for finding the memory usage of Perl variables
 
-============= ===========
-Home          http://metacpan.org/pod/Devel::Size
-Versions      0.82, 0.80
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-size/meta.yaml
+   :homepage: http://metacpan.org/pod/Devel::Size
+   :license: perl_5
+   :recipe: /`perl-devel-size <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-size>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-size/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-devel-size
 
-Installation
-------------
+   |downloads_perl-devel-size| |docker_perl-devel-size|
 
-.. highlight: bash
+   :versions: 0.82, 0.80
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-test-simple`  
 
-   conda install perl-devel-size
+   :required~by: |required_by_perl-devel-size|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-devel-size
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-devel-size
+
+   and update with::
+
+      conda update perl-devel-size
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-devel-size
+
+
+.. |required_by_perl-devel-size| conda:required_by:: perl-devel-size
+.. |downloads_perl-devel-size| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-size.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-devel-size| image:: https://quay.io/repository/biocontainers/perl-devel-size/status
+   :target: https://quay.io/repository/biocontainers/perl-devel-size
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-devel-size.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-devel-size/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-devel-size/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-devel-size/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-devel-size/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-devel-size
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-size/status
-                :target: https://quay.io/repository/biocontainers/perl-devel-size
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-devel-size/README.html
 

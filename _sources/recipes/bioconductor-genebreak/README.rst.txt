@@ -1,56 +1,67 @@
-.. _`bioconductor-genebreak`:
+.. title:: Package Recipe 'bioconductor-genebreak'
+.. highlight: bash
+
 
 bioconductor-genebreak
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-genebreak
+   :replaces_section_title:
 
-Recurrent breakpoint gene detection on copy number aberration profiles.
+   Recurrent breakpoint gene detection on copy number aberration profiles.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneBreak.html
-Versions      1.12.0, 1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genebreak/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneBreak.html
+   :license: GPL-2
+   :recipe: /`bioconductor-genebreak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genebreak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genebreak/meta.yaml>`_
+   :links: biotools: :biotools:`genebreak`, doi: :doi:`10.12688/f1000research.9259.1`
 
-
-
-Links         biotools: :biotools:`genebreak`, doi: :doi:`10.12688/f1000research.9259.1`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genebreak
 
-Installation
-------------
+   |downloads_bioconductor-genebreak| |docker_bioconductor-genebreak|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-cghbase` >=1.42.0,<1.43.0 :conda:package:`bioconductor-cghcall` >=2.44.0,<2.45.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-qdnaseq` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-genebreak
+   :required~by: |required_by_bioconductor-genebreak|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genebreak
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genebreak
+
+   and update with::
+
+      conda update bioconductor-genebreak
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genebreak
+
+
+.. |required_by_bioconductor-genebreak| conda:required_by:: bioconductor-genebreak
+.. |downloads_bioconductor-genebreak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genebreak.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genebreak| image:: https://quay.io/repository/biocontainers/bioconductor-genebreak/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genebreak
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genebreak.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genebreak/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genebreak/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genebreak/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genebreak/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genebreak
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genebreak/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genebreak
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genebreak/README.html
 

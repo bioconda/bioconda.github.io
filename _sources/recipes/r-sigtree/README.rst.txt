@@ -1,54 +1,66 @@
-.. _`r-sigtree`:
+.. title:: Package Recipe 'r-sigtree'
+.. highlight: bash
+
 
 r-sigtree
 =========
 
-|downloads|
+.. conda:recipe:: r-sigtree
+   :replaces_section_title:
 
-Provides tools to identify and visualize branches in a phylogenetic tree that are significantly responsive to some intervention\, taking as primary inputs a phylogenetic tree \(of class phylo\) and a data frame \(or matrix\) of corresponding tip \(OTU\) labels and p\-values.
+   Provides tools to identify and visualize branches in a phylogenetic tree that are significantly responsive to some intervention\, taking as primary inputs a phylogenetic tree \(of class phylo\) and a data frame \(or matrix\) of corresponding tip \(OTU\) labels and p\-values.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=SigTree
-Versions      1.10.6
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-sigtree/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=SigTree
+   :license: GPL3 / GPL-3
+   :recipe: /`r-sigtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigtree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-sigtree
 
-Installation
-------------
+   |downloads_r-sigtree| |docker_r-sigtree|
 
-.. highlight: bash
+   :versions: 1.10.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-phyloseq`  :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-mass`  :conda:package:`r-phyext2`  :conda:package:`r-phylobase`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-vegan`  
 
-   conda install r-sigtree
+   :required~by: |required_by_r-sigtree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-sigtree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-sigtree
+
+   and update with::
+
+      conda update r-sigtree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-sigtree
+
+
+.. |required_by_r-sigtree| conda:required_by:: r-sigtree
+.. |downloads_r-sigtree| image:: https://img.shields.io/conda/dn/bioconda/r-sigtree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-sigtree| image:: https://quay.io/repository/biocontainers/r-sigtree/status
+   :target: https://quay.io/repository/biocontainers/r-sigtree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-sigtree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-sigtree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-sigtree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-sigtree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-sigtree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-sigtree
-.. |docker| image:: https://quay.io/repository/biocontainers/r-sigtree/status
-                :target: https://quay.io/repository/biocontainers/r-sigtree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-sigtree/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-aracne.networks`:
+.. title:: Package Recipe 'bioconductor-aracne.networks'
+.. highlight: bash
+
 
 bioconductor-aracne.networks
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-aracne.networks
+   :replaces_section_title:
 
-This package contains ARACNe\-inferred networks from TCGA tumor datasets. It also contains a function to export them into plain\-text format.
+   This package contains ARACNe\-inferred networks from TCGA tumor datasets. It also contains a function to export them into plain\-text format.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/aracne.networks.html
-Versions      1.8.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aracne.networks/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/aracne.networks.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-aracne.networks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-aracne.networks
 
-Installation
-------------
+   |downloads_bioconductor-aracne.networks| |docker_bioconductor-aracne.networks|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-viper` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-aracne.networks
+   :required~by: |required_by_bioconductor-aracne.networks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-aracne.networks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-aracne.networks
+
+   and update with::
+
+      conda update bioconductor-aracne.networks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-aracne.networks
+
+
+.. |required_by_bioconductor-aracne.networks| conda:required_by:: bioconductor-aracne.networks
+.. |downloads_bioconductor-aracne.networks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aracne.networks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-aracne.networks| image:: https://quay.io/repository/biocontainers/bioconductor-aracne.networks/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-aracne.networks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-aracne.networks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-aracne.networks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-aracne.networks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-aracne.networks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-aracne.networks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-aracne.networks
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-aracne.networks/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-aracne.networks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-aracne.networks/README.html
 

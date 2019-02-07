@@ -1,56 +1,67 @@
-.. _`discosnp`:
+.. title:: Package Recipe 'discosnp'
+.. highlight: bash
+
 
 discosnp
 ========
 
-|downloads|
+.. conda:recipe:: discosnp
+   :replaces_section_title:
 
-Designed for discovering all kinds of SNPs
+   Designed for discovering all kinds of SNPs
 
-============= ===========
-Home          https://gatb.inria.fr/software/discosnp/
-Versions      2.3.0, 2.2.10
-License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discosnp/meta.yaml
+   :homepage: https://gatb.inria.fr/software/discosnp/
+   :license: GNU Affero General Public License v3.0
+   :recipe: /`discosnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discosnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discosnp/meta.yaml>`_
+   :links: biotools: :biotools:`discosnp`, doi: :doi:`10.1093/nar/gkn000`
 
-
-
-Links         biotools: :biotools:`discosnp`, doi: :doi:`10.1093/nar/gkn000`
-
-============= ===========
+   
 
 
+.. conda:package:: discosnp
 
-Installation
-------------
+   |downloads_discosnp| |docker_discosnp|
 
-.. highlight: bash
+   :versions: 2.3.0, 2.2.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bwa`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install discosnp
+   :required~by: |required_by_discosnp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update discosnp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install discosnp
+
+   and update with::
+
+      conda update discosnp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/discosnp
+
+
+.. |required_by_discosnp| conda:required_by:: discosnp
+.. |downloads_discosnp| image:: https://img.shields.io/conda/dn/bioconda/discosnp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_discosnp| image:: https://quay.io/repository/biocontainers/discosnp/status
+   :target: https://quay.io/repository/biocontainers/discosnp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/discosnp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/discosnp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/discosnp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/discosnp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/discosnp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/discosnp
-.. |docker| image:: https://quay.io/repository/biocontainers/discosnp/status
-                :target: https://quay.io/repository/biocontainers/discosnp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/discosnp/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-bio-coordinate`:
+.. title:: Package Recipe 'perl-bio-coordinate'
+.. highlight: bash
+
 
 perl-bio-coordinate
 ===================
 
-|downloads|
+.. conda:recipe:: perl-bio-coordinate
+   :replaces_section_title:
 
-Methods for dealing with genomic coordinates.
+   Methods for dealing with genomic coordinates.
 
-============= ===========
-Home          https://metacpan.org/release/Bio-Coordinate
-Versions      1.007001
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-coordinate/meta.yaml
+   :homepage: https://metacpan.org/release/Bio-Coordinate
+   :license: perl_5
+   :recipe: /`perl-bio-coordinate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-coordinate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-coordinate/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-coordinate
 
-Installation
-------------
+   |downloads_perl-bio-coordinate| |docker_perl-bio-coordinate|
 
-.. highlight: bash
+   :versions: 1.007001
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl-core`  :conda:package:`perl-parent`  :conda:package:`perl-test-most`  
 
-   conda install perl-bio-coordinate
+   :required~by: |required_by_perl-bio-coordinate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-coordinate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-coordinate
+
+   and update with::
+
+      conda update perl-bio-coordinate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-coordinate
+
+
+.. |required_by_perl-bio-coordinate| conda:required_by:: perl-bio-coordinate
+.. |downloads_perl-bio-coordinate| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-coordinate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-coordinate| image:: https://quay.io/repository/biocontainers/perl-bio-coordinate/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-coordinate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-coordinate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-coordinate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-coordinate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-coordinate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-coordinate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-coordinate
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-coordinate/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-coordinate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-coordinate/README.html
 

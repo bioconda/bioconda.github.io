@@ -1,54 +1,66 @@
-.. _`nextgenmap`:
+.. title:: Package Recipe 'nextgenmap'
+.. highlight: bash
+
 
 nextgenmap
 ==========
 
-|downloads|
+.. conda:recipe:: nextgenmap
+   :replaces_section_title:
 
-NextGenMap is a flexible highly sensitive short read mapping tool that handles much higher mismatch rates than comparable algorithms while still outperforming them in terms of runtime.
+   NextGenMap is a flexible highly sensitive short read mapping tool that handles much higher mismatch rates than comparable algorithms while still outperforming them in terms of runtime.
 
-============= ===========
-Home          https://github.com/Cibiv/NextGenMap
-Versions      0.5.5, 0.5.3, 0.4.13
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nextgenmap/meta.yaml
+   :homepage: https://github.com/Cibiv/NextGenMap
+   :license: MIT / MIT
+   :recipe: /`nextgenmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextgenmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextgenmap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nextgenmap
 
-Installation
-------------
+   |downloads_nextgenmap| |docker_nextgenmap|
 
-.. highlight: bash
+   :versions: 0.5.5, 0.5.3, 0.4.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install nextgenmap
+   :required~by: |required_by_nextgenmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nextgenmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nextgenmap
+
+   and update with::
+
+      conda update nextgenmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nextgenmap
+
+
+.. |required_by_nextgenmap| conda:required_by:: nextgenmap
+.. |downloads_nextgenmap| image:: https://img.shields.io/conda/dn/bioconda/nextgenmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nextgenmap| image:: https://quay.io/repository/biocontainers/nextgenmap/status
+   :target: https://quay.io/repository/biocontainers/nextgenmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nextgenmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nextgenmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nextgenmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nextgenmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nextgenmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nextgenmap
-.. |docker| image:: https://quay.io/repository/biocontainers/nextgenmap/status
-                :target: https://quay.io/repository/biocontainers/nextgenmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nextgenmap/README.html
 

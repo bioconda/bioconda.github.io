@@ -1,56 +1,67 @@
-.. _`seqtk`:
+.. title:: Package Recipe 'seqtk'
+.. highlight: bash
+
 
 seqtk
 =====
 
-|downloads|
+.. conda:recipe:: seqtk
+   :replaces_section_title:
 
-Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+   Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
 
-============= ===========
-Home          https://github.com/lh3/seqtk
-Versions      1.3, 1.2, r93, r82, r75
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqtk/meta.yaml
+   :homepage: https://github.com/lh3/seqtk
+   :license: MIT
+   :recipe: /`seqtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqtk/meta.yaml>`_
+   :links: biotools: :biotools:`seqtk`
 
-
-
-Links         biotools: :biotools:`seqtk`
-
-============= ===========
+   
 
 
+.. conda:package:: seqtk
 
-Installation
-------------
+   |downloads_seqtk| |docker_seqtk|
 
-.. highlight: bash
+   :versions: 1.3, 1.2, r93, r82, r75
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install seqtk
+   :required~by: |required_by_seqtk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seqtk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seqtk
+
+   and update with::
+
+      conda update seqtk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seqtk
+
+
+.. |required_by_seqtk| conda:required_by:: seqtk
+.. |downloads_seqtk| image:: https://img.shields.io/conda/dn/bioconda/seqtk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seqtk| image:: https://quay.io/repository/biocontainers/seqtk/status
+   :target: https://quay.io/repository/biocontainers/seqtk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seqtk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seqtk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seqtk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seqtk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seqtk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seqtk
-.. |docker| image:: https://quay.io/repository/biocontainers/seqtk/status
-                :target: https://quay.io/repository/biocontainers/seqtk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seqtk/README.html
 

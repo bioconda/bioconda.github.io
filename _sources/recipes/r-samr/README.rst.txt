@@ -1,54 +1,66 @@
-.. _`r-samr`:
+.. title:: Package Recipe 'r-samr'
+.. highlight: bash
+
 
 r-samr
 ======
 
-|downloads|
+.. conda:recipe:: r-samr
+   :replaces_section_title:
 
-Significance Analysis of Microarrays
+   Significance Analysis of Microarrays
 
-============= ===========
-Home          http://www-stat.stanford.edu/~tibs/SAM
-Versions      2.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-samr/meta.yaml
+   :homepage: http://www-stat.stanford.edu/~tibs/SAM
+   :license: LGPL / LGPL
+   :recipe: /`r-samr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-samr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-samr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-samr
 
-Installation
-------------
+   |downloads_r-samr| |docker_r-samr|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-impute`  :conda:package:`r-base` 3.3.1* :conda:package:`r-matrixstats`  
 
-   conda install r-samr
+   :required~by: |required_by_r-samr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-samr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-samr
+
+   and update with::
+
+      conda update r-samr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-samr
+
+
+.. |required_by_r-samr| conda:required_by:: r-samr
+.. |downloads_r-samr| image:: https://img.shields.io/conda/dn/bioconda/r-samr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-samr| image:: https://quay.io/repository/biocontainers/r-samr/status
+   :target: https://quay.io/repository/biocontainers/r-samr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-samr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-samr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-samr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-samr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-samr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-samr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-samr/status
-                :target: https://quay.io/repository/biocontainers/r-samr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-samr/README.html
 

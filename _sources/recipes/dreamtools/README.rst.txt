@@ -1,54 +1,66 @@
-.. _`dreamtools`:
+.. title:: Package Recipe 'dreamtools'
+.. highlight: bash
+
 
 dreamtools
 ==========
 
-|downloads|
+.. conda:recipe:: dreamtools
+   :replaces_section_title:
 
-Scoring functions for the DREAM \/ SAGE challenges
+   Scoring functions for the DREAM \/ SAGE challenges
 
-============= ===========
-Home          https://github.com/dreamtools/dreamtools
-Versions      1.3.0, 1.2.5
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dreamtools/meta.yaml
+   :homepage: https://github.com/dreamtools/dreamtools
+   :license: BSD License
+   :recipe: /`dreamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dreamtools
 
-Installation
-------------
+   |downloads_dreamtools| |docker_dreamtools|
 
-.. highlight: bash
+   :versions: 1.3.0, 1.2.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biokit`  :conda:package:`bioservices` >=1.4.5 :conda:package:`colormap`  :conda:package:`cython`  :conda:package:`easydev` >=0.9.14 :conda:package:`fitter`  :conda:package:`numexpr`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`synapseclient`  :conda:package:`tabulate`  :conda:package:`xlrd`  
 
-   conda install dreamtools
+   :required~by: |required_by_dreamtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dreamtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dreamtools
+
+   and update with::
+
+      conda update dreamtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dreamtools
+
+
+.. |required_by_dreamtools| conda:required_by:: dreamtools
+.. |downloads_dreamtools| image:: https://img.shields.io/conda/dn/bioconda/dreamtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dreamtools| image:: https://quay.io/repository/biocontainers/dreamtools/status
+   :target: https://quay.io/repository/biocontainers/dreamtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dreamtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dreamtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dreamtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dreamtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dreamtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dreamtools
-.. |docker| image:: https://quay.io/repository/biocontainers/dreamtools/status
-                :target: https://quay.io/repository/biocontainers/dreamtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dreamtools/README.html
 

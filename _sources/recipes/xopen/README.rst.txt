@@ -1,54 +1,66 @@
-.. _`xopen`:
+.. title:: Package Recipe 'xopen'
+.. highlight: bash
+
 
 xopen
 =====
 
-|downloads|
+.. conda:recipe:: xopen
+   :replaces_section_title:
 
-Open compressed files transparently in Python
+   Open compressed files transparently in Python
 
-============= ===========
-Home          https://github.com/marcelm/xopen
-Versions      0.5.0, 0.4.1, 0.3.5, 0.3.2, 0.1.1, 0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xopen/meta.yaml
+   :homepage: https://github.com/marcelm/xopen
+   :license: MIT
+   :recipe: /`xopen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: xopen
 
-Installation
-------------
+   |downloads_xopen| |docker_xopen|
 
-.. highlight: bash
+   :versions: 0.5.0, 0.4.1, 0.3.5, 0.3.2, 0.1.1, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bz2file`  :conda:package:`python`  
 
-   conda install xopen
+   :required~by: |required_by_xopen|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xopen
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xopen
+
+   and update with::
+
+      conda update xopen
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xopen
+
+
+.. |required_by_xopen| conda:required_by:: xopen
+.. |downloads_xopen| image:: https://img.shields.io/conda/dn/bioconda/xopen.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xopen| image:: https://quay.io/repository/biocontainers/xopen/status
+   :target: https://quay.io/repository/biocontainers/xopen
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xopen.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xopen/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xopen/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xopen/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xopen/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xopen
-.. |docker| image:: https://quay.io/repository/biocontainers/xopen/status
-                :target: https://quay.io/repository/biocontainers/xopen
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xopen/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-reqon`:
+.. title:: Package Recipe 'bioconductor-reqon'
+.. highlight: bash
+
 
 bioconductor-reqon
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-reqon
+   :replaces_section_title:
 
-Algorithm for recalibrating the base quality scores for aligned sequencing data in BAM format.
+   Algorithm for recalibrating the base quality scores for aligned sequencing data in BAM format.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ReQON.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-reqon/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ReQON.html
+   :license: GPL-2
+   :recipe: /`bioconductor-reqon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-reqon
 
-Installation
-------------
+   |downloads_bioconductor-reqon| |docker_bioconductor-reqon|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-reqon
+   :required~by: |required_by_bioconductor-reqon|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-reqon
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-reqon
+
+   and update with::
+
+      conda update bioconductor-reqon
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-reqon
+
+
+.. |required_by_bioconductor-reqon| conda:required_by:: bioconductor-reqon
+.. |downloads_bioconductor-reqon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reqon.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-reqon| image:: https://quay.io/repository/biocontainers/bioconductor-reqon/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-reqon
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-reqon.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-reqon/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-reqon/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-reqon/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-reqon/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-reqon
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-reqon/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-reqon
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-reqon/README.html
 

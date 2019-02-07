@@ -1,56 +1,67 @@
-.. _`bioconductor-proteomicsannotationhubdata`:
+.. title:: Package Recipe 'bioconductor-proteomicsannotationhubdata'
+.. highlight: bash
+
 
 bioconductor-proteomicsannotationhubdata
 ========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-proteomicsannotationhubdata
+   :replaces_section_title:
 
-These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures.
+   These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ProteomicsAnnotationHubData.html
-Versions      1.12.0, 1.8.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-proteomicsannotationhubdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ProteomicsAnnotationHubData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-proteomicsannotationhubdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata/meta.yaml>`_
+   :links: biotools: :biotools:`proteomicsannotationhubdata`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`proteomicsannotationhubdata`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-proteomicsannotationhubdata
 
-Installation
-------------
+   |downloads_bioconductor-proteomicsannotationhubdata| |docker_bioconductor-proteomicsannotationhubdata|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-annotationhubdata` >=1.12.0,<1.13.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`bioconductor-mzr` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-rcurl`  
 
-   conda install bioconductor-proteomicsannotationhubdata
+   :required~by: |required_by_bioconductor-proteomicsannotationhubdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-proteomicsannotationhubdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-proteomicsannotationhubdata
+
+   and update with::
+
+      conda update bioconductor-proteomicsannotationhubdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata
+
+
+.. |required_by_bioconductor-proteomicsannotationhubdata| conda:required_by:: bioconductor-proteomicsannotationhubdata
+.. |downloads_bioconductor-proteomicsannotationhubdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proteomicsannotationhubdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-proteomicsannotationhubdata| image:: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-proteomicsannotationhubdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-proteomicsannotationhubdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-proteomicsannotationhubdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-proteomicsannotationhubdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-proteomicsannotationhubdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-proteomicsannotationhubdata/README.html
 

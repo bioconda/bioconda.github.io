@@ -1,54 +1,66 @@
-.. _`bioconductor-raexexonprobesetlocation`:
+.. title:: Package Recipe 'bioconductor-raexexonprobesetlocation'
+.. highlight: bash
+
 
 bioconductor-raexexonprobesetlocation
 =====================================
 
-|downloads|
+.. conda:recipe:: bioconductor-raexexonprobesetlocation
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
+   This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/RaExExonProbesetLocation.html
-Versions      1.15.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-raexexonprobesetlocation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/RaExExonProbesetLocation.html
+   :license: LGPL
+   :recipe: /`bioconductor-raexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raexexonprobesetlocation/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-raexexonprobesetlocation
 
-Installation
-------------
+   |downloads_bioconductor-raexexonprobesetlocation| |docker_bioconductor-raexexonprobesetlocation|
 
-.. highlight: bash
+   :versions: 1.15.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-raexexonprobesetlocation
+   :required~by: |required_by_bioconductor-raexexonprobesetlocation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-raexexonprobesetlocation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-raexexonprobesetlocation
+
+   and update with::
+
+      conda update bioconductor-raexexonprobesetlocation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation
+
+
+.. |required_by_bioconductor-raexexonprobesetlocation| conda:required_by:: bioconductor-raexexonprobesetlocation
+.. |downloads_bioconductor-raexexonprobesetlocation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-raexexonprobesetlocation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-raexexonprobesetlocation| image:: https://quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-raexexonprobesetlocation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-raexexonprobesetlocation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-raexexonprobesetlocation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-raexexonprobesetlocation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-raexexonprobesetlocation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-raexexonprobesetlocation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-raexexonprobesetlocation/README.html
 

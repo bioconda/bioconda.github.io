@@ -1,56 +1,67 @@
-.. _`bioconductor-massir`:
+.. title:: Package Recipe 'bioconductor-massir'
+.. highlight: bash
+
 
 bioconductor-massir
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-massir
+   :replaces_section_title:
 
-Predicts the sex of samples in gene expression microarray datasets
+   Predicts the sex of samples in gene expression microarray datasets
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/massiR.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-massir/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/massiR.html
+   :license: GPL-3
+   :recipe: /`bioconductor-massir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir/meta.yaml>`_
+   :links: biotools: :biotools:`massir`
 
-
-
-Links         biotools: :biotools:`massir`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-massir
 
-Installation
-------------
+   |downloads_bioconductor-massir| |docker_bioconductor-massir|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-diptest`  :conda:package:`r-gplots`  
 
-   conda install bioconductor-massir
+   :required~by: |required_by_bioconductor-massir|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-massir
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-massir
+
+   and update with::
+
+      conda update bioconductor-massir
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-massir
+
+
+.. |required_by_bioconductor-massir| conda:required_by:: bioconductor-massir
+.. |downloads_bioconductor-massir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-massir.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-massir| image:: https://quay.io/repository/biocontainers/bioconductor-massir/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-massir
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-massir.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-massir/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-massir/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-massir/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-massir/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-massir
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-massir/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-massir
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-massir/README.html
 

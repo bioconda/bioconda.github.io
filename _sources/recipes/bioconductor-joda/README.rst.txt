@@ -1,54 +1,66 @@
-.. _`bioconductor-joda`:
+.. title:: Package Recipe 'bioconductor-joda'
+.. highlight: bash
+
 
 bioconductor-joda
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-joda
+   :replaces_section_title:
 
-Package \'joda\' implements three steps of an algorithm called JODA. The algorithm computes gene deregulation scores. For each gene\, its deregulation score reflects how strongly an effect of a certain regulator\'s perturbation on this gene differs between two different cell populations. The algorithm utilizes regulator knockdown expression data as well as knowledge about signaling pathways in which the regulators are involved \(formalized in a simple matrix model\).
+   Package \'joda\' implements three steps of an algorithm called JODA. The algorithm computes gene deregulation scores. For each gene\, its deregulation score reflects how strongly an effect of a certain regulator\'s perturbation on this gene differs between two different cell populations. The algorithm utilizes regulator knockdown expression data as well as knowledge about signaling pathways in which the regulators are involved \(formalized in a simple matrix model\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/joda.html
-Versions      1.30.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-joda/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/joda.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-joda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-joda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-joda/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-joda
 
-Installation
-------------
+   |downloads_bioconductor-joda| |docker_bioconductor-joda|
 
-.. highlight: bash
+   :versions: 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bgmm`  
 
-   conda install bioconductor-joda
+   :required~by: |required_by_bioconductor-joda|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-joda
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-joda
+
+   and update with::
+
+      conda update bioconductor-joda
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-joda
+
+
+.. |required_by_bioconductor-joda| conda:required_by:: bioconductor-joda
+.. |downloads_bioconductor-joda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-joda.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-joda| image:: https://quay.io/repository/biocontainers/bioconductor-joda/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-joda
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-joda.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-joda/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-joda/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-joda/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-joda/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-joda
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-joda/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-joda
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-joda/README.html
 

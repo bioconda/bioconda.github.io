@@ -1,56 +1,67 @@
-.. _`bioconductor-arrmnormalization`:
+.. title:: Package Recipe 'bioconductor-arrmnormalization'
+.. highlight: bash
+
 
 bioconductor-arrmnormalization
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-arrmnormalization
+   :replaces_section_title:
 
-Perform the Adaptive Robust Regression method \(ARRm\) for the normalization of methylation data from the Illumina Infinium HumanMethylation 450k assay.
+   Perform the Adaptive Robust Regression method \(ARRm\) for the normalization of methylation data from the Illumina Infinium HumanMethylation 450k assay.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ARRmNormalization.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-arrmnormalization/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ARRmNormalization.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-arrmnormalization <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization/meta.yaml>`_
+   :links: biotools: :biotools:`arrmnormalization`, doi: :doi:`10.1186/s13059-014-0503-2`
 
-
-
-Links         biotools: :biotools:`arrmnormalization`, doi: :doi:`10.1186/s13059-014-0503-2`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-arrmnormalization
 
-Installation
-------------
+   |downloads_bioconductor-arrmnormalization| |docker_bioconductor-arrmnormalization|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-arrmdata` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-arrmnormalization
+   :required~by: |required_by_bioconductor-arrmnormalization|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-arrmnormalization
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-arrmnormalization
+
+   and update with::
+
+      conda update bioconductor-arrmnormalization
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-arrmnormalization
+
+
+.. |required_by_bioconductor-arrmnormalization| conda:required_by:: bioconductor-arrmnormalization
+.. |downloads_bioconductor-arrmnormalization| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrmnormalization.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-arrmnormalization| image:: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-arrmnormalization.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-arrmnormalization/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-arrmnormalization/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-arrmnormalization/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-arrmnormalization/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-arrmnormalization
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-arrmnormalization
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-arrmnormalization/README.html
 

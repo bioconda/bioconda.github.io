@@ -1,54 +1,66 @@
-.. _`bioconductor-mimager`:
+.. title:: Package Recipe 'bioconductor-mimager'
+.. highlight: bash
+
 
 bioconductor-mimager
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-mimager
+   :replaces_section_title:
 
-Easily visualize and inspect microarrays for spatial artifacts.
+   Easily visualize and inspect microarrays for spatial artifacts.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/mimager.html
-Versions      1.6.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mimager/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mimager.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-mimager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mimager
 
-Installation
-------------
+   |downloads_bioconductor-mimager| |docker_bioconductor-mimager|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyplm` >=1.58.0,<1.59.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-gtable`  :conda:package:`r-scales`  
 
-   conda install bioconductor-mimager
+   :required~by: |required_by_bioconductor-mimager|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mimager
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mimager
+
+   and update with::
+
+      conda update bioconductor-mimager
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mimager
+
+
+.. |required_by_bioconductor-mimager| conda:required_by:: bioconductor-mimager
+.. |downloads_bioconductor-mimager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mimager.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mimager| image:: https://quay.io/repository/biocontainers/bioconductor-mimager/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mimager
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mimager.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mimager/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mimager/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mimager/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mimager/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mimager
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mimager/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mimager
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mimager/README.html
 

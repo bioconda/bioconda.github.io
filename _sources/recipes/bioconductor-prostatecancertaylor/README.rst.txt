@@ -1,54 +1,66 @@
-.. _`bioconductor-prostatecancertaylor`:
+.. title:: Package Recipe 'bioconductor-prostatecancertaylor'
+.. highlight: bash
+
 
 bioconductor-prostatecancertaylor
 =================================
 
-|downloads|
+.. conda:recipe:: bioconductor-prostatecancertaylor
+   :replaces_section_title:
 
-A Bioconductor data package for the Taylor et al \(2010\) dataset.
+   A Bioconductor data package for the Taylor et al \(2010\) dataset.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/prostateCancerTaylor.html
-Versions      1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prostatecancertaylor/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/prostateCancerTaylor.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-prostatecancertaylor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancertaylor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancertaylor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-prostatecancertaylor
 
-Installation
-------------
+   |downloads_bioconductor-prostatecancertaylor| |docker_bioconductor-prostatecancertaylor|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-prostatecancertaylor
+   :required~by: |required_by_bioconductor-prostatecancertaylor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-prostatecancertaylor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-prostatecancertaylor
+
+   and update with::
+
+      conda update bioconductor-prostatecancertaylor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-prostatecancertaylor
+
+
+.. |required_by_bioconductor-prostatecancertaylor| conda:required_by:: bioconductor-prostatecancertaylor
+.. |downloads_bioconductor-prostatecancertaylor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancertaylor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-prostatecancertaylor| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-prostatecancertaylor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-prostatecancertaylor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-prostatecancertaylor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-prostatecancertaylor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-prostatecancertaylor
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-prostatecancertaylor/README.html
 

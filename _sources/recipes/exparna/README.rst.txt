@@ -1,56 +1,67 @@
-.. _`exparna`:
+.. title:: Package Recipe 'exparna'
+.. highlight: bash
+
 
 exparna
 =======
 
-|downloads|
+.. conda:recipe:: exparna
+   :replaces_section_title:
 
-The program finds the longest common subsequence of exact pattern matches \(LCS\-EPM\)
+   The program finds the longest common subsequence of exact pattern matches \(LCS\-EPM\)
 
-============= ===========
-Home          https://github.com/BackofenLab/ExpaRNA
-Versions      1.0.1
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//exparna/meta.yaml
+   :homepage: https://github.com/BackofenLab/ExpaRNA
+   :license: GPL-2.0
+   :recipe: /`exparna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna/meta.yaml>`_
+   :links: biotools: :biotools:`exparna`
 
-
-
-Links         biotools: :biotools:`exparna`
-
-============= ===========
+   
 
 
+.. conda:package:: exparna
 
-Installation
-------------
+   |downloads_exparna| |docker_exparna|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`viennarna`  
 
-   conda install exparna
+   :required~by: |required_by_exparna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update exparna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install exparna
+
+   and update with::
+
+      conda update exparna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/exparna
+
+
+.. |required_by_exparna| conda:required_by:: exparna
+.. |downloads_exparna| image:: https://img.shields.io/conda/dn/bioconda/exparna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_exparna| image:: https://quay.io/repository/biocontainers/exparna/status
+   :target: https://quay.io/repository/biocontainers/exparna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/exparna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/exparna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/exparna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/exparna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/exparna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/exparna
-.. |docker| image:: https://quay.io/repository/biocontainers/exparna/status
-                :target: https://quay.io/repository/biocontainers/exparna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/exparna/README.html
 

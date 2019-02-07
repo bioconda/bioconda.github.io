@@ -1,56 +1,67 @@
-.. _`bioconductor-piano`:
+.. title:: Package Recipe 'bioconductor-piano'
+.. highlight: bash
+
 
 bioconductor-piano
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-piano
+   :replaces_section_title:
 
-Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses.
+   Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/piano.html
-Versions      1.22.0, 1.20.1, 1.18.0, 1.16.4, 1.12.1
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-piano/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/piano.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-piano <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano/meta.yaml>`_
+   :links: biotools: :biotools:`piano`
 
-
-
-Links         biotools: :biotools:`piano`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-piano
 
-Installation
-------------
+   |downloads_bioconductor-piano| |docker_bioconductor-piano|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.1, 1.18.0, 1.16.4, 1.12.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-fgsea` >=1.8.0,<1.9.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-igraph`  :conda:package:`r-relations`  
 
-   conda install bioconductor-piano
+   :required~by: |required_by_bioconductor-piano|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-piano
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-piano
+
+   and update with::
+
+      conda update bioconductor-piano
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-piano
+
+
+.. |required_by_bioconductor-piano| conda:required_by:: bioconductor-piano
+.. |downloads_bioconductor-piano| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-piano.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-piano| image:: https://quay.io/repository/biocontainers/bioconductor-piano/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-piano
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-piano.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-piano/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-piano/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-piano/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-piano/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-piano
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-piano/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-piano
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-piano/README.html
 

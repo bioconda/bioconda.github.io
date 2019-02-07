@@ -1,54 +1,66 @@
-.. _`misopy`:
+.. title:: Package Recipe 'misopy'
+.. highlight: bash
+
 
 misopy
 ======
 
-|downloads|
+.. conda:recipe:: misopy
+   :replaces_section_title:
 
-Mixture of Isoforms model \(MISO\) for isoform quantitation using RNA\-Seq
+   Mixture of Isoforms model \(MISO\) for isoform quantitation using RNA\-Seq
 
-============= ===========
-Home          http://genes.mit.edu/burgelab/miso/
-Versions      0.5.4
-License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//misopy/meta.yaml
+   :homepage: http://genes.mit.edu/burgelab/miso/
+   :license: GPL2 / GPL2
+   :recipe: /`misopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/misopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/misopy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: misopy
 
-Installation
-------------
+   |downloads_misopy| |docker_misopy|
 
-.. highlight: bash
+   :versions: 0.5.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`matplotlib`  :conda:package:`numpy` >=1.5.0 :conda:package:`pysam` >=0.6.0 :conda:package:`python` 2.7* :conda:package:`samtools` <=1.2 :conda:package:`scipy` >=0.9.0 
 
-   conda install misopy
+   :required~by: |required_by_misopy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update misopy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install misopy
+
+   and update with::
+
+      conda update misopy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/misopy
+
+
+.. |required_by_misopy| conda:required_by:: misopy
+.. |downloads_misopy| image:: https://img.shields.io/conda/dn/bioconda/misopy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_misopy| image:: https://quay.io/repository/biocontainers/misopy/status
+   :target: https://quay.io/repository/biocontainers/misopy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/misopy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/misopy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/misopy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/misopy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/misopy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/misopy
-.. |docker| image:: https://quay.io/repository/biocontainers/misopy/status
-                :target: https://quay.io/repository/biocontainers/misopy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/misopy/README.html
 

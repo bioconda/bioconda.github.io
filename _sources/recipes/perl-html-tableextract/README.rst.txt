@@ -1,54 +1,66 @@
-.. _`perl-html-tableextract`:
+.. title:: Package Recipe 'perl-html-tableextract'
+.. highlight: bash
+
 
 perl-html-tableextract
 ======================
 
-|downloads|
+.. conda:recipe:: perl-html-tableextract
+   :replaces_section_title:
 
-Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees.
+   Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees.
 
-============= ===========
-Home          http://metacpan.org/pod/HTML-TableExtract
-Versions      2.13
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-tableextract/meta.yaml
+   :homepage: http://metacpan.org/pod/HTML-TableExtract
+   :license: unknown
+   :recipe: /`perl-html-tableextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tableextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tableextract/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-html-tableextract
 
-Installation
-------------
+   |downloads_perl-html-tableextract| |docker_perl-html-tableextract|
 
-.. highlight: bash
+   :versions: 2.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-html-element-extended`  :conda:package:`perl-html-parser`  :conda:package:`perl-threaded`  
 
-   conda install perl-html-tableextract
+   :required~by: |required_by_perl-html-tableextract|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-html-tableextract
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-html-tableextract
+
+   and update with::
+
+      conda update perl-html-tableextract
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-html-tableextract
+
+
+.. |required_by_perl-html-tableextract| conda:required_by:: perl-html-tableextract
+.. |downloads_perl-html-tableextract| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tableextract.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-html-tableextract| image:: https://quay.io/repository/biocontainers/perl-html-tableextract/status
+   :target: https://quay.io/repository/biocontainers/perl-html-tableextract
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-html-tableextract.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-html-tableextract/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-html-tableextract/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-html-tableextract/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-html-tableextract/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-html-tableextract
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-html-tableextract/status
-                :target: https://quay.io/repository/biocontainers/perl-html-tableextract
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-html-tableextract/README.html
 

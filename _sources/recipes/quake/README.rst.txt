@@ -1,56 +1,67 @@
-.. _`quake`:
+.. title:: Package Recipe 'quake'
+.. highlight: bash
+
 
 quake
 =====
 
-|downloads|
+.. conda:recipe:: quake
+   :replaces_section_title:
 
-Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e.g. \>15X\)\, specifically intended for Illumina sequencing reads
+   Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e.g. \>15X\)\, specifically intended for Illumina sequencing reads
 
-============= ===========
-Home          http://www.cbcb.umd.edu/software/quake/
-Versions      0.3.5
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quake/meta.yaml
+   :homepage: http://www.cbcb.umd.edu/software/quake/
+   :license: Artistic License 2.0
+   :recipe: /`quake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake/meta.yaml>`_
+   :links: biotools: :biotools:`quake`
 
-
-
-Links         biotools: :biotools:`quake`
-
-============= ===========
+   
 
 
+.. conda:package:: quake
 
-Installation
-------------
+   |downloads_quake| |docker_quake|
 
-.. highlight: bash
+   :versions: 0.3.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.60* :conda:package:`jellyfish`  :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`r` 3.3.1* :conda:package:`r-vgam`  
 
-   conda install quake
+   :required~by: |required_by_quake|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update quake
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install quake
+
+   and update with::
+
+      conda update quake
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/quake
+
+
+.. |required_by_quake| conda:required_by:: quake
+.. |downloads_quake| image:: https://img.shields.io/conda/dn/bioconda/quake.svg?style=flat
+   :alt:   (downloads)
+.. |docker_quake| image:: https://quay.io/repository/biocontainers/quake/status
+   :target: https://quay.io/repository/biocontainers/quake
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/quake.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/quake/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/quake/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/quake/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/quake/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/quake
-.. |docker| image:: https://quay.io/repository/biocontainers/quake/status
-                :target: https://quay.io/repository/biocontainers/quake
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/quake/README.html
 

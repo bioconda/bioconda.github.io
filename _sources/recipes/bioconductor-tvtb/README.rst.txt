@@ -1,56 +1,67 @@
-.. _`bioconductor-tvtb`:
+.. title:: Package Recipe 'bioconductor-tvtb'
+.. highlight: bash
+
 
 bioconductor-tvtb
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-tvtb
+   :replaces_section_title:
 
-The package provides S4 classes and methods to filter\, summarise and visualise genetic variation data stored in VCF files. In particular\, the package extends the FilterRules class \(S4Vectors package\) to define news classes of filter rules applicable to the various slots of VCF objects. Functionalities are integrated and demonstrated in a Shiny web\-application\, the Shiny Variant Explorer \(tSVE\).
+   The package provides S4 classes and methods to filter\, summarise and visualise genetic variation data stored in VCF files. In particular\, the package extends the FilterRules class \(S4Vectors package\) to define news classes of filter rules applicable to the various slots of VCF objects. Functionalities are integrated and demonstrated in a Shiny web\-application\, the Shiny Variant Explorer \(tSVE\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TVTB.html
-Versions      1.8.0, 1.6.0, 1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tvtb/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TVTB.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-tvtb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tvtb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tvtb/meta.yaml>`_
+   :links: biotools: :biotools:`tvtb`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`tvtb`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tvtb
 
-Installation
-------------
+   |downloads_bioconductor-tvtb| |docker_bioconductor-tvtb|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationfilter` >=1.6.0,<1.7.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-ensembldb` >=2.6.0,<2.7.0 :conda:package:`bioconductor-ensemblvep` >=1.24.0,<1.25.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggally`  :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-tvtb
+   :required~by: |required_by_bioconductor-tvtb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tvtb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tvtb
+
+   and update with::
+
+      conda update bioconductor-tvtb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tvtb
+
+
+.. |required_by_bioconductor-tvtb| conda:required_by:: bioconductor-tvtb
+.. |downloads_bioconductor-tvtb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tvtb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tvtb| image:: https://quay.io/repository/biocontainers/bioconductor-tvtb/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tvtb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tvtb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tvtb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tvtb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tvtb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tvtb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tvtb
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tvtb/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tvtb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tvtb/README.html
 

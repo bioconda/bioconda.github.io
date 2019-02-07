@@ -1,54 +1,66 @@
-.. _`ucsc-pslpartition`:
+.. title:: Package Recipe 'ucsc-pslpartition'
+.. highlight: bash
+
 
 ucsc-pslpartition
 =================
 
-|downloads|
+.. conda:recipe:: ucsc-pslpartition
+   :replaces_section_title:
 
-split PSL files into non\-overlapping sets
+   split PSL files into non\-overlapping sets
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-pslpartition/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-pslpartition <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslpartition>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslpartition/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-pslpartition
 
-Installation
-------------
+   |downloads_ucsc-pslpartition| |docker_ucsc-pslpartition|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-pslpartition
+   :required~by: |required_by_ucsc-pslpartition|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-pslpartition
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-pslpartition
+
+   and update with::
+
+      conda update ucsc-pslpartition
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-pslpartition
+
+
+.. |required_by_ucsc-pslpartition| conda:required_by:: ucsc-pslpartition
+.. |downloads_ucsc-pslpartition| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslpartition.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-pslpartition| image:: https://quay.io/repository/biocontainers/ucsc-pslpartition/status
+   :target: https://quay.io/repository/biocontainers/ucsc-pslpartition
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-pslpartition.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-pslpartition/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-pslpartition/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-pslpartition/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-pslpartition/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-pslpartition
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslpartition/status
-                :target: https://quay.io/repository/biocontainers/ucsc-pslpartition
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-pslpartition/README.html
 

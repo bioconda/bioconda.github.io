@@ -1,57 +1,68 @@
-.. _`rust-overlaps`:
+.. title:: Package Recipe 'rust-overlaps'
+.. highlight: bash
+
 
 rust-overlaps
 =============
 
-|downloads|
+.. conda:recipe:: rust-overlaps
+   :replaces_section_title:
 
-A fast and secure command line utilility for enumerating all suffix\-prefix
-overlaps within a set of sequences\, satisfying a user\-specified minimal
-overlap length and maximal error rate.
+   A fast and secure command line utilility for enumerating all suffix\-prefix
+   overlaps within a set of sequences\, satisfying a user\-specified minimal
+   overlap length and maximal error rate.
 
+   :homepage: https://github.com/jbaaijens/rust-overlaps
+   :license: MIT
+   :recipe: /`rust-overlaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/jbaaijens/rust-overlaps
-Versions      0.1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rust-overlaps/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: rust-overlaps
 
-Installation
-------------
+   |downloads_rust-overlaps| |docker_rust-overlaps|
 
-.. highlight: bash
+   :versions: 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install rust-overlaps
+   :required~by: |required_by_rust-overlaps|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rust-overlaps
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rust-overlaps
+
+   and update with::
+
+      conda update rust-overlaps
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rust-overlaps
+
+
+.. |required_by_rust-overlaps| conda:required_by:: rust-overlaps
+.. |downloads_rust-overlaps| image:: https://img.shields.io/conda/dn/bioconda/rust-overlaps.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rust-overlaps| image:: https://quay.io/repository/biocontainers/rust-overlaps/status
+   :target: https://quay.io/repository/biocontainers/rust-overlaps
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rust-overlaps.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rust-overlaps/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rust-overlaps/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rust-overlaps/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rust-overlaps/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rust-overlaps
-.. |docker| image:: https://quay.io/repository/biocontainers/rust-overlaps/status
-                :target: https://quay.io/repository/biocontainers/rust-overlaps
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rust-overlaps/README.html
 

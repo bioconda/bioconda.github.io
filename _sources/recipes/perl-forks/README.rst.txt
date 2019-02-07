@@ -1,54 +1,66 @@
-.. _`perl-forks`:
+.. title:: Package Recipe 'perl-forks'
+.. highlight: bash
+
 
 perl-forks
 ==========
 
-|downloads|
+.. conda:recipe:: perl-forks
+   :replaces_section_title:
 
-drop\-in replacement for Perl threads using fork\(\)
+   drop\-in replacement for Perl threads using fork\(\)
 
-============= ===========
-Home          http://search.cpan.org/~rybskej/forks/lib/forks.pm
-Versions      0.36
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-forks/meta.yaml
+   :homepage: http://search.cpan.org/~rybskej/forks/lib/forks.pm
+   :license: perl_5
+   :recipe: /`perl-forks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-forks
 
-Installation
-------------
+   |downloads_perl-forks| |docker_perl-forks|
 
-.. highlight: bash
+   :versions: 0.36
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-forks
+   :required~by: |required_by_perl-forks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-forks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-forks
+
+   and update with::
+
+      conda update perl-forks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-forks
+
+
+.. |required_by_perl-forks| conda:required_by:: perl-forks
+.. |downloads_perl-forks| image:: https://img.shields.io/conda/dn/bioconda/perl-forks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-forks| image:: https://quay.io/repository/biocontainers/perl-forks/status
+   :target: https://quay.io/repository/biocontainers/perl-forks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-forks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-forks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-forks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-forks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-forks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-forks
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-forks/status
-                :target: https://quay.io/repository/biocontainers/perl-forks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-forks/README.html
 

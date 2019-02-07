@@ -1,54 +1,66 @@
-.. _`hicbrowser`:
+.. title:: Package Recipe 'hicbrowser'
+.. highlight: bash
+
 
 hicbrowser
 ==========
 
-|downloads|
+.. conda:recipe:: hicbrowser
+   :replaces_section_title:
 
-A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\).
+   A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\).
 
-============= ===========
-Home          https://github.com/maxplanck-ie/HiCBrowser
-Versions      1.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hicbrowser/meta.yaml
+   :homepage: https://github.com/maxplanck-ie/HiCBrowser
+   :license: GPL3
+   :recipe: /`hicbrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicbrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicbrowser/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hicbrowser
 
-Installation
-------------
+   |downloads_hicbrowser| |docker_hicbrowser|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bx-python`  :conda:package:`flask` >=0.10.1 :conda:package:`hicexplorer` >=1.7 :conda:package:`python` 2.7* 
 
-   conda install hicbrowser
+   :required~by: |required_by_hicbrowser|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hicbrowser
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hicbrowser
+
+   and update with::
+
+      conda update hicbrowser
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hicbrowser
+
+
+.. |required_by_hicbrowser| conda:required_by:: hicbrowser
+.. |downloads_hicbrowser| image:: https://img.shields.io/conda/dn/bioconda/hicbrowser.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hicbrowser| image:: https://quay.io/repository/biocontainers/hicbrowser/status
+   :target: https://quay.io/repository/biocontainers/hicbrowser
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hicbrowser.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hicbrowser/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hicbrowser/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hicbrowser/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hicbrowser/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hicbrowser
-.. |docker| image:: https://quay.io/repository/biocontainers/hicbrowser/status
-                :target: https://quay.io/repository/biocontainers/hicbrowser
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hicbrowser/README.html
 

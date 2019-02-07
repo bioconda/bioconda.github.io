@@ -1,54 +1,66 @@
-.. _`bioconductor-yeastcc`:
+.. title:: Package Recipe 'bioconductor-yeastcc'
+.. highlight: bash
+
 
 bioconductor-yeastcc
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-yeastcc
+   :replaces_section_title:
 
-ExpressionSet for Spellman et al. \(1998\) yeast cell cycle microarray experiment
+   ExpressionSet for Spellman et al. \(1998\) yeast cell cycle microarray experiment
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/yeastCC.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-yeastcc/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/yeastCC.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-yeastcc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-yeastcc
 
-Installation
-------------
+   |downloads_bioconductor-yeastcc| |docker_bioconductor-yeastcc|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-yeastcc
+   :required~by: |required_by_bioconductor-yeastcc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-yeastcc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-yeastcc
+
+   and update with::
+
+      conda update bioconductor-yeastcc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-yeastcc
+
+
+.. |required_by_bioconductor-yeastcc| conda:required_by:: bioconductor-yeastcc
+.. |downloads_bioconductor-yeastcc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastcc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-yeastcc| image:: https://quay.io/repository/biocontainers/bioconductor-yeastcc/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-yeastcc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-yeastcc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-yeastcc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-yeastcc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-yeastcc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-yeastcc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-yeastcc
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-yeastcc/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-yeastcc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-yeastcc/README.html
 

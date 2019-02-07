@@ -1,54 +1,66 @@
-.. _`perl-html-tagset`:
+.. title:: Package Recipe 'perl-html-tagset'
+.. highlight: bash
+
 
 perl-html-tagset
 ================
 
-|downloads|
+.. conda:recipe:: perl-html-tagset
+   :replaces_section_title:
 
-data tables useful in parsing HTML
+   data tables useful in parsing HTML
 
-============= ===========
-Home          http://metacpan.org/pod/HTML::Tagset
-Versions      3.20
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-tagset/meta.yaml
+   :homepage: http://metacpan.org/pod/HTML::Tagset
+   :license: unknown
+   :recipe: /`perl-html-tagset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-html-tagset
 
-Installation
-------------
+   |downloads_perl-html-tagset| |docker_perl-html-tagset|
 
-.. highlight: bash
+   :versions: 3.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-html-tagset
+   :required~by: |required_by_perl-html-tagset|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-html-tagset
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-html-tagset
+
+   and update with::
+
+      conda update perl-html-tagset
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-html-tagset
+
+
+.. |required_by_perl-html-tagset| conda:required_by:: perl-html-tagset
+.. |downloads_perl-html-tagset| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tagset.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-html-tagset| image:: https://quay.io/repository/biocontainers/perl-html-tagset/status
+   :target: https://quay.io/repository/biocontainers/perl-html-tagset
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-html-tagset.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-html-tagset/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-html-tagset/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-html-tagset/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-html-tagset/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-html-tagset
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-html-tagset/status
-                :target: https://quay.io/repository/biocontainers/perl-html-tagset
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-html-tagset/README.html
 

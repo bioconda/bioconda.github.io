@@ -1,54 +1,66 @@
-.. _`bioconductor-gdsfmt`:
+.. title:: Package Recipe 'bioconductor-gdsfmt'
+.. highlight: bash
+
 
 bioconductor-gdsfmt
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-gdsfmt
+   :replaces_section_title:
 
-This package provides a high\-level R interface to CoreArray Genomic Data Structure \(GDS\) data files\, which are portable across platforms with hierarchical structure to store multiple scalable array\-oriented data sets with metadata information. It is suited for large\-scale datasets\, especially for data which are much larger than the available random\-access memory. The gdsfmt package offers the efficient operations specifically designed for integers of less than 8 bits\, since a diploid genotype\, like single\-nucleotide polymorphism \(SNP\)\, usually occupies fewer bits than a byte. Data compression and decompression are available with relatively efficient random access. It is also allowed to read a GDS file in parallel with multiple R processes supported by the package parallel.
+   This package provides a high\-level R interface to CoreArray Genomic Data Structure \(GDS\) data files\, which are portable across platforms with hierarchical structure to store multiple scalable array\-oriented data sets with metadata information. It is suited for large\-scale datasets\, especially for data which are much larger than the available random\-access memory. The gdsfmt package offers the efficient operations specifically designed for integers of less than 8 bits\, since a diploid genotype\, like single\-nucleotide polymorphism \(SNP\)\, usually occupies fewer bits than a byte. Data compression and decompression are available with relatively efficient random access. It is also allowed to read a GDS file in parallel with multiple R processes supported by the package parallel.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/gdsfmt.html
-Versions      1.18.1, 1.16.0, 1.14.1
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gdsfmt/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gdsfmt.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-gdsfmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsfmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsfmt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gdsfmt
 
-Installation
-------------
+   |downloads_bioconductor-gdsfmt| |docker_bioconductor-gdsfmt|
 
-.. highlight: bash
+   :versions: 1.18.1, 1.16.0, 1.14.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-gdsfmt
+   :required~by: |required_by_bioconductor-gdsfmt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gdsfmt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gdsfmt
+
+   and update with::
+
+      conda update bioconductor-gdsfmt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gdsfmt
+
+
+.. |required_by_bioconductor-gdsfmt| conda:required_by:: bioconductor-gdsfmt
+.. |downloads_bioconductor-gdsfmt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gdsfmt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gdsfmt| image:: https://quay.io/repository/biocontainers/bioconductor-gdsfmt/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gdsfmt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gdsfmt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gdsfmt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gdsfmt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gdsfmt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gdsfmt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gdsfmt
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gdsfmt/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gdsfmt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gdsfmt/README.html
 

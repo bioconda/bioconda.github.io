@@ -1,54 +1,66 @@
-.. _`mendelscan`:
+.. title:: Package Recipe 'mendelscan'
+.. highlight: bash
+
 
 mendelscan
 ==========
 
-|downloads|
+.. conda:recipe:: mendelscan
+   :replaces_section_title:
 
-Analyze exome data for Mendelian disorders.
+   Analyze exome data for Mendelian disorders.
 
-============= ===========
-Home          https://github.com/genome/mendelscan
-Versions      v1.2.2
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mendelscan/meta.yaml
+   :homepage: https://github.com/genome/mendelscan
+   :license: Unknown
+   :recipe: /`mendelscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mendelscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mendelscan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mendelscan
 
-Installation
-------------
+   |downloads_mendelscan| |docker_mendelscan|
 
-.. highlight: bash
+   :versions: v1.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk`  
 
-   conda install mendelscan
+   :required~by: |required_by_mendelscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mendelscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mendelscan
+
+   and update with::
+
+      conda update mendelscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mendelscan
+
+
+.. |required_by_mendelscan| conda:required_by:: mendelscan
+.. |downloads_mendelscan| image:: https://img.shields.io/conda/dn/bioconda/mendelscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mendelscan| image:: https://quay.io/repository/biocontainers/mendelscan/status
+   :target: https://quay.io/repository/biocontainers/mendelscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mendelscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mendelscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mendelscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mendelscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mendelscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mendelscan
-.. |docker| image:: https://quay.io/repository/biocontainers/mendelscan/status
-                :target: https://quay.io/repository/biocontainers/mendelscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mendelscan/README.html
 

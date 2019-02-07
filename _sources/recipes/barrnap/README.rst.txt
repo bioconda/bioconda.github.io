@@ -1,56 +1,67 @@
-.. _`barrnap`:
+.. title:: Package Recipe 'barrnap'
+.. highlight: bash
+
 
 barrnap
 =======
 
-|downloads|
+.. conda:recipe:: barrnap
+   :replaces_section_title:
 
-Barrnap predicts the location of ribosomal RNA genes in genomes. \(bacteria\, archaea\, metazoan mitochondria and eukaryotes.\)
+   Barrnap predicts the location of ribosomal RNA genes in genomes. \(bacteria\, archaea\, metazoan mitochondria and eukaryotes.\)
 
-============= ===========
-Home          https://github.com/tseemann/barrnap
-Versions      0.9, 0.8, 0.7, 0.3, 0.2
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//barrnap/meta.yaml
+   :homepage: https://github.com/tseemann/barrnap
+   :license: GPLv3
+   :recipe: /`barrnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/meta.yaml>`_
+   :links: biotools: :biotools:`barrnap`
 
-
-
-Links         biotools: :biotools:`barrnap`
-
-============= ===========
+   
 
 
+.. conda:package:: barrnap
 
-Installation
-------------
+   |downloads_barrnap| |docker_barrnap|
 
-.. highlight: bash
+   :versions: 0.9, 0.8, 0.7, 0.3, 0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`hmmer` >=3.1b :conda:package:`perl` >=5.22.0 
 
-   conda install barrnap
+   :required~by: |required_by_barrnap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update barrnap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install barrnap
+
+   and update with::
+
+      conda update barrnap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/barrnap
+
+
+.. |required_by_barrnap| conda:required_by:: barrnap
+.. |downloads_barrnap| image:: https://img.shields.io/conda/dn/bioconda/barrnap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_barrnap| image:: https://quay.io/repository/biocontainers/barrnap/status
+   :target: https://quay.io/repository/biocontainers/barrnap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/barrnap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/barrnap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/barrnap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/barrnap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/barrnap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/barrnap
-.. |docker| image:: https://quay.io/repository/biocontainers/barrnap/status
-                :target: https://quay.io/repository/biocontainers/barrnap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/barrnap/README.html
 

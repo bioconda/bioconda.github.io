@@ -1,56 +1,67 @@
-.. _`bioconductor-affycoretools`:
+.. title:: Package Recipe 'bioconductor-affycoretools'
+.. highlight: bash
+
 
 bioconductor-affycoretools
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-affycoretools
+   :replaces_section_title:
 
-Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see.
+   Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/affycoretools.html
-Versions      1.54.0, 1.52.2, 1.50.6
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affycoretools/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affycoretools.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-affycoretools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools/meta.yaml>`_
+   :links: biotools: :biotools:`affycoretools`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`affycoretools`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affycoretools
 
-Installation
-------------
+   |downloads_bioconductor-affycoretools| |docker_bioconductor-affycoretools|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.2, 1.50.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-gcrma` >=2.54.0,<2.55.0 :conda:package:`bioconductor-gostats` >=2.48.0,<2.49.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-reportingtools` >=2.22.0,<2.23.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-hwriter`  :conda:package:`r-lattice`  :conda:package:`r-rsqlite`  :conda:package:`r-xtable`  
 
-   conda install bioconductor-affycoretools
+   :required~by: |required_by_bioconductor-affycoretools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affycoretools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affycoretools
+
+   and update with::
+
+      conda update bioconductor-affycoretools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affycoretools
+
+
+.. |required_by_bioconductor-affycoretools| conda:required_by:: bioconductor-affycoretools
+.. |downloads_bioconductor-affycoretools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycoretools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affycoretools| image:: https://quay.io/repository/biocontainers/bioconductor-affycoretools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affycoretools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affycoretools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affycoretools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affycoretools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affycoretools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affycoretools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affycoretools
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affycoretools/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affycoretools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affycoretools/README.html
 

@@ -1,54 +1,66 @@
-.. _`treemaker`:
+.. title:: Package Recipe 'treemaker'
+.. highlight: bash
+
 
 treemaker
 =========
 
-|downloads|
+.. conda:recipe:: treemaker
+   :replaces_section_title:
 
-A python tool for generating a Newick formatted tree from alist of classifications
+   A python tool for generating a Newick formatted tree from alist of classifications
 
-============= ===========
-Home          https://github.com/SimonGreenhill/treemaker
-Versions      1.2, 1.1
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//treemaker/meta.yaml
+   :homepage: https://github.com/SimonGreenhill/treemaker
+   :license: BSD / BSD-3-Clause
+   :recipe: /`treemaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: treemaker
 
-Installation
-------------
+   |downloads_treemaker| |docker_treemaker|
 
-.. highlight: bash
+   :versions: 1.2, 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install treemaker
+   :required~by: |required_by_treemaker|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update treemaker
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install treemaker
+
+   and update with::
+
+      conda update treemaker
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/treemaker
+
+
+.. |required_by_treemaker| conda:required_by:: treemaker
+.. |downloads_treemaker| image:: https://img.shields.io/conda/dn/bioconda/treemaker.svg?style=flat
+   :alt:   (downloads)
+.. |docker_treemaker| image:: https://quay.io/repository/biocontainers/treemaker/status
+   :target: https://quay.io/repository/biocontainers/treemaker
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/treemaker.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/treemaker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/treemaker/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/treemaker/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/treemaker/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/treemaker
-.. |docker| image:: https://quay.io/repository/biocontainers/treemaker/status
-                :target: https://quay.io/repository/biocontainers/treemaker
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/treemaker/README.html
 

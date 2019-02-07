@@ -1,56 +1,67 @@
-.. _`bioconductor-rols`:
+.. title:: Package Recipe 'bioconductor-rols'
+.. highlight: bash
+
 
 bioconductor-rols
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-rols
+   :replaces_section_title:
 
-The rols package is an interface to the Ontology Lookup Service \(OLS\) to access and query hundred of ontolgies directly from R.
+   The rols package is an interface to the Ontology Lookup Service \(OLS\) to access and query hundred of ontolgies directly from R.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rols.html
-Versions      2.10.0, 2.8.2, 2.6.0, 2.4.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rols/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rols.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rols <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols/meta.yaml>`_
+   :links: biotools: :biotools:`rols`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`rols`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rols
 
-Installation
-------------
+   |downloads_bioconductor-rols| |docker_bioconductor-rols|
 
-.. highlight: bash
+   :versions: 2.10.0, 2.8.2, 2.6.0, 2.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-progress`  
 
-   conda install bioconductor-rols
+   :required~by: |required_by_bioconductor-rols|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rols
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rols
+
+   and update with::
+
+      conda update bioconductor-rols
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rols
+
+
+.. |required_by_bioconductor-rols| conda:required_by:: bioconductor-rols
+.. |downloads_bioconductor-rols| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rols.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rols| image:: https://quay.io/repository/biocontainers/bioconductor-rols/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rols
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rols.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rols/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rols/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rols/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rols/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rols
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rols/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rols
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rols/README.html
 

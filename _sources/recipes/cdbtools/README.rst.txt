@@ -1,54 +1,66 @@
-.. _`cdbtools`:
+.. title:: Package Recipe 'cdbtools'
+.. highlight: bash
+
 
 cdbtools
 ========
 
-|downloads|
+.. conda:recipe:: cdbtools
+   :replaces_section_title:
 
-CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files
+   CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files
 
-============= ===========
-Home          http://compbio.dfci.harvard.edu/tgi
-Versions      0.99
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cdbtools/meta.yaml
+   :homepage: http://compbio.dfci.harvard.edu/tgi
+   :license: Public Domain
+   :recipe: /`cdbtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdbtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdbtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cdbtools
 
-Installation
-------------
+   |downloads_cdbtools| |docker_cdbtools|
 
-.. highlight: bash
+   :versions: 0.99
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib`  
 
-   conda install cdbtools
+   :required~by: |required_by_cdbtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cdbtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cdbtools
+
+   and update with::
+
+      conda update cdbtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cdbtools
+
+
+.. |required_by_cdbtools| conda:required_by:: cdbtools
+.. |downloads_cdbtools| image:: https://img.shields.io/conda/dn/bioconda/cdbtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cdbtools| image:: https://quay.io/repository/biocontainers/cdbtools/status
+   :target: https://quay.io/repository/biocontainers/cdbtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cdbtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cdbtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cdbtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cdbtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cdbtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cdbtools
-.. |docker| image:: https://quay.io/repository/biocontainers/cdbtools/status
-                :target: https://quay.io/repository/biocontainers/cdbtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cdbtools/README.html
 

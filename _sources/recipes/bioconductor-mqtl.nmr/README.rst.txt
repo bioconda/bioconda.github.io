@@ -1,56 +1,67 @@
-.. _`bioconductor-mqtl.nmr`:
+.. title:: Package Recipe 'bioconductor-mqtl.nmr'
+.. highlight: bash
+
 
 bioconductor-mqtl.nmr
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-mqtl.nmr
+   :replaces_section_title:
 
-mQTL.NMR provides a complete mQTL analysis pipeline for 1H NMR data. Distinctive features include normalisation using most\-used approaches\, peak alignment using RSPA approach\, dimensionality reduction using SRV and binning approaches\, and mQTL analysis for animal and human cohorts.
+   mQTL.NMR provides a complete mQTL analysis pipeline for 1H NMR data. Distinctive features include normalisation using most\-used approaches\, peak alignment using RSPA approach\, dimensionality reduction using SRV and binning approaches\, and mQTL analysis for animal and human cohorts.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/mQTL.NMR.html
-Versions      1.14.0, 1.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mqtl.nmr/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/mQTL.NMR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mqtl.nmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqtl.nmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqtl.nmr/meta.yaml>`_
+   :links: biotools: :biotools:`mqtl.nmr`, doi: :doi:`10.1021/acs.analchem.5b00145`
 
-
-
-Links         biotools: :biotools:`mqtl.nmr`, doi: :doi:`10.1021/acs.analchem.5b00145`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mqtl.nmr
 
-Installation
-------------
+   |downloads_bioconductor-mqtl.nmr| |docker_bioconductor-mqtl.nmr|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-genabel`  :conda:package:`r-mass`  :conda:package:`r-outliers`  :conda:package:`r-qtl`  
 
-   conda install bioconductor-mqtl.nmr
+   :required~by: |required_by_bioconductor-mqtl.nmr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mqtl.nmr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mqtl.nmr
+
+   and update with::
+
+      conda update bioconductor-mqtl.nmr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mqtl.nmr
+
+
+.. |required_by_bioconductor-mqtl.nmr| conda:required_by:: bioconductor-mqtl.nmr
+.. |downloads_bioconductor-mqtl.nmr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mqtl.nmr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mqtl.nmr| image:: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mqtl.nmr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mqtl.nmr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mqtl.nmr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mqtl.nmr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mqtl.nmr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mqtl.nmr/README.html
 

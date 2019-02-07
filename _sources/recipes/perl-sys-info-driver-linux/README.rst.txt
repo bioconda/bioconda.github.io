@@ -1,54 +1,66 @@
-.. _`perl-sys-info-driver-linux`:
+.. title:: Package Recipe 'perl-sys-info-driver-linux'
+.. highlight: bash
+
 
 perl-sys-info-driver-linux
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-sys-info-driver-linux
+   :replaces_section_title:
 
-Linux driver for Sys\:\:Info
+   Linux driver for Sys\:\:Info
 
-============= ===========
-Home          http://metacpan.org/pod/Sys::Info::Driver::Linux
-Versions      0.7905, 0.7904, 0.7903
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sys-info-driver-linux/meta.yaml
+   :homepage: http://metacpan.org/pod/Sys::Info::Driver::Linux
+   :license: perl_5
+   :recipe: /`perl-sys-info-driver-linux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-linux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-linux/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sys-info-driver-linux
 
-Installation
-------------
+   |downloads_perl-sys-info-driver-linux| |docker_perl-sys-info-driver-linux|
 
-.. highlight: bash
+   :versions: 0.7905, 0.7904, 0.7903
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-config-general`  :conda:package:`perl-sys-info-base`  :conda:package:`perl-unix-processors`  
 
-   conda install perl-sys-info-driver-linux
+   :required~by: |required_by_perl-sys-info-driver-linux|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sys-info-driver-linux
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sys-info-driver-linux
+
+   and update with::
+
+      conda update perl-sys-info-driver-linux
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sys-info-driver-linux
+
+
+.. |required_by_perl-sys-info-driver-linux| conda:required_by:: perl-sys-info-driver-linux
+.. |downloads_perl-sys-info-driver-linux| image:: https://img.shields.io/conda/dn/bioconda/perl-sys-info-driver-linux.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sys-info-driver-linux| image:: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux/status
+   :target: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sys-info-driver-linux.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sys-info-driver-linux/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sys-info-driver-linux/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sys-info-driver-linux/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sys-info-driver-linux/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sys-info-driver-linux
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux/status
-                :target: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sys-info-driver-linux/README.html
 

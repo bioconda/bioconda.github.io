@@ -1,56 +1,67 @@
-.. _`bioconductor-gcrma`:
+.. title:: Package Recipe 'bioconductor-gcrma'
+.. highlight: bash
+
 
 bioconductor-gcrma
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-gcrma
+   :replaces_section_title:
 
-Background adjustment using sequence information
+   Background adjustment using sequence information
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/gcrma.html
-Versions      2.54.0, 2.52.0, 2.50.0, 2.48.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gcrma/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gcrma.html
+   :license: LGPL
+   :recipe: /`bioconductor-gcrma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma/meta.yaml>`_
+   :links: biotools: :biotools:`gcrma`, doi: :doi:`10.1186/1471-2105-9-452`
 
-
-
-Links         biotools: :biotools:`gcrma`, doi: :doi:`10.1186/1471-2105-9-452`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gcrma
 
-Installation
-------------
+   |downloads_bioconductor-gcrma| |docker_bioconductor-gcrma|
 
-.. highlight: bash
+   :versions: 2.54.0, 2.52.0, 2.50.0, 2.48.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  
 
-   conda install bioconductor-gcrma
+   :required~by: |required_by_bioconductor-gcrma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gcrma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gcrma
+
+   and update with::
+
+      conda update bioconductor-gcrma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gcrma
+
+
+.. |required_by_bioconductor-gcrma| conda:required_by:: bioconductor-gcrma
+.. |downloads_bioconductor-gcrma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcrma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gcrma| image:: https://quay.io/repository/biocontainers/bioconductor-gcrma/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gcrma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gcrma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gcrma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gcrma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gcrma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gcrma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gcrma
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gcrma/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gcrma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gcrma/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-grmetrics`:
+.. title:: Package Recipe 'bioconductor-grmetrics'
+.. highlight: bash
+
 
 bioconductor-grmetrics
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-grmetrics
+   :replaces_section_title:
 
-Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics.
+   Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GRmetrics.html
-Versions      1.8.0, 1.6.1, 1.4.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-grmetrics/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GRmetrics.html
+   :license: GPL-3
+   :recipe: /`bioconductor-grmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grmetrics/meta.yaml>`_
+   :links: biotools: :biotools:`grmetrics`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`grmetrics`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-grmetrics
 
-Installation
-------------
+   |downloads_bioconductor-grmetrics| |docker_bioconductor-grmetrics|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.1, 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-drc`  :conda:package:`r-ggplot2`  :conda:package:`r-plotly`  
 
-   conda install bioconductor-grmetrics
+   :required~by: |required_by_bioconductor-grmetrics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-grmetrics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-grmetrics
+
+   and update with::
+
+      conda update bioconductor-grmetrics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-grmetrics
+
+
+.. |required_by_bioconductor-grmetrics| conda:required_by:: bioconductor-grmetrics
+.. |downloads_bioconductor-grmetrics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grmetrics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-grmetrics| image:: https://quay.io/repository/biocontainers/bioconductor-grmetrics/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-grmetrics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-grmetrics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-grmetrics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-grmetrics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-grmetrics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-grmetrics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-grmetrics
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-grmetrics/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-grmetrics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-grmetrics/README.html
 

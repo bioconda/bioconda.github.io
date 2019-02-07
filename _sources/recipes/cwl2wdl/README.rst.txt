@@ -1,54 +1,66 @@
-.. _`cwl2wdl`:
+.. title:: Package Recipe 'cwl2wdl'
+.. highlight: bash
+
 
 cwl2wdl
 =======
 
-|downloads|
+.. conda:recipe:: cwl2wdl
+   :replaces_section_title:
 
-Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\).
+   Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\).
 
-============= ===========
-Home          https://github.com/adamstruck/cwl2wdl
-Versions      0.1dev44, 0.1dev37
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cwl2wdl/meta.yaml
+   :homepage: https://github.com/adamstruck/cwl2wdl
+   :license: MIT
+   :recipe: /`cwl2wdl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwl2wdl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwl2wdl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cwl2wdl
 
-Installation
-------------
+   |downloads_cwl2wdl| |docker_cwl2wdl|
 
-.. highlight: bash
+   :versions: 0.1dev44, 0.1dev37
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`pyyaml`  
 
-   conda install cwl2wdl
+   :required~by: |required_by_cwl2wdl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cwl2wdl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cwl2wdl
+
+   and update with::
+
+      conda update cwl2wdl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cwl2wdl
+
+
+.. |required_by_cwl2wdl| conda:required_by:: cwl2wdl
+.. |downloads_cwl2wdl| image:: https://img.shields.io/conda/dn/bioconda/cwl2wdl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cwl2wdl| image:: https://quay.io/repository/biocontainers/cwl2wdl/status
+   :target: https://quay.io/repository/biocontainers/cwl2wdl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cwl2wdl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cwl2wdl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cwl2wdl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cwl2wdl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cwl2wdl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cwl2wdl
-.. |docker| image:: https://quay.io/repository/biocontainers/cwl2wdl/status
-                :target: https://quay.io/repository/biocontainers/cwl2wdl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cwl2wdl/README.html
 

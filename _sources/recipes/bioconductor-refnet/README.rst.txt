@@ -1,56 +1,67 @@
-.. _`bioconductor-refnet`:
+.. title:: Package Recipe 'bioconductor-refnet'
+.. highlight: bash
+
 
 bioconductor-refnet
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-refnet
+   :replaces_section_title:
 
-Molecular interactions with metadata\, some archived\, some dynamically obtained
+   Molecular interactions with metadata\, some archived\, some dynamically obtained
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RefNet.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-refnet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RefNet.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-refnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet/meta.yaml>`_
+   :links: biotools: :biotools:`refnet`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`refnet`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-refnet
 
-Installation
-------------
+   |downloads_bioconductor-refnet| |docker_bioconductor-refnet|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-psicquic` >=1.20.0,<1.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl`  :conda:package:`r-shiny`  
 
-   conda install bioconductor-refnet
+   :required~by: |required_by_bioconductor-refnet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-refnet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-refnet
+
+   and update with::
+
+      conda update bioconductor-refnet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-refnet
+
+
+.. |required_by_bioconductor-refnet| conda:required_by:: bioconductor-refnet
+.. |downloads_bioconductor-refnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-refnet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-refnet| image:: https://quay.io/repository/biocontainers/bioconductor-refnet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-refnet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-refnet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-refnet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-refnet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-refnet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-refnet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-refnet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-refnet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-refnet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-refnet/README.html
 

@@ -1,54 +1,66 @@
-.. _`r-nam`:
+.. title:: Package Recipe 'r-nam'
+.. highlight: bash
+
 
 r-nam
 =====
 
-|downloads|
+.. conda:recipe:: r-nam
+   :replaces_section_title:
 
-Designed for association studies in nested association mapping \(NAM\) panels\, experimental and random panels. The method is described by Xavier et al. \(2015\) \<doi\:10.1093\/bioinformatics\/btv448\>. It includes tools for genome\-wide associations of multiple populations\, marker quality control\, population genetics analysis\, genome\-wide prediction\, solving mixed models and finding variance components through likelihood and Bayesian methods.
+   Designed for association studies in nested association mapping \(NAM\) panels\, experimental and random panels. The method is described by Xavier et al. \(2015\) \<doi\:10.1093\/bioinformatics\/btv448\>. It includes tools for genome\-wide associations of multiple populations\, marker quality control\, population genetics analysis\, genome\-wide prediction\, solving mixed models and finding variance components through likelihood and Bayesian methods.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=NAM
-Versions      1.6.4
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-nam/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=NAM
+   :license: GPL3 / GPL-3
+   :recipe: /`r-nam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-nam
 
-Installation
-------------
+   |downloads_r-nam| |docker_r-nam|
 
-.. highlight: bash
+   :versions: 1.6.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  :conda:package:`r-rcpp`  
 
-   conda install r-nam
+   :required~by: |required_by_r-nam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-nam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-nam
+
+   and update with::
+
+      conda update r-nam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-nam
+
+
+.. |required_by_r-nam| conda:required_by:: r-nam
+.. |downloads_r-nam| image:: https://img.shields.io/conda/dn/bioconda/r-nam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-nam| image:: https://quay.io/repository/biocontainers/r-nam/status
+   :target: https://quay.io/repository/biocontainers/r-nam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-nam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-nam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-nam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-nam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-nam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-nam
-.. |docker| image:: https://quay.io/repository/biocontainers/r-nam/status
-                :target: https://quay.io/repository/biocontainers/r-nam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-nam/README.html
 

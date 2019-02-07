@@ -1,54 +1,66 @@
-.. _`fastsimbac`:
+.. title:: Package Recipe 'fastsimbac'
+.. highlight: bash
+
 
 fastsimbac
 ==========
 
-|downloads|
+.. conda:recipe:: fastsimbac
+   :replaces_section_title:
 
-Models bacterial recombination
+   Models bacterial recombination
 
-============= ===========
-Home          https://bitbucket.org/nicofmay/fastsimbac/
-Versions      1.0.1_bd3ad13d8f79
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastsimbac/meta.yaml
+   :homepage: https://bitbucket.org/nicofmay/fastsimbac/
+   :license: GPL
+   :recipe: /`fastsimbac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastsimbac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastsimbac/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastsimbac
 
-Installation
-------------
+   |downloads_fastsimbac| |docker_fastsimbac|
 
-.. highlight: bash
+   :versions: 1.0.1_bd3ad13d8f79
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install fastsimbac
+   :required~by: |required_by_fastsimbac|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastsimbac
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastsimbac
+
+   and update with::
+
+      conda update fastsimbac
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastsimbac
+
+
+.. |required_by_fastsimbac| conda:required_by:: fastsimbac
+.. |downloads_fastsimbac| image:: https://img.shields.io/conda/dn/bioconda/fastsimbac.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastsimbac| image:: https://quay.io/repository/biocontainers/fastsimbac/status
+   :target: https://quay.io/repository/biocontainers/fastsimbac
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastsimbac.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastsimbac/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastsimbac/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastsimbac/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastsimbac/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastsimbac
-.. |docker| image:: https://quay.io/repository/biocontainers/fastsimbac/status
-                :target: https://quay.io/repository/biocontainers/fastsimbac
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastsimbac/README.html
 

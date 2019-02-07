@@ -1,54 +1,66 @@
-.. _`bioconductor-affixcan`:
+.. title:: Package Recipe 'bioconductor-affixcan'
+.. highlight: bash
+
 
 bioconductor-affixcan
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-affixcan
+   :replaces_section_title:
 
-Impute a GReX \(Genetically Regulated Expression\) for a set of genes in a sample of individuals\, using a method based on the Total Binding Affinity \(TBA\). Statistical models to impute GReX can be trained with a training dataset where the real total expression values are known.
+   Impute a GReX \(Genetically Regulated Expression\) for a set of genes in a sample of individuals\, using a method based on the Total Binding Affinity \(TBA\). Statistical models to impute GReX can be trained with a training dataset where the real total expression values are known.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/AffiXcan.html
-Versions      1.0.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affixcan/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffiXcan.html
+   :license: GPL-3
+   :recipe: /`bioconductor-affixcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affixcan
 
-Installation
-------------
+   |downloads_bioconductor-affixcan| |docker_bioconductor-affixcan|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-affixcan
+   :required~by: |required_by_bioconductor-affixcan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affixcan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affixcan
+
+   and update with::
+
+      conda update bioconductor-affixcan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affixcan
+
+
+.. |required_by_bioconductor-affixcan| conda:required_by:: bioconductor-affixcan
+.. |downloads_bioconductor-affixcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affixcan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affixcan| image:: https://quay.io/repository/biocontainers/bioconductor-affixcan/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affixcan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affixcan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affixcan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affixcan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affixcan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affixcan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affixcan
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affixcan/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affixcan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affixcan/README.html
 

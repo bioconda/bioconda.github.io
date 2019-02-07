@@ -1,56 +1,67 @@
-.. _`bioconductor-cfassay`:
+.. title:: Package Recipe 'bioconductor-cfassay'
+.. highlight: bash
+
 
 bioconductor-cfassay
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-cfassay
+   :replaces_section_title:
 
-The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay.
+   The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CFAssay.html
-Versions      1.16.1, 1.14.0, 1.12.0, 1.10.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cfassay/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CFAssay.html
+   :license: LGPL
+   :recipe: /`bioconductor-cfassay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay/meta.yaml>`_
+   :links: biotools: :biotools:`cfassay`, doi: :doi:`10.1186/s13014-015-0529-y`
 
-
-
-Links         biotools: :biotools:`cfassay`, doi: :doi:`10.1186/s13014-015-0529-y`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cfassay
 
-Installation
-------------
+   |downloads_bioconductor-cfassay| |docker_bioconductor-cfassay|
 
-.. highlight: bash
+   :versions: 1.16.1, 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cfassay
+   :required~by: |required_by_bioconductor-cfassay|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cfassay
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cfassay
+
+   and update with::
+
+      conda update bioconductor-cfassay
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cfassay
+
+
+.. |required_by_bioconductor-cfassay| conda:required_by:: bioconductor-cfassay
+.. |downloads_bioconductor-cfassay| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cfassay.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cfassay| image:: https://quay.io/repository/biocontainers/bioconductor-cfassay/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cfassay
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cfassay.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cfassay/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cfassay/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cfassay/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cfassay/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cfassay
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cfassay/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cfassay
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cfassay/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-carp`:
+.. title:: Package Recipe 'perl-carp'
+.. highlight: bash
+
 
 perl-carp
 =========
 
-|downloads|
+.. conda:recipe:: perl-carp/1.38
+   :replaces_section_title:
 
-alternative warn and die for modules
+   alternative warn and die for modules
 
-============= ===========
-Home          http://metacpan.org/pod/Carp
-Versions      1.38
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-carp/1.38/meta.yaml
+   :homepage: http://metacpan.org/pod/Carp
+   :license: perl_5
+   :recipe: /`perl-carp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp>`_/`1.38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp/1.38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp/1.38/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-carp
 
-Installation
-------------
+   |downloads_perl-carp| |docker_perl-carp|
 
-.. highlight: bash
+   :versions: 1.38
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  :conda:package:`perl-extutils-makemaker`  
 
-   conda install perl-carp
+   :required~by: |required_by_perl-carp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-carp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-carp
+
+   and update with::
+
+      conda update perl-carp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-carp
+
+
+.. |required_by_perl-carp| conda:required_by:: perl-carp
+.. |downloads_perl-carp| image:: https://img.shields.io/conda/dn/bioconda/perl-carp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-carp| image:: https://quay.io/repository/biocontainers/perl-carp/status
+   :target: https://quay.io/repository/biocontainers/perl-carp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-carp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-carp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-carp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-carp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-carp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-carp
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-carp/status
-                :target: https://quay.io/repository/biocontainers/perl-carp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-carp/README.html
 

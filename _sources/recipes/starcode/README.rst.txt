@@ -1,54 +1,66 @@
-.. _`starcode`:
+.. title:: Package Recipe 'starcode'
+.. highlight: bash
+
 
 starcode
 ========
 
-|downloads|
+.. conda:recipe:: starcode
+   :replaces_section_title:
 
-Starcode\: sequence clustering based on all\-pairs search
+   Starcode\: sequence clustering based on all\-pairs search
 
-============= ===========
-Home          https://github.com/gui11aume/starcode
-Versions      1.3, 1.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//starcode/meta.yaml
+   :homepage: https://github.com/gui11aume/starcode
+   :license: GPLv3
+   :recipe: /`starcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: starcode
 
-Installation
-------------
+   |downloads_starcode| |docker_starcode|
 
-.. highlight: bash
+   :versions: 1.3, 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install starcode
+   :required~by: |required_by_starcode|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update starcode
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install starcode
+
+   and update with::
+
+      conda update starcode
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/starcode
+
+
+.. |required_by_starcode| conda:required_by:: starcode
+.. |downloads_starcode| image:: https://img.shields.io/conda/dn/bioconda/starcode.svg?style=flat
+   :alt:   (downloads)
+.. |docker_starcode| image:: https://quay.io/repository/biocontainers/starcode/status
+   :target: https://quay.io/repository/biocontainers/starcode
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/starcode.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/starcode/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/starcode/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/starcode/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/starcode/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/starcode
-.. |docker| image:: https://quay.io/repository/biocontainers/starcode/status
-                :target: https://quay.io/repository/biocontainers/starcode
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/starcode/README.html
 

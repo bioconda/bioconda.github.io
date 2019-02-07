@@ -1,54 +1,66 @@
-.. _`bioconductor-prodata`:
+.. title:: Package Recipe 'bioconductor-prodata'
+.. highlight: bash
+
 
 bioconductor-prodata
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-prodata
+   :replaces_section_title:
 
-A data package of SELDI\-TOF protein mass spectrometry data of 167 breast cancer and normal samples.
+   A data package of SELDI\-TOF protein mass spectrometry data of 167 breast cancer and normal samples.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ProData.html
-Versions      1.20.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prodata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ProData.html
+   :license: GPL
+   :recipe: /`bioconductor-prodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-prodata
 
-Installation
-------------
+   |downloads_bioconductor-prodata| |docker_bioconductor-prodata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-prodata
+   :required~by: |required_by_bioconductor-prodata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-prodata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-prodata
+
+   and update with::
+
+      conda update bioconductor-prodata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-prodata
+
+
+.. |required_by_bioconductor-prodata| conda:required_by:: bioconductor-prodata
+.. |downloads_bioconductor-prodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prodata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-prodata| image:: https://quay.io/repository/biocontainers/bioconductor-prodata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-prodata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-prodata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-prodata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-prodata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-prodata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-prodata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-prodata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prodata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-prodata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-prodata/README.html
 

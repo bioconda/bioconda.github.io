@@ -1,56 +1,67 @@
-.. _`bioconductor-varianttools`:
+.. title:: Package Recipe 'bioconductor-varianttools'
+.. highlight: bash
+
 
 bioconductor-varianttools
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-varianttools
+   :replaces_section_title:
 
-Explore\, diagnose\, and compare variant calls using filters.
+   Explore\, diagnose\, and compare variant calls using filters.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/VariantTools.html
-Versions      1.24.0, 1.22.0, 1.20.0, 1.18.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-varianttools/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/VariantTools.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-varianttools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools/meta.yaml>`_
+   :links: biotools: :biotools:`varianttools`, doi: :doi:`10.1101/027227`
 
-
-
-Links         biotools: :biotools:`varianttools`, doi: :doi:`10.1101/027227`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-varianttools
 
-Installation
-------------
+   |downloads_bioconductor-varianttools| |docker_bioconductor-varianttools|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.0, 1.20.0, 1.18.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  
 
-   conda install bioconductor-varianttools
+   :required~by: |required_by_bioconductor-varianttools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-varianttools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-varianttools
+
+   and update with::
+
+      conda update bioconductor-varianttools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-varianttools
+
+
+.. |required_by_bioconductor-varianttools| conda:required_by:: bioconductor-varianttools
+.. |downloads_bioconductor-varianttools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-varianttools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-varianttools| image:: https://quay.io/repository/biocontainers/bioconductor-varianttools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-varianttools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-varianttools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-varianttools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-varianttools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-varianttools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-varianttools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-varianttools
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-varianttools/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-varianttools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-varianttools/README.html
 

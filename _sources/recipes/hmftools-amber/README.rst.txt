@@ -1,54 +1,66 @@
-.. _`hmftools-amber`:
+.. title:: Package Recipe 'hmftools-amber'
+.. highlight: bash
+
 
 hmftools-amber
 ==============
 
-|downloads|
+.. conda:recipe:: hmftools-amber
+   :replaces_section_title:
 
-AMBER is designed to generate a tumor BAF file for use in PURPLE. Looking directly at the bam files\, it locates heterozygous sites within the reference sample then calculates the allelic frequency of corresponding sites in the tumour
+   AMBER is designed to generate a tumor BAF file for use in PURPLE. Looking directly at the bam files\, it locates heterozygous sites within the reference sample then calculates the allelic frequency of corresponding sites in the tumour
 
-============= ===========
-Home          https://github.com/hartwigmedical/hmftools/tree/master/amber
-Versions      2.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hmftools-amber/meta.yaml
+   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/amber
+   :license: MIT / MIT
+   :recipe: /`hmftools-amber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-amber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-amber/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hmftools-amber
 
-Installation
-------------
+   |downloads_hmftools-amber| |docker_hmftools-amber|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-copynumber`  :conda:package:`openjdk` >=8 :conda:package:`zlib`  
 
-   conda install hmftools-amber
+   :required~by: |required_by_hmftools-amber|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hmftools-amber
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hmftools-amber
+
+   and update with::
+
+      conda update hmftools-amber
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hmftools-amber
+
+
+.. |required_by_hmftools-amber| conda:required_by:: hmftools-amber
+.. |downloads_hmftools-amber| image:: https://img.shields.io/conda/dn/bioconda/hmftools-amber.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hmftools-amber| image:: https://quay.io/repository/biocontainers/hmftools-amber/status
+   :target: https://quay.io/repository/biocontainers/hmftools-amber
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hmftools-amber.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hmftools-amber/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hmftools-amber/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hmftools-amber/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hmftools-amber/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hmftools-amber
-.. |docker| image:: https://quay.io/repository/biocontainers/hmftools-amber/status
-                :target: https://quay.io/repository/biocontainers/hmftools-amber
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hmftools-amber/README.html
 

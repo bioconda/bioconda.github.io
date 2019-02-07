@@ -1,54 +1,66 @@
-.. _`bioconductor-msdata`:
+.. title:: Package Recipe 'bioconductor-msdata'
+.. highlight: bash
+
 
 bioconductor-msdata
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-msdata
+   :replaces_section_title:
 
-Ion Trap positive ionization mode data in mzData file format.  Subset from 500\-850 m\/z and 1190\-1310 seconds\, incl. MS2 and MS3\, intensity threshold 100.000. Extracts from FTICR Apex III\, m\/z 400\-450.  Subset of UPLC \- Bruker micrOTOFq data\, both mzData\, mzML and mz5. LC\-MSMS and MRM files from proteomics experiments. PSI mzIdentML example files for various search engines.
+   Ion Trap positive ionization mode data in mzData file format.  Subset from 500\-850 m\/z and 1190\-1310 seconds\, incl. MS2 and MS3\, intensity threshold 100.000. Extracts from FTICR Apex III\, m\/z 400\-450.  Subset of UPLC \- Bruker micrOTOFq data\, both mzData\, mzML and mz5. LC\-MSMS and MRM files from proteomics experiments. PSI mzIdentML example files for various search engines.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/msdata.html
-Versions      0.22.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/msdata.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-msdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-msdata
 
-Installation
-------------
+   |downloads_bioconductor-msdata| |docker_bioconductor-msdata|
 
-.. highlight: bash
+   :versions: 0.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-msdata
+   :required~by: |required_by_bioconductor-msdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-msdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-msdata
+
+   and update with::
+
+      conda update bioconductor-msdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-msdata
+
+
+.. |required_by_bioconductor-msdata| conda:required_by:: bioconductor-msdata
+.. |downloads_bioconductor-msdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-msdata| image:: https://quay.io/repository/biocontainers/bioconductor-msdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-msdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-msdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-msdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-msdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-msdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-msdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-msdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-msdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-msdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-msdata/README.html
 

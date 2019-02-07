@@ -1,54 +1,66 @@
-.. _`circos-tools`:
+.. title:: Package Recipe 'circos-tools'
+.. highlight: bash
+
 
 circos-tools
 ============
 
-|downloads|
+.. conda:recipe:: circos-tools
+   :replaces_section_title:
 
-circos\-tools provides several utility add\-on scripts\, such as for bundling links
+   circos\-tools provides several utility add\-on scripts\, such as for bundling links
 
-============= ===========
-Home          http://circos.ca
-Versions      
-License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//circos-tools/meta.yaml
+   :homepage: http://circos.ca
+   :license: GPL2 / GNU General Public License v2 (GPLv2)
+   :recipe: /`circos-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circos-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circos-tools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: circos-tools
 
-Installation
-------------
+   |downloads_circos-tools| |docker_circos-tools|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install circos-tools
+   :required~by: |required_by_circos-tools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update circos-tools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install circos-tools
+
+   and update with::
+
+      conda update circos-tools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/circos-tools
+
+
+.. |required_by_circos-tools| conda:required_by:: circos-tools
+.. |downloads_circos-tools| image:: https://img.shields.io/conda/dn/bioconda/circos-tools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_circos-tools| image:: https://quay.io/repository/biocontainers/circos-tools/status
+   :target: https://quay.io/repository/biocontainers/circos-tools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/circos-tools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/circos-tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/circos-tools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/circos-tools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/circos-tools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/circos-tools
-.. |docker| image:: https://quay.io/repository/biocontainers/circos-tools/status
-                :target: https://quay.io/repository/biocontainers/circos-tools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/circos-tools/README.html
 

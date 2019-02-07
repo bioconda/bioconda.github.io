@@ -1,54 +1,66 @@
-.. _`perl-gtdbtk`:
+.. title:: Package Recipe 'perl-gtdbtk'
+.. highlight: bash
+
 
 perl-gtdbtk
 ===========
 
-|downloads|
+.. conda:recipe:: perl-gtdbtk
+   :replaces_section_title:
 
-Perl script and dependent library files required for GTDB\-Tk.
+   Perl script and dependent library files required for GTDB\-Tk.
 
-============= ===========
-Home          https://github.com/Ecogenomics/GTDBTk
-Versions      0.1.5, 0.1.3
-License       GNU General Public v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-gtdbtk/meta.yaml
+   :homepage: https://github.com/Ecogenomics/GTDBTk
+   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :recipe: /`perl-gtdbtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gtdbtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gtdbtk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-gtdbtk
 
-Installation
-------------
+   |downloads_perl-gtdbtk| |docker_perl-gtdbtk|
 
-.. highlight: bash
+   :versions: 0.1.5, 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-ipc-run`  :conda:package:`perl-moose`  
 
-   conda install perl-gtdbtk
+   :required~by: |required_by_perl-gtdbtk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-gtdbtk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-gtdbtk
+
+   and update with::
+
+      conda update perl-gtdbtk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-gtdbtk
+
+
+.. |required_by_perl-gtdbtk| conda:required_by:: perl-gtdbtk
+.. |downloads_perl-gtdbtk| image:: https://img.shields.io/conda/dn/bioconda/perl-gtdbtk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-gtdbtk| image:: https://quay.io/repository/biocontainers/perl-gtdbtk/status
+   :target: https://quay.io/repository/biocontainers/perl-gtdbtk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-gtdbtk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-gtdbtk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-gtdbtk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-gtdbtk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-gtdbtk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-gtdbtk
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-gtdbtk/status
-                :target: https://quay.io/repository/biocontainers/perl-gtdbtk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-gtdbtk/README.html
 

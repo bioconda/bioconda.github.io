@@ -1,54 +1,66 @@
-.. _`cityhash`:
+.. title:: Package Recipe 'cityhash'
+.. highlight: bash
+
 
 cityhash
 ========
 
-|downloads|
+.. conda:recipe:: cityhash
+   :replaces_section_title:
 
-Python\-bindings for CityHash\, a fast non\-cryptographic hash algorithm
+   Python\-bindings for CityHash\, a fast non\-cryptographic hash algorithm
 
-============= ===========
-Home          https://github.com/escherba/python-cityhash
-Versions      0.2.3.post9, 0.1.7, 0.1.5
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cityhash/meta.yaml
+   :homepage: https://github.com/escherba/python-cityhash
+   :license: MIT License
+   :recipe: /`cityhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cityhash
 
-Installation
-------------
+   |downloads_cityhash| |docker_cityhash|
 
-.. highlight: bash
+   :versions: 0.2.3.post9, 0.1.7, 0.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install cityhash
+   :required~by: |required_by_cityhash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cityhash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cityhash
+
+   and update with::
+
+      conda update cityhash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cityhash
+
+
+.. |required_by_cityhash| conda:required_by:: cityhash
+.. |downloads_cityhash| image:: https://img.shields.io/conda/dn/bioconda/cityhash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cityhash| image:: https://quay.io/repository/biocontainers/cityhash/status
+   :target: https://quay.io/repository/biocontainers/cityhash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cityhash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cityhash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cityhash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cityhash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cityhash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cityhash
-.. |docker| image:: https://quay.io/repository/biocontainers/cityhash/status
-                :target: https://quay.io/repository/biocontainers/cityhash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cityhash/README.html
 

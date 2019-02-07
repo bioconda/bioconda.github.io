@@ -1,54 +1,66 @@
-.. _`bioconductor-ccmap`:
+.. title:: Package Recipe 'bioconductor-ccmap'
+.. highlight: bash
+
 
 bioconductor-ccmap
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-ccmap
+   :replaces_section_title:
 
-Finds drugs and drug combinations that are predicted to reverse or mimic gene expression signatures. These drugs might reverse diseases or mimic healthy lifestyles.
+   Finds drugs and drug combinations that are predicted to reverse or mimic gene expression signatures. These drugs might reverse diseases or mimic healthy lifestyles.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ccmap.html
-Versions      1.8.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ccmap/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ccmap.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-ccmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ccmap
 
-Installation
-------------
+   |downloads_bioconductor-ccmap| |docker_bioconductor-ccmap|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-ccdata` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager` >=1.24.0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-doparallel` >=1.0.10 :conda:package:`r-foreach` >=1.4.3 :conda:package:`r-lsa` >=0.73.1 :conda:package:`r-xgboost` >=0.6.4 
 
-   conda install bioconductor-ccmap
+   :required~by: |required_by_bioconductor-ccmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ccmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ccmap
+
+   and update with::
+
+      conda update bioconductor-ccmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ccmap
+
+
+.. |required_by_bioconductor-ccmap| conda:required_by:: bioconductor-ccmap
+.. |downloads_bioconductor-ccmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ccmap| image:: https://quay.io/repository/biocontainers/bioconductor-ccmap/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ccmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ccmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ccmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ccmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ccmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ccmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ccmap
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ccmap/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ccmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ccmap/README.html
 

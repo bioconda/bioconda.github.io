@@ -1,54 +1,66 @@
-.. _`ucsc-crtreesearchbed`:
+.. title:: Package Recipe 'ucsc-crtreesearchbed'
+.. highlight: bash
+
 
 ucsc-crtreesearchbed
 ====================
 
-|downloads|
+.. conda:recipe:: ucsc-crtreesearchbed
+   :replaces_section_title:
 
-Search a crTree indexed bed file and print all items that overlap query.
+   Search a crTree indexed bed file and print all items that overlap query.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-crtreesearchbed/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-crtreesearchbed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-crtreesearchbed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-crtreesearchbed/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-crtreesearchbed
 
-Installation
-------------
+   |downloads_ucsc-crtreesearchbed| |docker_ucsc-crtreesearchbed|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-crtreesearchbed
+   :required~by: |required_by_ucsc-crtreesearchbed|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-crtreesearchbed
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-crtreesearchbed
+
+   and update with::
+
+      conda update ucsc-crtreesearchbed
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-crtreesearchbed
+
+
+.. |required_by_ucsc-crtreesearchbed| conda:required_by:: ucsc-crtreesearchbed
+.. |downloads_ucsc-crtreesearchbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-crtreesearchbed.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-crtreesearchbed| image:: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed/status
+   :target: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-crtreesearchbed.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-crtreesearchbed/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-crtreesearchbed/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-crtreesearchbed/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-crtreesearchbed/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-crtreesearchbed
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed/status
-                :target: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-crtreesearchbed/README.html
 

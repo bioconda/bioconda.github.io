@@ -1,54 +1,66 @@
-.. _`r-taxa`:
+.. title:: Package Recipe 'r-taxa'
+.. highlight: bash
+
 
 r-taxa
 ======
 
-|downloads|
+.. conda:recipe:: r-taxa
+   :replaces_section_title:
 
-Provides taxonomic classes for groupings of taxonomic names without data\, and those with data. Methods provided are \"taxonomically aware\"\, in that they know about ordering of ranks\, and methods that filter based on taxonomy also filter associated data.
+   Provides taxonomic classes for groupings of taxonomic names without data\, and those with data. Methods provided are \"taxonomically aware\"\, in that they know about ordering of ranks\, and methods that filter based on taxonomy also filter associated data.
 
-============= ===========
-Home          https://github.com/ropensci/taxa
-Versions      0.3.2, 0.3.1, 0.2.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-taxa/meta.yaml
+   :homepage: https://github.com/ropensci/taxa
+   :license: MIT / MIT
+   :recipe: /`r-taxa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-taxa
 
-Installation
-------------
+   |downloads_r-taxa| |docker_r-taxa|
 
-.. highlight: bash
+   :versions: 0.3.2, 0.3.1, 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-crayon`  :conda:package:`r-dplyr`  :conda:package:`r-jsonlite`  :conda:package:`r-knitr`  :conda:package:`r-lazyeval`  :conda:package:`r-magrittr`  :conda:package:`r-r6`  :conda:package:`r-rlang`  :conda:package:`r-stringr`  :conda:package:`r-taxize`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
 
-   conda install r-taxa
+   :required~by: |required_by_r-taxa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-taxa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-taxa
+
+   and update with::
+
+      conda update r-taxa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-taxa
+
+
+.. |required_by_r-taxa| conda:required_by:: r-taxa
+.. |downloads_r-taxa| image:: https://img.shields.io/conda/dn/bioconda/r-taxa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-taxa| image:: https://quay.io/repository/biocontainers/r-taxa/status
+   :target: https://quay.io/repository/biocontainers/r-taxa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-taxa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-taxa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-taxa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-taxa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-taxa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-taxa
-.. |docker| image:: https://quay.io/repository/biocontainers/r-taxa/status
-                :target: https://quay.io/repository/biocontainers/r-taxa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-taxa/README.html
 

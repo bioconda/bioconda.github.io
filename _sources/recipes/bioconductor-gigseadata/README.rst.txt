@@ -1,54 +1,66 @@
-.. _`bioconductor-gigseadata`:
+.. title:: Package Recipe 'bioconductor-gigseadata'
+.. highlight: bash
+
 
 bioconductor-gigseadata
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-gigseadata
+   :replaces_section_title:
 
-The gene set collection used for the GIGSEA package.
+   The gene set collection used for the GIGSEA package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/GIGSEAdata.html
-Versions      1.0.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gigseadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/GIGSEAdata.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-gigseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigseadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gigseadata
 
-Installation
-------------
+   |downloads_bioconductor-gigseadata| |docker_bioconductor-gigseadata|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-gigseadata
+   :required~by: |required_by_bioconductor-gigseadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gigseadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gigseadata
+
+   and update with::
+
+      conda update bioconductor-gigseadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gigseadata
+
+
+.. |required_by_bioconductor-gigseadata| conda:required_by:: bioconductor-gigseadata
+.. |downloads_bioconductor-gigseadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gigseadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gigseadata| image:: https://quay.io/repository/biocontainers/bioconductor-gigseadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gigseadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gigseadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gigseadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gigseadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gigseadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gigseadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gigseadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gigseadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gigseadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gigseadata/README.html
 

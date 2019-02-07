@@ -1,54 +1,66 @@
-.. _`arvados-cli`:
+.. title:: Package Recipe 'arvados-cli'
+.. highlight: bash
+
 
 arvados-cli
 ===========
 
-|downloads|
+.. conda:recipe:: arvados-cli
+   :replaces_section_title:
 
-Command line interface to Arvados\, a free and open source platform for big data science
+   Command line interface to Arvados\, a free and open source platform for big data science
 
-============= ===========
-Home          http://doc.arvados.org/sdk/cli/index.html
-Versions      0.1.20151207150126
-License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//arvados-cli/meta.yaml
+   :homepage: http://doc.arvados.org/sdk/cli/index.html
+   :license: Apache v2
+   :recipe: /`arvados-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-cli/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: arvados-cli
 
-Installation
-------------
+   |downloads_arvados-cli| |docker_arvados-cli|
 
-.. highlight: bash
+   :versions: 0.1.20151207150126
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`curl`  :conda:package:`ruby`  
 
-   conda install arvados-cli
+   :required~by: |required_by_arvados-cli|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update arvados-cli
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install arvados-cli
+
+   and update with::
+
+      conda update arvados-cli
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/arvados-cli
+
+
+.. |required_by_arvados-cli| conda:required_by:: arvados-cli
+.. |downloads_arvados-cli| image:: https://img.shields.io/conda/dn/bioconda/arvados-cli.svg?style=flat
+   :alt:   (downloads)
+.. |docker_arvados-cli| image:: https://quay.io/repository/biocontainers/arvados-cli/status
+   :target: https://quay.io/repository/biocontainers/arvados-cli
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/arvados-cli.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/arvados-cli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/arvados-cli/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/arvados-cli/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/arvados-cli/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/arvados-cli
-.. |docker| image:: https://quay.io/repository/biocontainers/arvados-cli/status
-                :target: https://quay.io/repository/biocontainers/arvados-cli
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/arvados-cli/README.html
 

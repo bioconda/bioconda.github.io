@@ -1,54 +1,66 @@
-.. _`bioconductor-lungcancerlines`:
+.. title:: Package Recipe 'bioconductor-lungcancerlines'
+.. highlight: bash
+
 
 bioconductor-lungcancerlines
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-lungcancerlines
+   :replaces_section_title:
 
-Reads from an RNA\-seq experiment between two lung cancer cell lines\: H1993 \(met\) and H2073 \(primary\). The reads are stored as Fastq files and are meant for use with the TP53Genome object in the gmapR package.
+   Reads from an RNA\-seq experiment between two lung cancer cell lines\: H1993 \(met\) and H2073 \(primary\). The reads are stored as Fastq files and are meant for use with the TP53Genome object in the gmapR package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerLines.html
-Versions      0.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lungcancerlines/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerLines.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-lungcancerlines <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcancerlines>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcancerlines/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lungcancerlines
 
-Installation
-------------
+   |downloads_bioconductor-lungcancerlines| |docker_bioconductor-lungcancerlines|
 
-.. highlight: bash
+   :versions: 0.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lungcancerlines
+   :required~by: |required_by_bioconductor-lungcancerlines|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lungcancerlines
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lungcancerlines
+
+   and update with::
+
+      conda update bioconductor-lungcancerlines
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lungcancerlines
+
+
+.. |required_by_bioconductor-lungcancerlines| conda:required_by:: bioconductor-lungcancerlines
+.. |downloads_bioconductor-lungcancerlines| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lungcancerlines.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lungcancerlines| image:: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lungcancerlines.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lungcancerlines/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lungcancerlines/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lungcancerlines/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lungcancerlines/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lungcancerlines
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lungcancerlines/README.html
 

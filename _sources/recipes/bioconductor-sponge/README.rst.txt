@@ -1,54 +1,66 @@
-.. _`bioconductor-sponge`:
+.. title:: Package Recipe 'bioconductor-sponge'
+.. highlight: bash
+
 
 bioconductor-sponge
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-sponge
+   :replaces_section_title:
 
-This package provides methods to efficiently detect competitive endogeneous RNA interactions between two genes. Such interactions are mediated by one or several miRNAs such that both gene and miRNA expression data for a larger number of samples is needed as input.
+   This package provides methods to efficiently detect competitive endogeneous RNA interactions between two genes. Such interactions are mediated by one or several miRNAs such that both gene and miRNA expression data for a larger number of samples is needed as input.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SPONGE.html
-Versions      1.4.0
-License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sponge/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SPONGE.html
+   :license: GPL (>=3)
+   :recipe: /`bioconductor-sponge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sponge
 
-Installation
-------------
+   |downloads_bioconductor-sponge| |docker_bioconductor-sponge|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-dorng`  :conda:package:`r-expm`  :conda:package:`r-foreach`  :conda:package:`r-glmnet`  :conda:package:`r-grbase`  :conda:package:`r-igraph`  :conda:package:`r-iterators`  :conda:package:`r-logging`  :conda:package:`r-mass`  :conda:package:`r-ppcor`  
 
-   conda install bioconductor-sponge
+   :required~by: |required_by_bioconductor-sponge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sponge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sponge
+
+   and update with::
+
+      conda update bioconductor-sponge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sponge
+
+
+.. |required_by_bioconductor-sponge| conda:required_by:: bioconductor-sponge
+.. |downloads_bioconductor-sponge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sponge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sponge| image:: https://quay.io/repository/biocontainers/bioconductor-sponge/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sponge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sponge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sponge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sponge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sponge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sponge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sponge
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sponge/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sponge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sponge/README.html
 

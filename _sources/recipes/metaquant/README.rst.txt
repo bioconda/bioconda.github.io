@@ -1,56 +1,67 @@
-.. _`metaquant`:
+.. title:: Package Recipe 'metaquant'
+.. highlight: bash
+
 
 metaquant
 =========
 
-|downloads|
+.. conda:recipe:: metaquant
+   :replaces_section_title:
 
-Quantitative microbiome analysis
+   Quantitative microbiome analysis
 
-============= ===========
-Home          The package home page
-Versions      0.1.2
-License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaquant/meta.yaml
+   :homepage: The package home page
+   :developer docs: https://github.com/caleb-easterly/metaquant
+   :license: APACHE / Apache Software License
+   :recipe: /`metaquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaquant/meta.yaml>`_
 
-
-Development   https://github.com/caleb-easterly/metaquant
-
-
-============= ===========
+   
 
 
+.. conda:package:: metaquant
 
-Installation
-------------
+   |downloads_metaquant| |docker_metaquant|
 
-.. highlight: bash
+   :versions: 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ete3`  :conda:package:`goatools`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`statsmodels`  :conda:package:`wget`  
 
-   conda install metaquant
+   :required~by: |required_by_metaquant|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metaquant
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metaquant
+
+   and update with::
+
+      conda update metaquant
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metaquant
+
+
+.. |required_by_metaquant| conda:required_by:: metaquant
+.. |downloads_metaquant| image:: https://img.shields.io/conda/dn/bioconda/metaquant.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metaquant| image:: https://quay.io/repository/biocontainers/metaquant/status
+   :target: https://quay.io/repository/biocontainers/metaquant
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metaquant.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metaquant/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metaquant/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metaquant/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metaquant/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metaquant
-.. |docker| image:: https://quay.io/repository/biocontainers/metaquant/status
-                :target: https://quay.io/repository/biocontainers/metaquant
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metaquant/README.html
 

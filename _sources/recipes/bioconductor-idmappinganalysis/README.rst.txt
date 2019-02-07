@@ -1,54 +1,66 @@
-.. _`bioconductor-idmappinganalysis`:
+.. title:: Package Recipe 'bioconductor-idmappinganalysis'
+.. highlight: bash
+
 
 bioconductor-idmappinganalysis
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-idmappinganalysis
+   :replaces_section_title:
 
-Identifier mapping performance analysis
+   Identifier mapping performance analysis
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/IdMappingAnalysis.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-idmappinganalysis/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IdMappingAnalysis.html
+   :license: GPL-2
+   :recipe: /`bioconductor-idmappinganalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappinganalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappinganalysis/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-idmappinganalysis
 
-Installation
-------------
+   |downloads_bioconductor-idmappinganalysis| |docker_bioconductor-idmappinganalysis|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-idmappinganalysis
+   :required~by: |required_by_bioconductor-idmappinganalysis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-idmappinganalysis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-idmappinganalysis
+
+   and update with::
+
+      conda update bioconductor-idmappinganalysis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-idmappinganalysis
+
+
+.. |required_by_bioconductor-idmappinganalysis| conda:required_by:: bioconductor-idmappinganalysis
+.. |downloads_bioconductor-idmappinganalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-idmappinganalysis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-idmappinganalysis| image:: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-idmappinganalysis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-idmappinganalysis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-idmappinganalysis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-idmappinganalysis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-idmappinganalysis
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-idmappinganalysis/README.html
 

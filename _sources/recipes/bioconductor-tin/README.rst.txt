@@ -1,56 +1,67 @@
-.. _`bioconductor-tin`:
+.. title:: Package Recipe 'bioconductor-tin'
+.. highlight: bash
+
 
 bioconductor-tin
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-tin
+   :replaces_section_title:
 
-The TIN package implements a set of tools for transcriptome instability analysis based on exon expression profiles. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression. In the transcriptome instability correlation analysis\, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets.
+   The TIN package implements a set of tools for transcriptome instability analysis based on exon expression profiles. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression. In the transcriptome instability correlation analysis\, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TIN.html
-Versions      1.14.0, 1.12.0, 1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tin/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TIN.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-tin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin/meta.yaml>`_
+   :links: biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`
 
-
-
-Links         biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tin
 
-Installation
-------------
+   |downloads_bioconductor-tin| |docker_bioconductor-tin|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`r-aroma.affymetrix`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-squash`  :conda:package:`r-stringr`  :conda:package:`r-wgcna`  
 
-   conda install bioconductor-tin
+   :required~by: |required_by_bioconductor-tin|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tin
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tin
+
+   and update with::
+
+      conda update bioconductor-tin
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tin
+
+
+.. |required_by_bioconductor-tin| conda:required_by:: bioconductor-tin
+.. |downloads_bioconductor-tin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tin.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tin| image:: https://quay.io/repository/biocontainers/bioconductor-tin/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tin
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tin.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tin/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tin/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tin/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tin
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tin/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tin
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tin/README.html
 

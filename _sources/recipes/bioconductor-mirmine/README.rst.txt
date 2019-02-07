@@ -1,54 +1,66 @@
-.. _`bioconductor-mirmine`:
+.. title:: Package Recipe 'bioconductor-mirmine'
+.. highlight: bash
+
 
 bioconductor-mirmine
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-mirmine
+   :replaces_section_title:
 
-miRmine database is a collection of expression profiles from different publicly available miRNA\-seq datasets\, Panwar et al \(2017\) miRmine\: A Database of Human miRNA Expression\, prepared with this data package as RangedSummarizedExperiment.
+   miRmine database is a collection of expression profiles from different publicly available miRNA\-seq datasets\, Panwar et al \(2017\) miRmine\: A Database of Human miRNA Expression\, prepared with this data package as RangedSummarizedExperiment.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/miRmine.html
-Versions      1.4.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirmine/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/miRmine.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-mirmine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mirmine
 
-Installation
-------------
+   |downloads_bioconductor-mirmine| |docker_bioconductor-mirmine|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-mirmine
+   :required~by: |required_by_bioconductor-mirmine|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mirmine
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mirmine
+
+   and update with::
+
+      conda update bioconductor-mirmine
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mirmine
+
+
+.. |required_by_bioconductor-mirmine| conda:required_by:: bioconductor-mirmine
+.. |downloads_bioconductor-mirmine| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirmine.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mirmine| image:: https://quay.io/repository/biocontainers/bioconductor-mirmine/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mirmine
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mirmine.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirmine/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirmine/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mirmine/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mirmine/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mirmine
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirmine/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mirmine
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mirmine/README.html
 

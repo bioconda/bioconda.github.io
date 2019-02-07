@@ -1,54 +1,66 @@
-.. _`bioconductor-chic.data`:
+.. title:: Package Recipe 'bioconductor-chic.data'
+.. highlight: bash
+
 
 bioconductor-chic.data
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-chic.data
+   :replaces_section_title:
 
-This package contains annotation and metagene profile data for the ChIC package.
+   This package contains annotation and metagene profile data for the ChIC package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ChIC.data.html
-Versions      1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chic.data/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ChIC.data.html
+   :license: GPL-2
+   :recipe: /`bioconductor-chic.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic.data/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-chic.data
 
-Installation
-------------
+   |downloads_bioconductor-chic.data| |docker_bioconductor-chic.data|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-caret` >=6.0-78 :conda:package:`wget`  
 
-   conda install bioconductor-chic.data
+   :required~by: |required_by_bioconductor-chic.data|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-chic.data
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-chic.data
+
+   and update with::
+
+      conda update bioconductor-chic.data
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-chic.data
+
+
+.. |required_by_bioconductor-chic.data| conda:required_by:: bioconductor-chic.data
+.. |downloads_bioconductor-chic.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chic.data.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-chic.data| image:: https://quay.io/repository/biocontainers/bioconductor-chic.data/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-chic.data
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-chic.data.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-chic.data/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-chic.data/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-chic.data/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-chic.data/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-chic.data
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-chic.data/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-chic.data
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-chic.data/README.html
 

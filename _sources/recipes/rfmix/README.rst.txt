@@ -1,56 +1,67 @@
-.. _`rfmix`:
+.. title:: Package Recipe 'rfmix'
+.. highlight: bash
+
 
 rfmix
 =====
 
-|downloads|
+.. conda:recipe:: rfmix
+   :replaces_section_title:
 
-RFMix implements a fast discriminative approach to modeling ancestry along an admixed chromosome given observed haplotype sequences of known or inferred ancestry.
+   RFMix implements a fast discriminative approach to modeling ancestry along an admixed chromosome given observed haplotype sequences of known or inferred ancestry.
 
-============= ===========
-Home          https://github.com/slowkoni/rfmix
-Versions      2.03.r0.9505bfa
-License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rfmix/meta.yaml
+   :homepage: https://github.com/slowkoni/rfmix
+   :license: Free for Academic Use
+   :recipe: /`rfmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rfmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rfmix/meta.yaml>`_
+   :links: biotools: :biotools:`RFMix`, doi: :doi:`10.1016/j.ajhg.2013.06.020`
 
-
-
-Links         biotools: :biotools:`RFMix`, doi: :doi:`10.1016/j.ajhg.2013.06.020`
-
-============= ===========
+   
 
 
+.. conda:package:: rfmix
 
-Installation
-------------
+   |downloads_rfmix| |docker_rfmix|
 
-.. highlight: bash
+   :versions: 2.03.r0.9505bfa
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`pthread-stubs`  
 
-   conda install rfmix
+   :required~by: |required_by_rfmix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rfmix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rfmix
+
+   and update with::
+
+      conda update rfmix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rfmix
+
+
+.. |required_by_rfmix| conda:required_by:: rfmix
+.. |downloads_rfmix| image:: https://img.shields.io/conda/dn/bioconda/rfmix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rfmix| image:: https://quay.io/repository/biocontainers/rfmix/status
+   :target: https://quay.io/repository/biocontainers/rfmix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rfmix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rfmix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rfmix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rfmix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rfmix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rfmix
-.. |docker| image:: https://quay.io/repository/biocontainers/rfmix/status
-                :target: https://quay.io/repository/biocontainers/rfmix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rfmix/README.html
 

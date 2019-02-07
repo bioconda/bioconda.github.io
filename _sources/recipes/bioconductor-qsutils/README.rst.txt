@@ -1,54 +1,66 @@
-.. _`bioconductor-qsutils`:
+.. title:: Package Recipe 'bioconductor-qsutils'
+.. highlight: bash
+
 
 bioconductor-qsutils
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-qsutils
+   :replaces_section_title:
 
-Set of utility functions for viral quasispecies analysis with NGS data. Most functions are equally useful for metagenomic studies. There are three main types\: \(1\) data manipulation and exploration—functions useful for converting reads to haplotypes and frequencies\, repairing reads\, intersecting strand haplotypes\, and visualizing haplotype alignments. \(2\) diversity indices—functions to compute diversity and entropy\, in which incidence\, abundance\, and functional indices are considered. \(3\) data simulation—functions useful for generating random viral quasispecies data.
+   Set of utility functions for viral quasispecies analysis with NGS data. Most functions are equally useful for metagenomic studies. There are three main types\: \(1\) data manipulation and exploration—functions useful for converting reads to haplotypes and frequencies\, repairing reads\, intersecting strand haplotypes\, and visualizing haplotype alignments. \(2\) diversity indices—functions to compute diversity and entropy\, in which incidence\, abundance\, and functional indices are considered. \(3\) data simulation—functions useful for generating random viral quasispecies data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/QSutils.html
-Versions      1.0.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-qsutils/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/QSutils.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-qsutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-qsutils
 
-Installation
-------------
+   |downloads_bioconductor-qsutils| |docker_bioconductor-qsutils|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-psych`  
 
-   conda install bioconductor-qsutils
+   :required~by: |required_by_bioconductor-qsutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-qsutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-qsutils
+
+   and update with::
+
+      conda update bioconductor-qsutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-qsutils
+
+
+.. |required_by_bioconductor-qsutils| conda:required_by:: bioconductor-qsutils
+.. |downloads_bioconductor-qsutils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qsutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-qsutils| image:: https://quay.io/repository/biocontainers/bioconductor-qsutils/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-qsutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-qsutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-qsutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-qsutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-qsutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-qsutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-qsutils
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-qsutils/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-qsutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-qsutils/README.html
 

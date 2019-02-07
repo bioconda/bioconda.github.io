@@ -1,54 +1,66 @@
-.. _`toolshed`:
+.. title:: Package Recipe 'toolshed'
+.. highlight: bash
+
 
 toolshed
 ========
 
-|downloads|
+.. conda:recipe:: toolshed
+   :replaces_section_title:
 
-flexible and easy file manipulation
+   flexible and easy file manipulation
 
-============= ===========
-Home          https://github.com/brentp/toolshed
-Versions      0.4.6
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//toolshed/meta.yaml
+   :homepage: https://github.com/brentp/toolshed
+   :license: MIT License
+   :recipe: /`toolshed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toolshed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toolshed/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: toolshed
 
-Installation
-------------
+   |downloads_toolshed| |docker_toolshed|
 
-.. highlight: bash
+   :versions: 0.4.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install toolshed
+   :required~by: |required_by_toolshed|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update toolshed
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install toolshed
+
+   and update with::
+
+      conda update toolshed
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/toolshed
+
+
+.. |required_by_toolshed| conda:required_by:: toolshed
+.. |downloads_toolshed| image:: https://img.shields.io/conda/dn/bioconda/toolshed.svg?style=flat
+   :alt:   (downloads)
+.. |docker_toolshed| image:: https://quay.io/repository/biocontainers/toolshed/status
+   :target: https://quay.io/repository/biocontainers/toolshed
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/toolshed.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/toolshed/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/toolshed/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/toolshed/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/toolshed/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/toolshed
-.. |docker| image:: https://quay.io/repository/biocontainers/toolshed/status
-                :target: https://quay.io/repository/biocontainers/toolshed
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/toolshed/README.html
 

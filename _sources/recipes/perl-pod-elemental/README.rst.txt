@@ -1,54 +1,66 @@
-.. _`perl-pod-elemental`:
+.. title:: Package Recipe 'perl-pod-elemental'
+.. highlight: bash
+
 
 perl-pod-elemental
 ==================
 
-|downloads|
+.. conda:recipe:: perl-pod-elemental
+   :replaces_section_title:
 
-work with nestable Pod elements
+   work with nestable Pod elements
 
-============= ===========
-Home          https://github.com/rjbs/Pod-Elemental
-Versions      0.103004
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-elemental/meta.yaml
+   :homepage: https://github.com/rjbs/Pod-Elemental
+   :license: perl_5
+   :recipe: /`perl-pod-elemental <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-elemental>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-elemental/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pod-elemental
 
-Installation
-------------
+   |downloads_perl-pod-elemental| |docker_perl-pod-elemental|
 
-.. highlight: bash
+   :versions: 0.103004
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-types`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
 
-   conda install perl-pod-elemental
+   :required~by: |required_by_perl-pod-elemental|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pod-elemental
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pod-elemental
+
+   and update with::
+
+      conda update perl-pod-elemental
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pod-elemental
+
+
+.. |required_by_perl-pod-elemental| conda:required_by:: perl-pod-elemental
+.. |downloads_perl-pod-elemental| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-elemental.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pod-elemental| image:: https://quay.io/repository/biocontainers/perl-pod-elemental/status
+   :target: https://quay.io/repository/biocontainers/perl-pod-elemental
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pod-elemental.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pod-elemental/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pod-elemental/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pod-elemental/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pod-elemental/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pod-elemental
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-elemental/status
-                :target: https://quay.io/repository/biocontainers/perl-pod-elemental
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pod-elemental/README.html
 

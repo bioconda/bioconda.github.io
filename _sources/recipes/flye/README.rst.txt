@@ -1,54 +1,66 @@
-.. _`flye`:
+.. title:: Package Recipe 'flye'
+.. highlight: bash
+
 
 flye
 ====
 
-|downloads|
+.. conda:recipe:: flye
+   :replaces_section_title:
 
-Fast and accurate de novo assembler for single molecule sequencing reads
+   Fast and accurate de novo assembler for single molecule sequencing reads
 
-============= ===========
-Home          https://github.com/fenderglass/Flye/
-Versions      2.4, 2.3.7, 2.3.6, 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flye/meta.yaml
+   :homepage: https://github.com/fenderglass/Flye/
+   :license: BSD-3-Clause
+   :recipe: /`flye <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flye>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flye/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: flye
 
-Installation
-------------
+   |downloads_flye| |docker_flye|
 
-.. highlight: bash
+   :versions: 2.4, 2.3.7, 2.3.6, 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install flye
+   :required~by: |required_by_flye|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flye
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flye
+
+   and update with::
+
+      conda update flye
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flye
+
+
+.. |required_by_flye| conda:required_by:: flye
+.. |downloads_flye| image:: https://img.shields.io/conda/dn/bioconda/flye.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flye| image:: https://quay.io/repository/biocontainers/flye/status
+   :target: https://quay.io/repository/biocontainers/flye
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flye.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flye/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flye/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flye/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flye/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flye
-.. |docker| image:: https://quay.io/repository/biocontainers/flye/status
-                :target: https://quay.io/repository/biocontainers/flye
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flye/README.html
 

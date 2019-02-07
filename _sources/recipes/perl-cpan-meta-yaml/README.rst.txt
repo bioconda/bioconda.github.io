@@ -1,54 +1,66 @@
-.. _`perl-cpan-meta-yaml`:
+.. title:: Package Recipe 'perl-cpan-meta-yaml'
+.. highlight: bash
+
 
 perl-cpan-meta-yaml
 ===================
 
-|downloads|
+.. conda:recipe:: perl-cpan-meta-yaml
+   :replaces_section_title:
 
-Read and write a subset of YAML for CPAN Meta files
+   Read and write a subset of YAML for CPAN Meta files
 
-============= ===========
-Home          https://github.com/Perl-Toolchain-Gang/CPAN-Meta-YAML
-Versions      0.018
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cpan-meta-yaml/meta.yaml
+   :homepage: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-YAML
+   :license: perl_5
+   :recipe: /`perl-cpan-meta-yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-yaml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-yaml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-cpan-meta-yaml
 
-Installation
-------------
+   |downloads_perl-cpan-meta-yaml| |docker_perl-cpan-meta-yaml|
 
-.. highlight: bash
+   :versions: 0.018
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  
 
-   conda install perl-cpan-meta-yaml
+   :required~by: |required_by_perl-cpan-meta-yaml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-cpan-meta-yaml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-cpan-meta-yaml
+
+   and update with::
+
+      conda update perl-cpan-meta-yaml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-cpan-meta-yaml
+
+
+.. |required_by_perl-cpan-meta-yaml| conda:required_by:: perl-cpan-meta-yaml
+.. |downloads_perl-cpan-meta-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-yaml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-cpan-meta-yaml| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml/status
+   :target: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-cpan-meta-yaml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-cpan-meta-yaml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-cpan-meta-yaml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-cpan-meta-yaml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-cpan-meta-yaml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-cpan-meta-yaml
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml/status
-                :target: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-cpan-meta-yaml/README.html
 

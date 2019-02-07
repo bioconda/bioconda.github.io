@@ -1,54 +1,66 @@
-.. _`canvas`:
+.. title:: Package Recipe 'canvas'
+.. highlight: bash
+
 
 canvas
 ======
 
-|downloads|
+.. conda:recipe:: canvas
+   :replaces_section_title:
 
-Copy number variant \(CNV\) calling from DNA sequencing data
+   Copy number variant \(CNV\) calling from DNA sequencing data
 
-============= ===========
-Home          https://github.com/Illumina/canvas
-Versions      1.35.1.1316, 1.25.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//canvas/meta.yaml
+   :homepage: https://github.com/Illumina/canvas
+   :license: GPLv3
+   :recipe: /`canvas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canvas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canvas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: canvas
 
-Installation
-------------
+   |downloads_canvas| |docker_canvas|
 
-.. highlight: bash
+   :versions: 1.35.1.1316, 1.25.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install canvas
+   :required~by: |required_by_canvas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update canvas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install canvas
+
+   and update with::
+
+      conda update canvas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/canvas
+
+
+.. |required_by_canvas| conda:required_by:: canvas
+.. |downloads_canvas| image:: https://img.shields.io/conda/dn/bioconda/canvas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_canvas| image:: https://quay.io/repository/biocontainers/canvas/status
+   :target: https://quay.io/repository/biocontainers/canvas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/canvas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/canvas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/canvas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/canvas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/canvas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/canvas
-.. |docker| image:: https://quay.io/repository/biocontainers/canvas/status
-                :target: https://quay.io/repository/biocontainers/canvas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/canvas/README.html
 

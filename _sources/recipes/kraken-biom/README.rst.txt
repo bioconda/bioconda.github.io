@@ -1,54 +1,66 @@
-.. _`kraken-biom`:
+.. title:: Package Recipe 'kraken-biom'
+.. highlight: bash
+
 
 kraken-biom
 ===========
 
-|downloads|
+.. conda:recipe:: kraken-biom
+   :replaces_section_title:
 
-Create BIOM\-format tables from Kraken output.
+   Create BIOM\-format tables from Kraken output.
 
-============= ===========
-Home          https://github.com/smdabdoub/kraken-biom
-Versions      1.0.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kraken-biom/meta.yaml
+   :homepage: https://github.com/smdabdoub/kraken-biom
+   :license: MIT / MIT License
+   :recipe: /`kraken-biom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kraken-biom
 
-Installation
-------------
+   |downloads_kraken-biom| |docker_kraken-biom|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biom-format` >=2.1.5 :conda:package:`python` 2.7* 
 
-   conda install kraken-biom
+   :required~by: |required_by_kraken-biom|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kraken-biom
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kraken-biom
+
+   and update with::
+
+      conda update kraken-biom
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kraken-biom
+
+
+.. |required_by_kraken-biom| conda:required_by:: kraken-biom
+.. |downloads_kraken-biom| image:: https://img.shields.io/conda/dn/bioconda/kraken-biom.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kraken-biom| image:: https://quay.io/repository/biocontainers/kraken-biom/status
+   :target: https://quay.io/repository/biocontainers/kraken-biom
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kraken-biom.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kraken-biom/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kraken-biom/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kraken-biom/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kraken-biom/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kraken-biom
-.. |docker| image:: https://quay.io/repository/biocontainers/kraken-biom/status
-                :target: https://quay.io/repository/biocontainers/kraken-biom
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kraken-biom/README.html
 

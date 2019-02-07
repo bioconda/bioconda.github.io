@@ -1,56 +1,67 @@
-.. _`eqtlbma`:
+.. title:: Package Recipe 'eqtlbma'
+.. highlight: bash
+
 
 eqtlbma
 =======
 
-|downloads|
+.. conda:recipe:: eqtlbma
+   :replaces_section_title:
 
-Package to detect eQTLs jointly in multiple subgroups \(e.g. tissues\) via Bayesian Model Averaging.
+   Package to detect eQTLs jointly in multiple subgroups \(e.g. tissues\) via Bayesian Model Averaging.
 
-============= ===========
-Home          https://github.com/timflutre/eqtlbma
-Versions      1.3.3, 1.3.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eqtlbma/meta.yaml
+   :homepage: https://github.com/timflutre/eqtlbma
+   :license: GPLv3
+   :recipe: /`eqtlbma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eqtlbma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eqtlbma/meta.yaml>`_
+   :links: biotools: :biotools:`eQtlBma`
 
-
-
-Links         biotools: :biotools:`eQtlBma`
-
-============= ===========
+   
 
 
+.. conda:package:: eqtlbma
 
-Installation
-------------
+   |downloads_eqtlbma| |docker_eqtlbma|
 
-.. highlight: bash
+   :versions: 1.3.3, 1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges`  :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`r-base`  :conda:package:`r-mass`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install eqtlbma
+   :required~by: |required_by_eqtlbma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update eqtlbma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install eqtlbma
+
+   and update with::
+
+      conda update eqtlbma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/eqtlbma
+
+
+.. |required_by_eqtlbma| conda:required_by:: eqtlbma
+.. |downloads_eqtlbma| image:: https://img.shields.io/conda/dn/bioconda/eqtlbma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_eqtlbma| image:: https://quay.io/repository/biocontainers/eqtlbma/status
+   :target: https://quay.io/repository/biocontainers/eqtlbma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/eqtlbma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/eqtlbma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/eqtlbma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/eqtlbma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/eqtlbma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/eqtlbma
-.. |docker| image:: https://quay.io/repository/biocontainers/eqtlbma/status
-                :target: https://quay.io/repository/biocontainers/eqtlbma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/eqtlbma/README.html
 

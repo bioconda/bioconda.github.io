@@ -1,54 +1,66 @@
-.. _`bioconductor-pasillabamsubset`:
+.. title:: Package Recipe 'bioconductor-pasillabamsubset'
+.. highlight: bash
+
 
 bioconductor-pasillabamsubset
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-pasillabamsubset
+   :replaces_section_title:
 
-Subset of BAM files untreated1.bam \(single\-end reads\) and untreated3.bam \(paired\-end reads\) from \"Pasilla\" experiment \(Pasilla knock\-down by Brooks et al.\, Genome Research 2011\). See the vignette in the pasilla data package for how BAM files untreated1.bam and untreated3.bam were obtained from the RNA\-Seq read sequence data that is provided by NCBI Gene Expression Omnibus under accession numbers GSM461176 to GSM461181.  Also contains the DNA sequence for fly chromosome 4 to which the reads can be mapped.
+   Subset of BAM files untreated1.bam \(single\-end reads\) and untreated3.bam \(paired\-end reads\) from \"Pasilla\" experiment \(Pasilla knock\-down by Brooks et al.\, Genome Research 2011\). See the vignette in the pasilla data package for how BAM files untreated1.bam and untreated3.bam were obtained from the RNA\-Seq read sequence data that is provided by NCBI Gene Expression Omnibus under accession numbers GSM461176 to GSM461181.  Also contains the DNA sequence for fly chromosome 4 to which the reads can be mapped.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/pasillaBamSubset.html
-Versions      0.20.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pasillabamsubset/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pasillaBamSubset.html
+   :license: LGPL
+   :recipe: /`bioconductor-pasillabamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pasillabamsubset
 
-Installation
-------------
+   |downloads_bioconductor-pasillabamsubset| |docker_bioconductor-pasillabamsubset|
 
-.. highlight: bash
+   :versions: 0.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pasillabamsubset
+   :required~by: |required_by_bioconductor-pasillabamsubset|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pasillabamsubset
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pasillabamsubset
+
+   and update with::
+
+      conda update bioconductor-pasillabamsubset
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pasillabamsubset
+
+
+.. |required_by_bioconductor-pasillabamsubset| conda:required_by:: bioconductor-pasillabamsubset
+.. |downloads_bioconductor-pasillabamsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pasillabamsubset.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pasillabamsubset| image:: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pasillabamsubset/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pasillabamsubset/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pasillabamsubset/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pasillabamsubset/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pasillabamsubset
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pasillabamsubset/README.html
 

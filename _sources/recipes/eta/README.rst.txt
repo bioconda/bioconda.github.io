@@ -1,54 +1,66 @@
-.. _`eta`:
+.. title:: Package Recipe 'eta'
+.. highlight: bash
+
 
 eta
 ===
 
-|downloads|
+.. conda:recipe:: eta
+   :replaces_section_title:
 
-ETA Progress bar for command\-line utilities
+   ETA Progress bar for command\-line utilities
 
-============= ===========
-Home          http://github.com/mbreese/eta/
-Versions      0.9.7
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eta/meta.yaml
+   :homepage: http://github.com/mbreese/eta/
+   :license: BSD
+   :recipe: /`eta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eta/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: eta
 
-Installation
-------------
+   |downloads_eta| |docker_eta|
 
-.. highlight: bash
+   :versions: 0.9.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install eta
+   :required~by: |required_by_eta|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update eta
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install eta
+
+   and update with::
+
+      conda update eta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/eta
+
+
+.. |required_by_eta| conda:required_by:: eta
+.. |downloads_eta| image:: https://img.shields.io/conda/dn/bioconda/eta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_eta| image:: https://quay.io/repository/biocontainers/eta/status
+   :target: https://quay.io/repository/biocontainers/eta
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/eta.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/eta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/eta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/eta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/eta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/eta
-.. |docker| image:: https://quay.io/repository/biocontainers/eta/status
-                :target: https://quay.io/repository/biocontainers/eta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/eta/README.html
 

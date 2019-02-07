@@ -1,54 +1,66 @@
-.. _`perl-number-range`:
+.. title:: Package Recipe 'perl-number-range'
+.. highlight: bash
+
 
 perl-number-range
 =================
 
-|downloads|
+.. conda:recipe:: perl-number-range
+   :replaces_section_title:
 
-Perl extension defining ranges of numbers and testing if a number is found in the range
+   Perl extension defining ranges of numbers and testing if a number is found in the range
 
-============= ===========
-Home          http://metacpan.org/pod/Number::Range
-Versions      0.12
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-number-range/meta.yaml
+   :homepage: http://metacpan.org/pod/Number::Range
+   :license: perl_5
+   :recipe: /`perl-number-range <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-range>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-range/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-number-range
 
-Installation
-------------
+   |downloads_perl-number-range| |docker_perl-number-range|
 
-.. highlight: bash
+   :versions: 0.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-extutils-makemaker`  
 
-   conda install perl-number-range
+   :required~by: |required_by_perl-number-range|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-number-range
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-number-range
+
+   and update with::
+
+      conda update perl-number-range
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-number-range
+
+
+.. |required_by_perl-number-range| conda:required_by:: perl-number-range
+.. |downloads_perl-number-range| image:: https://img.shields.io/conda/dn/bioconda/perl-number-range.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-number-range| image:: https://quay.io/repository/biocontainers/perl-number-range/status
+   :target: https://quay.io/repository/biocontainers/perl-number-range
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-number-range.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-number-range/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-number-range/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-number-range/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-number-range/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-number-range
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-number-range/status
-                :target: https://quay.io/repository/biocontainers/perl-number-range
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-number-range/README.html
 

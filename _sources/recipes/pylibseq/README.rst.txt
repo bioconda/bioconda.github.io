@@ -1,54 +1,66 @@
-.. _`pylibseq`:
+.. title:: Package Recipe 'pylibseq'
+.. highlight: bash
+
 
 pylibseq
 ========
 
-|downloads|
+.. conda:recipe:: pylibseq
+   :replaces_section_title:
 
-A Python interface to libsequence
+   A Python interface to libsequence
 
-============= ===========
-Home          http://pypi.python.org/pypi/pylibseq
-Versions      0.2.0, 0.1.9.post0, 0.1.8
-License       GNU Lesser General Public License v2 or later (LGPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pylibseq/meta.yaml
+   :homepage: http://pypi.python.org/pypi/pylibseq
+   :license: GNU Lesser General Public License v2 or later (LGPLv2+)
+   :recipe: /`pylibseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pylibseq
 
-Installation
-------------
+   |downloads_pylibseq| |docker_pylibseq|
 
-.. highlight: bash
+   :versions: 0.2.0, 0.1.9.post0, 0.1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`libsequence`  :conda:package:`msprime`  :conda:package:`python` 3.5* 
 
-   conda install pylibseq
+   :required~by: |required_by_pylibseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pylibseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pylibseq
+
+   and update with::
+
+      conda update pylibseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pylibseq
+
+
+.. |required_by_pylibseq| conda:required_by:: pylibseq
+.. |downloads_pylibseq| image:: https://img.shields.io/conda/dn/bioconda/pylibseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pylibseq| image:: https://quay.io/repository/biocontainers/pylibseq/status
+   :target: https://quay.io/repository/biocontainers/pylibseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pylibseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pylibseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pylibseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pylibseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pylibseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pylibseq
-.. |docker| image:: https://quay.io/repository/biocontainers/pylibseq/status
-                :target: https://quay.io/repository/biocontainers/pylibseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pylibseq/README.html
 

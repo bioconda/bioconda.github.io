@@ -1,56 +1,67 @@
-.. _`bioconductor-pcagopromoter`:
+.. title:: Package Recipe 'bioconductor-pcagopromoter'
+.. highlight: bash
+
 
 bioconductor-pcagopromoter
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pcagopromoter
+   :replaces_section_title:
 
-This package contains functions to ease the analyses of DNA micro arrays. It utilizes principal component analysis as the initial multivariate analysis\, followed by functional interpretation of the principal component dimensions with overrepresentation analysis for GO terms and regulatory interpretations using overrepresentation analysis of predicted transcription factor binding sites with the primo algorithm.
+   This package contains functions to ease the analyses of DNA micro arrays. It utilizes principal component analysis as the initial multivariate analysis\, followed by functional interpretation of the principal component dimensions with overrepresentation analysis for GO terms and regulatory interpretations using overrepresentation analysis of predicted transcription factor binding sites with the primo algorithm.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pcaGoPromoter.html
-Versions      1.26.0, 1.24.0, 1.22.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcagopromoter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pcaGoPromoter.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-pcagopromoter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter/meta.yaml>`_
+   :links: biotools: :biotools:`pcagopromoter`
 
-
-
-Links         biotools: :biotools:`pcagopromoter`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pcagopromoter
 
-Installation
-------------
+   |downloads_bioconductor-pcagopromoter| |docker_bioconductor-pcagopromoter|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  
 
-   conda install bioconductor-pcagopromoter
+   :required~by: |required_by_bioconductor-pcagopromoter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pcagopromoter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pcagopromoter
+
+   and update with::
+
+      conda update bioconductor-pcagopromoter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pcagopromoter
+
+
+.. |required_by_bioconductor-pcagopromoter| conda:required_by:: bioconductor-pcagopromoter
+.. |downloads_bioconductor-pcagopromoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcagopromoter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pcagopromoter| image:: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pcagopromoter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pcagopromoter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pcagopromoter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pcagopromoter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pcagopromoter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pcagopromoter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pcagopromoter/README.html
 

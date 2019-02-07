@@ -1,54 +1,66 @@
-.. _`crisper_recognition_tool`:
+.. title:: Package Recipe 'crisper_recognition_tool'
+.. highlight: bash
+
 
 crisper_recognition_tool
 ========================
 
-|downloads|
+.. conda:recipe:: crisper_recognition_tool
+   :replaces_section_title:
 
-A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\).
+   A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\).
 
-============= ===========
-Home          http://www.room220.com/crt/
-Versions      1.2
-License       Public domain software
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//crisper_recognition_tool/meta.yaml
+   :homepage: http://www.room220.com/crt/
+   :license: Public domain software
+   :recipe: /`crisper_recognition_tool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisper_recognition_tool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisper_recognition_tool/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: crisper_recognition_tool
 
-Installation
-------------
+   |downloads_crisper_recognition_tool| |docker_crisper_recognition_tool|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`python` 2.7* 
 
-   conda install crisper_recognition_tool
+   :required~by: |required_by_crisper_recognition_tool|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update crisper_recognition_tool
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install crisper_recognition_tool
+
+   and update with::
+
+      conda update crisper_recognition_tool
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/crisper_recognition_tool
+
+
+.. |required_by_crisper_recognition_tool| conda:required_by:: crisper_recognition_tool
+.. |downloads_crisper_recognition_tool| image:: https://img.shields.io/conda/dn/bioconda/crisper_recognition_tool.svg?style=flat
+   :alt:   (downloads)
+.. |docker_crisper_recognition_tool| image:: https://quay.io/repository/biocontainers/crisper_recognition_tool/status
+   :target: https://quay.io/repository/biocontainers/crisper_recognition_tool
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/crisper_recognition_tool.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/crisper_recognition_tool/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/crisper_recognition_tool/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/crisper_recognition_tool/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/crisper_recognition_tool/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/crisper_recognition_tool
-.. |docker| image:: https://quay.io/repository/biocontainers/crisper_recognition_tool/status
-                :target: https://quay.io/repository/biocontainers/crisper_recognition_tool
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/crisper_recognition_tool/README.html
 

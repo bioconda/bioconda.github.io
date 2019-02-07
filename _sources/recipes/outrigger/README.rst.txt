@@ -1,54 +1,66 @@
-.. _`outrigger`:
+.. title:: Package Recipe 'outrigger'
+.. highlight: bash
+
 
 outrigger
 =========
 
-|downloads|
+.. conda:recipe:: outrigger
+   :replaces_section_title:
 
-Outrigger detects \*de novo\* exons and quantifies their percent spliced\-in
+   Outrigger detects \*de novo\* exons and quantifies their percent spliced\-in
 
-============= ===========
-Home          https://yeolab.github.io/outrigger
-Versions      1.1.1
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//outrigger/meta.yaml
+   :homepage: https://yeolab.github.io/outrigger
+   :license: BSD / BSD License
+   :recipe: /`outrigger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/outrigger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/outrigger/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: outrigger
 
-Installation
-------------
+   |downloads_outrigger| |docker_outrigger|
 
-.. highlight: bash
+   :versions: 1.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`coverage`  :conda:package:`gffutils` >=0.8.7.1 :conda:package:`graphlite`  :conda:package:`joblib`  :conda:package:`pandas` >=0.17.0 :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`pytest` >=3.0.0 :conda:package:`python` 2.7* 
 
-   conda install outrigger
+   :required~by: |required_by_outrigger|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update outrigger
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install outrigger
+
+   and update with::
+
+      conda update outrigger
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/outrigger
+
+
+.. |required_by_outrigger| conda:required_by:: outrigger
+.. |downloads_outrigger| image:: https://img.shields.io/conda/dn/bioconda/outrigger.svg?style=flat
+   :alt:   (downloads)
+.. |docker_outrigger| image:: https://quay.io/repository/biocontainers/outrigger/status
+   :target: https://quay.io/repository/biocontainers/outrigger
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/outrigger.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/outrigger/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/outrigger/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/outrigger/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/outrigger/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/outrigger
-.. |docker| image:: https://quay.io/repository/biocontainers/outrigger/status
-                :target: https://quay.io/repository/biocontainers/outrigger
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/outrigger/README.html
 

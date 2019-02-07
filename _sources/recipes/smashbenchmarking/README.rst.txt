@@ -1,54 +1,66 @@
-.. _`smashbenchmarking`:
+.. title:: Package Recipe 'smashbenchmarking'
+.. highlight: bash
+
 
 smashbenchmarking
 =================
 
-|downloads|
+.. conda:recipe:: smashbenchmarking
+   :replaces_section_title:
 
-Check the accuracy of one VCF callset against another
+   Check the accuracy of one VCF callset against another
 
-============= ===========
-Home          http://github.com/amplab/smash/
-Versions      1.0.1
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//smashbenchmarking/meta.yaml
+   :homepage: http://github.com/amplab/smash/
+   :license: BSD License
+   :recipe: /`smashbenchmarking <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashbenchmarking>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashbenchmarking/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: smashbenchmarking
 
-Installation
-------------
+   |downloads_smashbenchmarking| |docker_smashbenchmarking|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  
 
-   conda install smashbenchmarking
+   :required~by: |required_by_smashbenchmarking|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update smashbenchmarking
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install smashbenchmarking
+
+   and update with::
+
+      conda update smashbenchmarking
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/smashbenchmarking
+
+
+.. |required_by_smashbenchmarking| conda:required_by:: smashbenchmarking
+.. |downloads_smashbenchmarking| image:: https://img.shields.io/conda/dn/bioconda/smashbenchmarking.svg?style=flat
+   :alt:   (downloads)
+.. |docker_smashbenchmarking| image:: https://quay.io/repository/biocontainers/smashbenchmarking/status
+   :target: https://quay.io/repository/biocontainers/smashbenchmarking
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/smashbenchmarking.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/smashbenchmarking/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/smashbenchmarking/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/smashbenchmarking/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/smashbenchmarking/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/smashbenchmarking
-.. |docker| image:: https://quay.io/repository/biocontainers/smashbenchmarking/status
-                :target: https://quay.io/repository/biocontainers/smashbenchmarking
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/smashbenchmarking/README.html
 

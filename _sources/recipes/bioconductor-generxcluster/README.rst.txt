@@ -1,56 +1,67 @@
-.. _`bioconductor-generxcluster`:
+.. title:: Package Recipe 'bioconductor-generxcluster'
+.. highlight: bash
+
 
 bioconductor-generxcluster
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-generxcluster
+   :replaces_section_title:
 
-Detect Differential Clustering of Genomic Sites such as gene therapy integrations.  The package provides some functions for exploring genomic insertion sites originating from two different sources. Possibly\, the two sources are two different gene therapy vectors.  Vectors are preferred that target sensitive regions less frequently\, motivating the search for localized clusters of insertions and comparison of the clusters formed by integration of different vectors.  Scan statistics allow the discovery of spatial differences in clustering and calculation of False Discovery Rates \(FDRs\) providing statistical methods for comparing retroviral vectors. A scan statistic for comparing two vectors using multiple window widths to detect clustering differentials and compute FDRs is implemented here.
+   Detect Differential Clustering of Genomic Sites such as gene therapy integrations.  The package provides some functions for exploring genomic insertion sites originating from two different sources. Possibly\, the two sources are two different gene therapy vectors.  Vectors are preferred that target sensitive regions less frequently\, motivating the search for localized clusters of insertions and comparison of the clusters formed by integration of different vectors.  Scan statistics allow the discovery of spatial differences in clustering and calculation of False Discovery Rates \(FDRs\) providing statistical methods for comparing retroviral vectors. A scan statistic for comparing two vectors using multiple window widths to detect clustering differentials and compute FDRs is implemented here.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/geneRxCluster.html
-Versions      1.18.0, 1.16.0, 1.14.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-generxcluster/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/geneRxCluster.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-generxcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generxcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generxcluster/meta.yaml>`_
+   :links: biotools: :biotools:`generxcluster`
 
-
-
-Links         biotools: :biotools:`generxcluster`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-generxcluster
 
-Installation
-------------
+   |downloads_bioconductor-generxcluster| |docker_bioconductor-generxcluster|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-generxcluster
+   :required~by: |required_by_bioconductor-generxcluster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-generxcluster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-generxcluster
+
+   and update with::
+
+      conda update bioconductor-generxcluster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-generxcluster
+
+
+.. |required_by_bioconductor-generxcluster| conda:required_by:: bioconductor-generxcluster
+.. |downloads_bioconductor-generxcluster| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-generxcluster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-generxcluster| image:: https://quay.io/repository/biocontainers/bioconductor-generxcluster/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-generxcluster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-generxcluster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-generxcluster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-generxcluster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-generxcluster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-generxcluster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-generxcluster
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-generxcluster/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-generxcluster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-generxcluster/README.html
 

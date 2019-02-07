@@ -1,54 +1,66 @@
-.. _`perl-threaded`:
+.. title:: Package Recipe 'perl-threaded'
+.. highlight: bash
+
 
 perl-threaded
 =============
 
-|downloads|
+.. conda:recipe:: perl-threaded
+   :replaces_section_title:
 
-The Perl language.
+   The Perl language.
 
-============= ===========
-Home          http://www.perl.org/
-Versions      5.22.0
-License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-threaded/meta.yaml
+   :homepage: http://www.perl.org/
+   :license: Perl
+   :recipe: /`perl-threaded <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-threaded>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-threaded/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-threaded
 
-Installation
-------------
+   |downloads_perl-threaded| |docker_perl-threaded|
 
-.. highlight: bash
+   :versions: 5.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install perl-threaded
+   :required~by: |required_by_perl-threaded|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-threaded
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-threaded
+
+   and update with::
+
+      conda update perl-threaded
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-threaded
+
+
+.. |required_by_perl-threaded| conda:required_by:: perl-threaded
+.. |downloads_perl-threaded| image:: https://img.shields.io/conda/dn/bioconda/perl-threaded.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-threaded| image:: https://quay.io/repository/biocontainers/perl-threaded/status
+   :target: https://quay.io/repository/biocontainers/perl-threaded
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-threaded.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-threaded/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-threaded/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-threaded/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-threaded/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-threaded
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-threaded/status
-                :target: https://quay.io/repository/biocontainers/perl-threaded
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-threaded/README.html
 

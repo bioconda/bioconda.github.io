@@ -1,56 +1,67 @@
-.. _`mothur`:
+.. title:: Package Recipe 'mothur'
+.. highlight: bash
+
 
 mothur
 ======
 
-|downloads|
+.. conda:recipe:: mothur
+   :replaces_section_title:
 
-This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community.
+   This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community.
 
-============= ===========
-Home          http://www.mothur.org
-Versions      1.41.0, 1.40.5, 1.39.5, 1.38.1.1, 1.36.1, 1.25.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mothur/meta.yaml
+   :homepage: http://www.mothur.org
+   :developer docs: https://github.com/mothur/mothur
+   :license: GPL / GPL-3.0
+   :recipe: /`mothur <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur/meta.yaml>`_
 
-
-Development   https://github.com/mothur/mothur
-
-
-============= ===========
+   
 
 
+.. conda:package:: mothur
 
-Installation
-------------
+   |downloads_mothur| |docker_mothur|
 
-.. highlight: bash
+   :versions: 1.41.0, 1.40.5, 1.39.5, 1.38.1.1, 1.36.1, 1.25.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast-legacy`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`readline` >=7.0,<8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install mothur
+   :required~by: |required_by_mothur|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mothur
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mothur
+
+   and update with::
+
+      conda update mothur
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mothur
+
+
+.. |required_by_mothur| conda:required_by:: mothur
+.. |downloads_mothur| image:: https://img.shields.io/conda/dn/bioconda/mothur.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mothur| image:: https://quay.io/repository/biocontainers/mothur/status
+   :target: https://quay.io/repository/biocontainers/mothur
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mothur.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mothur/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mothur/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mothur/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mothur/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mothur
-.. |docker| image:: https://quay.io/repository/biocontainers/mothur/status
-                :target: https://quay.io/repository/biocontainers/mothur
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mothur/README.html
 

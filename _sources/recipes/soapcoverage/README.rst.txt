@@ -1,54 +1,66 @@
-.. _`soapcoverage`:
+.. title:: Package Recipe 'soapcoverage'
+.. highlight: bash
+
 
 soapcoverage
 ============
 
-|downloads|
+.. conda:recipe:: soapcoverage
+   :replaces_section_title:
 
-SOAPcoverarge can calculate sequencing coverage or physical coverage as well as duplication rate and details of specific block for each segments and whole genome by using SOAP\, BLAT\, BLAST\, BlastZ\, mum\- mer and MAQ aligement results with multi\-thread.
+   SOAPcoverarge can calculate sequencing coverage or physical coverage as well as duplication rate and details of specific block for each segments and whole genome by using SOAP\, BLAT\, BLAST\, BlastZ\, mum\- mer and MAQ aligement results with multi\-thread.
 
-============= ===========
-Home          http://soap.genomics.org.cn/soapaligner.html
-Versions      2.7.7
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapcoverage/meta.yaml
+   :homepage: http://soap.genomics.org.cn/soapaligner.html
+   :license: GPL
+   :recipe: /`soapcoverage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapcoverage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapcoverage/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: soapcoverage
 
-Installation
-------------
+   |downloads_soapcoverage| |docker_soapcoverage|
 
-.. highlight: bash
+   :versions: 2.7.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install soapcoverage
+   :required~by: |required_by_soapcoverage|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update soapcoverage
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install soapcoverage
+
+   and update with::
+
+      conda update soapcoverage
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/soapcoverage
+
+
+.. |required_by_soapcoverage| conda:required_by:: soapcoverage
+.. |downloads_soapcoverage| image:: https://img.shields.io/conda/dn/bioconda/soapcoverage.svg?style=flat
+   :alt:   (downloads)
+.. |docker_soapcoverage| image:: https://quay.io/repository/biocontainers/soapcoverage/status
+   :target: https://quay.io/repository/biocontainers/soapcoverage
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/soapcoverage.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/soapcoverage/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/soapcoverage/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/soapcoverage/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/soapcoverage/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/soapcoverage
-.. |docker| image:: https://quay.io/repository/biocontainers/soapcoverage/status
-                :target: https://quay.io/repository/biocontainers/soapcoverage
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/soapcoverage/README.html
 

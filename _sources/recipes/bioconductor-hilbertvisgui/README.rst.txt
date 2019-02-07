@@ -1,54 +1,66 @@
-.. _`bioconductor-hilbertvisgui`:
+.. title:: Package Recipe 'bioconductor-hilbertvisgui'
+.. highlight: bash
+
 
 bioconductor-hilbertvisgui
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-hilbertvisgui
+   :replaces_section_title:
 
-An interactive tool to visualize long vectors of integer data by means of Hilbert curves
+   An interactive tool to visualize long vectors of integer data by means of Hilbert curves
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HilbertVisGUI.html
-Versions      
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hilbertvisgui/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HilbertVisGUI.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-hilbertvisgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hilbertvisgui
 
-Installation
-------------
+   |downloads_bioconductor-hilbertvisgui| |docker_bioconductor-hilbertvisgui|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-hilbertvisgui
+   :required~by: |required_by_bioconductor-hilbertvisgui|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hilbertvisgui
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hilbertvisgui
+
+   and update with::
+
+      conda update bioconductor-hilbertvisgui
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hilbertvisgui
+
+
+.. |required_by_bioconductor-hilbertvisgui| conda:required_by:: bioconductor-hilbertvisgui
+.. |downloads_bioconductor-hilbertvisgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hilbertvisgui.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hilbertvisgui| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hilbertvisgui/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hilbertvisgui/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hilbertvisgui/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hilbertvisgui/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hilbertvisgui
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hilbertvisgui/README.html
 

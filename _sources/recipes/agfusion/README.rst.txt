@@ -1,54 +1,66 @@
-.. _`agfusion`:
+.. title:: Package Recipe 'agfusion'
+.. highlight: bash
+
 
 agfusion
 ========
 
-|downloads|
+.. conda:recipe:: agfusion
+   :replaces_section_title:
 
-Python package to annotate and visualize gene fusions.
+   Python package to annotate and visualize gene fusions.
 
-============= ===========
-Home          https://github.com/murphycj/AGFusion
-Versions      1.231, 1.23, 1.2, 1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//agfusion/meta.yaml
+   :homepage: https://github.com/murphycj/AGFusion
+   :license: MIT / MIT
+   :recipe: /`agfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agfusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agfusion/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: agfusion
 
-Installation
-------------
+   |downloads_agfusion| |docker_agfusion|
 
-.. highlight: bash
+   :versions: 1.231, 1.23, 1.2, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.67 :conda:package:`future` >=0.16.0 :conda:package:`matplotlib` >=1.5.0 :conda:package:`nose2` >=0.6.5 :conda:package:`pandas` >=0.18.1 :conda:package:`pyensembl` >=1.1.0 :conda:package:`python`  
 
-   conda install agfusion
+   :required~by: |required_by_agfusion|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update agfusion
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install agfusion
+
+   and update with::
+
+      conda update agfusion
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/agfusion
+
+
+.. |required_by_agfusion| conda:required_by:: agfusion
+.. |downloads_agfusion| image:: https://img.shields.io/conda/dn/bioconda/agfusion.svg?style=flat
+   :alt:   (downloads)
+.. |docker_agfusion| image:: https://quay.io/repository/biocontainers/agfusion/status
+   :target: https://quay.io/repository/biocontainers/agfusion
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/agfusion.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/agfusion/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/agfusion/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/agfusion/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/agfusion/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/agfusion
-.. |docker| image:: https://quay.io/repository/biocontainers/agfusion/status
-                :target: https://quay.io/repository/biocontainers/agfusion
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/agfusion/README.html
 

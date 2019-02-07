@@ -1,57 +1,68 @@
-.. _`htstream`:
+.. title:: Package Recipe 'htstream'
+.. highlight: bash
+
 
 htstream
 ========
 
-|downloads|
+.. conda:recipe:: htstream
+   :replaces_section_title:
 
-HTStream is a fast\, quality control pipeline for Hight Throughput Sequencing data.
-The difference between HTStream and other pipelines is that HTStreams uses a tab delimited fastq format which allows for streaming from application to application.
-This streaming creates some awesome efficiencies when processing HTS data.
+   HTStream is a fast\, quality control pipeline for Hight Throughput Sequencing data.
+   The difference between HTStream and other pipelines is that HTStreams uses a tab delimited fastq format which allows for streaming from application to application.
+   This streaming creates some awesome efficiencies when processing HTS data.
 
+   :homepage: https://ibest.github.io/HTStream
+   :license: Apache / Apache 2.0
+   :recipe: /`htstream <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream/meta.yaml>`_
 
-============= ===========
-Home          https://ibest.github.io/HTStream
-Versions      1.0.0
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//htstream/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: htstream
 
-Installation
-------------
+   |downloads_htstream| |docker_htstream|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install htstream
+   :required~by: |required_by_htstream|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update htstream
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install htstream
+
+   and update with::
+
+      conda update htstream
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/htstream
+
+
+.. |required_by_htstream| conda:required_by:: htstream
+.. |downloads_htstream| image:: https://img.shields.io/conda/dn/bioconda/htstream.svg?style=flat
+   :alt:   (downloads)
+.. |docker_htstream| image:: https://quay.io/repository/biocontainers/htstream/status
+   :target: https://quay.io/repository/biocontainers/htstream
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/htstream.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/htstream/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/htstream/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/htstream/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/htstream/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/htstream
-.. |docker| image:: https://quay.io/repository/biocontainers/htstream/status
-                :target: https://quay.io/repository/biocontainers/htstream
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/htstream/README.html
 

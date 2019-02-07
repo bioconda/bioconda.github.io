@@ -1,54 +1,66 @@
-.. _`perl-file-spec`:
+.. title:: Package Recipe 'perl-file-spec'
+.. highlight: bash
+
 
 perl-file-spec
 ==============
 
-|downloads|
+.. conda:recipe:: perl-file-spec/3.48_01
+   :replaces_section_title:
 
-portably perform operations on file names
+   portably perform operations on file names
 
-============= ===========
-Home          http://metacpan.org/pod/File::Spec
-Versions      3.48_01
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-spec/3.48_01/meta.yaml
+   :homepage: http://metacpan.org/pod/File::Spec
+   :license: perl_5
+   :recipe: /`perl-file-spec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec>`_/`3.48_01 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec/3.48_01>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec/3.48_01/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-spec
 
-Installation
-------------
+   |downloads_perl-file-spec| |docker_perl-file-spec|
 
-.. highlight: bash
+   :versions: 3.48_01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-file-spec
+   :required~by: |required_by_perl-file-spec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-spec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-spec
+
+   and update with::
+
+      conda update perl-file-spec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-spec
+
+
+.. |required_by_perl-file-spec| conda:required_by:: perl-file-spec
+.. |downloads_perl-file-spec| image:: https://img.shields.io/conda/dn/bioconda/perl-file-spec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-spec| image:: https://quay.io/repository/biocontainers/perl-file-spec/status
+   :target: https://quay.io/repository/biocontainers/perl-file-spec
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-spec.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-spec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-spec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-spec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-spec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-spec
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-spec/status
-                :target: https://quay.io/repository/biocontainers/perl-file-spec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-spec/README.html
 

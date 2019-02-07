@@ -1,56 +1,67 @@
-.. _`bioconductor-deepbluer`:
+.. title:: Package Recipe 'bioconductor-deepbluer'
+.. highlight: bash
+
 
 bioconductor-deepbluer
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-deepbluer
+   :replaces_section_title:
 
-Accessing the DeepBlue Epigenetics Data Server through R.
+   Accessing the DeepBlue Epigenetics Data Server through R.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DeepBlueR.html
-Versions      1.8.0, 1.6.0, 1.4.1
-License       GPL (>=2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-deepbluer/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DeepBlueR.html
+   :license: GPL (>=2.0)
+   :recipe: /`bioconductor-deepbluer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer/meta.yaml>`_
+   :links: biotools: :biotools:`deepbluer`
 
-
-
-Links         biotools: :biotools:`deepbluer`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-deepbluer
 
-Installation
-------------
+   |downloads_bioconductor-deepbluer| |docker_bioconductor-deepbluer|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-diffr`  :conda:package:`r-dplyr`  :conda:package:`r-filehash`  :conda:package:`r-foreach`  :conda:package:`r-r.utils`  :conda:package:`r-rcurl`  :conda:package:`r-rjson`  :conda:package:`r-settings`  :conda:package:`r-stringr`  :conda:package:`r-withr`  :conda:package:`r-xml`  
 
-   conda install bioconductor-deepbluer
+   :required~by: |required_by_bioconductor-deepbluer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-deepbluer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-deepbluer
+
+   and update with::
+
+      conda update bioconductor-deepbluer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-deepbluer
+
+
+.. |required_by_bioconductor-deepbluer| conda:required_by:: bioconductor-deepbluer
+.. |downloads_bioconductor-deepbluer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deepbluer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-deepbluer| image:: https://quay.io/repository/biocontainers/bioconductor-deepbluer/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-deepbluer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-deepbluer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-deepbluer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-deepbluer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-deepbluer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-deepbluer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-deepbluer
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-deepbluer/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-deepbluer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-deepbluer/README.html
 

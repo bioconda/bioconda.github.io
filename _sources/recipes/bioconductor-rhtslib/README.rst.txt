@@ -1,56 +1,67 @@
-.. _`bioconductor-rhtslib`:
+.. title:: Package Recipe 'bioconductor-rhtslib'
+.. highlight: bash
+
 
 bioconductor-rhtslib
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-rhtslib
+   :replaces_section_title:
 
-This package provides version 1.7 of the \'HTSlib\' C library for high\-throughput sequence analysis. The package is primarily useful to developers of other R packages who wish to make use of HTSlib. Motivation and instructions for use of this package are in the vignette\, vignette\(package\=\"Rhtslib\"\, \"Rhtslib\"\).
+   This package provides version 1.7 of the \'HTSlib\' C library for high\-throughput sequence analysis. The package is primarily useful to developers of other R packages who wish to make use of HTSlib. Motivation and instructions for use of this package are in the vignette\, vignette\(package\=\"Rhtslib\"\, \"Rhtslib\"\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Rhtslib.html
-Versions      1.14.0, 1.12.1, 1.10.0, 1.8.0, 1.6.0
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rhtslib/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rhtslib.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-rhtslib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhtslib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhtslib/meta.yaml>`_
+   :links: biotools: :biotools:`rhtslib`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`rhtslib`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rhtslib
 
-Installation
-------------
+   |downloads_bioconductor-rhtslib| |docker_bioconductor-rhtslib|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.1, 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bioconductor-rhtslib
+   :required~by: |required_by_bioconductor-rhtslib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rhtslib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rhtslib
+
+   and update with::
+
+      conda update bioconductor-rhtslib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rhtslib
+
+
+.. |required_by_bioconductor-rhtslib| conda:required_by:: bioconductor-rhtslib
+.. |downloads_bioconductor-rhtslib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhtslib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rhtslib| image:: https://quay.io/repository/biocontainers/bioconductor-rhtslib/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rhtslib
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rhtslib.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rhtslib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rhtslib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rhtslib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rhtslib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rhtslib
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rhtslib/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rhtslib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rhtslib/README.html
 

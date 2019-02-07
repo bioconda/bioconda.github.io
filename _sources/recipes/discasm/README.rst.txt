@@ -1,54 +1,66 @@
-.. _`discasm`:
+.. title:: Package Recipe 'discasm'
+.. highlight: bash
+
 
 discasm
 =======
 
-|downloads|
+.. conda:recipe:: discasm
+   :replaces_section_title:
 
-DISCASM aims to extract reads that map to reference genomes in a discordant fashion and optionally include reads that do not map to the genome at all\, and perform a de novo transcriptome assembly of these reads. DISCASM relies on the output from STAR \(as run via STAR\-Fusion\)\, and supports de novo transcriptome assembly using Trinity or Oases. \- https\:\/\/github.com\/DISCASM\/DISCASM\/wiki
+   DISCASM aims to extract reads that map to reference genomes in a discordant fashion and optionally include reads that do not map to the genome at all\, and perform a de novo transcriptome assembly of these reads. DISCASM relies on the output from STAR \(as run via STAR\-Fusion\)\, and supports de novo transcriptome assembly using Trinity or Oases. \- https\:\/\/github.com\/DISCASM\/DISCASM\/wiki
 
-============= ===========
-Home          https://github.com/DISCASM/DISCASM
-Versions      0.1.3, 0.1.2
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discasm/meta.yaml
+   :homepage: https://github.com/DISCASM/DISCASM
+   :license: BSD-3-Clause
+   :recipe: /`discasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discasm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: discasm
 
-Installation
-------------
+   |downloads_discasm| |docker_discasm|
 
-.. highlight: bash
+   :versions: 0.1.3, 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`oases` >=0.2 :conda:package:`perl` 5.22.0* :conda:package:`pysam` >=0.10.0 :conda:package:`python` 2.7* :conda:package:`star` >=2.4 :conda:package:`trinity` >=2.4 
 
-   conda install discasm
+   :required~by: |required_by_discasm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update discasm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install discasm
+
+   and update with::
+
+      conda update discasm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/discasm
+
+
+.. |required_by_discasm| conda:required_by:: discasm
+.. |downloads_discasm| image:: https://img.shields.io/conda/dn/bioconda/discasm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_discasm| image:: https://quay.io/repository/biocontainers/discasm/status
+   :target: https://quay.io/repository/biocontainers/discasm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/discasm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/discasm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/discasm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/discasm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/discasm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/discasm
-.. |docker| image:: https://quay.io/repository/biocontainers/discasm/status
-                :target: https://quay.io/repository/biocontainers/discasm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/discasm/README.html
 

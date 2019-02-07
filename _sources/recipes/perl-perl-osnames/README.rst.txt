@@ -1,54 +1,66 @@
-.. _`perl-perl-osnames`:
+.. title:: Package Recipe 'perl-perl-osnames'
+.. highlight: bash
+
 
 perl-perl-osnames
 =================
 
-|downloads|
+.. conda:recipe:: perl-perl-osnames
+   :replaces_section_title:
 
-List possible \$\^O \(\$OSNAME\) values\, with description
+   List possible \$\^O \(\$OSNAME\) values\, with description
 
-============= ===========
-Home          https://metacpan.org/release/Perl-osnames
-Versions      0.11
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perl-osnames/meta.yaml
+   :homepage: https://metacpan.org/release/Perl-osnames
+   :license: perl_5
+   :recipe: /`perl-perl-osnames <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-osnames>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-osnames/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-perl-osnames
 
-Installation
-------------
+   |downloads_perl-perl-osnames| |docker_perl-perl-osnames|
 
-.. highlight: bash
+   :versions: 0.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  
 
-   conda install perl-perl-osnames
+   :required~by: |required_by_perl-perl-osnames|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-perl-osnames
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-perl-osnames
+
+   and update with::
+
+      conda update perl-perl-osnames
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-perl-osnames
+
+
+.. |required_by_perl-perl-osnames| conda:required_by:: perl-perl-osnames
+.. |downloads_perl-perl-osnames| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-osnames.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-perl-osnames| image:: https://quay.io/repository/biocontainers/perl-perl-osnames/status
+   :target: https://quay.io/repository/biocontainers/perl-perl-osnames
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-perl-osnames.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-perl-osnames/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-perl-osnames/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-perl-osnames/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-perl-osnames/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-perl-osnames
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-perl-osnames/status
-                :target: https://quay.io/repository/biocontainers/perl-perl-osnames
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-perl-osnames/README.html
 

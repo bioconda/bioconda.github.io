@@ -1,54 +1,66 @@
-.. _`rpf-count-cds`:
+.. title:: Package Recipe 'rpf-count-cds'
+.. highlight: bash
+
 
 rpf-count-cds
 =============
 
-|downloads|
+.. conda:recipe:: rpfcountcds
+   :replaces_section_title:
 
-A python script for counting RPF reads map to CDS region.
+   A python script for counting RPF reads map to CDS region.
 
-============= ===========
-Home          https://github.com/xzt41/RPF-count-CDS
-Versions      0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rpfcountcds/meta.yaml
+   :homepage: https://github.com/xzt41/RPF-count-CDS
+   :license: MIT
+   :recipe: /`rpfcountcds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpfcountcds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpfcountcds/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rpf-count-cds
 
-Installation
-------------
+   |downloads_rpf-count-cds| |docker_rpf-count-cds|
 
-.. highlight: bash
+   :versions: 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htseq`  :conda:package:`python`  
 
-   conda install rpf-count-cds
+   :required~by: |required_by_rpf-count-cds|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rpf-count-cds
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rpf-count-cds
+
+   and update with::
+
+      conda update rpf-count-cds
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rpf-count-cds
+
+
+.. |required_by_rpf-count-cds| conda:required_by:: rpf-count-cds
+.. |downloads_rpf-count-cds| image:: https://img.shields.io/conda/dn/bioconda/rpf-count-cds.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rpf-count-cds| image:: https://quay.io/repository/biocontainers/rpf-count-cds/status
+   :target: https://quay.io/repository/biocontainers/rpf-count-cds
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rpf-count-cds.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rpf-count-cds/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rpf-count-cds/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rpf-count-cds/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rpf-count-cds/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rpf-count-cds
-.. |docker| image:: https://quay.io/repository/biocontainers/rpf-count-cds/status
-                :target: https://quay.io/repository/biocontainers/rpf-count-cds
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rpf-count-cds/README.html
 

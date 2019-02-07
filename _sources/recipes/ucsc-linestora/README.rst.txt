@@ -1,54 +1,66 @@
-.. _`ucsc-linestora`:
+.. title:: Package Recipe 'ucsc-linestora'
+.. highlight: bash
+
 
 ucsc-linestora
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-linestora
+   :replaces_section_title:
 
-generate .ra format from lines with pipe\-separated fields
+   generate .ra format from lines with pipe\-separated fields
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-linestora/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-linestora <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-linestora>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-linestora/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-linestora
 
-Installation
-------------
+   |downloads_ucsc-linestora| |docker_ucsc-linestora|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-linestora
+   :required~by: |required_by_ucsc-linestora|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-linestora
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-linestora
+
+   and update with::
+
+      conda update ucsc-linestora
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-linestora
+
+
+.. |required_by_ucsc-linestora| conda:required_by:: ucsc-linestora
+.. |downloads_ucsc-linestora| image:: https://img.shields.io/conda/dn/bioconda/ucsc-linestora.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-linestora| image:: https://quay.io/repository/biocontainers/ucsc-linestora/status
+   :target: https://quay.io/repository/biocontainers/ucsc-linestora
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-linestora.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-linestora/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-linestora/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-linestora/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-linestora/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-linestora
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-linestora/status
-                :target: https://quay.io/repository/biocontainers/ucsc-linestora
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-linestora/README.html
 

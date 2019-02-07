@@ -1,54 +1,66 @@
-.. _`ucsc-estorient`:
+.. title:: Package Recipe 'ucsc-estorient'
+.. highlight: bash
+
 
 ucsc-estorient
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-estorient
+   :replaces_section_title:
 
- Read ESTs from a database and determine orientation based on estOrientInfo table or direction in gbCdnaInfo table.  Update PSLs so that the strand reflects the direction of transcription. By default\, PSLs where the direction can\'t be determined are dropped. 
+    Read ESTs from a database and determine orientation based on estOrientInfo table or direction in gbCdnaInfo table.  Update PSLs so that the strand reflects the direction of transcription. By default\, PSLs where the direction can\'t be determined are dropped. 
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-estorient/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-estorient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-estorient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-estorient/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-estorient
 
-Installation
-------------
+   |downloads_ucsc-estorient| |docker_ucsc-estorient|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-estorient
+   :required~by: |required_by_ucsc-estorient|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-estorient
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-estorient
+
+   and update with::
+
+      conda update ucsc-estorient
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-estorient
+
+
+.. |required_by_ucsc-estorient| conda:required_by:: ucsc-estorient
+.. |downloads_ucsc-estorient| image:: https://img.shields.io/conda/dn/bioconda/ucsc-estorient.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-estorient| image:: https://quay.io/repository/biocontainers/ucsc-estorient/status
+   :target: https://quay.io/repository/biocontainers/ucsc-estorient
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-estorient.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-estorient/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-estorient/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-estorient/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-estorient/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-estorient
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-estorient/status
-                :target: https://quay.io/repository/biocontainers/ucsc-estorient
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-estorient/README.html
 

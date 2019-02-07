@@ -1,54 +1,66 @@
-.. _`plastid`:
+.. title:: Package Recipe 'plastid'
+.. highlight: bash
+
 
 plastid
 =======
 
-|downloads|
+.. conda:recipe:: plastid
+   :replaces_section_title:
 
-plastid is a Python library for genomic analysis \-\- in particular\, high\-throughput sequencing data
+   plastid is a Python library for genomic analysis \-\- in particular\, high\-throughput sequencing data
 
-============= ===========
-Home          http://plastid.readthedocs.io/en/latest/
-Versions      0.4.8, 0.4.7
-License       BSD 3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plastid/meta.yaml
+   :homepage: http://plastid.readthedocs.io/en/latest/
+   :license: BSD 3-Clause
+   :recipe: /`plastid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plastid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plastid/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: plastid
 
-Installation
-------------
+   |downloads_plastid| |docker_plastid|
 
-.. highlight: bash
+   :versions: 0.4.8, 0.4.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.64 :conda:package:`bowtie`  :conda:package:`cython` >=0.22.0 :conda:package:`fastx_toolkit`  :conda:package:`libgcc`  :conda:package:`matplotlib` >=1.4.0 :conda:package:`numpy` >=1.9.0 :conda:package:`pandas` >=0.17.0 :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.15.1 :conda:package:`termcolor`  :conda:package:`twobitreader` >=3.0.0 :conda:package:`zlib` 1.2.11* 
 
-   conda install plastid
+   :required~by: |required_by_plastid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update plastid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install plastid
+
+   and update with::
+
+      conda update plastid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/plastid
+
+
+.. |required_by_plastid| conda:required_by:: plastid
+.. |downloads_plastid| image:: https://img.shields.io/conda/dn/bioconda/plastid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_plastid| image:: https://quay.io/repository/biocontainers/plastid/status
+   :target: https://quay.io/repository/biocontainers/plastid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/plastid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/plastid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/plastid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/plastid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/plastid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/plastid
-.. |docker| image:: https://quay.io/repository/biocontainers/plastid/status
-                :target: https://quay.io/repository/biocontainers/plastid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/plastid/README.html
 

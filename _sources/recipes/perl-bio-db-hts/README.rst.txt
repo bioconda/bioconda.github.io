@@ -1,54 +1,66 @@
-.. _`perl-bio-db-hts`:
+.. title:: Package Recipe 'perl-bio-db-hts'
+.. highlight: bash
+
 
 perl-bio-db-hts
 ===============
 
-|downloads|
+.. conda:recipe:: perl-bio-db-hts
+   :replaces_section_title:
 
-Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
+   Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
 
-============= ===========
-Home          https://metacpan.org/pod/Bio::DB::HTS
-Versions      2.7, 2.4
-License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-db-hts/meta.yaml
+   :homepage: https://metacpan.org/pod/Bio::DB::HTS
+   :license: Apache v2.0
+   :recipe: /`perl-bio-db-hts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-db-hts
 
-Installation
-------------
+   |downloads_perl-bio-db-hts| |docker_perl-bio-db-hts|
 
-.. highlight: bash
+   :versions: 2.7, 2.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` 1.4* :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl`  :conda:package:`zlib`  
 
-   conda install perl-bio-db-hts
+   :required~by: |required_by_perl-bio-db-hts|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-db-hts
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-db-hts
+
+   and update with::
+
+      conda update perl-bio-db-hts
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-db-hts
+
+
+.. |required_by_perl-bio-db-hts| conda:required_by:: perl-bio-db-hts
+.. |downloads_perl-bio-db-hts| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-hts.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-db-hts| image:: https://quay.io/repository/biocontainers/perl-bio-db-hts/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-db-hts
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-db-hts.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-db-hts/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-db-hts/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-db-hts/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-db-hts/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-db-hts
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-db-hts/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-db-hts
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-db-hts/README.html
 

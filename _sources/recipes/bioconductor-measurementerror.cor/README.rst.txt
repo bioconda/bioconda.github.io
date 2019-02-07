@@ -1,56 +1,67 @@
-.. _`bioconductor-measurementerror.cor`:
+.. title:: Package Recipe 'bioconductor-measurementerror.cor'
+.. highlight: bash
+
 
 bioconductor-measurementerror.cor
 =================================
 
-|downloads|
+.. conda:recipe:: bioconductor-measurementerror.cor
+   :replaces_section_title:
 
-Two\-stage measurement error model for correlation estimation with smaller bias than the usual sample correlation
+   Two\-stage measurement error model for correlation estimation with smaller bias than the usual sample correlation
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MeasurementError.cor.html
-Versions      1.54.0, 1.52.0, 1.50.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-measurementerror.cor/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MeasurementError.cor.html
+   :license: LGPL
+   :recipe: /`bioconductor-measurementerror.cor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor/meta.yaml>`_
+   :links: biotools: :biotools:`measurementerror.cor`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`measurementerror.cor`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-measurementerror.cor
 
-Installation
-------------
+   |downloads_bioconductor-measurementerror.cor| |docker_bioconductor-measurementerror.cor|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-measurementerror.cor
+   :required~by: |required_by_bioconductor-measurementerror.cor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-measurementerror.cor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-measurementerror.cor
+
+   and update with::
+
+      conda update bioconductor-measurementerror.cor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-measurementerror.cor
+
+
+.. |required_by_bioconductor-measurementerror.cor| conda:required_by:: bioconductor-measurementerror.cor
+.. |downloads_bioconductor-measurementerror.cor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-measurementerror.cor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-measurementerror.cor| image:: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-measurementerror.cor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-measurementerror.cor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-measurementerror.cor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-measurementerror.cor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-measurementerror.cor
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-measurementerror.cor/README.html
 

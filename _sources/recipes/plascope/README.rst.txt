@@ -1,54 +1,66 @@
-.. _`plascope`:
+.. title:: Package Recipe 'plascope'
+.. highlight: bash
+
 
 plascope
 ========
 
-|downloads|
+.. conda:recipe:: plascope
+   :replaces_section_title:
 
-PlaScope is a targeted approach to assess the plasmidome of bacteria.
+   PlaScope is a targeted approach to assess the plasmidome of bacteria.
 
-============= ===========
-Home          https://github.com/GuilhemRoyer/PlaScope
-Versions      1.3
-License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plascope/meta.yaml
+   :homepage: https://github.com/GuilhemRoyer/PlaScope
+   :license: GPL / GPL (>=3)
+   :recipe: /`plascope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plascope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plascope/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: plascope
 
-Installation
-------------
+   |downloads_plascope| |docker_plascope|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`centrifuge` 1.0.3 :conda:package:`spades` >=3.10.1 
 
-   conda install plascope
+   :required~by: |required_by_plascope|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update plascope
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install plascope
+
+   and update with::
+
+      conda update plascope
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/plascope
+
+
+.. |required_by_plascope| conda:required_by:: plascope
+.. |downloads_plascope| image:: https://img.shields.io/conda/dn/bioconda/plascope.svg?style=flat
+   :alt:   (downloads)
+.. |docker_plascope| image:: https://quay.io/repository/biocontainers/plascope/status
+   :target: https://quay.io/repository/biocontainers/plascope
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/plascope.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/plascope/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/plascope/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/plascope/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/plascope/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/plascope
-.. |docker| image:: https://quay.io/repository/biocontainers/plascope/status
-                :target: https://quay.io/repository/biocontainers/plascope
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/plascope/README.html
 

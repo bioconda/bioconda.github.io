@@ -1,56 +1,67 @@
-.. _`antismash`:
+.. title:: Package Recipe 'antismash'
+.. highlight: bash
+
 
 antismash
 =========
 
-|downloads|
+.. conda:recipe:: antismash
+   :replaces_section_title:
 
-antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters.
+   antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters.
 
-============= ===========
-Home          http://antismash.secondarymetabolites.org/
-Versions      4.1.0, 4.0.2, 4.0.1
-License       AGPL-3.0-or-later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//antismash/meta.yaml
+   :homepage: http://antismash.secondarymetabolites.org/
+   :license: AGPL-3.0-or-later
+   :recipe: /`antismash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash/meta.yaml>`_
+   :links: biotools: :biotools:`antismash`
 
-
-
-Links         biotools: :biotools:`antismash`
-
-============= ===========
+   
 
 
+.. conda:package:: antismash
 
-Installation
-------------
+   |downloads_antismash| |docker_antismash|
 
-.. highlight: bash
+   :versions: 4.1.0, 4.0.2, 4.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argparse`  :conda:package:`backports.lzma`  :conda:package:`bcbiogff`  :conda:package:`biopython` >=1.65 :conda:package:`blast` ==2.2.31 :conda:package:`clustalw`  :conda:package:`cssselect`  :conda:package:`diamond` ==0.8.36 :conda:package:`ete2`  :conda:package:`fasttree` ==2.1.9 :conda:package:`glimmer` ==3.02 :conda:package:`glimmerhmm` ==3.0.4 :conda:package:`helperlibs`  :conda:package:`hmmer`  :conda:package:`hmmer2`  :conda:package:`libxml2` ==2.9.4 :conda:package:`mafft`  :conda:package:`matplotlib`  :conda:package:`meme` ==4.11.2 :conda:package:`muscle`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`openjdk`  :conda:package:`pandas`  :conda:package:`perl-bioperl`  :conda:package:`perl-pathtools`  :conda:package:`prodigal`  :conda:package:`pyexcelerator`  :conda:package:`pyquery` ==1.2.9 :conda:package:`pysvg`  :conda:package:`python` 2.7* :conda:package:`scikit-learn` ==0.18.2 :conda:package:`scipy`  :conda:package:`xz` ==5.2.2 
 
-   conda install antismash
+   :required~by: |required_by_antismash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update antismash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install antismash
+
+   and update with::
+
+      conda update antismash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/antismash
+
+
+.. |required_by_antismash| conda:required_by:: antismash
+.. |downloads_antismash| image:: https://img.shields.io/conda/dn/bioconda/antismash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_antismash| image:: https://quay.io/repository/biocontainers/antismash/status
+   :target: https://quay.io/repository/biocontainers/antismash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/antismash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/antismash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/antismash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/antismash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/antismash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/antismash
-.. |docker| image:: https://quay.io/repository/biocontainers/antismash/status
-                :target: https://quay.io/repository/biocontainers/antismash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/antismash/README.html
 

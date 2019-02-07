@@ -1,54 +1,66 @@
-.. _`bioconductor-all`:
+.. title:: Package Recipe 'bioconductor-all'
+.. highlight: bash
+
 
 bioconductor-all
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-all
+   :replaces_section_title:
 
-Data of T\- and B\-cell Acute Lymphocytic Leukemia from the Ritz Laboratory at the DFCI \(includes Apr 2004 versions\)
+   Data of T\- and B\-cell Acute Lymphocytic Leukemia from the Ritz Laboratory at the DFCI \(includes Apr 2004 versions\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ALL.html
-Versions      1.24.0, 1.22.0, 1.20.0, 1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-all/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ALL.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-all <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-all>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-all/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-all
 
-Installation
-------------
+   |downloads_bioconductor-all| |docker_bioconductor-all|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-all
+   :required~by: |required_by_bioconductor-all|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-all
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-all
+
+   and update with::
+
+      conda update bioconductor-all
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-all
+
+
+.. |required_by_bioconductor-all| conda:required_by:: bioconductor-all
+.. |downloads_bioconductor-all| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-all.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-all| image:: https://quay.io/repository/biocontainers/bioconductor-all/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-all
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-all.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-all/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-all/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-all/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-all/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-all
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-all/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-all
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-all/README.html
 

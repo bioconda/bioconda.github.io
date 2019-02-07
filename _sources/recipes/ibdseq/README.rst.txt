@@ -1,56 +1,67 @@
-.. _`ibdseq`:
+.. title:: Package Recipe 'ibdseq'
+.. highlight: bash
+
 
 ibdseq
 ======
 
-|downloads|
+.. conda:recipe:: ibdseq
+   :replaces_section_title:
 
-IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data.
+   IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data.
 
-============= ===========
-Home          http://faculty.washington.edu/browning/ibdseq.html
-Versions      r1206
-License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ibdseq/meta.yaml
+   :homepage: http://faculty.washington.edu/browning/ibdseq.html
+   :license: Apache v2.0
+   :recipe: /`ibdseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdseq/meta.yaml>`_
+   :links: biotools: :biotools:`IBDseq`, doi: :doi:`10.1016/j.ajhg.2013.09.014`
 
-
-
-Links         biotools: :biotools:`IBDseq`, doi: :doi:`10.1016/j.ajhg.2013.09.014`
-
-============= ===========
+   
 
 
+.. conda:package:: ibdseq
 
-Installation
-------------
+   |downloads_ibdseq| |docker_ibdseq|
 
-.. highlight: bash
+   :versions: r1206
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=6.0.77 
 
-   conda install ibdseq
+   :required~by: |required_by_ibdseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ibdseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ibdseq
+
+   and update with::
+
+      conda update ibdseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ibdseq
+
+
+.. |required_by_ibdseq| conda:required_by:: ibdseq
+.. |downloads_ibdseq| image:: https://img.shields.io/conda/dn/bioconda/ibdseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ibdseq| image:: https://quay.io/repository/biocontainers/ibdseq/status
+   :target: https://quay.io/repository/biocontainers/ibdseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ibdseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ibdseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ibdseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ibdseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ibdseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ibdseq
-.. |docker| image:: https://quay.io/repository/biocontainers/ibdseq/status
-                :target: https://quay.io/repository/biocontainers/ibdseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ibdseq/README.html
 

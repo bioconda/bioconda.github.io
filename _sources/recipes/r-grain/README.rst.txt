@@ -1,54 +1,66 @@
-.. _`r-grain`:
+.. title:: Package Recipe 'r-grain'
+.. highlight: bash
+
 
 r-grain
 =======
 
-|downloads|
+.. conda:recipe:: r-grain
+   :replaces_section_title:
 
-Probability propagation in graphical independence networks\, also known as Bayesian networks or probabilistic expert systems.
+   Probability propagation in graphical independence networks\, also known as Bayesian networks or probabilistic expert systems.
 
-============= ===========
-Home          http://people.math.aau.dk/~sorenh/software/gR/
-Versions      1.3_0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-grain/meta.yaml
+   :homepage: http://people.math.aau.dk/~sorenh/software/gR/
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-grain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grain/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-grain
 
-Installation
-------------
+   |downloads_r-grain| |docker_r-grain|
 
-.. highlight: bash
+   :versions: 1.3_0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-functional`  :conda:package:`r-grbase` >=1.7_2 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
 
-   conda install r-grain
+   :required~by: |required_by_r-grain|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-grain
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-grain
+
+   and update with::
+
+      conda update r-grain
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-grain
+
+
+.. |required_by_r-grain| conda:required_by:: r-grain
+.. |downloads_r-grain| image:: https://img.shields.io/conda/dn/bioconda/r-grain.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-grain| image:: https://quay.io/repository/biocontainers/r-grain/status
+   :target: https://quay.io/repository/biocontainers/r-grain
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-grain.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-grain/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-grain/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-grain/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-grain/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-grain
-.. |docker| image:: https://quay.io/repository/biocontainers/r-grain/status
-                :target: https://quay.io/repository/biocontainers/r-grain
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-grain/README.html
 

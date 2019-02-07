@@ -1,54 +1,66 @@
-.. _`bioconductor-mfuzz`:
+.. title:: Package Recipe 'bioconductor-mfuzz'
+.. highlight: bash
+
 
 bioconductor-mfuzz
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-mfuzz
+   :replaces_section_title:
 
-Package for noise\-robust soft clustering of gene expression time\-series data \(including a graphical user interface\)
+   Package for noise\-robust soft clustering of gene expression time\-series data \(including a graphical user interface\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Mfuzz.html
-Versions      2.42.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mfuzz/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Mfuzz.html
+   :license: GPL-2
+   :recipe: /`bioconductor-mfuzz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mfuzz
 
-Installation
-------------
+   |downloads_bioconductor-mfuzz| |docker_bioconductor-mfuzz|
 
-.. highlight: bash
+   :versions: 2.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-tkwidgets` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  
 
-   conda install bioconductor-mfuzz
+   :required~by: |required_by_bioconductor-mfuzz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mfuzz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mfuzz
+
+   and update with::
+
+      conda update bioconductor-mfuzz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mfuzz
+
+
+.. |required_by_bioconductor-mfuzz| conda:required_by:: bioconductor-mfuzz
+.. |downloads_bioconductor-mfuzz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mfuzz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mfuzz| image:: https://quay.io/repository/biocontainers/bioconductor-mfuzz/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mfuzz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mfuzz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mfuzz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mfuzz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mfuzz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mfuzz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mfuzz
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mfuzz/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mfuzz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mfuzz/README.html
 

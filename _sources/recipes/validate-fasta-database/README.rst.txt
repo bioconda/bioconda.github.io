@@ -1,54 +1,66 @@
-.. _`validate-fasta-database`:
+.. title:: Package Recipe 'validate-fasta-database'
+.. highlight: bash
+
 
 validate-fasta-database
 =======================
 
-|downloads|
+.. conda:recipe:: validate-fasta-database
+   :replaces_section_title:
 
-Code for Galaxy tool for quality control on FASTA database
+   Code for Galaxy tool for quality control on FASTA database
 
-============= ===========
-Home          https://github.com/caleb-easterly/validate_fasta_database
-Versions      1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//validate-fasta-database/meta.yaml
+   :homepage: https://github.com/caleb-easterly/validate_fasta_database
+   :license: GPL-3.0
+   :recipe: /`validate-fasta-database <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validate-fasta-database>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validate-fasta-database/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: validate-fasta-database
 
-Installation
-------------
+   |downloads_validate-fasta-database| |docker_validate-fasta-database|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=7 :conda:package:`python` 2.7* 
 
-   conda install validate-fasta-database
+   :required~by: |required_by_validate-fasta-database|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update validate-fasta-database
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install validate-fasta-database
+
+   and update with::
+
+      conda update validate-fasta-database
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/validate-fasta-database
+
+
+.. |required_by_validate-fasta-database| conda:required_by:: validate-fasta-database
+.. |downloads_validate-fasta-database| image:: https://img.shields.io/conda/dn/bioconda/validate-fasta-database.svg?style=flat
+   :alt:   (downloads)
+.. |docker_validate-fasta-database| image:: https://quay.io/repository/biocontainers/validate-fasta-database/status
+   :target: https://quay.io/repository/biocontainers/validate-fasta-database
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/validate-fasta-database.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/validate-fasta-database/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/validate-fasta-database/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/validate-fasta-database/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/validate-fasta-database/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/validate-fasta-database
-.. |docker| image:: https://quay.io/repository/biocontainers/validate-fasta-database/status
-                :target: https://quay.io/repository/biocontainers/validate-fasta-database
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/validate-fasta-database/README.html
 

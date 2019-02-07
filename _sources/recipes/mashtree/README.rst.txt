@@ -1,54 +1,66 @@
-.. _`mashtree`:
+.. title:: Package Recipe 'mashtree'
+.. highlight: bash
+
 
 mashtree
 ========
 
-|downloads|
+.. conda:recipe:: mashtree
+   :replaces_section_title:
 
-Create a tree using Mash distances
+   Create a tree using Mash distances
 
-============= ===========
-Home          https://github.com/lskatz/mashtree
-Versions      0.37, 0.36, 0.35.4, 0.30, 0.28, 0.26, 0.25, 0.21, 0.20, 0.12
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mashtree/meta.yaml
+   :homepage: https://github.com/lskatz/mashtree
+   :license: GPL-3.0
+   :recipe: /`mashtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mashtree
 
-Installation
-------------
+   |downloads_mashtree| |docker_mashtree|
 
-.. highlight: bash
+   :versions: 0.37, 0.36, 0.35.4, 0.30, 0.28, 0.26, 0.25, 0.21, 0.20, 0.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`mash` >=1.1 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-sqlite` >=1.58 :conda:package:`quicktree`  :conda:package:`sqlite` >=3.26.0,<4.0a0 
 
-   conda install mashtree
+   :required~by: |required_by_mashtree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mashtree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mashtree
+
+   and update with::
+
+      conda update mashtree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mashtree
+
+
+.. |required_by_mashtree| conda:required_by:: mashtree
+.. |downloads_mashtree| image:: https://img.shields.io/conda/dn/bioconda/mashtree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mashtree| image:: https://quay.io/repository/biocontainers/mashtree/status
+   :target: https://quay.io/repository/biocontainers/mashtree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mashtree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mashtree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mashtree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mashtree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mashtree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mashtree
-.. |docker| image:: https://quay.io/repository/biocontainers/mashtree/status
-                :target: https://quay.io/repository/biocontainers/mashtree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mashtree/README.html
 

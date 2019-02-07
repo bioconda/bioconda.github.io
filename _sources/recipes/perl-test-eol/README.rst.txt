@@ -1,54 +1,66 @@
-.. _`perl-test-eol`:
+.. title:: Package Recipe 'perl-test-eol'
+.. highlight: bash
+
 
 perl-test-eol
 =============
 
-|downloads|
+.. conda:recipe:: perl-test-eol
+   :replaces_section_title:
 
-Check the correct line endings in your project
+   Check the correct line endings in your project
 
-============= ===========
-Home          http://metacpan.org/release/Test-EOL
-Versions      2.00, 1.6
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-eol/meta.yaml
+   :homepage: http://metacpan.org/release/Test-EOL
+   :license: perl_5
+   :recipe: /`perl-test-eol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-eol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-eol/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-eol
 
-Installation
-------------
+   |downloads_perl-test-eol| |docker_perl-test-eol|
 
-.. highlight: bash
+   :versions: 2.00, 1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-test-eol
+   :required~by: |required_by_perl-test-eol|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-eol
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-eol
+
+   and update with::
+
+      conda update perl-test-eol
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-eol
+
+
+.. |required_by_perl-test-eol| conda:required_by:: perl-test-eol
+.. |downloads_perl-test-eol| image:: https://img.shields.io/conda/dn/bioconda/perl-test-eol.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-eol| image:: https://quay.io/repository/biocontainers/perl-test-eol/status
+   :target: https://quay.io/repository/biocontainers/perl-test-eol
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-eol.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-eol/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-eol/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-eol/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-eol/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-eol
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-eol/status
-                :target: https://quay.io/repository/biocontainers/perl-test-eol
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-eol/README.html
 

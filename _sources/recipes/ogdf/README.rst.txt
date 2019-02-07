@@ -1,54 +1,66 @@
-.. _`ogdf`:
+.. title:: Package Recipe 'ogdf'
+.. highlight: bash
+
 
 ogdf
 ====
 
-|downloads|
+.. conda:recipe:: ogdf
+   :replaces_section_title:
 
-The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams.
+   The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams.
 
-============= ===========
-Home          http://http://ogdf.net/doku.php
-Versions      201207
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ogdf/meta.yaml
+   :homepage: http://http://ogdf.net/doku.php
+   :license: GPLv3
+   :recipe: /`ogdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ogdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ogdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ogdf
 
-Installation
-------------
+   |downloads_ogdf| |docker_ogdf|
 
-.. highlight: bash
+   :versions: 201207
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install ogdf
+   :required~by: |required_by_ogdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ogdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ogdf
+
+   and update with::
+
+      conda update ogdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ogdf
+
+
+.. |required_by_ogdf| conda:required_by:: ogdf
+.. |downloads_ogdf| image:: https://img.shields.io/conda/dn/bioconda/ogdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ogdf| image:: https://quay.io/repository/biocontainers/ogdf/status
+   :target: https://quay.io/repository/biocontainers/ogdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ogdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ogdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ogdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ogdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ogdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ogdf
-.. |docker| image:: https://quay.io/repository/biocontainers/ogdf/status
-                :target: https://quay.io/repository/biocontainers/ogdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ogdf/README.html
 

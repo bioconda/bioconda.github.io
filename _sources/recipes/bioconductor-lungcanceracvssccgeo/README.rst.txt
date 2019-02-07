@@ -1,54 +1,66 @@
-.. _`bioconductor-lungcanceracvssccgeo`:
+.. title:: Package Recipe 'bioconductor-lungcanceracvssccgeo'
+.. highlight: bash
+
 
 bioconductor-lungcanceracvssccgeo
 =================================
 
-|downloads|
+.. conda:recipe:: bioconductor-lungcanceracvssccgeo
+   :replaces_section_title:
 
-This package contains 30 Affymetrix CEL files for 7 Adenocarcinoma \(AC\) and 8 Squamous cell carcinoma \(SCC\) lung cancer samples taken at random from 3 GEO datasets \(GSE10245\, GSE18842 and GSE2109\) and other 15 samples from a dataset produced by the organizers of the IMPROVER Diagnostic Signature Challenge available from GEO \(GSE43580\).
+   This package contains 30 Affymetrix CEL files for 7 Adenocarcinoma \(AC\) and 8 Squamous cell carcinoma \(SCC\) lung cancer samples taken at random from 3 GEO datasets \(GSE10245\, GSE18842 and GSE2109\) and other 15 samples from a dataset produced by the organizers of the IMPROVER Diagnostic Signature Challenge available from GEO \(GSE43580\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerACvsSCCGEO.html
-Versions      1.18.0, 1.16.0, 1.14.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lungcanceracvssccgeo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerACvsSCCGEO.html
+   :license: GPL-2
+   :recipe: /`bioconductor-lungcanceracvssccgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcanceracvssccgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcanceracvssccgeo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lungcanceracvssccgeo
 
-Installation
-------------
+   |downloads_bioconductor-lungcanceracvssccgeo| |docker_bioconductor-lungcanceracvssccgeo|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lungcanceracvssccgeo
+   :required~by: |required_by_bioconductor-lungcanceracvssccgeo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lungcanceracvssccgeo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lungcanceracvssccgeo
+
+   and update with::
+
+      conda update bioconductor-lungcanceracvssccgeo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo
+
+
+.. |required_by_bioconductor-lungcanceracvssccgeo| conda:required_by:: bioconductor-lungcanceracvssccgeo
+.. |downloads_bioconductor-lungcanceracvssccgeo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lungcanceracvssccgeo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lungcanceracvssccgeo| image:: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lungcanceracvssccgeo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lungcanceracvssccgeo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lungcanceracvssccgeo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lungcanceracvssccgeo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lungcanceracvssccgeo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lungcanceracvssccgeo/README.html
 

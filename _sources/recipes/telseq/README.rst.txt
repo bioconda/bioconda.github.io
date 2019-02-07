@@ -1,54 +1,66 @@
-.. _`telseq`:
+.. title:: Package Recipe 'telseq'
+.. highlight: bash
+
 
 telseq
 ======
 
-|downloads|
+.. conda:recipe:: telseq
+   :replaces_section_title:
 
-A software for calculating telomere length
+   A software for calculating telomere length
 
-============= ===========
-Home          https://github.com/zd1/telseq
-Versions      0.0.2, 0.0.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//telseq/meta.yaml
+   :homepage: https://github.com/zd1/telseq
+   :license: GPL-3
+   :recipe: /`telseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: telseq
 
-Installation
-------------
+   |downloads_telseq| |docker_telseq|
 
-.. highlight: bash
+   :versions: 0.0.2, 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`libgcc-ng` >=4.9 
 
-   conda install telseq
+   :required~by: |required_by_telseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update telseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install telseq
+
+   and update with::
+
+      conda update telseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/telseq
+
+
+.. |required_by_telseq| conda:required_by:: telseq
+.. |downloads_telseq| image:: https://img.shields.io/conda/dn/bioconda/telseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_telseq| image:: https://quay.io/repository/biocontainers/telseq/status
+   :target: https://quay.io/repository/biocontainers/telseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/telseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/telseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/telseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/telseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/telseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/telseq
-.. |docker| image:: https://quay.io/repository/biocontainers/telseq/status
-                :target: https://quay.io/repository/biocontainers/telseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/telseq/README.html
 

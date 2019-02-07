@@ -1,43 +1,63 @@
-.. _`metawatt`:
+.. title:: Package Recipe 'metawatt'
+.. highlight: bash
+
 
 metawatt
 ========
 
-|downloads|
+.. conda:recipe:: metawatt
+   :replaces_section_title:
 
-MetaWatt is a metagenomic binning tool
+   MetaWatt is a metagenomic binning tool
 
-============= ===========
-Home          https://sourceforge.net/projects/metawatt/
-Versions      3.5.3
-License       AFL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metawatt/meta.yaml
+   :homepage: https://sourceforge.net/projects/metawatt/
+   :license: AFL
+   :recipe: /`metawatt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt/meta.yaml>`_
 
-
-
-============= ===========
-
-The Metawatt binner is a graphical binning tool that makes use of
-multivariate statistics of tetranucleotide frequencies and differential
-coverage based binning. It also performs taxonomic assessment of binning
-quality \(via diamond BLASTx\). Created bins can be edited and exported as
-fasta. The Metawatt is implemented in Java SWING and minimally depends on
-Diamond\, HMMer3.1\, BBMap\, Prodigal and the Batik library for the export of
-SVG graphics.
+   The Metawatt binner is a graphical binning tool that makes use of
+   multivariate statistics of tetranucleotide frequencies and differential
+   coverage based binning. It also performs taxonomic assessment of binning
+   quality \(via diamond BLASTx\). Created bins can be edited and exported as
+   fasta. The Metawatt is implemented in Java SWING and minimally depends on
+   Diamond\, HMMer3.1\, BBMap\, Prodigal and the Batik library for the export of
+   SVG graphics.
 
 
-Installation
-------------
 
-.. highlight: bash
+.. conda:package:: metawatt
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   |downloads_metawatt| |docker_metawatt|
 
-   conda install metawatt
+   :versions: 3.5.3
 
-and update with::
+   :depends: :conda:package:`aragorn`  :conda:package:`bbmap`  :conda:package:`blast`  :conda:package:`diamond` 0.7.* :conda:package:`fasttree`  :conda:package:`hmmer`  :conda:package:`mafft`  :conda:package:`openjdk`  :conda:package:`prodigal`  :conda:package:`samtools`  :conda:package:`wget`  
 
-   conda update metawatt
+   :required~by: |required_by_metawatt|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metawatt
+
+   and update with::
+
+      conda update metawatt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metawatt
+
+
+.. |required_by_metawatt| conda:required_by:: metawatt
+.. |downloads_metawatt| image:: https://img.shields.io/conda/dn/bioconda/metawatt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metawatt| image:: https://quay.io/repository/biocontainers/metawatt/status
+   :target: https://quay.io/repository/biocontainers/metawatt
+
+
+
+
 
 
 Notes
@@ -45,21 +65,13 @@ Notes
 metawatt \-\-help
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/metawatt.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metawatt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metawatt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metawatt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metawatt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metawatt
-.. |docker| image:: https://quay.io/repository/biocontainers/metawatt/status
-                :target: https://quay.io/repository/biocontainers/metawatt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metawatt/README.html
 

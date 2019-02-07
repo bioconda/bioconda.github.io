@@ -1,54 +1,66 @@
-.. _`perl-params-coerce`:
+.. title:: Package Recipe 'perl-params-coerce'
+.. highlight: bash
+
 
 perl-params-coerce
 ==================
 
-|downloads|
+.. conda:recipe:: perl-params-coerce/0.14
+   :replaces_section_title:
 
-Allows your classes to do coercion of parameters
+   Allows your classes to do coercion of parameters
 
-============= ===========
-Home          http://metacpan.org/pod/Params::Coerce
-Versions      0.14
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-params-coerce/0.14/meta.yaml
+   :homepage: http://metacpan.org/pod/Params::Coerce
+   :license: perl_5
+   :recipe: /`perl-params-coerce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce>`_/`0.14 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce/0.14>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce/0.14/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-params-coerce
 
-Installation
-------------
+   |downloads_perl-params-coerce| |docker_perl-params-coerce|
 
-.. highlight: bash
+   :versions: 0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22,<=6.0 :conda:package:`perl-params-util`  
 
-   conda install perl-params-coerce
+   :required~by: |required_by_perl-params-coerce|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-params-coerce
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-params-coerce
+
+   and update with::
+
+      conda update perl-params-coerce
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-params-coerce
+
+
+.. |required_by_perl-params-coerce| conda:required_by:: perl-params-coerce
+.. |downloads_perl-params-coerce| image:: https://img.shields.io/conda/dn/bioconda/perl-params-coerce.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-params-coerce| image:: https://quay.io/repository/biocontainers/perl-params-coerce/status
+   :target: https://quay.io/repository/biocontainers/perl-params-coerce
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-params-coerce.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-params-coerce/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-params-coerce/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-params-coerce/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-params-coerce/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-params-coerce
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-params-coerce/status
-                :target: https://quay.io/repository/biocontainers/perl-params-coerce
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-params-coerce/README.html
 

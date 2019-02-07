@@ -1,54 +1,66 @@
-.. _`perl-date-format`:
+.. title:: Package Recipe 'perl-date-format'
+.. highlight: bash
+
 
 perl-date-format
 ================
 
-|downloads|
+.. conda:recipe:: perl-date-format/2.30
+   :replaces_section_title:
 
-Date formating subroutines
+   Date formating subroutines
 
-============= ===========
-Home          http://metacpan.org/pod/Date::Format
-Versions      2.30
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-date-format/2.30/meta.yaml
+   :homepage: http://metacpan.org/pod/Date::Format
+   :license: perl_5
+   :recipe: /`perl-date-format <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-format>`_/`2.30 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-format/2.30>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-format/2.30/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-date-format
 
-Installation
-------------
+   |downloads_perl-date-format| |docker_perl-date-format|
 
-.. highlight: bash
+   :versions: 2.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-date-format
+   :required~by: |required_by_perl-date-format|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-date-format
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-date-format
+
+   and update with::
+
+      conda update perl-date-format
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-date-format
+
+
+.. |required_by_perl-date-format| conda:required_by:: perl-date-format
+.. |downloads_perl-date-format| image:: https://img.shields.io/conda/dn/bioconda/perl-date-format.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-date-format| image:: https://quay.io/repository/biocontainers/perl-date-format/status
+   :target: https://quay.io/repository/biocontainers/perl-date-format
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-date-format.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-date-format/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-date-format/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-date-format/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-date-format/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-date-format
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-date-format/status
-                :target: https://quay.io/repository/biocontainers/perl-date-format
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-date-format/README.html
 

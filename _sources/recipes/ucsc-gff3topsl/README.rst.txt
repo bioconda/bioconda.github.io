@@ -1,54 +1,66 @@
-.. _`ucsc-gff3topsl`:
+.. title:: Package Recipe 'ucsc-gff3topsl'
+.. highlight: bash
+
 
 ucsc-gff3topsl
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-gff3topsl
+   :replaces_section_title:
 
-convert a GFF3 CIGAR file to a PSL file
+   convert a GFF3 CIGAR file to a PSL file
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-gff3topsl/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-gff3topsl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gff3topsl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gff3topsl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-gff3topsl
 
-Installation
-------------
+   |downloads_ucsc-gff3topsl| |docker_ucsc-gff3topsl|
 
-.. highlight: bash
+   :versions: 366, 357, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-gff3topsl
+   :required~by: |required_by_ucsc-gff3topsl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-gff3topsl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-gff3topsl
+
+   and update with::
+
+      conda update ucsc-gff3topsl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-gff3topsl
+
+
+.. |required_by_ucsc-gff3topsl| conda:required_by:: ucsc-gff3topsl
+.. |downloads_ucsc-gff3topsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gff3topsl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-gff3topsl| image:: https://quay.io/repository/biocontainers/ucsc-gff3topsl/status
+   :target: https://quay.io/repository/biocontainers/ucsc-gff3topsl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-gff3topsl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-gff3topsl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-gff3topsl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-gff3topsl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-gff3topsl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-gff3topsl
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-gff3topsl/status
-                :target: https://quay.io/repository/biocontainers/ucsc-gff3topsl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-gff3topsl/README.html
 

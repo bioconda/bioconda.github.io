@@ -1,54 +1,66 @@
-.. _`np-likeness-scorer`:
+.. title:: Package Recipe 'np-likeness-scorer'
+.. highlight: bash
+
 
 np-likeness-scorer
 ==================
 
-|downloads|
+.. conda:recipe:: np-likeness-scorer
+   :replaces_section_title:
 
-Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity of the molecule to the structure space covered by known natural products. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
+   Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity of the molecule to the structure space covered by known natural products. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
 
-============= ===========
-Home          https://sourceforge.net/projects/np-likeness/
-Versions      2.1
-License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//np-likeness-scorer/meta.yaml
+   :homepage: https://sourceforge.net/projects/np-likeness/
+   :license: None
+   :recipe: /`np-likeness-scorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: np-likeness-scorer
 
-Installation
-------------
+   |downloads_np-likeness-scorer| |docker_np-likeness-scorer|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`python` 2.7* 
 
-   conda install np-likeness-scorer
+   :required~by: |required_by_np-likeness-scorer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update np-likeness-scorer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install np-likeness-scorer
+
+   and update with::
+
+      conda update np-likeness-scorer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/np-likeness-scorer
+
+
+.. |required_by_np-likeness-scorer| conda:required_by:: np-likeness-scorer
+.. |downloads_np-likeness-scorer| image:: https://img.shields.io/conda/dn/bioconda/np-likeness-scorer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_np-likeness-scorer| image:: https://quay.io/repository/biocontainers/np-likeness-scorer/status
+   :target: https://quay.io/repository/biocontainers/np-likeness-scorer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/np-likeness-scorer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/np-likeness-scorer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/np-likeness-scorer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/np-likeness-scorer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/np-likeness-scorer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/np-likeness-scorer
-.. |docker| image:: https://quay.io/repository/biocontainers/np-likeness-scorer/status
-                :target: https://quay.io/repository/biocontainers/np-likeness-scorer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/np-likeness-scorer/README.html
 

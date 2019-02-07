@@ -1,54 +1,66 @@
-.. _`helperlibs`:
+.. title:: Package Recipe 'helperlibs'
+.. highlight: bash
+
 
 helperlibs
 ==========
 
-|downloads|
+.. conda:recipe:: helperlibs
+   :replaces_section_title:
 
-A collection of bioinformatics\-related helper functions
+   A collection of bioinformatics\-related helper functions
 
-============= ===========
-Home          https://github.com/kblin/bioinf-helperlibs
-Versions      0.1.9, 0.1.8
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//helperlibs/meta.yaml
+   :homepage: https://github.com/kblin/bioinf-helperlibs
+   :license: GPL / GPL-3.0
+   :recipe: /`helperlibs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: helperlibs
 
-Installation
-------------
+   |downloads_helperlibs| |docker_helperlibs|
 
-.. highlight: bash
+   :versions: 0.1.9, 0.1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.62 :conda:package:`python`  
 
-   conda install helperlibs
+   :required~by: |required_by_helperlibs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update helperlibs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install helperlibs
+
+   and update with::
+
+      conda update helperlibs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/helperlibs
+
+
+.. |required_by_helperlibs| conda:required_by:: helperlibs
+.. |downloads_helperlibs| image:: https://img.shields.io/conda/dn/bioconda/helperlibs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_helperlibs| image:: https://quay.io/repository/biocontainers/helperlibs/status
+   :target: https://quay.io/repository/biocontainers/helperlibs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/helperlibs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/helperlibs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/helperlibs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/helperlibs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/helperlibs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/helperlibs
-.. |docker| image:: https://quay.io/repository/biocontainers/helperlibs/status
-                :target: https://quay.io/repository/biocontainers/helperlibs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/helperlibs/README.html
 

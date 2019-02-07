@@ -1,54 +1,66 @@
-.. _`pytest-timeout`:
+.. title:: Package Recipe 'pytest-timeout'
+.. highlight: bash
+
 
 pytest-timeout
 ==============
 
-|downloads|
+.. conda:recipe:: pytest-timeout
+   :replaces_section_title:
 
-py.test plugin to abort hanging tests
+   py.test plugin to abort hanging tests
 
-============= ===========
-Home          http://bitbucket.org/pytest-dev/pytest-timeout/
-Versions      1.0.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pytest-timeout/meta.yaml
+   :homepage: http://bitbucket.org/pytest-dev/pytest-timeout/
+   :license: MIT License
+   :recipe: /`pytest-timeout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-timeout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-timeout/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pytest-timeout
 
-Installation
-------------
+   |downloads_pytest-timeout| |docker_pytest-timeout|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pytest` >=2.8.0 :conda:package:`python` 2.7* :conda:package:`setuptools`  
 
-   conda install pytest-timeout
+   :required~by: |required_by_pytest-timeout|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pytest-timeout
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pytest-timeout
+
+   and update with::
+
+      conda update pytest-timeout
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pytest-timeout
+
+
+.. |required_by_pytest-timeout| conda:required_by:: pytest-timeout
+.. |downloads_pytest-timeout| image:: https://img.shields.io/conda/dn/bioconda/pytest-timeout.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pytest-timeout| image:: https://quay.io/repository/biocontainers/pytest-timeout/status
+   :target: https://quay.io/repository/biocontainers/pytest-timeout
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pytest-timeout.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pytest-timeout/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pytest-timeout/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pytest-timeout/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pytest-timeout/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pytest-timeout
-.. |docker| image:: https://quay.io/repository/biocontainers/pytest-timeout/status
-                :target: https://quay.io/repository/biocontainers/pytest-timeout
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pytest-timeout/README.html
 

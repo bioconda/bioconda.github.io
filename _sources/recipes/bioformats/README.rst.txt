@@ -1,54 +1,66 @@
-.. _`bioformats`:
+.. title:: Package Recipe 'bioformats'
+.. highlight: bash
+
 
 bioformats
 ==========
 
-|downloads|
+.. conda:recipe:: bioformats
+   :replaces_section_title:
 
-A collection of Python classes to handle bioinformatics data.
+   A collection of Python classes to handle bioinformatics data.
 
-============= ===========
-Home          https://github.com/gtamazian/bioformats
-Versions      0.1.15
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioformats/meta.yaml
+   :homepage: https://github.com/gtamazian/bioformats
+   :license: MIT
+   :recipe: /`bioformats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioformats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioformats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioformats
 
-Installation
-------------
+   |downloads_bioformats| |docker_bioformats|
 
-.. highlight: bash
+   :versions: 0.1.15
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`pyfaidx`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  
 
-   conda install bioformats
+   :required~by: |required_by_bioformats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioformats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioformats
+
+   and update with::
+
+      conda update bioformats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioformats
+
+
+.. |required_by_bioformats| conda:required_by:: bioformats
+.. |downloads_bioformats| image:: https://img.shields.io/conda/dn/bioconda/bioformats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioformats| image:: https://quay.io/repository/biocontainers/bioformats/status
+   :target: https://quay.io/repository/biocontainers/bioformats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioformats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioformats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioformats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioformats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioformats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioformats
-.. |docker| image:: https://quay.io/repository/biocontainers/bioformats/status
-                :target: https://quay.io/repository/biocontainers/bioformats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioformats/README.html
 

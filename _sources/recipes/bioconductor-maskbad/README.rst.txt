@@ -1,56 +1,67 @@
-.. _`bioconductor-maskbad`:
+.. title:: Package Recipe 'bioconductor-maskbad'
+.. highlight: bash
+
 
 bioconductor-maskbad
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-maskbad
+   :replaces_section_title:
 
-Package includes functions to analyze and mask microarray expression data.
+   Package includes functions to analyze and mask microarray expression data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/maskBAD.html
-Versions      1.26.0, 1.24.0, 1.22.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-maskbad/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/maskBAD.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-maskbad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maskbad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maskbad/meta.yaml>`_
+   :links: biotools: :biotools:`maskbad`, doi: :doi:`10.1093/bioinformatics/btp492`
 
-
-
-Links         biotools: :biotools:`maskbad`, doi: :doi:`10.1093/bioinformatics/btp492`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-maskbad
 
-Installation
-------------
+   |downloads_bioconductor-maskbad| |docker_bioconductor-maskbad|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-gcrma` >=2.54.0,<2.55.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-maskbad
+   :required~by: |required_by_bioconductor-maskbad|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-maskbad
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-maskbad
+
+   and update with::
+
+      conda update bioconductor-maskbad
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-maskbad
+
+
+.. |required_by_bioconductor-maskbad| conda:required_by:: bioconductor-maskbad
+.. |downloads_bioconductor-maskbad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maskbad.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-maskbad| image:: https://quay.io/repository/biocontainers/bioconductor-maskbad/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-maskbad
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-maskbad.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-maskbad/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-maskbad/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-maskbad/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-maskbad/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-maskbad
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-maskbad/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-maskbad
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-maskbad/README.html
 

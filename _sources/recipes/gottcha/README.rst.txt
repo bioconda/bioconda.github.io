@@ -1,54 +1,66 @@
-.. _`gottcha`:
+.. title:: Package Recipe 'gottcha'
+.. highlight: bash
+
 
 gottcha
 =======
 
-|downloads|
+.. conda:recipe:: gottcha
+   :replaces_section_title:
 
-Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\)
+   Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\)
 
-============= ===========
-Home          https://github.com/LANL-Bioinformatics/GOTTCHA
-Versions      1.0
-License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gottcha/meta.yaml
+   :homepage: https://github.com/LANL-Bioinformatics/GOTTCHA
+   :license: GNU GPL v3
+   :recipe: /`gottcha <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gottcha
 
-Installation
-------------
+   |downloads_gottcha| |docker_gottcha|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bwa`  :conda:package:`perl-threaded`  
 
-   conda install gottcha
+   :required~by: |required_by_gottcha|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gottcha
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gottcha
+
+   and update with::
+
+      conda update gottcha
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gottcha
+
+
+.. |required_by_gottcha| conda:required_by:: gottcha
+.. |downloads_gottcha| image:: https://img.shields.io/conda/dn/bioconda/gottcha.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gottcha| image:: https://quay.io/repository/biocontainers/gottcha/status
+   :target: https://quay.io/repository/biocontainers/gottcha
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gottcha.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gottcha/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gottcha/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gottcha/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gottcha/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gottcha
-.. |docker| image:: https://quay.io/repository/biocontainers/gottcha/status
-                :target: https://quay.io/repository/biocontainers/gottcha
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gottcha/README.html
 

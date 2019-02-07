@@ -1,56 +1,67 @@
-.. _`bioconductor-ihw`:
+.. title:: Package Recipe 'bioconductor-ihw'
+.. highlight: bash
+
 
 bioconductor-ihw
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-ihw
+   :replaces_section_title:
 
-Independent hypothesis weighting \(IHW\) is a multiple testing procedure that increases power compared to the method of Benjamini and Hochberg by assigning data\-driven weights to each hypothesis. The input to IHW is a two\-column table of p\-values and covariates. The covariate can be any continuous\-valued or categorical variable that is thought to be informative on the statistical properties of each hypothesis test\, while it is independent of the p\-value under the null hypothesis.
+   Independent hypothesis weighting \(IHW\) is a multiple testing procedure that increases power compared to the method of Benjamini and Hochberg by assigning data\-driven weights to each hypothesis. The input to IHW is a two\-column table of p\-values and covariates. The covariate can be any continuous\-valued or categorical variable that is thought to be informative on the statistical properties of each hypothesis test\, while it is independent of the p\-value under the null hypothesis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/IHW.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ihw/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IHW.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ihw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihw/meta.yaml>`_
+   :links: biotools: :biotools:`IHW`, doi: :doi:`10.1038/nmeth.3885`
 
-
-
-Links         biotools: :biotools:`IHW`, doi: :doi:`10.1038/nmeth.3885`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ihw
 
-Installation
-------------
+   |downloads_bioconductor-ihw| |docker_bioconductor-ihw|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-lpsymphony` >=1.10.0,<1.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fdrtool`  :conda:package:`r-slam`  
 
-   conda install bioconductor-ihw
+   :required~by: |required_by_bioconductor-ihw|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ihw
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ihw
+
+   and update with::
+
+      conda update bioconductor-ihw
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ihw
+
+
+.. |required_by_bioconductor-ihw| conda:required_by:: bioconductor-ihw
+.. |downloads_bioconductor-ihw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ihw.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ihw| image:: https://quay.io/repository/biocontainers/bioconductor-ihw/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ihw
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ihw.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ihw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ihw/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ihw/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ihw/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ihw
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ihw/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ihw
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ihw/README.html
 

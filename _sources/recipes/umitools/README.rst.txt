@@ -1,56 +1,67 @@
-.. _`umitools`:
+.. title:: Package Recipe 'umitools'
+.. highlight: bash
+
 
 umitools
 ========
 
-|downloads|
+.. conda:recipe:: umitools
+   :replaces_section_title:
 
-A toolset for handling sequencing data with unique molecular identifiers \(UMIs\)
+   A toolset for handling sequencing data with unique molecular identifiers \(UMIs\)
 
-============= ===========
-Home          https://github.com/weng-lab/umitools
-Versions      0.3.4, 0.3.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//umitools/meta.yaml
+   :homepage: https://github.com/weng-lab/umitools
+   :license: GPL3
+   :recipe: /`umitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umitools/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12864-018-4933-1`
 
-
-
-Links         doi: :doi:`10.1186/s12864-018-4933-1`
-
-============= ===========
+   
 
 
+.. conda:package:: umitools
 
-Installation
-------------
+   |downloads_umitools| |docker_umitools|
 
-.. highlight: bash
+   :versions: 0.3.4, 0.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`editdistance`  :conda:package:`networkx`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 
 
-   conda install umitools
+   :required~by: |required_by_umitools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update umitools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install umitools
+
+   and update with::
+
+      conda update umitools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/umitools
+
+
+.. |required_by_umitools| conda:required_by:: umitools
+.. |downloads_umitools| image:: https://img.shields.io/conda/dn/bioconda/umitools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_umitools| image:: https://quay.io/repository/biocontainers/umitools/status
+   :target: https://quay.io/repository/biocontainers/umitools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/umitools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/umitools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/umitools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/umitools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/umitools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/umitools
-.. |docker| image:: https://quay.io/repository/biocontainers/umitools/status
-                :target: https://quay.io/repository/biocontainers/umitools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/umitools/README.html
 

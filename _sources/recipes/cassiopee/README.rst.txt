@@ -1,54 +1,66 @@
-.. _`cassiopee`:
+.. title:: Package Recipe 'cassiopee'
+.. highlight: bash
+
 
 cassiopee
 =========
 
-|downloads|
+.. conda:recipe:: cassiopee
+   :replaces_section_title:
 
-scan an input genomic sequence \(dna\/rna\/protein\) and search for a subsequence with exact match or allowing substitutions \(Hamming distance\) and\/or insertion\/deletions
+   scan an input genomic sequence \(dna\/rna\/protein\) and search for a subsequence with exact match or allowing substitutions \(Hamming distance\) and\/or insertion\/deletions
 
-============= ===========
-Home          https://github.com/osallou/cassiopee-c
-Versions      1.0.5
-License       GPL-3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cassiopee/meta.yaml
+   :homepage: https://github.com/osallou/cassiopee-c
+   :license: GPL-3+
+   :recipe: /`cassiopee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopee/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cassiopee
 
-Installation
-------------
+   |downloads_cassiopee| |docker_cassiopee|
 
-.. highlight: bash
+   :versions: 1.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` ==1.64 :conda:package:`bzip2` 1.0.* :conda:package:`glog`  :conda:package:`icu` 58.* :conda:package:`libgcc`  :conda:package:`zlib` ==1.2.8 
 
-   conda install cassiopee
+   :required~by: |required_by_cassiopee|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cassiopee
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cassiopee
+
+   and update with::
+
+      conda update cassiopee
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cassiopee
+
+
+.. |required_by_cassiopee| conda:required_by:: cassiopee
+.. |downloads_cassiopee| image:: https://img.shields.io/conda/dn/bioconda/cassiopee.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cassiopee| image:: https://quay.io/repository/biocontainers/cassiopee/status
+   :target: https://quay.io/repository/biocontainers/cassiopee
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cassiopee.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cassiopee/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cassiopee/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cassiopee/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cassiopee/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cassiopee
-.. |docker| image:: https://quay.io/repository/biocontainers/cassiopee/status
-                :target: https://quay.io/repository/biocontainers/cassiopee
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cassiopee/README.html
 

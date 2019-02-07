@@ -1,54 +1,66 @@
-.. _`perl-probe-perl`:
+.. title:: Package Recipe 'perl-probe-perl'
+.. highlight: bash
+
 
 perl-probe-perl
 ===============
 
-|downloads|
+.. conda:recipe:: perl-probe-perl
+   :replaces_section_title:
 
-Information about the currently running perl
+   Information about the currently running perl
 
-============= ===========
-Home          http://metacpan.org/pod/Probe::Perl
-Versions      0.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-probe-perl/meta.yaml
+   :homepage: http://metacpan.org/pod/Probe::Perl
+   :license: perl_5
+   :recipe: /`perl-probe-perl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-probe-perl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-probe-perl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-probe-perl
 
-Installation
-------------
+   |downloads_perl-probe-perl| |docker_perl-probe-perl|
 
-.. highlight: bash
+   :versions: 0.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-probe-perl
+   :required~by: |required_by_perl-probe-perl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-probe-perl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-probe-perl
+
+   and update with::
+
+      conda update perl-probe-perl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-probe-perl
+
+
+.. |required_by_perl-probe-perl| conda:required_by:: perl-probe-perl
+.. |downloads_perl-probe-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-probe-perl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-probe-perl| image:: https://quay.io/repository/biocontainers/perl-probe-perl/status
+   :target: https://quay.io/repository/biocontainers/perl-probe-perl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-probe-perl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-probe-perl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-probe-perl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-probe-perl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-probe-perl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-probe-perl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-probe-perl/status
-                :target: https://quay.io/repository/biocontainers/perl-probe-perl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-probe-perl/README.html
 

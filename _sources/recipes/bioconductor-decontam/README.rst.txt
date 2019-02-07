@@ -1,54 +1,66 @@
-.. _`bioconductor-decontam`:
+.. title:: Package Recipe 'bioconductor-decontam'
+.. highlight: bash
+
 
 bioconductor-decontam
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-decontam
+   :replaces_section_title:
 
-Simple statistical identification of contaminating sequence features in marker\-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data \(e.g. ASVs\, OTUs\, taxonomic groups\, MAGs\,...\). Requires DNA quantitation data or sequenced negative control samples.
+   Simple statistical identification of contaminating sequence features in marker\-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data \(e.g. ASVs\, OTUs\, taxonomic groups\, MAGs\,...\). Requires DNA quantitation data or sequenced negative control samples.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/decontam.html
-Versions      1.2.1, 1.0.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-decontam/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/decontam.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-decontam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-decontam
 
-Installation
-------------
+   |downloads_bioconductor-decontam| |docker_bioconductor-decontam|
 
-.. highlight: bash
+   :versions: 1.2.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-reshape2` >=1.4.1 
 
-   conda install bioconductor-decontam
+   :required~by: |required_by_bioconductor-decontam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-decontam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-decontam
+
+   and update with::
+
+      conda update bioconductor-decontam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-decontam
+
+
+.. |required_by_bioconductor-decontam| conda:required_by:: bioconductor-decontam
+.. |downloads_bioconductor-decontam| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-decontam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-decontam| image:: https://quay.io/repository/biocontainers/bioconductor-decontam/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-decontam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-decontam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-decontam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-decontam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-decontam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-decontam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-decontam
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-decontam/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-decontam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-decontam/README.html
 

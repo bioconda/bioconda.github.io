@@ -1,54 +1,66 @@
-.. _`bxtools`:
+.. title:: Package Recipe 'bxtools'
+.. highlight: bash
+
 
 bxtools
 =======
 
-|downloads|
+.. conda:recipe:: bxtools
+   :replaces_section_title:
 
-Tools for analyzing 10X Genomics data
+   Tools for analyzing 10X Genomics data
 
-============= ===========
-Home          https://github.com/walaj/bxtools
-Versions      0.1.0, 0.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bxtools/meta.yaml
+   :homepage: https://github.com/walaj/bxtools
+   :license: GPLv3
+   :recipe: /`bxtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bxtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bxtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bxtools
 
-Installation
-------------
+   |downloads_bxtools| |docker_bxtools|
 
-.. highlight: bash
+   :versions: 0.1.0, 0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`xz` >=5.2.3,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bxtools
+   :required~by: |required_by_bxtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bxtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bxtools
+
+   and update with::
+
+      conda update bxtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bxtools
+
+
+.. |required_by_bxtools| conda:required_by:: bxtools
+.. |downloads_bxtools| image:: https://img.shields.io/conda/dn/bioconda/bxtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bxtools| image:: https://quay.io/repository/biocontainers/bxtools/status
+   :target: https://quay.io/repository/biocontainers/bxtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bxtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bxtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bxtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bxtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bxtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bxtools
-.. |docker| image:: https://quay.io/repository/biocontainers/bxtools/status
-                :target: https://quay.io/repository/biocontainers/bxtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bxtools/README.html
 

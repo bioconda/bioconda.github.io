@@ -1,56 +1,67 @@
-.. _`bioconductor-bcrank`:
+.. title:: Package Recipe 'bioconductor-bcrank'
+.. highlight: bash
+
 
 bioconductor-bcrank
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-bcrank
+   :replaces_section_title:
 
-Functions and classes for de novo prediction of transcription factor binding consensus by heuristic search
+   Functions and classes for de novo prediction of transcription factor binding consensus by heuristic search
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BCRANK.html
-Versions      1.44.0, 1.42.0, 1.40.0, 1.38.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bcrank/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BCRANK.html
+   :license: GPL-2
+   :recipe: /`bioconductor-bcrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank/meta.yaml>`_
+   :links: biotools: :biotools:`bcrank`, doi: :doi:`10.1093/nar/gkp381`
 
-
-
-Links         biotools: :biotools:`bcrank`, doi: :doi:`10.1093/nar/gkp381`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bcrank
 
-Installation
-------------
+   |downloads_bioconductor-bcrank| |docker_bioconductor-bcrank|
 
-.. highlight: bash
+   :versions: 1.44.0, 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-bcrank
+   :required~by: |required_by_bioconductor-bcrank|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bcrank
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bcrank
+
+   and update with::
+
+      conda update bioconductor-bcrank
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bcrank
+
+
+.. |required_by_bioconductor-bcrank| conda:required_by:: bioconductor-bcrank
+.. |downloads_bioconductor-bcrank| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bcrank.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bcrank| image:: https://quay.io/repository/biocontainers/bioconductor-bcrank/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bcrank
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bcrank.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bcrank/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bcrank/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bcrank/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bcrank/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bcrank
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bcrank/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bcrank
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bcrank/README.html
 

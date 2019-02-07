@@ -1,54 +1,66 @@
-.. _`strip_it`:
+.. title:: Package Recipe 'strip_it'
+.. highlight: bash
+
 
 strip_it
 ========
 
-|downloads|
+.. conda:recipe:: strip-it/1.0.2
+   :replaces_section_title:
 
-Strip\-it is a program that extracts predefined scaffolds from organic small molecules.
+   Strip\-it is a program that extracts predefined scaffolds from organic small molecules.
 
-============= ===========
-Home          http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/strip-it/1.0.2/strip-it.html
-Versions      1.0.2
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//strip-it/1.0.2/meta.yaml
+   :homepage: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/strip-it/1.0.2/strip-it.html
+   :license: LGPL
+   :recipe: /`strip-it <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip-it>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip-it/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip-it/1.0.2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: strip_it
 
-Installation
-------------
+   |downloads_strip_it| |docker_strip_it|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openbabel`  
 
-   conda install strip_it
+   :required~by: |required_by_strip_it|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update strip_it
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install strip_it
+
+   and update with::
+
+      conda update strip_it
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/strip_it
+
+
+.. |required_by_strip_it| conda:required_by:: strip_it
+.. |downloads_strip_it| image:: https://img.shields.io/conda/dn/bioconda/strip_it.svg?style=flat
+   :alt:   (downloads)
+.. |docker_strip_it| image:: https://quay.io/repository/biocontainers/strip_it/status
+   :target: https://quay.io/repository/biocontainers/strip_it
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/strip_it.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/strip_it/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/strip_it/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/strip_it/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/strip_it/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/strip_it
-.. |docker| image:: https://quay.io/repository/biocontainers/strip_it/status
-                :target: https://quay.io/repository/biocontainers/strip_it
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/strip_it/README.html
 

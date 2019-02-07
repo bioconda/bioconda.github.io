@@ -1,54 +1,66 @@
-.. _`perl-moosex-singleton`:
+.. title:: Package Recipe 'perl-moosex-singleton'
+.. highlight: bash
+
 
 perl-moosex-singleton
 =====================
 
-|downloads|
+.. conda:recipe:: perl-moosex-singleton
+   :replaces_section_title:
 
-Turn your Moose class into a singleton
+   Turn your Moose class into a singleton
 
-============= ===========
-Home          https://github.com/moose/MooseX-Singleton
-Versions      0.30
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-singleton/meta.yaml
+   :homepage: https://github.com/moose/MooseX-Singleton
+   :license: perl_5
+   :recipe: /`perl-moosex-singleton <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-singleton>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-singleton/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-moosex-singleton
 
-Installation
-------------
+   |downloads_perl-moosex-singleton| |docker_perl-moosex-singleton|
 
-.. highlight: bash
+   :versions: 0.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-moose`  
 
-   conda install perl-moosex-singleton
+   :required~by: |required_by_perl-moosex-singleton|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-moosex-singleton
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-moosex-singleton
+
+   and update with::
+
+      conda update perl-moosex-singleton
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-moosex-singleton
+
+
+.. |required_by_perl-moosex-singleton| conda:required_by:: perl-moosex-singleton
+.. |downloads_perl-moosex-singleton| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-singleton.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-moosex-singleton| image:: https://quay.io/repository/biocontainers/perl-moosex-singleton/status
+   :target: https://quay.io/repository/biocontainers/perl-moosex-singleton
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-moosex-singleton.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-moosex-singleton/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-moosex-singleton/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-moosex-singleton/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-moosex-singleton/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-moosex-singleton
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-singleton/status
-                :target: https://quay.io/repository/biocontainers/perl-moosex-singleton
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-moosex-singleton/README.html
 

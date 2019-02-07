@@ -1,54 +1,66 @@
-.. _`bioconductor-mimosa`:
+.. title:: Package Recipe 'bioconductor-mimosa'
+.. highlight: bash
+
 
 bioconductor-mimosa
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-mimosa
+   :replaces_section_title:
 
-Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures with applications to single\-cell assays.
+   Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures with applications to single\-cell assays.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MIMOSA.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mimosa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MIMOSA.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mimosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mimosa
 
-Installation
-------------
+   |downloads_bioconductor-mimosa| |docker_bioconductor-mimosa|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-data.table`  :conda:package:`r-formula`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-mcmcpack`  :conda:package:`r-modeest`  :conda:package:`r-plyr`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape`  :conda:package:`r-scales`  :conda:package:`r-testthat`  
 
-   conda install bioconductor-mimosa
+   :required~by: |required_by_bioconductor-mimosa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mimosa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mimosa
+
+   and update with::
+
+      conda update bioconductor-mimosa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mimosa
+
+
+.. |required_by_bioconductor-mimosa| conda:required_by:: bioconductor-mimosa
+.. |downloads_bioconductor-mimosa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mimosa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mimosa| image:: https://quay.io/repository/biocontainers/bioconductor-mimosa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mimosa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mimosa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mimosa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mimosa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mimosa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mimosa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mimosa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mimosa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mimosa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mimosa/README.html
 

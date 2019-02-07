@@ -1,54 +1,66 @@
-.. _`bioconductor-riceprobe`:
+.. title:: Package Recipe 'bioconductor-riceprobe'
+.. highlight: bash
+
 
 bioconductor-riceprobe
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-riceprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rice\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rice\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/riceprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-riceprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/riceprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-riceprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-riceprobe
 
-Installation
-------------
+   |downloads_bioconductor-riceprobe| |docker_bioconductor-riceprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-riceprobe
+   :required~by: |required_by_bioconductor-riceprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-riceprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-riceprobe
+
+   and update with::
+
+      conda update bioconductor-riceprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-riceprobe
+
+
+.. |required_by_bioconductor-riceprobe| conda:required_by:: bioconductor-riceprobe
+.. |downloads_bioconductor-riceprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-riceprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-riceprobe| image:: https://quay.io/repository/biocontainers/bioconductor-riceprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-riceprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-riceprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-riceprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-riceprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-riceprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-riceprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-riceprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-riceprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-riceprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-riceprobe/README.html
 

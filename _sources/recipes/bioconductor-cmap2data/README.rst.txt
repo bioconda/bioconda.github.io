@@ -1,54 +1,66 @@
-.. _`bioconductor-cmap2data`:
+.. title:: Package Recipe 'bioconductor-cmap2data'
+.. highlight: bash
+
 
 bioconductor-cmap2data
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cmap2data
+   :replaces_section_title:
 
-Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
+   Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/cMap2data.html
-Versions      1.18.0, 1.16.0, 1.14.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cmap2data/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/cMap2data.html
+   :license: GPL-3
+   :recipe: /`bioconductor-cmap2data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cmap2data
 
-Installation
-------------
+   |downloads_bioconductor-cmap2data| |docker_bioconductor-cmap2data|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-cmap2data
+   :required~by: |required_by_bioconductor-cmap2data|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cmap2data
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cmap2data
+
+   and update with::
+
+      conda update bioconductor-cmap2data
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cmap2data
+
+
+.. |required_by_bioconductor-cmap2data| conda:required_by:: bioconductor-cmap2data
+.. |downloads_bioconductor-cmap2data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cmap2data.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cmap2data| image:: https://quay.io/repository/biocontainers/bioconductor-cmap2data/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cmap2data
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cmap2data.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cmap2data/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cmap2data/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cmap2data/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cmap2data/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cmap2data
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cmap2data/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cmap2data
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cmap2data/README.html
 

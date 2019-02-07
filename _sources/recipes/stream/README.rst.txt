@@ -1,54 +1,66 @@
-.. _`stream`:
+.. title:: Package Recipe 'stream'
+.. highlight: bash
+
 
 stream
 ======
 
-|downloads|
+.. conda:recipe:: stream
+   :replaces_section_title:
 
-STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data http\:\/\/stream.pinellolab.org
+   STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data http\:\/\/stream.pinellolab.org
 
-============= ===========
-Home          https://github.com/pinellolab/STREAM
-Versions      0.3.4, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0
-License       Affero
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stream/meta.yaml
+   :homepage: https://github.com/pinellolab/STREAM
+   :license: Affero
+   :recipe: /`stream <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stream>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stream/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: stream
 
-Installation
-------------
+   |downloads_stream| |docker_stream|
 
-.. highlight: bash
+   :versions: 0.3.4, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`anndata`  :conda:package:`gunicorn`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`matplotlib`  :conda:package:`networkx` 2.1.* :conda:package:`numpy`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`python-slugify`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-distutils`  :conda:package:`r-elpigraph.r`  :conda:package:`r-essentials`  :conda:package:`r-igraph`  :conda:package:`r-kernsmooth`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-vgam`  :conda:package:`r-xml`  :conda:package:`rpy2`  :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`shapely`  :conda:package:`statsmodels`  :conda:package:`umap-learn`  :conda:package:`unzip`  :conda:package:`zip`  
 
-   conda install stream
+   :required~by: |required_by_stream|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update stream
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install stream
+
+   and update with::
+
+      conda update stream
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/stream
+
+
+.. |required_by_stream| conda:required_by:: stream
+.. |downloads_stream| image:: https://img.shields.io/conda/dn/bioconda/stream.svg?style=flat
+   :alt:   (downloads)
+.. |docker_stream| image:: https://quay.io/repository/biocontainers/stream/status
+   :target: https://quay.io/repository/biocontainers/stream
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/stream.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/stream/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/stream/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/stream/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/stream/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/stream
-.. |docker| image:: https://quay.io/repository/biocontainers/stream/status
-                :target: https://quay.io/repository/biocontainers/stream
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/stream/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-prebs`:
+.. title:: Package Recipe 'bioconductor-prebs'
+.. highlight: bash
+
 
 bioconductor-prebs
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-prebs
+   :replaces_section_title:
 
-The prebs package aims at making RNA\-sequencing \(RNA\-seq\) data more comparable to microarray data. The comparability is achieved by summarizing sequencing\-based expressions of probe regions using a modified version of RMA algorithm. The pipeline takes mapped reads in BAM format as an input and produces either gene expressions or original microarray probe set expressions as an output.
+   The prebs package aims at making RNA\-sequencing \(RNA\-seq\) data more comparable to microarray data. The comparability is achieved by summarizing sequencing\-based expressions of probe regions using a modified version of RMA algorithm. The pipeline takes mapped reads in BAM format as an input and produces either gene expressions or original microarray probe set expressions as an output.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/prebs.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prebs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/prebs.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-prebs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebs/meta.yaml>`_
+   :links: biotools: :biotools:`prebs`
 
-
-
-Links         biotools: :biotools:`prebs`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-prebs
 
-Installation
-------------
+   |downloads_bioconductor-prebs| |docker_bioconductor-prebs|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rpa` >=1.38.0,<1.39.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-prebs
+   :required~by: |required_by_bioconductor-prebs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-prebs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-prebs
+
+   and update with::
+
+      conda update bioconductor-prebs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-prebs
+
+
+.. |required_by_bioconductor-prebs| conda:required_by:: bioconductor-prebs
+.. |downloads_bioconductor-prebs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prebs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-prebs| image:: https://quay.io/repository/biocontainers/bioconductor-prebs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-prebs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-prebs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-prebs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-prebs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-prebs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-prebs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-prebs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prebs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-prebs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-prebs/README.html
 

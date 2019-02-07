@@ -1,54 +1,66 @@
-.. _`scnic`:
+.. title:: Package Recipe 'scnic'
+.. highlight: bash
+
 
 scnic
 =====
 
-|downloads|
+.. conda:recipe:: scnic
+   :replaces_section_title:
 
-SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
+   SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
 
-============= ===========
-Home          https://github.com/shafferm/SCNIC
-Versions      0.6.0, 0.5.3, 0.5.1
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scnic/meta.yaml
+   :homepage: https://github.com/shafferm/SCNIC
+   :license: BSD
+   :recipe: /`scnic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: scnic
 
-Installation
-------------
+   |downloads_scnic| |docker_scnic|
 
-.. highlight: bash
+   :versions: 0.6.0, 0.5.3, 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`armadillo` 8.* :conda:package:`biom-format`  :conda:package:`fastspar` 0.0.6.* :conda:package:`h5py`  :conda:package:`matplotlib`  :conda:package:`networkx` >2 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3 :conda:package:`scikit-bio`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`statsmodels`  :conda:package:`tqdm`  
 
-   conda install scnic
+   :required~by: |required_by_scnic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update scnic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install scnic
+
+   and update with::
+
+      conda update scnic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/scnic
+
+
+.. |required_by_scnic| conda:required_by:: scnic
+.. |downloads_scnic| image:: https://img.shields.io/conda/dn/bioconda/scnic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_scnic| image:: https://quay.io/repository/biocontainers/scnic/status
+   :target: https://quay.io/repository/biocontainers/scnic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/scnic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/scnic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scnic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/scnic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/scnic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/scnic
-.. |docker| image:: https://quay.io/repository/biocontainers/scnic/status
-                :target: https://quay.io/repository/biocontainers/scnic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/scnic/README.html
 

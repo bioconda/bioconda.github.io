@@ -1,54 +1,66 @@
-.. _`onto2nx`:
+.. title:: Package Recipe 'onto2nx'
+.. highlight: bash
+
 
 onto2nx
 =======
 
-|downloads|
+.. conda:recipe:: onto2nx
+   :replaces_section_title:
 
-A package for parsing ontologies into NetworkX graphs
+   A package for parsing ontologies into NetworkX graphs
 
-============= ===========
-Home          https://github.com/cthoyt/onto2nx
-Versions      0.1.0
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//onto2nx/meta.yaml
+   :homepage: https://github.com/cthoyt/onto2nx
+   :license: GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`onto2nx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: onto2nx
 
-Installation
-------------
+   |downloads_onto2nx| |docker_onto2nx|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`colorama`  :conda:package:`networkx`  :conda:package:`pyfiglet`  :conda:package:`pygments`  :conda:package:`python` 2.7* :conda:package:`rdflib`  :conda:package:`rdflib-jsonld`  :conda:package:`requests`  :conda:package:`sparqlwrapper`  
 
-   conda install onto2nx
+   :required~by: |required_by_onto2nx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update onto2nx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install onto2nx
+
+   and update with::
+
+      conda update onto2nx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/onto2nx
+
+
+.. |required_by_onto2nx| conda:required_by:: onto2nx
+.. |downloads_onto2nx| image:: https://img.shields.io/conda/dn/bioconda/onto2nx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_onto2nx| image:: https://quay.io/repository/biocontainers/onto2nx/status
+   :target: https://quay.io/repository/biocontainers/onto2nx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/onto2nx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/onto2nx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/onto2nx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/onto2nx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/onto2nx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/onto2nx
-.. |docker| image:: https://quay.io/repository/biocontainers/onto2nx/status
-                :target: https://quay.io/repository/biocontainers/onto2nx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/onto2nx/README.html
 

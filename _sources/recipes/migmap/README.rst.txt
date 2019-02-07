@@ -1,54 +1,66 @@
-.. _`migmap`:
+.. title:: Package Recipe 'migmap'
+.. highlight: bash
+
 
 migmap
 ======
 
-|downloads|
+.. conda:recipe:: migmap
+   :replaces_section_title:
 
-A wrapper for IgBlast V\-\(D\)\-J mapping tool designed to facilitate analysis immune receptor libraries profiled using high\-throughput sequencing.
+   A wrapper for IgBlast V\-\(D\)\-J mapping tool designed to facilitate analysis immune receptor libraries profiled using high\-throughput sequencing.
 
-============= ===========
-Home          https://github.com/mikessh/migmap
-Versions      1.0.3, 1.0.2, 0.9.7
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//migmap/meta.yaml
+   :homepage: https://github.com/mikessh/migmap
+   :license: Apache / Apache-2.0
+   :recipe: /`migmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/migmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/migmap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: migmap
 
-Installation
-------------
+   |downloads_migmap| |docker_migmap|
 
-.. highlight: bash
+   :versions: 1.0.3, 1.0.2, 0.9.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`igblast`  :conda:package:`openjdk`  
 
-   conda install migmap
+   :required~by: |required_by_migmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update migmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install migmap
+
+   and update with::
+
+      conda update migmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/migmap
+
+
+.. |required_by_migmap| conda:required_by:: migmap
+.. |downloads_migmap| image:: https://img.shields.io/conda/dn/bioconda/migmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_migmap| image:: https://quay.io/repository/biocontainers/migmap/status
+   :target: https://quay.io/repository/biocontainers/migmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/migmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/migmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/migmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/migmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/migmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/migmap
-.. |docker| image:: https://quay.io/repository/biocontainers/migmap/status
-                :target: https://quay.io/repository/biocontainers/migmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/migmap/README.html
 

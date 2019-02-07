@@ -1,56 +1,67 @@
-.. _`gem3-mapper`:
+.. title:: Package Recipe 'gem3-mapper'
+.. highlight: bash
+
 
 gem3-mapper
 ===========
 
-|downloads|
+.. conda:recipe:: gem3-mapper
+   :replaces_section_title:
 
-The GEM read mapper \(v3\).
+   The GEM read mapper \(v3\).
 
-============= ===========
-Home          https://github.com/smarco/gem3-mapper
-Versions      3.6.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gem3-mapper/meta.yaml
+   :homepage: https://github.com/smarco/gem3-mapper
+   :license: GPL-3.0
+   :recipe: /`gem3-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gem3-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gem3-mapper/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nmeth.2221`, biotools: :biotools:`GEM_Mapper`
 
-
-
-Links         doi: :doi:`10.1038/nmeth.2221`, biotools: :biotools:`GEM_Mapper`
-
-============= ===========
+   
 
 
+.. conda:package:: gem3-mapper
 
-Installation
-------------
+   |downloads_gem3-mapper| |docker_gem3-mapper|
 
-.. highlight: bash
+   :versions: 3.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install gem3-mapper
+   :required~by: |required_by_gem3-mapper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gem3-mapper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gem3-mapper
+
+   and update with::
+
+      conda update gem3-mapper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gem3-mapper
+
+
+.. |required_by_gem3-mapper| conda:required_by:: gem3-mapper
+.. |downloads_gem3-mapper| image:: https://img.shields.io/conda/dn/bioconda/gem3-mapper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gem3-mapper| image:: https://quay.io/repository/biocontainers/gem3-mapper/status
+   :target: https://quay.io/repository/biocontainers/gem3-mapper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gem3-mapper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gem3-mapper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gem3-mapper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gem3-mapper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gem3-mapper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gem3-mapper
-.. |docker| image:: https://quay.io/repository/biocontainers/gem3-mapper/status
-                :target: https://quay.io/repository/biocontainers/gem3-mapper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gem3-mapper/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-icobra`:
+.. title:: Package Recipe 'bioconductor-icobra'
+.. highlight: bash
+
 
 bioconductor-icobra
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-icobra
+   :replaces_section_title:
 
-This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
+   This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/iCOBRA.html
-Versions      1.10.0, 1.8.0, 1.6.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-icobra/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iCOBRA.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-icobra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra/meta.yaml>`_
+   :links: biotools: :biotools:`icobra`
 
-
-
-Links         biotools: :biotools:`icobra`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-icobra
 
-Installation
-------------
+   |downloads_bioconductor-icobra| |docker_bioconductor-icobra|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-dt`  :conda:package:`r-ggplot2` >=2.0.0 :conda:package:`r-reshape2`  :conda:package:`r-rocr`  :conda:package:`r-scales`  :conda:package:`r-shiny` >=0.9.1.9008 :conda:package:`r-shinybs`  :conda:package:`r-shinydashboard`  :conda:package:`r-upsetr`  
 
-   conda install bioconductor-icobra
+   :required~by: |required_by_bioconductor-icobra|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-icobra
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-icobra
+
+   and update with::
+
+      conda update bioconductor-icobra
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-icobra
+
+
+.. |required_by_bioconductor-icobra| conda:required_by:: bioconductor-icobra
+.. |downloads_bioconductor-icobra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icobra.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-icobra| image:: https://quay.io/repository/biocontainers/bioconductor-icobra/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-icobra
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-icobra.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-icobra/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-icobra/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-icobra/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-icobra/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-icobra
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-icobra/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-icobra
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-icobra/README.html
 

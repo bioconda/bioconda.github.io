@@ -1,54 +1,66 @@
-.. _`bioconductor-scbn`:
+.. title:: Package Recipe 'bioconductor-scbn'
+.. highlight: bash
+
 
 bioconductor-scbn
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-scbn
+   :replaces_section_title:
 
-This package provides a scale based normalization \(SCBN\) method to identify genes with differential expression between different species. It takes into account the available knowledge of conserved orthologous genes and the hypothesis testing framework to detect differentially expressed orthologous genes. The method on this package are described in the article \'A statistical normalization method and differential expression analysis for RNA\-seq data between different species\' by Yan Zhou\, Jiadi Zhu\, Tiejun Tong\, Junhui Wang\, Bingqing Lin\, Jun Zhang \(2018\, pending publication\).
+   This package provides a scale based normalization \(SCBN\) method to identify genes with differential expression between different species. It takes into account the available knowledge of conserved orthologous genes and the hypothesis testing framework to detect differentially expressed orthologous genes. The method on this package are described in the article \'A statistical normalization method and differential expression analysis for RNA\-seq data between different species\' by Yan Zhou\, Jiadi Zhu\, Tiejun Tong\, Junhui Wang\, Bingqing Lin\, Jun Zhang \(2018\, pending publication\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SCBN.html
-Versions      1.0.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scbn/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SCBN.html
+   :license: GPL-2
+   :recipe: /`bioconductor-scbn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbn/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-scbn
 
-Installation
-------------
+   |downloads_bioconductor-scbn| |docker_bioconductor-scbn|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-scbn
+   :required~by: |required_by_bioconductor-scbn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-scbn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scbn
+
+   and update with::
+
+      conda update bioconductor-scbn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-scbn
+
+
+.. |required_by_bioconductor-scbn| conda:required_by:: bioconductor-scbn
+.. |downloads_bioconductor-scbn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scbn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-scbn| image:: https://quay.io/repository/biocontainers/bioconductor-scbn/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scbn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-scbn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scbn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scbn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-scbn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-scbn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-scbn
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scbn/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-scbn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scbn/README.html
 

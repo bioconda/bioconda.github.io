@@ -1,54 +1,66 @@
-.. _`dazz_db`:
+.. title:: Package Recipe 'dazz_db'
+.. highlight: bash
+
 
 dazz_db
 =======
 
-|downloads|
+.. conda:recipe:: dazz_db
+   :replaces_section_title:
 
-DAZZ\_DB\: The Dazzler Data Base
+   DAZZ\_DB\: The Dazzler Data Base
 
-============= ===========
-Home          https://github.com/thegenemyers/DAZZ_DB
-Versions      1.0, 1.0p2, 1.0p1
-License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dazz_db/meta.yaml
+   :homepage: https://github.com/thegenemyers/DAZZ_DB
+   :license: Custom
+   :recipe: /`dazz_db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dazz_db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dazz_db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dazz_db
 
-Installation
-------------
+   |downloads_dazz_db| |docker_dazz_db|
 
-.. highlight: bash
+   :versions: 1.0, 1.0p2, 1.0p1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install dazz_db
+   :required~by: |required_by_dazz_db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dazz_db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dazz_db
+
+   and update with::
+
+      conda update dazz_db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dazz_db
+
+
+.. |required_by_dazz_db| conda:required_by:: dazz_db
+.. |downloads_dazz_db| image:: https://img.shields.io/conda/dn/bioconda/dazz_db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dazz_db| image:: https://quay.io/repository/biocontainers/dazz_db/status
+   :target: https://quay.io/repository/biocontainers/dazz_db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dazz_db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dazz_db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dazz_db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dazz_db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dazz_db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dazz_db
-.. |docker| image:: https://quay.io/repository/biocontainers/dazz_db/status
-                :target: https://quay.io/repository/biocontainers/dazz_db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dazz_db/README.html
 

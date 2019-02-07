@@ -1,54 +1,66 @@
-.. _`perl-aliased`:
+.. title:: Package Recipe 'perl-aliased'
+.. highlight: bash
+
 
 perl-aliased
 ============
 
-|downloads|
+.. conda:recipe:: perl-aliased
+   :replaces_section_title:
 
-Use shorter versions of class names.
+   Use shorter versions of class names.
 
-============= ===========
-Home          https://github.com/karenetheridge/aliased
-Versions      0.34
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-aliased/meta.yaml
+   :homepage: https://github.com/karenetheridge/aliased
+   :license: perl_5
+   :recipe: /`perl-aliased <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-aliased
 
-Installation
-------------
+   |downloads_perl-aliased| |docker_perl-aliased|
 
-.. highlight: bash
+   :versions: 0.34
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-aliased
+   :required~by: |required_by_perl-aliased|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-aliased
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-aliased
+
+   and update with::
+
+      conda update perl-aliased
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-aliased
+
+
+.. |required_by_perl-aliased| conda:required_by:: perl-aliased
+.. |downloads_perl-aliased| image:: https://img.shields.io/conda/dn/bioconda/perl-aliased.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-aliased| image:: https://quay.io/repository/biocontainers/perl-aliased/status
+   :target: https://quay.io/repository/biocontainers/perl-aliased
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-aliased.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-aliased/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-aliased/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-aliased/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-aliased/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-aliased
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-aliased/status
-                :target: https://quay.io/repository/biocontainers/perl-aliased
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-aliased/README.html
 

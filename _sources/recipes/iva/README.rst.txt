@@ -1,54 +1,66 @@
-.. _`iva`:
+.. title:: Package Recipe 'iva'
+.. highlight: bash
+
 
 iva
 ===
 
-|downloads|
+.. conda:recipe:: iva
+   :replaces_section_title:
 
-Iterative Virus Assembler
+   Iterative Virus Assembler
 
-============= ===========
-Home          https://github.com/sanger-pathogens/iva
-Versions      1.0.9, 1.0.7, 1.0.6
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//iva/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/iva
+   :license: GPL / GPLv3
+   :recipe: /`iva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iva/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: iva
 
-Installation
-------------
+   |downloads_iva| |docker_iva|
 
-.. highlight: bash
+   :versions: 1.0.9, 1.0.7, 1.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`kmc`  :conda:package:`mummer`  :conda:package:`networkx` >=1.7 :conda:package:`pyfastaq` >=3.10.0 :conda:package:`pysam` >=0.8.1 :conda:package:`python` 3.5* :conda:package:`samtools`  :conda:package:`smalt`  
 
-   conda install iva
+   :required~by: |required_by_iva|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update iva
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install iva
+
+   and update with::
+
+      conda update iva
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/iva
+
+
+.. |required_by_iva| conda:required_by:: iva
+.. |downloads_iva| image:: https://img.shields.io/conda/dn/bioconda/iva.svg?style=flat
+   :alt:   (downloads)
+.. |docker_iva| image:: https://quay.io/repository/biocontainers/iva/status
+   :target: https://quay.io/repository/biocontainers/iva
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/iva.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/iva/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/iva/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/iva/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/iva/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/iva
-.. |docker| image:: https://quay.io/repository/biocontainers/iva/status
-                :target: https://quay.io/repository/biocontainers/iva
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/iva/README.html
 

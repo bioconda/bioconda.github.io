@@ -1,54 +1,66 @@
-.. _`collectl`:
+.. title:: Package Recipe 'collectl'
+.. highlight: bash
+
 
 collectl
 ========
 
-|downloads|
+.. conda:recipe:: collectl
+   :replaces_section_title:
 
-collectl monitoring tool
+   collectl monitoring tool
 
-============= ===========
-Home          http://collectl.sourceforge.net/
-Versions      4.0.4
-License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//collectl/meta.yaml
+   :homepage: http://collectl.sourceforge.net/
+   :license: Artistic License
+   :recipe: /`collectl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: collectl
 
-Installation
-------------
+   |downloads_collectl| |docker_collectl|
 
-.. highlight: bash
+   :versions: 4.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install collectl
+   :required~by: |required_by_collectl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update collectl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install collectl
+
+   and update with::
+
+      conda update collectl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/collectl
+
+
+.. |required_by_collectl| conda:required_by:: collectl
+.. |downloads_collectl| image:: https://img.shields.io/conda/dn/bioconda/collectl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_collectl| image:: https://quay.io/repository/biocontainers/collectl/status
+   :target: https://quay.io/repository/biocontainers/collectl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/collectl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/collectl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/collectl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/collectl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/collectl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/collectl
-.. |docker| image:: https://quay.io/repository/biocontainers/collectl/status
-                :target: https://quay.io/repository/biocontainers/collectl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/collectl/README.html
 

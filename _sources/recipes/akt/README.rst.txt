@@ -1,56 +1,67 @@
-.. _`akt`:
+.. title:: Package Recipe 'akt'
+.. highlight: bash
+
 
 akt
 ===
 
-|downloads|
+.. conda:recipe:: akt
+   :replaces_section_title:
 
-Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical genetics routines using the htslib API for input\/output. This means it can seamlessly read BCF\/VCF files and play nicely with bcftools.
+   Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical genetics routines using the htslib API for input\/output. This means it can seamlessly read BCF\/VCF files and play nicely with bcftools.
 
-============= ===========
-Home          https://github.com/Illumina/akt
-Versions      0.3.2, 0.2.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//akt/meta.yaml
+   :homepage: https://github.com/Illumina/akt
+   :license: GPL3
+   :recipe: /`akt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akt/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw576`
 
-
-
-Links         doi: :doi:`10.1093/bioinformatics/btw576`
-
-============= ===========
+   
 
 
+.. conda:package:: akt
 
-Installation
-------------
+   |downloads_akt| |docker_akt|
 
-.. highlight: bash
+   :versions: 0.3.2, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openmp`  :conda:package:`zlib` 1.2.11* 
 
-   conda install akt
+   :required~by: |required_by_akt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update akt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install akt
+
+   and update with::
+
+      conda update akt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/akt
+
+
+.. |required_by_akt| conda:required_by:: akt
+.. |downloads_akt| image:: https://img.shields.io/conda/dn/bioconda/akt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_akt| image:: https://quay.io/repository/biocontainers/akt/status
+   :target: https://quay.io/repository/biocontainers/akt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/akt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/akt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/akt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/akt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/akt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/akt
-.. |docker| image:: https://quay.io/repository/biocontainers/akt/status
-                :target: https://quay.io/repository/biocontainers/akt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/akt/README.html
 

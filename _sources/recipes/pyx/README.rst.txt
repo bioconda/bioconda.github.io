@@ -1,54 +1,66 @@
-.. _`pyx`:
+.. title:: Package Recipe 'pyx'
+.. highlight: bash
+
 
 pyx
 ===
 
-|downloads|
+.. conda:recipe:: pyx
+   :replaces_section_title:
 
-Python package for the generation of PostScript\, PDF\, and SVG files
+   Python package for the generation of PostScript\, PDF\, and SVG files
 
-============= ===========
-Home          http://pyx.sourceforge.net/
-Versions      0.14.1, 0.12.1
-License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyx/meta.yaml
+   :homepage: http://pyx.sourceforge.net/
+   :license: GNU General Public License (GPL)
+   :recipe: /`pyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pyx
 
-Installation
-------------
+   |downloads_pyx| |docker_pyx|
 
-.. highlight: bash
+   :versions: 0.14.1, 0.12.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` >=3.5,<3.6.0a0 
 
-   conda install pyx
+   :required~by: |required_by_pyx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyx
+
+   and update with::
+
+      conda update pyx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyx
+
+
+.. |required_by_pyx| conda:required_by:: pyx
+.. |downloads_pyx| image:: https://img.shields.io/conda/dn/bioconda/pyx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyx| image:: https://quay.io/repository/biocontainers/pyx/status
+   :target: https://quay.io/repository/biocontainers/pyx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyx
-.. |docker| image:: https://quay.io/repository/biocontainers/pyx/status
-                :target: https://quay.io/repository/biocontainers/pyx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyx/README.html
 

@@ -1,54 +1,66 @@
-.. _`obitools`:
+.. title:: Package Recipe 'obitools'
+.. highlight: bash
+
 
 obitools
 ========
 
-|downloads|
+.. conda:recipe:: obitools/1.2.10
+   :replaces_section_title:
 
-The OBITools package is a set of programs specifically designed for analyzing NGS data in a DNA metabarcoding context\, taking into account taxonomic information
+   The OBITools package is a set of programs specifically designed for analyzing NGS data in a DNA metabarcoding context\, taking into account taxonomic information
 
-============= ===========
-Home          http://metabarcoding.org/obitools
-Versions      1.2.11, 1.2.10, 1.0.010
-License       CeCILL-V2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//obitools/1.2.10/meta.yaml
+   :homepage: http://metabarcoding.org/obitools
+   :license: CeCILL-V2
+   :recipe: /`obitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools>`_/`1.2.10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: obitools
 
-Installation
-------------
+   |downloads_obitools| |docker_obitools|
 
-.. highlight: bash
+   :versions: 1.2.11, 1.2.10, 1.0.010
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ipython` >=3.0.0,<6.0 :conda:package:`python` 2.7* :conda:package:`xorg-libx11`  :conda:package:`xorg-libxau`  
 
-   conda install obitools
+   :required~by: |required_by_obitools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update obitools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install obitools
+
+   and update with::
+
+      conda update obitools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/obitools
+
+
+.. |required_by_obitools| conda:required_by:: obitools
+.. |downloads_obitools| image:: https://img.shields.io/conda/dn/bioconda/obitools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_obitools| image:: https://quay.io/repository/biocontainers/obitools/status
+   :target: https://quay.io/repository/biocontainers/obitools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/obitools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/obitools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/obitools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/obitools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/obitools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/obitools
-.. |docker| image:: https://quay.io/repository/biocontainers/obitools/status
-                :target: https://quay.io/repository/biocontainers/obitools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/obitools/README.html
 

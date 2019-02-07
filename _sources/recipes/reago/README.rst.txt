@@ -1,54 +1,66 @@
-.. _`reago`:
+.. title:: Package Recipe 'reago'
+.. highlight: bash
+
 
 reago
 =====
 
-|downloads|
+.. conda:recipe:: reago
+   :replaces_section_title:
 
-An assembly tool for 16S ribosomal RNA recovery from metagenomic data
+   An assembly tool for 16S ribosomal RNA recovery from metagenomic data
 
-============= ===========
-Home          https://github.com/chengyuan/reago-1.1
-Versions      1.1
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//reago/meta.yaml
+   :homepage: https://github.com/chengyuan/reago-1.1
+   :license: Unknown
+   :recipe: /`reago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reago/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: reago
 
-Installation
-------------
+   |downloads_reago| |docker_reago|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`networkx`  :conda:package:`python` 2.7* 
 
-   conda install reago
+   :required~by: |required_by_reago|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update reago
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install reago
+
+   and update with::
+
+      conda update reago
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/reago
+
+
+.. |required_by_reago| conda:required_by:: reago
+.. |downloads_reago| image:: https://img.shields.io/conda/dn/bioconda/reago.svg?style=flat
+   :alt:   (downloads)
+.. |docker_reago| image:: https://quay.io/repository/biocontainers/reago/status
+   :target: https://quay.io/repository/biocontainers/reago
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/reago.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/reago/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/reago/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/reago/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/reago/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/reago
-.. |docker| image:: https://quay.io/repository/biocontainers/reago/status
-                :target: https://quay.io/repository/biocontainers/reago
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/reago/README.html
 

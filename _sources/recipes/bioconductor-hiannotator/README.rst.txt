@@ -1,56 +1,67 @@
-.. _`bioconductor-hiannotator`:
+.. title:: Package Recipe 'bioconductor-hiannotator'
+.. highlight: bash
+
 
 bioconductor-hiannotator
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-hiannotator
+   :replaces_section_title:
 
-hiAnnotator contains set of functions which allow users to annotate a GRanges object with custom set of annotations. The basic philosophy of this package is to take two GRanges objects \(query \& subject\) with common set of seqnames \(i.e. chromosomes\) and return associated annotation per seqnames and rows from the query matching seqnames and rows from the subject \(i.e. genes or cpg islands\). The package comes with three types of annotation functions which calculates if a position from query is\: within a feature\, near a feature\, or count features in defined window sizes. Moreover\, each function is equipped with parallel backend to utilize the foreach package. In addition\, the package is equipped with wrapper functions\, which finds appropriate columns needed to make a GRanges object from a common data frame.
+   hiAnnotator contains set of functions which allow users to annotate a GRanges object with custom set of annotations. The basic philosophy of this package is to take two GRanges objects \(query \& subject\) with common set of seqnames \(i.e. chromosomes\) and return associated annotation per seqnames and rows from the query matching seqnames and rows from the subject \(i.e. genes or cpg islands\). The package comes with three types of annotation functions which calculates if a position from query is\: within a feature\, near a feature\, or count features in defined window sizes. Moreover\, each function is equipped with parallel backend to utilize the foreach package. In addition\, the package is equipped with wrapper functions\, which finds appropriate columns needed to make a GRanges object from a common data frame.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/hiAnnotator.html
-Versions      1.16.0, 1.14.0, 1.11.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hiannotator/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hiAnnotator.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hiannotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator/meta.yaml>`_
+   :links: biotools: :biotools:`hiannotator`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`hiannotator`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hiannotator
 
-Installation
-------------
+   |downloads_bioconductor-hiannotator| |docker_bioconductor-hiannotator|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.11.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-iterators`  :conda:package:`r-scales`  
 
-   conda install bioconductor-hiannotator
+   :required~by: |required_by_bioconductor-hiannotator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hiannotator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hiannotator
+
+   and update with::
+
+      conda update bioconductor-hiannotator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hiannotator
+
+
+.. |required_by_bioconductor-hiannotator| conda:required_by:: bioconductor-hiannotator
+.. |downloads_bioconductor-hiannotator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiannotator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hiannotator| image:: https://quay.io/repository/biocontainers/bioconductor-hiannotator/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hiannotator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hiannotator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hiannotator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hiannotator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hiannotator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hiannotator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hiannotator
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hiannotator/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hiannotator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hiannotator/README.html
 

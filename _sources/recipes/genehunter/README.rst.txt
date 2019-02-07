@@ -1,54 +1,66 @@
-.. _`ghm`:
+.. title:: Package Recipe 'ghm'
+.. highlight: bash
+
 
 ghm
 ===
 
-|downloads|
+.. conda:recipe:: genehunter/3.0
+   :replaces_section_title:
 
-A MOD\-score analysis in which parametric LOD scores are maximized over the parameters of the trait model
+   A MOD\-score analysis in which parametric LOD scores are maximized over the parameters of the trait model
 
-============= ===========
-Home          https://www.helmholtz-muenchen.de/en/ige/service/software-download/genehunter-modscore/index.html
-Versions      3.1, 3.0
-License       INDIVIDUAL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genehunter/3.0/meta.yaml
+   :homepage: https://www.helmholtz-muenchen.de/en/ige/service/software-download/genehunter-modscore/index.html
+   :license: INDIVIDUAL
+   :recipe: /`genehunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter>`_/`3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter/3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter/3.0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ghm
 
-Installation
-------------
+   |downloads_ghm| |docker_ghm|
 
-.. highlight: bash
+   :versions: 3.1, 3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install ghm
+   :required~by: |required_by_ghm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ghm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ghm
+
+   and update with::
+
+      conda update ghm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ghm
+
+
+.. |required_by_ghm| conda:required_by:: ghm
+.. |downloads_ghm| image:: https://img.shields.io/conda/dn/bioconda/ghm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ghm| image:: https://quay.io/repository/biocontainers/ghm/status
+   :target: https://quay.io/repository/biocontainers/ghm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ghm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ghm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ghm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ghm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ghm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ghm
-.. |docker| image:: https://quay.io/repository/biocontainers/ghm/status
-                :target: https://quay.io/repository/biocontainers/ghm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ghm/README.html
 

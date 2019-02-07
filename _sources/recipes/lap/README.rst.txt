@@ -1,54 +1,66 @@
-.. _`lap`:
+.. title:: Package Recipe 'lap'
+.. highlight: bash
+
 
 lap
 ===
 
-|downloads|
+.. conda:recipe:: lap
+   :replaces_section_title:
 
-De novo genome assembly evaluation
+   De novo genome assembly evaluation
 
-============= ===========
-Home          http://assembly-eval.sourceforge.net/
-Versions      1.1.r186
-License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lap/meta.yaml
+   :homepage: http://assembly-eval.sourceforge.net/
+   :license: 
+   :recipe: /`lap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lap
 
-Installation
-------------
+   |downloads_lap| |docker_lap|
 
-.. highlight: bash
+   :versions: 1.1.r186
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bowtie2`  :conda:package:`libgcc`  :conda:package:`python` 2.7* 
 
-   conda install lap
+   :required~by: |required_by_lap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lap
+
+   and update with::
+
+      conda update lap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lap
+
+
+.. |required_by_lap| conda:required_by:: lap
+.. |downloads_lap| image:: https://img.shields.io/conda/dn/bioconda/lap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lap| image:: https://quay.io/repository/biocontainers/lap/status
+   :target: https://quay.io/repository/biocontainers/lap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lap
-.. |docker| image:: https://quay.io/repository/biocontainers/lap/status
-                :target: https://quay.io/repository/biocontainers/lap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lap/README.html
 

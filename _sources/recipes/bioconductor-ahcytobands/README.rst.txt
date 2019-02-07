@@ -1,54 +1,66 @@
-.. _`bioconductor-ahcytobands`:
+.. title:: Package Recipe 'bioconductor-ahcytobands'
+.. highlight: bash
+
 
 bioconductor-ahcytobands
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ahcytobands
+   :replaces_section_title:
 
-Supplies AnnotationHub with CytoBand information from UCSC. There is a track for each major organism. Giemsa\-stained bands are commonly used to decorate chromosomal overviews in visualizations of genomic data.
+   Supplies AnnotationHub with CytoBand information from UCSC. There is a track for each major organism. Giemsa\-stained bands are commonly used to decorate chromosomal overviews in visualizations of genomic data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/AHCytoBands.html
-Versions      0.99.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ahcytobands/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/AHCytoBands.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ahcytobands <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahcytobands>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahcytobands/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ahcytobands
 
-Installation
-------------
+   |downloads_bioconductor-ahcytobands| |docker_bioconductor-ahcytobands|
 
-.. highlight: bash
+   :versions: 0.99.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ahcytobands
+   :required~by: |required_by_bioconductor-ahcytobands|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ahcytobands
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ahcytobands
+
+   and update with::
+
+      conda update bioconductor-ahcytobands
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ahcytobands
+
+
+.. |required_by_bioconductor-ahcytobands| conda:required_by:: bioconductor-ahcytobands
+.. |downloads_bioconductor-ahcytobands| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ahcytobands.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ahcytobands| image:: https://quay.io/repository/biocontainers/bioconductor-ahcytobands/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ahcytobands
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ahcytobands.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ahcytobands/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ahcytobands/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ahcytobands/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ahcytobands/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ahcytobands
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ahcytobands/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ahcytobands
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ahcytobands/README.html
 

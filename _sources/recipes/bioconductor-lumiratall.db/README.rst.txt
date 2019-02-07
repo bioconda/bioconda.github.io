@@ -1,54 +1,66 @@
-.. _`bioconductor-lumiratall.db`:
+.. title:: Package Recipe 'bioconductor-lumiratall.db'
+.. highlight: bash
+
 
 bioconductor-lumiratall.db
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-lumiratall.db
+   :replaces_section_title:
 
-Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled using data from public repositories
+   Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/lumiRatAll.db.html
-Versions      1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumiratall.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/lumiRatAll.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-lumiratall.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratall.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratall.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lumiratall.db
 
-Installation
-------------
+   |downloads_bioconductor-lumiratall.db| |docker_bioconductor-lumiratall.db|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.rn.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lumiratall.db
+   :required~by: |required_by_bioconductor-lumiratall.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lumiratall.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lumiratall.db
+
+   and update with::
+
+      conda update bioconductor-lumiratall.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lumiratall.db
+
+
+.. |required_by_bioconductor-lumiratall.db| conda:required_by:: bioconductor-lumiratall.db
+.. |downloads_bioconductor-lumiratall.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumiratall.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lumiratall.db| image:: https://quay.io/repository/biocontainers/bioconductor-lumiratall.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lumiratall.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lumiratall.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lumiratall.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lumiratall.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lumiratall.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lumiratall.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lumiratall.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lumiratall.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lumiratall.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lumiratall.db/README.html
 

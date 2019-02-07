@@ -1,54 +1,66 @@
-.. _`hs-blastn`:
+.. title:: Package Recipe 'hs-blastn'
+.. highlight: bash
+
 
 hs-blastn
 =========
 
-|downloads|
+.. conda:recipe:: hs-blastn
+   :replaces_section_title:
 
-hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner.
+   hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner.
 
-============= ===========
-Home          https://github.com/chenying2016/queries
-Versions      0.0.5
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hs-blastn/meta.yaml
+   :homepage: https://github.com/chenying2016/queries
+   :license: GPL-3.0
+   :recipe: /`hs-blastn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hs-blastn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hs-blastn/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hs-blastn
 
-Installation
-------------
+   |downloads_hs-blastn| |docker_hs-blastn|
 
-.. highlight: bash
+   :versions: 0.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`libgcc`  
 
-   conda install hs-blastn
+   :required~by: |required_by_hs-blastn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hs-blastn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hs-blastn
+
+   and update with::
+
+      conda update hs-blastn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hs-blastn
+
+
+.. |required_by_hs-blastn| conda:required_by:: hs-blastn
+.. |downloads_hs-blastn| image:: https://img.shields.io/conda/dn/bioconda/hs-blastn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hs-blastn| image:: https://quay.io/repository/biocontainers/hs-blastn/status
+   :target: https://quay.io/repository/biocontainers/hs-blastn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hs-blastn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hs-blastn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hs-blastn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hs-blastn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hs-blastn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hs-blastn
-.. |docker| image:: https://quay.io/repository/biocontainers/hs-blastn/status
-                :target: https://quay.io/repository/biocontainers/hs-blastn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hs-blastn/README.html
 

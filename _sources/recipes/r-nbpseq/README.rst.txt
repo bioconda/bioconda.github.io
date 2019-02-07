@@ -1,54 +1,66 @@
-.. _`r-nbpseq`:
+.. title:: Package Recipe 'r-nbpseq'
+.. highlight: bash
+
 
 r-nbpseq
 ========
 
-|downloads|
+.. conda:recipe:: r-nbpseq
+   :replaces_section_title:
 
-Negative Binomial \(NB\) models for two\-group comparisons and regression inferences from RNA\-Sequencing Data.
+   Negative Binomial \(NB\) models for two\-group comparisons and regression inferences from RNA\-Sequencing Data.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=NBPSeq
-Versions      0.3.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-nbpseq/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=NBPSeq
+   :license: GPL2 / GPL-2
+   :recipe: /`r-nbpseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nbpseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nbpseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-nbpseq
 
-Installation
-------------
+   |downloads_r-nbpseq| |docker_r-nbpseq|
 
-.. highlight: bash
+   :versions: 0.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-qvalue`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-nbpseq
+   :required~by: |required_by_r-nbpseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-nbpseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-nbpseq
+
+   and update with::
+
+      conda update r-nbpseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-nbpseq
+
+
+.. |required_by_r-nbpseq| conda:required_by:: r-nbpseq
+.. |downloads_r-nbpseq| image:: https://img.shields.io/conda/dn/bioconda/r-nbpseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-nbpseq| image:: https://quay.io/repository/biocontainers/r-nbpseq/status
+   :target: https://quay.io/repository/biocontainers/r-nbpseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-nbpseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-nbpseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-nbpseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-nbpseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-nbpseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-nbpseq
-.. |docker| image:: https://quay.io/repository/biocontainers/r-nbpseq/status
-                :target: https://quay.io/repository/biocontainers/r-nbpseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-nbpseq/README.html
 

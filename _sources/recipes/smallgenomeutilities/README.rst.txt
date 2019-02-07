@@ -1,54 +1,66 @@
-.. _`smallgenomeutilities`:
+.. title:: Package Recipe 'smallgenomeutilities'
+.. highlight: bash
+
 
 smallgenomeutilities
 ====================
 
-|downloads|
+.. conda:recipe:: smallgenomeutilities/0.2.1
+   :replaces_section_title:
 
-A collection of scripts that are useful for dealing with viral RNA NGS data.
+   A collection of scripts that are useful for dealing with viral RNA NGS data.
 
-============= ===========
-Home          https://github.com/cbg-ethz/smallgenomeutilities
-Versions      0.2.1, 0.1
-License       GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//smallgenomeutilities/0.2.1/meta.yaml
+   :homepage: https://github.com/cbg-ethz/smallgenomeutilities
+   :license: GPL2 / GNU General Public License v2 or later (GPLv2+)
+   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.2.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: smallgenomeutilities
 
-Installation
-------------
+   |downloads_smallgenomeutilities| |docker_smallgenomeutilities|
 
-.. highlight: bash
+   :versions: 0.2.1, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`progress`  :conda:package:`pysam`  :conda:package:`python` 3.5* :conda:package:`scikit-learn`  :conda:package:`scipy`  
 
-   conda install smallgenomeutilities
+   :required~by: |required_by_smallgenomeutilities|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update smallgenomeutilities
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install smallgenomeutilities
+
+   and update with::
+
+      conda update smallgenomeutilities
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/smallgenomeutilities
+
+
+.. |required_by_smallgenomeutilities| conda:required_by:: smallgenomeutilities
+.. |downloads_smallgenomeutilities| image:: https://img.shields.io/conda/dn/bioconda/smallgenomeutilities.svg?style=flat
+   :alt:   (downloads)
+.. |docker_smallgenomeutilities| image:: https://quay.io/repository/biocontainers/smallgenomeutilities/status
+   :target: https://quay.io/repository/biocontainers/smallgenomeutilities
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/smallgenomeutilities.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/smallgenomeutilities/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/smallgenomeutilities/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/smallgenomeutilities/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/smallgenomeutilities/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/smallgenomeutilities
-.. |docker| image:: https://quay.io/repository/biocontainers/smallgenomeutilities/status
-                :target: https://quay.io/repository/biocontainers/smallgenomeutilities
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/smallgenomeutilities/README.html
 

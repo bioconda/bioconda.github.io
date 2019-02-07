@@ -1,56 +1,67 @@
-.. _`bioconductor-dyndoc`:
+.. title:: Package Recipe 'bioconductor-dyndoc'
+.. highlight: bash
+
 
 bioconductor-dyndoc
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-dyndoc
+   :replaces_section_title:
 
-A set of functions to create and interact with dynamic documents and vignettes.
+   A set of functions to create and interact with dynamic documents and vignettes.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DynDoc.html
-Versions      1.60.0, 1.58.0, 1.56.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dyndoc/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DynDoc.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-dyndoc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyndoc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyndoc/meta.yaml>`_
+   :links: biotools: :biotools:`dyndoc`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`dyndoc`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dyndoc
 
-Installation
-------------
+   |downloads_bioconductor-dyndoc| |docker_bioconductor-dyndoc|
 
-.. highlight: bash
+   :versions: 1.60.0, 1.58.0, 1.56.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-dyndoc
+   :required~by: |required_by_bioconductor-dyndoc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dyndoc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dyndoc
+
+   and update with::
+
+      conda update bioconductor-dyndoc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dyndoc
+
+
+.. |required_by_bioconductor-dyndoc| conda:required_by:: bioconductor-dyndoc
+.. |downloads_bioconductor-dyndoc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dyndoc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dyndoc| image:: https://quay.io/repository/biocontainers/bioconductor-dyndoc/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dyndoc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dyndoc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dyndoc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dyndoc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dyndoc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dyndoc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dyndoc
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dyndoc/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dyndoc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dyndoc/README.html
 

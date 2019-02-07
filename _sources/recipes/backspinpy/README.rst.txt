@@ -1,54 +1,66 @@
-.. _`backspinpy`:
+.. title:: Package Recipe 'backspinpy'
+.. highlight: bash
+
 
 backspinpy
 ==========
 
-|downloads|
+.. conda:recipe:: backspinpy
+   :replaces_section_title:
 
-backSPIN clustering algorythm
+   backSPIN clustering algorythm
 
-============= ===========
-Home          https://github.com/linnarsson-lab/BackSPIN
-Versions      0.2.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//backspinpy/meta.yaml
+   :homepage: https://github.com/linnarsson-lab/BackSPIN
+   :license: MIT / MIT
+   :recipe: /`backspinpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/backspinpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/backspinpy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: backspinpy
 
-Installation
-------------
+   |downloads_backspinpy| |docker_backspinpy|
 
-.. highlight: bash
+   :versions: 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  
 
-   conda install backspinpy
+   :required~by: |required_by_backspinpy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update backspinpy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install backspinpy
+
+   and update with::
+
+      conda update backspinpy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/backspinpy
+
+
+.. |required_by_backspinpy| conda:required_by:: backspinpy
+.. |downloads_backspinpy| image:: https://img.shields.io/conda/dn/bioconda/backspinpy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_backspinpy| image:: https://quay.io/repository/biocontainers/backspinpy/status
+   :target: https://quay.io/repository/biocontainers/backspinpy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/backspinpy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/backspinpy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/backspinpy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/backspinpy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/backspinpy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/backspinpy
-.. |docker| image:: https://quay.io/repository/biocontainers/backspinpy/status
-                :target: https://quay.io/repository/biocontainers/backspinpy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/backspinpy/README.html
 

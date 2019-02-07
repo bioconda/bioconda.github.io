@@ -1,54 +1,66 @@
-.. _`shustring`:
+.. title:: Package Recipe 'shustring'
+.. highlight: bash
+
 
 shustring
 =========
 
-|downloads|
+.. conda:recipe:: shustring
+   :replaces_section_title:
 
-Program for Computing SHortest Unique SubSTRINGs
+   Program for Computing SHortest Unique SubSTRINGs
 
-============= ===========
-Home          http://guanine.evolbio.mpg.de/cgi-bin/shustring/shustring.cgi.pl
-Versions      2.6
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//shustring/meta.yaml
+   :homepage: http://guanine.evolbio.mpg.de/cgi-bin/shustring/shustring.cgi.pl
+   :license: GPL2 / GPL-2
+   :recipe: /`shustring <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shustring>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shustring/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: shustring
 
-Installation
-------------
+   |downloads_shustring| |docker_shustring|
 
-.. highlight: bash
+   :versions: 2.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install shustring
+   :required~by: |required_by_shustring|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update shustring
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install shustring
+
+   and update with::
+
+      conda update shustring
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/shustring
+
+
+.. |required_by_shustring| conda:required_by:: shustring
+.. |downloads_shustring| image:: https://img.shields.io/conda/dn/bioconda/shustring.svg?style=flat
+   :alt:   (downloads)
+.. |docker_shustring| image:: https://quay.io/repository/biocontainers/shustring/status
+   :target: https://quay.io/repository/biocontainers/shustring
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/shustring.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/shustring/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shustring/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/shustring/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/shustring/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/shustring
-.. |docker| image:: https://quay.io/repository/biocontainers/shustring/status
-                :target: https://quay.io/repository/biocontainers/shustring
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/shustring/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-mailtools`:
+.. title:: Package Recipe 'perl-mailtools'
+.. highlight: bash
+
 
 perl-mailtools
 ==============
 
-|downloads|
+.. conda:recipe:: perl-mailtools
+   :replaces_section_title:
 
-Various e\-mail related modules
+   Various e\-mail related modules
 
-============= ===========
-Home          http://metacpan.org/pod/MailTools
-Versions      2.20, 2.14
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mailtools/meta.yaml
+   :homepage: http://metacpan.org/pod/MailTools
+   :license: perl_5
+   :recipe: /`perl-mailtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mailtools
 
-Installation
-------------
+   |downloads_perl-mailtools| |docker_perl-mailtools|
 
-.. highlight: bash
+   :versions: 2.20, 2.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-date-format`  :conda:package:`perl-timedate`  
 
-   conda install perl-mailtools
+   :required~by: |required_by_perl-mailtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mailtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mailtools
+
+   and update with::
+
+      conda update perl-mailtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mailtools
+
+
+.. |required_by_perl-mailtools| conda:required_by:: perl-mailtools
+.. |downloads_perl-mailtools| image:: https://img.shields.io/conda/dn/bioconda/perl-mailtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mailtools| image:: https://quay.io/repository/biocontainers/perl-mailtools/status
+   :target: https://quay.io/repository/biocontainers/perl-mailtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mailtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mailtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mailtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mailtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mailtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mailtools
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mailtools/status
-                :target: https://quay.io/repository/biocontainers/perl-mailtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mailtools/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-json-create`:
+.. title:: Package Recipe 'perl-json-create'
+.. highlight: bash
+
 
 perl-json-create
 ================
 
-|downloads|
+.. conda:recipe:: perl-json-create
+   :replaces_section_title:
 
-fast\, minimal\, UTF\-8\-only serialization of data to JSON
+   fast\, minimal\, UTF\-8\-only serialization of data to JSON
 
-============= ===========
-Home          http://metacpan.org/pod/JSON::Create
-Versions      0.24
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json-create/meta.yaml
+   :homepage: http://metacpan.org/pod/JSON::Create
+   :license: perl_5
+   :recipe: /`perl-json-create <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-json-create
 
-Installation
-------------
+   |downloads_perl-json-create| |docker_perl-json-create|
 
-.. highlight: bash
+   :versions: 0.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-json-create
+   :required~by: |required_by_perl-json-create|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-json-create
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-json-create
+
+   and update with::
+
+      conda update perl-json-create
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-json-create
+
+
+.. |required_by_perl-json-create| conda:required_by:: perl-json-create
+.. |downloads_perl-json-create| image:: https://img.shields.io/conda/dn/bioconda/perl-json-create.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-json-create| image:: https://quay.io/repository/biocontainers/perl-json-create/status
+   :target: https://quay.io/repository/biocontainers/perl-json-create
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-json-create.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-json-create/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-json-create/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-json-create/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-json-create/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-json-create
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-json-create/status
-                :target: https://quay.io/repository/biocontainers/perl-json-create
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-json-create/README.html
 

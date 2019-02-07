@@ -1,54 +1,66 @@
-.. _`fermi-lite`:
+.. title:: Package Recipe 'fermi-lite'
+.. highlight: bash
+
 
 fermi-lite
 ==========
 
-|downloads|
+.. conda:recipe:: fermi-lite
+   :replaces_section_title:
 
-Fermi\-lite is a standalone C library as well as a command\-line tool for assembling Illumina short reads in regions from 100bp to 10 million bp in size.
+   Fermi\-lite is a standalone C library as well as a command\-line tool for assembling Illumina short reads in regions from 100bp to 10 million bp in size.
 
-============= ===========
-Home          https://github.com/lh3/fermi-lite
-Versions      0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fermi-lite/meta.yaml
+   :homepage: https://github.com/lh3/fermi-lite
+   :license: MIT / MIT
+   :recipe: /`fermi-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi-lite/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fermi-lite
 
-Installation
-------------
+   |downloads_fermi-lite| |docker_fermi-lite|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install fermi-lite
+   :required~by: |required_by_fermi-lite|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fermi-lite
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fermi-lite
+
+   and update with::
+
+      conda update fermi-lite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fermi-lite
+
+
+.. |required_by_fermi-lite| conda:required_by:: fermi-lite
+.. |downloads_fermi-lite| image:: https://img.shields.io/conda/dn/bioconda/fermi-lite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fermi-lite| image:: https://quay.io/repository/biocontainers/fermi-lite/status
+   :target: https://quay.io/repository/biocontainers/fermi-lite
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fermi-lite.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fermi-lite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fermi-lite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fermi-lite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fermi-lite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fermi-lite
-.. |docker| image:: https://quay.io/repository/biocontainers/fermi-lite/status
-                :target: https://quay.io/repository/biocontainers/fermi-lite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fermi-lite/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-lmdme`:
+.. title:: Package Recipe 'bioconductor-lmdme'
+.. highlight: bash
+
 
 bioconductor-lmdme
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-lmdme
+   :replaces_section_title:
 
-linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
+   linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/lmdme.html
-Versions      1.24.0, 1.22.0, 1.20.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lmdme/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/lmdme.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-lmdme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme/meta.yaml>`_
+   :links: biotools: :biotools:`lmdme`
 
-
-
-Links         biotools: :biotools:`lmdme`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lmdme
 
-Installation
-------------
+   |downloads_bioconductor-lmdme| |docker_bioconductor-lmdme|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.0, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-stemhypoxia` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pls`  
 
-   conda install bioconductor-lmdme
+   :required~by: |required_by_bioconductor-lmdme|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lmdme
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lmdme
+
+   and update with::
+
+      conda update bioconductor-lmdme
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lmdme
+
+
+.. |required_by_bioconductor-lmdme| conda:required_by:: bioconductor-lmdme
+.. |downloads_bioconductor-lmdme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lmdme.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lmdme| image:: https://quay.io/repository/biocontainers/bioconductor-lmdme/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lmdme
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lmdme.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lmdme/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lmdme/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lmdme/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lmdme/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lmdme
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lmdme/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lmdme
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lmdme/README.html
 

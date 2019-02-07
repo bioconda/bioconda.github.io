@@ -1,54 +1,66 @@
-.. _`perl-email-date-format`:
+.. title:: Package Recipe 'perl-email-date-format'
+.. highlight: bash
+
 
 perl-email-date-format
 ======================
 
-|downloads|
+.. conda:recipe:: perl-email-date-format
+   :replaces_section_title:
 
-produce RFC 2822 date strings
+   produce RFC 2822 date strings
 
-============= ===========
-Home          https://github.com/rjbs/Email-Date-Format
-Versions      1.005
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-email-date-format/meta.yaml
+   :homepage: https://github.com/rjbs/Email-Date-Format
+   :license: perl_5
+   :recipe: /`perl-email-date-format <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-email-date-format>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-email-date-format/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-email-date-format
 
-Installation
-------------
+   |downloads_perl-email-date-format| |docker_perl-email-date-format|
 
-.. highlight: bash
+   :versions: 1.005
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-email-date-format
+   :required~by: |required_by_perl-email-date-format|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-email-date-format
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-email-date-format
+
+   and update with::
+
+      conda update perl-email-date-format
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-email-date-format
+
+
+.. |required_by_perl-email-date-format| conda:required_by:: perl-email-date-format
+.. |downloads_perl-email-date-format| image:: https://img.shields.io/conda/dn/bioconda/perl-email-date-format.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-email-date-format| image:: https://quay.io/repository/biocontainers/perl-email-date-format/status
+   :target: https://quay.io/repository/biocontainers/perl-email-date-format
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-email-date-format.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-email-date-format/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-email-date-format/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-email-date-format/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-email-date-format/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-email-date-format
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-email-date-format/status
-                :target: https://quay.io/repository/biocontainers/perl-email-date-format
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-email-date-format/README.html
 

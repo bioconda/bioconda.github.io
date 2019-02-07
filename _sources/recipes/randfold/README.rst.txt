@@ -1,56 +1,67 @@
-.. _`randfold`:
+.. title:: Package Recipe 'randfold'
+.. highlight: bash
+
 
 randfold
 ========
 
-|downloads|
+.. conda:recipe:: randfold
+   :replaces_section_title:
 
-Minimum free energy of folding randomization test software
+   Minimum free energy of folding randomization test software
 
-============= ===========
-Home          http://bioinformatics.psb.ugent.be/software/details/Randfold
-Versions      2.0.1
-License       GNU GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//randfold/meta.yaml
+   :homepage: http://bioinformatics.psb.ugent.be/software/details/Randfold
+   :license: GNU GPLv2
+   :recipe: /`randfold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/randfold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/randfold/meta.yaml>`_
+   :links: biotools: :biotools:`randfold`, doi: :doi:`10.1093/bioinformatics/bth374`
 
-
-
-Links         biotools: :biotools:`randfold`, doi: :doi:`10.1093/bioinformatics/bth374`
-
-============= ===========
+   
 
 
+.. conda:package:: randfold
 
-Installation
-------------
+   |downloads_randfold| |docker_randfold|
 
-.. highlight: bash
+   :versions: 2.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install randfold
+   :required~by: |required_by_randfold|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update randfold
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install randfold
+
+   and update with::
+
+      conda update randfold
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/randfold
+
+
+.. |required_by_randfold| conda:required_by:: randfold
+.. |downloads_randfold| image:: https://img.shields.io/conda/dn/bioconda/randfold.svg?style=flat
+   :alt:   (downloads)
+.. |docker_randfold| image:: https://quay.io/repository/biocontainers/randfold/status
+   :target: https://quay.io/repository/biocontainers/randfold
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/randfold.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/randfold/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/randfold/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/randfold/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/randfold/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/randfold
-.. |docker| image:: https://quay.io/repository/biocontainers/randfold/status
-                :target: https://quay.io/repository/biocontainers/randfold
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/randfold/README.html
 

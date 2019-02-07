@@ -1,56 +1,67 @@
-.. _`bioconductor-procoil`:
+.. title:: Package Recipe 'bioconductor-procoil'
+.. highlight: bash
+
 
 bioconductor-procoil
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-procoil
+   :replaces_section_title:
 
-The package allows for predicting whether a coiled coil sequence \(amino acid sequence plus heptad register\) is more likely to form a dimer or more likely to form a trimer. Additionally to the prediction itself\, a prediction profile is computed which allows for determining the strengths to which the individual residues are indicative for either class. Prediction profiles can also be visualized as curves or heatmaps.
+   The package allows for predicting whether a coiled coil sequence \(amino acid sequence plus heptad register\) is more likely to form a dimer or more likely to form a trimer. Additionally to the prediction itself\, a prediction profile is computed which allows for determining the strengths to which the individual residues are indicative for either class. Prediction profiles can also be visualized as curves or heatmaps.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/procoil.html
-Versions      2.10.0, 2.8.0, 2.6.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-procoil/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/procoil.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-procoil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-procoil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-procoil/meta.yaml>`_
+   :links: biotools: :biotools:`procoil`
 
-
-
-Links         biotools: :biotools:`procoil`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-procoil
 
-Installation
-------------
+   |downloads_bioconductor-procoil| |docker_bioconductor-procoil|
 
-.. highlight: bash
+   :versions: 2.10.0, 2.8.0, 2.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-kebabs` >=1.16.0,<1.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-procoil
+   :required~by: |required_by_bioconductor-procoil|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-procoil
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-procoil
+
+   and update with::
+
+      conda update bioconductor-procoil
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-procoil
+
+
+.. |required_by_bioconductor-procoil| conda:required_by:: bioconductor-procoil
+.. |downloads_bioconductor-procoil| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-procoil.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-procoil| image:: https://quay.io/repository/biocontainers/bioconductor-procoil/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-procoil
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-procoil.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-procoil/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-procoil/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-procoil/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-procoil/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-procoil
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-procoil/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-procoil
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-procoil/README.html
 

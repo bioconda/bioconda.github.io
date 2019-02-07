@@ -1,54 +1,66 @@
-.. _`sqlitebrowser`:
+.. title:: Package Recipe 'sqlitebrowser'
+.. highlight: bash
+
 
 sqlitebrowser
 =============
 
-|downloads|
+.. conda:recipe:: sqlitebrowser
+   :replaces_section_title:
 
-DB Browser for SQLite is a high quality\, visual\, open source tool to create\, design\, and edit database files compatible with SQLite.
+   DB Browser for SQLite is a high quality\, visual\, open source tool to create\, design\, and edit database files compatible with SQLite.
 
-============= ===========
-Home          http://sqlitebrowser.org/
-Versions      3.8.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sqlitebrowser/meta.yaml
+   :homepage: http://sqlitebrowser.org/
+   :license: GPLv3
+   :recipe: /`sqlitebrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlitebrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlitebrowser/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sqlitebrowser
 
-Installation
-------------
+   |downloads_sqlitebrowser| |docker_sqlitebrowser|
 
-.. highlight: bash
+   :versions: 3.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`qt`  :conda:package:`sqlite`  
 
-   conda install sqlitebrowser
+   :required~by: |required_by_sqlitebrowser|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sqlitebrowser
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sqlitebrowser
+
+   and update with::
+
+      conda update sqlitebrowser
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sqlitebrowser
+
+
+.. |required_by_sqlitebrowser| conda:required_by:: sqlitebrowser
+.. |downloads_sqlitebrowser| image:: https://img.shields.io/conda/dn/bioconda/sqlitebrowser.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sqlitebrowser| image:: https://quay.io/repository/biocontainers/sqlitebrowser/status
+   :target: https://quay.io/repository/biocontainers/sqlitebrowser
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sqlitebrowser.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sqlitebrowser/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sqlitebrowser/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sqlitebrowser/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sqlitebrowser/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sqlitebrowser
-.. |docker| image:: https://quay.io/repository/biocontainers/sqlitebrowser/status
-                :target: https://quay.io/repository/biocontainers/sqlitebrowser
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sqlitebrowser/README.html
 

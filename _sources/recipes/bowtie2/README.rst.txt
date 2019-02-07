@@ -1,56 +1,67 @@
-.. _`bowtie2`:
+.. title:: Package Recipe 'bowtie2'
+.. highlight: bash
+
 
 bowtie2
 =======
 
-|downloads|
+.. conda:recipe:: bowtie2
+   :replaces_section_title:
 
-Fast and sensitive read alignment
+   Fast and sensitive read alignment
 
-============= ===========
-Home          http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-Versions      2.3.4.3, 2.3.4.2, 2.3.4.1, 2.3.4, 2.3.3.1, 2.3.2, 2.3.0, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bowtie2/meta.yaml
+   :homepage: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+   :license: GPLv3
+   :recipe: /`bowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2/meta.yaml>`_
+   :links: biotools: :biotools:`bowtie2`, doi: :doi:`10.1038/nmeth.1923`
 
-
-
-Links         biotools: :biotools:`bowtie2`, doi: :doi:`10.1038/nmeth.1923`
-
-============= ===========
+   
 
 
+.. conda:package:: bowtie2
 
-Installation
-------------
+   |downloads_bowtie2| |docker_bowtie2|
 
-.. highlight: bash
+   :versions: 2.3.4.3, 2.3.4.2, 2.3.4.1, 2.3.4, 2.3.3.1, 2.3.2, 2.3.0, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install bowtie2
+   :required~by: |required_by_bowtie2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bowtie2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bowtie2
+
+   and update with::
+
+      conda update bowtie2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bowtie2
+
+
+.. |required_by_bowtie2| conda:required_by:: bowtie2
+.. |downloads_bowtie2| image:: https://img.shields.io/conda/dn/bioconda/bowtie2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bowtie2| image:: https://quay.io/repository/biocontainers/bowtie2/status
+   :target: https://quay.io/repository/biocontainers/bowtie2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bowtie2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bowtie2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bowtie2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bowtie2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bowtie2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bowtie2
-.. |docker| image:: https://quay.io/repository/biocontainers/bowtie2/status
-                :target: https://quay.io/repository/biocontainers/bowtie2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bowtie2/README.html
 

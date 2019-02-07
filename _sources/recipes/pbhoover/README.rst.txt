@@ -1,54 +1,66 @@
-.. _`pbhoover`:
+.. title:: Package Recipe 'pbhoover'
+.. highlight: bash
+
 
 pbhoover
 ========
 
-|downloads|
+.. conda:recipe:: pbhoover
+   :replaces_section_title:
 
-Variant caller for legacy and low coverage Pacific Biosciences\' long\-read sequencing data
+   Variant caller for legacy and low coverage Pacific Biosciences\' long\-read sequencing data
 
-============= ===========
-Home          https://gitlab.com/LPCDRP/pbhoover
-Versions      1.0.7, 1.0.6
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbhoover/meta.yaml
+   :homepage: https://gitlab.com/LPCDRP/pbhoover
+   :license: GPLv3
+   :recipe: /`pbhoover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbhoover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbhoover/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbhoover
 
-Installation
-------------
+   |downloads_pbhoover| |docker_pbhoover|
 
-.. highlight: bash
+   :versions: 1.0.7, 1.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcftools`  :conda:package:`numpy`  :conda:package:`pbcore` >=1.2.10 :conda:package:`pbh5tools`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  :conda:package:`tabix`  
 
-   conda install pbhoover
+   :required~by: |required_by_pbhoover|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbhoover
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbhoover
+
+   and update with::
+
+      conda update pbhoover
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbhoover
+
+
+.. |required_by_pbhoover| conda:required_by:: pbhoover
+.. |downloads_pbhoover| image:: https://img.shields.io/conda/dn/bioconda/pbhoover.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbhoover| image:: https://quay.io/repository/biocontainers/pbhoover/status
+   :target: https://quay.io/repository/biocontainers/pbhoover
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbhoover.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbhoover/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbhoover/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbhoover/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbhoover/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbhoover
-.. |docker| image:: https://quay.io/repository/biocontainers/pbhoover/status
-                :target: https://quay.io/repository/biocontainers/pbhoover
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbhoover/README.html
 

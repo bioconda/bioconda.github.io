@@ -1,66 +1,77 @@
-.. _`chemfp`:
+.. title:: Package Recipe 'chemfp'
+.. highlight: bash
+
 
 chemfp
 ======
 
-|downloads|
+.. conda:recipe:: chemfp
+   :replaces_section_title:
 
-chemfp is a set of command\-lines tools for generating cheminformatics fingerprints and searching those
-fingerprints by Tanimoto similarity\, as well as a Python library which can be used to build new tools.
+   chemfp is a set of command\-lines tools for generating cheminformatics fingerprints and searching those
+   fingerprints by Tanimoto similarity\, as well as a Python library which can be used to build new tools.
 
-These algorithms are designed for the dense\, 100\-10\,000 bit
-fingerprints which occur in small\-molecule\/pharmaceutical
-chemisty. The Tanimoto search algorithms are implemented in C for
-performance and support both threshold and k\-nearest searches.
+   These algorithms are designed for the dense\, 100\-10\,000 bit
+   fingerprints which occur in small\-molecule\/pharmaceutical
+   chemisty. The Tanimoto search algorithms are implemented in C for
+   performance and support both threshold and k\-nearest searches.
 
-Fingerprint generation can be done either by extracting existing
-fingerprint data from an SD file or by using an existing chemistry
-toolkit. chemfp supports the Python libraries from Open Babel\,
-OpenEye\, and RDKit toolkits.
+   Fingerprint generation can be done either by extracting existing
+   fingerprint data from an SD file or by using an existing chemistry
+   toolkit. chemfp supports the Python libraries from Open Babel\,
+   OpenEye\, and RDKit toolkits.
 
+   :homepage: https://chemfp.com
+   :license: MIT
+   :recipe: /`chemfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp/meta.yaml>`_
 
-============= ===========
-Home          https://chemfp.com
-Versions      1.4, 1.3, 1.3a1, 1.1p1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//chemfp/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: chemfp
 
-Installation
-------------
+   |downloads_chemfp| |docker_chemfp|
 
-.. highlight: bash
+   :versions: 1.4, 1.3, 1.3a1, 1.1p1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openbabel`  :conda:package:`python` 2.7* :conda:package:`rdkit`  
 
-   conda install chemfp
+   :required~by: |required_by_chemfp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update chemfp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install chemfp
+
+   and update with::
+
+      conda update chemfp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/chemfp
+
+
+.. |required_by_chemfp| conda:required_by:: chemfp
+.. |downloads_chemfp| image:: https://img.shields.io/conda/dn/bioconda/chemfp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_chemfp| image:: https://quay.io/repository/biocontainers/chemfp/status
+   :target: https://quay.io/repository/biocontainers/chemfp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/chemfp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/chemfp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chemfp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/chemfp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/chemfp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/chemfp
-.. |docker| image:: https://quay.io/repository/biocontainers/chemfp/status
-                :target: https://quay.io/repository/biocontainers/chemfp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/chemfp/README.html
 

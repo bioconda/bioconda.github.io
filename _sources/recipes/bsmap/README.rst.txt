@@ -1,56 +1,67 @@
-.. _`bsmap`:
+.. title:: Package Recipe 'bsmap'
+.. highlight: bash
+
 
 bsmap
 =====
 
-|downloads|
+.. conda:recipe:: bsmap
+   :replaces_section_title:
 
-BSMAP is a short reads mapping software for bisulfite sequencing reads.
+   BSMAP is a short reads mapping software for bisulfite sequencing reads.
 
-============= ===========
-Home          https://code.google.com/archive/p/bsmap/
-Versions      2.90
-License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bsmap/meta.yaml
+   :homepage: https://code.google.com/archive/p/bsmap/
+   :license: GPL / GNU GPL v3
+   :recipe: /`bsmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bsmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bsmap/meta.yaml>`_
+   :links: biotools: :biotools:`bsmap`
 
-
-
-Links         biotools: :biotools:`bsmap`
-
-============= ===========
+   
 
 
+.. conda:package:: bsmap
 
-Installation
-------------
+   |downloads_bsmap| |docker_bsmap|
 
-.. highlight: bash
+   :versions: 2.90
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bsmap
+   :required~by: |required_by_bsmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bsmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bsmap
+
+   and update with::
+
+      conda update bsmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bsmap
+
+
+.. |required_by_bsmap| conda:required_by:: bsmap
+.. |downloads_bsmap| image:: https://img.shields.io/conda/dn/bioconda/bsmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bsmap| image:: https://quay.io/repository/biocontainers/bsmap/status
+   :target: https://quay.io/repository/biocontainers/bsmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bsmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bsmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bsmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bsmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bsmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bsmap
-.. |docker| image:: https://quay.io/repository/biocontainers/bsmap/status
-                :target: https://quay.io/repository/biocontainers/bsmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bsmap/README.html
 

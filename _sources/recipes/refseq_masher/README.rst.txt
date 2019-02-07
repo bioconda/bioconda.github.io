@@ -1,56 +1,66 @@
-.. _`refseq_masher`:
+.. title:: Package Recipe 'refseq_masher'
+.. highlight: bash
+
 
 refseq_masher
 =============
 
-|downloads|
+.. conda:recipe:: refseq_masher
+   :replaces_section_title:
 
-refseq\_masher finds what NCBI RefSeq genomes match or are contained within your sequence data using Mash
+   refseq\_masher finds what NCBI RefSeq genomes match or are contained within your sequence data using Mash
 
-============= ===========
-Home          https://github.com/phac-nml/refseq_masher
-Versions      0.1.1, 0.1.0
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//refseq_masher/meta.yaml
+   :homepage: https://github.com/phac-nml/refseq_masher
+   :license: Apache / Apache 2.0
+   :recipe: /`refseq_masher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refseq_masher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refseq_masher/meta.yaml>`_
 
-
-Development   https://github.com/phac-nml/refseq_masher
+   
 
 
-============= ===========
+.. conda:package:: refseq_masher
+
+   |downloads_refseq_masher| |docker_refseq_masher|
+
+   :versions: 0.1.1, 0.1.0
+
+   :depends: :conda:package:`click`  :conda:package:`mash` >=2.0 :conda:package:`numpy` >=1.12.1 :conda:package:`pandas` >=0.20.1 :conda:package:`python` 3.5* 
+
+   :required~by: |required_by_refseq_masher|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install refseq_masher
+
+   and update with::
+
+      conda update refseq_masher
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/refseq_masher
+
+
+.. |required_by_refseq_masher| conda:required_by:: refseq_masher
+.. |downloads_refseq_masher| image:: https://img.shields.io/conda/dn/bioconda/refseq_masher.svg?style=flat
+   :alt:   (downloads)
+.. |docker_refseq_masher| image:: https://quay.io/repository/biocontainers/refseq_masher/status
+   :target: https://quay.io/repository/biocontainers/refseq_masher
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install refseq_masher
-
-and update with::
-
-   conda update refseq_masher
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/refseq_masher.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/refseq_masher/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/refseq_masher/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/refseq_masher/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/refseq_masher/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/refseq_masher
-.. |docker| image:: https://quay.io/repository/biocontainers/refseq_masher/status
-                :target: https://quay.io/repository/biocontainers/refseq_masher
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/refseq_masher/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-zebrafishrnaseq`:
+.. title:: Package Recipe 'bioconductor-zebrafishrnaseq'
+.. highlight: bash
+
 
 bioconductor-zebrafishrnaseq
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-zebrafishrnaseq
+   :replaces_section_title:
 
-Gene\-level read counts from RNA\-Seq for gallein\-treated and control zebrafish.
+   Gene\-level read counts from RNA\-Seq for gallein\-treated and control zebrafish.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/zebrafishRNASeq.html
-Versions      1.2.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-zebrafishrnaseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/zebrafishRNASeq.html
+   :license: GPL
+   :recipe: /`bioconductor-zebrafishrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-zebrafishrnaseq
 
-Installation
-------------
+   |downloads_bioconductor-zebrafishrnaseq| |docker_bioconductor-zebrafishrnaseq|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-zebrafishrnaseq
+   :required~by: |required_by_bioconductor-zebrafishrnaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-zebrafishrnaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-zebrafishrnaseq
+
+   and update with::
+
+      conda update bioconductor-zebrafishrnaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq
+
+
+.. |required_by_bioconductor-zebrafishrnaseq| conda:required_by:: bioconductor-zebrafishrnaseq
+.. |downloads_bioconductor-zebrafishrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zebrafishrnaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-zebrafishrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-zebrafishrnaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-zebrafishrnaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-zebrafishrnaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-zebrafishrnaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-zebrafishrnaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-zebrafishrnaseq/README.html
 

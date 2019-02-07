@@ -1,54 +1,66 @@
-.. _`talloc`:
+.. title:: Package Recipe 'talloc'
+.. highlight: bash
+
 
 talloc
 ======
 
-|downloads|
+.. conda:recipe:: talloc
+   :replaces_section_title:
 
-talloc is a hierarchical\, reference counted memory pool system with destructors.
+   talloc is a hierarchical\, reference counted memory pool system with destructors.
 
-============= ===========
-Home          https://talloc.samba.org/talloc/doc/html/index.html`
-Versions      2.1.9
-License       LGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//talloc/meta.yaml
+   :homepage: https://talloc.samba.org/talloc/doc/html/index.html`
+   :license: LGPL-3.0
+   :recipe: /`talloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talloc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: talloc
 
-Installation
-------------
+   |downloads_talloc| |docker_talloc|
 
-.. highlight: bash
+   :versions: 2.1.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install talloc
+   :required~by: |required_by_talloc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update talloc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install talloc
+
+   and update with::
+
+      conda update talloc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/talloc
+
+
+.. |required_by_talloc| conda:required_by:: talloc
+.. |downloads_talloc| image:: https://img.shields.io/conda/dn/bioconda/talloc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_talloc| image:: https://quay.io/repository/biocontainers/talloc/status
+   :target: https://quay.io/repository/biocontainers/talloc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/talloc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/talloc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/talloc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/talloc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/talloc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/talloc
-.. |docker| image:: https://quay.io/repository/biocontainers/talloc/status
-                :target: https://quay.io/repository/biocontainers/talloc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/talloc/README.html
 

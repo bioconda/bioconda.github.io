@@ -1,56 +1,67 @@
-.. _`bioconductor-weaver`:
+.. title:: Package Recipe 'bioconductor-weaver'
+.. highlight: bash
+
 
 bioconductor-weaver
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-weaver
+   :replaces_section_title:
 
-This package provides enhancements on the Sweave\(\) function in the base package.  In particular a facility for caching code chunk results is included.
+   This package provides enhancements on the Sweave\(\) function in the base package.  In particular a facility for caching code chunk results is included.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/weaver.html
-Versions      1.48.0, 1.46.0, 1.44.0, 1.42.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-weaver/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/weaver.html
+   :license: GPL-2
+   :recipe: /`bioconductor-weaver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver/meta.yaml>`_
+   :links: biotools: :biotools:`weaver`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`weaver`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-weaver
 
-Installation
-------------
+   |downloads_bioconductor-weaver| |docker_bioconductor-weaver|
 
-.. highlight: bash
+   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-codetools`  :conda:package:`r-digest`  
 
-   conda install bioconductor-weaver
+   :required~by: |required_by_bioconductor-weaver|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-weaver
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-weaver
+
+   and update with::
+
+      conda update bioconductor-weaver
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-weaver
+
+
+.. |required_by_bioconductor-weaver| conda:required_by:: bioconductor-weaver
+.. |downloads_bioconductor-weaver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-weaver.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-weaver| image:: https://quay.io/repository/biocontainers/bioconductor-weaver/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-weaver
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-weaver.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-weaver/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-weaver/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-weaver/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-weaver/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-weaver
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-weaver/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-weaver
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-weaver/README.html
 

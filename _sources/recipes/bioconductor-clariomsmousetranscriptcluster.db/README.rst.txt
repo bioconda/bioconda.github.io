@@ -1,54 +1,66 @@
-.. _`bioconductor-clariomsmousetranscriptcluster.db`:
+.. title:: Package Recipe 'bioconductor-clariomsmousetranscriptcluster.db'
+.. highlight: bash
+
 
 bioconductor-clariomsmousetranscriptcluster.db
 ==============================================
 
-|downloads|
+.. conda:recipe:: bioconductor-clariomsmousetranscriptcluster.db
+   :replaces_section_title:
 
-Affymetrix clariomsmouse annotation data \(chip clariomsmousetranscriptcluster\) assembled using data from public repositories
+   Affymetrix clariomsmouse annotation data \(chip clariomsmousetranscriptcluster\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/clariomsmousetranscriptcluster.db.html
-Versions      8.7.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clariomsmousetranscriptcluster.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/clariomsmousetranscriptcluster.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-clariomsmousetranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsmousetranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsmousetranscriptcluster.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clariomsmousetranscriptcluster.db
 
-Installation
-------------
+   |downloads_bioconductor-clariomsmousetranscriptcluster.db| |docker_bioconductor-clariomsmousetranscriptcluster.db|
 
-.. highlight: bash
+   :versions: 8.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-clariomsmousetranscriptcluster.db
+   :required~by: |required_by_bioconductor-clariomsmousetranscriptcluster.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clariomsmousetranscriptcluster.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clariomsmousetranscriptcluster.db
+
+   and update with::
+
+      conda update bioconductor-clariomsmousetranscriptcluster.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db
+
+
+.. |required_by_bioconductor-clariomsmousetranscriptcluster.db| conda:required_by:: bioconductor-clariomsmousetranscriptcluster.db
+.. |downloads_bioconductor-clariomsmousetranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clariomsmousetranscriptcluster.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clariomsmousetranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clariomsmousetranscriptcluster.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clariomsmousetranscriptcluster.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clariomsmousetranscriptcluster.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clariomsmousetranscriptcluster.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clariomsmousetranscriptcluster.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clariomsmousetranscriptcluster.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clariomsmousetranscriptcluster.db/README.html
 

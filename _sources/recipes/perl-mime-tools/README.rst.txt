@@ -1,54 +1,66 @@
-.. _`perl-mime-tools`:
+.. title:: Package Recipe 'perl-mime-tools'
+.. highlight: bash
+
 
 perl-mime-tools
 ===============
 
-|downloads|
+.. conda:recipe:: perl-mime-tools
+   :replaces_section_title:
 
-Tools to manipulate MIME messages
+   Tools to manipulate MIME messages
 
-============= ===========
-Home          http://metacpan.org/pod/MIME-tools
-Versions      5.508, 5.507
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mime-tools/meta.yaml
+   :homepage: http://metacpan.org/pod/MIME-tools
+   :license: perl_5
+   :recipe: /`perl-mime-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mime-tools
 
-Installation
-------------
+   |downloads_perl-mime-tools| |docker_perl-mime-tools|
 
-.. highlight: bash
+   :versions: 5.508, 5.507
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-convert-binhex`  :conda:package:`perl-mailtools`  
 
-   conda install perl-mime-tools
+   :required~by: |required_by_perl-mime-tools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mime-tools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mime-tools
+
+   and update with::
+
+      conda update perl-mime-tools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mime-tools
+
+
+.. |required_by_perl-mime-tools| conda:required_by:: perl-mime-tools
+.. |downloads_perl-mime-tools| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-tools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mime-tools| image:: https://quay.io/repository/biocontainers/perl-mime-tools/status
+   :target: https://quay.io/repository/biocontainers/perl-mime-tools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mime-tools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mime-tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mime-tools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mime-tools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mime-tools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mime-tools
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mime-tools/status
-                :target: https://quay.io/repository/biocontainers/perl-mime-tools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mime-tools/README.html
 

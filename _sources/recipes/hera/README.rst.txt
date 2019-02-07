@@ -1,54 +1,66 @@
-.. _`hera`:
+.. title:: Package Recipe 'hera'
+.. highlight: bash
+
 
 hera
 ====
 
-|downloads|
+.. conda:recipe:: hera
+   :replaces_section_title:
 
-hera is a bioinformatics tool that helps analyze RNA\-seq data\, providing base\-to\-base alignment BAM files\, transcript abundance estimation\, and fusion gene detection.
+   hera is a bioinformatics tool that helps analyze RNA\-seq data\, providing base\-to\-base alignment BAM files\, transcript abundance estimation\, and fusion gene detection.
 
-============= ===========
-Home          https://github.com/bioturing/hera
-Versions      1.1, 1.0.1, 1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hera/meta.yaml
+   :homepage: https://github.com/bioturing/hera
+   :license: MIT
+   :recipe: /`hera <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hera>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hera/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hera
 
-Installation
-------------
+   |downloads_hera| |docker_hera|
 
-.. highlight: bash
+   :versions: 1.1, 1.0.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`hdf5` >=1.10.2,<1.10.3.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`jemalloc` >=4.5.0 :conda:package:`libdivsufsort`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`python`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install hera
+   :required~by: |required_by_hera|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hera
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hera
+
+   and update with::
+
+      conda update hera
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hera
+
+
+.. |required_by_hera| conda:required_by:: hera
+.. |downloads_hera| image:: https://img.shields.io/conda/dn/bioconda/hera.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hera| image:: https://quay.io/repository/biocontainers/hera/status
+   :target: https://quay.io/repository/biocontainers/hera
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hera.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hera/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hera/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hera/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hera/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hera
-.. |docker| image:: https://quay.io/repository/biocontainers/hera/status
-                :target: https://quay.io/repository/biocontainers/hera
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hera/README.html
 

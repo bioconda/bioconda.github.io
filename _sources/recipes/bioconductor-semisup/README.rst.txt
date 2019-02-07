@@ -1,54 +1,66 @@
-.. _`bioconductor-semisup`:
+.. title:: Package Recipe 'bioconductor-semisup'
+.. highlight: bash
+
 
 bioconductor-semisup
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-semisup
+   :replaces_section_title:
 
-Useful for detecting SNPs with interactive effects on a quantitative trait. This R packages moves away from testing interaction terms\, and moves towards testing whether an individual SNP is involved in any interaction. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect. Implicitly\, the membership probabilities may suggest potential interacting variables.
+   Useful for detecting SNPs with interactive effects on a quantitative trait. This R packages moves away from testing interaction terms\, and moves towards testing whether an individual SNP is involved in any interaction. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect. Implicitly\, the membership probabilities may suggest potential interacting variables.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/semisup.html
-Versions      1.6.0, 1.4.0, 1.2.0, 1.0.2
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-semisup/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/semisup.html
+   :license: GPL-3
+   :recipe: /`bioconductor-semisup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-semisup
 
-Installation
-------------
+   |downloads_bioconductor-semisup| |docker_bioconductor-semisup|
 
-.. highlight: bash
+   :versions: 1.6.0, 1.4.0, 1.2.0, 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-vgam`  
 
-   conda install bioconductor-semisup
+   :required~by: |required_by_bioconductor-semisup|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-semisup
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-semisup
+
+   and update with::
+
+      conda update bioconductor-semisup
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-semisup
+
+
+.. |required_by_bioconductor-semisup| conda:required_by:: bioconductor-semisup
+.. |downloads_bioconductor-semisup| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-semisup.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-semisup| image:: https://quay.io/repository/biocontainers/bioconductor-semisup/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-semisup
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-semisup.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-semisup/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-semisup/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-semisup/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-semisup/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-semisup
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-semisup/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-semisup
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-semisup/README.html
 

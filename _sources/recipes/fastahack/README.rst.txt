@@ -1,54 +1,66 @@
-.. _`fastahack`:
+.. title:: Package Recipe 'fastahack'
+.. highlight: bash
+
 
 fastahack
 =========
 
-|downloads|
+.. conda:recipe:: fastahack
+   :replaces_section_title:
 
-fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
+   fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
 
-============= ===========
-Home          https://github.com/ekg/fastahack
-Versions      2016.07.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastahack/meta.yaml
+   :homepage: https://github.com/ekg/fastahack
+   :license: MIT
+   :recipe: /`fastahack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastahack
 
-Installation
-------------
+   |downloads_fastahack| |docker_fastahack|
 
-.. highlight: bash
+   :versions: 2016.07.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install fastahack
+   :required~by: |required_by_fastahack|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastahack
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastahack
+
+   and update with::
+
+      conda update fastahack
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastahack
+
+
+.. |required_by_fastahack| conda:required_by:: fastahack
+.. |downloads_fastahack| image:: https://img.shields.io/conda/dn/bioconda/fastahack.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastahack| image:: https://quay.io/repository/biocontainers/fastahack/status
+   :target: https://quay.io/repository/biocontainers/fastahack
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastahack.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastahack/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastahack/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastahack/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastahack/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastahack
-.. |docker| image:: https://quay.io/repository/biocontainers/fastahack/status
-                :target: https://quay.io/repository/biocontainers/fastahack
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastahack/README.html
 

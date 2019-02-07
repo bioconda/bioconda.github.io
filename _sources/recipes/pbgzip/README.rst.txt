@@ -1,54 +1,66 @@
-.. _`pbgzip`:
+.. title:: Package Recipe 'pbgzip'
+.. highlight: bash
+
 
 pbgzip
 ======
 
-|downloads|
+.. conda:recipe:: pbgzip
+   :replaces_section_title:
 
-Parallel Block GZIP
+   Parallel Block GZIP
 
-============= ===========
-Home          https://github.com/nh13/pbgzip
-Versions      2016.08.04, 2015.10.28
-License       MIT/Expat
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbgzip/meta.yaml
+   :homepage: https://github.com/nh13/pbgzip
+   :license: MIT/Expat
+   :recipe: /`pbgzip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbgzip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbgzip/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbgzip
 
-Installation
-------------
+   |downloads_pbgzip| |docker_pbgzip|
 
-.. highlight: bash
+   :versions: 2016.08.04, 2015.10.28
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pbgzip
+   :required~by: |required_by_pbgzip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbgzip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbgzip
+
+   and update with::
+
+      conda update pbgzip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbgzip
+
+
+.. |required_by_pbgzip| conda:required_by:: pbgzip
+.. |downloads_pbgzip| image:: https://img.shields.io/conda/dn/bioconda/pbgzip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbgzip| image:: https://quay.io/repository/biocontainers/pbgzip/status
+   :target: https://quay.io/repository/biocontainers/pbgzip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbgzip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbgzip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbgzip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbgzip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbgzip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbgzip
-.. |docker| image:: https://quay.io/repository/biocontainers/pbgzip/status
-                :target: https://quay.io/repository/biocontainers/pbgzip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbgzip/README.html
 

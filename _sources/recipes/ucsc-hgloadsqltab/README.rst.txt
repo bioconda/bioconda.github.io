@@ -1,54 +1,66 @@
-.. _`ucsc-hgloadsqltab`:
+.. title:: Package Recipe 'ucsc-hgloadsqltab'
+.. highlight: bash
+
 
 ucsc-hgloadsqltab
 =================
 
-|downloads|
+.. conda:recipe:: ucsc-hgloadsqltab
+   :replaces_section_title:
 
-Load table into database from SQL and text files.
+   Load table into database from SQL and text files.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-hgloadsqltab/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-hgloadsqltab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadsqltab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadsqltab/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-hgloadsqltab
 
-Installation
-------------
+   |downloads_ucsc-hgloadsqltab| |docker_ucsc-hgloadsqltab|
 
-.. highlight: bash
+   :versions: 366
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-hgloadsqltab
+   :required~by: |required_by_ucsc-hgloadsqltab|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-hgloadsqltab
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-hgloadsqltab
+
+   and update with::
+
+      conda update ucsc-hgloadsqltab
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-hgloadsqltab
+
+
+.. |required_by_ucsc-hgloadsqltab| conda:required_by:: ucsc-hgloadsqltab
+.. |downloads_ucsc-hgloadsqltab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadsqltab.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-hgloadsqltab| image:: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab/status
+   :target: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-hgloadsqltab.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-hgloadsqltab/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-hgloadsqltab/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-hgloadsqltab/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-hgloadsqltab/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-hgloadsqltab
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab/status
-                :target: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-hgloadsqltab/README.html
 

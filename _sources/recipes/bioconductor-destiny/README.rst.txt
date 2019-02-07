@@ -1,54 +1,66 @@
-.. _`bioconductor-destiny`:
+.. title:: Package Recipe 'bioconductor-destiny'
+.. highlight: bash
+
 
 bioconductor-destiny
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-destiny
+   :replaces_section_title:
 
-Create and plot diffusion maps.
+   Create and plot diffusion maps.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/destiny.html
-Versions      2.12.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-destiny/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/destiny.html
+   :license: GPL
+   :recipe: /`bioconductor-destiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-destiny
 
-Installation
-------------
+   |downloads_bioconductor-destiny| |docker_bioconductor-destiny|
 
-.. highlight: bash
+   :versions: 2.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-ggthemes`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.10.3 :conda:package:`r-rcppeigen`  :conda:package:`r-scales`  :conda:package:`r-scatterplot3d`  :conda:package:`r-smoother`  :conda:package:`r-vim`  
 
-   conda install bioconductor-destiny
+   :required~by: |required_by_bioconductor-destiny|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-destiny
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-destiny
+
+   and update with::
+
+      conda update bioconductor-destiny
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-destiny
+
+
+.. |required_by_bioconductor-destiny| conda:required_by:: bioconductor-destiny
+.. |downloads_bioconductor-destiny| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-destiny.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-destiny| image:: https://quay.io/repository/biocontainers/bioconductor-destiny/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-destiny
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-destiny.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-destiny/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-destiny/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-destiny/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-destiny/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-destiny
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-destiny/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-destiny
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-destiny/README.html
 

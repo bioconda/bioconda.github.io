@@ -1,54 +1,66 @@
-.. _`mglex`:
+.. title:: Package Recipe 'mglex'
+.. highlight: bash
+
 
 mglex
 =====
 
-|downloads|
+.. conda:recipe:: mglex
+   :replaces_section_title:
 
-MGLEX \- MetaGenome Likelihood EXtractor
+   MGLEX \- MetaGenome Likelihood EXtractor
 
-============= ===========
-Home          https://github.com/fungs/mglex
-Versions      0.2.1, 0.2.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mglex/meta.yaml
+   :homepage: https://github.com/fungs/mglex
+   :license: GPL / GPL-3.0
+   :recipe: /`mglex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mglex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mglex/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mglex
 
-Installation
-------------
+   |downloads_mglex| |docker_mglex|
 
-.. highlight: bash
+   :versions: 0.2.1, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`docopt` >=0.6.2 :conda:package:`numpy` >=1.8.2 :conda:package:`python` >=3 :conda:package:`scipy` >=0.13.3 
 
-   conda install mglex
+   :required~by: |required_by_mglex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mglex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mglex
+
+   and update with::
+
+      conda update mglex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mglex
+
+
+.. |required_by_mglex| conda:required_by:: mglex
+.. |downloads_mglex| image:: https://img.shields.io/conda/dn/bioconda/mglex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mglex| image:: https://quay.io/repository/biocontainers/mglex/status
+   :target: https://quay.io/repository/biocontainers/mglex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mglex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mglex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mglex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mglex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mglex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mglex
-.. |docker| image:: https://quay.io/repository/biocontainers/mglex/status
-                :target: https://quay.io/repository/biocontainers/mglex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mglex/README.html
 

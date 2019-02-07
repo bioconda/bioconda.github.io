@@ -1,56 +1,67 @@
-.. _`bioconductor-genrank`:
+.. title:: Package Recipe 'bioconductor-genrank'
+.. highlight: bash
+
 
 bioconductor-genrank
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-genrank
+   :replaces_section_title:
 
-Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
+   Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GenRank.html
-Versions      1.10.0, 1.8.0, 1.6.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genrank/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenRank.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-genrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank/meta.yaml>`_
+   :links: biotools: :biotools:`genrank`, doi: :doi:`10.12688/f1000research.11223.1`
 
-
-
-Links         biotools: :biotools:`genrank`, doi: :doi:`10.12688/f1000research.11223.1`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genrank
 
-Installation
-------------
+   |downloads_bioconductor-genrank| |docker_bioconductor-genrank|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-survcomp` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-genrank
+   :required~by: |required_by_bioconductor-genrank|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genrank
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genrank
+
+   and update with::
+
+      conda update bioconductor-genrank
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genrank
+
+
+.. |required_by_bioconductor-genrank| conda:required_by:: bioconductor-genrank
+.. |downloads_bioconductor-genrank| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genrank.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genrank| image:: https://quay.io/repository/biocontainers/bioconductor-genrank/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genrank
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genrank.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genrank/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genrank/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genrank/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genrank/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genrank
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genrank/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genrank
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genrank/README.html
 

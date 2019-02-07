@@ -1,54 +1,66 @@
-.. _`vphaser2`:
+.. title:: Package Recipe 'vphaser2'
+.. highlight: bash
+
 
 vphaser2
 ========
 
-|downloads|
+.. conda:recipe:: vphaser2
+   :replaces_section_title:
 
-V\-Phaser 2 is a tool to call variants in genetically heterogeneous populations from ultra\-deep sequence data
+   V\-Phaser 2 is a tool to call variants in genetically heterogeneous populations from ultra\-deep sequence data
 
-============= ===========
-Home          https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/v-phaser-2
-Versions      2.0
-License       single user license for academic non-commercial research purposes only
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vphaser2/meta.yaml
+   :homepage: https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/v-phaser-2
+   :license: single user license for academic non-commercial research purposes only
+   :recipe: /`vphaser2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vphaser2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vphaser2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vphaser2
 
-Installation
-------------
+   |downloads_vphaser2| |docker_vphaser2|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bamtools`  :conda:package:`zlib`  
 
-   conda install vphaser2
+   :required~by: |required_by_vphaser2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vphaser2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vphaser2
+
+   and update with::
+
+      conda update vphaser2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vphaser2
+
+
+.. |required_by_vphaser2| conda:required_by:: vphaser2
+.. |downloads_vphaser2| image:: https://img.shields.io/conda/dn/bioconda/vphaser2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vphaser2| image:: https://quay.io/repository/biocontainers/vphaser2/status
+   :target: https://quay.io/repository/biocontainers/vphaser2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vphaser2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vphaser2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vphaser2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vphaser2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vphaser2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vphaser2
-.. |docker| image:: https://quay.io/repository/biocontainers/vphaser2/status
-                :target: https://quay.io/repository/biocontainers/vphaser2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vphaser2/README.html
 

@@ -1,54 +1,66 @@
-.. _`tqdist`:
+.. title:: Package Recipe 'tqdist'
+.. highlight: bash
+
 
 tqdist
 ======
 
-|downloads|
+.. conda:recipe:: tqdist/1.0.0
+   :replaces_section_title:
 
-computes the triplet distance between rooted trees in O\(n log n\) time and the quartet distance between unrooted trees in O\(dn log n\) time\, where d degree of the tree with the smallest degree.
+   computes the triplet distance between rooted trees in O\(n log n\) time and the quartet distance between unrooted trees in O\(dn log n\) time\, where d degree of the tree with the smallest degree.
 
-============= ===========
-Home          http://users-cs.au.dk/cstorm/software/tqdist/
-Versions      1.0.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tqdist/1.0.0/meta.yaml
+   :homepage: http://users-cs.au.dk/cstorm/software/tqdist/
+   :license: GPL / GPL
+   :recipe: /`tqdist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tqdist>`_/`1.0.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tqdist/1.0.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tqdist/1.0.0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tqdist
 
-Installation
-------------
+   |downloads_tqdist| |docker_tqdist|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install tqdist
+   :required~by: |required_by_tqdist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tqdist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tqdist
+
+   and update with::
+
+      conda update tqdist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tqdist
+
+
+.. |required_by_tqdist| conda:required_by:: tqdist
+.. |downloads_tqdist| image:: https://img.shields.io/conda/dn/bioconda/tqdist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tqdist| image:: https://quay.io/repository/biocontainers/tqdist/status
+   :target: https://quay.io/repository/biocontainers/tqdist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tqdist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tqdist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tqdist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tqdist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tqdist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tqdist
-.. |docker| image:: https://quay.io/repository/biocontainers/tqdist/status
-                :target: https://quay.io/repository/biocontainers/tqdist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tqdist/README.html
 

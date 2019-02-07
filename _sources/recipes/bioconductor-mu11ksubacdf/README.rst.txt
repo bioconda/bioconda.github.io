@@ -1,54 +1,66 @@
-.. _`bioconductor-mu11ksubacdf`:
+.. title:: Package Recipe 'bioconductor-mu11ksubacdf'
+.. highlight: bash
+
 
 bioconductor-mu11ksubacdf
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mu11ksubacdf
+   :replaces_section_title:
 
-A package containing an environment representing the Mu11KsubA.CDF file.
+   A package containing an environment representing the Mu11KsubA.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu11ksubacdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu11ksubacdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mu11ksubacdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-mu11ksubacdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubacdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubacdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mu11ksubacdf
 
-Installation
-------------
+   |downloads_bioconductor-mu11ksubacdf| |docker_bioconductor-mu11ksubacdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mu11ksubacdf
+   :required~by: |required_by_bioconductor-mu11ksubacdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mu11ksubacdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mu11ksubacdf
+
+   and update with::
+
+      conda update bioconductor-mu11ksubacdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mu11ksubacdf
+
+
+.. |required_by_bioconductor-mu11ksubacdf| conda:required_by:: bioconductor-mu11ksubacdf
+.. |downloads_bioconductor-mu11ksubacdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu11ksubacdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mu11ksubacdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mu11ksubacdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mu11ksubacdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mu11ksubacdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mu11ksubacdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mu11ksubacdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mu11ksubacdf/README.html
 

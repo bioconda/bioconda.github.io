@@ -1,54 +1,66 @@
-.. _`ac-diamond`:
+.. title:: Package Recipe 'ac-diamond'
+.. highlight: bash
+
 
 ac-diamond
 ==========
 
-|downloads|
+.. conda:recipe:: ac-diamond
+   :replaces_section_title:
 
-AC\-DIAMOND is a DNA\-protein alignment tool
+   AC\-DIAMOND is a DNA\-protein alignment tool
 
-============= ===========
-Home          https://github.com/Maihj/AC-DIAMOND
-Versions      1.0
-License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ac-diamond/meta.yaml
+   :homepage: https://github.com/Maihj/AC-DIAMOND
+   :license: GNU Affero General Public License v3.0
+   :recipe: /`ac-diamond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ac-diamond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ac-diamond/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ac-diamond
 
-Installation
-------------
+   |downloads_ac-diamond| |docker_ac-diamond|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  
 
-   conda install ac-diamond
+   :required~by: |required_by_ac-diamond|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ac-diamond
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ac-diamond
+
+   and update with::
+
+      conda update ac-diamond
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ac-diamond
+
+
+.. |required_by_ac-diamond| conda:required_by:: ac-diamond
+.. |downloads_ac-diamond| image:: https://img.shields.io/conda/dn/bioconda/ac-diamond.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ac-diamond| image:: https://quay.io/repository/biocontainers/ac-diamond/status
+   :target: https://quay.io/repository/biocontainers/ac-diamond
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ac-diamond.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ac-diamond/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ac-diamond/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ac-diamond/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ac-diamond/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ac-diamond
-.. |docker| image:: https://quay.io/repository/biocontainers/ac-diamond/status
-                :target: https://quay.io/repository/biocontainers/ac-diamond
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ac-diamond/README.html
 

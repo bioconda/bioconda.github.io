@@ -1,36 +1,56 @@
-.. _`indelfixer`:
+.. title:: Package Recipe 'indelfixer'
+.. highlight: bash
+
 
 indelfixer
 ==========
 
-|downloads|
+.. conda:recipe:: indelfixer
+   :replaces_section_title:
 
-A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference.
+   A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference.
 
-============= ===========
-Home          https://github.com/cbg-ethz/InDelFixer
-Versions      1.1
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//indelfixer/meta.yaml
+   :homepage: https://github.com/cbg-ethz/InDelFixer
+   :license: GNU General Public License v3.0
+   :recipe: /`indelfixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/indelfixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/indelfixer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: indelfixer
 
-Installation
-------------
+   |downloads_indelfixer| |docker_indelfixer|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install indelfixer
+   :required~by: |required_by_indelfixer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update indelfixer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install indelfixer
+
+   and update with::
+
+      conda update indelfixer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/indelfixer
+
+
+.. |required_by_indelfixer| conda:required_by:: indelfixer
+.. |downloads_indelfixer| image:: https://img.shields.io/conda/dn/bioconda/indelfixer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_indelfixer| image:: https://quay.io/repository/biocontainers/indelfixer/status
+   :target: https://quay.io/repository/biocontainers/indelfixer
+
+
+
+
 
 
 Notes
@@ -43,22 +63,13 @@ set globally this will take precedence.
 For example run it with \"InDelFixer \-Xms512m \-Xmx1G\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/indelfixer.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/indelfixer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/indelfixer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/indelfixer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/indelfixer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/indelfixer
-.. |docker| image:: https://quay.io/repository/biocontainers/indelfixer/status
-                :target: https://quay.io/repository/biocontainers/indelfixer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/indelfixer/README.html
 

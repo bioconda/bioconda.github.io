@@ -1,54 +1,66 @@
-.. _`bioconductor-metagxbreast`:
+.. title:: Package Recipe 'bioconductor-metagxbreast'
+.. highlight: bash
+
 
 bioconductor-metagxbreast
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-metagxbreast
+   :replaces_section_title:
 
-A collection of Breast Cancer Transcriptomic Datasets that are part of the MetaGxData package compendium.
+   A collection of Breast Cancer Transcriptomic Datasets that are part of the MetaGxData package compendium.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/MetaGxBreast.html
-Versions      1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metagxbreast/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MetaGxBreast.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-metagxbreast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-metagxbreast
 
-Installation
-------------
+   |downloads_bioconductor-metagxbreast| |docker_bioconductor-metagxbreast|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationhub` >=2.14.0,<2.15.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`wget`  
 
-   conda install bioconductor-metagxbreast
+   :required~by: |required_by_bioconductor-metagxbreast|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-metagxbreast
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-metagxbreast
+
+   and update with::
+
+      conda update bioconductor-metagxbreast
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-metagxbreast
+
+
+.. |required_by_bioconductor-metagxbreast| conda:required_by:: bioconductor-metagxbreast
+.. |downloads_bioconductor-metagxbreast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagxbreast.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-metagxbreast| image:: https://quay.io/repository/biocontainers/bioconductor-metagxbreast/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-metagxbreast
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-metagxbreast.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metagxbreast/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-metagxbreast/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-metagxbreast/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-metagxbreast/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-metagxbreast
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metagxbreast/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-metagxbreast
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-metagxbreast/README.html
 

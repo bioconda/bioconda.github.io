@@ -1,56 +1,67 @@
-.. _`monovar`:
+.. title:: Package Recipe 'monovar'
+.. highlight: bash
+
 
 monovar
 =======
 
-|downloads|
+.. conda:recipe:: monovar
+   :replaces_section_title:
 
-single cell joint genotyper
+   single cell joint genotyper
 
-============= ===========
-Home          https://bitbucket.org/hamimzafar/monovar
-Versions      v0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//monovar/meta.yaml
+   :homepage: https://bitbucket.org/hamimzafar/monovar
+   :license: MIT
+   :recipe: /`monovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monovar/meta.yaml>`_
+   :links: biotools: :biotools:`Monovar`, doi: :doi:`10.1038/nmeth.3835`
 
-
-
-Links         biotools: :biotools:`Monovar`, doi: :doi:`10.1038/nmeth.3835`
-
-============= ===========
+   
 
 
+.. conda:package:: monovar
 
-Installation
-------------
+   |downloads_monovar| |docker_monovar|
 
-.. highlight: bash
+   :versions: v0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`scipy`  
 
-   conda install monovar
+   :required~by: |required_by_monovar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update monovar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install monovar
+
+   and update with::
+
+      conda update monovar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/monovar
+
+
+.. |required_by_monovar| conda:required_by:: monovar
+.. |downloads_monovar| image:: https://img.shields.io/conda/dn/bioconda/monovar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_monovar| image:: https://quay.io/repository/biocontainers/monovar/status
+   :target: https://quay.io/repository/biocontainers/monovar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/monovar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/monovar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/monovar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/monovar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/monovar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/monovar
-.. |docker| image:: https://quay.io/repository/biocontainers/monovar/status
-                :target: https://quay.io/repository/biocontainers/monovar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/monovar/README.html
 

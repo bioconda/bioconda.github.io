@@ -1,54 +1,66 @@
-.. _`ribotish`:
+.. title:: Package Recipe 'ribotish'
+.. highlight: bash
+
 
 ribotish
 ========
 
-|downloads|
+.. conda:recipe:: ribotish
+   :replaces_section_title:
 
-Ribo TIS Hunter \(Ribo\-TISH\) identifies translation activities using ribosome profiling data.
+   Ribo TIS Hunter \(Ribo\-TISH\) identifies translation activities using ribosome profiling data.
 
-============= ===========
-Home          https://github.com/zhpn1024/ribotish
-Versions      0.2.1, 0.2.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ribotish/meta.yaml
+   :homepage: https://github.com/zhpn1024/ribotish
+   :license: GPL-3
+   :recipe: /`ribotish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotish/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ribotish
 
-Installation
-------------
+   |downloads_ribotish| |docker_ribotish|
 
-.. highlight: bash
+   :versions: 0.2.1, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pip`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
-   conda install ribotish
+   :required~by: |required_by_ribotish|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ribotish
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ribotish
+
+   and update with::
+
+      conda update ribotish
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ribotish
+
+
+.. |required_by_ribotish| conda:required_by:: ribotish
+.. |downloads_ribotish| image:: https://img.shields.io/conda/dn/bioconda/ribotish.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ribotish| image:: https://quay.io/repository/biocontainers/ribotish/status
+   :target: https://quay.io/repository/biocontainers/ribotish
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ribotish.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ribotish/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ribotish/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ribotish/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ribotish/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ribotish
-.. |docker| image:: https://quay.io/repository/biocontainers/ribotish/status
-                :target: https://quay.io/repository/biocontainers/ribotish
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ribotish/README.html
 

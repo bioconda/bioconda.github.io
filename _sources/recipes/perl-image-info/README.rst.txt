@@ -1,54 +1,66 @@
-.. _`perl-image-info`:
+.. title:: Package Recipe 'perl-image-info'
+.. highlight: bash
+
 
 perl-image-info
 ===============
 
-|downloads|
+.. conda:recipe:: perl-image-info
+   :replaces_section_title:
 
-Extract meta information from image files
+   Extract meta information from image files
 
-============= ===========
-Home          http://metacpan.org/pod/Image-Info
-Versions      1.38
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-image-info/meta.yaml
+   :homepage: http://metacpan.org/pod/Image-Info
+   :license: perl_5
+   :recipe: /`perl-image-info <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-image-info
 
-Installation
-------------
+   |downloads_perl-image-info| |docker_perl-image-info|
 
-.. highlight: bash
+   :versions: 1.38
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-io-stringy`  :conda:package:`perl-threaded`  :conda:package:`perl-xml-libxml`  
 
-   conda install perl-image-info
+   :required~by: |required_by_perl-image-info|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-image-info
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-image-info
+
+   and update with::
+
+      conda update perl-image-info
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-image-info
+
+
+.. |required_by_perl-image-info| conda:required_by:: perl-image-info
+.. |downloads_perl-image-info| image:: https://img.shields.io/conda/dn/bioconda/perl-image-info.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-image-info| image:: https://quay.io/repository/biocontainers/perl-image-info/status
+   :target: https://quay.io/repository/biocontainers/perl-image-info
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-image-info.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-image-info/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-image-info/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-image-info/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-image-info/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-image-info
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-image-info/status
-                :target: https://quay.io/repository/biocontainers/perl-image-info
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-image-info/README.html
 

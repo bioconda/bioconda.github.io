@@ -1,54 +1,66 @@
-.. _`bioconductor-grridge`:
+.. title:: Package Recipe 'bioconductor-grridge'
+.. highlight: bash
+
 
 bioconductor-grridge
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-grridge
+   :replaces_section_title:
 
-This package allows the use of multiple sources of co\-data \(e.g. external p\-values\, gene lists\, annotation\) to improve prediction of binary\, continuous and survival response using \(logistic\, linear or Cox\) group\-regularized ridge regression. It also facilitates post\-hoc variable selection and prediction diagnostics by cross\-validation using ROC curves and AUC.
+   This package allows the use of multiple sources of co\-data \(e.g. external p\-values\, gene lists\, annotation\) to improve prediction of binary\, continuous and survival response using \(logistic\, linear or Cox\) group\-regularized ridge regression. It also facilitates post\-hoc variable selection and prediction diagnostics by cross\-validation using ROC curves and AUC.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GRridge.html
-Versions      1.6.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-grridge/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GRridge.html
+   :license: GPL-3
+   :recipe: /`bioconductor-grridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-grridge
 
-Installation
-------------
+   |downloads_bioconductor-grridge| |docker_bioconductor-grridge|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-iso`  :conda:package:`r-mvtnorm`  :conda:package:`r-penalized`  :conda:package:`r-survival`  
 
-   conda install bioconductor-grridge
+   :required~by: |required_by_bioconductor-grridge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-grridge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-grridge
+
+   and update with::
+
+      conda update bioconductor-grridge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-grridge
+
+
+.. |required_by_bioconductor-grridge| conda:required_by:: bioconductor-grridge
+.. |downloads_bioconductor-grridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grridge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-grridge| image:: https://quay.io/repository/biocontainers/bioconductor-grridge/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-grridge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-grridge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-grridge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-grridge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-grridge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-grridge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-grridge
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-grridge/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-grridge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-grridge/README.html
 

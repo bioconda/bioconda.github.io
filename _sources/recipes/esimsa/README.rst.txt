@@ -1,56 +1,67 @@
-.. _`esimsa`:
+.. title:: Package Recipe 'esimsa'
+.. highlight: bash
+
 
 esimsa
 ======
 
-|downloads|
+.. conda:recipe:: esimsa
+   :replaces_section_title:
 
-Simple deconvolution of electrospray ionization peak lists
+   Simple deconvolution of electrospray ionization peak lists
 
-============= ===========
-Home          http://www.ms-utils.org/esimsa.html
-Versions      1.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//esimsa/meta.yaml
+   :homepage: http://www.ms-utils.org/esimsa.html
+   :license: GPL3
+   :recipe: /`esimsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esimsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esimsa/meta.yaml>`_
+   :links: biotools: :biotools:`esimsa`, pmid: :pmid:`10861983`
 
-
-
-Links         biotools: :biotools:`esimsa`, pmid: :pmid:`10861983`
-
-============= ===========
+   
 
 
+.. conda:package:: esimsa
 
-Installation
-------------
+   |downloads_esimsa| |docker_esimsa|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install esimsa
+   :required~by: |required_by_esimsa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update esimsa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install esimsa
+
+   and update with::
+
+      conda update esimsa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/esimsa
+
+
+.. |required_by_esimsa| conda:required_by:: esimsa
+.. |downloads_esimsa| image:: https://img.shields.io/conda/dn/bioconda/esimsa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_esimsa| image:: https://quay.io/repository/biocontainers/esimsa/status
+   :target: https://quay.io/repository/biocontainers/esimsa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/esimsa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/esimsa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esimsa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/esimsa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/esimsa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/esimsa
-.. |docker| image:: https://quay.io/repository/biocontainers/esimsa/status
-                :target: https://quay.io/repository/biocontainers/esimsa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/esimsa/README.html
 

@@ -1,54 +1,66 @@
-.. _`nanostat`:
+.. title:: Package Recipe 'nanostat'
+.. highlight: bash
+
 
 nanostat
 ========
 
-|downloads|
+.. conda:recipe:: nanostat
+   :replaces_section_title:
 
-Calculate statistics for Oxford Nanopore sequencing data and alignments
+   Calculate statistics for Oxford Nanopore sequencing data and alignments
 
-============= ===========
-Home          https://github.com/wdecoster/nanostat
-Versions      1.1.2, 1.1.0, 1.0.0, 0.8.1, 0.7.1, 0.2.0, 0.1.5
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanostat/meta.yaml
+   :homepage: https://github.com/wdecoster/nanostat
+   :license: MIT / MIT License
+   :recipe: /`nanostat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanostat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanostat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nanostat
 
-Installation
-------------
+   |downloads_nanostat| |docker_nanostat|
 
-.. highlight: bash
+   :versions: 1.1.2, 1.1.0, 1.0.0, 0.8.1, 0.7.1, 0.2.0, 0.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`nanoget` >=0.15.0 :conda:package:`nanomath` >=0.19.0 :conda:package:`python` >=3.5,<3.6.0a0 
 
-   conda install nanostat
+   :required~by: |required_by_nanostat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nanostat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nanostat
+
+   and update with::
+
+      conda update nanostat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nanostat
+
+
+.. |required_by_nanostat| conda:required_by:: nanostat
+.. |downloads_nanostat| image:: https://img.shields.io/conda/dn/bioconda/nanostat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nanostat| image:: https://quay.io/repository/biocontainers/nanostat/status
+   :target: https://quay.io/repository/biocontainers/nanostat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nanostat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nanostat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanostat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nanostat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nanostat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nanostat
-.. |docker| image:: https://quay.io/repository/biocontainers/nanostat/status
-                :target: https://quay.io/repository/biocontainers/nanostat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nanostat/README.html
 

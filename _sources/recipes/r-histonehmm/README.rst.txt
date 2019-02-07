@@ -1,56 +1,67 @@
-.. _`r-histonehmm`:
+.. title:: Package Recipe 'r-histonehmm'
+.. highlight: bash
+
 
 r-histonehmm
 ============
 
-|downloads|
+.. conda:recipe:: r-histonehmm
+   :replaces_section_title:
 
-histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
+   histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
 
-============= ===========
-Home          http://histonehmm.molgen.mpg.de/
-Versions      1.7, 1.6
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-histonehmm/meta.yaml
+   :homepage: http://histonehmm.molgen.mpg.de/
+   :developer docs: https://github.com/matthiasheinig/histoneHMM
+   :license: GPL
+   :recipe: /`r-histonehmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm/meta.yaml>`_
 
-
-Development   https://github.com/matthiasheinig/histoneHMM
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-histonehmm
 
-Installation
-------------
+   |downloads_r-histonehmm| |docker_r-histonehmm|
 
-.. highlight: bash
+   :versions: 1.7, 1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocstyle`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-mvtnorm`  :conda:package:`r-optparse`  :conda:package:`r-rcpp`  
 
-   conda install r-histonehmm
+   :required~by: |required_by_r-histonehmm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-histonehmm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-histonehmm
+
+   and update with::
+
+      conda update r-histonehmm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-histonehmm
+
+
+.. |required_by_r-histonehmm| conda:required_by:: r-histonehmm
+.. |downloads_r-histonehmm| image:: https://img.shields.io/conda/dn/bioconda/r-histonehmm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-histonehmm| image:: https://quay.io/repository/biocontainers/r-histonehmm/status
+   :target: https://quay.io/repository/biocontainers/r-histonehmm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-histonehmm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-histonehmm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-histonehmm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-histonehmm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-histonehmm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-histonehmm
-.. |docker| image:: https://quay.io/repository/biocontainers/r-histonehmm/status
-                :target: https://quay.io/repository/biocontainers/r-histonehmm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-histonehmm/README.html
 

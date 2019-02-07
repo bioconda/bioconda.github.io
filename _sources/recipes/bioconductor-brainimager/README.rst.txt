@@ -1,54 +1,66 @@
-.. _`bioconductor-brainimager`:
+.. title:: Package Recipe 'bioconductor-brainimager'
+.. highlight: bash
+
 
 bioconductor-brainimager
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-brainimager
+   :replaces_section_title:
 
-BrainImageR is a package that provides the user with information of where in the human brain their gene set corresponds to. This is provided both as a continuous variable and as a easily\-interpretable image. BrainImageR has additional functionality of identifying approximately when in developmental time that a gene expression dataset corresponds to. Both the spatial gene set enrichment and the developmental time point prediction are assessed in comparison to the Allen Brain Atlas reference data.
+   BrainImageR is a package that provides the user with information of where in the human brain their gene set corresponds to. This is provided both as a continuous variable and as a easily\-interpretable image. BrainImageR has additional functionality of identifying approximately when in developmental time that a gene expression dataset corresponds to. Both the spatial gene set enrichment and the developmental time point prediction are assessed in comparison to the Allen Brain Atlas reference data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/brainImageR.html
-Versions      1.0.0
-License       CC BY-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-brainimager/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/brainImageR.html
+   :license: CC BY-SA 4.0
+   :recipe: /`bioconductor-brainimager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimager/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-brainimager
 
-Installation
-------------
+   |downloads_bioconductor-brainimager| |docker_bioconductor-brainimager|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-randomforest`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-testthat`  
 
-   conda install bioconductor-brainimager
+   :required~by: |required_by_bioconductor-brainimager|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-brainimager
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-brainimager
+
+   and update with::
+
+      conda update bioconductor-brainimager
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-brainimager
+
+
+.. |required_by_bioconductor-brainimager| conda:required_by:: bioconductor-brainimager
+.. |downloads_bioconductor-brainimager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-brainimager.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-brainimager| image:: https://quay.io/repository/biocontainers/bioconductor-brainimager/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-brainimager
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-brainimager.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-brainimager/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-brainimager/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-brainimager/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-brainimager/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-brainimager
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-brainimager/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-brainimager
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-brainimager/README.html
 

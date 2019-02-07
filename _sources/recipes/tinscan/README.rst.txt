@@ -1,54 +1,66 @@
-.. _`tinscan`:
+.. title:: Package Recipe 'tinscan'
+.. highlight: bash
+
 
 tinscan
 =======
 
-|downloads|
+.. conda:recipe:: tinscan
+   :replaces_section_title:
 
-Find alignment signatures characteristic of transposon insertion sites.
+   Find alignment signatures characteristic of transposon insertion sites.
 
-============= ===========
-Home          https://github.com/Adamtaranto/TE-insertion-scanner
-Versions      0.2.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tinscan/meta.yaml
+   :homepage: https://github.com/Adamtaranto/TE-insertion-scanner
+   :license: MIT / MIT License
+   :recipe: /`tinscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinscan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tinscan
 
-Installation
-------------
+   |downloads_tinscan| |docker_tinscan|
 
-.. highlight: bash
+   :versions: 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.70 :conda:package:`python` 3.5* 
 
-   conda install tinscan
+   :required~by: |required_by_tinscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tinscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tinscan
+
+   and update with::
+
+      conda update tinscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tinscan
+
+
+.. |required_by_tinscan| conda:required_by:: tinscan
+.. |downloads_tinscan| image:: https://img.shields.io/conda/dn/bioconda/tinscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tinscan| image:: https://quay.io/repository/biocontainers/tinscan/status
+   :target: https://quay.io/repository/biocontainers/tinscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tinscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tinscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tinscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tinscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tinscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tinscan
-.. |docker| image:: https://quay.io/repository/biocontainers/tinscan/status
-                :target: https://quay.io/repository/biocontainers/tinscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tinscan/README.html
 

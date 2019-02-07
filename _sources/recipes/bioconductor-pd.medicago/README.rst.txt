@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.medicago`:
+.. title:: Package Recipe 'bioconductor-pd.medicago'
+.. highlight: bash
+
 
 bioconductor-pd.medicago
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.medicago
+   :replaces_section_title:
 
-Platform Design Info for The Manufacturer\'s Name Medicago
+   Platform Design Info for The Manufacturer\'s Name Medicago
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.medicago.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.medicago/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.medicago.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.medicago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.medicago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.medicago/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.medicago
 
-Installation
-------------
+   |downloads_bioconductor-pd.medicago| |docker_bioconductor-pd.medicago|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.medicago
+   :required~by: |required_by_bioconductor-pd.medicago|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.medicago
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.medicago
+
+   and update with::
+
+      conda update bioconductor-pd.medicago
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.medicago
+
+
+.. |required_by_bioconductor-pd.medicago| conda:required_by:: bioconductor-pd.medicago
+.. |downloads_bioconductor-pd.medicago| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.medicago.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.medicago| image:: https://quay.io/repository/biocontainers/bioconductor-pd.medicago/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.medicago
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.medicago.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.medicago/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.medicago/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.medicago/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.medicago/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.medicago
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.medicago/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.medicago
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.medicago/README.html
 

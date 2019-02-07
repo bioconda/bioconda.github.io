@@ -1,54 +1,66 @@
-.. _`panx`:
+.. title:: Package Recipe 'panx'
+.. highlight: bash
+
 
 panx
 ====
 
-|downloads|
+.. conda:recipe:: panX/1.5.0
+   :replaces_section_title:
 
-Microbial pan\-genome analysis and exploration tool
+   Microbial pan\-genome analysis and exploration tool
 
-============= ===========
-Home          http://pangenome.de
-Versions      1.6.0, 1.5.0
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//panX/1.5.0/meta.yaml
+   :homepage: http://pangenome.de
+   :license: GNU General Public License v3.0
+   :recipe: /`panX <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX>`_/`1.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX/1.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX/1.5.0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: panx
 
-Installation
-------------
+   |downloads_panx| |docker_panx|
 
-.. highlight: bash
+   :versions: 1.6.0, 1.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`diamond`  :conda:package:`ete2`  :conda:package:`fasttree`  :conda:package:`mafft`  :conda:package:`mcl`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`raxml`  :conda:package:`scipy`  :conda:package:`treetime`  
 
-   conda install panx
+   :required~by: |required_by_panx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update panx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install panx
+
+   and update with::
+
+      conda update panx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/panx
+
+
+.. |required_by_panx| conda:required_by:: panx
+.. |downloads_panx| image:: https://img.shields.io/conda/dn/bioconda/panx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_panx| image:: https://quay.io/repository/biocontainers/panx/status
+   :target: https://quay.io/repository/biocontainers/panx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/panx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/panx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/panx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/panx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/panx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/panx
-.. |docker| image:: https://quay.io/repository/biocontainers/panx/status
-                :target: https://quay.io/repository/biocontainers/panx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/panx/README.html
 

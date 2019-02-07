@@ -1,56 +1,67 @@
-.. _`besst`:
+.. title:: Package Recipe 'besst'
+.. highlight: bash
+
 
 besst
 =====
 
-|downloads|
+.. conda:recipe:: besst
+   :replaces_section_title:
 
-Scaffolder for genomic assemblies.
+   Scaffolder for genomic assemblies.
 
-============= ===========
-Home          https://github.com/ksahlin/BESST
-Versions      2.2.8, 2.2.7, 2.2.3
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//besst/meta.yaml
+   :homepage: https://github.com/ksahlin/BESST
+   :license: GPL / GPL-3.0
+   :recipe: /`besst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/besst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/besst/meta.yaml>`_
+   :links: biotools: :biotools:`besst`, doi: :doi:`10.1186/1471-2105-15-281`
 
-
-
-Links         biotools: :biotools:`besst`, doi: :doi:`10.1186/1471-2105-15-281`
-
-============= ===========
+   
 
 
+.. conda:package:: besst
 
-Installation
-------------
+   |downloads_besst| |docker_besst|
 
-.. highlight: bash
+   :versions: 2.2.8, 2.2.7, 2.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mathstats` >=0.2.6 :conda:package:`networkx` >=1.9 :conda:package:`pysam` >=0.7 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.9 
 
-   conda install besst
+   :required~by: |required_by_besst|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update besst
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install besst
+
+   and update with::
+
+      conda update besst
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/besst
+
+
+.. |required_by_besst| conda:required_by:: besst
+.. |downloads_besst| image:: https://img.shields.io/conda/dn/bioconda/besst.svg?style=flat
+   :alt:   (downloads)
+.. |docker_besst| image:: https://quay.io/repository/biocontainers/besst/status
+   :target: https://quay.io/repository/biocontainers/besst
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/besst.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/besst/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/besst/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/besst/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/besst/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/besst
-.. |docker| image:: https://quay.io/repository/biocontainers/besst/status
-                :target: https://quay.io/repository/biocontainers/besst
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/besst/README.html
 

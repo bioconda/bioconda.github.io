@@ -1,54 +1,66 @@
-.. _`pantools`:
+.. title:: Package Recipe 'pantools'
+.. highlight: bash
+
 
 pantools
 ========
 
-|downloads|
+.. conda:recipe:: pantools
+   :replaces_section_title:
 
-PanTools is a disk\-based java application for computational pan\-genomics
+   PanTools is a disk\-based java application for computational pan\-genomics
 
-============= ===========
-Home          https://github.com/Sheikhizadeh/pantools
-Versions      1.0
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pantools/meta.yaml
+   :homepage: https://github.com/Sheikhizadeh/pantools
+   :license: Unknown
+   :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pantools
 
-Installation
-------------
+   |downloads_pantools| |docker_pantools|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=6 :conda:package:`kmc`  :conda:package:`python` 2.7* 
 
-   conda install pantools
+   :required~by: |required_by_pantools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pantools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pantools
+
+   and update with::
+
+      conda update pantools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pantools
+
+
+.. |required_by_pantools| conda:required_by:: pantools
+.. |downloads_pantools| image:: https://img.shields.io/conda/dn/bioconda/pantools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pantools| image:: https://quay.io/repository/biocontainers/pantools/status
+   :target: https://quay.io/repository/biocontainers/pantools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pantools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pantools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pantools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pantools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pantools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pantools
-.. |docker| image:: https://quay.io/repository/biocontainers/pantools/status
-                :target: https://quay.io/repository/biocontainers/pantools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pantools/README.html
 

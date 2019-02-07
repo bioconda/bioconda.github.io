@@ -1,56 +1,67 @@
-.. _`pysamstats`:
+.. title:: Package Recipe 'pysamstats'
+.. highlight: bash
+
 
 pysamstats
 ==========
 
-|downloads|
+.. conda:recipe:: pysamstats
+   :replaces_section_title:
 
-A Python utility for calculating statistics against genome position based on sequence alignments from a SAM\, BAM or CRAM file.
+   A Python utility for calculating statistics against genome position based on sequence alignments from a SAM\, BAM or CRAM file.
 
-============= ===========
-Home          https://github.com/alimanfoo/pysamstats
-Versions      1.1.2, 1.0.1, 1.0.0, 0.24.3, 0.24.2, 0.24.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysamstats/meta.yaml
+   :homepage: https://github.com/alimanfoo/pysamstats
+   :license: MIT
+   :recipe: /`pysamstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysamstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysamstats/meta.yaml>`_
+   :links: biotools: :biotools:`pysamstats`
 
-
-
-Links         biotools: :biotools:`pysamstats`
-
-============= ===========
+   
 
 
+.. conda:package:: pysamstats
 
-Installation
-------------
+   |downloads_pysamstats| |docker_pysamstats|
 
-.. highlight: bash
+   :versions: 1.1.2, 1.0.1, 1.0.0, 0.24.3, 0.24.2, 0.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam` >=0.15 :conda:package:`pytables`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pysamstats
+   :required~by: |required_by_pysamstats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pysamstats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pysamstats
+
+   and update with::
+
+      conda update pysamstats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pysamstats
+
+
+.. |required_by_pysamstats| conda:required_by:: pysamstats
+.. |downloads_pysamstats| image:: https://img.shields.io/conda/dn/bioconda/pysamstats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pysamstats| image:: https://quay.io/repository/biocontainers/pysamstats/status
+   :target: https://quay.io/repository/biocontainers/pysamstats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pysamstats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pysamstats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pysamstats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pysamstats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pysamstats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pysamstats
-.. |docker| image:: https://quay.io/repository/biocontainers/pysamstats/status
-                :target: https://quay.io/repository/biocontainers/pysamstats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pysamstats/README.html
 

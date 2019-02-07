@@ -1,54 +1,66 @@
-.. _`perl-log-log4perl`:
+.. title:: Package Recipe 'perl-log-log4perl'
+.. highlight: bash
+
 
 perl-log-log4perl
 =================
 
-|downloads|
+.. conda:recipe:: perl-log-log4perl
+   :replaces_section_title:
 
-Log4j implementation for Perl
+   Log4j implementation for Perl
 
-============= ===========
-Home          http://metacpan.org/pod/Log::Log4perl
-Versions      1.49, 1.47
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-log-log4perl/meta.yaml
+   :homepage: http://metacpan.org/pod/Log::Log4perl
+   :license: unknown
+   :recipe: /`perl-log-log4perl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-log4perl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-log4perl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-log-log4perl
 
-Installation
-------------
+   |downloads_perl-log-log4perl| |docker_perl-log-log4perl|
 
-.. highlight: bash
+   :versions: 1.49, 1.47
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  :conda:package:`perl-file-path`  
 
-   conda install perl-log-log4perl
+   :required~by: |required_by_perl-log-log4perl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-log-log4perl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-log-log4perl
+
+   and update with::
+
+      conda update perl-log-log4perl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-log-log4perl
+
+
+.. |required_by_perl-log-log4perl| conda:required_by:: perl-log-log4perl
+.. |downloads_perl-log-log4perl| image:: https://img.shields.io/conda/dn/bioconda/perl-log-log4perl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-log-log4perl| image:: https://quay.io/repository/biocontainers/perl-log-log4perl/status
+   :target: https://quay.io/repository/biocontainers/perl-log-log4perl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-log-log4perl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-log-log4perl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-log-log4perl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-log-log4perl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-log-log4perl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-log-log4perl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-log-log4perl/status
-                :target: https://quay.io/repository/biocontainers/perl-log-log4perl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-log-log4perl/README.html
 

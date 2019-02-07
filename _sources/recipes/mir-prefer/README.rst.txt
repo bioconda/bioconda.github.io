@@ -1,54 +1,66 @@
-.. _`mir-prefer`:
+.. title:: Package Recipe 'mir-prefer'
+.. highlight: bash
+
 
 mir-prefer
 ==========
 
-|downloads|
+.. conda:recipe:: mir-prefer
+   :replaces_section_title:
 
-microRNA PREdiction From small RNA\-seq data
+   microRNA PREdiction From small RNA\-seq data
 
-============= ===========
-Home          https://github.com/hangelwen/miR-PREFeR
-Versions      0.24
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mir-prefer/meta.yaml
+   :homepage: https://github.com/hangelwen/miR-PREFeR
+   :license: GPL
+   :recipe: /`mir-prefer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mir-prefer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mir-prefer/meta.yaml>`_
 
-
-
-============= ===========
-
-microRNA PREdiction From small RNA\-seq data
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install mir-prefer
-
-and update with::
-
-   conda update mir-prefer
+   microRNA PREdiction From small RNA\-seq data
 
 
+.. conda:package:: mir-prefer
 
-|docker|
+   |downloads_mir-prefer| |docker_mir-prefer|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mir-prefer.
+   :versions: 0.24
+
+   :depends: :conda:package:`bowtie` ==1.2.0 :conda:package:`python` 2.7* :conda:package:`samtools` ==0.1.19 :conda:package:`viennarna`  
+
+   :required~by: |required_by_mir-prefer|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mir-prefer
+
+   and update with::
+
+      conda update mir-prefer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mir-prefer
+
+
+.. |required_by_mir-prefer| conda:required_by:: mir-prefer
+.. |downloads_mir-prefer| image:: https://img.shields.io/conda/dn/bioconda/mir-prefer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mir-prefer| image:: https://quay.io/repository/biocontainers/mir-prefer/status
+   :target: https://quay.io/repository/biocontainers/mir-prefer
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mir-prefer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mir-prefer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mir-prefer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mir-prefer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mir-prefer
-.. |docker| image:: https://quay.io/repository/biocontainers/mir-prefer/status
-                :target: https://quay.io/repository/biocontainers/mir-prefer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mir-prefer/README.html
 

@@ -1,54 +1,66 @@
-.. _`groot`:
+.. title:: Package Recipe 'groot'
+.. highlight: bash
+
 
 groot
 =====
 
-|downloads|
+.. conda:recipe:: groot
+   :replaces_section_title:
 
-A tool for resistome profiling of metagenomic samples.
+   A tool for resistome profiling of metagenomic samples.
 
-============= ===========
-Home          https://github.com/will-rowe/groot
-Versions      0.8.3, 0.8.2, 0.8.1, 0.7.1, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//groot/meta.yaml
+   :homepage: https://github.com/will-rowe/groot
+   :license: MIT
+   :recipe: /`groot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: groot
 
-Installation
-------------
+   |downloads_groot| |docker_groot|
 
-.. highlight: bash
+   :versions: 0.8.3, 0.8.2, 0.8.1, 0.7.1, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install groot
+   :required~by: |required_by_groot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update groot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install groot
+
+   and update with::
+
+      conda update groot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/groot
+
+
+.. |required_by_groot| conda:required_by:: groot
+.. |downloads_groot| image:: https://img.shields.io/conda/dn/bioconda/groot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_groot| image:: https://quay.io/repository/biocontainers/groot/status
+   :target: https://quay.io/repository/biocontainers/groot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/groot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/groot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/groot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/groot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/groot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/groot
-.. |docker| image:: https://quay.io/repository/biocontainers/groot/status
-                :target: https://quay.io/repository/biocontainers/groot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/groot/README.html
 

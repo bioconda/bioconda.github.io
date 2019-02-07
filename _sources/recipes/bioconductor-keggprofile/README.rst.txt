@@ -1,54 +1,66 @@
-.. _`bioconductor-keggprofile`:
+.. title:: Package Recipe 'bioconductor-keggprofile'
+.. highlight: bash
+
 
 bioconductor-keggprofile
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-keggprofile
+   :replaces_section_title:
 
-KEGGprofile is an annotation and visualization tool which integrated the expression profiles and the function annotation in KEGG pathway maps. The multi\-types and multi\-groups expression data can be visualized in one pathway map. KEGGprofile facilitated more detailed analysis about the specific function changes inner pathway or temporal correlations in different genes and samples.
+   KEGGprofile is an annotation and visualization tool which integrated the expression profiles and the function annotation in KEGG pathway maps. The multi\-types and multi\-groups expression data can be visualized in one pathway map. KEGGprofile facilitated more detailed analysis about the specific function changes inner pathway or temporal correlations in different genes and samples.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/KEGGprofile.html
-Versions      1.24.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-keggprofile/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/KEGGprofile.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-keggprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-keggprofile
 
-Installation
-------------
+   |downloads_bioconductor-keggprofile| |docker_bioconductor-keggprofile|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-kegg.db` >=3.2.0,<3.3.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-png`  :conda:package:`r-rcurl`  :conda:package:`r-teachingdemos`  :conda:package:`r-xml`  
 
-   conda install bioconductor-keggprofile
+   :required~by: |required_by_bioconductor-keggprofile|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-keggprofile
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-keggprofile
+
+   and update with::
+
+      conda update bioconductor-keggprofile
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-keggprofile
+
+
+.. |required_by_bioconductor-keggprofile| conda:required_by:: bioconductor-keggprofile
+.. |downloads_bioconductor-keggprofile| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggprofile.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-keggprofile| image:: https://quay.io/repository/biocontainers/bioconductor-keggprofile/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-keggprofile
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-keggprofile.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-keggprofile/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-keggprofile/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-keggprofile/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-keggprofile/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-keggprofile
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-keggprofile/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-keggprofile
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-keggprofile/README.html
 

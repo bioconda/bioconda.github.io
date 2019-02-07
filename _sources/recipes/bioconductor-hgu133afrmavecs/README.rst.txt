@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu133afrmavecs`:
+.. title:: Package Recipe 'bioconductor-hgu133afrmavecs'
+.. highlight: bash
+
 
 bioconductor-hgu133afrmavecs
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu133afrmavecs
+   :replaces_section_title:
 
-This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
+   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133afrmavecs.html
-Versions      1.5.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133afrmavecs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu133afrmavecs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hgu133afrmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133afrmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133afrmavecs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu133afrmavecs
 
-Installation
-------------
+   |downloads_bioconductor-hgu133afrmavecs| |docker_bioconductor-hgu133afrmavecs|
 
-.. highlight: bash
+   :versions: 1.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu133afrmavecs
+   :required~by: |required_by_bioconductor-hgu133afrmavecs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu133afrmavecs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu133afrmavecs
+
+   and update with::
+
+      conda update bioconductor-hgu133afrmavecs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs
+
+
+.. |required_by_bioconductor-hgu133afrmavecs| conda:required_by:: bioconductor-hgu133afrmavecs
+.. |downloads_bioconductor-hgu133afrmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133afrmavecs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu133afrmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu133afrmavecs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu133afrmavecs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu133afrmavecs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu133afrmavecs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu133afrmavecs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu133afrmavecs/README.html
 

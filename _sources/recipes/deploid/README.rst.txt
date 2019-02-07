@@ -1,56 +1,67 @@
-.. _`deploid`:
+.. title:: Package Recipe 'deploid'
+.. highlight: bash
+
 
 deploid
 =======
 
-|downloads|
+.. conda:recipe:: deploid
+   :replaces_section_title:
 
-A software that deconvolutes mixed genomes with unknown proportions.
+   A software that deconvolutes mixed genomes with unknown proportions.
 
-============= ===========
-Home          http://deploid.readthedocs.io/en/latest/index.html
-Versions      v0.5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deploid/meta.yaml
+   :homepage: http://deploid.readthedocs.io/en/latest/index.html
+   :license: GPLv3
+   :recipe: /`deploid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deploid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deploid/meta.yaml>`_
+   :links: biotools: :biotools:`DEploid`, doi: :doi:`10.1093/bioinformatics/btx530`
 
-
-
-Links         biotools: :biotools:`DEploid`, doi: :doi:`10.1093/bioinformatics/btx530`
-
-============= ===========
+   
 
 
+.. conda:package:: deploid
 
-Installation
-------------
+   |downloads_deploid| |docker_deploid|
 
-.. highlight: bash
+   :versions: v0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install deploid
+   :required~by: |required_by_deploid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update deploid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install deploid
+
+   and update with::
+
+      conda update deploid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/deploid
+
+
+.. |required_by_deploid| conda:required_by:: deploid
+.. |downloads_deploid| image:: https://img.shields.io/conda/dn/bioconda/deploid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_deploid| image:: https://quay.io/repository/biocontainers/deploid/status
+   :target: https://quay.io/repository/biocontainers/deploid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/deploid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deploid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/deploid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/deploid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/deploid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/deploid
-.. |docker| image:: https://quay.io/repository/biocontainers/deploid/status
-                :target: https://quay.io/repository/biocontainers/deploid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/deploid/README.html
 

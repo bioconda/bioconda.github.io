@@ -1,54 +1,66 @@
-.. _`hubward-all`:
+.. title:: Package Recipe 'hubward-all'
+.. highlight: bash
+
 
 hubward-all
 ===========
 
-|downloads|
+.. conda:recipe:: hubward-all
+   :replaces_section_title:
 
-Meta\-package for hubward including bedtools and UCSC tools
+   Meta\-package for hubward including bedtools and UCSC tools
 
-============= ===========
-Home          
-Versions      0.2.1
-License       The license for this meta-package is MIT; individual tools vary
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hubward-all/meta.yaml
+   :homepage: 
+   :license: The license for this meta-package is MIT; individual tools vary
+   :recipe: /`hubward-all <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hubward-all
 
-Installation
-------------
+   |downloads_hubward-all| |docker_hubward-all|
 
-.. highlight: bash
+   :versions: 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`crossmap`  :conda:package:`hubward`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-bigbedtobed`  :conda:package:`ucsc-bigwigtobedgraph`  :conda:package:`ucsc-bigwigtowig`  :conda:package:`ucsc-fetchchromsizes`  :conda:package:`ucsc-liftover`  :conda:package:`ucsc-wigtobigwig`  
 
-   conda install hubward-all
+   :required~by: |required_by_hubward-all|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hubward-all
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hubward-all
+
+   and update with::
+
+      conda update hubward-all
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hubward-all
+
+
+.. |required_by_hubward-all| conda:required_by:: hubward-all
+.. |downloads_hubward-all| image:: https://img.shields.io/conda/dn/bioconda/hubward-all.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hubward-all| image:: https://quay.io/repository/biocontainers/hubward-all/status
+   :target: https://quay.io/repository/biocontainers/hubward-all
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hubward-all.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hubward-all/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hubward-all/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hubward-all/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hubward-all/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hubward-all
-.. |docker| image:: https://quay.io/repository/biocontainers/hubward-all/status
-                :target: https://quay.io/repository/biocontainers/hubward-all
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hubward-all/README.html
 

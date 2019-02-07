@@ -1,56 +1,67 @@
-.. _`bioconductor-gviz`:
+.. title:: Package Recipe 'bioconductor-gviz'
+.. highlight: bash
+
 
 bioconductor-gviz
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-gviz
+   :replaces_section_title:
 
-Genomic data analyses requires integrated visualization of known genomic information and new experimental data.  Gviz uses the biomaRt and the rtracklayer packages to perform live annotation queries to Ensembl and UCSC and translates this to e.g. gene\/transcript structures in viewports of the grid graphics package. This results in genomic information plotted together with your data.
+   Genomic data analyses requires integrated visualization of known genomic information and new experimental data.  Gviz uses the biomaRt and the rtracklayer packages to perform live annotation queries to Ensembl and UCSC and translates this to e.g. gene\/transcript structures in viewports of the grid graphics package. This results in genomic information plotted together with your data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Gviz.html
-Versions      1.26.4, 1.24.0, 1.22.3, 1.22.0, 1.20.0, 1.16.5, 1.14.2
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gviz/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Gviz.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-gviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz/meta.yaml>`_
+   :links: biotools: :biotools:`gviz`
 
-
-
-Links         biotools: :biotools:`gviz`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gviz
 
-Installation
-------------
+   |downloads_bioconductor-gviz| |docker_bioconductor-gviz|
 
-.. highlight: bash
+   :versions: 1.26.4, 1.24.0, 1.22.3, 1.22.0, 1.20.0, 1.16.5, 1.14.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-biovizbase` >=1.30.0,<1.31.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-digest` >=0.6.8 :conda:package:`r-lattice`  :conda:package:`r-latticeextra` >=0.6-26 :conda:package:`r-matrixstats` >=0.8.14 :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-gviz
+   :required~by: |required_by_bioconductor-gviz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gviz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gviz
+
+   and update with::
+
+      conda update bioconductor-gviz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gviz
+
+
+.. |required_by_bioconductor-gviz| conda:required_by:: bioconductor-gviz
+.. |downloads_bioconductor-gviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gviz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gviz| image:: https://quay.io/repository/biocontainers/bioconductor-gviz/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gviz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gviz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gviz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gviz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gviz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gviz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gviz
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gviz/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gviz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gviz/README.html
 

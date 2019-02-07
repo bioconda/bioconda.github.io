@@ -1,56 +1,67 @@
-.. _`vargeno`:
+.. title:: Package Recipe 'vargeno'
+.. highlight: bash
+
 
 vargeno
 =======
 
-|downloads|
+.. conda:recipe:: vargeno
+   :replaces_section_title:
 
-Fast SNP genotyping tool for whole genome sequence data and large SNP database.
+   Fast SNP genotyping tool for whole genome sequence data and large SNP database.
 
-============= ===========
-Home          https://github.com/medvedevgroup/vargeno
-Versions      1.0.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vargeno/meta.yaml
+   :homepage: https://github.com/medvedevgroup/vargeno
+   :license: MIT
+   :recipe: /`vargeno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vargeno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vargeno/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty641`
 
-
-
-Links         doi: :doi:`10.1093/bioinformatics/bty641`
-
-============= ===========
+   
 
 
+.. conda:package:: vargeno
 
-Installation
-------------
+   |downloads_vargeno| |docker_vargeno|
 
-.. highlight: bash
+   :versions: 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install vargeno
+   :required~by: |required_by_vargeno|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vargeno
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vargeno
+
+   and update with::
+
+      conda update vargeno
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vargeno
+
+
+.. |required_by_vargeno| conda:required_by:: vargeno
+.. |downloads_vargeno| image:: https://img.shields.io/conda/dn/bioconda/vargeno.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vargeno| image:: https://quay.io/repository/biocontainers/vargeno/status
+   :target: https://quay.io/repository/biocontainers/vargeno
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vargeno.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vargeno/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vargeno/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vargeno/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vargeno/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vargeno
-.. |docker| image:: https://quay.io/repository/biocontainers/vargeno/status
-                :target: https://quay.io/repository/biocontainers/vargeno
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vargeno/README.html
 

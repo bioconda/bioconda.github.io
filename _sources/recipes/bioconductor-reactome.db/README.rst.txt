@@ -1,54 +1,66 @@
-.. _`bioconductor-reactome.db`:
+.. title:: Package Recipe 'bioconductor-reactome.db'
+.. highlight: bash
+
 
 bioconductor-reactome.db
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-reactome.db
+   :replaces_section_title:
 
-A set of annotation maps for reactome assembled using data from reactome
+   A set of annotation maps for reactome assembled using data from reactome
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/reactome.db.html
-Versions      1.66.0, 1.64.0, 1.62.0
-License       CC BY 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-reactome.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/reactome.db.html
+   :license: CC BY 4.0
+   :recipe: /`bioconductor-reactome.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactome.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactome.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-reactome.db
 
-Installation
-------------
+   |downloads_bioconductor-reactome.db| |docker_bioconductor-reactome.db|
 
-.. highlight: bash
+   :versions: 1.66.0, 1.64.0, 1.62.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-reactome.db
+   :required~by: |required_by_bioconductor-reactome.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-reactome.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-reactome.db
+
+   and update with::
+
+      conda update bioconductor-reactome.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-reactome.db
+
+
+.. |required_by_bioconductor-reactome.db| conda:required_by:: bioconductor-reactome.db
+.. |downloads_bioconductor-reactome.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reactome.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-reactome.db| image:: https://quay.io/repository/biocontainers/bioconductor-reactome.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-reactome.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-reactome.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-reactome.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-reactome.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-reactome.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-reactome.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-reactome.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-reactome.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-reactome.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-reactome.db/README.html
 

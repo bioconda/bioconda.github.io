@@ -1,54 +1,66 @@
-.. _`express`:
+.. title:: Package Recipe 'express'
+.. highlight: bash
+
 
 express
 =======
 
-|downloads|
+.. conda:recipe:: express
+   :replaces_section_title:
 
-eXpress is a streaming DNA\/RNA sequence quantification tool.
+   eXpress is a streaming DNA\/RNA sequence quantification tool.
 
-============= ===========
-Home          http://bio.math.berkeley.edu/eXpress/
-Versions      1.5.1
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//express/meta.yaml
+   :homepage: http://bio.math.berkeley.edu/eXpress/
+   :license: Artistic License 2.0
+   :recipe: /`express <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/express>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/express/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: express
 
-Installation
-------------
+   |downloads_express| |docker_express|
 
-.. highlight: bash
+   :versions: 1.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install express
+   :required~by: |required_by_express|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update express
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install express
+
+   and update with::
+
+      conda update express
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/express
+
+
+.. |required_by_express| conda:required_by:: express
+.. |downloads_express| image:: https://img.shields.io/conda/dn/bioconda/express.svg?style=flat
+   :alt:   (downloads)
+.. |docker_express| image:: https://quay.io/repository/biocontainers/express/status
+   :target: https://quay.io/repository/biocontainers/express
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/express.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/express/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/express/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/express/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/express/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/express
-.. |docker| image:: https://quay.io/repository/biocontainers/express/status
-                :target: https://quay.io/repository/biocontainers/express
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/express/README.html
 

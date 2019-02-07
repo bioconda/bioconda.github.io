@@ -1,54 +1,66 @@
-.. _`r-imputelcmd`:
+.. title:: Package Recipe 'r-imputelcmd'
+.. highlight: bash
+
 
 r-imputelcmd
 ============
 
-|downloads|
+.. conda:recipe:: r-imputelcmd
+   :replaces_section_title:
 
-The package contains a collection of functions for left\-censored missing data imputation. Left\-censoring is a special case of missing not at random \(MNAR\)  mechanism that generates non\-responses in proteomics experiments. The package also contains functions to artificially generate peptide\/protein expression data \(log\-transformed\) as random draws from a multivariate Gaussian distribution as well as a function to generate missing data \(both randomly and non\-randomly\). For comparison reasons\, the package also contains several wrapper functions for the imputation of non\-responses that are missing at random. \* New functionality has been added\: a hybrid method that allows the imputation of missing values in a more complex scenario where the missing data are both MAR and MNAR.
+   The package contains a collection of functions for left\-censored missing data imputation. Left\-censoring is a special case of missing not at random \(MNAR\)  mechanism that generates non\-responses in proteomics experiments. The package also contains functions to artificially generate peptide\/protein expression data \(log\-transformed\) as random draws from a multivariate Gaussian distribution as well as a function to generate missing data \(both randomly and non\-randomly\). For comparison reasons\, the package also contains several wrapper functions for the imputation of non\-responses that are missing at random. \* New functionality has been added\: a hybrid method that allows the imputation of missing values in a more complex scenario where the missing data are both MAR and MNAR.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=imputeLCMD
-Versions      2.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-imputelcmd/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=imputeLCMD
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-imputelcmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-imputelcmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-imputelcmd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-imputelcmd
 
-Installation
-------------
+   |downloads_r-imputelcmd| |docker_r-imputelcmd|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-impute`  :conda:package:`bioconductor-pcamethods`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-norm`  :conda:package:`r-tmvtnorm`  
 
-   conda install r-imputelcmd
+   :required~by: |required_by_r-imputelcmd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-imputelcmd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-imputelcmd
+
+   and update with::
+
+      conda update r-imputelcmd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-imputelcmd
+
+
+.. |required_by_r-imputelcmd| conda:required_by:: r-imputelcmd
+.. |downloads_r-imputelcmd| image:: https://img.shields.io/conda/dn/bioconda/r-imputelcmd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-imputelcmd| image:: https://quay.io/repository/biocontainers/r-imputelcmd/status
+   :target: https://quay.io/repository/biocontainers/r-imputelcmd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-imputelcmd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-imputelcmd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-imputelcmd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-imputelcmd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-imputelcmd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-imputelcmd
-.. |docker| image:: https://quay.io/repository/biocontainers/r-imputelcmd/status
-                :target: https://quay.io/repository/biocontainers/r-imputelcmd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-imputelcmd/README.html
 

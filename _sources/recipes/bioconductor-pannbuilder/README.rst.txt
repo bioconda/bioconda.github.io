@@ -1,56 +1,67 @@
-.. _`bioconductor-pannbuilder`:
+.. title:: Package Recipe 'bioconductor-pannbuilder'
+.. highlight: bash
+
 
 bioconductor-pannbuilder
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pannbuilder
+   :replaces_section_title:
 
-Processing annotation data from public data repositories and building protein\-centric annotation data packages.
+   Processing annotation data from public data repositories and building protein\-centric annotation data packages.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/PAnnBuilder.html
-Versions      1.43.0, 1.42.0, 1.40.0
-License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pannbuilder/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/PAnnBuilder.html
+   :license: LGPL (>= 2.0)
+   :recipe: /`bioconductor-pannbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pannbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pannbuilder/meta.yaml>`_
+   :links: biotools: :biotools:`pannbuilder`, doi: :doi:`10.1093/bioinformatics/btp100`
 
-
-
-Links         biotools: :biotools:`pannbuilder`, doi: :doi:`10.1093/bioinformatics/btp100`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pannbuilder
 
-Installation
-------------
+   |downloads_bioconductor-pannbuilder| |docker_bioconductor-pannbuilder|
 
-.. highlight: bash
+   :versions: 1.43.0, 1.42.0, 1.40.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.42.1,<1.44.0 :conda:package:`bioconductor-biobase` >=2.40.0,<2.42.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite`  
 
-   conda install bioconductor-pannbuilder
+   :required~by: |required_by_bioconductor-pannbuilder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pannbuilder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pannbuilder
+
+   and update with::
+
+      conda update bioconductor-pannbuilder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pannbuilder
+
+
+.. |required_by_bioconductor-pannbuilder| conda:required_by:: bioconductor-pannbuilder
+.. |downloads_bioconductor-pannbuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pannbuilder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pannbuilder| image:: https://quay.io/repository/biocontainers/bioconductor-pannbuilder/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pannbuilder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pannbuilder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pannbuilder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pannbuilder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pannbuilder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pannbuilder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pannbuilder
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pannbuilder/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pannbuilder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pannbuilder/README.html
 

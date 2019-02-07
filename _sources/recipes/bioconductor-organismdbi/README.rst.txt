@@ -1,56 +1,67 @@
-.. _`bioconductor-organismdbi`:
+.. title:: Package Recipe 'bioconductor-organismdbi'
+.. highlight: bash
+
 
 bioconductor-organismdbi
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-organismdbi
+   :replaces_section_title:
 
-The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.
+   The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/OrganismDbi.html
-Versions      1.24.0, 1.22.0, 1.20.0, 1.18.1, 1.14.1, 1.12.1, 1.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-organismdbi/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OrganismDbi.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-organismdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi/meta.yaml>`_
+   :links: biotools: :biotools:`organismdbi`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`organismdbi`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-organismdbi
 
-Installation
-------------
+   |downloads_bioconductor-organismdbi| |docker_bioconductor-organismdbi|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.0, 1.20.0, 1.18.1, 1.14.1, 1.12.1, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biocmanager`  :conda:package:`r-dbi`  
 
-   conda install bioconductor-organismdbi
+   :required~by: |required_by_bioconductor-organismdbi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-organismdbi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-organismdbi
+
+   and update with::
+
+      conda update bioconductor-organismdbi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-organismdbi
+
+
+.. |required_by_bioconductor-organismdbi| conda:required_by:: bioconductor-organismdbi
+.. |downloads_bioconductor-organismdbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-organismdbi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-organismdbi| image:: https://quay.io/repository/biocontainers/bioconductor-organismdbi/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-organismdbi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-organismdbi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-organismdbi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-organismdbi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-organismdbi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-organismdbi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-organismdbi
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-organismdbi/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-organismdbi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-organismdbi/README.html
 

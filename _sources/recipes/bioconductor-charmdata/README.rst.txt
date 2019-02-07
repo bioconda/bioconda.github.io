@@ -1,54 +1,66 @@
-.. _`bioconductor-charmdata`:
+.. title:: Package Recipe 'bioconductor-charmdata'
+.. highlight: bash
+
 
 bioconductor-charmdata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-charmdata
+   :replaces_section_title:
 
-An example dataset for use with the charm package
+   An example dataset for use with the charm package
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/charmData.html
-Versions      1.18.0
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-charmdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/charmData.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-charmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charmdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-charmdata
 
-Installation
-------------
+   |downloads_bioconductor-charmdata| |docker_bioconductor-charmdata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-charm` >=2.28.0,<2.29.0 :conda:package:`bioconductor-pd.charm.hg18.example` >=0.99.0,<0.100.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-charmdata
+   :required~by: |required_by_bioconductor-charmdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-charmdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-charmdata
+
+   and update with::
+
+      conda update bioconductor-charmdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-charmdata
+
+
+.. |required_by_bioconductor-charmdata| conda:required_by:: bioconductor-charmdata
+.. |downloads_bioconductor-charmdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-charmdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-charmdata| image:: https://quay.io/repository/biocontainers/bioconductor-charmdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-charmdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-charmdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-charmdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-charmdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-charmdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-charmdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-charmdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-charmdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-charmdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-charmdata/README.html
 

@@ -1,54 +1,66 @@
-.. _`nanocall`:
+.. title:: Package Recipe 'nanocall'
+.. highlight: bash
+
 
 nanocall
 ========
 
-|downloads|
+.. conda:recipe:: nanocall
+   :replaces_section_title:
 
-An Oxford Nanopore Basecaller
+   An Oxford Nanopore Basecaller
 
-============= ===========
-Home          https://github.com/mateidavid/nanocall
-Versions      v0.7.4, v0.6.14, v0.6.13, v0.6.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanocall/meta.yaml
+   :homepage: https://github.com/mateidavid/nanocall
+   :license: MIT
+   :recipe: /`nanocall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocall/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nanocall
 
-Installation
-------------
+   |downloads_nanocall| |docker_nanocall|
 
-.. highlight: bash
+   :versions: v0.7.4, v0.6.14, v0.6.13, v0.6.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`hdf5`  :conda:package:`libgcc`  
 
-   conda install nanocall
+   :required~by: |required_by_nanocall|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nanocall
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nanocall
+
+   and update with::
+
+      conda update nanocall
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nanocall
+
+
+.. |required_by_nanocall| conda:required_by:: nanocall
+.. |downloads_nanocall| image:: https://img.shields.io/conda/dn/bioconda/nanocall.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nanocall| image:: https://quay.io/repository/biocontainers/nanocall/status
+   :target: https://quay.io/repository/biocontainers/nanocall
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nanocall.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nanocall/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanocall/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nanocall/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nanocall/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nanocall
-.. |docker| image:: https://quay.io/repository/biocontainers/nanocall/status
-                :target: https://quay.io/repository/biocontainers/nanocall
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nanocall/README.html
 

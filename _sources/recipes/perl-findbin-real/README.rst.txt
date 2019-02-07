@@ -1,54 +1,66 @@
-.. _`perl-findbin-real`:
+.. title:: Package Recipe 'perl-findbin-real'
+.. highlight: bash
+
 
 perl-findbin-real
 =================
 
-|downloads|
+.. conda:recipe:: perl-findbin-real
+   :replaces_section_title:
 
-Locates the full path to the script bin directory to allow the use of paths relative to the bin directory.
+   Locates the full path to the script bin directory to allow the use of paths relative to the bin directory.
 
-============= ===========
-Home          https://metacpan.org/pod/FindBin::Real
-Versions      1.05
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-findbin-real/meta.yaml
+   :homepage: https://metacpan.org/pod/FindBin::Real
+   :license: perl_5
+   :recipe: /`perl-findbin-real <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin-real>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin-real/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-findbin-real
 
-Installation
-------------
+   |downloads_perl-findbin-real| |docker_perl-findbin-real|
 
-.. highlight: bash
+   :versions: 1.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install perl-findbin-real
+   :required~by: |required_by_perl-findbin-real|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-findbin-real
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-findbin-real
+
+   and update with::
+
+      conda update perl-findbin-real
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-findbin-real
+
+
+.. |required_by_perl-findbin-real| conda:required_by:: perl-findbin-real
+.. |downloads_perl-findbin-real| image:: https://img.shields.io/conda/dn/bioconda/perl-findbin-real.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-findbin-real| image:: https://quay.io/repository/biocontainers/perl-findbin-real/status
+   :target: https://quay.io/repository/biocontainers/perl-findbin-real
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-findbin-real.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-findbin-real/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-findbin-real/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-findbin-real/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-findbin-real/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-findbin-real
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-findbin-real/status
-                :target: https://quay.io/repository/biocontainers/perl-findbin-real
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-findbin-real/README.html
 

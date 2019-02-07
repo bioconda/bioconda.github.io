@@ -1,54 +1,66 @@
-.. _`rnaquast`:
+.. title:: Package Recipe 'rnaquast'
+.. highlight: bash
+
 
 rnaquast
 ========
 
-|downloads|
+.. conda:recipe:: rnaquast
+   :replaces_section_title:
 
-rnaQUAST is a tool for evaluating RNA\-Seq assemblies using reference genome and gene database. In addition\, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third\-party software.
+   rnaQUAST is a tool for evaluating RNA\-Seq assemblies using reference genome and gene database. In addition\, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third\-party software.
 
-============= ===========
-Home          http://cab.spbu.ru/software/rnaquast/
-Versions      1.5.1
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnaquast/meta.yaml
+   :homepage: http://cab.spbu.ru/software/rnaquast/
+   :license: GPLv2
+   :recipe: /`rnaquast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaquast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaquast/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rnaquast
 
-Installation
-------------
+   |downloads_rnaquast| |docker_rnaquast|
 
-.. highlight: bash
+   :versions: 1.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`blat`  :conda:package:`busco` >=2 :conda:package:`emboss`  :conda:package:`gffutils`  :conda:package:`gmap`  :conda:package:`joblib`  :conda:package:`matplotlib`  :conda:package:`python` <3 :conda:package:`samtools`  :conda:package:`star`  :conda:package:`tophat`  :conda:package:`ucsc-pslsort`  
 
-   conda install rnaquast
+   :required~by: |required_by_rnaquast|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rnaquast
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rnaquast
+
+   and update with::
+
+      conda update rnaquast
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rnaquast
+
+
+.. |required_by_rnaquast| conda:required_by:: rnaquast
+.. |downloads_rnaquast| image:: https://img.shields.io/conda/dn/bioconda/rnaquast.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rnaquast| image:: https://quay.io/repository/biocontainers/rnaquast/status
+   :target: https://quay.io/repository/biocontainers/rnaquast
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rnaquast.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rnaquast/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rnaquast/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rnaquast/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rnaquast/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rnaquast
-.. |docker| image:: https://quay.io/repository/biocontainers/rnaquast/status
-                :target: https://quay.io/repository/biocontainers/rnaquast
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rnaquast/README.html
 

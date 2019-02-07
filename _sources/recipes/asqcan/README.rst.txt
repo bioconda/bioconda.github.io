@@ -1,54 +1,66 @@
-.. _`asqcan`:
+.. title:: Package Recipe 'asqcan'
+.. highlight: bash
+
 
 asqcan
 ======
 
-|downloads|
+.. conda:recipe:: asqcan
+   :replaces_section_title:
 
-A combined pipeline for bacterial genome assembly\, quality control and annotation
+   A combined pipeline for bacterial genome assembly\, quality control and annotation
 
-============= ===========
-Home          https://github.com/bogemad/asqcan
-Versions      0.2, 0.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//asqcan/meta.yaml
+   :homepage: https://github.com/bogemad/asqcan
+   :license: GPL / GPLv3
+   :recipe: /`asqcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asqcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asqcan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: asqcan
 
-Installation
-------------
+   |downloads_asqcan| |docker_asqcan|
 
-.. highlight: bash
+   :versions: 0.2, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`blobtools`  :conda:package:`fastqc`  :conda:package:`parallel`  :conda:package:`prokka`  :conda:package:`python` 2.7* :conda:package:`quast`  :conda:package:`spades`  
 
-   conda install asqcan
+   :required~by: |required_by_asqcan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update asqcan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install asqcan
+
+   and update with::
+
+      conda update asqcan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/asqcan
+
+
+.. |required_by_asqcan| conda:required_by:: asqcan
+.. |downloads_asqcan| image:: https://img.shields.io/conda/dn/bioconda/asqcan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_asqcan| image:: https://quay.io/repository/biocontainers/asqcan/status
+   :target: https://quay.io/repository/biocontainers/asqcan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/asqcan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/asqcan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/asqcan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/asqcan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/asqcan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/asqcan
-.. |docker| image:: https://quay.io/repository/biocontainers/asqcan/status
-                :target: https://quay.io/repository/biocontainers/asqcan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/asqcan/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-trfbig`:
+.. title:: Package Recipe 'ucsc-trfbig'
+.. highlight: bash
+
 
 ucsc-trfbig
 ===========
 
-|downloads|
+.. conda:recipe:: ucsc-trfbig
+   :replaces_section_title:
 
-Mask tandem repeats on a big sequence file.
+   Mask tandem repeats on a big sequence file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-trfbig/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-trfbig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-trfbig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-trfbig/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-trfbig
 
-Installation
-------------
+   |downloads_ucsc-trfbig| |docker_ucsc-trfbig|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-trfbig
+   :required~by: |required_by_ucsc-trfbig|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-trfbig
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-trfbig
+
+   and update with::
+
+      conda update ucsc-trfbig
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-trfbig
+
+
+.. |required_by_ucsc-trfbig| conda:required_by:: ucsc-trfbig
+.. |downloads_ucsc-trfbig| image:: https://img.shields.io/conda/dn/bioconda/ucsc-trfbig.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-trfbig| image:: https://quay.io/repository/biocontainers/ucsc-trfbig/status
+   :target: https://quay.io/repository/biocontainers/ucsc-trfbig
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-trfbig.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-trfbig/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-trfbig/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-trfbig/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-trfbig/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-trfbig
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-trfbig/status
-                :target: https://quay.io/repository/biocontainers/ucsc-trfbig
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-trfbig/README.html
 

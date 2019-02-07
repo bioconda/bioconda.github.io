@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.2006.07.18.mm8.refseq.promoter`:
+.. title:: Package Recipe 'bioconductor-pd.2006.07.18.mm8.refseq.promoter'
+.. highlight: bash
+
 
 bioconductor-pd.2006.07.18.mm8.refseq.promoter
 ==============================================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.2006.07.18.mm8.refseq.promoter
+   :replaces_section_title:
 
-Platform Design Info for NimbleGen 2006\-07\-18\_mm8\_refseq\_promoter
+   Platform Design Info for NimbleGen 2006\-07\-18\_mm8\_refseq\_promoter
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.2006.07.18.mm8.refseq.promoter.html
-Versions      0.99.3
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.2006.07.18.mm8.refseq.promoter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.2006.07.18.mm8.refseq.promoter.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.2006.07.18.mm8.refseq.promoter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.2006.07.18.mm8.refseq.promoter
 
-Installation
-------------
+   |downloads_bioconductor-pd.2006.07.18.mm8.refseq.promoter| |docker_bioconductor-pd.2006.07.18.mm8.refseq.promoter|
 
-.. highlight: bash
+   :versions: 0.99.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite` >=0.7-1 :conda:package:`wget`  
 
-   conda install bioconductor-pd.2006.07.18.mm8.refseq.promoter
+   :required~by: |required_by_bioconductor-pd.2006.07.18.mm8.refseq.promoter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.2006.07.18.mm8.refseq.promoter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.2006.07.18.mm8.refseq.promoter
+
+   and update with::
+
+      conda update bioconductor-pd.2006.07.18.mm8.refseq.promoter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter
+
+
+.. |required_by_bioconductor-pd.2006.07.18.mm8.refseq.promoter| conda:required_by:: bioconductor-pd.2006.07.18.mm8.refseq.promoter
+.. |downloads_bioconductor-pd.2006.07.18.mm8.refseq.promoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.2006.07.18.mm8.refseq.promoter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.2006.07.18.mm8.refseq.promoter| image:: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.2006.07.18.mm8.refseq.promoter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.2006.07.18.mm8.refseq.promoter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.mm8.refseq.promoter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.2006.07.18.mm8.refseq.promoter/README.html
 

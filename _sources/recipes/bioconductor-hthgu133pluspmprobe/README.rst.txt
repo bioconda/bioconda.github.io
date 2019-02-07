@@ -1,54 +1,66 @@
-.. _`bioconductor-hthgu133pluspmprobe`:
+.. title:: Package Recipe 'bioconductor-hthgu133pluspmprobe'
+.. highlight: bash
+
 
 bioconductor-hthgu133pluspmprobe
 ================================
 
-|downloads|
+.. conda:recipe:: bioconductor-hthgu133pluspmprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_HG\-U133\\\_Plus\\\_PM\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_HG\-U133\\\_Plus\\\_PM\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133pluspmprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hthgu133pluspmprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133pluspmprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-hthgu133pluspmprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hthgu133pluspmprobe
 
-Installation
-------------
+   |downloads_bioconductor-hthgu133pluspmprobe| |docker_bioconductor-hthgu133pluspmprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hthgu133pluspmprobe
+   :required~by: |required_by_bioconductor-hthgu133pluspmprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hthgu133pluspmprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hthgu133pluspmprobe
+
+   and update with::
+
+      conda update bioconductor-hthgu133pluspmprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe
+
+
+.. |required_by_bioconductor-hthgu133pluspmprobe| conda:required_by:: bioconductor-hthgu133pluspmprobe
+.. |downloads_bioconductor-hthgu133pluspmprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hthgu133pluspmprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hthgu133pluspmprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hthgu133pluspmprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hthgu133pluspmprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hthgu133pluspmprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hthgu133pluspmprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hthgu133pluspmprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hthgu133pluspmprobe/README.html
 

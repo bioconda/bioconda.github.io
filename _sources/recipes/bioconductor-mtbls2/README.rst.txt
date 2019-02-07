@@ -1,54 +1,66 @@
-.. _`bioconductor-mtbls2`:
+.. title:: Package Recipe 'bioconductor-mtbls2'
+.. highlight: bash
+
 
 bioconductor-mtbls2
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-mtbls2
+   :replaces_section_title:
 
-Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynthesis of a variety of indolic secondary metabolites including the phytoanticipin indol\-3\-ylmethyl glucosinolate and the phytoalexin camalexin \(3\-thiazol\-2\'\-yl\-indole\). Arabidopsis thaliana cyp79B2 cyp79B3 double knockout plants are completely impaired in the conversion of tryptophan to indole\-3\-acetaldoxime and do not accumulate IAOx\-derived metabolites any longer. Consequently\, comparative analysis of wild\-type and cyp79B2 cyp79B3 plant lines has the potential to explore the complete range of IAOx\-derived indolic secondary metabolites.
+   Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynthesis of a variety of indolic secondary metabolites including the phytoanticipin indol\-3\-ylmethyl glucosinolate and the phytoalexin camalexin \(3\-thiazol\-2\'\-yl\-indole\). Arabidopsis thaliana cyp79B2 cyp79B3 double knockout plants are completely impaired in the conversion of tryptophan to indole\-3\-acetaldoxime and do not accumulate IAOx\-derived metabolites any longer. Consequently\, comparative analysis of wild\-type and cyp79B2 cyp79B3 plant lines has the potential to explore the complete range of IAOx\-derived indolic secondary metabolites.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/mtbls2.html
-Versions      1.12.0
-License       CC0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mtbls2/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mtbls2.html
+   :license: CC0
+   :recipe: /`bioconductor-mtbls2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mtbls2
 
-Installation
-------------
+   |downloads_bioconductor-mtbls2| |docker_bioconductor-mtbls2|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mtbls2
+   :required~by: |required_by_bioconductor-mtbls2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mtbls2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mtbls2
+
+   and update with::
+
+      conda update bioconductor-mtbls2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mtbls2
+
+
+.. |required_by_bioconductor-mtbls2| conda:required_by:: bioconductor-mtbls2
+.. |downloads_bioconductor-mtbls2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mtbls2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mtbls2| image:: https://quay.io/repository/biocontainers/bioconductor-mtbls2/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mtbls2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mtbls2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mtbls2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mtbls2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mtbls2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mtbls2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mtbls2
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mtbls2/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mtbls2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mtbls2/README.html
 

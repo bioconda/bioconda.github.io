@@ -1,56 +1,67 @@
-.. _`bioconductor-cnorfuzzy`:
+.. title:: Package Recipe 'bioconductor-cnorfuzzy'
+.. highlight: bash
+
 
 bioconductor-cnorfuzzy
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cnorfuzzy
+   :replaces_section_title:
 
-This package is an extension to CellNOptR.  It contains additional functionality needed to simulate and train a prior knowledge network to experimental data using constrained fuzzy logic \(cFL\, rather than Boolean logic as is the case in CellNOptR\).  Additionally\, this package will contain functions to use for the compilation of multiple optimization results \(either Boolean or cFL\).
+   This package is an extension to CellNOptR.  It contains additional functionality needed to simulate and train a prior knowledge network to experimental data using constrained fuzzy logic \(cFL\, rather than Boolean logic as is the case in CellNOptR\).  Additionally\, this package will contain functions to use for the compilation of multiple optimization results \(either Boolean or cFL\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CNORfuzzy.html
-Versions      1.24.0, 1.22.0, 1.20.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnorfuzzy/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CNORfuzzy.html
+   :license: GPL-2
+   :recipe: /`bioconductor-cnorfuzzy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy/meta.yaml>`_
+   :links: biotools: :biotools:`cnorfuzzy`, doi: :doi:`10.1186/1752-0509-6-133`
 
-
-
-Links         biotools: :biotools:`cnorfuzzy`, doi: :doi:`10.1186/1752-0509-6-133`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cnorfuzzy
 
-Installation
-------------
+   |downloads_bioconductor-cnorfuzzy| |docker_bioconductor-cnorfuzzy|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.0, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-nloptr` >=0.8.5 
 
-   conda install bioconductor-cnorfuzzy
+   :required~by: |required_by_bioconductor-cnorfuzzy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cnorfuzzy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cnorfuzzy
+
+   and update with::
+
+      conda update bioconductor-cnorfuzzy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cnorfuzzy
+
+
+.. |required_by_bioconductor-cnorfuzzy| conda:required_by:: bioconductor-cnorfuzzy
+.. |downloads_bioconductor-cnorfuzzy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorfuzzy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cnorfuzzy| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cnorfuzzy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cnorfuzzy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cnorfuzzy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cnorfuzzy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cnorfuzzy
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cnorfuzzy/README.html
 

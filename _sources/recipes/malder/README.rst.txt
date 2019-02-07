@@ -1,56 +1,67 @@
-.. _`malder`:
+.. title:: Package Recipe 'malder'
+.. highlight: bash
+
 
 malder
 ======
 
-|downloads|
+.. conda:recipe:: malder
+   :replaces_section_title:
 
-MALDER is a version of ALDER \(http\:\/\/groups.csail.mit.edu\/cb\/alder\/\) that has been modified to allow multiple admixture events.
+   MALDER is a version of ALDER \(http\:\/\/groups.csail.mit.edu\/cb\/alder\/\) that has been modified to allow multiple admixture events.
 
-============= ===========
-Home          https://github.com/joepickrell/malder
-Versions      1.0.1e83d4e
-License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//malder/meta.yaml
+   :homepage: https://github.com/joepickrell/malder
+   :license: Custom OSS
+   :recipe: /`malder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/malder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/malder/meta.yaml>`_
+   :links: doi: :doi:`10.1073/pnas.1313787111`
 
-
-
-Links         doi: :doi:`10.1073/pnas.1313787111`
-
-============= ===========
+   
 
 
+.. conda:package:: malder
 
-Installation
-------------
+   |downloads_malder| |docker_malder|
 
-.. highlight: bash
+   :versions: 1.0.1e83d4e
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`fftw`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`lapack`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
 
-   conda install malder
+   :required~by: |required_by_malder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update malder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install malder
+
+   and update with::
+
+      conda update malder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/malder
+
+
+.. |required_by_malder| conda:required_by:: malder
+.. |downloads_malder| image:: https://img.shields.io/conda/dn/bioconda/malder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_malder| image:: https://quay.io/repository/biocontainers/malder/status
+   :target: https://quay.io/repository/biocontainers/malder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/malder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/malder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/malder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/malder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/malder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/malder
-.. |docker| image:: https://quay.io/repository/biocontainers/malder/status
-                :target: https://quay.io/repository/biocontainers/malder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/malder/README.html
 

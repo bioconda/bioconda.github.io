@@ -1,54 +1,66 @@
-.. _`taxator-tk`:
+.. title:: Package Recipe 'taxator-tk'
+.. highlight: bash
+
 
 taxator-tk
 ==========
 
-|downloads|
+.. conda:recipe:: taxator-tk
+   :replaces_section_title:
 
-Taxator\-tk sequence taxonomic annotaion
+   Taxator\-tk sequence taxonomic annotaion
 
-============= ===========
-Home          https://github.com/fungs/taxator-tk
-Versions      1.3.3e
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//taxator-tk/meta.yaml
+   :homepage: https://github.com/fungs/taxator-tk
+   :license: GPLv3
+   :recipe: /`taxator-tk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxator-tk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxator-tk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: taxator-tk
 
-Installation
-------------
+   |downloads_taxator-tk| |docker_taxator-tk|
 
-.. highlight: bash
+   :versions: 1.3.3e
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.64.0 py27_4 
 
-   conda install taxator-tk
+   :required~by: |required_by_taxator-tk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update taxator-tk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install taxator-tk
+
+   and update with::
+
+      conda update taxator-tk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/taxator-tk
+
+
+.. |required_by_taxator-tk| conda:required_by:: taxator-tk
+.. |downloads_taxator-tk| image:: https://img.shields.io/conda/dn/bioconda/taxator-tk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_taxator-tk| image:: https://quay.io/repository/biocontainers/taxator-tk/status
+   :target: https://quay.io/repository/biocontainers/taxator-tk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/taxator-tk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/taxator-tk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/taxator-tk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/taxator-tk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/taxator-tk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/taxator-tk
-.. |docker| image:: https://quay.io/repository/biocontainers/taxator-tk/status
-                :target: https://quay.io/repository/biocontainers/taxator-tk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/taxator-tk/README.html
 

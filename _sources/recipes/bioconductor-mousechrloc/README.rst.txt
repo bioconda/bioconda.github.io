@@ -1,54 +1,66 @@
-.. _`bioconductor-mousechrloc`:
+.. title:: Package Recipe 'bioconductor-mousechrloc'
+.. highlight: bash
+
 
 bioconductor-mousechrloc
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mousechrloc
+   :replaces_section_title:
 
-Annotation data file for mouseCHRLOC assembled using data from public data repositories
+   Annotation data file for mouseCHRLOC assembled using data from public data repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mouseCHRLOC.html
-Versions      2.1.6
-License       The Artistic License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mousechrloc/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mouseCHRLOC.html
+   :license: The Artistic License, Version 2.0
+   :recipe: /`bioconductor-mousechrloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mousechrloc
 
-Installation
-------------
+   |downloads_bioconductor-mousechrloc| |docker_bioconductor-mousechrloc|
 
-.. highlight: bash
+   :versions: 2.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mousechrloc
+   :required~by: |required_by_bioconductor-mousechrloc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mousechrloc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mousechrloc
+
+   and update with::
+
+      conda update bioconductor-mousechrloc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mousechrloc
+
+
+.. |required_by_bioconductor-mousechrloc| conda:required_by:: bioconductor-mousechrloc
+.. |downloads_bioconductor-mousechrloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mousechrloc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mousechrloc| image:: https://quay.io/repository/biocontainers/bioconductor-mousechrloc/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mousechrloc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mousechrloc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mousechrloc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mousechrloc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mousechrloc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mousechrloc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mousechrloc
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mousechrloc/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mousechrloc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mousechrloc/README.html
 

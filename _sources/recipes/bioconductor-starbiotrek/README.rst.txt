@@ -1,56 +1,67 @@
-.. _`bioconductor-starbiotrek`:
+.. title:: Package Recipe 'bioconductor-starbiotrek'
+.. highlight: bash
+
 
 bioconductor-starbiotrek
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-starbiotrek
+   :replaces_section_title:
 
-This tool StarBioTrek presents some methodologies to measure pathway activity and cross\-talk among pathways integrating also the information of network data.
+   This tool StarBioTrek presents some methodologies to measure pathway activity and cross\-talk among pathways integrating also the information of network data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/StarBioTrek.html
-Versions      1.8.1, 1.6.0, 1.4.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-starbiotrek/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/StarBioTrek.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-starbiotrek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek/meta.yaml>`_
+   :links: biotools: :biotools:`starbiotrek`, doi: :doi:`10.1186/s12918-015-0211-x`
 
-
-
-Links         biotools: :biotools:`starbiotrek`, doi: :doi:`10.1186/s12918-015-0211-x`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-starbiotrek
 
-Installation
-------------
+   |downloads_bioconductor-starbiotrek| |docker_bioconductor-starbiotrek|
 
-.. highlight: bash
+   :versions: 1.8.1, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-spidermir` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-igraph`  :conda:package:`r-rocr`  
 
-   conda install bioconductor-starbiotrek
+   :required~by: |required_by_bioconductor-starbiotrek|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-starbiotrek
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-starbiotrek
+
+   and update with::
+
+      conda update bioconductor-starbiotrek
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-starbiotrek
+
+
+.. |required_by_bioconductor-starbiotrek| conda:required_by:: bioconductor-starbiotrek
+.. |downloads_bioconductor-starbiotrek| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-starbiotrek.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-starbiotrek| image:: https://quay.io/repository/biocontainers/bioconductor-starbiotrek/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-starbiotrek
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-starbiotrek.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-starbiotrek/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-starbiotrek/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-starbiotrek/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-starbiotrek/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-starbiotrek
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-starbiotrek/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-starbiotrek
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-starbiotrek/README.html
 

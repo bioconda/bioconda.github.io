@@ -1,56 +1,68 @@
-.. _`anndata`:
+.. title:: Package Recipe 'anndata'
+.. highlight: bash
+
 
 anndata
 =======
 
-|downloads|
+.. conda:recipe:: anndata
+   :replaces_section_title:
 
-An annotated data matrix.
+   An annotated data matrix.
 
-============= ===========
-Home          https://github.com/theislab/anndata
-Versions      0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.11, 0.6.10, 0.6.9, 0.6.8, 0.6.6, 0.6.5, 0.6.4
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//anndata/meta.yaml
+   :homepage: https://github.com/theislab/anndata
+   :documentation: http://anndata.rtfd.io
+   
+   :license: BSD / BSD-3-Clause
+   :recipe: /`anndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anndata/meta.yaml>`_
 
-Documentation http://anndata.rtfd.io
-
-
-
-============= ===========
-
-An annotated data matrix.
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install anndata
-
-and update with::
-
-   conda update anndata
+   An annotated data matrix.
 
 
+.. conda:package:: anndata
 
-|docker|
+   |downloads_anndata| |docker_anndata|
 
-A Docker container is available at https://quay.io/repository/biocontainers/anndata.
+   :versions: 0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.11, 0.6.10, 0.6.9, 0.6.8, 0.6.6, 0.6.5, 0.6.4
+
+   :depends: :conda:package:`h5py`  :conda:package:`natsort`  :conda:package:`pandas` >=0.21.0 :conda:package:`python` >=3.5 :conda:package:`scipy`  
+
+   :required~by: |required_by_anndata|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install anndata
+
+   and update with::
+
+      conda update anndata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/anndata
+
+
+.. |required_by_anndata| conda:required_by:: anndata
+.. |downloads_anndata| image:: https://img.shields.io/conda/dn/bioconda/anndata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_anndata| image:: https://quay.io/repository/biocontainers/anndata/status
+   :target: https://quay.io/repository/biocontainers/anndata
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/anndata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/anndata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/anndata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/anndata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/anndata
-.. |docker| image:: https://quay.io/repository/biocontainers/anndata/status
-                :target: https://quay.io/repository/biocontainers/anndata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/anndata/README.html
 

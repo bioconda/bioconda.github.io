@@ -1,54 +1,66 @@
-.. _`bioconductor-mapkldata`:
+.. title:: Package Recipe 'bioconductor-mapkldata'
+.. highlight: bash
+
 
 bioconductor-mapkldata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-mapkldata
+   :replaces_section_title:
 
-Gene expression data from a breast cancer study published by Turashvili et al. in 2007\, provided as an eSet.
+   Gene expression data from a breast cancer study published by Turashvili et al. in 2007\, provided as an eSet.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/mAPKLData.html
-Versions      1.14.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mapkldata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mAPKLData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mapkldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mapkldata
 
-Installation
-------------
+   |downloads_bioconductor-mapkldata| |docker_bioconductor-mapkldata|
 
-.. highlight: bash
+   :versions: 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mapkldata
+   :required~by: |required_by_bioconductor-mapkldata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mapkldata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mapkldata
+
+   and update with::
+
+      conda update bioconductor-mapkldata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mapkldata
+
+
+.. |required_by_bioconductor-mapkldata| conda:required_by:: bioconductor-mapkldata
+.. |downloads_bioconductor-mapkldata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapkldata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mapkldata| image:: https://quay.io/repository/biocontainers/bioconductor-mapkldata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mapkldata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mapkldata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mapkldata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mapkldata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mapkldata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mapkldata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mapkldata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mapkldata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mapkldata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mapkldata/README.html
 

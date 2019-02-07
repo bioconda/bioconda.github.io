@@ -1,54 +1,66 @@
-.. _`perl-extutils-config`:
+.. title:: Package Recipe 'perl-extutils-config'
+.. highlight: bash
+
 
 perl-extutils-config
 ====================
 
-|downloads|
+.. conda:recipe:: perl-extutils-config
+   :replaces_section_title:
 
-A wrapper for perl\'s configuration
+   A wrapper for perl\'s configuration
 
-============= ===========
-Home          http://metacpan.org/pod/ExtUtils::Config
-Versions      0.008
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-config/meta.yaml
+   :homepage: http://metacpan.org/pod/ExtUtils::Config
+   :license: perl_5
+   :recipe: /`perl-extutils-config <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-config>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-config/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-extutils-config
 
-Installation
-------------
+   |downloads_perl-extutils-config| |docker_perl-extutils-config|
 
-.. highlight: bash
+   :versions: 0.008
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-extutils-config
+   :required~by: |required_by_perl-extutils-config|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-extutils-config
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-extutils-config
+
+   and update with::
+
+      conda update perl-extutils-config
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-extutils-config
+
+
+.. |required_by_perl-extutils-config| conda:required_by:: perl-extutils-config
+.. |downloads_perl-extutils-config| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-config.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-extutils-config| image:: https://quay.io/repository/biocontainers/perl-extutils-config/status
+   :target: https://quay.io/repository/biocontainers/perl-extutils-config
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-extutils-config.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-extutils-config/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-extutils-config/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-extutils-config/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-extutils-config/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-extutils-config
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-config/status
-                :target: https://quay.io/repository/biocontainers/perl-extutils-config
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-extutils-config/README.html
 

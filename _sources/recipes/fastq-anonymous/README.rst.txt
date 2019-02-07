@@ -1,54 +1,66 @@
-.. _`fastq-anonymous`:
+.. title:: Package Recipe 'fastq-anonymous'
+.. highlight: bash
+
 
 fastq-anonymous
 ===============
 
-|downloads|
+.. conda:recipe:: fastq-anonymous
+   :replaces_section_title:
 
-Change the sequence of a fastq file to enable sharing of confidential information\, for troubleshooting￼ of tools.
+   Change the sequence of a fastq file to enable sharing of confidential information\, for troubleshooting￼ of tools.
 
-============= ===========
-Home          https://github.com/wdecoster/fastq-anonymous
-Versions      1.0.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq-anonymous/meta.yaml
+   :homepage: https://github.com/wdecoster/fastq-anonymous
+   :license: MIT / MIT License
+   :recipe: /`fastq-anonymous <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-anonymous>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-anonymous/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastq-anonymous
 
-Installation
-------------
+   |downloads_fastq-anonymous| |docker_fastq-anonymous|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`python` 3.5* 
 
-   conda install fastq-anonymous
+   :required~by: |required_by_fastq-anonymous|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastq-anonymous
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastq-anonymous
+
+   and update with::
+
+      conda update fastq-anonymous
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastq-anonymous
+
+
+.. |required_by_fastq-anonymous| conda:required_by:: fastq-anonymous
+.. |downloads_fastq-anonymous| image:: https://img.shields.io/conda/dn/bioconda/fastq-anonymous.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastq-anonymous| image:: https://quay.io/repository/biocontainers/fastq-anonymous/status
+   :target: https://quay.io/repository/biocontainers/fastq-anonymous
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastq-anonymous.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastq-anonymous/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastq-anonymous/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastq-anonymous/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastq-anonymous/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastq-anonymous
-.. |docker| image:: https://quay.io/repository/biocontainers/fastq-anonymous/status
-                :target: https://quay.io/repository/biocontainers/fastq-anonymous
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastq-anonymous/README.html
 

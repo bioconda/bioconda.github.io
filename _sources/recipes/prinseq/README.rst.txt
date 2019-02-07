@@ -1,54 +1,66 @@
-.. _`prinseq`:
+.. title:: Package Recipe 'prinseq'
+.. highlight: bash
+
 
 prinseq
 =======
 
-|downloads|
+.. conda:recipe:: prinseq
+   :replaces_section_title:
 
-PRINSEQ can be used to filter\, reformat\, or trim your genomic and metagenomic sequence data
+   PRINSEQ can be used to filter\, reformat\, or trim your genomic and metagenomic sequence data
 
-============= ===========
-Home          http://prinseq.sourceforge.net/
-Versions      0.20.4
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prinseq/meta.yaml
+   :homepage: http://prinseq.sourceforge.net/
+   :license: GPLv3
+   :recipe: /`prinseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: prinseq
 
-Installation
-------------
+   |downloads_prinseq| |docker_prinseq|
 
-.. highlight: bash
+   :versions: 0.20.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install prinseq
+   :required~by: |required_by_prinseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update prinseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install prinseq
+
+   and update with::
+
+      conda update prinseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/prinseq
+
+
+.. |required_by_prinseq| conda:required_by:: prinseq
+.. |downloads_prinseq| image:: https://img.shields.io/conda/dn/bioconda/prinseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_prinseq| image:: https://quay.io/repository/biocontainers/prinseq/status
+   :target: https://quay.io/repository/biocontainers/prinseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/prinseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/prinseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/prinseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/prinseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/prinseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/prinseq
-.. |docker| image:: https://quay.io/repository/biocontainers/prinseq/status
-                :target: https://quay.io/repository/biocontainers/prinseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/prinseq/README.html
 

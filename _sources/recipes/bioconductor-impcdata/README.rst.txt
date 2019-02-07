@@ -1,54 +1,66 @@
-.. _`bioconductor-impcdata`:
+.. title:: Package Recipe 'bioconductor-impcdata'
+.. highlight: bash
+
 
 bioconductor-impcdata
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-impcdata
+   :replaces_section_title:
 
-Package contains methods for data retrieval from IMPC Database.
+   Package contains methods for data retrieval from IMPC Database.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/IMPCdata.html
-Versions      1.18.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-impcdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IMPCdata.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-impcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-impcdata
 
-Installation
-------------
+   |downloads_bioconductor-impcdata| |docker_bioconductor-impcdata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rjson`  
 
-   conda install bioconductor-impcdata
+   :required~by: |required_by_bioconductor-impcdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-impcdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-impcdata
+
+   and update with::
+
+      conda update bioconductor-impcdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-impcdata
+
+
+.. |required_by_bioconductor-impcdata| conda:required_by:: bioconductor-impcdata
+.. |downloads_bioconductor-impcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impcdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-impcdata| image:: https://quay.io/repository/biocontainers/bioconductor-impcdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-impcdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-impcdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-impcdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-impcdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-impcdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-impcdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-impcdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-impcdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-impcdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-impcdata/README.html
 

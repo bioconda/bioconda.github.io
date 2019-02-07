@@ -1,54 +1,66 @@
-.. _`bioconductor-garfield`:
+.. title:: Package Recipe 'bioconductor-garfield'
+.. highlight: bash
+
 
 bioconductor-garfield
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-garfield
+   :replaces_section_title:
 
-GARFIELD is a non\-parametric functional enrichment analysis approach described in the paper GARFIELD\: GWAS analysis of regulatory or functional information enrichment with LD correction. Briefly\, it is a method that leverages GWAS findings with regulatory or functional annotations \(primarily from ENCODE and Roadmap epigenomics data\) to find features relevant to a phenotype of interest. It performs greedy pruning of GWAS SNPs \(LD r2 \> 0.1\) and then annotates them based on functional information overlap. Next\, it quantifies Fold Enrichment \(FE\) at various GWAS significance cutoffs and assesses them by permutation testing\, while matching for minor allele frequency\, distance to nearest transcription start site and number of LD proxies \(r2 \> 0.8\).
+   GARFIELD is a non\-parametric functional enrichment analysis approach described in the paper GARFIELD\: GWAS analysis of regulatory or functional information enrichment with LD correction. Briefly\, it is a method that leverages GWAS findings with regulatory or functional annotations \(primarily from ENCODE and Roadmap epigenomics data\) to find features relevant to a phenotype of interest. It performs greedy pruning of GWAS SNPs \(LD r2 \> 0.1\) and then annotates them based on functional information overlap. Next\, it quantifies Fold Enrichment \(FE\) at various GWAS significance cutoffs and assesses them by permutation testing\, while matching for minor allele frequency\, distance to nearest transcription start site and number of LD proxies \(r2 \> 0.8\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/garfield.html
-Versions      1.10.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-garfield/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/garfield.html
+   :license: GPL-3
+   :recipe: /`bioconductor-garfield <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-garfield
 
-Installation
-------------
+   |downloads_bioconductor-garfield| |docker_bioconductor-garfield|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-garfield
+   :required~by: |required_by_bioconductor-garfield|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-garfield
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-garfield
+
+   and update with::
+
+      conda update bioconductor-garfield
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-garfield
+
+
+.. |required_by_bioconductor-garfield| conda:required_by:: bioconductor-garfield
+.. |downloads_bioconductor-garfield| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-garfield.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-garfield| image:: https://quay.io/repository/biocontainers/bioconductor-garfield/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-garfield
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-garfield.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-garfield/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-garfield/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-garfield/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-garfield/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-garfield
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-garfield/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-garfield
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-garfield/README.html
 

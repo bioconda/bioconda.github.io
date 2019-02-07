@@ -1,56 +1,67 @@
-.. _`varscan`:
+.. title:: Package Recipe 'varscan'
+.. highlight: bash
+
 
 varscan
 =======
 
-|downloads|
+.. conda:recipe:: varscan
+   :replaces_section_title:
 
-variant detection in massively parallel sequencing data
+   variant detection in massively parallel sequencing data
 
-============= ===========
-Home          http://dkoboldt.github.io/varscan/
-Versions      2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.7
-License       The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//varscan/meta.yaml
+   :homepage: http://dkoboldt.github.io/varscan/
+   :license: The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
+   :recipe: /`varscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan/meta.yaml>`_
+   :links: biotools: :biotools:`varscan`
 
-
-
-Links         biotools: :biotools:`varscan`
-
-============= ===========
+   
 
 
+.. conda:package:: varscan
 
-Installation
-------------
+   |downloads_varscan| |docker_varscan|
 
-.. highlight: bash
+   :versions: 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install varscan
+   :required~by: |required_by_varscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update varscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install varscan
+
+   and update with::
+
+      conda update varscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/varscan
+
+
+.. |required_by_varscan| conda:required_by:: varscan
+.. |downloads_varscan| image:: https://img.shields.io/conda/dn/bioconda/varscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_varscan| image:: https://quay.io/repository/biocontainers/varscan/status
+   :target: https://quay.io/repository/biocontainers/varscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/varscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/varscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/varscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/varscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/varscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/varscan
-.. |docker| image:: https://quay.io/repository/biocontainers/varscan/status
-                :target: https://quay.io/repository/biocontainers/varscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/varscan/README.html
 

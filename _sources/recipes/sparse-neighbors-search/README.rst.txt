@@ -1,54 +1,66 @@
-.. _`sparse-neighbors-search`:
+.. title:: Package Recipe 'sparse-neighbors-search'
+.. highlight: bash
+
 
 sparse-neighbors-search
 =======================
 
-|downloads|
+.. conda:recipe:: sparse-neighbors-search
+   :replaces_section_title:
 
-Approximate k\-nearest neighbors search on sparse datasets
+   Approximate k\-nearest neighbors search on sparse datasets
 
-============= ===========
-Home          https://github.com/joachimwolff/minHashNearestNeighbors
-Versions      0.3, 0.2.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sparse-neighbors-search/meta.yaml
+   :homepage: https://github.com/joachimwolff/minHashNearestNeighbors
+   :license: MIT
+   :recipe: /`sparse-neighbors-search <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sparse-neighbors-search
 
-Installation
-------------
+   |downloads_sparse-neighbors-search| |docker_sparse-neighbors-search|
 
-.. highlight: bash
+   :versions: 0.3, 0.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scikit-learn`  :conda:package:`scipy`  
 
-   conda install sparse-neighbors-search
+   :required~by: |required_by_sparse-neighbors-search|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sparse-neighbors-search
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sparse-neighbors-search
+
+   and update with::
+
+      conda update sparse-neighbors-search
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sparse-neighbors-search
+
+
+.. |required_by_sparse-neighbors-search| conda:required_by:: sparse-neighbors-search
+.. |downloads_sparse-neighbors-search| image:: https://img.shields.io/conda/dn/bioconda/sparse-neighbors-search.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sparse-neighbors-search| image:: https://quay.io/repository/biocontainers/sparse-neighbors-search/status
+   :target: https://quay.io/repository/biocontainers/sparse-neighbors-search
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sparse-neighbors-search.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sparse-neighbors-search/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sparse-neighbors-search/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sparse-neighbors-search/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sparse-neighbors-search/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sparse-neighbors-search
-.. |docker| image:: https://quay.io/repository/biocontainers/sparse-neighbors-search/status
-                :target: https://quay.io/repository/biocontainers/sparse-neighbors-search
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sparse-neighbors-search/README.html
 

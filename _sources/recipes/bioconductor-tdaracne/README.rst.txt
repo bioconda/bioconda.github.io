@@ -1,56 +1,67 @@
-.. _`bioconductor-tdaracne`:
+.. title:: Package Recipe 'bioconductor-tdaracne'
+.. highlight: bash
+
 
 bioconductor-tdaracne
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-tdaracne
+   :replaces_section_title:
 
-To infer gene networks from time\-series measurements is a current challenge into bioinformatics research area. In order to detect dependencies between genes at different time delays\, we propose an approach to infer gene regulatory networks from time\-series measurements starting from a well known algorithm based on information theory. The proposed algorithm is expected to be useful in reconstruction of small biological directed networks from time course data.
+   To infer gene networks from time\-series measurements is a current challenge into bioinformatics research area. In order to detect dependencies between genes at different time delays\, we propose an approach to infer gene regulatory networks from time\-series measurements starting from a well known algorithm based on information theory. The proposed algorithm is expected to be useful in reconstruction of small biological directed networks from time course data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TDARACNE.html
-Versions      1.32.0, 1.30.0, 1.28.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tdaracne/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TDARACNE.html
+   :license: GPL-2
+   :recipe: /`bioconductor-tdaracne <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdaracne>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdaracne/meta.yaml>`_
+   :links: biotools: :biotools:`tdaracne`, doi: :doi:`10.1186/1471-2105-11-154`
 
-
-
-Links         biotools: :biotools:`tdaracne`, doi: :doi:`10.1186/1471-2105-11-154`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tdaracne
 
-Installation
-------------
+   |downloads_bioconductor-tdaracne| |docker_bioconductor-tdaracne|
 
-.. highlight: bash
+   :versions: 1.32.0, 1.30.0, 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-genkern`  
 
-   conda install bioconductor-tdaracne
+   :required~by: |required_by_bioconductor-tdaracne|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tdaracne
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tdaracne
+
+   and update with::
+
+      conda update bioconductor-tdaracne
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tdaracne
+
+
+.. |required_by_bioconductor-tdaracne| conda:required_by:: bioconductor-tdaracne
+.. |downloads_bioconductor-tdaracne| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tdaracne.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tdaracne| image:: https://quay.io/repository/biocontainers/bioconductor-tdaracne/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tdaracne
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tdaracne.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tdaracne/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tdaracne/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tdaracne/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tdaracne/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tdaracne
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tdaracne/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tdaracne
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tdaracne/README.html
 

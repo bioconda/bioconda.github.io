@@ -1,56 +1,67 @@
-.. _`bioconductor-hopach`:
+.. title:: Package Recipe 'bioconductor-hopach'
+.. highlight: bash
+
 
 bioconductor-hopach
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-hopach
+   :replaces_section_title:
 
-The HOPACH clustering algorithm builds a hierarchical tree of clusters by recursively partitioning a data set\, while ordering and possibly collapsing clusters at each level. The algorithm uses the Mean\/Median Split Silhouette \(MSS\) criteria to identify the level of the tree with maximally homogeneous clusters. It also runs the tree down to produce a final ordered list of the elements. The non\-parametric bootstrap allows one to estimate the probability that each element belongs to each cluster \(fuzzy clustering\).
+   The HOPACH clustering algorithm builds a hierarchical tree of clusters by recursively partitioning a data set\, while ordering and possibly collapsing clusters at each level. The algorithm uses the Mean\/Median Split Silhouette \(MSS\) criteria to identify the level of the tree with maximally homogeneous clusters. It also runs the tree down to produce a final ordered list of the elements. The non\-parametric bootstrap allows one to estimate the probability that each element belongs to each cluster \(fuzzy clustering\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/hopach.html
-Versions      2.42.0, 2.40.0, 2.38.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hopach/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hopach.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hopach <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach/meta.yaml>`_
+   :links: biotools: :biotools:`hopach`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`hopach`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hopach
 
-Installation
-------------
+   |downloads_bioconductor-hopach| |docker_bioconductor-hopach|
 
-.. highlight: bash
+   :versions: 2.42.0, 2.40.0, 2.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  
 
-   conda install bioconductor-hopach
+   :required~by: |required_by_bioconductor-hopach|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hopach
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hopach
+
+   and update with::
+
+      conda update bioconductor-hopach
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hopach
+
+
+.. |required_by_bioconductor-hopach| conda:required_by:: bioconductor-hopach
+.. |downloads_bioconductor-hopach| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hopach.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hopach| image:: https://quay.io/repository/biocontainers/bioconductor-hopach/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hopach
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hopach.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hopach/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hopach/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hopach/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hopach/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hopach
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hopach/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hopach
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hopach/README.html
 

@@ -1,54 +1,66 @@
-.. _`pythonpy`:
+.. title:: Package Recipe 'pythonpy'
+.. highlight: bash
+
 
 pythonpy
 ========
 
-|downloads|
+.. conda:recipe:: pythonpy
+   :replaces_section_title:
 
-the swiss army knife of the command line
+   the swiss army knife of the command line
 
-============= ===========
-Home          https://github.com/Russell91/pythonpy
-Versions      0.4.11, 0.4.2
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pythonpy/meta.yaml
+   :homepage: https://github.com/Russell91/pythonpy
+   :license: Unknown
+   :recipe: /`pythonpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonpy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pythonpy
 
-Installation
-------------
+   |downloads_pythonpy| |docker_pythonpy|
 
-.. highlight: bash
+   :versions: 0.4.11, 0.4.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  :conda:package:`setuptools`  
 
-   conda install pythonpy
+   :required~by: |required_by_pythonpy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pythonpy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pythonpy
+
+   and update with::
+
+      conda update pythonpy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pythonpy
+
+
+.. |required_by_pythonpy| conda:required_by:: pythonpy
+.. |downloads_pythonpy| image:: https://img.shields.io/conda/dn/bioconda/pythonpy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pythonpy| image:: https://quay.io/repository/biocontainers/pythonpy/status
+   :target: https://quay.io/repository/biocontainers/pythonpy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pythonpy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pythonpy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pythonpy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pythonpy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pythonpy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pythonpy
-.. |docker| image:: https://quay.io/repository/biocontainers/pythonpy/status
-                :target: https://quay.io/repository/biocontainers/pythonpy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pythonpy/README.html
 

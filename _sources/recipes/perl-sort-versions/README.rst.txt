@@ -1,54 +1,66 @@
-.. _`perl-sort-versions`:
+.. title:: Package Recipe 'perl-sort-versions'
+.. highlight: bash
+
 
 perl-sort-versions
 ==================
 
-|downloads|
+.. conda:recipe:: perl-sort-versions
+   :replaces_section_title:
 
-a perl 5 module for sorting of revision\-like numbers
+   a perl 5 module for sorting of revision\-like numbers
 
-============= ===========
-Home          https://github.com/neilb/Sort-Versions
-Versions      1.62
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sort-versions/meta.yaml
+   :homepage: https://github.com/neilb/Sort-Versions
+   :license: perl_5
+   :recipe: /`perl-sort-versions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-versions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-versions/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sort-versions
 
-Installation
-------------
+   |downloads_perl-sort-versions| |docker_perl-sort-versions|
 
-.. highlight: bash
+   :versions: 1.62
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-threaded`  
 
-   conda install perl-sort-versions
+   :required~by: |required_by_perl-sort-versions|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sort-versions
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sort-versions
+
+   and update with::
+
+      conda update perl-sort-versions
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sort-versions
+
+
+.. |required_by_perl-sort-versions| conda:required_by:: perl-sort-versions
+.. |downloads_perl-sort-versions| image:: https://img.shields.io/conda/dn/bioconda/perl-sort-versions.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sort-versions| image:: https://quay.io/repository/biocontainers/perl-sort-versions/status
+   :target: https://quay.io/repository/biocontainers/perl-sort-versions
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sort-versions.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sort-versions/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sort-versions/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sort-versions/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sort-versions/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sort-versions
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sort-versions/status
-                :target: https://quay.io/repository/biocontainers/perl-sort-versions
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sort-versions/README.html
 

@@ -1,56 +1,67 @@
-.. _`pheniqs`:
+.. title:: Package Recipe 'pheniqs'
+.. highlight: bash
+
 
 pheniqs
 =======
 
-|downloads|
+.. conda:recipe:: pheniqs
+   :replaces_section_title:
 
-Pheniqs is a generic high throughput DNA sequence demultiplexer and quality analyzer written in multi threaded C\+\+11. Pheniqs is pronounced phoe·nix and stands for PHilology ENcoder wIth Quality Statistics.
+   Pheniqs is a generic high throughput DNA sequence demultiplexer and quality analyzer written in multi threaded C\+\+11. Pheniqs is pronounced phoe·nix and stands for PHilology ENcoder wIth Quality Statistics.
 
-============= ===========
-Home          http://biosails.github.io/pheniqs
-Versions      2.0.6, 2.0.3
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pheniqs/meta.yaml
+   :homepage: http://biosails.github.io/pheniqs
+   :developer docs: https://github.com/biosails/pheniqs
+   :license: GPL3
+   :recipe: /`pheniqs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pheniqs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pheniqs/meta.yaml>`_
 
-
-Development   https://github.com/biosails/pheniqs
-
-
-============= ===========
+   
 
 
+.. conda:package:: pheniqs
 
-Installation
-------------
+   |downloads_pheniqs| |docker_pheniqs|
 
-.. highlight: bash
+   :versions: 2.0.6, 2.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`rapidjson`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pheniqs
+   :required~by: |required_by_pheniqs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pheniqs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pheniqs
+
+   and update with::
+
+      conda update pheniqs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pheniqs
+
+
+.. |required_by_pheniqs| conda:required_by:: pheniqs
+.. |downloads_pheniqs| image:: https://img.shields.io/conda/dn/bioconda/pheniqs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pheniqs| image:: https://quay.io/repository/biocontainers/pheniqs/status
+   :target: https://quay.io/repository/biocontainers/pheniqs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pheniqs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pheniqs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pheniqs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pheniqs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pheniqs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pheniqs
-.. |docker| image:: https://quay.io/repository/biocontainers/pheniqs/status
-                :target: https://quay.io/repository/biocontainers/pheniqs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pheniqs/README.html
 

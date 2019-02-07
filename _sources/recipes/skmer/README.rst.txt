@@ -1,54 +1,66 @@
-.. _`skmer`:
+.. title:: Package Recipe 'skmer'
+.. highlight: bash
+
 
 skmer
 =====
 
-|downloads|
+.. conda:recipe:: skmer
+   :replaces_section_title:
 
-Assembly\-free and alignment\-free tool for estimating genomic distances between genome\-skims
+   Assembly\-free and alignment\-free tool for estimating genomic distances between genome\-skims
 
-============= ===========
-Home          https://github.com/shahab-sarmashghi/Skmer
-Versions      2.0.1, 2.0.0, 1.1.0, 1.0.0
-License       3-Clause BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//skmer/meta.yaml
+   :homepage: https://github.com/shahab-sarmashghi/Skmer
+   :license: 3-Clause BSD
+   :recipe: /`skmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skmer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: skmer
 
-Installation
-------------
+   |downloads_skmer| |docker_skmer|
 
-.. highlight: bash
+   :versions: 2.0.1, 2.0.0, 1.1.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`jellyfish` 2.2.6 :conda:package:`mash` 1.1 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scipy`  :conda:package:`seqtk` 1.3 
 
-   conda install skmer
+   :required~by: |required_by_skmer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update skmer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install skmer
+
+   and update with::
+
+      conda update skmer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/skmer
+
+
+.. |required_by_skmer| conda:required_by:: skmer
+.. |downloads_skmer| image:: https://img.shields.io/conda/dn/bioconda/skmer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_skmer| image:: https://quay.io/repository/biocontainers/skmer/status
+   :target: https://quay.io/repository/biocontainers/skmer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/skmer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/skmer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/skmer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/skmer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/skmer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/skmer
-.. |docker| image:: https://quay.io/repository/biocontainers/skmer/status
-                :target: https://quay.io/repository/biocontainers/skmer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/skmer/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-somaticadata`:
+.. title:: Package Recipe 'bioconductor-somaticadata'
+.. highlight: bash
+
 
 bioconductor-somaticadata
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-somaticadata
+   :replaces_section_title:
 
-An example cancer whole genome sequencing data for the SomatiCA package
+   An example cancer whole genome sequencing data for the SomatiCA package
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/SomatiCAData.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-somaticadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SomatiCAData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-somaticadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-somaticadata
 
-Installation
-------------
+   |downloads_bioconductor-somaticadata| |docker_bioconductor-somaticadata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-somaticadata
+   :required~by: |required_by_bioconductor-somaticadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-somaticadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-somaticadata
+
+   and update with::
+
+      conda update bioconductor-somaticadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-somaticadata
+
+
+.. |required_by_bioconductor-somaticadata| conda:required_by:: bioconductor-somaticadata
+.. |downloads_bioconductor-somaticadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-somaticadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-somaticadata| image:: https://quay.io/repository/biocontainers/bioconductor-somaticadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-somaticadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-somaticadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-somaticadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-somaticadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-somaticadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-somaticadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-somaticadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-somaticadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-somaticadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-somaticadata/README.html
 

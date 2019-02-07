@@ -1,56 +1,67 @@
-.. _`r-gpseq`:
+.. title:: Package Recipe 'r-gpseq'
+.. highlight: bash
+
 
 r-gpseq
 =======
 
-|downloads|
+.. conda:recipe:: r-gpseq
+   :replaces_section_title:
 
-Some functions for modeling sequence read counts as a generalized poisson model and to use this model for detecting differentially expressed genes in different conditions and differentially spliced exons.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=GPseq
-Versions      0.5
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gpseq/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-gpseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpseq/meta.yaml>`_
+   :links: biotools: :biotools:`gpseq`
 
-
-
-Links         biotools: :biotools:`gpseq`
-
-============= ===========
+   
 
 
+.. conda:package:: r-gpseq
 
-Installation
-------------
+   |downloads_r-gpseq| |docker_r-gpseq|
 
-.. highlight: bash
+   :versions: 0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-gpseq
+   :required~by: |required_by_r-gpseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gpseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gpseq
+
+   and update with::
+
+      conda update r-gpseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gpseq
+
+
+.. |required_by_r-gpseq| conda:required_by:: r-gpseq
+.. |downloads_r-gpseq| image:: https://img.shields.io/conda/dn/bioconda/r-gpseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gpseq| image:: https://quay.io/repository/biocontainers/r-gpseq/status
+   :target: https://quay.io/repository/biocontainers/r-gpseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gpseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gpseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gpseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gpseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gpseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gpseq
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gpseq/status
-                :target: https://quay.io/repository/biocontainers/r-gpseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gpseq/README.html
 

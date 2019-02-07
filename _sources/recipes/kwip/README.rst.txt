@@ -1,38 +1,57 @@
-.. _`kwip`:
+.. title:: Package Recipe 'kwip'
+.. highlight: bash
+
 
 kwip
 ====
 
-|downloads|
+.. conda:recipe:: kwip
+   :replaces_section_title:
 
-kWIP implements a de novo\, alignment free measure of sample genetic dissimilarity
+   kWIP implements a de novo\, alignment free measure of sample genetic dissimilarity
 
-============= ===========
-Home          https://github.com/kdmurray91/kWIP
-Versions      0.2.0
-License       GNU General Public License version 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kwip/meta.yaml
+   :homepage: https://github.com/kdmurray91/kWIP
+   :license: GNU General Public License version 3
+   :recipe: /`kwip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kwip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kwip/meta.yaml>`_
+   :links: biotools: :biotools:`kWIP`, doi: :doi:`https://doi.org/10.1371/journal.pcbi.1005727`
 
-
-
-Links         biotools: :biotools:`kWIP`, doi: :doi:`https://doi.org/10.1371/journal.pcbi.1005727`
-
-============= ===========
+   
 
 
+.. conda:package:: kwip
 
-Installation
-------------
+   |downloads_kwip| |docker_kwip|
 
-.. highlight: bash
+   :versions: 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`khmer`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install kwip
+   :required~by: |required_by_kwip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kwip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kwip
+
+   and update with::
+
+      conda update kwip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kwip
+
+
+.. |required_by_kwip| conda:required_by:: kwip
+.. |downloads_kwip| image:: https://img.shields.io/conda/dn/bioconda/kwip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kwip| image:: https://quay.io/repository/biocontainers/kwip/status
+   :target: https://quay.io/repository/biocontainers/kwip
+
+
+
+
 
 
 Notes
@@ -40,22 +59,13 @@ Notes
 The k\-mer Weighted Inner Product \(kWIP\) implements a de novo\, alignment free measure of sample genetic dissimilarity which operates upon raw sequencing reads. It is able to calculate the genetic dissimilarity between samples without any reference genome\, and without assembling one.
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/kwip.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kwip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kwip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kwip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kwip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kwip
-.. |docker| image:: https://quay.io/repository/biocontainers/kwip/status
-                :target: https://quay.io/repository/biocontainers/kwip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kwip/README.html
 

@@ -1,54 +1,66 @@
-.. _`regtools`:
+.. title:: Package Recipe 'regtools'
+.. highlight: bash
+
 
 regtools
 ========
 
-|downloads|
+.. conda:recipe:: regtools
+   :replaces_section_title:
 
-Tools that integrate DNA\-seq and RNA\-seq data to help interpret mutations in a regulatory and splicing context.
+   Tools that integrate DNA\-seq and RNA\-seq data to help interpret mutations in a regulatory and splicing context.
 
-============= ===========
-Home          https://github.com/griffithlab/regtools/
-Versions      0.5.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//regtools/meta.yaml
+   :homepage: https://github.com/griffithlab/regtools/
+   :license: MIT / MIT
+   :recipe: /`regtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: regtools
 
-Installation
-------------
+   |downloads_regtools| |docker_regtools|
 
-.. highlight: bash
+   :versions: 0.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install regtools
+   :required~by: |required_by_regtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update regtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install regtools
+
+   and update with::
+
+      conda update regtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/regtools
+
+
+.. |required_by_regtools| conda:required_by:: regtools
+.. |downloads_regtools| image:: https://img.shields.io/conda/dn/bioconda/regtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_regtools| image:: https://quay.io/repository/biocontainers/regtools/status
+   :target: https://quay.io/repository/biocontainers/regtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/regtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/regtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/regtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/regtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/regtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/regtools
-.. |docker| image:: https://quay.io/repository/biocontainers/regtools/status
-                :target: https://quay.io/repository/biocontainers/regtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/regtools/README.html
 

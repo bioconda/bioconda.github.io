@@ -1,56 +1,67 @@
-.. _`bioconductor-sim`:
+.. title:: Package Recipe 'bioconductor-sim'
+.. highlight: bash
+
 
 bioconductor-sim
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-sim
+   :replaces_section_title:
 
-Finds associations between two human genomic datasets.
+   Finds associations between two human genomic datasets.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SIM.html
-Versions      1.52.0, 1.50.0, 1.48.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sim/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SIM.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-sim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sim/meta.yaml>`_
+   :links: biotools: :biotools:`sim`, doi: :doi:`10.1186/1471-2105-10-203`
 
-
-
-Links         biotools: :biotools:`sim`, doi: :doi:`10.1186/1471-2105-10-203`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sim
 
-Installation
-------------
+   |downloads_bioconductor-sim| |docker_bioconductor-sim|
 
-.. highlight: bash
+   :versions: 1.52.0, 1.50.0, 1.48.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-globaltest` >=5.36.0,<5.37.0 :conda:package:`bioconductor-quantsmooth` >=1.48.0,<1.49.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
 
-   conda install bioconductor-sim
+   :required~by: |required_by_bioconductor-sim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sim
+
+   and update with::
+
+      conda update bioconductor-sim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sim
+
+
+.. |required_by_bioconductor-sim| conda:required_by:: bioconductor-sim
+.. |downloads_bioconductor-sim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sim| image:: https://quay.io/repository/biocontainers/bioconductor-sim/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sim
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sim/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sim/README.html
 

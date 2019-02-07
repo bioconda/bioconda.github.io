@@ -1,56 +1,67 @@
-.. _`bioconductor-generecommender`:
+.. title:: Package Recipe 'bioconductor-generecommender'
+.. highlight: bash
+
 
 bioconductor-generecommender
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-generecommender
+   :replaces_section_title:
 
-This package contains a targeted clustering algorithm for the analysis of microarray data. The algorithm can aid in the discovery of new genes with similar functions to a given list of genes already known to have closely related functions.
+   This package contains a targeted clustering algorithm for the analysis of microarray data. The algorithm can aid in the discovery of new genes with similar functions to a given list of genes already known to have closely related functions.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/geneRecommender.html
-Versions      1.54.0, 1.52.0, 1.50.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-generecommender/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/geneRecommender.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-generecommender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender/meta.yaml>`_
+   :links: biotools: :biotools:`generecommender`, doi: :doi:`10.1101/gr.1125403`
 
-
-
-Links         biotools: :biotools:`generecommender`, doi: :doi:`10.1101/gr.1125403`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-generecommender
 
-Installation
-------------
+   |downloads_bioconductor-generecommender| |docker_bioconductor-generecommender|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-generecommender
+   :required~by: |required_by_bioconductor-generecommender|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-generecommender
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-generecommender
+
+   and update with::
+
+      conda update bioconductor-generecommender
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-generecommender
+
+
+.. |required_by_bioconductor-generecommender| conda:required_by:: bioconductor-generecommender
+.. |downloads_bioconductor-generecommender| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-generecommender.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-generecommender| image:: https://quay.io/repository/biocontainers/bioconductor-generecommender/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-generecommender
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-generecommender.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-generecommender/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-generecommender/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-generecommender/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-generecommender/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-generecommender
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-generecommender/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-generecommender
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-generecommender/README.html
 

@@ -1,54 +1,66 @@
-.. _`emirge`:
+.. title:: Package Recipe 'emirge'
+.. highlight: bash
+
 
 emirge
 ======
 
-|downloads|
+.. conda:recipe:: emirge
+   :replaces_section_title:
 
-EMIRGE reconstructs full length sequences from short sequencing reads
+   EMIRGE reconstructs full length sequences from short sequencing reads
 
-============= ===========
-Home          https://github.com/csmiller/EMIRGE
-Versions      0.61.1
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//emirge/meta.yaml
+   :homepage: https://github.com/csmiller/EMIRGE
+   :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`emirge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emirge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emirge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: emirge
 
-Installation
-------------
+   |downloads_emirge| |docker_emirge|
 
-.. highlight: bash
+   :versions: 0.61.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`vsearch`  :conda:package:`zlib`  
 
-   conda install emirge
+   :required~by: |required_by_emirge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update emirge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install emirge
+
+   and update with::
+
+      conda update emirge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/emirge
+
+
+.. |required_by_emirge| conda:required_by:: emirge
+.. |downloads_emirge| image:: https://img.shields.io/conda/dn/bioconda/emirge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_emirge| image:: https://quay.io/repository/biocontainers/emirge/status
+   :target: https://quay.io/repository/biocontainers/emirge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/emirge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/emirge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/emirge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/emirge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/emirge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/emirge
-.. |docker| image:: https://quay.io/repository/biocontainers/emirge/status
-                :target: https://quay.io/repository/biocontainers/emirge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/emirge/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-reder`:
+.. title:: Package Recipe 'bioconductor-reder'
+.. highlight: bash
+
 
 bioconductor-reder
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-reder
+   :replaces_section_title:
 
-RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of modular structures\, nested networks and multiple levels of hierarchical associations.
+   RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of modular structures\, nested networks and multiple levels of hierarchical associations.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RedeR.html
-Versions      1.30.0, 1.28.0, 1.26.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-reder/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RedeR.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-reder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder/meta.yaml>`_
+   :links: biotools: :biotools:`reder`
 
-
-
-Links         biotools: :biotools:`reder`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-reder
 
-Installation
-------------
+   |downloads_bioconductor-reder| |docker_bioconductor-reder|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  
 
-   conda install bioconductor-reder
+   :required~by: |required_by_bioconductor-reder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-reder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-reder
+
+   and update with::
+
+      conda update bioconductor-reder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-reder
+
+
+.. |required_by_bioconductor-reder| conda:required_by:: bioconductor-reder
+.. |downloads_bioconductor-reder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-reder| image:: https://quay.io/repository/biocontainers/bioconductor-reder/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-reder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-reder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-reder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-reder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-reder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-reder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-reder
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-reder/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-reder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-reder/README.html
 

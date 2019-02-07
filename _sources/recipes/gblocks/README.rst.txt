@@ -1,54 +1,66 @@
-.. _`gblocks`:
+.. title:: Package Recipe 'gblocks'
+.. highlight: bash
+
 
 gblocks
 =======
 
-|downloads|
+.. conda:recipe:: gblocks
+   :replaces_section_title:
 
-Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis.
+   Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis.
 
-============= ===========
-Home          http://molevol.cmima.csic.es/castresana/Gblocks.html
-Versions      0.91b
-License       The software and its accompanying documentation are provided as is, without guarantee of support or maintenance.
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gblocks/meta.yaml
+   :homepage: http://molevol.cmima.csic.es/castresana/Gblocks.html
+   :license: The software and its accompanying documentation are provided as is, without guarantee of support or maintenance.
+   :recipe: /`gblocks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gblocks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gblocks/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gblocks
 
-Installation
-------------
+   |downloads_gblocks| |docker_gblocks|
 
-.. highlight: bash
+   :versions: 0.91b
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install gblocks
+   :required~by: |required_by_gblocks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gblocks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gblocks
+
+   and update with::
+
+      conda update gblocks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gblocks
+
+
+.. |required_by_gblocks| conda:required_by:: gblocks
+.. |downloads_gblocks| image:: https://img.shields.io/conda/dn/bioconda/gblocks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gblocks| image:: https://quay.io/repository/biocontainers/gblocks/status
+   :target: https://quay.io/repository/biocontainers/gblocks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gblocks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gblocks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gblocks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gblocks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gblocks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gblocks
-.. |docker| image:: https://quay.io/repository/biocontainers/gblocks/status
-                :target: https://quay.io/repository/biocontainers/gblocks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gblocks/README.html
 

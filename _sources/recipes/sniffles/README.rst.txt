@@ -1,54 +1,66 @@
-.. _`sniffles`:
+.. title:: Package Recipe 'sniffles'
+.. highlight: bash
+
 
 sniffles
 ========
 
-|downloads|
+.. conda:recipe:: sniffles
+   :replaces_section_title:
 
-Sniffles is a structural variation caller using third generation sequencing \(PacBio or Oxford Nanopore\)
+   Sniffles is a structural variation caller using third generation sequencing \(PacBio or Oxford Nanopore\)
 
-============= ===========
-Home          https://github.com/fritzsedlazeck/Sniffles
-Versions      1.0.10, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sniffles/meta.yaml
+   :homepage: https://github.com/fritzsedlazeck/Sniffles
+   :license: MIT / MIT
+   :recipe: /`sniffles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sniffles
 
-Installation
-------------
+   |downloads_sniffles| |docker_sniffles|
 
-.. highlight: bash
+   :versions: 1.0.10, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`tclap` >=1.2.1 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install sniffles
+   :required~by: |required_by_sniffles|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sniffles
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sniffles
+
+   and update with::
+
+      conda update sniffles
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sniffles
+
+
+.. |required_by_sniffles| conda:required_by:: sniffles
+.. |downloads_sniffles| image:: https://img.shields.io/conda/dn/bioconda/sniffles.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sniffles| image:: https://quay.io/repository/biocontainers/sniffles/status
+   :target: https://quay.io/repository/biocontainers/sniffles
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sniffles.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sniffles/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sniffles/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sniffles/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sniffles/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sniffles
-.. |docker| image:: https://quay.io/repository/biocontainers/sniffles/status
-                :target: https://quay.io/repository/biocontainers/sniffles
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sniffles/README.html
 

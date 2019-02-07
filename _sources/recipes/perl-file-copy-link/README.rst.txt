@@ -1,54 +1,66 @@
-.. _`perl-file-copy-link`:
+.. title:: Package Recipe 'perl-file-copy-link'
+.. highlight: bash
+
 
 perl-file-copy-link
 ===================
 
-|downloads|
+.. conda:recipe:: perl-file-copy-link
+   :replaces_section_title:
 
-Perl extension for replacing a link by a copy of the linked file.
+   Perl extension for replacing a link by a copy of the linked file.
 
-============= ===========
-Home          https://metacpan.org/pod/File::Copy::Link
-Versions      0.140
-License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-copy-link/meta.yaml
+   :homepage: https://metacpan.org/pod/File::Copy::Link
+   :license: Perl
+   :recipe: /`perl-file-copy-link <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-link>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-link/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-copy-link
 
-Installation
-------------
+   |downloads_perl-file-copy-link| |docker_perl-file-copy-link|
 
-.. highlight: bash
+   :versions: 0.140
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
 
-   conda install perl-file-copy-link
+   :required~by: |required_by_perl-file-copy-link|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-copy-link
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-copy-link
+
+   and update with::
+
+      conda update perl-file-copy-link
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-copy-link
+
+
+.. |required_by_perl-file-copy-link| conda:required_by:: perl-file-copy-link
+.. |downloads_perl-file-copy-link| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-link.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-copy-link| image:: https://quay.io/repository/biocontainers/perl-file-copy-link/status
+   :target: https://quay.io/repository/biocontainers/perl-file-copy-link
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-copy-link.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-copy-link/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-copy-link/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-copy-link/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-copy-link/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-copy-link
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-copy-link/status
-                :target: https://quay.io/repository/biocontainers/perl-file-copy-link
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-copy-link/README.html
 

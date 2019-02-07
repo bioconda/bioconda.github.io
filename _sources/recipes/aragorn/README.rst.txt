@@ -1,54 +1,66 @@
-.. _`aragorn`:
+.. title:: Package Recipe 'aragorn'
+.. highlight: bash
+
 
 aragorn
 =======
 
-|downloads|
+.. conda:recipe:: aragorn/1.2.38
+   :replaces_section_title:
 
-ARAGORN\, tRNA \(and tmRNA\) detection
+   ARAGORN\, tRNA \(and tmRNA\) detection
 
-============= ===========
-Home          http://mbio-serv2.mbioekol.lu.se/ARAGORN/
-Versions      1.2.38, 1.2.36
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//aragorn/1.2.38/meta.yaml
+   :homepage: http://mbio-serv2.mbioekol.lu.se/ARAGORN/
+   :license: GPLv3
+   :recipe: /`aragorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn>`_/`1.2.38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/1.2.38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/1.2.38/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: aragorn
 
-Installation
-------------
+   |downloads_aragorn| |docker_aragorn|
 
-.. highlight: bash
+   :versions: 1.2.38, 1.2.36
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install aragorn
+   :required~by: |required_by_aragorn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update aragorn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install aragorn
+
+   and update with::
+
+      conda update aragorn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/aragorn
+
+
+.. |required_by_aragorn| conda:required_by:: aragorn
+.. |downloads_aragorn| image:: https://img.shields.io/conda/dn/bioconda/aragorn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_aragorn| image:: https://quay.io/repository/biocontainers/aragorn/status
+   :target: https://quay.io/repository/biocontainers/aragorn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/aragorn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/aragorn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/aragorn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/aragorn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/aragorn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/aragorn
-.. |docker| image:: https://quay.io/repository/biocontainers/aragorn/status
-                :target: https://quay.io/repository/biocontainers/aragorn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/aragorn/README.html
 

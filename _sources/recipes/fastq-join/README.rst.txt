@@ -1,54 +1,66 @@
-.. _`fastq-join`:
+.. title:: Package Recipe 'fastq-join'
+.. highlight: bash
+
 
 fastq-join
 ==========
 
-|downloads|
+.. conda:recipe:: fastq-join
+   :replaces_section_title:
 
-Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning. It uses the same \"squared distance for anchored alignment\" as other tools.
+   Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning. It uses the same \"squared distance for anchored alignment\" as other tools.
 
-============= ===========
-Home          https://github.com/brwnj/fastq-join
-Versions      1.3.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq-join/meta.yaml
+   :homepage: https://github.com/brwnj/fastq-join
+   :license: MIT
+   :recipe: /`fastq-join <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-join>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-join/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastq-join
 
-Installation
-------------
+   |downloads_fastq-join| |docker_fastq-join|
 
-.. highlight: bash
+   :versions: 1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install fastq-join
+   :required~by: |required_by_fastq-join|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastq-join
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastq-join
+
+   and update with::
+
+      conda update fastq-join
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastq-join
+
+
+.. |required_by_fastq-join| conda:required_by:: fastq-join
+.. |downloads_fastq-join| image:: https://img.shields.io/conda/dn/bioconda/fastq-join.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastq-join| image:: https://quay.io/repository/biocontainers/fastq-join/status
+   :target: https://quay.io/repository/biocontainers/fastq-join
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastq-join.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastq-join/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastq-join/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastq-join/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastq-join/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastq-join
-.. |docker| image:: https://quay.io/repository/biocontainers/fastq-join/status
-                :target: https://quay.io/repository/biocontainers/fastq-join
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastq-join/README.html
 

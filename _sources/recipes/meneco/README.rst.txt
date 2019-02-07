@@ -1,54 +1,66 @@
-.. _`meneco`:
+.. title:: Package Recipe 'meneco'
+.. highlight: bash
+
 
 meneco
 ======
 
-|downloads|
+.. conda:recipe:: meneco/1.5.2
+   :replaces_section_title:
 
-Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.
+   Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.
 
-============= ===========
-Home          http://bioasp.github.io/meneco/
-Versions      1.5.2
-License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//meneco/1.5.2/meta.yaml
+   :homepage: http://bioasp.github.io/meneco/
+   :license: GPLv3+
+   :recipe: /`meneco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco>`_/`1.5.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: meneco
 
-Installation
-------------
+   |downloads_meneco| |docker_meneco|
 
-.. highlight: bash
+   :versions: 1.5.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pyasp` >=1.4.3 :conda:package:`python` 3.5* 
 
-   conda install meneco
+   :required~by: |required_by_meneco|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update meneco
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install meneco
+
+   and update with::
+
+      conda update meneco
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/meneco
+
+
+.. |required_by_meneco| conda:required_by:: meneco
+.. |downloads_meneco| image:: https://img.shields.io/conda/dn/bioconda/meneco.svg?style=flat
+   :alt:   (downloads)
+.. |docker_meneco| image:: https://quay.io/repository/biocontainers/meneco/status
+   :target: https://quay.io/repository/biocontainers/meneco
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/meneco.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/meneco/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/meneco/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/meneco/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/meneco/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/meneco
-.. |docker| image:: https://quay.io/repository/biocontainers/meneco/status
-                :target: https://quay.io/repository/biocontainers/meneco
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/meneco/README.html
 

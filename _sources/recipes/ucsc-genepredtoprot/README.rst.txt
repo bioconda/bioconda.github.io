@@ -1,54 +1,66 @@
-.. _`ucsc-genepredtoprot`:
+.. title:: Package Recipe 'ucsc-genepredtoprot'
+.. highlight: bash
+
 
 ucsc-genepredtoprot
 ===================
 
-|downloads|
+.. conda:recipe:: ucsc-genepredtoprot
+   :replaces_section_title:
 
-create protein sequences by translating gene annotations
+   create protein sequences by translating gene annotations
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-genepredtoprot/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-genepredtoprot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtoprot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtoprot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-genepredtoprot
 
-Installation
-------------
+   |downloads_ucsc-genepredtoprot| |docker_ucsc-genepredtoprot|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-genepredtoprot
+   :required~by: |required_by_ucsc-genepredtoprot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-genepredtoprot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-genepredtoprot
+
+   and update with::
+
+      conda update ucsc-genepredtoprot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-genepredtoprot
+
+
+.. |required_by_ucsc-genepredtoprot| conda:required_by:: ucsc-genepredtoprot
+.. |downloads_ucsc-genepredtoprot| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtoprot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-genepredtoprot| image:: https://quay.io/repository/biocontainers/ucsc-genepredtoprot/status
+   :target: https://quay.io/repository/biocontainers/ucsc-genepredtoprot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-genepredtoprot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-genepredtoprot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-genepredtoprot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-genepredtoprot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-genepredtoprot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-genepredtoprot
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-genepredtoprot/status
-                :target: https://quay.io/repository/biocontainers/ucsc-genepredtoprot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-genepredtoprot/README.html
 

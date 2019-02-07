@@ -1,54 +1,66 @@
-.. _`bioconductor-saureusprobe`:
+.. title:: Package Recipe 'bioconductor-saureusprobe'
+.. highlight: bash
+
 
 bioconductor-saureusprobe
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-saureusprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was S\\\_aureus\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was S\\\_aureus\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/saureusprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-saureusprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/saureusprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-saureusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureusprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-saureusprobe
 
-Installation
-------------
+   |downloads_bioconductor-saureusprobe| |docker_bioconductor-saureusprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-saureusprobe
+   :required~by: |required_by_bioconductor-saureusprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-saureusprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-saureusprobe
+
+   and update with::
+
+      conda update bioconductor-saureusprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-saureusprobe
+
+
+.. |required_by_bioconductor-saureusprobe| conda:required_by:: bioconductor-saureusprobe
+.. |downloads_bioconductor-saureusprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-saureusprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-saureusprobe| image:: https://quay.io/repository/biocontainers/bioconductor-saureusprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-saureusprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-saureusprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-saureusprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-saureusprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-saureusprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-saureusprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-saureusprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-saureusprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-saureusprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-saureusprobe/README.html
 

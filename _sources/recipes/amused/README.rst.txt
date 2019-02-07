@@ -1,54 +1,66 @@
-.. _`amused`:
+.. title:: Package Recipe 'amused'
+.. highlight: bash
+
 
 amused
 ======
 
-|downloads|
+.. conda:recipe:: amused
+   :replaces_section_title:
 
-Auditing Motifs Using Statistical Enrichment \& Depletion
+   Auditing Motifs Using Statistical Enrichment \& Depletion
 
-============= ===========
-Home          https://github.com/Carldeboer/AMUSED
-Versions      1.0
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//amused/meta.yaml
+   :homepage: https://github.com/Carldeboer/AMUSED
+   :license: GPL-2.0
+   :recipe: /`amused <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amused>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amused/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: amused
 
-Installation
-------------
+   |downloads_amused| |docker_amused|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`jemalloc`  :conda:package:`libgcc`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`zlib` 1.2.11* 
 
-   conda install amused
+   :required~by: |required_by_amused|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update amused
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install amused
+
+   and update with::
+
+      conda update amused
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/amused
+
+
+.. |required_by_amused| conda:required_by:: amused
+.. |downloads_amused| image:: https://img.shields.io/conda/dn/bioconda/amused.svg?style=flat
+   :alt:   (downloads)
+.. |docker_amused| image:: https://quay.io/repository/biocontainers/amused/status
+   :target: https://quay.io/repository/biocontainers/amused
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/amused.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/amused/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/amused/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/amused/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/amused/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/amused
-.. |docker| image:: https://quay.io/repository/biocontainers/amused/status
-                :target: https://quay.io/repository/biocontainers/amused
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/amused/README.html
 

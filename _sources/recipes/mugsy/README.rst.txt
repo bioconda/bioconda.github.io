@@ -1,54 +1,66 @@
-.. _`mugsy`:
+.. title:: Package Recipe 'mugsy'
+.. highlight: bash
+
 
 mugsy
 =====
 
-|downloads|
+.. conda:recipe:: mugsy
+   :replaces_section_title:
 
-Mugsy is a multiple whole genome aligner.
+   Mugsy is a multiple whole genome aligner.
 
-============= ===========
-Home          http://mugsy.sourceforge.net
-Versions      1.2.3
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mugsy/meta.yaml
+   :homepage: http://mugsy.sourceforge.net
+   :license: Artistic License 2.0
+   :recipe: /`mugsy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mugsy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mugsy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mugsy
 
-Installation
-------------
+   |downloads_mugsy| |docker_mugsy|
 
-.. highlight: bash
+   :versions: 1.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install mugsy
+   :required~by: |required_by_mugsy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mugsy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mugsy
+
+   and update with::
+
+      conda update mugsy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mugsy
+
+
+.. |required_by_mugsy| conda:required_by:: mugsy
+.. |downloads_mugsy| image:: https://img.shields.io/conda/dn/bioconda/mugsy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mugsy| image:: https://quay.io/repository/biocontainers/mugsy/status
+   :target: https://quay.io/repository/biocontainers/mugsy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mugsy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mugsy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mugsy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mugsy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mugsy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mugsy
-.. |docker| image:: https://quay.io/repository/biocontainers/mugsy/status
-                :target: https://quay.io/repository/biocontainers/mugsy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mugsy/README.html
 

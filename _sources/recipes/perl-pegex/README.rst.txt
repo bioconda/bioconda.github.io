@@ -1,54 +1,66 @@
-.. _`perl-pegex`:
+.. title:: Package Recipe 'perl-pegex'
+.. highlight: bash
+
 
 perl-pegex
 ==========
 
-|downloads|
+.. conda:recipe:: perl-pegex
+   :replaces_section_title:
 
-Pegex Grammar for the Pegex Grammar Language
+   Pegex Grammar for the Pegex Grammar Language
 
-============= ===========
-Home          http://search.cpan.org/~ingy/Pegex-0.61/lib/Pegex.pod
-Versions      0.61
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pegex/meta.yaml
+   :homepage: http://search.cpan.org/~ingy/Pegex-0.61/lib/Pegex.pod
+   :license: perl_5
+   :recipe: /`perl-pegex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pegex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pegex/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pegex
 
-Installation
-------------
+   |downloads_perl-pegex| |docker_perl-pegex|
 
-.. highlight: bash
+   :versions: 0.61
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-sharedir-install`  :conda:package:`perl-threaded`  :conda:package:`perl-yaml-libyaml`  
 
-   conda install perl-pegex
+   :required~by: |required_by_perl-pegex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pegex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pegex
+
+   and update with::
+
+      conda update perl-pegex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pegex
+
+
+.. |required_by_perl-pegex| conda:required_by:: perl-pegex
+.. |downloads_perl-pegex| image:: https://img.shields.io/conda/dn/bioconda/perl-pegex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pegex| image:: https://quay.io/repository/biocontainers/perl-pegex/status
+   :target: https://quay.io/repository/biocontainers/perl-pegex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pegex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pegex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pegex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pegex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pegex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pegex
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pegex/status
-                :target: https://quay.io/repository/biocontainers/perl-pegex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pegex/README.html
 

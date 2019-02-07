@@ -1,54 +1,66 @@
-.. _`pullseq`:
+.. title:: Package Recipe 'pullseq'
+.. highlight: bash
+
 
 pullseq
 =======
 
-|downloads|
+.. conda:recipe:: pullseq
+   :replaces_section_title:
 
-Utility program for extracting sequences from a fasta\/fastq file.
+   Utility program for extracting sequences from a fasta\/fastq file.
 
-============= ===========
-Home          https://github.com/bcthomas/pullseq
-Versions      1.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pullseq/meta.yaml
+   :homepage: https://github.com/bcthomas/pullseq
+   :license: MIT
+   :recipe: /`pullseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pullseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pullseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pullseq
 
-Installation
-------------
+   |downloads_pullseq| |docker_pullseq|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`pcre`  :conda:package:`zlib`  
 
-   conda install pullseq
+   :required~by: |required_by_pullseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pullseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pullseq
+
+   and update with::
+
+      conda update pullseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pullseq
+
+
+.. |required_by_pullseq| conda:required_by:: pullseq
+.. |downloads_pullseq| image:: https://img.shields.io/conda/dn/bioconda/pullseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pullseq| image:: https://quay.io/repository/biocontainers/pullseq/status
+   :target: https://quay.io/repository/biocontainers/pullseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pullseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pullseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pullseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pullseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pullseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pullseq
-.. |docker| image:: https://quay.io/repository/biocontainers/pullseq/status
-                :target: https://quay.io/repository/biocontainers/pullseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pullseq/README.html
 

@@ -1,54 +1,66 @@
-.. _`geneimpacts`:
+.. title:: Package Recipe 'geneimpacts'
+.. highlight: bash
+
 
 geneimpacts
 ===========
 
-|downloads|
+.. conda:recipe:: geneimpacts
+   :replaces_section_title:
 
-prioritize effects of variant annotations from VEP\, SnpEff\, et al.
+   prioritize effects of variant annotations from VEP\, SnpEff\, et al.
 
-============= ===========
-Home          https://github.com/brentp/geneimpacts
-Versions      0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.1, 0.3.0a0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.9, 0.0.8, 0.0.7, 0.0.5, 0.0.4
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//geneimpacts/meta.yaml
+   :homepage: https://github.com/brentp/geneimpacts
+   :license: MIT
+   :recipe: /`geneimpacts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geneimpacts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geneimpacts/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: geneimpacts
 
-Installation
-------------
+   |downloads_geneimpacts| |docker_geneimpacts|
 
-.. highlight: bash
+   :versions: 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.1, 0.3.0a0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.9, 0.0.8, 0.0.7, 0.0.5, 0.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install geneimpacts
+   :required~by: |required_by_geneimpacts|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update geneimpacts
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install geneimpacts
+
+   and update with::
+
+      conda update geneimpacts
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/geneimpacts
+
+
+.. |required_by_geneimpacts| conda:required_by:: geneimpacts
+.. |downloads_geneimpacts| image:: https://img.shields.io/conda/dn/bioconda/geneimpacts.svg?style=flat
+   :alt:   (downloads)
+.. |docker_geneimpacts| image:: https://quay.io/repository/biocontainers/geneimpacts/status
+   :target: https://quay.io/repository/biocontainers/geneimpacts
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/geneimpacts.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/geneimpacts/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/geneimpacts/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/geneimpacts/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/geneimpacts/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/geneimpacts
-.. |docker| image:: https://quay.io/repository/biocontainers/geneimpacts/status
-                :target: https://quay.io/repository/biocontainers/geneimpacts
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/geneimpacts/README.html
 

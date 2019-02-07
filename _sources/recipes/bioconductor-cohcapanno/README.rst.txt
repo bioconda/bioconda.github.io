@@ -1,54 +1,66 @@
-.. _`bioconductor-cohcapanno`:
+.. title:: Package Recipe 'bioconductor-cohcapanno'
+.. highlight: bash
+
 
 bioconductor-cohcapanno
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cohcapanno
+   :replaces_section_title:
 
-Provides genomic location\, nearby CpG island and nearby gene information for common Illumina methylation array platforms
+   Provides genomic location\, nearby CpG island and nearby gene information for common Illumina methylation array platforms
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/COHCAPanno.html
-Versions      1.18.0, 1.16.0, 1.14.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cohcapanno/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/COHCAPanno.html
+   :license: GPL-3
+   :recipe: /`bioconductor-cohcapanno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cohcapanno
 
-Installation
-------------
+   |downloads_bioconductor-cohcapanno| |docker_bioconductor-cohcapanno|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-cohcapanno
+   :required~by: |required_by_bioconductor-cohcapanno|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cohcapanno
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cohcapanno
+
+   and update with::
+
+      conda update bioconductor-cohcapanno
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cohcapanno
+
+
+.. |required_by_bioconductor-cohcapanno| conda:required_by:: bioconductor-cohcapanno
+.. |downloads_bioconductor-cohcapanno| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cohcapanno.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cohcapanno| image:: https://quay.io/repository/biocontainers/bioconductor-cohcapanno/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cohcapanno
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cohcapanno.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cohcapanno/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cohcapanno/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cohcapanno/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cohcapanno/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cohcapanno
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cohcapanno/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cohcapanno
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cohcapanno/README.html
 

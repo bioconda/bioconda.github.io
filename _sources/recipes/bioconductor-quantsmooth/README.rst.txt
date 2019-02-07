@@ -1,56 +1,67 @@
-.. _`bioconductor-quantsmooth`:
+.. title:: Package Recipe 'bioconductor-quantsmooth'
+.. highlight: bash
+
 
 bioconductor-quantsmooth
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-quantsmooth
+   :replaces_section_title:
 
-Implements quantile smoothing as introduced in\: Quantile smoothing of array CGH data\; Eilers PH\, de Menezes RX\; Bioinformatics. 2005 Apr 1\;21\(7\)\:1146\-53.
+   Implements quantile smoothing as introduced in\: Quantile smoothing of array CGH data\; Eilers PH\, de Menezes RX\; Bioinformatics. 2005 Apr 1\;21\(7\)\:1146\-53.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/quantsmooth.html
-Versions      1.48.0, 1.46.0, 1.44.0, 1.42.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-quantsmooth/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/quantsmooth.html
+   :license: GPL-2
+   :recipe: /`bioconductor-quantsmooth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantsmooth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantsmooth/meta.yaml>`_
+   :links: biotools: :biotools:`quantsmooth`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`quantsmooth`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-quantsmooth
 
-Installation
-------------
+   |downloads_bioconductor-quantsmooth| |docker_bioconductor-quantsmooth|
 
-.. highlight: bash
+   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
 
-   conda install bioconductor-quantsmooth
+   :required~by: |required_by_bioconductor-quantsmooth|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-quantsmooth
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-quantsmooth
+
+   and update with::
+
+      conda update bioconductor-quantsmooth
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-quantsmooth
+
+
+.. |required_by_bioconductor-quantsmooth| conda:required_by:: bioconductor-quantsmooth
+.. |downloads_bioconductor-quantsmooth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quantsmooth.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-quantsmooth| image:: https://quay.io/repository/biocontainers/bioconductor-quantsmooth/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-quantsmooth
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-quantsmooth.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-quantsmooth/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-quantsmooth/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-quantsmooth/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-quantsmooth/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-quantsmooth
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-quantsmooth/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-quantsmooth
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-quantsmooth/README.html
 

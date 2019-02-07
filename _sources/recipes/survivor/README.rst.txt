@@ -1,54 +1,66 @@
-.. _`survivor`:
+.. title:: Package Recipe 'survivor'
+.. highlight: bash
+
 
 survivor
 ========
 
-|downloads|
+.. conda:recipe:: survivor
+   :replaces_section_title:
 
-Toolset for SV simulation\, comparison and filtering
+   Toolset for SV simulation\, comparison and filtering
 
-============= ===========
-Home          https://github.com/fritzsedlazeck/SURVIVOR
-Versions      1.0.5, 1.0.3, 1.0.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//survivor/meta.yaml
+   :homepage: https://github.com/fritzsedlazeck/SURVIVOR
+   :license: MIT
+   :recipe: /`survivor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survivor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survivor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: survivor
 
-Installation
-------------
+   |downloads_survivor| |docker_survivor|
 
-.. highlight: bash
+   :versions: 1.0.5, 1.0.3, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install survivor
+   :required~by: |required_by_survivor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update survivor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install survivor
+
+   and update with::
+
+      conda update survivor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/survivor
+
+
+.. |required_by_survivor| conda:required_by:: survivor
+.. |downloads_survivor| image:: https://img.shields.io/conda/dn/bioconda/survivor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_survivor| image:: https://quay.io/repository/biocontainers/survivor/status
+   :target: https://quay.io/repository/biocontainers/survivor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/survivor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/survivor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/survivor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/survivor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/survivor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/survivor
-.. |docker| image:: https://quay.io/repository/biocontainers/survivor/status
-                :target: https://quay.io/repository/biocontainers/survivor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/survivor/README.html
 

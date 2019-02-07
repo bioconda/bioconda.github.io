@@ -1,54 +1,66 @@
-.. _`r-cp4p`:
+.. title:: Package Recipe 'r-cp4p'
+.. highlight: bash
+
 
 r-cp4p
 ======
 
-|downloads|
+.. conda:recipe:: r-cp4p
+   :replaces_section_title:
 
-Functions to check whether a vector of p\-values respects the assumptions of FDR \(false discovery rate\) control procedures and to compute adjusted p\-values.
+   Functions to check whether a vector of p\-values respects the assumptions of FDR \(false discovery rate\) control procedures and to compute adjusted p\-values.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=cp4p
-Versions      0.3.5
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cp4p/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=cp4p
+   :license: GPL3 / GPL-3
+   :recipe: /`r-cp4p <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cp4p>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cp4p/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-cp4p
 
-Installation
-------------
+   |downloads_r-cp4p| |docker_r-cp4p|
 
-.. highlight: bash
+   :versions: 0.3.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-limma`  :conda:package:`bioconductor-multtest`  :conda:package:`bioconductor-qvalue`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mess`  
 
-   conda install r-cp4p
+   :required~by: |required_by_r-cp4p|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-cp4p
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-cp4p
+
+   and update with::
+
+      conda update r-cp4p
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-cp4p
+
+
+.. |required_by_r-cp4p| conda:required_by:: r-cp4p
+.. |downloads_r-cp4p| image:: https://img.shields.io/conda/dn/bioconda/r-cp4p.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-cp4p| image:: https://quay.io/repository/biocontainers/r-cp4p/status
+   :target: https://quay.io/repository/biocontainers/r-cp4p
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-cp4p.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-cp4p/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-cp4p/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-cp4p/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-cp4p/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-cp4p
-.. |docker| image:: https://quay.io/repository/biocontainers/r-cp4p/status
-                :target: https://quay.io/repository/biocontainers/r-cp4p
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-cp4p/README.html
 

@@ -1,54 +1,66 @@
-.. _`optbuild`:
+.. title:: Package Recipe 'optbuild'
+.. highlight: bash
+
 
 optbuild
 ========
 
-|downloads|
+.. conda:recipe:: optbuild
+   :replaces_section_title:
 
-build command lines for external programs
+   build command lines for external programs
 
-============= ===========
-Home          http://noble.gs.washington.edu/~mmh1/software/optbuild/
-Versions      0.2.1, 0.2, 0.1.11
-License       GNU GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//optbuild/meta.yaml
+   :homepage: http://noble.gs.washington.edu/~mmh1/software/optbuild/
+   :license: GNU GPLv2
+   :recipe: /`optbuild <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optbuild>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optbuild/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: optbuild
 
-Installation
-------------
+   |downloads_optbuild| |docker_optbuild|
 
-.. highlight: bash
+   :versions: 0.2.1, 0.2, 0.1.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`autolog`  :conda:package:`python`  :conda:package:`six`  
 
-   conda install optbuild
+   :required~by: |required_by_optbuild|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update optbuild
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install optbuild
+
+   and update with::
+
+      conda update optbuild
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/optbuild
+
+
+.. |required_by_optbuild| conda:required_by:: optbuild
+.. |downloads_optbuild| image:: https://img.shields.io/conda/dn/bioconda/optbuild.svg?style=flat
+   :alt:   (downloads)
+.. |docker_optbuild| image:: https://quay.io/repository/biocontainers/optbuild/status
+   :target: https://quay.io/repository/biocontainers/optbuild
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/optbuild.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/optbuild/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/optbuild/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/optbuild/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/optbuild/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/optbuild
-.. |docker| image:: https://quay.io/repository/biocontainers/optbuild/status
-                :target: https://quay.io/repository/biocontainers/optbuild
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/optbuild/README.html
 

@@ -1,56 +1,67 @@
-.. _`pybedtools`:
+.. title:: Package Recipe 'pybedtools'
+.. highlight: bash
+
 
 pybedtools
 ==========
 
-|downloads|
+.. conda:recipe:: pybedtools
+   :replaces_section_title:
 
-Wraps BEDTools for use in Python and adds many additional features.
+   Wraps BEDTools for use in Python and adds many additional features.
 
-============= ===========
-Home          https://github.com/daler/pybedtools
-Versions      0.8.0, 0.7.10, 0.7.9, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.2, 0.7.0, 0.6.9
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pybedtools/meta.yaml
+   :homepage: https://github.com/daler/pybedtools
+   :license: MIT
+   :recipe: /`pybedtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedtools/meta.yaml>`_
+   :links: biotools: :biotools:`pybedtools`
 
-
-
-Links         biotools: :biotools:`pybedtools`
-
-============= ===========
+   
 
 
+.. conda:package:: pybedtools
 
-Installation
-------------
+   |downloads_pybedtools| |docker_pybedtools|
 
-.. highlight: bash
+   :versions: 0.8.0, 0.7.10, 0.7.9, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.2, 0.7.0, 0.6.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`pandas`  :conda:package:`pysam` >=0.8.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pybedtools
+   :required~by: |required_by_pybedtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pybedtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pybedtools
+
+   and update with::
+
+      conda update pybedtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pybedtools
+
+
+.. |required_by_pybedtools| conda:required_by:: pybedtools
+.. |downloads_pybedtools| image:: https://img.shields.io/conda/dn/bioconda/pybedtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pybedtools| image:: https://quay.io/repository/biocontainers/pybedtools/status
+   :target: https://quay.io/repository/biocontainers/pybedtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pybedtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pybedtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pybedtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pybedtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pybedtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pybedtools
-.. |docker| image:: https://quay.io/repository/biocontainers/pybedtools/status
-                :target: https://quay.io/repository/biocontainers/pybedtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pybedtools/README.html
 

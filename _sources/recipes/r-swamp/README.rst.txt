@@ -1,54 +1,66 @@
-.. _`r-swamp`:
+.. title:: Package Recipe 'r-swamp'
+.. highlight: bash
+
 
 r-swamp
 =======
 
-|downloads|
+.. conda:recipe:: r-swamp
+   :replaces_section_title:
 
-Collection of functions to connect the structure of the data with the information on the samples. Three types of associations are covered\: 1. linear model of principal components. 2. hierarchical clustering analysis. 3. distribution of features\-sample annotation associations. Additionally\, the inter\-relation between sample annotations can be analyzed. Simple methods are provided for the correction of batch effects and removal of principal components.
+   Collection of functions to connect the structure of the data with the information on the samples. Three types of associations are covered\: 1. linear model of principal components. 2. hierarchical clustering analysis. 3. distribution of features\-sample annotation associations. Additionally\, the inter\-relation between sample annotations can be analyzed. Simple methods are provided for the correction of batch effects and removal of principal components.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=swamp
-Versions      1.4.1, 1.3.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-swamp/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=swamp
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-swamp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-swamp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-swamp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-swamp
 
-Installation
-------------
+   |downloads_r-swamp| |docker_r-swamp|
 
-.. highlight: bash
+   :versions: 1.4.1, 1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-impute`  :conda:package:`r-amap`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-mass`  
 
-   conda install r-swamp
+   :required~by: |required_by_r-swamp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-swamp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-swamp
+
+   and update with::
+
+      conda update r-swamp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-swamp
+
+
+.. |required_by_r-swamp| conda:required_by:: r-swamp
+.. |downloads_r-swamp| image:: https://img.shields.io/conda/dn/bioconda/r-swamp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-swamp| image:: https://quay.io/repository/biocontainers/r-swamp/status
+   :target: https://quay.io/repository/biocontainers/r-swamp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-swamp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-swamp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-swamp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-swamp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-swamp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-swamp
-.. |docker| image:: https://quay.io/repository/biocontainers/r-swamp/status
-                :target: https://quay.io/repository/biocontainers/r-swamp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-swamp/README.html
 

@@ -1,54 +1,66 @@
-.. _`readseq`:
+.. title:: Package Recipe 'readseq'
+.. highlight: bash
+
 
 readseq
 =======
 
-|downloads|
+.. conda:recipe:: readseq
+   :replaces_section_title:
 
-Read \& reformat biosequences\, Java command\-line version
+   Read \& reformat biosequences\, Java command\-line version
 
-============= ===========
-Home          http://iubio.bio.indiana.edu/soft/molbio/readseq/java/
-Versions      2.1.30
-License       PUBLIC DOMAIN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//readseq/meta.yaml
+   :homepage: http://iubio.bio.indiana.edu/soft/molbio/readseq/java/
+   :license: PUBLIC DOMAIN
+   :recipe: /`readseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: readseq
 
-Installation
-------------
+   |downloads_readseq| |docker_readseq|
 
-.. highlight: bash
+   :versions: 2.1.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install readseq
+   :required~by: |required_by_readseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update readseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install readseq
+
+   and update with::
+
+      conda update readseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/readseq
+
+
+.. |required_by_readseq| conda:required_by:: readseq
+.. |downloads_readseq| image:: https://img.shields.io/conda/dn/bioconda/readseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_readseq| image:: https://quay.io/repository/biocontainers/readseq/status
+   :target: https://quay.io/repository/biocontainers/readseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/readseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/readseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/readseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/readseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/readseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/readseq
-.. |docker| image:: https://quay.io/repository/biocontainers/readseq/status
-                :target: https://quay.io/repository/biocontainers/readseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/readseq/README.html
 

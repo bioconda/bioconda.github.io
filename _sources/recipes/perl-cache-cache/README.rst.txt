@@ -1,54 +1,66 @@
-.. _`perl-cache-cache`:
+.. title:: Package Recipe 'perl-cache-cache'
+.. highlight: bash
+
 
 perl-cache-cache
 ================
 
-|downloads|
+.. conda:recipe:: perl-cache-cache
+   :replaces_section_title:
 
-extends Cache\:\:SizeAwareMemoryCache
+   extends Cache\:\:SizeAwareMemoryCache
 
-============= ===========
-Home          http://metacpan.org/pod/Cache::Cache
-Versions      1.08
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cache-cache/meta.yaml
+   :homepage: http://metacpan.org/pod/Cache::Cache
+   :license: unknown
+   :recipe: /`perl-cache-cache <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cache-cache>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cache-cache/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-cache-cache
 
-Installation
-------------
+   |downloads_perl-cache-cache| |docker_perl-cache-cache|
 
-.. highlight: bash
+   :versions: 1.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-digest-sha1`  :conda:package:`perl-error`  :conda:package:`perl-ipc-sharelite`  :conda:package:`perl-storable`  
 
-   conda install perl-cache-cache
+   :required~by: |required_by_perl-cache-cache|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-cache-cache
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-cache-cache
+
+   and update with::
+
+      conda update perl-cache-cache
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-cache-cache
+
+
+.. |required_by_perl-cache-cache| conda:required_by:: perl-cache-cache
+.. |downloads_perl-cache-cache| image:: https://img.shields.io/conda/dn/bioconda/perl-cache-cache.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-cache-cache| image:: https://quay.io/repository/biocontainers/perl-cache-cache/status
+   :target: https://quay.io/repository/biocontainers/perl-cache-cache
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-cache-cache.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-cache-cache/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-cache-cache/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-cache-cache/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-cache-cache/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-cache-cache
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-cache-cache/status
-                :target: https://quay.io/repository/biocontainers/perl-cache-cache
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-cache-cache/README.html
 

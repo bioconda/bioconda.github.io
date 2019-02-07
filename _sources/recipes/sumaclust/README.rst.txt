@@ -1,54 +1,66 @@
-.. _`sumaclust`:
+.. title:: Package Recipe 'sumaclust'
+.. highlight: bash
+
 
 sumaclust
 =========
 
-|downloads|
+.. conda:recipe:: sumaclust
+   :replaces_section_title:
 
-Sumaclust clusters sequences in a way that is fast and exact at the same time\, using the same clustering algorithm as UCLUST and CD\-HIT. For more information see url.
+   Sumaclust clusters sequences in a way that is fast and exact at the same time\, using the same clustering algorithm as UCLUST and CD\-HIT. For more information see url.
 
-============= ===========
-Home          https://git.metabarcoding.org/obitools/sumaclust/wikis/home
-Versions      1.0.31
-License       CeCILL FREE SOFTWARE LICENSE AGREEMENT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sumaclust/meta.yaml
+   :homepage: https://git.metabarcoding.org/obitools/sumaclust/wikis/home
+   :license: CeCILL FREE SOFTWARE LICENSE AGREEMENT
+   :recipe: /`sumaclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sumaclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sumaclust/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sumaclust
 
-Installation
-------------
+   |downloads_sumaclust| |docker_sumaclust|
 
-.. highlight: bash
+   :versions: 1.0.31
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 
 
-   conda install sumaclust
+   :required~by: |required_by_sumaclust|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sumaclust
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sumaclust
+
+   and update with::
+
+      conda update sumaclust
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sumaclust
+
+
+.. |required_by_sumaclust| conda:required_by:: sumaclust
+.. |downloads_sumaclust| image:: https://img.shields.io/conda/dn/bioconda/sumaclust.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sumaclust| image:: https://quay.io/repository/biocontainers/sumaclust/status
+   :target: https://quay.io/repository/biocontainers/sumaclust
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sumaclust.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sumaclust/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sumaclust/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sumaclust/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sumaclust/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sumaclust
-.. |docker| image:: https://quay.io/repository/biocontainers/sumaclust/status
-                :target: https://quay.io/repository/biocontainers/sumaclust
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sumaclust/README.html
 

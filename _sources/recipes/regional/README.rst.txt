@@ -1,54 +1,66 @@
-.. _`regional`:
+.. title:: Package Recipe 'regional'
+.. highlight: bash
+
 
 regional
 ========
 
-|downloads|
+.. conda:recipe:: regional
+   :replaces_section_title:
 
-simple manipulation and display of spatial regions in python
+   simple manipulation and display of spatial regions in python
 
-============= ===========
-Home          https://github.com/freeman-lab/regional
-Versions      1.1.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//regional/meta.yaml
+   :homepage: https://github.com/freeman-lab/regional
+   :license: MIT
+   :recipe: /`regional <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regional>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regional/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: regional
 
-Installation
-------------
+   |downloads_regional| |docker_regional|
 
-.. highlight: bash
+   :versions: 1.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`numpy` !=1.13.0 :conda:package:`python`  :conda:package:`scipy`  
 
-   conda install regional
+   :required~by: |required_by_regional|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update regional
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install regional
+
+   and update with::
+
+      conda update regional
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/regional
+
+
+.. |required_by_regional| conda:required_by:: regional
+.. |downloads_regional| image:: https://img.shields.io/conda/dn/bioconda/regional.svg?style=flat
+   :alt:   (downloads)
+.. |docker_regional| image:: https://quay.io/repository/biocontainers/regional/status
+   :target: https://quay.io/repository/biocontainers/regional
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/regional.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/regional/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/regional/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/regional/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/regional/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/regional
-.. |docker| image:: https://quay.io/repository/biocontainers/regional/status
-                :target: https://quay.io/repository/biocontainers/regional
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/regional/README.html
 

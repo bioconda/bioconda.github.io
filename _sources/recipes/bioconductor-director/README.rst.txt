@@ -1,56 +1,67 @@
-.. _`bioconductor-director`:
+.. title:: Package Recipe 'bioconductor-director'
+.. highlight: bash
+
 
 bioconductor-director
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-director
+   :replaces_section_title:
 
-Director is an R package designed to streamline the visualization of molecular effects in regulatory cascades. It utilizes the R package htmltools and a modified Sankey plugin of the JavaScript library D3 to provide a fast and easy\, browser\-enabled solution to discovering potentially interesting downstream effects of regulatory and\/or co\-expressed molecules. The diagrams are robust\, interactive\, and packaged as highly\-portable HTML files that eliminate the need for third\-party software to view. This enables a straightforward approach for scientists to interpret the data produced\, and bioinformatics developers an alternative means to present relevant data.
+   Director is an R package designed to streamline the visualization of molecular effects in regulatory cascades. It utilizes the R package htmltools and a modified Sankey plugin of the JavaScript library D3 to provide a fast and easy\, browser\-enabled solution to discovering potentially interesting downstream effects of regulatory and\/or co\-expressed molecules. The diagrams are robust\, interactive\, and packaged as highly\-portable HTML files that eliminate the need for third\-party software to view. This enables a straightforward approach for scientists to interpret the data produced\, and bioinformatics developers an alternative means to present relevant data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Director.html
-Versions      1.8.0, 1.6.0, 1.4.0
-License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-director/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Director.html
+   :license: GPL-3 + file LICENSE
+   :recipe: /`bioconductor-director <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director/meta.yaml>`_
+   :links: biotools: :biotools:`director`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`director`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-director
 
-Installation
-------------
+   |downloads_bioconductor-director| |docker_bioconductor-director|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-htmltools`  
 
-   conda install bioconductor-director
+   :required~by: |required_by_bioconductor-director|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-director
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-director
+
+   and update with::
+
+      conda update bioconductor-director
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-director
+
+
+.. |required_by_bioconductor-director| conda:required_by:: bioconductor-director
+.. |downloads_bioconductor-director| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-director.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-director| image:: https://quay.io/repository/biocontainers/bioconductor-director/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-director
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-director.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-director/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-director/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-director/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-director/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-director
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-director/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-director
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-director/README.html
 

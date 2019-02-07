@@ -1,56 +1,67 @@
-.. _`idba`:
+.. title:: Package Recipe 'idba'
+.. highlight: bash
+
 
 idba
 ====
 
-|downloads|
+.. conda:recipe:: idba
+   :replaces_section_title:
 
-IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
+   IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
 
-============= ===========
-Home          http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
-Versions      1.1.3, 1.1.1
-License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//idba/meta.yaml
+   :homepage: http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
+   :license: GPL2
+   :recipe: /`idba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba/meta.yaml>`_
+   :links: biotools: :biotools:`idba`, doi: :doi:`10.1007/978-3-642-12683-3_28`
 
-
-
-Links         biotools: :biotools:`idba`, doi: :doi:`10.1007/978-3-642-12683-3_28`
-
-============= ===========
+   
 
 
+.. conda:package:: idba
 
-Installation
-------------
+   |downloads_idba| |docker_idba|
 
-.. highlight: bash
+   :versions: 1.1.3, 1.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install idba
+   :required~by: |required_by_idba|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update idba
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install idba
+
+   and update with::
+
+      conda update idba
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/idba
+
+
+.. |required_by_idba| conda:required_by:: idba
+.. |downloads_idba| image:: https://img.shields.io/conda/dn/bioconda/idba.svg?style=flat
+   :alt:   (downloads)
+.. |docker_idba| image:: https://quay.io/repository/biocontainers/idba/status
+   :target: https://quay.io/repository/biocontainers/idba
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/idba.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/idba/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/idba/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/idba/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/idba/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/idba
-.. |docker| image:: https://quay.io/repository/biocontainers/idba/status
-                :target: https://quay.io/repository/biocontainers/idba
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/idba/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-huexexonprobesetlocation`:
+.. title:: Package Recipe 'bioconductor-huexexonprobesetlocation'
+.. highlight: bash
+
 
 bioconductor-huexexonprobesetlocation
 =====================================
 
-|downloads|
+.. conda:recipe:: bioconductor-huexexonprobesetlocation
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
+   This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/HuExExonProbesetLocation.html
-Versions      1.15.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-huexexonprobesetlocation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/HuExExonProbesetLocation.html
+   :license: LGPL
+   :recipe: /`bioconductor-huexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-huexexonprobesetlocation
 
-Installation
-------------
+   |downloads_bioconductor-huexexonprobesetlocation| |docker_bioconductor-huexexonprobesetlocation|
 
-.. highlight: bash
+   :versions: 1.15.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-huexexonprobesetlocation
+   :required~by: |required_by_bioconductor-huexexonprobesetlocation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-huexexonprobesetlocation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-huexexonprobesetlocation
+
+   and update with::
+
+      conda update bioconductor-huexexonprobesetlocation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation
+
+
+.. |required_by_bioconductor-huexexonprobesetlocation| conda:required_by:: bioconductor-huexexonprobesetlocation
+.. |downloads_bioconductor-huexexonprobesetlocation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huexexonprobesetlocation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-huexexonprobesetlocation| image:: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-huexexonprobesetlocation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-huexexonprobesetlocation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-huexexonprobesetlocation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-huexexonprobesetlocation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-huexexonprobesetlocation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-huexexonprobesetlocation/README.html
 

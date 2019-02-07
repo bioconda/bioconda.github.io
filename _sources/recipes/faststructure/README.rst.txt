@@ -1,54 +1,66 @@
-.. _`faststructure`:
+.. title:: Package Recipe 'faststructure'
+.. highlight: bash
+
 
 faststructure
 =============
 
-|downloads|
+.. conda:recipe:: faststructure
+   :replaces_section_title:
 
-A variational framework for inferring population structure from SNP genotype data.
+   A variational framework for inferring population structure from SNP genotype data.
 
-============= ===========
-Home          https://github.com/rajanil/fastStructure
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//faststructure/meta.yaml
+   :homepage: https://github.com/rajanil/fastStructure
+   :license: MIT / MIT
+   :recipe: /`faststructure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faststructure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faststructure/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: faststructure
 
-Installation
-------------
+   |downloads_faststructure| |docker_faststructure|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython` <0.28 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
-   conda install faststructure
+   :required~by: |required_by_faststructure|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update faststructure
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install faststructure
+
+   and update with::
+
+      conda update faststructure
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/faststructure
+
+
+.. |required_by_faststructure| conda:required_by:: faststructure
+.. |downloads_faststructure| image:: https://img.shields.io/conda/dn/bioconda/faststructure.svg?style=flat
+   :alt:   (downloads)
+.. |docker_faststructure| image:: https://quay.io/repository/biocontainers/faststructure/status
+   :target: https://quay.io/repository/biocontainers/faststructure
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/faststructure.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/faststructure/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/faststructure/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/faststructure/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/faststructure/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/faststructure
-.. |docker| image:: https://quay.io/repository/biocontainers/faststructure/status
-                :target: https://quay.io/repository/biocontainers/faststructure
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/faststructure/README.html
 

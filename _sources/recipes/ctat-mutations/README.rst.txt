@@ -1,54 +1,66 @@
-.. _`ctat-mutations`:
+.. title:: Package Recipe 'ctat-mutations'
+.. highlight: bash
+
 
 ctat-mutations
 ==============
 
-|downloads|
+.. conda:recipe:: ctat-mutations
+   :replaces_section_title:
 
- Mutation detection in RNA\-Seq using GATK\-v4.0 in RNA\-Seq variant calling\, several sources of variant annotation\, and filtering based on CRAVAT.
+    Mutation detection in RNA\-Seq using GATK\-v4.0 in RNA\-Seq variant calling\, several sources of variant annotation\, and filtering based on CRAVAT.
 
-============= ===========
-Home          https://github.com/NCIP/ctat-mutations
-Versions      2.0.1, 2.0.0, 1.0
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ctat-mutations/meta.yaml
+   :homepage: https://github.com/NCIP/ctat-mutations
+   :license: BSD-3-Clause
+   :recipe: /`ctat-mutations <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-mutations>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-mutations/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ctat-mutations
 
-Installation
-------------
+   |downloads_ctat-mutations| |docker_ctat-mutations|
 
-.. highlight: bash
+   :versions: 2.0.1, 2.0.0, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcftools`  :conda:package:`gatk4`  :conda:package:`picard` >=2.0.1 :conda:package:`python`  :conda:package:`samtools`  :conda:package:`star`  :conda:package:`tabix`  
 
-   conda install ctat-mutations
+   :required~by: |required_by_ctat-mutations|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ctat-mutations
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ctat-mutations
+
+   and update with::
+
+      conda update ctat-mutations
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ctat-mutations
+
+
+.. |required_by_ctat-mutations| conda:required_by:: ctat-mutations
+.. |downloads_ctat-mutations| image:: https://img.shields.io/conda/dn/bioconda/ctat-mutations.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ctat-mutations| image:: https://quay.io/repository/biocontainers/ctat-mutations/status
+   :target: https://quay.io/repository/biocontainers/ctat-mutations
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ctat-mutations.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ctat-mutations/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ctat-mutations/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ctat-mutations/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ctat-mutations/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ctat-mutations
-.. |docker| image:: https://quay.io/repository/biocontainers/ctat-mutations/status
-                :target: https://quay.io/repository/biocontainers/ctat-mutations
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ctat-mutations/README.html
 

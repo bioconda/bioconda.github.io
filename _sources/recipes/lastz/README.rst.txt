@@ -1,56 +1,67 @@
-.. _`lastz`:
+.. title:: Package Recipe 'lastz'
+.. highlight: bash
+
 
 lastz
 =====
 
-|downloads|
+.. conda:recipe:: lastz
+   :replaces_section_title:
 
-LASTZ is a program for aligning DNA sequences\, a pairwise aligner.
+   LASTZ is a program for aligning DNA sequences\, a pairwise aligner.
 
-============= ===========
-Home          http://www.bx.psu.edu/~rsharris/lastz/
-Versions      1.0.4, 1.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lastz/meta.yaml
+   :homepage: http://www.bx.psu.edu/~rsharris/lastz/
+   :license: MIT
+   :recipe: /`lastz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lastz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lastz/meta.yaml>`_
+   :links: biotools: :biotools:`lastz`
 
-
-
-Links         biotools: :biotools:`lastz`
-
-============= ===========
+   
 
 
+.. conda:package:: lastz
 
-Installation
-------------
+   |downloads_lastz| |docker_lastz|
 
-.. highlight: bash
+   :versions: 1.0.4, 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install lastz
+   :required~by: |required_by_lastz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lastz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lastz
+
+   and update with::
+
+      conda update lastz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lastz
+
+
+.. |required_by_lastz| conda:required_by:: lastz
+.. |downloads_lastz| image:: https://img.shields.io/conda/dn/bioconda/lastz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lastz| image:: https://quay.io/repository/biocontainers/lastz/status
+   :target: https://quay.io/repository/biocontainers/lastz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lastz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lastz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lastz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lastz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lastz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lastz
-.. |docker| image:: https://quay.io/repository/biocontainers/lastz/status
-                :target: https://quay.io/repository/biocontainers/lastz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lastz/README.html
 

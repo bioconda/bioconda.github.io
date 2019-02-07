@@ -1,54 +1,66 @@
-.. _`r-bio3d`:
+.. title:: Package Recipe 'r-bio3d'
+.. highlight: bash
+
 
 r-bio3d
 =======
 
-|downloads|
+.. conda:recipe:: r-bio3d
+   :replaces_section_title:
 
-Utilities to process\, organize and explore protein structure\, sequence and dynamics data. Features include the ability to read and write structure\, sequence and dynamic trajectory data\, perform sequence and structure database searches\, data summaries\, atom selection\, alignment\, superposition\, rigid core identification\, clustering\, torsion analysis\, distance matrix analysis\, structure and sequence conservation analysis\, normal mode analysis\, principal component analysis of heterogeneous structure data\, and correlation network analysis from normal mode and molecular dynamics data. In addition\, various utility functions are provided to enable the statistical and graphical power of the R environment to work with biological sequence and structural data. Please refer to the URLs below for more information.
+   
 
-============= ===========
-Home          http://thegrantlab.org/bio3d/, http://bitbucket.org/Grantlab/bio3d
-Versions      2.3_3, 2.2_3
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-bio3d/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-bio3d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bio3d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bio3d/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-bio3d
 
-Installation
-------------
+   |downloads_r-bio3d| |docker_r-bio3d|
 
-.. highlight: bash
+   :versions: 2.3_3, 2.2_3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rcpp`  
 
-   conda install r-bio3d
+   :required~by: |required_by_r-bio3d|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-bio3d
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-bio3d
+
+   and update with::
+
+      conda update r-bio3d
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-bio3d
+
+
+.. |required_by_r-bio3d| conda:required_by:: r-bio3d
+.. |downloads_r-bio3d| image:: https://img.shields.io/conda/dn/bioconda/r-bio3d.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-bio3d| image:: https://quay.io/repository/biocontainers/r-bio3d/status
+   :target: https://quay.io/repository/biocontainers/r-bio3d
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-bio3d.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-bio3d/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-bio3d/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-bio3d/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-bio3d/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-bio3d
-.. |docker| image:: https://quay.io/repository/biocontainers/r-bio3d/status
-                :target: https://quay.io/repository/biocontainers/r-bio3d
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-bio3d/README.html
 

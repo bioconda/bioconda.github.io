@@ -1,54 +1,66 @@
-.. _`perl-test-fatal`:
+.. title:: Package Recipe 'perl-test-fatal'
+.. highlight: bash
+
 
 perl-test-fatal
 ===============
 
-|downloads|
+.. conda:recipe:: perl-test-fatal
+   :replaces_section_title:
 
-incredibly simple helpers for testing code with exceptions
+   incredibly simple helpers for testing code with exceptions
 
-============= ===========
-Home          https://github.com/rjbs/Test-Fatal
-Versions      0.014
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-fatal/meta.yaml
+   :homepage: https://github.com/rjbs/Test-Fatal
+   :license: perl_5
+   :recipe: /`perl-test-fatal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-fatal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-fatal/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-fatal
 
-Installation
-------------
+   |downloads_perl-test-fatal| |docker_perl-test-fatal|
 
-.. highlight: bash
+   :versions: 0.014
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-try-tiny`  
 
-   conda install perl-test-fatal
+   :required~by: |required_by_perl-test-fatal|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-fatal
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-fatal
+
+   and update with::
+
+      conda update perl-test-fatal
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-fatal
+
+
+.. |required_by_perl-test-fatal| conda:required_by:: perl-test-fatal
+.. |downloads_perl-test-fatal| image:: https://img.shields.io/conda/dn/bioconda/perl-test-fatal.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-fatal| image:: https://quay.io/repository/biocontainers/perl-test-fatal/status
+   :target: https://quay.io/repository/biocontainers/perl-test-fatal
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-fatal.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-fatal/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-fatal/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-fatal/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-fatal/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-fatal
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-fatal/status
-                :target: https://quay.io/repository/biocontainers/perl-test-fatal
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-fatal/README.html
 

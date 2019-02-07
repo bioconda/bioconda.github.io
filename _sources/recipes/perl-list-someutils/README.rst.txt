@@ -1,54 +1,66 @@
-.. _`perl-list-someutils`:
+.. title:: Package Recipe 'perl-list-someutils'
+.. highlight: bash
+
 
 perl-list-someutils
 ===================
 
-|downloads|
+.. conda:recipe:: perl-list-someutils
+   :replaces_section_title:
 
-Provide the stuff missing in List\:\:Util
+   Provide the stuff missing in List\:\:Util
 
-============= ===========
-Home          http://metacpan.org/release/List-SomeUtils
-Versions      0.56, 0.53
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-list-someutils/meta.yaml
+   :homepage: http://metacpan.org/release/List-SomeUtils
+   :license: perl_5
+   :recipe: /`perl-list-someutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-someutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-someutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-list-someutils
 
-Installation
-------------
+   |downloads_perl-list-someutils| |docker_perl-list-someutils|
 
-.. highlight: bash
+   :versions: 0.56, 0.53
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  
 
-   conda install perl-list-someutils
+   :required~by: |required_by_perl-list-someutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-list-someutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-list-someutils
+
+   and update with::
+
+      conda update perl-list-someutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-list-someutils
+
+
+.. |required_by_perl-list-someutils| conda:required_by:: perl-list-someutils
+.. |downloads_perl-list-someutils| image:: https://img.shields.io/conda/dn/bioconda/perl-list-someutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-list-someutils| image:: https://quay.io/repository/biocontainers/perl-list-someutils/status
+   :target: https://quay.io/repository/biocontainers/perl-list-someutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-list-someutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-list-someutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-list-someutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-list-someutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-list-someutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-list-someutils
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-list-someutils/status
-                :target: https://quay.io/repository/biocontainers/perl-list-someutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-list-someutils/README.html
 

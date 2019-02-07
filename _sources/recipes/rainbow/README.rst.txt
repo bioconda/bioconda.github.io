@@ -1,54 +1,66 @@
-.. _`rainbow`:
+.. title:: Package Recipe 'rainbow'
+.. highlight: bash
+
 
 rainbow
 =======
 
-|downloads|
+.. conda:recipe:: rainbow
+   :replaces_section_title:
 
-Efficient tool for clustering and assembling short reads\, especially for RAD
+   Efficient tool for clustering and assembling short reads\, especially for RAD
 
-============= ===========
-Home          https://sourceforge.net/projects/bio-rainbow/
-Versions      2.0.4
-License       GNU General Public License version 2.0 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rainbow/meta.yaml
+   :homepage: https://sourceforge.net/projects/bio-rainbow/
+   :license: GNU General Public License version 2.0 (GPLv2)
+   :recipe: /`rainbow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rainbow
 
-Installation
-------------
+   |downloads_rainbow| |docker_rainbow|
 
-.. highlight: bash
+   :versions: 2.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
-   conda install rainbow
+   :required~by: |required_by_rainbow|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rainbow
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rainbow
+
+   and update with::
+
+      conda update rainbow
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rainbow
+
+
+.. |required_by_rainbow| conda:required_by:: rainbow
+.. |downloads_rainbow| image:: https://img.shields.io/conda/dn/bioconda/rainbow.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rainbow| image:: https://quay.io/repository/biocontainers/rainbow/status
+   :target: https://quay.io/repository/biocontainers/rainbow
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rainbow.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rainbow/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rainbow/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rainbow/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rainbow/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rainbow
-.. |docker| image:: https://quay.io/repository/biocontainers/rainbow/status
-                :target: https://quay.io/repository/biocontainers/rainbow
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rainbow/README.html
 

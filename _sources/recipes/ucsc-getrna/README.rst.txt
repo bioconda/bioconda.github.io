@@ -1,54 +1,66 @@
-.. _`ucsc-getrna`:
+.. title:: Package Recipe 'ucsc-getrna'
+.. highlight: bash
+
 
 ucsc-getrna
 ===========
 
-|downloads|
+.. conda:recipe:: ucsc-getrna
+   :replaces_section_title:
 
-Get mrna for GenBank or RefSeq sequences found in a database
+   Get mrna for GenBank or RefSeq sequences found in a database
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-getrna/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-getrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-getrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-getrna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-getrna
 
-Installation
-------------
+   |downloads_ucsc-getrna| |docker_ucsc-getrna|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-getrna
+   :required~by: |required_by_ucsc-getrna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-getrna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-getrna
+
+   and update with::
+
+      conda update ucsc-getrna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-getrna
+
+
+.. |required_by_ucsc-getrna| conda:required_by:: ucsc-getrna
+.. |downloads_ucsc-getrna| image:: https://img.shields.io/conda/dn/bioconda/ucsc-getrna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-getrna| image:: https://quay.io/repository/biocontainers/ucsc-getrna/status
+   :target: https://quay.io/repository/biocontainers/ucsc-getrna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-getrna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-getrna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-getrna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-getrna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-getrna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-getrna
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-getrna/status
-                :target: https://quay.io/repository/biocontainers/ucsc-getrna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-getrna/README.html
 

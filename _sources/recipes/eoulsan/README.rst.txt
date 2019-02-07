@@ -1,56 +1,67 @@
-.. _`eoulsan`:
+.. title:: Package Recipe 'eoulsan'
+.. highlight: bash
+
 
 eoulsan
 =======
 
-|downloads|
+.. conda:recipe:: eoulsan
+   :replaces_section_title:
 
-A pipeline and a framework for NGS analysis \(RNA\-Seq and Chip\-Seq\)
+   A pipeline and a framework for NGS analysis \(RNA\-Seq and Chip\-Seq\)
 
-============= ===========
-Home          http://www.tools.genomique.biologie.ens.fr/eoulsan/
-Versions      2.3, 2.2, 2.0_beta4
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eoulsan/meta.yaml
+   :homepage: http://www.tools.genomique.biologie.ens.fr/eoulsan/
+   :developer docs: https://github.com/GenomicParisCentre/eoulsan
+   :license: GPL / LGPL
+   :recipe: /`eoulsan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eoulsan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eoulsan/meta.yaml>`_
 
-
-Development   https://github.com/GenomicParisCentre/eoulsan
-
-
-============= ===========
+   
 
 
+.. conda:package:: eoulsan
 
-Installation
-------------
+   |downloads_eoulsan| |docker_eoulsan|
 
-.. highlight: bash
+   :versions: 2.3, 2.2, 2.0_beta4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install eoulsan
+   :required~by: |required_by_eoulsan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update eoulsan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install eoulsan
+
+   and update with::
+
+      conda update eoulsan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/eoulsan
+
+
+.. |required_by_eoulsan| conda:required_by:: eoulsan
+.. |downloads_eoulsan| image:: https://img.shields.io/conda/dn/bioconda/eoulsan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_eoulsan| image:: https://quay.io/repository/biocontainers/eoulsan/status
+   :target: https://quay.io/repository/biocontainers/eoulsan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/eoulsan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/eoulsan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/eoulsan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/eoulsan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/eoulsan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/eoulsan
-.. |docker| image:: https://quay.io/repository/biocontainers/eoulsan/status
-                :target: https://quay.io/repository/biocontainers/eoulsan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/eoulsan/README.html
 

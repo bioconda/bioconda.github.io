@@ -1,54 +1,66 @@
-.. _`perl-pdf-api2`:
+.. title:: Package Recipe 'perl-pdf-api2'
+.. highlight: bash
+
 
 perl-pdf-api2
 =============
 
-|downloads|
+.. conda:recipe:: perl-pdf-api2
+   :replaces_section_title:
 
-Facilitates the creation and modification of PDF files
+   Facilitates the creation and modification of PDF files
 
-============= ===========
-Home          http://metacpan.org/pod/PDF::API2
-Versions      2.033, 2.025
-License       lgpl_2_1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pdf-api2/meta.yaml
+   :homepage: http://metacpan.org/pod/PDF::API2
+   :license: lgpl_2_1
+   :recipe: /`perl-pdf-api2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pdf-api2
 
-Installation
-------------
+   |downloads_perl-pdf-api2| |docker_perl-pdf-api2|
 
-.. highlight: bash
+   :versions: 2.033, 2.025
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-font-ttf`  
 
-   conda install perl-pdf-api2
+   :required~by: |required_by_perl-pdf-api2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pdf-api2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pdf-api2
+
+   and update with::
+
+      conda update perl-pdf-api2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pdf-api2
+
+
+.. |required_by_perl-pdf-api2| conda:required_by:: perl-pdf-api2
+.. |downloads_perl-pdf-api2| image:: https://img.shields.io/conda/dn/bioconda/perl-pdf-api2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pdf-api2| image:: https://quay.io/repository/biocontainers/perl-pdf-api2/status
+   :target: https://quay.io/repository/biocontainers/perl-pdf-api2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pdf-api2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pdf-api2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pdf-api2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pdf-api2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pdf-api2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pdf-api2
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pdf-api2/status
-                :target: https://quay.io/repository/biocontainers/perl-pdf-api2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pdf-api2/README.html
 

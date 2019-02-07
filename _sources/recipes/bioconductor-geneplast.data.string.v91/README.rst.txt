@@ -1,54 +1,66 @@
-.. _`bioconductor-geneplast.data.string.v91`:
+.. title:: Package Recipe 'bioconductor-geneplast.data.string.v91'
+.. highlight: bash
+
 
 bioconductor-geneplast.data.string.v91
 ======================================
 
-|downloads|
+.. conda:recipe:: bioconductor-geneplast.data.string.v91
+   :replaces_section_title:
 
-The package geneplast.data.string.v91 contains input data used in the analysis pipelines available in the geneplast package.
+   The package geneplast.data.string.v91 contains input data used in the analysis pipelines available in the geneplast package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/geneplast.data.string.v91.html
-Versions      0.99.6
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneplast.data.string.v91/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/geneplast.data.string.v91.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-geneplast.data.string.v91 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geneplast.data.string.v91
 
-Installation
-------------
+   |downloads_bioconductor-geneplast.data.string.v91| |docker_bioconductor-geneplast.data.string.v91|
 
-.. highlight: bash
+   :versions: 0.99.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-geneplast.data.string.v91
+   :required~by: |required_by_bioconductor-geneplast.data.string.v91|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geneplast.data.string.v91
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geneplast.data.string.v91
+
+   and update with::
+
+      conda update bioconductor-geneplast.data.string.v91
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91
+
+
+.. |required_by_bioconductor-geneplast.data.string.v91| conda:required_by:: bioconductor-geneplast.data.string.v91
+.. |downloads_bioconductor-geneplast.data.string.v91| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneplast.data.string.v91.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geneplast.data.string.v91| image:: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geneplast.data.string.v91/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geneplast.data.string.v91/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geneplast.data.string.v91/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geneplast.data.string.v91/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geneplast.data.string.v91
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geneplast.data.string.v91/README.html
 

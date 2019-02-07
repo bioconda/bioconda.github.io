@@ -1,54 +1,66 @@
-.. _`ucsc-psltobigpsl`:
+.. title:: Package Recipe 'ucsc-psltobigpsl'
+.. highlight: bash
+
 
 ucsc-psltobigpsl
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-psltobigpsl
+   :replaces_section_title:
 
-converts psl to bigPsl input \(bed format with extra fields\)
+   converts psl to bigPsl input \(bed format with extra fields\)
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-psltobigpsl/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-psltobigpsl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-psltobigpsl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-psltobigpsl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-psltobigpsl
 
-Installation
-------------
+   |downloads_ucsc-psltobigpsl| |docker_ucsc-psltobigpsl|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-psltobigpsl
+   :required~by: |required_by_ucsc-psltobigpsl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-psltobigpsl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-psltobigpsl
+
+   and update with::
+
+      conda update ucsc-psltobigpsl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-psltobigpsl
+
+
+.. |required_by_ucsc-psltobigpsl| conda:required_by:: ucsc-psltobigpsl
+.. |downloads_ucsc-psltobigpsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psltobigpsl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-psltobigpsl| image:: https://quay.io/repository/biocontainers/ucsc-psltobigpsl/status
+   :target: https://quay.io/repository/biocontainers/ucsc-psltobigpsl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-psltobigpsl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-psltobigpsl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-psltobigpsl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-psltobigpsl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-psltobigpsl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-psltobigpsl
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-psltobigpsl/status
-                :target: https://quay.io/repository/biocontainers/ucsc-psltobigpsl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-psltobigpsl/README.html
 

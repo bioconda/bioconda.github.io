@@ -1,54 +1,66 @@
-.. _`perl-xsloader`:
+.. title:: Package Recipe 'perl-xsloader'
+.. highlight: bash
+
 
 perl-xsloader
 =============
 
-|downloads|
+.. conda:recipe:: perl-xsloader
+   :replaces_section_title:
 
-Dynamically load C libraries into Perl code
+   Dynamically load C libraries into Perl code
 
-============= ===========
-Home          https://metacpan.org/module/XSLoader
-Versions      0.24, 0.22, 0.16
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xsloader/meta.yaml
+   :homepage: https://metacpan.org/module/XSLoader
+   :license: perl_5
+   :recipe: /`perl-xsloader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xsloader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xsloader/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xsloader
 
-Installation
-------------
+   |downloads_perl-xsloader| |docker_perl-xsloader|
 
-.. highlight: bash
+   :versions: 0.24, 0.22, 0.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 
 
-   conda install perl-xsloader
+   :required~by: |required_by_perl-xsloader|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xsloader
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xsloader
+
+   and update with::
+
+      conda update perl-xsloader
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xsloader
+
+
+.. |required_by_perl-xsloader| conda:required_by:: perl-xsloader
+.. |downloads_perl-xsloader| image:: https://img.shields.io/conda/dn/bioconda/perl-xsloader.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xsloader| image:: https://quay.io/repository/biocontainers/perl-xsloader/status
+   :target: https://quay.io/repository/biocontainers/perl-xsloader
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xsloader.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xsloader/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xsloader/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xsloader/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xsloader/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xsloader
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xsloader/status
-                :target: https://quay.io/repository/biocontainers/perl-xsloader
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xsloader/README.html
 

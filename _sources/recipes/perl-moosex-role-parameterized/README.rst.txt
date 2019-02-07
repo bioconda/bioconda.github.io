@@ -1,54 +1,66 @@
-.. _`perl-moosex-role-parameterized`:
+.. title:: Package Recipe 'perl-moosex-role-parameterized'
+.. highlight: bash
+
 
 perl-moosex-role-parameterized
 ==============================
 
-|downloads|
+.. conda:recipe:: perl-moosex-role-parameterized
+   :replaces_section_title:
 
-Moose roles with composition parameters
+   Moose roles with composition parameters
 
-============= ===========
-Home          https://github.com/moose/MooseX-Role-Parameterized
-Versions      1.10
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-role-parameterized/meta.yaml
+   :homepage: https://github.com/moose/MooseX-Role-Parameterized
+   :license: perl_5
+   :recipe: /`perl-moosex-role-parameterized <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-role-parameterized>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-role-parameterized/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-moosex-role-parameterized
 
-Installation
-------------
+   |downloads_perl-moosex-role-parameterized| |docker_perl-moosex-role-parameterized|
 
-.. highlight: bash
+   :versions: 1.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-module-runtime`  :conda:package:`perl-moose` >=2.0300 :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-namespace-clean`  
 
-   conda install perl-moosex-role-parameterized
+   :required~by: |required_by_perl-moosex-role-parameterized|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-moosex-role-parameterized
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-moosex-role-parameterized
+
+   and update with::
+
+      conda update perl-moosex-role-parameterized
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-moosex-role-parameterized
+
+
+.. |required_by_perl-moosex-role-parameterized| conda:required_by:: perl-moosex-role-parameterized
+.. |downloads_perl-moosex-role-parameterized| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-role-parameterized.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-moosex-role-parameterized| image:: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized/status
+   :target: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-moosex-role-parameterized.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-moosex-role-parameterized/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-moosex-role-parameterized/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-moosex-role-parameterized/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-moosex-role-parameterized/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-moosex-role-parameterized
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized/status
-                :target: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-moosex-role-parameterized/README.html
 

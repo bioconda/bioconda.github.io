@@ -1,56 +1,67 @@
-.. _`bioconductor-dnacopy`:
+.. title:: Package Recipe 'bioconductor-dnacopy'
+.. highlight: bash
+
 
 bioconductor-dnacopy
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-dnacopy
+   :replaces_section_title:
 
-Implements the circular binary segmentation \(CBS\) algorithm to segment DNA copy number data and identify genomic regions with abnormal copy number.
+   Implements the circular binary segmentation \(CBS\) algorithm to segment DNA copy number data and identify genomic regions with abnormal copy number.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DNAcopy.html
-Versions      1.56.0, 1.54.0, 1.52.0, 1.50.1, 1.48.0, 1.46.0, 1.44.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dnacopy/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DNAcopy.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-dnacopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy/meta.yaml>`_
+   :links: biotools: :biotools:`dnacopy`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`dnacopy`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dnacopy
 
-Installation
-------------
+   |downloads_bioconductor-dnacopy| |docker_bioconductor-dnacopy|
 
-.. highlight: bash
+   :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.1, 1.48.0, 1.46.0, 1.44.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-dnacopy
+   :required~by: |required_by_bioconductor-dnacopy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dnacopy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dnacopy
+
+   and update with::
+
+      conda update bioconductor-dnacopy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dnacopy
+
+
+.. |required_by_bioconductor-dnacopy| conda:required_by:: bioconductor-dnacopy
+.. |downloads_bioconductor-dnacopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dnacopy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dnacopy| image:: https://quay.io/repository/biocontainers/bioconductor-dnacopy/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dnacopy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dnacopy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dnacopy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dnacopy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dnacopy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dnacopy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dnacopy
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dnacopy/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dnacopy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dnacopy/README.html
 

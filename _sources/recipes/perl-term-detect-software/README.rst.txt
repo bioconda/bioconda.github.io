@@ -1,54 +1,66 @@
-.. _`perl-term-detect-software`:
+.. title:: Package Recipe 'perl-term-detect-software'
+.. highlight: bash
+
 
 perl-term-detect-software
 =========================
 
-|downloads|
+.. conda:recipe:: perl-term-detect-software
+   :replaces_section_title:
 
-Detect terminal \(emulator\) software and its capabilities
+   Detect terminal \(emulator\) software and its capabilities
 
-============= ===========
-Home          https://metacpan.org/release/Term-Detect-Software
-Versions      0.21
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-term-detect-software/meta.yaml
+   :homepage: https://metacpan.org/release/Term-Detect-Software
+   :license: perl_5
+   :recipe: /`perl-term-detect-software <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-term-detect-software
 
-Installation
-------------
+   |downloads_perl-term-detect-software| |docker_perl-term-detect-software|
 
-.. highlight: bash
+   :versions: 0.21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-file-which`  
 
-   conda install perl-term-detect-software
+   :required~by: |required_by_perl-term-detect-software|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-term-detect-software
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-term-detect-software
+
+   and update with::
+
+      conda update perl-term-detect-software
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-term-detect-software
+
+
+.. |required_by_perl-term-detect-software| conda:required_by:: perl-term-detect-software
+.. |downloads_perl-term-detect-software| image:: https://img.shields.io/conda/dn/bioconda/perl-term-detect-software.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-term-detect-software| image:: https://quay.io/repository/biocontainers/perl-term-detect-software/status
+   :target: https://quay.io/repository/biocontainers/perl-term-detect-software
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-term-detect-software.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-term-detect-software/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-term-detect-software/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-term-detect-software/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-term-detect-software/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-term-detect-software
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-term-detect-software/status
-                :target: https://quay.io/repository/biocontainers/perl-term-detect-software
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-term-detect-software/README.html
 

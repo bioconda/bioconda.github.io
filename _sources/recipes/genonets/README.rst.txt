@@ -1,56 +1,67 @@
-.. _`genonets`:
+.. title:: Package Recipe 'genonets'
+.. highlight: bash
+
 
 genonets
 ========
 
-|downloads|
+.. conda:recipe:: genonets
+   :replaces_section_title:
 
-Framework for creating and analyzing genotype networks from data.
+   Framework for creating and analyzing genotype networks from data.
 
-============= ===========
-Home          https://github.com/fkhalid/genonets
-Versions      1.1.6
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genonets/meta.yaml
+   :homepage: https://github.com/fkhalid/genonets
+   :license: MIT / MIT License
+   :recipe: /`genonets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genonets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genonets/meta.yaml>`_
+   :links: biotools: :biotools:`genonets`, doi: :doi:`10.1093/nar/gkw313`
 
-
-
-Links         biotools: :biotools:`genonets`, doi: :doi:`10.1093/nar/gkw313`
-
-============= ===========
+   
 
 
+.. conda:package:: genonets
 
-Installation
-------------
+   |downloads_genonets| |docker_genonets|
 
-.. highlight: bash
+   :versions: 1.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy` >=1.8.2 :conda:package:`python` 2.7* :conda:package:`python-igraph` >=0.6 
 
-   conda install genonets
+   :required~by: |required_by_genonets|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genonets
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genonets
+
+   and update with::
+
+      conda update genonets
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genonets
+
+
+.. |required_by_genonets| conda:required_by:: genonets
+.. |downloads_genonets| image:: https://img.shields.io/conda/dn/bioconda/genonets.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genonets| image:: https://quay.io/repository/biocontainers/genonets/status
+   :target: https://quay.io/repository/biocontainers/genonets
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genonets.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genonets/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genonets/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genonets/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genonets/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genonets
-.. |docker| image:: https://quay.io/repository/biocontainers/genonets/status
-                :target: https://quay.io/repository/biocontainers/genonets
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genonets/README.html
 

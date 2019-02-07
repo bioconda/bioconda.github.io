@@ -1,56 +1,67 @@
-.. _`nonpareil`:
+.. title:: Package Recipe 'nonpareil'
+.. highlight: bash
+
 
 nonpareil
 =========
 
-|downloads|
+.. conda:recipe:: nonpareil
+   :replaces_section_title:
 
-Estimate average coverage and create curves for metagenomic datasets
+   Estimate average coverage and create curves for metagenomic datasets
 
-============= ===========
-Home          http://nonpareil.readthedocs.io/
-Versions      3.3.3, 3.3.1, 3.2, 3.1.1, 2.4.01, 2.4
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nonpareil/meta.yaml
+   :homepage: http://nonpareil.readthedocs.io/
+   :developer docs: https://github.com/lmrodriguezr/nonpareil
+   :license: Artistic License 2.0
+   :recipe: /`nonpareil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil/meta.yaml>`_
 
-
-Development   https://github.com/lmrodriguezr/nonpareil
-
-
-============= ===========
+   
 
 
+.. conda:package:: nonpareil
 
-Installation
-------------
+   |downloads_nonpareil| |docker_nonpareil|
 
-.. highlight: bash
+   :versions: 3.3.3, 3.3.1, 3.2, 3.1.1, 2.4.01, 2.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install nonpareil
+   :required~by: |required_by_nonpareil|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nonpareil
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nonpareil
+
+   and update with::
+
+      conda update nonpareil
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nonpareil
+
+
+.. |required_by_nonpareil| conda:required_by:: nonpareil
+.. |downloads_nonpareil| image:: https://img.shields.io/conda/dn/bioconda/nonpareil.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nonpareil| image:: https://quay.io/repository/biocontainers/nonpareil/status
+   :target: https://quay.io/repository/biocontainers/nonpareil
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nonpareil.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nonpareil/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nonpareil/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nonpareil/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nonpareil/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nonpareil
-.. |docker| image:: https://quay.io/repository/biocontainers/nonpareil/status
-                :target: https://quay.io/repository/biocontainers/nonpareil
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nonpareil/README.html
 

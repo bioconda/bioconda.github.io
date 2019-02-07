@@ -1,54 +1,66 @@
-.. _`pyscaf`:
+.. title:: Package Recipe 'pyscaf'
+.. highlight: bash
+
 
 pyscaf
 ======
 
-|downloads|
+.. conda:recipe:: pyscaf
+   :replaces_section_title:
 
-Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species.
+   Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species.
 
-============= ===========
-Home          https://github.com/lpryszcz/pyScaf
-Versions      0.12a4
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyscaf/meta.yaml
+   :homepage: https://github.com/lpryszcz/pyScaf
+   :license: GPL3 / GPLv3
+   :recipe: /`pyscaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyscaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyscaf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pyscaf
 
-Installation
-------------
+   |downloads_pyscaf| |docker_pyscaf|
 
-.. highlight: bash
+   :versions: 0.12a4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`fastaindex`  :conda:package:`python` 2.7* 
 
-   conda install pyscaf
+   :required~by: |required_by_pyscaf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyscaf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyscaf
+
+   and update with::
+
+      conda update pyscaf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyscaf
+
+
+.. |required_by_pyscaf| conda:required_by:: pyscaf
+.. |downloads_pyscaf| image:: https://img.shields.io/conda/dn/bioconda/pyscaf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyscaf| image:: https://quay.io/repository/biocontainers/pyscaf/status
+   :target: https://quay.io/repository/biocontainers/pyscaf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyscaf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyscaf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyscaf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyscaf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyscaf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyscaf
-.. |docker| image:: https://quay.io/repository/biocontainers/pyscaf/status
-                :target: https://quay.io/repository/biocontainers/pyscaf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyscaf/README.html
 

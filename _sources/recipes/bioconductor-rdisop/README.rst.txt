@@ -1,54 +1,66 @@
-.. _`bioconductor-rdisop`:
+.. title:: Package Recipe 'bioconductor-rdisop'
+.. highlight: bash
+
 
 bioconductor-rdisop
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-rdisop
+   :replaces_section_title:
 
-Identification of metabolites using high precision mass spectrometry. MS Peaks are used to derive a ranked list of sum formulae\, alternatively for a given sum formula the theoretical isotope distribution can be calculated to search in MS peak lists.
+   Identification of metabolites using high precision mass spectrometry. MS Peaks are used to derive a ranked list of sum formulae\, alternatively for a given sum formula the theoretical isotope distribution can be calculated to search in MS peak lists.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Rdisop.html
-Versions      1.42.1, 1.42.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rdisop/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rdisop.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rdisop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rdisop
 
-Installation
-------------
+   |downloads_bioconductor-rdisop| |docker_bioconductor-rdisop|
 
-.. highlight: bash
+   :versions: 1.42.1, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-rcppclassic`  
 
-   conda install bioconductor-rdisop
+   :required~by: |required_by_bioconductor-rdisop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rdisop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rdisop
+
+   and update with::
+
+      conda update bioconductor-rdisop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rdisop
+
+
+.. |required_by_bioconductor-rdisop| conda:required_by:: bioconductor-rdisop
+.. |downloads_bioconductor-rdisop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdisop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rdisop| image:: https://quay.io/repository/biocontainers/bioconductor-rdisop/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rdisop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rdisop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rdisop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rdisop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rdisop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rdisop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rdisop
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rdisop/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rdisop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rdisop/README.html
 

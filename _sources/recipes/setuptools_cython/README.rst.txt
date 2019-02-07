@@ -1,54 +1,66 @@
-.. _`setuptools_cython`:
+.. title:: Package Recipe 'setuptools_cython'
+.. highlight: bash
+
 
 setuptools_cython
 =================
 
-|downloads|
+.. conda:recipe:: setuptools_cython
+   :replaces_section_title:
 
-Cython setuptools integration
+   Cython setuptools integration
 
-============= ===========
-Home          http://pypi.python.org/pypi/setuptools_cython/
-Versions      0.2.1
-License       http://www.gnu.org/licenses/gpl-2.0.html
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//setuptools_cython/meta.yaml
+   :homepage: http://pypi.python.org/pypi/setuptools_cython/
+   :license: http://www.gnu.org/licenses/gpl-2.0.html
+   :recipe: /`setuptools_cython <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/setuptools_cython>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/setuptools_cython/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: setuptools_cython
 
-Installation
-------------
+   |downloads_setuptools_cython| |docker_setuptools_cython|
 
-.. highlight: bash
+   :versions: 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`python` 2.7* :conda:package:`setuptools`  
 
-   conda install setuptools_cython
+   :required~by: |required_by_setuptools_cython|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update setuptools_cython
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install setuptools_cython
+
+   and update with::
+
+      conda update setuptools_cython
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/setuptools_cython
+
+
+.. |required_by_setuptools_cython| conda:required_by:: setuptools_cython
+.. |downloads_setuptools_cython| image:: https://img.shields.io/conda/dn/bioconda/setuptools_cython.svg?style=flat
+   :alt:   (downloads)
+.. |docker_setuptools_cython| image:: https://quay.io/repository/biocontainers/setuptools_cython/status
+   :target: https://quay.io/repository/biocontainers/setuptools_cython
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/setuptools_cython.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/setuptools_cython/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/setuptools_cython/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/setuptools_cython/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/setuptools_cython/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/setuptools_cython
-.. |docker| image:: https://quay.io/repository/biocontainers/setuptools_cython/status
-                :target: https://quay.io/repository/biocontainers/setuptools_cython
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/setuptools_cython/README.html
 

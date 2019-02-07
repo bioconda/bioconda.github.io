@@ -1,54 +1,66 @@
-.. _`bioconductor-bsgenome.ecoli.ncbi.20080805`:
+.. title:: Package Recipe 'bioconductor-bsgenome.ecoli.ncbi.20080805'
+.. highlight: bash
+
 
 bioconductor-bsgenome.ecoli.ncbi.20080805
 =========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-bsgenome.ecoli.ncbi.20080805
+   :replaces_section_title:
 
-Escherichia coli full genomes for several strains as provided by NCBI on 2008\/08\/05 and stored in Biostrings objects.
+   Escherichia coli full genomes for several strains as provided by NCBI on 2008\/08\/05 and stored in Biostrings objects.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html
-Versions      1.3.1000
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.ecoli.ncbi.20080805/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-bsgenome.ecoli.ncbi.20080805 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bsgenome.ecoli.ncbi.20080805
 
-Installation
-------------
+   |downloads_bioconductor-bsgenome.ecoli.ncbi.20080805| |docker_bioconductor-bsgenome.ecoli.ncbi.20080805|
 
-.. highlight: bash
+   :versions: 1.3.1000
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bsgenome` >=1.33.5 :conda:package:`r` 3.2.2* 
 
-   conda install bioconductor-bsgenome.ecoli.ncbi.20080805
+   :required~by: |required_by_bioconductor-bsgenome.ecoli.ncbi.20080805|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bsgenome.ecoli.ncbi.20080805
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bsgenome.ecoli.ncbi.20080805
+
+   and update with::
+
+      conda update bioconductor-bsgenome.ecoli.ncbi.20080805
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805
+
+
+.. |required_by_bioconductor-bsgenome.ecoli.ncbi.20080805| conda:required_by:: bioconductor-bsgenome.ecoli.ncbi.20080805
+.. |downloads_bioconductor-bsgenome.ecoli.ncbi.20080805| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.ecoli.ncbi.20080805.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bsgenome.ecoli.ncbi.20080805| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bsgenome.ecoli.ncbi.20080805/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bsgenome.ecoli.ncbi.20080805
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/README.html
 

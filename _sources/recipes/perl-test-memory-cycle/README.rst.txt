@@ -1,54 +1,66 @@
-.. _`perl-test-memory-cycle`:
+.. title:: Package Recipe 'perl-test-memory-cycle'
+.. highlight: bash
+
 
 perl-test-memory-cycle
 ======================
 
-|downloads|
+.. conda:recipe:: perl-test-memory-cycle
+   :replaces_section_title:
 
-Verifies code hasn\'t left circular references
+   Verifies code hasn\'t left circular references
 
-============= ===========
-Home          http://metacpan.org/pod/Test::Memory::Cycle
-Versions      1.06
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-memory-cycle/meta.yaml
+   :homepage: http://metacpan.org/pod/Test::Memory::Cycle
+   :license: unknown
+   :recipe: /`perl-test-memory-cycle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-memory-cycle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-memory-cycle/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-memory-cycle
 
-Installation
-------------
+   |downloads_perl-test-memory-cycle| |docker_perl-test-memory-cycle|
 
-.. highlight: bash
+   :versions: 1.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-devel-cycle`  :conda:package:`perl-getopt-long`  :conda:package:`perl-padwalker`  :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-simple`  
 
-   conda install perl-test-memory-cycle
+   :required~by: |required_by_perl-test-memory-cycle|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-memory-cycle
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-memory-cycle
+
+   and update with::
+
+      conda update perl-test-memory-cycle
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-memory-cycle
+
+
+.. |required_by_perl-test-memory-cycle| conda:required_by:: perl-test-memory-cycle
+.. |downloads_perl-test-memory-cycle| image:: https://img.shields.io/conda/dn/bioconda/perl-test-memory-cycle.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-memory-cycle| image:: https://quay.io/repository/biocontainers/perl-test-memory-cycle/status
+   :target: https://quay.io/repository/biocontainers/perl-test-memory-cycle
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-memory-cycle.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-memory-cycle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-memory-cycle/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-memory-cycle/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-memory-cycle/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-memory-cycle
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-memory-cycle/status
-                :target: https://quay.io/repository/biocontainers/perl-test-memory-cycle
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-memory-cycle/README.html
 

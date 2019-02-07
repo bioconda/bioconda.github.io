@@ -1,54 +1,66 @@
-.. _`sim4db`:
+.. title:: Package Recipe 'sim4db'
+.. highlight: bash
+
 
 sim4db
 ======
 
-|downloads|
+.. conda:recipe:: sim4db
+   :replaces_section_title:
 
-Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing
+   Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing
 
-============= ===========
-Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Sim4db
-Versions      2008
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sim4db/meta.yaml
+   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Sim4db
+   :license: GPL
+   :recipe: /`sim4db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sim4db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sim4db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sim4db
 
-Installation
-------------
+   |downloads_sim4db| |docker_sim4db|
 
-.. highlight: bash
+   :versions: 2008
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install sim4db
+   :required~by: |required_by_sim4db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sim4db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sim4db
+
+   and update with::
+
+      conda update sim4db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sim4db
+
+
+.. |required_by_sim4db| conda:required_by:: sim4db
+.. |downloads_sim4db| image:: https://img.shields.io/conda/dn/bioconda/sim4db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sim4db| image:: https://quay.io/repository/biocontainers/sim4db/status
+   :target: https://quay.io/repository/biocontainers/sim4db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sim4db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sim4db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sim4db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sim4db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sim4db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sim4db
-.. |docker| image:: https://quay.io/repository/biocontainers/sim4db/status
-                :target: https://quay.io/repository/biocontainers/sim4db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sim4db/README.html
 

@@ -1,54 +1,66 @@
-.. _`metavelvet-sl-feature-extraction`:
+.. title:: Package Recipe 'metavelvet-sl-feature-extraction'
+.. highlight: bash
+
 
 metavelvet-sl-feature-extraction
 ================================
 
-|downloads|
+.. conda:recipe:: metavelvet-sl-feature-extraction
+   :replaces_section_title:
 
-Perl libraries that do feature extraction for metavelvet\-sl
+   Perl libraries that do feature extraction for metavelvet\-sl
 
-============= ===========
-Home          http://metavelvet.dna.bio.keio.ac.jp/MSL.html
-Versions      1.0
-License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metavelvet-sl-feature-extraction/meta.yaml
+   :homepage: http://metavelvet.dna.bio.keio.ac.jp/MSL.html
+   :license: 
+   :recipe: /`metavelvet-sl-feature-extraction <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-feature-extraction>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-feature-extraction/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metavelvet-sl-feature-extraction
 
-Installation
-------------
+   |downloads_metavelvet-sl-feature-extraction| |docker_metavelvet-sl-feature-extraction|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`perl-threaded`  
 
-   conda install metavelvet-sl-feature-extraction
+   :required~by: |required_by_metavelvet-sl-feature-extraction|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metavelvet-sl-feature-extraction
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metavelvet-sl-feature-extraction
+
+   and update with::
+
+      conda update metavelvet-sl-feature-extraction
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metavelvet-sl-feature-extraction
+
+
+.. |required_by_metavelvet-sl-feature-extraction| conda:required_by:: metavelvet-sl-feature-extraction
+.. |downloads_metavelvet-sl-feature-extraction| image:: https://img.shields.io/conda/dn/bioconda/metavelvet-sl-feature-extraction.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metavelvet-sl-feature-extraction| image:: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction/status
+   :target: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metavelvet-sl-feature-extraction/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metavelvet-sl-feature-extraction/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metavelvet-sl-feature-extraction/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metavelvet-sl-feature-extraction/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metavelvet-sl-feature-extraction
-.. |docker| image:: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction/status
-                :target: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metavelvet-sl-feature-extraction/README.html
 

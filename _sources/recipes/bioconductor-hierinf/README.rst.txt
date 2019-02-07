@@ -1,54 +1,66 @@
-.. _`bioconductor-hierinf`:
+.. title:: Package Recipe 'bioconductor-hierinf'
+.. highlight: bash
+
 
 bioconductor-hierinf
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-hierinf
+   :replaces_section_title:
 
-Tools to perform hierarchical inference for one or multiple studies \/ data sets based on high\-dimensional multivariate \(generalised\) linear models. A possible application is to perform hierarchical inference for GWA studies to find significant groups or single SNPs \(if the signal is strong\) in a data\-driven and automated procedure. The method is based on an efficient hierarchical multiple testing correction and controls the FWER. The functions can easily be run in parallel.
+   Tools to perform hierarchical inference for one or multiple studies \/ data sets based on high\-dimensional multivariate \(generalised\) linear models. A possible application is to perform hierarchical inference for GWA studies to find significant groups or single SNPs \(if the signal is strong\) in a data\-driven and automated procedure. The method is based on an efficient hierarchical multiple testing correction and controls the FWER. The functions can easily be run in parallel.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/hierinf.html
-Versions      1.0.0
-License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hierinf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hierinf.html
+   :license: GPL-3 | file LICENSE
+   :recipe: /`bioconductor-hierinf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hierinf
 
-Installation
-------------
+   |downloads_bioconductor-hierinf| |docker_bioconductor-hierinf|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fmsb`  :conda:package:`r-glmnet`  
 
-   conda install bioconductor-hierinf
+   :required~by: |required_by_bioconductor-hierinf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hierinf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hierinf
+
+   and update with::
+
+      conda update bioconductor-hierinf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hierinf
+
+
+.. |required_by_bioconductor-hierinf| conda:required_by:: bioconductor-hierinf
+.. |downloads_bioconductor-hierinf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hierinf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hierinf| image:: https://quay.io/repository/biocontainers/bioconductor-hierinf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hierinf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hierinf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hierinf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hierinf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hierinf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hierinf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hierinf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hierinf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hierinf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hierinf/README.html
 

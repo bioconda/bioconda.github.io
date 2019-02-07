@@ -1,56 +1,67 @@
-.. _`bioconductor-msmseda`:
+.. title:: Package Recipe 'bioconductor-msmseda'
+.. highlight: bash
+
 
 bioconductor-msmseda
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-msmseda
+   :replaces_section_title:
 
-Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors.
+   Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/msmsEDA.html
-Versions      1.20.0, 1.16.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msmseda/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/msmsEDA.html
+   :license: GPL-2
+   :recipe: /`bioconductor-msmseda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda/meta.yaml>`_
+   :links: biotools: :biotools:`msmseda`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`msmseda`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-msmseda
 
-Installation
-------------
+   |downloads_bioconductor-msmseda| |docker_bioconductor-msmseda|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-msnbase` >=2.8.0,<2.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-mass`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-msmseda
+   :required~by: |required_by_bioconductor-msmseda|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-msmseda
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-msmseda
+
+   and update with::
+
+      conda update bioconductor-msmseda
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-msmseda
+
+
+.. |required_by_bioconductor-msmseda| conda:required_by:: bioconductor-msmseda
+.. |downloads_bioconductor-msmseda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msmseda.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-msmseda| image:: https://quay.io/repository/biocontainers/bioconductor-msmseda/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-msmseda
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-msmseda.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-msmseda/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-msmseda/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-msmseda/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-msmseda/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-msmseda
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-msmseda/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-msmseda
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-msmseda/README.html
 

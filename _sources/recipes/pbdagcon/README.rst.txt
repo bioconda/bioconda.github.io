@@ -1,54 +1,66 @@
-.. _`pbdagcon`:
+.. title:: Package Recipe 'pbdagcon'
+.. highlight: bash
+
 
 pbdagcon
 ========
 
-|downloads|
+.. conda:recipe:: pbdagcon
+   :replaces_section_title:
 
-A sequence consensus algorithm implementation based on using directed acyclic graphs to encode multiple sequence alignment
+   A sequence consensus algorithm implementation based on using directed acyclic graphs to encode multiple sequence alignment
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbdagcon
-Versions      0.1
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbdagcon/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbdagcon
+   :license: BSD-3-Clause-Clear
+   :recipe: /`pbdagcon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbdagcon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbdagcon/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbdagcon
 
-Installation
-------------
+   |downloads_pbdagcon| |docker_pbdagcon|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blasr_libcpp`  :conda:package:`daligner`  :conda:package:`dazz_db`  :conda:package:`libgcc`  
 
-   conda install pbdagcon
+   :required~by: |required_by_pbdagcon|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbdagcon
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbdagcon
+
+   and update with::
+
+      conda update pbdagcon
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbdagcon
+
+
+.. |required_by_pbdagcon| conda:required_by:: pbdagcon
+.. |downloads_pbdagcon| image:: https://img.shields.io/conda/dn/bioconda/pbdagcon.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbdagcon| image:: https://quay.io/repository/biocontainers/pbdagcon/status
+   :target: https://quay.io/repository/biocontainers/pbdagcon
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbdagcon.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbdagcon/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbdagcon/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbdagcon/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbdagcon/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbdagcon
-.. |docker| image:: https://quay.io/repository/biocontainers/pbdagcon/status
-                :target: https://quay.io/repository/biocontainers/pbdagcon
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbdagcon/README.html
 

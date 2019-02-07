@@ -1,56 +1,67 @@
-.. _`gatk4`:
+.. title:: Package Recipe 'gatk4'
+.. highlight: bash
+
 
 gatk4
 =====
 
-|downloads|
+.. conda:recipe:: gatk4
+   :replaces_section_title:
 
-Genome Analysis Toolkit \(GATK4\)
+   Genome Analysis Toolkit \(GATK4\)
 
-============= ===========
-Home          https://www.broadinstitute.org/gatk/
-Versions      4.1.0.0, 4.0.12.0, 4.0.11.0, 4.0.10.0, 4.0.9.0, 4.0.8.1, 4.0.7.0, 4.0.6.0, 4.0.5.2, 4.0.5.1, 4.0.4.0, 4.0.3.0, 4.0.2.1, 4.0.2.0, 4.0.1.2, 4.0.1.1, 4.0.1.0, 4.0.0.0, 4.0b6, 4.0b5, 4.0b4, 4.0b3, 4.0b2, 4.0b1, 4.0a1.2.7.2
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gatk4/meta.yaml
+   :homepage: https://www.broadinstitute.org/gatk/
+   :developer docs: https://github.com/broadinstitute/gatk
+   :license: BSD / BSD-3-Clause
+   :recipe: /`gatk4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk4/meta.yaml>`_
 
-
-Development   https://github.com/broadinstitute/gatk
-
-
-============= ===========
+   
 
 
+.. conda:package:: gatk4
 
-Installation
-------------
+   |downloads_gatk4| |docker_gatk4|
 
-.. highlight: bash
+   :versions: 4.1.0.0, 4.0.12.0, 4.0.11.0, 4.0.10.0, 4.0.9.0, 4.0.8.1, 4.0.7.0, 4.0.6.0, 4.0.5.2, 4.0.5.1, 4.0.4.0, 4.0.3.0, 4.0.2.1, 4.0.2.0, 4.0.1.2, 4.0.1.1, 4.0.1.0, 4.0.0.0, 4.0b6, 4.0b5, 4.0b4, 4.0b3, 4.0b2, 4.0b1, 4.0a1.2.7.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
 
-   conda install gatk4
+   :required~by: |required_by_gatk4|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gatk4
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gatk4
+
+   and update with::
+
+      conda update gatk4
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gatk4
+
+
+.. |required_by_gatk4| conda:required_by:: gatk4
+.. |downloads_gatk4| image:: https://img.shields.io/conda/dn/bioconda/gatk4.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gatk4| image:: https://quay.io/repository/biocontainers/gatk4/status
+   :target: https://quay.io/repository/biocontainers/gatk4
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gatk4.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gatk4/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gatk4/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gatk4/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gatk4/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gatk4
-.. |docker| image:: https://quay.io/repository/biocontainers/gatk4/status
-                :target: https://quay.io/repository/biocontainers/gatk4
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gatk4/README.html
 

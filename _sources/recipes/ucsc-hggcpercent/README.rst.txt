@@ -1,54 +1,66 @@
-.. _`ucsc-hggcpercent`:
+.. title:: Package Recipe 'ucsc-hggcpercent'
+.. highlight: bash
+
 
 ucsc-hggcpercent
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-hggcpercent
+   :replaces_section_title:
 
-Calculate GC Percentage in 20kb windows
+   Calculate GC Percentage in 20kb windows
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-hggcpercent/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-hggcpercent <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hggcpercent>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hggcpercent/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-hggcpercent
 
-Installation
-------------
+   |downloads_ucsc-hggcpercent| |docker_ucsc-hggcpercent|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-hggcpercent
+   :required~by: |required_by_ucsc-hggcpercent|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-hggcpercent
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-hggcpercent
+
+   and update with::
+
+      conda update ucsc-hggcpercent
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-hggcpercent
+
+
+.. |required_by_ucsc-hggcpercent| conda:required_by:: ucsc-hggcpercent
+.. |downloads_ucsc-hggcpercent| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hggcpercent.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-hggcpercent| image:: https://quay.io/repository/biocontainers/ucsc-hggcpercent/status
+   :target: https://quay.io/repository/biocontainers/ucsc-hggcpercent
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-hggcpercent.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-hggcpercent/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-hggcpercent/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-hggcpercent/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-hggcpercent/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-hggcpercent
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hggcpercent/status
-                :target: https://quay.io/repository/biocontainers/ucsc-hggcpercent
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-hggcpercent/README.html
 

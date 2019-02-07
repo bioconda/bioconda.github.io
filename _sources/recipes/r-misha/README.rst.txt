@@ -1,54 +1,66 @@
-.. _`r-misha`:
+.. title:: Package Recipe 'r-misha'
+.. highlight: bash
+
 
 r-misha
 =======
 
-|downloads|
+.. conda:recipe:: r-misha
+   :replaces_section_title:
 
-Toolkit for analysis of genomic data
+   Toolkit for analysis of genomic data
 
-============= ===========
-Home          https://bitbucket.org/tanaylab/misha-package
-Versions      4.0.4
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-misha/meta.yaml
+   :homepage: https://bitbucket.org/tanaylab/misha-package
+   :license: GPL-2
+   :recipe: /`r-misha <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-misha>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-misha/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-misha
 
-Installation
-------------
+   |downloads_r-misha| |docker_r-misha|
 
-.. highlight: bash
+   :versions: 4.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-misha
+   :required~by: |required_by_r-misha|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-misha
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-misha
+
+   and update with::
+
+      conda update r-misha
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-misha
+
+
+.. |required_by_r-misha| conda:required_by:: r-misha
+.. |downloads_r-misha| image:: https://img.shields.io/conda/dn/bioconda/r-misha.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-misha| image:: https://quay.io/repository/biocontainers/r-misha/status
+   :target: https://quay.io/repository/biocontainers/r-misha
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-misha.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-misha/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-misha/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-misha/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-misha/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-misha
-.. |docker| image:: https://quay.io/repository/biocontainers/r-misha/status
-                :target: https://quay.io/repository/biocontainers/r-misha
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-misha/README.html
 

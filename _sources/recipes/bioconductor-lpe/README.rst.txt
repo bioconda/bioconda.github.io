@@ -1,56 +1,67 @@
-.. _`bioconductor-lpe`:
+.. title:: Package Recipe 'bioconductor-lpe'
+.. highlight: bash
+
 
 bioconductor-lpe
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-lpe
+   :replaces_section_title:
 
-This LPE library is used to do significance analysis of microarray data with small number of replicates. It uses resampling based FDR adjustment\, and gives less conservative results than traditional \'BH\' or \'BY\' procedures. Data accepted is raw data in txt format from MAS4\, MAS5 or dChip. Data can also be supplied after normalization. LPE library is primarily used for analyzing data between two conditions. To use it for paired data\, see LPEP library. For using LPE in multiple conditions\, use HEM library.
+   This LPE library is used to do significance analysis of microarray data with small number of replicates. It uses resampling based FDR adjustment\, and gives less conservative results than traditional \'BH\' or \'BY\' procedures. Data accepted is raw data in txt format from MAS4\, MAS5 or dChip. Data can also be supplied after normalization. LPE library is primarily used for analyzing data between two conditions. To use it for paired data\, see LPEP library. For using LPE in multiple conditions\, use HEM library.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/LPE.html
-Versions      1.56.0, 1.54.0, 1.52.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lpe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LPE.html
+   :license: LGPL
+   :recipe: /`bioconductor-lpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe/meta.yaml>`_
+   :links: biotools: :biotools:`lpe`, doi: :doi:`10.1093/bioinformatics/btg264`
 
-
-
-Links         biotools: :biotools:`lpe`, doi: :doi:`10.1093/bioinformatics/btg264`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lpe
 
-Installation
-------------
+   |downloads_bioconductor-lpe| |docker_bioconductor-lpe|
 
-.. highlight: bash
+   :versions: 1.56.0, 1.54.0, 1.52.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-lpe
+   :required~by: |required_by_bioconductor-lpe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lpe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lpe
+
+   and update with::
+
+      conda update bioconductor-lpe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lpe
+
+
+.. |required_by_bioconductor-lpe| conda:required_by:: bioconductor-lpe
+.. |downloads_bioconductor-lpe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lpe| image:: https://quay.io/repository/biocontainers/bioconductor-lpe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lpe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lpe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lpe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lpe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lpe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lpe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lpe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lpe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lpe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lpe/README.html
 

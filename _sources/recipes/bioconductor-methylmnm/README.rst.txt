@@ -1,56 +1,67 @@
-.. _`bioconductor-methylmnm`:
+.. title:: Package Recipe 'bioconductor-methylmnm'
+.. highlight: bash
+
 
 bioconductor-methylmnm
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-methylmnm
+   :replaces_section_title:
 
-To give the exactly p\-value and q\-value of MeDIP\-seq and MRE\-seq data for different samples comparation.
+   To give the exactly p\-value and q\-value of MeDIP\-seq and MRE\-seq data for different samples comparation.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/methylMnM.html
-Versions      1.20.0, 1.18.0, 1.16.0, 1.14.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methylmnm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylMnM.html
+   :license: GPL-3
+   :recipe: /`bioconductor-methylmnm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm/meta.yaml>`_
+   :links: biotools: :biotools:`methylmnm`, doi: :doi:`10.1101/gr.156539.113`
 
-
-
-Links         biotools: :biotools:`methylmnm`, doi: :doi:`10.1101/gr.156539.113`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-methylmnm
 
-Installation
-------------
+   |downloads_bioconductor-methylmnm| |docker_bioconductor-methylmnm|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-statmod`  
 
-   conda install bioconductor-methylmnm
+   :required~by: |required_by_bioconductor-methylmnm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-methylmnm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-methylmnm
+
+   and update with::
+
+      conda update bioconductor-methylmnm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-methylmnm
+
+
+.. |required_by_bioconductor-methylmnm| conda:required_by:: bioconductor-methylmnm
+.. |downloads_bioconductor-methylmnm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylmnm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-methylmnm| image:: https://quay.io/repository/biocontainers/bioconductor-methylmnm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-methylmnm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-methylmnm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-methylmnm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-methylmnm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-methylmnm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-methylmnm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-methylmnm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-methylmnm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-methylmnm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-methylmnm/README.html
 

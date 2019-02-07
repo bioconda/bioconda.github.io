@@ -1,54 +1,66 @@
-.. _`ucsc-qacagplift`:
+.. title:: Package Recipe 'ucsc-qacagplift'
+.. highlight: bash
+
 
 ucsc-qacagplift
 ===============
 
-|downloads|
+.. conda:recipe:: ucsc-qacagplift
+   :replaces_section_title:
 
-Use AGP to combine per\-scaffold qac into per\-chrom qac.
+   Use AGP to combine per\-scaffold qac into per\-chrom qac.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-qacagplift/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-qacagplift <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-qacagplift>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-qacagplift/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-qacagplift
 
-Installation
-------------
+   |downloads_ucsc-qacagplift| |docker_ucsc-qacagplift|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-qacagplift
+   :required~by: |required_by_ucsc-qacagplift|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-qacagplift
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-qacagplift
+
+   and update with::
+
+      conda update ucsc-qacagplift
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-qacagplift
+
+
+.. |required_by_ucsc-qacagplift| conda:required_by:: ucsc-qacagplift
+.. |downloads_ucsc-qacagplift| image:: https://img.shields.io/conda/dn/bioconda/ucsc-qacagplift.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-qacagplift| image:: https://quay.io/repository/biocontainers/ucsc-qacagplift/status
+   :target: https://quay.io/repository/biocontainers/ucsc-qacagplift
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-qacagplift.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-qacagplift/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-qacagplift/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-qacagplift/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-qacagplift/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-qacagplift
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-qacagplift/status
-                :target: https://quay.io/repository/biocontainers/ucsc-qacagplift
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-qacagplift/README.html
 

@@ -1,54 +1,66 @@
-.. _`gatktool`:
+.. title:: Package Recipe 'gatktool'
+.. highlight: bash
+
 
 gatktool
 ========
 
-|downloads|
+.. conda:recipe:: gatktool
+   :replaces_section_title:
 
-Functions and classes used to extend a GATK tool with Python
+   Functions and classes used to extend a GATK tool with Python
 
-============= ===========
-Home          https://broadinstitute.org/
-Versions      0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gatktool/meta.yaml
+   :homepage: https://broadinstitute.org/
+   :license: MIT
+   :recipe: /`gatktool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatktool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatktool/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gatktool
 
-Installation
-------------
+   |downloads_gatktool| |docker_gatktool|
 
-.. highlight: bash
+   :versions: 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install gatktool
+   :required~by: |required_by_gatktool|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gatktool
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gatktool
+
+   and update with::
+
+      conda update gatktool
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gatktool
+
+
+.. |required_by_gatktool| conda:required_by:: gatktool
+.. |downloads_gatktool| image:: https://img.shields.io/conda/dn/bioconda/gatktool.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gatktool| image:: https://quay.io/repository/biocontainers/gatktool/status
+   :target: https://quay.io/repository/biocontainers/gatktool
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gatktool.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gatktool/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gatktool/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gatktool/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gatktool/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gatktool
-.. |docker| image:: https://quay.io/repository/biocontainers/gatktool/status
-                :target: https://quay.io/repository/biocontainers/gatktool
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gatktool/README.html
 

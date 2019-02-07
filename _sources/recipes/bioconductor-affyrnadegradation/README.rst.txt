@@ -1,56 +1,67 @@
-.. _`bioconductor-affyrnadegradation`:
+.. title:: Package Recipe 'bioconductor-affyrnadegradation'
+.. highlight: bash
+
 
 bioconductor-affyrnadegradation
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-affyrnadegradation
+   :replaces_section_title:
 
-The package helps with the assessment and correction of RNA degradation effects in Affymetrix 3\' expression arrays. The parameter d gives a robust and accurate measure of RNA integrity. The correction removes the probe positional bias\, and thus improves comparability of samples that are affected by RNA degradation.
+   The package helps with the assessment and correction of RNA degradation effects in Affymetrix 3\' expression arrays. The parameter d gives a robust and accurate measure of RNA integrity. The correction removes the probe positional bias\, and thus improves comparability of samples that are affected by RNA degradation.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/AffyRNADegradation.html
-Versions      1.28.0, 1.26.0, 1.24.0, 1.22.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affyrnadegradation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffyRNADegradation.html
+   :license: GPL-2
+   :recipe: /`bioconductor-affyrnadegradation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation/meta.yaml>`_
+   :links: biotools: :biotools:`affyrnadegradation`
 
-
-
-Links         biotools: :biotools:`affyrnadegradation`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affyrnadegradation
 
-Installation
-------------
+   |downloads_bioconductor-affyrnadegradation| |docker_bioconductor-affyrnadegradation|
 
-.. highlight: bash
+   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-affyrnadegradation
+   :required~by: |required_by_bioconductor-affyrnadegradation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affyrnadegradation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affyrnadegradation
+
+   and update with::
+
+      conda update bioconductor-affyrnadegradation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affyrnadegradation
+
+
+.. |required_by_bioconductor-affyrnadegradation| conda:required_by:: bioconductor-affyrnadegradation
+.. |downloads_bioconductor-affyrnadegradation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyrnadegradation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affyrnadegradation| image:: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affyrnadegradation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affyrnadegradation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affyrnadegradation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affyrnadegradation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affyrnadegradation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affyrnadegradation/README.html
 

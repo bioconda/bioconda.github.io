@@ -1,54 +1,66 @@
-.. _`racon`:
+.. title:: Package Recipe 'racon'
+.. highlight: bash
+
 
 racon
 =====
 
-|downloads|
+.. conda:recipe:: racon
+   :replaces_section_title:
 
-Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
+   Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
 
-============= ===========
-Home          https://github.com/isovic/racon
-Versions      1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.1, 1.0.0, 0.5.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//racon/meta.yaml
+   :homepage: https://github.com/isovic/racon
+   :license: MIT
+   :recipe: /`racon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: racon
 
-Installation
-------------
+   |downloads_racon| |docker_racon|
 
-.. highlight: bash
+   :versions: 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.1, 1.0.0, 0.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install racon
+   :required~by: |required_by_racon|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update racon
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install racon
+
+   and update with::
+
+      conda update racon
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/racon
+
+
+.. |required_by_racon| conda:required_by:: racon
+.. |downloads_racon| image:: https://img.shields.io/conda/dn/bioconda/racon.svg?style=flat
+   :alt:   (downloads)
+.. |docker_racon| image:: https://quay.io/repository/biocontainers/racon/status
+   :target: https://quay.io/repository/biocontainers/racon
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/racon.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/racon/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/racon/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/racon/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/racon/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/racon
-.. |docker| image:: https://quay.io/repository/biocontainers/racon/status
-                :target: https://quay.io/repository/biocontainers/racon
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/racon/README.html
 

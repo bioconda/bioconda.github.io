@@ -1,54 +1,66 @@
-.. _`bioconductor-moda`:
+.. title:: Package Recipe 'bioconductor-moda'
+.. highlight: bash
+
 
 bioconductor-moda
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-moda
+   :replaces_section_title:
 
-MODA can be used to estimate and construct condition\-specific gene co\-expression networks\, and identify differentially expressed subnetworks as conserved or condition specific modules which are potentially associated with relevant biological processes.
+   MODA can be used to estimate and construct condition\-specific gene co\-expression networks\, and identify differentially expressed subnetworks as conserved or condition specific modules which are potentially associated with relevant biological processes.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MODA.html
-Versions      1.8.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-moda/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MODA.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-moda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-moda
 
-Installation
-------------
+   |downloads_bioconductor-moda| |docker_bioconductor-moda|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-amountain` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-dynamictreecut`  :conda:package:`r-igraph`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-wgcna`  
 
-   conda install bioconductor-moda
+   :required~by: |required_by_bioconductor-moda|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-moda
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-moda
+
+   and update with::
+
+      conda update bioconductor-moda
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-moda
+
+
+.. |required_by_bioconductor-moda| conda:required_by:: bioconductor-moda
+.. |downloads_bioconductor-moda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moda.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-moda| image:: https://quay.io/repository/biocontainers/bioconductor-moda/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-moda
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-moda.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-moda/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-moda/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-moda/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-moda/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-moda
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-moda/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-moda
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-moda/README.html
 

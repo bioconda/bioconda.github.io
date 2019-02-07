@@ -1,54 +1,66 @@
-.. _`footprint`:
+.. title:: Package Recipe 'footprint'
+.. highlight: bash
+
 
 footprint
 =========
 
-|downloads|
+.. conda:recipe:: footprint
+   :replaces_section_title:
 
-This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data.
+   This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data.
 
-============= ===========
-Home          https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
-Versions      1.0.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//footprint/meta.yaml
+   :homepage: https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
+   :license: GPL (>= 2)
+   :recipe: /`footprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: footprint
 
-Installation
-------------
+   |downloads_footprint| |docker_footprint|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`bioconductor-genomicranges`  :conda:package:`perl` 5.22.0* :conda:package:`r-base` 3.3.1* :conda:package:`r-gtools`  :conda:package:`r-mixtools`  :conda:package:`r-segmented`  :conda:package:`samtools` ==1.1 
 
-   conda install footprint
+   :required~by: |required_by_footprint|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update footprint
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install footprint
+
+   and update with::
+
+      conda update footprint
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/footprint
+
+
+.. |required_by_footprint| conda:required_by:: footprint
+.. |downloads_footprint| image:: https://img.shields.io/conda/dn/bioconda/footprint.svg?style=flat
+   :alt:   (downloads)
+.. |docker_footprint| image:: https://quay.io/repository/biocontainers/footprint/status
+   :target: https://quay.io/repository/biocontainers/footprint
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/footprint.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/footprint/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/footprint/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/footprint/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/footprint/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/footprint
-.. |docker| image:: https://quay.io/repository/biocontainers/footprint/status
-                :target: https://quay.io/repository/biocontainers/footprint
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/footprint/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-hyperdraw`:
+.. title:: Package Recipe 'bioconductor-hyperdraw'
+.. highlight: bash
+
 
 bioconductor-hyperdraw
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hyperdraw
+   :replaces_section_title:
 
-Functions for visualizing hypergraphs.
+   Functions for visualizing hypergraphs.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/hyperdraw.html
-Versions      1.34.0, 1.32.0, 1.30.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hyperdraw/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hyperdraw.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hyperdraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyperdraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyperdraw/meta.yaml>`_
+   :links: biotools: :biotools:`hyperdraw`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`hyperdraw`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hyperdraw
 
-Installation
-------------
+   |downloads_bioconductor-hyperdraw| |docker_bioconductor-hyperdraw|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-hypergraph` >=1.54.0,<1.55.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-hyperdraw
+   :required~by: |required_by_bioconductor-hyperdraw|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hyperdraw
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hyperdraw
+
+   and update with::
+
+      conda update bioconductor-hyperdraw
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hyperdraw
+
+
+.. |required_by_bioconductor-hyperdraw| conda:required_by:: bioconductor-hyperdraw
+.. |downloads_bioconductor-hyperdraw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hyperdraw.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hyperdraw| image:: https://quay.io/repository/biocontainers/bioconductor-hyperdraw/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hyperdraw
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hyperdraw.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hyperdraw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hyperdraw/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hyperdraw/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hyperdraw/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hyperdraw
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hyperdraw/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hyperdraw
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hyperdraw/README.html
 

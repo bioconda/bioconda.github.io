@@ -1,54 +1,66 @@
-.. _`perl-tie-refhash`:
+.. title:: Package Recipe 'perl-tie-refhash'
+.. highlight: bash
+
 
 perl-tie-refhash
 ================
 
-|downloads|
+.. conda:recipe:: perl-tie-refhash/1.39
+   :replaces_section_title:
 
-use references as hash keys
+   use references as hash keys
 
-============= ===========
-Home          http://metacpan.org/pod/Tie::RefHash
-Versions      1.39
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tie-refhash/1.39/meta.yaml
+   :homepage: http://metacpan.org/pod/Tie::RefHash
+   :license: perl_5
+   :recipe: /`perl-tie-refhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-refhash>`_/`1.39 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-refhash/1.39>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-refhash/1.39/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-tie-refhash
 
-Installation
-------------
+   |downloads_perl-tie-refhash| |docker_perl-tie-refhash|
 
-.. highlight: bash
+   :versions: 1.39
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >5.22,<6.0 
 
-   conda install perl-tie-refhash
+   :required~by: |required_by_perl-tie-refhash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-tie-refhash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-tie-refhash
+
+   and update with::
+
+      conda update perl-tie-refhash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-tie-refhash
+
+
+.. |required_by_perl-tie-refhash| conda:required_by:: perl-tie-refhash
+.. |downloads_perl-tie-refhash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-refhash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-tie-refhash| image:: https://quay.io/repository/biocontainers/perl-tie-refhash/status
+   :target: https://quay.io/repository/biocontainers/perl-tie-refhash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-tie-refhash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-tie-refhash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-tie-refhash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-tie-refhash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-tie-refhash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-tie-refhash
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-refhash/status
-                :target: https://quay.io/repository/biocontainers/perl-tie-refhash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-tie-refhash/README.html
 

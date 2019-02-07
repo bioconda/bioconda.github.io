@@ -1,54 +1,66 @@
-.. _`bioconductor-iasva`:
+.. title:: Package Recipe 'bioconductor-iasva'
+.. highlight: bash
+
 
 bioconductor-iasva
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-iasva
+   :replaces_section_title:
 
-Iteratively Adjusted Surrogate Variable Analysis \(IA\-SVA\) is a statistical framework to uncover hidden sources of variation even when these sources are correlated. IA\-SVA provides a flexible methodology to i\) identify a hidden factor for unwanted heterogeneity while adjusting for all known factors\; ii\) test the significance of the putative hidden factor for explaining the unmodeled variation in the data\; and iii\)\, if significant\, use the estimated factor as an additional known factor in the next iteration to uncover further hidden factors.
+   Iteratively Adjusted Surrogate Variable Analysis \(IA\-SVA\) is a statistical framework to uncover hidden sources of variation even when these sources are correlated. IA\-SVA provides a flexible methodology to i\) identify a hidden factor for unwanted heterogeneity while adjusting for all known factors\; ii\) test the significance of the putative hidden factor for explaining the unmodeled variation in the data\; and iii\)\, if significant\, use the estimated factor as an additional known factor in the next iteration to uncover further hidden factors.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/iasva.html
-Versions      1.0.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iasva/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iasva.html
+   :license: GPL-2
+   :recipe: /`bioconductor-iasva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-iasva
 
-Installation
-------------
+   |downloads_bioconductor-iasva| |docker_bioconductor-iasva|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-irlba`  
 
-   conda install bioconductor-iasva
+   :required~by: |required_by_bioconductor-iasva|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-iasva
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-iasva
+
+   and update with::
+
+      conda update bioconductor-iasva
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-iasva
+
+
+.. |required_by_bioconductor-iasva| conda:required_by:: bioconductor-iasva
+.. |downloads_bioconductor-iasva| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iasva.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-iasva| image:: https://quay.io/repository/biocontainers/bioconductor-iasva/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-iasva
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-iasva.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-iasva/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-iasva/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-iasva/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-iasva/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-iasva
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-iasva/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-iasva
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-iasva/README.html
 

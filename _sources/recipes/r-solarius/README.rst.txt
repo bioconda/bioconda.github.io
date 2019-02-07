@@ -1,54 +1,66 @@
-.. _`r-solarius`:
+.. title:: Package Recipe 'r-solarius'
+.. highlight: bash
+
 
 r-solarius
 ==========
 
-|downloads|
+.. conda:recipe:: r-solarius
+   :replaces_section_title:
 
-SOLAR is the standard software program to perform linkage and association mappings of the quantitative trait loci \(QTLs\) in pedigrees of arbitrary size and complexity. This package allows the user to exploit the variance component methods implemented in SOLAR. It automates such routine operations as formatting pedigree and phenotype data. It also parses the model output and contains summary and plotting functions for exploration of the results. In addition\, solarius enables parallel computing of the linkage and association analyses\, that makes the calculation of genome\-wide scans more efficient. See \<http\:\/\/solar.txbiomedgenetics.org\/\> for more information about SOLAR.
+   
 
-============= ===========
-Home          https://github.com/ugcd/solarius
-Versions      0.3.0.2
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-solarius/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-solarius <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-solarius>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-solarius/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-solarius
 
-Installation
-------------
+   |downloads_r-solarius| |docker_r-solarius|
 
-.. highlight: bash
+   :versions: 0.3.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr` >=1.8.1 
 
-   conda install r-solarius
+   :required~by: |required_by_r-solarius|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-solarius
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-solarius
+
+   and update with::
+
+      conda update r-solarius
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-solarius
+
+
+.. |required_by_r-solarius| conda:required_by:: r-solarius
+.. |downloads_r-solarius| image:: https://img.shields.io/conda/dn/bioconda/r-solarius.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-solarius| image:: https://quay.io/repository/biocontainers/r-solarius/status
+   :target: https://quay.io/repository/biocontainers/r-solarius
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-solarius.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-solarius/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-solarius/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-solarius/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-solarius/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-solarius
-.. |docker| image:: https://quay.io/repository/biocontainers/r-solarius/status
-                :target: https://quay.io/repository/biocontainers/r-solarius
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-solarius/README.html
 

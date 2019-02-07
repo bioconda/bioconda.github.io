@@ -1,56 +1,67 @@
-.. _`bioconductor-cghnormaliter`:
+.. title:: Package Recipe 'bioconductor-cghnormaliter'
+.. highlight: bash
+
 
 bioconductor-cghnormaliter
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-cghnormaliter
+   :replaces_section_title:
 
-Normalization and centralization of array comparative genomic hybridization \(aCGH\) data. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers. This leads to a more reliable assessment of copy number alterations \(CNAs\).
+   Normalization and centralization of array comparative genomic hybridization \(aCGH\) data. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers. This leads to a more reliable assessment of copy number alterations \(CNAs\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CGHnormaliter.html
-Versions      1.36.0, 1.34.0, 1.32.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cghnormaliter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CGHnormaliter.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-cghnormaliter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter/meta.yaml>`_
+   :links: biotools: :biotools:`cghnormaliter`, doi: :doi:`10.1186/1471-2164-10-401`
 
-
-
-Links         biotools: :biotools:`cghnormaliter`, doi: :doi:`10.1186/1471-2164-10-401`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cghnormaliter
 
-Installation
-------------
+   |downloads_bioconductor-cghnormaliter| |docker_bioconductor-cghnormaliter|
 
-.. highlight: bash
+   :versions: 1.36.0, 1.34.0, 1.32.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-cghbase` >=1.42.0,<1.43.0 :conda:package:`bioconductor-cghcall` >=2.44.0,<2.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cghnormaliter
+   :required~by: |required_by_bioconductor-cghnormaliter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cghnormaliter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cghnormaliter
+
+   and update with::
+
+      conda update bioconductor-cghnormaliter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cghnormaliter
+
+
+.. |required_by_bioconductor-cghnormaliter| conda:required_by:: bioconductor-cghnormaliter
+.. |downloads_bioconductor-cghnormaliter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cghnormaliter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cghnormaliter| image:: https://quay.io/repository/biocontainers/bioconductor-cghnormaliter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cghnormaliter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cghnormaliter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cghnormaliter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cghnormaliter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cghnormaliter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cghnormaliter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cghnormaliter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cghnormaliter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cghnormaliter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cghnormaliter/README.html
 

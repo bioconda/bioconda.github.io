@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.clariom.s.mouse`:
+.. title:: Package Recipe 'bioconductor-pd.clariom.s.mouse'
+.. highlight: bash
+
 
 bioconductor-pd.clariom.s.mouse
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.clariom.s.mouse
+   :replaces_section_title:
 
-Platform Design Info for Affymetrix Clariom\_S\_Mouse
+   Platform Design Info for Affymetrix Clariom\_S\_Mouse
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.s.mouse.html
-Versions      3.14.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.clariom.s.mouse/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.s.mouse.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.clariom.s.mouse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.mouse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.mouse/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.clariom.s.mouse
 
-Installation
-------------
+   |downloads_bioconductor-pd.clariom.s.mouse| |docker_bioconductor-pd.clariom.s.mouse|
 
-.. highlight: bash
+   :versions: 3.14.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.clariom.s.mouse
+   :required~by: |required_by_bioconductor-pd.clariom.s.mouse|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.clariom.s.mouse
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.clariom.s.mouse
+
+   and update with::
+
+      conda update bioconductor-pd.clariom.s.mouse
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse
+
+
+.. |required_by_bioconductor-pd.clariom.s.mouse| conda:required_by:: bioconductor-pd.clariom.s.mouse
+.. |downloads_bioconductor-pd.clariom.s.mouse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.clariom.s.mouse.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.clariom.s.mouse| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.clariom.s.mouse/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.clariom.s.mouse/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.clariom.s.mouse/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.clariom.s.mouse/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.clariom.s.mouse
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.clariom.s.mouse/README.html
 

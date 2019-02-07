@@ -1,54 +1,66 @@
-.. _`perl-xml-filter-buffertext`:
+.. title:: Package Recipe 'perl-xml-filter-buffertext'
+.. highlight: bash
+
 
 perl-xml-filter-buffertext
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-xml-filter-buffertext
+   :replaces_section_title:
 
-Filter to put all characters\(\) in one event
+   Filter to put all characters\(\) in one event
 
-============= ===========
-Home          http://metacpan.org/pod/XML-Filter-BufferText
-Versions      1.01
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-filter-buffertext/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-Filter-BufferText
+   :license: unknown
+   :recipe: /`perl-xml-filter-buffertext <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-filter-buffertext>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-filter-buffertext/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-filter-buffertext
 
-Installation
-------------
+   |downloads_perl-xml-filter-buffertext| |docker_perl-xml-filter-buffertext|
 
-.. highlight: bash
+   :versions: 1.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-sax-base`  
 
-   conda install perl-xml-filter-buffertext
+   :required~by: |required_by_perl-xml-filter-buffertext|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-filter-buffertext
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-filter-buffertext
+
+   and update with::
+
+      conda update perl-xml-filter-buffertext
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-filter-buffertext
+
+
+.. |required_by_perl-xml-filter-buffertext| conda:required_by:: perl-xml-filter-buffertext
+.. |downloads_perl-xml-filter-buffertext| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-filter-buffertext.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-filter-buffertext| image:: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-filter-buffertext.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-filter-buffertext/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-filter-buffertext/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-filter-buffertext/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-filter-buffertext/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-filter-buffertext
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-filter-buffertext/README.html
 

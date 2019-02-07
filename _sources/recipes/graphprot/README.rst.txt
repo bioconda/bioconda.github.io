@@ -1,54 +1,66 @@
-.. _`graphprot`:
+.. title:: Package Recipe 'graphprot'
+.. highlight: bash
+
 
 graphprot
 =========
 
-|downloads|
+.. conda:recipe:: graphprot
+   :replaces_section_title:
 
-GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete.
+   GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete.
 
-============= ===========
-Home          https://github.com/dmaticzka/graphprot
-Versions      1.1.7, 1.1.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//graphprot/meta.yaml
+   :homepage: https://github.com/dmaticzka/graphprot
+   :license: MIT
+   :recipe: /`graphprot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphprot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphprot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: graphprot
 
-Installation
-------------
+   |downloads_graphprot| |docker_graphprot|
 
-.. highlight: bash
+   :versions: 1.1.7, 1.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`coreutils`  :conda:package:`curl`  :conda:package:`gawk`  :conda:package:`libgcc`  :conda:package:`libsvm`  :conda:package:`make`  :conda:package:`openmp`  :conda:package:`perl-getopt-long`  :conda:package:`r-plyr`  :conda:package:`r-prroc`  :conda:package:`rnashapes` <3 :conda:package:`weblogo` >=3 :conda:package:`zlib` 1.2.8* 
 
-   conda install graphprot
+   :required~by: |required_by_graphprot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update graphprot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install graphprot
+
+   and update with::
+
+      conda update graphprot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/graphprot
+
+
+.. |required_by_graphprot| conda:required_by:: graphprot
+.. |downloads_graphprot| image:: https://img.shields.io/conda/dn/bioconda/graphprot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_graphprot| image:: https://quay.io/repository/biocontainers/graphprot/status
+   :target: https://quay.io/repository/biocontainers/graphprot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/graphprot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/graphprot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/graphprot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/graphprot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/graphprot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/graphprot
-.. |docker| image:: https://quay.io/repository/biocontainers/graphprot/status
-                :target: https://quay.io/repository/biocontainers/graphprot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/graphprot/README.html
 

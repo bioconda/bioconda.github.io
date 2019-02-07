@@ -1,56 +1,67 @@
-.. _`r-mlgt`:
+.. title:: Package Recipe 'r-mlgt'
+.. highlight: bash
+
 
 r-mlgt
 ======
 
-|downloads|
+.. conda:recipe:: r-mlgt
+   :replaces_section_title:
 
-Processing and analysis of high throughput \(Roche 454\) sequences generated from multiple loci and multiple biological samples. Sequences are assigned to their locus and sample of origin\, aligned and trimmed. Where possible\, genotypes are called and variants mapped to known alleles.
+   
 
-============= ===========
-Home          http://personalpages.manchester.ac.uk/staff/David.Gerrard/
-Versions      0.16
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mlgt/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-mlgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mlgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mlgt/meta.yaml>`_
+   :links: biotools: :biotools:`mlgt`
 
-
-
-Links         biotools: :biotools:`mlgt`
-
-============= ===========
+   
 
 
+.. conda:package:: r-mlgt
 
-Installation
-------------
+   |downloads_r-mlgt| |docker_r-mlgt|
 
-.. highlight: bash
+   :versions: 0.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-seqinr`  
 
-   conda install r-mlgt
+   :required~by: |required_by_r-mlgt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-mlgt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-mlgt
+
+   and update with::
+
+      conda update r-mlgt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-mlgt
+
+
+.. |required_by_r-mlgt| conda:required_by:: r-mlgt
+.. |downloads_r-mlgt| image:: https://img.shields.io/conda/dn/bioconda/r-mlgt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-mlgt| image:: https://quay.io/repository/biocontainers/r-mlgt/status
+   :target: https://quay.io/repository/biocontainers/r-mlgt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-mlgt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-mlgt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-mlgt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-mlgt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-mlgt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-mlgt
-.. |docker| image:: https://quay.io/repository/biocontainers/r-mlgt/status
-                :target: https://quay.io/repository/biocontainers/r-mlgt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-mlgt/README.html
 

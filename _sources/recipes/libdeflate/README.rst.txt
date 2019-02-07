@@ -1,54 +1,66 @@
-.. _`libdeflate`:
+.. title:: Package Recipe 'libdeflate'
+.. highlight: bash
+
 
 libdeflate
 ==========
 
-|downloads|
+.. conda:recipe:: libdeflate
+   :replaces_section_title:
 
-libdeflate is a library for fast\, whole\-buffer DEFLATE\-based compression and decompression.
+   libdeflate is a library for fast\, whole\-buffer DEFLATE\-based compression and decompression.
 
-============= ===========
-Home          https://github.com/ebiggers/libdeflate
-Versions      1.0, 0.8
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libdeflate/meta.yaml
+   :homepage: https://github.com/ebiggers/libdeflate
+   :license: MIT
+   :recipe: /`libdeflate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdeflate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdeflate/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: libdeflate
 
-Installation
-------------
+   |downloads_libdeflate| |docker_libdeflate|
 
-.. highlight: bash
+   :versions: 1.0, 0.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 
 
-   conda install libdeflate
+   :required~by: |required_by_libdeflate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update libdeflate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install libdeflate
+
+   and update with::
+
+      conda update libdeflate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/libdeflate
+
+
+.. |required_by_libdeflate| conda:required_by:: libdeflate
+.. |downloads_libdeflate| image:: https://img.shields.io/conda/dn/bioconda/libdeflate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_libdeflate| image:: https://quay.io/repository/biocontainers/libdeflate/status
+   :target: https://quay.io/repository/biocontainers/libdeflate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/libdeflate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/libdeflate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libdeflate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/libdeflate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/libdeflate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/libdeflate
-.. |docker| image:: https://quay.io/repository/biocontainers/libdeflate/status
-                :target: https://quay.io/repository/biocontainers/libdeflate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/libdeflate/README.html
 

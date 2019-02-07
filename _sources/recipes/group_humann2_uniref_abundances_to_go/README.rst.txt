@@ -1,54 +1,66 @@
-.. _`group_humann2_uniref_abundances_to_go`:
+.. title:: Package Recipe 'group_humann2_uniref_abundances_to_go'
+.. highlight: bash
+
 
 group_humann2_uniref_abundances_to_go
 =====================================
 
-|downloads|
+.. conda:recipe:: group_humann2_uniref_abundances_to_go
+   :replaces_section_title:
 
-Group abundances of UniRef50 gene families obtained with HUMAnN2 to Gene Ontology \(GO\) slim terms with relative abundances
+   Group abundances of UniRef50 gene families obtained with HUMAnN2 to Gene Ontology \(GO\) slim terms with relative abundances
 
-============= ===========
-Home          https://github.com/ASaiM/group_humann2_uniref_abundances_to_GO
-Versions      1.2.0
-License       Apache 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//group_humann2_uniref_abundances_to_go/meta.yaml
+   :homepage: https://github.com/ASaiM/group_humann2_uniref_abundances_to_GO
+   :license: Apache 2
+   :recipe: /`group_humann2_uniref_abundances_to_go <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/group_humann2_uniref_abundances_to_go>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/group_humann2_uniref_abundances_to_go/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: group_humann2_uniref_abundances_to_go
 
-Installation
-------------
+   |downloads_group_humann2_uniref_abundances_to_go| |docker_group_humann2_uniref_abundances_to_go|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`goatools`  :conda:package:`humann2`  :conda:package:`python` 2.7* 
 
-   conda install group_humann2_uniref_abundances_to_go
+   :required~by: |required_by_group_humann2_uniref_abundances_to_go|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update group_humann2_uniref_abundances_to_go
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install group_humann2_uniref_abundances_to_go
+
+   and update with::
+
+      conda update group_humann2_uniref_abundances_to_go
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go
+
+
+.. |required_by_group_humann2_uniref_abundances_to_go| conda:required_by:: group_humann2_uniref_abundances_to_go
+.. |downloads_group_humann2_uniref_abundances_to_go| image:: https://img.shields.io/conda/dn/bioconda/group_humann2_uniref_abundances_to_go.svg?style=flat
+   :alt:   (downloads)
+.. |docker_group_humann2_uniref_abundances_to_go| image:: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go/status
+   :target: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/group_humann2_uniref_abundances_to_go/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/group_humann2_uniref_abundances_to_go/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/group_humann2_uniref_abundances_to_go/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/group_humann2_uniref_abundances_to_go/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/group_humann2_uniref_abundances_to_go
-.. |docker| image:: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go/status
-                :target: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/group_humann2_uniref_abundances_to_go/README.html
 

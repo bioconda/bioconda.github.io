@@ -1,54 +1,66 @@
-.. _`twobitreader`:
+.. title:: Package Recipe 'twobitreader'
+.. highlight: bash
+
 
 twobitreader
 ============
 
-|downloads|
+.. conda:recipe:: twobitreader
+   :replaces_section_title:
 
-A fast python package for reading .2bit files \(used by the UCSC genome browser\)
+   A fast python package for reading .2bit files \(used by the UCSC genome browser\)
 
-============= ===========
-Home          https://github.com/benjschiller/twobitreader
-Versions      3.1.6, 3.1.4
-License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//twobitreader/meta.yaml
+   :homepage: https://github.com/benjschiller/twobitreader
+   :license: Artistic License
+   :recipe: /`twobitreader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twobitreader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twobitreader/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: twobitreader
 
-Installation
-------------
+   |downloads_twobitreader| |docker_twobitreader|
 
-.. highlight: bash
+   :versions: 3.1.6, 3.1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install twobitreader
+   :required~by: |required_by_twobitreader|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update twobitreader
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install twobitreader
+
+   and update with::
+
+      conda update twobitreader
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/twobitreader
+
+
+.. |required_by_twobitreader| conda:required_by:: twobitreader
+.. |downloads_twobitreader| image:: https://img.shields.io/conda/dn/bioconda/twobitreader.svg?style=flat
+   :alt:   (downloads)
+.. |docker_twobitreader| image:: https://quay.io/repository/biocontainers/twobitreader/status
+   :target: https://quay.io/repository/biocontainers/twobitreader
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/twobitreader.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/twobitreader/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/twobitreader/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/twobitreader/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/twobitreader/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/twobitreader
-.. |docker| image:: https://quay.io/repository/biocontainers/twobitreader/status
-                :target: https://quay.io/repository/biocontainers/twobitreader
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/twobitreader/README.html
 

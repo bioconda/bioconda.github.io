@@ -1,54 +1,66 @@
-.. _`perl-http-server-simple`:
+.. title:: Package Recipe 'perl-http-server-simple'
+.. highlight: bash
+
 
 perl-http-server-simple
 =======================
 
-|downloads|
+.. conda:recipe:: perl-http-server-simple
+   :replaces_section_title:
 
-Lightweight HTTP server
+   Lightweight HTTP server
 
-============= ===========
-Home          https://metacpan.org/pod/HTTP::Server::Simple
-Versions      0.52
-License       Perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-http-server-simple/meta.yaml
+   :homepage: https://metacpan.org/pod/HTTP::Server::Simple
+   :license: Perl_5
+   :recipe: /`perl-http-server-simple <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-server-simple>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-server-simple/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-http-server-simple
 
-Installation
-------------
+   |downloads_perl-http-server-simple| |docker_perl-http-server-simple|
 
-.. highlight: bash
+   :versions: 0.52
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-cgi`  
 
-   conda install perl-http-server-simple
+   :required~by: |required_by_perl-http-server-simple|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-http-server-simple
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-http-server-simple
+
+   and update with::
+
+      conda update perl-http-server-simple
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-http-server-simple
+
+
+.. |required_by_perl-http-server-simple| conda:required_by:: perl-http-server-simple
+.. |downloads_perl-http-server-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-http-server-simple.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-http-server-simple| image:: https://quay.io/repository/biocontainers/perl-http-server-simple/status
+   :target: https://quay.io/repository/biocontainers/perl-http-server-simple
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-http-server-simple.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-http-server-simple/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-http-server-simple/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-http-server-simple/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-http-server-simple/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-http-server-simple
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-http-server-simple/status
-                :target: https://quay.io/repository/biocontainers/perl-http-server-simple
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-http-server-simple/README.html
 

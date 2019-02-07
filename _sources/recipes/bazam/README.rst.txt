@@ -1,54 +1,66 @@
-.. _`bazam`:
+.. title:: Package Recipe 'bazam'
+.. highlight: bash
+
 
 bazam
 =====
 
-|downloads|
+.. conda:recipe:: bazam
+   :replaces_section_title:
 
-A tool to extract paired reads in FASTQ format from coordinate sorted BAM files
+   A tool to extract paired reads in FASTQ format from coordinate sorted BAM files
 
-============= ===========
-Home          https://github.com/ssadedin/bazam
-Versions      1.0.1
-License       LGPL v2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bazam/meta.yaml
+   :homepage: https://github.com/ssadedin/bazam
+   :license: LGPL v2.1
+   :recipe: /`bazam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bazam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bazam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bazam
 
-Installation
-------------
+   |downloads_bazam| |docker_bazam|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install bazam
+   :required~by: |required_by_bazam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bazam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bazam
+
+   and update with::
+
+      conda update bazam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bazam
+
+
+.. |required_by_bazam| conda:required_by:: bazam
+.. |downloads_bazam| image:: https://img.shields.io/conda/dn/bioconda/bazam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bazam| image:: https://quay.io/repository/biocontainers/bazam/status
+   :target: https://quay.io/repository/biocontainers/bazam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bazam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bazam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bazam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bazam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bazam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bazam
-.. |docker| image:: https://quay.io/repository/biocontainers/bazam/status
-                :target: https://quay.io/repository/biocontainers/bazam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bazam/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-tie-ixhash`:
+.. title:: Package Recipe 'perl-tie-ixhash'
+.. highlight: bash
+
 
 perl-tie-ixhash
 ===============
 
-|downloads|
+.. conda:recipe:: perl-tie-ixhash
+   :replaces_section_title:
 
-ordered associative arrays for Perl
+   ordered associative arrays for Perl
 
-============= ===========
-Home          http://metacpan.org/pod/Tie-IxHash
-Versions      1.23
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tie-ixhash/meta.yaml
+   :homepage: http://metacpan.org/pod/Tie-IxHash
+   :license: perl_5
+   :recipe: /`perl-tie-ixhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-ixhash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-ixhash/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-tie-ixhash
 
-Installation
-------------
+   |downloads_perl-tie-ixhash| |docker_perl-tie-ixhash|
 
-.. highlight: bash
+   :versions: 1.23
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-tie-ixhash
+   :required~by: |required_by_perl-tie-ixhash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-tie-ixhash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-tie-ixhash
+
+   and update with::
+
+      conda update perl-tie-ixhash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-tie-ixhash
+
+
+.. |required_by_perl-tie-ixhash| conda:required_by:: perl-tie-ixhash
+.. |downloads_perl-tie-ixhash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-ixhash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-tie-ixhash| image:: https://quay.io/repository/biocontainers/perl-tie-ixhash/status
+   :target: https://quay.io/repository/biocontainers/perl-tie-ixhash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-tie-ixhash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-tie-ixhash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-tie-ixhash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-tie-ixhash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-tie-ixhash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-tie-ixhash
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-ixhash/status
-                :target: https://quay.io/repository/biocontainers/perl-tie-ixhash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-tie-ixhash/README.html
 

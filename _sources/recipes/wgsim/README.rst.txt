@@ -1,54 +1,66 @@
-.. _`wgsim`:
+.. title:: Package Recipe 'wgsim'
+.. highlight: bash
+
 
 wgsim
 =====
 
-|downloads|
+.. conda:recipe:: wgsim
+   :replaces_section_title:
 
-Wgsim is a small tool for simulating sequence reads from a reference genome.
+   Wgsim is a small tool for simulating sequence reads from a reference genome.
 
-============= ===========
-Home          https://github.com/lh3/wgsim
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wgsim/meta.yaml
+   :homepage: https://github.com/lh3/wgsim
+   :license: MIT
+   :recipe: /`wgsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgsim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: wgsim
 
-Installation
-------------
+   |downloads_wgsim| |docker_wgsim|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install wgsim
+   :required~by: |required_by_wgsim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update wgsim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install wgsim
+
+   and update with::
+
+      conda update wgsim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/wgsim
+
+
+.. |required_by_wgsim| conda:required_by:: wgsim
+.. |downloads_wgsim| image:: https://img.shields.io/conda/dn/bioconda/wgsim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_wgsim| image:: https://quay.io/repository/biocontainers/wgsim/status
+   :target: https://quay.io/repository/biocontainers/wgsim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/wgsim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/wgsim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/wgsim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/wgsim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/wgsim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/wgsim
-.. |docker| image:: https://quay.io/repository/biocontainers/wgsim/status
-                :target: https://quay.io/repository/biocontainers/wgsim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/wgsim/README.html
 

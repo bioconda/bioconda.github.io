@@ -1,54 +1,66 @@
-.. _`bioconductor-pchicdata`:
+.. title:: Package Recipe 'bioconductor-pchicdata'
+.. highlight: bash
+
 
 bioconductor-pchicdata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-pchicdata
+   :replaces_section_title:
 
-Subsets of Promoter Capture Hi\-C data conveniently packaged for Chicago users. Data includes interactions detected for chromosomes 20 and 21 in GM12878 cells and for chromosomes 18 and 19 in mESC.
+   Subsets of Promoter Capture Hi\-C data conveniently packaged for Chicago users. Data includes interactions detected for chromosomes 20 and 21 in GM12878 cells and for chromosomes 18 and 19 in mESC.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/PCHiCdata.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pchicdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PCHiCdata.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pchicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pchicdata
 
-Installation
-------------
+   |downloads_bioconductor-pchicdata| |docker_bioconductor-pchicdata|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-chicago` >=1.10.0,<1.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pchicdata
+   :required~by: |required_by_bioconductor-pchicdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pchicdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pchicdata
+
+   and update with::
+
+      conda update bioconductor-pchicdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pchicdata
+
+
+.. |required_by_bioconductor-pchicdata| conda:required_by:: bioconductor-pchicdata
+.. |downloads_bioconductor-pchicdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pchicdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pchicdata| image:: https://quay.io/repository/biocontainers/bioconductor-pchicdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pchicdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pchicdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pchicdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pchicdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pchicdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pchicdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pchicdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pchicdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pchicdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pchicdata/README.html
 

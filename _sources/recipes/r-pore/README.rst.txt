@@ -1,54 +1,66 @@
-.. _`r-pore`:
+.. title:: Package Recipe 'r-pore'
+.. highlight: bash
+
 
 r-pore
 ======
 
-|downloads|
+.. conda:recipe:: r-pore
+   :replaces_section_title:
 
-An R package to enable organisation and visualisation of nanopore sequencing data
+   An R package to enable organisation and visualisation of nanopore sequencing data
 
-============= ===========
-Home          http://sourceforge.net/projects/rpore/
-Versions      0.24, 0.16
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pore/meta.yaml
+   :homepage: http://sourceforge.net/projects/rpore/
+   :license: BSD
+   :recipe: /`r-pore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pore/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-pore
 
-Installation
-------------
+   |downloads_r-pore| |docker_r-pore|
 
-.. highlight: bash
+   :versions: 0.24, 0.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rhdf5`  :conda:package:`parallel`  :conda:package:`r-base` 3.3.2* :conda:package:`r-bit64`  :conda:package:`r-data.table`  :conda:package:`r-shiny`  :conda:package:`r-svdialogs`  
 
-   conda install r-pore
+   :required~by: |required_by_r-pore|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-pore
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-pore
+
+   and update with::
+
+      conda update r-pore
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-pore
+
+
+.. |required_by_r-pore| conda:required_by:: r-pore
+.. |downloads_r-pore| image:: https://img.shields.io/conda/dn/bioconda/r-pore.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-pore| image:: https://quay.io/repository/biocontainers/r-pore/status
+   :target: https://quay.io/repository/biocontainers/r-pore
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-pore.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-pore/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-pore/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-pore/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-pore/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-pore
-.. |docker| image:: https://quay.io/repository/biocontainers/r-pore/status
-                :target: https://quay.io/repository/biocontainers/r-pore
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-pore/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-qpcrnorm`:
+.. title:: Package Recipe 'bioconductor-qpcrnorm'
+.. highlight: bash
+
 
 bioconductor-qpcrnorm
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-qpcrnorm
+   :replaces_section_title:
 
-The package contains functions to perform normalization of high\-throughput qPCR data. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available.
+   The package contains functions to perform normalization of high\-throughput qPCR data. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/qpcrNorm.html
-Versions      1.40.0, 1.38.0, 1.36.0, 1.34.0
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-qpcrnorm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/qpcrNorm.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-qpcrnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm/meta.yaml>`_
+   :links: biotools: :biotools:`qpcrnorm`, doi: :doi:`10.1186/1471-2105-10-110`
 
-
-
-Links         biotools: :biotools:`qpcrnorm`, doi: :doi:`10.1186/1471-2105-10-110`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-qpcrnorm
 
-Installation
-------------
+   |downloads_bioconductor-qpcrnorm| |docker_bioconductor-qpcrnorm|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-qpcrnorm
+   :required~by: |required_by_bioconductor-qpcrnorm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-qpcrnorm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-qpcrnorm
+
+   and update with::
+
+      conda update bioconductor-qpcrnorm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-qpcrnorm
+
+
+.. |required_by_bioconductor-qpcrnorm| conda:required_by:: bioconductor-qpcrnorm
+.. |downloads_bioconductor-qpcrnorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qpcrnorm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-qpcrnorm| image:: https://quay.io/repository/biocontainers/bioconductor-qpcrnorm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-qpcrnorm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-qpcrnorm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-qpcrnorm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-qpcrnorm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-qpcrnorm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-qpcrnorm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-qpcrnorm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-qpcrnorm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-qpcrnorm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-qpcrnorm/README.html
 

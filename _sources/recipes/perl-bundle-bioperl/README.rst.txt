@@ -1,54 +1,66 @@
-.. _`perl-bundle-bioperl`:
+.. title:: Package Recipe 'perl-bundle-bioperl'
+.. highlight: bash
+
 
 perl-bundle-bioperl
 ===================
 
-|downloads|
+.. conda:recipe:: perl-bundle-bioperl
+   :replaces_section_title:
 
-A bundle to install external CPAN modules used by BioPerl 1.5.2
+   A bundle to install external CPAN modules used by BioPerl 1.5.2
 
-============= ===========
-Home          http://metacpan.org/pod/Bundle::BioPerl
-Versions      2.1.9
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bundle-bioperl/meta.yaml
+   :homepage: http://metacpan.org/pod/Bundle::BioPerl
+   :license: unknown
+   :recipe: /`perl-bundle-bioperl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bundle-bioperl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bundle-bioperl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bundle-bioperl
 
-Installation
-------------
+   |downloads_perl-bundle-bioperl| |docker_perl-bundle-bioperl|
 
-.. highlight: bash
+   :versions: 2.1.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-bundle-bioperl
+   :required~by: |required_by_perl-bundle-bioperl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bundle-bioperl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bundle-bioperl
+
+   and update with::
+
+      conda update perl-bundle-bioperl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bundle-bioperl
+
+
+.. |required_by_perl-bundle-bioperl| conda:required_by:: perl-bundle-bioperl
+.. |downloads_perl-bundle-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bundle-bioperl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bundle-bioperl| image:: https://quay.io/repository/biocontainers/perl-bundle-bioperl/status
+   :target: https://quay.io/repository/biocontainers/perl-bundle-bioperl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bundle-bioperl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bundle-bioperl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bundle-bioperl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bundle-bioperl/status
-                :target: https://quay.io/repository/biocontainers/perl-bundle-bioperl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bundle-bioperl/README.html
 

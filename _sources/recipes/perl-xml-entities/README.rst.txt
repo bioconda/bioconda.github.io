@@ -1,54 +1,66 @@
-.. _`perl-xml-entities`:
+.. title:: Package Recipe 'perl-xml-entities'
+.. highlight: bash
+
 
 perl-xml-entities
 =================
 
-|downloads|
+.. conda:recipe:: perl-xml-entities
+   :replaces_section_title:
 
-Mapping of XML entities to Unicode
+   Mapping of XML entities to Unicode
 
-============= ===========
-Home          http://metacpan.org/pod/XML::Entities
-Versions      1.0002
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-entities/meta.yaml
+   :homepage: http://metacpan.org/pod/XML::Entities
+   :license: perl_5
+   :recipe: /`perl-xml-entities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-entities>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-entities/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-entities
 
-Installation
-------------
+   |downloads_perl-xml-entities| |docker_perl-xml-entities|
 
-.. highlight: bash
+   :versions: 1.0002
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  
 
-   conda install perl-xml-entities
+   :required~by: |required_by_perl-xml-entities|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-entities
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-entities
+
+   and update with::
+
+      conda update perl-xml-entities
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-entities
+
+
+.. |required_by_perl-xml-entities| conda:required_by:: perl-xml-entities
+.. |downloads_perl-xml-entities| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-entities.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-entities| image:: https://quay.io/repository/biocontainers/perl-xml-entities/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-entities
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-entities.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-entities/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-entities/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-entities/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-entities/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-entities
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-entities/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-entities
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-entities/README.html
 

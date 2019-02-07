@@ -1,56 +1,67 @@
-.. _`bioconductor-variantannotation`:
+.. title:: Package Recipe 'bioconductor-variantannotation'
+.. highlight: bash
+
 
 bioconductor-variantannotation
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-variantannotation
+   :replaces_section_title:
 
-Annotate variants\, compute amino acid coding changes\, predict coding outcomes.
+   Annotate variants\, compute amino acid coding changes\, predict coding outcomes.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/VariantAnnotation.html
-Versions      1.28.3, 1.26.1, 1.24.1, 1.22.3, 1.20.3, 1.18.7, 1.16.4, 1.16.3, 1.16.1, 1.16.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-variantannotation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/VariantAnnotation.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-variantannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation/meta.yaml>`_
+   :links: biotools: :biotools:`variantannotation`
 
-
-
-Links         biotools: :biotools:`variantannotation`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-variantannotation
 
-Installation
-------------
+   |downloads_bioconductor-variantannotation| |docker_bioconductor-variantannotation|
 
-.. highlight: bash
+   :versions: 1.28.3, 1.26.1, 1.24.1, 1.22.3, 1.20.3, 1.18.7, 1.16.4, 1.16.3, 1.16.1, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  
 
-   conda install bioconductor-variantannotation
+   :required~by: |required_by_bioconductor-variantannotation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-variantannotation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-variantannotation
+
+   and update with::
+
+      conda update bioconductor-variantannotation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-variantannotation
+
+
+.. |required_by_bioconductor-variantannotation| conda:required_by:: bioconductor-variantannotation
+.. |downloads_bioconductor-variantannotation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-variantannotation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-variantannotation| image:: https://quay.io/repository/biocontainers/bioconductor-variantannotation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-variantannotation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-variantannotation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-variantannotation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-variantannotation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-variantannotation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-variantannotation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-variantannotation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-variantannotation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-variantannotation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-variantannotation/README.html
 

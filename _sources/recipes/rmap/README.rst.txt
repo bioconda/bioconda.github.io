@@ -1,56 +1,67 @@
-.. _`rmap`:
+.. title:: Package Recipe 'rmap'
+.. highlight: bash
+
 
 rmap
 ====
 
-|downloads|
+.. conda:recipe:: rmap
+   :replaces_section_title:
 
-rmap is a short reads mapper for next\-generation sequencing data
+   rmap is a short reads mapper for next\-generation sequencing data
 
-============= ===========
-Home          http://smithlabresearch.org/software/rmap/
-Versions      2.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rmap/meta.yaml
+   :homepage: http://smithlabresearch.org/software/rmap/
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`rmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmap/meta.yaml>`_
+   :links: biotools: :biotools:`rmap`
 
-
-
-Links         biotools: :biotools:`rmap`
-
-============= ===========
+   
 
 
+.. conda:package:: rmap
 
-Installation
-------------
+   |downloads_rmap| |docker_rmap|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install rmap
+   :required~by: |required_by_rmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rmap
+
+   and update with::
+
+      conda update rmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rmap
+
+
+.. |required_by_rmap| conda:required_by:: rmap
+.. |downloads_rmap| image:: https://img.shields.io/conda/dn/bioconda/rmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rmap| image:: https://quay.io/repository/biocontainers/rmap/status
+   :target: https://quay.io/repository/biocontainers/rmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rmap
-.. |docker| image:: https://quay.io/repository/biocontainers/rmap/status
-                :target: https://quay.io/repository/biocontainers/rmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rmap/README.html
 

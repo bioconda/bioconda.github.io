@@ -1,54 +1,66 @@
-.. _`perl-file-readbackwards`:
+.. title:: Package Recipe 'perl-file-readbackwards'
+.. highlight: bash
+
 
 perl-file-readbackwards
 =======================
 
-|downloads|
+.. conda:recipe:: perl-file-readbackwards
+   :replaces_section_title:
 
-Read a file backwards by lines.
+   Read a file backwards by lines.
 
-============= ===========
-Home          http://metacpan.org/pod/File::ReadBackwards
-Versions      1.05
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-readbackwards/meta.yaml
+   :homepage: http://metacpan.org/pod/File::ReadBackwards
+   :license: unknown
+   :recipe: /`perl-file-readbackwards <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-readbackwards>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-readbackwards/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-readbackwards
 
-Installation
-------------
+   |downloads_perl-file-readbackwards| |docker_perl-file-readbackwards|
 
-.. highlight: bash
+   :versions: 1.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-file-readbackwards
+   :required~by: |required_by_perl-file-readbackwards|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-readbackwards
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-readbackwards
+
+   and update with::
+
+      conda update perl-file-readbackwards
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-readbackwards
+
+
+.. |required_by_perl-file-readbackwards| conda:required_by:: perl-file-readbackwards
+.. |downloads_perl-file-readbackwards| image:: https://img.shields.io/conda/dn/bioconda/perl-file-readbackwards.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-readbackwards| image:: https://quay.io/repository/biocontainers/perl-file-readbackwards/status
+   :target: https://quay.io/repository/biocontainers/perl-file-readbackwards
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-readbackwards.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-readbackwards/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-readbackwards/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-readbackwards/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-readbackwards/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-readbackwards
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-readbackwards/status
-                :target: https://quay.io/repository/biocontainers/perl-file-readbackwards
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-readbackwards/README.html
 

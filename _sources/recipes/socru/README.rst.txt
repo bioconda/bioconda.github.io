@@ -1,54 +1,66 @@
-.. _`socru`:
+.. title:: Package Recipe 'socru'
+.. highlight: bash
+
 
 socru
 =====
 
-|downloads|
+.. conda:recipe:: socru
+   :replaces_section_title:
 
-Order and orientation of complete bacterial genomes
+   Order and orientation of complete bacterial genomes
 
-============= ===========
-Home          https://github.com/quadram-institute-bioscience/socru
-Versions      0.0.5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//socru/meta.yaml
+   :homepage: https://github.com/quadram-institute-bioscience/socru
+   :license: GPLv3
+   :recipe: /`socru <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/socru>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/socru/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: socru
 
-Installation
-------------
+   |downloads_socru| |docker_socru|
 
-.. highlight: bash
+   :versions: 0.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`barrnap`  :conda:package:`biopython` >=1.68 :conda:package:`blast`  :conda:package:`numpy`  :conda:package:`pip`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`pyyaml`  
 
-   conda install socru
+   :required~by: |required_by_socru|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update socru
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install socru
+
+   and update with::
+
+      conda update socru
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/socru
+
+
+.. |required_by_socru| conda:required_by:: socru
+.. |downloads_socru| image:: https://img.shields.io/conda/dn/bioconda/socru.svg?style=flat
+   :alt:   (downloads)
+.. |docker_socru| image:: https://quay.io/repository/biocontainers/socru/status
+   :target: https://quay.io/repository/biocontainers/socru
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/socru.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/socru/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/socru/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/socru/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/socru/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/socru
-.. |docker| image:: https://quay.io/repository/biocontainers/socru/status
-                :target: https://quay.io/repository/biocontainers/socru
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/socru/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-xml-twig`:
+.. title:: Package Recipe 'perl-xml-twig'
+.. highlight: bash
+
 
 perl-xml-twig
 =============
 
-|downloads|
+.. conda:recipe:: perl-xml-twig
+   :replaces_section_title:
 
-XML\, The Perl Way
+   XML\, The Perl Way
 
-============= ===========
-Home          http://metacpan.org/pod/XML-Twig
-Versions      3.52, 3.49
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-twig/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-Twig
+   :license: perl_5
+   :recipe: /`perl-xml-twig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-twig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-twig/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-twig
 
-Installation
-------------
+   |downloads_perl-xml-twig| |docker_perl-xml-twig|
 
-.. highlight: bash
+   :versions: 3.52, 3.49
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-html-entities-numbered`  :conda:package:`perl-html-formatter`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-tidy`  :conda:package:`perl-html-tree`  :conda:package:`perl-tie-ixhash`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-xpathengine`  
 
-   conda install perl-xml-twig
+   :required~by: |required_by_perl-xml-twig|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-twig
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-twig
+
+   and update with::
+
+      conda update perl-xml-twig
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-twig
+
+
+.. |required_by_perl-xml-twig| conda:required_by:: perl-xml-twig
+.. |downloads_perl-xml-twig| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-twig.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-twig| image:: https://quay.io/repository/biocontainers/perl-xml-twig/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-twig
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-twig.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-twig/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-twig/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-twig/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-twig/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-twig
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-twig/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-twig
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-twig/README.html
 

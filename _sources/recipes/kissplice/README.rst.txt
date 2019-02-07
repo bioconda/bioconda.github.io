@@ -1,54 +1,66 @@
-.. _`kissplice`:
+.. title:: Package Recipe 'kissplice'
+.. highlight: bash
+
 
 kissplice
 =========
 
-|downloads|
+.. conda:recipe:: kissplice
+   :replaces_section_title:
 
-A local transcriptome assembler for SNPs\, indels and AS events
+   A local transcriptome assembler for SNPs\, indels and AS events
 
-============= ===========
-Home          http://kissplice.prabi.fr
-Versions      2.4.0p1
-License       CeCILL license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kissplice/meta.yaml
+   :homepage: http://kissplice.prabi.fr
+   :license: CeCILL license
+   :recipe: /`kissplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kissplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kissplice/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kissplice
 
-Installation
-------------
+   |downloads_kissplice| |docker_kissplice|
 
-.. highlight: bash
+   :versions: 2.4.0p1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.8* 
 
-   conda install kissplice
+   :required~by: |required_by_kissplice|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kissplice
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kissplice
+
+   and update with::
+
+      conda update kissplice
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kissplice
+
+
+.. |required_by_kissplice| conda:required_by:: kissplice
+.. |downloads_kissplice| image:: https://img.shields.io/conda/dn/bioconda/kissplice.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kissplice| image:: https://quay.io/repository/biocontainers/kissplice/status
+   :target: https://quay.io/repository/biocontainers/kissplice
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kissplice.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kissplice/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kissplice/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kissplice/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kissplice/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kissplice
-.. |docker| image:: https://quay.io/repository/biocontainers/kissplice/status
-                :target: https://quay.io/repository/biocontainers/kissplice
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kissplice/README.html
 

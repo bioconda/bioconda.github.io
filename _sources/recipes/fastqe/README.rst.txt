@@ -1,57 +1,69 @@
-.. _`fastqe`:
+.. title:: Package Recipe 'fastqe'
+.. highlight: bash
+
 
 fastqe
 ======
 
-|downloads|
+.. conda:recipe:: fastqe
+   :replaces_section_title:
 
-A emoji based bioinformatics command line tool
+   A emoji based bioinformatics command line tool
 
-============= ===========
-Home          https://github.com/lonsbio/fastqe
-Versions      0.1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastqe/meta.yaml
+   :homepage: https://github.com/lonsbio/fastqe
+   :license: MIT / MIT
+   :recipe: /`fastqe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe/meta.yaml>`_
 
+   The program reads one or more input FASTQ files.
+   For each file it computes the minimum\, maximum and mean FASTQ quality score at each position across all reads in a file.
 
-
-============= ===========
-
-The program reads one or more input FASTQ files.
-For each file it computes the minimum\, maximum and mean FASTQ quality score at each position across all reads in a file.
-
-For some reason\, it then represents these as emoji.
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install fastqe
-
-and update with::
-
-   conda update fastqe
+   For some reason\, it then represents these as emoji.
 
 
+.. conda:package:: fastqe
 
-|docker|
+   |downloads_fastqe| |docker_fastqe|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastqe.
+   :versions: 0.1.1
+
+   :depends: :conda:package:`biopython` >=1.66 :conda:package:`pyemojify`  :conda:package:`python` >=2.7,<2.8.0a0 
+
+   :required~by: |required_by_fastqe|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastqe
+
+   and update with::
+
+      conda update fastqe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastqe
+
+
+.. |required_by_fastqe| conda:required_by:: fastqe
+.. |downloads_fastqe| image:: https://img.shields.io/conda/dn/bioconda/fastqe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastqe| image:: https://quay.io/repository/biocontainers/fastqe/status
+   :target: https://quay.io/repository/biocontainers/fastqe
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastqe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastqe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastqe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastqe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastqe
-.. |docker| image:: https://quay.io/repository/biocontainers/fastqe/status
-                :target: https://quay.io/repository/biocontainers/fastqe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastqe/README.html
 

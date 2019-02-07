@@ -1,54 +1,66 @@
-.. _`ucsc-autosql`:
+.. title:: Package Recipe 'ucsc-autosql'
+.. highlight: bash
+
 
 ucsc-autosql
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-autosql
+   :replaces_section_title:
 
-create SQL and C code for permanently storing
+   create SQL and C code for permanently storing
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-autosql/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-autosql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-autosql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-autosql/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-autosql
 
-Installation
-------------
+   |downloads_ucsc-autosql| |docker_ucsc-autosql|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-autosql
+   :required~by: |required_by_ucsc-autosql|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-autosql
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-autosql
+
+   and update with::
+
+      conda update ucsc-autosql
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-autosql
+
+
+.. |required_by_ucsc-autosql| conda:required_by:: ucsc-autosql
+.. |downloads_ucsc-autosql| image:: https://img.shields.io/conda/dn/bioconda/ucsc-autosql.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-autosql| image:: https://quay.io/repository/biocontainers/ucsc-autosql/status
+   :target: https://quay.io/repository/biocontainers/ucsc-autosql
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-autosql.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-autosql/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-autosql/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-autosql/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-autosql/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-autosql
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-autosql/status
-                :target: https://quay.io/repository/biocontainers/ucsc-autosql
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-autosql/README.html
 

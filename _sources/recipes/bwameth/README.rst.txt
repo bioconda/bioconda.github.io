@@ -1,54 +1,66 @@
-.. _`bwameth`:
+.. title:: Package Recipe 'bwameth'
+.. highlight: bash
+
 
 bwameth
 =======
 
-|downloads|
+.. conda:recipe:: bwameth
+   :replaces_section_title:
 
-A fast and accurate aligner of BS\-seq reads
+   A fast and accurate aligner of BS\-seq reads
 
-============= ===========
-Home          https://github.com/brentp/bwa-meth
-Versions      0.2.2, 0.2.1, 0.2.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bwameth/meta.yaml
+   :homepage: https://github.com/brentp/bwa-meth
+   :license: MIT
+   :recipe: /`bwameth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bwameth
 
-Installation
-------------
+   |downloads_bwameth| |docker_bwameth|
 
-.. highlight: bash
+   :versions: 0.2.2, 0.2.1, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bwa`  :conda:package:`python`  :conda:package:`samtools`  :conda:package:`toolshed` >=0.3.9 
 
-   conda install bwameth
+   :required~by: |required_by_bwameth|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bwameth
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bwameth
+
+   and update with::
+
+      conda update bwameth
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bwameth
+
+
+.. |required_by_bwameth| conda:required_by:: bwameth
+.. |downloads_bwameth| image:: https://img.shields.io/conda/dn/bioconda/bwameth.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bwameth| image:: https://quay.io/repository/biocontainers/bwameth/status
+   :target: https://quay.io/repository/biocontainers/bwameth
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bwameth.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bwameth/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bwameth/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bwameth/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bwameth/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bwameth
-.. |docker| image:: https://quay.io/repository/biocontainers/bwameth/status
-                :target: https://quay.io/repository/biocontainers/bwameth
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bwameth/README.html
 

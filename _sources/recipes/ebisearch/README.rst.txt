@@ -1,54 +1,66 @@
-.. _`ebisearch`:
+.. title:: Package Recipe 'ebisearch'
+.. highlight: bash
+
 
 ebisearch
 =========
 
-|downloads|
+.. conda:recipe:: ebisearch
+   :replaces_section_title:
 
-A Python library for interacting with EBI Search\'s API
+   A Python library for interacting with EBI Search\'s API
 
-============= ===========
-Home          https://github.com/bebatut/ebisearch
-Versions      0.0.3, 0.0.2
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ebisearch/meta.yaml
+   :homepage: https://github.com/bebatut/ebisearch
+   :license: MIT / MIT License
+   :recipe: /`ebisearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebisearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebisearch/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ebisearch
 
-Installation
-------------
+   |downloads_ebisearch| |docker_ebisearch|
 
-.. highlight: bash
+   :versions: 0.0.3, 0.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`flake8`  :conda:package:`python` 2.7* :conda:package:`requests`  
 
-   conda install ebisearch
+   :required~by: |required_by_ebisearch|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ebisearch
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ebisearch
+
+   and update with::
+
+      conda update ebisearch
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ebisearch
+
+
+.. |required_by_ebisearch| conda:required_by:: ebisearch
+.. |downloads_ebisearch| image:: https://img.shields.io/conda/dn/bioconda/ebisearch.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ebisearch| image:: https://quay.io/repository/biocontainers/ebisearch/status
+   :target: https://quay.io/repository/biocontainers/ebisearch
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ebisearch.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ebisearch/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ebisearch/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ebisearch/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ebisearch/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ebisearch
-.. |docker| image:: https://quay.io/repository/biocontainers/ebisearch/status
-                :target: https://quay.io/repository/biocontainers/ebisearch
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ebisearch/README.html
 

@@ -1,56 +1,67 @@
-.. _`r-mcpcounter`:
+.. title:: Package Recipe 'r-mcpcounter'
+.. highlight: bash
+
 
 r-mcpcounter
 ============
 
-|downloads|
+.. conda:recipe:: r-mcpcounter
+   :replaces_section_title:
 
-Estimating tissue\-infiltrating immune and other stromal subpopulations abundances using gene expression
+   Estimating tissue\-infiltrating immune and other stromal subpopulations abundances using gene expression
 
-============= ===========
-Home          https://github.com/ebecht/MCPcounter
-Versions      0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mcpcounter/meta.yaml
+   :homepage: https://github.com/ebecht/MCPcounter
+   :license: GPL / GPL-3
+   :recipe: /`r-mcpcounter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mcpcounter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mcpcounter/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-016-1070-5`
 
-
-
-Links         doi: :doi:`10.1186/s13059-016-1070-5`
-
-============= ===========
+   
 
 
+.. conda:package:: r-mcpcounter
 
-Installation
-------------
+   |downloads_r-mcpcounter| |docker_r-mcpcounter|
 
-.. highlight: bash
+   :versions: 0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-curl` >=2.6 
 
-   conda install r-mcpcounter
+   :required~by: |required_by_r-mcpcounter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-mcpcounter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-mcpcounter
+
+   and update with::
+
+      conda update r-mcpcounter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-mcpcounter
+
+
+.. |required_by_r-mcpcounter| conda:required_by:: r-mcpcounter
+.. |downloads_r-mcpcounter| image:: https://img.shields.io/conda/dn/bioconda/r-mcpcounter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-mcpcounter| image:: https://quay.io/repository/biocontainers/r-mcpcounter/status
+   :target: https://quay.io/repository/biocontainers/r-mcpcounter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-mcpcounter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-mcpcounter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-mcpcounter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-mcpcounter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-mcpcounter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-mcpcounter
-.. |docker| image:: https://quay.io/repository/biocontainers/r-mcpcounter/status
-                :target: https://quay.io/repository/biocontainers/r-mcpcounter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-mcpcounter/README.html
 

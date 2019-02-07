@@ -1,56 +1,67 @@
-.. _`dig2`:
+.. title:: Package Recipe 'dig2'
+.. highlight: bash
+
 
 dig2
 ====
 
-|downloads|
+.. conda:recipe:: dig2
+   :replaces_section_title:
 
-dig2 is a simple but flexible in silico digester of protein sequences in the FASTA format. It allows for almost any enzyme to be simulated\, including MS\/MS enzymes to generate CID or ECD\/ETD fragments.
+   dig2 is a simple but flexible in silico digester of protein sequences in the FASTA format. It allows for almost any enzyme to be simulated\, including MS\/MS enzymes to generate CID or ECD\/ETD fragments.
 
-============= ===========
-Home          http://www.ms-utils.org/dig2/dig2.html
-Versions      1.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dig2/meta.yaml
+   :homepage: http://www.ms-utils.org/dig2/dig2.html
+   :license: GPL3
+   :recipe: /`dig2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dig2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dig2/meta.yaml>`_
+   :links: biotools: :biotools:`dig2`
 
-
-
-Links         biotools: :biotools:`dig2`
-
-============= ===========
+   
 
 
+.. conda:package:: dig2
 
-Installation
-------------
+   |downloads_dig2| |docker_dig2|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install dig2
+   :required~by: |required_by_dig2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dig2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dig2
+
+   and update with::
+
+      conda update dig2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dig2
+
+
+.. |required_by_dig2| conda:required_by:: dig2
+.. |downloads_dig2| image:: https://img.shields.io/conda/dn/bioconda/dig2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dig2| image:: https://quay.io/repository/biocontainers/dig2/status
+   :target: https://quay.io/repository/biocontainers/dig2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dig2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dig2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dig2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dig2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dig2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dig2
-.. |docker| image:: https://quay.io/repository/biocontainers/dig2/status
-                :target: https://quay.io/repository/biocontainers/dig2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dig2/README.html
 

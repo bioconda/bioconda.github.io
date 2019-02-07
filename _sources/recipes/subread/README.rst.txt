@@ -1,56 +1,67 @@
-.. _`subread`:
+.. title:: Package Recipe 'subread'
+.. highlight: bash
+
 
 subread
 =======
 
-|downloads|
+.. conda:recipe:: subread
+   :replaces_section_title:
 
-High\-performance read alignment\, quantification\, and mutation discovery
+   High\-performance read alignment\, quantification\, and mutation discovery
 
-============= ===========
-Home          http://subread.sourceforge.net/
-Versions      1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.5.3, 1.5.2, 1.5.0.post3, 1.5.0, 1.5.0p3, 1.4.6p5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//subread/meta.yaml
+   :homepage: http://subread.sourceforge.net/
+   :license: GPLv3
+   :recipe: /`subread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread/meta.yaml>`_
+   :links: biotools: :biotools:`subread`, doi: :doi:`10.1093/nar/gkt214`
 
-
-
-Links         biotools: :biotools:`subread`, doi: :doi:`10.1093/nar/gkt214`
-
-============= ===========
+   
 
 
+.. conda:package:: subread
 
-Installation
-------------
+   |downloads_subread| |docker_subread|
 
-.. highlight: bash
+   :versions: 1.6.3, 1.6.2, 1.6.1, 1.6.0, 1.5.3, 1.5.2, 1.5.0.post3, 1.5.0, 1.5.0p3, 1.4.6p5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install subread
+   :required~by: |required_by_subread|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update subread
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install subread
+
+   and update with::
+
+      conda update subread
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/subread
+
+
+.. |required_by_subread| conda:required_by:: subread
+.. |downloads_subread| image:: https://img.shields.io/conda/dn/bioconda/subread.svg?style=flat
+   :alt:   (downloads)
+.. |docker_subread| image:: https://quay.io/repository/biocontainers/subread/status
+   :target: https://quay.io/repository/biocontainers/subread
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/subread.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/subread/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/subread/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/subread/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/subread/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/subread
-.. |docker| image:: https://quay.io/repository/biocontainers/subread/status
-                :target: https://quay.io/repository/biocontainers/subread
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/subread/README.html
 

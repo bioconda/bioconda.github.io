@@ -1,54 +1,66 @@
-.. _`bioconductor-kissde`:
+.. title:: Package Recipe 'bioconductor-kissde'
+.. highlight: bash
+
 
 bioconductor-kissde
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-kissde
+   :replaces_section_title:
 
-Retrieves condition\-specific variants in RNA\-seq data \(SNVs\, alternative\-splicings\, indels\). It has been developed as a post\-treatment of \'KisSplice\' but can also be used with user\'s own data.
+   Retrieves condition\-specific variants in RNA\-seq data \(SNVs\, alternative\-splicings\, indels\). It has been developed as a post\-treatment of \'KisSplice\' but can also be used with user\'s own data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/kissDE.html
-Versions      1.2.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-kissde/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/kissDE.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-kissde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-kissde
 
-Installation
-------------
+   |downloads_bioconductor-kissde| |docker_bioconductor-kissde|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-dss` >=2.30.0,<2.31.0 :conda:package:`r-aod`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-matrixstats`  
 
-   conda install bioconductor-kissde
+   :required~by: |required_by_bioconductor-kissde|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-kissde
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-kissde
+
+   and update with::
+
+      conda update bioconductor-kissde
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-kissde
+
+
+.. |required_by_bioconductor-kissde| conda:required_by:: bioconductor-kissde
+.. |downloads_bioconductor-kissde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kissde.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-kissde| image:: https://quay.io/repository/biocontainers/bioconductor-kissde/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-kissde
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-kissde.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-kissde/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-kissde/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-kissde/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-kissde/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-kissde
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-kissde/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-kissde
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-kissde/README.html
 

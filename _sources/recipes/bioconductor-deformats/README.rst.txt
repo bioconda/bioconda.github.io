@@ -1,56 +1,67 @@
-.. _`bioconductor-deformats`:
+.. title:: Package Recipe 'bioconductor-deformats'
+.. highlight: bash
+
 
 bioconductor-deformats
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-deformats
+   :replaces_section_title:
 
-Convert between different data formats used by differential gene expression analysis tools.
+   Convert between different data formats used by differential gene expression analysis tools.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DEFormats.html
-Versions      1.10.0, 1.8.0, 1.6.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-deformats/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DEFormats.html
+   :license: GPL-3
+   :recipe: /`bioconductor-deformats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deformats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deformats/meta.yaml>`_
+   :links: biotools: :biotools:`deformats`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`deformats`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-deformats
 
-Installation
-------------
+   |downloads_bioconductor-deformats| |docker_bioconductor-deformats|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-data.table`  
 
-   conda install bioconductor-deformats
+   :required~by: |required_by_bioconductor-deformats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-deformats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-deformats
+
+   and update with::
+
+      conda update bioconductor-deformats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-deformats
+
+
+.. |required_by_bioconductor-deformats| conda:required_by:: bioconductor-deformats
+.. |downloads_bioconductor-deformats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deformats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-deformats| image:: https://quay.io/repository/biocontainers/bioconductor-deformats/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-deformats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-deformats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-deformats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-deformats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-deformats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-deformats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-deformats
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-deformats/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-deformats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-deformats/README.html
 

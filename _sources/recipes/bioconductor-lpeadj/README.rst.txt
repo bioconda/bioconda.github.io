@@ -1,56 +1,67 @@
-.. _`bioconductor-lpeadj`:
+.. title:: Package Recipe 'bioconductor-lpeadj'
+.. highlight: bash
+
 
 bioconductor-lpeadj
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-lpeadj
+   :replaces_section_title:
 
-Two options are added to the LPE algorithm. The original LPE method sets all variances below the max variance in the ordered distribution of variances to the maximum variance. in LPEadj this option is turned off by default.  The second option is to use a variance adjustment based on sample size rather than pi\/2.  By default the LPEadj uses the sample size based variance adjustment.
+   Two options are added to the LPE algorithm. The original LPE method sets all variances below the max variance in the ordered distribution of variances to the maximum variance. in LPEadj this option is turned off by default.  The second option is to use a variance adjustment based on sample size rather than pi\/2.  By default the LPEadj uses the sample size based variance adjustment.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/LPEadj.html
-Versions      1.42.0, 1.40.0, 1.38.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lpeadj/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LPEadj.html
+   :license: LGPL
+   :recipe: /`bioconductor-lpeadj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj/meta.yaml>`_
+   :links: biotools: :biotools:`lpeadj`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`lpeadj`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lpeadj
 
-Installation
-------------
+   |downloads_bioconductor-lpeadj| |docker_bioconductor-lpeadj|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-lpe` >=1.56.0,<1.57.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-lpeadj
+   :required~by: |required_by_bioconductor-lpeadj|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lpeadj
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lpeadj
+
+   and update with::
+
+      conda update bioconductor-lpeadj
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lpeadj
+
+
+.. |required_by_bioconductor-lpeadj| conda:required_by:: bioconductor-lpeadj
+.. |downloads_bioconductor-lpeadj| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpeadj.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lpeadj| image:: https://quay.io/repository/biocontainers/bioconductor-lpeadj/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lpeadj
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lpeadj.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lpeadj/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lpeadj/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lpeadj/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lpeadj/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lpeadj
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lpeadj/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lpeadj
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lpeadj/README.html
 

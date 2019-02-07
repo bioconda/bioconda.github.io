@@ -1,56 +1,68 @@
-.. _`xmatchview`:
+.. title:: Package Recipe 'xmatchview'
+.. highlight: bash
+
 
 xmatchview
 ==========
 
-|downloads|
+.. conda:recipe:: xmatchview
+   :replaces_section_title:
 
-Genome sequence alignment visualization
+   Genome sequence alignment visualization
 
-============= ===========
-Home          http://www.bcgsc.ca/platform/bioinfo/software/xmatchview
-Versions      1.1.1, v1.1.1
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xmatchview/meta.yaml
+   :homepage: http://www.bcgsc.ca/platform/bioinfo/software/xmatchview
+   :documentation: https://github.com/bcgsc/xmatchview
+   
+   :license: GNU General Public License v3.0
+   :recipe: /`xmatchview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xmatchview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xmatchview/meta.yaml>`_
 
-Documentation https://github.com/bcgsc/xmatchview
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: xmatchview
 
-Installation
-------------
+   |downloads_xmatchview| |docker_xmatchview|
 
-.. highlight: bash
+   :versions: 1.1.1, v1.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pil`  :conda:package:`python` 2.7.* 
 
-   conda install xmatchview
+   :required~by: |required_by_xmatchview|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xmatchview
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xmatchview
+
+   and update with::
+
+      conda update xmatchview
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xmatchview
+
+
+.. |required_by_xmatchview| conda:required_by:: xmatchview
+.. |downloads_xmatchview| image:: https://img.shields.io/conda/dn/bioconda/xmatchview.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xmatchview| image:: https://quay.io/repository/biocontainers/xmatchview/status
+   :target: https://quay.io/repository/biocontainers/xmatchview
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xmatchview.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xmatchview/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xmatchview/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xmatchview/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xmatchview/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xmatchview
-.. |docker| image:: https://quay.io/repository/biocontainers/xmatchview/status
-                :target: https://quay.io/repository/biocontainers/xmatchview
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xmatchview/README.html
 

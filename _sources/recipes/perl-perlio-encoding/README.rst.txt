@@ -1,54 +1,66 @@
-.. _`perl-perlio-encoding`:
+.. title:: Package Recipe 'perl-perlio-encoding'
+.. highlight: bash
+
 
 perl-perlio-encoding
 ====================
 
-|downloads|
+.. conda:recipe:: perl-perlio-encoding/0.18
+   :replaces_section_title:
 
-encoding layer
+   encoding layer
 
-============= ===========
-Home          http://metacpan.org/pod/PerlIO::encoding
-Versions      0.18
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perlio-encoding/0.18/meta.yaml
+   :homepage: http://metacpan.org/pod/PerlIO::encoding
+   :license: perl_5
+   :recipe: /`perl-perlio-encoding <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding>`_/`0.18 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding/0.18>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding/0.18/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-perlio-encoding
 
-Installation
-------------
+   |downloads_perl-perlio-encoding| |docker_perl-perlio-encoding|
 
-.. highlight: bash
+   :versions: 0.18
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-perlio-encoding
+   :required~by: |required_by_perl-perlio-encoding|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-perlio-encoding
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-perlio-encoding
+
+   and update with::
+
+      conda update perl-perlio-encoding
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-perlio-encoding
+
+
+.. |required_by_perl-perlio-encoding| conda:required_by:: perl-perlio-encoding
+.. |downloads_perl-perlio-encoding| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio-encoding.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-perlio-encoding| image:: https://quay.io/repository/biocontainers/perl-perlio-encoding/status
+   :target: https://quay.io/repository/biocontainers/perl-perlio-encoding
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-perlio-encoding.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-perlio-encoding/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-perlio-encoding/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-perlio-encoding/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-perlio-encoding/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-perlio-encoding
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio-encoding/status
-                :target: https://quay.io/repository/biocontainers/perl-perlio-encoding
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-perlio-encoding/README.html
 

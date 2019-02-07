@@ -1,54 +1,66 @@
-.. _`bioconductor-lrbasedbi`:
+.. title:: Package Recipe 'bioconductor-lrbasedbi'
+.. highlight: bash
+
 
 bioconductor-lrbasedbi
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-lrbasedbi
+   :replaces_section_title:
 
-Interface to construct LRBase package \(LRBase.XXX.eg.db\).
+   Interface to construct LRBase package \(LRBase.XXX.eg.db\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/LRBaseDbi.html
-Versions      1.0.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lrbasedbi/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LRBaseDbi.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-lrbasedbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lrbasedbi
 
-Installation
-------------
+   |downloads_bioconductor-lrbasedbi| |docker_bioconductor-lrbasedbi|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite`  
 
-   conda install bioconductor-lrbasedbi
+   :required~by: |required_by_bioconductor-lrbasedbi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lrbasedbi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lrbasedbi
+
+   and update with::
+
+      conda update bioconductor-lrbasedbi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lrbasedbi
+
+
+.. |required_by_bioconductor-lrbasedbi| conda:required_by:: bioconductor-lrbasedbi
+.. |downloads_bioconductor-lrbasedbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lrbasedbi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lrbasedbi| image:: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lrbasedbi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lrbasedbi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lrbasedbi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lrbasedbi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lrbasedbi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lrbasedbi
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lrbasedbi/README.html
 

@@ -1,58 +1,69 @@
-.. _`nucleoatac`:
+.. title:: Package Recipe 'nucleoatac'
+.. highlight: bash
+
 
 nucleoatac
 ==========
 
-|downloads|
+.. conda:recipe:: nucleoatac
+   :replaces_section_title:
 
-Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
+   Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
 
-============= ===========
-Home          https://github.com/GreenleafLab/NucleoATAC
-Versions      0.3.4, 0.3.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nucleoatac/meta.yaml
+   :homepage: https://github.com/GreenleafLab/NucleoATAC
+   :documentation: http://nucleoatac.readthedocs.io/en/latest/
+   
+   :license: MIT / MIT
+   :recipe: /`nucleoatac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucleoatac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucleoatac/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.192294.115`
 
-Documentation http://nucleoatac.readthedocs.io/en/latest/
-
-
-
-Links         doi: :doi:`10.1101/gr.192294.115`
-
-============= ===========
+   
 
 
+.. conda:package:: nucleoatac
 
-Installation
-------------
+   |downloads_nucleoatac| |docker_nucleoatac|
 
-.. highlight: bash
+   :versions: 0.3.4, 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython` >=0.22 :conda:package:`matplotlib`  :conda:package:`numpy` >=1.9.1 :conda:package:`pysam` >=0.8.1 :conda:package:`python` 2.7* :conda:package:`scipy`  :conda:package:`zlib`  
 
-   conda install nucleoatac
+   :required~by: |required_by_nucleoatac|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nucleoatac
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nucleoatac
+
+   and update with::
+
+      conda update nucleoatac
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nucleoatac
+
+
+.. |required_by_nucleoatac| conda:required_by:: nucleoatac
+.. |downloads_nucleoatac| image:: https://img.shields.io/conda/dn/bioconda/nucleoatac.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nucleoatac| image:: https://quay.io/repository/biocontainers/nucleoatac/status
+   :target: https://quay.io/repository/biocontainers/nucleoatac
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nucleoatac.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nucleoatac/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nucleoatac/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nucleoatac/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nucleoatac/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nucleoatac
-.. |docker| image:: https://quay.io/repository/biocontainers/nucleoatac/status
-                :target: https://quay.io/repository/biocontainers/nucleoatac
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nucleoatac/README.html
 

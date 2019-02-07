@@ -1,56 +1,67 @@
-.. _`bioconductor-metabosignal`:
+.. title:: Package Recipe 'bioconductor-metabosignal'
+.. highlight: bash
+
 
 bioconductor-metabosignal
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-metabosignal
+   :replaces_section_title:
 
-MetaboSignal is an R package that allows merging\, analyzing and customizing metabolic and signaling KEGG pathways. It is a network\-based approach designed to explore the topological relationship between genes \(signaling\- or enzymatic\-genes\) and metabolites\, representing a powerful tool to investigate the genetic landscape and regulatory networks of metabolic phenotypes.
+   MetaboSignal is an R package that allows merging\, analyzing and customizing metabolic and signaling KEGG pathways. It is a network\-based approach designed to explore the topological relationship between genes \(signaling\- or enzymatic\-genes\) and metabolites\, representing a powerful tool to investigate the genetic landscape and regulatory networks of metabolic phenotypes.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MetaboSignal.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metabosignal/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MetaboSignal.html
+   :license: GPL-3
+   :recipe: /`bioconductor-metabosignal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabosignal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabosignal/meta.yaml>`_
+   :links: biotools: :biotools:`metabosignal`
 
-
-
-Links         biotools: :biotools:`metabosignal`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-metabosignal
 
-Installation
-------------
+   |downloads_bioconductor-metabosignal| |docker_bioconductor-metabosignal|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-ensdb.hsapiens.v75` >=2.99.0,<2.100.0 :conda:package:`bioconductor-hpar` >=1.24.0,<1.25.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-mwastools` >=1.6.0,<1.7.0 :conda:package:`bioconductor-mygene` >=1.18.0,<1.19.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rcurl`  
 
-   conda install bioconductor-metabosignal
+   :required~by: |required_by_bioconductor-metabosignal|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-metabosignal
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-metabosignal
+
+   and update with::
+
+      conda update bioconductor-metabosignal
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-metabosignal
+
+
+.. |required_by_bioconductor-metabosignal| conda:required_by:: bioconductor-metabosignal
+.. |downloads_bioconductor-metabosignal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metabosignal.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-metabosignal| image:: https://quay.io/repository/biocontainers/bioconductor-metabosignal/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-metabosignal
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-metabosignal.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metabosignal/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-metabosignal/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-metabosignal/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-metabosignal/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-metabosignal
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metabosignal/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-metabosignal
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-metabosignal/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-file-pushd`:
+.. title:: Package Recipe 'perl-file-pushd'
+.. highlight: bash
+
 
 perl-file-pushd
 ===============
 
-|downloads|
+.. conda:recipe:: perl-file-pushd
+   :replaces_section_title:
 
-change directory temporarily for a limited scope
+   change directory temporarily for a limited scope
 
-============= ===========
-Home          https://github.com/dagolden/File-pushd
-Versions      1.016
-License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-pushd/meta.yaml
+   :homepage: https://github.com/dagolden/File-pushd
+   :license: apache_2_0
+   :recipe: /`perl-file-pushd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-pushd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-pushd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-pushd
 
-Installation
-------------
+   |downloads_perl-file-pushd| |docker_perl-file-pushd|
 
-.. highlight: bash
+   :versions: 1.016
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  
 
-   conda install perl-file-pushd
+   :required~by: |required_by_perl-file-pushd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-pushd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-pushd
+
+   and update with::
+
+      conda update perl-file-pushd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-pushd
+
+
+.. |required_by_perl-file-pushd| conda:required_by:: perl-file-pushd
+.. |downloads_perl-file-pushd| image:: https://img.shields.io/conda/dn/bioconda/perl-file-pushd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-pushd| image:: https://quay.io/repository/biocontainers/perl-file-pushd/status
+   :target: https://quay.io/repository/biocontainers/perl-file-pushd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-pushd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-pushd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-pushd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-pushd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-pushd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-pushd
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-pushd/status
-                :target: https://quay.io/repository/biocontainers/perl-file-pushd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-pushd/README.html
 

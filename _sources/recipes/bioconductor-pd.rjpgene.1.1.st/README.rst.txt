@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.rjpgene.1.1.st`:
+.. title:: Package Recipe 'bioconductor-pd.rjpgene.1.1.st'
+.. highlight: bash
+
 
 bioconductor-pd.rjpgene.1.1.st
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.rjpgene.1.1.st
+   :replaces_section_title:
 
-Platform Design Info for Affymetrix RJpGene\-1\_1\-st
+   Platform Design Info for Affymetrix RJpGene\-1\_1\-st
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.rjpgene.1.1.st.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.rjpgene.1.1.st/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.rjpgene.1.1.st.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.rjpgene.1.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rjpgene.1.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rjpgene.1.1.st/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.rjpgene.1.1.st
 
-Installation
-------------
+   |downloads_bioconductor-pd.rjpgene.1.1.st| |docker_bioconductor-pd.rjpgene.1.1.st|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.rjpgene.1.1.st
+   :required~by: |required_by_bioconductor-pd.rjpgene.1.1.st|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.rjpgene.1.1.st
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.rjpgene.1.1.st
+
+   and update with::
+
+      conda update bioconductor-pd.rjpgene.1.1.st
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st
+
+
+.. |required_by_bioconductor-pd.rjpgene.1.1.st| conda:required_by:: bioconductor-pd.rjpgene.1.1.st
+.. |downloads_bioconductor-pd.rjpgene.1.1.st| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rjpgene.1.1.st.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.rjpgene.1.1.st| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.rjpgene.1.1.st/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.rjpgene.1.1.st/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.rjpgene.1.1.st/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.rjpgene.1.1.st/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.rjpgene.1.1.st
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.rjpgene.1.1.st
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.rjpgene.1.1.st/README.html
 

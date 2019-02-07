@@ -1,56 +1,67 @@
-.. _`bioconductor-iterativebma`:
+.. title:: Package Recipe 'bioconductor-iterativebma'
+.. highlight: bash
+
 
 bioconductor-iterativebma
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-iterativebma
+   :replaces_section_title:
 
-The iterative Bayesian Model Averaging \(BMA\) algorithm is a variable selection and classification algorithm with an application of classifying 2\-class microarray samples\, as described in Yeung\, Bumgarner and Raftery \(Bioinformatics 2005\, 21\: 2394\-2402\).
+   The iterative Bayesian Model Averaging \(BMA\) algorithm is a variable selection and classification algorithm with an application of classifying 2\-class microarray samples\, as described in Yeung\, Bumgarner and Raftery \(Bioinformatics 2005\, 21\: 2394\-2402\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/iterativeBMA.html
-Versions      1.40.0, 1.38.0, 1.36.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iterativebma/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iterativeBMA.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-iterativebma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma/meta.yaml>`_
+   :links: biotools: :biotools:`iterativebma`, doi: :doi:`10.1186/gb-2008-9-7-r118`
 
-
-
-Links         biotools: :biotools:`iterativebma`, doi: :doi:`10.1186/gb-2008-9-7-r118`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-iterativebma
 
-Installation
-------------
+   |downloads_bioconductor-iterativebma| |docker_bioconductor-iterativebma|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bma`  :conda:package:`r-leaps`  
 
-   conda install bioconductor-iterativebma
+   :required~by: |required_by_bioconductor-iterativebma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-iterativebma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-iterativebma
+
+   and update with::
+
+      conda update bioconductor-iterativebma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-iterativebma
+
+
+.. |required_by_bioconductor-iterativebma| conda:required_by:: bioconductor-iterativebma
+.. |downloads_bioconductor-iterativebma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iterativebma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-iterativebma| image:: https://quay.io/repository/biocontainers/bioconductor-iterativebma/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-iterativebma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-iterativebma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-iterativebma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-iterativebma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-iterativebma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-iterativebma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-iterativebma
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-iterativebma/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-iterativebma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-iterativebma/README.html
 

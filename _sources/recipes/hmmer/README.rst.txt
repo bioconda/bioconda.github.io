@@ -1,54 +1,66 @@
-.. _`hmmer`:
+.. title:: Package Recipe 'hmmer'
+.. highlight: bash
+
 
 hmmer
 =====
 
-|downloads|
+.. conda:recipe:: hmmer
+   :replaces_section_title:
 
-Biosequence analysis using profile hidden Markov models
+   Biosequence analysis using profile hidden Markov models
 
-============= ===========
-Home          http://hmmer.org/
-Versions      3.2.1, 3.2, 3.1b2, 2.3.2
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hmmer/meta.yaml
+   :homepage: http://hmmer.org/
+   :license: BSD
+   :recipe: /`hmmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hmmer
 
-Installation
-------------
+   |downloads_hmmer| |docker_hmmer|
 
-.. highlight: bash
+   :versions: 3.2.1, 3.2, 3.1b2, 2.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 
 
-   conda install hmmer
+   :required~by: |required_by_hmmer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hmmer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hmmer
+
+   and update with::
+
+      conda update hmmer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hmmer
+
+
+.. |required_by_hmmer| conda:required_by:: hmmer
+.. |downloads_hmmer| image:: https://img.shields.io/conda/dn/bioconda/hmmer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hmmer| image:: https://quay.io/repository/biocontainers/hmmer/status
+   :target: https://quay.io/repository/biocontainers/hmmer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hmmer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hmmer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hmmer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hmmer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hmmer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hmmer
-.. |docker| image:: https://quay.io/repository/biocontainers/hmmer/status
-                :target: https://quay.io/repository/biocontainers/hmmer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hmmer/README.html
 

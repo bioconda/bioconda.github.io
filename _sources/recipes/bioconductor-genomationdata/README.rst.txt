@@ -1,54 +1,66 @@
-.. _`bioconductor-genomationdata`:
+.. title:: Package Recipe 'bioconductor-genomationdata'
+.. highlight: bash
+
 
 bioconductor-genomationdata
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-genomationdata
+   :replaces_section_title:
 
-The package contains Chip Seq\, Methylation and Cage data\, downloaded from Encode
+   The package contains Chip Seq\, Methylation and Cage data\, downloaded from Encode
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/genomationData.html
-Versions      1.14.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomationdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/genomationData.html
+   :license: GPL-3
+   :recipe: /`bioconductor-genomationdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomationdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomationdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genomationdata
 
-Installation
-------------
+   |downloads_bioconductor-genomationdata| |docker_bioconductor-genomationdata|
 
-.. highlight: bash
+   :versions: 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-genomationdata
+   :required~by: |required_by_bioconductor-genomationdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genomationdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genomationdata
+
+   and update with::
+
+      conda update bioconductor-genomationdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genomationdata
+
+
+.. |required_by_bioconductor-genomationdata| conda:required_by:: bioconductor-genomationdata
+.. |downloads_bioconductor-genomationdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomationdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genomationdata| image:: https://quay.io/repository/biocontainers/bioconductor-genomationdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genomationdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genomationdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genomationdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genomationdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genomationdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genomationdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genomationdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomationdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genomationdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genomationdata/README.html
 

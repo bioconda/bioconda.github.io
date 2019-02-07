@@ -1,54 +1,66 @@
-.. _`bioconductor-gsbenchmark`:
+.. title:: Package Recipe 'bioconductor-gsbenchmark'
+.. highlight: bash
+
 
 bioconductor-gsbenchmark
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-gsbenchmark
+   :replaces_section_title:
 
-Benchmarks for Machine Learning Analysis of the Gene Sets. The package contains a list of pathways and gene expression data sets used in \"Identifying Tightly Regulated and Variably Expressed Networks by Differential Rank Conservation \(DIRAC\)\" \(2010\) by Eddy et al.
+   Benchmarks for Machine Learning Analysis of the Gene Sets. The package contains a list of pathways and gene expression data sets used in \"Identifying Tightly Regulated and Variably Expressed Networks by Differential Rank Conservation \(DIRAC\)\" \(2010\) by Eddy et al.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/GSBenchMark.html
-Versions      1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gsbenchmark/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/GSBenchMark.html
+   :license: GPL-2
+   :recipe: /`bioconductor-gsbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gsbenchmark
 
-Installation
-------------
+   |downloads_bioconductor-gsbenchmark| |docker_bioconductor-gsbenchmark|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-gsbenchmark
+   :required~by: |required_by_bioconductor-gsbenchmark|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gsbenchmark
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gsbenchmark
+
+   and update with::
+
+      conda update bioconductor-gsbenchmark
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gsbenchmark
+
+
+.. |required_by_bioconductor-gsbenchmark| conda:required_by:: bioconductor-gsbenchmark
+.. |downloads_bioconductor-gsbenchmark| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsbenchmark.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gsbenchmark| image:: https://quay.io/repository/biocontainers/bioconductor-gsbenchmark/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gsbenchmark
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gsbenchmark.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gsbenchmark/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gsbenchmark/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gsbenchmark/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gsbenchmark/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gsbenchmark
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gsbenchmark/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gsbenchmark
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gsbenchmark/README.html
 

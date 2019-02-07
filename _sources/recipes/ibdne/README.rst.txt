@@ -1,54 +1,66 @@
-.. _`ibdne`:
+.. title:: Package Recipe 'ibdne'
+.. highlight: bash
+
 
 ibdne
 =====
 
-|downloads|
+.. conda:recipe:: ibdne
+   :replaces_section_title:
 
-The IBDNe program estimates the historical effective population size of a homogenous population \(from the output of IDBseq\).
+   The IBDNe program estimates the historical effective population size of a homogenous population \(from the output of IDBseq\).
 
-============= ===========
-Home          http://faculty.washington.edu/browning/ibdne.html
-Versions      04Sep15.e78
-License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ibdne/meta.yaml
+   :homepage: http://faculty.washington.edu/browning/ibdne.html
+   :license: Apache v2.0
+   :recipe: /`ibdne <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ibdne
 
-Installation
-------------
+   |downloads_ibdne| |docker_ibdne|
 
-.. highlight: bash
+   :versions: 04Sep15.e78
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=6.0.77 
 
-   conda install ibdne
+   :required~by: |required_by_ibdne|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ibdne
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ibdne
+
+   and update with::
+
+      conda update ibdne
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ibdne
+
+
+.. |required_by_ibdne| conda:required_by:: ibdne
+.. |downloads_ibdne| image:: https://img.shields.io/conda/dn/bioconda/ibdne.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ibdne| image:: https://quay.io/repository/biocontainers/ibdne/status
+   :target: https://quay.io/repository/biocontainers/ibdne
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ibdne.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ibdne/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ibdne/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ibdne/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ibdne/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ibdne
-.. |docker| image:: https://quay.io/repository/biocontainers/ibdne/status
-                :target: https://quay.io/repository/biocontainers/ibdne
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ibdne/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-sub-install`:
+.. title:: Package Recipe 'perl-sub-install'
+.. highlight: bash
+
 
 perl-sub-install
 ================
 
-|downloads|
+.. conda:recipe:: perl-sub-install
+   :replaces_section_title:
 
-install subroutines into packages easily
+   install subroutines into packages easily
 
-============= ===========
-Home          https://github.com/rjbs/Sub-Install
-Versions      0.928
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-install/meta.yaml
+   :homepage: https://github.com/rjbs/Sub-Install
+   :license: perl_5
+   :recipe: /`perl-sub-install <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-install>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-install/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sub-install
 
-Installation
-------------
+   |downloads_perl-sub-install| |docker_perl-sub-install|
 
-.. highlight: bash
+   :versions: 0.928
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
 
-   conda install perl-sub-install
+   :required~by: |required_by_perl-sub-install|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sub-install
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sub-install
+
+   and update with::
+
+      conda update perl-sub-install
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sub-install
+
+
+.. |required_by_perl-sub-install| conda:required_by:: perl-sub-install
+.. |downloads_perl-sub-install| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-install.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sub-install| image:: https://quay.io/repository/biocontainers/perl-sub-install/status
+   :target: https://quay.io/repository/biocontainers/perl-sub-install
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sub-install.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sub-install/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sub-install/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sub-install/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sub-install/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sub-install
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-install/status
-                :target: https://quay.io/repository/biocontainers/perl-sub-install
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sub-install/README.html
 

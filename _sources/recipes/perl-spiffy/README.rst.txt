@@ -1,54 +1,66 @@
-.. _`perl-spiffy`:
+.. title:: Package Recipe 'perl-spiffy'
+.. highlight: bash
+
 
 perl-spiffy
 ===========
 
-|downloads|
+.. conda:recipe:: perl-spiffy
+   :replaces_section_title:
 
-Spiffy Perl Interface Framework For You
+   Spiffy Perl Interface Framework For You
 
-============= ===========
-Home          https://github.com/ingydotnet/spiffy-pm
-Versions      0.46
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-spiffy/meta.yaml
+   :homepage: https://github.com/ingydotnet/spiffy-pm
+   :license: perl_5
+   :recipe: /`perl-spiffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spiffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spiffy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-spiffy
 
-Installation
-------------
+   |downloads_perl-spiffy| |docker_perl-spiffy|
 
-.. highlight: bash
+   :versions: 0.46
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-spiffy
+   :required~by: |required_by_perl-spiffy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-spiffy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-spiffy
+
+   and update with::
+
+      conda update perl-spiffy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-spiffy
+
+
+.. |required_by_perl-spiffy| conda:required_by:: perl-spiffy
+.. |downloads_perl-spiffy| image:: https://img.shields.io/conda/dn/bioconda/perl-spiffy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-spiffy| image:: https://quay.io/repository/biocontainers/perl-spiffy/status
+   :target: https://quay.io/repository/biocontainers/perl-spiffy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-spiffy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-spiffy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-spiffy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-spiffy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-spiffy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-spiffy
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-spiffy/status
-                :target: https://quay.io/repository/biocontainers/perl-spiffy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-spiffy/README.html
 

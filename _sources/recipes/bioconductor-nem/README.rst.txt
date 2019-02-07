@@ -1,56 +1,67 @@
-.. _`bioconductor-nem`:
+.. title:: Package Recipe 'bioconductor-nem'
+.. highlight: bash
+
 
 bioconductor-nem
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-nem
+   :replaces_section_title:
 
-The package \'nem\' allows to reconstruct features of pathways from the nested structure of perturbation effects. It takes as input \(1.\) a set of pathway components\, which were perturbed\, and \(2.\) phenotypic readout of these perturbations \(e.g. gene expression\, protein expression\). The output is a directed graph representing the phenotypic hierarchy.
+   The package \'nem\' allows to reconstruct features of pathways from the nested structure of perturbation effects. It takes as input \(1.\) a set of pathway components\, which were perturbed\, and \(2.\) phenotypic readout of these perturbations \(e.g. gene expression\, protein expression\). The output is a directed graph representing the phenotypic hierarchy.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/nem.html
-Versions      2.56.0, 2.54.0, 2.52.0, 2.50.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nem/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/nem.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-nem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nem/meta.yaml>`_
+   :links: biotools: :biotools:`nem`, doi: :doi:`10.1093/bioinformatics/btq385`
 
-
-
-Links         biotools: :biotools:`nem`, doi: :doi:`10.1093/bioinformatics/btq385`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-nem
 
-Installation
-------------
+   |downloads_bioconductor-nem| |docker_bioconductor-nem|
 
-.. highlight: bash
+   :versions: 2.56.0, 2.54.0, 2.52.0, 2.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-e1071`  :conda:package:`r-plotrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-statmod`  
 
-   conda install bioconductor-nem
+   :required~by: |required_by_bioconductor-nem|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-nem
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-nem
+
+   and update with::
+
+      conda update bioconductor-nem
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-nem
+
+
+.. |required_by_bioconductor-nem| conda:required_by:: bioconductor-nem
+.. |downloads_bioconductor-nem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nem.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-nem| image:: https://quay.io/repository/biocontainers/bioconductor-nem/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-nem
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-nem.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-nem/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-nem/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-nem/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-nem/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-nem
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nem/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-nem
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-nem/README.html
 

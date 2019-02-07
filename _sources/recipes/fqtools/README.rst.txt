@@ -1,54 +1,66 @@
-.. _`fqtools`:
+.. title:: Package Recipe 'fqtools'
+.. highlight: bash
+
 
 fqtools
 =======
 
-|downloads|
+.. conda:recipe:: fqtools
+   :replaces_section_title:
 
-An efficient FASTQ manipulation suite.
+   An efficient FASTQ manipulation suite.
 
-============= ===========
-Home          https://github.com/alastair-droop/fqtools
-Versions      2.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fqtools/meta.yaml
+   :homepage: https://github.com/alastair-droop/fqtools
+   :license: GPLv3
+   :recipe: /`fqtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fqtools
 
-Installation
-------------
+   |downloads_fqtools| |docker_fqtools|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib`  :conda:package:`zlib`  
 
-   conda install fqtools
+   :required~by: |required_by_fqtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fqtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fqtools
+
+   and update with::
+
+      conda update fqtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fqtools
+
+
+.. |required_by_fqtools| conda:required_by:: fqtools
+.. |downloads_fqtools| image:: https://img.shields.io/conda/dn/bioconda/fqtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fqtools| image:: https://quay.io/repository/biocontainers/fqtools/status
+   :target: https://quay.io/repository/biocontainers/fqtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fqtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fqtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fqtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fqtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fqtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fqtools
-.. |docker| image:: https://quay.io/repository/biocontainers/fqtools/status
-                :target: https://quay.io/repository/biocontainers/fqtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fqtools/README.html
 

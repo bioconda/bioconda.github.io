@@ -1,54 +1,66 @@
-.. _`perl-business-isbn`:
+.. title:: Package Recipe 'perl-business-isbn'
+.. highlight: bash
+
 
 perl-business-isbn
 ==================
 
-|downloads|
+.. conda:recipe:: perl-business-isbn
+   :replaces_section_title:
 
-work with International Standard Book Numbers
+   work with International Standard Book Numbers
 
-============= ===========
-Home          https://github.com/briandfoy/business-isbn
-Versions      3.004
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-business-isbn/meta.yaml
+   :homepage: https://github.com/briandfoy/business-isbn
+   :license: artistic_2
+   :recipe: /`perl-business-isbn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-business-isbn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-business-isbn/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-business-isbn
 
-Installation
-------------
+   |downloads_perl-business-isbn| |docker_perl-business-isbn|
 
-.. highlight: bash
+   :versions: 3.004
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-business-isbn-data`  
 
-   conda install perl-business-isbn
+   :required~by: |required_by_perl-business-isbn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-business-isbn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-business-isbn
+
+   and update with::
+
+      conda update perl-business-isbn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-business-isbn
+
+
+.. |required_by_perl-business-isbn| conda:required_by:: perl-business-isbn
+.. |downloads_perl-business-isbn| image:: https://img.shields.io/conda/dn/bioconda/perl-business-isbn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-business-isbn| image:: https://quay.io/repository/biocontainers/perl-business-isbn/status
+   :target: https://quay.io/repository/biocontainers/perl-business-isbn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-business-isbn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-business-isbn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-business-isbn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-business-isbn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-business-isbn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-business-isbn
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-business-isbn/status
-                :target: https://quay.io/repository/biocontainers/perl-business-isbn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-business-isbn/README.html
 

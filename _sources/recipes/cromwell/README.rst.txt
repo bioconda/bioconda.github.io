@@ -1,56 +1,67 @@
-.. _`cromwell`:
+.. title:: Package Recipe 'cromwell'
+.. highlight: bash
+
 
 cromwell
 ========
 
-|downloads|
+.. conda:recipe:: cromwell
+   :replaces_section_title:
 
-A Workflow Management System geared towards scientific workflows described in WDL
+   A Workflow Management System geared towards scientific workflows described in WDL
 
-============= ===========
-Home          https://github.com/broadinstitute/cromwell
-Versions      0.37a, 0.36, 0.35, 0.34, 0.32, 0.32a, 0.30, 0.29, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.19.4
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cromwell/meta.yaml
+   :homepage: https://github.com/broadinstitute/cromwell
+   :license: BSD
+   :recipe: /`cromwell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell/meta.yaml>`_
+   :links: biotools: :biotools:`cromwell`
 
-
-
-Links         biotools: :biotools:`cromwell`
-
-============= ===========
+   
 
 
+.. conda:package:: cromwell
 
-Installation
-------------
+   |downloads_cromwell| |docker_cromwell|
 
-.. highlight: bash
+   :versions: 0.37a, 0.36, 0.35, 0.34, 0.32, 0.32a, 0.30, 0.29, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.19.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`findutils`  :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
 
-   conda install cromwell
+   :required~by: |required_by_cromwell|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cromwell
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cromwell
+
+   and update with::
+
+      conda update cromwell
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cromwell
+
+
+.. |required_by_cromwell| conda:required_by:: cromwell
+.. |downloads_cromwell| image:: https://img.shields.io/conda/dn/bioconda/cromwell.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cromwell| image:: https://quay.io/repository/biocontainers/cromwell/status
+   :target: https://quay.io/repository/biocontainers/cromwell
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cromwell.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cromwell/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cromwell/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cromwell/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cromwell/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cromwell
-.. |docker| image:: https://quay.io/repository/biocontainers/cromwell/status
-                :target: https://quay.io/repository/biocontainers/cromwell
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cromwell/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-text-template-simple`:
+.. title:: Package Recipe 'perl-text-template-simple'
+.. highlight: bash
+
 
 perl-text-template-simple
 =========================
 
-|downloads|
+.. conda:recipe:: perl-text-template-simple
+   :replaces_section_title:
 
-Simple text template engine
+   Simple text template engine
 
-============= ===========
-Home          http://metacpan.org/pod/Text::Template::Simple
-Versions      0.91
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-template-simple/meta.yaml
+   :homepage: http://metacpan.org/pod/Text::Template::Simple
+   :license: perl_5
+   :recipe: /`perl-text-template-simple <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template-simple>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template-simple/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-text-template-simple
 
-Installation
-------------
+   |downloads_perl-text-template-simple| |docker_perl-text-template-simple|
 
-.. highlight: bash
+   :versions: 0.91
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-digest-md5`  
 
-   conda install perl-text-template-simple
+   :required~by: |required_by_perl-text-template-simple|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-text-template-simple
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-text-template-simple
+
+   and update with::
+
+      conda update perl-text-template-simple
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-text-template-simple
+
+
+.. |required_by_perl-text-template-simple| conda:required_by:: perl-text-template-simple
+.. |downloads_perl-text-template-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-text-template-simple.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-text-template-simple| image:: https://quay.io/repository/biocontainers/perl-text-template-simple/status
+   :target: https://quay.io/repository/biocontainers/perl-text-template-simple
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-text-template-simple.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-text-template-simple/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-text-template-simple/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-text-template-simple/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-text-template-simple/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-text-template-simple
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-text-template-simple/status
-                :target: https://quay.io/repository/biocontainers/perl-text-template-simple
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-text-template-simple/README.html
 

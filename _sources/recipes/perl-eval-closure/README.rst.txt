@@ -1,54 +1,66 @@
-.. _`perl-eval-closure`:
+.. title:: Package Recipe 'perl-eval-closure'
+.. highlight: bash
+
 
 perl-eval-closure
 =================
 
-|downloads|
+.. conda:recipe:: perl-eval-closure/0.14
+   :replaces_section_title:
 
-safely and cleanly create closures via string eval
+   safely and cleanly create closures via string eval
 
-============= ===========
-Home          http://metacpan.org/release/Eval-Closure
-Versions      0.14
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-eval-closure/0.14/meta.yaml
+   :homepage: http://metacpan.org/release/Eval-Closure
+   :license: perl_5
+   :recipe: /`perl-eval-closure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-eval-closure>`_/`0.14 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-eval-closure/0.14>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-eval-closure/0.14/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-eval-closure
 
-Installation
-------------
+   |downloads_perl-eval-closure| |docker_perl-eval-closure|
 
-.. highlight: bash
+   :versions: 0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-test2-suite`  
 
-   conda install perl-eval-closure
+   :required~by: |required_by_perl-eval-closure|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-eval-closure
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-eval-closure
+
+   and update with::
+
+      conda update perl-eval-closure
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-eval-closure
+
+
+.. |required_by_perl-eval-closure| conda:required_by:: perl-eval-closure
+.. |downloads_perl-eval-closure| image:: https://img.shields.io/conda/dn/bioconda/perl-eval-closure.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-eval-closure| image:: https://quay.io/repository/biocontainers/perl-eval-closure/status
+   :target: https://quay.io/repository/biocontainers/perl-eval-closure
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-eval-closure.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-eval-closure/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-eval-closure/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-eval-closure/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-eval-closure/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-eval-closure
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-eval-closure/status
-                :target: https://quay.io/repository/biocontainers/perl-eval-closure
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-eval-closure/README.html
 

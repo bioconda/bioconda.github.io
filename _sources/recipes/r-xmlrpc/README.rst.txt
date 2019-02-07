@@ -1,54 +1,66 @@
-.. _`r-xmlrpc`:
+.. title:: Package Recipe 'r-xmlrpc'
+.. highlight: bash
+
 
 r-xmlrpc
 ========
 
-|downloads|
+.. conda:recipe:: r-xmlrpc
+   :replaces_section_title:
 
-A simple implementation of XML\-RPC for R.
+   A simple implementation of XML\-RPC for R.
 
-============= ===========
-Home          https://r-forge.r-project.org
-Versions      0.2_4
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-xmlrpc/meta.yaml
+   :homepage: https://r-forge.r-project.org
+   :license: BSD
+   :recipe: /`r-xmlrpc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xmlrpc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xmlrpc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-xmlrpc
 
-Installation
-------------
+   |downloads_r-xmlrpc| |docker_r-xmlrpc|
 
-.. highlight: bash
+   :versions: 0.2_4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-rcurl`  :conda:package:`r-xml`  
 
-   conda install r-xmlrpc
+   :required~by: |required_by_r-xmlrpc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-xmlrpc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-xmlrpc
+
+   and update with::
+
+      conda update r-xmlrpc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-xmlrpc
+
+
+.. |required_by_r-xmlrpc| conda:required_by:: r-xmlrpc
+.. |downloads_r-xmlrpc| image:: https://img.shields.io/conda/dn/bioconda/r-xmlrpc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-xmlrpc| image:: https://quay.io/repository/biocontainers/r-xmlrpc/status
+   :target: https://quay.io/repository/biocontainers/r-xmlrpc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-xmlrpc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-xmlrpc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-xmlrpc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-xmlrpc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-xmlrpc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-xmlrpc
-.. |docker| image:: https://quay.io/repository/biocontainers/r-xmlrpc/status
-                :target: https://quay.io/repository/biocontainers/r-xmlrpc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-xmlrpc/README.html
 

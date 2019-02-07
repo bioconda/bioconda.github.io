@@ -1,56 +1,67 @@
-.. _`bioconductor-geneticsdesign`:
+.. title:: Package Recipe 'bioconductor-geneticsdesign'
+.. highlight: bash
+
 
 bioconductor-geneticsdesign
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-geneticsdesign
+   :replaces_section_title:
 
-This package contains functions useful for designing genetics studies\, including power and sample\-size calculations.
+   This package contains functions useful for designing genetics studies\, including power and sample\-size calculations.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneticsDesign.html
-Versions      1.50.0, 1.48.0, 1.46.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneticsdesign/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneticsDesign.html
+   :license: GPL-2
+   :recipe: /`bioconductor-geneticsdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsdesign/meta.yaml>`_
+   :links: biotools: :biotools:`geneticsdesign`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`geneticsdesign`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geneticsdesign
 
-Installation
-------------
+   |downloads_bioconductor-geneticsdesign| |docker_bioconductor-geneticsdesign|
 
-.. highlight: bash
+   :versions: 1.50.0, 1.48.0, 1.46.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gmodels`  :conda:package:`r-gtools` >=2.4.0 :conda:package:`r-mvtnorm`  
 
-   conda install bioconductor-geneticsdesign
+   :required~by: |required_by_bioconductor-geneticsdesign|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geneticsdesign
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geneticsdesign
+
+   and update with::
+
+      conda update bioconductor-geneticsdesign
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geneticsdesign
+
+
+.. |required_by_bioconductor-geneticsdesign| conda:required_by:: bioconductor-geneticsdesign
+.. |downloads_bioconductor-geneticsdesign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneticsdesign.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geneticsdesign| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geneticsdesign.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geneticsdesign/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geneticsdesign/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geneticsdesign/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geneticsdesign/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geneticsdesign
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geneticsdesign/README.html
 

@@ -1,54 +1,66 @@
-.. _`soapaligner`:
+.. title:: Package Recipe 'soapaligner'
+.. highlight: bash
+
 
 soapaligner
 ===========
 
-|downloads|
+.. conda:recipe:: soapaligner
+   :replaces_section_title:
 
-SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleotide alignment.
+   SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleotide alignment.
 
-============= ===========
-Home          http://soap.genomics.org.cn/soapaligner.html
-Versions      2.21
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapaligner/meta.yaml
+   :homepage: http://soap.genomics.org.cn/soapaligner.html
+   :license: GPL
+   :recipe: /`soapaligner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapaligner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapaligner/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: soapaligner
 
-Installation
-------------
+   |downloads_soapaligner| |docker_soapaligner|
 
-.. highlight: bash
+   :versions: 2.21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install soapaligner
+   :required~by: |required_by_soapaligner|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update soapaligner
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install soapaligner
+
+   and update with::
+
+      conda update soapaligner
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/soapaligner
+
+
+.. |required_by_soapaligner| conda:required_by:: soapaligner
+.. |downloads_soapaligner| image:: https://img.shields.io/conda/dn/bioconda/soapaligner.svg?style=flat
+   :alt:   (downloads)
+.. |docker_soapaligner| image:: https://quay.io/repository/biocontainers/soapaligner/status
+   :target: https://quay.io/repository/biocontainers/soapaligner
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/soapaligner.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/soapaligner/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/soapaligner/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/soapaligner/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/soapaligner/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/soapaligner
-.. |docker| image:: https://quay.io/repository/biocontainers/soapaligner/status
-                :target: https://quay.io/repository/biocontainers/soapaligner
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/soapaligner/README.html
 

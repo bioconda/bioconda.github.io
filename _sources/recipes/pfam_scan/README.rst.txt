@@ -1,54 +1,66 @@
-.. _`pfam_scan`:
+.. title:: Package Recipe 'pfam_scan'
+.. highlight: bash
+
 
 pfam_scan
 =========
 
-|downloads|
+.. conda:recipe:: pfam_scan
+   :replaces_section_title:
 
-pfam\_scan.pl is a Perl script calling HMMER v3 to search a FASTA file against a library of Pfam HMMs.
+   pfam\_scan.pl is a Perl script calling HMMER v3 to search a FASTA file against a library of Pfam HMMs.
 
-============= ===========
-Home          http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
-Versions      1.6
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pfam_scan/meta.yaml
+   :homepage: http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
+   :license: GPL (>= 2)
+   :recipe: /`pfam_scan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfam_scan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfam_scan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pfam_scan
 
-Installation
-------------
+   |downloads_pfam_scan| |docker_pfam_scan|
 
-.. highlight: bash
+   :versions: 1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`hmmer` >=3.0 :conda:package:`perl` 5.22.0* :conda:package:`perl-bioperl` >=1.4 :conda:package:`perl-moose`  
 
-   conda install pfam_scan
+   :required~by: |required_by_pfam_scan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pfam_scan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pfam_scan
+
+   and update with::
+
+      conda update pfam_scan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pfam_scan
+
+
+.. |required_by_pfam_scan| conda:required_by:: pfam_scan
+.. |downloads_pfam_scan| image:: https://img.shields.io/conda/dn/bioconda/pfam_scan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pfam_scan| image:: https://quay.io/repository/biocontainers/pfam_scan/status
+   :target: https://quay.io/repository/biocontainers/pfam_scan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pfam_scan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pfam_scan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pfam_scan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pfam_scan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pfam_scan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pfam_scan
-.. |docker| image:: https://quay.io/repository/biocontainers/pfam_scan/status
-                :target: https://quay.io/repository/biocontainers/pfam_scan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pfam_scan/README.html
 

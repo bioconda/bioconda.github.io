@@ -1,56 +1,67 @@
-.. _`picard`:
+.. title:: Package Recipe 'picard'
+.. highlight: bash
+
 
 picard
 ======
 
-|downloads|
+.. conda:recipe:: picard
+   :replaces_section_title:
 
-Java tools for working with NGS data in the BAM format
+   Java tools for working with NGS data in the BAM format
 
-============= ===========
-Home          http://broadinstitute.github.io/picard/
-Versions      2.18.26, 2.18.25, 2.18.23, 2.18.22, 2.18.21, 2.18.20, 2.18.17, 2.18.16, 2.18.15, 2.18.14, 2.18.13, 2.18.12, 2.18.11, 2.18.10, 2.18.9, 2.18.7, 2.18.6, 2.18.5, 2.18.4, 2.18.3, 2.18.2, 2.18.1, 2.18.0, 2.17.11, 2.17.10, 2.17.8, 2.17.6, 2.17.5, 2.17.4, 2.17.3, 2.17.2, 2.17.0, 2.16.0, 2.15.0, 2.14.1, 2.14, 2.13, 2.11.0, 2.10.6, 2.9.2, 2.9.0, 2.7.1, 2.5.0, 2.3.0, 2.0.1, 1.141, 1.139, 1.126, 1.97, 1.56
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//picard/meta.yaml
+   :homepage: http://broadinstitute.github.io/picard/
+   :developer docs: https://github.com/broadinstitute/picard
+   :license: MIT / MIT
+   :recipe: /`picard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard/meta.yaml>`_
 
-
-Development   https://github.com/broadinstitute/picard
-
-
-============= ===========
+   
 
 
+.. conda:package:: picard
 
-Installation
-------------
+   |downloads_picard| |docker_picard|
 
-.. highlight: bash
+   :versions: 2.18.26, 2.18.25, 2.18.23, 2.18.22, 2.18.21, 2.18.20, 2.18.17, 2.18.16, 2.18.15, 2.18.14, 2.18.13, 2.18.12, 2.18.11, 2.18.10, 2.18.9, 2.18.7, 2.18.6, 2.18.5, 2.18.4, 2.18.3, 2.18.2, 2.18.1, 2.18.0, 2.17.11, 2.17.10, 2.17.8, 2.17.6, 2.17.5, 2.17.4, 2.17.3, 2.17.2, 2.17.0, 2.16.0, 2.15.0, 2.14.1, 2.14, 2.13, 2.11.0, 2.10.6, 2.9.2, 2.9.0, 2.7.1, 2.5.0, 2.3.0, 2.0.1, 1.141, 1.139, 1.126, 1.97, 1.56
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 :conda:package:`python`  
 
-   conda install picard
+   :required~by: |required_by_picard|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update picard
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install picard
+
+   and update with::
+
+      conda update picard
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/picard
+
+
+.. |required_by_picard| conda:required_by:: picard
+.. |downloads_picard| image:: https://img.shields.io/conda/dn/bioconda/picard.svg?style=flat
+   :alt:   (downloads)
+.. |docker_picard| image:: https://quay.io/repository/biocontainers/picard/status
+   :target: https://quay.io/repository/biocontainers/picard
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/picard.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/picard/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/picard/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/picard/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/picard/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/picard
-.. |docker| image:: https://quay.io/repository/biocontainers/picard/status
-                :target: https://quay.io/repository/biocontainers/picard
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/picard/README.html
 

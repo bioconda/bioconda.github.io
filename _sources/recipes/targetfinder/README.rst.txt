@@ -1,54 +1,66 @@
-.. _`targetfinder`:
+.. title:: Package Recipe 'targetfinder'
+.. highlight: bash
+
 
 targetfinder
 ============
 
-|downloads|
+.. conda:recipe:: targetfinder
+   :replaces_section_title:
 
-Plant small RNA target prediction tool
+   Plant small RNA target prediction tool
 
-============= ===========
-Home          https://github.com/carringtonlab/TargetFinder
-Versions      1.7
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//targetfinder/meta.yaml
+   :homepage: https://github.com/carringtonlab/TargetFinder
+   :license: MIT
+   :recipe: /`targetfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetfinder/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: targetfinder
 
-Installation
-------------
+   |downloads_targetfinder| |docker_targetfinder|
 
-.. highlight: bash
+   :versions: 1.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install targetfinder
+   :required~by: |required_by_targetfinder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update targetfinder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install targetfinder
+
+   and update with::
+
+      conda update targetfinder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/targetfinder
+
+
+.. |required_by_targetfinder| conda:required_by:: targetfinder
+.. |downloads_targetfinder| image:: https://img.shields.io/conda/dn/bioconda/targetfinder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_targetfinder| image:: https://quay.io/repository/biocontainers/targetfinder/status
+   :target: https://quay.io/repository/biocontainers/targetfinder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/targetfinder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/targetfinder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/targetfinder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/targetfinder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/targetfinder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/targetfinder
-.. |docker| image:: https://quay.io/repository/biocontainers/targetfinder/status
-                :target: https://quay.io/repository/biocontainers/targetfinder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/targetfinder/README.html
 

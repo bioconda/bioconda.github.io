@@ -1,56 +1,67 @@
-.. _`bandage`:
+.. title:: Package Recipe 'bandage'
+.. highlight: bash
+
 
 bandage
 =======
 
-|downloads|
+.. conda:recipe:: bandage
+   :replaces_section_title:
 
-Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+   Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
 
-============= ===========
-Home          https://github.com/rrwick/Bandage
-Versions      0.8.1
-License       GNU General Public License, version 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bandage/meta.yaml
+   :homepage: https://github.com/rrwick/Bandage
+   :license: GPL3 / GNU General Public License, version 3
+   :recipe: /`bandage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btv383`
 
-
-
-Links         doi: :doi:`10.1093/bioinformatics/btv383`
-
-============= ===========
+   
 
 
+.. conda:package:: bandage
 
-Installation
-------------
+   |downloads_bandage| |docker_bandage|
 
-.. highlight: bash
+   :versions: 0.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`qt`  
 
-   conda install bandage
+   :required~by: |required_by_bandage|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bandage
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bandage
+
+   and update with::
+
+      conda update bandage
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bandage
+
+
+.. |required_by_bandage| conda:required_by:: bandage
+.. |downloads_bandage| image:: https://img.shields.io/conda/dn/bioconda/bandage.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bandage| image:: https://quay.io/repository/biocontainers/bandage/status
+   :target: https://quay.io/repository/biocontainers/bandage
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bandage.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bandage/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bandage/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bandage/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bandage/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bandage
-.. |docker| image:: https://quay.io/repository/biocontainers/bandage/status
-                :target: https://quay.io/repository/biocontainers/bandage
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bandage/README.html
 

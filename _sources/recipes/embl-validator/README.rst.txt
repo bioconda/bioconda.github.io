@@ -1,54 +1,66 @@
-.. _`embl-api-validator`:
+.. title:: Package Recipe 'embl-api-validator'
+.. highlight: bash
+
 
 embl-api-validator
 ==================
 
-|downloads|
+.. conda:recipe:: embl-validator
+   :replaces_section_title:
 
-ENA flat file validator for submission
+   ENA flat file validator for submission
 
-============= ===========
-Home          http://www.ebi.ac.uk/ena/software/flat-file-validator
-Versions      1.1.180, 1.1.173
-License       Apache-2-0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//embl-validator/meta.yaml
+   :homepage: http://www.ebi.ac.uk/ena/software/flat-file-validator
+   :license: Apache-2-0
+   :recipe: /`embl-validator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embl-validator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embl-validator/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: embl-api-validator
 
-Installation
-------------
+   |downloads_embl-api-validator| |docker_embl-api-validator|
 
-.. highlight: bash
+   :versions: 1.1.180, 1.1.173
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install embl-api-validator
+   :required~by: |required_by_embl-api-validator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update embl-api-validator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install embl-api-validator
+
+   and update with::
+
+      conda update embl-api-validator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/embl-api-validator
+
+
+.. |required_by_embl-api-validator| conda:required_by:: embl-api-validator
+.. |downloads_embl-api-validator| image:: https://img.shields.io/conda/dn/bioconda/embl-api-validator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_embl-api-validator| image:: https://quay.io/repository/biocontainers/embl-api-validator/status
+   :target: https://quay.io/repository/biocontainers/embl-api-validator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/embl-api-validator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/embl-api-validator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/embl-api-validator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/embl-api-validator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/embl-api-validator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/embl-api-validator
-.. |docker| image:: https://quay.io/repository/biocontainers/embl-api-validator/status
-                :target: https://quay.io/repository/biocontainers/embl-api-validator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/embl-api-validator/README.html
 

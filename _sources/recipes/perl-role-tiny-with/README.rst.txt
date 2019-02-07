@@ -1,54 +1,66 @@
-.. _`perl-role-tiny-with`:
+.. title:: Package Recipe 'perl-role-tiny-with'
+.. highlight: bash
+
 
 perl-role-tiny-with
 ===================
 
-|downloads|
+.. conda:recipe:: perl-role-tiny-with/2.000005
+   :replaces_section_title:
 
-Neat interface for consumers of Role\:\:Tiny roles
+   Neat interface for consumers of Role\:\:Tiny roles
 
-============= ===========
-Home          http://metacpan.org/pod/Role::Tiny::With
-Versions      2.000005
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-role-tiny-with/2.000005/meta.yaml
+   :homepage: http://metacpan.org/pod/Role::Tiny::With
+   :license: perl_5
+   :recipe: /`perl-role-tiny-with <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-role-tiny-with>`_/`2.000005 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-role-tiny-with/2.000005>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-role-tiny-with/2.000005/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-role-tiny-with
 
-Installation
-------------
+   |downloads_perl-role-tiny-with| |docker_perl-role-tiny-with|
 
-.. highlight: bash
+   :versions: 2.000005
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-role-tiny-with
+   :required~by: |required_by_perl-role-tiny-with|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-role-tiny-with
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-role-tiny-with
+
+   and update with::
+
+      conda update perl-role-tiny-with
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-role-tiny-with
+
+
+.. |required_by_perl-role-tiny-with| conda:required_by:: perl-role-tiny-with
+.. |downloads_perl-role-tiny-with| image:: https://img.shields.io/conda/dn/bioconda/perl-role-tiny-with.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-role-tiny-with| image:: https://quay.io/repository/biocontainers/perl-role-tiny-with/status
+   :target: https://quay.io/repository/biocontainers/perl-role-tiny-with
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-role-tiny-with.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-role-tiny-with/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-role-tiny-with/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-role-tiny-with/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-role-tiny-with/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-role-tiny-with
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-role-tiny-with/status
-                :target: https://quay.io/repository/biocontainers/perl-role-tiny-with
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-role-tiny-with/README.html
 

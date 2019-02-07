@@ -1,54 +1,66 @@
-.. _`rename`:
+.. title:: Package Recipe 'rename'
+.. highlight: bash
+
 
 rename
 ======
 
-|downloads|
+.. conda:recipe:: rename
+   :replaces_section_title:
 
-Perl\-powered file rename script with many helpful built\-ins
+   Perl\-powered file rename script with many helpful built\-ins
 
-============= ===========
-Home          http://plasmasturm.org/code/rename
-Versions      1.600
-License       GNU GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rename/meta.yaml
+   :homepage: http://plasmasturm.org/code/rename
+   :license: GNU GPLv3
+   :recipe: /`rename <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rename>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rename/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rename
 
-Installation
-------------
+   |downloads_rename| |docker_rename|
 
-.. highlight: bash
+   :versions: 1.600
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl`  
 
-   conda install rename
+   :required~by: |required_by_rename|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rename
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rename
+
+   and update with::
+
+      conda update rename
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rename
+
+
+.. |required_by_rename| conda:required_by:: rename
+.. |downloads_rename| image:: https://img.shields.io/conda/dn/bioconda/rename.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rename| image:: https://quay.io/repository/biocontainers/rename/status
+   :target: https://quay.io/repository/biocontainers/rename
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rename.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rename/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rename/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rename/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rename/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rename
-.. |docker| image:: https://quay.io/repository/biocontainers/rename/status
-                :target: https://quay.io/repository/biocontainers/rename
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rename/README.html
 

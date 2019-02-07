@@ -1,54 +1,66 @@
-.. _`popdel`:
+.. title:: Package Recipe 'popdel'
+.. highlight: bash
+
 
 popdel
 ======
 
-|downloads|
+.. conda:recipe:: popdel
+   :replaces_section_title:
 
-Fast structural deletion calling on population\-scale short read paired\-end germline WGS data.
+   Fast structural deletion calling on population\-scale short read paired\-end germline WGS data.
 
-============= ===========
-Home          https://github.com/kehrlab/PopDel
-Versions      1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//popdel/meta.yaml
+   :homepage: https://github.com/kehrlab/PopDel
+   :license: GPL-3.0
+   :recipe: /`popdel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popdel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popdel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: popdel
 
-Installation
-------------
+   |downloads_popdel| |docker_popdel|
 
-.. highlight: bash
+   :versions: 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install popdel
+   :required~by: |required_by_popdel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update popdel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install popdel
+
+   and update with::
+
+      conda update popdel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/popdel
+
+
+.. |required_by_popdel| conda:required_by:: popdel
+.. |downloads_popdel| image:: https://img.shields.io/conda/dn/bioconda/popdel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_popdel| image:: https://quay.io/repository/biocontainers/popdel/status
+   :target: https://quay.io/repository/biocontainers/popdel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/popdel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/popdel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/popdel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/popdel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/popdel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/popdel
-.. |docker| image:: https://quay.io/repository/biocontainers/popdel/status
-                :target: https://quay.io/repository/biocontainers/popdel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/popdel/README.html
 

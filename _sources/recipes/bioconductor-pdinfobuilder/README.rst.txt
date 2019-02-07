@@ -1,56 +1,67 @@
-.. _`bioconductor-pdinfobuilder`:
+.. title:: Package Recipe 'bioconductor-pdinfobuilder'
+.. highlight: bash
+
 
 bioconductor-pdinfobuilder
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pdinfobuilder
+   :replaces_section_title:
 
-Builds platform design information packages. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID. The database also incorporates featureSet\-level annotation data. The products of this packages are used by the oligo pkg.
+   Builds platform design information packages. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID. The database also incorporates featureSet\-level annotation data. The products of this packages are used by the oligo pkg.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pdInfoBuilder.html
-Versions      1.46.0, 1.44.0, 1.42.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pdinfobuilder/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pdInfoBuilder.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pdinfobuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder/meta.yaml>`_
+   :links: biotools: :biotools:`pdinfobuilder`, doi: :doi:`10.1093/bioinformatics/btq431`
 
-
-
-Links         biotools: :biotools:`pdinfobuilder`, doi: :doi:`10.1093/bioinformatics/btq431`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pdinfobuilder
 
-Installation
-------------
+   |downloads_bioconductor-pdinfobuilder| |docker_bioconductor-pdinfobuilder|
 
-.. highlight: bash
+   :versions: 1.46.0, 1.44.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affxparser` >=1.54.0,<1.55.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 
 
-   conda install bioconductor-pdinfobuilder
+   :required~by: |required_by_bioconductor-pdinfobuilder|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pdinfobuilder
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pdinfobuilder
+
+   and update with::
+
+      conda update bioconductor-pdinfobuilder
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pdinfobuilder
+
+
+.. |required_by_bioconductor-pdinfobuilder| conda:required_by:: bioconductor-pdinfobuilder
+.. |downloads_bioconductor-pdinfobuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pdinfobuilder.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pdinfobuilder| image:: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pdinfobuilder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pdinfobuilder/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pdinfobuilder/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pdinfobuilder/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pdinfobuilder
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pdinfobuilder/README.html
 

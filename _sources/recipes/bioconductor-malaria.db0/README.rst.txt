@@ -1,54 +1,66 @@
-.. _`bioconductor-malaria.db0`:
+.. title:: Package Recipe 'bioconductor-malaria.db0'
+.. highlight: bash
+
 
 bioconductor-malaria.db0
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-malaria.db0
+   :replaces_section_title:
 
-Base annotation databases for malaria\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
+   Base annotation databases for malaria\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/malaria.db0.html
-Versions      3.7.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-malaria.db0/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/malaria.db0.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-malaria.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-malaria.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-malaria.db0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-malaria.db0
 
-Installation
-------------
+   |downloads_bioconductor-malaria.db0| |docker_bioconductor-malaria.db0|
 
-.. highlight: bash
+   :versions: 3.7.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-malaria.db0
+   :required~by: |required_by_bioconductor-malaria.db0|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-malaria.db0
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-malaria.db0
+
+   and update with::
+
+      conda update bioconductor-malaria.db0
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-malaria.db0
+
+
+.. |required_by_bioconductor-malaria.db0| conda:required_by:: bioconductor-malaria.db0
+.. |downloads_bioconductor-malaria.db0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-malaria.db0.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-malaria.db0| image:: https://quay.io/repository/biocontainers/bioconductor-malaria.db0/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-malaria.db0
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-malaria.db0.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-malaria.db0/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-malaria.db0/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-malaria.db0/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-malaria.db0/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-malaria.db0
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-malaria.db0/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-malaria.db0
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-malaria.db0/README.html
 

@@ -1,36 +1,56 @@
-.. _`lace`:
+.. title:: Package Recipe 'lace'
+.. highlight: bash
+
 
 lace
 ====
 
-|downloads|
+.. conda:recipe:: lace
+   :replaces_section_title:
 
-Building SuperTranscripts\: A linear representation of transcriptome data
+   Building SuperTranscripts\: A linear representation of transcriptome data
 
-============= ===========
-Home          https://github.com/Oshlack/Lace
-Versions      1.00, 0.99, 0.80
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lace/meta.yaml
+   :homepage: https://github.com/Oshlack/Lace
+   :license: Unknown
+   :recipe: /`lace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lace
 
-Installation
-------------
+   |downloads_lace| |docker_lace|
 
-.. highlight: bash
+   :versions: 1.00, 0.99, 0.80
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blat`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  
 
-   conda install lace
+   :required~by: |required_by_lace|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lace
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lace
+
+   and update with::
+
+      conda update lace
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lace
+
+
+.. |required_by_lace| conda:required_by:: lace
+.. |downloads_lace| image:: https://img.shields.io/conda/dn/bioconda/lace.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lace| image:: https://quay.io/repository/biocontainers/lace/status
+   :target: https://quay.io/repository/biocontainers/lace
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker.py\'.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/lace.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lace/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lace/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lace/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lace/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lace
-.. |docker| image:: https://quay.io/repository/biocontainers/lace/status
-                :target: https://quay.io/repository/biocontainers/lace
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lace/README.html
 

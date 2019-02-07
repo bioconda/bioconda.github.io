@@ -1,54 +1,66 @@
-.. _`repenrich`:
+.. title:: Package Recipe 'repenrich'
+.. highlight: bash
+
 
 repenrich
 =========
 
-|downloads|
+.. conda:recipe:: repenrich
+   :replaces_section_title:
 
-RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data.
+   RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data.
 
-============= ===========
-Home          https://github.com/nskvir/RepEnrich
-Versions      1.2
-License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//repenrich/meta.yaml
+   :homepage: https://github.com/nskvir/RepEnrich
+   :license: Custom OSS
+   :recipe: /`repenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repenrich/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: repenrich
 
-Installation
-------------
+   |downloads_repenrich| |docker_repenrich|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools` <2.24.0 :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`python` 2.7* :conda:package:`samtools`  
 
-   conda install repenrich
+   :required~by: |required_by_repenrich|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update repenrich
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install repenrich
+
+   and update with::
+
+      conda update repenrich
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/repenrich
+
+
+.. |required_by_repenrich| conda:required_by:: repenrich
+.. |downloads_repenrich| image:: https://img.shields.io/conda/dn/bioconda/repenrich.svg?style=flat
+   :alt:   (downloads)
+.. |docker_repenrich| image:: https://quay.io/repository/biocontainers/repenrich/status
+   :target: https://quay.io/repository/biocontainers/repenrich
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/repenrich.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/repenrich/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/repenrich/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/repenrich/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/repenrich/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/repenrich
-.. |docker| image:: https://quay.io/repository/biocontainers/repenrich/status
-                :target: https://quay.io/repository/biocontainers/repenrich
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/repenrich/README.html
 

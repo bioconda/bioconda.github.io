@@ -1,56 +1,67 @@
-.. _`seer`:
+.. title:: Package Recipe 'seer'
+.. highlight: bash
+
 
 seer
 ====
 
-|downloads|
+.. conda:recipe:: seer
+   :replaces_section_title:
 
-sequence element \(kmer\) enrichment analysis
+   sequence element \(kmer\) enrichment analysis
 
-============= ===========
-Home          https://github.com/johnlees/seer
-Versions      1.1.4
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seer/meta.yaml
+   :homepage: https://github.com/johnlees/seer
+   :license: GPL / GPL-2
+   :recipe: /`seer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seer/meta.yaml>`_
+   :links: doi: :doi:`10.1038/ncomms12797`
 
-
-
-Links         doi: :doi:`10.1038/ncomms12797`
-
-============= ===========
+   
 
 
+.. conda:package:: seer
 
-Installation
-------------
+   |downloads_seer| |docker_seer|
 
-.. highlight: bash
+   :versions: 1.1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`armadillo`  :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`pthread-stubs`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install seer
+   :required~by: |required_by_seer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seer
+
+   and update with::
+
+      conda update seer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seer
+
+
+.. |required_by_seer| conda:required_by:: seer
+.. |downloads_seer| image:: https://img.shields.io/conda/dn/bioconda/seer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seer| image:: https://quay.io/repository/biocontainers/seer/status
+   :target: https://quay.io/repository/biocontainers/seer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seer
-.. |docker| image:: https://quay.io/repository/biocontainers/seer/status
-                :target: https://quay.io/repository/biocontainers/seer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seer/README.html
 

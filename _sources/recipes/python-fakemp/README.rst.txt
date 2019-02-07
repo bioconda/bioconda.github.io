@@ -1,54 +1,66 @@
-.. _`python-fakemp`:
+.. title:: Package Recipe 'python-fakemp'
+.. highlight: bash
+
 
 python-fakemp
 =============
 
-|downloads|
+.. conda:recipe:: python-fakemp
+   :replaces_section_title:
 
-Fake multiprocessing pool objects
+   Fake multiprocessing pool objects
 
-============= ===========
-Home          https://github.com/nlhepler/fakemp
-Versions      0.9.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-fakemp/meta.yaml
+   :homepage: https://github.com/nlhepler/fakemp
+   :license: GPL-3
+   :recipe: /`python-fakemp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-fakemp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-fakemp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-fakemp
 
-Installation
-------------
+   |downloads_python-fakemp| |docker_python-fakemp|
 
-.. highlight: bash
+   :versions: 0.9.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install python-fakemp
+   :required~by: |required_by_python-fakemp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-fakemp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-fakemp
+
+   and update with::
+
+      conda update python-fakemp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-fakemp
+
+
+.. |required_by_python-fakemp| conda:required_by:: python-fakemp
+.. |downloads_python-fakemp| image:: https://img.shields.io/conda/dn/bioconda/python-fakemp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-fakemp| image:: https://quay.io/repository/biocontainers/python-fakemp/status
+   :target: https://quay.io/repository/biocontainers/python-fakemp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-fakemp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-fakemp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-fakemp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-fakemp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-fakemp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-fakemp
-.. |docker| image:: https://quay.io/repository/biocontainers/python-fakemp/status
-                :target: https://quay.io/repository/biocontainers/python-fakemp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-fakemp/README.html
 

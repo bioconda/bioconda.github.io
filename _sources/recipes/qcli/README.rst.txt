@@ -1,54 +1,66 @@
-.. _`qcli`:
+.. title:: Package Recipe 'qcli'
+.. highlight: bash
+
 
 qcli
 ====
 
-|downloads|
+.. conda:recipe:: qcli
+   :replaces_section_title:
 
-qcli
+   qcli
 
-============= ===========
-Home          
-Versions      0.1.1
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qcli/meta.yaml
+   :homepage: 
+   :license: GPL
+   :recipe: /`qcli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qcli
 
-Installation
-------------
+   |downloads_qcli| |docker_qcli|
 
-.. highlight: bash
+   :versions: 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install qcli
+   :required~by: |required_by_qcli|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qcli
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qcli
+
+   and update with::
+
+      conda update qcli
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qcli
+
+
+.. |required_by_qcli| conda:required_by:: qcli
+.. |downloads_qcli| image:: https://img.shields.io/conda/dn/bioconda/qcli.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qcli| image:: https://quay.io/repository/biocontainers/qcli/status
+   :target: https://quay.io/repository/biocontainers/qcli
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qcli.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qcli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qcli/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qcli/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qcli/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qcli
-.. |docker| image:: https://quay.io/repository/biocontainers/qcli/status
-                :target: https://quay.io/repository/biocontainers/qcli
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qcli/README.html
 

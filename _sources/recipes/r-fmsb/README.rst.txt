@@ -1,54 +1,66 @@
-.. _`r-fmsb`:
+.. title:: Package Recipe 'r-fmsb'
+.. highlight: bash
+
 
 r-fmsb
 ======
 
-|downloads|
+.. conda:recipe:: r-fmsb
+   :replaces_section_title:
 
-Several utility functions for the book entitled  \"Practices of Medical and Health Data Analysis using R\" \(Pearson Education Japan\, 2007\) with Japanese demographic data and some demographic analysis related functions.
+   Several utility functions for the book entitled  \"Practices of Medical and Health Data Analysis using R\" \(Pearson Education Japan\, 2007\) with Japanese demographic data and some demographic analysis related functions.
 
-============= ===========
-Home          http://minato.sip21c.org/msb/
-Versions      0.6.3
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-fmsb/meta.yaml
+   :homepage: http://minato.sip21c.org/msb/
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-fmsb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fmsb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fmsb/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-fmsb
 
-Installation
-------------
+   |downloads_r-fmsb| |docker_r-fmsb|
 
-.. highlight: bash
+   :versions: 0.6.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* 
 
-   conda install r-fmsb
+   :required~by: |required_by_r-fmsb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-fmsb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-fmsb
+
+   and update with::
+
+      conda update r-fmsb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-fmsb
+
+
+.. |required_by_r-fmsb| conda:required_by:: r-fmsb
+.. |downloads_r-fmsb| image:: https://img.shields.io/conda/dn/bioconda/r-fmsb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-fmsb| image:: https://quay.io/repository/biocontainers/r-fmsb/status
+   :target: https://quay.io/repository/biocontainers/r-fmsb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-fmsb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-fmsb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-fmsb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-fmsb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-fmsb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-fmsb
-.. |docker| image:: https://quay.io/repository/biocontainers/r-fmsb/status
-                :target: https://quay.io/repository/biocontainers/r-fmsb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-fmsb/README.html
 

@@ -1,54 +1,66 @@
-.. _`bpp-popgen`:
+.. title:: Package Recipe 'bpp-popgen'
+.. highlight: bash
+
 
 bpp-popgen
 ==========
 
-|downloads|
+.. conda:recipe:: bpp-popgen
+   :replaces_section_title:
 
-Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
+   Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
-============= ===========
-Home          https://github.com/BioPP/bpp-popgen
-Versions      2.4.1
-License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bpp-popgen/meta.yaml
+   :homepage: https://github.com/BioPP/bpp-popgen
+   :license: CeCILL
+   :recipe: /`bpp-popgen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-popgen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-popgen/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bpp-popgen
 
-Installation
-------------
+   |downloads_bpp-popgen| |docker_bpp-popgen|
 
-.. highlight: bash
+   :versions: 2.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
 
-   conda install bpp-popgen
+   :required~by: |required_by_bpp-popgen|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bpp-popgen
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bpp-popgen
+
+   and update with::
+
+      conda update bpp-popgen
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bpp-popgen
+
+
+.. |required_by_bpp-popgen| conda:required_by:: bpp-popgen
+.. |downloads_bpp-popgen| image:: https://img.shields.io/conda/dn/bioconda/bpp-popgen.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bpp-popgen| image:: https://quay.io/repository/biocontainers/bpp-popgen/status
+   :target: https://quay.io/repository/biocontainers/bpp-popgen
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bpp-popgen.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bpp-popgen/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bpp-popgen/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bpp-popgen/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bpp-popgen/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bpp-popgen
-.. |docker| image:: https://quay.io/repository/biocontainers/bpp-popgen/status
-                :target: https://quay.io/repository/biocontainers/bpp-popgen
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bpp-popgen/README.html
 

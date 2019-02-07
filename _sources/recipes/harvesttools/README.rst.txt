@@ -1,54 +1,66 @@
-.. _`harvesttools`:
+.. title:: Package Recipe 'harvesttools'
+.. highlight: bash
+
 
 harvesttools
 ============
 
-|downloads|
+.. conda:recipe:: harvesttools
+   :replaces_section_title:
 
-HarvestTools is a part of the Harvest software suite and provides file conversion between Gingr files and various standard text formats
+   HarvestTools is a part of the Harvest software suite and provides file conversion between Gingr files and various standard text formats
 
-============= ===========
-Home          https://github.com/marbl/harvest-tools
-Versions      1.2
-License       custom; see https://raw.githubusercontent.com/marbl/harvest-tools/master/LICENSE.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//harvesttools/meta.yaml
+   :homepage: https://github.com/marbl/harvest-tools
+   :license: custom; see https://raw.githubusercontent.com/marbl/harvest-tools/master/LICENSE.txt
+   :recipe: /`harvesttools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harvesttools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harvesttools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: harvesttools
 
-Installation
-------------
+   |downloads_harvesttools| |docker_harvesttools|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install harvesttools
+   :required~by: |required_by_harvesttools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update harvesttools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install harvesttools
+
+   and update with::
+
+      conda update harvesttools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/harvesttools
+
+
+.. |required_by_harvesttools| conda:required_by:: harvesttools
+.. |downloads_harvesttools| image:: https://img.shields.io/conda/dn/bioconda/harvesttools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_harvesttools| image:: https://quay.io/repository/biocontainers/harvesttools/status
+   :target: https://quay.io/repository/biocontainers/harvesttools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/harvesttools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/harvesttools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/harvesttools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/harvesttools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/harvesttools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/harvesttools
-.. |docker| image:: https://quay.io/repository/biocontainers/harvesttools/status
-                :target: https://quay.io/repository/biocontainers/harvesttools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/harvesttools/README.html
 

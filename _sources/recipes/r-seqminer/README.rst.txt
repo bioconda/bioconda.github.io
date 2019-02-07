@@ -1,54 +1,66 @@
-.. _`r-seqminer`:
+.. title:: Package Recipe 'r-seqminer'
+.. highlight: bash
+
 
 r-seqminer
 ==========
 
-|downloads|
+.. conda:recipe:: r-seqminer
+   :replaces_section_title:
 
-Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-analysis results in R. This package can help you \(1\) read VCF\/BCF files by chromosomal ranges \(e.g. 1\:100\-200\)\; \(2\) read RareMETAL summary statistics files\; \(3\) read tables from a tabix\-indexed files\; \(4\) annotate VCF\/BCF files\; \(5\) create customized workflow based on Makefile.
+   Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-analysis results in R. This package can help you \(1\) read VCF\/BCF files by chromosomal ranges \(e.g. 1\:100\-200\)\; \(2\) read RareMETAL summary statistics files\; \(3\) read tables from a tabix\-indexed files\; \(4\) annotate VCF\/BCF files\; \(5\) create customized workflow based on Makefile.
 
-============= ===========
-Home          http://seqminer.genomic.codes
-Versions      6.1, 6.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-seqminer/meta.yaml
+   :homepage: http://seqminer.genomic.codes
+   :license: GPL / GPL
+   :recipe: /`r-seqminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqminer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-seqminer
 
-Installation
-------------
+   |downloads_r-seqminer| |docker_r-seqminer|
 
-.. highlight: bash
+   :versions: 6.1, 6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install r-seqminer
+   :required~by: |required_by_r-seqminer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-seqminer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-seqminer
+
+   and update with::
+
+      conda update r-seqminer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-seqminer
+
+
+.. |required_by_r-seqminer| conda:required_by:: r-seqminer
+.. |downloads_r-seqminer| image:: https://img.shields.io/conda/dn/bioconda/r-seqminer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-seqminer| image:: https://quay.io/repository/biocontainers/r-seqminer/status
+   :target: https://quay.io/repository/biocontainers/r-seqminer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-seqminer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-seqminer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-seqminer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-seqminer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-seqminer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-seqminer
-.. |docker| image:: https://quay.io/repository/biocontainers/r-seqminer/status
-                :target: https://quay.io/repository/biocontainers/r-seqminer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-seqminer/README.html
 

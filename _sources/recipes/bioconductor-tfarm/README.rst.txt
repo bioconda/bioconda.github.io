@@ -1,54 +1,66 @@
-.. _`bioconductor-tfarm`:
+.. title:: Package Recipe 'bioconductor-tfarm'
+.. highlight: bash
+
 
 bioconductor-tfarm
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-tfarm
+   :replaces_section_title:
 
-It searches for relevant associations of transcription factors with a transcription factor target\, in specific genomic regions. It also allows to evaluate the Importance Index distribution of transcription factors \(and combinations of transcription factors\) in association rules.
+   It searches for relevant associations of transcription factors with a transcription factor target\, in specific genomic regions. It also allows to evaluate the Importance Index distribution of transcription factors \(and combinations of transcription factors\) in association rules.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TFARM.html
-Versions      1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tfarm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TFARM.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-tfarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfarm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tfarm
 
-Installation
-------------
+   |downloads_bioconductor-tfarm| |docker_bioconductor-tfarm|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-arules`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fields`  :conda:package:`r-stringr`  
 
-   conda install bioconductor-tfarm
+   :required~by: |required_by_bioconductor-tfarm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tfarm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tfarm
+
+   and update with::
+
+      conda update bioconductor-tfarm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tfarm
+
+
+.. |required_by_bioconductor-tfarm| conda:required_by:: bioconductor-tfarm
+.. |downloads_bioconductor-tfarm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfarm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tfarm| image:: https://quay.io/repository/biocontainers/bioconductor-tfarm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tfarm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tfarm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tfarm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tfarm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tfarm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tfarm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tfarm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tfarm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tfarm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tfarm/README.html
 

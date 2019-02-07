@@ -1,54 +1,66 @@
-.. _`stringmlst`:
+.. title:: Package Recipe 'stringmlst'
+.. highlight: bash
+
 
 stringmlst
 ==========
 
-|downloads|
+.. conda:recipe:: stringmlst
+   :replaces_section_title:
 
-Fast k\-mer based tool for multi locus sequence typing \(MLST\) directly from genome sequencing reads
+   Fast k\-mer based tool for multi locus sequence typing \(MLST\) directly from genome sequencing reads
 
-============= ===========
-Home          https://github.com/jordanlab/stringMLST
-Versions      0.5.1, 0.5.1a, 0.4.2, 0.4.1, 0.4, 0.3.7, 0.3.6.1
-License       CC BY-NC-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stringmlst/meta.yaml
+   :homepage: https://github.com/jordanlab/stringMLST
+   :license: CC BY-NC-SA 4.0
+   :recipe: /`stringmlst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringmlst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringmlst/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: stringmlst
 
-Installation
-------------
+   |downloads_stringmlst| |docker_stringmlst|
 
-.. highlight: bash
+   :versions: 0.5.1, 0.5.1a, 0.4.2, 0.4.1, 0.4, 0.3.7, 0.3.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`lxml`  :conda:package:`pyfaidx`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`samtools` >=1.0 
 
-   conda install stringmlst
+   :required~by: |required_by_stringmlst|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update stringmlst
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install stringmlst
+
+   and update with::
+
+      conda update stringmlst
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/stringmlst
+
+
+.. |required_by_stringmlst| conda:required_by:: stringmlst
+.. |downloads_stringmlst| image:: https://img.shields.io/conda/dn/bioconda/stringmlst.svg?style=flat
+   :alt:   (downloads)
+.. |docker_stringmlst| image:: https://quay.io/repository/biocontainers/stringmlst/status
+   :target: https://quay.io/repository/biocontainers/stringmlst
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/stringmlst.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/stringmlst/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/stringmlst/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/stringmlst/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/stringmlst/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/stringmlst
-.. |docker| image:: https://quay.io/repository/biocontainers/stringmlst/status
-                :target: https://quay.io/repository/biocontainers/stringmlst
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/stringmlst/README.html
 

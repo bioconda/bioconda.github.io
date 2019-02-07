@@ -1,54 +1,66 @@
-.. _`r-purbayes`:
+.. title:: Package Recipe 'r-purbayes'
+.. highlight: bash
+
 
 r-purbayes
 ==========
 
-|downloads|
+.. conda:recipe:: r-purbayes
+   :replaces_section_title:
 
-PurBayes is an MCMC\-based algorithm that uses next\-generation sequencing data to estimate tumor purity and clonality for paired tumor\-normal data.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=PurBayes
-Versions      1.3
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-purbayes/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-purbayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-purbayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-purbayes/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-purbayes
 
-Installation
-------------
+   |downloads_r-purbayes| |docker_r-purbayes|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rjags`  
 
-   conda install r-purbayes
+   :required~by: |required_by_r-purbayes|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-purbayes
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-purbayes
+
+   and update with::
+
+      conda update r-purbayes
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-purbayes
+
+
+.. |required_by_r-purbayes| conda:required_by:: r-purbayes
+.. |downloads_r-purbayes| image:: https://img.shields.io/conda/dn/bioconda/r-purbayes.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-purbayes| image:: https://quay.io/repository/biocontainers/r-purbayes/status
+   :target: https://quay.io/repository/biocontainers/r-purbayes
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-purbayes.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-purbayes/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-purbayes/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-purbayes/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-purbayes/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-purbayes
-.. |docker| image:: https://quay.io/repository/biocontainers/r-purbayes/status
-                :target: https://quay.io/repository/biocontainers/r-purbayes
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-purbayes/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-file-remove`:
+.. title:: Package Recipe 'perl-file-remove'
+.. highlight: bash
+
 
 perl-file-remove
 ================
 
-|downloads|
+.. conda:recipe:: perl-file-remove/1.57
+   :replaces_section_title:
 
-Remove files and directories
+   Remove files and directories
 
-============= ===========
-Home          http://metacpan.org/pod/File::Remove
-Versions      1.57
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-remove/1.57/meta.yaml
+   :homepage: http://metacpan.org/pod/File::Remove
+   :license: perl_5
+   :recipe: /`perl-file-remove <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-remove>`_/`1.57 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-remove/1.57>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-remove/1.57/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-remove
 
-Installation
-------------
+   |downloads_perl-file-remove| |docker_perl-file-remove|
 
-.. highlight: bash
+   :versions: 1.57
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-file-spec`  :conda:package:`perl-io-handle`  :conda:package:`perl-test-more`  
 
-   conda install perl-file-remove
+   :required~by: |required_by_perl-file-remove|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-remove
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-remove
+
+   and update with::
+
+      conda update perl-file-remove
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-remove
+
+
+.. |required_by_perl-file-remove| conda:required_by:: perl-file-remove
+.. |downloads_perl-file-remove| image:: https://img.shields.io/conda/dn/bioconda/perl-file-remove.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-remove| image:: https://quay.io/repository/biocontainers/perl-file-remove/status
+   :target: https://quay.io/repository/biocontainers/perl-file-remove
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-remove.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-remove/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-remove/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-remove/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-remove/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-remove
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-remove/status
-                :target: https://quay.io/repository/biocontainers/perl-file-remove
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-remove/README.html
 

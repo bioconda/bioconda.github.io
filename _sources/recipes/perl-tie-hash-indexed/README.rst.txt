@@ -1,54 +1,66 @@
-.. _`perl-tie-hash-indexed`:
+.. title:: Package Recipe 'perl-tie-hash-indexed'
+.. highlight: bash
+
 
 perl-tie-hash-indexed
 =====================
 
-|downloads|
+.. conda:recipe:: perl-tie-hash-indexed
+   :replaces_section_title:
 
-Ordered hashes for Perl
+   Ordered hashes for Perl
 
-============= ===========
-Home          https://metacpan.org/pod/Tie::Hash::Indexed
-Versions      0.05
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tie-hash-indexed/meta.yaml
+   :homepage: https://metacpan.org/pod/Tie::Hash::Indexed
+   :license: perl_5
+   :recipe: /`perl-tie-hash-indexed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-hash-indexed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-hash-indexed/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-tie-hash-indexed
 
-Installation
-------------
+   |downloads_perl-tie-hash-indexed| |docker_perl-tie-hash-indexed|
 
-.. highlight: bash
+   :versions: 0.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-tie-hash-indexed
+   :required~by: |required_by_perl-tie-hash-indexed|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-tie-hash-indexed
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-tie-hash-indexed
+
+   and update with::
+
+      conda update perl-tie-hash-indexed
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-tie-hash-indexed
+
+
+.. |required_by_perl-tie-hash-indexed| conda:required_by:: perl-tie-hash-indexed
+.. |downloads_perl-tie-hash-indexed| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-hash-indexed.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-tie-hash-indexed| image:: https://quay.io/repository/biocontainers/perl-tie-hash-indexed/status
+   :target: https://quay.io/repository/biocontainers/perl-tie-hash-indexed
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-tie-hash-indexed.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-tie-hash-indexed/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-tie-hash-indexed/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-tie-hash-indexed/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-tie-hash-indexed/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-tie-hash-indexed
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-hash-indexed/status
-                :target: https://quay.io/repository/biocontainers/perl-tie-hash-indexed
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-tie-hash-indexed/README.html
 

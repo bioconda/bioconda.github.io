@@ -1,56 +1,67 @@
-.. _`bioconductor-panp`:
+.. title:: Package Recipe 'bioconductor-panp'
+.. highlight: bash
+
 
 bioconductor-panp
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-panp
+   :replaces_section_title:
 
-A function to make gene presence\/absence calls based on distance from negative strand matching probesets \(NSMP\) which are derived from Affymetrix annotation. PANP is applied after gene expression values are created\, and therefore can be used after any preprocessing method such as MAS5 or GCRMA\, or PM\-only methods like RMA. NSMP sets have been established for the HGU133A and HGU133\-Plus\-2.0 chipsets to date.
+   A function to make gene presence\/absence calls based on distance from negative strand matching probesets \(NSMP\) which are derived from Affymetrix annotation. PANP is applied after gene expression values are created\, and therefore can be used after any preprocessing method such as MAS5 or GCRMA\, or PM\-only methods like RMA. NSMP sets have been established for the HGU133A and HGU133\-Plus\-2.0 chipsets to date.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/panp.html
-Versions      1.52.0, 1.50.0, 1.48.0, 1.46.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-panp/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/panp.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-panp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp/meta.yaml>`_
+   :links: biotools: :biotools:`panp`, doi: :doi:`10.1109/BIBE.2007.4375552`
 
-
-
-Links         biotools: :biotools:`panp`, doi: :doi:`10.1109/BIBE.2007.4375552`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-panp
 
-Installation
-------------
+   |downloads_bioconductor-panp| |docker_bioconductor-panp|
 
-.. highlight: bash
+   :versions: 1.52.0, 1.50.0, 1.48.0, 1.46.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-panp
+   :required~by: |required_by_bioconductor-panp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-panp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-panp
+
+   and update with::
+
+      conda update bioconductor-panp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-panp
+
+
+.. |required_by_bioconductor-panp| conda:required_by:: bioconductor-panp
+.. |downloads_bioconductor-panp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-panp| image:: https://quay.io/repository/biocontainers/bioconductor-panp/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-panp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-panp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-panp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-panp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-panp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-panp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-panp
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-panp/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-panp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-panp/README.html
 

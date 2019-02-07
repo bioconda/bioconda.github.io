@@ -1,54 +1,66 @@
-.. _`perl-mldbm-sync`:
+.. title:: Package Recipe 'perl-mldbm-sync'
+.. highlight: bash
+
 
 perl-mldbm-sync
 ===============
 
-|downloads|
+.. conda:recipe:: perl-mldbm-sync
+   :replaces_section_title:
 
-safe concurrent access to MLDBM databases
+   safe concurrent access to MLDBM databases
 
-============= ===========
-Home          http://metacpan.org/pod/MLDBM-Sync
-Versions      0.30
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mldbm-sync/meta.yaml
+   :homepage: http://metacpan.org/pod/MLDBM-Sync
+   :license: unknown
+   :recipe: /`perl-mldbm-sync <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm-sync>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm-sync/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mldbm-sync
 
-Installation
-------------
+   |downloads_perl-mldbm-sync| |docker_perl-mldbm-sync|
 
-.. highlight: bash
+   :versions: 0.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-mldbm`  :conda:package:`perl-threaded`  :conda:package:`perl-tie-cache`  
 
-   conda install perl-mldbm-sync
+   :required~by: |required_by_perl-mldbm-sync|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mldbm-sync
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mldbm-sync
+
+   and update with::
+
+      conda update perl-mldbm-sync
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mldbm-sync
+
+
+.. |required_by_perl-mldbm-sync| conda:required_by:: perl-mldbm-sync
+.. |downloads_perl-mldbm-sync| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm-sync.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mldbm-sync| image:: https://quay.io/repository/biocontainers/perl-mldbm-sync/status
+   :target: https://quay.io/repository/biocontainers/perl-mldbm-sync
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mldbm-sync.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mldbm-sync/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mldbm-sync/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mldbm-sync/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mldbm-sync/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mldbm-sync
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mldbm-sync/status
-                :target: https://quay.io/repository/biocontainers/perl-mldbm-sync
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mldbm-sync/README.html
 

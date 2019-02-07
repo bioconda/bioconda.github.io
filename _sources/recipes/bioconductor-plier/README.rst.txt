@@ -1,56 +1,67 @@
-.. _`bioconductor-plier`:
+.. title:: Package Recipe 'bioconductor-plier'
+.. highlight: bash
+
 
 bioconductor-plier
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-plier
+   :replaces_section_title:
 
-The PLIER \(Probe Logarithmic Error Intensity Estimate\) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values.
+   The PLIER \(Probe Logarithmic Error Intensity Estimate\) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/plier.html
-Versions      1.52.0, 1.50.0, 1.48.0, 1.46.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-plier/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/plier.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-plier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plier/meta.yaml>`_
+   :links: biotools: :biotools:`plier`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`plier`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-plier
 
-Installation
-------------
+   |downloads_bioconductor-plier| |docker_bioconductor-plier|
 
-.. highlight: bash
+   :versions: 1.52.0, 1.50.0, 1.48.0, 1.46.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-plier
+   :required~by: |required_by_bioconductor-plier|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-plier
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-plier
+
+   and update with::
+
+      conda update bioconductor-plier
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-plier
+
+
+.. |required_by_bioconductor-plier| conda:required_by:: bioconductor-plier
+.. |downloads_bioconductor-plier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plier.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-plier| image:: https://quay.io/repository/biocontainers/bioconductor-plier/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-plier
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-plier.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-plier/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-plier/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-plier/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-plier/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-plier
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-plier/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-plier
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-plier/README.html
 

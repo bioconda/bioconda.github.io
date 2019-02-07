@@ -1,56 +1,67 @@
-.. _`collect_mgf`:
+.. title:: Package Recipe 'collect_mgf'
+.. highlight: bash
+
 
 collect_mgf
 ===========
 
-|downloads|
+.. conda:recipe:: collect_mgf
+   :replaces_section_title:
 
-Collects MGF files and dd\_results from an XMass setup\_QDD.tcl experiment to a single MGF file.
+   Collects MGF files and dd\_results from an XMass setup\_QDD.tcl experiment to a single MGF file.
 
-============= ===========
-Home          http://www.ms-utils.org/collect_mgf.c
-Versions      1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//collect_mgf/meta.yaml
+   :homepage: http://www.ms-utils.org/collect_mgf.c
+   :license: GPL-3.0
+   :recipe: /`collect_mgf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collect_mgf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collect_mgf/meta.yaml>`_
+   :links: biotools: :biotools:`collect_mgf`
 
-
-
-Links         biotools: :biotools:`collect_mgf`
-
-============= ===========
+   
 
 
+.. conda:package:: collect_mgf
 
-Installation
-------------
+   |downloads_collect_mgf| |docker_collect_mgf|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install collect_mgf
+   :required~by: |required_by_collect_mgf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update collect_mgf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install collect_mgf
+
+   and update with::
+
+      conda update collect_mgf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/collect_mgf
+
+
+.. |required_by_collect_mgf| conda:required_by:: collect_mgf
+.. |downloads_collect_mgf| image:: https://img.shields.io/conda/dn/bioconda/collect_mgf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_collect_mgf| image:: https://quay.io/repository/biocontainers/collect_mgf/status
+   :target: https://quay.io/repository/biocontainers/collect_mgf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/collect_mgf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/collect_mgf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/collect_mgf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/collect_mgf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/collect_mgf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/collect_mgf
-.. |docker| image:: https://quay.io/repository/biocontainers/collect_mgf/status
-                :target: https://quay.io/repository/biocontainers/collect_mgf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/collect_mgf/README.html
 

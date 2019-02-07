@@ -1,54 +1,66 @@
-.. _`r-genabel`:
+.. title:: Package Recipe 'r-genabel'
+.. highlight: bash
+
 
 r-genabel
 =========
 
-|downloads|
+.. conda:recipe:: r-genabel
+   :replaces_section_title:
 
-A package for genome\-wide association analysis between quantitative or binary traits and single\-nucleotide polymorphisms \(SNPs\). 
+   
 
-============= ===========
-Home          http://www.genabel.org
-Versions      1.8_0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-genabel/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-genabel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-genabel
 
-Installation
-------------
+   |downloads_r-genabel| |docker_r-genabel|
 
-.. highlight: bash
+   :versions: 1.8_0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-genabel.data`  :conda:package:`r-mass`  
 
-   conda install r-genabel
+   :required~by: |required_by_r-genabel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-genabel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-genabel
+
+   and update with::
+
+      conda update r-genabel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-genabel
+
+
+.. |required_by_r-genabel| conda:required_by:: r-genabel
+.. |downloads_r-genabel| image:: https://img.shields.io/conda/dn/bioconda/r-genabel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-genabel| image:: https://quay.io/repository/biocontainers/r-genabel/status
+   :target: https://quay.io/repository/biocontainers/r-genabel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-genabel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-genabel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-genabel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-genabel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-genabel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-genabel
-.. |docker| image:: https://quay.io/repository/biocontainers/r-genabel/status
-                :target: https://quay.io/repository/biocontainers/r-genabel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-genabel/README.html
 

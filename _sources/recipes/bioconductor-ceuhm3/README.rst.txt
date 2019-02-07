@@ -1,54 +1,66 @@
-.. _`bioconductor-ceuhm3`:
+.. title:: Package Recipe 'bioconductor-ceuhm3'
+.. highlight: bash
+
 
 bioconductor-ceuhm3
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-ceuhm3
+   :replaces_section_title:
 
-ceuhm3\: genotype \(HapMap phase III\) and expression data for CEPH CEU cohort
+   ceuhm3\: genotype \(HapMap phase III\) and expression data for CEPH CEU cohort
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ceuhm3.html
-Versions      0.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ceuhm3/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ceuhm3.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ceuhm3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceuhm3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceuhm3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ceuhm3
 
-Installation
-------------
+   |downloads_bioconductor-ceuhm3| |docker_bioconductor-ceuhm3|
 
-.. highlight: bash
+   :versions: 0.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-ggbase` >=3.44.0,<3.45.0 :conda:package:`bioconductor-ggtools` >=5.18.0,<5.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ceuhm3
+   :required~by: |required_by_bioconductor-ceuhm3|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ceuhm3
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ceuhm3
+
+   and update with::
+
+      conda update bioconductor-ceuhm3
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ceuhm3
+
+
+.. |required_by_bioconductor-ceuhm3| conda:required_by:: bioconductor-ceuhm3
+.. |downloads_bioconductor-ceuhm3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ceuhm3.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ceuhm3| image:: https://quay.io/repository/biocontainers/bioconductor-ceuhm3/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ceuhm3
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ceuhm3.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ceuhm3/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ceuhm3/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ceuhm3/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ceuhm3/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ceuhm3
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ceuhm3/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ceuhm3
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ceuhm3/README.html
 

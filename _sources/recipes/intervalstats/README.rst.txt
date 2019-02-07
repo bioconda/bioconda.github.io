@@ -1,54 +1,66 @@
-.. _`intervalstats`:
+.. title:: Package Recipe 'intervalstats'
+.. highlight: bash
+
 
 intervalstats
 =============
 
-|downloads|
+.. conda:recipe:: intervalstats
+   :replaces_section_title:
 
-Tool for assessing similarity between sets of intervals
+   Tool for assessing similarity between sets of intervals
 
-============= ===========
-Home          http://sonorus.princeton.edu/IntervalStats/
-Versions      1.01
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//intervalstats/meta.yaml
+   :homepage: http://sonorus.princeton.edu/IntervalStats/
+   :license: unknown
+   :recipe: /`intervalstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervalstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervalstats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: intervalstats
 
-Installation
-------------
+   |downloads_intervalstats| |docker_intervalstats|
 
-.. highlight: bash
+   :versions: 1.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install intervalstats
+   :required~by: |required_by_intervalstats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update intervalstats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install intervalstats
+
+   and update with::
+
+      conda update intervalstats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/intervalstats
+
+
+.. |required_by_intervalstats| conda:required_by:: intervalstats
+.. |downloads_intervalstats| image:: https://img.shields.io/conda/dn/bioconda/intervalstats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_intervalstats| image:: https://quay.io/repository/biocontainers/intervalstats/status
+   :target: https://quay.io/repository/biocontainers/intervalstats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/intervalstats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/intervalstats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/intervalstats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/intervalstats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/intervalstats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/intervalstats
-.. |docker| image:: https://quay.io/repository/biocontainers/intervalstats/status
-                :target: https://quay.io/repository/biocontainers/intervalstats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/intervalstats/README.html
 

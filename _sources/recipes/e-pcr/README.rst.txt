@@ -1,54 +1,66 @@
-.. _`e-pcr`:
+.. title:: Package Recipe 'e-pcr'
+.. highlight: bash
+
 
 e-pcr
 =====
 
-|downloads|
+.. conda:recipe:: e-pcr
+   :replaces_section_title:
 
-e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences..
+   e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences..
 
-============= ===========
-Home          http://www.ncbi.nlm.nih.gov/tools/epcr/
-Versions      2.3.12
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//e-pcr/meta.yaml
+   :homepage: http://www.ncbi.nlm.nih.gov/tools/epcr/
+   :license: GPLv2
+   :recipe: /`e-pcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e-pcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e-pcr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: e-pcr
 
-Installation
-------------
+   |downloads_e-pcr| |docker_e-pcr|
 
-.. highlight: bash
+   :versions: 2.3.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install e-pcr
+   :required~by: |required_by_e-pcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update e-pcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install e-pcr
+
+   and update with::
+
+      conda update e-pcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/e-pcr
+
+
+.. |required_by_e-pcr| conda:required_by:: e-pcr
+.. |downloads_e-pcr| image:: https://img.shields.io/conda/dn/bioconda/e-pcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_e-pcr| image:: https://quay.io/repository/biocontainers/e-pcr/status
+   :target: https://quay.io/repository/biocontainers/e-pcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/e-pcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/e-pcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/e-pcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/e-pcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/e-pcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/e-pcr
-.. |docker| image:: https://quay.io/repository/biocontainers/e-pcr/status
-                :target: https://quay.io/repository/biocontainers/e-pcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/e-pcr/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-harmandata`:
+.. title:: Package Recipe 'bioconductor-harmandata'
+.. highlight: bash
+
 
 bioconductor-harmandata
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-harmandata
+   :replaces_section_title:
 
-Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles.
+   Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/HarmanData.html
-Versions      1.10.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-harmandata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HarmanData.html
+   :license: GPL-3
+   :recipe: /`bioconductor-harmandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-harmandata
 
-Installation
-------------
+   |downloads_bioconductor-harmandata| |docker_bioconductor-harmandata|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-harmandata
+   :required~by: |required_by_bioconductor-harmandata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-harmandata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-harmandata
+
+   and update with::
+
+      conda update bioconductor-harmandata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-harmandata
+
+
+.. |required_by_bioconductor-harmandata| conda:required_by:: bioconductor-harmandata
+.. |downloads_bioconductor-harmandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harmandata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-harmandata| image:: https://quay.io/repository/biocontainers/bioconductor-harmandata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-harmandata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-harmandata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-harmandata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-harmandata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-harmandata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-harmandata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-harmandata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-harmandata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-harmandata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-harmandata/README.html
 

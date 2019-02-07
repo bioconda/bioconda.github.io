@@ -1,54 +1,66 @@
-.. _`bioconductor-scfeaturefilter`:
+.. title:: Package Recipe 'bioconductor-scfeaturefilter'
+.. highlight: bash
+
 
 bioconductor-scfeaturefilter
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-scfeaturefilter
+   :replaces_section_title:
 
-An R implementation of the correlation\-based method developed in the Joshi laboratory to analyse and filter processed single\-cell RNAseq data. It returns a filtered version of the data containing only genes expression values unaffected by systematic noise.
+   An R implementation of the correlation\-based method developed in the Joshi laboratory to analyse and filter processed single\-cell RNAseq data. It returns a filtered version of the data containing only genes expression values unaffected by systematic noise.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/scFeatureFilter.html
-Versions      1.2.1
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scfeaturefilter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scFeatureFilter.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-scfeaturefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-scfeaturefilter
 
-Installation
-------------
+   |downloads_bioconductor-scfeaturefilter| |docker_bioconductor-scfeaturefilter|
 
-.. highlight: bash
+   :versions: 1.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.3 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-magrittr` >=1.5 :conda:package:`r-rlang` >=0.1.2 :conda:package:`r-tibble` >=1.3.4 
 
-   conda install bioconductor-scfeaturefilter
+   :required~by: |required_by_bioconductor-scfeaturefilter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-scfeaturefilter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scfeaturefilter
+
+   and update with::
+
+      conda update bioconductor-scfeaturefilter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-scfeaturefilter
+
+
+.. |required_by_bioconductor-scfeaturefilter| conda:required_by:: bioconductor-scfeaturefilter
+.. |downloads_bioconductor-scfeaturefilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfeaturefilter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-scfeaturefilter| image:: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scfeaturefilter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scfeaturefilter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-scfeaturefilter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-scfeaturefilter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-scfeaturefilter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scfeaturefilter/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-crypt-openssl-random`:
+.. title:: Package Recipe 'perl-crypt-openssl-random'
+.. highlight: bash
+
 
 perl-crypt-openssl-random
 =========================
 
-|downloads|
+.. conda:recipe:: perl-crypt-openssl-random/0.11
+   :replaces_section_title:
 
-OpenSSL\/LibreSSL pseudo\-random number generator access
+   OpenSSL\/LibreSSL pseudo\-random number generator access
 
-============= ===========
-Home          http://sourceforge.net/projects/perl-openssl/
-Versions      0.11
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-crypt-openssl-random/0.11/meta.yaml
+   :homepage: http://sourceforge.net/projects/perl-openssl/
+   :license: perl_5
+   :recipe: /`perl-crypt-openssl-random <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-random>`_/`0.11 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-random/0.11>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-random/0.11/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-crypt-openssl-random
 
-Installation
-------------
+   |downloads_perl-crypt-openssl-random| |docker_perl-crypt-openssl-random|
 
-.. highlight: bash
+   :versions: 0.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openssl`  :conda:package:`perl` 5.22.0* 
 
-   conda install perl-crypt-openssl-random
+   :required~by: |required_by_perl-crypt-openssl-random|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-crypt-openssl-random
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-crypt-openssl-random
+
+   and update with::
+
+      conda update perl-crypt-openssl-random
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-crypt-openssl-random
+
+
+.. |required_by_perl-crypt-openssl-random| conda:required_by:: perl-crypt-openssl-random
+.. |downloads_perl-crypt-openssl-random| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-openssl-random.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-crypt-openssl-random| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-random/status
+   :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-random
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-crypt-openssl-random.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-crypt-openssl-random/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-crypt-openssl-random/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-crypt-openssl-random/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-crypt-openssl-random/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-crypt-openssl-random
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-random/status
-                :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-random
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-crypt-openssl-random/README.html
 

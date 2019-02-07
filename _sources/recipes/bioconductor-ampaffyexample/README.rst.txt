@@ -1,54 +1,66 @@
-.. _`bioconductor-ampaffyexample`:
+.. title:: Package Recipe 'bioconductor-ampaffyexample'
+.. highlight: bash
+
 
 bioconductor-ampaffyexample
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ampaffyexample
+   :replaces_section_title:
 
-Six arrays. Three from amplified RNA\, three from the typical procedure.
+   Six arrays. Three from amplified RNA\, three from the typical procedure.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/AmpAffyExample.html
-Versions      1.22.0
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ampaffyexample/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/AmpAffyExample.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-ampaffyexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ampaffyexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ampaffyexample/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ampaffyexample
 
-Installation
-------------
+   |downloads_bioconductor-ampaffyexample| |docker_bioconductor-ampaffyexample|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ampaffyexample
+   :required~by: |required_by_bioconductor-ampaffyexample|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ampaffyexample
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ampaffyexample
+
+   and update with::
+
+      conda update bioconductor-ampaffyexample
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ampaffyexample
+
+
+.. |required_by_bioconductor-ampaffyexample| conda:required_by:: bioconductor-ampaffyexample
+.. |downloads_bioconductor-ampaffyexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ampaffyexample.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ampaffyexample| image:: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ampaffyexample.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ampaffyexample/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ampaffyexample/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ampaffyexample/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ampaffyexample/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ampaffyexample
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ampaffyexample/README.html
 

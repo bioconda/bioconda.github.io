@@ -1,54 +1,66 @@
-.. _`fwdpy`:
+.. title:: Package Recipe 'fwdpy'
+.. highlight: bash
+
 
 fwdpy
 =====
 
-|downloads|
+.. conda:recipe:: fwdpy
+   :replaces_section_title:
 
-Forward\-time population genetic simulation in Python.
+   Forward\-time population genetic simulation in Python.
 
-============= ===========
-Home          http://pypi.python.org/pypi/fwdpy
-Versions      0.0.4pre1
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fwdpy/meta.yaml
+   :homepage: http://pypi.python.org/pypi/fwdpy
+   :license: GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`fwdpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fwdpy
 
-Installation
-------------
+   |downloads_fwdpy| |docker_fwdpy|
 
-.. highlight: bash
+   :versions: 0.0.4pre1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`libsequence`  :conda:package:`numpy` >=1.10 :conda:package:`pandas` >=0.18 :conda:package:`python` 2.7* 
 
-   conda install fwdpy
+   :required~by: |required_by_fwdpy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fwdpy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fwdpy
+
+   and update with::
+
+      conda update fwdpy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fwdpy
+
+
+.. |required_by_fwdpy| conda:required_by:: fwdpy
+.. |downloads_fwdpy| image:: https://img.shields.io/conda/dn/bioconda/fwdpy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fwdpy| image:: https://quay.io/repository/biocontainers/fwdpy/status
+   :target: https://quay.io/repository/biocontainers/fwdpy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fwdpy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fwdpy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fwdpy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fwdpy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fwdpy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fwdpy
-.. |docker| image:: https://quay.io/repository/biocontainers/fwdpy/status
-                :target: https://quay.io/repository/biocontainers/fwdpy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fwdpy/README.html
 

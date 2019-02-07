@@ -1,54 +1,66 @@
-.. _`perl-snap`:
+.. title:: Package Recipe 'perl-snap'
+.. highlight: bash
+
 
 perl-snap
 =========
 
-|downloads|
+.. conda:recipe:: perl-snap
+   :replaces_section_title:
 
-SNAP calculates pairwise synonymous and nonsynonymous distances according to the Nei and Gojobori method for an alignment in table format.
+   SNAP calculates pairwise synonymous and nonsynonymous distances according to the Nei and Gojobori method for an alignment in table format.
 
-============= ===========
-Home          https://www.hiv.lanl.gov/content/sequence/SNAP/SNAP.html
-Versions      2.1.1
-License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-snap/meta.yaml
+   :homepage: https://www.hiv.lanl.gov/content/sequence/SNAP/SNAP.html
+   :license: Custom OSS
+   :recipe: /`perl-snap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-snap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-snap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-snap
 
-Installation
-------------
+   |downloads_perl-snap| |docker_perl-snap|
 
-.. highlight: bash
+   :versions: 2.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-snap
+   :required~by: |required_by_perl-snap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-snap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-snap
+
+   and update with::
+
+      conda update perl-snap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-snap
+
+
+.. |required_by_perl-snap| conda:required_by:: perl-snap
+.. |downloads_perl-snap| image:: https://img.shields.io/conda/dn/bioconda/perl-snap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-snap| image:: https://quay.io/repository/biocontainers/perl-snap/status
+   :target: https://quay.io/repository/biocontainers/perl-snap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-snap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-snap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-snap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-snap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-snap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-snap
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-snap/status
-                :target: https://quay.io/repository/biocontainers/perl-snap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-snap/README.html
 

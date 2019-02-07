@@ -1,54 +1,66 @@
-.. _`mgs-canopy`:
+.. title:: Package Recipe 'mgs-canopy'
+.. highlight: bash
+
 
 mgs-canopy
 ==========
 
-|downloads|
+.. conda:recipe:: mgs-canopy
+   :replaces_section_title:
 
-Canopy clustering algorithm
+   Canopy clustering algorithm
 
-============= ===========
-Home          https://github.com/fplaza/mgs-canopy-algorithm
-Versions      1.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mgs-canopy/meta.yaml
+   :homepage: https://github.com/fplaza/mgs-canopy-algorithm
+   :license: GPL3
+   :recipe: /`mgs-canopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgs-canopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgs-canopy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mgs-canopy
 
-Installation
-------------
+   |downloads_mgs-canopy| |docker_mgs-canopy|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.61* :conda:package:`libgcc`  
 
-   conda install mgs-canopy
+   :required~by: |required_by_mgs-canopy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mgs-canopy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mgs-canopy
+
+   and update with::
+
+      conda update mgs-canopy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mgs-canopy
+
+
+.. |required_by_mgs-canopy| conda:required_by:: mgs-canopy
+.. |downloads_mgs-canopy| image:: https://img.shields.io/conda/dn/bioconda/mgs-canopy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mgs-canopy| image:: https://quay.io/repository/biocontainers/mgs-canopy/status
+   :target: https://quay.io/repository/biocontainers/mgs-canopy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mgs-canopy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mgs-canopy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mgs-canopy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mgs-canopy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mgs-canopy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mgs-canopy
-.. |docker| image:: https://quay.io/repository/biocontainers/mgs-canopy/status
-                :target: https://quay.io/repository/biocontainers/mgs-canopy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mgs-canopy/README.html
 

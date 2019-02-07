@@ -1,54 +1,66 @@
-.. _`perl-html-formatter`:
+.. title:: Package Recipe 'perl-html-formatter'
+.. highlight: bash
+
 
 perl-html-formatter
 ===================
 
-|downloads|
+.. conda:recipe:: perl-html-formatter
+   :replaces_section_title:
 
-Base class for HTML formatters
+   Base class for HTML formatters
 
-============= ===========
-Home          https://metacpan.org/release/HTML-Formatter
-Versions      2.16, 2.14
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-formatter/meta.yaml
+   :homepage: https://metacpan.org/release/HTML-Formatter
+   :license: perl_5
+   :recipe: /`perl-html-formatter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-formatter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-formatter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-html-formatter
 
-Installation
-------------
+   |downloads_perl-html-formatter| |docker_perl-html-formatter|
 
-.. highlight: bash
+   :versions: 2.16, 2.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-carp`  :conda:package:`perl-data-dumper`  :conda:package:`perl-encode`  :conda:package:`perl-font-afm`  :conda:package:`perl-html-tree`  :conda:package:`perl-parent`  
 
-   conda install perl-html-formatter
+   :required~by: |required_by_perl-html-formatter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-html-formatter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-html-formatter
+
+   and update with::
+
+      conda update perl-html-formatter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-html-formatter
+
+
+.. |required_by_perl-html-formatter| conda:required_by:: perl-html-formatter
+.. |downloads_perl-html-formatter| image:: https://img.shields.io/conda/dn/bioconda/perl-html-formatter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-html-formatter| image:: https://quay.io/repository/biocontainers/perl-html-formatter/status
+   :target: https://quay.io/repository/biocontainers/perl-html-formatter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-html-formatter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-html-formatter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-html-formatter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-html-formatter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-html-formatter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-html-formatter
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-html-formatter/status
-                :target: https://quay.io/repository/biocontainers/perl-html-formatter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-html-formatter/README.html
 

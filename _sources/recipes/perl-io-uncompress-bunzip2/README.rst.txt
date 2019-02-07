@@ -1,54 +1,66 @@
-.. _`perl-io-uncompress-bunzip2`:
+.. title:: Package Recipe 'perl-io-uncompress-bunzip2'
+.. highlight: bash
+
 
 perl-io-uncompress-bunzip2
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-io-uncompress-bunzip2/2.064
+   :replaces_section_title:
 
-Read bzip2 files\/buffers
+   Read bzip2 files\/buffers
 
-============= ===========
-Home          http://metacpan.org/pod/IO::Uncompress::Bunzip2
-Versions      2.064
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-uncompress-bunzip2/2.064/meta.yaml
+   :homepage: http://metacpan.org/pod/IO::Uncompress::Bunzip2
+   :license: perl_5
+   :recipe: /`perl-io-uncompress-bunzip2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-bunzip2>`_/`2.064 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-bunzip2/2.064>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-bunzip2/2.064/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-uncompress-bunzip2
 
-Installation
-------------
+   |downloads_perl-io-uncompress-bunzip2| |docker_perl-io-uncompress-bunzip2|
 
-.. highlight: bash
+   :versions: 2.064
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-io-uncompress-bunzip2
+   :required~by: |required_by_perl-io-uncompress-bunzip2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-uncompress-bunzip2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-uncompress-bunzip2
+
+   and update with::
+
+      conda update perl-io-uncompress-bunzip2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-uncompress-bunzip2
+
+
+.. |required_by_perl-io-uncompress-bunzip2| conda:required_by:: perl-io-uncompress-bunzip2
+.. |downloads_perl-io-uncompress-bunzip2| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-bunzip2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-uncompress-bunzip2| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2/status
+   :target: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-uncompress-bunzip2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-uncompress-bunzip2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-uncompress-bunzip2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-uncompress-bunzip2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-uncompress-bunzip2
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2/status
-                :target: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-uncompress-bunzip2/README.html
 

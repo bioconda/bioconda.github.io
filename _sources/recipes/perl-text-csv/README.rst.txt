@@ -1,54 +1,66 @@
-.. _`perl-text-csv`:
+.. title:: Package Recipe 'perl-text-csv'
+.. highlight: bash
+
 
 perl-text-csv
 =============
 
-|downloads|
+.. conda:recipe:: perl-text-csv
+   :replaces_section_title:
 
-comma\-separated values manipulator \(using XS or PurePerl\)
+   comma\-separated values manipulator \(using XS or PurePerl\)
 
-============= ===========
-Home          http://metacpan.org/pod/Text::CSV
-Versions      1.99, 1.97, 1.33
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-csv/meta.yaml
+   :homepage: http://metacpan.org/pod/Text::CSV
+   :license: perl_5
+   :recipe: /`perl-text-csv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-text-csv
 
-Installation
-------------
+   |downloads_perl-text-csv| |docker_perl-text-csv|
 
-.. highlight: bash
+   :versions: 1.99, 1.97, 1.33
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-test-harness`  
 
-   conda install perl-text-csv
+   :required~by: |required_by_perl-text-csv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-text-csv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-text-csv
+
+   and update with::
+
+      conda update perl-text-csv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-text-csv
+
+
+.. |required_by_perl-text-csv| conda:required_by:: perl-text-csv
+.. |downloads_perl-text-csv| image:: https://img.shields.io/conda/dn/bioconda/perl-text-csv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-text-csv| image:: https://quay.io/repository/biocontainers/perl-text-csv/status
+   :target: https://quay.io/repository/biocontainers/perl-text-csv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-text-csv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-text-csv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-text-csv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-text-csv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-text-csv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-text-csv
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-text-csv/status
-                :target: https://quay.io/repository/biocontainers/perl-text-csv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-text-csv/README.html
 

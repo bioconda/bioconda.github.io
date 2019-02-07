@@ -1,54 +1,66 @@
-.. _`bioconductor-copdsexualdimorphism.data`:
+.. title:: Package Recipe 'bioconductor-copdsexualdimorphism.data'
+.. highlight: bash
+
 
 bioconductor-copdsexualdimorphism.data
 ======================================
 
-|downloads|
+.. conda:recipe:: bioconductor-copdsexualdimorphism.data
+   :replaces_section_title:
 
-Datasets to support COPDSexaulDimorphism Package.
+   Datasets to support COPDSexaulDimorphism Package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/COPDSexualDimorphism.data.html
-Versions      1.18.0
-License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copdsexualdimorphism.data/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/COPDSexualDimorphism.data.html
+   :license: LGPL-2.1
+   :recipe: /`bioconductor-copdsexualdimorphism.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-copdsexualdimorphism.data
 
-Installation
-------------
+   |downloads_bioconductor-copdsexualdimorphism.data| |docker_bioconductor-copdsexualdimorphism.data|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-copdsexualdimorphism.data
+   :required~by: |required_by_bioconductor-copdsexualdimorphism.data|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-copdsexualdimorphism.data
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-copdsexualdimorphism.data
+
+   and update with::
+
+      conda update bioconductor-copdsexualdimorphism.data
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data
+
+
+.. |required_by_bioconductor-copdsexualdimorphism.data| conda:required_by:: bioconductor-copdsexualdimorphism.data
+.. |downloads_bioconductor-copdsexualdimorphism.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copdsexualdimorphism.data.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-copdsexualdimorphism.data| image:: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-copdsexualdimorphism.data/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-copdsexualdimorphism.data/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-copdsexualdimorphism.data/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-copdsexualdimorphism.data/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-copdsexualdimorphism.data
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-copdsexualdimorphism.data/README.html
 

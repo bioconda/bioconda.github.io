@@ -1,39 +1,59 @@
-.. _`biopet-scatterregions`:
+.. title:: Package Recipe 'biopet-scatterregions'
+.. highlight: bash
+
 
 biopet-scatterregions
 =====================
 
-|downloads|
+.. conda:recipe:: biopet-scatterregions
+   :replaces_section_title:
 
-This tool breaks a reference or bed file into smaller scatter regions of equal size.
+   This tool breaks a reference or bed file into smaller scatter regions of equal size.
 
-============= ===========
-Home          https://github.com/biopet/scatterregions
-Versions      0.2, 0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet-scatterregions/meta.yaml
+   :homepage: https://github.com/biopet/scatterregions
+   :license: MIT
+   :recipe: /`biopet-scatterregions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-scatterregions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-scatterregions/meta.yaml>`_
 
+   This tool breaks a reference or bed file into smaller scatter regions of equal size. This can be used for processing inside a pipeline.
 
-
-============= ===========
-
-This tool breaks a reference or bed file into smaller scatter regions of equal size. This can be used for processing inside a pipeline.
-
-For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/scatterregions
+   For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/scatterregions
 
 
-Installation
-------------
 
-.. highlight: bash
+.. conda:package:: biopet-scatterregions
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   |downloads_biopet-scatterregions| |docker_biopet-scatterregions|
 
-   conda install biopet-scatterregions
+   :versions: 0.2, 0.1
 
-and update with::
+   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
 
-   conda update biopet-scatterregions
+   :required~by: |required_by_biopet-scatterregions|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biopet-scatterregions
+
+   and update with::
+
+      conda update biopet-scatterregions
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/biopet-scatterregions
+
+
+.. |required_by_biopet-scatterregions| conda:required_by:: biopet-scatterregions
+.. |downloads_biopet-scatterregions| image:: https://img.shields.io/conda/dn/bioconda/biopet-scatterregions.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biopet-scatterregions| image:: https://quay.io/repository/biocontainers/biopet-scatterregions/status
+   :target: https://quay.io/repository/biocontainers/biopet-scatterregions
+
+
+
+
 
 
 Notes
@@ -46,22 +66,13 @@ If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \'biopet\-scatterregions \-Xms512m \-Xmx1g\'.
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/biopet-scatterregions.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biopet-scatterregions/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biopet-scatterregions/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/biopet-scatterregions/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/biopet-scatterregions/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/biopet-scatterregions
-.. |docker| image:: https://quay.io/repository/biocontainers/biopet-scatterregions/status
-                :target: https://quay.io/repository/biocontainers/biopet-scatterregions
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biopet-scatterregions/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-lowmacaannotation`:
+.. title:: Package Recipe 'bioconductor-lowmacaannotation'
+.. highlight: bash
+
 
 bioconductor-lowmacaannotation
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-lowmacaannotation
+   :replaces_section_title:
 
-A package containing the data to run LowMACA package.
+   A package containing the data to run LowMACA package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/LowMACAAnnotation.html
-Versions      0.99.3
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lowmacaannotation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LowMACAAnnotation.html
+   :license: GPL-3
+   :recipe: /`bioconductor-lowmacaannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lowmacaannotation
 
-Installation
-------------
+   |downloads_bioconductor-lowmacaannotation| |docker_bioconductor-lowmacaannotation|
 
-.. highlight: bash
+   :versions: 0.99.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lowmacaannotation
+   :required~by: |required_by_bioconductor-lowmacaannotation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lowmacaannotation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lowmacaannotation
+
+   and update with::
+
+      conda update bioconductor-lowmacaannotation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lowmacaannotation
+
+
+.. |required_by_bioconductor-lowmacaannotation| conda:required_by:: bioconductor-lowmacaannotation
+.. |downloads_bioconductor-lowmacaannotation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lowmacaannotation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lowmacaannotation| image:: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lowmacaannotation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lowmacaannotation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lowmacaannotation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lowmacaannotation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lowmacaannotation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lowmacaannotation/README.html
 

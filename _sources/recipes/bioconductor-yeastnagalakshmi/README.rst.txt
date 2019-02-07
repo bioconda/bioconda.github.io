@@ -1,54 +1,66 @@
-.. _`bioconductor-yeastnagalakshmi`:
+.. title:: Package Recipe 'bioconductor-yeastnagalakshmi'
+.. highlight: bash
+
 
 bioconductor-yeastnagalakshmi
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-yeastnagalakshmi
+   :replaces_section_title:
 
-The yeast genome data was retrieved from the sequence read archive\, aligned with bwa\, and converted to BAM format with samtools.
+   The yeast genome data was retrieved from the sequence read archive\, aligned with bwa\, and converted to BAM format with samtools.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/yeastNagalakshmi.html
-Versions      1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-yeastnagalakshmi/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/yeastNagalakshmi.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-yeastnagalakshmi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-yeastnagalakshmi
 
-Installation
-------------
+   |downloads_bioconductor-yeastnagalakshmi| |docker_bioconductor-yeastnagalakshmi|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-yeastnagalakshmi
+   :required~by: |required_by_bioconductor-yeastnagalakshmi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-yeastnagalakshmi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-yeastnagalakshmi
+
+   and update with::
+
+      conda update bioconductor-yeastnagalakshmi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi
+
+
+.. |required_by_bioconductor-yeastnagalakshmi| conda:required_by:: bioconductor-yeastnagalakshmi
+.. |downloads_bioconductor-yeastnagalakshmi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastnagalakshmi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-yeastnagalakshmi| image:: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-yeastnagalakshmi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-yeastnagalakshmi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-yeastnagalakshmi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-yeastnagalakshmi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-yeastnagalakshmi
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-yeastnagalakshmi/README.html
 

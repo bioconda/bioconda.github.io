@@ -1,54 +1,66 @@
-.. _`gtdbtk`:
+.. title:: Package Recipe 'gtdbtk'
+.. highlight: bash
+
 
 gtdbtk
 ======
 
-|downloads|
+.. conda:recipe:: gtdbtk
+   :replaces_section_title:
 
-A toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes.
+   A toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes.
 
-============= ===========
-Home          http://pypi.python.org/pypi/gtdbtk/
-Versions      0.1.5, 0.1.3
-License       GNU General Public v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gtdbtk/meta.yaml
+   :homepage: http://pypi.python.org/pypi/gtdbtk/
+   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :recipe: /`gtdbtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtdbtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtdbtk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gtdbtk
 
-Installation
-------------
+   |downloads_gtdbtk| |docker_gtdbtk|
 
-.. highlight: bash
+   :versions: 0.1.5, 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biolib` >=0.0.43 :conda:package:`dendropy` >=4.1.0 :conda:package:`fastani`  :conda:package:`fasttree`  :conda:package:`hmmer`  :conda:package:`jinja2` >=2.7.3 :conda:package:`mpld3` >=0.2 :conda:package:`perl-gtdbtk`  :conda:package:`pplacer`  :conda:package:`prodigal`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
-   conda install gtdbtk
+   :required~by: |required_by_gtdbtk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gtdbtk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gtdbtk
+
+   and update with::
+
+      conda update gtdbtk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gtdbtk
+
+
+.. |required_by_gtdbtk| conda:required_by:: gtdbtk
+.. |downloads_gtdbtk| image:: https://img.shields.io/conda/dn/bioconda/gtdbtk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gtdbtk| image:: https://quay.io/repository/biocontainers/gtdbtk/status
+   :target: https://quay.io/repository/biocontainers/gtdbtk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gtdbtk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gtdbtk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gtdbtk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gtdbtk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gtdbtk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gtdbtk
-.. |docker| image:: https://quay.io/repository/biocontainers/gtdbtk/status
-                :target: https://quay.io/repository/biocontainers/gtdbtk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gtdbtk/README.html
 

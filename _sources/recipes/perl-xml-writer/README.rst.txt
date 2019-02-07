@@ -1,54 +1,66 @@
-.. _`perl-xml-writer`:
+.. title:: Package Recipe 'perl-xml-writer'
+.. highlight: bash
+
 
 perl-xml-writer
 ===============
 
-|downloads|
+.. conda:recipe:: perl-xml-writer
+   :replaces_section_title:
 
-Easily generate well\-formed\, namespace\-aware XML.
+   Easily generate well\-formed\, namespace\-aware XML.
 
-============= ===========
-Home          http://metacpan.org/pod/XML-Writer
-Versions      0.625
-License       unrestricted
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-writer/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-Writer
+   :license: unrestricted
+   :recipe: /`perl-xml-writer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-writer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-writer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-writer
 
-Installation
-------------
+   |downloads_perl-xml-writer| |docker_perl-xml-writer|
 
-.. highlight: bash
+   :versions: 0.625
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-xml-writer
+   :required~by: |required_by_perl-xml-writer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-writer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-writer
+
+   and update with::
+
+      conda update perl-xml-writer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-writer
+
+
+.. |required_by_perl-xml-writer| conda:required_by:: perl-xml-writer
+.. |downloads_perl-xml-writer| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-writer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-writer| image:: https://quay.io/repository/biocontainers/perl-xml-writer/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-writer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-writer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-writer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-writer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-writer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-writer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-writer
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-writer/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-writer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-writer/README.html
 

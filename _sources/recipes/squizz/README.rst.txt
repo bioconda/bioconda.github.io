@@ -1,54 +1,66 @@
-.. _`squizz`:
+.. title:: Package Recipe 'squizz'
+.. highlight: bash
+
 
 squizz
 ======
 
-|downloads|
+.. conda:recipe:: squizz
+   :replaces_section_title:
 
-Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too.
+   Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too.
 
-============= ===========
-Home          http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
-Versions      0.99d
-License       GPL 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//squizz/meta.yaml
+   :homepage: http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
+   :license: GPL 2
+   :recipe: /`squizz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: squizz
 
-Installation
-------------
+   |downloads_squizz| |docker_squizz|
 
-.. highlight: bash
+   :versions: 0.99d
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install squizz
+   :required~by: |required_by_squizz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update squizz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install squizz
+
+   and update with::
+
+      conda update squizz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/squizz
+
+
+.. |required_by_squizz| conda:required_by:: squizz
+.. |downloads_squizz| image:: https://img.shields.io/conda/dn/bioconda/squizz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_squizz| image:: https://quay.io/repository/biocontainers/squizz/status
+   :target: https://quay.io/repository/biocontainers/squizz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/squizz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/squizz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/squizz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/squizz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/squizz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/squizz
-.. |docker| image:: https://quay.io/repository/biocontainers/squizz/status
-                :target: https://quay.io/repository/biocontainers/squizz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/squizz/README.html
 

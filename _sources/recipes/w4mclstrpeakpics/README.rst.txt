@@ -1,54 +1,66 @@
-.. _`w4mclstrpeakpics`:
+.. title:: Package Recipe 'w4mclstrpeakpics'
+.. highlight: bash
+
 
 w4mclstrpeakpics
 ================
 
-|downloads|
+.. conda:recipe:: w4mclstrpeakpics
+   :replaces_section_title:
 
-Visualize W4M sample\-cluster peaks \- Produce a figure to assess the similarities and differences among peaks in a cluster of samples using XCMS\-preprocessed data files as input. MIT Licence allows redistribution.
+   Visualize W4M sample\-cluster peaks \- Produce a figure to assess the similarities and differences among peaks in a cluster of samples using XCMS\-preprocessed data files as input. MIT Licence allows redistribution.
 
-============= ===========
-Home          https://github.com/HegemanLab/w4mclstrpeakpics
-Versions      0.98.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//w4mclstrpeakpics/meta.yaml
+   :homepage: https://github.com/HegemanLab/w4mclstrpeakpics
+   :license: MIT
+   :recipe: /`w4mclstrpeakpics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclstrpeakpics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclstrpeakpics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: w4mclstrpeakpics
 
-Installation
-------------
+   |downloads_w4mclstrpeakpics| |docker_w4mclstrpeakpics|
 
-.. highlight: bash
+   :versions: 0.98.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-batch`  :conda:package:`r-reshape2`  :conda:package:`r-sqldf`  
 
-   conda install w4mclstrpeakpics
+   :required~by: |required_by_w4mclstrpeakpics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update w4mclstrpeakpics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install w4mclstrpeakpics
+
+   and update with::
+
+      conda update w4mclstrpeakpics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/w4mclstrpeakpics
+
+
+.. |required_by_w4mclstrpeakpics| conda:required_by:: w4mclstrpeakpics
+.. |downloads_w4mclstrpeakpics| image:: https://img.shields.io/conda/dn/bioconda/w4mclstrpeakpics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_w4mclstrpeakpics| image:: https://quay.io/repository/biocontainers/w4mclstrpeakpics/status
+   :target: https://quay.io/repository/biocontainers/w4mclstrpeakpics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/w4mclstrpeakpics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/w4mclstrpeakpics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/w4mclstrpeakpics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/w4mclstrpeakpics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/w4mclstrpeakpics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/w4mclstrpeakpics
-.. |docker| image:: https://quay.io/repository/biocontainers/w4mclstrpeakpics/status
-                :target: https://quay.io/repository/biocontainers/w4mclstrpeakpics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/w4mclstrpeakpics/README.html
 

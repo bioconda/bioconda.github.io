@@ -1,54 +1,66 @@
-.. _`perl-test-xml`:
+.. title:: Package Recipe 'perl-test-xml'
+.. highlight: bash
+
 
 perl-test-xml
 =============
 
-|downloads|
+.. conda:recipe:: perl-test-xml
+   :replaces_section_title:
 
-Compare XML in perl tests
+   Compare XML in perl tests
 
-============= ===========
-Home          http://metacpan.org/pod/Test-XML
-Versions      0.08
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-xml/meta.yaml
+   :homepage: http://metacpan.org/pod/Test-XML
+   :license: perl_5
+   :recipe: /`perl-test-xml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-xml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-xml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-xml
 
-Installation
-------------
+   |downloads_perl-test-xml| |docker_perl-test-xml|
 
-.. highlight: bash
+   :versions: 0.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-sax`  :conda:package:`perl-xml-sax-writer`  :conda:package:`perl-xml-semanticdiff`  :conda:package:`perl-xml-twig`  :conda:package:`perl-xml-xpath`  
 
-   conda install perl-test-xml
+   :required~by: |required_by_perl-test-xml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-xml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-xml
+
+   and update with::
+
+      conda update perl-test-xml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-xml
+
+
+.. |required_by_perl-test-xml| conda:required_by:: perl-test-xml
+.. |downloads_perl-test-xml| image:: https://img.shields.io/conda/dn/bioconda/perl-test-xml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-xml| image:: https://quay.io/repository/biocontainers/perl-test-xml/status
+   :target: https://quay.io/repository/biocontainers/perl-test-xml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-xml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-xml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-xml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-xml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-xml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-xml
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-xml/status
-                :target: https://quay.io/repository/biocontainers/perl-test-xml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-xml/README.html
 

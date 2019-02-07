@@ -1,54 +1,66 @@
-.. _`bioconductor-matchbox`:
+.. title:: Package Recipe 'bioconductor-matchbox'
+.. highlight: bash
+
 
 bioconductor-matchbox
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-matchbox
+   :replaces_section_title:
 
-The matchBox package enables comparing ranked vectors of features\, merging multiple datasets\, removing redundant features\, using CAT\-plots and Venn diagrams\, and computing statistical significance.
+   The matchBox package enables comparing ranked vectors of features\, merging multiple datasets\, removing redundant features\, using CAT\-plots and Venn diagrams\, and computing statistical significance.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/matchBox.html
-Versions      1.24.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-matchbox/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/matchBox.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-matchbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-matchbox
 
-Installation
-------------
+   |downloads_bioconductor-matchbox| |docker_bioconductor-matchbox|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-matchbox
+   :required~by: |required_by_bioconductor-matchbox|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-matchbox
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-matchbox
+
+   and update with::
+
+      conda update bioconductor-matchbox
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-matchbox
+
+
+.. |required_by_bioconductor-matchbox| conda:required_by:: bioconductor-matchbox
+.. |downloads_bioconductor-matchbox| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-matchbox.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-matchbox| image:: https://quay.io/repository/biocontainers/bioconductor-matchbox/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-matchbox
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-matchbox.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-matchbox/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-matchbox/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-matchbox/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-matchbox/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-matchbox
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-matchbox/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-matchbox
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-matchbox/README.html
 

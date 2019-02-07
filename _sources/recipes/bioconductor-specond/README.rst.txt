@@ -1,56 +1,67 @@
-.. _`bioconductor-specond`:
+.. title:: Package Recipe 'bioconductor-specond'
+.. highlight: bash
+
 
 bioconductor-specond
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-specond
+   :replaces_section_title:
 
-This package performs a gene expression data analysis to detect condition\-specific genes. Such genes are significantly up\- or down\-regulated in a small number of conditions. It does so by fitting a mixture of normal distributions to the expression values. Conditions can be environmental conditions\, different tissues\, organs or any other sources that you wish to compare in terms of gene expression.
+   This package performs a gene expression data analysis to detect condition\-specific genes. Such genes are significantly up\- or down\-regulated in a small number of conditions. It does so by fitting a mixture of normal distributions to the expression values. Conditions can be environmental conditions\, different tissues\, organs or any other sources that you wish to compare in terms of gene expression.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SpeCond.html
-Versions      1.36.0, 1.34.0, 1.32.0, 1.30.0
-License       LGPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-specond/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SpeCond.html
+   :license: LGPL (>=2)
+   :recipe: /`bioconductor-specond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond/meta.yaml>`_
+   :links: biotools: :biotools:`specond`, doi: :doi:`10.1186/gb-2011-12-12-413`
 
-
-
-Links         biotools: :biotools:`specond`, doi: :doi:`10.1186/gb-2011-12-12-413`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-specond
 
-Installation
-------------
+   |downloads_bioconductor-specond| |docker_bioconductor-specond|
 
-.. highlight: bash
+   :versions: 1.36.0, 1.34.0, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fields`  :conda:package:`r-hwriter` >=1.1 :conda:package:`r-mclust` >=3.3.1 :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-specond
+   :required~by: |required_by_bioconductor-specond|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-specond
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-specond
+
+   and update with::
+
+      conda update bioconductor-specond
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-specond
+
+
+.. |required_by_bioconductor-specond| conda:required_by:: bioconductor-specond
+.. |downloads_bioconductor-specond| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-specond.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-specond| image:: https://quay.io/repository/biocontainers/bioconductor-specond/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-specond
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-specond.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-specond/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-specond/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-specond/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-specond/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-specond
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-specond/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-specond
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-specond/README.html
 

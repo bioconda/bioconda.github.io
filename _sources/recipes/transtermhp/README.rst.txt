@@ -1,54 +1,66 @@
-.. _`transtermhp`:
+.. title:: Package Recipe 'transtermhp'
+.. highlight: bash
+
 
 transtermhp
 ===========
 
-|downloads|
+.. conda:recipe:: transtermhp
+   :replaces_section_title:
 
-TransTermHP finds rho\-independent transcription terminators in bacterial genomes
+   TransTermHP finds rho\-independent transcription terminators in bacterial genomes
 
-============= ===========
-Home          http://transterm.cbcb.umd.edu/index.php
-Versions      2.09
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//transtermhp/meta.yaml
+   :homepage: http://transterm.cbcb.umd.edu/index.php
+   :license: GPL
+   :recipe: /`transtermhp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: transtermhp
 
-Installation
-------------
+   |downloads_transtermhp| |docker_transtermhp|
 
-.. highlight: bash
+   :versions: 2.09
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install transtermhp
+   :required~by: |required_by_transtermhp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update transtermhp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install transtermhp
+
+   and update with::
+
+      conda update transtermhp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/transtermhp
+
+
+.. |required_by_transtermhp| conda:required_by:: transtermhp
+.. |downloads_transtermhp| image:: https://img.shields.io/conda/dn/bioconda/transtermhp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_transtermhp| image:: https://quay.io/repository/biocontainers/transtermhp/status
+   :target: https://quay.io/repository/biocontainers/transtermhp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/transtermhp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/transtermhp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/transtermhp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/transtermhp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/transtermhp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/transtermhp
-.. |docker| image:: https://quay.io/repository/biocontainers/transtermhp/status
-                :target: https://quay.io/repository/biocontainers/transtermhp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/transtermhp/README.html
 

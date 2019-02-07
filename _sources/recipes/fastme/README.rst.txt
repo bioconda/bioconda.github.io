@@ -1,56 +1,67 @@
-.. _`fastme`:
+.. title:: Package Recipe 'fastme'
+.. highlight: bash
+
 
 fastme
 ======
 
-|downloads|
+.. conda:recipe:: fastme
+   :replaces_section_title:
 
-a comprehensive\, accurate and fast distance\-based phylogeny inference program.
+   a comprehensive\, accurate and fast distance\-based phylogeny inference program.
 
-============= ===========
-Home          http://www.atgc-montpellier.fr/fastme/binaries.php
-Versions      2.1.5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastme/meta.yaml
+   :homepage: http://www.atgc-montpellier.fr/fastme/binaries.php
+   :license: GPLv3
+   :recipe: /`fastme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme/meta.yaml>`_
+   :links: biotools: :biotools:`fastme`, doi: :doi:`10.1093/molbev/msv150`
 
-
-
-Links         biotools: :biotools:`fastme`, doi: :doi:`10.1093/molbev/msv150`
-
-============= ===========
+   
 
 
+.. conda:package:: fastme
 
-Installation
-------------
+   |downloads_fastme| |docker_fastme|
 
-.. highlight: bash
+   :versions: 2.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install fastme
+   :required~by: |required_by_fastme|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastme
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastme
+
+   and update with::
+
+      conda update fastme
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastme
+
+
+.. |required_by_fastme| conda:required_by:: fastme
+.. |downloads_fastme| image:: https://img.shields.io/conda/dn/bioconda/fastme.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastme| image:: https://quay.io/repository/biocontainers/fastme/status
+   :target: https://quay.io/repository/biocontainers/fastme
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastme.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastme/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastme/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastme/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastme/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastme
-.. |docker| image:: https://quay.io/repository/biocontainers/fastme/status
-                :target: https://quay.io/repository/biocontainers/fastme
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastme/README.html
 

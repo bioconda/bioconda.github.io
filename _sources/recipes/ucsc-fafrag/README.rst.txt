@@ -1,54 +1,66 @@
-.. _`ucsc-fafrag`:
+.. title:: Package Recipe 'ucsc-fafrag'
+.. highlight: bash
+
 
 ucsc-fafrag
 ===========
 
-|downloads|
+.. conda:recipe:: ucsc-fafrag
+   :replaces_section_title:
 
-Extract a piece of DNA from a .fa file.
+   Extract a piece of DNA from a .fa file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-fafrag/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-fafrag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafrag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafrag/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-fafrag
 
-Installation
-------------
+   |downloads_ucsc-fafrag| |docker_ucsc-fafrag|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-fafrag
+   :required~by: |required_by_ucsc-fafrag|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-fafrag
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-fafrag
+
+   and update with::
+
+      conda update ucsc-fafrag
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-fafrag
+
+
+.. |required_by_ucsc-fafrag| conda:required_by:: ucsc-fafrag
+.. |downloads_ucsc-fafrag| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fafrag.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-fafrag| image:: https://quay.io/repository/biocontainers/ucsc-fafrag/status
+   :target: https://quay.io/repository/biocontainers/ucsc-fafrag
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-fafrag.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-fafrag/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-fafrag/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-fafrag/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-fafrag/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-fafrag
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fafrag/status
-                :target: https://quay.io/repository/biocontainers/ucsc-fafrag
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-fafrag/README.html
 

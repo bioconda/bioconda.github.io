@@ -1,54 +1,66 @@
-.. _`bioconductor-rqubic`:
+.. title:: Package Recipe 'bioconductor-rqubic'
+.. highlight: bash
+
 
 bioconductor-rqubic
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-rqubic
+   :replaces_section_title:
 
-This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data.
+   This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rqubic.html
-Versions      1.28.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rqubic/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rqubic.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rqubic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqubic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqubic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rqubic
 
-Installation
-------------
+   |downloads_bioconductor-rqubic| |docker_bioconductor-rqubic|
 
-.. highlight: bash
+   :versions: 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  
 
-   conda install bioconductor-rqubic
+   :required~by: |required_by_bioconductor-rqubic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rqubic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rqubic
+
+   and update with::
+
+      conda update bioconductor-rqubic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rqubic
+
+
+.. |required_by_bioconductor-rqubic| conda:required_by:: bioconductor-rqubic
+.. |downloads_bioconductor-rqubic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rqubic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rqubic| image:: https://quay.io/repository/biocontainers/bioconductor-rqubic/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rqubic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rqubic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rqubic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rqubic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rqubic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rqubic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rqubic
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rqubic/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rqubic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rqubic/README.html
 

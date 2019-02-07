@@ -1,54 +1,66 @@
-.. _`vcftoolbox`:
+.. title:: Package Recipe 'vcftoolbox'
+.. highlight: bash
+
 
 vcftoolbox
 ==========
 
-|downloads|
+.. conda:recipe:: vcftoolbox
+   :replaces_section_title:
 
-Tools for manipulating and parsing vcf files
+   Tools for manipulating and parsing vcf files
 
-============= ===========
-Home          http://github.com/moonso/vcftoolbox
-Versions      1.5.1, 0.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcftoolbox/meta.yaml
+   :homepage: http://github.com/moonso/vcftoolbox
+   :license: MIT / MIT License
+   :recipe: /`vcftoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftoolbox/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vcftoolbox
 
-Installation
-------------
+   |downloads_vcftoolbox| |docker_vcftoolbox|
 
-.. highlight: bash
+   :versions: 1.5.1, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install vcftoolbox
+   :required~by: |required_by_vcftoolbox|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vcftoolbox
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vcftoolbox
+
+   and update with::
+
+      conda update vcftoolbox
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vcftoolbox
+
+
+.. |required_by_vcftoolbox| conda:required_by:: vcftoolbox
+.. |downloads_vcftoolbox| image:: https://img.shields.io/conda/dn/bioconda/vcftoolbox.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vcftoolbox| image:: https://quay.io/repository/biocontainers/vcftoolbox/status
+   :target: https://quay.io/repository/biocontainers/vcftoolbox
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vcftoolbox.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vcftoolbox/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vcftoolbox/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vcftoolbox/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vcftoolbox/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vcftoolbox
-.. |docker| image:: https://quay.io/repository/biocontainers/vcftoolbox/status
-                :target: https://quay.io/repository/biocontainers/vcftoolbox
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vcftoolbox/README.html
 

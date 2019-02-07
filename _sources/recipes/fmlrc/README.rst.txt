@@ -1,56 +1,67 @@
-.. _`fmlrc`:
+.. title:: Package Recipe 'fmlrc'
+.. highlight: bash
+
 
 fmlrc
 =====
 
-|downloads|
+.. conda:recipe:: fmlrc
+   :replaces_section_title:
 
-A long\-read error correction tool using the multi\-string Burrows Wheeler Transform
+   A long\-read error correction tool using the multi\-string Burrows Wheeler Transform
 
-============= ===========
-Home          https://github.com/holtjma/fmlrc
-Versions      0.1.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fmlrc/meta.yaml
+   :homepage: https://github.com/holtjma/fmlrc
+   :license: MIT / MIT
+   :recipe: /`fmlrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmlrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmlrc/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-018-2051-3`
 
-
-
-Links         doi: :doi:`10.1186/s12859-018-2051-3`
-
-============= ===========
+   
 
 
+.. conda:package:: fmlrc
 
-Installation
-------------
+   |downloads_fmlrc| |docker_fmlrc|
 
-.. highlight: bash
+   :versions: 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install fmlrc
+   :required~by: |required_by_fmlrc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fmlrc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fmlrc
+
+   and update with::
+
+      conda update fmlrc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fmlrc
+
+
+.. |required_by_fmlrc| conda:required_by:: fmlrc
+.. |downloads_fmlrc| image:: https://img.shields.io/conda/dn/bioconda/fmlrc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fmlrc| image:: https://quay.io/repository/biocontainers/fmlrc/status
+   :target: https://quay.io/repository/biocontainers/fmlrc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fmlrc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fmlrc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fmlrc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fmlrc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fmlrc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fmlrc
-.. |docker| image:: https://quay.io/repository/biocontainers/fmlrc/status
-                :target: https://quay.io/repository/biocontainers/fmlrc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fmlrc/README.html
 

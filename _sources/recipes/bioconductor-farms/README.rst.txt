@@ -1,56 +1,67 @@
-.. _`bioconductor-farms`:
+.. title:: Package Recipe 'bioconductor-farms'
+.. highlight: bash
+
 
 bioconductor-farms
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-farms
+   :replaces_section_title:
 
-The package provides the summarization algorithm called Factor Analysis for Robust Microarray Summarization \(FARMS\) and a novel unsupervised feature selection criterion called \"I\/NI\-calls\"
+   The package provides the summarization algorithm called Factor Analysis for Robust Microarray Summarization \(FARMS\) and a novel unsupervised feature selection criterion called \"I\/NI\-calls\"
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/farms.html
-Versions      1.34.0, 1.32.0, 1.30.0, 1.28.0
-License       LGPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-farms/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/farms.html
+   :license: LGPL (>= 2.1)
+   :recipe: /`bioconductor-farms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms/meta.yaml>`_
+   :links: biotools: :biotools:`farms`
 
-
-
-Links         biotools: :biotools:`farms`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-farms
 
-Installation
-------------
+   |downloads_bioconductor-farms| |docker_bioconductor-farms|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0, 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
 
-   conda install bioconductor-farms
+   :required~by: |required_by_bioconductor-farms|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-farms
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-farms
+
+   and update with::
+
+      conda update bioconductor-farms
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-farms
+
+
+.. |required_by_bioconductor-farms| conda:required_by:: bioconductor-farms
+.. |downloads_bioconductor-farms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-farms.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-farms| image:: https://quay.io/repository/biocontainers/bioconductor-farms/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-farms
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-farms.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-farms/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-farms/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-farms/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-farms/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-farms
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-farms/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-farms
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-farms/README.html
 

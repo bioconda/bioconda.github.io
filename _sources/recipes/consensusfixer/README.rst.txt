@@ -1,36 +1,56 @@
-.. _`consensusfixer`:
+.. title:: Package Recipe 'consensusfixer'
+.. highlight: bash
+
 
 consensusfixer
 ==============
 
-|downloads|
+.. conda:recipe:: consensusfixer
+   :replaces_section_title:
 
-Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame insertions\, from a NGS read alignment.
+   Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame insertions\, from a NGS read alignment.
 
-============= ===========
-Home          https://github.com/cbg-ethz/ConsensusFixer
-Versions      0.4, 0.3.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//consensusfixer/meta.yaml
+   :homepage: https://github.com/cbg-ethz/ConsensusFixer
+   :license: GPL / GPL-3.0
+   :recipe: /`consensusfixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensusfixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensusfixer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: consensusfixer
 
-Installation
-------------
+   |downloads_consensusfixer| |docker_consensusfixer|
 
-.. highlight: bash
+   :versions: 0.4, 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install consensusfixer
+   :required~by: |required_by_consensusfixer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update consensusfixer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install consensusfixer
+
+   and update with::
+
+      conda update consensusfixer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/consensusfixer
+
+
+.. |required_by_consensusfixer| conda:required_by:: consensusfixer
+.. |downloads_consensusfixer| image:: https://img.shields.io/conda/dn/bioconda/consensusfixer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_consensusfixer| image:: https://quay.io/repository/biocontainers/consensusfixer/status
+   :target: https://quay.io/repository/biocontainers/consensusfixer
+
+
+
+
 
 
 Notes
@@ -43,21 +63,13 @@ set globally this will take precedence.
 For example run it with \"ConsensusFixer \-Xms512m \-Xmx1G\"
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/consensusfixer.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/consensusfixer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/consensusfixer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/consensusfixer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/consensusfixer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/consensusfixer
-.. |docker| image:: https://quay.io/repository/biocontainers/consensusfixer/status
-                :target: https://quay.io/repository/biocontainers/consensusfixer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/consensusfixer/README.html
 

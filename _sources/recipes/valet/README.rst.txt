@@ -1,54 +1,66 @@
-.. _`valet`:
+.. title:: Package Recipe 'valet'
+.. highlight: bash
+
 
 valet
 =====
 
-|downloads|
+.. conda:recipe:: valet
+   :replaces_section_title:
 
-Pipeline for detecting mis\-assemblies in metagenomic assemblies
+   Pipeline for detecting mis\-assemblies in metagenomic assemblies
 
-============= ===========
-Home          https://github.com/marbl/VALET
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//valet/meta.yaml
+   :homepage: https://github.com/marbl/VALET
+   :license: MIT
+   :recipe: /`valet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/valet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/valet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: valet
 
-Installation
-------------
+   |downloads_valet| |docker_valet|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`bowtie2`  :conda:package:`numpy`  :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  :conda:package:`samtools`  :conda:package:`scipy`  
 
-   conda install valet
+   :required~by: |required_by_valet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update valet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install valet
+
+   and update with::
+
+      conda update valet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/valet
+
+
+.. |required_by_valet| conda:required_by:: valet
+.. |downloads_valet| image:: https://img.shields.io/conda/dn/bioconda/valet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_valet| image:: https://quay.io/repository/biocontainers/valet/status
+   :target: https://quay.io/repository/biocontainers/valet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/valet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/valet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/valet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/valet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/valet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/valet
-.. |docker| image:: https://quay.io/repository/biocontainers/valet/status
-                :target: https://quay.io/repository/biocontainers/valet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/valet/README.html
 

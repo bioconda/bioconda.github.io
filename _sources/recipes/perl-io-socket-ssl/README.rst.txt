@@ -1,54 +1,66 @@
-.. _`perl-io-socket-ssl`:
+.. title:: Package Recipe 'perl-io-socket-ssl'
+.. highlight: bash
+
 
 perl-io-socket-ssl
 ==================
 
-|downloads|
+.. conda:recipe:: perl-io-socket-ssl
+   :replaces_section_title:
 
-Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET.
+   Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET.
 
-============= ===========
-Home          https://github.com/noxxi/p5-io-socket-ssl
-Versions      2.060, 2.056, 2.024
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-socket-ssl/meta.yaml
+   :homepage: https://github.com/noxxi/p5-io-socket-ssl
+   :license: perl_5
+   :recipe: /`perl-io-socket-ssl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-ssl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-ssl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-socket-ssl
 
-Installation
-------------
+   |downloads_perl-io-socket-ssl| |docker_perl-io-socket-ssl|
 
-.. highlight: bash
+   :versions: 2.060, 2.056, 2.024
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-net-ssleay`  
 
-   conda install perl-io-socket-ssl
+   :required~by: |required_by_perl-io-socket-ssl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-socket-ssl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-socket-ssl
+
+   and update with::
+
+      conda update perl-io-socket-ssl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-socket-ssl
+
+
+.. |required_by_perl-io-socket-ssl| conda:required_by:: perl-io-socket-ssl
+.. |downloads_perl-io-socket-ssl| image:: https://img.shields.io/conda/dn/bioconda/perl-io-socket-ssl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-socket-ssl| image:: https://quay.io/repository/biocontainers/perl-io-socket-ssl/status
+   :target: https://quay.io/repository/biocontainers/perl-io-socket-ssl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-socket-ssl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-socket-ssl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-socket-ssl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-socket-ssl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-socket-ssl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-socket-ssl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-socket-ssl/status
-                :target: https://quay.io/repository/biocontainers/perl-io-socket-ssl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-socket-ssl/README.html
 

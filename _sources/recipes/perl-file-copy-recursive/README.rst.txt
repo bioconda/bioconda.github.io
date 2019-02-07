@@ -1,54 +1,66 @@
-.. _`perl-file-copy-recursive`:
+.. title:: Package Recipe 'perl-file-copy-recursive'
+.. highlight: bash
+
 
 perl-file-copy-recursive
 ========================
 
-|downloads|
+.. conda:recipe:: perl-file-copy-recursive
+   :replaces_section_title:
 
-Perl extension for recursively copying files and directories
+   Perl extension for recursively copying files and directories
 
-============= ===========
-Home          https://metacpan.org/pod/File::Copy::Recursive
-Versions      0.44, 0.38
-License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-copy-recursive/meta.yaml
+   :homepage: https://metacpan.org/pod/File::Copy::Recursive
+   :license: Perl
+   :recipe: /`perl-file-copy-recursive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-copy-recursive
 
-Installation
-------------
+   |downloads_perl-file-copy-recursive| |docker_perl-file-copy-recursive|
 
-.. highlight: bash
+   :versions: 0.44, 0.38
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-file-copy-recursive
+   :required~by: |required_by_perl-file-copy-recursive|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-copy-recursive
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-copy-recursive
+
+   and update with::
+
+      conda update perl-file-copy-recursive
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-copy-recursive
+
+
+.. |required_by_perl-file-copy-recursive| conda:required_by:: perl-file-copy-recursive
+.. |downloads_perl-file-copy-recursive| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-recursive.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-copy-recursive| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive/status
+   :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-copy-recursive.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-copy-recursive/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-copy-recursive/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-copy-recursive/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-copy-recursive/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-copy-recursive
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive/status
-                :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-copy-recursive/README.html
 

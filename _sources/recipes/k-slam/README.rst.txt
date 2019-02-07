@@ -1,54 +1,66 @@
-.. _`k-slam`:
+.. title:: Package Recipe 'k-slam'
+.. highlight: bash
+
 
 k-slam
 ======
 
-|downloads|
+.. conda:recipe:: k-slam
+   :replaces_section_title:
 
-k\-SLAM is a program for alignment based metagenomic analysis of large sets of high\-throughput sequence data.
+   k\-SLAM is a program for alignment based metagenomic analysis of large sets of high\-throughput sequence data.
 
-============= ===========
-Home          https://github.com/aindj/k-SLAM
-Versions      1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//k-slam/meta.yaml
+   :homepage: https://github.com/aindj/k-SLAM
+   :license: GPL-3.0
+   :recipe: /`k-slam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k-slam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k-slam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: k-slam
 
-Installation
-------------
+   |downloads_k-slam| |docker_k-slam|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  
 
-   conda install k-slam
+   :required~by: |required_by_k-slam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update k-slam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install k-slam
+
+   and update with::
+
+      conda update k-slam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/k-slam
+
+
+.. |required_by_k-slam| conda:required_by:: k-slam
+.. |downloads_k-slam| image:: https://img.shields.io/conda/dn/bioconda/k-slam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_k-slam| image:: https://quay.io/repository/biocontainers/k-slam/status
+   :target: https://quay.io/repository/biocontainers/k-slam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/k-slam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/k-slam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/k-slam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/k-slam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/k-slam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/k-slam
-.. |docker| image:: https://quay.io/repository/biocontainers/k-slam/status
-                :target: https://quay.io/repository/biocontainers/k-slam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/k-slam/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-scope-guard`:
+.. title:: Package Recipe 'perl-scope-guard'
+.. highlight: bash
+
 
 perl-scope-guard
 ================
 
-|downloads|
+.. conda:recipe:: perl-scope-guard
+   :replaces_section_title:
 
-lexically\-scoped resource management
+   lexically\-scoped resource management
 
-============= ===========
-Home          http://metacpan.org/pod/Scope::Guard
-Versions      0.21
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-scope-guard/meta.yaml
+   :homepage: http://metacpan.org/pod/Scope::Guard
+   :license: perl_5
+   :recipe: /`perl-scope-guard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scope-guard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scope-guard/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-scope-guard
 
-Installation
-------------
+   |downloads_perl-scope-guard| |docker_perl-scope-guard|
 
-.. highlight: bash
+   :versions: 0.21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-scope-guard
+   :required~by: |required_by_perl-scope-guard|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-scope-guard
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-scope-guard
+
+   and update with::
+
+      conda update perl-scope-guard
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-scope-guard
+
+
+.. |required_by_perl-scope-guard| conda:required_by:: perl-scope-guard
+.. |downloads_perl-scope-guard| image:: https://img.shields.io/conda/dn/bioconda/perl-scope-guard.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-scope-guard| image:: https://quay.io/repository/biocontainers/perl-scope-guard/status
+   :target: https://quay.io/repository/biocontainers/perl-scope-guard
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-scope-guard.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-scope-guard/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-scope-guard/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-scope-guard/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-scope-guard/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-scope-guard
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-scope-guard/status
-                :target: https://quay.io/repository/biocontainers/perl-scope-guard
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-scope-guard/README.html
 

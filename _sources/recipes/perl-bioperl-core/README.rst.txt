@@ -1,54 +1,66 @@
-.. _`perl-bioperl-core`:
+.. title:: Package Recipe 'perl-bioperl-core'
+.. highlight: bash
+
 
 perl-bioperl-core
 =================
 
-|downloads|
+.. conda:recipe:: perl-bioperl-core
+   :replaces_section_title:
 
-\"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl.
+   \"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl.
 
-============= ===========
-Home          http://metacpan.org/pod/BioPerl
-Versions      1.007002, 1.7.2, 1.6.924
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bioperl-core/meta.yaml
+   :homepage: http://metacpan.org/pod/BioPerl
+   :license: perl_5
+   :recipe: /`perl-bioperl-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bioperl-core
 
-Installation
-------------
+   |downloads_perl-bioperl-core| |docker_perl-bioperl-core|
 
-.. highlight: bash
+   :versions: 1.007002, 1.7.2, 1.6.924
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-aceperl`  :conda:package:`perl-algorithm-munkres`  :conda:package:`perl-array-compare`  :conda:package:`perl-bio-phylo`  :conda:package:`perl-clone`  :conda:package:`perl-convert-binary-c`  :conda:package:`perl-data-stag`  :conda:package:`perl-db-file`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-dbi`  :conda:package:`perl-error`  :conda:package:`perl-gd`  :conda:package:`perl-graphviz`  :conda:package:`perl-html-tableextract`  :conda:package:`perl-io-string`  :conda:package:`perl-io-stringy`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-postscript`  :conda:package:`perl-set-scalar`  :conda:package:`perl-soap-lite`  :conda:package:`perl-sort-naturally`  :conda:package:`perl-spreadsheet-parseexcel`  :conda:package:`perl-svg`  :conda:package:`perl-svg-graph`  :conda:package:`perl-xml-dom`  :conda:package:`perl-xml-dom-xpath`  :conda:package:`perl-xml-sax-writer`  :conda:package:`perl-xml-simple`  :conda:package:`perl-xml-twig`  :conda:package:`perl-xml-writer`  :conda:package:`perl-yaml`  
 
-   conda install perl-bioperl-core
+   :required~by: |required_by_perl-bioperl-core|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bioperl-core
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bioperl-core
+
+   and update with::
+
+      conda update perl-bioperl-core
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bioperl-core
+
+
+.. |required_by_perl-bioperl-core| conda:required_by:: perl-bioperl-core
+.. |downloads_perl-bioperl-core| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-core.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bioperl-core| image:: https://quay.io/repository/biocontainers/perl-bioperl-core/status
+   :target: https://quay.io/repository/biocontainers/perl-bioperl-core
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bioperl-core.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bioperl-core/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bioperl-core/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bioperl-core/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bioperl-core/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bioperl-core
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bioperl-core/status
-                :target: https://quay.io/repository/biocontainers/perl-bioperl-core
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bioperl-core/README.html
 

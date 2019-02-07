@@ -1,54 +1,66 @@
-.. _`ecopcr`:
+.. title:: Package Recipe 'ecopcr'
+.. highlight: bash
+
 
 ecopcr
 ======
 
-|downloads|
+.. conda:recipe:: ecopcr
+   :replaces_section_title:
 
-ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality.
+   ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality.
 
-============= ===========
-Home          https://git.metabarcoding.org/obitools/ecopcr/wikis/home
-Versions      0.5.0
-License       CeCill v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ecopcr/meta.yaml
+   :homepage: https://git.metabarcoding.org/obitools/ecopcr/wikis/home
+   :license: CeCill v2
+   :recipe: /`ecopcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecopcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecopcr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ecopcr
 
-Installation
-------------
+   |downloads_ecopcr| |docker_ecopcr|
 
-.. highlight: bash
+   :versions: 0.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`reportlab`  :conda:package:`zlib`  
 
-   conda install ecopcr
+   :required~by: |required_by_ecopcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ecopcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ecopcr
+
+   and update with::
+
+      conda update ecopcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ecopcr
+
+
+.. |required_by_ecopcr| conda:required_by:: ecopcr
+.. |downloads_ecopcr| image:: https://img.shields.io/conda/dn/bioconda/ecopcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ecopcr| image:: https://quay.io/repository/biocontainers/ecopcr/status
+   :target: https://quay.io/repository/biocontainers/ecopcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ecopcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ecopcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ecopcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ecopcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ecopcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ecopcr
-.. |docker| image:: https://quay.io/repository/biocontainers/ecopcr/status
-                :target: https://quay.io/repository/biocontainers/ecopcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ecopcr/README.html
 

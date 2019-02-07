@@ -1,54 +1,66 @@
-.. _`haploclique`:
+.. title:: Package Recipe 'haploclique'
+.. highlight: bash
+
 
 haploclique
 ===========
 
-|downloads|
+.. conda:recipe:: haploclique/1.3.1
+   :replaces_section_title:
 
-Viral quasispecies assembly via maximal clique finding. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data.
+   Viral quasispecies assembly via maximal clique finding. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data.
 
-============= ===========
-Home          https://github.com/cbg-ethz/haploclique
-Versions      1.3.1
-License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//haploclique/1.3.1/meta.yaml
+   :homepage: https://github.com/cbg-ethz/haploclique
+   :license: GPL3 / GPLv3+
+   :recipe: /`haploclique <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique>`_/`1.3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique/1.3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique/1.3.1/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: haploclique
 
-Installation
-------------
+   |downloads_haploclique| |docker_haploclique|
 
-.. highlight: bash
+   :versions: 1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.64* :conda:package:`bzip2` 1.0* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install haploclique
+   :required~by: |required_by_haploclique|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update haploclique
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install haploclique
+
+   and update with::
+
+      conda update haploclique
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/haploclique
+
+
+.. |required_by_haploclique| conda:required_by:: haploclique
+.. |downloads_haploclique| image:: https://img.shields.io/conda/dn/bioconda/haploclique.svg?style=flat
+   :alt:   (downloads)
+.. |docker_haploclique| image:: https://quay.io/repository/biocontainers/haploclique/status
+   :target: https://quay.io/repository/biocontainers/haploclique
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/haploclique.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/haploclique/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/haploclique/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/haploclique/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/haploclique/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/haploclique
-.. |docker| image:: https://quay.io/repository/biocontainers/haploclique/status
-                :target: https://quay.io/repository/biocontainers/haploclique
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/haploclique/README.html
 

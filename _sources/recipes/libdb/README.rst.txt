@@ -1,54 +1,66 @@
-.. _`libdb`:
+.. title:: Package Recipe 'libdb'
+.. highlight: bash
+
 
 libdb
 =====
 
-|downloads|
+.. conda:recipe:: libdb
+   :replaces_section_title:
 
-The Berkeley DB embedded database system.
+   The Berkeley DB embedded database system.
 
-============= ===========
-Home          http://www.oracle.com/technology/software/products/berkeley-db/index.html
-Versions      6.1.26
-License       AGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libdb/meta.yaml
+   :homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+   :license: AGPLv3
+   :recipe: /`libdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdb/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: libdb
 
-Installation
-------------
+   |downloads_libdb| |docker_libdb|
 
-.. highlight: bash
+   :versions: 6.1.26
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libcxx` >=4.0.1 
 
-   conda install libdb
+   :required~by: |required_by_libdb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update libdb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install libdb
+
+   and update with::
+
+      conda update libdb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/libdb
+
+
+.. |required_by_libdb| conda:required_by:: libdb
+.. |downloads_libdb| image:: https://img.shields.io/conda/dn/bioconda/libdb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_libdb| image:: https://quay.io/repository/biocontainers/libdb/status
+   :target: https://quay.io/repository/biocontainers/libdb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/libdb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/libdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libdb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/libdb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/libdb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/libdb
-.. |docker| image:: https://quay.io/repository/biocontainers/libdb/status
-                :target: https://quay.io/repository/biocontainers/libdb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/libdb/README.html
 

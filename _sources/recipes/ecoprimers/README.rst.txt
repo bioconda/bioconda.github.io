@@ -1,54 +1,66 @@
-.. _`ecoprimers`:
+.. title:: Package Recipe 'ecoprimers'
+.. highlight: bash
+
 
 ecoprimers
 ==========
 
-|downloads|
+.. conda:recipe:: ecoprimers
+   :replaces_section_title:
 
-ecoPrimers is a software that finds primers from a set of sequence.
+   ecoPrimers is a software that finds primers from a set of sequence.
 
-============= ===========
-Home          https://git.metabarcoding.org/obitools/ecoprimers/wikis/home
-Versions      1.0
-License       CeCill v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ecoprimers/meta.yaml
+   :homepage: https://git.metabarcoding.org/obitools/ecoprimers/wikis/home
+   :license: CeCill v2
+   :recipe: /`ecoprimers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecoprimers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecoprimers/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ecoprimers
 
-Installation
-------------
+   |downloads_ecoprimers| |docker_ecoprimers|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install ecoprimers
+   :required~by: |required_by_ecoprimers|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ecoprimers
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ecoprimers
+
+   and update with::
+
+      conda update ecoprimers
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ecoprimers
+
+
+.. |required_by_ecoprimers| conda:required_by:: ecoprimers
+.. |downloads_ecoprimers| image:: https://img.shields.io/conda/dn/bioconda/ecoprimers.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ecoprimers| image:: https://quay.io/repository/biocontainers/ecoprimers/status
+   :target: https://quay.io/repository/biocontainers/ecoprimers
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ecoprimers.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ecoprimers/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ecoprimers/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ecoprimers/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ecoprimers/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ecoprimers
-.. |docker| image:: https://quay.io/repository/biocontainers/ecoprimers/status
-                :target: https://quay.io/repository/biocontainers/ecoprimers
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ecoprimers/README.html
 

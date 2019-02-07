@@ -1,54 +1,66 @@
-.. _`bioconductor-cssp`:
+.. title:: Package Recipe 'bioconductor-cssp'
+.. highlight: bash
+
 
 bioconductor-cssp
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-cssp
+   :replaces_section_title:
 
-Power computation for ChIP\-Seq data based on Bayesian estimation for local poisson counting process.
+   Power computation for ChIP\-Seq data based on Bayesian estimation for local poisson counting process.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CSSP.html
-Versions      1.20.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cssp/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CSSP.html
+   :license: GPL-2
+   :recipe: /`bioconductor-cssp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cssp
 
-Installation
-------------
+   |downloads_bioconductor-cssp| |docker_bioconductor-cssp|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cssp
+   :required~by: |required_by_bioconductor-cssp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cssp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cssp
+
+   and update with::
+
+      conda update bioconductor-cssp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cssp
+
+
+.. |required_by_bioconductor-cssp| conda:required_by:: bioconductor-cssp
+.. |downloads_bioconductor-cssp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cssp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cssp| image:: https://quay.io/repository/biocontainers/bioconductor-cssp/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cssp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cssp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cssp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cssp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cssp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cssp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cssp
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cssp/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cssp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cssp/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-annotate`:
+.. title:: Package Recipe 'bioconductor-annotate'
+.. highlight: bash
+
 
 bioconductor-annotate
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-annotate
+   :replaces_section_title:
 
-Using R enviroments for annotation.
+   Using R enviroments for annotation.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/annotate.html
-Versions      1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0, 1.46.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-annotate/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/annotate.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-annotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate/meta.yaml>`_
+   :links: biotools: :biotools:`annotate`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`annotate`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-annotate
 
-Installation
-------------
+   |downloads_bioconductor-annotate| |docker_bioconductor-annotate|
 
-.. highlight: bash
+   :versions: 1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0, 1.46.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rcurl`  :conda:package:`r-xml`  :conda:package:`r-xtable`  
 
-   conda install bioconductor-annotate
+   :required~by: |required_by_bioconductor-annotate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-annotate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-annotate
+
+   and update with::
+
+      conda update bioconductor-annotate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-annotate
+
+
+.. |required_by_bioconductor-annotate| conda:required_by:: bioconductor-annotate
+.. |downloads_bioconductor-annotate| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-annotate| image:: https://quay.io/repository/biocontainers/bioconductor-annotate/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-annotate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-annotate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-annotate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-annotate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-annotate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-annotate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-annotate
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-annotate/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-annotate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-annotate/README.html
 

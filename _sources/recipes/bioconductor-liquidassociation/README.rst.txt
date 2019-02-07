@@ -1,56 +1,67 @@
-.. _`bioconductor-liquidassociation`:
+.. title:: Package Recipe 'bioconductor-liquidassociation'
+.. highlight: bash
+
 
 bioconductor-liquidassociation
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-liquidassociation
+   :replaces_section_title:
 
-The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
+   The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/LiquidAssociation.html
-Versions      1.36.0, 1.34.0, 1.32.0
-License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-liquidassociation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LiquidAssociation.html
+   :license: GPL (>=3)
+   :recipe: /`bioconductor-liquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation/meta.yaml>`_
+   :links: biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-liquidassociation
 
-Installation
-------------
+   |downloads_bioconductor-liquidassociation| |docker_bioconductor-liquidassociation|
 
-.. highlight: bash
+   :versions: 1.36.0, 1.34.0, 1.32.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-org.sc.sgd.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-yeastcc` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geepack`  
 
-   conda install bioconductor-liquidassociation
+   :required~by: |required_by_bioconductor-liquidassociation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-liquidassociation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-liquidassociation
+
+   and update with::
+
+      conda update bioconductor-liquidassociation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-liquidassociation
+
+
+.. |required_by_bioconductor-liquidassociation| conda:required_by:: bioconductor-liquidassociation
+.. |downloads_bioconductor-liquidassociation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-liquidassociation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-liquidassociation| image:: https://quay.io/repository/biocontainers/bioconductor-liquidassociation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-liquidassociation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-liquidassociation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-liquidassociation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-liquidassociation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-liquidassociation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-liquidassociation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-liquidassociation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-liquidassociation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-liquidassociation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-liquidassociation/README.html
 

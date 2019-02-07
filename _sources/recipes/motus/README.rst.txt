@@ -1,40 +1,58 @@
-.. _`motus`:
+.. title:: Package Recipe 'motus'
+.. highlight: bash
+
 
 motus
 =====
 
-|downloads|
+.. conda:recipe:: motus
+   :replaces_section_title:
 
-Marker gene\-based OTU \(mOTU\) profiling
+   Marker gene\-based OTU \(mOTU\) profiling
 
-============= ===========
-Home          http://motu-tool.org/
-Versions      2.0.1, 2.0.0, 1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//motus/meta.yaml
+   :homepage: http://motu-tool.org/
+   :developer docs: https://github.com/motu-tool/mOTUs_v2
+   :license: GPL / GPL-3.0
+   :recipe: /`motus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus/meta.yaml>`_
+   :links: biotools: :biotools:`motus`
 
-
-Development   https://github.com/motu-tool/mOTUs_v2
-
-
-Links         biotools: :biotools:`motus`
-
-============= ===========
+   
 
 
+.. conda:package:: motus
 
-Installation
-------------
+   |downloads_motus| |docker_motus|
 
-.. highlight: bash
+   :versions: 2.0.1, 2.0.0, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bwa`  :conda:package:`metasnv`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  
 
-   conda install motus
+   :required~by: |required_by_motus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update motus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install motus
+
+   and update with::
+
+      conda update motus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/motus
+
+
+.. |required_by_motus| conda:required_by:: motus
+.. |downloads_motus| image:: https://img.shields.io/conda/dn/bioconda/motus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_motus| image:: https://quay.io/repository/biocontainers/motus/status
+   :target: https://quay.io/repository/biocontainers/motus
+
+
+
+
 
 
 Notes
@@ -42,21 +60,13 @@ Notes
 A tiny wrapper to the command motus was added. See build.sh for additional notes
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/motus.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/motus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/motus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/motus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/motus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/motus
-.. |docker| image:: https://quay.io/repository/biocontainers/motus/status
-                :target: https://quay.io/repository/biocontainers/motus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/motus/README.html
 

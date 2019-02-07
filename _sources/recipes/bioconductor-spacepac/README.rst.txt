@@ -1,56 +1,67 @@
-.. _`bioconductor-spacepac`:
+.. title:: Package Recipe 'bioconductor-spacepac'
+.. highlight: bash
+
 
 bioconductor-spacepac
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-spacepac
+   :replaces_section_title:
 
-Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure.
+   Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SpacePAC.html
-Versions      1.20.0, 1.18.3, 1.16.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spacepac/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SpacePAC.html
+   :license: GPL-2
+   :recipe: /`bioconductor-spacepac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac/meta.yaml>`_
+   :links: biotools: :biotools:`spacepac`, doi: :doi:`10.1186/1471-2105-15-231`
 
-
-
-Links         biotools: :biotools:`spacepac`, doi: :doi:`10.1186/1471-2105-15-231`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-spacepac
 
-Installation
-------------
+   |downloads_bioconductor-spacepac| |docker_bioconductor-spacepac|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.3, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-ipac` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-spacepac
+   :required~by: |required_by_bioconductor-spacepac|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-spacepac
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-spacepac
+
+   and update with::
+
+      conda update bioconductor-spacepac
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-spacepac
+
+
+.. |required_by_bioconductor-spacepac| conda:required_by:: bioconductor-spacepac
+.. |downloads_bioconductor-spacepac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spacepac.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-spacepac| image:: https://quay.io/repository/biocontainers/bioconductor-spacepac/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-spacepac
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-spacepac.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-spacepac/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-spacepac/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-spacepac/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-spacepac/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-spacepac
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spacepac/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-spacepac
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-spacepac/README.html
 

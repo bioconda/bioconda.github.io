@@ -1,56 +1,67 @@
-.. _`ngmerge`:
+.. title:: Package Recipe 'ngmerge'
+.. highlight: bash
+
 
 ngmerge
 =======
 
-|downloads|
+.. conda:recipe:: ngmerge
+   :replaces_section_title:
 
-Merging paired\-end reads and removing sequencing adapters.
+   Merging paired\-end reads and removing sequencing adapters.
 
-============= ===========
-Home          https://github.com/harvardinformatics/NGmerge
-Versions      0.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ngmerge/meta.yaml
+   :homepage: https://github.com/harvardinformatics/NGmerge
+   :license: MIT
+   :recipe: /`ngmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge/meta.yaml>`_
+   :links: biotools: :biotools:`ngmerge`
 
-
-
-Links         biotools: :biotools:`ngmerge`
-
-============= ===========
+   
 
 
+.. conda:package:: ngmerge
 
-Installation
-------------
+   |downloads_ngmerge| |docker_ngmerge|
 
-.. highlight: bash
+   :versions: 0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openmp`  :conda:package:`zlib` 1.2.11* 
 
-   conda install ngmerge
+   :required~by: |required_by_ngmerge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ngmerge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ngmerge
+
+   and update with::
+
+      conda update ngmerge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ngmerge
+
+
+.. |required_by_ngmerge| conda:required_by:: ngmerge
+.. |downloads_ngmerge| image:: https://img.shields.io/conda/dn/bioconda/ngmerge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ngmerge| image:: https://quay.io/repository/biocontainers/ngmerge/status
+   :target: https://quay.io/repository/biocontainers/ngmerge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ngmerge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmerge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ngmerge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ngmerge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ngmerge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ngmerge
-.. |docker| image:: https://quay.io/repository/biocontainers/ngmerge/status
-                :target: https://quay.io/repository/biocontainers/ngmerge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ngmerge/README.html
 

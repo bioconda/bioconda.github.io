@@ -1,54 +1,66 @@
-.. _`gemma`:
+.. title:: Package Recipe 'gemma'
+.. highlight: bash
+
 
 gemma
 =====
 
-|downloads|
+.. conda:recipe:: gemma
+   :replaces_section_title:
 
-Linear mixed models \(LMMs\) for genome\-wide association \(GWA\)
+   Linear mixed models \(LMMs\) for genome\-wide association \(GWA\)
 
-============= ===========
-Home          https://github.com/genetics-statistics/GEMMA
-Versions      0.98
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gemma/meta.yaml
+   :homepage: https://github.com/genetics-statistics/GEMMA
+   :license: GPLv3
+   :recipe: /`gemma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gemma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gemma/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gemma
 
-Installation
-------------
+   |downloads_gemma| |docker_gemma|
 
-.. highlight: bash
+   :versions: 0.98
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install gemma
+   :required~by: |required_by_gemma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gemma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gemma
+
+   and update with::
+
+      conda update gemma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gemma
+
+
+.. |required_by_gemma| conda:required_by:: gemma
+.. |downloads_gemma| image:: https://img.shields.io/conda/dn/bioconda/gemma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gemma| image:: https://quay.io/repository/biocontainers/gemma/status
+   :target: https://quay.io/repository/biocontainers/gemma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gemma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gemma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gemma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gemma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gemma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gemma
-.. |docker| image:: https://quay.io/repository/biocontainers/gemma/status
-                :target: https://quay.io/repository/biocontainers/gemma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gemma/README.html
 

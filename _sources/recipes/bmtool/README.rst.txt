@@ -1,54 +1,66 @@
-.. _`bmtool`:
+.. title:: Package Recipe 'bmtool'
+.. highlight: bash
+
 
 bmtool
 ======
 
-|downloads|
+.. conda:recipe:: bmtool
+   :replaces_section_title:
 
-bmtool is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
+   bmtool is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
 
-============= ===========
-Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
-Versions      3.101
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bmtool/meta.yaml
+   :homepage: ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+   :license: Public Domain
+   :recipe: /`bmtool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmtool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmtool/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bmtool
 
-Installation
-------------
+   |downloads_bmtool| |docker_bmtool|
 
-.. highlight: bash
+   :versions: 3.101
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bmtool
+   :required~by: |required_by_bmtool|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bmtool
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bmtool
+
+   and update with::
+
+      conda update bmtool
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bmtool
+
+
+.. |required_by_bmtool| conda:required_by:: bmtool
+.. |downloads_bmtool| image:: https://img.shields.io/conda/dn/bioconda/bmtool.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bmtool| image:: https://quay.io/repository/biocontainers/bmtool/status
+   :target: https://quay.io/repository/biocontainers/bmtool
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bmtool.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bmtool/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bmtool/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bmtool/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bmtool/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bmtool
-.. |docker| image:: https://quay.io/repository/biocontainers/bmtool/status
-                :target: https://quay.io/repository/biocontainers/bmtool
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bmtool/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-brain`:
+.. title:: Package Recipe 'bioconductor-brain'
+.. highlight: bash
+
 
 bioconductor-brain
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-brain
+   :replaces_section_title:
 
-Package for calculating aggregated isotopic distribution and exact center\-masses for chemical substances \(in this version composed of C\, H\, N\, O and S\). This is an implementation of the BRAIN algorithm described in the paper by J. Claesen\, P. Dittwald\, T. Burzykowski and D. Valkenborg.
+   Package for calculating aggregated isotopic distribution and exact center\-masses for chemical substances \(in this version composed of C\, H\, N\, O and S\). This is an implementation of the BRAIN algorithm described in the paper by J. Claesen\, P. Dittwald\, T. Burzykowski and D. Valkenborg.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BRAIN.html
-Versions      1.28.0, 1.26.0, 1.24.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-brain/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BRAIN.html
+   :license: GPL-2
+   :recipe: /`bioconductor-brain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain/meta.yaml>`_
+   :links: biotools: :biotools:`brain`, doi: :doi:`10.1021/ac303439m`
 
-
-
-Links         biotools: :biotools:`brain`, doi: :doi:`10.1021/ac303439m`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-brain
 
-Installation
-------------
+   |downloads_bioconductor-brain| |docker_bioconductor-brain|
 
-.. highlight: bash
+   :versions: 1.28.0, 1.26.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-polynomf`  
 
-   conda install bioconductor-brain
+   :required~by: |required_by_bioconductor-brain|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-brain
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-brain
+
+   and update with::
+
+      conda update bioconductor-brain
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-brain
+
+
+.. |required_by_bioconductor-brain| conda:required_by:: bioconductor-brain
+.. |downloads_bioconductor-brain| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-brain.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-brain| image:: https://quay.io/repository/biocontainers/bioconductor-brain/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-brain
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-brain.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-brain/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-brain/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-brain/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-brain/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-brain
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-brain/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-brain
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-brain/README.html
 

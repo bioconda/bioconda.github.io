@@ -1,54 +1,66 @@
-.. _`treekin`:
+.. title:: Package Recipe 'treekin'
+.. highlight: bash
+
 
 treekin
 =======
 
-|downloads|
+.. conda:recipe:: treekin/0.3.1
+   :replaces_section_title:
 
-Compute folding dynamics on coarse grained version of an energy landscape by numeric integration of a Markov process
+   Compute folding dynamics on coarse grained version of an energy landscape by numeric integration of a Markov process
 
-============= ===========
-Home          https://www.tbi.univie.ac.at/RNA/Treekin/
-Versions      0.4.2, 0.3.1
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//treekin/0.3.1/meta.yaml
+   :homepage: https://www.tbi.univie.ac.at/RNA/Treekin/
+   :license: GPL
+   :recipe: /`treekin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin>`_/`0.3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin/0.3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin/0.3.1/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: treekin
 
-Installation
-------------
+   |downloads_treekin| |docker_treekin|
 
-.. highlight: bash
+   :versions: 0.4.2, 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blas`  :conda:package:`lapack`  :conda:package:`libgcc`  
 
-   conda install treekin
+   :required~by: |required_by_treekin|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update treekin
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install treekin
+
+   and update with::
+
+      conda update treekin
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/treekin
+
+
+.. |required_by_treekin| conda:required_by:: treekin
+.. |downloads_treekin| image:: https://img.shields.io/conda/dn/bioconda/treekin.svg?style=flat
+   :alt:   (downloads)
+.. |docker_treekin| image:: https://quay.io/repository/biocontainers/treekin/status
+   :target: https://quay.io/repository/biocontainers/treekin
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/treekin.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/treekin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/treekin/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/treekin/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/treekin/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/treekin
-.. |docker| image:: https://quay.io/repository/biocontainers/treekin/status
-                :target: https://quay.io/repository/biocontainers/treekin
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/treekin/README.html
 

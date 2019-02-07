@@ -1,54 +1,66 @@
-.. _`bioconductor-aneufinderdata`:
+.. title:: Package Recipe 'bioconductor-aneufinderdata'
+.. highlight: bash
+
 
 bioconductor-aneufinderdata
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-aneufinderdata
+   :replaces_section_title:
 
-Whole\-genome single cell sequencing data for demonstration purposes in the AneuFinder package.
+   Whole\-genome single cell sequencing data for demonstration purposes in the AneuFinder package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/AneuFinderData.html
-Versions      1.10.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aneufinderdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/AneuFinderData.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-aneufinderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-aneufinderdata
 
-Installation
-------------
+   |downloads_bioconductor-aneufinderdata| |docker_bioconductor-aneufinderdata|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-aneufinderdata
+   :required~by: |required_by_bioconductor-aneufinderdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-aneufinderdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-aneufinderdata
+
+   and update with::
+
+      conda update bioconductor-aneufinderdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-aneufinderdata
+
+
+.. |required_by_bioconductor-aneufinderdata| conda:required_by:: bioconductor-aneufinderdata
+.. |downloads_bioconductor-aneufinderdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aneufinderdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-aneufinderdata| image:: https://quay.io/repository/biocontainers/bioconductor-aneufinderdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-aneufinderdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-aneufinderdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-aneufinderdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-aneufinderdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-aneufinderdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-aneufinderdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-aneufinderdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-aneufinderdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-aneufinderdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-aneufinderdata/README.html
 

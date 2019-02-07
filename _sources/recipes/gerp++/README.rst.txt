@@ -1,54 +1,66 @@
-.. _`gerp`:
+.. title:: Package Recipe 'gerp'
+.. highlight: bash
+
 
 gerp
 ====
 
-|downloads|
+.. conda:recipe:: gerp++
+   :replaces_section_title:
 
-GERP identifies constrained elements in multiple alignments by quantifying substitution deficits.
+   GERP identifies constrained elements in multiple alignments by quantifying substitution deficits.
 
-============= ===========
-Home          http://mendel.stanford.edu/SidowLab/downloads/gerp/index.html
-Versions      2.1
-License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gerp++/meta.yaml
+   :homepage: http://mendel.stanford.edu/SidowLab/downloads/gerp/index.html
+   :license: GPL / GNU GPL v3
+   :recipe: /`gerp++ <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gerp++>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gerp++/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gerp
 
-Installation
-------------
+   |downloads_gerp| |docker_gerp|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install gerp
+   :required~by: |required_by_gerp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gerp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gerp
+
+   and update with::
+
+      conda update gerp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gerp
+
+
+.. |required_by_gerp| conda:required_by:: gerp
+.. |downloads_gerp| image:: https://img.shields.io/conda/dn/bioconda/gerp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gerp| image:: https://quay.io/repository/biocontainers/gerp/status
+   :target: https://quay.io/repository/biocontainers/gerp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gerp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gerp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gerp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gerp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gerp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gerp
-.. |docker| image:: https://quay.io/repository/biocontainers/gerp/status
-                :target: https://quay.io/repository/biocontainers/gerp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gerp/README.html
 

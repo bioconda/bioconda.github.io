@@ -1,54 +1,66 @@
-.. _`bioconductor-vidger`:
+.. title:: Package Recipe 'bioconductor-vidger'
+.. highlight: bash
+
 
 bioconductor-vidger
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-vidger
+   :replaces_section_title:
 
-The aim of vidger is to rapidly generate information\-rich visualizations for the interpretation of differential gene expression results from three widely\-used tools\: Cuffdiff\, DESeq2\, and edgeR.
+   The aim of vidger is to rapidly generate information\-rich visualizations for the interpretation of differential gene expression results from three widely\-used tools\: Cuffdiff\, DESeq2\, and edgeR.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/vidger.html
-Versions      1.2.0
-License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vidger/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/vidger.html
+   :license: GPL-3 | file LICENSE
+   :recipe: /`bioconductor-vidger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-vidger
 
-Installation
-------------
+   |downloads_bioconductor-vidger| |docker_bioconductor-vidger|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggally`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-knitr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rmarkdown`  :conda:package:`r-scales`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-vidger
+   :required~by: |required_by_bioconductor-vidger|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-vidger
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-vidger
+
+   and update with::
+
+      conda update bioconductor-vidger
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-vidger
+
+
+.. |required_by_bioconductor-vidger| conda:required_by:: bioconductor-vidger
+.. |downloads_bioconductor-vidger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vidger.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-vidger| image:: https://quay.io/repository/biocontainers/bioconductor-vidger/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-vidger
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-vidger.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-vidger/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-vidger/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-vidger/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-vidger/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-vidger
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-vidger/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-vidger
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-vidger/README.html
 

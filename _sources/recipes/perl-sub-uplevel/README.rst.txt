@@ -1,54 +1,66 @@
-.. _`perl-sub-uplevel`:
+.. title:: Package Recipe 'perl-sub-uplevel'
+.. highlight: bash
+
 
 perl-sub-uplevel
 ================
 
-|downloads|
+.. conda:recipe:: perl-sub-uplevel
+   :replaces_section_title:
 
-apparently run a function in a higher stack frame
+   apparently run a function in a higher stack frame
 
-============= ===========
-Home          https://github.com/dagolden/Sub-Uplevel
-Versions      0.2800, 0.25
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-uplevel/meta.yaml
+   :homepage: https://github.com/dagolden/Sub-Uplevel
+   :license: perl_5
+   :recipe: /`perl-sub-uplevel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-uplevel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-uplevel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sub-uplevel
 
-Installation
-------------
+   |downloads_perl-sub-uplevel| |docker_perl-sub-uplevel|
 
-.. highlight: bash
+   :versions: 0.2800, 0.25
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-sub-uplevel
+   :required~by: |required_by_perl-sub-uplevel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sub-uplevel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sub-uplevel
+
+   and update with::
+
+      conda update perl-sub-uplevel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sub-uplevel
+
+
+.. |required_by_perl-sub-uplevel| conda:required_by:: perl-sub-uplevel
+.. |downloads_perl-sub-uplevel| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-uplevel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sub-uplevel| image:: https://quay.io/repository/biocontainers/perl-sub-uplevel/status
+   :target: https://quay.io/repository/biocontainers/perl-sub-uplevel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sub-uplevel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sub-uplevel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sub-uplevel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sub-uplevel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sub-uplevel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sub-uplevel
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-uplevel/status
-                :target: https://quay.io/repository/biocontainers/perl-sub-uplevel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sub-uplevel/README.html
 

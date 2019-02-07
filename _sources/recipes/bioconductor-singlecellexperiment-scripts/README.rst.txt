@@ -1,56 +1,66 @@
-.. _`bioconductor-singlecellexperiment-scripts`:
+.. title:: Package Recipe 'bioconductor-singlecellexperiment-scripts'
+.. highlight: bash
+
 
 bioconductor-singlecellexperiment-scripts
 =========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-singlecellexperiment-scripts
+   :replaces_section_title:
 
-A set of wrappers for operations associated with the SingleCellExperiment package. Functions in R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
+   A set of wrappers for operations associated with the SingleCellExperiment package. Functions in R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
 
-============= ===========
-Home          https://github.com/ebi-gene-expression-group/bioconductor-singlecellexperiment-scripts
-Versions      0.0.3, 0.0.2, 0.0.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-singlecellexperiment-scripts/meta.yaml
+   :homepage: https://github.com/ebi-gene-expression-group/bioconductor-singlecellexperiment-scripts
+   :license: GPL / GPL-3
+   :recipe: /`bioconductor-singlecellexperiment-scripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment-scripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment-scripts/meta.yaml>`_
 
-
-Development   https://github.com/ebi-gene-expression-group/bioconductor-singlecellexperiment-scripts
+   
 
 
-============= ===========
+.. conda:package:: bioconductor-singlecellexperiment-scripts
+
+   |downloads_bioconductor-singlecellexperiment-scripts| |docker_bioconductor-singlecellexperiment-scripts|
+
+   :versions: 0.0.3, 0.0.2, 0.0.1
+
+   :depends: :conda:package:`bioconductor-singlecellexperiment`  :conda:package:`r-base`  :conda:package:`r-optparse`  :conda:package:`r-workflowscriptscommon`  
+
+   :required~by: |required_by_bioconductor-singlecellexperiment-scripts|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-singlecellexperiment-scripts
+
+   and update with::
+
+      conda update bioconductor-singlecellexperiment-scripts
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts
+
+
+.. |required_by_bioconductor-singlecellexperiment-scripts| conda:required_by:: bioconductor-singlecellexperiment-scripts
+.. |downloads_bioconductor-singlecellexperiment-scripts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singlecellexperiment-scripts.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-singlecellexperiment-scripts| image:: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install bioconductor-singlecellexperiment-scripts
-
-and update with::
-
-   conda update bioconductor-singlecellexperiment-scripts
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-singlecellexperiment-scripts/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-singlecellexperiment-scripts/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-singlecellexperiment-scripts/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-singlecellexperiment-scripts/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-singlecellexperiment-scripts
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment-scripts
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-singlecellexperiment-scripts/README.html
 

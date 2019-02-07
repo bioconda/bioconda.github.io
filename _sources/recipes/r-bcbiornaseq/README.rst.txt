@@ -1,54 +1,66 @@
-.. _`r-bcbiornaseq`:
+.. title:: Package Recipe 'r-bcbiornaseq'
+.. highlight: bash
+
 
 r-bcbiornaseq
 =============
 
-|downloads|
+.. conda:recipe:: r-bcbiornaseq
+   :replaces_section_title:
 
-Quality control and differential expression for bcbio RNA\-seq experiments.
+   Quality control and differential expression for bcbio RNA\-seq experiments.
 
-============= ===========
-Home          https://github.com/hbc/bcbioRNASeq
-Versions      0.2.8, 0.2.7, 0.2.4, 0.2.4a, 0.2.3a, 0.1.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-bcbiornaseq/meta.yaml
+   :homepage: https://github.com/hbc/bcbioRNASeq
+   :license: MIT
+   :recipe: /`r-bcbiornaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-bcbiornaseq
 
-Installation
-------------
+   |downloads_r-bcbiornaseq| |docker_r-bcbiornaseq|
 
-.. highlight: bash
+   :versions: 0.2.8, 0.2.7, 0.2.4, 0.2.4a, 0.2.3a, 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-degreport`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-summarizedexperiment`  :conda:package:`bioconductor-tximport`  :conda:package:`bioconductor-vsn`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bcbiobase`  :conda:package:`r-ggrepel`  :conda:package:`r-pbapply`  :conda:package:`r-rmarkdown`  :conda:package:`r-tidyverse`  
 
-   conda install r-bcbiornaseq
+   :required~by: |required_by_r-bcbiornaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-bcbiornaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-bcbiornaseq
+
+   and update with::
+
+      conda update r-bcbiornaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-bcbiornaseq
+
+
+.. |required_by_r-bcbiornaseq| conda:required_by:: r-bcbiornaseq
+.. |downloads_r-bcbiornaseq| image:: https://img.shields.io/conda/dn/bioconda/r-bcbiornaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-bcbiornaseq| image:: https://quay.io/repository/biocontainers/r-bcbiornaseq/status
+   :target: https://quay.io/repository/biocontainers/r-bcbiornaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-bcbiornaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-bcbiornaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-bcbiornaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-bcbiornaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-bcbiornaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-bcbiornaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/r-bcbiornaseq/status
-                :target: https://quay.io/repository/biocontainers/r-bcbiornaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-bcbiornaseq/README.html
 

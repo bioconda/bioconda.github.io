@@ -1,56 +1,67 @@
-.. _`bioconductor-chromplot`:
+.. title:: Package Recipe 'bioconductor-chromplot'
+.. highlight: bash
+
 
 bioconductor-chromplot
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-chromplot
+   :replaces_section_title:
 
-Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end.
+   Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/chromPlot.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chromplot/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chromPlot.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-chromplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot/meta.yaml>`_
+   :links: biotools: :biotools:`chromplot`, doi: :doi:`10.1093/bioinformatics/btw137`
 
-
-
-Links         biotools: :biotools:`chromplot`, doi: :doi:`10.1093/bioinformatics/btw137`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-chromplot
 
-Installation
-------------
+   |downloads_bioconductor-chromplot| |docker_bioconductor-chromplot|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-chromplot
+   :required~by: |required_by_bioconductor-chromplot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-chromplot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-chromplot
+
+   and update with::
+
+      conda update bioconductor-chromplot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-chromplot
+
+
+.. |required_by_bioconductor-chromplot| conda:required_by:: bioconductor-chromplot
+.. |downloads_bioconductor-chromplot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromplot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-chromplot| image:: https://quay.io/repository/biocontainers/bioconductor-chromplot/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-chromplot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-chromplot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-chromplot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-chromplot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-chromplot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-chromplot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-chromplot
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-chromplot/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-chromplot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-chromplot/README.html
 

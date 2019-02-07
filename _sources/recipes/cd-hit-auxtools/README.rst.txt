@@ -1,54 +1,66 @@
-.. _`cd-hit-auxtools`:
+.. title:: Package Recipe 'cd-hit-auxtools'
+.. highlight: bash
+
 
 cd-hit-auxtools
 ===============
 
-|downloads|
+.. conda:recipe:: cd-hit-auxtools
+   :replaces_section_title:
 
-Clusters and compares protein or nucleotide sequences
+   Clusters and compares protein or nucleotide sequences
 
-============= ===========
-Home          https://github.com/weizhongli/cdhit
-Versions      4.6.8
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cd-hit-auxtools/meta.yaml
+   :homepage: https://github.com/weizhongli/cdhit
+   :license: GPLv2
+   :recipe: /`cd-hit-auxtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit-auxtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit-auxtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cd-hit-auxtools
 
-Installation
-------------
+   |downloads_cd-hit-auxtools| |docker_cd-hit-auxtools|
 
-.. highlight: bash
+   :versions: 4.6.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install cd-hit-auxtools
+   :required~by: |required_by_cd-hit-auxtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cd-hit-auxtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cd-hit-auxtools
+
+   and update with::
+
+      conda update cd-hit-auxtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cd-hit-auxtools
+
+
+.. |required_by_cd-hit-auxtools| conda:required_by:: cd-hit-auxtools
+.. |downloads_cd-hit-auxtools| image:: https://img.shields.io/conda/dn/bioconda/cd-hit-auxtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cd-hit-auxtools| image:: https://quay.io/repository/biocontainers/cd-hit-auxtools/status
+   :target: https://quay.io/repository/biocontainers/cd-hit-auxtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cd-hit-auxtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cd-hit-auxtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cd-hit-auxtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cd-hit-auxtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cd-hit-auxtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cd-hit-auxtools
-.. |docker| image:: https://quay.io/repository/biocontainers/cd-hit-auxtools/status
-                :target: https://quay.io/repository/biocontainers/cd-hit-auxtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cd-hit-auxtools/README.html
 

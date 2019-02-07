@@ -1,54 +1,66 @@
-.. _`bioconductor-sigcheck`:
+.. title:: Package Recipe 'bioconductor-sigcheck'
+.. highlight: bash
+
 
 bioconductor-sigcheck
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-sigcheck
+   :replaces_section_title:
 
-While gene signatures are frequently used to predict phenotypes \(e.g. predict prognosis of cancer patients\)\, it it not always clear how optimal or meaningful they are \(cf David Venet\, Jacques E. Dumont\, and Vincent Detours\' paper \"Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome\"\). Based on suggestions in that paper\, SigCheck accepts a data set \(as an ExpressionSet\) and a gene signature\, and compares its performance on survival and\/or classification tasks against a\) random gene signatures of the same length\; b\) known\, related and unrelated gene signatures\; and c\) permuted data and\/or metadata.
+   While gene signatures are frequently used to predict phenotypes \(e.g. predict prognosis of cancer patients\)\, it it not always clear how optimal or meaningful they are \(cf David Venet\, Jacques E. Dumont\, and Vincent Detours\' paper \"Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome\"\). Based on suggestions in that paper\, SigCheck accepts a data set \(as an ExpressionSet\) and a gene signature\, and compares its performance on survival and\/or classification tasks against a\) random gene signatures of the same length\; b\) known\, related and unrelated gene signatures\; and c\) permuted data and\/or metadata.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SigCheck.html
-Versions      2.14.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sigcheck/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SigCheck.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-sigcheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigcheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigcheck/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sigcheck
 
-Installation
-------------
+   |downloads_bioconductor-sigcheck| |docker_bioconductor-sigcheck|
 
-.. highlight: bash
+   :versions: 2.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-mlinterfaces` >=1.62.0,<1.63.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-survival`  
 
-   conda install bioconductor-sigcheck
+   :required~by: |required_by_bioconductor-sigcheck|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sigcheck
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sigcheck
+
+   and update with::
+
+      conda update bioconductor-sigcheck
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sigcheck
+
+
+.. |required_by_bioconductor-sigcheck| conda:required_by:: bioconductor-sigcheck
+.. |downloads_bioconductor-sigcheck| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigcheck.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sigcheck| image:: https://quay.io/repository/biocontainers/bioconductor-sigcheck/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sigcheck
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sigcheck.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sigcheck/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sigcheck/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sigcheck/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sigcheck/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sigcheck
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sigcheck/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sigcheck
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sigcheck/README.html
 

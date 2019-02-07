@@ -1,54 +1,66 @@
-.. _`perl-termreadkey`:
+.. title:: Package Recipe 'perl-termreadkey'
+.. highlight: bash
+
 
 perl-termreadkey
 ================
 
-|downloads|
+.. conda:recipe:: perl-termreadkey
+   :replaces_section_title:
 
-A perl module for simple terminal control
+   A perl module for simple terminal control
 
-============= ===========
-Home          http://metacpan.org/pod/TermReadKey
-Versions      2.38, 2.37, 2.32
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-termreadkey/meta.yaml
+   :homepage: http://metacpan.org/pod/TermReadKey
+   :license: perl_5
+   :recipe: /`perl-termreadkey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-termreadkey
 
-Installation
-------------
+   |downloads_perl-termreadkey| |docker_perl-termreadkey|
 
-.. highlight: bash
+   :versions: 2.38, 2.37, 2.32
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-termreadkey
+   :required~by: |required_by_perl-termreadkey|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-termreadkey
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-termreadkey
+
+   and update with::
+
+      conda update perl-termreadkey
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-termreadkey
+
+
+.. |required_by_perl-termreadkey| conda:required_by:: perl-termreadkey
+.. |downloads_perl-termreadkey| image:: https://img.shields.io/conda/dn/bioconda/perl-termreadkey.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-termreadkey| image:: https://quay.io/repository/biocontainers/perl-termreadkey/status
+   :target: https://quay.io/repository/biocontainers/perl-termreadkey
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-termreadkey.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-termreadkey/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-termreadkey/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-termreadkey/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-termreadkey/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-termreadkey
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-termreadkey/status
-                :target: https://quay.io/repository/biocontainers/perl-termreadkey
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-termreadkey/README.html
 

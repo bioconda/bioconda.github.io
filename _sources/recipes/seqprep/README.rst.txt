@@ -1,56 +1,67 @@
-.. _`seqprep`:
+.. title:: Package Recipe 'seqprep'
+.. highlight: bash
+
 
 seqprep
 =======
 
-|downloads|
+.. conda:recipe:: seqprep
+   :replaces_section_title:
 
-Tool for stripping adaptors and\/or merging paired reads with overlap into single reads.
+   Tool for stripping adaptors and\/or merging paired reads with overlap into single reads.
 
-============= ===========
-Home          https://github.com/jstjohn/SeqPrep
-Versions      1.3.2, 1.2, 1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqprep/meta.yaml
+   :homepage: https://github.com/jstjohn/SeqPrep
+   :license: MIT / MIT
+   :recipe: /`seqprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqprep/meta.yaml>`_
+   :links: biotools: :biotools:`seqprep`, doi: :doi:`10.1134/S1021443716020175`
 
-
-
-Links         biotools: :biotools:`seqprep`, doi: :doi:`10.1134/S1021443716020175`
-
-============= ===========
+   
 
 
+.. conda:package:: seqprep
 
-Installation
-------------
+   |downloads_seqprep| |docker_seqprep|
 
-.. highlight: bash
+   :versions: 1.3.2, 1.2, 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install seqprep
+   :required~by: |required_by_seqprep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seqprep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seqprep
+
+   and update with::
+
+      conda update seqprep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seqprep
+
+
+.. |required_by_seqprep| conda:required_by:: seqprep
+.. |downloads_seqprep| image:: https://img.shields.io/conda/dn/bioconda/seqprep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seqprep| image:: https://quay.io/repository/biocontainers/seqprep/status
+   :target: https://quay.io/repository/biocontainers/seqprep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seqprep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seqprep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seqprep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seqprep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seqprep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seqprep
-.. |docker| image:: https://quay.io/repository/biocontainers/seqprep/status
-                :target: https://quay.io/repository/biocontainers/seqprep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seqprep/README.html
 

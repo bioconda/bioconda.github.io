@@ -1,54 +1,66 @@
-.. _`bioconductor-clipper`:
+.. title:: Package Recipe 'bioconductor-clipper'
+.. highlight: bash
+
 
 bioconductor-clipper
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-clipper
+   :replaces_section_title:
 
-Implements topological gene set analysis using a two\-step empirical approach. It exploits graph decomposition theory to create a junction tree and reconstruct the most relevant signal path. In the first step clipper selects significant pathways according to statistical tests on the means and the concentration matrices of the graphs derived from pathway topologies. Then\, it \"clips\" the whole pathway identifying the signal paths having the greatest association with a specific phenotype.
+   Implements topological gene set analysis using a two\-step empirical approach. It exploits graph decomposition theory to create a junction tree and reconstruct the most relevant signal path. In the first step clipper selects significant pathways according to statistical tests on the means and the concentration matrices of the graphs derived from pathway topologies. Then\, it \"clips\" the whole pathway identifying the signal paths having the greatest association with a specific phenotype.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/clipper.html
-Versions      1.22.0
-License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clipper/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clipper.html
+   :license: AGPL-3
+   :recipe: /`bioconductor-clipper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clipper
 
-Installation
-------------
+   |downloads_bioconductor-clipper| |docker_bioconductor-clipper|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-qpgraph` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-grbase` >=1.6.6 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcpp`  
 
-   conda install bioconductor-clipper
+   :required~by: |required_by_bioconductor-clipper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clipper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clipper
+
+   and update with::
+
+      conda update bioconductor-clipper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clipper
+
+
+.. |required_by_bioconductor-clipper| conda:required_by:: bioconductor-clipper
+.. |downloads_bioconductor-clipper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clipper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clipper| image:: https://quay.io/repository/biocontainers/bioconductor-clipper/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clipper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clipper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clipper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clipper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clipper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clipper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clipper
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clipper/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clipper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clipper/README.html
 

@@ -1,56 +1,67 @@
-.. _`gffcompare`:
+.. title:: Package Recipe 'gffcompare'
+.. highlight: bash
+
 
 gffcompare
 ==========
 
-|downloads|
+.. conda:recipe:: gffcompare
+   :replaces_section_title:
 
-GffCompare by Geo Pertea
+   GffCompare by Geo Pertea
 
-============= ===========
-Home          https://github.com/gpertea/gffcompare
-Versions      0.10.6, 0.9.8
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gffcompare/meta.yaml
+   :homepage: https://github.com/gpertea/gffcompare
+   :license: Artistic License 2.0
+   :recipe: /`gffcompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare/meta.yaml>`_
+   :links: biotools: :biotools:`gffcompare`
 
-
-
-Links         biotools: :biotools:`gffcompare`
-
-============= ===========
+   
 
 
+.. conda:package:: gffcompare
 
-Installation
-------------
+   |downloads_gffcompare| |docker_gffcompare|
 
-.. highlight: bash
+   :versions: 0.10.6, 0.9.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install gffcompare
+   :required~by: |required_by_gffcompare|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gffcompare
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gffcompare
+
+   and update with::
+
+      conda update gffcompare
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gffcompare
+
+
+.. |required_by_gffcompare| conda:required_by:: gffcompare
+.. |downloads_gffcompare| image:: https://img.shields.io/conda/dn/bioconda/gffcompare.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gffcompare| image:: https://quay.io/repository/biocontainers/gffcompare/status
+   :target: https://quay.io/repository/biocontainers/gffcompare
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gffcompare.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gffcompare/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gffcompare/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gffcompare/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gffcompare/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gffcompare
-.. |docker| image:: https://quay.io/repository/biocontainers/gffcompare/status
-                :target: https://quay.io/repository/biocontainers/gffcompare
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gffcompare/README.html
 

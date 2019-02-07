@@ -1,54 +1,66 @@
-.. _`sure`:
+.. title:: Package Recipe 'sure'
+.. highlight: bash
+
 
 sure
 ====
 
-|downloads|
+.. conda:recipe:: sure
+   :replaces_section_title:
 
-utility belt for automated testing in python for python
+   utility belt for automated testing in python for python
 
-============= ===========
-Home          http://github.com/gabrielfalcao/sure
-Versions      1.4.11, 1.2.24
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sure/meta.yaml
+   :homepage: http://github.com/gabrielfalcao/sure
+   :license: GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`sure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sure/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sure
 
-Installation
-------------
+   |downloads_sure| |docker_sure|
 
-.. highlight: bash
+   :versions: 1.4.11, 1.2.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mock`  :conda:package:`python`  :conda:package:`six`  
 
-   conda install sure
+   :required~by: |required_by_sure|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sure
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sure
+
+   and update with::
+
+      conda update sure
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sure
+
+
+.. |required_by_sure| conda:required_by:: sure
+.. |downloads_sure| image:: https://img.shields.io/conda/dn/bioconda/sure.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sure| image:: https://quay.io/repository/biocontainers/sure/status
+   :target: https://quay.io/repository/biocontainers/sure
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sure.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sure/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sure/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sure/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sure/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sure
-.. |docker| image:: https://quay.io/repository/biocontainers/sure/status
-                :target: https://quay.io/repository/biocontainers/sure
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sure/README.html
 

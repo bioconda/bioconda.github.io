@@ -1,54 +1,66 @@
-.. _`perl-extutils-constant`:
+.. title:: Package Recipe 'perl-extutils-constant'
+.. highlight: bash
+
 
 perl-extutils-constant
 ======================
 
-|downloads|
+.. conda:recipe:: perl-extutils-constant/0.24
+   :replaces_section_title:
 
-generate XS code to import C header constants
+   generate XS code to import C header constants
 
-============= ===========
-Home          http://metacpan.org/pod/ExtUtils::Constant
-Versions      0.24
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-constant/0.24/meta.yaml
+   :homepage: http://metacpan.org/pod/ExtUtils::Constant
+   :license: perl_5
+   :recipe: /`perl-extutils-constant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant>`_/`0.24 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/0.24>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/0.24/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-extutils-constant
 
-Installation
-------------
+   |downloads_perl-extutils-constant| |docker_perl-extutils-constant|
 
-.. highlight: bash
+   :versions: 0.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-extutils-constant
+   :required~by: |required_by_perl-extutils-constant|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-extutils-constant
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-extutils-constant
+
+   and update with::
+
+      conda update perl-extutils-constant
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-extutils-constant
+
+
+.. |required_by_perl-extutils-constant| conda:required_by:: perl-extutils-constant
+.. |downloads_perl-extutils-constant| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-constant.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-extutils-constant| image:: https://quay.io/repository/biocontainers/perl-extutils-constant/status
+   :target: https://quay.io/repository/biocontainers/perl-extutils-constant
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-extutils-constant.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-extutils-constant/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-extutils-constant/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-extutils-constant/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-extutils-constant/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-extutils-constant
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-constant/status
-                :target: https://quay.io/repository/biocontainers/perl-extutils-constant
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-extutils-constant/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-memoize`:
+.. title:: Package Recipe 'perl-memoize'
+.. highlight: bash
+
 
 perl-memoize
 ============
 
-|downloads|
+.. conda:recipe:: perl-memoize
+   :replaces_section_title:
 
-Make functions faster by trading space for time
+   Make functions faster by trading space for time
 
-============= ===========
-Home          http://metacpan.org/pod/Memoize
-Versions      1.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-memoize/meta.yaml
+   :homepage: http://metacpan.org/pod/Memoize
+   :license: perl_5
+   :recipe: /`perl-memoize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-memoize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-memoize/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-memoize
 
-Installation
-------------
+   |downloads_perl-memoize| |docker_perl-memoize|
 
-.. highlight: bash
+   :versions: 1.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-threaded`  
 
-   conda install perl-memoize
+   :required~by: |required_by_perl-memoize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-memoize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-memoize
+
+   and update with::
+
+      conda update perl-memoize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-memoize
+
+
+.. |required_by_perl-memoize| conda:required_by:: perl-memoize
+.. |downloads_perl-memoize| image:: https://img.shields.io/conda/dn/bioconda/perl-memoize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-memoize| image:: https://quay.io/repository/biocontainers/perl-memoize/status
+   :target: https://quay.io/repository/biocontainers/perl-memoize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-memoize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-memoize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-memoize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-memoize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-memoize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-memoize
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-memoize/status
-                :target: https://quay.io/repository/biocontainers/perl-memoize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-memoize/README.html
 

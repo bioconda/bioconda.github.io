@@ -1,54 +1,66 @@
-.. _`bioconductor-rprotobuflib`:
+.. title:: Package Recipe 'bioconductor-rprotobuflib'
+.. highlight: bash
+
 
 bioconductor-rprotobuflib
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rprotobuflib
+   :replaces_section_title:
 
-This package provides the headers and static library of Protocol buffers 2.6.0 for other R packages to compile and link against.
+   This package provides the headers and static library of Protocol buffers 2.6.0 for other R packages to compile and link against.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RProtoBufLib.html
-Versions      1.4.0, 1.2.0, 1.0.0
-License       BSD_3_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rprotobuflib/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RProtoBufLib.html
+   :license: BSD_3_clause
+   :recipe: /`bioconductor-rprotobuflib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rprotobuflib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rprotobuflib/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rprotobuflib
 
-Installation
-------------
+   |downloads_bioconductor-rprotobuflib| |docker_bioconductor-rprotobuflib|
 
-.. highlight: bash
+   :versions: 1.4.0, 1.2.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-rprotobuflib
+   :required~by: |required_by_bioconductor-rprotobuflib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rprotobuflib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rprotobuflib
+
+   and update with::
+
+      conda update bioconductor-rprotobuflib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rprotobuflib
+
+
+.. |required_by_bioconductor-rprotobuflib| conda:required_by:: bioconductor-rprotobuflib
+.. |downloads_bioconductor-rprotobuflib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rprotobuflib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rprotobuflib| image:: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rprotobuflib.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rprotobuflib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rprotobuflib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rprotobuflib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rprotobuflib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rprotobuflib
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rprotobuflib/README.html
 

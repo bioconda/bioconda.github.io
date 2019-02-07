@@ -1,54 +1,66 @@
-.. _`perl-mime-types`:
+.. title:: Package Recipe 'perl-mime-types'
+.. highlight: bash
+
 
 perl-mime-types
 ===============
 
-|downloads|
+.. conda:recipe:: perl-mime-types
+   :replaces_section_title:
 
-Definition of MIME types
+   Definition of MIME types
 
-============= ===========
-Home          http://metacpan.org/pod/MIME-Types
-Versions      2.17, 2.12
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mime-types/meta.yaml
+   :homepage: http://metacpan.org/pod/MIME-Types
+   :license: perl_5
+   :recipe: /`perl-mime-types <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-types>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-types/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mime-types
 
-Installation
-------------
+   |downloads_perl-mime-types| |docker_perl-mime-types|
 
-.. highlight: bash
+   :versions: 2.17, 2.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-mime-types
+   :required~by: |required_by_perl-mime-types|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mime-types
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mime-types
+
+   and update with::
+
+      conda update perl-mime-types
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mime-types
+
+
+.. |required_by_perl-mime-types| conda:required_by:: perl-mime-types
+.. |downloads_perl-mime-types| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-types.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mime-types| image:: https://quay.io/repository/biocontainers/perl-mime-types/status
+   :target: https://quay.io/repository/biocontainers/perl-mime-types
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mime-types.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mime-types/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mime-types/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mime-types/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mime-types/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mime-types
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mime-types/status
-                :target: https://quay.io/repository/biocontainers/perl-mime-types
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mime-types/README.html
 

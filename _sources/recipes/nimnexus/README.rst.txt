@@ -1,54 +1,66 @@
-.. _`nimnexus`:
+.. title:: Package Recipe 'nimnexus'
+.. highlight: bash
+
 
 nimnexus
 ========
 
-|downloads|
+.. conda:recipe:: nimnexus
+   :replaces_section_title:
 
-command\-line tools for processing ChIP\-nexus data
+   command\-line tools for processing ChIP\-nexus data
 
-============= ===========
-Home          https://github.com/avsecz/nimnexus
-Versions      0.1.1, 0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nimnexus/meta.yaml
+   :homepage: https://github.com/avsecz/nimnexus
+   :license: MIT
+   :recipe: /`nimnexus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nimnexus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nimnexus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nimnexus
 
-Installation
-------------
+   |downloads_nimnexus| |docker_nimnexus|
 
-.. highlight: bash
+   :versions: 0.1.1, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`pcre` >=8.41,<9.0a0 
 
-   conda install nimnexus
+   :required~by: |required_by_nimnexus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nimnexus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nimnexus
+
+   and update with::
+
+      conda update nimnexus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nimnexus
+
+
+.. |required_by_nimnexus| conda:required_by:: nimnexus
+.. |downloads_nimnexus| image:: https://img.shields.io/conda/dn/bioconda/nimnexus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nimnexus| image:: https://quay.io/repository/biocontainers/nimnexus/status
+   :target: https://quay.io/repository/biocontainers/nimnexus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nimnexus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nimnexus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nimnexus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nimnexus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nimnexus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nimnexus
-.. |docker| image:: https://quay.io/repository/biocontainers/nimnexus/status
-                :target: https://quay.io/repository/biocontainers/nimnexus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nimnexus/README.html
 

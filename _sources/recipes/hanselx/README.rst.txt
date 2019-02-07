@@ -1,54 +1,66 @@
-.. _`hanselx`:
+.. title:: Package Recipe 'hanselx'
+.. highlight: bash
+
 
 hanselx
 =======
 
-|downloads|
+.. conda:recipe:: hanselx
+   :replaces_section_title:
 
-A graph\-inspired data structure for determining likely chains of sequences from breadcrumbs of evidence
+   A graph\-inspired data structure for determining likely chains of sequences from breadcrumbs of evidence
 
-============= ===========
-Home          https://github.com/SamStudio8/hansel
-Versions      0.0.81
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hanselx/meta.yaml
+   :homepage: https://github.com/SamStudio8/hansel
+   :license: MIT
+   :recipe: /`hanselx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hanselx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hanselx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hanselx
 
-Installation
-------------
+   |downloads_hanselx| |docker_hanselx|
 
-.. highlight: bash
+   :versions: 0.0.81
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install hanselx
+   :required~by: |required_by_hanselx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hanselx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hanselx
+
+   and update with::
+
+      conda update hanselx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hanselx
+
+
+.. |required_by_hanselx| conda:required_by:: hanselx
+.. |downloads_hanselx| image:: https://img.shields.io/conda/dn/bioconda/hanselx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hanselx| image:: https://quay.io/repository/biocontainers/hanselx/status
+   :target: https://quay.io/repository/biocontainers/hanselx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hanselx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hanselx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hanselx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hanselx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hanselx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hanselx
-.. |docker| image:: https://quay.io/repository/biocontainers/hanselx/status
-                :target: https://quay.io/repository/biocontainers/hanselx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hanselx/README.html
 

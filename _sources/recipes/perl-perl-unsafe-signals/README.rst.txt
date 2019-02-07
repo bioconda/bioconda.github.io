@@ -1,54 +1,66 @@
-.. _`perl-perl-unsafe-signals`:
+.. title:: Package Recipe 'perl-perl-unsafe-signals'
+.. highlight: bash
+
 
 perl-perl-unsafe-signals
 ========================
 
-|downloads|
+.. conda:recipe:: perl-perl-unsafe-signals
+   :replaces_section_title:
 
-Allow unsafe handling of signals in selected blocks
+   Allow unsafe handling of signals in selected blocks
 
-============= ===========
-Home          http://metacpan.org/pod/Perl::Unsafe::Signals
-Versions      0.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perl-unsafe-signals/meta.yaml
+   :homepage: http://metacpan.org/pod/Perl::Unsafe::Signals
+   :license: perl_5
+   :recipe: /`perl-perl-unsafe-signals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-unsafe-signals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-unsafe-signals/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-perl-unsafe-signals
 
-Installation
-------------
+   |downloads_perl-perl-unsafe-signals| |docker_perl-perl-unsafe-signals|
 
-.. highlight: bash
+   :versions: 0.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-perl-unsafe-signals
+   :required~by: |required_by_perl-perl-unsafe-signals|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-perl-unsafe-signals
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-perl-unsafe-signals
+
+   and update with::
+
+      conda update perl-perl-unsafe-signals
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-perl-unsafe-signals
+
+
+.. |required_by_perl-perl-unsafe-signals| conda:required_by:: perl-perl-unsafe-signals
+.. |downloads_perl-perl-unsafe-signals| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-unsafe-signals.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-perl-unsafe-signals| image:: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals/status
+   :target: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-perl-unsafe-signals.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-perl-unsafe-signals/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-perl-unsafe-signals/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-perl-unsafe-signals/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-perl-unsafe-signals/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-perl-unsafe-signals
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals/status
-                :target: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-perl-unsafe-signals/README.html
 

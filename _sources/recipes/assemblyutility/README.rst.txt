@@ -1,54 +1,66 @@
-.. _`assemblyutility`:
+.. title:: Package Recipe 'assemblyutility'
+.. highlight: bash
+
 
 assemblyutility
 ===============
 
-|downloads|
+.. conda:recipe:: assemblyutility
+   :replaces_section_title:
 
-Tools for DBG2OLC genoome assembler
+   Tools for DBG2OLC genoome assembler
 
-============= ===========
-Home          https://github.com/yechengxi/AssemblyUtility
-Versions      20160209
-License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//assemblyutility/meta.yaml
+   :homepage: https://github.com/yechengxi/AssemblyUtility
+   :license: 
+   :recipe: /`assemblyutility <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: assemblyutility
 
-Installation
-------------
+   |downloads_assemblyutility| |docker_assemblyutility|
 
-.. highlight: bash
+   :versions: 20160209
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install assemblyutility
+   :required~by: |required_by_assemblyutility|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update assemblyutility
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install assemblyutility
+
+   and update with::
+
+      conda update assemblyutility
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/assemblyutility
+
+
+.. |required_by_assemblyutility| conda:required_by:: assemblyutility
+.. |downloads_assemblyutility| image:: https://img.shields.io/conda/dn/bioconda/assemblyutility.svg?style=flat
+   :alt:   (downloads)
+.. |docker_assemblyutility| image:: https://quay.io/repository/biocontainers/assemblyutility/status
+   :target: https://quay.io/repository/biocontainers/assemblyutility
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/assemblyutility.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/assemblyutility/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/assemblyutility/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/assemblyutility/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/assemblyutility/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/assemblyutility
-.. |docker| image:: https://quay.io/repository/biocontainers/assemblyutility/status
-                :target: https://quay.io/repository/biocontainers/assemblyutility
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/assemblyutility/README.html
 

@@ -1,54 +1,66 @@
-.. _`pasa`:
+.. title:: Package Recipe 'pasa'
+.. highlight: bash
+
 
 pasa
 ====
 
-|downloads|
+.. conda:recipe:: pasa
+   :replaces_section_title:
 
-PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.
+   PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.
 
-============= ===========
-Home          https://pasapipeline.github.io/
-Versions      2.3.3
-License       Broad Institute
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pasa/meta.yaml
+   :homepage: https://pasapipeline.github.io/
+   :license: Broad Institute
+   :recipe: /`pasa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pasa
 
-Installation
-------------
+   |downloads_pasa| |docker_pasa|
 
-.. highlight: bash
+   :versions: 2.3.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blat`  :conda:package:`cdbtools`  :conda:package:`fasta3`  :conda:package:`gmap`  :conda:package:`libgcc`  :conda:package:`lighttpd`  :conda:package:`perl`  :conda:package:`perl-cgi`  :conda:package:`perl-db-file`  :conda:package:`perl-dbd-sqlite`  :conda:package:`perl-uri`  :conda:package:`r-base`  :conda:package:`samtools`  :conda:package:`transdecoder` >=5.2.0 
 
-   conda install pasa
+   :required~by: |required_by_pasa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pasa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pasa
+
+   and update with::
+
+      conda update pasa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pasa
+
+
+.. |required_by_pasa| conda:required_by:: pasa
+.. |downloads_pasa| image:: https://img.shields.io/conda/dn/bioconda/pasa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pasa| image:: https://quay.io/repository/biocontainers/pasa/status
+   :target: https://quay.io/repository/biocontainers/pasa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pasa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pasa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pasa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pasa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pasa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pasa
-.. |docker| image:: https://quay.io/repository/biocontainers/pasa/status
-                :target: https://quay.io/repository/biocontainers/pasa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pasa/README.html
 

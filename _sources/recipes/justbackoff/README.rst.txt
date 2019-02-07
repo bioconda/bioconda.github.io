@@ -1,54 +1,66 @@
-.. _`justbackoff`:
+.. title:: Package Recipe 'justbackoff'
+.. highlight: bash
+
 
 justbackoff
 ===========
 
-|downloads|
+.. conda:recipe:: justbackoff
+   :replaces_section_title:
 
-Simple backoff algorithm in Python
+   Simple backoff algorithm in Python
 
-============= ===========
-Home          https://github.com/admiralobvious/justbackoff
-Versions      0.4.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//justbackoff/meta.yaml
+   :homepage: https://github.com/admiralobvious/justbackoff
+   :license: MIT / MIT
+   :recipe: /`justbackoff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/justbackoff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/justbackoff/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: justbackoff
 
-Installation
-------------
+   |downloads_justbackoff| |docker_justbackoff|
 
-.. highlight: bash
+   :versions: 0.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install justbackoff
+   :required~by: |required_by_justbackoff|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update justbackoff
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install justbackoff
+
+   and update with::
+
+      conda update justbackoff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/justbackoff
+
+
+.. |required_by_justbackoff| conda:required_by:: justbackoff
+.. |downloads_justbackoff| image:: https://img.shields.io/conda/dn/bioconda/justbackoff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_justbackoff| image:: https://quay.io/repository/biocontainers/justbackoff/status
+   :target: https://quay.io/repository/biocontainers/justbackoff
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/justbackoff.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/justbackoff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/justbackoff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/justbackoff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/justbackoff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/justbackoff
-.. |docker| image:: https://quay.io/repository/biocontainers/justbackoff/status
-                :target: https://quay.io/repository/biocontainers/justbackoff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/justbackoff/README.html
 

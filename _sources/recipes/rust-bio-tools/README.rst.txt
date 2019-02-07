@@ -1,56 +1,67 @@
-.. _`rust-bio-tools`:
+.. title:: Package Recipe 'rust-bio-tools'
+.. highlight: bash
+
 
 rust-bio-tools
 ==============
 
-|downloads|
+.. conda:recipe:: rust-bio-tools
+   :replaces_section_title:
 
-A growing collection of fast and secure command line utililities for dealing with NGS data
-implemented on top of Rust\-Bio.
+   A growing collection of fast and secure command line utililities for dealing with NGS data
+   implemented on top of Rust\-Bio.
 
+   :homepage: https://github.com/rust-bio/rust-bio-tools
+   :license: MIT
+   :recipe: /`rust-bio-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/rust-bio/rust-bio-tools
-Versions      0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.1.3, 0.1.2, 0.1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rust-bio-tools/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: rust-bio-tools
 
-Installation
-------------
+   |downloads_rust-bio-tools| |docker_rust-bio-tools|
 
-.. highlight: bash
+   :versions: 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.1.3, 0.1.2, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`starcode`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install rust-bio-tools
+   :required~by: |required_by_rust-bio-tools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rust-bio-tools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rust-bio-tools
+
+   and update with::
+
+      conda update rust-bio-tools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rust-bio-tools
+
+
+.. |required_by_rust-bio-tools| conda:required_by:: rust-bio-tools
+.. |downloads_rust-bio-tools| image:: https://img.shields.io/conda/dn/bioconda/rust-bio-tools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rust-bio-tools| image:: https://quay.io/repository/biocontainers/rust-bio-tools/status
+   :target: https://quay.io/repository/biocontainers/rust-bio-tools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rust-bio-tools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rust-bio-tools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rust-bio-tools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rust-bio-tools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rust-bio-tools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rust-bio-tools
-.. |docker| image:: https://quay.io/repository/biocontainers/rust-bio-tools/status
-                :target: https://quay.io/repository/biocontainers/rust-bio-tools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rust-bio-tools/README.html
 

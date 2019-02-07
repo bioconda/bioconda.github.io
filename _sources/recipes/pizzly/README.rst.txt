@@ -1,36 +1,56 @@
-.. _`pizzly`:
+.. title:: Package Recipe 'pizzly'
+.. highlight: bash
+
 
 pizzly
 ======
 
-|downloads|
+.. conda:recipe:: pizzly
+   :replaces_section_title:
 
-Fast fusion detection using kallisto
+   Fast fusion detection using kallisto
 
-============= ===========
-Home          https://github.com/pmelsted/pizzly
-Versions      0.37.3, 0.37.1
-License       BSD-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pizzly/meta.yaml
+   :homepage: https://github.com/pmelsted/pizzly
+   :license: BSD-2
+   :recipe: /`pizzly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pizzly
 
-Installation
-------------
+   |downloads_pizzly| |docker_pizzly|
 
-.. highlight: bash
+   :versions: 0.37.3, 0.37.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`h5py`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python`  
 
-   conda install pizzly
+   :required~by: |required_by_pizzly|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pizzly
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pizzly
+
+   and update with::
+
+      conda update pizzly
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pizzly
+
+
+.. |required_by_pizzly| conda:required_by:: pizzly
+.. |downloads_pizzly| image:: https://img.shields.io/conda/dn/bioconda/pizzly.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pizzly| image:: https://quay.io/repository/biocontainers/pizzly/status
+   :target: https://quay.io/repository/biocontainers/pizzly
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 Auxilliary scripts are available as commands \`\`pizzly\_flatten\_json.py\`\` and \`\`pizzly\_get\_fragment\_length.py\`\` along with the \`\`pizzly\`\` binary.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/pizzly.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pizzly/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pizzly/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pizzly/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pizzly/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pizzly
-.. |docker| image:: https://quay.io/repository/biocontainers/pizzly/status
-                :target: https://quay.io/repository/biocontainers/pizzly
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pizzly/README.html
 

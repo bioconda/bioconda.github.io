@@ -1,54 +1,66 @@
-.. _`methylextract`:
+.. title:: Package Recipe 'methylextract'
+.. highlight: bash
+
 
 methylextract
 =============
 
-|downloads|
+.. conda:recipe:: methylextract
+   :replaces_section_title:
 
-High\-Quality methylation maps and SNV calling from whole genome bisulfite sequencing data
+   High\-Quality methylation maps and SNV calling from whole genome bisulfite sequencing data
 
-============= ===========
-Home          http://bioinfo2.ugr.es/MethylExtract/
-Versions      1.9.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//methylextract/meta.yaml
+   :homepage: http://bioinfo2.ugr.es/MethylExtract/
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :recipe: /`methylextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylextract/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: methylextract
 
-Installation
-------------
+   |downloads_methylextract| |docker_methylextract|
 
-.. highlight: bash
+   :versions: 1.9.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl`  :conda:package:`samtools`  
 
-   conda install methylextract
+   :required~by: |required_by_methylextract|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update methylextract
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install methylextract
+
+   and update with::
+
+      conda update methylextract
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/methylextract
+
+
+.. |required_by_methylextract| conda:required_by:: methylextract
+.. |downloads_methylextract| image:: https://img.shields.io/conda/dn/bioconda/methylextract.svg?style=flat
+   :alt:   (downloads)
+.. |docker_methylextract| image:: https://quay.io/repository/biocontainers/methylextract/status
+   :target: https://quay.io/repository/biocontainers/methylextract
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/methylextract.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/methylextract/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/methylextract/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/methylextract/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/methylextract/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/methylextract
-.. |docker| image:: https://quay.io/repository/biocontainers/methylextract/status
-                :target: https://quay.io/repository/biocontainers/methylextract
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/methylextract/README.html
 

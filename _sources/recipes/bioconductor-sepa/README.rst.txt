@@ -1,56 +1,67 @@
-.. _`bioconductor-sepa`:
+.. title:: Package Recipe 'bioconductor-sepa'
+.. highlight: bash
+
 
 bioconductor-sepa
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-sepa
+   :replaces_section_title:
 
-Given single\-cell RNA\-seq data and true experiment time of cells or pseudo\-time cell ordering\, SEPA provides convenient functions for users to assign genes into different gene expression patterns such as constant\, monotone increasing and increasing then decreasing. SEPA then performs GO enrichment analysis to analysis the functional roles of genes with same or similar patterns.
+   Given single\-cell RNA\-seq data and true experiment time of cells or pseudo\-time cell ordering\, SEPA provides convenient functions for users to assign genes into different gene expression patterns such as constant\, monotone increasing and increasing then decreasing. SEPA then performs GO enrichment analysis to analysis the functional roles of genes with same or similar patterns.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SEPA.html
-Versions      1.12.0, 1.10.0, 1.8.0, 1.6.0
-License       GPL(>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sepa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SEPA.html
+   :license: GPL(>=2)
+   :recipe: /`bioconductor-sepa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepa/meta.yaml>`_
+   :links: biotools: :biotools:`sepa`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`sepa`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sepa
 
-Installation
-------------
+   |downloads_bioconductor-sepa| |docker_bioconductor-sepa|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-topgo` >=2.34.0,<2.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  :conda:package:`r-segmented`  :conda:package:`r-shiny`  
 
-   conda install bioconductor-sepa
+   :required~by: |required_by_bioconductor-sepa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sepa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sepa
+
+   and update with::
+
+      conda update bioconductor-sepa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sepa
+
+
+.. |required_by_bioconductor-sepa| conda:required_by:: bioconductor-sepa
+.. |downloads_bioconductor-sepa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sepa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sepa| image:: https://quay.io/repository/biocontainers/bioconductor-sepa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sepa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sepa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sepa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sepa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sepa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sepa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sepa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sepa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sepa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sepa/README.html
 

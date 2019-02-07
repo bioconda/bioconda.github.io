@@ -1,54 +1,66 @@
-.. _`pgsa`:
+.. title:: Package Recipe 'pgsa'
+.. highlight: bash
+
 
 pgsa
 ====
 
-|downloads|
+.. conda:recipe:: pgsa
+   :replaces_section_title:
 
-Pseudogenome Suffix Array is a compact index for collections of reads from sequencing.
+   Pseudogenome Suffix Array is a compact index for collections of reads from sequencing.
 
-============= ===========
-Home          http://sun.aei.polsl.pl/pgsa/
-Versions      1.2
-License       Creative Commons Attribution License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pgsa/meta.yaml
+   :homepage: http://sun.aei.polsl.pl/pgsa/
+   :license: Creative Commons Attribution License
+   :recipe: /`pgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgsa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pgsa
 
-Installation
-------------
+   |downloads_pgsa| |docker_pgsa|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install pgsa
+   :required~by: |required_by_pgsa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pgsa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pgsa
+
+   and update with::
+
+      conda update pgsa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pgsa
+
+
+.. |required_by_pgsa| conda:required_by:: pgsa
+.. |downloads_pgsa| image:: https://img.shields.io/conda/dn/bioconda/pgsa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pgsa| image:: https://quay.io/repository/biocontainers/pgsa/status
+   :target: https://quay.io/repository/biocontainers/pgsa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pgsa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pgsa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pgsa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pgsa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pgsa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pgsa
-.. |docker| image:: https://quay.io/repository/biocontainers/pgsa/status
-                :target: https://quay.io/repository/biocontainers/pgsa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pgsa/README.html
 

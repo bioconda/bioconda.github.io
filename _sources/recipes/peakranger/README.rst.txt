@@ -1,56 +1,67 @@
-.. _`peakranger`:
+.. title:: Package Recipe 'peakranger'
+.. highlight: bash
+
 
 peakranger
 ==========
 
-|downloads|
+.. conda:recipe:: peakranger
+   :replaces_section_title:
 
-PeakRanger is a multi\-purporse software suite for analyzing next\-generation sequencing \(NGS\) data.
+   PeakRanger is a multi\-purporse software suite for analyzing next\-generation sequencing \(NGS\) data.
 
-============= ===========
-Home          http://ranger.sourceforge.net
-Versions      1.18
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//peakranger/meta.yaml
+   :homepage: http://ranger.sourceforge.net
+   :license: Artistic License 2.0
+   :recipe: /`peakranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakranger/meta.yaml>`_
+   :links: biotools: :biotools:`peakranger`
 
-
-
-Links         biotools: :biotools:`peakranger`
-
-============= ===========
+   
 
 
+.. conda:package:: peakranger
 
-Installation
-------------
+   |downloads_peakranger| |docker_peakranger|
 
-.. highlight: bash
+   :versions: 1.18
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.60* :conda:package:`r` 3.2.2* :conda:package:`zlib`  
 
-   conda install peakranger
+   :required~by: |required_by_peakranger|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update peakranger
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install peakranger
+
+   and update with::
+
+      conda update peakranger
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/peakranger
+
+
+.. |required_by_peakranger| conda:required_by:: peakranger
+.. |downloads_peakranger| image:: https://img.shields.io/conda/dn/bioconda/peakranger.svg?style=flat
+   :alt:   (downloads)
+.. |docker_peakranger| image:: https://quay.io/repository/biocontainers/peakranger/status
+   :target: https://quay.io/repository/biocontainers/peakranger
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/peakranger.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/peakranger/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/peakranger/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/peakranger/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/peakranger/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/peakranger
-.. |docker| image:: https://quay.io/repository/biocontainers/peakranger/status
-                :target: https://quay.io/repository/biocontainers/peakranger
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/peakranger/README.html
 

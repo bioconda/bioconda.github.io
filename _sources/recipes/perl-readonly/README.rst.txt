@@ -1,54 +1,66 @@
-.. _`perl-readonly`:
+.. title:: Package Recipe 'perl-readonly'
+.. highlight: bash
+
 
 perl-readonly
 =============
 
-|downloads|
+.. conda:recipe:: perl-readonly
+   :replaces_section_title:
 
-Facility for creating read\-only scalars\, arrays\, hashes
+   Facility for creating read\-only scalars\, arrays\, hashes
 
-============= ===========
-Home          https://github.com/sanko/readonly
-Versions      2.05, 1.04
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-readonly/meta.yaml
+   :homepage: https://github.com/sanko/readonly
+   :license: perl_5
+   :recipe: /`perl-readonly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-readonly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-readonly/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-readonly
 
-Installation
-------------
+   |downloads_perl-readonly| |docker_perl-readonly|
 
-.. highlight: bash
+   :versions: 2.05, 1.04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-readonly
+   :required~by: |required_by_perl-readonly|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-readonly
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-readonly
+
+   and update with::
+
+      conda update perl-readonly
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-readonly
+
+
+.. |required_by_perl-readonly| conda:required_by:: perl-readonly
+.. |downloads_perl-readonly| image:: https://img.shields.io/conda/dn/bioconda/perl-readonly.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-readonly| image:: https://quay.io/repository/biocontainers/perl-readonly/status
+   :target: https://quay.io/repository/biocontainers/perl-readonly
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-readonly.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-readonly/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-readonly/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-readonly/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-readonly/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-readonly
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-readonly/status
-                :target: https://quay.io/repository/biocontainers/perl-readonly
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-readonly/README.html
 

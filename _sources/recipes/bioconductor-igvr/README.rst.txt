@@ -1,54 +1,66 @@
-.. _`bioconductor-igvr`:
+.. title:: Package Recipe 'bioconductor-igvr'
+.. highlight: bash
+
 
 bioconductor-igvr
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-igvr
+   :replaces_section_title:
 
-Access to igv.js\, the Integrative Genomics Viewer running in a web browser.
+   Access to igv.js\, the Integrative Genomics Viewer running in a web browser.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/igvR.html
-Versions      1.2.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-igvr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/igvR.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-igvr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-igvr
 
-Installation
-------------
+   |downloads_bioconductor-igvr| |docker_bioconductor-igvr|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-browserviz` >=2.4.0,<2.5.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httpuv`  
 
-   conda install bioconductor-igvr
+   :required~by: |required_by_bioconductor-igvr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-igvr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-igvr
+
+   and update with::
+
+      conda update bioconductor-igvr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-igvr
+
+
+.. |required_by_bioconductor-igvr| conda:required_by:: bioconductor-igvr
+.. |downloads_bioconductor-igvr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-igvr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-igvr| image:: https://quay.io/repository/biocontainers/bioconductor-igvr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-igvr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-igvr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-igvr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-igvr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-igvr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-igvr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-igvr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-igvr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-igvr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-igvr/README.html
 

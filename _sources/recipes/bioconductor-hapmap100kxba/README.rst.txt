@@ -1,54 +1,66 @@
-.. _`bioconductor-hapmap100kxba`:
+.. title:: Package Recipe 'bioconductor-hapmap100kxba'
+.. highlight: bash
+
 
 bioconductor-hapmap100kxba
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-hapmap100kxba
+   :replaces_section_title:
 
-Sample dataset obtained from http\:\/\/www.hapmap.org
+   Sample dataset obtained from http\:\/\/www.hapmap.org
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/hapmap100kxba.html
-Versions      1.24.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hapmap100kxba/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hapmap100kxba.html
+   :license: GPL
+   :recipe: /`bioconductor-hapmap100kxba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hapmap100kxba
 
-Installation
-------------
+   |downloads_bioconductor-hapmap100kxba| |docker_bioconductor-hapmap100kxba|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hapmap100kxba
+   :required~by: |required_by_bioconductor-hapmap100kxba|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hapmap100kxba
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hapmap100kxba
+
+   and update with::
+
+      conda update bioconductor-hapmap100kxba
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hapmap100kxba
+
+
+.. |required_by_bioconductor-hapmap100kxba| conda:required_by:: bioconductor-hapmap100kxba
+.. |downloads_bioconductor-hapmap100kxba| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap100kxba.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hapmap100kxba| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hapmap100kxba/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hapmap100kxba/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hapmap100kxba/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hapmap100kxba/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hapmap100kxba
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hapmap100kxba/README.html
 

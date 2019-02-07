@@ -1,54 +1,66 @@
-.. _`openslide-python`:
+.. title:: Package Recipe 'openslide-python'
+.. highlight: bash
+
 
 openslide-python
 ================
 
-|downloads|
+.. conda:recipe:: openslide-python
+   :replaces_section_title:
 
-Python interface to OpenSlide
+   Python interface to OpenSlide
 
-============= ===========
-Home          http://openslide.org/
-Versions      1.1.1
-License       GNU Lesser General Public v2 (LGPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openslide-python/meta.yaml
+   :homepage: http://openslide.org/
+   :license: LGPL / GNU Lesser General Public v2 (LGPLv2)
+   :recipe: /`openslide-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openslide-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openslide-python/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: openslide-python
 
-Installation
-------------
+   |downloads_openslide-python| |docker_openslide-python|
 
-.. highlight: bash
+   :versions: 1.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openslide`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install openslide-python
+   :required~by: |required_by_openslide-python|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update openslide-python
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install openslide-python
+
+   and update with::
+
+      conda update openslide-python
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/openslide-python
+
+
+.. |required_by_openslide-python| conda:required_by:: openslide-python
+.. |downloads_openslide-python| image:: https://img.shields.io/conda/dn/bioconda/openslide-python.svg?style=flat
+   :alt:   (downloads)
+.. |docker_openslide-python| image:: https://quay.io/repository/biocontainers/openslide-python/status
+   :target: https://quay.io/repository/biocontainers/openslide-python
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/openslide-python.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/openslide-python/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/openslide-python/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/openslide-python/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/openslide-python/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/openslide-python
-.. |docker| image:: https://quay.io/repository/biocontainers/openslide-python/status
-                :target: https://quay.io/repository/biocontainers/openslide-python
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/openslide-python/README.html
 

@@ -1,54 +1,66 @@
-.. _`clipandmerge`:
+.. title:: Package Recipe 'clipandmerge'
+.. highlight: bash
+
 
 clipandmerge
 ============
 
-|downloads|
+.. conda:recipe:: clipandmerge
+   :replaces_section_title:
 
-Clip\&Merge is a tool to clip off adapters from sequencing reads and merge overlapping paired end reads together.
+   Clip\&Merge is a tool to clip off adapters from sequencing reads and merge overlapping paired end reads together.
 
-============= ===========
-Home          https://github.com/apeltzer/ClipAndMerge
-Versions      1.7.8
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clipandmerge/meta.yaml
+   :homepage: https://github.com/apeltzer/ClipAndMerge
+   :license: GPLv3
+   :recipe: /`clipandmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clipandmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clipandmerge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: clipandmerge
 
-Installation
-------------
+   |downloads_clipandmerge| |docker_clipandmerge|
 
-.. highlight: bash
+   :versions: 1.7.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install clipandmerge
+   :required~by: |required_by_clipandmerge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update clipandmerge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install clipandmerge
+
+   and update with::
+
+      conda update clipandmerge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/clipandmerge
+
+
+.. |required_by_clipandmerge| conda:required_by:: clipandmerge
+.. |downloads_clipandmerge| image:: https://img.shields.io/conda/dn/bioconda/clipandmerge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_clipandmerge| image:: https://quay.io/repository/biocontainers/clipandmerge/status
+   :target: https://quay.io/repository/biocontainers/clipandmerge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/clipandmerge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/clipandmerge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clipandmerge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/clipandmerge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/clipandmerge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/clipandmerge
-.. |docker| image:: https://quay.io/repository/biocontainers/clipandmerge/status
-                :target: https://quay.io/repository/biocontainers/clipandmerge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/clipandmerge/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-mldbm`:
+.. title:: Package Recipe 'perl-mldbm'
+.. highlight: bash
+
 
 perl-mldbm
 ==========
 
-|downloads|
+.. conda:recipe:: perl-mldbm
+   :replaces_section_title:
 
-store multi\-level Perl hash structure in single level tied hash
+   store multi\-level Perl hash structure in single level tied hash
 
-============= ===========
-Home          http://metacpan.org/pod/MLDBM
-Versions      2.05
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mldbm/meta.yaml
+   :homepage: http://metacpan.org/pod/MLDBM
+   :license: perl_5
+   :recipe: /`perl-mldbm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mldbm
 
-Installation
-------------
+   |downloads_perl-mldbm| |docker_perl-mldbm|
 
-.. highlight: bash
+   :versions: 2.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-mldbm
+   :required~by: |required_by_perl-mldbm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mldbm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mldbm
+
+   and update with::
+
+      conda update perl-mldbm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mldbm
+
+
+.. |required_by_perl-mldbm| conda:required_by:: perl-mldbm
+.. |downloads_perl-mldbm| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mldbm| image:: https://quay.io/repository/biocontainers/perl-mldbm/status
+   :target: https://quay.io/repository/biocontainers/perl-mldbm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mldbm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mldbm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mldbm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mldbm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mldbm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mldbm
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mldbm/status
-                :target: https://quay.io/repository/biocontainers/perl-mldbm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mldbm/README.html
 

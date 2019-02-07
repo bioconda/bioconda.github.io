@@ -1,56 +1,67 @@
-.. _`yara`:
+.. title:: Package Recipe 'yara'
+.. highlight: bash
+
 
 yara
 ====
 
-|downloads|
+.. conda:recipe:: yara
+   :replaces_section_title:
 
-Yara is an exact tool for aligning DNA sequencing reads to reference genomes.
+   Yara is an exact tool for aligning DNA sequencing reads to reference genomes.
 
-============= ===========
-Home          https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
-Versions      1.0.2, 0.9.10, 0.9.9, 0.9.6
-License       https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//yara/meta.yaml
+   :homepage: https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
+   :license: BSD / https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
+   :recipe: /`yara <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara/meta.yaml>`_
+   :links: biotools: :biotools:`yara`, doi: :doi:`10.1093/nar/gkt005`
 
-
-
-Links         biotools: :biotools:`yara`, doi: :doi:`10.1093/nar/gkt005`
-
-============= ===========
+   
 
 
+.. conda:package:: yara
 
-Installation
-------------
+   |downloads_yara| |docker_yara|
 
-.. highlight: bash
+   :versions: 1.0.2, 0.9.10, 0.9.9, 0.9.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install yara
+   :required~by: |required_by_yara|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update yara
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install yara
+
+   and update with::
+
+      conda update yara
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/yara
+
+
+.. |required_by_yara| conda:required_by:: yara
+.. |downloads_yara| image:: https://img.shields.io/conda/dn/bioconda/yara.svg?style=flat
+   :alt:   (downloads)
+.. |docker_yara| image:: https://quay.io/repository/biocontainers/yara/status
+   :target: https://quay.io/repository/biocontainers/yara
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/yara.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/yara/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/yara/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/yara/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/yara/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/yara
-.. |docker| image:: https://quay.io/repository/biocontainers/yara/status
-                :target: https://quay.io/repository/biocontainers/yara
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/yara/README.html
 

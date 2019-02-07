@@ -1,54 +1,66 @@
-.. _`argutils`:
+.. title:: Package Recipe 'argutils'
+.. highlight: bash
+
 
 argutils
 ========
 
-|downloads|
+.. conda:recipe:: argutils
+   :replaces_section_title:
 
-Functions to build matched argument parsers and config files
+   Functions to build matched argument parsers and config files
 
-============= ===========
-Home          https://github.com/eclarke/argutils
-Versions      0.3.2
-License       GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//argutils/meta.yaml
+   :homepage: https://github.com/eclarke/argutils
+   :license: GNU General Public License v2 or later (GPLv2+)
+   :recipe: /`argutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/argutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/argutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: argutils
 
-Installation
-------------
+   |downloads_argutils| |docker_argutils|
 
-.. highlight: bash
+   :versions: 0.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`six`  
 
-   conda install argutils
+   :required~by: |required_by_argutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update argutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install argutils
+
+   and update with::
+
+      conda update argutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/argutils
+
+
+.. |required_by_argutils| conda:required_by:: argutils
+.. |downloads_argutils| image:: https://img.shields.io/conda/dn/bioconda/argutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_argutils| image:: https://quay.io/repository/biocontainers/argutils/status
+   :target: https://quay.io/repository/biocontainers/argutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/argutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/argutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/argutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/argutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/argutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/argutils
-.. |docker| image:: https://quay.io/repository/biocontainers/argutils/status
-                :target: https://quay.io/repository/biocontainers/argutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/argutils/README.html
 

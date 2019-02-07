@@ -1,54 +1,66 @@
-.. _`bioconductor-coexnet`:
+.. title:: Package Recipe 'bioconductor-coexnet'
+.. highlight: bash
+
 
 bioconductor-coexnet
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-coexnet
+   :replaces_section_title:
 
-Extracts the gene expression matrix from GEO DataSets \(.CEL files\) as a AffyBatch object. Additionally\, can make the normalization process using two different methods \(vsn and rma\). The summarization \(pass from multi\-probe to one gene\) uses two different criteria \(Maximum value and Median of the samples expression data\) and the process of gene differentially expressed analisys using two methods \(sam and acde\). The construction of the co\-expression network can be conduced using two different methods\, Pearson Correlation Coefficient \(PCC\) or Mutual Information \(MI\) and choosing a threshold value using a graph theory approach.
+   Extracts the gene expression matrix from GEO DataSets \(.CEL files\) as a AffyBatch object. Additionally\, can make the normalization process using two different methods \(vsn and rma\). The summarization \(pass from multi\-probe to one gene\) uses two different criteria \(Maximum value and Median of the samples expression data\) and the process of gene differentially expressed analisys using two methods \(sam and acde\). The construction of the co\-expression network can be conduced using two different methods\, Pearson Correlation Coefficient \(PCC\) or Mutual Information \(MI\) and choosing a threshold value using a graph theory approach.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/coexnet.html
-Versions      1.4.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-coexnet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/coexnet.html
+   :license: LGPL
+   :recipe: /`bioconductor-coexnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coexnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coexnet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-coexnet
 
-Installation
-------------
+   |downloads_bioconductor-coexnet| |docker_bioconductor-coexnet|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-acde` >=1.12.0,<1.13.0 :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`bioconductor-stringdb` >=1.22.0,<1.23.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rmarkdown`  
 
-   conda install bioconductor-coexnet
+   :required~by: |required_by_bioconductor-coexnet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-coexnet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-coexnet
+
+   and update with::
+
+      conda update bioconductor-coexnet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-coexnet
+
+
+.. |required_by_bioconductor-coexnet| conda:required_by:: bioconductor-coexnet
+.. |downloads_bioconductor-coexnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coexnet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-coexnet| image:: https://quay.io/repository/biocontainers/bioconductor-coexnet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-coexnet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-coexnet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-coexnet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-coexnet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-coexnet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-coexnet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-coexnet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-coexnet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-coexnet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-coexnet/README.html
 

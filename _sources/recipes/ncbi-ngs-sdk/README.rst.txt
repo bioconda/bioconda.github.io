@@ -1,54 +1,66 @@
-.. _`ncbi-ngs-sdk`:
+.. title:: Package Recipe 'ncbi-ngs-sdk'
+.. highlight: bash
+
 
 ncbi-ngs-sdk
 ============
 
-|downloads|
+.. conda:recipe:: ncbi-ngs-sdk
+   :replaces_section_title:
 
-NGS is a new\, domain\-specific API for accessing reads\, alignments and pileups produced from Next Generation Sequencing.
+   NGS is a new\, domain\-specific API for accessing reads\, alignments and pileups produced from Next Generation Sequencing.
 
-============= ===========
-Home          https://github.com/ncbi/ngs
-Versions      2.9.3, 2.9.1, 2.9.0
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ncbi-ngs-sdk/meta.yaml
+   :homepage: https://github.com/ncbi/ngs
+   :license: Public Domain
+   :recipe: /`ncbi-ngs-sdk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-ngs-sdk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-ngs-sdk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ncbi-ngs-sdk
 
-Installation
-------------
+   |downloads_ncbi-ngs-sdk| |docker_ncbi-ngs-sdk|
 
-.. highlight: bash
+   :versions: 2.9.3, 2.9.1, 2.9.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libiconv` >=1.15,<1.16.0a0 :conda:package:`libxml2` >=2.9.8,<2.10.0a0 
 
-   conda install ncbi-ngs-sdk
+   :required~by: |required_by_ncbi-ngs-sdk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ncbi-ngs-sdk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ncbi-ngs-sdk
+
+   and update with::
+
+      conda update ncbi-ngs-sdk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ncbi-ngs-sdk
+
+
+.. |required_by_ncbi-ngs-sdk| conda:required_by:: ncbi-ngs-sdk
+.. |downloads_ncbi-ngs-sdk| image:: https://img.shields.io/conda/dn/bioconda/ncbi-ngs-sdk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ncbi-ngs-sdk| image:: https://quay.io/repository/biocontainers/ncbi-ngs-sdk/status
+   :target: https://quay.io/repository/biocontainers/ncbi-ngs-sdk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ncbi-ngs-sdk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ncbi-ngs-sdk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ncbi-ngs-sdk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ncbi-ngs-sdk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ncbi-ngs-sdk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ncbi-ngs-sdk
-.. |docker| image:: https://quay.io/repository/biocontainers/ncbi-ngs-sdk/status
-                :target: https://quay.io/repository/biocontainers/ncbi-ngs-sdk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ncbi-ngs-sdk/README.html
 

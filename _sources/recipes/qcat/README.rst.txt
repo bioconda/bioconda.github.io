@@ -1,54 +1,66 @@
-.. _`qcat`:
+.. title:: Package Recipe 'qcat'
+.. highlight: bash
+
 
 qcat
 ====
 
-|downloads|
+.. conda:recipe:: qcat
+   :replaces_section_title:
 
-Qcat is Python command\-line tool for demultiplexing Oxford Nanopore reads from FASTQ files.
+   Qcat is Python command\-line tool for demultiplexing Oxford Nanopore reads from FASTQ files.
 
-============= ===========
-Home          https://github.com/nanoporetech/qcat
-Versions      1.0.1, 1.0.0
-License       Mozilla Public License Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qcat/meta.yaml
+   :homepage: https://github.com/nanoporetech/qcat
+   :license: Mozilla Public License Version 2.0
+   :recipe: /`qcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qcat
 
-Installation
-------------
+   |downloads_qcat| |docker_qcat|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`mappy`  :conda:package:`pandas`  :conda:package:`parasail-python`  :conda:package:`pysam`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`six`  
 
-   conda install qcat
+   :required~by: |required_by_qcat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qcat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qcat
+
+   and update with::
+
+      conda update qcat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qcat
+
+
+.. |required_by_qcat| conda:required_by:: qcat
+.. |downloads_qcat| image:: https://img.shields.io/conda/dn/bioconda/qcat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qcat| image:: https://quay.io/repository/biocontainers/qcat/status
+   :target: https://quay.io/repository/biocontainers/qcat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qcat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qcat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qcat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qcat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qcat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qcat
-.. |docker| image:: https://quay.io/repository/biocontainers/qcat/status
-                :target: https://quay.io/repository/biocontainers/qcat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qcat/README.html
 

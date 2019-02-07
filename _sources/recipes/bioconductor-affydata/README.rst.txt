@@ -1,54 +1,66 @@
-.. _`bioconductor-affydata`:
+.. title:: Package Recipe 'bioconductor-affydata'
+.. highlight: bash
+
 
 bioconductor-affydata
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-affydata
+   :replaces_section_title:
 
-Example datasets of a slightly large size. They represent \'real world examples\'\, unlike the artificial examples included in the package affy.
+   Example datasets of a slightly large size. They represent \'real world examples\'\, unlike the artificial examples included in the package affy.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/affydata.html
-Versions      1.30.0, 1.28.0, 1.26.0, 1.24.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affydata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/affydata.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-affydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affydata
 
-Installation
-------------
+   |downloads_bioconductor-affydata| |docker_bioconductor-affydata|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-affydata
+   :required~by: |required_by_bioconductor-affydata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affydata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affydata
+
+   and update with::
+
+      conda update bioconductor-affydata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affydata
+
+
+.. |required_by_bioconductor-affydata| conda:required_by:: bioconductor-affydata
+.. |downloads_bioconductor-affydata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affydata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affydata| image:: https://quay.io/repository/biocontainers/bioconductor-affydata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affydata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affydata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affydata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affydata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affydata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affydata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affydata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affydata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affydata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affydata/README.html
 

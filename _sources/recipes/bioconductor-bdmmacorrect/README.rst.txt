@@ -1,54 +1,66 @@
-.. _`bioconductor-bdmmacorrect`:
+.. title:: Package Recipe 'bioconductor-bdmmacorrect'
+.. highlight: bash
+
 
 bioconductor-bdmmacorrect
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-bdmmacorrect
+   :replaces_section_title:
 
-Metagenomic sequencing techniques enable quantitative analyses of the microbiome. However\, combining the microbial data from these experiments is challenging due to the variations between experiments. The existing methods for correcting batch effects do not consider the interactions between variables—microbial taxa in microbial studies—and the overdispersion of the microbiome data. Therefore\, they are not applicable to microbiome data. We develop a new method\, Bayesian Dirichlet\-multinomial regression meta\-analysis \(BDMMA\)\, to simultaneously model the batch effects and detect the microbial taxa associated with phenotypes. BDMMA automatically models the dependence among microbial taxa and is robust to the high dimensionality of the microbiome and their association sparsity.
+   Metagenomic sequencing techniques enable quantitative analyses of the microbiome. However\, combining the microbial data from these experiments is challenging due to the variations between experiments. The existing methods for correcting batch effects do not consider the interactions between variables—microbial taxa in microbial studies—and the overdispersion of the microbiome data. Therefore\, they are not applicable to microbiome data. We develop a new method\, Bayesian Dirichlet\-multinomial regression meta\-analysis \(BDMMA\)\, to simultaneously model the batch effects and detect the microbial taxa associated with phenotypes. BDMMA automatically models the dependence among microbial taxa and is robust to the high dimensionality of the microbiome and their association sparsity.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BDMMAcorrect.html
-Versions      1.0.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bdmmacorrect/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BDMMAcorrect.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-bdmmacorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bdmmacorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bdmmacorrect/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bdmmacorrect
 
-Installation
-------------
+   |downloads_bioconductor-bdmmacorrect| |docker_bioconductor-bdmmacorrect|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  :conda:package:`r-vegan`  
 
-   conda install bioconductor-bdmmacorrect
+   :required~by: |required_by_bioconductor-bdmmacorrect|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bdmmacorrect
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bdmmacorrect
+
+   and update with::
+
+      conda update bioconductor-bdmmacorrect
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bdmmacorrect
+
+
+.. |required_by_bioconductor-bdmmacorrect| conda:required_by:: bioconductor-bdmmacorrect
+.. |downloads_bioconductor-bdmmacorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bdmmacorrect.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bdmmacorrect| image:: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bdmmacorrect/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bdmmacorrect/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bdmmacorrect/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bdmmacorrect/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bdmmacorrect
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bdmmacorrect/README.html
 

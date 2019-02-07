@@ -1,54 +1,66 @@
-.. _`r-qtl`:
+.. title:: Package Recipe 'r-qtl'
+.. highlight: bash
+
 
 r-qtl
 =====
 
-|downloads|
+.. conda:recipe:: r-qtl
+   :replaces_section_title:
 
-Analysis of experimental crosses to identify genes \(called quantitative trait loci\, QTLs\) contributing to variation in quantitative traits.
+   
 
-============= ===========
-Home          https://rqtl.org, https://github.com/kbroman/qtl
-Versions      1.41_6
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-qtl/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-qtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-qtl
 
-Installation
-------------
+   |downloads_r-qtl| |docker_r-qtl|
 
-.. highlight: bash
+   :versions: 1.41_6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
 
-   conda install r-qtl
+   :required~by: |required_by_r-qtl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-qtl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-qtl
+
+   and update with::
+
+      conda update r-qtl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-qtl
+
+
+.. |required_by_r-qtl| conda:required_by:: r-qtl
+.. |downloads_r-qtl| image:: https://img.shields.io/conda/dn/bioconda/r-qtl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-qtl| image:: https://quay.io/repository/biocontainers/r-qtl/status
+   :target: https://quay.io/repository/biocontainers/r-qtl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-qtl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-qtl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-qtl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-qtl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-qtl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-qtl
-.. |docker| image:: https://quay.io/repository/biocontainers/r-qtl/status
-                :target: https://quay.io/repository/biocontainers/r-qtl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-qtl/README.html
 

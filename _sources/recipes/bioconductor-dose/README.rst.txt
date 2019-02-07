@@ -1,56 +1,67 @@
-.. _`bioconductor-dose`:
+.. title:: Package Recipe 'bioconductor-dose'
+.. highlight: bash
+
 
 bioconductor-dose
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-dose
+   :replaces_section_title:
 
-This package implements five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively for measuring semantic similarities among DO terms and gene products. Enrichment analyses including hypergeometric model and gene set enrichment analysis are also implemented for discovering disease associations of high\-throughput biological data.
+   This package implements five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively for measuring semantic similarities among DO terms and gene products. Enrichment analyses including hypergeometric model and gene set enrichment analysis are also implemented for discovering disease associations of high\-throughput biological data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DOSE.html
-Versions      3.8.0, 3.6.1, 3.4.0, 3.2.0, 2.10.7, 2.10.6, 2.8.3, 2.8.2
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dose/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DOSE.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-dose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose/meta.yaml>`_
+   :links: biotools: :biotools:`dose`
 
-
-
-Links         biotools: :biotools:`dose`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dose
 
-Installation
-------------
+   |downloads_bioconductor-dose| |docker_bioconductor-dose|
 
-.. highlight: bash
+   :versions: 3.8.0, 3.6.1, 3.4.0, 3.2.0, 2.10.7, 2.10.6, 2.8.3, 2.8.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-do.db` 2.9.* :conda:package:`bioconductor-fgsea` >=1.8.0,<1.9.0 :conda:package:`bioconductor-gosemsim` >=2.8.0,<2.9.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-dose
+   :required~by: |required_by_bioconductor-dose|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dose
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dose
+
+   and update with::
+
+      conda update bioconductor-dose
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dose
+
+
+.. |required_by_bioconductor-dose| conda:required_by:: bioconductor-dose
+.. |downloads_bioconductor-dose| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dose.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dose| image:: https://quay.io/repository/biocontainers/bioconductor-dose/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dose
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dose.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dose/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dose/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dose/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dose/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dose
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dose/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dose
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dose/README.html
 

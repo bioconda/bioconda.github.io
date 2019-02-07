@@ -1,55 +1,66 @@
-.. _`biodiff`:
+.. title:: Package Recipe 'biodiff'
+.. highlight: bash
+
 
 biodiff
 =======
 
-|downloads|
+.. conda:recipe:: biodiff
+   :replaces_section_title:
 
-exact comparison of biological sequences
+   exact comparison of biological sequences
 
-============= ===========
-Home          https://gitlab.com/LPCDRP/biodiff
-Versions      0.2.2
-License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biodiff/meta.yaml
+   :homepage: https://gitlab.com/LPCDRP/biodiff
+   :license: GPLv3+
+   :recipe: /`biodiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biodiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biodiff/meta.yaml>`_
 
-
-
-============= ===========
-
-biodiff is a variant caller that determines the exact differences between two biological sequences. It can operate on DNA and protein sequences\, as long as they are in fasta format. The sequences to be compared must have the same fasta header \(up to the first whitespace\). If the reference and query each have only one sequence\, however\, the header need not match and the comparison will be done\, but a warning will be emitted. Output is in the Variant Call Format.
+   biodiff is a variant caller that determines the exact differences between two biological sequences. It can operate on DNA and protein sequences\, as long as they are in fasta format. The sequences to be compared must have the same fasta header \(up to the first whitespace\). If the reference and query each have only one sequence\, however\, the header need not match and the comparison will be done\, but a warning will be emitted. Output is in the Variant Call Format.
 
 
-Installation
-------------
+.. conda:package:: biodiff
 
-.. highlight: bash
+   |downloads_biodiff| |docker_biodiff|
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :versions: 0.2.2
 
-   conda install biodiff
+   :depends: :conda:package:`perl` 5.22.0* 
 
-and update with::
+   :required~by: |required_by_biodiff|
 
-   conda update biodiff
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biodiff
+
+   and update with::
+
+      conda update biodiff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/biodiff
+
+
+.. |required_by_biodiff| conda:required_by:: biodiff
+.. |downloads_biodiff| image:: https://img.shields.io/conda/dn/bioconda/biodiff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biodiff| image:: https://quay.io/repository/biocontainers/biodiff/status
+   :target: https://quay.io/repository/biocontainers/biodiff
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/biodiff.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biodiff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biodiff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/biodiff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/biodiff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/biodiff
-.. |docker| image:: https://quay.io/repository/biocontainers/biodiff/status
-                :target: https://quay.io/repository/biocontainers/biodiff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biodiff/README.html
 

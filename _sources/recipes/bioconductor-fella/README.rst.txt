@@ -1,54 +1,66 @@
-.. _`bioconductor-fella`:
+.. title:: Package Recipe 'bioconductor-fella'
+.. highlight: bash
+
 
 bioconductor-fella
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-fella
+   :replaces_section_title:
 
-Enrichment of metabolomics data using KEGG entries. Given a set of affected compounds\, FELLA suggests affected reactions\, enzymes\, modules and pathways using label propagation in a knowledge model network. The resulting subnetwork can be visualised and exported.
+   Enrichment of metabolomics data using KEGG entries. Given a set of affected compounds\, FELLA suggests affected reactions\, enzymes\, modules and pathways using label propagation in a knowledge model network. The resulting subnetwork can be visualised and exported.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FELLA.html
-Versions      1.2.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fella/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FELLA.html
+   :license: GPL-3
+   :recipe: /`bioconductor-fella <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fella>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fella/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fella
 
-Installation
-------------
+   |downloads_bioconductor-fella| |docker_bioconductor-fella|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  
 
-   conda install bioconductor-fella
+   :required~by: |required_by_bioconductor-fella|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fella
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fella
+
+   and update with::
+
+      conda update bioconductor-fella
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fella
+
+
+.. |required_by_bioconductor-fella| conda:required_by:: bioconductor-fella
+.. |downloads_bioconductor-fella| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fella.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fella| image:: https://quay.io/repository/biocontainers/bioconductor-fella/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fella
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fella.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fella/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fella/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fella/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fella/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fella
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fella/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fella
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fella/README.html
 

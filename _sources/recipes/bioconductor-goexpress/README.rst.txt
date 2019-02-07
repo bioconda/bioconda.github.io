@@ -1,54 +1,66 @@
-.. _`bioconductor-goexpress`:
+.. title:: Package Recipe 'bioconductor-goexpress'
+.. highlight: bash
+
 
 bioconductor-goexpress
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-goexpress
+   :replaces_section_title:
 
-The package contains methods to visualise the expression profile of genes from a microarray or RNA\-seq experiment\, and offers a supervised clustering approach to identify GO terms containing genes with expression levels that best classify two or more predefined groups of samples. Annotations for the genes present in the expression dataset may be obtained from Ensembl through the biomaRt package\, if not provided by the user. The default random forest framework is used to evaluate the capacity of each gene to cluster samples according to the factor of interest. Finally\, GO terms are scored by averaging the rank \(alternatively\, score\) of their respective gene sets to cluster the samples. P\-values may be computed to assess the significance of GO term ranking. Visualisation function include gene expression profile\, gene ontology\-based heatmaps\, and hierarchical clustering of experimental samples using gene expression data.
+   The package contains methods to visualise the expression profile of genes from a microarray or RNA\-seq experiment\, and offers a supervised clustering approach to identify GO terms containing genes with expression levels that best classify two or more predefined groups of samples. Annotations for the genes present in the expression dataset may be obtained from Ensembl through the biomaRt package\, if not provided by the user. The default random forest framework is used to evaluate the capacity of each gene to cluster samples according to the factor of interest. Finally\, GO terms are scored by averaging the rank \(alternatively\, score\) of their respective gene sets to cluster the samples. P\-values may be computed to assess the significance of GO term ranking. Visualisation function include gene expression profile\, gene ontology\-based heatmaps\, and hierarchical clustering of experimental samples using gene expression data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GOexpress.html
-Versions      1.16.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-goexpress/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GOexpress.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-goexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goexpress/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-goexpress
 
-Installation
-------------
+   |downloads_bioconductor-goexpress| |docker_bioconductor-goexpress|
 
-.. highlight: bash
+   :versions: 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=0.9.0 :conda:package:`r-gplots` >=2.13.0 :conda:package:`r-randomforest` >=4.6 :conda:package:`r-rcolorbrewer` >=1.0 :conda:package:`r-rcurl` >=1.95 :conda:package:`r-stringr` >=0.6.2 
 
-   conda install bioconductor-goexpress
+   :required~by: |required_by_bioconductor-goexpress|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-goexpress
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-goexpress
+
+   and update with::
+
+      conda update bioconductor-goexpress
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-goexpress
+
+
+.. |required_by_bioconductor-goexpress| conda:required_by:: bioconductor-goexpress
+.. |downloads_bioconductor-goexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goexpress.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-goexpress| image:: https://quay.io/repository/biocontainers/bioconductor-goexpress/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-goexpress
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-goexpress.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-goexpress/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-goexpress/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-goexpress/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-goexpress/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-goexpress
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-goexpress/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-goexpress
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-goexpress/README.html
 

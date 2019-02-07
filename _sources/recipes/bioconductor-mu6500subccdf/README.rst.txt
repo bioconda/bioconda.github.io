@@ -1,54 +1,66 @@
-.. _`bioconductor-mu6500subccdf`:
+.. title:: Package Recipe 'bioconductor-mu6500subccdf'
+.. highlight: bash
+
 
 bioconductor-mu6500subccdf
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mu6500subccdf
+   :replaces_section_title:
 
-A package containing an environment representing the Mu6500subC.CDF file.
+   A package containing an environment representing the Mu6500subC.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu6500subccdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu6500subccdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mu6500subccdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-mu6500subccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subccdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mu6500subccdf
 
-Installation
-------------
+   |downloads_bioconductor-mu6500subccdf| |docker_bioconductor-mu6500subccdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mu6500subccdf
+   :required~by: |required_by_bioconductor-mu6500subccdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mu6500subccdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mu6500subccdf
+
+   and update with::
+
+      conda update bioconductor-mu6500subccdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mu6500subccdf
+
+
+.. |required_by_bioconductor-mu6500subccdf| conda:required_by:: bioconductor-mu6500subccdf
+.. |downloads_bioconductor-mu6500subccdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu6500subccdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mu6500subccdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu6500subccdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mu6500subccdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mu6500subccdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mu6500subccdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mu6500subccdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mu6500subccdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mu6500subccdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mu6500subccdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mu6500subccdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mu6500subccdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mu6500subccdf/README.html
 

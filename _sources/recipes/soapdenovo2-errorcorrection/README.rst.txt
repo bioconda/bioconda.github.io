@@ -1,54 +1,66 @@
-.. _`soapdenovo2-errorcorrection`:
+.. title:: Package Recipe 'soapdenovo2-errorcorrection'
+.. highlight: bash
+
 
 soapdenovo2-errorcorrection
 ===========================
 
-|downloads|
+.. conda:recipe:: soapdenovo2-errorcorrection
+   :replaces_section_title:
 
-Error correction for soapdenovo2.
+   Error correction for soapdenovo2.
 
-============= ===========
-Home          http://soap.genomics.org.cn/soapdenovo.html
-Versions      2.0
-License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapdenovo2-errorcorrection/meta.yaml
+   :homepage: http://soap.genomics.org.cn/soapdenovo.html
+   :license: GNU
+   :recipe: /`soapdenovo2-errorcorrection <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-errorcorrection>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-errorcorrection/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: soapdenovo2-errorcorrection
 
-Installation
-------------
+   |downloads_soapdenovo2-errorcorrection| |docker_soapdenovo2-errorcorrection|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install soapdenovo2-errorcorrection
+   :required~by: |required_by_soapdenovo2-errorcorrection|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update soapdenovo2-errorcorrection
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install soapdenovo2-errorcorrection
+
+   and update with::
+
+      conda update soapdenovo2-errorcorrection
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/soapdenovo2-errorcorrection
+
+
+.. |required_by_soapdenovo2-errorcorrection| conda:required_by:: soapdenovo2-errorcorrection
+.. |downloads_soapdenovo2-errorcorrection| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo2-errorcorrection.svg?style=flat
+   :alt:   (downloads)
+.. |docker_soapdenovo2-errorcorrection| image:: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection/status
+   :target: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/soapdenovo2-errorcorrection/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/soapdenovo2-errorcorrection/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/soapdenovo2-errorcorrection/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/soapdenovo2-errorcorrection/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/soapdenovo2-errorcorrection
-.. |docker| image:: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection/status
-                :target: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/soapdenovo2-errorcorrection/README.html
 

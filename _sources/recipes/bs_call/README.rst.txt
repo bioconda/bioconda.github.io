@@ -1,56 +1,67 @@
-.. _`bs_call`:
+.. title:: Package Recipe 'bs_call'
+.. highlight: bash
+
 
 bs_call
 =======
 
-|downloads|
+.. conda:recipe:: bs_call
+   :replaces_section_title:
 
-DNA methylation and variant Caller for Bisulfite Sequencing Data.
+   DNA methylation and variant Caller for Bisulfite Sequencing Data.
 
-============= ===========
-Home          https://github.com/heathsc/bs_call
-Versions      2.02
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bs_call/meta.yaml
+   :homepage: https://github.com/heathsc/bs_call
+   :license: GPL-3.0
+   :recipe: /`bs_call <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bs_call>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bs_call/meta.yaml>`_
+   :links: doi: :doi:`10.1101/201988`
 
-
-
-Links         doi: :doi:`10.1101/201988`
-
-============= ===========
+   
 
 
+.. conda:package:: bs_call
 
-Installation
-------------
+   |downloads_bs_call| |docker_bs_call|
 
-.. highlight: bash
+   :versions: 2.02
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bs_call
+   :required~by: |required_by_bs_call|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bs_call
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bs_call
+
+   and update with::
+
+      conda update bs_call
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bs_call
+
+
+.. |required_by_bs_call| conda:required_by:: bs_call
+.. |downloads_bs_call| image:: https://img.shields.io/conda/dn/bioconda/bs_call.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bs_call| image:: https://quay.io/repository/biocontainers/bs_call/status
+   :target: https://quay.io/repository/biocontainers/bs_call
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bs_call.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bs_call/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bs_call/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bs_call/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bs_call/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bs_call
-.. |docker| image:: https://quay.io/repository/biocontainers/bs_call/status
-                :target: https://quay.io/repository/biocontainers/bs_call
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bs_call/README.html
 

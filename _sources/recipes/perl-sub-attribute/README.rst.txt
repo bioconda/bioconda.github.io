@@ -1,54 +1,66 @@
-.. _`perl-sub-attribute`:
+.. title:: Package Recipe 'perl-sub-attribute'
+.. highlight: bash
+
 
 perl-sub-attribute
 ==================
 
-|downloads|
+.. conda:recipe:: perl-sub-attribute/0.05
+   :replaces_section_title:
 
-Reliable subroutine attribute handlers
+   Reliable subroutine attribute handlers
 
-============= ===========
-Home          http://metacpan.org/pod/Sub::Attribute
-Versions      0.05
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-attribute/0.05/meta.yaml
+   :homepage: http://metacpan.org/pod/Sub::Attribute
+   :license: perl_5
+   :recipe: /`perl-sub-attribute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute>`_/`0.05 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sub-attribute
 
-Installation
-------------
+   |downloads_perl-sub-attribute| |docker_perl-sub-attribute|
 
-.. highlight: bash
+   :versions: 0.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-xsloader`  
 
-   conda install perl-sub-attribute
+   :required~by: |required_by_perl-sub-attribute|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sub-attribute
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sub-attribute
+
+   and update with::
+
+      conda update perl-sub-attribute
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sub-attribute
+
+
+.. |required_by_perl-sub-attribute| conda:required_by:: perl-sub-attribute
+.. |downloads_perl-sub-attribute| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-attribute.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sub-attribute| image:: https://quay.io/repository/biocontainers/perl-sub-attribute/status
+   :target: https://quay.io/repository/biocontainers/perl-sub-attribute
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sub-attribute.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sub-attribute/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sub-attribute/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sub-attribute/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sub-attribute/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sub-attribute
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-attribute/status
-                :target: https://quay.io/repository/biocontainers/perl-sub-attribute
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sub-attribute/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-biobroom`:
+.. title:: Package Recipe 'bioconductor-biobroom'
+.. highlight: bash
+
 
 bioconductor-biobroom
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-biobroom
+   :replaces_section_title:
 
-This package contains methods for converting standard objects constructed by bioinformatics packages\, especially those in Bioconductor\, and converting them to tidy data. It thus serves as a complement to the broom package\, and follows the same the tidy\, augment\, glance division of tidying methods. Tidying data makes it easy to recombine\, reshape and visualize bioinformatics analyses.
+   This package contains methods for converting standard objects constructed by bioinformatics packages\, especially those in Bioconductor\, and converting them to tidy data. It thus serves as a complement to the broom package\, and follows the same the tidy\, augment\, glance division of tidying methods. Tidying data makes it easy to recombine\, reshape and visualize bioinformatics analyses.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/biobroom.html
-Versions      1.14.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biobroom/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/biobroom.html
+   :license: LGPL
+   :recipe: /`bioconductor-biobroom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biobroom
 
-Installation
-------------
+   |downloads_bioconductor-biobroom| |docker_bioconductor-biobroom|
 
-.. highlight: bash
+   :versions: 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-broom`  :conda:package:`r-dplyr`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-biobroom
+   :required~by: |required_by_bioconductor-biobroom|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biobroom
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biobroom
+
+   and update with::
+
+      conda update bioconductor-biobroom
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biobroom
+
+
+.. |required_by_bioconductor-biobroom| conda:required_by:: bioconductor-biobroom
+.. |downloads_bioconductor-biobroom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biobroom.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biobroom| image:: https://quay.io/repository/biocontainers/bioconductor-biobroom/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biobroom
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biobroom.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biobroom/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biobroom/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biobroom/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biobroom/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biobroom
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biobroom/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biobroom
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biobroom/README.html
 

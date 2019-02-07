@@ -1,54 +1,66 @@
-.. _`bioconductor-test3probe`:
+.. title:: Package Recipe 'bioconductor-test3probe'
+.. highlight: bash
+
 
 bioconductor-test3probe
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-test3probe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Test3\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Test3\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/test3probe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-test3probe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/test3probe.html
+   :license: LGPL
+   :recipe: /`bioconductor-test3probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3probe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-test3probe
 
-Installation
-------------
+   |downloads_bioconductor-test3probe| |docker_bioconductor-test3probe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-test3probe
+   :required~by: |required_by_bioconductor-test3probe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-test3probe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-test3probe
+
+   and update with::
+
+      conda update bioconductor-test3probe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-test3probe
+
+
+.. |required_by_bioconductor-test3probe| conda:required_by:: bioconductor-test3probe
+.. |downloads_bioconductor-test3probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-test3probe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-test3probe| image:: https://quay.io/repository/biocontainers/bioconductor-test3probe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-test3probe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-test3probe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-test3probe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-test3probe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-test3probe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-test3probe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-test3probe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-test3probe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-test3probe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-test3probe/README.html
 

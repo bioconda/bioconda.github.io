@@ -1,54 +1,66 @@
-.. _`bioconductor-bumhmm`:
+.. title:: Package Recipe 'bioconductor-bumhmm'
+.. highlight: bash
+
 
 bioconductor-bumhmm
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-bumhmm
+   :replaces_section_title:
 
-This is a probabilistic modelling pipeline for computing per\- nucleotide posterior probabilities of modification from the data collected in structure probing experiments. The model supports multiple experimental replicates and empirically corrects coverage\- and sequence\-dependent biases. The model utilises the measure of a \"drop\-off rate\" for each nucleotide\, which is compared between replicates through a log\-ratio \(LDR\). The LDRs between control replicates define a null distribution of variability in drop\-off rate observed by chance and LDRs between treatment and control replicates gets compared to this distribution. Resulting empirical p\-values \(probability of being \"drawn\" from the null distribution\) are used as observations in a Hidden Markov Model with a Beta\-Uniform Mixture model used as an emission model. The resulting posterior probabilities indicate the probability of a nucleotide of having being modified in a structure probing experiment.
+   This is a probabilistic modelling pipeline for computing per\- nucleotide posterior probabilities of modification from the data collected in structure probing experiments. The model supports multiple experimental replicates and empirically corrects coverage\- and sequence\-dependent biases. The model utilises the measure of a \"drop\-off rate\" for each nucleotide\, which is compared between replicates through a log\-ratio \(LDR\). The LDRs between control replicates define a null distribution of variability in drop\-off rate observed by chance and LDRs between treatment and control replicates gets compared to this distribution. Resulting empirical p\-values \(probability of being \"drawn\" from the null distribution\) are used as observations in a Hidden Markov Model with a Beta\-Uniform Mixture model used as an emission model. The resulting posterior probabilities indicate the probability of a nucleotide of having being modified in a structure probing experiment.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BUMHMM.html
-Versions      1.6.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bumhmm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BUMHMM.html
+   :license: GPL-3
+   :recipe: /`bioconductor-bumhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumhmm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bumhmm
 
-Installation
-------------
+   |downloads_bioconductor-bumhmm| |docker_bioconductor-bumhmm|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-devtools`  :conda:package:`r-gtools`  :conda:package:`r-stringi`  
 
-   conda install bioconductor-bumhmm
+   :required~by: |required_by_bioconductor-bumhmm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bumhmm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bumhmm
+
+   and update with::
+
+      conda update bioconductor-bumhmm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bumhmm
+
+
+.. |required_by_bioconductor-bumhmm| conda:required_by:: bioconductor-bumhmm
+.. |downloads_bioconductor-bumhmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bumhmm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bumhmm| image:: https://quay.io/repository/biocontainers/bioconductor-bumhmm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bumhmm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bumhmm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bumhmm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bumhmm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bumhmm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bumhmm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bumhmm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bumhmm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bumhmm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bumhmm/README.html
 

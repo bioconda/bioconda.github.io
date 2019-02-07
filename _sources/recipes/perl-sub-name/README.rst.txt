@@ -1,54 +1,66 @@
-.. _`perl-sub-name`:
+.. title:: Package Recipe 'perl-sub-name'
+.. highlight: bash
+
 
 perl-sub-name
 =============
 
-|downloads|
+.. conda:recipe:: perl-sub-name/0.21
+   :replaces_section_title:
 
-\(Re\)name a sub
+   \(Re\)name a sub
 
-============= ===========
-Home          https://github.com/p5sagit/Sub-Name
-Versions      0.21
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-name/0.21/meta.yaml
+   :homepage: https://github.com/p5sagit/Sub-Name
+   :license: perl_5
+   :recipe: /`perl-sub-name <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name>`_/`0.21 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name/0.21>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name/0.21/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sub-name
 
-Installation
-------------
+   |downloads_perl-sub-name| |docker_perl-sub-name|
 
-.. highlight: bash
+   :versions: 0.21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-sub-name
+   :required~by: |required_by_perl-sub-name|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sub-name
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sub-name
+
+   and update with::
+
+      conda update perl-sub-name
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sub-name
+
+
+.. |required_by_perl-sub-name| conda:required_by:: perl-sub-name
+.. |downloads_perl-sub-name| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-name.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sub-name| image:: https://quay.io/repository/biocontainers/perl-sub-name/status
+   :target: https://quay.io/repository/biocontainers/perl-sub-name
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sub-name.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sub-name/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sub-name/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sub-name/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sub-name/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sub-name
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-name/status
-                :target: https://quay.io/repository/biocontainers/perl-sub-name
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sub-name/README.html
 

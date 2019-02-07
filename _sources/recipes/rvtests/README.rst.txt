@@ -1,56 +1,67 @@
-.. _`rvtests`:
+.. title:: Package Recipe 'rvtests'
+.. highlight: bash
+
 
 rvtests
 =======
 
-|downloads|
+.. conda:recipe:: rvtests
+   :replaces_section_title:
 
-Rare variant test software for next generation sequencing data
+   Rare variant test software for next generation sequencing data
 
-============= ===========
-Home          https://github.com/zhanxw/rvtests
-Versions      2.0.7, 2.0.6
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rvtests/meta.yaml
+   :homepage: https://github.com/zhanxw/rvtests
+   :license: GPL
+   :recipe: /`rvtests <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rvtests>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rvtests/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw079`, biotools: :biotools:`rvtests`
 
-
-
-Links         doi: :doi:`10.1093/bioinformatics/btw079`, biotools: :biotools:`rvtests`
-
-============= ===========
+   
 
 
+.. conda:package:: rvtests
 
-Installation
-------------
+   |downloads_rvtests| |docker_rvtests|
 
-.. highlight: bash
+   :versions: 2.0.7, 2.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install rvtests
+   :required~by: |required_by_rvtests|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rvtests
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rvtests
+
+   and update with::
+
+      conda update rvtests
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rvtests
+
+
+.. |required_by_rvtests| conda:required_by:: rvtests
+.. |downloads_rvtests| image:: https://img.shields.io/conda/dn/bioconda/rvtests.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rvtests| image:: https://quay.io/repository/biocontainers/rvtests/status
+   :target: https://quay.io/repository/biocontainers/rvtests
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rvtests.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rvtests/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rvtests/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rvtests/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rvtests/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rvtests
-.. |docker| image:: https://quay.io/repository/biocontainers/rvtests/status
-                :target: https://quay.io/repository/biocontainers/rvtests
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rvtests/README.html
 

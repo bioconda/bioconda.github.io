@@ -1,54 +1,66 @@
-.. _`bioconductor-mircomp`:
+.. title:: Package Recipe 'bioconductor-mircomp'
+.. highlight: bash
+
 
 bioconductor-mircomp
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-mircomp
+   :replaces_section_title:
 
-Based on a large miRNA dilution study\, this package provides tools to read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.
+   Based on a large miRNA dilution study\, this package provides tools to read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/miRcomp.html
-Versions      1.12.0
-License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mircomp/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/miRcomp.html
+   :license: GPL-3 | file LICENSE
+   :recipe: /`bioconductor-mircomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mircomp
 
-Installation
-------------
+   |downloads_bioconductor-mircomp| |docker_bioconductor-mircomp|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-mircompdata` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  
 
-   conda install bioconductor-mircomp
+   :required~by: |required_by_bioconductor-mircomp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mircomp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mircomp
+
+   and update with::
+
+      conda update bioconductor-mircomp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mircomp
+
+
+.. |required_by_bioconductor-mircomp| conda:required_by:: bioconductor-mircomp
+.. |downloads_bioconductor-mircomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mircomp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mircomp| image:: https://quay.io/repository/biocontainers/bioconductor-mircomp/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mircomp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mircomp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mircomp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mircomp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mircomp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mircomp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mircomp
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mircomp/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mircomp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mircomp/README.html
 

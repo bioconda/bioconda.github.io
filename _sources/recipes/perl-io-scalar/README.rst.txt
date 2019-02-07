@@ -1,54 +1,66 @@
-.. _`perl-io-scalar`:
+.. title:: Package Recipe 'perl-io-scalar'
+.. highlight: bash
+
 
 perl-io-scalar
 ==============
 
-|downloads|
+.. conda:recipe:: perl-io-scalar/2.111
+   :replaces_section_title:
 
-IO\:\: interface for reading\/writing a scalar
+   IO\:\: interface for reading\/writing a scalar
 
-============= ===========
-Home          http://metacpan.org/pod/IO::Scalar
-Versions      2.111
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-scalar/2.111/meta.yaml
+   :homepage: http://metacpan.org/pod/IO::Scalar
+   :license: perl_5
+   :recipe: /`perl-io-scalar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar>`_/`2.111 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar/2.111>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar/2.111/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-scalar
 
-Installation
-------------
+   |downloads_perl-io-scalar| |docker_perl-io-scalar|
 
-.. highlight: bash
+   :versions: 2.111
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-io-scalar
+   :required~by: |required_by_perl-io-scalar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-scalar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-scalar
+
+   and update with::
+
+      conda update perl-io-scalar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-scalar
+
+
+.. |required_by_perl-io-scalar| conda:required_by:: perl-io-scalar
+.. |downloads_perl-io-scalar| image:: https://img.shields.io/conda/dn/bioconda/perl-io-scalar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-scalar| image:: https://quay.io/repository/biocontainers/perl-io-scalar/status
+   :target: https://quay.io/repository/biocontainers/perl-io-scalar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-scalar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-scalar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-scalar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-scalar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-scalar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-scalar
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-scalar/status
-                :target: https://quay.io/repository/biocontainers/perl-io-scalar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-scalar/README.html
 

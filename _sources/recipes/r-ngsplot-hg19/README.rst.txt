@@ -1,54 +1,66 @@
-.. _`r-ngsplotdb-hg19`:
+.. title:: Package Recipe 'r-ngsplotdb-hg19'
+.. highlight: bash
+
 
 r-ngsplotdb-hg19
 ================
 
-|downloads|
+.. conda:recipe:: r-ngsplot-hg19
+   :replaces_section_title:
 
-HG19 genome database for NGSplot
+   HG19 genome database for NGSplot
 
-============= ===========
-Home          https://github.com/shenlab-sinai/ngsplot
-Versions      3.00
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ngsplot-hg19/meta.yaml
+   :homepage: https://github.com/shenlab-sinai/ngsplot
+   :license: GPL-2.0
+   :recipe: /`r-ngsplot-hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ngsplot-hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ngsplot-hg19/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-ngsplotdb-hg19
 
-Installation
-------------
+   |downloads_r-ngsplotdb-hg19| |docker_r-ngsplotdb-hg19|
 
-.. highlight: bash
+   :versions: 3.00
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base`  :conda:package:`r-ngsplot`  :conda:package:`wget`  
 
-   conda install r-ngsplotdb-hg19
+   :required~by: |required_by_r-ngsplotdb-hg19|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-ngsplotdb-hg19
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-ngsplotdb-hg19
+
+   and update with::
+
+      conda update r-ngsplotdb-hg19
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-ngsplotdb-hg19
+
+
+.. |required_by_r-ngsplotdb-hg19| conda:required_by:: r-ngsplotdb-hg19
+.. |downloads_r-ngsplotdb-hg19| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-hg19.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-ngsplotdb-hg19| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19/status
+   :target: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-ngsplotdb-hg19.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ngsplotdb-hg19/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ngsplotdb-hg19/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-ngsplotdb-hg19/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-ngsplotdb-hg19/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-ngsplotdb-hg19
-.. |docker| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19/status
-                :target: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-ngsplotdb-hg19/README.html
 

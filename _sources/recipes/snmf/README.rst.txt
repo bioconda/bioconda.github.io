@@ -1,54 +1,66 @@
-.. _`snmf`:
+.. title:: Package Recipe 'snmf'
+.. highlight: bash
+
 
 snmf
 ====
 
-|downloads|
+.. conda:recipe:: snmf
+   :replaces_section_title:
 
-Fast and efficient program for estimating individual admixture coefficients based on sparse non\-negative matrix factorization and population genetics
+   Fast and efficient program for estimating individual admixture coefficients based on sparse non\-negative matrix factorization and population genetics
 
-============= ===========
-Home          http://membres-timc.imag.fr/Olivier.Francois/snmf/index.htm
-Versions      1.2
-License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snmf/meta.yaml
+   :homepage: http://membres-timc.imag.fr/Olivier.Francois/snmf/index.htm
+   :license: GNU GPL v3
+   :recipe: /`snmf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snmf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snmf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: snmf
 
-Installation
-------------
+   |downloads_snmf| |docker_snmf|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install snmf
+   :required~by: |required_by_snmf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snmf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snmf
+
+   and update with::
+
+      conda update snmf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snmf
+
+
+.. |required_by_snmf| conda:required_by:: snmf
+.. |downloads_snmf| image:: https://img.shields.io/conda/dn/bioconda/snmf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snmf| image:: https://quay.io/repository/biocontainers/snmf/status
+   :target: https://quay.io/repository/biocontainers/snmf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snmf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snmf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snmf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snmf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snmf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snmf
-.. |docker| image:: https://quay.io/repository/biocontainers/snmf/status
-                :target: https://quay.io/repository/biocontainers/snmf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snmf/README.html
 

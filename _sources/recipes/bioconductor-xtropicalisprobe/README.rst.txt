@@ -1,54 +1,66 @@
-.. _`bioconductor-xtropicalisprobe`:
+.. title:: Package Recipe 'bioconductor-xtropicalisprobe'
+.. highlight: bash
+
 
 bioconductor-xtropicalisprobe
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-xtropicalisprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was X\\\_tropicalis\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was X\\\_tropicalis\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/xtropicalisprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xtropicalisprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/xtropicalisprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-xtropicalisprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicalisprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicalisprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-xtropicalisprobe
 
-Installation
-------------
+   |downloads_bioconductor-xtropicalisprobe| |docker_bioconductor-xtropicalisprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-xtropicalisprobe
+   :required~by: |required_by_bioconductor-xtropicalisprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-xtropicalisprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-xtropicalisprobe
+
+   and update with::
+
+      conda update bioconductor-xtropicalisprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-xtropicalisprobe
+
+
+.. |required_by_bioconductor-xtropicalisprobe| conda:required_by:: bioconductor-xtropicalisprobe
+.. |downloads_bioconductor-xtropicalisprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xtropicalisprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-xtropicalisprobe| image:: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-xtropicalisprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-xtropicalisprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-xtropicalisprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-xtropicalisprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-xtropicalisprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-xtropicalisprobe/README.html
 

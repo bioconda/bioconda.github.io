@@ -1,54 +1,66 @@
-.. _`axiome`:
+.. title:: Package Recipe 'axiome'
+.. highlight: bash
+
 
 axiome
 ======
 
-|downloads|
+.. conda:recipe:: axiome
+   :replaces_section_title:
 
-AXIOME2\: Automation Extension and Integration of Microbial Ecology
+   AXIOME2\: Automation Extension and Integration of Microbial Ecology
 
-============= ===========
-Home          https://github.com/neufeld/AXIOME2
-Versions      2.0.4
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//axiome/meta.yaml
+   :homepage: https://github.com/neufeld/AXIOME2
+   :license: MIT / MIT License
+   :recipe: /`axiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/axiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/axiome/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: axiome
 
-Installation
-------------
+   |downloads_axiome| |docker_axiome|
 
-.. highlight: bash
+   :versions: 2.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`npyscreen`  :conda:package:`python` 2.7* 
 
-   conda install axiome
+   :required~by: |required_by_axiome|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update axiome
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install axiome
+
+   and update with::
+
+      conda update axiome
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/axiome
+
+
+.. |required_by_axiome| conda:required_by:: axiome
+.. |downloads_axiome| image:: https://img.shields.io/conda/dn/bioconda/axiome.svg?style=flat
+   :alt:   (downloads)
+.. |docker_axiome| image:: https://quay.io/repository/biocontainers/axiome/status
+   :target: https://quay.io/repository/biocontainers/axiome
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/axiome.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/axiome/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/axiome/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/axiome/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/axiome/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/axiome
-.. |docker| image:: https://quay.io/repository/biocontainers/axiome/status
-                :target: https://quay.io/repository/biocontainers/axiome
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/axiome/README.html
 

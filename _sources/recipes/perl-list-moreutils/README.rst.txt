@@ -1,54 +1,66 @@
-.. _`perl-list-moreutils`:
+.. title:: Package Recipe 'perl-list-moreutils'
+.. highlight: bash
+
 
 perl-list-moreutils
 ===================
 
-|downloads|
+.. conda:recipe:: perl-list-moreutils
+   :replaces_section_title:
 
-Provide the stuff missing in List\:\:Util
+   Provide the stuff missing in List\:\:Util
 
-============= ===========
-Home          https://metacpan.org/release/List-MoreUtils
-Versions      0.428, 0.413, 0.15
-License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-list-moreutils/meta.yaml
+   :homepage: https://metacpan.org/release/List-MoreUtils
+   :license: apache_2_0
+   :recipe: /`perl-list-moreutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-list-moreutils
 
-Installation
-------------
+   |downloads_perl-list-moreutils| |docker_perl-list-moreutils|
 
-.. highlight: bash
+   :versions: 0.428, 0.413, 0.15
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-exporter-tiny`  
 
-   conda install perl-list-moreutils
+   :required~by: |required_by_perl-list-moreutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-list-moreutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-list-moreutils
+
+   and update with::
+
+      conda update perl-list-moreutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-list-moreutils
+
+
+.. |required_by_perl-list-moreutils| conda:required_by:: perl-list-moreutils
+.. |downloads_perl-list-moreutils| image:: https://img.shields.io/conda/dn/bioconda/perl-list-moreutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-list-moreutils| image:: https://quay.io/repository/biocontainers/perl-list-moreutils/status
+   :target: https://quay.io/repository/biocontainers/perl-list-moreutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-list-moreutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-list-moreutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-list-moreutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-list-moreutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-list-moreutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-list-moreutils
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-list-moreutils/status
-                :target: https://quay.io/repository/biocontainers/perl-list-moreutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-list-moreutils/README.html
 

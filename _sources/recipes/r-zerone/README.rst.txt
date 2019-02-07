@@ -1,56 +1,66 @@
-.. _`r-zerone`:
+.. title:: Package Recipe 'r-zerone'
+.. highlight: bash
+
 
 r-zerone
 ========
 
-|downloads|
+.. conda:recipe:: r-zerone
+   :replaces_section_title:
 
-Zerone discretizes several ChIP\-seq replicates simultaneously and resolves conflicts between them.
+   Zerone discretizes several ChIP\-seq replicates simultaneously and resolves conflicts between them.
 
-============= ===========
-Home          https://github.com/nanakiksc/zerone
-Versions      1.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-zerone/meta.yaml
+   :homepage: https://github.com/nanakiksc/zerone
+   :license: GPL / GPL-3
+   :recipe: /`r-zerone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-zerone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-zerone/meta.yaml>`_
 
-
-Development   https://github.com/nanakiksc/zerone
+   
 
 
-============= ===========
+.. conda:package:: r-zerone
+
+   |downloads_r-zerone| |docker_r-zerone|
+
+   :versions: 1.0
+
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
+
+   :required~by: |required_by_r-zerone|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-zerone
+
+   and update with::
+
+      conda update r-zerone
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-zerone
+
+
+.. |required_by_r-zerone| conda:required_by:: r-zerone
+.. |downloads_r-zerone| image:: https://img.shields.io/conda/dn/bioconda/r-zerone.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-zerone| image:: https://quay.io/repository/biocontainers/r-zerone/status
+   :target: https://quay.io/repository/biocontainers/r-zerone
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install r-zerone
-
-and update with::
-
-   conda update r-zerone
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/r-zerone.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-zerone/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-zerone/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-zerone/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-zerone/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-zerone
-.. |docker| image:: https://quay.io/repository/biocontainers/r-zerone/status
-                :target: https://quay.io/repository/biocontainers/r-zerone
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-zerone/README.html
 

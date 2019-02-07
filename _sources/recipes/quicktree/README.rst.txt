@@ -1,54 +1,66 @@
-.. _`quicktree`:
+.. title:: Package Recipe 'quicktree'
+.. highlight: bash
+
 
 quicktree
 =========
 
-|downloads|
+.. conda:recipe:: quicktree
+   :replaces_section_title:
 
-Fast implementation of the neighbour\-joining phylogenetic inference method
+   Fast implementation of the neighbour\-joining phylogenetic inference method
 
-============= ===========
-Home          https://github.com/khowe/quicktree
-Versions      2.4, 2.2
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quicktree/meta.yaml
+   :homepage: https://github.com/khowe/quicktree
+   :license: Apache-2.0
+   :recipe: /`quicktree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: quicktree
 
-Installation
-------------
+   |downloads_quicktree| |docker_quicktree|
 
-.. highlight: bash
+   :versions: 2.4, 2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install quicktree
+   :required~by: |required_by_quicktree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update quicktree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install quicktree
+
+   and update with::
+
+      conda update quicktree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/quicktree
+
+
+.. |required_by_quicktree| conda:required_by:: quicktree
+.. |downloads_quicktree| image:: https://img.shields.io/conda/dn/bioconda/quicktree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_quicktree| image:: https://quay.io/repository/biocontainers/quicktree/status
+   :target: https://quay.io/repository/biocontainers/quicktree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/quicktree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/quicktree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/quicktree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/quicktree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/quicktree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/quicktree
-.. |docker| image:: https://quay.io/repository/biocontainers/quicktree/status
-                :target: https://quay.io/repository/biocontainers/quicktree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/quicktree/README.html
 

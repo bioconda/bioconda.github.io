@@ -1,54 +1,66 @@
-.. _`tssar`:
+.. title:: Package Recipe 'tssar'
+.. highlight: bash
+
 
 tssar
 =====
 
-|downloads|
+.. conda:recipe:: tssar
+   :replaces_section_title:
 
-TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data.
+   TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data.
 
-============= ===========
-Home          http://rna.tbi.univie.ac.at/TSSAR
-Versions      1.0.1
-License       GNU General Public License v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tssar/meta.yaml
+   :homepage: http://rna.tbi.univie.ac.at/TSSAR
+   :license: GNU General Public License v2.0
+   :recipe: /`tssar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssar/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tssar
 
-Installation
-------------
+   |downloads_tssar| |docker_tssar|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`r-skellam`  :conda:package:`r-vgam`  
 
-   conda install tssar
+   :required~by: |required_by_tssar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tssar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tssar
+
+   and update with::
+
+      conda update tssar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tssar
+
+
+.. |required_by_tssar| conda:required_by:: tssar
+.. |downloads_tssar| image:: https://img.shields.io/conda/dn/bioconda/tssar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tssar| image:: https://quay.io/repository/biocontainers/tssar/status
+   :target: https://quay.io/repository/biocontainers/tssar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tssar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tssar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tssar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tssar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tssar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tssar
-.. |docker| image:: https://quay.io/repository/biocontainers/tssar/status
-                :target: https://quay.io/repository/biocontainers/tssar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tssar/README.html
 

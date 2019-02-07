@@ -1,56 +1,66 @@
-.. _`prokaryote`:
+.. title:: Package Recipe 'prokaryote'
+.. highlight: bash
+
 
 prokaryote
 ==========
 
-|downloads|
+.. conda:recipe:: prokaryote
+   :replaces_section_title:
 
-CellProfiler\'s Java dependencies
+   CellProfiler\'s Java dependencies
 
-============= ===========
-Home          https://github.com/CellProfiler/prokaryote
-Versions      2.4.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prokaryote/meta.yaml
+   :homepage: https://github.com/CellProfiler/prokaryote
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :recipe: /`prokaryote <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokaryote>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokaryote/meta.yaml>`_
 
-
-Development   https://github.com/CellProfiler/prokaryote
+   
 
 
-============= ===========
+.. conda:package:: prokaryote
+
+   |downloads_prokaryote| |docker_prokaryote|
+
+   :versions: 2.4.1
+
+   :depends: :conda:package:`python`  
+
+   :required~by: |required_by_prokaryote|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install prokaryote
+
+   and update with::
+
+      conda update prokaryote
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/prokaryote
+
+
+.. |required_by_prokaryote| conda:required_by:: prokaryote
+.. |downloads_prokaryote| image:: https://img.shields.io/conda/dn/bioconda/prokaryote.svg?style=flat
+   :alt:   (downloads)
+.. |docker_prokaryote| image:: https://quay.io/repository/biocontainers/prokaryote/status
+   :target: https://quay.io/repository/biocontainers/prokaryote
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install prokaryote
-
-and update with::
-
-   conda update prokaryote
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/prokaryote.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/prokaryote/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/prokaryote/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/prokaryote/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/prokaryote/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/prokaryote
-.. |docker| image:: https://quay.io/repository/biocontainers/prokaryote/status
-                :target: https://quay.io/repository/biocontainers/prokaryote
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/prokaryote/README.html
 

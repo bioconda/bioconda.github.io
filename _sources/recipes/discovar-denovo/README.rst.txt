@@ -1,54 +1,66 @@
-.. _`discovardenovo`:
+.. title:: Package Recipe 'discovardenovo'
+.. highlight: bash
+
 
 discovardenovo
 ==============
 
-|downloads|
+.. conda:recipe:: discovar-denovo
+   :replaces_section_title:
 
-Suitable for de novo assembly of large and small genomes.
+   Suitable for de novo assembly of large and small genomes.
 
-============= ===========
-Home          https://www.broadinstitute.org/software/discovar/
-Versions      52488
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discovar-denovo/meta.yaml
+   :homepage: https://www.broadinstitute.org/software/discovar/
+   :license: MIT
+   :recipe: /`discovar-denovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar-denovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar-denovo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: discovardenovo
 
-Installation
-------------
+   |downloads_discovardenovo| |docker_discovardenovo|
 
-.. highlight: bash
+   :versions: 52488
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install discovardenovo
+   :required~by: |required_by_discovardenovo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update discovardenovo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install discovardenovo
+
+   and update with::
+
+      conda update discovardenovo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/discovardenovo
+
+
+.. |required_by_discovardenovo| conda:required_by:: discovardenovo
+.. |downloads_discovardenovo| image:: https://img.shields.io/conda/dn/bioconda/discovardenovo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_discovardenovo| image:: https://quay.io/repository/biocontainers/discovardenovo/status
+   :target: https://quay.io/repository/biocontainers/discovardenovo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/discovardenovo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/discovardenovo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/discovardenovo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/discovardenovo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/discovardenovo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/discovardenovo
-.. |docker| image:: https://quay.io/repository/biocontainers/discovardenovo/status
-                :target: https://quay.io/repository/biocontainers/discovardenovo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/discovardenovo/README.html
 

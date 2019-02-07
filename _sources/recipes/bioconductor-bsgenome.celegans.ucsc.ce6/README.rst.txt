@@ -1,54 +1,66 @@
-.. _`bioconductor-bsgenome.celegans.ucsc.ce6`:
+.. title:: Package Recipe 'bioconductor-bsgenome.celegans.ucsc.ce6'
+.. highlight: bash
+
 
 bioconductor-bsgenome.celegans.ucsc.ce6
 =======================================
 
-|downloads|
+.. conda:recipe:: bioconductor-bsgenome.celegans.ucsc.ce6
+   :replaces_section_title:
 
-Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce6\, May 2008\) and stored in Biostrings objects.
+   Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce6\, May 2008\) and stored in Biostrings objects.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Celegans.UCSC.ce6.html
-Versions      1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.celegans.ucsc.ce6/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Celegans.UCSC.ce6.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-bsgenome.celegans.ucsc.ce6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce6/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bsgenome.celegans.ucsc.ce6
 
-Installation
-------------
+   |downloads_bioconductor-bsgenome.celegans.ucsc.ce6| |docker_bioconductor-bsgenome.celegans.ucsc.ce6|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bsgenome` >=1.33.5 :conda:package:`r` 3.2.2* 
 
-   conda install bioconductor-bsgenome.celegans.ucsc.ce6
+   :required~by: |required_by_bioconductor-bsgenome.celegans.ucsc.ce6|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bsgenome.celegans.ucsc.ce6
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bsgenome.celegans.ucsc.ce6
+
+   and update with::
+
+      conda update bioconductor-bsgenome.celegans.ucsc.ce6
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6
+
+
+.. |required_by_bioconductor-bsgenome.celegans.ucsc.ce6| conda:required_by:: bioconductor-bsgenome.celegans.ucsc.ce6
+.. |downloads_bioconductor-bsgenome.celegans.ucsc.ce6| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.celegans.ucsc.ce6.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bsgenome.celegans.ucsc.ce6| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bsgenome.celegans.ucsc.ce6/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bsgenome.celegans.ucsc.ce6/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bsgenome.celegans.ucsc.ce6/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bsgenome.celegans.ucsc.ce6/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bsgenome.celegans.ucsc.ce6
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce6
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bsgenome.celegans.ucsc.ce6/README.html
 

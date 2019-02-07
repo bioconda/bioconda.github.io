@@ -1,39 +1,59 @@
-.. _`semeta`:
+.. title:: Package Recipe 'semeta'
+.. highlight: bash
+
 
 semeta
 ======
 
-|downloads|
+.. conda:recipe:: semeta
+   :replaces_section_title:
 
-SeMeta is a new software for taxonomic assignment of metagenomic reads. It
-supports both single\-end and paired\-end reads. The software is implemented
-in C\+\+
-
-
-============= ===========
-Home          http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
-Versions      1.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//semeta/meta.yaml
+   SeMeta is a new software for taxonomic assignment of metagenomic reads. It
+   supports both single\-end and paired\-end reads. The software is implemented
+   in C\+\+
 
 
+   :homepage: http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
+   :license: GPL-3
+   :recipe: /`semeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta/meta.yaml>`_
 
-============= ===========
+   
+
+
+.. conda:package:: semeta
+
+   |downloads_semeta| |docker_semeta|
+
+   :versions: 1.0
+
+   :depends: :conda:package:`blast`  :conda:package:`libgcc`  
+
+   :required~by: |required_by_semeta|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install semeta
+
+   and update with::
+
+      conda update semeta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/semeta
+
+
+.. |required_by_semeta| conda:required_by:: semeta
+.. |downloads_semeta| image:: https://img.shields.io/conda/dn/bioconda/semeta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_semeta| image:: https://quay.io/repository/biocontainers/semeta/status
+   :target: https://quay.io/repository/biocontainers/semeta
 
 
 
-Installation
-------------
 
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install semeta
-
-and update with::
-
-   conda update semeta
 
 
 Notes
@@ -41,21 +61,13 @@ Notes
 Databases are required. Please see the project homepage.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/semeta.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/semeta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/semeta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/semeta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/semeta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/semeta
-.. |docker| image:: https://quay.io/repository/biocontainers/semeta/status
-                :target: https://quay.io/repository/biocontainers/semeta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/semeta/README.html
 

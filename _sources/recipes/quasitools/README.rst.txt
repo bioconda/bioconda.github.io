@@ -1,54 +1,66 @@
-.. _`quasitools`:
+.. title:: Package Recipe 'quasitools'
+.. highlight: bash
+
 
 quasitools
 ==========
 
-|downloads|
+.. conda:recipe:: quasitools
+   :replaces_section_title:
 
-Quasitools is a collection of tools for analysing Viral Quasispecies
+   Quasitools is a collection of tools for analysing Viral Quasispecies
 
-============= ===========
-Home          https://github.com/phac-nml/quasitools/
-Versions      0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.0
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quasitools/meta.yaml
+   :homepage: https://github.com/phac-nml/quasitools/
+   :license: Apache License, Version 2.0
+   :recipe: /`quasitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quasitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quasitools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: quasitools
 
-Installation
-------------
+   |downloads_quasitools| |docker_quasitools|
 
-.. highlight: bash
+   :versions: 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`bowtie2`  :conda:package:`click`  :conda:package:`numpy`  :conda:package:`pysam` >=0.8.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools` >=1.3 :conda:package:`scipy`  
 
-   conda install quasitools
+   :required~by: |required_by_quasitools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update quasitools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install quasitools
+
+   and update with::
+
+      conda update quasitools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/quasitools
+
+
+.. |required_by_quasitools| conda:required_by:: quasitools
+.. |downloads_quasitools| image:: https://img.shields.io/conda/dn/bioconda/quasitools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_quasitools| image:: https://quay.io/repository/biocontainers/quasitools/status
+   :target: https://quay.io/repository/biocontainers/quasitools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/quasitools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/quasitools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/quasitools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/quasitools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/quasitools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/quasitools
-.. |docker| image:: https://quay.io/repository/biocontainers/quasitools/status
-                :target: https://quay.io/repository/biocontainers/quasitools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/quasitools/README.html
 

@@ -1,56 +1,67 @@
-.. _`seqbuster`:
+.. title:: Package Recipe 'seqbuster'
+.. highlight: bash
+
 
 seqbuster
 =========
 
-|downloads|
+.. conda:recipe:: seqbuster
+   :replaces_section_title:
 
-miRNA and isomiR annotation
+   miRNA and isomiR annotation
 
-============= ===========
-Home          https://github.com/lpantano/seqbuster
-Versions      3.2, 3.1, 3.1a, 3.0, 2.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqbuster/meta.yaml
+   :homepage: https://github.com/lpantano/seqbuster
+   :license: MIT
+   :recipe: /`seqbuster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster/meta.yaml>`_
+   :links: biotools: :biotools:`seqbuster`
 
-
-
-Links         biotools: :biotools:`seqbuster`
-
-============= ===========
+   
 
 
+.. conda:package:: seqbuster
 
-Installation
-------------
+   |downloads_seqbuster| |docker_seqbuster|
 
-.. highlight: bash
+   :versions: 3.2, 3.1, 3.1a, 3.0, 2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 
 
-   conda install seqbuster
+   :required~by: |required_by_seqbuster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update seqbuster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install seqbuster
+
+   and update with::
+
+      conda update seqbuster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/seqbuster
+
+
+.. |required_by_seqbuster| conda:required_by:: seqbuster
+.. |downloads_seqbuster| image:: https://img.shields.io/conda/dn/bioconda/seqbuster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_seqbuster| image:: https://quay.io/repository/biocontainers/seqbuster/status
+   :target: https://quay.io/repository/biocontainers/seqbuster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/seqbuster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/seqbuster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seqbuster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/seqbuster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/seqbuster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/seqbuster
-.. |docker| image:: https://quay.io/repository/biocontainers/seqbuster/status
-                :target: https://quay.io/repository/biocontainers/seqbuster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/seqbuster/README.html
 

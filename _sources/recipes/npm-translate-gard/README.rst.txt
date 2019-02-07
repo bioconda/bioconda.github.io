@@ -1,54 +1,66 @@
-.. _`translate-gard`:
+.. title:: Package Recipe 'translate-gard'
+.. highlight: bash
+
 
 translate-gard
 ==============
 
-|downloads|
+.. conda:recipe:: npm-translate-gard
+   :replaces_section_title:
 
-Converts HyPhy 2.3.2 GARD output to JSON
+   Converts HyPhy 2.3.2 GARD output to JSON
 
-============= ===========
-Home          https://github.com/veg/translate-gard/
-Versions      1.0.4, 1.0.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//npm-translate-gard/meta.yaml
+   :homepage: https://github.com/veg/translate-gard/
+   :license: MIT
+   :recipe: /`npm-translate-gard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npm-translate-gard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npm-translate-gard/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: translate-gard
 
-Installation
-------------
+   |downloads_translate-gard| |docker_translate-gard|
 
-.. highlight: bash
+   :versions: 1.0.4, 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`nodejs` 6.* 
 
-   conda install translate-gard
+   :required~by: |required_by_translate-gard|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update translate-gard
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install translate-gard
+
+   and update with::
+
+      conda update translate-gard
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/translate-gard
+
+
+.. |required_by_translate-gard| conda:required_by:: translate-gard
+.. |downloads_translate-gard| image:: https://img.shields.io/conda/dn/bioconda/translate-gard.svg?style=flat
+   :alt:   (downloads)
+.. |docker_translate-gard| image:: https://quay.io/repository/biocontainers/translate-gard/status
+   :target: https://quay.io/repository/biocontainers/translate-gard
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/translate-gard.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/translate-gard/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/translate-gard/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/translate-gard/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/translate-gard/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/translate-gard
-.. |docker| image:: https://quay.io/repository/biocontainers/translate-gard/status
-                :target: https://quay.io/repository/biocontainers/translate-gard
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/translate-gard/README.html
 

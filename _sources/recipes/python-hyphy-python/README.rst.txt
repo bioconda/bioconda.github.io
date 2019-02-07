@@ -1,54 +1,66 @@
-.. _`python-hyphy-python`:
+.. title:: Package Recipe 'python-hyphy-python'
+.. highlight: bash
+
 
 python-hyphy-python
 ===================
 
-|downloads|
+.. conda:recipe:: python-hyphy-python
+   :replaces_section_title:
 
-HyPhy package interface library
+   HyPhy package interface library
 
-============= ===========
-Home          https://github.com/veg/hyphy-python
-Versions      0.1.9, 0.1.6, 0.1.3
-License       UNKNOWN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-hyphy-python/meta.yaml
+   :homepage: https://github.com/veg/hyphy-python
+   :license: UNKNOWN
+   :recipe: /`python-hyphy-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-hyphy-python
 
-Installation
-------------
+   |downloads_python-hyphy-python| |docker_python-hyphy-python|
 
-.. highlight: bash
+   :versions: 0.1.9, 0.1.6, 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install python-hyphy-python
+   :required~by: |required_by_python-hyphy-python|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-hyphy-python
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-hyphy-python
+
+   and update with::
+
+      conda update python-hyphy-python
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-hyphy-python
+
+
+.. |required_by_python-hyphy-python| conda:required_by:: python-hyphy-python
+.. |downloads_python-hyphy-python| image:: https://img.shields.io/conda/dn/bioconda/python-hyphy-python.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-hyphy-python| image:: https://quay.io/repository/biocontainers/python-hyphy-python/status
+   :target: https://quay.io/repository/biocontainers/python-hyphy-python
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-hyphy-python.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-hyphy-python/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-hyphy-python/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-hyphy-python/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-hyphy-python/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-hyphy-python
-.. |docker| image:: https://quay.io/repository/biocontainers/python-hyphy-python/status
-                :target: https://quay.io/repository/biocontainers/python-hyphy-python
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-hyphy-python/README.html
 

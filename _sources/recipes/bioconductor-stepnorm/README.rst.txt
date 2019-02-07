@@ -1,56 +1,67 @@
-.. _`bioconductor-stepnorm`:
+.. title:: Package Recipe 'bioconductor-stepnorm'
+.. highlight: bash
+
 
 bioconductor-stepnorm
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-stepnorm
+   :replaces_section_title:
 
-Stepwise normalization functions for cDNA microarray data.
+   Stepwise normalization functions for cDNA microarray data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/stepNorm.html
-Versions      1.54.0, 1.52.0, 1.50.0, 1.48.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stepnorm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/stepNorm.html
+   :license: LGPL
+   :recipe: /`bioconductor-stepnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stepnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stepnorm/meta.yaml>`_
+   :links: biotools: :biotools:`stepnorm`, doi: :doi:`10.1109/IEMBS.2004.1403830`
 
-
-
-Links         biotools: :biotools:`stepnorm`, doi: :doi:`10.1109/IEMBS.2004.1403830`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-stepnorm
 
-Installation
-------------
+   |downloads_bioconductor-stepnorm| |docker_bioconductor-stepnorm|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
 
-   conda install bioconductor-stepnorm
+   :required~by: |required_by_bioconductor-stepnorm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-stepnorm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-stepnorm
+
+   and update with::
+
+      conda update bioconductor-stepnorm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-stepnorm
+
+
+.. |required_by_bioconductor-stepnorm| conda:required_by:: bioconductor-stepnorm
+.. |downloads_bioconductor-stepnorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stepnorm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-stepnorm| image:: https://quay.io/repository/biocontainers/bioconductor-stepnorm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-stepnorm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-stepnorm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-stepnorm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-stepnorm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-stepnorm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-stepnorm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-stepnorm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-stepnorm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-stepnorm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-stepnorm/README.html
 

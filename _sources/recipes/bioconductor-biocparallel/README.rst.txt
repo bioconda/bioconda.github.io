@@ -1,56 +1,67 @@
-.. _`bioconductor-biocparallel`:
+.. title:: Package Recipe 'bioconductor-biocparallel'
+.. highlight: bash
+
 
 bioconductor-biocparallel
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-biocparallel
+   :replaces_section_title:
 
-This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects.
+   This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BiocParallel.html
-Versions      1.16.2, 1.14.2, 1.12.0, 1.10.1, 1.6.6, 1.5.0, 1.4.3, 1.4.0, 1.2.22
-License       GPL-2 | GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocparallel/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocParallel.html
+   :license: GPL-2 | GPL-3
+   :recipe: /`bioconductor-biocparallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel/meta.yaml>`_
+   :links: biotools: :biotools:`biocparallel`, doi: :doi:`10.1214/14-STS476`
 
-
-
-Links         biotools: :biotools:`biocparallel`, doi: :doi:`10.1214/14-STS476`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biocparallel
 
-Installation
-------------
+   |downloads_bioconductor-biocparallel| |docker_bioconductor-biocparallel|
 
-.. highlight: bash
+   :versions: 1.16.2, 1.14.2, 1.12.0, 1.10.1, 1.6.6, 1.5.0, 1.4.3, 1.4.0, 1.2.22
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-futile.logger`  :conda:package:`r-snow`  
 
-   conda install bioconductor-biocparallel
+   :required~by: |required_by_bioconductor-biocparallel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biocparallel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biocparallel
+
+   and update with::
+
+      conda update bioconductor-biocparallel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biocparallel
+
+
+.. |required_by_bioconductor-biocparallel| conda:required_by:: bioconductor-biocparallel
+.. |downloads_bioconductor-biocparallel| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocparallel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biocparallel| image:: https://quay.io/repository/biocontainers/bioconductor-biocparallel/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biocparallel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biocparallel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biocparallel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biocparallel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biocparallel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biocparallel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biocparallel
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocparallel/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biocparallel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biocparallel/README.html
 

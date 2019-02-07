@@ -1,54 +1,66 @@
-.. _`stacks_summary`:
+.. title:: Package Recipe 'stacks_summary'
+.. highlight: bash
+
 
 stacks_summary
 ==============
 
-|downloads|
+.. conda:recipe:: stacks_summary
+   :replaces_section_title:
 
-Stacks reports generator
+   Stacks reports generator
 
-============= ===========
-Home          https://github.com/mariabernard/galaxy_wrappers
-Versions      1.1, 1.0
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stacks_summary/meta.yaml
+   :homepage: https://github.com/mariabernard/galaxy_wrappers
+   :license: GPL / GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`stacks_summary <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks_summary>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks_summary/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: stacks_summary
 
-Installation
-------------
+   |downloads_stacks_summary| |docker_stacks_summary|
 
-.. highlight: bash
+   :versions: 1.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install stacks_summary
+   :required~by: |required_by_stacks_summary|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update stacks_summary
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install stacks_summary
+
+   and update with::
+
+      conda update stacks_summary
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/stacks_summary
+
+
+.. |required_by_stacks_summary| conda:required_by:: stacks_summary
+.. |downloads_stacks_summary| image:: https://img.shields.io/conda/dn/bioconda/stacks_summary.svg?style=flat
+   :alt:   (downloads)
+.. |docker_stacks_summary| image:: https://quay.io/repository/biocontainers/stacks_summary/status
+   :target: https://quay.io/repository/biocontainers/stacks_summary
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/stacks_summary.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/stacks_summary/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/stacks_summary/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/stacks_summary/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/stacks_summary/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/stacks_summary
-.. |docker| image:: https://quay.io/repository/biocontainers/stacks_summary/status
-                :target: https://quay.io/repository/biocontainers/stacks_summary
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/stacks_summary/README.html
 

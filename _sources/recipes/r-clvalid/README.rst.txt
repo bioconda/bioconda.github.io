@@ -1,54 +1,66 @@
-.. _`r-clvalid`:
+.. title:: Package Recipe 'r-clvalid'
+.. highlight: bash
+
 
 r-clvalid
 =========
 
-|downloads|
+.. conda:recipe:: r-clvalid
+   :replaces_section_title:
 
-Statistical and biological validation of clustering results.
+   Statistical and biological validation of clustering results.
 
-============= ===========
-Home          http://guybrock.gpbrock.net/research
-Versions      0.6_6
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-clvalid/meta.yaml
+   :homepage: http://guybrock.gpbrock.net/research
+   :license: LGPL / LGPL-3
+   :recipe: /`r-clvalid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-clvalid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-clvalid/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-clvalid
 
-Installation
-------------
+   |downloads_r-clvalid| |docker_r-clvalid|
 
-.. highlight: bash
+   :versions: 0.6_6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-class`  :conda:package:`r-cluster`  
 
-   conda install r-clvalid
+   :required~by: |required_by_r-clvalid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-clvalid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-clvalid
+
+   and update with::
+
+      conda update r-clvalid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-clvalid
+
+
+.. |required_by_r-clvalid| conda:required_by:: r-clvalid
+.. |downloads_r-clvalid| image:: https://img.shields.io/conda/dn/bioconda/r-clvalid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-clvalid| image:: https://quay.io/repository/biocontainers/r-clvalid/status
+   :target: https://quay.io/repository/biocontainers/r-clvalid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-clvalid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-clvalid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-clvalid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-clvalid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-clvalid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-clvalid
-.. |docker| image:: https://quay.io/repository/biocontainers/r-clvalid/status
-                :target: https://quay.io/repository/biocontainers/r-clvalid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-clvalid/README.html
 

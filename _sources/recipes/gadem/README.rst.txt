@@ -1,54 +1,66 @@
-.. _`gadem`:
+.. title:: Package Recipe 'gadem'
+.. highlight: bash
+
 
 gadem
 =====
 
-|downloads|
+.. conda:recipe:: gadem
+   :replaces_section_title:
 
-A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery
+   A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery
 
-============= ===========
-Home          https://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm
-Versions      1.3.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gadem/meta.yaml
+   :homepage: https://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm
+   :license: GPLv3
+   :recipe: /`gadem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gadem
 
-Installation
-------------
+   |downloads_gadem| |docker_gadem|
 
-.. highlight: bash
+   :versions: 1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install gadem
+   :required~by: |required_by_gadem|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gadem
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gadem
+
+   and update with::
+
+      conda update gadem
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gadem
+
+
+.. |required_by_gadem| conda:required_by:: gadem
+.. |downloads_gadem| image:: https://img.shields.io/conda/dn/bioconda/gadem.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gadem| image:: https://quay.io/repository/biocontainers/gadem/status
+   :target: https://quay.io/repository/biocontainers/gadem
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gadem.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gadem/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gadem/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gadem/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gadem/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gadem
-.. |docker| image:: https://quay.io/repository/biocontainers/gadem/status
-                :target: https://quay.io/repository/biocontainers/gadem
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gadem/README.html
 

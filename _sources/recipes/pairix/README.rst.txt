@@ -1,54 +1,66 @@
-.. _`pairix`:
+.. title:: Package Recipe 'pairix'
+.. highlight: bash
+
 
 pairix
 ======
 
-|downloads|
+.. conda:recipe:: pairix
+   :replaces_section_title:
 
-2D indexing on bgzipped text files of paired genomic coordinates
+   2D indexing on bgzipped text files of paired genomic coordinates
 
-============= ===========
-Home          https://github.com/4dn-dcic/pairix
-Versions      0.3.6, 0.3.5, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.5, 0.2.4, 0.1.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pairix/meta.yaml
+   :homepage: https://github.com/4dn-dcic/pairix
+   :license: MIT / MIT
+   :recipe: /`pairix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairix/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pairix
 
-Installation
-------------
+   |downloads_pairix| |docker_pairix|
 
-.. highlight: bash
+   :versions: 0.3.6, 0.3.5, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.5, 0.2.4, 0.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib`  :conda:package:`python` 2.7* 
 
-   conda install pairix
+   :required~by: |required_by_pairix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pairix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pairix
+
+   and update with::
+
+      conda update pairix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pairix
+
+
+.. |required_by_pairix| conda:required_by:: pairix
+.. |downloads_pairix| image:: https://img.shields.io/conda/dn/bioconda/pairix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pairix| image:: https://quay.io/repository/biocontainers/pairix/status
+   :target: https://quay.io/repository/biocontainers/pairix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pairix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pairix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pairix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pairix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pairix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pairix
-.. |docker| image:: https://quay.io/repository/biocontainers/pairix/status
-                :target: https://quay.io/repository/biocontainers/pairix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pairix/README.html
 

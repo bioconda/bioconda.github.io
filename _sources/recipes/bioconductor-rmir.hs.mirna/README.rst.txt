@@ -1,54 +1,66 @@
-.. _`bioconductor-rmir.hs.mirna`:
+.. title:: Package Recipe 'bioconductor-rmir.hs.mirna'
+.. highlight: bash
+
 
 bioconductor-rmir.hs.mirna
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rmir.hs.mirna
+   :replaces_section_title:
 
-Various databases of microRNA Targets
+   Various databases of microRNA Targets
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/RmiR.Hs.miRNA.html
-Versions      1.0.7
-License       The Artistic License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmir.hs.mirna/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/RmiR.Hs.miRNA.html
+   :license: The Artistic License, Version 2.0
+   :recipe: /`bioconductor-rmir.hs.mirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir.hs.mirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir.hs.mirna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rmir.hs.mirna
 
-Installation
-------------
+   |downloads_bioconductor-rmir.hs.mirna| |docker_bioconductor-rmir.hs.mirna|
 
-.. highlight: bash
+   :versions: 1.0.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`r-base` 3.4.1* :conda:package:`wget`  
 
-   conda install bioconductor-rmir.hs.mirna
+   :required~by: |required_by_bioconductor-rmir.hs.mirna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rmir.hs.mirna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rmir.hs.mirna
+
+   and update with::
+
+      conda update bioconductor-rmir.hs.mirna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna
+
+
+.. |required_by_bioconductor-rmir.hs.mirna| conda:required_by:: bioconductor-rmir.hs.mirna
+.. |downloads_bioconductor-rmir.hs.mirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmir.hs.mirna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rmir.hs.mirna| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rmir.hs.mirna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rmir.hs.mirna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rmir.hs.mirna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rmir.hs.mirna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rmir.hs.mirna
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rmir.hs.mirna/README.html
 

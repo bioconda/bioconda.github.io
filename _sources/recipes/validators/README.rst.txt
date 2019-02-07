@@ -1,54 +1,66 @@
-.. _`validators`:
+.. title:: Package Recipe 'validators'
+.. highlight: bash
+
 
 validators
 ==========
 
-|downloads|
+.. conda:recipe:: validators
+   :replaces_section_title:
 
-Python Data Validation for Humans.
+   Python Data Validation for Humans.
 
-============= ===========
-Home          https://github.com/kvesteri/validators
-Versions      0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.10
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//validators/meta.yaml
+   :homepage: https://github.com/kvesteri/validators
+   :license: BSD / BSD License
+   :recipe: /`validators <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validators>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validators/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: validators
 
-Installation
-------------
+   |downloads_validators| |docker_validators|
 
-.. highlight: bash
+   :versions: 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`decorator` >=3.4.0 :conda:package:`python`  :conda:package:`six` >=1.4.0 
 
-   conda install validators
+   :required~by: |required_by_validators|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update validators
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install validators
+
+   and update with::
+
+      conda update validators
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/validators
+
+
+.. |required_by_validators| conda:required_by:: validators
+.. |downloads_validators| image:: https://img.shields.io/conda/dn/bioconda/validators.svg?style=flat
+   :alt:   (downloads)
+.. |docker_validators| image:: https://quay.io/repository/biocontainers/validators/status
+   :target: https://quay.io/repository/biocontainers/validators
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/validators.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/validators/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/validators/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/validators/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/validators/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/validators
-.. |docker| image:: https://quay.io/repository/biocontainers/validators/status
-                :target: https://quay.io/repository/biocontainers/validators
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/validators/README.html
 

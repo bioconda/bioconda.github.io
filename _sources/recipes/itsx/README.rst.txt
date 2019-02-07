@@ -1,54 +1,66 @@
-.. _`itsx`:
+.. title:: Package Recipe 'itsx'
+.. highlight: bash
+
 
 itsx
 ====
 
-|downloads|
+.. conda:recipe:: itsx
+   :replaces_section_title:
 
-ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e.g. fungi.
+   ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e.g. fungi.
 
-============= ===========
-Home          http://microbiology.se/software/itsx/
-Versions      1.1b
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//itsx/meta.yaml
+   :homepage: http://microbiology.se/software/itsx/
+   :license: GNU General Public License v3.0
+   :recipe: /`itsx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: itsx
 
-Installation
-------------
+   |downloads_itsx| |docker_itsx|
 
-.. highlight: bash
+   :versions: 1.1b
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`hmmer` >=3.1b2 :conda:package:`perl`  
 
-   conda install itsx
+   :required~by: |required_by_itsx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update itsx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install itsx
+
+   and update with::
+
+      conda update itsx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/itsx
+
+
+.. |required_by_itsx| conda:required_by:: itsx
+.. |downloads_itsx| image:: https://img.shields.io/conda/dn/bioconda/itsx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_itsx| image:: https://quay.io/repository/biocontainers/itsx/status
+   :target: https://quay.io/repository/biocontainers/itsx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/itsx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/itsx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/itsx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/itsx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/itsx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/itsx
-.. |docker| image:: https://quay.io/repository/biocontainers/itsx/status
-                :target: https://quay.io/repository/biocontainers/itsx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/itsx/README.html
 

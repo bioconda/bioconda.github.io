@@ -1,54 +1,66 @@
-.. _`alignstats`:
+.. title:: Package Recipe 'alignstats'
+.. highlight: bash
+
 
 alignstats
 ==========
 
-|downloads|
+.. conda:recipe:: alignstats
+   :replaces_section_title:
 
-Comprehensive alignment\, whole\-genome coverage\, and capture coverage statistics.
+   Comprehensive alignment\, whole\-genome coverage\, and capture coverage statistics.
 
-============= ===========
-Home          https://github.com/jfarek/alignstats
-Versions      0.5, 0.3
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//alignstats/meta.yaml
+   :homepage: https://github.com/jfarek/alignstats
+   :license: BSD
+   :recipe: /`alignstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignstats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: alignstats
 
-Installation
-------------
+   |downloads_alignstats| |docker_alignstats|
 
-.. highlight: bash
+   :versions: 0.5, 0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 
 
-   conda install alignstats
+   :required~by: |required_by_alignstats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update alignstats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install alignstats
+
+   and update with::
+
+      conda update alignstats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/alignstats
+
+
+.. |required_by_alignstats| conda:required_by:: alignstats
+.. |downloads_alignstats| image:: https://img.shields.io/conda/dn/bioconda/alignstats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_alignstats| image:: https://quay.io/repository/biocontainers/alignstats/status
+   :target: https://quay.io/repository/biocontainers/alignstats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/alignstats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/alignstats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/alignstats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/alignstats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/alignstats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/alignstats
-.. |docker| image:: https://quay.io/repository/biocontainers/alignstats/status
-                :target: https://quay.io/repository/biocontainers/alignstats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/alignstats/README.html
 

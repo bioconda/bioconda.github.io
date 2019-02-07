@@ -1,54 +1,66 @@
-.. _`perl-io-html`:
+.. title:: Package Recipe 'perl-io-html'
+.. highlight: bash
+
 
 perl-io-html
 ============
 
-|downloads|
+.. conda:recipe:: perl-io-html
+   :replaces_section_title:
 
-Open an HTML file with automatic charset detection
+   Open an HTML file with automatic charset detection
 
-============= ===========
-Home          http://metacpan.org/pod/IO-HTML
-Versions      1.001
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-html/meta.yaml
+   :homepage: http://metacpan.org/pod/IO-HTML
+   :license: perl_5
+   :recipe: /`perl-io-html <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-html
 
-Installation
-------------
+   |downloads_perl-io-html| |docker_perl-io-html|
 
-.. highlight: bash
+   :versions: 1.001
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-io-html
+   :required~by: |required_by_perl-io-html|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-html
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-html
+
+   and update with::
+
+      conda update perl-io-html
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-html
+
+
+.. |required_by_perl-io-html| conda:required_by:: perl-io-html
+.. |downloads_perl-io-html| image:: https://img.shields.io/conda/dn/bioconda/perl-io-html.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-html| image:: https://quay.io/repository/biocontainers/perl-io-html/status
+   :target: https://quay.io/repository/biocontainers/perl-io-html
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-html.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-html/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-html/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-html/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-html/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-html
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-html/status
-                :target: https://quay.io/repository/biocontainers/perl-io-html
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-html/README.html
 

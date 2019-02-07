@@ -1,54 +1,66 @@
-.. _`sixgill`:
+.. title:: Package Recipe 'sixgill'
+.. highlight: bash
+
 
 sixgill
 =======
 
-|downloads|
+.. conda:recipe:: sixgill
+   :replaces_section_title:
 
-six\-frame genome\-inferred libraries for LC\-MS\/MS
+   six\-frame genome\-inferred libraries for LC\-MS\/MS
 
-============= ===========
-Home          
-Versions      0.2.4, 0.2.3
-License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sixgill/meta.yaml
+   :homepage: 
+   :license: Apache / Apache Software License
+   :recipe: /`sixgill <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sixgill
 
-Installation
-------------
+   |downloads_sixgill| |docker_sixgill|
 
-.. highlight: bash
+   :versions: 0.2.4, 0.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
 
-   conda install sixgill
+   :required~by: |required_by_sixgill|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sixgill
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sixgill
+
+   and update with::
+
+      conda update sixgill
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sixgill
+
+
+.. |required_by_sixgill| conda:required_by:: sixgill
+.. |downloads_sixgill| image:: https://img.shields.io/conda/dn/bioconda/sixgill.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sixgill| image:: https://quay.io/repository/biocontainers/sixgill/status
+   :target: https://quay.io/repository/biocontainers/sixgill
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sixgill.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sixgill/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sixgill/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sixgill/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sixgill/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sixgill
-.. |docker| image:: https://quay.io/repository/biocontainers/sixgill/status
-                :target: https://quay.io/repository/biocontainers/sixgill
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sixgill/README.html
 

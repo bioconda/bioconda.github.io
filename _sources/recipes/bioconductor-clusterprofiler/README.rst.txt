@@ -1,56 +1,67 @@
-.. _`bioconductor-clusterprofiler`:
+.. title:: Package Recipe 'bioconductor-clusterprofiler'
+.. highlight: bash
+
 
 bioconductor-clusterprofiler
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-clusterprofiler
+   :replaces_section_title:
 
-This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters.
+   This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/clusterProfiler.html
-Versions      3.10.1, 3.8.1, 3.6.0, 3.4.4, 3.0.5, 3.0.4, 2.4.3
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clusterprofiler/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clusterProfiler.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
+   :links: biotools: :biotools:`clusterprofiler`
 
-
-
-Links         biotools: :biotools:`clusterprofiler`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clusterprofiler
 
-Installation
-------------
+   |downloads_bioconductor-clusterprofiler| |docker_bioconductor-clusterprofiler|
 
-.. highlight: bash
+   :versions: 3.10.1, 3.8.1, 3.6.0, 3.4.4, 3.0.5, 3.0.4, 2.4.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-enrichplot` >=1.2.0,<1.3.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-gosemsim` >=2.8.0,<2.9.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-magrittr`  :conda:package:`r-plyr`  :conda:package:`r-rvcheck`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-clusterprofiler
+   :required~by: |required_by_bioconductor-clusterprofiler|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clusterprofiler
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clusterprofiler
+
+   and update with::
+
+      conda update bioconductor-clusterprofiler
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clusterprofiler
+
+
+.. |required_by_bioconductor-clusterprofiler| conda:required_by:: bioconductor-clusterprofiler
+.. |downloads_bioconductor-clusterprofiler| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterprofiler.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clusterprofiler| image:: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clusterprofiler.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clusterprofiler/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clusterprofiler
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html
 

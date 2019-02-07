@@ -1,54 +1,66 @@
-.. _`barriers`:
+.. title:: Package Recipe 'barriers'
+.. highlight: bash
+
 
 barriers
 ========
 
-|downloads|
+.. conda:recipe:: barriers
+   :replaces_section_title:
 
-Compute local minima and energy barriers of a landscape.
+   Compute local minima and energy barriers of a landscape.
 
-============= ===========
-Home          https://www.tbi.univie.ac.at/RNA/Barriers/
-Versions      1.7.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//barriers/meta.yaml
+   :homepage: https://www.tbi.univie.ac.at/RNA/Barriers/
+   :license: GPL
+   :recipe: /`barriers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barriers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barriers/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: barriers
 
-Installation
-------------
+   |downloads_barriers| |docker_barriers|
 
-.. highlight: bash
+   :versions: 1.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`viennarna`  
 
-   conda install barriers
+   :required~by: |required_by_barriers|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update barriers
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install barriers
+
+   and update with::
+
+      conda update barriers
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/barriers
+
+
+.. |required_by_barriers| conda:required_by:: barriers
+.. |downloads_barriers| image:: https://img.shields.io/conda/dn/bioconda/barriers.svg?style=flat
+   :alt:   (downloads)
+.. |docker_barriers| image:: https://quay.io/repository/biocontainers/barriers/status
+   :target: https://quay.io/repository/biocontainers/barriers
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/barriers.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/barriers/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/barriers/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/barriers/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/barriers/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/barriers
-.. |docker| image:: https://quay.io/repository/biocontainers/barriers/status
-                :target: https://quay.io/repository/biocontainers/barriers
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/barriers/README.html
 

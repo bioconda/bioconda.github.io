@@ -1,54 +1,66 @@
-.. _`meryl`:
+.. title:: Package Recipe 'meryl'
+.. highlight: bash
+
 
 meryl
 =====
 
-|downloads|
+.. conda:recipe:: meryl
+   :replaces_section_title:
 
-meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
+   meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
 
-============= ===========
-Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
-Versions      2013
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//meryl/meta.yaml
+   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
+   :license: GPL
+   :recipe: /`meryl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: meryl
 
-Installation
-------------
+   |downloads_meryl| |docker_meryl|
 
-.. highlight: bash
+   :versions: 2013
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install meryl
+   :required~by: |required_by_meryl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update meryl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install meryl
+
+   and update with::
+
+      conda update meryl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/meryl
+
+
+.. |required_by_meryl| conda:required_by:: meryl
+.. |downloads_meryl| image:: https://img.shields.io/conda/dn/bioconda/meryl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_meryl| image:: https://quay.io/repository/biocontainers/meryl/status
+   :target: https://quay.io/repository/biocontainers/meryl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/meryl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/meryl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/meryl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/meryl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/meryl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/meryl
-.. |docker| image:: https://quay.io/repository/biocontainers/meryl/status
-                :target: https://quay.io/repository/biocontainers/meryl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/meryl/README.html
 

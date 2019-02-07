@@ -1,54 +1,66 @@
-.. _`octopus`:
+.. title:: Package Recipe 'octopus'
+.. highlight: bash
+
 
 octopus
 =======
 
-|downloads|
+.. conda:recipe:: octopus
+   :replaces_section_title:
 
-Octopus is a mapping\-based variant caller that implements several calling models within a unified haplotype\-aware framework.
+   Octopus is a mapping\-based variant caller that implements several calling models within a unified haplotype\-aware framework.
 
-============= ===========
-Home          https://github.com/luntergroup/octopus
-Versions      0.5.2b, 0.5.1b, 0.5.0b, 0.4.1a, 0.3.3a
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//octopus/meta.yaml
+   :homepage: https://github.com/luntergroup/octopus
+   :license: MIT / MIT
+   :recipe: /`octopus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: octopus
 
-Installation
-------------
+   |downloads_octopus| |docker_octopus|
 
-.. highlight: bash
+   :versions: 0.5.2b, 0.5.1b, 0.5.0b, 0.4.1a, 0.3.3a
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`icu` >=58.2,<59.0a0 :conda:package:`libboost`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install octopus
+   :required~by: |required_by_octopus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update octopus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install octopus
+
+   and update with::
+
+      conda update octopus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/octopus
+
+
+.. |required_by_octopus| conda:required_by:: octopus
+.. |downloads_octopus| image:: https://img.shields.io/conda/dn/bioconda/octopus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_octopus| image:: https://quay.io/repository/biocontainers/octopus/status
+   :target: https://quay.io/repository/biocontainers/octopus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/octopus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/octopus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/octopus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/octopus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/octopus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/octopus
-.. |docker| image:: https://quay.io/repository/biocontainers/octopus/status
-                :target: https://quay.io/repository/biocontainers/octopus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/octopus/README.html
 

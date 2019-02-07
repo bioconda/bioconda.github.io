@@ -1,54 +1,66 @@
-.. _`novasplice`:
+.. title:: Package Recipe 'novasplice'
+.. highlight: bash
+
 
 novasplice
 ==========
 
-|downloads|
+.. conda:recipe:: novasplice
+   :replaces_section_title:
 
-NovaSplice is a python tool to predict novel intronic splice sites from a given VCF file
+   NovaSplice is a python tool to predict novel intronic splice sites from a given VCF file
 
-============= ===========
-Home          https://github.com/aryakaul/novasplice
-Versions      0.0.4, 0.0.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//novasplice/meta.yaml
+   :homepage: https://github.com/aryakaul/novasplice
+   :license: MIT
+   :recipe: /`novasplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novasplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novasplice/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: novasplice
 
-Installation
-------------
+   |downloads_novasplice| |docker_novasplice|
 
-.. highlight: bash
+   :versions: 0.0.4, 0.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argparse`  :conda:package:`maxentpy`  :conda:package:`pybedtools`  :conda:package:`python` >=3 
 
-   conda install novasplice
+   :required~by: |required_by_novasplice|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update novasplice
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install novasplice
+
+   and update with::
+
+      conda update novasplice
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/novasplice
+
+
+.. |required_by_novasplice| conda:required_by:: novasplice
+.. |downloads_novasplice| image:: https://img.shields.io/conda/dn/bioconda/novasplice.svg?style=flat
+   :alt:   (downloads)
+.. |docker_novasplice| image:: https://quay.io/repository/biocontainers/novasplice/status
+   :target: https://quay.io/repository/biocontainers/novasplice
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/novasplice.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/novasplice/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/novasplice/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/novasplice/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/novasplice/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/novasplice
-.. |docker| image:: https://quay.io/repository/biocontainers/novasplice/status
-                :target: https://quay.io/repository/biocontainers/novasplice
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/novasplice/README.html
 

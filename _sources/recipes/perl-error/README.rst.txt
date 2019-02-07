@@ -1,54 +1,66 @@
-.. _`perl-error`:
+.. title:: Package Recipe 'perl-error'
+.. highlight: bash
+
 
 perl-error
 ==========
 
-|downloads|
+.. conda:recipe:: perl-error
+   :replaces_section_title:
 
-Error\/exception handling in an OO\-ish way
+   Error\/exception handling in an OO\-ish way
 
-============= ===========
-Home          http://metacpan.org/pod/Error
-Versions      0.17027, 0.17024
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-error/meta.yaml
+   :homepage: http://metacpan.org/pod/Error
+   :license: perl_5
+   :recipe: /`perl-error <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-error>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-error/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-error
 
-Installation
-------------
+   |downloads_perl-error| |docker_perl-error|
 
-.. highlight: bash
+   :versions: 0.17027, 0.17024
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-error
+   :required~by: |required_by_perl-error|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-error
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-error
+
+   and update with::
+
+      conda update perl-error
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-error
+
+
+.. |required_by_perl-error| conda:required_by:: perl-error
+.. |downloads_perl-error| image:: https://img.shields.io/conda/dn/bioconda/perl-error.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-error| image:: https://quay.io/repository/biocontainers/perl-error/status
+   :target: https://quay.io/repository/biocontainers/perl-error
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-error.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-error/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-error/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-error/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-error/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-error
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-error/status
-                :target: https://quay.io/repository/biocontainers/perl-error
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-error/README.html
 

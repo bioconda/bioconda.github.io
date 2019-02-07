@@ -1,54 +1,66 @@
-.. _`r-guilds`:
+.. title:: Package Recipe 'r-guilds'
+.. highlight: bash
+
 
 r-guilds
 ========
 
-|downloads|
+.. conda:recipe:: r-guilds
+   :replaces_section_title:
 
-A collection of sampling formulas for the unified neutral model of biogeography and biodiversity. Alongside the sampling formulas\, it includes methods to perform maximum likelihood optimization of the sampling formulas\, methods to generate data given the neutral model\, and methods to estimate the expected species abundance distribution. Sampling formulas included in the GUILDS package are the Etienne Sampling Formula \(Etienne 2005\)\, the guild sampling formula\, where guilds are assumed to differ in dispersal ability \(Janzen et al. 2015\)\, and  the guilds sampling formula conditioned on guild size \(Janzen et al. 2015\).
+   A collection of sampling formulas for the unified neutral model of biogeography and biodiversity. Alongside the sampling formulas\, it includes methods to perform maximum likelihood optimization of the sampling formulas\, methods to generate data given the neutral model\, and methods to estimate the expected species abundance distribution. Sampling formulas included in the GUILDS package are the Etienne Sampling Formula \(Etienne 2005\)\, the guild sampling formula\, where guilds are assumed to differ in dispersal ability \(Janzen et al. 2015\)\, and  the guilds sampling formula conditioned on guild size \(Janzen et al. 2015\).
 
-============= ===========
-Home          https://github.com/thijsjanzen/GUILDS
-Versions      1.3
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-guilds/meta.yaml
+   :homepage: https://github.com/thijsjanzen/GUILDS
+   :license: GPL2 / GPL-2
+   :recipe: /`r-guilds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-guilds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-guilds/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-guilds
 
-Installation
-------------
+   |downloads_r-guilds| |docker_r-guilds|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pracma`  :conda:package:`r-rcpp` >=0.11.0 
 
-   conda install r-guilds
+   :required~by: |required_by_r-guilds|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-guilds
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-guilds
+
+   and update with::
+
+      conda update r-guilds
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-guilds
+
+
+.. |required_by_r-guilds| conda:required_by:: r-guilds
+.. |downloads_r-guilds| image:: https://img.shields.io/conda/dn/bioconda/r-guilds.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-guilds| image:: https://quay.io/repository/biocontainers/r-guilds/status
+   :target: https://quay.io/repository/biocontainers/r-guilds
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-guilds.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-guilds/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-guilds/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-guilds/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-guilds/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-guilds
-.. |docker| image:: https://quay.io/repository/biocontainers/r-guilds/status
-                :target: https://quay.io/repository/biocontainers/r-guilds
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-guilds/README.html
 

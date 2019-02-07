@@ -1,54 +1,66 @@
-.. _`r-gpca`:
+.. title:: Package Recipe 'r-gpca'
+.. highlight: bash
+
 
 r-gpca
 ======
 
-|downloads|
+.. conda:recipe:: r-gpca
+   :replaces_section_title:
 
-This package implements guided principal components analysis for the detection of batch effects in high\-throughput data.
+   This package implements guided principal components analysis for the detection of batch effects in high\-throughput data.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=gPCA
-Versions      1.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gpca/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=gPCA
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-gpca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpca/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-gpca
 
-Installation
-------------
+   |downloads_r-gpca| |docker_r-gpca|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install r-gpca
+   :required~by: |required_by_r-gpca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gpca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gpca
+
+   and update with::
+
+      conda update r-gpca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gpca
+
+
+.. |required_by_r-gpca| conda:required_by:: r-gpca
+.. |downloads_r-gpca| image:: https://img.shields.io/conda/dn/bioconda/r-gpca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gpca| image:: https://quay.io/repository/biocontainers/r-gpca/status
+   :target: https://quay.io/repository/biocontainers/r-gpca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gpca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gpca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gpca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gpca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gpca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gpca
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gpca/status
-                :target: https://quay.io/repository/biocontainers/r-gpca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gpca/README.html
 

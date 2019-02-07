@@ -1,54 +1,66 @@
-.. _`snp-pileup`:
+.. title:: Package Recipe 'snp-pileup'
+.. highlight: bash
+
 
 snp-pileup
 ==========
 
-|downloads|
+.. conda:recipe:: snp-pileup
+   :replaces_section_title:
 
-Compute SNP pileup at reference positions in one or more input bam files. Output is ready for the R package facets
+   Compute SNP pileup at reference positions in one or more input bam files. Output is ready for the R package facets
 
-============= ===========
-Home          https://github.com/mskcc/facets
-Versions      0.5.14, v0.5.14
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snp-pileup/meta.yaml
+   :homepage: https://github.com/mskcc/facets
+   :license: MIT / MIT
+   :recipe: /`snp-pileup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-pileup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-pileup/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: snp-pileup
 
-Installation
-------------
+   |downloads_snp-pileup| |docker_snp-pileup|
 
-.. highlight: bash
+   :versions: 0.5.14, v0.5.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install snp-pileup
+   :required~by: |required_by_snp-pileup|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snp-pileup
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snp-pileup
+
+   and update with::
+
+      conda update snp-pileup
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snp-pileup
+
+
+.. |required_by_snp-pileup| conda:required_by:: snp-pileup
+.. |downloads_snp-pileup| image:: https://img.shields.io/conda/dn/bioconda/snp-pileup.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snp-pileup| image:: https://quay.io/repository/biocontainers/snp-pileup/status
+   :target: https://quay.io/repository/biocontainers/snp-pileup
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snp-pileup.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snp-pileup/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snp-pileup/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snp-pileup/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snp-pileup/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snp-pileup
-.. |docker| image:: https://quay.io/repository/biocontainers/snp-pileup/status
-                :target: https://quay.io/repository/biocontainers/snp-pileup
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snp-pileup/README.html
 

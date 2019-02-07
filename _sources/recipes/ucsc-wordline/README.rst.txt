@@ -1,54 +1,66 @@
-.. _`ucsc-wordline`:
+.. title:: Package Recipe 'ucsc-wordline'
+.. highlight: bash
+
 
 ucsc-wordline
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-wordline
+   :replaces_section_title:
 
-chop up words by white space and output them with one
+   chop up words by white space and output them with one
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-wordline/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-wordline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-wordline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-wordline/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-wordline
 
-Installation
-------------
+   |downloads_ucsc-wordline| |docker_ucsc-wordline|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-wordline
+   :required~by: |required_by_ucsc-wordline|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-wordline
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-wordline
+
+   and update with::
+
+      conda update ucsc-wordline
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-wordline
+
+
+.. |required_by_ucsc-wordline| conda:required_by:: ucsc-wordline
+.. |downloads_ucsc-wordline| image:: https://img.shields.io/conda/dn/bioconda/ucsc-wordline.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-wordline| image:: https://quay.io/repository/biocontainers/ucsc-wordline/status
+   :target: https://quay.io/repository/biocontainers/ucsc-wordline
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-wordline.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-wordline/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-wordline/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-wordline/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-wordline/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-wordline
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-wordline/status
-                :target: https://quay.io/repository/biocontainers/ucsc-wordline
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-wordline/README.html
 

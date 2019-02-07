@@ -1,54 +1,66 @@
-.. _`perl-test-requires`:
+.. title:: Package Recipe 'perl-test-requires'
+.. highlight: bash
+
 
 perl-test-requires
 ==================
 
-|downloads|
+.. conda:recipe:: perl-test-requires
+   :replaces_section_title:
 
-Checks to see if the module can be loaded
+   Checks to see if the module can be loaded
 
-============= ===========
-Home          https://github.com/tokuhirom/Test-Requires
-Versions      0.10
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-requires/meta.yaml
+   :homepage: https://github.com/tokuhirom/Test-Requires
+   :license: perl_5
+   :recipe: /`perl-test-requires <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-requires>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-requires/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-requires
 
-Installation
-------------
+   |downloads_perl-test-requires| |docker_perl-test-requires|
 
-.. highlight: bash
+   :versions: 0.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-test-requires
+   :required~by: |required_by_perl-test-requires|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-requires
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-requires
+
+   and update with::
+
+      conda update perl-test-requires
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-requires
+
+
+.. |required_by_perl-test-requires| conda:required_by:: perl-test-requires
+.. |downloads_perl-test-requires| image:: https://img.shields.io/conda/dn/bioconda/perl-test-requires.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-requires| image:: https://quay.io/repository/biocontainers/perl-test-requires/status
+   :target: https://quay.io/repository/biocontainers/perl-test-requires
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-requires.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-requires/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-requires/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-requires/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-requires/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-requires
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-requires/status
-                :target: https://quay.io/repository/biocontainers/perl-test-requires
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-requires/README.html
 

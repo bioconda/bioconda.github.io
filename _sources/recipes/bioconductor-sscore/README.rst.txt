@@ -1,56 +1,67 @@
-.. _`bioconductor-sscore`:
+.. title:: Package Recipe 'bioconductor-sscore'
+.. highlight: bash
+
 
 bioconductor-sscore
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-sscore
+   :replaces_section_title:
 
-This package contains an implementation of the S\-Score algorithm as described by Zhang et al \(2002\).
+   This package contains an implementation of the S\-Score algorithm as described by Zhang et al \(2002\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/sscore.html
-Versions      1.54.0, 1.52.0, 1.50.0, 1.48.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sscore/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sscore.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-sscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscore/meta.yaml>`_
+   :links: biotools: :biotools:`sscore`, doi: :doi:`10.1016/S1046-2023(03)00156-7`
 
-
-
-Links         biotools: :biotools:`sscore`, doi: :doi:`10.1016/S1046-2023(03)00156-7`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sscore
 
-Installation
-------------
+   |downloads_bioconductor-sscore| |docker_bioconductor-sscore|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0, 1.48.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-sscore
+   :required~by: |required_by_bioconductor-sscore|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sscore
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sscore
+
+   and update with::
+
+      conda update bioconductor-sscore
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sscore
+
+
+.. |required_by_bioconductor-sscore| conda:required_by:: bioconductor-sscore
+.. |downloads_bioconductor-sscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sscore.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sscore| image:: https://quay.io/repository/biocontainers/bioconductor-sscore/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sscore
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sscore.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sscore/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sscore/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sscore/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sscore/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sscore
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sscore/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sscore
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sscore/README.html
 

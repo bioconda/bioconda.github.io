@@ -1,54 +1,66 @@
-.. _`nanolyse`:
+.. title:: Package Recipe 'nanolyse'
+.. highlight: bash
+
 
 nanolyse
 ========
 
-|downloads|
+.. conda:recipe:: nanolyse
+   :replaces_section_title:
 
-Removing lambda DNA control reads from fastq dataset
+   Removing lambda DNA control reads from fastq dataset
 
-============= ===========
-Home          https://github.com/wdecoster/NanoLyse
-Versions      1.1.0, 1.0.0, 0.5.1, 0.4.0, 0.2.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanolyse/meta.yaml
+   :homepage: https://github.com/wdecoster/NanoLyse
+   :license: MIT / MIT License
+   :recipe: /`nanolyse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanolyse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanolyse/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nanolyse
 
-Installation
-------------
+   |downloads_nanolyse| |docker_nanolyse|
 
-.. highlight: bash
+   :versions: 1.1.0, 1.0.0, 0.5.1, 0.4.0, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`mappy` >=2.2 :conda:package:`python` 3.5* 
 
-   conda install nanolyse
+   :required~by: |required_by_nanolyse|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nanolyse
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nanolyse
+
+   and update with::
+
+      conda update nanolyse
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nanolyse
+
+
+.. |required_by_nanolyse| conda:required_by:: nanolyse
+.. |downloads_nanolyse| image:: https://img.shields.io/conda/dn/bioconda/nanolyse.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nanolyse| image:: https://quay.io/repository/biocontainers/nanolyse/status
+   :target: https://quay.io/repository/biocontainers/nanolyse
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nanolyse.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nanolyse/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanolyse/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nanolyse/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nanolyse/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nanolyse
-.. |docker| image:: https://quay.io/repository/biocontainers/nanolyse/status
-                :target: https://quay.io/repository/biocontainers/nanolyse
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nanolyse/README.html
 

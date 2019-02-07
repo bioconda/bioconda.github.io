@@ -1,54 +1,66 @@
-.. _`bioconductor-italics`:
+.. title:: Package Recipe 'bioconductor-italics'
+.. highlight: bash
+
 
 bioconductor-italics
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-italics
+   :replaces_section_title:
 
-A Method to normalize of Affymetrix GeneChip Human Mapping 100K and 500K set
+   A Method to normalize of Affymetrix GeneChip Human Mapping 100K and 500K set
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ITALICS.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-italics/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ITALICS.html
+   :license: GPL-2
+   :recipe: /`bioconductor-italics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-italics
 
-Installation
-------------
+   |downloads_bioconductor-italics| |docker_bioconductor-italics|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-italics
+   :required~by: |required_by_bioconductor-italics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-italics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-italics
+
+   and update with::
+
+      conda update bioconductor-italics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-italics
+
+
+.. |required_by_bioconductor-italics| conda:required_by:: bioconductor-italics
+.. |downloads_bioconductor-italics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-italics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-italics| image:: https://quay.io/repository/biocontainers/bioconductor-italics/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-italics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-italics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-italics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-italics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-italics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-italics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-italics
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-italics/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-italics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-italics/README.html
 

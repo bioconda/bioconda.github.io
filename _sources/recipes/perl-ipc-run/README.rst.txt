@@ -1,54 +1,66 @@
-.. _`perl-ipc-run`:
+.. title:: Package Recipe 'perl-ipc-run'
+.. highlight: bash
+
 
 perl-ipc-run
 ============
 
-|downloads|
+.. conda:recipe:: perl-ipc-run
+   :replaces_section_title:
 
-system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\)
+   system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\)
 
-============= ===========
-Home          http://metacpan.org/pod/IPC-Run
-Versions      20180523.0, 0.94
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ipc-run/meta.yaml
+   :homepage: http://metacpan.org/pod/IPC-Run
+   :license: perl_5
+   :recipe: /`perl-ipc-run <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-ipc-run
 
-Installation
-------------
+   |downloads_perl-ipc-run| |docker_perl-ipc-run|
 
-.. highlight: bash
+   :versions: 20180523.0, 0.94
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-io-tty`  
 
-   conda install perl-ipc-run
+   :required~by: |required_by_perl-ipc-run|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-ipc-run
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-ipc-run
+
+   and update with::
+
+      conda update perl-ipc-run
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-ipc-run
+
+
+.. |required_by_perl-ipc-run| conda:required_by:: perl-ipc-run
+.. |downloads_perl-ipc-run| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-run.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-ipc-run| image:: https://quay.io/repository/biocontainers/perl-ipc-run/status
+   :target: https://quay.io/repository/biocontainers/perl-ipc-run
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-ipc-run.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-ipc-run/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-ipc-run/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-ipc-run/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-ipc-run/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-ipc-run
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-ipc-run/status
-                :target: https://quay.io/repository/biocontainers/perl-ipc-run
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-ipc-run/README.html
 

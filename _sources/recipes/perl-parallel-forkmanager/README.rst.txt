@@ -1,54 +1,66 @@
-.. _`perl-parallel-forkmanager`:
+.. title:: Package Recipe 'perl-parallel-forkmanager'
+.. highlight: bash
+
 
 perl-parallel-forkmanager
 =========================
 
-|downloads|
+.. conda:recipe:: perl-parallel-forkmanager
+   :replaces_section_title:
 
-A simple parallel processing fork manager
+   A simple parallel processing fork manager
 
-============= ===========
-Home          https://github.com/dluxhu/perl-parallel-forkmanager
-Versions      2.02, 1.17
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-parallel-forkmanager/meta.yaml
+   :homepage: https://github.com/dluxhu/perl-parallel-forkmanager
+   :license: perl_5
+   :recipe: /`perl-parallel-forkmanager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-forkmanager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-forkmanager/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-parallel-forkmanager
 
-Installation
-------------
+   |downloads_perl-parallel-forkmanager| |docker_perl-parallel-forkmanager|
 
-.. highlight: bash
+   :versions: 2.02, 1.17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  :conda:package:`perl-moo`  :conda:package:`perl-storable`  
 
-   conda install perl-parallel-forkmanager
+   :required~by: |required_by_perl-parallel-forkmanager|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-parallel-forkmanager
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-parallel-forkmanager
+
+   and update with::
+
+      conda update perl-parallel-forkmanager
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-parallel-forkmanager
+
+
+.. |required_by_perl-parallel-forkmanager| conda:required_by:: perl-parallel-forkmanager
+.. |downloads_perl-parallel-forkmanager| image:: https://img.shields.io/conda/dn/bioconda/perl-parallel-forkmanager.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-parallel-forkmanager| image:: https://quay.io/repository/biocontainers/perl-parallel-forkmanager/status
+   :target: https://quay.io/repository/biocontainers/perl-parallel-forkmanager
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-parallel-forkmanager.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-parallel-forkmanager/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-parallel-forkmanager/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-parallel-forkmanager/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-parallel-forkmanager/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-parallel-forkmanager
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-parallel-forkmanager/status
-                :target: https://quay.io/repository/biocontainers/perl-parallel-forkmanager
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-parallel-forkmanager/README.html
 

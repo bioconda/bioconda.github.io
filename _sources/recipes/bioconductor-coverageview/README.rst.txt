@@ -1,54 +1,66 @@
-.. _`bioconductor-coverageview`:
+.. title:: Package Recipe 'bioconductor-coverageview'
+.. highlight: bash
+
 
 bioconductor-coverageview
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-coverageview
+   :replaces_section_title:
 
-This package provides a framework for the visualization of genome coverage profiles. It can be used for ChIP\-seq experiments\, but it can be also used for genome\-wide nucleosome positioning experiments or other experiment types where it is important to have a framework in order to inspect how the coverage distributed across the genome
+   This package provides a framework for the visualization of genome coverage profiles. It can be used for ChIP\-seq experiments\, but it can be also used for genome\-wide nucleosome positioning experiments or other experiment types where it is important to have a framework in order to inspect how the coverage distributed across the genome
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CoverageView.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-coverageview/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CoverageView.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-coverageview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-coverageview
 
-Installation
-------------
+   |downloads_bioconductor-coverageview| |docker_bioconductor-coverageview|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-coverageview
+   :required~by: |required_by_bioconductor-coverageview|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-coverageview
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-coverageview
+
+   and update with::
+
+      conda update bioconductor-coverageview
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-coverageview
+
+
+.. |required_by_bioconductor-coverageview| conda:required_by:: bioconductor-coverageview
+.. |downloads_bioconductor-coverageview| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coverageview.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-coverageview| image:: https://quay.io/repository/biocontainers/bioconductor-coverageview/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-coverageview
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-coverageview.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-coverageview/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-coverageview/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-coverageview/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-coverageview/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-coverageview
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-coverageview/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-coverageview
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-coverageview/README.html
 

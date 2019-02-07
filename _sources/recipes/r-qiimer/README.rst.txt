@@ -1,54 +1,66 @@
-.. _`r-qiimer`:
+.. title:: Package Recipe 'r-qiimer'
+.. highlight: bash
+
 
 r-qiimer
 ========
 
-|downloads|
+.. conda:recipe:: r-qiimer
+   :replaces_section_title:
 
-Open QIIME output files in R\, compute statistics\, and create plots from the data.
+   
 
-============= ===========
-Home          http://www.r-project.org
-Versions      0.9.4
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-qiimer/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-qiimer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-qiimer
 
-Installation
-------------
+   |downloads_r-qiimer| |docker_r-qiimer|
 
-.. highlight: bash
+   :versions: 0.9.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pheatmap`  
 
-   conda install r-qiimer
+   :required~by: |required_by_r-qiimer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-qiimer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-qiimer
+
+   and update with::
+
+      conda update r-qiimer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-qiimer
+
+
+.. |required_by_r-qiimer| conda:required_by:: r-qiimer
+.. |downloads_r-qiimer| image:: https://img.shields.io/conda/dn/bioconda/r-qiimer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-qiimer| image:: https://quay.io/repository/biocontainers/r-qiimer/status
+   :target: https://quay.io/repository/biocontainers/r-qiimer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-qiimer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-qiimer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-qiimer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-qiimer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-qiimer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-qiimer
-.. |docker| image:: https://quay.io/repository/biocontainers/r-qiimer/status
-                :target: https://quay.io/repository/biocontainers/r-qiimer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-qiimer/README.html
 

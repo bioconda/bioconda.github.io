@@ -1,54 +1,66 @@
-.. _`bioconductor-sparsesignatures`:
+.. title:: Package Recipe 'bioconductor-sparsesignatures'
+.. highlight: bash
+
 
 bioconductor-sparsesignatures
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-sparsesignatures
+   :replaces_section_title:
 
-Point mutations occurring in a genome can be divided into 96 categories based on the base being mutated\, the base it is mutated into and its two flanking bases. Therefore\, for any patient\, it is possible to represent all the point mutations occurring in that patient’s tumor as a vector of length 96\, where each element represents the count of mutations for a given category in the patient. A mutational signature represents the pattern of mutations produced by a mutagen or mutagenic process inside the cell. Each signature can also be represented by a vector of length 96\, where each element represents the probability that this particular mutagenic process generates a mutation of the 96 above mentioned categories. In this R package\, we provide a set of functions to extract and visualize the mutational signatures that best explain the mutation counts of a large number of patients.
+   Point mutations occurring in a genome can be divided into 96 categories based on the base being mutated\, the base it is mutated into and its two flanking bases. Therefore\, for any patient\, it is possible to represent all the point mutations occurring in that patient’s tumor as a vector of length 96\, where each element represents the count of mutations for a given category in the patient. A mutational signature represents the pattern of mutations produced by a mutagen or mutagenic process inside the cell. Each signature can also be represented by a vector of length 96\, where each element represents the probability that this particular mutagenic process generates a mutation of the 96 above mentioned categories. In this R package\, we provide a set of functions to extract and visualize the mutational signatures that best explain the mutation counts of a large number of patients.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SparseSignatures.html
-Versions      1.2.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sparsesignatures/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SparseSignatures.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-sparsesignatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsesignatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsesignatures/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sparsesignatures
 
-Installation
-------------
+   |downloads_bioconductor-sparsesignatures| |docker_bioconductor-sparsesignatures|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-bsgenome.hsapiens.1000genomes.hs37d5` >=0.99.0,<0.100.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-nmf`  :conda:package:`r-nnlasso`  :conda:package:`r-nnls`  
 
-   conda install bioconductor-sparsesignatures
+   :required~by: |required_by_bioconductor-sparsesignatures|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sparsesignatures
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sparsesignatures
+
+   and update with::
+
+      conda update bioconductor-sparsesignatures
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sparsesignatures
+
+
+.. |required_by_bioconductor-sparsesignatures| conda:required_by:: bioconductor-sparsesignatures
+.. |downloads_bioconductor-sparsesignatures| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sparsesignatures.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sparsesignatures| image:: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sparsesignatures.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sparsesignatures/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sparsesignatures/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sparsesignatures/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sparsesignatures/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sparsesignatures
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sparsesignatures/README.html
 

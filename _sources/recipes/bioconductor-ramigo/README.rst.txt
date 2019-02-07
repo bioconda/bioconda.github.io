@@ -1,56 +1,67 @@
-.. _`bioconductor-ramigo`:
+.. title:: Package Recipe 'bioconductor-ramigo'
+.. highlight: bash
+
 
 bioconductor-ramigo
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-ramigo
+   :replaces_section_title:
 
-R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, parsing GraphViz DOT format files and exporting GML files for Cytoscape. Deprecated\:Also uses RCytoscape to interactively display AmiGO trees in Cytoscape.
+   R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, parsing GraphViz DOT format files and exporting GML files for Cytoscape. Deprecated\:Also uses RCytoscape to interactively display AmiGO trees in Cytoscape.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/RamiGO.html
-Versions      1.28.0, 1.23.0, 1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ramigo/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/RamiGO.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ramigo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramigo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramigo/meta.yaml>`_
+   :links: biotools: :biotools:`ramigo`
 
-
-
-Links         biotools: :biotools:`ramigo`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ramigo
 
-Installation
-------------
+   |downloads_bioconductor-ramigo| |docker_bioconductor-ramigo|
 
-.. highlight: bash
+   :versions: 1.28.0, 1.23.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.58.0,<1.60.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-gsubfn`  :conda:package:`r-igraph`  :conda:package:`r-png`  :conda:package:`r-rcurl`  
 
-   conda install bioconductor-ramigo
+   :required~by: |required_by_bioconductor-ramigo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ramigo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ramigo
+
+   and update with::
+
+      conda update bioconductor-ramigo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ramigo
+
+
+.. |required_by_bioconductor-ramigo| conda:required_by:: bioconductor-ramigo
+.. |downloads_bioconductor-ramigo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ramigo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ramigo| image:: https://quay.io/repository/biocontainers/bioconductor-ramigo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ramigo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ramigo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ramigo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ramigo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ramigo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ramigo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ramigo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ramigo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ramigo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ramigo/README.html
 

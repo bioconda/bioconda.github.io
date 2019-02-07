@@ -1,54 +1,66 @@
-.. _`btrim`:
+.. title:: Package Recipe 'btrim'
+.. highlight: bash
+
 
 btrim
 =====
 
-|downloads|
+.. conda:recipe:: btrim
+   :replaces_section_title:
 
-This tool is made to remove \"tips\" \(short dead ends\) from a compacted de Bruijn graph and more generally to remove sequencing errors. Used in Bcool a short read corrector \(https\:\/\/arxiv.org\/abs\/1711.03336\)
+   This tool is made to remove \"tips\" \(short dead ends\) from a compacted de Bruijn graph and more generally to remove sequencing errors. Used in Bcool a short read corrector \(https\:\/\/arxiv.org\/abs\/1711.03336\)
 
-============= ===========
-Home          https://github.com/Malfoy/BTRIM
-Versions      1.0.1, 1.0.0
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//btrim/meta.yaml
+   :homepage: https://github.com/Malfoy/BTRIM
+   :license: AGPL-3.0
+   :recipe: /`btrim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btrim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btrim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: btrim
 
-Installation
-------------
+   |downloads_btrim| |docker_btrim|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install btrim
+   :required~by: |required_by_btrim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update btrim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install btrim
+
+   and update with::
+
+      conda update btrim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/btrim
+
+
+.. |required_by_btrim| conda:required_by:: btrim
+.. |downloads_btrim| image:: https://img.shields.io/conda/dn/bioconda/btrim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_btrim| image:: https://quay.io/repository/biocontainers/btrim/status
+   :target: https://quay.io/repository/biocontainers/btrim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/btrim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/btrim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/btrim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/btrim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/btrim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/btrim
-.. |docker| image:: https://quay.io/repository/biocontainers/btrim/status
-                :target: https://quay.io/repository/biocontainers/btrim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/btrim/README.html
 

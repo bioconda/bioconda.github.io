@@ -1,56 +1,67 @@
-.. _`super-focus`:
+.. title:: Package Recipe 'super-focus'
+.. highlight: bash
+
 
 super-focus
 ===========
 
-|downloads|
+.. conda:recipe:: super-focus
+   :replaces_section_title:
 
-SUPER\-FOCUS\: A tool for agile functional analysis of shotgun metagenomic data
+   SUPER\-FOCUS\: A tool for agile functional analysis of shotgun metagenomic data
 
-============= ===========
-Home          https://edwards.sdsu.edu/SUPERFOCUS
-Versions      0.33, 0.32, 0.31, 0.30, 0.29
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//super-focus/meta.yaml
+   :homepage: https://edwards.sdsu.edu/SUPERFOCUS
+   :developer docs: https://github.com/metageni/SUPER-FOCUS
+   :license: GPL / GPL-3.0
+   :recipe: /`super-focus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/super-focus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/super-focus/meta.yaml>`_
 
-
-Development   https://github.com/metageni/SUPER-FOCUS
-
-
-============= ===========
+   
 
 
+.. conda:package:: super-focus
 
-Installation
-------------
+   |downloads_super-focus| |docker_super-focus|
 
-.. highlight: bash
+   :versions: 0.33, 0.32, 0.31, 0.30, 0.29
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`diamond`  :conda:package:`jellyfish`  :conda:package:`numpy` >=1.12.1 :conda:package:`python` >=3 :conda:package:`rapsearch`  :conda:package:`scipy`  
 
-   conda install super-focus
+   :required~by: |required_by_super-focus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update super-focus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install super-focus
+
+   and update with::
+
+      conda update super-focus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/super-focus
+
+
+.. |required_by_super-focus| conda:required_by:: super-focus
+.. |downloads_super-focus| image:: https://img.shields.io/conda/dn/bioconda/super-focus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_super-focus| image:: https://quay.io/repository/biocontainers/super-focus/status
+   :target: https://quay.io/repository/biocontainers/super-focus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/super-focus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/super-focus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/super-focus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/super-focus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/super-focus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/super-focus
-.. |docker| image:: https://quay.io/repository/biocontainers/super-focus/status
-                :target: https://quay.io/repository/biocontainers/super-focus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/super-focus/README.html
 

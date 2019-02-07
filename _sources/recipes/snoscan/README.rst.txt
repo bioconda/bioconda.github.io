@@ -1,56 +1,67 @@
-.. _`snoscan`:
+.. title:: Package Recipe 'snoscan'
+.. highlight: bash
+
 
 snoscan
 =======
 
-|downloads|
+.. conda:recipe:: snoscan
+   :replaces_section_title:
 
-Search for C\/D box methylation guide snoRNA genes in a genomic sequence
+   Search for C\/D box methylation guide snoRNA genes in a genomic sequence
 
-============= ===========
-Home          http://lowelab.ucsc.edu/snoscan
-Versions      0.9b
-License       GNU General Public License, version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snoscan/meta.yaml
+   :homepage: http://lowelab.ucsc.edu/snoscan
+   :license: GNU General Public License, version 2
+   :recipe: /`snoscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snoscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snoscan/meta.yaml>`_
+   :links: biotools: :biotools:`snoscan`
 
-
-
-Links         biotools: :biotools:`snoscan`
-
-============= ===========
+   
 
 
+.. conda:package:: snoscan
 
-Installation
-------------
+   |downloads_snoscan| |docker_snoscan|
 
-.. highlight: bash
+   :versions: 0.9b
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
 
-   conda install snoscan
+   :required~by: |required_by_snoscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snoscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snoscan
+
+   and update with::
+
+      conda update snoscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snoscan
+
+
+.. |required_by_snoscan| conda:required_by:: snoscan
+.. |downloads_snoscan| image:: https://img.shields.io/conda/dn/bioconda/snoscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snoscan| image:: https://quay.io/repository/biocontainers/snoscan/status
+   :target: https://quay.io/repository/biocontainers/snoscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snoscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snoscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snoscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snoscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snoscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snoscan
-.. |docker| image:: https://quay.io/repository/biocontainers/snoscan/status
-                :target: https://quay.io/repository/biocontainers/snoscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snoscan/README.html
 

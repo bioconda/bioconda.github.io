@@ -1,54 +1,66 @@
-.. _`python-newick`:
+.. title:: Package Recipe 'python-newick'
+.. highlight: bash
+
 
 python-newick
 =============
 
-|downloads|
+.. conda:recipe:: python-newick
+   :replaces_section_title:
 
-A python module to read and write the Newick format
+   A python module to read and write the Newick format
 
-============= ===========
-Home          https://github.com/glottobank/python-newick
-Versions      0.9.2, 0.8.0
-License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-newick/meta.yaml
+   :homepage: https://github.com/glottobank/python-newick
+   :license: Apache / Apache License 2.0
+   :recipe: /`python-newick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-newick
 
-Installation
-------------
+   |downloads_python-newick| |docker_python-newick|
 
-.. highlight: bash
+   :versions: 0.9.2, 0.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install python-newick
+   :required~by: |required_by_python-newick|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-newick
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-newick
+
+   and update with::
+
+      conda update python-newick
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-newick
+
+
+.. |required_by_python-newick| conda:required_by:: python-newick
+.. |downloads_python-newick| image:: https://img.shields.io/conda/dn/bioconda/python-newick.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-newick| image:: https://quay.io/repository/biocontainers/python-newick/status
+   :target: https://quay.io/repository/biocontainers/python-newick
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-newick.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-newick/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-newick/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-newick/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-newick/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-newick
-.. |docker| image:: https://quay.io/repository/biocontainers/python-newick/status
-                :target: https://quay.io/repository/biocontainers/python-newick
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-newick/README.html
 

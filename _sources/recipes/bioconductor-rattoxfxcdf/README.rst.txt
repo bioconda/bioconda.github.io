@@ -1,54 +1,66 @@
-.. _`bioconductor-rattoxfxcdf`:
+.. title:: Package Recipe 'bioconductor-rattoxfxcdf'
+.. highlight: bash
+
 
 bioconductor-rattoxfxcdf
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rattoxfxcdf
+   :replaces_section_title:
 
-A package containing an environment representing the RatToxFX.cdf file.
+   A package containing an environment representing the RatToxFX.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/rattoxfxcdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rattoxfxcdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rattoxfxcdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-rattoxfxcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxcdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rattoxfxcdf
 
-Installation
-------------
+   |downloads_bioconductor-rattoxfxcdf| |docker_bioconductor-rattoxfxcdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rattoxfxcdf
+   :required~by: |required_by_bioconductor-rattoxfxcdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rattoxfxcdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rattoxfxcdf
+
+   and update with::
+
+      conda update bioconductor-rattoxfxcdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rattoxfxcdf
+
+
+.. |required_by_bioconductor-rattoxfxcdf| conda:required_by:: bioconductor-rattoxfxcdf
+.. |downloads_bioconductor-rattoxfxcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rattoxfxcdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rattoxfxcdf| image:: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rattoxfxcdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rattoxfxcdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rattoxfxcdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rattoxfxcdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rattoxfxcdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rattoxfxcdf/README.html
 

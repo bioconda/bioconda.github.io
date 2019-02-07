@@ -1,54 +1,66 @@
-.. _`bioconductor-karyoploter`:
+.. title:: Package Recipe 'bioconductor-karyoploter'
+.. highlight: bash
+
 
 bioconductor-karyoploter
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-karyoploter
+   :replaces_section_title:
 
-karyoploteR creates karyotype plots of arbitrary genomes and offers a complete set of functions to plot arbitrary data on them. It mimicks many R base graphics functions coupling them with a coordinate change function automatically mapping the chromosome and data coordinates into the plot coordinates. In addition to the provided data plotting functions\, it is easy to add new ones.
+   karyoploteR creates karyotype plots of arbitrary genomes and offers a complete set of functions to plot arbitrary data on them. It mimicks many R base graphics functions coupling them with a coordinate change function automatically mapping the chromosome and data coordinates into the plot coordinates. In addition to the provided data plotting functions\, it is easy to add new ones.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/karyoploteR.html
-Versions      1.8.5
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-karyoploter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/karyoploteR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-karyoploter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-karyoploter
 
-Installation
-------------
+   |downloads_bioconductor-karyoploter| |docker_bioconductor-karyoploter|
 
-.. highlight: bash
+   :versions: 1.8.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bamsignals` >=1.14.0,<1.15.0 :conda:package:`bioconductor-biovizbase` >=1.30.0,<1.31.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-regioner` >=1.14.0,<1.15.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bezier`  :conda:package:`r-digest`  :conda:package:`r-memoise`  
 
-   conda install bioconductor-karyoploter
+   :required~by: |required_by_bioconductor-karyoploter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-karyoploter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-karyoploter
+
+   and update with::
+
+      conda update bioconductor-karyoploter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-karyoploter
+
+
+.. |required_by_bioconductor-karyoploter| conda:required_by:: bioconductor-karyoploter
+.. |downloads_bioconductor-karyoploter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-karyoploter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-karyoploter| image:: https://quay.io/repository/biocontainers/bioconductor-karyoploter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-karyoploter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-karyoploter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-karyoploter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-karyoploter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-karyoploter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-karyoploter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-karyoploter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-karyoploter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-karyoploter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-karyoploter/README.html
 

@@ -1,54 +1,66 @@
-.. _`hulk`:
+.. title:: Package Recipe 'hulk'
+.. highlight: bash
+
 
 hulk
 ====
 
-|downloads|
+.. conda:recipe:: hulk
+   :replaces_section_title:
 
-Histosketching Using Little Kmers.
+   Histosketching Using Little Kmers.
 
-============= ===========
-Home          https://github.com/will-rowe/hulk
-Versions      0.1.2, 0.1.0, 0.0.2, 0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hulk/meta.yaml
+   :homepage: https://github.com/will-rowe/hulk
+   :license: MIT
+   :recipe: /`hulk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hulk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hulk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hulk
 
-Installation
-------------
+   |downloads_hulk| |docker_hulk|
 
-.. highlight: bash
+   :versions: 0.1.2, 0.1.0, 0.0.2, 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install hulk
+   :required~by: |required_by_hulk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hulk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hulk
+
+   and update with::
+
+      conda update hulk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hulk
+
+
+.. |required_by_hulk| conda:required_by:: hulk
+.. |downloads_hulk| image:: https://img.shields.io/conda/dn/bioconda/hulk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hulk| image:: https://quay.io/repository/biocontainers/hulk/status
+   :target: https://quay.io/repository/biocontainers/hulk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hulk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hulk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hulk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hulk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hulk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hulk
-.. |docker| image:: https://quay.io/repository/biocontainers/hulk/status
-                :target: https://quay.io/repository/biocontainers/hulk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hulk/README.html
 

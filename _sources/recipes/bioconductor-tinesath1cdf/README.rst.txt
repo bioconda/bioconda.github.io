@@ -1,54 +1,66 @@
-.. _`bioconductor-tinesath1cdf`:
+.. title:: Package Recipe 'bioconductor-tinesath1cdf'
+.. highlight: bash
+
 
 bioconductor-tinesath1cdf
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-tinesath1cdf
+   :replaces_section_title:
 
-A package containing an environment represeting the newcdf\/tinesATH1.cdf.cdf file.
+   A package containing an environment represeting the newcdf\/tinesATH1.cdf.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/tinesath1cdf.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tinesath1cdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/tinesath1cdf.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-tinesath1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1cdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tinesath1cdf
 
-Installation
-------------
+   |downloads_bioconductor-tinesath1cdf| |docker_bioconductor-tinesath1cdf|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-tinesath1cdf
+   :required~by: |required_by_bioconductor-tinesath1cdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tinesath1cdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tinesath1cdf
+
+   and update with::
+
+      conda update bioconductor-tinesath1cdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tinesath1cdf
+
+
+.. |required_by_bioconductor-tinesath1cdf| conda:required_by:: bioconductor-tinesath1cdf
+.. |downloads_bioconductor-tinesath1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tinesath1cdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tinesath1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tinesath1cdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tinesath1cdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tinesath1cdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tinesath1cdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tinesath1cdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tinesath1cdf/README.html
 

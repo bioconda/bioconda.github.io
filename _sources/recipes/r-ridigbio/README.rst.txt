@@ -1,54 +1,66 @@
-.. _`r-ridigbio`:
+.. title:: Package Recipe 'r-ridigbio'
+.. highlight: bash
+
 
 r-ridigbio
 ==========
 
-|downloads|
+.. conda:recipe:: r-ridigbio
+   :replaces_section_title:
 
-An interface to iDigBio\'s search API that allows downloading specimen records. Searches are returned as a data.frame. Other functions such as the metadata end points return lists of information. iDigBio is a US project focused on digitizing and serving museum specimen collections on the web. See \<https\:\/\/www.idigbio.org\> for information on iDigBio.
+   An interface to iDigBio\'s search API that allows downloading specimen records. Searches are returned as a data.frame. Other functions such as the metadata end points return lists of information. iDigBio is a US project focused on digitizing and serving museum specimen collections on the web. See \<https\:\/\/www.idigbio.org\> for information on iDigBio.
 
-============= ===========
-Home          https://github.com/iDigBio/ridigbio
-Versions      0.3.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ridigbio/meta.yaml
+   :homepage: https://github.com/iDigBio/ridigbio
+   :license: MIT / MIT
+   :recipe: /`r-ridigbio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ridigbio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ridigbio/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-ridigbio
 
-Installation
-------------
+   |downloads_r-ridigbio| |docker_r-ridigbio|
 
-.. highlight: bash
+   :versions: 0.3.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-httr`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  
 
-   conda install r-ridigbio
+   :required~by: |required_by_r-ridigbio|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-ridigbio
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-ridigbio
+
+   and update with::
+
+      conda update r-ridigbio
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-ridigbio
+
+
+.. |required_by_r-ridigbio| conda:required_by:: r-ridigbio
+.. |downloads_r-ridigbio| image:: https://img.shields.io/conda/dn/bioconda/r-ridigbio.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-ridigbio| image:: https://quay.io/repository/biocontainers/r-ridigbio/status
+   :target: https://quay.io/repository/biocontainers/r-ridigbio
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-ridigbio.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ridigbio/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ridigbio/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-ridigbio/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-ridigbio/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-ridigbio
-.. |docker| image:: https://quay.io/repository/biocontainers/r-ridigbio/status
-                :target: https://quay.io/repository/biocontainers/r-ridigbio
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-ridigbio/README.html
 

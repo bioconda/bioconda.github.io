@@ -1,54 +1,66 @@
-.. _`prophex`:
+.. title:: Package Recipe 'prophex'
+.. highlight: bash
+
 
 prophex
 =======
 
-|downloads|
+.. conda:recipe:: prophex
+   :replaces_section_title:
 
-The ProPhex k\-mer index.
+   The ProPhex k\-mer index.
 
-============= ===========
-Home          https://github.com/prophyle/prophex
-Versions      0.1.1, 0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prophex/meta.yaml
+   :homepage: https://github.com/prophyle/prophex
+   :license: MIT
+   :recipe: /`prophex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophex/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: prophex
 
-Installation
-------------
+   |downloads_prophex| |docker_prophex|
 
-.. highlight: bash
+   :versions: 0.1.1, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install prophex
+   :required~by: |required_by_prophex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update prophex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install prophex
+
+   and update with::
+
+      conda update prophex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/prophex
+
+
+.. |required_by_prophex| conda:required_by:: prophex
+.. |downloads_prophex| image:: https://img.shields.io/conda/dn/bioconda/prophex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_prophex| image:: https://quay.io/repository/biocontainers/prophex/status
+   :target: https://quay.io/repository/biocontainers/prophex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/prophex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/prophex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/prophex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/prophex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/prophex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/prophex
-.. |docker| image:: https://quay.io/repository/biocontainers/prophex/status
-                :target: https://quay.io/repository/biocontainers/prophex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/prophex/README.html
 

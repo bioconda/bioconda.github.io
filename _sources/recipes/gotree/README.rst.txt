@@ -1,54 +1,66 @@
-.. _`gotree`:
+.. title:: Package Recipe 'gotree'
+.. highlight: bash
+
 
 gotree
 ======
 
-|downloads|
+.. conda:recipe:: gotree
+   :replaces_section_title:
 
-GoTree is a set of command line tools to manipulate phylogenetic trees.
+   GoTree is a set of command line tools to manipulate phylogenetic trees.
 
-============= ===========
-Home          https://github.com/fredericlemoine/gotree
-Versions      0.2.10
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gotree/meta.yaml
+   :homepage: https://github.com/fredericlemoine/gotree
+   :license: GPL-2.0
+   :recipe: /`gotree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gotree
 
-Installation
-------------
+   |downloads_gotree| |docker_gotree|
 
-.. highlight: bash
+   :versions: 0.2.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install gotree
+   :required~by: |required_by_gotree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gotree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gotree
+
+   and update with::
+
+      conda update gotree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gotree
+
+
+.. |required_by_gotree| conda:required_by:: gotree
+.. |downloads_gotree| image:: https://img.shields.io/conda/dn/bioconda/gotree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gotree| image:: https://quay.io/repository/biocontainers/gotree/status
+   :target: https://quay.io/repository/biocontainers/gotree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gotree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gotree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gotree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gotree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gotree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gotree
-.. |docker| image:: https://quay.io/repository/biocontainers/gotree/status
-                :target: https://quay.io/repository/biocontainers/gotree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gotree/README.html
 

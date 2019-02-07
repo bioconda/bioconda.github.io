@@ -1,54 +1,66 @@
-.. _`ucsc-fanoise`:
+.. title:: Package Recipe 'ucsc-fanoise'
+.. highlight: bash
+
 
 ucsc-fanoise
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-fanoise
+   :replaces_section_title:
 
-Add noise to .fa file
+   Add noise to .fa file
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-fanoise/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-fanoise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fanoise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fanoise/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-fanoise
 
-Installation
-------------
+   |downloads_ucsc-fanoise| |docker_ucsc-fanoise|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-fanoise
+   :required~by: |required_by_ucsc-fanoise|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-fanoise
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-fanoise
+
+   and update with::
+
+      conda update ucsc-fanoise
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-fanoise
+
+
+.. |required_by_ucsc-fanoise| conda:required_by:: ucsc-fanoise
+.. |downloads_ucsc-fanoise| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fanoise.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-fanoise| image:: https://quay.io/repository/biocontainers/ucsc-fanoise/status
+   :target: https://quay.io/repository/biocontainers/ucsc-fanoise
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-fanoise.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-fanoise/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-fanoise/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-fanoise/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-fanoise/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-fanoise
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fanoise/status
-                :target: https://quay.io/repository/biocontainers/ucsc-fanoise
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-fanoise/README.html
 

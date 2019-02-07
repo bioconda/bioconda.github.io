@@ -1,56 +1,67 @@
-.. _`simka`:
+.. title:: Package Recipe 'simka'
+.. highlight: bash
+
 
 simka
 =====
 
-|downloads|
+.. conda:recipe:: simka
+   :replaces_section_title:
 
-Simka is a de novo comparative metagenomics tool. Simka represents each dataset as a k\-mer spectrum and compute several classical ecological distances between them.
+   Simka is a de novo comparative metagenomics tool. Simka represents each dataset as a k\-mer spectrum and compute several classical ecological distances between them.
 
-============= ===========
-Home          https://github.com/GATB/simka
-Versions      1.4.0
-License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//simka/meta.yaml
+   :homepage: https://github.com/GATB/simka
+   :license: file
+   :recipe: /`simka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simka/meta.yaml>`_
+   :links: biotools: :biotools:`Simka`, doi: :doi:`10.7717/peerj-cs.94`
 
-
-
-Links         biotools: :biotools:`Simka`, doi: :doi:`10.7717/peerj-cs.94`
-
-============= ===========
+   
 
 
+.. conda:package:: simka
 
-Installation
-------------
+   |downloads_simka| |docker_simka|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install simka
+   :required~by: |required_by_simka|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update simka
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install simka
+
+   and update with::
+
+      conda update simka
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/simka
+
+
+.. |required_by_simka| conda:required_by:: simka
+.. |downloads_simka| image:: https://img.shields.io/conda/dn/bioconda/simka.svg?style=flat
+   :alt:   (downloads)
+.. |docker_simka| image:: https://quay.io/repository/biocontainers/simka/status
+   :target: https://quay.io/repository/biocontainers/simka
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/simka.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/simka/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/simka/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/simka/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/simka/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/simka
-.. |docker| image:: https://quay.io/repository/biocontainers/simka/status
-                :target: https://quay.io/repository/biocontainers/simka
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/simka/README.html
 

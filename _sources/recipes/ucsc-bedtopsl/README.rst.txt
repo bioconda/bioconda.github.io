@@ -1,54 +1,66 @@
-.. _`ucsc-bedtopsl`:
+.. title:: Package Recipe 'ucsc-bedtopsl'
+.. highlight: bash
+
 
 ucsc-bedtopsl
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-bedtopsl
+   :replaces_section_title:
 
-convert bed format files to psl format
+   convert bed format files to psl format
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bedtopsl/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-bedtopsl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtopsl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtopsl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-bedtopsl
 
-Installation
-------------
+   |downloads_ucsc-bedtopsl| |docker_ucsc-bedtopsl|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-bedtopsl
+   :required~by: |required_by_ucsc-bedtopsl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-bedtopsl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-bedtopsl
+
+   and update with::
+
+      conda update ucsc-bedtopsl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-bedtopsl
+
+
+.. |required_by_ucsc-bedtopsl| conda:required_by:: ucsc-bedtopsl
+.. |downloads_ucsc-bedtopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedtopsl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-bedtopsl| image:: https://quay.io/repository/biocontainers/ucsc-bedtopsl/status
+   :target: https://quay.io/repository/biocontainers/ucsc-bedtopsl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-bedtopsl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-bedtopsl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-bedtopsl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-bedtopsl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-bedtopsl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-bedtopsl
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedtopsl/status
-                :target: https://quay.io/repository/biocontainers/ucsc-bedtopsl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-bedtopsl/README.html
 

@@ -1,54 +1,66 @@
-.. _`msaboot`:
+.. title:: Package Recipe 'msaboot'
+.. highlight: bash
+
 
 msaboot
 =======
 
-|downloads|
+.. conda:recipe:: msaboot
+   :replaces_section_title:
 
-Generate bootstrapping replicates for multiple sequence alignment data.
+   Generate bootstrapping replicates for multiple sequence alignment data.
 
-============= ===========
-Home          https://github.com/phac-nml/msaboot
-Versions      0.1.2, 0.1.1, 0.1.0
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//msaboot/meta.yaml
+   :homepage: https://github.com/phac-nml/msaboot
+   :license: Apache 2.0
+   :recipe: /`msaboot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaboot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaboot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: msaboot
 
-Installation
-------------
+   |downloads_msaboot| |docker_msaboot|
 
-.. highlight: bash
+   :versions: 0.1.2, 0.1.1, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install msaboot
+   :required~by: |required_by_msaboot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update msaboot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install msaboot
+
+   and update with::
+
+      conda update msaboot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/msaboot
+
+
+.. |required_by_msaboot| conda:required_by:: msaboot
+.. |downloads_msaboot| image:: https://img.shields.io/conda/dn/bioconda/msaboot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_msaboot| image:: https://quay.io/repository/biocontainers/msaboot/status
+   :target: https://quay.io/repository/biocontainers/msaboot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/msaboot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/msaboot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/msaboot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/msaboot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/msaboot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/msaboot
-.. |docker| image:: https://quay.io/repository/biocontainers/msaboot/status
-                :target: https://quay.io/repository/biocontainers/msaboot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/msaboot/README.html
 

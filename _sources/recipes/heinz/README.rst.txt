@@ -1,54 +1,66 @@
-.. _`heinz`:
+.. title:: Package Recipe 'heinz'
+.. highlight: bash
+
 
 heinz
 =====
 
-|downloads|
+.. conda:recipe:: heinz
+   :replaces_section_title:
 
-The algorithm for identification of the optimal scoring subnetwork.
+   The algorithm for identification of the optimal scoring subnetwork.
 
-============= ===========
-Home          https://github.com/ls-cwi/heinz
-Versions      2.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//heinz/meta.yaml
+   :homepage: https://github.com/ls-cwi/heinz
+   :license: MIT
+   :recipe: /`heinz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heinz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heinz/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: heinz
 
-Installation
-------------
+   |downloads_heinz| |docker_heinz|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install heinz
+   :required~by: |required_by_heinz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update heinz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install heinz
+
+   and update with::
+
+      conda update heinz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/heinz
+
+
+.. |required_by_heinz| conda:required_by:: heinz
+.. |downloads_heinz| image:: https://img.shields.io/conda/dn/bioconda/heinz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_heinz| image:: https://quay.io/repository/biocontainers/heinz/status
+   :target: https://quay.io/repository/biocontainers/heinz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/heinz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/heinz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/heinz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/heinz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/heinz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/heinz
-.. |docker| image:: https://quay.io/repository/biocontainers/heinz/status
-                :target: https://quay.io/repository/biocontainers/heinz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/heinz/README.html
 

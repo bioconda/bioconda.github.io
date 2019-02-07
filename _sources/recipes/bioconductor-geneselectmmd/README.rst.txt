@@ -1,54 +1,66 @@
-.. _`bioconductor-geneselectmmd`:
+.. title:: Package Recipe 'bioconductor-geneselectmmd'
+.. highlight: bash
+
 
 bioconductor-geneselectmmd
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-geneselectmmd
+   :replaces_section_title:
 
-Gene selection based on a mixture of marginal distributions
+   Gene selection based on a mixture of marginal distributions
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneSelectMMD.html
-Versions      2.26.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneselectmmd/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneSelectMMD.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-geneselectmmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geneselectmmd
 
-Installation
-------------
+   |downloads_bioconductor-geneselectmmd| |docker_bioconductor-geneselectmmd|
 
-.. highlight: bash
+   :versions: 2.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-survival`  
 
-   conda install bioconductor-geneselectmmd
+   :required~by: |required_by_bioconductor-geneselectmmd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geneselectmmd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geneselectmmd
+
+   and update with::
+
+      conda update bioconductor-geneselectmmd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geneselectmmd
+
+
+.. |required_by_bioconductor-geneselectmmd| conda:required_by:: bioconductor-geneselectmmd
+.. |downloads_bioconductor-geneselectmmd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneselectmmd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geneselectmmd| image:: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geneselectmmd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geneselectmmd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geneselectmmd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geneselectmmd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geneselectmmd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geneselectmmd
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geneselectmmd/README.html
 

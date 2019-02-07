@@ -1,54 +1,66 @@
-.. _`bioconductor-htmg430bcdf`:
+.. title:: Package Recipe 'bioconductor-htmg430bcdf'
+.. highlight: bash
+
 
 bioconductor-htmg430bcdf
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-htmg430bcdf
+   :replaces_section_title:
 
-A package containing an environment representing the HT\_MG\-430B.cdf file.
+   A package containing an environment representing the HT\_MG\-430B.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/htmg430bcdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htmg430bcdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/htmg430bcdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-htmg430bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bcdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-htmg430bcdf
 
-Installation
-------------
+   |downloads_bioconductor-htmg430bcdf| |docker_bioconductor-htmg430bcdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-htmg430bcdf
+   :required~by: |required_by_bioconductor-htmg430bcdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-htmg430bcdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-htmg430bcdf
+
+   and update with::
+
+      conda update bioconductor-htmg430bcdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-htmg430bcdf
+
+
+.. |required_by_bioconductor-htmg430bcdf| conda:required_by:: bioconductor-htmg430bcdf
+.. |downloads_bioconductor-htmg430bcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htmg430bcdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-htmg430bcdf| image:: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-htmg430bcdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-htmg430bcdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-htmg430bcdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-htmg430bcdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-htmg430bcdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-htmg430bcdf/README.html
 

@@ -1,54 +1,66 @@
-.. _`bitstring`:
+.. title:: Package Recipe 'bitstring'
+.. highlight: bash
+
 
 bitstring
 =========
 
-|downloads|
+.. conda:recipe:: bitstring
+   :replaces_section_title:
 
-Simple construction\, analysis and modification of binary data.
+   Simple construction\, analysis and modification of binary data.
 
-============= ===========
-Home          https://github.com/scott-griffiths/bitstring
-Versions      3.1.5
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bitstring/meta.yaml
+   :homepage: https://github.com/scott-griffiths/bitstring
+   :license: MIT / MIT License
+   :recipe: /`bitstring <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bitstring>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bitstring/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bitstring
 
-Installation
-------------
+   |downloads_bitstring| |docker_bitstring|
 
-.. highlight: bash
+   :versions: 3.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install bitstring
+   :required~by: |required_by_bitstring|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bitstring
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bitstring
+
+   and update with::
+
+      conda update bitstring
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bitstring
+
+
+.. |required_by_bitstring| conda:required_by:: bitstring
+.. |downloads_bitstring| image:: https://img.shields.io/conda/dn/bioconda/bitstring.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bitstring| image:: https://quay.io/repository/biocontainers/bitstring/status
+   :target: https://quay.io/repository/biocontainers/bitstring
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bitstring.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bitstring/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bitstring/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bitstring/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bitstring/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bitstring
-.. |docker| image:: https://quay.io/repository/biocontainers/bitstring/status
-                :target: https://quay.io/repository/biocontainers/bitstring
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bitstring/README.html
 

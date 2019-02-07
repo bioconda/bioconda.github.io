@@ -1,54 +1,66 @@
-.. _`pycoqc`:
+.. title:: Package Recipe 'pycoqc'
+.. highlight: bash
+
 
 pycoqc
 ======
 
-|downloads|
+.. conda:recipe:: pycoqc
+   :replaces_section_title:
 
-Python 3 package for Jupyter Notebook\, computing metrics and generating plots from Oxford Nanopore Albacore report
+   Python 3 package for Jupyter Notebook\, computing metrics and generating plots from Oxford Nanopore Albacore report
 
-============= ===========
-Home          https://github.com/a-slide/pycoQC
-Versions      1.0.alpha1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pycoqc/meta.yaml
+   :homepage: https://github.com/a-slide/pycoQC
+   :license: GPL / GPL-3.0
+   :recipe: /`pycoqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pycoqc
 
-Installation
-------------
+   |downloads_pycoqc| |docker_pycoqc|
 
-.. highlight: bash
+   :versions: 1.0.alpha1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`notebook`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`seaborn`  
 
-   conda install pycoqc
+   :required~by: |required_by_pycoqc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pycoqc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pycoqc
+
+   and update with::
+
+      conda update pycoqc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pycoqc
+
+
+.. |required_by_pycoqc| conda:required_by:: pycoqc
+.. |downloads_pycoqc| image:: https://img.shields.io/conda/dn/bioconda/pycoqc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pycoqc| image:: https://quay.io/repository/biocontainers/pycoqc/status
+   :target: https://quay.io/repository/biocontainers/pycoqc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pycoqc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pycoqc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pycoqc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pycoqc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pycoqc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pycoqc
-.. |docker| image:: https://quay.io/repository/biocontainers/pycoqc/status
-                :target: https://quay.io/repository/biocontainers/pycoqc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pycoqc/README.html
 

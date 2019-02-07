@@ -1,56 +1,67 @@
-.. _`bioconductor-hibag`:
+.. title:: Package Recipe 'bioconductor-hibag'
+.. highlight: bash
+
 
 bioconductor-hibag
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-hibag
+   :replaces_section_title:
 
-It is a software package for imputing HLA types using SNP data\, and relies on a training set of HLA and SNP genotypes. HIBAG can be used by researchers with published parameter estimates instead of requiring access to large training sample datasets. It combines the concepts of attribute bagging\, an ensemble classifier method\, with haplotype inference for SNPs and HLA types. Attribute bagging is a technique which improves the accuracy and stability of classifier ensembles using bootstrap aggregating and random variable selection.
+   It is a software package for imputing HLA types using SNP data\, and relies on a training set of HLA and SNP genotypes. HIBAG can be used by researchers with published parameter estimates instead of requiring access to large training sample datasets. It combines the concepts of attribute bagging\, an ensemble classifier method\, with haplotype inference for SNPs and HLA types. Attribute bagging is a technique which improves the accuracy and stability of classifier ensembles using bootstrap aggregating and random variable selection.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HIBAG.html
-Versions      1.18.1, 1.16.0, 1.14.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hibag/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HIBAG.html
+   :license: GPL-3
+   :recipe: /`bioconductor-hibag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag/meta.yaml>`_
+   :links: biotools: :biotools:`hibag`
 
-
-
-Links         biotools: :biotools:`hibag`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hibag
 
-Installation
-------------
+   |downloads_bioconductor-hibag| |docker_bioconductor-hibag|
 
-.. highlight: bash
+   :versions: 1.18.1, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-hibag
+   :required~by: |required_by_bioconductor-hibag|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hibag
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hibag
+
+   and update with::
+
+      conda update bioconductor-hibag
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hibag
+
+
+.. |required_by_bioconductor-hibag| conda:required_by:: bioconductor-hibag
+.. |downloads_bioconductor-hibag| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hibag.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hibag| image:: https://quay.io/repository/biocontainers/bioconductor-hibag/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hibag
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hibag.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hibag/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hibag/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hibag/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hibag/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hibag
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hibag/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hibag
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hibag/README.html
 

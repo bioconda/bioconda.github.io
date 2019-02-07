@@ -1,54 +1,66 @@
-.. _`card_trick`:
+.. title:: Package Recipe 'card_trick'
+.. highlight: bash
+
 
 card_trick
 ==========
 
-|downloads|
+.. conda:recipe:: card_trick
+   :replaces_section_title:
 
-Utility package to find gene \<\-\> drug relationships within CARD
+   Utility package to find gene \<\-\> drug relationships within CARD
 
-============= ===========
-Home          https://gitlab.com/cgps/card_trick
-Versions      0.1.2, 0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//card_trick/meta.yaml
+   :homepage: https://gitlab.com/cgps/card_trick
+   :license: MIT / MIT
+   :recipe: /`card_trick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/card_trick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/card_trick/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: card_trick
 
-Installation
-------------
+   |downloads_card_trick| |docker_card_trick|
 
-.. highlight: bash
+   :versions: 0.1.2, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pronto`  :conda:package:`python` >3 :conda:package:`requests`  
 
-   conda install card_trick
+   :required~by: |required_by_card_trick|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update card_trick
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install card_trick
+
+   and update with::
+
+      conda update card_trick
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/card_trick
+
+
+.. |required_by_card_trick| conda:required_by:: card_trick
+.. |downloads_card_trick| image:: https://img.shields.io/conda/dn/bioconda/card_trick.svg?style=flat
+   :alt:   (downloads)
+.. |docker_card_trick| image:: https://quay.io/repository/biocontainers/card_trick/status
+   :target: https://quay.io/repository/biocontainers/card_trick
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/card_trick.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/card_trick/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/card_trick/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/card_trick/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/card_trick/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/card_trick
-.. |docker| image:: https://quay.io/repository/biocontainers/card_trick/status
-                :target: https://quay.io/repository/biocontainers/card_trick
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/card_trick/README.html
 

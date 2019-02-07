@@ -1,54 +1,66 @@
-.. _`bioconductor-omicspca`:
+.. title:: Package Recipe 'bioconductor-omicspca'
+.. highlight: bash
+
 
 bioconductor-omicspca
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-omicspca
+   :replaces_section_title:
 
-OMICsPCA is an analysis pipeline designed to integrate multi OMICs experiments done on various subjects \(e.g. Cell lines\, individuals\)\, treatments \(e.g. disease\/control\) or time points and to analyse such integrated data from various various angles and perspectives. In it\'s core OMICsPCA uses Principal Component Analysis \(PCA\) to integrate multiomics experiments from various sources and thus has ability to over data insufficiency issues by using the ingegrated data as representatives. OMICsPCA can be used in various application including analysis of overall distribution of OMICs assays across various samples \/individuals \/time points\; grouping assays by user\-defined conditions\; identification of source of variation\, similarity\/dissimilarity between assays\, variables or individuals.
+   OMICsPCA is an analysis pipeline designed to integrate multi OMICs experiments done on various subjects \(e.g. Cell lines\, individuals\)\, treatments \(e.g. disease\/control\) or time points and to analyse such integrated data from various various angles and perspectives. In it\'s core OMICsPCA uses Principal Component Analysis \(PCA\) to integrate multiomics experiments from various sources and thus has ability to over data insufficiency issues by using the ingegrated data as representatives. OMICsPCA can be used in various application including analysis of overall distribution of OMICs assays across various samples \/individuals \/time points\; grouping assays by user\-defined conditions\; identification of source of variation\, similarity\/dissimilarity between assays\, variables or individuals.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/OMICsPCA.html
-Versions      
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omicspca/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OMICsPCA.html
+   :license: GPL-3
+   :recipe: /`bioconductor-omicspca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-omicspca
 
-Installation
-------------
+   |downloads_bioconductor-omicspca| |docker_bioconductor-omicspca|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-omicspca
+   :required~by: |required_by_bioconductor-omicspca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-omicspca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-omicspca
+
+   and update with::
+
+      conda update bioconductor-omicspca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-omicspca
+
+
+.. |required_by_bioconductor-omicspca| conda:required_by:: bioconductor-omicspca
+.. |downloads_bioconductor-omicspca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicspca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-omicspca| image:: https://quay.io/repository/biocontainers/bioconductor-omicspca/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-omicspca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-omicspca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-omicspca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-omicspca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-omicspca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-omicspca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-omicspca
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-omicspca/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-omicspca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-omicspca/README.html
 

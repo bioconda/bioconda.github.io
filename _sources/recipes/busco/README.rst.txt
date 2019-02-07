@@ -1,56 +1,67 @@
-.. _`busco`:
+.. title:: Package Recipe 'busco'
+.. highlight: bash
+
 
 busco
 =====
 
-|downloads|
+.. conda:recipe:: busco
+   :replaces_section_title:
 
-BUSCO provides measures for quantitative assessment of genome assembly\, gene set\, and transcriptome completeness based on evolutionarily informed expectations of gene content from near\-universal single\-copy orthologs selected from OrthoDB.
+   BUSCO provides measures for quantitative assessment of genome assembly\, gene set\, and transcriptome completeness based on evolutionarily informed expectations of gene content from near\-universal single\-copy orthologs selected from OrthoDB.
 
-============= ===========
-Home          http://busco.ezlab.org/
-Versions      3.0.2, 3.0.1, 2.0.1, 2.0, 1.2
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//busco/meta.yaml
+   :homepage: http://busco.ezlab.org/
+   :license: GPL
+   :recipe: /`busco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco/meta.yaml>`_
+   :links: biotools: :biotools:`busco`, doi: :doi:`10.1093/bioinformatics/btv351`
 
-
-
-Links         biotools: :biotools:`busco`, doi: :doi:`10.1093/bioinformatics/btv351`
-
-============= ===========
+   
 
 
+.. conda:package:: busco
 
-Installation
-------------
+   |downloads_busco| |docker_busco|
 
-.. highlight: bash
+   :versions: 3.0.2, 3.0.1, 2.0.1, 2.0, 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`augustus` >=3.2.3 :conda:package:`blast` >=2.2,<2.4 :conda:package:`findutils`  :conda:package:`hmmer`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-ggplot2` >=2.2.1 
 
-   conda install busco
+   :required~by: |required_by_busco|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update busco
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install busco
+
+   and update with::
+
+      conda update busco
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/busco
+
+
+.. |required_by_busco| conda:required_by:: busco
+.. |downloads_busco| image:: https://img.shields.io/conda/dn/bioconda/busco.svg?style=flat
+   :alt:   (downloads)
+.. |docker_busco| image:: https://quay.io/repository/biocontainers/busco/status
+   :target: https://quay.io/repository/biocontainers/busco
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/busco.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/busco/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/busco/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/busco/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/busco/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/busco
-.. |docker| image:: https://quay.io/repository/biocontainers/busco/status
-                :target: https://quay.io/repository/biocontainers/busco
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/busco/README.html
 

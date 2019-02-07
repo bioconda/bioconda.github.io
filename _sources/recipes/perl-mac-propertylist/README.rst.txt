@@ -1,54 +1,66 @@
-.. _`perl-mac-propertylist`:
+.. title:: Package Recipe 'perl-mac-propertylist'
+.. highlight: bash
+
 
 perl-mac-propertylist
 =====================
 
-|downloads|
+.. conda:recipe:: perl-mac-propertylist
+   :replaces_section_title:
 
-work with Mac plists at a low level
+   work with Mac plists at a low level
 
-============= ===========
-Home          https://github.com/briandfoy/mac-propertylist
-Versions      1.413
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mac-propertylist/meta.yaml
+   :homepage: https://github.com/briandfoy/mac-propertylist
+   :license: artistic_2
+   :recipe: /`perl-mac-propertylist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mac-propertylist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mac-propertylist/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mac-propertylist
 
-Installation
-------------
+   |downloads_perl-mac-propertylist| |docker_perl-mac-propertylist|
 
-.. highlight: bash
+   :versions: 1.413
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-math-bigint`  :conda:package:`perl-mime-base64`  :conda:package:`perl-parent`  :conda:package:`perl-time-local`  :conda:package:`perl-xml-entities`  
 
-   conda install perl-mac-propertylist
+   :required~by: |required_by_perl-mac-propertylist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mac-propertylist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mac-propertylist
+
+   and update with::
+
+      conda update perl-mac-propertylist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mac-propertylist
+
+
+.. |required_by_perl-mac-propertylist| conda:required_by:: perl-mac-propertylist
+.. |downloads_perl-mac-propertylist| image:: https://img.shields.io/conda/dn/bioconda/perl-mac-propertylist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mac-propertylist| image:: https://quay.io/repository/biocontainers/perl-mac-propertylist/status
+   :target: https://quay.io/repository/biocontainers/perl-mac-propertylist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mac-propertylist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mac-propertylist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mac-propertylist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mac-propertylist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mac-propertylist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mac-propertylist
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mac-propertylist/status
-                :target: https://quay.io/repository/biocontainers/perl-mac-propertylist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mac-propertylist/README.html
 

@@ -1,56 +1,67 @@
-.. _`last`:
+.. title:: Package Recipe 'last'
+.. highlight: bash
+
 
 last
 ====
 
-|downloads|
+.. conda:recipe:: last
+   :replaces_section_title:
 
-LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
+   LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
 
-============= ===========
-Home          http://last.cbrc.jp/
-Versions      963, 941, 876, 874, 847, 719, 638, 490
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//last/meta.yaml
+   :homepage: http://last.cbrc.jp/
+   :license: GPL / GPLv3
+   :recipe: /`last <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last/meta.yaml>`_
+   :links: biotools: :biotools:`last`
 
-
-
-Links         biotools: :biotools:`last`
-
-============= ===========
+   
 
 
+.. conda:package:: last
 
-Installation
-------------
+   |downloads_last| |docker_last|
 
-.. highlight: bash
+   :versions: 963, 941, 876, 874, 847, 719, 638, 490
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`parallel`  :conda:package:`pillow`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install last
+   :required~by: |required_by_last|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update last
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install last
+
+   and update with::
+
+      conda update last
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/last
+
+
+.. |required_by_last| conda:required_by:: last
+.. |downloads_last| image:: https://img.shields.io/conda/dn/bioconda/last.svg?style=flat
+   :alt:   (downloads)
+.. |docker_last| image:: https://quay.io/repository/biocontainers/last/status
+   :target: https://quay.io/repository/biocontainers/last
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/last.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/last/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/last/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/last/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/last/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/last
-.. |docker| image:: https://quay.io/repository/biocontainers/last/status
-                :target: https://quay.io/repository/biocontainers/last
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/last/README.html
 

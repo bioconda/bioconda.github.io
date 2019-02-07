@@ -1,54 +1,66 @@
-.. _`hic2cool`:
+.. title:: Package Recipe 'hic2cool'
+.. highlight: bash
+
 
 hic2cool
 ========
 
-|downloads|
+.. conda:recipe:: hic2cool
+   :replaces_section_title:
 
-A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
+   A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
 
-============= ===========
-Home          https://github.com/4dn-dcic/hic2cool
-Versions      0.4.2, 0.4.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hic2cool/meta.yaml
+   :homepage: https://github.com/4dn-dcic/hic2cool
+   :license: MIT
+   :recipe: /`hic2cool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic2cool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic2cool/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hic2cool
 
-Installation
-------------
+   |downloads_hic2cool| |docker_hic2cool|
 
-.. highlight: bash
+   :versions: 0.4.2, 0.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cooler` >=0.7.2 :conda:package:`h5py` >=2.5.0 :conda:package:`numpy` >=1.10.1 :conda:package:`python`  
 
-   conda install hic2cool
+   :required~by: |required_by_hic2cool|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hic2cool
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hic2cool
+
+   and update with::
+
+      conda update hic2cool
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hic2cool
+
+
+.. |required_by_hic2cool| conda:required_by:: hic2cool
+.. |downloads_hic2cool| image:: https://img.shields.io/conda/dn/bioconda/hic2cool.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hic2cool| image:: https://quay.io/repository/biocontainers/hic2cool/status
+   :target: https://quay.io/repository/biocontainers/hic2cool
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hic2cool.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hic2cool/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hic2cool/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hic2cool/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hic2cool/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hic2cool
-.. |docker| image:: https://quay.io/repository/biocontainers/hic2cool/status
-                :target: https://quay.io/repository/biocontainers/hic2cool
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hic2cool/README.html
 

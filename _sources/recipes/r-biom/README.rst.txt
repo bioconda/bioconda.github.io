@@ -1,54 +1,66 @@
-.. _`r-biom`:
+.. title:: Package Recipe 'r-biom'
+.. highlight: bash
+
 
 r-biom
 ======
 
-|downloads|
+.. conda:recipe:: r-biom
+   :replaces_section_title:
 
-This is an R package for interfacing with the BIOM format.
+   This is an R package for interfacing with the BIOM format.
 
-============= ===========
-Home          https://github.com/joey711/biom/, http://biom-format.org/
-Versions      0.3.12
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-biom/meta.yaml
+   :homepage: https://github.com/joey711/biom/, http://biom-format.org/
+   :license: GPL-2
+   :recipe: /`r-biom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biom/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-biom
 
-Installation
-------------
+   |downloads_r-biom| |docker_r-biom|
 
-.. highlight: bash
+   :versions: 0.3.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-rjsonio`  
 
-   conda install r-biom
+   :required~by: |required_by_r-biom|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-biom
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-biom
+
+   and update with::
+
+      conda update r-biom
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-biom
+
+
+.. |required_by_r-biom| conda:required_by:: r-biom
+.. |downloads_r-biom| image:: https://img.shields.io/conda/dn/bioconda/r-biom.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-biom| image:: https://quay.io/repository/biocontainers/r-biom/status
+   :target: https://quay.io/repository/biocontainers/r-biom
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-biom.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-biom/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-biom/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-biom/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-biom/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-biom
-.. |docker| image:: https://quay.io/repository/biocontainers/r-biom/status
-                :target: https://quay.io/repository/biocontainers/r-biom
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-biom/README.html
 

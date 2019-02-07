@@ -1,54 +1,66 @@
-.. _`scprep`:
+.. title:: Package Recipe 'scprep'
+.. highlight: bash
+
 
 scprep
 ======
 
-|downloads|
+.. conda:recipe:: scprep
+   :replaces_section_title:
 
-scprep
+   scprep
 
-============= ===========
-Home          https://github.com/KrishnaswamyLab/scprep
-Versions      0.8.1, 0.7.1
-License       GNU General Public Version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scprep/meta.yaml
+   :homepage: https://github.com/KrishnaswamyLab/scprep
+   :license: GPL2 / GNU General Public Version 2
+   :recipe: /`scprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scprep/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: scprep
 
-Installation
-------------
+   |downloads_scprep| |docker_scprep|
 
-.. highlight: bash
+   :versions: 0.8.1, 0.7.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`decorator`  :conda:package:`future`  :conda:package:`numpy` >=1.10.0 :conda:package:`pandas`  :conda:package:`python`  :conda:package:`scikit-learn` >=0.19.1 :conda:package:`scipy` >=0.18.0 :conda:package:`seaborn`  
 
-   conda install scprep
+   :required~by: |required_by_scprep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update scprep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install scprep
+
+   and update with::
+
+      conda update scprep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/scprep
+
+
+.. |required_by_scprep| conda:required_by:: scprep
+.. |downloads_scprep| image:: https://img.shields.io/conda/dn/bioconda/scprep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_scprep| image:: https://quay.io/repository/biocontainers/scprep/status
+   :target: https://quay.io/repository/biocontainers/scprep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/scprep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/scprep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scprep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/scprep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/scprep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/scprep
-.. |docker| image:: https://quay.io/repository/biocontainers/scprep/status
-                :target: https://quay.io/repository/biocontainers/scprep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/scprep/README.html
 

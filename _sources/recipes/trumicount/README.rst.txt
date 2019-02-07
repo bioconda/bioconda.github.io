@@ -1,56 +1,67 @@
-.. _`trumicount`:
+.. title:: Package Recipe 'trumicount'
+.. highlight: bash
+
 
 trumicount
 ==========
 
-|downloads|
+.. conda:recipe:: trumicount
+   :replaces_section_title:
 
-For NGS experiments using unique molecular identifiers \(UMIs\)\, molecules that are lost entirely during sequencing cause under\- estimation of the molecule count\, and amplification artifacts like PCR chimeras cause over\-estimation. TRUmiCount corrects UMI data for both types of errors\, thus improving the accuracy of measured molecule counts considerably.
+   For NGS experiments using unique molecular identifiers \(UMIs\)\, molecules that are lost entirely during sequencing cause under\- estimation of the molecule count\, and amplification artifacts like PCR chimeras cause over\-estimation. TRUmiCount corrects UMI data for both types of errors\, thus improving the accuracy of measured molecule counts considerably.
 
-============= ===========
-Home          https://cibiv.github.io/trumicount/
-Versions      0.9.12, 0.9.11.1, 0.9.11, 0.9.10, 0.9.9.3
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trumicount/meta.yaml
+   :homepage: https://cibiv.github.io/trumicount/
+   :developer docs: https://github.com/Cibiv/trumicount
+   :license: AGPL / AGPL-3.0
+   :recipe: /`trumicount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trumicount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trumicount/meta.yaml>`_
 
-
-Development   https://github.com/Cibiv/trumicount
-
-
-============= ===========
+   
 
 
+.. conda:package:: trumicount
 
-Installation
-------------
+   |downloads_trumicount| |docker_trumicount|
 
-.. highlight: bash
+   :versions: 0.9.12, 0.9.11.1, 0.9.11, 0.9.10, 0.9.9.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gawk` >=4.0.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-docopt`  :conda:package:`r-gwpcr` >=0.9.10 
 
-   conda install trumicount
+   :required~by: |required_by_trumicount|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update trumicount
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trumicount
+
+   and update with::
+
+      conda update trumicount
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/trumicount
+
+
+.. |required_by_trumicount| conda:required_by:: trumicount
+.. |downloads_trumicount| image:: https://img.shields.io/conda/dn/bioconda/trumicount.svg?style=flat
+   :alt:   (downloads)
+.. |docker_trumicount| image:: https://quay.io/repository/biocontainers/trumicount/status
+   :target: https://quay.io/repository/biocontainers/trumicount
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/trumicount.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/trumicount/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trumicount/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/trumicount/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/trumicount/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/trumicount
-.. |docker| image:: https://quay.io/repository/biocontainers/trumicount/status
-                :target: https://quay.io/repository/biocontainers/trumicount
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trumicount/README.html
 

@@ -1,54 +1,66 @@
-.. _`fseq`:
+.. title:: Package Recipe 'fseq'
+.. highlight: bash
+
 
 fseq
 ====
 
-|downloads|
+.. conda:recipe:: fseq
+   :replaces_section_title:
 
-F\-Seq\: A feature density estimator for high\-throughput sequence tags
+   F\-Seq\: A feature density estimator for high\-throughput sequence tags
 
-============= ===========
-Home          http://fureylab.web.unc.edu/software/fseq/
-Versions      1.84
-License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fseq/meta.yaml
+   :homepage: http://fureylab.web.unc.edu/software/fseq/
+   :license: GPL >=3
+   :recipe: /`fseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fseq
 
-Installation
-------------
+   |downloads_fseq| |docker_fseq|
 
-.. highlight: bash
+   :versions: 1.84
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
 
-   conda install fseq
+   :required~by: |required_by_fseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fseq
+
+   and update with::
+
+      conda update fseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fseq
+
+
+.. |required_by_fseq| conda:required_by:: fseq
+.. |downloads_fseq| image:: https://img.shields.io/conda/dn/bioconda/fseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fseq| image:: https://quay.io/repository/biocontainers/fseq/status
+   :target: https://quay.io/repository/biocontainers/fseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fseq
-.. |docker| image:: https://quay.io/repository/biocontainers/fseq/status
-                :target: https://quay.io/repository/biocontainers/fseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fseq/README.html
 

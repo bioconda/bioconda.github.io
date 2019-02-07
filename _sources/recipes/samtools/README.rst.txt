@@ -1,56 +1,67 @@
-.. _`samtools`:
+.. title:: Package Recipe 'samtools'
+.. highlight: bash
+
 
 samtools
 ========
 
-|downloads|
+.. conda:recipe:: samtools
+   :replaces_section_title:
 
-Tools for dealing with SAM\, BAM and CRAM files
+   Tools for dealing with SAM\, BAM and CRAM files
 
-============= ===========
-Home          https://github.com/samtools/samtools
-Versions      1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.1, 1.3, 1.2, 1.2.rglab, 1.1, 1.0, 0.1.19, 0.1.18, 0.1.17, 0.1.16, 0.1.15, 0.1.14, 0.1.13, 0.1.12
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//samtools/meta.yaml
+   :homepage: https://github.com/samtools/samtools
+   :license: MIT
+   :recipe: /`samtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools/meta.yaml>`_
+   :links: biotools: :biotools:`samtools`
 
-
-
-Links         biotools: :biotools:`samtools`
-
-============= ===========
+   
 
 
+.. conda:package:: samtools
 
-Installation
-------------
+   |downloads_samtools| |docker_samtools|
 
-.. highlight: bash
+   :versions: 1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.1, 1.3, 1.2, 1.2.rglab, 1.1, 1.0, 0.1.19, 0.1.18, 0.1.17, 0.1.16, 0.1.15, 0.1.14, 0.1.13, 0.1.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libdeflate`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`ncurses` >=5.9,<5.10.0a0 :conda:package:`xz` >=5.2.3,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install samtools
+   :required~by: |required_by_samtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update samtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install samtools
+
+   and update with::
+
+      conda update samtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/samtools
+
+
+.. |required_by_samtools| conda:required_by:: samtools
+.. |downloads_samtools| image:: https://img.shields.io/conda/dn/bioconda/samtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_samtools| image:: https://quay.io/repository/biocontainers/samtools/status
+   :target: https://quay.io/repository/biocontainers/samtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/samtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/samtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/samtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/samtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/samtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/samtools
-.. |docker| image:: https://quay.io/repository/biocontainers/samtools/status
-                :target: https://quay.io/repository/biocontainers/samtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/samtools/README.html
 

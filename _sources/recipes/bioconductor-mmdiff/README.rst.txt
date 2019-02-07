@@ -1,54 +1,66 @@
-.. _`bioconductor-mmdiff`:
+.. title:: Package Recipe 'bioconductor-mmdiff'
+.. highlight: bash
+
 
 bioconductor-mmdiff
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-mmdiff
+   :replaces_section_title:
 
-This package detects statistically significant difference between read enrichment profiles in different ChIP\-Seq samples. To take advantage of shape differences it uses Kernel methods \(Maximum Mean Discrepancy\, MMD\).
+   This package detects statistically significant difference between read enrichment profiles in different ChIP\-Seq samples. To take advantage of shape differences it uses Kernel methods \(Maximum Mean Discrepancy\, MMD\).
 
-============= ===========
-Home          http://bioconductor.org/packages/release/bioc/html/MMDiff.html
-Versions      1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mmdiff/meta.yaml
+   :homepage: http://bioconductor.org/packages/release/bioc/html/MMDiff.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mmdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiff/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mmdiff
 
-Installation
-------------
+   |downloads_bioconductor-mmdiff| |docker_bioconductor-mmdiff|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-diffbind`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r` >=2.14.0 :conda:package:`r-gmd`  
 
-   conda install bioconductor-mmdiff
+   :required~by: |required_by_bioconductor-mmdiff|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mmdiff
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mmdiff
+
+   and update with::
+
+      conda update bioconductor-mmdiff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mmdiff
+
+
+.. |required_by_bioconductor-mmdiff| conda:required_by:: bioconductor-mmdiff
+.. |downloads_bioconductor-mmdiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmdiff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mmdiff| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiff/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mmdiff
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mmdiff.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mmdiff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mmdiff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mmdiff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mmdiff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mmdiff
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiff/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mmdiff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mmdiff/README.html
 

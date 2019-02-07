@@ -1,54 +1,66 @@
-.. _`bioconductor-affyhgu133a2expr`:
+.. title:: Package Recipe 'bioconductor-affyhgu133a2expr'
+.. highlight: bash
+
 
 bioconductor-affyhgu133a2expr
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-affyhgu133a2expr
+   :replaces_section_title:
 
-Contains pre\-built human \(GPL571\) databases of gene expression profiles. The gene expression data was downloaded from NCBI GEO and preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
+   Contains pre\-built human \(GPL571\) databases of gene expression profiles. The gene expression data was downloaded from NCBI GEO and preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/Affyhgu133A2Expr.html
-Versions      1.18.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affyhgu133a2expr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Affyhgu133A2Expr.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-affyhgu133a2expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affyhgu133a2expr
 
-Installation
-------------
+   |downloads_bioconductor-affyhgu133a2expr| |docker_bioconductor-affyhgu133a2expr|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-affyhgu133a2expr
+   :required~by: |required_by_bioconductor-affyhgu133a2expr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affyhgu133a2expr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affyhgu133a2expr
+
+   and update with::
+
+      conda update bioconductor-affyhgu133a2expr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr
+
+
+.. |required_by_bioconductor-affyhgu133a2expr| conda:required_by:: bioconductor-affyhgu133a2expr
+.. |downloads_bioconductor-affyhgu133a2expr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyhgu133a2expr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affyhgu133a2expr| image:: https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affyhgu133a2expr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affyhgu133a2expr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affyhgu133a2expr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affyhgu133a2expr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affyhgu133a2expr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affyhgu133a2expr/README.html
 

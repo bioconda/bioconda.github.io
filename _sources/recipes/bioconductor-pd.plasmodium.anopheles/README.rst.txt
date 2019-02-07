@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.plasmodium.anopheles`:
+.. title:: Package Recipe 'bioconductor-pd.plasmodium.anopheles'
+.. highlight: bash
+
 
 bioconductor-pd.plasmodium.anopheles
 ====================================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.plasmodium.anopheles
+   :replaces_section_title:
 
-Platform Design Info for The Manufacturer\'s Name Plasmodium\_Anopheles
+   Platform Design Info for The Manufacturer\'s Name Plasmodium\_Anopheles
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.plasmodium.anopheles.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.plasmodium.anopheles/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.plasmodium.anopheles.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.plasmodium.anopheles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.plasmodium.anopheles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.plasmodium.anopheles/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.plasmodium.anopheles
 
-Installation
-------------
+   |downloads_bioconductor-pd.plasmodium.anopheles| |docker_bioconductor-pd.plasmodium.anopheles|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.plasmodium.anopheles
+   :required~by: |required_by_bioconductor-pd.plasmodium.anopheles|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.plasmodium.anopheles
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.plasmodium.anopheles
+
+   and update with::
+
+      conda update bioconductor-pd.plasmodium.anopheles
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles
+
+
+.. |required_by_bioconductor-pd.plasmodium.anopheles| conda:required_by:: bioconductor-pd.plasmodium.anopheles
+.. |downloads_bioconductor-pd.plasmodium.anopheles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.plasmodium.anopheles.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.plasmodium.anopheles| image:: https://quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.plasmodium.anopheles/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.plasmodium.anopheles/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.plasmodium.anopheles/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.plasmodium.anopheles/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.plasmodium.anopheles
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.plasmodium.anopheles
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.plasmodium.anopheles/README.html
 

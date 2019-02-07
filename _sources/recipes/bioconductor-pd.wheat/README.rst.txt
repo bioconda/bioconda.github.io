@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.wheat`:
+.. title:: Package Recipe 'bioconductor-pd.wheat'
+.. highlight: bash
+
 
 bioconductor-pd.wheat
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.wheat
+   :replaces_section_title:
 
-Platform Design Info for The Manufacturer\'s Name wheat
+   Platform Design Info for The Manufacturer\'s Name wheat
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.wheat.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.wheat/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.wheat.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.wheat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.wheat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.wheat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.wheat
 
-Installation
-------------
+   |downloads_bioconductor-pd.wheat| |docker_bioconductor-pd.wheat|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.wheat
+   :required~by: |required_by_bioconductor-pd.wheat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.wheat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.wheat
+
+   and update with::
+
+      conda update bioconductor-pd.wheat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.wheat
+
+
+.. |required_by_bioconductor-pd.wheat| conda:required_by:: bioconductor-pd.wheat
+.. |downloads_bioconductor-pd.wheat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.wheat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.wheat| image:: https://quay.io/repository/biocontainers/bioconductor-pd.wheat/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.wheat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.wheat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.wheat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.wheat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.wheat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.wheat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.wheat
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.wheat/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.wheat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.wheat/README.html
 

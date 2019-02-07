@@ -1,54 +1,66 @@
-.. _`perl-postscript`:
+.. title:: Package Recipe 'perl-postscript'
+.. highlight: bash
+
 
 perl-postscript
 ===============
 
-|downloads|
+.. conda:recipe:: perl-postscript
+   :replaces_section_title:
 
-helper module for PostScript\:\:TextBlock
+   helper module for PostScript\:\:TextBlock
 
-============= ===========
-Home          http://metacpan.org/pod/PostScript
-Versions      0.06
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-postscript/meta.yaml
+   :homepage: http://metacpan.org/pod/PostScript
+   :license: unknown
+   :recipe: /`perl-postscript <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-postscript>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-postscript/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-postscript
 
-Installation
-------------
+   |downloads_perl-postscript| |docker_perl-postscript|
 
-.. highlight: bash
+   :versions: 0.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-postscript
+   :required~by: |required_by_perl-postscript|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-postscript
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-postscript
+
+   and update with::
+
+      conda update perl-postscript
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-postscript
+
+
+.. |required_by_perl-postscript| conda:required_by:: perl-postscript
+.. |downloads_perl-postscript| image:: https://img.shields.io/conda/dn/bioconda/perl-postscript.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-postscript| image:: https://quay.io/repository/biocontainers/perl-postscript/status
+   :target: https://quay.io/repository/biocontainers/perl-postscript
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-postscript.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-postscript/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-postscript/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-postscript/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-postscript/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-postscript
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-postscript/status
-                :target: https://quay.io/repository/biocontainers/perl-postscript
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-postscript/README.html
 

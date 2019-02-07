@@ -1,54 +1,66 @@
-.. _`ncbi-genome-download`:
+.. title:: Package Recipe 'ncbi-genome-download'
+.. highlight: bash
+
 
 ncbi-genome-download
 ====================
 
-|downloads|
+.. conda:recipe:: ncbi-genome-download
+   :replaces_section_title:
 
-Download genome files from the NCBI FTP server.
+   Download genome files from the NCBI FTP server.
 
-============= ===========
-Home          https://github.com/kblin/ncbi-genome-download/
-Versions      0.2.9, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.2, 0.2.0, 0.1.8
-License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ncbi-genome-download/meta.yaml
+   :homepage: https://github.com/kblin/ncbi-genome-download/
+   :license: Apache / Apache Software License
+   :recipe: /`ncbi-genome-download <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ncbi-genome-download
 
-Installation
-------------
+   |downloads_ncbi-genome-download| |docker_ncbi-genome-download|
 
-.. highlight: bash
+   :versions: 0.2.9, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.2, 0.2.0, 0.1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`appdirs`  :conda:package:`enum34`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`requests` >=2.4.3 
 
-   conda install ncbi-genome-download
+   :required~by: |required_by_ncbi-genome-download|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ncbi-genome-download
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ncbi-genome-download
+
+   and update with::
+
+      conda update ncbi-genome-download
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ncbi-genome-download
+
+
+.. |required_by_ncbi-genome-download| conda:required_by:: ncbi-genome-download
+.. |downloads_ncbi-genome-download| image:: https://img.shields.io/conda/dn/bioconda/ncbi-genome-download.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ncbi-genome-download| image:: https://quay.io/repository/biocontainers/ncbi-genome-download/status
+   :target: https://quay.io/repository/biocontainers/ncbi-genome-download
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ncbi-genome-download.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ncbi-genome-download/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ncbi-genome-download/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ncbi-genome-download/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ncbi-genome-download/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ncbi-genome-download
-.. |docker| image:: https://quay.io/repository/biocontainers/ncbi-genome-download/status
-                :target: https://quay.io/repository/biocontainers/ncbi-genome-download
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ncbi-genome-download/README.html
 

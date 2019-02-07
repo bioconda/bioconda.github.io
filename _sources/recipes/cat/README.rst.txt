@@ -1,55 +1,67 @@
-.. _`cat`:
+.. title:: Package Recipe 'cat'
+.. highlight: bash
+
 
 cat
 ===
 
-|downloads|
+.. conda:recipe:: cat
+   :replaces_section_title:
 
-CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assembled genomes \(MAGs\)
-
-
-============= ===========
-Home          https://github.com/dutilh/CAT
-Versions      4.3.3, 4.3.1
-License       CC BY 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cat/meta.yaml
+   CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assembled genomes \(MAGs\)
 
 
+   :homepage: https://github.com/dutilh/CAT
+   :license: CC BY 3.0
+   :recipe: /`cat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat/meta.yaml>`_
 
-============= ===========
-
-
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install cat
-
-and update with::
-
-   conda update cat
+   
 
 
+.. conda:package:: cat
 
-|docker|
+   |downloads_cat| |docker_cat|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cat.
+   :versions: 4.3.3, 4.3.1
+
+   :depends: :conda:package:`diamond`  :conda:package:`prodigal`  :conda:package:`python` 3.* 
+
+   :required~by: |required_by_cat|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cat
+
+   and update with::
+
+      conda update cat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cat
+
+
+.. |required_by_cat| conda:required_by:: cat
+.. |downloads_cat| image:: https://img.shields.io/conda/dn/bioconda/cat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cat| image:: https://quay.io/repository/biocontainers/cat/status
+   :target: https://quay.io/repository/biocontainers/cat
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cat
-.. |docker| image:: https://quay.io/repository/biocontainers/cat/status
-                :target: https://quay.io/repository/biocontainers/cat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cat/README.html
 

@@ -1,54 +1,66 @@
-.. _`wheezy.template`:
+.. title:: Package Recipe 'wheezy.template'
+.. highlight: bash
+
 
 wheezy.template
 ===============
 
-|downloads|
+.. conda:recipe:: wheezy.template
+   :replaces_section_title:
 
-A lightweight template library
+   A lightweight template library
 
-============= ===========
-Home          https://bitbucket.org/akorn/wheezy.template
-Versions      0.1.167
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wheezy.template/meta.yaml
+   :homepage: https://bitbucket.org/akorn/wheezy.template
+   :license: MIT / MIT
+   :recipe: /`wheezy.template <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wheezy.template>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wheezy.template/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: wheezy.template
 
-Installation
-------------
+   |downloads_wheezy.template| |docker_wheezy.template|
 
-.. highlight: bash
+   :versions: 0.1.167
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install wheezy.template
+   :required~by: |required_by_wheezy.template|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update wheezy.template
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install wheezy.template
+
+   and update with::
+
+      conda update wheezy.template
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/wheezy.template
+
+
+.. |required_by_wheezy.template| conda:required_by:: wheezy.template
+.. |downloads_wheezy.template| image:: https://img.shields.io/conda/dn/bioconda/wheezy.template.svg?style=flat
+   :alt:   (downloads)
+.. |docker_wheezy.template| image:: https://quay.io/repository/biocontainers/wheezy.template/status
+   :target: https://quay.io/repository/biocontainers/wheezy.template
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/wheezy.template.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/wheezy.template/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/wheezy.template/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/wheezy.template/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/wheezy.template/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/wheezy.template
-.. |docker| image:: https://quay.io/repository/biocontainers/wheezy.template/status
-                :target: https://quay.io/repository/biocontainers/wheezy.template
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/wheezy.template/README.html
 

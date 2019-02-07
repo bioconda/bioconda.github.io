@@ -1,54 +1,66 @@
-.. _`semidbm`:
+.. title:: Package Recipe 'semidbm'
+.. highlight: bash
+
 
 semidbm
 =======
 
-|downloads|
+.. conda:recipe:: semidbm
+   :replaces_section_title:
 
-Cross platform \(fast\) DBM interface in python
+   Cross platform \(fast\) DBM interface in python
 
-============= ===========
-Home          https://github.com/jamesls/semidbm
-Versions      0.5.1
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//semidbm/meta.yaml
+   :homepage: https://github.com/jamesls/semidbm
+   :license: BSD License
+   :recipe: /`semidbm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semidbm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semidbm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: semidbm
 
-Installation
-------------
+   |downloads_semidbm| |docker_semidbm|
 
-.. highlight: bash
+   :versions: 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install semidbm
+   :required~by: |required_by_semidbm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update semidbm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install semidbm
+
+   and update with::
+
+      conda update semidbm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/semidbm
+
+
+.. |required_by_semidbm| conda:required_by:: semidbm
+.. |downloads_semidbm| image:: https://img.shields.io/conda/dn/bioconda/semidbm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_semidbm| image:: https://quay.io/repository/biocontainers/semidbm/status
+   :target: https://quay.io/repository/biocontainers/semidbm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/semidbm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/semidbm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/semidbm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/semidbm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/semidbm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/semidbm
-.. |docker| image:: https://quay.io/repository/biocontainers/semidbm/status
-                :target: https://quay.io/repository/biocontainers/semidbm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/semidbm/README.html
 

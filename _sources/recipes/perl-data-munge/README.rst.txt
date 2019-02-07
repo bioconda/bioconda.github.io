@@ -1,54 +1,66 @@
-.. _`perl-data-munge`:
+.. title:: Package Recipe 'perl-data-munge'
+.. highlight: bash
+
 
 perl-data-munge
 ===============
 
-|downloads|
+.. conda:recipe:: perl-data-munge
+   :replaces_section_title:
 
-various utility functions
+   various utility functions
 
-============= ===========
-Home          http://metacpan.org/pod/Data::Munge
-Versions      0.097
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-munge/meta.yaml
+   :homepage: http://metacpan.org/pod/Data::Munge
+   :license: perl_5
+   :recipe: /`perl-data-munge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-munge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-munge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-data-munge
 
-Installation
-------------
+   |downloads_perl-data-munge| |docker_perl-data-munge|
 
-.. highlight: bash
+   :versions: 0.097
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-exporter`  
 
-   conda install perl-data-munge
+   :required~by: |required_by_perl-data-munge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-data-munge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-data-munge
+
+   and update with::
+
+      conda update perl-data-munge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-data-munge
+
+
+.. |required_by_perl-data-munge| conda:required_by:: perl-data-munge
+.. |downloads_perl-data-munge| image:: https://img.shields.io/conda/dn/bioconda/perl-data-munge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-data-munge| image:: https://quay.io/repository/biocontainers/perl-data-munge/status
+   :target: https://quay.io/repository/biocontainers/perl-data-munge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-data-munge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-data-munge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-data-munge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-data-munge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-data-munge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-data-munge
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-data-munge/status
-                :target: https://quay.io/repository/biocontainers/perl-data-munge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-data-munge/README.html
 

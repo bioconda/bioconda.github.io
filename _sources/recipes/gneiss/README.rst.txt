@@ -1,54 +1,66 @@
-.. _`gneiss`:
+.. title:: Package Recipe 'gneiss'
+.. highlight: bash
+
 
 gneiss
 ======
 
-|downloads|
+.. conda:recipe:: gneiss
+   :replaces_section_title:
 
-Compositional data analysis tools and visualizations
+   Compositional data analysis tools and visualizations
 
-============= ===========
-Home          https://biocore.github.io/gneiss/
-Versions      0.4.4
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gneiss/meta.yaml
+   :homepage: https://biocore.github.io/gneiss/
+   :license: BSD / BSD
+   :recipe: /`gneiss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gneiss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gneiss/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gneiss
 
-Installation
-------------
+   |downloads_gneiss| |docker_gneiss|
 
-.. highlight: bash
+   :versions: 0.4.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biom-format`  :conda:package:`bokeh`  :conda:package:`ipython` >=3.2.0 :conda:package:`matplotlib` >=1.4.3 :conda:package:`nose` >=1.3.7 :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.18.0 :conda:package:`python` >3 :conda:package:`scikit-bio` >=0.5.1 :conda:package:`scipy` >=0.15.1 :conda:package:`seaborn`  :conda:package:`statsmodels` >=0.8.0 
 
-   conda install gneiss
+   :required~by: |required_by_gneiss|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gneiss
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gneiss
+
+   and update with::
+
+      conda update gneiss
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gneiss
+
+
+.. |required_by_gneiss| conda:required_by:: gneiss
+.. |downloads_gneiss| image:: https://img.shields.io/conda/dn/bioconda/gneiss.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gneiss| image:: https://quay.io/repository/biocontainers/gneiss/status
+   :target: https://quay.io/repository/biocontainers/gneiss
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gneiss.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gneiss/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gneiss/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gneiss/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gneiss/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gneiss
-.. |docker| image:: https://quay.io/repository/biocontainers/gneiss/status
-                :target: https://quay.io/repository/biocontainers/gneiss
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gneiss/README.html
 

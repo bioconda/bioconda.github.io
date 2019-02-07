@@ -1,54 +1,66 @@
-.. _`verse`:
+.. title:: Package Recipe 'verse'
+.. highlight: bash
+
 
 verse
 =====
 
-|downloads|
+.. conda:recipe:: verse
+   :replaces_section_title:
 
-VERSE\: a versatile and efficient RNA\-Seq read counting tool
+   VERSE\: a versatile and efficient RNA\-Seq read counting tool
 
-============= ===========
-Home          https://github.com/qinzhu/VERSE
-Versions      0.1.5
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//verse/meta.yaml
+   :homepage: https://github.com/qinzhu/VERSE
+   :license: GPL / GPL-3.0
+   :recipe: /`verse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verse/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: verse
 
-Installation
-------------
+   |downloads_verse| |docker_verse|
 
-.. highlight: bash
+   :versions: 0.1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install verse
+   :required~by: |required_by_verse|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update verse
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install verse
+
+   and update with::
+
+      conda update verse
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/verse
+
+
+.. |required_by_verse| conda:required_by:: verse
+.. |downloads_verse| image:: https://img.shields.io/conda/dn/bioconda/verse.svg?style=flat
+   :alt:   (downloads)
+.. |docker_verse| image:: https://quay.io/repository/biocontainers/verse/status
+   :target: https://quay.io/repository/biocontainers/verse
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/verse.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/verse/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/verse/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/verse/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/verse/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/verse
-.. |docker| image:: https://quay.io/repository/biocontainers/verse/status
-                :target: https://quay.io/repository/biocontainers/verse
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/verse/README.html
 

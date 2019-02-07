@@ -1,54 +1,66 @@
-.. _`bioconductor-methvisual`:
+.. title:: Package Recipe 'bioconductor-methvisual'
+.. highlight: bash
+
 
 bioconductor-methvisual
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-methvisual
+   :replaces_section_title:
 
-The package \'methVisual\' allows the visualization of DNA methylation data after bisulfite sequencing.
+   The package \'methVisual\' allows the visualization of DNA methylation data after bisulfite sequencing.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/methVisual.html
-Versions      1.34.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methvisual/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methVisual.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-methvisual <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methvisual>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methvisual/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-methvisual
 
-Installation
-------------
+   |downloads_bioconductor-methvisual| |docker_bioconductor-methvisual|
 
-.. highlight: bash
+   :versions: 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ca`  :conda:package:`r-gridbase`  :conda:package:`r-gsubfn`  :conda:package:`r-plotrix`  :conda:package:`r-sqldf`  
 
-   conda install bioconductor-methvisual
+   :required~by: |required_by_bioconductor-methvisual|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-methvisual
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-methvisual
+
+   and update with::
+
+      conda update bioconductor-methvisual
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-methvisual
+
+
+.. |required_by_bioconductor-methvisual| conda:required_by:: bioconductor-methvisual
+.. |downloads_bioconductor-methvisual| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methvisual.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-methvisual| image:: https://quay.io/repository/biocontainers/bioconductor-methvisual/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-methvisual
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-methvisual.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-methvisual/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-methvisual/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-methvisual/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-methvisual/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-methvisual
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-methvisual/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-methvisual
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-methvisual/README.html
 

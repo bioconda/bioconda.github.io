@@ -1,56 +1,67 @@
-.. _`perl-velvetoptimiser`:
+.. title:: Package Recipe 'perl-velvetoptimiser'
+.. highlight: bash
+
 
 perl-velvetoptimiser
 ====================
 
-|downloads|
+.. conda:recipe:: perl-velvetoptimiser
+   :replaces_section_title:
 
-Automatically optimise three of Velvet\'s assembly parameters.
+   Automatically optimise three of Velvet\'s assembly parameters.
 
-============= ===========
-Home          https://github.com/tseemann/VelvetOptimiser
-Versions      2.2.6, 2.2.5
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-velvetoptimiser/meta.yaml
+   :homepage: https://github.com/tseemann/VelvetOptimiser
+   :license: GPLv2
+   :recipe: /`perl-velvetoptimiser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-velvetoptimiser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-velvetoptimiser/meta.yaml>`_
+   :links: biotools: :biotools:`velvetoptimiser`
 
-
-
-Links         biotools: :biotools:`velvetoptimiser`
-
-============= ===========
+   
 
 
+.. conda:package:: perl-velvetoptimiser
 
-Installation
-------------
+   |downloads_perl-velvetoptimiser| |docker_perl-velvetoptimiser|
 
-.. highlight: bash
+   :versions: 2.2.6, 2.2.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7 :conda:package:`velvet` >=0.7.51 
 
-   conda install perl-velvetoptimiser
+   :required~by: |required_by_perl-velvetoptimiser|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-velvetoptimiser
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-velvetoptimiser
+
+   and update with::
+
+      conda update perl-velvetoptimiser
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-velvetoptimiser
+
+
+.. |required_by_perl-velvetoptimiser| conda:required_by:: perl-velvetoptimiser
+.. |downloads_perl-velvetoptimiser| image:: https://img.shields.io/conda/dn/bioconda/perl-velvetoptimiser.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-velvetoptimiser| image:: https://quay.io/repository/biocontainers/perl-velvetoptimiser/status
+   :target: https://quay.io/repository/biocontainers/perl-velvetoptimiser
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-velvetoptimiser.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-velvetoptimiser/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-velvetoptimiser/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-velvetoptimiser/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-velvetoptimiser/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-velvetoptimiser
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-velvetoptimiser/status
-                :target: https://quay.io/repository/biocontainers/perl-velvetoptimiser
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-velvetoptimiser/README.html
 

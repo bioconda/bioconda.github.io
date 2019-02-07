@@ -1,54 +1,66 @@
-.. _`perl-try-tiny`:
+.. title:: Package Recipe 'perl-try-tiny'
+.. highlight: bash
+
 
 perl-try-tiny
 =============
 
-|downloads|
+.. conda:recipe:: perl-try-tiny
+   :replaces_section_title:
 
-minimal try\/catch with proper preservation of \$\@
+   minimal try\/catch with proper preservation of \$\@
 
-============= ===========
-Home          https://github.com/karenetheridge/Try-Tiny
-Versions      0.30, 0.24
-License       mit
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-try-tiny/meta.yaml
+   :homepage: https://github.com/karenetheridge/Try-Tiny
+   :license: mit
+   :recipe: /`perl-try-tiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-try-tiny
 
-Installation
-------------
+   |downloads_perl-try-tiny| |docker_perl-try-tiny|
 
-.. highlight: bash
+   :versions: 0.30, 0.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-try-tiny
+   :required~by: |required_by_perl-try-tiny|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-try-tiny
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-try-tiny
+
+   and update with::
+
+      conda update perl-try-tiny
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-try-tiny
+
+
+.. |required_by_perl-try-tiny| conda:required_by:: perl-try-tiny
+.. |downloads_perl-try-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-try-tiny.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-try-tiny| image:: https://quay.io/repository/biocontainers/perl-try-tiny/status
+   :target: https://quay.io/repository/biocontainers/perl-try-tiny
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-try-tiny.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-try-tiny/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-try-tiny/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-try-tiny/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-try-tiny/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-try-tiny
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-try-tiny/status
-                :target: https://quay.io/repository/biocontainers/perl-try-tiny
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-try-tiny/README.html
 

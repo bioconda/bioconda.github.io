@@ -1,56 +1,67 @@
-.. _`bioconductor-globalseq`:
+.. title:: Package Recipe 'bioconductor-globalseq'
+.. highlight: bash
+
 
 bioconductor-globalseq
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-globalseq
+   :replaces_section_title:
 
-The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size. Useful for testing for association between RNA\-Seq and high\-dimensional data.
+   The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size. Useful for testing for association between RNA\-Seq and high\-dimensional data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/globalSeq.html
-Versions      1.10.1, 1.8.0, 1.6.0, 1.4.2
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-globalseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/globalSeq.html
+   :license: GPL-3
+   :recipe: /`bioconductor-globalseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq/meta.yaml>`_
+   :links: biotools: :biotools:`globalseq`
 
-
-
-Links         biotools: :biotools:`globalseq`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-globalseq
 
-Installation
-------------
+   |downloads_bioconductor-globalseq| |docker_bioconductor-globalseq|
 
-.. highlight: bash
+   :versions: 1.10.1, 1.8.0, 1.6.0, 1.4.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-globalseq
+   :required~by: |required_by_bioconductor-globalseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-globalseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-globalseq
+
+   and update with::
+
+      conda update bioconductor-globalseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-globalseq
+
+
+.. |required_by_bioconductor-globalseq| conda:required_by:: bioconductor-globalseq
+.. |downloads_bioconductor-globalseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-globalseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-globalseq| image:: https://quay.io/repository/biocontainers/bioconductor-globalseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-globalseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-globalseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-globalseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-globalseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-globalseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-globalseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-globalseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-globalseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-globalseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-globalseq/README.html
 

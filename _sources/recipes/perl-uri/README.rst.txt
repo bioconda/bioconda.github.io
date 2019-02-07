@@ -1,54 +1,66 @@
-.. _`perl-uri`:
+.. title:: Package Recipe 'perl-uri'
+.. highlight: bash
+
 
 perl-uri
 ========
 
-|downloads|
+.. conda:recipe:: perl-uri
+   :replaces_section_title:
 
-Uniform Resource Identifiers \(absolute and relative\)
+   Uniform Resource Identifiers \(absolute and relative\)
 
-============= ===========
-Home          https://github.com/libwww-perl/URI
-Versions      1.76, 1.74, 1.71, 1.69
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-uri/meta.yaml
+   :homepage: https://github.com/libwww-perl/URI
+   :license: perl_5
+   :recipe: /`perl-uri <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-uri>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-uri/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-uri
 
-Installation
-------------
+   |downloads_perl-uri| |docker_perl-uri|
 
-.. highlight: bash
+   :versions: 1.76, 1.74, 1.71, 1.69
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-business-isbn`  :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-data-dumper`  :conda:package:`perl-encode`  :conda:package:`perl-exporter`  :conda:package:`perl-mime-base64`  :conda:package:`perl-parent`  
 
-   conda install perl-uri
+   :required~by: |required_by_perl-uri|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-uri
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-uri
+
+   and update with::
+
+      conda update perl-uri
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-uri
+
+
+.. |required_by_perl-uri| conda:required_by:: perl-uri
+.. |downloads_perl-uri| image:: https://img.shields.io/conda/dn/bioconda/perl-uri.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-uri| image:: https://quay.io/repository/biocontainers/perl-uri/status
+   :target: https://quay.io/repository/biocontainers/perl-uri
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-uri.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-uri/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-uri/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-uri/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-uri/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-uri
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-uri/status
-                :target: https://quay.io/repository/biocontainers/perl-uri
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-uri/README.html
 

@@ -1,56 +1,67 @@
-.. _`ema`:
+.. title:: Package Recipe 'ema'
+.. highlight: bash
+
 
 ema
 ===
 
-|downloads|
+.. conda:recipe:: ema
+   :replaces_section_title:
 
-Fast \& accurate alignment of barcoded short\-reads
+   Fast \& accurate alignment of barcoded short\-reads
 
-============= ===========
-Home          http://ema.csail.mit.edu/
-Versions      0.6.2, v0.6.2, v0.6.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ema/meta.yaml
+   :homepage: http://ema.csail.mit.edu/
+   :license: MIT
+   :recipe: /`ema <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ema>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ema/meta.yaml>`_
+   :links: doi: :doi:`10.1101/220236`
 
-
-
-Links         doi: :doi:`10.1101/220236`
-
-============= ===========
+   
 
 
+.. conda:package:: ema
 
-Installation
-------------
+   |downloads_ema| |docker_ema|
 
-.. highlight: bash
+   :versions: 0.6.2, v0.6.2, v0.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ema
+   :required~by: |required_by_ema|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ema
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ema
+
+   and update with::
+
+      conda update ema
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ema
+
+
+.. |required_by_ema| conda:required_by:: ema
+.. |downloads_ema| image:: https://img.shields.io/conda/dn/bioconda/ema.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ema| image:: https://quay.io/repository/biocontainers/ema/status
+   :target: https://quay.io/repository/biocontainers/ema
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ema.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ema/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ema/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ema/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ema/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ema
-.. |docker| image:: https://quay.io/repository/biocontainers/ema/status
-                :target: https://quay.io/repository/biocontainers/ema
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ema/README.html
 

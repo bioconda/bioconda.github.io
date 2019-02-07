@@ -1,54 +1,66 @@
-.. _`pbcopper`:
+.. title:: Package Recipe 'pbcopper'
+.. highlight: bash
+
 
 pbcopper
 ========
 
-|downloads|
+.. conda:recipe:: pbcopper
+   :replaces_section_title:
 
-Core C\+\+ library for data structures\, algorithms\, and utilities
+   Core C\+\+ library for data structures\, algorithms\, and utilities
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbcopper
-Versions      0.4.2, 0.4.1
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbcopper/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbcopper
+   :license: BSD-3-Clause-Clear
+   :recipe: /`pbcopper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcopper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcopper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbcopper
 
-Installation
-------------
+   |downloads_pbcopper| |docker_pbcopper|
 
-.. highlight: bash
+   :versions: 0.4.2, 0.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install pbcopper
+   :required~by: |required_by_pbcopper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbcopper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbcopper
+
+   and update with::
+
+      conda update pbcopper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbcopper
+
+
+.. |required_by_pbcopper| conda:required_by:: pbcopper
+.. |downloads_pbcopper| image:: https://img.shields.io/conda/dn/bioconda/pbcopper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbcopper| image:: https://quay.io/repository/biocontainers/pbcopper/status
+   :target: https://quay.io/repository/biocontainers/pbcopper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbcopper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbcopper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbcopper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbcopper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbcopper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbcopper
-.. |docker| image:: https://quay.io/repository/biocontainers/pbcopper/status
-                :target: https://quay.io/repository/biocontainers/pbcopper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbcopper/README.html
 

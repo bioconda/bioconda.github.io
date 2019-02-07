@@ -1,56 +1,67 @@
-.. _`bioconductor-consensusclusterplus`:
+.. title:: Package Recipe 'bioconductor-consensusclusterplus'
+.. highlight: bash
+
 
 bioconductor-consensusclusterplus
 =================================
 
-|downloads|
+.. conda:recipe:: bioconductor-consensusclusterplus
+   :replaces_section_title:
 
-algorithm for determining cluster count and membership by stability evidence in unsupervised analysis
+   algorithm for determining cluster count and membership by stability evidence in unsupervised analysis
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ConsensusClusterPlus.html
-Versions      1.46.0, 1.44.0, 1.42.0, 1.40.0
-License       GPL version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-consensusclusterplus/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ConsensusClusterPlus.html
+   :license: GPL version 2
+   :recipe: /`bioconductor-consensusclusterplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus/meta.yaml>`_
+   :links: biotools: :biotools:`consensusclusterplus`
 
-
-
-Links         biotools: :biotools:`consensusclusterplus`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-consensusclusterplus
 
-Installation
-------------
+   |downloads_bioconductor-consensusclusterplus| |docker_bioconductor-consensusclusterplus|
 
-.. highlight: bash
+   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-all` >=1.24.0,<1.25.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  
 
-   conda install bioconductor-consensusclusterplus
+   :required~by: |required_by_bioconductor-consensusclusterplus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-consensusclusterplus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-consensusclusterplus
+
+   and update with::
+
+      conda update bioconductor-consensusclusterplus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-consensusclusterplus
+
+
+.. |required_by_bioconductor-consensusclusterplus| conda:required_by:: bioconductor-consensusclusterplus
+.. |downloads_bioconductor-consensusclusterplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusclusterplus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-consensusclusterplus| image:: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-consensusclusterplus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-consensusclusterplus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-consensusclusterplus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-consensusclusterplus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-consensusclusterplus
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-consensusclusterplus/README.html
 

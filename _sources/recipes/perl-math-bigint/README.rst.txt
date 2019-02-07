@@ -1,54 +1,66 @@
-.. _`perl-math-bigint`:
+.. title:: Package Recipe 'perl-math-bigint'
+.. highlight: bash
+
 
 perl-math-bigint
 ================
 
-|downloads|
+.. conda:recipe:: perl-math-bigint
+   :replaces_section_title:
 
-Arbitrary size floating point math package
+   Arbitrary size floating point math package
 
-============= ===========
-Home          http://metacpan.org/pod/Math::BigInt
-Versions      1.999816, 1.999813
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-math-bigint/meta.yaml
+   :homepage: http://metacpan.org/pod/Math::BigInt
+   :license: perl_5
+   :recipe: /`perl-math-bigint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bigint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bigint/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-math-bigint
 
-Installation
-------------
+   |downloads_perl-math-bigint| |docker_perl-math-bigint|
 
-.. highlight: bash
+   :versions: 1.999816, 1.999813
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-math-complex`  
 
-   conda install perl-math-bigint
+   :required~by: |required_by_perl-math-bigint|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-math-bigint
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-math-bigint
+
+   and update with::
+
+      conda update perl-math-bigint
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-math-bigint
+
+
+.. |required_by_perl-math-bigint| conda:required_by:: perl-math-bigint
+.. |downloads_perl-math-bigint| image:: https://img.shields.io/conda/dn/bioconda/perl-math-bigint.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-math-bigint| image:: https://quay.io/repository/biocontainers/perl-math-bigint/status
+   :target: https://quay.io/repository/biocontainers/perl-math-bigint
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-math-bigint.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-math-bigint/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-math-bigint/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-math-bigint/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-math-bigint/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-math-bigint
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-math-bigint/status
-                :target: https://quay.io/repository/biocontainers/perl-math-bigint
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-math-bigint/README.html
 

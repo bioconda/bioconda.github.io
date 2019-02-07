@@ -1,54 +1,66 @@
-.. _`dedup`:
+.. title:: Package Recipe 'dedup'
+.. highlight: bash
+
 
 dedup
 =====
 
-|downloads|
+.. conda:recipe:: dedup
+   :replaces_section_title:
 
-DeDup is a tool for read deduplication in paired\-end read merging \(e.g. for ancient DNA experiments\).
+   DeDup is a tool for read deduplication in paired\-end read merging \(e.g. for ancient DNA experiments\).
 
-============= ===========
-Home          https://github.com/apeltzer/dedup
-Versions      0.12.3
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dedup/meta.yaml
+   :homepage: https://github.com/apeltzer/dedup
+   :license: GPLv3
+   :recipe: /`dedup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dedup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dedup/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dedup
 
-Installation
-------------
+   |downloads_dedup| |docker_dedup|
 
-.. highlight: bash
+   :versions: 0.12.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install dedup
+   :required~by: |required_by_dedup|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dedup
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dedup
+
+   and update with::
+
+      conda update dedup
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dedup
+
+
+.. |required_by_dedup| conda:required_by:: dedup
+.. |downloads_dedup| image:: https://img.shields.io/conda/dn/bioconda/dedup.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dedup| image:: https://quay.io/repository/biocontainers/dedup/status
+   :target: https://quay.io/repository/biocontainers/dedup
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dedup.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dedup/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dedup/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dedup/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dedup/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dedup
-.. |docker| image:: https://quay.io/repository/biocontainers/dedup/status
-                :target: https://quay.io/repository/biocontainers/dedup
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dedup/README.html
 

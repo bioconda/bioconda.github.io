@@ -1,54 +1,66 @@
-.. _`bioconductor-somaticcanceralterations`:
+.. title:: Package Recipe 'bioconductor-somaticcanceralterations'
+.. highlight: bash
+
 
 bioconductor-somaticcanceralterations
 =====================================
 
-|downloads|
+.. conda:recipe:: bioconductor-somaticcanceralterations
+   :replaces_section_title:
 
-Collection of somatic cancer alteration datasets
+   Collection of somatic cancer alteration datasets
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/SomaticCancerAlterations.html
-Versions      1.18.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-somaticcanceralterations/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SomaticCancerAlterations.html
+   :license: GPL-3
+   :recipe: /`bioconductor-somaticcanceralterations <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-somaticcanceralterations
 
-Installation
-------------
+   |downloads_bioconductor-somaticcanceralterations| |docker_bioconductor-somaticcanceralterations|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-exomecopy` >=1.28.0,<1.29.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-stringr`  :conda:package:`wget`  
 
-   conda install bioconductor-somaticcanceralterations
+   :required~by: |required_by_bioconductor-somaticcanceralterations|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-somaticcanceralterations
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-somaticcanceralterations
+
+   and update with::
+
+      conda update bioconductor-somaticcanceralterations
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-somaticcanceralterations
+
+
+.. |required_by_bioconductor-somaticcanceralterations| conda:required_by:: bioconductor-somaticcanceralterations
+.. |downloads_bioconductor-somaticcanceralterations| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-somaticcanceralterations.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-somaticcanceralterations| image:: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-somaticcanceralterations/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-somaticcanceralterations/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-somaticcanceralterations/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-somaticcanceralterations/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-somaticcanceralterations
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-somaticcanceralterations/README.html
 

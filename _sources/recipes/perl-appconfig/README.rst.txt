@@ -1,54 +1,66 @@
-.. _`perl-appconfig`:
+.. title:: Package Recipe 'perl-appconfig'
+.. highlight: bash
+
 
 perl-appconfig
 ==============
 
-|downloads|
+.. conda:recipe:: perl-appconfig
+   :replaces_section_title:
 
-AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.
+   AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.
 
-============= ===========
-Home          http://metacpan.org/pod/AppConfig
-Versions      1.71
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-appconfig/meta.yaml
+   :homepage: http://metacpan.org/pod/AppConfig
+   :license: perl_5
+   :recipe: /`perl-appconfig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-appconfig
 
-Installation
-------------
+   |downloads_perl-appconfig| |docker_perl-appconfig|
 
-.. highlight: bash
+   :versions: 1.71
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-appconfig
+   :required~by: |required_by_perl-appconfig|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-appconfig
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-appconfig
+
+   and update with::
+
+      conda update perl-appconfig
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-appconfig
+
+
+.. |required_by_perl-appconfig| conda:required_by:: perl-appconfig
+.. |downloads_perl-appconfig| image:: https://img.shields.io/conda/dn/bioconda/perl-appconfig.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-appconfig| image:: https://quay.io/repository/biocontainers/perl-appconfig/status
+   :target: https://quay.io/repository/biocontainers/perl-appconfig
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-appconfig.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-appconfig/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-appconfig/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-appconfig/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-appconfig/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-appconfig
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-appconfig/status
-                :target: https://quay.io/repository/biocontainers/perl-appconfig
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-appconfig/README.html
 

@@ -1,54 +1,66 @@
-.. _`metavelvet-annois`:
+.. title:: Package Recipe 'metavelvet-annois'
+.. highlight: bash
+
 
 metavelvet-annois
 =================
 
-|downloads|
+.. conda:recipe:: metavelvet-annois
+   :replaces_section_title:
 
-Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1.2.01
+   Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1.2.01
 
-============= ===========
-Home          http://metavelvet.dna.bio.keio.ac.jp
-Versions      0.2.01
-License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metavelvet-annois/meta.yaml
+   :homepage: http://metavelvet.dna.bio.keio.ac.jp
+   :license: GNU General Public License
+   :recipe: /`metavelvet-annois <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-annois>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-annois/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metavelvet-annois
 
-Installation
-------------
+   |downloads_metavelvet-annois| |docker_metavelvet-annois|
 
-.. highlight: bash
+   :versions: 0.2.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-module-build`  :conda:package:`perl-threaded`  
 
-   conda install metavelvet-annois
+   :required~by: |required_by_metavelvet-annois|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metavelvet-annois
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metavelvet-annois
+
+   and update with::
+
+      conda update metavelvet-annois
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metavelvet-annois
+
+
+.. |required_by_metavelvet-annois| conda:required_by:: metavelvet-annois
+.. |downloads_metavelvet-annois| image:: https://img.shields.io/conda/dn/bioconda/metavelvet-annois.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metavelvet-annois| image:: https://quay.io/repository/biocontainers/metavelvet-annois/status
+   :target: https://quay.io/repository/biocontainers/metavelvet-annois
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metavelvet-annois.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metavelvet-annois/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metavelvet-annois/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metavelvet-annois/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metavelvet-annois/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metavelvet-annois
-.. |docker| image:: https://quay.io/repository/biocontainers/metavelvet-annois/status
-                :target: https://quay.io/repository/biocontainers/metavelvet-annois
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metavelvet-annois/README.html
 

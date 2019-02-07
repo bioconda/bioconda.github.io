@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu95ccdf`:
+.. title:: Package Recipe 'bioconductor-hgu95ccdf'
+.. highlight: bash
+
 
 bioconductor-hgu95ccdf
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu95ccdf
+   :replaces_section_title:
 
-A package containing an environment representing the HG U95C.CDF file.
+   A package containing an environment representing the HG U95C.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu95ccdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu95ccdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu95ccdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-hgu95ccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95ccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95ccdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu95ccdf
 
-Installation
-------------
+   |downloads_bioconductor-hgu95ccdf| |docker_bioconductor-hgu95ccdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu95ccdf
+   :required~by: |required_by_bioconductor-hgu95ccdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu95ccdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu95ccdf
+
+   and update with::
+
+      conda update bioconductor-hgu95ccdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu95ccdf
+
+
+.. |required_by_bioconductor-hgu95ccdf| conda:required_by:: bioconductor-hgu95ccdf
+.. |downloads_bioconductor-hgu95ccdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu95ccdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu95ccdf| image:: https://quay.io/repository/biocontainers/bioconductor-hgu95ccdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu95ccdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu95ccdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu95ccdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu95ccdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu95ccdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu95ccdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu95ccdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu95ccdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu95ccdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu95ccdf/README.html
 

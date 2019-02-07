@@ -1,36 +1,56 @@
-.. _`vcf2maf`:
+.. title:: Package Recipe 'vcf2maf'
+.. highlight: bash
+
 
 vcf2maf
 =======
 
-|downloads|
+.. conda:recipe:: vcf2maf
+   :replaces_section_title:
 
-Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms
+   Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms
 
-============= ===========
-Home          https://github.com/mskcc/vcf2maf
-Versions      1.6.16, 1.6.15, 1.6.14, 1.6.12, 1.6.8
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcf2maf/meta.yaml
+   :homepage: https://github.com/mskcc/vcf2maf
+   :license: Apache / Apache-2.0
+   :recipe: /`vcf2maf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vcf2maf
 
-Installation
-------------
+   |downloads_vcf2maf| |docker_vcf2maf|
 
-.. highlight: bash
+   :versions: 1.6.16, 1.6.15, 1.6.14, 1.6.12, 1.6.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` 1.7* :conda:package:`perl` 5.22.0* :conda:package:`samtools`  :conda:package:`variant-effect-predictor`  
 
-   conda install vcf2maf
+   :required~by: |required_by_vcf2maf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vcf2maf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vcf2maf
+
+   and update with::
+
+      conda update vcf2maf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vcf2maf
+
+
+.. |required_by_vcf2maf| conda:required_by:: vcf2maf
+.. |downloads_vcf2maf| image:: https://img.shields.io/conda/dn/bioconda/vcf2maf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vcf2maf| image:: https://quay.io/repository/biocontainers/vcf2maf/status
+   :target: https://quay.io/repository/biocontainers/vcf2maf
+
+
+
+
 
 
 Notes
@@ -39,21 +59,13 @@ This package installs only vcf2maf and does not integrate with the variant\-effe
 do so\, please follow the instructions at https\:\/\/github.com\/mskcc\/vcf2maf\/blob\/master\/README.md.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/vcf2maf.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vcf2maf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vcf2maf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vcf2maf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vcf2maf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vcf2maf
-.. |docker| image:: https://quay.io/repository/biocontainers/vcf2maf/status
-                :target: https://quay.io/repository/biocontainers/vcf2maf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vcf2maf/README.html
 

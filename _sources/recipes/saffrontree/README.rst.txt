@@ -1,54 +1,66 @@
-.. _`saffrontree`:
+.. title:: Package Recipe 'saffrontree'
+.. highlight: bash
+
 
 saffrontree
 ===========
 
-|downloads|
+.. conda:recipe:: saffrontree
+   :replaces_section_title:
 
-SaffronTree\: Reference free rapid phylogenetic tree construction from raw read data
+   SaffronTree\: Reference free rapid phylogenetic tree construction from raw read data
 
-============= ===========
-Home          https://github.com/sanger-pathogens/saffrontree
-Versions      0.1.2
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//saffrontree/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/saffrontree
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`saffrontree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: saffrontree
 
-Installation
-------------
+   |downloads_saffrontree| |docker_saffrontree|
 
-.. highlight: bash
+   :versions: 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`dendropy` >=4.1.0 :conda:package:`kmc` >=2.3.0 :conda:package:`libgcc`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` 3.5* 
 
-   conda install saffrontree
+   :required~by: |required_by_saffrontree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update saffrontree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install saffrontree
+
+   and update with::
+
+      conda update saffrontree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/saffrontree
+
+
+.. |required_by_saffrontree| conda:required_by:: saffrontree
+.. |downloads_saffrontree| image:: https://img.shields.io/conda/dn/bioconda/saffrontree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_saffrontree| image:: https://quay.io/repository/biocontainers/saffrontree/status
+   :target: https://quay.io/repository/biocontainers/saffrontree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/saffrontree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/saffrontree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/saffrontree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/saffrontree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/saffrontree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/saffrontree
-.. |docker| image:: https://quay.io/repository/biocontainers/saffrontree/status
-                :target: https://quay.io/repository/biocontainers/saffrontree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/saffrontree/README.html
 

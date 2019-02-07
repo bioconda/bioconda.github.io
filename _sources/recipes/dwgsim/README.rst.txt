@@ -1,54 +1,66 @@
-.. _`dwgsim`:
+.. title:: Package Recipe 'dwgsim'
+.. highlight: bash
+
 
 dwgsim
 ======
 
-|downloads|
+.. conda:recipe:: dwgsim
+   :replaces_section_title:
 
-Whole Genome Simulator for Next\-Generation Sequencing
+   Whole Genome Simulator for Next\-Generation Sequencing
 
-============= ===========
-Home          https://github.com/nh13/DWGSIM
-Versions      1.1.11
-License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dwgsim/meta.yaml
+   :homepage: https://github.com/nh13/DWGSIM
+   :license: GPL / GNU General Public License v2 (GPLv2)
+   :recipe: /`dwgsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dwgsim
 
-Installation
-------------
+   |downloads_dwgsim| |docker_dwgsim|
 
-.. highlight: bash
+   :versions: 1.1.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`samtools` 0.1.18 :conda:package:`zlib`  
 
-   conda install dwgsim
+   :required~by: |required_by_dwgsim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dwgsim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dwgsim
+
+   and update with::
+
+      conda update dwgsim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dwgsim
+
+
+.. |required_by_dwgsim| conda:required_by:: dwgsim
+.. |downloads_dwgsim| image:: https://img.shields.io/conda/dn/bioconda/dwgsim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dwgsim| image:: https://quay.io/repository/biocontainers/dwgsim/status
+   :target: https://quay.io/repository/biocontainers/dwgsim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dwgsim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dwgsim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dwgsim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dwgsim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dwgsim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dwgsim
-.. |docker| image:: https://quay.io/repository/biocontainers/dwgsim/status
-                :target: https://quay.io/repository/biocontainers/dwgsim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dwgsim/README.html
 

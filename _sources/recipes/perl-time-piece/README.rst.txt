@@ -1,54 +1,66 @@
-.. _`perl-time-piece`:
+.. title:: Package Recipe 'perl-time-piece'
+.. highlight: bash
+
 
 perl-time-piece
 ===============
 
-|downloads|
+.. conda:recipe:: perl-time-piece/1.27
+   :replaces_section_title:
 
-Object Oriented time objects
+   Object Oriented time objects
 
-============= ===========
-Home          http://metacpan.org/pod/Time::Piece
-Versions      1.27
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-time-piece/1.27/meta.yaml
+   :homepage: http://metacpan.org/pod/Time::Piece
+   :license: perl_5
+   :recipe: /`perl-time-piece <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-piece>`_/`1.27 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-piece/1.27>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-piece/1.27/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-time-piece
 
-Installation
-------------
+   |downloads_perl-time-piece| |docker_perl-time-piece|
 
-.. highlight: bash
+   :versions: 1.27
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-time-piece
+   :required~by: |required_by_perl-time-piece|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-time-piece
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-time-piece
+
+   and update with::
+
+      conda update perl-time-piece
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-time-piece
+
+
+.. |required_by_perl-time-piece| conda:required_by:: perl-time-piece
+.. |downloads_perl-time-piece| image:: https://img.shields.io/conda/dn/bioconda/perl-time-piece.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-time-piece| image:: https://quay.io/repository/biocontainers/perl-time-piece/status
+   :target: https://quay.io/repository/biocontainers/perl-time-piece
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-time-piece.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-time-piece/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-time-piece/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-time-piece/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-time-piece/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-time-piece
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-time-piece/status
-                :target: https://quay.io/repository/biocontainers/perl-time-piece
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-time-piece/README.html
 

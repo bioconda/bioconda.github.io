@@ -1,54 +1,66 @@
-.. _`bioconductor-pepsnmrdata`:
+.. title:: Package Recipe 'bioconductor-pepsnmrdata'
+.. highlight: bash
+
 
 bioconductor-pepsnmrdata
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pepsnmrdata
+   :replaces_section_title:
 
-This package contains all the datasets used in the PepsNMR package.
+   This package contains all the datasets used in the PepsNMR package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/PepsNMRData.html
-Versions      1.0.0
-License       GPL-2 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pepsnmrdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PepsNMRData.html
+   :license: GPL-2 | file LICENSE
+   :recipe: /`bioconductor-pepsnmrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmrdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pepsnmrdata
 
-Installation
-------------
+   |downloads_bioconductor-pepsnmrdata| |docker_bioconductor-pepsnmrdata|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pepsnmrdata
+   :required~by: |required_by_bioconductor-pepsnmrdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pepsnmrdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pepsnmrdata
+
+   and update with::
+
+      conda update bioconductor-pepsnmrdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pepsnmrdata
+
+
+.. |required_by_bioconductor-pepsnmrdata| conda:required_by:: bioconductor-pepsnmrdata
+.. |downloads_bioconductor-pepsnmrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pepsnmrdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pepsnmrdata| image:: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pepsnmrdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pepsnmrdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pepsnmrdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pepsnmrdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pepsnmrdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pepsnmrdata/README.html
 

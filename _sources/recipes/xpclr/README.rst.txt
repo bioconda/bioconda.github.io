@@ -1,54 +1,66 @@
-.. _`xpclr`:
+.. title:: Package Recipe 'xpclr'
+.. highlight: bash
+
 
 xpclr
 =====
 
-|downloads|
+.. conda:recipe:: xpclr
+   :replaces_section_title:
 
-Code to compute xp\-clr values to detect selection as per Chen\, Patterson \& Reich 2010.
+   Code to compute xp\-clr values to detect selection as per Chen\, Patterson \& Reich 2010.
 
-============= ===========
-Home          https://github.com/hardingnj/xpclr
-Versions      1.1.1, 1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xpclr/meta.yaml
+   :homepage: https://github.com/hardingnj/xpclr
+   :license: MIT / MIT
+   :recipe: /`xpclr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xpclr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xpclr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: xpclr
 
-Installation
-------------
+   |downloads_xpclr| |docker_xpclr|
 
-.. highlight: bash
+   :versions: 1.1.1, 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.6 :conda:package:`scikit-allel` >=1.2 :conda:package:`scipy`  :conda:package:`zarr` >=2.2 
 
-   conda install xpclr
+   :required~by: |required_by_xpclr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xpclr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xpclr
+
+   and update with::
+
+      conda update xpclr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xpclr
+
+
+.. |required_by_xpclr| conda:required_by:: xpclr
+.. |downloads_xpclr| image:: https://img.shields.io/conda/dn/bioconda/xpclr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xpclr| image:: https://quay.io/repository/biocontainers/xpclr/status
+   :target: https://quay.io/repository/biocontainers/xpclr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xpclr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xpclr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xpclr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xpclr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xpclr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xpclr
-.. |docker| image:: https://quay.io/repository/biocontainers/xpclr/status
-                :target: https://quay.io/repository/biocontainers/xpclr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xpclr/README.html
 

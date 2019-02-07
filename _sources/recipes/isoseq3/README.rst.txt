@@ -1,54 +1,66 @@
-.. _`isoseq3`:
+.. title:: Package Recipe 'isoseq3'
+.. highlight: bash
+
 
 isoseq3
 =======
 
-|downloads|
+.. conda:recipe:: isoseq3
+   :replaces_section_title:
 
-IsoSeq3 \- Scalable De Novo Isoform Discovery
+   IsoSeq3 \- Scalable De Novo Isoform Discovery
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      3.1.0, 3.0.0, 0.7.2
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//isoseq3/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbbioconda
+   :license: BSD-3-Clause-Clear
+   :recipe: /`isoseq3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoseq3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoseq3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: isoseq3
 
-Installation
-------------
+   |downloads_isoseq3| |docker_isoseq3|
 
-.. highlight: bash
+   :versions: 3.1.0, 3.0.0, 0.7.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`lima`  :conda:package:`pbccs`  :conda:package:`pbcoretools`  
 
-   conda install isoseq3
+   :required~by: |required_by_isoseq3|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update isoseq3
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install isoseq3
+
+   and update with::
+
+      conda update isoseq3
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/isoseq3
+
+
+.. |required_by_isoseq3| conda:required_by:: isoseq3
+.. |downloads_isoseq3| image:: https://img.shields.io/conda/dn/bioconda/isoseq3.svg?style=flat
+   :alt:   (downloads)
+.. |docker_isoseq3| image:: https://quay.io/repository/biocontainers/isoseq3/status
+   :target: https://quay.io/repository/biocontainers/isoseq3
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/isoseq3.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/isoseq3/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/isoseq3/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/isoseq3/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/isoseq3/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/isoseq3
-.. |docker| image:: https://quay.io/repository/biocontainers/isoseq3/status
-                :target: https://quay.io/repository/biocontainers/isoseq3
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/isoseq3/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-sictools`:
+.. title:: Package Recipe 'bioconductor-sictools'
+.. highlight: bash
+
 
 bioconductor-sictools
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-sictools
+   :replaces_section_title:
 
-This package is to find SNV\/Indel differences between two bam files with near relationship in a way of pairwise comparison thourgh each base position across the genome region of interest. The difference is inferred by fisher test and euclidean distance\, the input of which is the base count \(A\,T\,G\,C\) in a given position and read counts for indels that span no less than 2bp on both sides of indel region.
+   This package is to find SNV\/Indel differences between two bam files with near relationship in a way of pairwise comparison thourgh each base position across the genome region of interest. The difference is inferred by fisher test and euclidean distance\, the input of which is the base count \(A\,T\,G\,C\) in a given position and read counts for indels that span no less than 2bp on both sides of indel region.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SICtools.html
-Versions      1.12.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sictools/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SICtools.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-sictools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sictools
 
-Installation
-------------
+   |downloads_bioconductor-sictools| |docker_bioconductor-sictools|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel` >=1.0.8 :conda:package:`r-matrixstats` >=0.10.0 :conda:package:`r-plyr` >=1.8.3 :conda:package:`r-stringr` >=0.6.2 
 
-   conda install bioconductor-sictools
+   :required~by: |required_by_bioconductor-sictools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sictools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sictools
+
+   and update with::
+
+      conda update bioconductor-sictools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sictools
+
+
+.. |required_by_bioconductor-sictools| conda:required_by:: bioconductor-sictools
+.. |downloads_bioconductor-sictools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sictools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sictools| image:: https://quay.io/repository/biocontainers/bioconductor-sictools/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sictools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sictools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sictools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sictools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sictools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sictools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sictools
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sictools/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sictools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sictools/README.html
 

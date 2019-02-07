@@ -1,56 +1,67 @@
-.. _`ngsutils`:
+.. title:: Package Recipe 'ngsutils'
+.. highlight: bash
+
 
 ngsutils
 ========
 
-|downloads|
+.. conda:recipe:: ngsutils
+   :replaces_section_title:
 
-Tools for next\-generation sequencing analysis http\:\/\/ngsutils.org
+   Tools for next\-generation sequencing analysis http\:\/\/ngsutils.org
 
-============= ===========
-Home          http://ngsutils.org
-Versions      0.5.9
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ngsutils/meta.yaml
+   :homepage: http://ngsutils.org
+   :license: BSD
+   :recipe: /`ngsutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngsutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngsutils/meta.yaml>`_
+   :links: biotools: :biotools:`ngsutils`
 
-
-
-Links         biotools: :biotools:`ngsutils`
-
-============= ===========
+   
 
 
+.. conda:package:: ngsutils
 
-Installation
-------------
+   |downloads_ngsutils| |docker_ngsutils|
 
-.. highlight: bash
+   :versions: 0.5.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`coverage`  :conda:package:`cython`  :conda:package:`eta`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`swalign`  
 
-   conda install ngsutils
+   :required~by: |required_by_ngsutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ngsutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ngsutils
+
+   and update with::
+
+      conda update ngsutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ngsutils
+
+
+.. |required_by_ngsutils| conda:required_by:: ngsutils
+.. |downloads_ngsutils| image:: https://img.shields.io/conda/dn/bioconda/ngsutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ngsutils| image:: https://quay.io/repository/biocontainers/ngsutils/status
+   :target: https://quay.io/repository/biocontainers/ngsutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ngsutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngsutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ngsutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ngsutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ngsutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ngsutils
-.. |docker| image:: https://quay.io/repository/biocontainers/ngsutils/status
-                :target: https://quay.io/repository/biocontainers/ngsutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ngsutils/README.html
 

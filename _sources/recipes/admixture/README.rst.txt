@@ -1,56 +1,67 @@
-.. _`admixture`:
+.. title:: Package Recipe 'admixture'
+.. highlight: bash
+
 
 admixture
 =========
 
-|downloads|
+.. conda:recipe:: admixture
+   :replaces_section_title:
 
-ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets.
+   ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets.
 
-============= ===========
-Home          http://www.genetics.ucla.edu/software/admixture/index.html
-Versions      1.3.0
-License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//admixture/meta.yaml
+   :homepage: http://www.genetics.ucla.edu/software/admixture/index.html
+   :license: Free for Academic Use
+   :recipe: /`admixture <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixture>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixture/meta.yaml>`_
+   :links: biotools: :biotools:`admixture`, doi: :doi:`10.1101/gr.094052.109`
 
-
-
-Links         biotools: :biotools:`admixture`, doi: :doi:`10.1101/gr.094052.109`
-
-============= ===========
+   
 
 
+.. conda:package:: admixture
 
-Installation
-------------
+   |downloads_admixture| |docker_admixture|
 
-.. highlight: bash
+   :versions: 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install admixture
+   :required~by: |required_by_admixture|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update admixture
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install admixture
+
+   and update with::
+
+      conda update admixture
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/admixture
+
+
+.. |required_by_admixture| conda:required_by:: admixture
+.. |downloads_admixture| image:: https://img.shields.io/conda/dn/bioconda/admixture.svg?style=flat
+   :alt:   (downloads)
+.. |docker_admixture| image:: https://quay.io/repository/biocontainers/admixture/status
+   :target: https://quay.io/repository/biocontainers/admixture
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/admixture.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/admixture/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/admixture/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/admixture/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/admixture/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/admixture
-.. |docker| image:: https://quay.io/repository/biocontainers/admixture/status
-                :target: https://quay.io/repository/biocontainers/admixture
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/admixture/README.html
 

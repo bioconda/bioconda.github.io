@@ -1,54 +1,66 @@
-.. _`metaseq-all`:
+.. title:: Package Recipe 'metaseq-all'
+.. highlight: bash
+
 
 metaseq-all
 ===========
 
-|downloads|
+.. conda:recipe:: metaseq-all
+   :replaces_section_title:
 
-Meta\-package for metaseq including bedtools and UCSC tools
+   Meta\-package for metaseq including bedtools and UCSC tools
 
-============= ===========
-Home          
-Versions      0.5.6
-License       The license for this meta-package is MIT; individual tools vary
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaseq-all/meta.yaml
+   :homepage: 
+   :license: The license for this meta-package is MIT; individual tools vary
+   :recipe: /`metaseq-all <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaseq-all>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaseq-all/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metaseq-all
 
-Installation
-------------
+   |downloads_metaseq-all| |docker_metaseq-all|
 
-.. highlight: bash
+   :versions: 0.5.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`metaseq`  :conda:package:`samtools`  :conda:package:`ucsc-bedgraphtobigwig`  :conda:package:`ucsc-bedtobigbed`  :conda:package:`ucsc-bigbedtobed`  :conda:package:`ucsc-bigwigsummary`  
 
-   conda install metaseq-all
+   :required~by: |required_by_metaseq-all|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metaseq-all
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metaseq-all
+
+   and update with::
+
+      conda update metaseq-all
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metaseq-all
+
+
+.. |required_by_metaseq-all| conda:required_by:: metaseq-all
+.. |downloads_metaseq-all| image:: https://img.shields.io/conda/dn/bioconda/metaseq-all.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metaseq-all| image:: https://quay.io/repository/biocontainers/metaseq-all/status
+   :target: https://quay.io/repository/biocontainers/metaseq-all
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metaseq-all.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metaseq-all/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metaseq-all/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metaseq-all/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metaseq-all/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metaseq-all
-.. |docker| image:: https://quay.io/repository/biocontainers/metaseq-all/status
-                :target: https://quay.io/repository/biocontainers/metaseq-all
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metaseq-all/README.html
 

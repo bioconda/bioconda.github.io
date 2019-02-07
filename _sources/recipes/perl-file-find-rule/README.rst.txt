@@ -1,54 +1,66 @@
-.. _`perl-file-find-rule`:
+.. title:: Package Recipe 'perl-file-find-rule'
+.. highlight: bash
+
 
 perl-file-find-rule
 ===================
 
-|downloads|
+.. conda:recipe:: perl-file-find-rule
+   :replaces_section_title:
 
-Alternative interface to File\:\:Find
+   Alternative interface to File\:\:Find
 
-============= ===========
-Home          http://metacpan.org/pod/File::Find::Rule
-Versions      0.34
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-find-rule/meta.yaml
+   :homepage: http://metacpan.org/pod/File::Find::Rule
+   :license: perl_5
+   :recipe: /`perl-file-find-rule <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-find-rule
 
-Installation
-------------
+   |downloads_perl-file-find-rule| |docker_perl-file-find-rule|
 
-.. highlight: bash
+   :versions: 0.34
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-app-cpanminus`  :conda:package:`perl-module-build`  :conda:package:`perl-number-compare`  :conda:package:`perl-pathtools`  :conda:package:`perl-text-glob`  
 
-   conda install perl-file-find-rule
+   :required~by: |required_by_perl-file-find-rule|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-find-rule
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-find-rule
+
+   and update with::
+
+      conda update perl-file-find-rule
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-find-rule
+
+
+.. |required_by_perl-file-find-rule| conda:required_by:: perl-file-find-rule
+.. |downloads_perl-file-find-rule| image:: https://img.shields.io/conda/dn/bioconda/perl-file-find-rule.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-find-rule| image:: https://quay.io/repository/biocontainers/perl-file-find-rule/status
+   :target: https://quay.io/repository/biocontainers/perl-file-find-rule
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-find-rule.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-find-rule/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-find-rule/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-find-rule/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-find-rule/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-find-rule
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-find-rule/status
-                :target: https://quay.io/repository/biocontainers/perl-file-find-rule
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-find-rule/README.html
 

@@ -1,56 +1,67 @@
-.. _`plink`:
+.. title:: Package Recipe 'plink'
+.. highlight: bash
+
 
 plink
 =====
 
-|downloads|
+.. conda:recipe:: plink
+   :replaces_section_title:
 
-Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
+   Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
-============= ===========
-Home          https://www.cog-genomics.org/plink
-Versions      1.90b4
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plink/meta.yaml
+   :homepage: https://www.cog-genomics.org/plink
+   :license: GPLv3
+   :recipe: /`plink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink/meta.yaml>`_
+   :links: biotools: :biotools:`PLINK`, doi: :doi:`10.1086/519795`
 
-
-
-Links         biotools: :biotools:`PLINK`, doi: :doi:`10.1086/519795`
-
-============= ===========
+   
 
 
+.. conda:package:: plink
 
-Installation
-------------
+   |downloads_plink| |docker_plink|
 
-.. highlight: bash
+   :versions: 1.90b4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openblas`  :conda:package:`zlib`  
 
-   conda install plink
+   :required~by: |required_by_plink|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update plink
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install plink
+
+   and update with::
+
+      conda update plink
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/plink
+
+
+.. |required_by_plink| conda:required_by:: plink
+.. |downloads_plink| image:: https://img.shields.io/conda/dn/bioconda/plink.svg?style=flat
+   :alt:   (downloads)
+.. |docker_plink| image:: https://quay.io/repository/biocontainers/plink/status
+   :target: https://quay.io/repository/biocontainers/plink
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/plink.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/plink/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/plink/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/plink/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/plink/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/plink
-.. |docker| image:: https://quay.io/repository/biocontainers/plink/status
-                :target: https://quay.io/repository/biocontainers/plink
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/plink/README.html
 

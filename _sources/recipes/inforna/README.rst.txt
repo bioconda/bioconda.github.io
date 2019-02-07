@@ -1,56 +1,67 @@
-.. _`inforna`:
+.. title:: Package Recipe 'inforna'
+.. highlight: bash
+
 
 inforna
 =======
 
-|downloads|
+.. conda:recipe:: inforna
+   :replaces_section_title:
 
-A server for the design of RNA sequences that fold into a given pseudo\-knot free RNA secondary structure.
+   A server for the design of RNA sequences that fold into a given pseudo\-knot free RNA secondary structure.
 
-============= ===========
-Home          https://github.com/BackofenLab/INFO-RNA
-Versions      2.1.2
-License       MIT-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//inforna/meta.yaml
+   :homepage: https://github.com/BackofenLab/INFO-RNA
+   :license: MIT-like
+   :recipe: /`inforna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inforna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inforna/meta.yaml>`_
+   :links: biotools: :biotools:`inforna`
 
-
-
-Links         biotools: :biotools:`inforna`
-
-============= ===========
+   
 
 
+.. conda:package:: inforna
 
-Installation
-------------
+   |downloads_inforna| |docker_inforna|
 
-.. highlight: bash
+   :versions: 2.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`viennarna`  
 
-   conda install inforna
+   :required~by: |required_by_inforna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update inforna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install inforna
+
+   and update with::
+
+      conda update inforna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/inforna
+
+
+.. |required_by_inforna| conda:required_by:: inforna
+.. |downloads_inforna| image:: https://img.shields.io/conda/dn/bioconda/inforna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_inforna| image:: https://quay.io/repository/biocontainers/inforna/status
+   :target: https://quay.io/repository/biocontainers/inforna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/inforna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/inforna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/inforna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/inforna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/inforna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/inforna
-.. |docker| image:: https://quay.io/repository/biocontainers/inforna/status
-                :target: https://quay.io/repository/biocontainers/inforna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/inforna/README.html
 

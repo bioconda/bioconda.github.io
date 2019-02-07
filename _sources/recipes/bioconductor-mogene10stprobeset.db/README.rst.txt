@@ -1,54 +1,66 @@
-.. _`bioconductor-mogene10stprobeset.db`:
+.. title:: Package Recipe 'bioconductor-mogene10stprobeset.db'
+.. highlight: bash
+
 
 bioconductor-mogene10stprobeset.db
 ==================================
 
-|downloads|
+.. conda:recipe:: bioconductor-mogene10stprobeset.db
+   :replaces_section_title:
 
-Affymetrix mogene10 annotation data \(chip mogene10stprobeset\) assembled using data from public repositories
+   Affymetrix mogene10 annotation data \(chip mogene10stprobeset\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mogene10stprobeset.db.html
-Versions      8.7.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mogene10stprobeset.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mogene10stprobeset.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mogene10stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stprobeset.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mogene10stprobeset.db
 
-Installation
-------------
+   |downloads_bioconductor-mogene10stprobeset.db| |docker_bioconductor-mogene10stprobeset.db|
 
-.. highlight: bash
+   :versions: 8.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.mm.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mogene10stprobeset.db
+   :required~by: |required_by_bioconductor-mogene10stprobeset.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mogene10stprobeset.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mogene10stprobeset.db
+
+   and update with::
+
+      conda update bioconductor-mogene10stprobeset.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db
+
+
+.. |required_by_bioconductor-mogene10stprobeset.db| conda:required_by:: bioconductor-mogene10stprobeset.db
+.. |downloads_bioconductor-mogene10stprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mogene10stprobeset.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mogene10stprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mogene10stprobeset.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mogene10stprobeset.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mogene10stprobeset.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mogene10stprobeset.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mogene10stprobeset.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mogene10stprobeset.db/README.html
 

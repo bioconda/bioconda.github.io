@@ -1,56 +1,67 @@
-.. _`gappa`:
+.. title:: Package Recipe 'gappa'
+.. highlight: bash
+
 
 gappa
 =====
 
-|downloads|
+.. conda:recipe:: gappa
+   :replaces_section_title:
 
-Genesis Applications for Phylogenetic Placement Analysis
+   Genesis Applications for Phylogenetic Placement Analysis
 
-============= ===========
-Home          https://github.com/lczech/gappa
-Versions      0.1.0
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gappa/meta.yaml
+   :homepage: https://github.com/lczech/gappa
+   :license: GNU General Public License v3.0
+   :recipe: /`gappa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gappa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gappa/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty767`
 
-
-
-Links         doi: :doi:`10.1093/bioinformatics/bty767`
-
-============= ===========
+   
 
 
+.. conda:package:: gappa
 
-Installation
-------------
+   |downloads_gappa| |docker_gappa|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install gappa
+   :required~by: |required_by_gappa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gappa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gappa
+
+   and update with::
+
+      conda update gappa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gappa
+
+
+.. |required_by_gappa| conda:required_by:: gappa
+.. |downloads_gappa| image:: https://img.shields.io/conda/dn/bioconda/gappa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gappa| image:: https://quay.io/repository/biocontainers/gappa/status
+   :target: https://quay.io/repository/biocontainers/gappa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gappa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gappa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gappa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gappa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gappa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gappa
-.. |docker| image:: https://quay.io/repository/biocontainers/gappa/status
-                :target: https://quay.io/repository/biocontainers/gappa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gappa/README.html
 

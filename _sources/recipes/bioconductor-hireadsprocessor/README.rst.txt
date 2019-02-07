@@ -1,54 +1,66 @@
-.. _`bioconductor-hireadsprocessor`:
+.. title:: Package Recipe 'bioconductor-hireadsprocessor'
+.. highlight: bash
+
 
 bioconductor-hireadsprocessor
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-hireadsprocessor
+   :replaces_section_title:
 
-hiReadsProcessor contains set of functions which allow users to process LM\-PCR products sequenced using any platform. Given an excel\/txt file containing parameters for demultiplexing and sample metadata\, the functions automate trimming of adaptors and identification of the genomic product. Genomic products are further processed for QC and abundance quantification.
+   hiReadsProcessor contains set of functions which allow users to process LM\-PCR products sequenced using any platform. Given an excel\/txt file containing parameters for demultiplexing and sample metadata\, the functions automate trimming of adaptors and identification of the genomic product. Genomic products are further processed for QC and abundance quantification.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/hiReadsProcessor.html
-Versions      1.18.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hireadsprocessor/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hiReadsProcessor.html
+   :license: GPL-3
+   :recipe: /`bioconductor-hireadsprocessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hireadsprocessor
 
-Installation
-------------
+   |downloads_bioconductor-hireadsprocessor| |docker_bioconductor-hireadsprocessor|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-hiannotator` >=1.16.0,<1.17.0 :conda:package:`bioconductor-rsffreader` >=0.30.0,<0.31.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-readxl`  :conda:package:`r-soniclength`  
 
-   conda install bioconductor-hireadsprocessor
+   :required~by: |required_by_bioconductor-hireadsprocessor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hireadsprocessor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hireadsprocessor
+
+   and update with::
+
+      conda update bioconductor-hireadsprocessor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hireadsprocessor
+
+
+.. |required_by_bioconductor-hireadsprocessor| conda:required_by:: bioconductor-hireadsprocessor
+.. |downloads_bioconductor-hireadsprocessor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hireadsprocessor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hireadsprocessor| image:: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hireadsprocessor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hireadsprocessor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hireadsprocessor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hireadsprocessor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hireadsprocessor
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hireadsprocessor/README.html
 

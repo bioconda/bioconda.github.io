@@ -1,54 +1,66 @@
-.. _`bioconductor-alsace`:
+.. title:: Package Recipe 'bioconductor-alsace'
+.. highlight: bash
+
 
 bioconductor-alsace
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-alsace
+   :replaces_section_title:
 
-Alternating Least Squares \(or Multivariate Curve Resolution\) for analytical chemical data\, in particular hyphenated data where the first direction is a retention time axis\, and the second a spectral axis. Package builds on the basic als function from the ALS package and adds functionality for high\-throughput analysis\, including definition of time windows\, clustering of profiles\, retention time correction\, etcetera.
+   Alternating Least Squares \(or Multivariate Curve Resolution\) for analytical chemical data\, in particular hyphenated data where the first direction is a retention time axis\, and the second a spectral axis. Package builds on the basic als function from the ALS package and adds functionality for high\-throughput analysis\, including definition of time windows\, clustering of profiles\, retention time correction\, etcetera.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/alsace.html
-Versions      1.18.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-alsace/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/alsace.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-alsace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-alsace
 
-Installation
-------------
+   |downloads_bioconductor-alsace| |docker_bioconductor-alsace|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-als`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ptw` >=1.0.6 
 
-   conda install bioconductor-alsace
+   :required~by: |required_by_bioconductor-alsace|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-alsace
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-alsace
+
+   and update with::
+
+      conda update bioconductor-alsace
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-alsace
+
+
+.. |required_by_bioconductor-alsace| conda:required_by:: bioconductor-alsace
+.. |downloads_bioconductor-alsace| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-alsace.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-alsace| image:: https://quay.io/repository/biocontainers/bioconductor-alsace/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-alsace
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-alsace.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-alsace/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-alsace/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-alsace/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-alsace/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-alsace
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-alsace/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-alsace
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-alsace/README.html
 

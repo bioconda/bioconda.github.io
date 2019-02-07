@@ -1,54 +1,66 @@
-.. _`bioconductor-soybeancdf`:
+.. title:: Package Recipe 'bioconductor-soybeancdf'
+.. highlight: bash
+
 
 bioconductor-soybeancdf
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-soybeancdf
+   :replaces_section_title:
 
-A package containing an environment representing the Soybean.cdf file.
+   A package containing an environment representing the Soybean.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/soybeancdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-soybeancdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/soybeancdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-soybeancdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-soybeancdf
 
-Installation
-------------
+   |downloads_bioconductor-soybeancdf| |docker_bioconductor-soybeancdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-soybeancdf
+   :required~by: |required_by_bioconductor-soybeancdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-soybeancdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-soybeancdf
+
+   and update with::
+
+      conda update bioconductor-soybeancdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-soybeancdf
+
+
+.. |required_by_bioconductor-soybeancdf| conda:required_by:: bioconductor-soybeancdf
+.. |downloads_bioconductor-soybeancdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-soybeancdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-soybeancdf| image:: https://quay.io/repository/biocontainers/bioconductor-soybeancdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-soybeancdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-soybeancdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-soybeancdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-soybeancdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-soybeancdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-soybeancdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-soybeancdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-soybeancdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-soybeancdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-soybeancdf/README.html
 

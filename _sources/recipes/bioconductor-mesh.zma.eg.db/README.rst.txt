@@ -1,54 +1,66 @@
-.. _`bioconductor-mesh.zma.eg.db`:
+.. title:: Package Recipe 'bioconductor-mesh.zma.eg.db'
+.. highlight: bash
+
 
 bioconductor-mesh.zma.eg.db
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mesh.zma.eg.db
+   :replaces_section_title:
 
-Entrez Gene ID to MeSH ID table.
+   Entrez Gene ID to MeSH ID table.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/MeSH.Zma.eg.db.html
-Versions      1.11.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mesh.zma.eg.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MeSH.Zma.eg.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mesh.zma.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.zma.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.zma.eg.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mesh.zma.eg.db
 
-Installation
-------------
+   |downloads_bioconductor-mesh.zma.eg.db| |docker_bioconductor-mesh.zma.eg.db|
 
-.. highlight: bash
+   :versions: 1.11.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-meshdbi` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mesh.zma.eg.db
+   :required~by: |required_by_bioconductor-mesh.zma.eg.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mesh.zma.eg.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mesh.zma.eg.db
+
+   and update with::
+
+      conda update bioconductor-mesh.zma.eg.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db
+
+
+.. |required_by_bioconductor-mesh.zma.eg.db| conda:required_by:: bioconductor-mesh.zma.eg.db
+.. |downloads_bioconductor-mesh.zma.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.zma.eg.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mesh.zma.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mesh.zma.eg.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mesh.zma.eg.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mesh.zma.eg.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mesh.zma.eg.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mesh.zma.eg.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mesh.zma.eg.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mesh.zma.eg.db/README.html
 

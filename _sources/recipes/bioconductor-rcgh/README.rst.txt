@@ -1,56 +1,67 @@
-.. _`bioconductor-rcgh`:
+.. title:: Package Recipe 'bioconductor-rcgh'
+.. highlight: bash
+
 
 bioconductor-rcgh
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-rcgh
+   :replaces_section_title:
 
-A comprehensive pipeline for analyzing and interactively visualizing genomic profiles generated through commercial or custom aCGH arrays. As inputs\, rCGH supports Agilent dual\-color Feature Extraction files \(.txt\)\, from 44 to 400K\, Affymetrix SNP6.0 and cytoScanHD probeset.txt\, cychp.txt\, and cnchp.txt files exported from ChAS or Affymetrix Power Tools. rCGH also supports custom arrays\, provided data complies with the expected format. This package takes over all the steps required for individual genomic profiles analysis\, from reading files to profiles segmentation and gene annotations. This package also provides several visualization functions \(static or interactive\) which facilitate individual profiles interpretation. Input files can be in compressed format\, e.g. .bz2 or .gz.
+   A comprehensive pipeline for analyzing and interactively visualizing genomic profiles generated through commercial or custom aCGH arrays. As inputs\, rCGH supports Agilent dual\-color Feature Extraction files \(.txt\)\, from 44 to 400K\, Affymetrix SNP6.0 and cytoScanHD probeset.txt\, cychp.txt\, and cnchp.txt files exported from ChAS or Affymetrix Power Tools. rCGH also supports custom arrays\, provided data complies with the expected format. This package takes over all the steps required for individual genomic profiles analysis\, from reading files to profiles segmentation and gene annotations. This package also provides several visualization functions \(static or interactive\) which facilitate individual profiles interpretation. Input files can be in compressed format\, e.g. .bz2 or .gz.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rCGH.html
-Versions      1.12.0, 1.10.0, 1.8.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rcgh/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rCGH.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-rcgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcgh/meta.yaml>`_
+   :links: biotools: :biotools:`rcgh`, doi: :doi:`10.1093/bioinformatics/btv718`
 
-
-
-Links         biotools: :biotools:`rcgh`, doi: :doi:`10.1093/bioinformatics/btv718`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rcgh
 
-Installation
-------------
+   |downloads_bioconductor-rcgh| |docker_bioconductor-rcgh|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-acgh` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg18.knowngene` >=3.2.0,<3.3.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg19.knowngene` >=3.2.0,<3.3.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg38.knowngene` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-lattice`  :conda:package:`r-mclust`  :conda:package:`r-plyr`  :conda:package:`r-shiny` >=0.11.1 
 
-   conda install bioconductor-rcgh
+   :required~by: |required_by_bioconductor-rcgh|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rcgh
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rcgh
+
+   and update with::
+
+      conda update bioconductor-rcgh
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rcgh
+
+
+.. |required_by_bioconductor-rcgh| conda:required_by:: bioconductor-rcgh
+.. |downloads_bioconductor-rcgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcgh.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rcgh| image:: https://quay.io/repository/biocontainers/bioconductor-rcgh/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rcgh
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rcgh.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rcgh/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rcgh/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rcgh/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rcgh/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rcgh
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rcgh/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rcgh
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rcgh/README.html
 

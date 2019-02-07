@@ -1,54 +1,66 @@
-.. _`bioconductor-hta20probeset.db`:
+.. title:: Package Recipe 'bioconductor-hta20probeset.db'
+.. highlight: bash
+
 
 bioconductor-hta20probeset.db
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-hta20probeset.db
+   :replaces_section_title:
 
-Affymetrix hta20 annotation data \(chip hta20probeset\) assembled using data from public repositories
+   Affymetrix hta20 annotation data \(chip hta20probeset\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hta20probeset.db.html
-Versions      8.7.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hta20probeset.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hta20probeset.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-hta20probeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hta20probeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hta20probeset.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hta20probeset.db
 
-Installation
-------------
+   |downloads_bioconductor-hta20probeset.db| |docker_bioconductor-hta20probeset.db|
 
-.. highlight: bash
+   :versions: 8.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hta20probeset.db
+   :required~by: |required_by_bioconductor-hta20probeset.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hta20probeset.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hta20probeset.db
+
+   and update with::
+
+      conda update bioconductor-hta20probeset.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hta20probeset.db
+
+
+.. |required_by_bioconductor-hta20probeset.db| conda:required_by:: bioconductor-hta20probeset.db
+.. |downloads_bioconductor-hta20probeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hta20probeset.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hta20probeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hta20probeset.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hta20probeset.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hta20probeset.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hta20probeset.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hta20probeset.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hta20probeset.db/README.html
 

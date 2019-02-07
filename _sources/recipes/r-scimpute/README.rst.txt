@@ -1,56 +1,67 @@
-.. _`r-scimpute`:
+.. title:: Package Recipe 'r-scimpute'
+.. highlight: bash
+
 
 r-scimpute
 ==========
 
-|downloads|
+.. conda:recipe:: r-scimpute
+   :replaces_section_title:
 
-scImpute is accurate and robust imputation of single\-cell RNA sequencing data.
+   scImpute is accurate and robust imputation of single\-cell RNA sequencing data.
 
-============= ===========
-Home          https://github.com/Vivianstats/scImpute
-Versions      0.0.8, 0.0.6
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-scimpute/meta.yaml
+   :homepage: https://github.com/Vivianstats/scImpute
+   :license: GPL / GPL
+   :recipe: /`r-scimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scimpute/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-018-03405-7`
 
-
-
-Links         doi: :doi:`10.1038/s41467-018-03405-7`
-
-============= ===========
+   
 
 
+.. conda:package:: r-scimpute
 
-Installation
-------------
+   |downloads_r-scimpute| |docker_r-scimpute|
 
-.. highlight: bash
+   :versions: 0.0.8, 0.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`parallel`  :conda:package:`r` >=3.3.2 :conda:package:`r-devtools`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-kernlab`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-penalized`  :conda:package:`r-rsvd`  
 
-   conda install r-scimpute
+   :required~by: |required_by_r-scimpute|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-scimpute
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-scimpute
+
+   and update with::
+
+      conda update r-scimpute
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-scimpute
+
+
+.. |required_by_r-scimpute| conda:required_by:: r-scimpute
+.. |downloads_r-scimpute| image:: https://img.shields.io/conda/dn/bioconda/r-scimpute.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-scimpute| image:: https://quay.io/repository/biocontainers/r-scimpute/status
+   :target: https://quay.io/repository/biocontainers/r-scimpute
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-scimpute.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-scimpute/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-scimpute/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-scimpute/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-scimpute/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-scimpute
-.. |docker| image:: https://quay.io/repository/biocontainers/r-scimpute/status
-                :target: https://quay.io/repository/biocontainers/r-scimpute
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-scimpute/README.html
 

@@ -1,54 +1,66 @@
-.. _`repeatscout`:
+.. title:: Package Recipe 'repeatscout'
+.. highlight: bash
+
 
 repeatscout
 ===========
 
-|downloads|
+.. conda:recipe:: repeatscout
+   :replaces_section_title:
 
-De novo identification of repeat families in large genomes.
+   De novo identification of repeat families in large genomes.
 
-============= ===========
-Home          http://repeatscout.bioprojects.org
-Versions      1.0.5
-License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//repeatscout/meta.yaml
+   :homepage: http://repeatscout.bioprojects.org
+   :license: GNU General Public License
+   :recipe: /`repeatscout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: repeatscout
 
-Installation
-------------
+   |downloads_repeatscout| |docker_repeatscout|
 
-.. highlight: bash
+   :versions: 1.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install repeatscout
+   :required~by: |required_by_repeatscout|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update repeatscout
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install repeatscout
+
+   and update with::
+
+      conda update repeatscout
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/repeatscout
+
+
+.. |required_by_repeatscout| conda:required_by:: repeatscout
+.. |downloads_repeatscout| image:: https://img.shields.io/conda/dn/bioconda/repeatscout.svg?style=flat
+   :alt:   (downloads)
+.. |docker_repeatscout| image:: https://quay.io/repository/biocontainers/repeatscout/status
+   :target: https://quay.io/repository/biocontainers/repeatscout
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/repeatscout.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/repeatscout/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/repeatscout/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/repeatscout/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/repeatscout/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/repeatscout
-.. |docker| image:: https://quay.io/repository/biocontainers/repeatscout/status
-                :target: https://quay.io/repository/biocontainers/repeatscout
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/repeatscout/README.html
 

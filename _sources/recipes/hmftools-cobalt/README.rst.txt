@@ -1,54 +1,66 @@
-.. _`hmftools-cobalt`:
+.. title:: Package Recipe 'hmftools-cobalt'
+.. highlight: bash
+
 
 hmftools-cobalt
 ===============
 
-|downloads|
+.. conda:recipe:: hmftools-cobalt
+   :replaces_section_title:
 
-Count bam lines is designed to count the number of read starts within each 1000 base window of a tumor and reference bam.
+   Count bam lines is designed to count the number of read starts within each 1000 base window of a tumor and reference bam.
 
-============= ===========
-Home          https://github.com/hartwigmedical/hmftools/tree/master/count-bam-lines
-Versions      1.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hmftools-cobalt/meta.yaml
+   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/count-bam-lines
+   :license: MIT / MIT
+   :recipe: /`hmftools-cobalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hmftools-cobalt
 
-Installation
-------------
+   |downloads_hmftools-cobalt| |docker_hmftools-cobalt|
 
-.. highlight: bash
+   :versions: 1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 
 
-   conda install hmftools-cobalt
+   :required~by: |required_by_hmftools-cobalt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hmftools-cobalt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hmftools-cobalt
+
+   and update with::
+
+      conda update hmftools-cobalt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hmftools-cobalt
+
+
+.. |required_by_hmftools-cobalt| conda:required_by:: hmftools-cobalt
+.. |downloads_hmftools-cobalt| image:: https://img.shields.io/conda/dn/bioconda/hmftools-cobalt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hmftools-cobalt| image:: https://quay.io/repository/biocontainers/hmftools-cobalt/status
+   :target: https://quay.io/repository/biocontainers/hmftools-cobalt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hmftools-cobalt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hmftools-cobalt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hmftools-cobalt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hmftools-cobalt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hmftools-cobalt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hmftools-cobalt
-.. |docker| image:: https://quay.io/repository/biocontainers/hmftools-cobalt/status
-                :target: https://quay.io/repository/biocontainers/hmftools-cobalt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hmftools-cobalt/README.html
 

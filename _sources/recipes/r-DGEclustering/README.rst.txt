@@ -1,54 +1,66 @@
-.. _`r-dgeclustering`:
+.. title:: Package Recipe 'r-dgeclustering'
+.. highlight: bash
+
 
 r-dgeclustering
 ===============
 
-|downloads|
+.. conda:recipe:: r-DGEclustering
+   :replaces_section_title:
 
-DGEclustering is an R package for multidimensional clustering of differential gene expression datasets\, and it integrates GO annotations to improve the clustering result.
+   DGEclustering is an R package for multidimensional clustering of differential gene expression datasets\, and it integrates GO annotations to improve the clustering result.
 
-============= ===========
-Home          https://github.com/reneechou123/DGEclustering
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-DGEclustering/meta.yaml
+   :homepage: https://github.com/reneechou123/DGEclustering
+   :license: MIT
+   :recipe: /`r-DGEclustering <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-DGEclustering>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-DGEclustering/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-dgeclustering
 
-Installation
-------------
+   |downloads_r-dgeclustering| |docker_r-dgeclustering|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-clusterprofiler`  :conda:package:`bioconductor-genomicfeatures`  :conda:package:`bioconductor-gosemsim`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-factominer`  :conda:package:`r-ggplot2`  :conda:package:`r-intego`  :conda:package:`r-reshape2`  :conda:package:`r-rlist`  
 
-   conda install r-dgeclustering
+   :required~by: |required_by_r-dgeclustering|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-dgeclustering
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-dgeclustering
+
+   and update with::
+
+      conda update r-dgeclustering
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-dgeclustering
+
+
+.. |required_by_r-dgeclustering| conda:required_by:: r-dgeclustering
+.. |downloads_r-dgeclustering| image:: https://img.shields.io/conda/dn/bioconda/r-dgeclustering.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-dgeclustering| image:: https://quay.io/repository/biocontainers/r-dgeclustering/status
+   :target: https://quay.io/repository/biocontainers/r-dgeclustering
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-dgeclustering.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-dgeclustering/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-dgeclustering/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-dgeclustering/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-dgeclustering/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-dgeclustering
-.. |docker| image:: https://quay.io/repository/biocontainers/r-dgeclustering/status
-                :target: https://quay.io/repository/biocontainers/r-dgeclustering
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-dgeclustering/README.html
 

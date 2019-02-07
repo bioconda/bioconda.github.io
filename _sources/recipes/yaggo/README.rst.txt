@@ -1,54 +1,66 @@
-.. _`yaggo`:
+.. title:: Package Recipe 'yaggo'
+.. highlight: bash
+
 
 yaggo
 =====
 
-|downloads|
+.. conda:recipe:: yaggo
+   :replaces_section_title:
 
-Yaggo is a tool to generate command line parsers for C\+\+. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt.
+   Yaggo is a tool to generate command line parsers for C\+\+. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt.
 
-============= ===========
-Home          https://github.com/gmarcais/yaggo
-Versions      1.5.10, 1.5.9, 1.5.8
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//yaggo/meta.yaml
+   :homepage: https://github.com/gmarcais/yaggo
+   :license: GPL / GPL-3.0
+   :recipe: /`yaggo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yaggo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yaggo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: yaggo
 
-Installation
-------------
+   |downloads_yaggo| |docker_yaggo|
 
-.. highlight: bash
+   :versions: 1.5.10, 1.5.9, 1.5.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ruby` >2.2.3 
 
-   conda install yaggo
+   :required~by: |required_by_yaggo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update yaggo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install yaggo
+
+   and update with::
+
+      conda update yaggo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/yaggo
+
+
+.. |required_by_yaggo| conda:required_by:: yaggo
+.. |downloads_yaggo| image:: https://img.shields.io/conda/dn/bioconda/yaggo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_yaggo| image:: https://quay.io/repository/biocontainers/yaggo/status
+   :target: https://quay.io/repository/biocontainers/yaggo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/yaggo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/yaggo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/yaggo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/yaggo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/yaggo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/yaggo
-.. |docker| image:: https://quay.io/repository/biocontainers/yaggo/status
-                :target: https://quay.io/repository/biocontainers/yaggo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/yaggo/README.html
 

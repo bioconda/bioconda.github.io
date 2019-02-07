@@ -1,54 +1,66 @@
-.. _`perl-unicode-map`:
+.. title:: Package Recipe 'perl-unicode-map'
+.. highlight: bash
+
 
 perl-unicode-map
 ================
 
-|downloads|
+.. conda:recipe:: perl-unicode-map
+   :replaces_section_title:
 
-An utility to map texts from and to unicode
+   An utility to map texts from and to unicode
 
-============= ===========
-Home          http://metacpan.org/pod/Unicode::Map
-Versions      0.112
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-unicode-map/meta.yaml
+   :homepage: http://metacpan.org/pod/Unicode::Map
+   :license: unknown
+   :recipe: /`perl-unicode-map <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-unicode-map
 
-Installation
-------------
+   |downloads_perl-unicode-map| |docker_perl-unicode-map|
 
-.. highlight: bash
+   :versions: 0.112
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-unicode-map
+   :required~by: |required_by_perl-unicode-map|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-unicode-map
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-unicode-map
+
+   and update with::
+
+      conda update perl-unicode-map
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-unicode-map
+
+
+.. |required_by_perl-unicode-map| conda:required_by:: perl-unicode-map
+.. |downloads_perl-unicode-map| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-map.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-unicode-map| image:: https://quay.io/repository/biocontainers/perl-unicode-map/status
+   :target: https://quay.io/repository/biocontainers/perl-unicode-map
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-unicode-map.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-unicode-map/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-unicode-map/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-unicode-map/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-unicode-map/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-unicode-map
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-unicode-map/status
-                :target: https://quay.io/repository/biocontainers/perl-unicode-map
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-unicode-map/README.html
 

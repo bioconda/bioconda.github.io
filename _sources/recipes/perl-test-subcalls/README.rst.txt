@@ -1,54 +1,66 @@
-.. _`perl-test-subcalls`:
+.. title:: Package Recipe 'perl-test-subcalls'
+.. highlight: bash
+
 
 perl-test-subcalls
 ==================
 
-|downloads|
+.. conda:recipe:: perl-test-subcalls/1.10
+   :replaces_section_title:
 
-Track the number of times subs are called
+   Track the number of times subs are called
 
-============= ===========
-Home          https://github.com/karenetheridge/Test-SubCalls
-Versions      1.10
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-subcalls/1.10/meta.yaml
+   :homepage: https://github.com/karenetheridge/Test-SubCalls
+   :license: perl_5
+   :recipe: /`perl-test-subcalls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-subcalls>`_/`1.10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-subcalls/1.10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-subcalls/1.10/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-subcalls
 
-Installation
-------------
+   |downloads_perl-test-subcalls| |docker_perl-test-subcalls|
 
-.. highlight: bash
+   :versions: 1.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-file-spec` >=0.80 :conda:package:`perl-hook-lexwrap`  :conda:package:`perl-pathtools`  :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-more` >=0.42 
 
-   conda install perl-test-subcalls
+   :required~by: |required_by_perl-test-subcalls|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-subcalls
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-subcalls
+
+   and update with::
+
+      conda update perl-test-subcalls
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-subcalls
+
+
+.. |required_by_perl-test-subcalls| conda:required_by:: perl-test-subcalls
+.. |downloads_perl-test-subcalls| image:: https://img.shields.io/conda/dn/bioconda/perl-test-subcalls.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-subcalls| image:: https://quay.io/repository/biocontainers/perl-test-subcalls/status
+   :target: https://quay.io/repository/biocontainers/perl-test-subcalls
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-subcalls.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-subcalls/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-subcalls/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-subcalls/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-subcalls/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-subcalls
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-subcalls/status
-                :target: https://quay.io/repository/biocontainers/perl-test-subcalls
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-subcalls/README.html
 

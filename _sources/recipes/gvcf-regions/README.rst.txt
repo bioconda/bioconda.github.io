@@ -1,54 +1,66 @@
-.. _`gvcf-regions`:
+.. title:: Package Recipe 'gvcf-regions'
+.. highlight: bash
+
 
 gvcf-regions
 ============
 
-|downloads|
+.. conda:recipe:: gvcf-regions
+   :replaces_section_title:
 
-Convert a gVCF file in multiple formats into a BED file of callable regions
+   Convert a gVCF file in multiple formats into a BED file of callable regions
 
-============= ===========
-Home          https://github.com/lijiayong/gvcf_regions
-Versions      2016.06.23, 2016.06.21, 2016.05.24, 2016.05.20
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gvcf-regions/meta.yaml
+   :homepage: https://github.com/lijiayong/gvcf_regions
+   :license: GPLv3
+   :recipe: /`gvcf-regions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcf-regions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcf-regions/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gvcf-regions
 
-Installation
-------------
+   |downloads_gvcf-regions| |docker_gvcf-regions|
 
-.. highlight: bash
+   :versions: 2016.06.23, 2016.06.21, 2016.05.24, 2016.05.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install gvcf-regions
+   :required~by: |required_by_gvcf-regions|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gvcf-regions
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gvcf-regions
+
+   and update with::
+
+      conda update gvcf-regions
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gvcf-regions
+
+
+.. |required_by_gvcf-regions| conda:required_by:: gvcf-regions
+.. |downloads_gvcf-regions| image:: https://img.shields.io/conda/dn/bioconda/gvcf-regions.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gvcf-regions| image:: https://quay.io/repository/biocontainers/gvcf-regions/status
+   :target: https://quay.io/repository/biocontainers/gvcf-regions
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gvcf-regions.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gvcf-regions/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gvcf-regions/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gvcf-regions/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gvcf-regions/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gvcf-regions
-.. |docker| image:: https://quay.io/repository/biocontainers/gvcf-regions/status
-                :target: https://quay.io/repository/biocontainers/gvcf-regions
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gvcf-regions/README.html
 

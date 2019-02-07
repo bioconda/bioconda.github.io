@@ -1,56 +1,67 @@
-.. _`bioconductor-pathifier`:
+.. title:: Package Recipe 'bioconductor-pathifier'
+.. highlight: bash
+
 
 bioconductor-pathifier
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-pathifier
+   :replaces_section_title:
 
-Pathifier is an algorithm that infers pathway deregulation scores for each tumor sample on the basis of expression data. This score is determined\, in a context\-specific manner\, for every particular dataset and type of cancer that is being investigated. The algorithm transforms gene\-level information into pathway\-level information\, generating a compact and biologically relevant representation of each sample.
+   Pathifier is an algorithm that infers pathway deregulation scores for each tumor sample on the basis of expression data. This score is determined\, in a context\-specific manner\, for every particular dataset and type of cancer that is being investigated. The algorithm transforms gene\-level information into pathway\-level information\, generating a compact and biologically relevant representation of each sample.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pathifier.html
-Versions      1.20.0, 1.16.0
-License       Artistic-1.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathifier/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pathifier.html
+   :license: Artistic-1.0
+   :recipe: /`bioconductor-pathifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier/meta.yaml>`_
+   :links: biotools: :biotools:`pathifier`, doi: :doi:`10.1073/pnas.1219651110`
 
-
-
-Links         biotools: :biotools:`pathifier`, doi: :doi:`10.1073/pnas.1219651110`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pathifier
 
-Installation
-------------
+   |downloads_bioconductor-pathifier| |docker_bioconductor-pathifier|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-princurve` >=2.0.4 :conda:package:`r-r.oo`  
 
-   conda install bioconductor-pathifier
+   :required~by: |required_by_bioconductor-pathifier|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pathifier
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pathifier
+
+   and update with::
+
+      conda update bioconductor-pathifier
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pathifier
+
+
+.. |required_by_bioconductor-pathifier| conda:required_by:: bioconductor-pathifier
+.. |downloads_bioconductor-pathifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathifier.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pathifier| image:: https://quay.io/repository/biocontainers/bioconductor-pathifier/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pathifier
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pathifier.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pathifier/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pathifier/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pathifier/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pathifier/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pathifier
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pathifier/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pathifier
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pathifier/README.html
 

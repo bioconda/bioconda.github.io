@@ -1,56 +1,67 @@
-.. _`prank`:
+.. title:: Package Recipe 'prank'
+.. highlight: bash
+
 
 prank
 =====
 
-|downloads|
+.. conda:recipe:: prank
+   :replaces_section_title:
 
-PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
+   PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
 
-============= ===========
-Home          http://wasabiapp.org/software/prank/
-Versions      v.170427, v.150803
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prank/meta.yaml
+   :homepage: http://wasabiapp.org/software/prank/
+   :license: GPL-3
+   :recipe: /`prank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank/meta.yaml>`_
+   :links: biotools: :biotools:`prank`, doi: :doi:`10.1007/978-1-62703-646-7_10`
 
-
-
-Links         biotools: :biotools:`prank`, doi: :doi:`10.1007/978-1-62703-646-7_10`
-
-============= ===========
+   
 
 
+.. conda:package:: prank
 
-Installation
-------------
+   |downloads_prank| |docker_prank|
 
-.. highlight: bash
+   :versions: v.170427, v.150803
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install prank
+   :required~by: |required_by_prank|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update prank
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install prank
+
+   and update with::
+
+      conda update prank
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/prank
+
+
+.. |required_by_prank| conda:required_by:: prank
+.. |downloads_prank| image:: https://img.shields.io/conda/dn/bioconda/prank.svg?style=flat
+   :alt:   (downloads)
+.. |docker_prank| image:: https://quay.io/repository/biocontainers/prank/status
+   :target: https://quay.io/repository/biocontainers/prank
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/prank.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/prank/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/prank/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/prank/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/prank/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/prank
-.. |docker| image:: https://quay.io/repository/biocontainers/prank/status
-                :target: https://quay.io/repository/biocontainers/prank
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/prank/README.html
 

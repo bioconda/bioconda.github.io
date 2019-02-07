@@ -1,54 +1,66 @@
-.. _`bioconductor-bigmemoryextras`:
+.. title:: Package Recipe 'bioconductor-bigmemoryextras'
+.. highlight: bash
+
 
 bioconductor-bigmemoryextras
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-bigmemoryextras
+   :replaces_section_title:
 
-This package defines a \"BigMatrix\" ReferenceClass which adds safety and convenience features to the filebacked.big.matrix class from the bigmemory package. BigMatrix protects against segfaults by monitoring and gracefully restoring the connection to on\-disk data and it also protects against accidental data modification with a filesystem\-based permissions system. We provide utilities for using BigMatrix\-derived classes as assayData matrices within the Biobase package\'s eSet family of classes. BigMatrix provides some optimizations related to attaching to\, and indexing into\, file\-backed matrices with dimnames. Additionally\, the package provides a \"BigMatrixFactor\" class\, a file\-backed matrix with factor properties.
+   This package defines a \"BigMatrix\" ReferenceClass which adds safety and convenience features to the filebacked.big.matrix class from the bigmemory package. BigMatrix protects against segfaults by monitoring and gracefully restoring the connection to on\-disk data and it also protects against accidental data modification with a filesystem\-based permissions system. We provide utilities for using BigMatrix\-derived classes as assayData matrices within the Biobase package\'s eSet family of classes. BigMatrix provides some optimizations related to attaching to\, and indexing into\, file\-backed matrices with dimnames. Additionally\, the package provides a \"BigMatrixFactor\" class\, a file\-backed matrix with factor properties.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/bigmemoryExtras.html
-Versions      1.30.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bigmemoryextras/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bigmemoryExtras.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-bigmemoryextras <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bigmemoryextras
 
-Installation
-------------
+   |downloads_bioconductor-bigmemoryextras| |docker_bioconductor-bigmemoryextras|
 
-.. highlight: bash
+   :versions: 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bigmemory` >=4.5.31 
 
-   conda install bioconductor-bigmemoryextras
+   :required~by: |required_by_bioconductor-bigmemoryextras|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bigmemoryextras
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bigmemoryextras
+
+   and update with::
+
+      conda update bioconductor-bigmemoryextras
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bigmemoryextras
+
+
+.. |required_by_bioconductor-bigmemoryextras| conda:required_by:: bioconductor-bigmemoryextras
+.. |downloads_bioconductor-bigmemoryextras| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bigmemoryextras.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bigmemoryextras| image:: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bigmemoryextras/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bigmemoryextras/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bigmemoryextras/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bigmemoryextras/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bigmemoryextras
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bigmemoryextras
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bigmemoryextras/README.html
 

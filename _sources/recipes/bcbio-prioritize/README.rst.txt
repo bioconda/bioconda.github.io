@@ -1,54 +1,66 @@
-.. _`bcbio-prioritize`:
+.. title:: Package Recipe 'bcbio-prioritize'
+.. highlight: bash
+
 
 bcbio-prioritize
 ================
 
-|downloads|
+.. conda:recipe:: bcbio-prioritize
+   :replaces_section_title:
 
-Prioritize small variants\, structural variants and coverage based on biological inputs
+   Prioritize small variants\, structural variants and coverage based on biological inputs
 
-============= ===========
-Home          https://github.com/chapmanb/bcbio.prioritize
-Versions      0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcbio-prioritize/meta.yaml
+   :homepage: https://github.com/chapmanb/bcbio.prioritize
+   :license: MIT
+   :recipe: /`bcbio-prioritize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-prioritize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-prioritize/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bcbio-prioritize
 
-Installation
-------------
+   |downloads_bcbio-prioritize| |docker_bcbio-prioritize|
 
-.. highlight: bash
+   :versions: 0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk`  
 
-   conda install bcbio-prioritize
+   :required~by: |required_by_bcbio-prioritize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bcbio-prioritize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bcbio-prioritize
+
+   and update with::
+
+      conda update bcbio-prioritize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bcbio-prioritize
+
+
+.. |required_by_bcbio-prioritize| conda:required_by:: bcbio-prioritize
+.. |downloads_bcbio-prioritize| image:: https://img.shields.io/conda/dn/bioconda/bcbio-prioritize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bcbio-prioritize| image:: https://quay.io/repository/biocontainers/bcbio-prioritize/status
+   :target: https://quay.io/repository/biocontainers/bcbio-prioritize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bcbio-prioritize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bcbio-prioritize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bcbio-prioritize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bcbio-prioritize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bcbio-prioritize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bcbio-prioritize
-.. |docker| image:: https://quay.io/repository/biocontainers/bcbio-prioritize/status
-                :target: https://quay.io/repository/biocontainers/bcbio-prioritize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bcbio-prioritize/README.html
 

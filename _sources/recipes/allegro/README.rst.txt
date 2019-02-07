@@ -1,54 +1,66 @@
-.. _`allegro`:
+.. title:: Package Recipe 'allegro'
+.. highlight: bash
+
 
 allegro
 =======
 
-|downloads|
+.. conda:recipe:: allegro
+   :replaces_section_title:
 
-A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
+   A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
 
-============= ===========
-Home          http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true
-Versions      3, 2
-License       INDIVIDUAL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//allegro/meta.yaml
+   :homepage: http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true
+   :license: INDIVIDUAL
+   :recipe: /`allegro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allegro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allegro/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: allegro
 
-Installation
-------------
+   |downloads_allegro| |docker_allegro|
 
-.. highlight: bash
+   :versions: 3, 2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install allegro
+   :required~by: |required_by_allegro|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update allegro
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install allegro
+
+   and update with::
+
+      conda update allegro
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/allegro
+
+
+.. |required_by_allegro| conda:required_by:: allegro
+.. |downloads_allegro| image:: https://img.shields.io/conda/dn/bioconda/allegro.svg?style=flat
+   :alt:   (downloads)
+.. |docker_allegro| image:: https://quay.io/repository/biocontainers/allegro/status
+   :target: https://quay.io/repository/biocontainers/allegro
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/allegro.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/allegro/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/allegro/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/allegro/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/allegro/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/allegro
-.. |docker| image:: https://quay.io/repository/biocontainers/allegro/status
-                :target: https://quay.io/repository/biocontainers/allegro
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/allegro/README.html
 

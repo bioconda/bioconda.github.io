@@ -1,56 +1,67 @@
-.. _`bioconductor-splicer`:
+.. title:: Package Recipe 'bioconductor-splicer'
+.. highlight: bash
+
 
 bioconductor-splicer
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-splicer
+   :replaces_section_title:
 
-An R package for classification of alternative splicing and prediction of coding potential from RNA\-seq data.
+   An R package for classification of alternative splicing and prediction of coding potential from RNA\-seq data.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/spliceR.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-splicer/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/spliceR.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-splicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicer/meta.yaml>`_
+   :links: biotools: :biotools:`splicer`, doi: :doi:`10.1186/1471-2105-15-81`
 
-
-
-Links         biotools: :biotools:`splicer`, doi: :doi:`10.1186/1471-2105-15-81`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-splicer
 
-Installation
-------------
+   |downloads_bioconductor-splicer| |docker_bioconductor-splicer|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-cummerbund` >=2.22.0,<2.24.0 :conda:package:`bioconductor-genomicranges` >=1.32.7,<1.34.0 :conda:package:`bioconductor-iranges` >=2.14.12,<2.16.0 :conda:package:`bioconductor-rtracklayer` >=1.40.6,<1.42.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-venndiagram`  
 
-   conda install bioconductor-splicer
+   :required~by: |required_by_bioconductor-splicer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-splicer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-splicer
+
+   and update with::
+
+      conda update bioconductor-splicer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-splicer
+
+
+.. |required_by_bioconductor-splicer| conda:required_by:: bioconductor-splicer
+.. |downloads_bioconductor-splicer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-splicer| image:: https://quay.io/repository/biocontainers/bioconductor-splicer/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-splicer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-splicer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-splicer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-splicer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-splicer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-splicer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-splicer
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-splicer/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-splicer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-splicer/README.html
 

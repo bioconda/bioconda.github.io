@@ -1,54 +1,66 @@
-.. _`fermi`:
+.. title:: Package Recipe 'fermi'
+.. highlight: bash
+
 
 fermi
 =====
 
-|downloads|
+.. conda:recipe:: fermi
+   :replaces_section_title:
 
-A WGS de novo assembler based on the FMD\-index for large genomes
+   A WGS de novo assembler based on the FMD\-index for large genomes
 
-============= ===========
-Home          https://github.com/lh3/fermi
-Versions      1.1_r751_beta
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fermi/meta.yaml
+   :homepage: https://github.com/lh3/fermi
+   :license: Unknown
+   :recipe: /`fermi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fermi
 
-Installation
-------------
+   |downloads_fermi| |docker_fermi|
 
-.. highlight: bash
+   :versions: 1.1_r751_beta
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install fermi
+   :required~by: |required_by_fermi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fermi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fermi
+
+   and update with::
+
+      conda update fermi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fermi
+
+
+.. |required_by_fermi| conda:required_by:: fermi
+.. |downloads_fermi| image:: https://img.shields.io/conda/dn/bioconda/fermi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fermi| image:: https://quay.io/repository/biocontainers/fermi/status
+   :target: https://quay.io/repository/biocontainers/fermi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fermi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fermi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fermi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fermi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fermi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fermi
-.. |docker| image:: https://quay.io/repository/biocontainers/fermi/status
-                :target: https://quay.io/repository/biocontainers/fermi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fermi/README.html
 

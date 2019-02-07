@@ -1,54 +1,66 @@
-.. _`enabrowsertools`:
+.. title:: Package Recipe 'enabrowsertools'
+.. highlight: bash
+
 
 enabrowsertools
 ===============
 
-|downloads|
+.. conda:recipe:: enabrowsertools
+   :replaces_section_title:
 
-enaBrowserTools is a set of scripts that interface with the ENA web services to download data from ENA easily
+   enaBrowserTools is a set of scripts that interface with the ENA web services to download data from ENA easily
 
-============= ===========
-Home          https://github.com/enasequence/enaBrowserTools
-Versions      1.5.4
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//enabrowsertools/meta.yaml
+   :homepage: https://github.com/enasequence/enaBrowserTools
+   :license: Apache-2.0
+   :recipe: /`enabrowsertools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enabrowsertools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enabrowsertools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: enabrowsertools
 
-Installation
-------------
+   |downloads_enabrowsertools| |docker_enabrowsertools|
 
-.. highlight: bash
+   :versions: 1.5.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install enabrowsertools
+   :required~by: |required_by_enabrowsertools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update enabrowsertools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install enabrowsertools
+
+   and update with::
+
+      conda update enabrowsertools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/enabrowsertools
+
+
+.. |required_by_enabrowsertools| conda:required_by:: enabrowsertools
+.. |downloads_enabrowsertools| image:: https://img.shields.io/conda/dn/bioconda/enabrowsertools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_enabrowsertools| image:: https://quay.io/repository/biocontainers/enabrowsertools/status
+   :target: https://quay.io/repository/biocontainers/enabrowsertools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/enabrowsertools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/enabrowsertools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/enabrowsertools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/enabrowsertools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/enabrowsertools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/enabrowsertools
-.. |docker| image:: https://quay.io/repository/biocontainers/enabrowsertools/status
-                :target: https://quay.io/repository/biocontainers/enabrowsertools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/enabrowsertools/README.html
 

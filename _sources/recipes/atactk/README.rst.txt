@@ -1,36 +1,56 @@
-.. _`atactk`:
+.. title:: Package Recipe 'atactk'
+.. highlight: bash
+
 
 atactk
 ======
 
-|downloads|
+.. conda:recipe:: atactk
+   :replaces_section_title:
 
-A toolkit for working with ATAC\-seq data.
+   A toolkit for working with ATAC\-seq data.
 
-============= ===========
-Home          http://theparkerlab.org/
-Versions      0.1.6
-License       GPL-3.0-or-later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//atactk/meta.yaml
+   :homepage: http://theparkerlab.org/
+   :license: GPL / GPL-3.0-or-later
+   :recipe: /`atactk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atactk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atactk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: atactk
 
-Installation
-------------
+   |downloads_atactk| |docker_atactk|
 
-.. highlight: bash
+   :versions: 0.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-levenshtein`  :conda:package:`r-base`  :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-rcolorbrewer`  :conda:package:`sexpdata`  
 
-   conda install atactk
+   :required~by: |required_by_atactk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update atactk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install atactk
+
+   and update with::
+
+      conda update atactk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/atactk
+
+
+.. |required_by_atactk| conda:required_by:: atactk
+.. |downloads_atactk| image:: https://img.shields.io/conda/dn/bioconda/atactk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_atactk| image:: https://quay.io/repository/biocontainers/atactk/status
+   :target: https://quay.io/repository/biocontainers/atactk
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 Adds 3 scripts\, namely \"trim\_adapters\"\, \"make\_cut\_matrix\" and \"plot\_aggregate\_matrix.R\"
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/atactk.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/atactk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/atactk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/atactk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/atactk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/atactk
-.. |docker| image:: https://quay.io/repository/biocontainers/atactk/status
-                :target: https://quay.io/repository/biocontainers/atactk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/atactk/README.html
 

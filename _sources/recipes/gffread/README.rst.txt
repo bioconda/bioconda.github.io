@@ -1,56 +1,67 @@
-.. _`gffread`:
+.. title:: Package Recipe 'gffread'
+.. highlight: bash
+
 
 gffread
 =======
 
-|downloads|
+.. conda:recipe:: gffread
+   :replaces_section_title:
 
-GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more.
+   GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more.
 
-============= ===========
-Home          http://ccb.jhu.edu/software/stringtie/gff.shtml
-Versions      0.9.12, 0.9.9, 0.9.8
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gffread/meta.yaml
+   :homepage: http://ccb.jhu.edu/software/stringtie/gff.shtml
+   :license: MIT
+   :recipe: /`gffread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread/meta.yaml>`_
+   :links: biotools: :biotools:`gffread`
 
-
-
-Links         biotools: :biotools:`gffread`
-
-============= ===========
+   
 
 
+.. conda:package:: gffread
 
-Installation
-------------
+   |downloads_gffread| |docker_gffread|
 
-.. highlight: bash
+   :versions: 0.9.12, 0.9.9, 0.9.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install gffread
+   :required~by: |required_by_gffread|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gffread
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gffread
+
+   and update with::
+
+      conda update gffread
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gffread
+
+
+.. |required_by_gffread| conda:required_by:: gffread
+.. |downloads_gffread| image:: https://img.shields.io/conda/dn/bioconda/gffread.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gffread| image:: https://quay.io/repository/biocontainers/gffread/status
+   :target: https://quay.io/repository/biocontainers/gffread
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gffread.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gffread/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gffread/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gffread/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gffread/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gffread
-.. |docker| image:: https://quay.io/repository/biocontainers/gffread/status
-                :target: https://quay.io/repository/biocontainers/gffread
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gffread/README.html
 

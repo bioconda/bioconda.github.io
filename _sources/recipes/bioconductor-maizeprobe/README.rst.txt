@@ -1,54 +1,66 @@
-.. _`bioconductor-maizeprobe`:
+.. title:: Package Recipe 'bioconductor-maizeprobe'
+.. highlight: bash
+
 
 bioconductor-maizeprobe
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-maizeprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Maize\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Maize\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/maizeprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-maizeprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/maizeprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-maizeprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizeprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizeprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-maizeprobe
 
-Installation
-------------
+   |downloads_bioconductor-maizeprobe| |docker_bioconductor-maizeprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-maizeprobe
+   :required~by: |required_by_bioconductor-maizeprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-maizeprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-maizeprobe
+
+   and update with::
+
+      conda update bioconductor-maizeprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-maizeprobe
+
+
+.. |required_by_bioconductor-maizeprobe| conda:required_by:: bioconductor-maizeprobe
+.. |downloads_bioconductor-maizeprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maizeprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-maizeprobe| image:: https://quay.io/repository/biocontainers/bioconductor-maizeprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-maizeprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-maizeprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-maizeprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-maizeprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-maizeprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-maizeprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-maizeprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-maizeprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-maizeprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-maizeprobe/README.html
 

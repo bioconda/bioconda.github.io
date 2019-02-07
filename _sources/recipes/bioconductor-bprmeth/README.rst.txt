@@ -1,54 +1,66 @@
-.. _`bioconductor-bprmeth`:
+.. title:: Package Recipe 'bioconductor-bprmeth'
+.. highlight: bash
+
 
 bioconductor-bprmeth
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-bprmeth
+   :replaces_section_title:
 
-The BPRMeth package is a probabilistic method to quantify explicit features of methylation profiles\, in a way that would make it easier to formally use such profiles in downstream modelling efforts\, such as predicting gene expression levels or clustering genomic regions or cells according to their methylation profiles.
+   The BPRMeth package is a probabilistic method to quantify explicit features of methylation profiles\, in a way that would make it easier to formally use such profiles in downstream modelling efforts\, such as predicting gene expression levels or clustering genomic regions or cells according to their methylation profiles.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BPRMeth.html
-Versions      
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bprmeth/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BPRMeth.html
+   :license: GPL-3
+   :recipe: /`bioconductor-bprmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bprmeth
 
-Installation
-------------
+   |downloads_bioconductor-bprmeth| |docker_bioconductor-bprmeth|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-bprmeth
+   :required~by: |required_by_bioconductor-bprmeth|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bprmeth
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bprmeth
+
+   and update with::
+
+      conda update bioconductor-bprmeth
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bprmeth
+
+
+.. |required_by_bioconductor-bprmeth| conda:required_by:: bioconductor-bprmeth
+.. |downloads_bioconductor-bprmeth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bprmeth.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bprmeth| image:: https://quay.io/repository/biocontainers/bioconductor-bprmeth/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bprmeth
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bprmeth.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bprmeth/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bprmeth/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bprmeth/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bprmeth/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bprmeth
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bprmeth/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bprmeth
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bprmeth/README.html
 

@@ -1,56 +1,67 @@
-.. _`pash`:
+.. title:: Package Recipe 'pash'
+.. highlight: bash
+
 
 pash
 ====
 
-|downloads|
+.. conda:recipe:: pash
+   :replaces_section_title:
 
-A versatile software package for read mapping and integrative analysis of genomic and epigenomic variation using massively parallel DNA sequencing
+   A versatile software package for read mapping and integrative analysis of genomic and epigenomic variation using massively parallel DNA sequencing
 
-============= ===========
-Home          http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
-Versions      3.0.6.2
-License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pash/meta.yaml
+   :homepage: http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
+   :license: Unknown
+   :recipe: /`pash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pash/meta.yaml>`_
+   :links: biotools: :biotools:`pash`
 
-
-
-Links         biotools: :biotools:`pash`
-
-============= ===========
+   
 
 
+.. conda:package:: pash
 
-Installation
-------------
+   |downloads_pash| |docker_pash|
 
-.. highlight: bash
+   :versions: 3.0.6.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`glib`  :conda:package:`libgcc`  :conda:package:`ruby`  
 
-   conda install pash
+   :required~by: |required_by_pash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pash
+
+   and update with::
+
+      conda update pash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pash
+
+
+.. |required_by_pash| conda:required_by:: pash
+.. |downloads_pash| image:: https://img.shields.io/conda/dn/bioconda/pash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pash| image:: https://quay.io/repository/biocontainers/pash/status
+   :target: https://quay.io/repository/biocontainers/pash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pash
-.. |docker| image:: https://quay.io/repository/biocontainers/pash/status
-                :target: https://quay.io/repository/biocontainers/pash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pash/README.html
 

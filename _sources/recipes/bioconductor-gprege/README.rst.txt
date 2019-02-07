@@ -1,54 +1,66 @@
-.. _`bioconductor-gprege`:
+.. title:: Package Recipe 'bioconductor-gprege'
+.. highlight: bash
+
 
 bioconductor-gprege
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-gprege
+   :replaces_section_title:
 
-The gprege package implements the methodology described in Kalaitzis \& Lawrence \(2011\) \"A simple approach to ranking differentially expressed gene expression time\-courses through Gaussian process regression\". The software fits two GPs with the an RBF \(\+ noise diagonal\) kernel on each profile. One GP kernel is initialised wih a short lengthscale hyperparameter\, signal variance as the observed variance and a zero noise variance. It is optimised via scaled conjugate gradients \(netlab\). A second GP has fixed hyperparameters\: zero inverse\-width\, zero signal variance and noise variance as the observed variance. The log\-ratio of marginal likelihoods of the two hypotheses acts as a score of differential expression for the profile. Comparison via ROC curves is performed against BATS \(Angelini et.al\, 2007\). A detailed discussion of the ranking approach and dataset used can be found in the paper \(http\:\/\/www.biomedcentral.com\/1471\-2105\/12\/180\).
+   The gprege package implements the methodology described in Kalaitzis \& Lawrence \(2011\) \"A simple approach to ranking differentially expressed gene expression time\-courses through Gaussian process regression\". The software fits two GPs with the an RBF \(\+ noise diagonal\) kernel on each profile. One GP kernel is initialised wih a short lengthscale hyperparameter\, signal variance as the observed variance and a zero noise variance. It is optimised via scaled conjugate gradients \(netlab\). A second GP has fixed hyperparameters\: zero inverse\-width\, zero signal variance and noise variance as the observed variance. The log\-ratio of marginal likelihoods of the two hypotheses acts as a score of differential expression for the profile. Comparison via ROC curves is performed against BATS \(Angelini et.al\, 2007\). A detailed discussion of the ranking approach and dataset used can be found in the paper \(http\:\/\/www.biomedcentral.com\/1471\-2105\/12\/180\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/gprege.html
-Versions      1.26.0
-License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gprege/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gprege.html
+   :license: AGPL-3
+   :recipe: /`bioconductor-gprege <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gprege
 
-Installation
-------------
+   |downloads_bioconductor-gprege| |docker_bioconductor-gprege|
 
-.. highlight: bash
+   :versions: 1.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gptk`  
 
-   conda install bioconductor-gprege
+   :required~by: |required_by_bioconductor-gprege|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gprege
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gprege
+
+   and update with::
+
+      conda update bioconductor-gprege
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gprege
+
+
+.. |required_by_bioconductor-gprege| conda:required_by:: bioconductor-gprege
+.. |downloads_bioconductor-gprege| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gprege.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gprege| image:: https://quay.io/repository/biocontainers/bioconductor-gprege/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gprege
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gprege.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gprege/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gprege/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gprege/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gprege/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gprege
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gprege/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gprege
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gprege/README.html
 

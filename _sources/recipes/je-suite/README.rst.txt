@@ -1,38 +1,58 @@
-.. _`je-suite`:
+.. title:: Package Recipe 'je-suite'
+.. highlight: bash
+
 
 je-suite
 ========
 
-|downloads|
+.. conda:recipe:: je-suite
+   :replaces_section_title:
 
-Je is a suite to handle barcoded fastq files with \(or without\) Unique Molecule Identifiers \(UMIs\) and filter
-read duplicates using these UMIs
-
-
-============= ===========
-Home          https://gbcs.embl.de/Je
-Versions      2.0.RC, 1.2
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//je-suite/meta.yaml
+   Je is a suite to handle barcoded fastq files with \(or without\) Unique Molecule Identifiers \(UMIs\) and filter
+   read duplicates using these UMIs
 
 
+   :homepage: https://gbcs.embl.de/Je
+   :license: MIT / MIT License
+   :recipe: /`je-suite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite/meta.yaml>`_
 
-============= ===========
+   
+
+
+.. conda:package:: je-suite
+
+   |downloads_je-suite| |docker_je-suite|
+
+   :versions: 2.0.RC, 1.2
+
+   :depends: :conda:package:`openjdk` >=8 
+
+   :required~by: |required_by_je-suite|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install je-suite
+
+   and update with::
+
+      conda update je-suite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/je-suite
+
+
+.. |required_by_je-suite| conda:required_by:: je-suite
+.. |downloads_je-suite| image:: https://img.shields.io/conda/dn/bioconda/je-suite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_je-suite| image:: https://quay.io/repository/biocontainers/je-suite/status
+   :target: https://quay.io/repository/biocontainers/je-suite
 
 
 
-Installation
-------------
 
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install je-suite
-
-and update with::
-
-   conda update je-suite
 
 
 Notes
@@ -44,22 +64,13 @@ set globally this will take precedence.
 For example run it with \"je \-Xms512m \-Xmx1g\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/je-suite.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/je-suite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/je-suite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/je-suite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/je-suite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/je-suite
-.. |docker| image:: https://quay.io/repository/biocontainers/je-suite/status
-                :target: https://quay.io/repository/biocontainers/je-suite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/je-suite/README.html
 

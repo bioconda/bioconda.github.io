@@ -1,56 +1,67 @@
-.. _`shapeit`:
+.. title:: Package Recipe 'shapeit'
+.. highlight: bash
+
 
 shapeit
 =======
 
-|downloads|
+.. conda:recipe:: shapeit
+   :replaces_section_title:
 
-SHAPEIT is a fast and accurate method for estimation of haplotypes \(aka phasing\) from genotype or sequencing data.
+   SHAPEIT is a fast and accurate method for estimation of haplotypes \(aka phasing\) from genotype or sequencing data.
 
-============= ===========
-Home          https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
-Versions      2.r837
-License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//shapeit/meta.yaml
+   :homepage: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+   :license: Free for Academic Use
+   :recipe: /`shapeit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit/meta.yaml>`_
+   :links: biotools: :biotools:`SHAPEIT`
 
-
-
-Links         biotools: :biotools:`SHAPEIT`
-
-============= ===========
+   
 
 
+.. conda:package:: shapeit
 
-Installation
-------------
+   |downloads_shapeit| |docker_shapeit|
 
-.. highlight: bash
+   :versions: 2.r837
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost`  :conda:package:`libgcc`  
 
-   conda install shapeit
+   :required~by: |required_by_shapeit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update shapeit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install shapeit
+
+   and update with::
+
+      conda update shapeit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/shapeit
+
+
+.. |required_by_shapeit| conda:required_by:: shapeit
+.. |downloads_shapeit| image:: https://img.shields.io/conda/dn/bioconda/shapeit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_shapeit| image:: https://quay.io/repository/biocontainers/shapeit/status
+   :target: https://quay.io/repository/biocontainers/shapeit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/shapeit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/shapeit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shapeit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/shapeit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/shapeit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/shapeit
-.. |docker| image:: https://quay.io/repository/biocontainers/shapeit/status
-                :target: https://quay.io/repository/biocontainers/shapeit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/shapeit/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-pbcmc`:
+.. title:: Package Recipe 'bioconductor-pbcmc'
+.. highlight: bash
+
 
 bioconductor-pbcmc
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-pbcmc
+   :replaces_section_title:
 
-The pbcmc package characterizes uncertainty assessment on gene expression classifiers\, a. k. a. molecular signatures\, based on a permutation test. In order to achieve this goal\, synthetic simulated subjects are obtained by permutations of gene labels. Then\, each synthetic subject is tested against the corresponding subtype classifier to build the null distribution. Thus\, classification confidence measurement can be provided for each subject\, to assist physician therapy choice. At present\, it is only available for PAM50 implementation in genefu package but it can easily be extend to other molecular signatures.
+   The pbcmc package characterizes uncertainty assessment on gene expression classifiers\, a. k. a. molecular signatures\, based on a permutation test. In order to achieve this goal\, synthetic simulated subjects are obtained by permutations of gene labels. Then\, each synthetic subject is tested against the corresponding subtype classifier to build the null distribution. Thus\, classification confidence measurement can be provided for each subject\, to assist physician therapy choice. At present\, it is only available for PAM50 implementation in genefu package but it can easily be extend to other molecular signatures.
 
-============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/pbcmc.html
-Versions      1.8.0, 1.6.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pbcmc/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.7/bioc/html/pbcmc.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-pbcmc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbcmc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbcmc/meta.yaml>`_
+   :links: biotools: :biotools:`pbcmc`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`pbcmc`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pbcmc
 
-Installation
-------------
+   |downloads_bioconductor-pbcmc| |docker_bioconductor-pbcmc|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.40.0,<2.42.0 :conda:package:`bioconductor-biocgenerics` >=0.26.0,<0.28.0 :conda:package:`bioconductor-biocparallel` >=1.14.2,<1.16.0 :conda:package:`bioconductor-genefu` >=2.12.0,<2.14.0 :conda:package:`bioconductor-limma` >=3.36.5,<3.38.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-pbcmc
+   :required~by: |required_by_bioconductor-pbcmc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pbcmc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pbcmc
+
+   and update with::
+
+      conda update bioconductor-pbcmc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pbcmc
+
+
+.. |required_by_bioconductor-pbcmc| conda:required_by:: bioconductor-pbcmc
+.. |downloads_bioconductor-pbcmc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pbcmc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pbcmc| image:: https://quay.io/repository/biocontainers/bioconductor-pbcmc/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pbcmc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pbcmc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pbcmc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pbcmc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pbcmc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pbcmc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pbcmc
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pbcmc/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pbcmc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pbcmc/README.html
 

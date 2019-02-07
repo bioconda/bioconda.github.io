@@ -1,54 +1,66 @@
-.. _`baitfisher`:
+.. title:: Package Recipe 'baitfisher'
+.. highlight: bash
+
 
 baitfisher
 ==========
 
-|downloads|
+.. conda:recipe:: baitfisher
+   :replaces_section_title:
 
-The BaitFisher\-package is a software package for designing hybrid enrichment probes.
+   The BaitFisher\-package is a software package for designing hybrid enrichment probes.
 
-============= ===========
-Home          https://github.com/cmayer/BaitFisher-package
-Versions      1.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//baitfisher/meta.yaml
+   :homepage: https://github.com/cmayer/BaitFisher-package
+   :license: GPL3
+   :recipe: /`baitfisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: baitfisher
 
-Installation
-------------
+   |downloads_baitfisher| |docker_baitfisher|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install baitfisher
+   :required~by: |required_by_baitfisher|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update baitfisher
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install baitfisher
+
+   and update with::
+
+      conda update baitfisher
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/baitfisher
+
+
+.. |required_by_baitfisher| conda:required_by:: baitfisher
+.. |downloads_baitfisher| image:: https://img.shields.io/conda/dn/bioconda/baitfisher.svg?style=flat
+   :alt:   (downloads)
+.. |docker_baitfisher| image:: https://quay.io/repository/biocontainers/baitfisher/status
+   :target: https://quay.io/repository/biocontainers/baitfisher
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/baitfisher.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/baitfisher/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/baitfisher/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/baitfisher/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/baitfisher/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/baitfisher
-.. |docker| image:: https://quay.io/repository/biocontainers/baitfisher/status
-                :target: https://quay.io/repository/biocontainers/baitfisher
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/baitfisher/README.html
 

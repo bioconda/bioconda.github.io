@@ -1,54 +1,66 @@
-.. _`r-gbm`:
+.. title:: Package Recipe 'r-gbm'
+.. highlight: bash
+
 
 r-gbm
 =====
 
-|downloads|
+.. conda:recipe:: r-gbm
+   :replaces_section_title:
 
-An implementation of extensions to Freund and Schapire\'s AdaBoost  algorithm and Friedman\'s gradient boosting machine. Includes regression  methods for least squares\, absolute loss\, t\-distribution loss\, quantile  regression\, logistic\, multinomial logistic\, Poisson\, Cox proportional hazards  partial likelihood\, AdaBoost exponential loss\, Huberized hinge loss\, and  Learning to Rank measures \(LambdaMart\). Originally developed by Greg Ridgeway.
+   
 
-============= ===========
-Home          https://github.com/gbm-developers/gbm
-Versions      2.1.3, 2.1.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gbm/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-gbm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gbm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gbm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-gbm
 
-Installation
-------------
+   |downloads_r-gbm| |docker_r-gbm|
 
-.. highlight: bash
+   :versions: 2.1.3, 2.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-survival`  
 
-   conda install r-gbm
+   :required~by: |required_by_r-gbm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gbm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gbm
+
+   and update with::
+
+      conda update r-gbm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gbm
+
+
+.. |required_by_r-gbm| conda:required_by:: r-gbm
+.. |downloads_r-gbm| image:: https://img.shields.io/conda/dn/bioconda/r-gbm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gbm| image:: https://quay.io/repository/biocontainers/r-gbm/status
+   :target: https://quay.io/repository/biocontainers/r-gbm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gbm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gbm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gbm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gbm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gbm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gbm
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gbm/status
-                :target: https://quay.io/repository/biocontainers/r-gbm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gbm/README.html
 

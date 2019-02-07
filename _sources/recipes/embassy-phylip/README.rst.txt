@@ -1,54 +1,66 @@
-.. _`embassy-phylip`:
+.. title:: Package Recipe 'embassy-phylip'
+.. highlight: bash
+
 
 embassy-phylip
 ==============
 
-|downloads|
+.. conda:recipe:: embassy-phylip
+   :replaces_section_title:
 
-embassy\/emboss wrappers for phylip functions
+   embassy\/emboss wrappers for phylip functions
 
-============= ===========
-Home          http://emboss.open-bio.org/
-Versions      3.69.650
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//embassy-phylip/meta.yaml
+   :homepage: http://emboss.open-bio.org/
+   :license: GPL
+   :recipe: /`embassy-phylip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: embassy-phylip
 
-Installation
-------------
+   |downloads_embassy-phylip| |docker_embassy-phylip|
 
-.. highlight: bash
+   :versions: 3.69.650
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`emboss`  :conda:package:`zlib`  
 
-   conda install embassy-phylip
+   :required~by: |required_by_embassy-phylip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update embassy-phylip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install embassy-phylip
+
+   and update with::
+
+      conda update embassy-phylip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/embassy-phylip
+
+
+.. |required_by_embassy-phylip| conda:required_by:: embassy-phylip
+.. |downloads_embassy-phylip| image:: https://img.shields.io/conda/dn/bioconda/embassy-phylip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_embassy-phylip| image:: https://quay.io/repository/biocontainers/embassy-phylip/status
+   :target: https://quay.io/repository/biocontainers/embassy-phylip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/embassy-phylip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/embassy-phylip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/embassy-phylip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/embassy-phylip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/embassy-phylip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/embassy-phylip
-.. |docker| image:: https://quay.io/repository/biocontainers/embassy-phylip/status
-                :target: https://quay.io/repository/biocontainers/embassy-phylip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/embassy-phylip/README.html
 

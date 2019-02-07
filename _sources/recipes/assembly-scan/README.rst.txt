@@ -1,54 +1,66 @@
-.. _`assembly-scan`:
+.. title:: Package Recipe 'assembly-scan'
+.. highlight: bash
+
 
 assembly-scan
 =============
 
-|downloads|
+.. conda:recipe:: assembly-scan
+   :replaces_section_title:
 
-Assembly summary statistics in JSON format
+   Assembly summary statistics in JSON format
 
-============= ===========
-Home          https://github.com/rpetit3/assembly-scan
-Versions      0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//assembly-scan/meta.yaml
+   :homepage: https://github.com/rpetit3/assembly-scan
+   :license: MIT
+   :recipe: /`assembly-scan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-scan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-scan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: assembly-scan
 
-Installation
-------------
+   |downloads_assembly-scan| |docker_assembly-scan|
 
-.. highlight: bash
+   :versions: 0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` >=3.5,<3.6.0a0 
 
-   conda install assembly-scan
+   :required~by: |required_by_assembly-scan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update assembly-scan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install assembly-scan
+
+   and update with::
+
+      conda update assembly-scan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/assembly-scan
+
+
+.. |required_by_assembly-scan| conda:required_by:: assembly-scan
+.. |downloads_assembly-scan| image:: https://img.shields.io/conda/dn/bioconda/assembly-scan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_assembly-scan| image:: https://quay.io/repository/biocontainers/assembly-scan/status
+   :target: https://quay.io/repository/biocontainers/assembly-scan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/assembly-scan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/assembly-scan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/assembly-scan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/assembly-scan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/assembly-scan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/assembly-scan
-.. |docker| image:: https://quay.io/repository/biocontainers/assembly-scan/status
-                :target: https://quay.io/repository/biocontainers/assembly-scan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/assembly-scan/README.html
 

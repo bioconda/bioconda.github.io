@@ -1,54 +1,66 @@
-.. _`bioconductor-dmrforpairs`:
+.. title:: Package Recipe 'bioconductor-dmrforpairs'
+.. highlight: bash
+
 
 bioconductor-dmrforpairs
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-dmrforpairs
+   :replaces_section_title:
 
-DMRforPairs \(formerly DMR2\+\) allows researchers to compare n\>\=2 unique samples with regard to their methylation profile. The \(pairwise\) comparison of n unique single samples distinguishes DMRforPairs from other existing pipelines as these often compare groups of samples in either single CpG locus or region based analysis. DMRforPairs defines regions of interest as genomic ranges with sufficient probes located in close proximity to each other. Probes in one region are optionally annotated to the same functional class\(es\). Differential methylation is evaluated by comparing the methylation values within each region between individual samples and \(if the difference is sufficiently large\)\, testing this difference formally for statistical significance.
+   DMRforPairs \(formerly DMR2\+\) allows researchers to compare n\>\=2 unique samples with regard to their methylation profile. The \(pairwise\) comparison of n unique single samples distinguishes DMRforPairs from other existing pipelines as these often compare groups of samples in either single CpG locus or region based analysis. DMRforPairs defines regions of interest as genomic ranges with sufficient probes located in close proximity to each other. Probes in one region are optionally annotated to the same functional class\(es\). Differential methylation is evaluated by comparing the methylation values within each region between individual samples and \(if the difference is sufficiently large\)\, testing this difference formally for statistical significance.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DMRforPairs.html
-Versions      1.18.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dmrforpairs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DMRforPairs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-dmrforpairs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dmrforpairs
 
-Installation
-------------
+   |downloads_bioconductor-dmrforpairs| |docker_bioconductor-dmrforpairs|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-r2html` >=2.2.1 
 
-   conda install bioconductor-dmrforpairs
+   :required~by: |required_by_bioconductor-dmrforpairs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dmrforpairs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dmrforpairs
+
+   and update with::
+
+      conda update bioconductor-dmrforpairs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dmrforpairs
+
+
+.. |required_by_bioconductor-dmrforpairs| conda:required_by:: bioconductor-dmrforpairs
+.. |downloads_bioconductor-dmrforpairs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrforpairs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dmrforpairs| image:: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dmrforpairs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dmrforpairs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dmrforpairs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dmrforpairs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dmrforpairs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dmrforpairs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dmrforpairs/README.html
 

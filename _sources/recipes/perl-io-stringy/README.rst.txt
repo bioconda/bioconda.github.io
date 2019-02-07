@@ -1,54 +1,66 @@
-.. _`perl-io-stringy`:
+.. title:: Package Recipe 'perl-io-stringy'
+.. highlight: bash
+
 
 perl-io-stringy
 ===============
 
-|downloads|
+.. conda:recipe:: perl-io-stringy
+   :replaces_section_title:
 
-write a file which is updated atomically
+   write a file which is updated atomically
 
-============= ===========
-Home          http://metacpan.org/pod/IO-stringy
-Versions      2.111
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-stringy/meta.yaml
+   :homepage: http://metacpan.org/pod/IO-stringy
+   :license: unknown
+   :recipe: /`perl-io-stringy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-stringy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-stringy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-stringy
 
-Installation
-------------
+   |downloads_perl-io-stringy| |docker_perl-io-stringy|
 
-.. highlight: bash
+   :versions: 2.111
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-io-stringy
+   :required~by: |required_by_perl-io-stringy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-stringy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-stringy
+
+   and update with::
+
+      conda update perl-io-stringy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-stringy
+
+
+.. |required_by_perl-io-stringy| conda:required_by:: perl-io-stringy
+.. |downloads_perl-io-stringy| image:: https://img.shields.io/conda/dn/bioconda/perl-io-stringy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-stringy| image:: https://quay.io/repository/biocontainers/perl-io-stringy/status
+   :target: https://quay.io/repository/biocontainers/perl-io-stringy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-stringy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-stringy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-stringy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-stringy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-stringy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-stringy
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-stringy/status
-                :target: https://quay.io/repository/biocontainers/perl-io-stringy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-stringy/README.html
 

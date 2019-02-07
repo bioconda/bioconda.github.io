@@ -1,54 +1,66 @@
-.. _`bioconductor-odseq`:
+.. title:: Package Recipe 'bioconductor-odseq'
+.. highlight: bash
+
 
 bioconductor-odseq
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-odseq
+   :replaces_section_title:
 
-Performs outlier detection of sequences in a multiple sequence alignment using bootstrap of predefined distance metrics. Outlier sequences can make downstream analyses unreliable or make the alignments less accurate while they are being constructed. This package implements the OD\-seq algorithm proposed by Jehl et al \(doi 10.1186\/s12859\-015\-0702\-1\) for aligned sequences and a variant using string kernels for unaligned sequences.
+   Performs outlier detection of sequences in a multiple sequence alignment using bootstrap of predefined distance metrics. Outlier sequences can make downstream analyses unreliable or make the alignments less accurate while they are being constructed. This package implements the OD\-seq algorithm proposed by Jehl et al \(doi 10.1186\/s12859\-015\-0702\-1\) for aligned sequences and a variant using string kernels for unaligned sequences.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/odseq.html
-Versions      1.10.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-odseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/odseq.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-odseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-odseq
 
-Installation
-------------
+   |downloads_bioconductor-odseq| |docker_bioconductor-odseq|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-kebabs` >=1.16.0,<1.17.0 :conda:package:`bioconductor-msa` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mclust` >=5.1 
 
-   conda install bioconductor-odseq
+   :required~by: |required_by_bioconductor-odseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-odseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-odseq
+
+   and update with::
+
+      conda update bioconductor-odseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-odseq
+
+
+.. |required_by_bioconductor-odseq| conda:required_by:: bioconductor-odseq
+.. |downloads_bioconductor-odseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-odseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-odseq| image:: https://quay.io/repository/biocontainers/bioconductor-odseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-odseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-odseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-odseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-odseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-odseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-odseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-odseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-odseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-odseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-odseq/README.html
 

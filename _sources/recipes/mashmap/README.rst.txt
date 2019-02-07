@@ -1,54 +1,66 @@
-.. _`mashmap`:
+.. title:: Package Recipe 'mashmap'
+.. highlight: bash
+
 
 mashmap
 =======
 
-|downloads|
+.. conda:recipe:: mashmap
+   :replaces_section_title:
 
-A fast approximate aligner for long DNA sequences
+   A fast approximate aligner for long DNA sequences
 
-============= ===========
-Home          https://github.com/marbl/MashMap
-Versions      2.0, 1.0
-License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mashmap/meta.yaml
+   :homepage: https://github.com/marbl/MashMap
+   :license: Custom
+   :recipe: /`mashmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mashmap
 
-Installation
-------------
+   |downloads_mashmap| |docker_mashmap|
 
-.. highlight: bash
+   :versions: 2.0, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install mashmap
+   :required~by: |required_by_mashmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mashmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mashmap
+
+   and update with::
+
+      conda update mashmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mashmap
+
+
+.. |required_by_mashmap| conda:required_by:: mashmap
+.. |downloads_mashmap| image:: https://img.shields.io/conda/dn/bioconda/mashmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mashmap| image:: https://quay.io/repository/biocontainers/mashmap/status
+   :target: https://quay.io/repository/biocontainers/mashmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mashmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mashmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mashmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mashmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mashmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mashmap
-.. |docker| image:: https://quay.io/repository/biocontainers/mashmap/status
-                :target: https://quay.io/repository/biocontainers/mashmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mashmap/README.html
 

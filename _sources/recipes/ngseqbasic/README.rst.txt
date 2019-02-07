@@ -1,54 +1,66 @@
-.. _`ngseqbasic`:
+.. title:: Package Recipe 'ngseqbasic'
+.. highlight: bash
+
 
 ngseqbasic
 ==========
 
-|downloads|
+.. conda:recipe:: ngseqbasic
+   :replaces_section_title:
 
-Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command.
+   Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command.
 
-============= ===========
-Home          http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/external/instructionsBioconda.html
-Versions      2.0.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ngseqbasic/meta.yaml
+   :homepage: http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/external/instructionsBioconda.html
+   :license: GPL-3.0
+   :recipe: /`ngseqbasic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ngseqbasic
 
-Installation
-------------
+   |downloads_ngseqbasic| |docker_ngseqbasic|
 
-.. highlight: bash
+   :versions: 2.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools` ==2.17.0 :conda:package:`bowtie` ==1.0.0 :conda:package:`bowtie2` ==2.3.0 :conda:package:`flash` ==1.2.11 :conda:package:`perl` 5.22.0.1 :conda:package:`samtools` ==0.1.19 :conda:package:`trim-galore` ==0.4.1 :conda:package:`ucsc-bedclip` ==332 :conda:package:`ucsc-bedgraphpack` ==332 :conda:package:`ucsc-bedgraphtobigwig` ==332 :conda:package:`ucsc-bedtobigbed` ==332 
 
-   conda install ngseqbasic
+   :required~by: |required_by_ngseqbasic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ngseqbasic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ngseqbasic
+
+   and update with::
+
+      conda update ngseqbasic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ngseqbasic
+
+
+.. |required_by_ngseqbasic| conda:required_by:: ngseqbasic
+.. |downloads_ngseqbasic| image:: https://img.shields.io/conda/dn/bioconda/ngseqbasic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ngseqbasic| image:: https://quay.io/repository/biocontainers/ngseqbasic/status
+   :target: https://quay.io/repository/biocontainers/ngseqbasic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ngseqbasic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngseqbasic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ngseqbasic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ngseqbasic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ngseqbasic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ngseqbasic
-.. |docker| image:: https://quay.io/repository/biocontainers/ngseqbasic/status
-                :target: https://quay.io/repository/biocontainers/ngseqbasic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ngseqbasic/README.html
 

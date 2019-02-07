@@ -1,54 +1,66 @@
-.. _`r-umi4c`:
+.. title:: Package Recipe 'r-umi4c'
+.. highlight: bash
+
 
 r-umi4c
 =======
 
-|downloads|
+.. conda:recipe:: r-umi4c
+   :replaces_section_title:
 
-Process UMI\-4C data from scratch to produce nice plots.
+   Process UMI\-4C data from scratch to produce nice plots.
 
-============= ===========
-Home          https://bitbucket.org/tanaylab/umi4cpackage
-Versions      0.0.0.9000
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-umi4c/meta.yaml
+   :homepage: https://bitbucket.org/tanaylab/umi4cpackage
+   :license: GPL
+   :recipe: /`r-umi4c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-umi4c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-umi4c/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-umi4c
 
-Installation
-------------
+   |downloads_r-umi4c| |docker_r-umi4c|
 
-.. highlight: bash
+   :versions: 0.0.0.9000
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-misha`  :conda:package:`r-zoo`  
 
-   conda install r-umi4c
+   :required~by: |required_by_r-umi4c|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-umi4c
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-umi4c
+
+   and update with::
+
+      conda update r-umi4c
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-umi4c
+
+
+.. |required_by_r-umi4c| conda:required_by:: r-umi4c
+.. |downloads_r-umi4c| image:: https://img.shields.io/conda/dn/bioconda/r-umi4c.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-umi4c| image:: https://quay.io/repository/biocontainers/r-umi4c/status
+   :target: https://quay.io/repository/biocontainers/r-umi4c
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-umi4c.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-umi4c/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-umi4c/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-umi4c/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-umi4c/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-umi4c
-.. |docker| image:: https://quay.io/repository/biocontainers/r-umi4c/status
-                :target: https://quay.io/repository/biocontainers/r-umi4c
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-umi4c/README.html
 

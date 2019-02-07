@@ -1,56 +1,67 @@
-.. _`bioconductor-rnainteract`:
+.. title:: Package Recipe 'bioconductor-rnainteract'
+.. highlight: bash
+
 
 bioconductor-rnainteract
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rnainteract
+   :replaces_section_title:
 
-RNAinteract estimates genetic interactions from multi\-dimensional read\-outs like features extracted from images. The screen is assumed to be performed in multi\-well plates or similar designs. Starting from a list of features \(e.g. cell number\, area\, fluorescence intensity\) per well\, genetic interactions are estimated. The packages provides functions for reporting interacting gene pairs\, plotting heatmaps and double RNAi plots. An HTML report can be written for quality control and analysis.
+   RNAinteract estimates genetic interactions from multi\-dimensional read\-outs like features extracted from images. The screen is assumed to be performed in multi\-well plates or similar designs. Starting from a list of features \(e.g. cell number\, area\, fluorescence intensity\) per well\, genetic interactions are estimated. The packages provides functions for reporting interacting gene pairs\, plotting heatmaps and double RNAi plots. An HTML report can be written for quality control and analysis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RNAinteract.html
-Versions      1.30.0, 1.28.0, 1.26.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnainteract/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RNAinteract.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-rnainteract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract/meta.yaml>`_
+   :links: biotools: :biotools:`rnainteract`
 
-
-
-Links         biotools: :biotools:`rnainteract`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rnainteract
 
-Installation
-------------
+   |downloads_bioconductor-rnainteract| |docker_bioconductor-rnainteract|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-cellhts2` >=2.46.0,<2.47.0 :conda:package:`bioconductor-geneplotter` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-splots` >=1.48.0,<1.49.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-hwriter`  :conda:package:`r-ics`  :conda:package:`r-icsnp`  :conda:package:`r-lattice`  :conda:package:`r-latticeextra`  :conda:package:`r-locfit`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-rnainteract
+   :required~by: |required_by_bioconductor-rnainteract|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rnainteract
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rnainteract
+
+   and update with::
+
+      conda update bioconductor-rnainteract
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rnainteract
+
+
+.. |required_by_bioconductor-rnainteract| conda:required_by:: bioconductor-rnainteract
+.. |downloads_bioconductor-rnainteract| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnainteract.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rnainteract| image:: https://quay.io/repository/biocontainers/bioconductor-rnainteract/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rnainteract
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rnainteract.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rnainteract/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rnainteract/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rnainteract/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rnainteract/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rnainteract
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnainteract/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rnainteract
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rnainteract/README.html
 

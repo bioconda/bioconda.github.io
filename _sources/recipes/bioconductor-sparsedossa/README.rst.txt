@@ -1,54 +1,66 @@
-.. _`bioconductor-sparsedossa`:
+.. title:: Package Recipe 'bioconductor-sparsedossa'
+.. highlight: bash
+
 
 bioconductor-sparsedossa
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-sparsedossa
+   :replaces_section_title:
 
-The package is to provide a model based Bayesian method to characterize and simulate microbiome data. sparseDOSSA\'s model captures the marginal distribution of each microbial feature as a truncated\, zero\-inflated log\-normal distribution\, with parameters distributed as a parent log\-normal distribution. The model can be effectively fit to reference microbial datasets in order to parameterize their microbes and communities\, or to simulate synthetic datasets of similar population structure. Most importantly\, it allows users to include both known feature\-feature and feature\-metadata correlation structures and thus provides a gold standard to enable benchmarking of statistical methods for metagenomic data analysis.
+   The package is to provide a model based Bayesian method to characterize and simulate microbiome data. sparseDOSSA\'s model captures the marginal distribution of each microbial feature as a truncated\, zero\-inflated log\-normal distribution\, with parameters distributed as a parent log\-normal distribution. The model can be effectively fit to reference microbial datasets in order to parameterize their microbes and communities\, or to simulate synthetic datasets of similar population structure. Most importantly\, it allows users to include both known feature\-feature and feature\-metadata correlation structures and thus provides a gold standard to enable benchmarking of statistical methods for metagenomic data analysis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/sparseDOSSA.html
-Versions      1.6.1
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sparsedossa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sparseDOSSA.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-sparsedossa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsedossa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsedossa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sparsedossa
 
-Installation
-------------
+   |downloads_bioconductor-sparsedossa| |docker_bioconductor-sparsedossa|
 
-.. highlight: bash
+   :versions: 1.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-mcmcpack`  :conda:package:`r-optparse`  :conda:package:`r-tmvtnorm` >=1.4.10 
 
-   conda install bioconductor-sparsedossa
+   :required~by: |required_by_bioconductor-sparsedossa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sparsedossa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sparsedossa
+
+   and update with::
+
+      conda update bioconductor-sparsedossa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sparsedossa
+
+
+.. |required_by_bioconductor-sparsedossa| conda:required_by:: bioconductor-sparsedossa
+.. |downloads_bioconductor-sparsedossa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sparsedossa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sparsedossa| image:: https://quay.io/repository/biocontainers/bioconductor-sparsedossa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sparsedossa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sparsedossa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sparsedossa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sparsedossa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sparsedossa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sparsedossa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sparsedossa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sparsedossa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sparsedossa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sparsedossa/README.html
 

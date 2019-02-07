@@ -1,54 +1,66 @@
-.. _`deepbinner`:
+.. title:: Package Recipe 'deepbinner'
+.. highlight: bash
+
 
 deepbinner
 ==========
 
-|downloads|
+.. conda:recipe:: deepbinner
+   :replaces_section_title:
 
-A signal\-level demultiplexer for Oxford Nanopore reads.
+   A signal\-level demultiplexer for Oxford Nanopore reads.
 
-============= ===========
-Home          https://github.com/rrwick/Deepbinner
-Versions      0.2.0, 0.1.2
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deepbinner/meta.yaml
+   :homepage: https://github.com/rrwick/Deepbinner
+   :license: GPL3
+   :recipe: /`deepbinner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepbinner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepbinner/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: deepbinner
 
-Installation
-------------
+   |downloads_deepbinner| |docker_deepbinner|
 
-.. highlight: bash
+   :versions: 0.2.0, 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`h5py`  :conda:package:`keras`  :conda:package:`matplotlib`  :conda:package:`noise`  :conda:package:`numpy`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`tensorflow`  
 
-   conda install deepbinner
+   :required~by: |required_by_deepbinner|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update deepbinner
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install deepbinner
+
+   and update with::
+
+      conda update deepbinner
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/deepbinner
+
+
+.. |required_by_deepbinner| conda:required_by:: deepbinner
+.. |downloads_deepbinner| image:: https://img.shields.io/conda/dn/bioconda/deepbinner.svg?style=flat
+   :alt:   (downloads)
+.. |docker_deepbinner| image:: https://quay.io/repository/biocontainers/deepbinner/status
+   :target: https://quay.io/repository/biocontainers/deepbinner
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/deepbinner.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deepbinner/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/deepbinner/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/deepbinner/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/deepbinner/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/deepbinner
-.. |docker| image:: https://quay.io/repository/biocontainers/deepbinner/status
-                :target: https://quay.io/repository/biocontainers/deepbinner
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/deepbinner/README.html
 

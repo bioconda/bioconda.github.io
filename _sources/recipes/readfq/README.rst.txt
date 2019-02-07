@@ -1,54 +1,66 @@
-.. _`readfq`:
+.. title:: Package Recipe 'readfq'
+.. highlight: bash
+
 
 readfq
 ======
 
-|downloads|
+.. conda:recipe:: readfq
+   :replaces_section_title:
 
-A high\-speed tool to calculate reads number and total base count in FASTQ file\, forked from Li Heng\'s original version
+   A high\-speed tool to calculate reads number and total base count in FASTQ file\, forked from Li Heng\'s original version
 
-============= ===========
-Home          https://github.com/billzt/readfq
-Versions      2015.08.30
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//readfq/meta.yaml
+   :homepage: https://github.com/billzt/readfq
+   :license: MIT / MIT
+   :recipe: /`readfq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readfq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readfq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: readfq
 
-Installation
-------------
+   |downloads_readfq| |docker_readfq|
 
-.. highlight: bash
+   :versions: 2015.08.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install readfq
+   :required~by: |required_by_readfq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update readfq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install readfq
+
+   and update with::
+
+      conda update readfq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/readfq
+
+
+.. |required_by_readfq| conda:required_by:: readfq
+.. |downloads_readfq| image:: https://img.shields.io/conda/dn/bioconda/readfq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_readfq| image:: https://quay.io/repository/biocontainers/readfq/status
+   :target: https://quay.io/repository/biocontainers/readfq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/readfq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/readfq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/readfq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/readfq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/readfq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/readfq
-.. |docker| image:: https://quay.io/repository/biocontainers/readfq/status
-                :target: https://quay.io/repository/biocontainers/readfq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/readfq/README.html
 

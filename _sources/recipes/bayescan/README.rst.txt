@@ -1,54 +1,66 @@
-.. _`bayescan`:
+.. title:: Package Recipe 'bayescan'
+.. highlight: bash
+
 
 bayescan
 ========
 
-|downloads|
+.. conda:recipe:: bayescan
+   :replaces_section_title:
 
-Phylogenetics \- Randomized Axelerated Maximum Likelihood.
+   Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
-============= ===========
-Home          http://cmpg.unibe.ch/software/BayeScan/
-Versions      2.0.1
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bayescan/meta.yaml
+   :homepage: http://cmpg.unibe.ch/software/BayeScan/
+   :license: GPL
+   :recipe: /`bayescan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bayescan
 
-Installation
-------------
+   |downloads_bayescan| |docker_bayescan|
 
-.. highlight: bash
+   :versions: 2.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install bayescan
+   :required~by: |required_by_bayescan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bayescan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bayescan
+
+   and update with::
+
+      conda update bayescan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bayescan
+
+
+.. |required_by_bayescan| conda:required_by:: bayescan
+.. |downloads_bayescan| image:: https://img.shields.io/conda/dn/bioconda/bayescan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bayescan| image:: https://quay.io/repository/biocontainers/bayescan/status
+   :target: https://quay.io/repository/biocontainers/bayescan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bayescan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bayescan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bayescan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bayescan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bayescan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bayescan
-.. |docker| image:: https://quay.io/repository/biocontainers/bayescan/status
-                :target: https://quay.io/repository/biocontainers/bayescan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bayescan/README.html
 

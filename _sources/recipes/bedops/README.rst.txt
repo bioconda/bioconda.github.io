@@ -1,56 +1,67 @@
-.. _`bedops`:
+.. title:: Package Recipe 'bedops'
+.. highlight: bash
+
 
 bedops
 ======
 
-|downloads|
+.. conda:recipe:: bedops
+   :replaces_section_title:
 
-High\-performance genomic feature operations.
+   High\-performance genomic feature operations.
 
-============= ===========
-Home          http://bedops.readthedocs.io
-Versions      2.4.35, 2.4.34, 2.4.33, 2.4.32, 2.4.30, 2.4.27, 2.4.26, 2.4.25, 2.4.24, 2.4.23, 2.4.22, 2.4.21, 2.4.20, 2.4.19
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bedops/meta.yaml
+   :homepage: http://bedops.readthedocs.io
+   :license: GPLv2
+   :recipe: /`bedops <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops/meta.yaml>`_
+   :links: biotools: :biotools:`Bedops`, doi: :doi:`10.1093/bioinformatics/bts277`
 
-
-
-Links         biotools: :biotools:`Bedops`, doi: :doi:`10.1093/bioinformatics/bts277`
-
-============= ===========
+   
 
 
+.. conda:package:: bedops
 
-Installation
-------------
+   |downloads_bedops| |docker_bedops|
 
-.. highlight: bash
+   :versions: 2.4.35, 2.4.34, 2.4.33, 2.4.32, 2.4.30, 2.4.27, 2.4.26, 2.4.25, 2.4.24, 2.4.23, 2.4.22, 2.4.21, 2.4.20, 2.4.19
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install bedops
+   :required~by: |required_by_bedops|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bedops
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bedops
+
+   and update with::
+
+      conda update bedops
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bedops
+
+
+.. |required_by_bedops| conda:required_by:: bedops
+.. |downloads_bedops| image:: https://img.shields.io/conda/dn/bioconda/bedops.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bedops| image:: https://quay.io/repository/biocontainers/bedops/status
+   :target: https://quay.io/repository/biocontainers/bedops
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bedops.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bedops/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bedops/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bedops/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bedops/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bedops
-.. |docker| image:: https://quay.io/repository/biocontainers/bedops/status
-                :target: https://quay.io/repository/biocontainers/bedops
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bedops/README.html
 

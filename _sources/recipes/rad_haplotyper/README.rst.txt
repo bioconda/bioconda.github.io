@@ -1,54 +1,66 @@
-.. _`rad_haplotyper`:
+.. title:: Package Recipe 'rad_haplotyper'
+.. highlight: bash
+
 
 rad_haplotyper
 ==============
 
-|downloads|
+.. conda:recipe:: rad_haplotyper
+   :replaces_section_title:
 
-A program for building SNP haplotypes from RAD sequencing data
+   A program for building SNP haplotypes from RAD sequencing data
 
-============= ===========
-Home          https://github.com/chollenbeck/rad_haplotyper
-Versions      1.1.9, 1.1.7, 1.1.6
-License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rad_haplotyper/meta.yaml
+   :homepage: https://github.com/chollenbeck/rad_haplotyper
+   :license: Perl
+   :recipe: /`rad_haplotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rad_haplotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rad_haplotyper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rad_haplotyper
 
-Installation
-------------
+   |downloads_rad_haplotyper| |docker_rad_haplotyper|
 
-.. highlight: bash
+   :versions: 1.1.9, 1.1.7, 1.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ddocent`  :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-bio-cigar`  :conda:package:`perl-bio-db-sam`  :conda:package:`perl-bioperl`  :conda:package:`perl-data-dumper`  :conda:package:`perl-getopt-long`  :conda:package:`perl-list-moreutils`  :conda:package:`perl-module-build`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pod-usage`  :conda:package:`perl-term-progressbar`  :conda:package:`perl-vcftools-vcf`  
 
-   conda install rad_haplotyper
+   :required~by: |required_by_rad_haplotyper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rad_haplotyper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rad_haplotyper
+
+   and update with::
+
+      conda update rad_haplotyper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rad_haplotyper
+
+
+.. |required_by_rad_haplotyper| conda:required_by:: rad_haplotyper
+.. |downloads_rad_haplotyper| image:: https://img.shields.io/conda/dn/bioconda/rad_haplotyper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rad_haplotyper| image:: https://quay.io/repository/biocontainers/rad_haplotyper/status
+   :target: https://quay.io/repository/biocontainers/rad_haplotyper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rad_haplotyper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rad_haplotyper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rad_haplotyper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rad_haplotyper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rad_haplotyper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rad_haplotyper
-.. |docker| image:: https://quay.io/repository/biocontainers/rad_haplotyper/status
-                :target: https://quay.io/repository/biocontainers/rad_haplotyper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rad_haplotyper/README.html
 

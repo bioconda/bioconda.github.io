@@ -1,54 +1,66 @@
-.. _`perl-text-tabs-wrap`:
+.. title:: Package Recipe 'perl-text-tabs-wrap'
+.. highlight: bash
+
 
 perl-text-tabs-wrap
 ===================
 
-|downloads|
+.. conda:recipe:: perl-text-tabs-wrap
+   :replaces_section_title:
 
-Expand tabs and do simple line wrapping
+   Expand tabs and do simple line wrapping
 
-============= ===========
-Home          http://metacpan.org/pod/Text::Tabs+Wrap
-Versions      2013.0523
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-tabs-wrap/meta.yaml
+   :homepage: http://metacpan.org/pod/Text::Tabs+Wrap
+   :license: unknown
+   :recipe: /`perl-text-tabs-wrap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-text-tabs-wrap
 
-Installation
-------------
+   |downloads_perl-text-tabs-wrap| |docker_perl-text-tabs-wrap|
 
-.. highlight: bash
+   :versions: 2013.0523
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-text-tabs-wrap
+   :required~by: |required_by_perl-text-tabs-wrap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-text-tabs-wrap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-text-tabs-wrap
+
+   and update with::
+
+      conda update perl-text-tabs-wrap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-text-tabs-wrap
+
+
+.. |required_by_perl-text-tabs-wrap| conda:required_by:: perl-text-tabs-wrap
+.. |downloads_perl-text-tabs-wrap| image:: https://img.shields.io/conda/dn/bioconda/perl-text-tabs-wrap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-text-tabs-wrap| image:: https://quay.io/repository/biocontainers/perl-text-tabs-wrap/status
+   :target: https://quay.io/repository/biocontainers/perl-text-tabs-wrap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-text-tabs-wrap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-text-tabs-wrap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-text-tabs-wrap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-text-tabs-wrap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-text-tabs-wrap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-text-tabs-wrap
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-text-tabs-wrap/status
-                :target: https://quay.io/repository/biocontainers/perl-text-tabs-wrap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-text-tabs-wrap/README.html
 

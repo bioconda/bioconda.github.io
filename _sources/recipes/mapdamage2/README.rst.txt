@@ -1,54 +1,66 @@
-.. _`mapdamage2`:
+.. title:: Package Recipe 'mapdamage2'
+.. highlight: bash
+
 
 mapdamage2
 ==========
 
-|downloads|
+.. conda:recipe:: mapdamage2
+   :replaces_section_title:
 
-mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics.ku.dk\/all\_literature\/mapdamage\/
+   mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics.ku.dk\/all\_literature\/mapdamage\/
 
-============= ===========
-Home          https://github.com/ginolhac/mapDamage
-Versions      2.0.9, 2.0.8, 2.0.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mapdamage2/meta.yaml
+   :homepage: https://github.com/ginolhac/mapDamage
+   :license: MIT
+   :recipe: /`mapdamage2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdamage2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdamage2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mapdamage2
 
-Installation
-------------
+   |downloads_mapdamage2| |docker_mapdamage2|
 
-.. highlight: bash
+   :versions: 2.0.9, 2.0.8, 2.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pysam`  :conda:package:`python` >=2.7,<3 :conda:package:`seqtk`  
 
-   conda install mapdamage2
+   :required~by: |required_by_mapdamage2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mapdamage2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mapdamage2
+
+   and update with::
+
+      conda update mapdamage2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mapdamage2
+
+
+.. |required_by_mapdamage2| conda:required_by:: mapdamage2
+.. |downloads_mapdamage2| image:: https://img.shields.io/conda/dn/bioconda/mapdamage2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mapdamage2| image:: https://quay.io/repository/biocontainers/mapdamage2/status
+   :target: https://quay.io/repository/biocontainers/mapdamage2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mapdamage2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mapdamage2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mapdamage2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mapdamage2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mapdamage2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mapdamage2
-.. |docker| image:: https://quay.io/repository/biocontainers/mapdamage2/status
-                :target: https://quay.io/repository/biocontainers/mapdamage2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mapdamage2/README.html
 

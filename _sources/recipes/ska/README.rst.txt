@@ -1,54 +1,66 @@
-.. _`ska`:
+.. title:: Package Recipe 'ska'
+.. highlight: bash
+
 
 ska
 ===
 
-|downloads|
+.. conda:recipe:: ska
+   :replaces_section_title:
 
-SKA \(Split Kmer Analysis\)
+   SKA \(Split Kmer Analysis\)
 
-============= ===========
-Home          https://github.com/simonrharris/SKA
-Versions      1.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ska/meta.yaml
+   :homepage: https://github.com/simonrharris/SKA
+   :license: GPL / GPL-3
+   :recipe: /`ska <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ska>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ska/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ska
 
-Installation
-------------
+   |downloads_ska| |docker_ska|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ska
+   :required~by: |required_by_ska|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ska
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ska
+
+   and update with::
+
+      conda update ska
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ska
+
+
+.. |required_by_ska| conda:required_by:: ska
+.. |downloads_ska| image:: https://img.shields.io/conda/dn/bioconda/ska.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ska| image:: https://quay.io/repository/biocontainers/ska/status
+   :target: https://quay.io/repository/biocontainers/ska
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ska.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ska/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ska/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ska/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ska/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ska
-.. |docker| image:: https://quay.io/repository/biocontainers/ska/status
-                :target: https://quay.io/repository/biocontainers/ska
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ska/README.html
 

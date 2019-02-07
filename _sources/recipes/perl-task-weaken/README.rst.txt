@@ -1,54 +1,66 @@
-.. _`perl-task-weaken`:
+.. title:: Package Recipe 'perl-task-weaken'
+.. highlight: bash
+
 
 perl-task-weaken
 ================
 
-|downloads|
+.. conda:recipe:: perl-task-weaken
+   :replaces_section_title:
 
-Ensure that a platform has weaken support
+   Ensure that a platform has weaken support
 
-============= ===========
-Home          http://metacpan.org/pod/Task-Weaken
-Versions      1.06, 1.04
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-task-weaken/meta.yaml
+   :homepage: http://metacpan.org/pod/Task-Weaken
+   :license: perl_5
+   :recipe: /`perl-task-weaken <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-task-weaken>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-task-weaken/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-task-weaken
 
-Installation
-------------
+   |downloads_perl-task-weaken| |docker_perl-task-weaken|
 
-.. highlight: bash
+   :versions: 1.06, 1.04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-task-weaken
+   :required~by: |required_by_perl-task-weaken|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-task-weaken
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-task-weaken
+
+   and update with::
+
+      conda update perl-task-weaken
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-task-weaken
+
+
+.. |required_by_perl-task-weaken| conda:required_by:: perl-task-weaken
+.. |downloads_perl-task-weaken| image:: https://img.shields.io/conda/dn/bioconda/perl-task-weaken.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-task-weaken| image:: https://quay.io/repository/biocontainers/perl-task-weaken/status
+   :target: https://quay.io/repository/biocontainers/perl-task-weaken
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-task-weaken.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-task-weaken/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-task-weaken/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-task-weaken/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-task-weaken/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-task-weaken
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-task-weaken/status
-                :target: https://quay.io/repository/biocontainers/perl-task-weaken
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-task-weaken/README.html
 

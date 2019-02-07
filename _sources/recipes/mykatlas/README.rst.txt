@@ -1,54 +1,66 @@
-.. _`mykatlas`:
+.. title:: Package Recipe 'mykatlas'
+.. highlight: bash
+
 
 mykatlas
 ========
 
-|downloads|
+.. conda:recipe:: mykatlas
+   :replaces_section_title:
 
-Assists in discoveries of antibiotic\-resistance with mykrobe
+   Assists in discoveries of antibiotic\-resistance with mykrobe
 
-============= ===========
-Home          http://github.com/phelimb/atlas
-Versions      0.6.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mykatlas/meta.yaml
+   :homepage: http://github.com/phelimb/atlas
+   :license: MIT / MIT
+   :recipe: /`mykatlas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykatlas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykatlas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mykatlas
 
-Installation
-------------
+   |downloads_mykatlas| |docker_mykatlas|
 
-.. highlight: bash
+   :versions: 0.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`future`  :conda:package:`ga4ghmongo`  :conda:package:`mongoengine`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  :conda:package:`redis-py`  
 
-   conda install mykatlas
+   :required~by: |required_by_mykatlas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mykatlas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mykatlas
+
+   and update with::
+
+      conda update mykatlas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mykatlas
+
+
+.. |required_by_mykatlas| conda:required_by:: mykatlas
+.. |downloads_mykatlas| image:: https://img.shields.io/conda/dn/bioconda/mykatlas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mykatlas| image:: https://quay.io/repository/biocontainers/mykatlas/status
+   :target: https://quay.io/repository/biocontainers/mykatlas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mykatlas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mykatlas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mykatlas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mykatlas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mykatlas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mykatlas
-.. |docker| image:: https://quay.io/repository/biocontainers/mykatlas/status
-                :target: https://quay.io/repository/biocontainers/mykatlas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mykatlas/README.html
 

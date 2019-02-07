@@ -1,54 +1,66 @@
-.. _`perl-indirect`:
+.. title:: Package Recipe 'perl-indirect'
+.. highlight: bash
+
 
 perl-indirect
 =============
 
-|downloads|
+.. conda:recipe:: perl-indirect
+   :replaces_section_title:
 
-Lexically warn about using the indirect method call syntax.
+   Lexically warn about using the indirect method call syntax.
 
-============= ===========
-Home          http://search.cpan.org/dist/indirect/
-Versions      0.38
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-indirect/meta.yaml
+   :homepage: http://search.cpan.org/dist/indirect/
+   :license: perl_5
+   :recipe: /`perl-indirect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-indirect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-indirect/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-indirect
 
-Installation
-------------
+   |downloads_perl-indirect| |docker_perl-indirect|
 
-.. highlight: bash
+   :versions: 0.38
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-carp`  :conda:package:`perl-xsloader`  
 
-   conda install perl-indirect
+   :required~by: |required_by_perl-indirect|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-indirect
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-indirect
+
+   and update with::
+
+      conda update perl-indirect
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-indirect
+
+
+.. |required_by_perl-indirect| conda:required_by:: perl-indirect
+.. |downloads_perl-indirect| image:: https://img.shields.io/conda/dn/bioconda/perl-indirect.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-indirect| image:: https://quay.io/repository/biocontainers/perl-indirect/status
+   :target: https://quay.io/repository/biocontainers/perl-indirect
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-indirect.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-indirect/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-indirect/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-indirect/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-indirect/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-indirect
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-indirect/status
-                :target: https://quay.io/repository/biocontainers/perl-indirect
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-indirect/README.html
 

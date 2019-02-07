@@ -1,56 +1,67 @@
-.. _`sbpipe`:
+.. title:: Package Recipe 'sbpipe'
+.. highlight: bash
+
 
 sbpipe
 ======
 
-|downloads|
+.. conda:recipe:: sbpipe
+   :replaces_section_title:
 
-SBpipe is a collection of pipelines for systems modelling of biological networks. It allows mathematical modellers to automatically repeat the tasks of model simulation and parameter estimation\, and extract robustness information from these repeat sequences in a solid and consistent manner\, facilitating model development and analysis. SBpipe can run models implemented in COPASI\, Python or coded in any other programming language using Python as a wrapper module. Pipelines can run on multicore computers\, Sun Grid Engine \(SGE\)\, Load Sharing Facility \(LSF\) clusters\, or via Snakemake.
+   SBpipe is a collection of pipelines for systems modelling of biological networks. It allows mathematical modellers to automatically repeat the tasks of model simulation and parameter estimation\, and extract robustness information from these repeat sequences in a solid and consistent manner\, facilitating model development and analysis. SBpipe can run models implemented in COPASI\, Python or coded in any other programming language using Python as a wrapper module. Pipelines can run on multicore computers\, Sun Grid Engine \(SGE\)\, Load Sharing Facility \(LSF\) clusters\, or via Snakemake.
 
-============= ===========
-Home          http://sbpipe.readthedocs.io
-Versions      4.21.0, 4.20.0, 4.18.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sbpipe/meta.yaml
+   :homepage: http://sbpipe.readthedocs.io
+   :license: MIT
+   :recipe: /`sbpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbpipe/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12918-017-0423-3`
 
-
-
-Links         doi: :doi:`10.1186/s12918-017-0423-3`
-
-============= ===========
+   
 
 
+.. conda:package:: sbpipe
 
-Installation
-------------
+   |downloads_sbpipe| |docker_sbpipe|
 
-.. highlight: bash
+   :versions: 4.21.0, 4.20.0, 4.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`colorlog`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`r-sbpiper` 1.8.* 
 
-   conda install sbpipe
+   :required~by: |required_by_sbpipe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sbpipe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sbpipe
+
+   and update with::
+
+      conda update sbpipe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sbpipe
+
+
+.. |required_by_sbpipe| conda:required_by:: sbpipe
+.. |downloads_sbpipe| image:: https://img.shields.io/conda/dn/bioconda/sbpipe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sbpipe| image:: https://quay.io/repository/biocontainers/sbpipe/status
+   :target: https://quay.io/repository/biocontainers/sbpipe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sbpipe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sbpipe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sbpipe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sbpipe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sbpipe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sbpipe
-.. |docker| image:: https://quay.io/repository/biocontainers/sbpipe/status
-                :target: https://quay.io/repository/biocontainers/sbpipe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sbpipe/README.html
 

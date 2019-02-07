@@ -1,54 +1,66 @@
-.. _`bioconductor-cosnet`:
+.. title:: Package Recipe 'bioconductor-cosnet'
+.. highlight: bash
+
 
 bioconductor-cosnet
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-cosnet
+   :replaces_section_title:
 
-Package that implements the COSNet classification algorithm. The algorithm predicts node labels in partially labeled graphs where few positives are available for the class being predicted.
+   Package that implements the COSNet classification algorithm. The algorithm predicts node labels in partially labeled graphs where few positives are available for the class being predicted.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/COSNet.html
-Versions      1.16.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cosnet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/COSNet.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-cosnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cosnet
 
-Installation
-------------
+   |downloads_bioconductor-cosnet| |docker_bioconductor-cosnet|
 
-.. highlight: bash
+   :versions: 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cosnet
+   :required~by: |required_by_bioconductor-cosnet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cosnet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cosnet
+
+   and update with::
+
+      conda update bioconductor-cosnet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cosnet
+
+
+.. |required_by_bioconductor-cosnet| conda:required_by:: bioconductor-cosnet
+.. |downloads_bioconductor-cosnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosnet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cosnet| image:: https://quay.io/repository/biocontainers/bioconductor-cosnet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cosnet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cosnet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cosnet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cosnet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cosnet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cosnet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cosnet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cosnet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cosnet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cosnet/README.html
 

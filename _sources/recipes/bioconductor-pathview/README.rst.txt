@@ -1,56 +1,67 @@
-.. _`bioconductor-pathview`:
+.. title:: Package Recipe 'bioconductor-pathview'
+.. highlight: bash
+
 
 bioconductor-pathview
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-pathview
+   :replaces_section_title:
 
-Pathview is a tool set for pathway based data integration and visualization. It maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data\, parses the data file\, maps user data to the pathway\, and render pathway graph with the mapped data. In addition\, Pathview also seamlessly integrates with pathway and gene set \(enrichment\) analysis tools for large\-scale and fully automated analysis.
+   Pathview is a tool set for pathway based data integration and visualization. It maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data\, parses the data file\, maps user data to the pathway\, and render pathway graph with the mapped data. In addition\, Pathview also seamlessly integrates with pathway and gene set \(enrichment\) analysis tools for large\-scale and fully automated analysis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pathview.html
-Versions      1.22.0, 1.20.0, 1.18.0, 1.16.5, 1.9.0
-License       GPL (>=3.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathview/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pathview.html
+   :license: GPL (>=3.0)
+   :recipe: /`bioconductor-pathview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview/meta.yaml>`_
+   :links: biotools: :biotools:`pathview`
 
-
-
-Links         biotools: :biotools:`pathview`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pathview
 
-Installation
-------------
+   |downloads_bioconductor-pathview| |docker_bioconductor-pathview|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0, 1.16.5, 1.9.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-png`  :conda:package:`r-xml`  
 
-   conda install bioconductor-pathview
+   :required~by: |required_by_bioconductor-pathview|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pathview
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pathview
+
+   and update with::
+
+      conda update bioconductor-pathview
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pathview
+
+
+.. |required_by_bioconductor-pathview| conda:required_by:: bioconductor-pathview
+.. |downloads_bioconductor-pathview| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathview.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pathview| image:: https://quay.io/repository/biocontainers/bioconductor-pathview/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pathview
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pathview.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pathview/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pathview/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pathview/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pathview/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pathview
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pathview/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pathview
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pathview/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-slqpcr`:
+.. title:: Package Recipe 'bioconductor-slqpcr'
+.. highlight: bash
+
 
 bioconductor-slqpcr
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-slqpcr
+   :replaces_section_title:
 
-Functions for analysis of real\-time quantitative PCR data at SIRS\-Lab GmbH
+   Functions for analysis of real\-time quantitative PCR data at SIRS\-Lab GmbH
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SLqPCR.html
-Versions      1.48.0, 1.46.0, 1.44.0, 1.42.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-slqpcr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SLqPCR.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-slqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slqpcr/meta.yaml>`_
+   :links: biotools: :biotools:`slqpcr`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`slqpcr`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-slqpcr
 
-Installation
-------------
+   |downloads_bioconductor-slqpcr| |docker_bioconductor-slqpcr|
 
-.. highlight: bash
+   :versions: 1.48.0, 1.46.0, 1.44.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-slqpcr
+   :required~by: |required_by_bioconductor-slqpcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-slqpcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-slqpcr
+
+   and update with::
+
+      conda update bioconductor-slqpcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-slqpcr
+
+
+.. |required_by_bioconductor-slqpcr| conda:required_by:: bioconductor-slqpcr
+.. |downloads_bioconductor-slqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slqpcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-slqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-slqpcr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-slqpcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-slqpcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-slqpcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-slqpcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-slqpcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-slqpcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-slqpcr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-slqpcr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-slqpcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-slqpcr/README.html
 

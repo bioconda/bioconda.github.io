@@ -1,36 +1,56 @@
-.. _`edlib`:
+.. title:: Package Recipe 'edlib'
+.. highlight: bash
+
 
 edlib
 =====
 
-|downloads|
+.. conda:recipe:: edlib
+   :replaces_section_title:
 
-C\/C\+\+ library and program for sequence alignment using edit \(Levenshtein\) distance
+   C\/C\+\+ library and program for sequence alignment using edit \(Levenshtein\) distance
 
-============= ===========
-Home          https://github.com/Martinsos/edlib/
-Versions      1.2.3, 1.2.1, 1.2.0, 1.1.2, 1.0.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//edlib/meta.yaml
+   :homepage: https://github.com/Martinsos/edlib/
+   :license: MIT
+   :recipe: /`edlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: edlib
 
-Installation
-------------
+   |downloads_edlib| |docker_edlib|
 
-.. highlight: bash
+   :versions: 1.2.3, 1.2.1, 1.2.0, 1.1.2, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install edlib
+   :required~by: |required_by_edlib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update edlib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install edlib
+
+   and update with::
+
+      conda update edlib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/edlib
+
+
+.. |required_by_edlib| conda:required_by:: edlib
+.. |downloads_edlib| image:: https://img.shields.io/conda/dn/bioconda/edlib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_edlib| image:: https://quay.io/repository/biocontainers/edlib/status
+   :target: https://quay.io/repository/biocontainers/edlib
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 From version 1.1.0 onward\, the \`aligner\` executable has been renamed to \`edlib\-aligner\`.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/edlib.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/edlib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/edlib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/edlib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/edlib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/edlib
-.. |docker| image:: https://quay.io/repository/biocontainers/edlib/status
-                :target: https://quay.io/repository/biocontainers/edlib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/edlib/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-ipc-cmd`:
+.. title:: Package Recipe 'perl-ipc-cmd'
+.. highlight: bash
+
 
 perl-ipc-cmd
 ============
 
-|downloads|
+.. conda:recipe:: perl-ipc-cmd
+   :replaces_section_title:
 
-A cross platform way of running \(interactive\) commandline programs.
+   A cross platform way of running \(interactive\) commandline programs.
 
-============= ===========
-Home          http://metacpan.org/pod/IPC::Cmd
-Versions      1.02, 1.00
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ipc-cmd/meta.yaml
+   :homepage: http://metacpan.org/pod/IPC::Cmd
+   :license: perl_5
+   :recipe: /`perl-ipc-cmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-cmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-cmd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-ipc-cmd
 
-Installation
-------------
+   |downloads_perl-ipc-cmd| |docker_perl-ipc-cmd|
 
-.. highlight: bash
+   :versions: 1.02, 1.00
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-file-temp`  :conda:package:`perl-locale-maketext-simple`  :conda:package:`perl-module-load-conditional`  :conda:package:`perl-params-check`  
 
-   conda install perl-ipc-cmd
+   :required~by: |required_by_perl-ipc-cmd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-ipc-cmd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-ipc-cmd
+
+   and update with::
+
+      conda update perl-ipc-cmd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-ipc-cmd
+
+
+.. |required_by_perl-ipc-cmd| conda:required_by:: perl-ipc-cmd
+.. |downloads_perl-ipc-cmd| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-cmd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-ipc-cmd| image:: https://quay.io/repository/biocontainers/perl-ipc-cmd/status
+   :target: https://quay.io/repository/biocontainers/perl-ipc-cmd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-ipc-cmd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-ipc-cmd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-ipc-cmd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-ipc-cmd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-ipc-cmd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-ipc-cmd
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-ipc-cmd/status
-                :target: https://quay.io/repository/biocontainers/perl-ipc-cmd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-ipc-cmd/README.html
 

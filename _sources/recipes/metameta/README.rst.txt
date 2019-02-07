@@ -1,54 +1,66 @@
-.. _`metameta`:
+.. title:: Package Recipe 'metameta'
+.. highlight: bash
+
 
 metameta
 ========
 
-|downloads|
+.. conda:recipe:: metameta
+   :replaces_section_title:
 
-MetaMeta \- pipeline for integrating metagenome analysis tools to improve taxonomic profiling
+   MetaMeta \- pipeline for integrating metagenome analysis tools to improve taxonomic profiling
 
-============= ===========
-Home          https://github.com/pirovc/metameta/
-Versions      1.2.0, 1.1.1, 1.1, 1.0
-License       The MIT License (MIT)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metameta/meta.yaml
+   :homepage: https://github.com/pirovc/metameta/
+   :license: The MIT License (MIT)
+   :recipe: /`metameta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metameta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metameta/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metameta
 
-Installation
-------------
+   |downloads_metameta| |docker_metameta|
 
-.. highlight: bash
+   :versions: 1.2.0, 1.1.1, 1.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`snakemake` ==4.3.0 
 
-   conda install metameta
+   :required~by: |required_by_metameta|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metameta
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metameta
+
+   and update with::
+
+      conda update metameta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metameta
+
+
+.. |required_by_metameta| conda:required_by:: metameta
+.. |downloads_metameta| image:: https://img.shields.io/conda/dn/bioconda/metameta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metameta| image:: https://quay.io/repository/biocontainers/metameta/status
+   :target: https://quay.io/repository/biocontainers/metameta
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metameta.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metameta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metameta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metameta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metameta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metameta
-.. |docker| image:: https://quay.io/repository/biocontainers/metameta/status
-                :target: https://quay.io/repository/biocontainers/metameta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metameta/README.html
 

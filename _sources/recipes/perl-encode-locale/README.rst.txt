@@ -1,54 +1,66 @@
-.. _`perl-encode-locale`:
+.. title:: Package Recipe 'perl-encode-locale'
+.. highlight: bash
+
 
 perl-encode-locale
 ==================
 
-|downloads|
+.. conda:recipe:: perl-encode-locale
+   :replaces_section_title:
 
-Determine the locale encoding
+   Determine the locale encoding
 
-============= ===========
-Home          http://metacpan.org/pod/Encode::Locale
-Versions      1.05
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-encode-locale/meta.yaml
+   :homepage: http://metacpan.org/pod/Encode::Locale
+   :license: perl_5
+   :recipe: /`perl-encode-locale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-encode-locale
 
-Installation
-------------
+   |downloads_perl-encode-locale| |docker_perl-encode-locale|
 
-.. highlight: bash
+   :versions: 1.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-encode-locale
+   :required~by: |required_by_perl-encode-locale|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-encode-locale
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-encode-locale
+
+   and update with::
+
+      conda update perl-encode-locale
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-encode-locale
+
+
+.. |required_by_perl-encode-locale| conda:required_by:: perl-encode-locale
+.. |downloads_perl-encode-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-encode-locale.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-encode-locale| image:: https://quay.io/repository/biocontainers/perl-encode-locale/status
+   :target: https://quay.io/repository/biocontainers/perl-encode-locale
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-encode-locale.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-encode-locale/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-encode-locale/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-encode-locale/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-encode-locale/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-encode-locale
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-encode-locale/status
-                :target: https://quay.io/repository/biocontainers/perl-encode-locale
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-encode-locale/README.html
 

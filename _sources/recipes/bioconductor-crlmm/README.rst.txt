@@ -1,56 +1,67 @@
-.. _`bioconductor-crlmm`:
+.. title:: Package Recipe 'bioconductor-crlmm'
+.. highlight: bash
+
 
 bioconductor-crlmm
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-crlmm
+   :replaces_section_title:
 
-Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
+   Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/crlmm.html
-Versions      1.40.0, 1.38.0, 1.36.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-crlmm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/crlmm.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-crlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm/meta.yaml>`_
+   :links: biotools: :biotools:`crlmm`
 
-
-
-Links         biotools: :biotools:`crlmm`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-crlmm
 
-Installation
-------------
+   |downloads_bioconductor-crlmm| |docker_bioconductor-crlmm|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-illuminaio` >=0.24.0,<0.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-preprocesscore` >=1.44.0,<1.45.0 :conda:package:`bioconductor-snpchip` >=2.28.0,<2.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-beanplot`  :conda:package:`r-ellipse`  :conda:package:`r-ff`  :conda:package:`r-foreach`  :conda:package:`r-lattice`  :conda:package:`r-matrixstats`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcppeigen` >=0.3.1.2.1 :conda:package:`r-vgam`  
 
-   conda install bioconductor-crlmm
+   :required~by: |required_by_bioconductor-crlmm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-crlmm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-crlmm
+
+   and update with::
+
+      conda update bioconductor-crlmm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-crlmm
+
+
+.. |required_by_bioconductor-crlmm| conda:required_by:: bioconductor-crlmm
+.. |downloads_bioconductor-crlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crlmm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-crlmm| image:: https://quay.io/repository/biocontainers/bioconductor-crlmm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-crlmm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-crlmm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-crlmm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-crlmm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-crlmm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-crlmm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-crlmm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-crlmm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-crlmm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-crlmm/README.html
 

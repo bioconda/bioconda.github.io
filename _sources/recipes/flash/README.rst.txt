@@ -1,56 +1,67 @@
-.. _`flash`:
+.. title:: Package Recipe 'flash'
+.. highlight: bash
+
 
 flash
 =====
 
-|downloads|
+.. conda:recipe:: flash
+   :replaces_section_title:
 
-Merge mates from fragments that are shorter than twice the read length
+   Merge mates from fragments that are shorter than twice the read length
 
-============= ===========
-Home          https://ccb.jhu.edu/software/FLASH/
-Versions      1.2.11
-License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flash/meta.yaml
+   :homepage: https://ccb.jhu.edu/software/FLASH/
+   :license: GPLv3+
+   :recipe: /`flash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash/meta.yaml>`_
+   :links: biotools: :biotools:`flash`
 
-
-
-Links         biotools: :biotools:`flash`
-
-============= ===========
+   
 
 
+.. conda:package:: flash
 
-Installation
-------------
+   |downloads_flash| |docker_flash|
 
-.. highlight: bash
+   :versions: 1.2.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install flash
+   :required~by: |required_by_flash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flash
+
+   and update with::
+
+      conda update flash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flash
+
+
+.. |required_by_flash| conda:required_by:: flash
+.. |downloads_flash| image:: https://img.shields.io/conda/dn/bioconda/flash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flash| image:: https://quay.io/repository/biocontainers/flash/status
+   :target: https://quay.io/repository/biocontainers/flash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flash
-.. |docker| image:: https://quay.io/repository/biocontainers/flash/status
-                :target: https://quay.io/repository/biocontainers/flash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flash/README.html
 

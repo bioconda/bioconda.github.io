@@ -1,56 +1,67 @@
-.. _`solexaqa`:
+.. title:: Package Recipe 'solexaqa'
+.. highlight: bash
+
 
 solexaqa
 ========
 
-|downloads|
+.. conda:recipe:: solexaqa
+   :replaces_section_title:
 
-Quality statistics and visual representations for second\-generation sequencing data
+   Quality statistics and visual representations for second\-generation sequencing data
 
-============= ===========
-Home          http://solexaqa.sourceforge.net/
-Versions      3.1.7.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//solexaqa/meta.yaml
+   :homepage: http://solexaqa.sourceforge.net/
+   :license: GPLv3
+   :recipe: /`solexaqa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/solexaqa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/solexaqa/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-11-485`
 
-
-
-Links         doi: :doi:`10.1186/1471-2105-11-485`
-
-============= ===========
+   
 
 
+.. conda:package:: solexaqa
 
-Installation
-------------
+   |downloads_solexaqa| |docker_solexaqa|
 
-.. highlight: bash
+   :versions: 3.1.7.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`icu` >=58.2,<59.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install solexaqa
+   :required~by: |required_by_solexaqa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update solexaqa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install solexaqa
+
+   and update with::
+
+      conda update solexaqa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/solexaqa
+
+
+.. |required_by_solexaqa| conda:required_by:: solexaqa
+.. |downloads_solexaqa| image:: https://img.shields.io/conda/dn/bioconda/solexaqa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_solexaqa| image:: https://quay.io/repository/biocontainers/solexaqa/status
+   :target: https://quay.io/repository/biocontainers/solexaqa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/solexaqa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/solexaqa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/solexaqa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/solexaqa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/solexaqa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/solexaqa
-.. |docker| image:: https://quay.io/repository/biocontainers/solexaqa/status
-                :target: https://quay.io/repository/biocontainers/solexaqa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/solexaqa/README.html
 

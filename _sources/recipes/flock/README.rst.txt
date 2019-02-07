@@ -1,54 +1,66 @@
-.. _`flock`:
+.. title:: Package Recipe 'flock'
+.. highlight: bash
+
 
 flock
 =====
 
-|downloads|
+.. conda:recipe:: flock
+   :replaces_section_title:
 
-FLOCK \- Flow Cytometry Clustering without K.
+   FLOCK \- Flow Cytometry Clustering without K.
 
-============= ===========
-Home          https://sourceforge.net/projects/immportflock/
-Versions      1.0
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flock/meta.yaml
+   :homepage: https://sourceforge.net/projects/immportflock/
+   :license: unknown
+   :recipe: /`flock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: flock
 
-Installation
-------------
+   |downloads_flock| |docker_flock|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install flock
+   :required~by: |required_by_flock|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flock
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flock
+
+   and update with::
+
+      conda update flock
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flock
+
+
+.. |required_by_flock| conda:required_by:: flock
+.. |downloads_flock| image:: https://img.shields.io/conda/dn/bioconda/flock.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flock| image:: https://quay.io/repository/biocontainers/flock/status
+   :target: https://quay.io/repository/biocontainers/flock
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flock.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flock/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flock/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flock/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flock/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flock
-.. |docker| image:: https://quay.io/repository/biocontainers/flock/status
-                :target: https://quay.io/repository/biocontainers/flock
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flock/README.html
 

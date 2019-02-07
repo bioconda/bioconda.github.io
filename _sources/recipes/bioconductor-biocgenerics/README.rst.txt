@@ -1,56 +1,67 @@
-.. _`bioconductor-biocgenerics`:
+.. title:: Package Recipe 'bioconductor-biocgenerics'
+.. highlight: bash
+
 
 bioconductor-biocgenerics
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-biocgenerics
+   :replaces_section_title:
 
-S4 generic functions needed by many Bioconductor packages.
+   S4 generic functions needed by many Bioconductor packages.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BiocGenerics.html
-Versions      0.28.0, 0.26.0, 0.24.0, 0.22.1, 0.22.0, 0.20.0, 0.18.0, 0.16.1, 0.16.0, 0.14.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocgenerics/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocGenerics.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-biocgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics/meta.yaml>`_
+   :links: biotools: :biotools:`biocgenerics`
 
-
-
-Links         biotools: :biotools:`biocgenerics`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biocgenerics
 
-Installation
-------------
+   |downloads_bioconductor-biocgenerics| |docker_bioconductor-biocgenerics|
 
-.. highlight: bash
+   :versions: 0.28.0, 0.26.0, 0.24.0, 0.22.1, 0.22.0, 0.20.0, 0.18.0, 0.16.1, 0.16.0, 0.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-biocgenerics
+   :required~by: |required_by_bioconductor-biocgenerics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biocgenerics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biocgenerics
+
+   and update with::
+
+      conda update bioconductor-biocgenerics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biocgenerics
+
+
+.. |required_by_bioconductor-biocgenerics| conda:required_by:: bioconductor-biocgenerics
+.. |downloads_bioconductor-biocgenerics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocgenerics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biocgenerics| image:: https://quay.io/repository/biocontainers/bioconductor-biocgenerics/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biocgenerics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biocgenerics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biocgenerics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biocgenerics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biocgenerics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biocgenerics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biocgenerics
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocgenerics/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biocgenerics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biocgenerics/README.html
 

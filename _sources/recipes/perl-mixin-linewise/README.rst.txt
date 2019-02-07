@@ -1,54 +1,66 @@
-.. _`perl-mixin-linewise`:
+.. title:: Package Recipe 'perl-mixin-linewise'
+.. highlight: bash
+
 
 perl-mixin-linewise
 ===================
 
-|downloads|
+.. conda:recipe:: perl-mixin-linewise
+   :replaces_section_title:
 
-write your linewise code for handles\; this does the rest
+   write your linewise code for handles\; this does the rest
 
-============= ===========
-Home          https://github.com/rjbs/Mixin-Linewise
-Versions      0.108
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mixin-linewise/meta.yaml
+   :homepage: https://github.com/rjbs/Mixin-Linewise
+   :license: perl_5
+   :recipe: /`perl-mixin-linewise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mixin-linewise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mixin-linewise/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-mixin-linewise
 
-Installation
-------------
+   |downloads_perl-mixin-linewise| |docker_perl-mixin-linewise|
 
-.. highlight: bash
+   :versions: 0.108
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-extutils-makemaker`  :conda:package:`perl-pathtools`  :conda:package:`perl-threaded`  
 
-   conda install perl-mixin-linewise
+   :required~by: |required_by_perl-mixin-linewise|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-mixin-linewise
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-mixin-linewise
+
+   and update with::
+
+      conda update perl-mixin-linewise
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-mixin-linewise
+
+
+.. |required_by_perl-mixin-linewise| conda:required_by:: perl-mixin-linewise
+.. |downloads_perl-mixin-linewise| image:: https://img.shields.io/conda/dn/bioconda/perl-mixin-linewise.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-mixin-linewise| image:: https://quay.io/repository/biocontainers/perl-mixin-linewise/status
+   :target: https://quay.io/repository/biocontainers/perl-mixin-linewise
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-mixin-linewise.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-mixin-linewise/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-mixin-linewise/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-mixin-linewise/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-mixin-linewise/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-mixin-linewise
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-mixin-linewise/status
-                :target: https://quay.io/repository/biocontainers/perl-mixin-linewise
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-mixin-linewise/README.html
 

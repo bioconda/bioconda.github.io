@@ -1,54 +1,66 @@
-.. _`bcbio-variation`:
+.. title:: Package Recipe 'bcbio-variation'
+.. highlight: bash
+
 
 bcbio-variation
 ===============
 
-|downloads|
+.. conda:recipe:: bcbio-variation
+   :replaces_section_title:
 
-Toolkit to analyze genomic variation data\, built on the GATK with Clojure
+   Toolkit to analyze genomic variation data\, built on the GATK with Clojure
 
-============= ===========
-Home          https://github.com/chapmanb/bcbio.variation
-Versions      0.2.6
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcbio-variation/meta.yaml
+   :homepage: https://github.com/chapmanb/bcbio.variation
+   :license: MIT
+   :recipe: /`bcbio-variation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-variation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-variation/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bcbio-variation
 
-Installation
-------------
+   |downloads_bcbio-variation| |docker_bcbio-variation|
 
-.. highlight: bash
+   :versions: 0.2.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=7,<8 
 
-   conda install bcbio-variation
+   :required~by: |required_by_bcbio-variation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bcbio-variation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bcbio-variation
+
+   and update with::
+
+      conda update bcbio-variation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bcbio-variation
+
+
+.. |required_by_bcbio-variation| conda:required_by:: bcbio-variation
+.. |downloads_bcbio-variation| image:: https://img.shields.io/conda/dn/bioconda/bcbio-variation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bcbio-variation| image:: https://quay.io/repository/biocontainers/bcbio-variation/status
+   :target: https://quay.io/repository/biocontainers/bcbio-variation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bcbio-variation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bcbio-variation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bcbio-variation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bcbio-variation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bcbio-variation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bcbio-variation
-.. |docker| image:: https://quay.io/repository/biocontainers/bcbio-variation/status
-                :target: https://quay.io/repository/biocontainers/bcbio-variation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bcbio-variation/README.html
 

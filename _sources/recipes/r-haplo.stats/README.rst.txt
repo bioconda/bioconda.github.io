@@ -1,54 +1,66 @@
-.. _`r-haplo.stats`:
+.. title:: Package Recipe 'r-haplo.stats'
+.. highlight: bash
+
 
 r-haplo.stats
 =============
 
-|downloads|
+.. conda:recipe:: r-haplo.stats
+   :replaces_section_title:
 
-Routines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous \(due to unknown linkage phase of the genetic markers\). The main functions are\: haplo.em\(\)\, haplo.glm\(\)\, haplo.score\(\)\, and haplo.power\(\)\; all of which have detailed examples in the vignette.
+   
 
-============= ===========
-Home          http://www.mayo.edu/research/labs/statistical-genetics-genetic-epidemiology/software
-Versions      1.7.7
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-haplo.stats/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-haplo.stats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-haplo.stats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-haplo.stats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-haplo.stats
 
-Installation
-------------
+   |downloads_r-haplo.stats| |docker_r-haplo.stats|
 
-.. highlight: bash
+   :versions: 1.7.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rms`  
 
-   conda install r-haplo.stats
+   :required~by: |required_by_r-haplo.stats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-haplo.stats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-haplo.stats
+
+   and update with::
+
+      conda update r-haplo.stats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-haplo.stats
+
+
+.. |required_by_r-haplo.stats| conda:required_by:: r-haplo.stats
+.. |downloads_r-haplo.stats| image:: https://img.shields.io/conda/dn/bioconda/r-haplo.stats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-haplo.stats| image:: https://quay.io/repository/biocontainers/r-haplo.stats/status
+   :target: https://quay.io/repository/biocontainers/r-haplo.stats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-haplo.stats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-haplo.stats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-haplo.stats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-haplo.stats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-haplo.stats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-haplo.stats
-.. |docker| image:: https://quay.io/repository/biocontainers/r-haplo.stats/status
-                :target: https://quay.io/repository/biocontainers/r-haplo.stats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-haplo.stats/README.html
 

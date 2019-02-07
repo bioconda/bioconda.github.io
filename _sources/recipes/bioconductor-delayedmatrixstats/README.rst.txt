@@ -1,54 +1,66 @@
-.. _`bioconductor-delayedmatrixstats`:
+.. title:: Package Recipe 'bioconductor-delayedmatrixstats'
+.. highlight: bash
+
 
 bioconductor-delayedmatrixstats
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-delayedmatrixstats
+   :replaces_section_title:
 
-A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'DelayedArray\' package. High\-performing functions operating on rows and columns of DelayedMatrix objects\, e.g. col \/ rowMedians\(\)\, col \/ rowRanks\(\)\, and col \/ rowSds\(\). Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.
+   A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'DelayedArray\' package. High\-performing functions operating on rows and columns of DelayedMatrix objects\, e.g. col \/ rowMedians\(\)\, col \/ rowRanks\(\)\, and col \/ rowSds\(\). Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DelayedMatrixStats.html
-Versions      1.4.0, 1.2.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-delayedmatrixstats/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DelayedMatrixStats.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-delayedmatrixstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-delayedmatrixstats
 
-Installation
-------------
+   |downloads_bioconductor-delayedmatrixstats| |docker_bioconductor-delayedmatrixstats|
 
-.. highlight: bash
+   :versions: 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`bioconductor-hdf5array` >=1.10.0,<1.11.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-matrixstats` >=0.53.1 
 
-   conda install bioconductor-delayedmatrixstats
+   :required~by: |required_by_bioconductor-delayedmatrixstats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-delayedmatrixstats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-delayedmatrixstats
+
+   and update with::
+
+      conda update bioconductor-delayedmatrixstats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-delayedmatrixstats
+
+
+.. |required_by_bioconductor-delayedmatrixstats| conda:required_by:: bioconductor-delayedmatrixstats
+.. |downloads_bioconductor-delayedmatrixstats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-delayedmatrixstats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-delayedmatrixstats| image:: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-delayedmatrixstats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-delayedmatrixstats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-delayedmatrixstats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-delayedmatrixstats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-delayedmatrixstats
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-delayedmatrixstats/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-xml-sax-expat`:
+.. title:: Package Recipe 'perl-xml-sax-expat'
+.. highlight: bash
+
 
 perl-xml-sax-expat
 ==================
 
-|downloads|
+.. conda:recipe:: perl-xml-sax-expat
+   :replaces_section_title:
 
-SAX Driver for Expat
+   SAX Driver for Expat
 
-============= ===========
-Home          http://metacpan.org/pod/XML-SAX-Expat
-Versions      0.51
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-sax-expat/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-SAX-Expat
+   :license: perl_5
+   :recipe: /`perl-xml-sax-expat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-expat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-expat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-sax-expat
 
-Installation
-------------
+   |downloads_perl-xml-sax-expat| |docker_perl-xml-sax-expat|
 
-.. highlight: bash
+   :versions: 0.51
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  :conda:package:`perl-xml-namespacesupport`  :conda:package:`perl-xml-parser`  :conda:package:`perl-xml-sax`  :conda:package:`perl-xml-sax-base`  
 
-   conda install perl-xml-sax-expat
+   :required~by: |required_by_perl-xml-sax-expat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-sax-expat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-sax-expat
+
+   and update with::
+
+      conda update perl-xml-sax-expat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-sax-expat
+
+
+.. |required_by_perl-xml-sax-expat| conda:required_by:: perl-xml-sax-expat
+.. |downloads_perl-xml-sax-expat| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax-expat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-sax-expat| image:: https://quay.io/repository/biocontainers/perl-xml-sax-expat/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-sax-expat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-sax-expat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-sax-expat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-sax-expat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-sax-expat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-sax-expat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-sax-expat
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-sax-expat/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-sax-expat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-sax-expat/README.html
 

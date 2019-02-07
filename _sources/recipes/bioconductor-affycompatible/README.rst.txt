@@ -1,56 +1,67 @@
-.. _`bioconductor-affycompatible`:
+.. title:: Package Recipe 'bioconductor-affycompatible'
+.. highlight: bash
+
 
 bioconductor-affycompatible
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-affycompatible
+   :replaces_section_title:
 
-This package provides an interface to Affymetrix chip annotation and sample attribute files. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files.
+   This package provides an interface to Affymetrix chip annotation and sample attribute files. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/AffyCompatible.html
-Versions      1.42.0, 1.40.0, 1.38.0, 1.36.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affycompatible/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffyCompatible.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-affycompatible <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible/meta.yaml>`_
+   :links: biotools: :biotools:`affycompatible`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`affycompatible`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affycompatible
 
-Installation
-------------
+   |downloads_bioconductor-affycompatible| |docker_bioconductor-affycompatible|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl` >=0.8-1 :conda:package:`r-xml` >=2.8-1 
 
-   conda install bioconductor-affycompatible
+   :required~by: |required_by_bioconductor-affycompatible|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affycompatible
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affycompatible
+
+   and update with::
+
+      conda update bioconductor-affycompatible
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affycompatible
+
+
+.. |required_by_bioconductor-affycompatible| conda:required_by:: bioconductor-affycompatible
+.. |downloads_bioconductor-affycompatible| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycompatible.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affycompatible| image:: https://quay.io/repository/biocontainers/bioconductor-affycompatible/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affycompatible
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affycompatible.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affycompatible/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affycompatible/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affycompatible/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affycompatible/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affycompatible
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affycompatible/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affycompatible
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affycompatible/README.html
 

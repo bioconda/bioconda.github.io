@@ -1,54 +1,66 @@
-.. _`clearcut`:
+.. title:: Package Recipe 'clearcut'
+.. highlight: bash
+
 
 clearcut
 ========
 
-|downloads|
+.. conda:recipe:: clearcut
+   :replaces_section_title:
 
-The reference implementation for Relaxed Neighbor Joining \(RNJ\).
+   The reference implementation for Relaxed Neighbor Joining \(RNJ\).
 
-============= ===========
-Home          http://www.mothur.org
-Versions      1.0.9
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clearcut/meta.yaml
+   :homepage: http://www.mothur.org
+   :license: BSD
+   :recipe: /`clearcut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clearcut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clearcut/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: clearcut
 
-Installation
-------------
+   |downloads_clearcut| |docker_clearcut|
 
-.. highlight: bash
+   :versions: 1.0.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install clearcut
+   :required~by: |required_by_clearcut|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update clearcut
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install clearcut
+
+   and update with::
+
+      conda update clearcut
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/clearcut
+
+
+.. |required_by_clearcut| conda:required_by:: clearcut
+.. |downloads_clearcut| image:: https://img.shields.io/conda/dn/bioconda/clearcut.svg?style=flat
+   :alt:   (downloads)
+.. |docker_clearcut| image:: https://quay.io/repository/biocontainers/clearcut/status
+   :target: https://quay.io/repository/biocontainers/clearcut
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/clearcut.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/clearcut/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clearcut/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/clearcut/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/clearcut/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/clearcut
-.. |docker| image:: https://quay.io/repository/biocontainers/clearcut/status
-                :target: https://quay.io/repository/biocontainers/clearcut
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/clearcut/README.html
 

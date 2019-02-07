@@ -1,54 +1,66 @@
-.. _`bioconductor-vitisviniferacdf`:
+.. title:: Package Recipe 'bioconductor-vitisviniferacdf'
+.. highlight: bash
+
 
 bioconductor-vitisviniferacdf
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-vitisviniferacdf
+   :replaces_section_title:
 
-A package containing an environment representing the Vitis\_Vinifera.cdf file.
+   A package containing an environment representing the Vitis\_Vinifera.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/vitisviniferacdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vitisviniferacdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/vitisviniferacdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-vitisviniferacdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferacdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferacdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-vitisviniferacdf
 
-Installation
-------------
+   |downloads_bioconductor-vitisviniferacdf| |docker_bioconductor-vitisviniferacdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-vitisviniferacdf
+   :required~by: |required_by_bioconductor-vitisviniferacdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-vitisviniferacdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-vitisviniferacdf
+
+   and update with::
+
+      conda update bioconductor-vitisviniferacdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-vitisviniferacdf
+
+
+.. |required_by_bioconductor-vitisviniferacdf| conda:required_by:: bioconductor-vitisviniferacdf
+.. |downloads_bioconductor-vitisviniferacdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vitisviniferacdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-vitisviniferacdf| image:: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-vitisviniferacdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-vitisviniferacdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-vitisviniferacdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-vitisviniferacdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-vitisviniferacdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-vitisviniferacdf/README.html
 

@@ -1,54 +1,66 @@
-.. _`mvicuna`:
+.. title:: Package Recipe 'mvicuna'
+.. highlight: bash
+
 
 mvicuna
 =======
 
-|downloads|
+.. conda:recipe:: mvicuna
+   :replaces_section_title:
 
-M\-Vicuna is a modularized version of VICUNA\, a de novo assembly program targeting populations with high mutation rates
+   M\-Vicuna is a modularized version of VICUNA\, a de novo assembly program targeting populations with high mutation rates
 
-============= ===========
-Home          https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/vicuna
-Versions      1.0
-License       https://www.broadinstitute.org/node/4238
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mvicuna/meta.yaml
+   :homepage: https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/vicuna
+   :license: https://www.broadinstitute.org/node/4238
+   :recipe: /`mvicuna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvicuna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvicuna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mvicuna
 
-Installation
-------------
+   |downloads_mvicuna| |docker_mvicuna|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install mvicuna
+   :required~by: |required_by_mvicuna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mvicuna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mvicuna
+
+   and update with::
+
+      conda update mvicuna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mvicuna
+
+
+.. |required_by_mvicuna| conda:required_by:: mvicuna
+.. |downloads_mvicuna| image:: https://img.shields.io/conda/dn/bioconda/mvicuna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mvicuna| image:: https://quay.io/repository/biocontainers/mvicuna/status
+   :target: https://quay.io/repository/biocontainers/mvicuna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mvicuna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mvicuna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mvicuna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mvicuna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mvicuna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mvicuna
-.. |docker| image:: https://quay.io/repository/biocontainers/mvicuna/status
-                :target: https://quay.io/repository/biocontainers/mvicuna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mvicuna/README.html
 

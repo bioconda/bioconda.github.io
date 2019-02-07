@@ -1,54 +1,66 @@
-.. _`perl-warnings-register`:
+.. title:: Package Recipe 'perl-warnings-register'
+.. highlight: bash
+
 
 perl-warnings-register
 ======================
 
-|downloads|
+.. conda:recipe:: perl-warnings-register/1.03
+   :replaces_section_title:
 
-warnings import function
+   warnings import function
 
-============= ===========
-Home          http://metacpan.org/pod/warnings::register
-Versions      1.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-warnings-register/1.03/meta.yaml
+   :homepage: http://metacpan.org/pod/warnings::register
+   :license: perl_5
+   :recipe: /`perl-warnings-register <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-warnings-register>`_/`1.03 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-warnings-register/1.03>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-warnings-register/1.03/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-warnings-register
 
-Installation
-------------
+   |downloads_perl-warnings-register| |docker_perl-warnings-register|
 
-.. highlight: bash
+   :versions: 1.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-warnings-register
+   :required~by: |required_by_perl-warnings-register|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-warnings-register
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-warnings-register
+
+   and update with::
+
+      conda update perl-warnings-register
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-warnings-register
+
+
+.. |required_by_perl-warnings-register| conda:required_by:: perl-warnings-register
+.. |downloads_perl-warnings-register| image:: https://img.shields.io/conda/dn/bioconda/perl-warnings-register.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-warnings-register| image:: https://quay.io/repository/biocontainers/perl-warnings-register/status
+   :target: https://quay.io/repository/biocontainers/perl-warnings-register
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-warnings-register.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-warnings-register/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-warnings-register/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-warnings-register/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-warnings-register/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-warnings-register
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-warnings-register/status
-                :target: https://quay.io/repository/biocontainers/perl-warnings-register
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-warnings-register/README.html
 

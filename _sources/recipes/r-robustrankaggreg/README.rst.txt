@@ -1,54 +1,66 @@
-.. _`r-robustrankaggreg`:
+.. title:: Package Recipe 'r-robustrankaggreg'
+.. highlight: bash
+
 
 r-robustrankaggreg
 ==================
 
-|downloads|
+.. conda:recipe:: r-robustrankaggreg
+   :replaces_section_title:
 
-Methods for aggregating ranked lists\, especially lists of genes. It implements the Robust Rank Aggregation \(Kolde et. al in preparation\) and some other simple algorithms for the task. RRA method uses a probabilistic model for aggregation that is robust to noise and also facilitates the calculation of significance probabilities for all the elements in the final ranking.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=RobustRankAggreg
-Versions      1.1
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-robustrankaggreg/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-robustrankaggreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-robustrankaggreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-robustrankaggreg/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-robustrankaggreg
 
-Installation
-------------
+   |downloads_r-robustrankaggreg| |docker_r-robustrankaggreg|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-robustrankaggreg
+   :required~by: |required_by_r-robustrankaggreg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-robustrankaggreg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-robustrankaggreg
+
+   and update with::
+
+      conda update r-robustrankaggreg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-robustrankaggreg
+
+
+.. |required_by_r-robustrankaggreg| conda:required_by:: r-robustrankaggreg
+.. |downloads_r-robustrankaggreg| image:: https://img.shields.io/conda/dn/bioconda/r-robustrankaggreg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-robustrankaggreg| image:: https://quay.io/repository/biocontainers/r-robustrankaggreg/status
+   :target: https://quay.io/repository/biocontainers/r-robustrankaggreg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-robustrankaggreg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-robustrankaggreg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-robustrankaggreg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-robustrankaggreg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-robustrankaggreg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-robustrankaggreg
-.. |docker| image:: https://quay.io/repository/biocontainers/r-robustrankaggreg/status
-                :target: https://quay.io/repository/biocontainers/r-robustrankaggreg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-robustrankaggreg/README.html
 

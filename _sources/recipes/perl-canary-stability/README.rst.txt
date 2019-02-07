@@ -1,54 +1,66 @@
-.. _`perl-canary-stability`:
+.. title:: Package Recipe 'perl-canary-stability'
+.. highlight: bash
+
 
 perl-canary-stability
 =====================
 
-|downloads|
+.. conda:recipe:: perl-canary-stability
+   :replaces_section_title:
 
-canary to check perl compatibility for schmorp\'s modules
+   canary to check perl compatibility for schmorp\'s modules
 
-============= ===========
-Home          http://metacpan.org/pod/Canary::Stability
-Versions      2012, 2006
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-canary-stability/meta.yaml
+   :homepage: http://metacpan.org/pod/Canary::Stability
+   :license: unknown
+   :recipe: /`perl-canary-stability <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-canary-stability>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-canary-stability/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-canary-stability
 
-Installation
-------------
+   |downloads_perl-canary-stability| |docker_perl-canary-stability|
 
-.. highlight: bash
+   :versions: 2012, 2006
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-canary-stability
+   :required~by: |required_by_perl-canary-stability|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-canary-stability
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-canary-stability
+
+   and update with::
+
+      conda update perl-canary-stability
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-canary-stability
+
+
+.. |required_by_perl-canary-stability| conda:required_by:: perl-canary-stability
+.. |downloads_perl-canary-stability| image:: https://img.shields.io/conda/dn/bioconda/perl-canary-stability.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-canary-stability| image:: https://quay.io/repository/biocontainers/perl-canary-stability/status
+   :target: https://quay.io/repository/biocontainers/perl-canary-stability
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-canary-stability.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-canary-stability/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-canary-stability/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-canary-stability/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-canary-stability/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-canary-stability
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-canary-stability/status
-                :target: https://quay.io/repository/biocontainers/perl-canary-stability
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-canary-stability/README.html
 

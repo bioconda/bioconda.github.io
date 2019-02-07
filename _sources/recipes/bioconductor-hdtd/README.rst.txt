@@ -1,54 +1,66 @@
-.. _`bioconductor-hdtd`:
+.. title:: Package Recipe 'bioconductor-hdtd'
+.. highlight: bash
+
 
 bioconductor-hdtd
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-hdtd
+   :replaces_section_title:
 
-Characterization of intra\-individual variability using physiologically relevant measurements provides important insights into fundamental biological questions ranging from cell type identity to tumor development. For each individual\, the data measurements can be written as a matrix with the different subsamples of the individual recorded in the columns and the different phenotypic units recorded in the rows. Datasets of this type are called high\-dimensional transposable data. The HDTD package provides functions for conducting statistical inference for the mean relationship between the row and column variables and for the covariance structure within and between the row and column variables.
+   Characterization of intra\-individual variability using physiologically relevant measurements provides important insights into fundamental biological questions ranging from cell type identity to tumor development. For each individual\, the data measurements can be written as a matrix with the different subsamples of the individual recorded in the columns and the different phenotypic units recorded in the rows. Datasets of this type are called high\-dimensional transposable data. The HDTD package provides functions for conducting statistical inference for the mean relationship between the row and column variables and for the covariance structure within and between the row and column variables.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HDTD.html
-Versions      1.16.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hdtd/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HDTD.html
+   :license: GPL-3
+   :recipe: /`bioconductor-hdtd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hdtd
 
-Installation
-------------
+   |downloads_bioconductor-hdtd| |docker_bioconductor-hdtd|
 
-.. highlight: bash
+   :versions: 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.12.13 :conda:package:`r-rcpparmadillo`  
 
-   conda install bioconductor-hdtd
+   :required~by: |required_by_bioconductor-hdtd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hdtd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hdtd
+
+   and update with::
+
+      conda update bioconductor-hdtd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hdtd
+
+
+.. |required_by_bioconductor-hdtd| conda:required_by:: bioconductor-hdtd
+.. |downloads_bioconductor-hdtd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hdtd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hdtd| image:: https://quay.io/repository/biocontainers/bioconductor-hdtd/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hdtd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hdtd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hdtd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hdtd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hdtd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hdtd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hdtd
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hdtd/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hdtd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hdtd/README.html
 

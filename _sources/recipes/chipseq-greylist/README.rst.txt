@@ -1,54 +1,66 @@
-.. _`chipseq-greylist`:
+.. title:: Package Recipe 'chipseq-greylist'
+.. highlight: bash
+
 
 chipseq-greylist
 ================
 
-|downloads|
+.. conda:recipe:: chipseq-greylist
+   :replaces_section_title:
 
-Python implementation of GreyListChIP Bioconductor package.
+   Python implementation of GreyListChIP Bioconductor package.
 
-============= ===========
-Home          https://github.com/roryk/chipseq-greylist
-Versions      1.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//chipseq-greylist/meta.yaml
+   :homepage: https://github.com/roryk/chipseq-greylist
+   :license: MIT
+   :recipe: /`chipseq-greylist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chipseq-greylist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chipseq-greylist/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: chipseq-greylist
 
-Installation
-------------
+   |downloads_chipseq-greylist| |docker_chipseq-greylist|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`sambamba`  :conda:package:`scipy`  :conda:package:`statsmodels`  
 
-   conda install chipseq-greylist
+   :required~by: |required_by_chipseq-greylist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update chipseq-greylist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install chipseq-greylist
+
+   and update with::
+
+      conda update chipseq-greylist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/chipseq-greylist
+
+
+.. |required_by_chipseq-greylist| conda:required_by:: chipseq-greylist
+.. |downloads_chipseq-greylist| image:: https://img.shields.io/conda/dn/bioconda/chipseq-greylist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_chipseq-greylist| image:: https://quay.io/repository/biocontainers/chipseq-greylist/status
+   :target: https://quay.io/repository/biocontainers/chipseq-greylist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/chipseq-greylist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/chipseq-greylist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chipseq-greylist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/chipseq-greylist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/chipseq-greylist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/chipseq-greylist
-.. |docker| image:: https://quay.io/repository/biocontainers/chipseq-greylist/status
-                :target: https://quay.io/repository/biocontainers/chipseq-greylist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/chipseq-greylist/README.html
 

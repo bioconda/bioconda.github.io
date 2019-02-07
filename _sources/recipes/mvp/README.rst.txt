@@ -1,55 +1,66 @@
-.. _`mvp`:
+.. title:: Package Recipe 'mvp'
+.. highlight: bash
+
 
 mvp
 ===
 
-|downloads|
+.. conda:recipe:: mvp
+   :replaces_section_title:
 
-detect creation\/destruction of sequence motifs as a result of mutations
+   detect creation\/destruction of sequence motifs as a result of mutations
 
-============= ===========
-Home          https://gitlab.com/LPCDRP/motif-variants
-Versions      0.4.3, 0.4.1
-License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mvp/meta.yaml
+   :homepage: https://gitlab.com/LPCDRP/motif-variants
+   :license: GPLv3+
+   :recipe: /`mvp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvp/meta.yaml>`_
 
-
-
-============= ===========
-
-Sequence variation may cause the appearance or disappearance of certain motifs. Since motifs can be recognition sites for biological functions such as regulation or DNA modification\, their gain and loss can have additional consequences. Using a list of variants in variant call format\, the corresponding reference sequence\, and a set of motifs to search for\,mvp \(motif\-variant probe\) identifies variants responsible for changing the number of occurrences of these motifs in the sequence. mvp can process both nucleotide and amino acid sequences.
+   Sequence variation may cause the appearance or disappearance of certain motifs. Since motifs can be recognition sites for biological functions such as regulation or DNA modification\, their gain and loss can have additional consequences. Using a list of variants in variant call format\, the corresponding reference sequence\, and a set of motifs to search for\,mvp \(motif\-variant probe\) identifies variants responsible for changing the number of occurrences of these motifs in the sequence. mvp can process both nucleotide and amino acid sequences.
 
 
-Installation
-------------
+.. conda:package:: mvp
 
-.. highlight: bash
+   |downloads_mvp| |docker_mvp|
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :versions: 0.4.3, 0.4.1
 
-   conda install mvp
+   :depends: :conda:package:`biopython`  :conda:package:`pysam` >=0.8.4 :conda:package:`python` 2.7* 
 
-and update with::
+   :required~by: |required_by_mvp|
 
-   conda update mvp
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mvp
+
+   and update with::
+
+      conda update mvp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mvp
+
+
+.. |required_by_mvp| conda:required_by:: mvp
+.. |downloads_mvp| image:: https://img.shields.io/conda/dn/bioconda/mvp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mvp| image:: https://quay.io/repository/biocontainers/mvp/status
+   :target: https://quay.io/repository/biocontainers/mvp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mvp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mvp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mvp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mvp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mvp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mvp
-.. |docker| image:: https://quay.io/repository/biocontainers/mvp/status
-                :target: https://quay.io/repository/biocontainers/mvp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mvp/README.html
 

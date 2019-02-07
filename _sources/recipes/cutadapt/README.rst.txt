@@ -1,56 +1,67 @@
-.. _`cutadapt`:
+.. title:: Package Recipe 'cutadapt'
+.. highlight: bash
+
 
 cutadapt
 ========
 
-|downloads|
+.. conda:recipe:: cutadapt
+   :replaces_section_title:
 
-trim adapters from high\-throughput sequencing reads
+   trim adapters from high\-throughput sequencing reads
 
-============= ===========
-Home          https://cutadapt.readthedocs.io/
-Versions      1.18, 1.17, 1.16, 1.15, 1.14, 1.13, 1.12, 1.11, 1.10, 1.9.1, 1.8.3, 1.8.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cutadapt/meta.yaml
+   :homepage: https://cutadapt.readthedocs.io/
+   :license: MIT License
+   :recipe: /`cutadapt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutadapt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutadapt/meta.yaml>`_
+   :links: biotools: :biotools:`cutadapt`, doi: :doi:`10.14806/ej.17.1.200`
 
-
-
-Links         biotools: :biotools:`cutadapt`, doi: :doi:`10.14806/ej.17.1.200`
-
-============= ===========
+   
 
 
+.. conda:package:: cutadapt
 
-Installation
-------------
+   |downloads_cutadapt| |docker_cutadapt|
 
-.. highlight: bash
+   :versions: 1.18, 1.17, 1.16, 1.15, 1.14, 1.13, 1.12, 1.11, 1.10, 1.9.1, 1.8.3, 1.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pigz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`xopen` >=0.3.2 
 
-   conda install cutadapt
+   :required~by: |required_by_cutadapt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cutadapt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cutadapt
+
+   and update with::
+
+      conda update cutadapt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cutadapt
+
+
+.. |required_by_cutadapt| conda:required_by:: cutadapt
+.. |downloads_cutadapt| image:: https://img.shields.io/conda/dn/bioconda/cutadapt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cutadapt| image:: https://quay.io/repository/biocontainers/cutadapt/status
+   :target: https://quay.io/repository/biocontainers/cutadapt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cutadapt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cutadapt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cutadapt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cutadapt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cutadapt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cutadapt
-.. |docker| image:: https://quay.io/repository/biocontainers/cutadapt/status
-                :target: https://quay.io/repository/biocontainers/cutadapt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cutadapt/README.html
 

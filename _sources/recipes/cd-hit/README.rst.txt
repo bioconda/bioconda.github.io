@@ -1,54 +1,66 @@
-.. _`cd-hit`:
+.. title:: Package Recipe 'cd-hit'
+.. highlight: bash
+
 
 cd-hit
 ======
 
-|downloads|
+.. conda:recipe:: cd-hit
+   :replaces_section_title:
 
-Clusters and compares protein or nucleotide sequences
+   Clusters and compares protein or nucleotide sequences
 
-============= ===========
-Home          https://github.com/weizhongli/cdhit
-Versions      4.6.8, 4.6.6, 4.6.4
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cd-hit/meta.yaml
+   :homepage: https://github.com/weizhongli/cdhit
+   :license: GPLv2
+   :recipe: /`cd-hit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cd-hit
 
-Installation
-------------
+   |downloads_cd-hit| |docker_cd-hit|
 
-.. highlight: bash
+   :versions: 4.6.8, 4.6.6, 4.6.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install cd-hit
+   :required~by: |required_by_cd-hit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cd-hit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cd-hit
+
+   and update with::
+
+      conda update cd-hit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cd-hit
+
+
+.. |required_by_cd-hit| conda:required_by:: cd-hit
+.. |downloads_cd-hit| image:: https://img.shields.io/conda/dn/bioconda/cd-hit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cd-hit| image:: https://quay.io/repository/biocontainers/cd-hit/status
+   :target: https://quay.io/repository/biocontainers/cd-hit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cd-hit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cd-hit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cd-hit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cd-hit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cd-hit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cd-hit
-.. |docker| image:: https://quay.io/repository/biocontainers/cd-hit/status
-                :target: https://quay.io/repository/biocontainers/cd-hit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cd-hit/README.html
 

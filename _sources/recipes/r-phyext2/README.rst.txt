@@ -1,54 +1,66 @@
-.. _`r-phyext2`:
+.. title:: Package Recipe 'r-phyext2'
+.. highlight: bash
+
 
 r-phyext2
 =========
 
-|downloads|
+.. conda:recipe:: r-phyext2
+   :replaces_section_title:
 
-Based on \(but not identical to\) the no\-longer\-maintained package \'phyext\'\, provides enhancements to \'phylobase\' classes\, specifically for use by package \'SigTree\'\; provides classes and methods which help users manipulate branch\-annotated trees \(as in \'SigTree\'\)\; also provides support for a few other extra features.
+   Based on \(but not identical to\) the no\-longer\-maintained package \'phyext\'\, provides enhancements to \'phylobase\' classes\, specifically for use by package \'SigTree\'\; provides classes and methods which help users manipulate branch\-annotated trees \(as in \'SigTree\'\)\; also provides support for a few other extra features.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=phyext2
-Versions      0.0.4
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-phyext2/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=phyext2
+   :license: GPL3 / GPL-3
+   :recipe: /`r-phyext2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phyext2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phyext2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-phyext2
 
-Installation
-------------
+   |downloads_r-phyext2| |docker_r-phyext2|
 
-.. highlight: bash
+   :versions: 0.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-ape`  :conda:package:`r-base` 3.4.1* :conda:package:`r-phylobase`  
 
-   conda install r-phyext2
+   :required~by: |required_by_r-phyext2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-phyext2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-phyext2
+
+   and update with::
+
+      conda update r-phyext2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-phyext2
+
+
+.. |required_by_r-phyext2| conda:required_by:: r-phyext2
+.. |downloads_r-phyext2| image:: https://img.shields.io/conda/dn/bioconda/r-phyext2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-phyext2| image:: https://quay.io/repository/biocontainers/r-phyext2/status
+   :target: https://quay.io/repository/biocontainers/r-phyext2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-phyext2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-phyext2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-phyext2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-phyext2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-phyext2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-phyext2
-.. |docker| image:: https://quay.io/repository/biocontainers/r-phyext2/status
-                :target: https://quay.io/repository/biocontainers/r-phyext2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-phyext2/README.html
 

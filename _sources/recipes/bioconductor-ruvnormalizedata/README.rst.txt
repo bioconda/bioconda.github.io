@@ -1,54 +1,66 @@
-.. _`bioconductor-ruvnormalizedata`:
+.. title:: Package Recipe 'bioconductor-ruvnormalizedata'
+.. highlight: bash
+
 
 bioconductor-ruvnormalizedata
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-ruvnormalizedata
+   :replaces_section_title:
 
-Microarray gene expression data from the study of Vawter et al.\, 2004.
+   Microarray gene expression data from the study of Vawter et al.\, 2004.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RUVnormalizeData.html
-Versions      1.2.0, 0.114.0, 0.112.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ruvnormalizedata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RUVnormalizeData.html
+   :license: GPL-3
+   :recipe: /`bioconductor-ruvnormalizedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ruvnormalizedata
 
-Installation
-------------
+   |downloads_bioconductor-ruvnormalizedata| |docker_bioconductor-ruvnormalizedata|
 
-.. highlight: bash
+   :versions: 1.2.0, 0.114.0, 0.112.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ruvnormalizedata
+   :required~by: |required_by_bioconductor-ruvnormalizedata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ruvnormalizedata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ruvnormalizedata
+
+   and update with::
+
+      conda update bioconductor-ruvnormalizedata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ruvnormalizedata
+
+
+.. |required_by_bioconductor-ruvnormalizedata| conda:required_by:: bioconductor-ruvnormalizedata
+.. |downloads_bioconductor-ruvnormalizedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ruvnormalizedata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ruvnormalizedata| image:: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ruvnormalizedata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ruvnormalizedata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ruvnormalizedata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ruvnormalizedata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ruvnormalizedata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ruvnormalizedata/README.html
 

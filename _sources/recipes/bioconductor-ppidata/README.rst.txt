@@ -1,54 +1,66 @@
-.. _`bioconductor-ppidata`:
+.. title:: Package Recipe 'bioconductor-ppidata'
+.. highlight: bash
+
 
 bioconductor-ppidata
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ppidata
+   :replaces_section_title:
 
-This package contains the directed graphs for protein interaction data as derived from Y2H and APMS as well as the code used to obtain the y2h data from IntAct Repository.
+   This package contains the directed graphs for protein interaction data as derived from Y2H and APMS as well as the code used to obtain the y2h data from IntAct Repository.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ppiData.html
-Versions      0.20.0, 0.18.0, 0.16.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ppidata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ppiData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ppidata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppidata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppidata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ppidata
 
-Installation
-------------
+   |downloads_bioconductor-ppidata| |docker_bioconductor-ppidata|
 
-.. highlight: bash
+   :versions: 0.20.0, 0.18.0, 0.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ppidata
+   :required~by: |required_by_bioconductor-ppidata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ppidata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ppidata
+
+   and update with::
+
+      conda update bioconductor-ppidata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ppidata
+
+
+.. |required_by_bioconductor-ppidata| conda:required_by:: bioconductor-ppidata
+.. |downloads_bioconductor-ppidata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ppidata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ppidata| image:: https://quay.io/repository/biocontainers/bioconductor-ppidata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ppidata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ppidata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ppidata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ppidata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ppidata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ppidata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ppidata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ppidata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ppidata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ppidata/README.html
 

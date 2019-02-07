@@ -1,56 +1,67 @@
-.. _`bioconductor-pviz`:
+.. title:: Package Recipe 'bioconductor-pviz'
+.. highlight: bash
+
 
 bioconductor-pviz
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-pviz
+   :replaces_section_title:
 
-Pviz adapts the Gviz package for protein sequences and data.
+   Pviz adapts the Gviz package for protein sequences and data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Pviz.html
-Versions      1.16.0, 1.14.0, 1.12.0, 1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pviz/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Pviz.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz/meta.yaml>`_
+   :links: biotools: :biotools:`pviz`, doi: :doi:`10.1007/978-1-4939-3037-1_10`
 
-
-
-Links         biotools: :biotools:`pviz`, doi: :doi:`10.1007/978-1-4939-3037-1_10`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pviz
 
-Installation
-------------
+   |downloads_bioconductor-pviz| |docker_bioconductor-pviz|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-biovizbase` >=1.30.0,<1.31.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  
 
-   conda install bioconductor-pviz
+   :required~by: |required_by_bioconductor-pviz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pviz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pviz
+
+   and update with::
+
+      conda update bioconductor-pviz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pviz
+
+
+.. |required_by_bioconductor-pviz| conda:required_by:: bioconductor-pviz
+.. |downloads_bioconductor-pviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pviz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pviz| image:: https://quay.io/repository/biocontainers/bioconductor-pviz/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pviz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pviz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pviz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pviz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pviz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pviz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pviz
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pviz/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pviz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pviz/README.html
 

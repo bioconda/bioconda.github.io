@@ -1,56 +1,67 @@
-.. _`trf`:
+.. title:: Package Recipe 'trf'
+.. highlight: bash
+
 
 trf
 ===
 
-|downloads|
+.. conda:recipe:: trf
+   :replaces_section_title:
 
-Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
+   Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
 
-============= ===========
-Home          https://tandem.bu.edu/trf/trf.html
-Versions      4.09, 4.07b
-License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trf/meta.yaml
+   :homepage: https://tandem.bu.edu/trf/trf.html
+   :license: Custom
+   :recipe: /`trf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf/meta.yaml>`_
+   :links: biotools: :biotools:`Trf`
 
-
-
-Links         biotools: :biotools:`Trf`
-
-============= ===========
+   
 
 
+.. conda:package:: trf
 
-Installation
-------------
+   |downloads_trf| |docker_trf|
 
-.. highlight: bash
+   :versions: 4.09, 4.07b
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install trf
+   :required~by: |required_by_trf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update trf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trf
+
+   and update with::
+
+      conda update trf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/trf
+
+
+.. |required_by_trf| conda:required_by:: trf
+.. |downloads_trf| image:: https://img.shields.io/conda/dn/bioconda/trf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_trf| image:: https://quay.io/repository/biocontainers/trf/status
+   :target: https://quay.io/repository/biocontainers/trf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/trf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/trf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/trf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/trf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/trf
-.. |docker| image:: https://quay.io/repository/biocontainers/trf/status
-                :target: https://quay.io/repository/biocontainers/trf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trf/README.html
 

@@ -1,54 +1,66 @@
-.. _`scg`:
+.. title:: Package Recipe 'scg'
+.. highlight: bash
+
 
 scg
 ===
 
-|downloads|
+.. conda:recipe:: scg
+   :replaces_section_title:
 
-The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al. Clonal genotype and population structure inference from single\-cell tumor sequencing. Nat Meth. 2016\;13\: 573–576. doi\:10.1038\/nmeth.3867\"
+   The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al. Clonal genotype and population structure inference from single\-cell tumor sequencing. Nat Meth. 2016\;13\: 573–576. doi\:10.1038\/nmeth.3867\"
 
-============= ===========
-Home          https://bitbucket.org/aroth85/scg/wiki/Home
-Versions      0.3.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scg/meta.yaml
+   :homepage: https://bitbucket.org/aroth85/scg/wiki/Home
+   :license: GPL-3
+   :recipe: /`scg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scg/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: scg
 
-Installation
-------------
+   |downloads_scg| |docker_scg|
 
-.. highlight: bash
+   :versions: 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`numpy` >=1.9.2 :conda:package:`pandas` >=0.16 :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`scipy` >=0.15 
 
-   conda install scg
+   :required~by: |required_by_scg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update scg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install scg
+
+   and update with::
+
+      conda update scg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/scg
+
+
+.. |required_by_scg| conda:required_by:: scg
+.. |downloads_scg| image:: https://img.shields.io/conda/dn/bioconda/scg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_scg| image:: https://quay.io/repository/biocontainers/scg/status
+   :target: https://quay.io/repository/biocontainers/scg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/scg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/scg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/scg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/scg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/scg
-.. |docker| image:: https://quay.io/repository/biocontainers/scg/status
-                :target: https://quay.io/repository/biocontainers/scg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/scg/README.html
 

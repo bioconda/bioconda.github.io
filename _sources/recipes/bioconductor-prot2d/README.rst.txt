@@ -1,56 +1,67 @@
-.. _`bioconductor-prot2d`:
+.. title:: Package Recipe 'bioconductor-prot2d'
+.. highlight: bash
+
 
 bioconductor-prot2d
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-prot2d
+   :replaces_section_title:
 
-The purpose of this package is to analyze \(i.e. Normalize and select significant spots\) data issued from 2D GEl experiments
+   The purpose of this package is to analyze \(i.e. Normalize and select significant spots\) data issued from 2D GEl experiments
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/prot2D.html
-Versions      1.20.0, 1.18.0, 1.16.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prot2d/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/prot2D.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-prot2d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prot2d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prot2d/meta.yaml>`_
+   :links: biotools: :biotools:`prot2d`
 
-
-
-Links         biotools: :biotools:`prot2d`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-prot2d
 
-Installation
-------------
+   |downloads_bioconductor-prot2d| |docker_bioconductor-prot2d|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-mulcom` >=1.32.0,<1.33.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fdrtool`  :conda:package:`r-mass`  :conda:package:`r-samr`  :conda:package:`r-st`  
 
-   conda install bioconductor-prot2d
+   :required~by: |required_by_bioconductor-prot2d|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-prot2d
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-prot2d
+
+   and update with::
+
+      conda update bioconductor-prot2d
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-prot2d
+
+
+.. |required_by_bioconductor-prot2d| conda:required_by:: bioconductor-prot2d
+.. |downloads_bioconductor-prot2d| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prot2d.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-prot2d| image:: https://quay.io/repository/biocontainers/bioconductor-prot2d/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-prot2d
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-prot2d.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-prot2d/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-prot2d/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-prot2d/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-prot2d/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-prot2d
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prot2d/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-prot2d
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-prot2d/README.html
 

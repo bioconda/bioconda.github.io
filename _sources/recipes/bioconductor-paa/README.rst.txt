@@ -1,54 +1,66 @@
-.. _`bioconductor-paa`:
+.. title:: Package Recipe 'bioconductor-paa'
+.. highlight: bash
+
 
 bioconductor-paa
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-paa
+   :replaces_section_title:
 
-PAA imports single color \(protein\) microarray data that has been saved in gpr file format \- esp. ProtoArray data. After preprocessing \(background correction\, batch filtering\, normalization\) univariate feature preselection is performed \(e.g.\, using the \"minimum M statistic\" approach \- hereinafter referred to as \"mMs\"\). Subsequently\, a multivariate feature selection is conducted to discover biomarker candidates. Therefore\, either a frequency\-based backwards elimination aproach or ensemble feature selection can be used. PAA provides a complete toolbox of analysis tools including several different plots for results examination and evaluation.
+   PAA imports single color \(protein\) microarray data that has been saved in gpr file format \- esp. ProtoArray data. After preprocessing \(background correction\, batch filtering\, normalization\) univariate feature preselection is performed \(e.g.\, using the \"minimum M statistic\" approach \- hereinafter referred to as \"mMs\"\). Subsequently\, a multivariate feature selection is conducted to discover biomarker candidates. Therefore\, either a frequency\-based backwards elimination aproach or ensemble feature selection can be used. PAA provides a complete toolbox of analysis tools including several different plots for results examination and evaluation.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/PAA.html
-Versions      1.16.0
-License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-paa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PAA.html
+   :license: BSD_3_clause + file LICENSE
+   :recipe: /`bioconductor-paa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-paa
 
-Installation
-------------
+   |downloads_bioconductor-paa| |docker_bioconductor-paa|
 
-.. highlight: bash
+   :versions: 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-mass`  :conda:package:`r-mrmre`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.11.6 :conda:package:`r-rocr`  
 
-   conda install bioconductor-paa
+   :required~by: |required_by_bioconductor-paa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-paa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-paa
+
+   and update with::
+
+      conda update bioconductor-paa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-paa
+
+
+.. |required_by_bioconductor-paa| conda:required_by:: bioconductor-paa
+.. |downloads_bioconductor-paa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-paa| image:: https://quay.io/repository/biocontainers/bioconductor-paa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-paa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-paa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-paa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-paa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-paa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-paa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-paa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-paa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-paa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-paa/README.html
 

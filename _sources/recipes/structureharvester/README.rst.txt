@@ -1,54 +1,66 @@
-.. _`structureharvester`:
+.. title:: Package Recipe 'structureharvester'
+.. highlight: bash
+
 
 structureharvester
 ==================
 
-|downloads|
+.. conda:recipe:: structureharvester
+   :replaces_section_title:
 
-structureHarvester.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
+   structureHarvester.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
 
-============= ===========
-Home          http://alumni.soe.ucsc.edu/~dearl/software/structureHarvester/
-Versions      0.6.94
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//structureharvester/meta.yaml
+   :homepage: http://alumni.soe.ucsc.edu/~dearl/software/structureHarvester/
+   :license: MIT
+   :recipe: /`structureharvester <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structureharvester>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structureharvester/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: structureharvester
 
-Installation
-------------
+   |downloads_structureharvester| |docker_structureharvester|
 
-.. highlight: bash
+   :versions: 0.6.94
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install structureharvester
+   :required~by: |required_by_structureharvester|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update structureharvester
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install structureharvester
+
+   and update with::
+
+      conda update structureharvester
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/structureharvester
+
+
+.. |required_by_structureharvester| conda:required_by:: structureharvester
+.. |downloads_structureharvester| image:: https://img.shields.io/conda/dn/bioconda/structureharvester.svg?style=flat
+   :alt:   (downloads)
+.. |docker_structureharvester| image:: https://quay.io/repository/biocontainers/structureharvester/status
+   :target: https://quay.io/repository/biocontainers/structureharvester
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/structureharvester.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/structureharvester/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/structureharvester/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/structureharvester/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/structureharvester/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/structureharvester
-.. |docker| image:: https://quay.io/repository/biocontainers/structureharvester/status
-                :target: https://quay.io/repository/biocontainers/structureharvester
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/structureharvester/README.html
 

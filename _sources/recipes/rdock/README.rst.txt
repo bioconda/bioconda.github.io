@@ -1,54 +1,66 @@
-.. _`rdock`:
+.. title:: Package Recipe 'rdock'
+.. highlight: bash
+
 
 rdock
 =====
 
-|downloads|
+.. conda:recipe:: rdock
+   :replaces_section_title:
 
-A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
+   A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
 
-============= ===========
-Home          http://rdock.sourceforge.net/
-Versions      2013.1
-License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rdock/meta.yaml
+   :homepage: http://rdock.sourceforge.net/
+   :license: LGPLv3
+   :recipe: /`rdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rdock
 
-Installation
-------------
+   |downloads_rdock| |docker_rdock|
 
-.. highlight: bash
+   :versions: 2013.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`perl` 5.22.0* :conda:package:`popt`  :conda:package:`pybel`  
 
-   conda install rdock
+   :required~by: |required_by_rdock|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rdock
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rdock
+
+   and update with::
+
+      conda update rdock
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rdock
+
+
+.. |required_by_rdock| conda:required_by:: rdock
+.. |downloads_rdock| image:: https://img.shields.io/conda/dn/bioconda/rdock.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rdock| image:: https://quay.io/repository/biocontainers/rdock/status
+   :target: https://quay.io/repository/biocontainers/rdock
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rdock.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rdock/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rdock/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rdock/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rdock/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rdock
-.. |docker| image:: https://quay.io/repository/biocontainers/rdock/status
-                :target: https://quay.io/repository/biocontainers/rdock
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rdock/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-paranodestatus`:
+.. title:: Package Recipe 'ucsc-paranodestatus'
+.. highlight: bash
+
 
 ucsc-paranodestatus
 ===================
 
-|downloads|
+.. conda:recipe:: ucsc-paranodestatus
+   :replaces_section_title:
 
-version 12.18
+   version 12.18
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-paranodestatus/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-paranodestatus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-paranodestatus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-paranodestatus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-paranodestatus
 
-Installation
-------------
+   |downloads_ucsc-paranodestatus| |docker_ucsc-paranodestatus|
 
-.. highlight: bash
+   :versions: 366
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-paranodestatus
+   :required~by: |required_by_ucsc-paranodestatus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-paranodestatus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-paranodestatus
+
+   and update with::
+
+      conda update ucsc-paranodestatus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-paranodestatus
+
+
+.. |required_by_ucsc-paranodestatus| conda:required_by:: ucsc-paranodestatus
+.. |downloads_ucsc-paranodestatus| image:: https://img.shields.io/conda/dn/bioconda/ucsc-paranodestatus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-paranodestatus| image:: https://quay.io/repository/biocontainers/ucsc-paranodestatus/status
+   :target: https://quay.io/repository/biocontainers/ucsc-paranodestatus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-paranodestatus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-paranodestatus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-paranodestatus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-paranodestatus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-paranodestatus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-paranodestatus
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-paranodestatus/status
-                :target: https://quay.io/repository/biocontainers/ucsc-paranodestatus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-paranodestatus/README.html
 

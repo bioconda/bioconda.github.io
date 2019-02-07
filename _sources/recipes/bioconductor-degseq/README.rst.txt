@@ -1,56 +1,67 @@
-.. _`bioconductor-degseq`:
+.. title:: Package Recipe 'bioconductor-degseq'
+.. highlight: bash
+
 
 bioconductor-degseq
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-degseq
+   :replaces_section_title:
 
-DEGseq is an R package to identify differentially expressed genes from RNA\-Seq data.
+   DEGseq is an R package to identify differentially expressed genes from RNA\-Seq data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DEGseq.html
-Versions      1.36.1, 1.34.1, 1.32.0, 1.30.0
-License       LGPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-degseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DEGseq.html
+   :license: LGPL (>=2)
+   :recipe: /`bioconductor-degseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degseq/meta.yaml>`_
+   :links: biotools: :biotools:`degseq`, doi: :doi:`10.1093/bioinformatics/btp612`
 
-
-
-Links         biotools: :biotools:`degseq`, doi: :doi:`10.1093/bioinformatics/btp612`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-degseq
 
-Installation
-------------
+   |downloads_bioconductor-degseq| |docker_bioconductor-degseq|
 
-.. highlight: bash
+   :versions: 1.36.1, 1.34.1, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-degseq
+   :required~by: |required_by_bioconductor-degseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-degseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-degseq
+
+   and update with::
+
+      conda update bioconductor-degseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-degseq
+
+
+.. |required_by_bioconductor-degseq| conda:required_by:: bioconductor-degseq
+.. |downloads_bioconductor-degseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-degseq| image:: https://quay.io/repository/biocontainers/bioconductor-degseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-degseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-degseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-degseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-degseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-degseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-degseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-degseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-degseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-degseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-degseq/README.html
 

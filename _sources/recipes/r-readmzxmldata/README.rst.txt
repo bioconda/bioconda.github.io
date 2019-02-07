@@ -1,54 +1,66 @@
-.. _`r-readmzxmldata`:
+.. title:: Package Recipe 'r-readmzxmldata'
+.. highlight: bash
+
 
 r-readmzxmldata
 ===============
 
-|downloads|
+.. conda:recipe:: r-readmzxmldata
+   :replaces_section_title:
 
-Functions for reading mass spectrometry data in mzXML format.
+   
 
-============= ===========
-Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readMzXmlData/
-Versions      2.8.1
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-readmzxmldata/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-readmzxmldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readmzxmldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readmzxmldata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-readmzxmldata
 
-Installation
-------------
+   |downloads_r-readmzxmldata| |docker_r-readmzxmldata|
 
-.. highlight: bash
+   :versions: 2.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-base64enc`  :conda:package:`r-digest`  :conda:package:`r-xml`  
 
-   conda install r-readmzxmldata
+   :required~by: |required_by_r-readmzxmldata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-readmzxmldata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-readmzxmldata
+
+   and update with::
+
+      conda update r-readmzxmldata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-readmzxmldata
+
+
+.. |required_by_r-readmzxmldata| conda:required_by:: r-readmzxmldata
+.. |downloads_r-readmzxmldata| image:: https://img.shields.io/conda/dn/bioconda/r-readmzxmldata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-readmzxmldata| image:: https://quay.io/repository/biocontainers/r-readmzxmldata/status
+   :target: https://quay.io/repository/biocontainers/r-readmzxmldata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-readmzxmldata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-readmzxmldata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-readmzxmldata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-readmzxmldata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-readmzxmldata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-readmzxmldata
-.. |docker| image:: https://quay.io/repository/biocontainers/r-readmzxmldata/status
-                :target: https://quay.io/repository/biocontainers/r-readmzxmldata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-readmzxmldata/README.html
 

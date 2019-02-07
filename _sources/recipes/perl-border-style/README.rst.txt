@@ -1,54 +1,66 @@
-.. _`perl-border-style`:
+.. title:: Package Recipe 'perl-border-style'
+.. highlight: bash
+
 
 perl-border-style
 =================
 
-|downloads|
+.. conda:recipe:: perl-border-style
+   :replaces_section_title:
 
-Border style structure
+   Border style structure
 
-============= ===========
-Home          https://metacpan.org/release/Border-Style
-Versions      0.01
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-border-style/meta.yaml
+   :homepage: https://metacpan.org/release/Border-Style
+   :license: perl_5
+   :recipe: /`perl-border-style <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-border-style>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-border-style/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-border-style
 
-Installation
-------------
+   |downloads_perl-border-style| |docker_perl-border-style|
 
-.. highlight: bash
+   :versions: 0.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moo`  :conda:package:`perl-term-app-roles`  
 
-   conda install perl-border-style
+   :required~by: |required_by_perl-border-style|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-border-style
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-border-style
+
+   and update with::
+
+      conda update perl-border-style
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-border-style
+
+
+.. |required_by_perl-border-style| conda:required_by:: perl-border-style
+.. |downloads_perl-border-style| image:: https://img.shields.io/conda/dn/bioconda/perl-border-style.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-border-style| image:: https://quay.io/repository/biocontainers/perl-border-style/status
+   :target: https://quay.io/repository/biocontainers/perl-border-style
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-border-style.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-border-style/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-border-style/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-border-style/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-border-style/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-border-style
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-border-style/status
-                :target: https://quay.io/repository/biocontainers/perl-border-style
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-border-style/README.html
 

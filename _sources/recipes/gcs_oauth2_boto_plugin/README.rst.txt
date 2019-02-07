@@ -1,54 +1,66 @@
-.. _`gcs-oauth2-boto-plugin`:
+.. title:: Package Recipe 'gcs-oauth2-boto-plugin'
+.. highlight: bash
+
 
 gcs-oauth2-boto-plugin
 ======================
 
-|downloads|
+.. conda:recipe:: gcs_oauth2_boto_plugin
+   :replaces_section_title:
 
-Auth plugin allowing use the use of OAuth 2.0 credentials for Google Cloud Storage in the Boto library.
+   Auth plugin allowing use the use of OAuth 2.0 credentials for Google Cloud Storage in the Boto library.
 
-============= ===========
-Home          https://developers.google.com/storage/docs/gspythonlibrary
-Versions      1.9
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gcs_oauth2_boto_plugin/meta.yaml
+   :homepage: https://developers.google.com/storage/docs/gspythonlibrary
+   :license: Apache 2.0
+   :recipe: /`gcs_oauth2_boto_plugin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcs_oauth2_boto_plugin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcs_oauth2_boto_plugin/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gcs-oauth2-boto-plugin
 
-Installation
-------------
+   |downloads_gcs-oauth2-boto-plugin| |docker_gcs-oauth2-boto-plugin|
 
-.. highlight: bash
+   :versions: 1.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boto` >=2.29.1 :conda:package:`google-api-python-client` >=1.1 :conda:package:`httplib2` >=0.8 :conda:package:`pyopenssl` >=0.13 :conda:package:`python` 2.7* :conda:package:`retry_decorator` >=1.0.0 :conda:package:`socksipy-branch` ==1.01 
 
-   conda install gcs-oauth2-boto-plugin
+   :required~by: |required_by_gcs-oauth2-boto-plugin|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gcs-oauth2-boto-plugin
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gcs-oauth2-boto-plugin
+
+   and update with::
+
+      conda update gcs-oauth2-boto-plugin
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
+
+
+.. |required_by_gcs-oauth2-boto-plugin| conda:required_by:: gcs-oauth2-boto-plugin
+.. |downloads_gcs-oauth2-boto-plugin| image:: https://img.shields.io/conda/dn/bioconda/gcs-oauth2-boto-plugin.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gcs-oauth2-boto-plugin| image:: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin/status
+   :target: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gcs-oauth2-boto-plugin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gcs-oauth2-boto-plugin/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gcs-oauth2-boto-plugin/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gcs-oauth2-boto-plugin/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gcs-oauth2-boto-plugin
-.. |docker| image:: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin/status
-                :target: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gcs-oauth2-boto-plugin/README.html
 

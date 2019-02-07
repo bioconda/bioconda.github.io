@@ -1,54 +1,66 @@
-.. _`ucsc-ldhggene`:
+.. title:: Package Recipe 'ucsc-ldhggene'
+.. highlight: bash
+
 
 ucsc-ldhggene
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-ldhggene
+   :replaces_section_title:
 
-load database with gene predictions from a gff file.
+   load database with gene predictions from a gff file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-ldhggene/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-ldhggene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ldhggene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ldhggene/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-ldhggene
 
-Installation
-------------
+   |downloads_ucsc-ldhggene| |docker_ucsc-ldhggene|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-ldhggene
+   :required~by: |required_by_ucsc-ldhggene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-ldhggene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-ldhggene
+
+   and update with::
+
+      conda update ucsc-ldhggene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-ldhggene
+
+
+.. |required_by_ucsc-ldhggene| conda:required_by:: ucsc-ldhggene
+.. |downloads_ucsc-ldhggene| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ldhggene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-ldhggene| image:: https://quay.io/repository/biocontainers/ucsc-ldhggene/status
+   :target: https://quay.io/repository/biocontainers/ucsc-ldhggene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-ldhggene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-ldhggene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-ldhggene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-ldhggene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-ldhggene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-ldhggene
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-ldhggene/status
-                :target: https://quay.io/repository/biocontainers/ucsc-ldhggene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-ldhggene/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-devel-assert`:
+.. title:: Package Recipe 'perl-devel-assert'
+.. highlight: bash
+
 
 perl-devel-assert
 =================
 
-|downloads|
+.. conda:recipe:: perl-devel-assert
+   :replaces_section_title:
 
-assertions for Perl \>\= 5.14
+   assertions for Perl \>\= 5.14
 
-============= ===========
-Home          http://metacpan.org/pod/Devel::Assert
-Versions      1.06
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-assert/meta.yaml
+   :homepage: http://metacpan.org/pod/Devel::Assert
+   :license: perl_5
+   :recipe: /`perl-devel-assert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-assert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-assert/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-devel-assert
 
-Installation
-------------
+   |downloads_perl-devel-assert| |docker_perl-devel-assert|
 
-.. highlight: bash
+   :versions: 1.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-devel-assert
+   :required~by: |required_by_perl-devel-assert|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-devel-assert
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-devel-assert
+
+   and update with::
+
+      conda update perl-devel-assert
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-devel-assert
+
+
+.. |required_by_perl-devel-assert| conda:required_by:: perl-devel-assert
+.. |downloads_perl-devel-assert| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-assert.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-devel-assert| image:: https://quay.io/repository/biocontainers/perl-devel-assert/status
+   :target: https://quay.io/repository/biocontainers/perl-devel-assert
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-devel-assert.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-devel-assert/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-devel-assert/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-devel-assert/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-devel-assert/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-devel-assert
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-assert/status
-                :target: https://quay.io/repository/biocontainers/perl-devel-assert
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-devel-assert/README.html
 

@@ -1,56 +1,67 @@
-.. _`snpsplit`:
+.. title:: Package Recipe 'snpsplit'
+.. highlight: bash
+
 
 snpsplit
 ========
 
-|downloads|
+.. conda:recipe:: snpsplit
+   :replaces_section_title:
 
-SNPsplit is an allele\-specific alignment sorter which is designed to read in alignment files in SAM\/BAM format and determine the allelic origin of reads that cover known SNP positions.
+   SNPsplit is an allele\-specific alignment sorter which is designed to read in alignment files in SAM\/BAM format and determine the allelic origin of reads that cover known SNP positions.
 
-============= ===========
-Home          https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/
-Versions      0.3.4, 0.3.3
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpsplit/meta.yaml
+   :homepage: https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :recipe: /`snpsplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit/meta.yaml>`_
+   :links: doi: :doi:`10.12688/f1000research.9037.2`
 
-
-
-Links         doi: :doi:`10.12688/f1000research.9037.2`
-
-============= ===========
+   
 
 
+.. conda:package:: snpsplit
 
-Installation
-------------
+   |downloads_snpsplit| |docker_snpsplit|
 
-.. highlight: bash
+   :versions: 0.3.4, 0.3.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl`  :conda:package:`samtools` >=1.7 
 
-   conda install snpsplit
+   :required~by: |required_by_snpsplit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snpsplit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snpsplit
+
+   and update with::
+
+      conda update snpsplit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snpsplit
+
+
+.. |required_by_snpsplit| conda:required_by:: snpsplit
+.. |downloads_snpsplit| image:: https://img.shields.io/conda/dn/bioconda/snpsplit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snpsplit| image:: https://quay.io/repository/biocontainers/snpsplit/status
+   :target: https://quay.io/repository/biocontainers/snpsplit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snpsplit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snpsplit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snpsplit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snpsplit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snpsplit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snpsplit
-.. |docker| image:: https://quay.io/repository/biocontainers/snpsplit/status
-                :target: https://quay.io/repository/biocontainers/snpsplit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snpsplit/README.html
 

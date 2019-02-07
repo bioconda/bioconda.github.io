@@ -1,54 +1,66 @@
-.. _`bioconductor-targetscoredata`:
+.. title:: Package Recipe 'bioconductor-targetscoredata'
+.. highlight: bash
+
 
 bioconductor-targetscoredata
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-targetscoredata
+   :replaces_section_title:
 
-Precompiled and processed miRNA\-overexpression fold\-changes from 84 Gene Expression Omnibus \(GEO\) series corresponding to 6 platforms\, 77 human cells or tissues\, and 113 distinct miRNAs. Accompanied with the data\, we also included in this package the sequence feature scores from TargetScanHuman 6.1 including the context\+ score and the probabilities of conserved targeting for each miRNA\-mRNA interaction. Thus\, the user can use these static sequence\-based scores together with user\-supplied tissue\/cell\-specific fold\-change due to miRNA overexpression to predict miRNA targets using the package TargetScore \(download separately\)
+   Precompiled and processed miRNA\-overexpression fold\-changes from 84 Gene Expression Omnibus \(GEO\) series corresponding to 6 platforms\, 77 human cells or tissues\, and 113 distinct miRNAs. Accompanied with the data\, we also included in this package the sequence feature scores from TargetScanHuman 6.1 including the context\+ score and the probabilities of conserved targeting for each miRNA\-mRNA interaction. Thus\, the user can use these static sequence\-based scores together with user\-supplied tissue\/cell\-specific fold\-change due to miRNA overexpression to predict miRNA targets using the package TargetScore \(download separately\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/TargetScoreData.html
-Versions      1.18.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-targetscoredata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TargetScoreData.html
+   :license: GPL-2
+   :recipe: /`bioconductor-targetscoredata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscoredata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscoredata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-targetscoredata
 
-Installation
-------------
+   |downloads_bioconductor-targetscoredata| |docker_bioconductor-targetscoredata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-targetscoredata
+   :required~by: |required_by_bioconductor-targetscoredata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-targetscoredata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-targetscoredata
+
+   and update with::
+
+      conda update bioconductor-targetscoredata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-targetscoredata
+
+
+.. |required_by_bioconductor-targetscoredata| conda:required_by:: bioconductor-targetscoredata
+.. |downloads_bioconductor-targetscoredata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-targetscoredata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-targetscoredata| image:: https://quay.io/repository/biocontainers/bioconductor-targetscoredata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-targetscoredata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-targetscoredata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-targetscoredata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-targetscoredata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-targetscoredata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-targetscoredata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-targetscoredata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-targetscoredata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-targetscoredata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-targetscoredata/README.html
 

@@ -1,56 +1,68 @@
-.. _`sample-sheet`:
+.. title:: Package Recipe 'sample-sheet'
+.. highlight: bash
+
 
 sample-sheet
 ============
 
-|downloads|
+.. conda:recipe:: sample-sheet
+   :replaces_section_title:
 
-An Illumina Sample Sheet parsing library
+   An Illumina Sample Sheet parsing library
 
-============= ===========
-Home          https://github.com/clintval/sample-sheet
-Versions      0.8.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sample-sheet/meta.yaml
+   :homepage: https://github.com/clintval/sample-sheet
+   :documentation: https://sample-sheet.readthedocs.io/
+   
+   :license: MIT / MIT
+   :recipe: /`sample-sheet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sample-sheet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sample-sheet/meta.yaml>`_
 
-Documentation https://sample-sheet.readthedocs.io/
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: sample-sheet
 
-Installation
-------------
+   |downloads_sample-sheet| |docker_sample-sheet|
 
-.. highlight: bash
+   :versions: 0.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`python` >=3.6 :conda:package:`smart_open` >=1.5.4 :conda:package:`tabulate`  :conda:package:`terminaltables`  
 
-   conda install sample-sheet
+   :required~by: |required_by_sample-sheet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sample-sheet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sample-sheet
+
+   and update with::
+
+      conda update sample-sheet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sample-sheet
+
+
+.. |required_by_sample-sheet| conda:required_by:: sample-sheet
+.. |downloads_sample-sheet| image:: https://img.shields.io/conda/dn/bioconda/sample-sheet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sample-sheet| image:: https://quay.io/repository/biocontainers/sample-sheet/status
+   :target: https://quay.io/repository/biocontainers/sample-sheet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sample-sheet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sample-sheet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sample-sheet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sample-sheet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sample-sheet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sample-sheet
-.. |docker| image:: https://quay.io/repository/biocontainers/sample-sheet/status
-                :target: https://quay.io/repository/biocontainers/sample-sheet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sample-sheet/README.html
 

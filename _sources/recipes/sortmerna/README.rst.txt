@@ -1,56 +1,67 @@
-.. _`sortmerna`:
+.. title:: Package Recipe 'sortmerna'
+.. highlight: bash
+
 
 sortmerna
 =========
 
-|downloads|
+.. conda:recipe:: sortmerna/2.1b
+   :replaces_section_title:
 
-SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
+   SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
 
-============= ===========
-Home          http://bioinfo.lifl.fr/RNA/sortmerna
-Versions      2.1b, 2.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sortmerna/2.1b/meta.yaml
+   :homepage: http://bioinfo.lifl.fr/RNA/sortmerna
+   :license: LGPL
+   :recipe: /`sortmerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna>`_/`2.1b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/2.1b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/2.1b/meta.yaml>`_
+   :links: biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`
 
-
-
-Links         biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`
-
-============= ===========
+   
 
 
+.. conda:package:: sortmerna
 
-Installation
-------------
+   |downloads_sortmerna| |docker_sortmerna|
 
-.. highlight: bash
+   :versions: 2.1b, 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install sortmerna
+   :required~by: |required_by_sortmerna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sortmerna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sortmerna
+
+   and update with::
+
+      conda update sortmerna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sortmerna
+
+
+.. |required_by_sortmerna| conda:required_by:: sortmerna
+.. |downloads_sortmerna| image:: https://img.shields.io/conda/dn/bioconda/sortmerna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sortmerna| image:: https://quay.io/repository/biocontainers/sortmerna/status
+   :target: https://quay.io/repository/biocontainers/sortmerna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sortmerna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sortmerna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sortmerna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sortmerna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sortmerna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sortmerna
-.. |docker| image:: https://quay.io/repository/biocontainers/sortmerna/status
-                :target: https://quay.io/repository/biocontainers/sortmerna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sortmerna/README.html
 

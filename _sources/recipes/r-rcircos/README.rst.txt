@@ -1,54 +1,66 @@
-.. _`r-rcircos`:
+.. title:: Package Recipe 'r-rcircos'
+.. highlight: bash
+
 
 r-rcircos
 =========
 
-|downloads|
+.. conda:recipe:: r-rcircos
+   :replaces_section_title:
 
-A simple and flexible way to generate Circos 2D track plot images for genomic data visualization is implemented in this package. The types of plots include\: heatmap\, histogram\, lines\, scatterplot\, tiles and plot items for further decorations include connector\, link \(lines and ribbons\)\, and text \(gene\) label. All functions require only R graphics package that comes with R base installation.  
+   
 
-============= ===========
-Home          http://bitbucket.org/henryhzhang/rcircos
-Versions      1.2.0, 1.1.3
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rcircos/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-rcircos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rcircos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rcircos/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rcircos
 
-Installation
-------------
+   |downloads_r-rcircos| |docker_r-rcircos|
 
-.. highlight: bash
+   :versions: 1.2.0, 1.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-rcircos
+   :required~by: |required_by_r-rcircos|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rcircos
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rcircos
+
+   and update with::
+
+      conda update r-rcircos
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rcircos
+
+
+.. |required_by_r-rcircos| conda:required_by:: r-rcircos
+.. |downloads_r-rcircos| image:: https://img.shields.io/conda/dn/bioconda/r-rcircos.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rcircos| image:: https://quay.io/repository/biocontainers/r-rcircos/status
+   :target: https://quay.io/repository/biocontainers/r-rcircos
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rcircos.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rcircos/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rcircos/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rcircos/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rcircos/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rcircos
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rcircos/status
-                :target: https://quay.io/repository/biocontainers/r-rcircos
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rcircos/README.html
 

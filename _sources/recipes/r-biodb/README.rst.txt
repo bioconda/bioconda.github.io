@@ -1,54 +1,66 @@
-.. _`r-biodb`:
+.. title:: Package Recipe 'r-biodb'
+.. highlight: bash
+
 
 r-biodb
 =======
 
-|downloads|
+.. conda:recipe:: r-biodb
+   :replaces_section_title:
 
-An R package for connecting to chemical and biological databases.
+   An R package for connecting to chemical and biological databases.
 
-============= ===========
-Home          https://github.com/pkrog/biodb
-Versions      1.2.2, 1.2.1, 1.2.0, 1.2.0rc2, 1.2.0a, 1.1.0, 1.0.2
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-biodb/meta.yaml
+   :homepage: https://github.com/pkrog/biodb
+   :license: AGPL-3.0
+   :recipe: /`r-biodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biodb/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-biodb
 
-Installation
-------------
+   |downloads_r-biodb| |docker_r-biodb|
 
-.. highlight: bash
+   :versions: 1.2.2, 1.2.1, 1.2.0, 1.2.0rc2, 1.2.0a, 1.1.0, 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  :conda:package:`r-r.utils`  :conda:package:`r-rcpp`  :conda:package:`r-rcurl`  :conda:package:`r-stringr`  :conda:package:`r-xml`  
 
-   conda install r-biodb
+   :required~by: |required_by_r-biodb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-biodb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-biodb
+
+   and update with::
+
+      conda update r-biodb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-biodb
+
+
+.. |required_by_r-biodb| conda:required_by:: r-biodb
+.. |downloads_r-biodb| image:: https://img.shields.io/conda/dn/bioconda/r-biodb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-biodb| image:: https://quay.io/repository/biocontainers/r-biodb/status
+   :target: https://quay.io/repository/biocontainers/r-biodb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-biodb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-biodb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-biodb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-biodb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-biodb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-biodb
-.. |docker| image:: https://quay.io/repository/biocontainers/r-biodb/status
-                :target: https://quay.io/repository/biocontainers/r-biodb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-biodb/README.html
 

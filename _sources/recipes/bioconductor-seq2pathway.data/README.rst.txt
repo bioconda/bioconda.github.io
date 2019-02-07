@@ -1,54 +1,66 @@
-.. _`bioconductor-seq2pathway.data`:
+.. title:: Package Recipe 'bioconductor-seq2pathway.data'
+.. highlight: bash
+
 
 bioconductor-seq2pathway.data
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-seq2pathway.data
+   :replaces_section_title:
 
-Supporting data for the seq2patheway package. Includes modified gene sets from MsigDB and org.Hs.eg.db\; gene locus definitions from GENCODE project.
+   Supporting data for the seq2patheway package. Includes modified gene sets from MsigDB and org.Hs.eg.db\; gene locus definitions from GENCODE project.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/seq2pathway.data.html
-Versions      1.14.0, 1.12.0, 1.10.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seq2pathway.data/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/seq2pathway.data.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-seq2pathway.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-seq2pathway.data
 
-Installation
-------------
+   |downloads_bioconductor-seq2pathway.data| |docker_bioconductor-seq2pathway.data|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-seq2pathway.data
+   :required~by: |required_by_bioconductor-seq2pathway.data|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-seq2pathway.data
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-seq2pathway.data
+
+   and update with::
+
+      conda update bioconductor-seq2pathway.data
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-seq2pathway.data
+
+
+.. |required_by_bioconductor-seq2pathway.data| conda:required_by:: bioconductor-seq2pathway.data
+.. |downloads_bioconductor-seq2pathway.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seq2pathway.data.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-seq2pathway.data| image:: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-seq2pathway.data/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-seq2pathway.data/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-seq2pathway.data/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-seq2pathway.data/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-seq2pathway.data
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-seq2pathway.data/README.html
 

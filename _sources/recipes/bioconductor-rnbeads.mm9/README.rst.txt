@@ -1,54 +1,66 @@
-.. _`bioconductor-rnbeads.mm9`:
+.. title:: Package Recipe 'bioconductor-rnbeads.mm9'
+.. highlight: bash
+
 
 bioconductor-rnbeads.mm9
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rnbeads.mm9
+   :replaces_section_title:
 
-Automatically generated RnBeads annotation package for the assembly mm9.
+   Automatically generated RnBeads annotation package for the assembly mm9.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RnBeads.mm9.html
-Versions      1.14.0, 1.12.0, 1.10.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnbeads.mm9/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RnBeads.mm9.html
+   :license: GPL-3
+   :recipe: /`bioconductor-rnbeads.mm9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.mm9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.mm9/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rnbeads.mm9
 
-Installation
-------------
+   |downloads_bioconductor-rnbeads.mm9| |docker_bioconductor-rnbeads.mm9|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rnbeads.mm9
+   :required~by: |required_by_bioconductor-rnbeads.mm9|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rnbeads.mm9
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rnbeads.mm9
+
+   and update with::
+
+      conda update bioconductor-rnbeads.mm9
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rnbeads.mm9
+
+
+.. |required_by_bioconductor-rnbeads.mm9| conda:required_by:: bioconductor-rnbeads.mm9
+.. |downloads_bioconductor-rnbeads.mm9| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnbeads.mm9.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rnbeads.mm9| image:: https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rnbeads.mm9/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rnbeads.mm9/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rnbeads.mm9/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rnbeads.mm9/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rnbeads.mm9
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rnbeads.mm9/README.html
 

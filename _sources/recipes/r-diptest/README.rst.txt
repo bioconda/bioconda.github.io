@@ -1,54 +1,66 @@
-.. _`r-diptest`:
+.. title:: Package Recipe 'r-diptest'
+.. highlight: bash
+
 
 r-diptest
 =========
 
-|downloads|
+.. conda:recipe:: r-diptest
+   :replaces_section_title:
 
-Compute Hartigan\'s dip test statistic for unimodality \/ multimodality and provide a test with simulation based p\-values\,  where the original public code has been corrected.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=diptest
-Versions      0.75_7
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-diptest/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-diptest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diptest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diptest/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-diptest
 
-Installation
-------------
+   |downloads_r-diptest| |docker_r-diptest|
 
-.. highlight: bash
+   :versions: 0.75_7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.3.2* 
 
-   conda install r-diptest
+   :required~by: |required_by_r-diptest|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-diptest
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-diptest
+
+   and update with::
+
+      conda update r-diptest
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-diptest
+
+
+.. |required_by_r-diptest| conda:required_by:: r-diptest
+.. |downloads_r-diptest| image:: https://img.shields.io/conda/dn/bioconda/r-diptest.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-diptest| image:: https://quay.io/repository/biocontainers/r-diptest/status
+   :target: https://quay.io/repository/biocontainers/r-diptest
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-diptest.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-diptest/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-diptest/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-diptest/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-diptest/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-diptest
-.. |docker| image:: https://quay.io/repository/biocontainers/r-diptest/status
-                :target: https://quay.io/repository/biocontainers/r-diptest
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-diptest/README.html
 

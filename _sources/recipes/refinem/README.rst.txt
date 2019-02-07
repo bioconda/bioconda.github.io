@@ -1,58 +1,69 @@
-.. _`refinem`:
+.. title:: Package Recipe 'refinem'
+.. highlight: bash
+
 
 refinem
 =======
 
-|downloads|
+.. conda:recipe:: refinem
+   :replaces_section_title:
 
-A toolbox for improving population genomes.
+   A toolbox for improving population genomes.
 
-============= ===========
-Home          http://pypi.python.org/pypi/refinem/
-Versions      0.0.24
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//refinem/meta.yaml
+   :homepage: http://pypi.python.org/pypi/refinem/
+   :documentation: https://github.com/dparks1134/RefineM/blob/master/README.md
+   
+   :developer docs: https://github.com/dparks1134/RefineM
+   :license: GPL3 / GPL3
+   :recipe: /`refinem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refinem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refinem/meta.yaml>`_
 
-Documentation https://github.com/dparks1134/RefineM/blob/master/README.md
-
-
-Development   https://github.com/dparks1134/RefineM
-
-
-============= ===========
+   
 
 
+.. conda:package:: refinem
 
-Installation
-------------
+   |downloads_refinem| |docker_refinem|
 
-.. highlight: bash
+   :versions: 0.0.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biolib` >=0.0.45 :conda:package:`blast` >=2.6.0 :conda:package:`dendropy`  :conda:package:`diamond` >=0.9.9 :conda:package:`jinja2` >=2.7.3 :conda:package:`krona` >=2.7 :conda:package:`matplotlib` >=1.4.0 :conda:package:`mpld3` >=0.2 :conda:package:`numpy` >=1.9.0 :conda:package:`prodigal` >=2.6.3 :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`scipy` >=1.0.0 :conda:package:`weightedstats`  
 
-   conda install refinem
+   :required~by: |required_by_refinem|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update refinem
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install refinem
+
+   and update with::
+
+      conda update refinem
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/refinem
+
+
+.. |required_by_refinem| conda:required_by:: refinem
+.. |downloads_refinem| image:: https://img.shields.io/conda/dn/bioconda/refinem.svg?style=flat
+   :alt:   (downloads)
+.. |docker_refinem| image:: https://quay.io/repository/biocontainers/refinem/status
+   :target: https://quay.io/repository/biocontainers/refinem
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/refinem.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/refinem/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/refinem/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/refinem/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/refinem/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/refinem
-.. |docker| image:: https://quay.io/repository/biocontainers/refinem/status
-                :target: https://quay.io/repository/biocontainers/refinem
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/refinem/README.html
 

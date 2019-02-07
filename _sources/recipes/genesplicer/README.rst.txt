@@ -1,56 +1,67 @@
-.. _`genesplicer`:
+.. title:: Package Recipe 'genesplicer'
+.. highlight: bash
+
 
 genesplicer
 ===========
 
-|downloads|
+.. conda:recipe:: genesplicer
+   :replaces_section_title:
 
-GeneSplicer \: A computational method for splice site prediction
+   GeneSplicer \: A computational method for splice site prediction
 
-============= ===========
-Home          http://www.cs.jhu.edu/~genomics/GeneSplicer
-Versions      1.0, 0_2003.04.03
-License       OSI
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genesplicer/meta.yaml
+   :homepage: http://www.cs.jhu.edu/~genomics/GeneSplicer
+   :license: OSI
+   :recipe: /`genesplicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer/meta.yaml>`_
+   :links: biotools: :biotools:`GeneSplicer`
 
-
-
-Links         biotools: :biotools:`GeneSplicer`
-
-============= ===========
+   
 
 
+.. conda:package:: genesplicer
 
-Installation
-------------
+   |downloads_genesplicer| |docker_genesplicer|
 
-.. highlight: bash
+   :versions: 1.0, 0_2003.04.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install genesplicer
+   :required~by: |required_by_genesplicer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genesplicer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genesplicer
+
+   and update with::
+
+      conda update genesplicer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genesplicer
+
+
+.. |required_by_genesplicer| conda:required_by:: genesplicer
+.. |downloads_genesplicer| image:: https://img.shields.io/conda/dn/bioconda/genesplicer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genesplicer| image:: https://quay.io/repository/biocontainers/genesplicer/status
+   :target: https://quay.io/repository/biocontainers/genesplicer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genesplicer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genesplicer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genesplicer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genesplicer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genesplicer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genesplicer
-.. |docker| image:: https://quay.io/repository/biocontainers/genesplicer/status
-                :target: https://quay.io/repository/biocontainers/genesplicer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genesplicer/README.html
 

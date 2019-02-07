@@ -1,54 +1,66 @@
-.. _`bioconductor-spikeinsubset`:
+.. title:: Package Recipe 'bioconductor-spikeinsubset'
+.. highlight: bash
+
 
 bioconductor-spikeinsubset
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-spikeinsubset
+   :replaces_section_title:
 
-Includes probe\-level and expression data for the HGU133 and HGU95 spike\-in experiments
+   Includes probe\-level and expression data for the HGU133 and HGU95 spike\-in experiments
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/SpikeInSubset.html
-Versions      1.22.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spikeinsubset/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SpikeInSubset.html
+   :license: LGPL
+   :recipe: /`bioconductor-spikeinsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-spikeinsubset
 
-Installation
-------------
+   |downloads_bioconductor-spikeinsubset| |docker_bioconductor-spikeinsubset|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-spikeinsubset
+   :required~by: |required_by_bioconductor-spikeinsubset|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-spikeinsubset
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-spikeinsubset
+
+   and update with::
+
+      conda update bioconductor-spikeinsubset
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-spikeinsubset
+
+
+.. |required_by_bioconductor-spikeinsubset| conda:required_by:: bioconductor-spikeinsubset
+.. |downloads_bioconductor-spikeinsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spikeinsubset.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-spikeinsubset| image:: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-spikeinsubset.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-spikeinsubset/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-spikeinsubset/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-spikeinsubset/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-spikeinsubset/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-spikeinsubset
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-spikeinsubset/README.html
 

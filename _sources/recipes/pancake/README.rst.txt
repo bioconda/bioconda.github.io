@@ -1,54 +1,66 @@
-.. _`pancake`:
+.. title:: Package Recipe 'pancake'
+.. highlight: bash
+
 
 pancake
 =======
 
-|downloads|
+.. conda:recipe:: pancake
+   :replaces_section_title:
 
-A Data Structure for Pangenomes \-\- Identification of Singletons and Core Regions Dependent on Pairwise Sequence Similarities
+   A Data Structure for Pangenomes \-\- Identification of Singletons and Core Regions Dependent on Pairwise Sequence Similarities
 
-============= ===========
-Home          https://bitbucket.org/CorinnaErnst/pancake
-Versions      1.1.2
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pancake/meta.yaml
+   :homepage: https://bitbucket.org/CorinnaErnst/pancake
+   :license: MIT / MIT License
+   :recipe: /`pancake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pancake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pancake/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pancake
 
-Installation
-------------
+   |downloads_pancake| |docker_pancake|
 
-.. highlight: bash
+   :versions: 1.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`numpy`  :conda:package:`python` 3.4* 
 
-   conda install pancake
+   :required~by: |required_by_pancake|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pancake
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pancake
+
+   and update with::
+
+      conda update pancake
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pancake
+
+
+.. |required_by_pancake| conda:required_by:: pancake
+.. |downloads_pancake| image:: https://img.shields.io/conda/dn/bioconda/pancake.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pancake| image:: https://quay.io/repository/biocontainers/pancake/status
+   :target: https://quay.io/repository/biocontainers/pancake
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pancake.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pancake/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pancake/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pancake/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pancake/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pancake
-.. |docker| image:: https://quay.io/repository/biocontainers/pancake/status
-                :target: https://quay.io/repository/biocontainers/pancake
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pancake/README.html
 

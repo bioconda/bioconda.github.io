@@ -1,54 +1,66 @@
-.. _`galaxy-parsec`:
+.. title:: Package Recipe 'galaxy-parsec'
+.. highlight: bash
+
 
 galaxy-parsec
 =============
 
-|downloads|
+.. conda:recipe:: galaxy-parsec
+   :replaces_section_title:
 
-Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\/galaxyproject.org\/\).
+   Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\/galaxyproject.org\/\).
 
-============= ===========
-Home          https://github.com/galaxy-iuc/parsec
-Versions      1.0.6, 1.0.5, 1.0.4
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//galaxy-parsec/meta.yaml
+   :homepage: https://github.com/galaxy-iuc/parsec
+   :license: MIT / MIT
+   :recipe: /`galaxy-parsec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-parsec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-parsec/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: galaxy-parsec
 
-Installation
-------------
+   |downloads_galaxy-parsec| |docker_galaxy-parsec|
 
-.. highlight: bash
+   :versions: 1.0.6, 1.0.5, 1.0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioblend`  :conda:package:`click` >=6.7 :conda:package:`future`  :conda:package:`justbackoff`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`wrapt`  :conda:package:`xunit-wrapper` >=0.12 
 
-   conda install galaxy-parsec
+   :required~by: |required_by_galaxy-parsec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update galaxy-parsec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install galaxy-parsec
+
+   and update with::
+
+      conda update galaxy-parsec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/galaxy-parsec
+
+
+.. |required_by_galaxy-parsec| conda:required_by:: galaxy-parsec
+.. |downloads_galaxy-parsec| image:: https://img.shields.io/conda/dn/bioconda/galaxy-parsec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_galaxy-parsec| image:: https://quay.io/repository/biocontainers/galaxy-parsec/status
+   :target: https://quay.io/repository/biocontainers/galaxy-parsec
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/galaxy-parsec.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/galaxy-parsec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/galaxy-parsec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/galaxy-parsec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/galaxy-parsec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/galaxy-parsec
-.. |docker| image:: https://quay.io/repository/biocontainers/galaxy-parsec/status
-                :target: https://quay.io/repository/biocontainers/galaxy-parsec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/galaxy-parsec/README.html
 

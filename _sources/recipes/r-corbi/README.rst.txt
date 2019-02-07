@@ -1,54 +1,66 @@
-.. _`r-corbi`:
+.. title:: Package Recipe 'r-corbi'
+.. highlight: bash
+
 
 r-corbi
 =======
 
-|downloads|
+.. conda:recipe:: r-corbi
+   :replaces_section_title:
 
-Provides a bundle of basic and fundamental bioinformatics tools\, such as network querying and alignment\, subnetwork extraction and search\, network biomarker identification.
+   Provides a bundle of basic and fundamental bioinformatics tools\, such as network querying and alignment\, subnetwork extraction and search\, network biomarker identification.
 
-============= ===========
-Home          https://github.com/wulingyun/Corbi
-Versions      0.4_2
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-corbi/meta.yaml
+   :homepage: https://github.com/wulingyun/Corbi
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-corbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-corbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-corbi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-corbi
 
-Installation
-------------
+   |downloads_r-corbi| |docker_r-corbi|
 
-.. highlight: bash
+   :versions: 0.4_2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-crf`  :conda:package:`r-matrix`  :conda:package:`r-mpmi`  
 
-   conda install r-corbi
+   :required~by: |required_by_r-corbi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-corbi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-corbi
+
+   and update with::
+
+      conda update r-corbi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-corbi
+
+
+.. |required_by_r-corbi| conda:required_by:: r-corbi
+.. |downloads_r-corbi| image:: https://img.shields.io/conda/dn/bioconda/r-corbi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-corbi| image:: https://quay.io/repository/biocontainers/r-corbi/status
+   :target: https://quay.io/repository/biocontainers/r-corbi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-corbi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-corbi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-corbi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-corbi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-corbi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-corbi
-.. |docker| image:: https://quay.io/repository/biocontainers/r-corbi/status
-                :target: https://quay.io/repository/biocontainers/r-corbi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-corbi/README.html
 

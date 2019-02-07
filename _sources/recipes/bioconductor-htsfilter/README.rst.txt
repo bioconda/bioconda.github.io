@@ -1,56 +1,67 @@
-.. _`bioconductor-htsfilter`:
+.. title:: Package Recipe 'bioconductor-htsfilter'
+.. highlight: bash
+
 
 bioconductor-htsfilter
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-htsfilter
+   :replaces_section_title:
 
-This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low\, constant levels of expression across one or more experimental conditions.
+   This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low\, constant levels of expression across one or more experimental conditions.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HTSFilter.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htsfilter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HTSFilter.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-htsfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter/meta.yaml>`_
+   :links: biotools: :biotools:`htsfilter`
 
-
-
-Links         biotools: :biotools:`htsfilter`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-htsfilter
 
-Installation
-------------
+   |downloads_bioconductor-htsfilter| |docker_bioconductor-htsfilter|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-htsfilter
+   :required~by: |required_by_bioconductor-htsfilter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-htsfilter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-htsfilter
+
+   and update with::
+
+      conda update bioconductor-htsfilter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-htsfilter
+
+
+.. |required_by_bioconductor-htsfilter| conda:required_by:: bioconductor-htsfilter
+.. |downloads_bioconductor-htsfilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htsfilter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-htsfilter| image:: https://quay.io/repository/biocontainers/bioconductor-htsfilter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-htsfilter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-htsfilter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-htsfilter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-htsfilter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-htsfilter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-htsfilter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-htsfilter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-htsfilter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-htsfilter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-htsfilter/README.html
 

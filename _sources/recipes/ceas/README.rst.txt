@@ -1,56 +1,67 @@
-.. _`ceas`:
+.. title:: Package Recipe 'ceas'
+.. highlight: bash
+
 
 ceas
 ====
 
-|downloads|
+.. conda:recipe:: ceas
+   :replaces_section_title:
 
-CEAS\: Cis\-regulatory Element Annotation System
+   CEAS\: Cis\-regulatory Element Annotation System
 
-============= ===========
-Home          http://liulab.dfci.harvard.edu/CEAS
-Versions      1.0.2
-License       Artistic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ceas/meta.yaml
+   :homepage: http://liulab.dfci.harvard.edu/CEAS
+   :license: Artistic
+   :recipe: /`ceas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ceas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ceas/meta.yaml>`_
+   :links: biotools: :biotools:`ceas`
 
-
-
-Links         biotools: :biotools:`ceas`
-
-============= ===========
+   
 
 
+.. conda:package:: ceas
 
-Installation
-------------
+   |downloads_ceas| |docker_ceas|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mysql-python`  :conda:package:`python` 2.7* 
 
-   conda install ceas
+   :required~by: |required_by_ceas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ceas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ceas
+
+   and update with::
+
+      conda update ceas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ceas
+
+
+.. |required_by_ceas| conda:required_by:: ceas
+.. |downloads_ceas| image:: https://img.shields.io/conda/dn/bioconda/ceas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ceas| image:: https://quay.io/repository/biocontainers/ceas/status
+   :target: https://quay.io/repository/biocontainers/ceas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ceas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ceas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ceas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ceas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ceas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ceas
-.. |docker| image:: https://quay.io/repository/biocontainers/ceas/status
-                :target: https://quay.io/repository/biocontainers/ceas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ceas/README.html
 

@@ -1,54 +1,66 @@
-.. _`r-empiricalfdr.deseq2`:
+.. title:: Package Recipe 'r-empiricalfdr.deseq2'
+.. highlight: bash
+
 
 r-empiricalfdr.deseq2
 =====================
 
-|downloads|
+.. conda:recipe:: r-empiricalfdr.deseq2
+   :replaces_section_title:
 
-Auxiliary functions for the DESeq2 package to simulate read counts according to the null hypothesis \(i.e.\, with empirical sample size factors\, per\-gene total counts and dispersions\, but without effects of predictor variables\) and to compute the empirical false discovery rate.
+   Auxiliary functions for the DESeq2 package to simulate read counts according to the null hypothesis \(i.e.\, with empirical sample size factors\, per\-gene total counts and dispersions\, but without effects of predictor variables\) and to compute the empirical false discovery rate.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=empiricalFDR.DESeq2
-Versions      1.0.3
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-empiricalfdr.deseq2/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=empiricalFDR.DESeq2
+   :license: GPL3 / GPL-3
+   :recipe: /`r-empiricalfdr.deseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-empiricalfdr.deseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-empiricalfdr.deseq2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-empiricalfdr.deseq2
 
-Installation
-------------
+   |downloads_r-empiricalfdr.deseq2| |docker_r-empiricalfdr.deseq2|
 
-.. highlight: bash
+   :versions: 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-genomicranges`  :conda:package:`r` 3.2.2* 
 
-   conda install r-empiricalfdr.deseq2
+   :required~by: |required_by_r-empiricalfdr.deseq2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-empiricalfdr.deseq2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-empiricalfdr.deseq2
+
+   and update with::
+
+      conda update r-empiricalfdr.deseq2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-empiricalfdr.deseq2
+
+
+.. |required_by_r-empiricalfdr.deseq2| conda:required_by:: r-empiricalfdr.deseq2
+.. |downloads_r-empiricalfdr.deseq2| image:: https://img.shields.io/conda/dn/bioconda/r-empiricalfdr.deseq2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-empiricalfdr.deseq2| image:: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2/status
+   :target: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-empiricalfdr.deseq2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-empiricalfdr.deseq2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-empiricalfdr.deseq2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-empiricalfdr.deseq2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-empiricalfdr.deseq2
-.. |docker| image:: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2/status
-                :target: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-empiricalfdr.deseq2/README.html
 

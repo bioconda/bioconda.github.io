@@ -1,54 +1,66 @@
-.. _`expansionhunter`:
+.. title:: Package Recipe 'expansionhunter'
+.. highlight: bash
+
 
 expansionhunter
 ===============
 
-|downloads|
+.. conda:recipe:: expansionhunter
+   :replaces_section_title:
 
-a tool for estimating repeat sizes
+   a tool for estimating repeat sizes
 
-============= ===========
-Home          https://github.com/Illumina/ExpansionHunter
-Versions      2.0.8, 2.0.6
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//expansionhunter/meta.yaml
+   :homepage: https://github.com/Illumina/ExpansionHunter
+   :license: GPL3
+   :recipe: /`expansionhunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: expansionhunter
 
-Installation
-------------
+   |downloads_expansionhunter| |docker_expansionhunter|
 
-.. highlight: bash
+   :versions: 2.0.8, 2.0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.61* :conda:package:`icu`  :conda:package:`libgcc`  
 
-   conda install expansionhunter
+   :required~by: |required_by_expansionhunter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update expansionhunter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install expansionhunter
+
+   and update with::
+
+      conda update expansionhunter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/expansionhunter
+
+
+.. |required_by_expansionhunter| conda:required_by:: expansionhunter
+.. |downloads_expansionhunter| image:: https://img.shields.io/conda/dn/bioconda/expansionhunter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_expansionhunter| image:: https://quay.io/repository/biocontainers/expansionhunter/status
+   :target: https://quay.io/repository/biocontainers/expansionhunter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/expansionhunter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/expansionhunter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/expansionhunter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/expansionhunter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/expansionhunter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/expansionhunter
-.. |docker| image:: https://quay.io/repository/biocontainers/expansionhunter/status
-                :target: https://quay.io/repository/biocontainers/expansionhunter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/expansionhunter/README.html
 

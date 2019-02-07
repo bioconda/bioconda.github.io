@@ -1,54 +1,66 @@
-.. _`bioconductor-metaneighbor`:
+.. title:: Package Recipe 'bioconductor-metaneighbor'
+.. highlight: bash
+
 
 bioconductor-metaneighbor
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-metaneighbor
+   :replaces_section_title:
 
-MetaNeighbor allows users to quantify cell type replicability across datasets using neighbor voting.
+   MetaNeighbor allows users to quantify cell type replicability across datasets using neighbor voting.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MetaNeighbor.html
-Versions      1.2.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metaneighbor/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MetaNeighbor.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-metaneighbor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-metaneighbor
 
-Installation
-------------
+   |downloads_bioconductor-metaneighbor| |docker_bioconductor-metaneighbor|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-beanplot` >=1.2 :conda:package:`r-gplots` >=3.0.1 :conda:package:`r-rcolorbrewer` >=1.1 
 
-   conda install bioconductor-metaneighbor
+   :required~by: |required_by_bioconductor-metaneighbor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-metaneighbor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-metaneighbor
+
+   and update with::
+
+      conda update bioconductor-metaneighbor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-metaneighbor
+
+
+.. |required_by_bioconductor-metaneighbor| conda:required_by:: bioconductor-metaneighbor
+.. |downloads_bioconductor-metaneighbor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metaneighbor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-metaneighbor| image:: https://quay.io/repository/biocontainers/bioconductor-metaneighbor/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-metaneighbor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-metaneighbor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metaneighbor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-metaneighbor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-metaneighbor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-metaneighbor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-metaneighbor
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metaneighbor/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-metaneighbor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-metaneighbor/README.html
 

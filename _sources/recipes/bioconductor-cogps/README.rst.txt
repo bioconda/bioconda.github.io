@@ -1,56 +1,67 @@
-.. _`bioconductor-cogps`:
+.. title:: Package Recipe 'bioconductor-cogps'
+.. highlight: bash
+
 
 bioconductor-cogps
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-cogps
+   :replaces_section_title:
 
-Gene Set Enrichment Analysis of P\-value based statistics for outlier gene detection in dataset merged from multiple studies
+   Gene Set Enrichment Analysis of P\-value based statistics for outlier gene detection in dataset merged from multiple studies
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/coGPS.html
-Versions      1.26.0, 1.24.0, 1.22.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cogps/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/coGPS.html
+   :license: GPL-2
+   :recipe: /`bioconductor-cogps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogps/meta.yaml>`_
+   :links: biotools: :biotools:`cogps`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`cogps`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cogps
 
-Installation
-------------
+   |downloads_bioconductor-cogps| |docker_bioconductor-cogps|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cogps
+   :required~by: |required_by_bioconductor-cogps|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cogps
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cogps
+
+   and update with::
+
+      conda update bioconductor-cogps
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cogps
+
+
+.. |required_by_bioconductor-cogps| conda:required_by:: bioconductor-cogps
+.. |downloads_bioconductor-cogps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogps.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cogps| image:: https://quay.io/repository/biocontainers/bioconductor-cogps/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cogps
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cogps.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cogps/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cogps/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cogps/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cogps/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cogps
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cogps/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cogps
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cogps/README.html
 

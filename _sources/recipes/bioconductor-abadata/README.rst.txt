@@ -1,54 +1,66 @@
-.. _`bioconductor-abadata`:
+.. title:: Package Recipe 'bioconductor-abadata'
+.. highlight: bash
+
 
 bioconductor-abadata
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-abadata
+   :replaces_section_title:
 
-Provides the data for the gene expression enrichment analysis conducted in the package \'ABAEnrichment\'. The package includes three datasets which are derived from the Allen Brain Atlas\: \(1\) Gene expression data from Human Brain \(adults\) averaged across donors\, \(2\) Gene expression data from the Developing Human Brain pooled into five age categories and averaged across donors and \(3\) a developmental effect score based on the Developing Human Brain expression data. All datasets are restricted to protein coding genes.
+   Provides the data for the gene expression enrichment analysis conducted in the package \'ABAEnrichment\'. The package includes three datasets which are derived from the Allen Brain Atlas\: \(1\) Gene expression data from Human Brain \(adults\) averaged across donors\, \(2\) Gene expression data from the Developing Human Brain pooled into five age categories and averaged across donors and \(3\) a developmental effect score based on the Developing Human Brain expression data. All datasets are restricted to protein coding genes.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ABAData.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-abadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ABAData.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-abadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-abadata
 
-Installation
-------------
+   |downloads_bioconductor-abadata| |docker_bioconductor-abadata|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-abadata
+   :required~by: |required_by_bioconductor-abadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-abadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-abadata
+
+   and update with::
+
+      conda update bioconductor-abadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-abadata
+
+
+.. |required_by_bioconductor-abadata| conda:required_by:: bioconductor-abadata
+.. |downloads_bioconductor-abadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-abadata| image:: https://quay.io/repository/biocontainers/bioconductor-abadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-abadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-abadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-abadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-abadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-abadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-abadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-abadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-abadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-abadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-abadata/README.html
 

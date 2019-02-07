@@ -1,54 +1,66 @@
-.. _`iclipro`:
+.. title:: Package Recipe 'iclipro'
+.. highlight: bash
+
 
 iclipro
 =======
 
-|downloads|
+.. conda:recipe:: iclipro
+   :replaces_section_title:
 
-iCLIPro is a Python package that can be used to control for systematic misassignments in iCLIP data.
+   iCLIPro is a Python package that can be used to control for systematic misassignments in iCLIP data.
 
-============= ===========
-Home          http://www.biolab.si/iCLIPro/doc/
-Versions      0.1.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//iclipro/meta.yaml
+   :homepage: http://www.biolab.si/iCLIPro/doc/
+   :license: GPLv3
+   :recipe: /`iclipro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iclipro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iclipro/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: iclipro
 
-Installation
-------------
+   |downloads_iclipro| |docker_iclipro|
 
-.. highlight: bash
+   :versions: 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`pysam`  :conda:package:`python` 2.7* 
 
-   conda install iclipro
+   :required~by: |required_by_iclipro|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update iclipro
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install iclipro
+
+   and update with::
+
+      conda update iclipro
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/iclipro
+
+
+.. |required_by_iclipro| conda:required_by:: iclipro
+.. |downloads_iclipro| image:: https://img.shields.io/conda/dn/bioconda/iclipro.svg?style=flat
+   :alt:   (downloads)
+.. |docker_iclipro| image:: https://quay.io/repository/biocontainers/iclipro/status
+   :target: https://quay.io/repository/biocontainers/iclipro
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/iclipro.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/iclipro/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/iclipro/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/iclipro/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/iclipro/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/iclipro
-.. |docker| image:: https://quay.io/repository/biocontainers/iclipro/status
-                :target: https://quay.io/repository/biocontainers/iclipro
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/iclipro/README.html
 

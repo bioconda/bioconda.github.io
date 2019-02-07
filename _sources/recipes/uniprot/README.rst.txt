@@ -1,54 +1,66 @@
-.. _`uniprot`:
+.. title:: Package Recipe 'uniprot'
+.. highlight: bash
+
 
 uniprot
 =======
 
-|downloads|
+.. conda:recipe:: uniprot
+   :replaces_section_title:
 
-Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot.org
+   Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot.org
 
-============= ===========
-Home          http://github.com/boscoh/uniprot
-Versions      1.3
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//uniprot/meta.yaml
+   :homepage: http://github.com/boscoh/uniprot
+   :license: BSD / BSD
+   :recipe: /`uniprot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uniprot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uniprot/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: uniprot
 
-Installation
-------------
+   |downloads_uniprot| |docker_uniprot|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`requests`  
 
-   conda install uniprot
+   :required~by: |required_by_uniprot|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update uniprot
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install uniprot
+
+   and update with::
+
+      conda update uniprot
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/uniprot
+
+
+.. |required_by_uniprot| conda:required_by:: uniprot
+.. |downloads_uniprot| image:: https://img.shields.io/conda/dn/bioconda/uniprot.svg?style=flat
+   :alt:   (downloads)
+.. |docker_uniprot| image:: https://quay.io/repository/biocontainers/uniprot/status
+   :target: https://quay.io/repository/biocontainers/uniprot
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/uniprot.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/uniprot/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/uniprot/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/uniprot/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/uniprot/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/uniprot
-.. |docker| image:: https://quay.io/repository/biocontainers/uniprot/status
-                :target: https://quay.io/repository/biocontainers/uniprot
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/uniprot/README.html
 

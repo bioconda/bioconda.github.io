@@ -1,54 +1,66 @@
-.. _`jannovar-cli`:
+.. title:: Package Recipe 'jannovar-cli'
+.. highlight: bash
+
 
 jannovar-cli
 ============
 
-|downloads|
+.. conda:recipe:: jannovar-cli
+   :replaces_section_title:
 
-Java tool for performing annotation of VCF files
+   Java tool for performing annotation of VCF files
 
-============= ===========
-Home          https://github.com/charite/jannovar
-Versions      0.27, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.20
-License       BSD2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//jannovar-cli/meta.yaml
+   :homepage: https://github.com/charite/jannovar
+   :license: BSD2
+   :recipe: /`jannovar-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: jannovar-cli
 
-Installation
-------------
+   |downloads_jannovar-cli| |docker_jannovar-cli|
 
-.. highlight: bash
+   :versions: 0.27, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 
 
-   conda install jannovar-cli
+   :required~by: |required_by_jannovar-cli|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update jannovar-cli
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install jannovar-cli
+
+   and update with::
+
+      conda update jannovar-cli
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/jannovar-cli
+
+
+.. |required_by_jannovar-cli| conda:required_by:: jannovar-cli
+.. |downloads_jannovar-cli| image:: https://img.shields.io/conda/dn/bioconda/jannovar-cli.svg?style=flat
+   :alt:   (downloads)
+.. |docker_jannovar-cli| image:: https://quay.io/repository/biocontainers/jannovar-cli/status
+   :target: https://quay.io/repository/biocontainers/jannovar-cli
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/jannovar-cli.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/jannovar-cli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/jannovar-cli/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/jannovar-cli/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/jannovar-cli/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/jannovar-cli
-.. |docker| image:: https://quay.io/repository/biocontainers/jannovar-cli/status
-                :target: https://quay.io/repository/biocontainers/jannovar-cli
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/jannovar-cli/README.html
 

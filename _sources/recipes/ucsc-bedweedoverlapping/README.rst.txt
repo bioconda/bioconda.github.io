@@ -1,54 +1,66 @@
-.. _`ucsc-bedweedoverlapping`:
+.. title:: Package Recipe 'ucsc-bedweedoverlapping'
+.. highlight: bash
+
 
 ucsc-bedweedoverlapping
 =======================
 
-|downloads|
+.. conda:recipe:: ucsc-bedweedoverlapping
+   :replaces_section_title:
 
-Filter out beds that overlap a \'weed.bed\' file.
+   Filter out beds that overlap a \'weed.bed\' file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bedweedoverlapping/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-bedweedoverlapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedweedoverlapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedweedoverlapping/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-bedweedoverlapping
 
-Installation
-------------
+   |downloads_ucsc-bedweedoverlapping| |docker_ucsc-bedweedoverlapping|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-bedweedoverlapping
+   :required~by: |required_by_ucsc-bedweedoverlapping|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-bedweedoverlapping
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-bedweedoverlapping
+
+   and update with::
+
+      conda update ucsc-bedweedoverlapping
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-bedweedoverlapping
+
+
+.. |required_by_ucsc-bedweedoverlapping| conda:required_by:: ucsc-bedweedoverlapping
+.. |downloads_ucsc-bedweedoverlapping| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedweedoverlapping.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-bedweedoverlapping| image:: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping/status
+   :target: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-bedweedoverlapping/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-bedweedoverlapping/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-bedweedoverlapping/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-bedweedoverlapping/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-bedweedoverlapping
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping/status
-                :target: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-bedweedoverlapping/README.html
 

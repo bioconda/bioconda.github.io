@@ -1,38 +1,57 @@
-.. _`snpsift`:
+.. title:: Package Recipe 'snpsift'
+.. highlight: bash
+
 
 snpsift
 =======
 
-|downloads|
+.. conda:recipe:: snpsift
+   :replaces_section_title:
 
-Toolbox that allows you to filter and manipulate annotated files
+   Toolbox that allows you to filter and manipulate annotated files
 
-============= ===========
-Home          http://snpeff.sourceforge.net/SnpSift.html
-Versions      4.3.1t, 4.3.1r, 4.3.1p, 4.3.1o, 4.3.1m, 4.3, 4.2, 4.1l
-License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpsift/meta.yaml
+   :homepage: http://snpeff.sourceforge.net/SnpSift.html
+   :license: LGPLv3
+   :recipe: /`snpsift <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift/meta.yaml>`_
+   :links: biotools: :biotools:`SnpSift`, doi: :doi:`10.3389/fgene.2012.00035`
 
-
-
-Links         biotools: :biotools:`SnpSift`, doi: :doi:`10.3389/fgene.2012.00035`
-
-============= ===========
+   
 
 
+.. conda:package:: snpsift
 
-Installation
-------------
+   |downloads_snpsift| |docker_snpsift|
 
-.. highlight: bash
+   :versions: 4.3.1t, 4.3.1r, 4.3.1p, 4.3.1o, 4.3.1m, 4.3, 4.2, 4.1l
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install snpsift
+   :required~by: |required_by_snpsift|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snpsift
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snpsift
+
+   and update with::
+
+      conda update snpsift
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snpsift
+
+
+.. |required_by_snpsift| conda:required_by:: snpsift
+.. |downloads_snpsift| image:: https://img.shields.io/conda/dn/bioconda/snpsift.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snpsift| image:: https://quay.io/repository/biocontainers/snpsift/status
+   :target: https://quay.io/repository/biocontainers/snpsift
+
+
+
+
 
 
 Notes
@@ -40,21 +59,13 @@ Notes
 Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/snpsift.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snpsift/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snpsift/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snpsift/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snpsift/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snpsift
-.. |docker| image:: https://quay.io/repository/biocontainers/snpsift/status
-                :target: https://quay.io/repository/biocontainers/snpsift
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snpsift/README.html
 

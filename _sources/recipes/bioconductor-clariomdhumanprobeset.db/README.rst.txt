@@ -1,54 +1,66 @@
-.. _`bioconductor-clariomdhumanprobeset.db`:
+.. title:: Package Recipe 'bioconductor-clariomdhumanprobeset.db'
+.. highlight: bash
+
 
 bioconductor-clariomdhumanprobeset.db
 =====================================
 
-|downloads|
+.. conda:recipe:: bioconductor-clariomdhumanprobeset.db
+   :replaces_section_title:
 
-Affymetrix clariomdhuman annotation data \(chip clariomdhumanprobeset\) assembled using data from public repositories
+   Affymetrix clariomdhuman annotation data \(chip clariomdhumanprobeset\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/clariomdhumanprobeset.db.html
-Versions      8.7.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clariomdhumanprobeset.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/clariomdhumanprobeset.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-clariomdhumanprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomdhumanprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomdhumanprobeset.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clariomdhumanprobeset.db
 
-Installation
-------------
+   |downloads_bioconductor-clariomdhumanprobeset.db| |docker_bioconductor-clariomdhumanprobeset.db|
 
-.. highlight: bash
+   :versions: 8.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-clariomdhumanprobeset.db
+   :required~by: |required_by_bioconductor-clariomdhumanprobeset.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clariomdhumanprobeset.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clariomdhumanprobeset.db
+
+   and update with::
+
+      conda update bioconductor-clariomdhumanprobeset.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db
+
+
+.. |required_by_bioconductor-clariomdhumanprobeset.db| conda:required_by:: bioconductor-clariomdhumanprobeset.db
+.. |downloads_bioconductor-clariomdhumanprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clariomdhumanprobeset.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clariomdhumanprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clariomdhumanprobeset.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clariomdhumanprobeset.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clariomdhumanprobeset.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clariomdhumanprobeset.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clariomdhumanprobeset.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clariomdhumanprobeset.db/README.html
 

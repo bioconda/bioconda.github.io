@@ -1,54 +1,66 @@
-.. _`r-rnexml`:
+.. title:: Package Recipe 'r-rnexml'
+.. highlight: bash
+
 
 r-rnexml
 ========
 
-|downloads|
+.. conda:recipe:: r-rnexml
+   :replaces_section_title:
 
-Provides access to phyloinformatic data in \'NeXML\' format.  The package should add new functionality to R such as the possibility to manipulate \'NeXML\' objects in more various and refined way and compatibility with \'ape\' objects.
+   Provides access to phyloinformatic data in \'NeXML\' format.  The package should add new functionality to R such as the possibility to manipulate \'NeXML\' objects in more various and refined way and compatibility with \'ape\' objects.
 
-============= ===========
-Home          https://github.com/ropensci/RNeXML
-Versions      2.2.0, 2.1.2, 2.1.1
-License       BSD_3_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rnexml/meta.yaml
+   :homepage: https://github.com/ropensci/RNeXML
+   :license: BSD / BSD_3_clause
+   :recipe: /`r-rnexml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rnexml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rnexml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rnexml
 
-Installation
-------------
+   |downloads_r-rnexml| |docker_r-rnexml|
 
-.. highlight: bash
+   :versions: 2.2.0, 2.1.2, 2.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-ape` >=3.1 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-httr` >=0.3 :conda:package:`r-lazyeval` >=0.1.0 :conda:package:`r-plyr` >=1.8 :conda:package:`r-reshape2` >=1.2.2 :conda:package:`r-stringr` >=1.0 :conda:package:`r-tidyr` >=0.3.1 :conda:package:`r-uuid` >=0.1_1 :conda:package:`r-xml` >=3.95 :conda:package:`r-xml2`  
 
-   conda install r-rnexml
+   :required~by: |required_by_r-rnexml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rnexml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rnexml
+
+   and update with::
+
+      conda update r-rnexml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rnexml
+
+
+.. |required_by_r-rnexml| conda:required_by:: r-rnexml
+.. |downloads_r-rnexml| image:: https://img.shields.io/conda/dn/bioconda/r-rnexml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rnexml| image:: https://quay.io/repository/biocontainers/r-rnexml/status
+   :target: https://quay.io/repository/biocontainers/r-rnexml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rnexml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rnexml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rnexml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rnexml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rnexml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rnexml
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rnexml/status
-                :target: https://quay.io/repository/biocontainers/r-rnexml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rnexml/README.html
 

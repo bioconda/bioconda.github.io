@@ -1,56 +1,67 @@
-.. _`phylip`:
+.. title:: Package Recipe 'phylip'
+.. highlight: bash
+
 
 phylip
 ======
 
-|downloads|
+.. conda:recipe:: phylip
+   :replaces_section_title:
 
-Package of programs for inferring phylogenies
+   Package of programs for inferring phylogenies
 
-============= ===========
-Home          http://evolution.genetics.washington.edu/phylip/
-Versions      3.697, 3.696
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phylip/meta.yaml
+   :homepage: http://evolution.genetics.washington.edu/phylip/
+   :license: BSD
+   :recipe: /`phylip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip/meta.yaml>`_
+   :links: biotools: :biotools:`PHYLIP`
 
-
-
-Links         biotools: :biotools:`PHYLIP`
-
-============= ===========
+   
 
 
+.. conda:package:: phylip
 
-Installation
-------------
+   |downloads_phylip| |docker_phylip|
 
-.. highlight: bash
+   :versions: 3.697, 3.696
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openjdk` >=6 :conda:package:`python`  
 
-   conda install phylip
+   :required~by: |required_by_phylip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update phylip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install phylip
+
+   and update with::
+
+      conda update phylip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/phylip
+
+
+.. |required_by_phylip| conda:required_by:: phylip
+.. |downloads_phylip| image:: https://img.shields.io/conda/dn/bioconda/phylip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_phylip| image:: https://quay.io/repository/biocontainers/phylip/status
+   :target: https://quay.io/repository/biocontainers/phylip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/phylip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/phylip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/phylip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/phylip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/phylip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/phylip
-.. |docker| image:: https://quay.io/repository/biocontainers/phylip/status
-                :target: https://quay.io/repository/biocontainers/phylip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/phylip/README.html
 

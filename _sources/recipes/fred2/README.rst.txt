@@ -1,54 +1,66 @@
-.. _`fred2`:
+.. title:: Package Recipe 'fred2'
+.. highlight: bash
+
 
 fred2
 =====
 
-|downloads|
+.. conda:recipe:: fred2
+   :replaces_section_title:
 
-Python\-based framework for computational immunomics.
+   Python\-based framework for computational immunomics.
 
-============= ===========
-Home          https://fred-2.github.io
-Versions      2.0.3, 2.0.2
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fred2/meta.yaml
+   :homepage: https://fred-2.github.io
+   :license: BSD
+   :recipe: /`fred2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fred2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fred2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fred2
 
-Installation
-------------
+   |downloads_fred2| |docker_fred2|
 
-.. highlight: bash
+   :versions: 2.0.3, 2.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`pandas`  :conda:package:`pymysql`  :conda:package:`pyomo`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyvcf`  :conda:package:`setuptools`  
 
-   conda install fred2
+   :required~by: |required_by_fred2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fred2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fred2
+
+   and update with::
+
+      conda update fred2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fred2
+
+
+.. |required_by_fred2| conda:required_by:: fred2
+.. |downloads_fred2| image:: https://img.shields.io/conda/dn/bioconda/fred2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fred2| image:: https://quay.io/repository/biocontainers/fred2/status
+   :target: https://quay.io/repository/biocontainers/fred2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fred2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fred2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fred2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fred2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fred2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fred2
-.. |docker| image:: https://quay.io/repository/biocontainers/fred2/status
-                :target: https://quay.io/repository/biocontainers/fred2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fred2/README.html
 

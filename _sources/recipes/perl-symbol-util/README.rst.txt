@@ -1,54 +1,66 @@
-.. _`perl-symbol-util`:
+.. title:: Package Recipe 'perl-symbol-util'
+.. highlight: bash
+
 
 perl-symbol-util
 ================
 
-|downloads|
+.. conda:recipe:: perl-symbol-util/0.0203
+   :replaces_section_title:
 
-Additional utils for Perl symbols manipulation
+   Additional utils for Perl symbols manipulation
 
-============= ===========
-Home          http://metacpan.org/pod/Symbol::Util
-Versions      0.0203
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-symbol-util/0.0203/meta.yaml
+   :homepage: http://metacpan.org/pod/Symbol::Util
+   :license: perl_5
+   :recipe: /`perl-symbol-util <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util>`_/`0.0203 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util/0.0203>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util/0.0203/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-symbol-util
 
-Installation
-------------
+   |downloads_perl-symbol-util| |docker_perl-symbol-util|
 
-.. highlight: bash
+   :versions: 0.0203
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  
 
-   conda install perl-symbol-util
+   :required~by: |required_by_perl-symbol-util|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-symbol-util
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-symbol-util
+
+   and update with::
+
+      conda update perl-symbol-util
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-symbol-util
+
+
+.. |required_by_perl-symbol-util| conda:required_by:: perl-symbol-util
+.. |downloads_perl-symbol-util| image:: https://img.shields.io/conda/dn/bioconda/perl-symbol-util.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-symbol-util| image:: https://quay.io/repository/biocontainers/perl-symbol-util/status
+   :target: https://quay.io/repository/biocontainers/perl-symbol-util
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-symbol-util.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-symbol-util/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-symbol-util/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-symbol-util/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-symbol-util/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-symbol-util
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-symbol-util/status
-                :target: https://quay.io/repository/biocontainers/perl-symbol-util
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-symbol-util/README.html
 

@@ -1,54 +1,66 @@
-.. _`epic`:
+.. title:: Package Recipe 'epic'
+.. highlight: bash
+
 
 epic
 ====
 
-|downloads|
+.. conda:recipe:: epic
+   :replaces_section_title:
 
-Chip\-Seq broad peak\/domain finder.
+   Chip\-Seq broad peak\/domain finder.
 
-============= ===========
-Home          http://github.com/endrebak/epic
-Versions      0.2.12, 0.2.9, 0.2.8, 0.2.7, 0.2.5, 0.2.4, 0.2.2, 0.2.1, 0.2.0, 0.1.28, 0.1.27, 0.1.26, 0.1.25, 0.1.24, 0.1.20, 0.1.17
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//epic/meta.yaml
+   :homepage: http://github.com/endrebak/epic
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: epic
 
-Installation
-------------
+   |downloads_epic| |docker_epic|
 
-.. highlight: bash
+   :versions: 0.2.12, 0.2.9, 0.2.8, 0.2.7, 0.2.5, 0.2.4, 0.2.2, 0.2.1, 0.2.0, 0.1.28, 0.1.27, 0.1.26, 0.1.25, 0.1.24, 0.1.20, 0.1.17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`cython`  :conda:package:`docopt`  :conda:package:`functools32`  :conda:package:`joblib`  :conda:package:`natsort`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pybigwig`  :conda:package:`pyfaidx`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`typing`  
 
-   conda install epic
+   :required~by: |required_by_epic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update epic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install epic
+
+   and update with::
+
+      conda update epic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/epic
+
+
+.. |required_by_epic| conda:required_by:: epic
+.. |downloads_epic| image:: https://img.shields.io/conda/dn/bioconda/epic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_epic| image:: https://quay.io/repository/biocontainers/epic/status
+   :target: https://quay.io/repository/biocontainers/epic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/epic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/epic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/epic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/epic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/epic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/epic
-.. |docker| image:: https://quay.io/repository/biocontainers/epic/status
-                :target: https://quay.io/repository/biocontainers/epic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/epic/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-pod-coverage-trustpod`:
+.. title:: Package Recipe 'perl-pod-coverage-trustpod'
+.. highlight: bash
+
 
 perl-pod-coverage-trustpod
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-pod-coverage-trustpod/0.100003
+   :replaces_section_title:
 
-allow a module\'s pod to contain Pod\:\:Coverage hints
+   allow a module\'s pod to contain Pod\:\:Coverage hints
 
-============= ===========
-Home          https://github.com/rjbs/Pod-Coverage-TrustPod
-Versions      0.100003
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-coverage-trustpod/0.100003/meta.yaml
+   :homepage: https://github.com/rjbs/Pod-Coverage-TrustPod
+   :license: perl_5
+   :recipe: /`perl-pod-coverage-trustpod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod>`_/`0.100003 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pod-coverage-trustpod
 
-Installation
-------------
+   |downloads_perl-pod-coverage-trustpod| |docker_perl-pod-coverage-trustpod|
 
-.. highlight: bash
+   :versions: 0.100003
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-base`  :conda:package:`perl-lib`  
 
-   conda install perl-pod-coverage-trustpod
+   :required~by: |required_by_perl-pod-coverage-trustpod|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pod-coverage-trustpod
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pod-coverage-trustpod
+
+   and update with::
+
+      conda update perl-pod-coverage-trustpod
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pod-coverage-trustpod
+
+
+.. |required_by_perl-pod-coverage-trustpod| conda:required_by:: perl-pod-coverage-trustpod
+.. |downloads_perl-pod-coverage-trustpod| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-coverage-trustpod.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pod-coverage-trustpod| image:: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod/status
+   :target: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pod-coverage-trustpod/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pod-coverage-trustpod/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pod-coverage-trustpod/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pod-coverage-trustpod/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pod-coverage-trustpod
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod/status
-                :target: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pod-coverage-trustpod/README.html
 

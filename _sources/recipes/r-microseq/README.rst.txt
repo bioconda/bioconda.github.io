@@ -1,54 +1,66 @@
-.. _`r-microseq`:
+.. title:: Package Recipe 'r-microseq'
+.. highlight: bash
+
 
 r-microseq
 ==========
 
-|downloads|
+.. conda:recipe:: r-microseq
+   :replaces_section_title:
 
-Basic functions for microbial sequence data analysis. The idea is to use the basic R data structures as much as possible\, without building complex data types.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=microseq
-Versions      1.2
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-microseq/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-microseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-microseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-microseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-microseq
 
-Installation
-------------
+   |downloads_r-microseq| |docker_r-microseq|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.3.2* :conda:package:`r-rcpp` >=0.11.1 
 
-   conda install r-microseq
+   :required~by: |required_by_r-microseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-microseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-microseq
+
+   and update with::
+
+      conda update r-microseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-microseq
+
+
+.. |required_by_r-microseq| conda:required_by:: r-microseq
+.. |downloads_r-microseq| image:: https://img.shields.io/conda/dn/bioconda/r-microseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-microseq| image:: https://quay.io/repository/biocontainers/r-microseq/status
+   :target: https://quay.io/repository/biocontainers/r-microseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-microseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-microseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-microseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-microseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-microseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-microseq
-.. |docker| image:: https://quay.io/repository/biocontainers/r-microseq/status
-                :target: https://quay.io/repository/biocontainers/r-microseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-microseq/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-arraytv`:
+.. title:: Package Recipe 'bioconductor-arraytv'
+.. highlight: bash
+
 
 bioconductor-arraytv
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-arraytv
+   :replaces_section_title:
 
-Wave correction for genotyping and copy number arrays
+   Wave correction for genotyping and copy number arrays
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ArrayTV.html
-Versions      1.20.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-arraytv/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ArrayTV.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-arraytv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytv/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-arraytv
 
-Installation
-------------
+   |downloads_bioconductor-arraytv| |docker_bioconductor-arraytv|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-dnacopy` >=1.56.0,<1.57.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-foreach`  
 
-   conda install bioconductor-arraytv
+   :required~by: |required_by_bioconductor-arraytv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-arraytv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-arraytv
+
+   and update with::
+
+      conda update bioconductor-arraytv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-arraytv
+
+
+.. |required_by_bioconductor-arraytv| conda:required_by:: bioconductor-arraytv
+.. |downloads_bioconductor-arraytv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraytv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-arraytv| image:: https://quay.io/repository/biocontainers/bioconductor-arraytv/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-arraytv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-arraytv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-arraytv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-arraytv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-arraytv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-arraytv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-arraytv
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-arraytv/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-arraytv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-arraytv/README.html
 

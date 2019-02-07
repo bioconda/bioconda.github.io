@@ -1,54 +1,66 @@
-.. _`r-pctgcdata`:
+.. title:: Package Recipe 'r-pctgcdata'
+.. highlight: bash
+
 
 r-pctgcdata
 ===========
 
-|downloads|
+.. conda:recipe:: r-pctgcdata
+   :replaces_section_title:
 
-Provides GC percentage of a 1 kilobase window at a genomic position for different builds of human and mouse genomes.
+   Provides GC percentage of a 1 kilobase window at a genomic position for different builds of human and mouse genomes.
 
-============= ===========
-Home          https://github.com/mskcc/pctGCdata
-Versions      0.2.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pctgcdata/meta.yaml
+   :homepage: https://github.com/mskcc/pctGCdata
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-pctgcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pctgcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pctgcdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-pctgcdata
 
-Installation
-------------
+   |downloads_r-pctgcdata| |docker_r-pctgcdata|
 
-.. highlight: bash
+   :versions: 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install r-pctgcdata
+   :required~by: |required_by_r-pctgcdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-pctgcdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-pctgcdata
+
+   and update with::
+
+      conda update r-pctgcdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-pctgcdata
+
+
+.. |required_by_r-pctgcdata| conda:required_by:: r-pctgcdata
+.. |downloads_r-pctgcdata| image:: https://img.shields.io/conda/dn/bioconda/r-pctgcdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-pctgcdata| image:: https://quay.io/repository/biocontainers/r-pctgcdata/status
+   :target: https://quay.io/repository/biocontainers/r-pctgcdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-pctgcdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-pctgcdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-pctgcdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-pctgcdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-pctgcdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-pctgcdata
-.. |docker| image:: https://quay.io/repository/biocontainers/r-pctgcdata/status
-                :target: https://quay.io/repository/biocontainers/r-pctgcdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-pctgcdata/README.html
 

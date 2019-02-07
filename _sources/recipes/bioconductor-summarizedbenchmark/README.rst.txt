@@ -1,54 +1,66 @@
-.. _`bioconductor-summarizedbenchmark`:
+.. title:: Package Recipe 'bioconductor-summarizedbenchmark'
+.. highlight: bash
+
 
 bioconductor-summarizedbenchmark
 ================================
 
-|downloads|
+.. conda:recipe:: bioconductor-summarizedbenchmark
+   :replaces_section_title:
 
-This package defines the BenchDesign and SummarizedBenchmark classes for building\, executing\, and evaluating benchmark experiments of computational methods. The SummarizedBenchmark class extends the RangedSummarizedExperiment object\, and is designed to provide infrastructure to store and compare the results of applying different methods to a shared data set. This class provides an integrated interface to store metadata such as method parameters and software versions as well as ground truths \(when these are available\) and evaluation metrics.
+   This package defines the BenchDesign and SummarizedBenchmark classes for building\, executing\, and evaluating benchmark experiments of computational methods. The SummarizedBenchmark class extends the RangedSummarizedExperiment object\, and is designed to provide infrastructure to store and compare the results of applying different methods to a shared data set. This class provides an integrated interface to store metadata such as method parameters and software versions as well as ground truths \(when these are available\) and evaluation metrics.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SummarizedBenchmark.html
-Versions      2.0.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-summarizedbenchmark/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SummarizedBenchmark.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-summarizedbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-summarizedbenchmark
 
-Installation
-------------
+   |downloads_bioconductor-summarizedbenchmark| |docker_bioconductor-summarizedbenchmark|
 
-.. highlight: bash
+   :versions: 2.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-crayon`  :conda:package:`r-digest`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-mclust`  :conda:package:`r-rlang`  :conda:package:`r-sessioninfo`  :conda:package:`r-stringr`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  :conda:package:`r-upsetr`  
 
-   conda install bioconductor-summarizedbenchmark
+   :required~by: |required_by_bioconductor-summarizedbenchmark|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-summarizedbenchmark
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-summarizedbenchmark
+
+   and update with::
+
+      conda update bioconductor-summarizedbenchmark
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-summarizedbenchmark
+
+
+.. |required_by_bioconductor-summarizedbenchmark| conda:required_by:: bioconductor-summarizedbenchmark
+.. |downloads_bioconductor-summarizedbenchmark| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-summarizedbenchmark.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-summarizedbenchmark| image:: https://quay.io/repository/biocontainers/bioconductor-summarizedbenchmark/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-summarizedbenchmark
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-summarizedbenchmark.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-summarizedbenchmark/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-summarizedbenchmark/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-summarizedbenchmark/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-summarizedbenchmark/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-summarizedbenchmark
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-summarizedbenchmark/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-summarizedbenchmark
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-summarizedbenchmark/README.html
 

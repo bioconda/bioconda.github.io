@@ -1,56 +1,67 @@
-.. _`mccortex`:
+.. title:: Package Recipe 'mccortex'
+.. highlight: bash
+
 
 mccortex
 ========
 
-|downloads|
+.. conda:recipe:: mccortex
+   :replaces_section_title:
 
-De novo genome assembly and multisample variant calling 
+   De novo genome assembly and multisample variant calling 
 
-============= ===========
-Home          https://github.com/mcveanlab/mccortex
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mccortex/meta.yaml
+   :homepage: https://github.com/mcveanlab/mccortex
+   :license: MIT
+   :recipe: /`mccortex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mccortex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mccortex/meta.yaml>`_
+   :links: biotools: :biotools:`mccortex`
 
-
-
-Links         biotools: :biotools:`mccortex`
-
-============= ===========
+   
 
 
+.. conda:package:: mccortex
 
-Installation
-------------
+   |downloads_mccortex| |docker_mccortex|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install mccortex
+   :required~by: |required_by_mccortex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mccortex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mccortex
+
+   and update with::
+
+      conda update mccortex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mccortex
+
+
+.. |required_by_mccortex| conda:required_by:: mccortex
+.. |downloads_mccortex| image:: https://img.shields.io/conda/dn/bioconda/mccortex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mccortex| image:: https://quay.io/repository/biocontainers/mccortex/status
+   :target: https://quay.io/repository/biocontainers/mccortex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mccortex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mccortex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mccortex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mccortex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mccortex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mccortex
-.. |docker| image:: https://quay.io/repository/biocontainers/mccortex/status
-                :target: https://quay.io/repository/biocontainers/mccortex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mccortex/README.html
 

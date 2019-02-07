@@ -1,54 +1,66 @@
-.. _`ucsc-overlapselect`:
+.. title:: Package Recipe 'ucsc-overlapselect'
+.. highlight: bash
+
 
 ucsc-overlapselect
 ==================
 
-|downloads|
+.. conda:recipe:: ucsc-overlapselect
+   :replaces_section_title:
 
- Select records based on overlapping chromosome ranges.  The ranges are specified in the selectFile\, with each block specifying a range. Records are copied from the inFile to outFile based on the selection criteria.  Selection is based on blocks or exons rather than entire range. 
+    Select records based on overlapping chromosome ranges.  The ranges are specified in the selectFile\, with each block specifying a range. Records are copied from the inFile to outFile based on the selection criteria.  Selection is based on blocks or exons rather than entire range. 
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-overlapselect/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-overlapselect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-overlapselect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-overlapselect/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-overlapselect
 
-Installation
-------------
+   |downloads_ucsc-overlapselect| |docker_ucsc-overlapselect|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-overlapselect
+   :required~by: |required_by_ucsc-overlapselect|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-overlapselect
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-overlapselect
+
+   and update with::
+
+      conda update ucsc-overlapselect
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-overlapselect
+
+
+.. |required_by_ucsc-overlapselect| conda:required_by:: ucsc-overlapselect
+.. |downloads_ucsc-overlapselect| image:: https://img.shields.io/conda/dn/bioconda/ucsc-overlapselect.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-overlapselect| image:: https://quay.io/repository/biocontainers/ucsc-overlapselect/status
+   :target: https://quay.io/repository/biocontainers/ucsc-overlapselect
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-overlapselect.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-overlapselect/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-overlapselect/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-overlapselect/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-overlapselect/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-overlapselect
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-overlapselect/status
-                :target: https://quay.io/repository/biocontainers/ucsc-overlapselect
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-overlapselect/README.html
 

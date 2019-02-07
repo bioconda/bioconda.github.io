@@ -1,54 +1,66 @@
-.. _`perl-io-uncompress-gunzip`:
+.. title:: Package Recipe 'perl-io-uncompress-gunzip'
+.. highlight: bash
+
 
 perl-io-uncompress-gunzip
 =========================
 
-|downloads|
+.. conda:recipe:: perl-io-uncompress-gunzip/2.064
+   :replaces_section_title:
 
-Read RFC 1952 files\/buffers
+   Read RFC 1952 files\/buffers
 
-============= ===========
-Home          http://metacpan.org/pod/IO::Uncompress::Gunzip
-Versions      2.064
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-uncompress-gunzip/2.064/meta.yaml
+   :homepage: http://metacpan.org/pod/IO::Uncompress::Gunzip
+   :license: perl_5
+   :recipe: /`perl-io-uncompress-gunzip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip>`_/`2.064 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip/2.064>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip/2.064/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-uncompress-gunzip
 
-Installation
-------------
+   |downloads_perl-io-uncompress-gunzip| |docker_perl-io-uncompress-gunzip|
 
-.. highlight: bash
+   :versions: 2.064
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-io-uncompress-gunzip
+   :required~by: |required_by_perl-io-uncompress-gunzip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-uncompress-gunzip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-uncompress-gunzip
+
+   and update with::
+
+      conda update perl-io-uncompress-gunzip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-uncompress-gunzip
+
+
+.. |required_by_perl-io-uncompress-gunzip| conda:required_by:: perl-io-uncompress-gunzip
+.. |downloads_perl-io-uncompress-gunzip| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-gunzip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-uncompress-gunzip| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip/status
+   :target: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-uncompress-gunzip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-uncompress-gunzip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-uncompress-gunzip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-uncompress-gunzip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-uncompress-gunzip
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip/status
-                :target: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-uncompress-gunzip/README.html
 

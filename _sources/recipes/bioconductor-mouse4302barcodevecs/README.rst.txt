@@ -1,54 +1,66 @@
-.. _`bioconductor-mouse4302barcodevecs`:
+.. title:: Package Recipe 'bioconductor-mouse4302barcodevecs'
+.. highlight: bash
+
 
 bioconductor-mouse4302barcodevecs
 =================================
 
-|downloads|
+.. conda:recipe:: bioconductor-mouse4302barcodevecs
+   :replaces_section_title:
 
-Data used by the barcode package for microarrays of type mouse4302.
+   Data used by the barcode package for microarrays of type mouse4302.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/mouse4302barcodevecs.html
-Versions      1.20.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mouse4302barcodevecs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mouse4302barcodevecs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-mouse4302barcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mouse4302barcodevecs
 
-Installation
-------------
+   |downloads_bioconductor-mouse4302barcodevecs| |docker_bioconductor-mouse4302barcodevecs|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mouse4302barcodevecs
+   :required~by: |required_by_bioconductor-mouse4302barcodevecs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mouse4302barcodevecs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mouse4302barcodevecs
+
+   and update with::
+
+      conda update bioconductor-mouse4302barcodevecs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs
+
+
+.. |required_by_bioconductor-mouse4302barcodevecs| conda:required_by:: bioconductor-mouse4302barcodevecs
+.. |downloads_bioconductor-mouse4302barcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mouse4302barcodevecs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mouse4302barcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mouse4302barcodevecs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mouse4302barcodevecs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mouse4302barcodevecs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mouse4302barcodevecs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mouse4302barcodevecs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mouse4302barcodevecs/README.html
 

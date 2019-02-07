@@ -1,54 +1,66 @@
-.. _`bioconductor-cnpbayes`:
+.. title:: Package Recipe 'bioconductor-cnpbayes'
+.. highlight: bash
+
 
 bioconductor-cnpbayes
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-cnpbayes
+   :replaces_section_title:
 
-Bayesian hierarchical mixture models for batch effects and copy number.
+   Bayesian hierarchical mixture models for batch effects and copy number.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CNPBayes.html
-Versions      1.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnpbayes/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CNPBayes.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-cnpbayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnpbayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnpbayes/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cnpbayes
 
-Installation
-------------
+   |downloads_bioconductor-cnpbayes| |docker_bioconductor-cnpbayes|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-combinat`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-magrittr`  :conda:package:`r-matrixstats`  :conda:package:`r-mclust`  :conda:package:`r-purrr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.12.1 :conda:package:`r-reshape2`  :conda:package:`r-scales`  :conda:package:`r-tibble`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-cnpbayes
+   :required~by: |required_by_bioconductor-cnpbayes|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cnpbayes
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cnpbayes
+
+   and update with::
+
+      conda update bioconductor-cnpbayes
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cnpbayes
+
+
+.. |required_by_bioconductor-cnpbayes| conda:required_by:: bioconductor-cnpbayes
+.. |downloads_bioconductor-cnpbayes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnpbayes.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cnpbayes| image:: https://quay.io/repository/biocontainers/bioconductor-cnpbayes/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cnpbayes
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cnpbayes.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cnpbayes/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cnpbayes/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cnpbayes/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cnpbayes/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cnpbayes
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cnpbayes/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cnpbayes
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cnpbayes/README.html
 

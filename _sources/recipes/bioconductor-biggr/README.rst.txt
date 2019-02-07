@@ -1,54 +1,66 @@
-.. _`bioconductor-biggr`:
+.. title:: Package Recipe 'bioconductor-biggr'
+.. highlight: bash
+
 
 bioconductor-biggr
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-biggr
+   :replaces_section_title:
 
-This package provides an interface to simulate metabolic reconstruction from the BiGG database\(http\:\/\/bigg.ucsd.edu\/\) and other metabolic reconstruction databases. The package facilitates flux balance analysis \(FBA\) and the sampling of feasible flux distributions. Metabolic networks and estimated fluxes can be visualized with hypergraphs.
+   This package provides an interface to simulate metabolic reconstruction from the BiGG database\(http\:\/\/bigg.ucsd.edu\/\) and other metabolic reconstruction databases. The package facilitates flux balance analysis \(FBA\) and the sampling of feasible flux distributions. Metabolic networks and estimated fluxes can be visualized with hypergraphs.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BiGGR.html
-Versions      
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biggr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiGGR.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-biggr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biggr
 
-Installation
-------------
+   |downloads_bioconductor-biggr| |docker_bioconductor-biggr|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-biggr
+   :required~by: |required_by_bioconductor-biggr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biggr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biggr
+
+   and update with::
+
+      conda update bioconductor-biggr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biggr
+
+
+.. |required_by_bioconductor-biggr| conda:required_by:: bioconductor-biggr
+.. |downloads_bioconductor-biggr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biggr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biggr| image:: https://quay.io/repository/biocontainers/bioconductor-biggr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biggr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biggr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biggr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biggr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biggr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biggr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biggr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biggr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biggr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biggr/README.html
 

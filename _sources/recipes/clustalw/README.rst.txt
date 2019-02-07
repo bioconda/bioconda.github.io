@@ -1,54 +1,66 @@
-.. _`clustalw`:
+.. title:: Package Recipe 'clustalw'
+.. highlight: bash
+
 
 clustalw
 ========
 
-|downloads|
+.. conda:recipe:: clustalw
+   :replaces_section_title:
 
-ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins.
+   ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins.
 
-============= ===========
-Home          http://www.clustal.org/clustal2/
-Versions      2.1
-License       GNU Lesser GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clustalw/meta.yaml
+   :homepage: http://www.clustal.org/clustal2/
+   :license: GNU Lesser GPL
+   :recipe: /`clustalw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: clustalw
 
-Installation
-------------
+   |downloads_clustalw| |docker_clustalw|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install clustalw
+   :required~by: |required_by_clustalw|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update clustalw
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install clustalw
+
+   and update with::
+
+      conda update clustalw
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/clustalw
+
+
+.. |required_by_clustalw| conda:required_by:: clustalw
+.. |downloads_clustalw| image:: https://img.shields.io/conda/dn/bioconda/clustalw.svg?style=flat
+   :alt:   (downloads)
+.. |docker_clustalw| image:: https://quay.io/repository/biocontainers/clustalw/status
+   :target: https://quay.io/repository/biocontainers/clustalw
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/clustalw.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/clustalw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clustalw/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/clustalw/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/clustalw/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/clustalw
-.. |docker| image:: https://quay.io/repository/biocontainers/clustalw/status
-                :target: https://quay.io/repository/biocontainers/clustalw
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/clustalw/README.html
 

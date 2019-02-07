@@ -1,54 +1,66 @@
-.. _`bfc`:
+.. title:: Package Recipe 'bfc'
+.. highlight: bash
+
 
 bfc
 ===
 
-|downloads|
+.. conda:recipe:: bfc
+   :replaces_section_title:
 
-BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data.
+   BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data.
 
-============= ===========
-Home          https://github.com/lh3/bfc
-Versions      r181
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bfc/meta.yaml
+   :homepage: https://github.com/lh3/bfc
+   :license: MIT
+   :recipe: /`bfc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bfc
 
-Installation
-------------
+   |downloads_bfc| |docker_bfc|
 
-.. highlight: bash
+   :versions: r181
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install bfc
+   :required~by: |required_by_bfc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bfc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bfc
+
+   and update with::
+
+      conda update bfc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bfc
+
+
+.. |required_by_bfc| conda:required_by:: bfc
+.. |downloads_bfc| image:: https://img.shields.io/conda/dn/bioconda/bfc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bfc| image:: https://quay.io/repository/biocontainers/bfc/status
+   :target: https://quay.io/repository/biocontainers/bfc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bfc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bfc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bfc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bfc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bfc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bfc
-.. |docker| image:: https://quay.io/repository/biocontainers/bfc/status
-                :target: https://quay.io/repository/biocontainers/bfc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bfc/README.html
 

@@ -1,54 +1,66 @@
-.. _`screed`:
+.. title:: Package Recipe 'screed'
+.. highlight: bash
+
 
 screed
 ======
 
-|downloads|
+.. conda:recipe:: screed
+   :replaces_section_title:
 
-Screed is a biological sequence parsing and storage\/retrieval library for DNA and protein sequences.
+   Screed is a biological sequence parsing and storage\/retrieval library for DNA and protein sequences.
 
-============= ===========
-Home          http://github.com/dib-lab/screed/
-Versions      1.0, 0.9
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//screed/meta.yaml
+   :homepage: http://github.com/dib-lab/screed/
+   :license: BSD / BSD
+   :recipe: /`screed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screed/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: screed
 
-Installation
-------------
+   |downloads_screed| |docker_screed|
 
-.. highlight: bash
+   :versions: 1.0, 0.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bz2file`  :conda:package:`python` 2.7* 
 
-   conda install screed
+   :required~by: |required_by_screed|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update screed
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install screed
+
+   and update with::
+
+      conda update screed
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/screed
+
+
+.. |required_by_screed| conda:required_by:: screed
+.. |downloads_screed| image:: https://img.shields.io/conda/dn/bioconda/screed.svg?style=flat
+   :alt:   (downloads)
+.. |docker_screed| image:: https://quay.io/repository/biocontainers/screed/status
+   :target: https://quay.io/repository/biocontainers/screed
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/screed.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/screed/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/screed/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/screed/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/screed/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/screed
-.. |docker| image:: https://quay.io/repository/biocontainers/screed/status
-                :target: https://quay.io/repository/biocontainers/screed
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/screed/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-file-next`:
+.. title:: Package Recipe 'perl-file-next'
+.. highlight: bash
+
 
 perl-file-next
 ==============
 
-|downloads|
+.. conda:recipe:: perl-file-next
+   :replaces_section_title:
 
-File\-finding iterator
+   File\-finding iterator
 
-============= ===========
-Home          http://metacpan.org/pod/File::Next
-Versions      1.16
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-next/meta.yaml
+   :homepage: http://metacpan.org/pod/File::Next
+   :license: artistic_2
+   :recipe: /`perl-file-next <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-next>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-next/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-next
 
-Installation
-------------
+   |downloads_perl-file-next| |docker_perl-file-next|
 
-.. highlight: bash
+   :versions: 1.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-pathtools`  :conda:package:`perl-test-simple`  :conda:package:`perl-threaded`  
 
-   conda install perl-file-next
+   :required~by: |required_by_perl-file-next|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-next
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-next
+
+   and update with::
+
+      conda update perl-file-next
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-next
+
+
+.. |required_by_perl-file-next| conda:required_by:: perl-file-next
+.. |downloads_perl-file-next| image:: https://img.shields.io/conda/dn/bioconda/perl-file-next.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-next| image:: https://quay.io/repository/biocontainers/perl-file-next/status
+   :target: https://quay.io/repository/biocontainers/perl-file-next
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-next.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-next/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-next/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-next/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-next/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-next
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-next/status
-                :target: https://quay.io/repository/biocontainers/perl-file-next
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-next/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-chainswap`:
+.. title:: Package Recipe 'ucsc-chainswap'
+.. highlight: bash
+
 
 ucsc-chainswap
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-chainswap
+   :replaces_section_title:
 
-Swap target and query in chain
+   Swap target and query in chain
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-chainswap/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-chainswap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chainswap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chainswap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-chainswap
 
-Installation
-------------
+   |downloads_ucsc-chainswap| |docker_ucsc-chainswap|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-chainswap
+   :required~by: |required_by_ucsc-chainswap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-chainswap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-chainswap
+
+   and update with::
+
+      conda update ucsc-chainswap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-chainswap
+
+
+.. |required_by_ucsc-chainswap| conda:required_by:: ucsc-chainswap
+.. |downloads_ucsc-chainswap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainswap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-chainswap| image:: https://quay.io/repository/biocontainers/ucsc-chainswap/status
+   :target: https://quay.io/repository/biocontainers/ucsc-chainswap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-chainswap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-chainswap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-chainswap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-chainswap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-chainswap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-chainswap
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-chainswap/status
-                :target: https://quay.io/repository/biocontainers/ucsc-chainswap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-chainswap/README.html
 

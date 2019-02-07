@@ -1,56 +1,67 @@
-.. _`bioconductor-gsealm`:
+.. title:: Package Recipe 'bioconductor-gsealm'
+.. highlight: bash
+
 
 bioconductor-gsealm
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-gsealm
+   :replaces_section_title:
 
-Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics.
+   Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GSEAlm.html
-Versions      1.42.0, 1.40.0, 1.38.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gsealm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GSEAlm.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-gsealm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm/meta.yaml>`_
+   :links: biotools: :biotools:`gsealm`, doi: :doi:`10.1093/bioinformatics/btn465`
 
-
-
-Links         biotools: :biotools:`gsealm`, doi: :doi:`10.1093/bioinformatics/btn465`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gsealm
 
-Installation
-------------
+   |downloads_bioconductor-gsealm| |docker_bioconductor-gsealm|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-gsealm
+   :required~by: |required_by_bioconductor-gsealm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gsealm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gsealm
+
+   and update with::
+
+      conda update bioconductor-gsealm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gsealm
+
+
+.. |required_by_bioconductor-gsealm| conda:required_by:: bioconductor-gsealm
+.. |downloads_bioconductor-gsealm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsealm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gsealm| image:: https://quay.io/repository/biocontainers/bioconductor-gsealm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gsealm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gsealm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gsealm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gsealm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gsealm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gsealm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gsealm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gsealm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gsealm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gsealm/README.html
 

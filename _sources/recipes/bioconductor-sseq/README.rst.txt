@@ -1,56 +1,67 @@
-.. _`bioconductor-sseq`:
+.. title:: Package Recipe 'bioconductor-sseq'
+.. highlight: bash
+
 
 bioconductor-sseq
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-sseq
+   :replaces_section_title:
 
-The purpose of this package is to discover the genes that are differentially expressed between two conditions in RNA\-seq experiments. Gene expression is measured in counts of transcripts and modeled with the Negative Binomial \(NB\) distribution using a shrinkage approach for dispersion estimation. The method of moment \(MM\) estimates for dispersion are shrunk towards an estimated target\, which minimizes the average squared difference between the shrinkage estimates and the initial estimates. The exact per\-gene probability under the NB model is calculated\, and used to test the hypothesis that the expected expression of a gene in two conditions identically follow a NB distribution.
+   The purpose of this package is to discover the genes that are differentially expressed between two conditions in RNA\-seq experiments. Gene expression is measured in counts of transcripts and modeled with the Negative Binomial \(NB\) distribution using a shrinkage approach for dispersion estimation. The method of moment \(MM\) estimates for dispersion are shrunk towards an estimated target\, which minimizes the average squared difference between the shrinkage estimates and the initial estimates. The exact per\-gene probability under the NB model is calculated\, and used to test the hypothesis that the expected expression of a gene in two conditions identically follow a NB distribution.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/sSeq.html
-Versions      1.20.0, 1.18.0, 1.16.0, 1.14.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sSeq.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-sseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sseq/meta.yaml>`_
+   :links: biotools: :biotools:`sseq`, doi: :doi:`10.1093/bioinformatics/btt143`
 
-
-
-Links         biotools: :biotools:`sseq`, doi: :doi:`10.1093/bioinformatics/btt143`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sseq
 
-Installation
-------------
+   |downloads_bioconductor-sseq| |docker_bioconductor-sseq|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-sseq
+   :required~by: |required_by_bioconductor-sseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sseq
+
+   and update with::
+
+      conda update bioconductor-sseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sseq
+
+
+.. |required_by_bioconductor-sseq| conda:required_by:: bioconductor-sseq
+.. |downloads_bioconductor-sseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sseq| image:: https://quay.io/repository/biocontainers/bioconductor-sseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sseq/README.html
 

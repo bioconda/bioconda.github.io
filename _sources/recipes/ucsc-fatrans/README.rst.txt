@@ -1,54 +1,66 @@
-.. _`ucsc-fatrans`:
+.. title:: Package Recipe 'ucsc-fatrans'
+.. highlight: bash
+
 
 ucsc-fatrans
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-fatrans
+   :replaces_section_title:
 
-Translate DNA .fa file to peptide
+   Translate DNA .fa file to peptide
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-fatrans/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-fatrans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatrans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatrans/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-fatrans
 
-Installation
-------------
+   |downloads_ucsc-fatrans| |docker_ucsc-fatrans|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-fatrans
+   :required~by: |required_by_ucsc-fatrans|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-fatrans
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-fatrans
+
+   and update with::
+
+      conda update ucsc-fatrans
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-fatrans
+
+
+.. |required_by_ucsc-fatrans| conda:required_by:: ucsc-fatrans
+.. |downloads_ucsc-fatrans| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fatrans.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-fatrans| image:: https://quay.io/repository/biocontainers/ucsc-fatrans/status
+   :target: https://quay.io/repository/biocontainers/ucsc-fatrans
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-fatrans.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-fatrans/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-fatrans/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-fatrans/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-fatrans/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-fatrans
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fatrans/status
-                :target: https://quay.io/repository/biocontainers/ucsc-fatrans
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-fatrans/README.html
 

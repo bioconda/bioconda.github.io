@@ -1,54 +1,66 @@
-.. _`perl-class-singleton`:
+.. title:: Package Recipe 'perl-class-singleton'
+.. highlight: bash
+
 
 perl-class-singleton
 ====================
 
-|downloads|
+.. conda:recipe:: perl-class-singleton
+   :replaces_section_title:
 
-Base class for creating singleton objects
+   Base class for creating singleton objects
 
-============= ===========
-Home          http://metacpan.org/pod/Class::Singleton
-Versions      1.5
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-singleton/meta.yaml
+   :homepage: http://metacpan.org/pod/Class::Singleton
+   :license: unknown
+   :recipe: /`perl-class-singleton <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-singleton>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-singleton/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-class-singleton
 
-Installation
-------------
+   |downloads_perl-class-singleton| |docker_perl-class-singleton|
 
-.. highlight: bash
+   :versions: 1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-class-singleton
+   :required~by: |required_by_perl-class-singleton|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-class-singleton
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-class-singleton
+
+   and update with::
+
+      conda update perl-class-singleton
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-class-singleton
+
+
+.. |required_by_perl-class-singleton| conda:required_by:: perl-class-singleton
+.. |downloads_perl-class-singleton| image:: https://img.shields.io/conda/dn/bioconda/perl-class-singleton.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-class-singleton| image:: https://quay.io/repository/biocontainers/perl-class-singleton/status
+   :target: https://quay.io/repository/biocontainers/perl-class-singleton
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-class-singleton.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-class-singleton/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-class-singleton/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-class-singleton/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-class-singleton/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-class-singleton
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-class-singleton/status
-                :target: https://quay.io/repository/biocontainers/perl-class-singleton
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-class-singleton/README.html
 

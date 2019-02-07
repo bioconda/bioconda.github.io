@@ -1,56 +1,67 @@
-.. _`bioconductor-oncosimulr`:
+.. title:: Package Recipe 'bioconductor-oncosimulr'
+.. highlight: bash
+
 
 bioconductor-oncosimulr
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-oncosimulr
+   :replaces_section_title:
 
-Functions for forward population genetic simulation in asexual populations\, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes\, including epistasis\, order restrictions in mutation accumulation\, and order effects.  Mutation rates can differ between genes\, and we can include mutator\/antimutator genes \(to model mutator phenotypes\). Simulations use continuous\-time models and can include driver and passenger genes and modules.  Also included are functions for\: simulating random DAGs of the type found in Oncogenetic Tress\, Conjunctive Bayesian Networks\, and other tumor progression models\; plotting and sampling from single or multiple realizations of the simulations\, including single\-cell sampling\; plotting the parent\-child relationships of the clones\; generating random fitness landscapes \(Rough Mount Fuji\, House of Cards\, and additive models\) and plotting them.
+   Functions for forward population genetic simulation in asexual populations\, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes\, including epistasis\, order restrictions in mutation accumulation\, and order effects.  Mutation rates can differ between genes\, and we can include mutator\/antimutator genes \(to model mutator phenotypes\). Simulations use continuous\-time models and can include driver and passenger genes and modules.  Also included are functions for\: simulating random DAGs of the type found in Oncogenetic Tress\, Conjunctive Bayesian Networks\, and other tumor progression models\; plotting and sampling from single or multiple realizations of the simulations\, including single\-cell sampling\; plotting the parent\-child relationships of the clones\; generating random fitness landscapes \(Rough Mount Fuji\, House of Cards\, and additive models\) and plotting them.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/OncoSimulR.html
-Versions      2.12.0, 2.10.0, 2.8.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oncosimulr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OncoSimulR.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-oncosimulr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr/meta.yaml>`_
+   :links: biotools: :biotools:`oncosimulr`
 
-
-
-Links         biotools: :biotools:`oncosimulr`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-oncosimulr
 
-Installation
-------------
+   |downloads_bioconductor-oncosimulr| |docker_bioconductor-oncosimulr|
 
-.. highlight: bash
+   :versions: 2.12.0, 2.10.0, 2.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.12.4 :conda:package:`r-smatr`  
 
-   conda install bioconductor-oncosimulr
+   :required~by: |required_by_bioconductor-oncosimulr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-oncosimulr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-oncosimulr
+
+   and update with::
+
+      conda update bioconductor-oncosimulr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-oncosimulr
+
+
+.. |required_by_bioconductor-oncosimulr| conda:required_by:: bioconductor-oncosimulr
+.. |downloads_bioconductor-oncosimulr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncosimulr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-oncosimulr| image:: https://quay.io/repository/biocontainers/bioconductor-oncosimulr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-oncosimulr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-oncosimulr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-oncosimulr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-oncosimulr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-oncosimulr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-oncosimulr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-oncosimulr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-oncosimulr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-oncosimulr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-oncosimulr/README.html
 

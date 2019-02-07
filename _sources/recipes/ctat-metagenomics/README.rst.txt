@@ -1,54 +1,66 @@
-.. _`ctat-metagenomics`:
+.. title:: Package Recipe 'ctat-metagenomics'
+.. highlight: bash
+
 
 ctat-metagenomics
 =================
 
-|downloads|
+.. conda:recipe:: ctat-metagenomics
+   :replaces_section_title:
 
-ctat\-metagenomics uses centrifuge
+   ctat\-metagenomics uses centrifuge
 
-============= ===========
-Home          https://github.com/NCIP/ctat-metagenomics
-Versions      1.0.1
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ctat-metagenomics/meta.yaml
+   :homepage: https://github.com/NCIP/ctat-metagenomics
+   :license: BSD-3-Clause
+   :recipe: /`ctat-metagenomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-metagenomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-metagenomics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ctat-metagenomics
 
-Installation
-------------
+   |downloads_ctat-metagenomics| |docker_ctat-metagenomics|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`centrifuge`  :conda:package:`python` 2.7* 
 
-   conda install ctat-metagenomics
+   :required~by: |required_by_ctat-metagenomics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ctat-metagenomics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ctat-metagenomics
+
+   and update with::
+
+      conda update ctat-metagenomics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ctat-metagenomics
+
+
+.. |required_by_ctat-metagenomics| conda:required_by:: ctat-metagenomics
+.. |downloads_ctat-metagenomics| image:: https://img.shields.io/conda/dn/bioconda/ctat-metagenomics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ctat-metagenomics| image:: https://quay.io/repository/biocontainers/ctat-metagenomics/status
+   :target: https://quay.io/repository/biocontainers/ctat-metagenomics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ctat-metagenomics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ctat-metagenomics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ctat-metagenomics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ctat-metagenomics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ctat-metagenomics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ctat-metagenomics
-.. |docker| image:: https://quay.io/repository/biocontainers/ctat-metagenomics/status
-                :target: https://quay.io/repository/biocontainers/ctat-metagenomics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ctat-metagenomics/README.html
 

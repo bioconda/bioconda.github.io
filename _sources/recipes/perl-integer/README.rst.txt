@@ -1,54 +1,66 @@
-.. _`perl-integer`:
+.. title:: Package Recipe 'perl-integer'
+.. highlight: bash
+
 
 perl-integer
 ============
 
-|downloads|
+.. conda:recipe:: perl-integer/1.01
+   :replaces_section_title:
 
-Perl pragma to use integer arithmetic instead of floating point
+   Perl pragma to use integer arithmetic instead of floating point
 
-============= ===========
-Home          http://metacpan.org/pod/integer
-Versions      1.01
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-integer/1.01/meta.yaml
+   :homepage: http://metacpan.org/pod/integer
+   :license: perl_5
+   :recipe: /`perl-integer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer>`_/`1.01 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer/1.01>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer/1.01/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-integer
 
-Installation
-------------
+   |downloads_perl-integer| |docker_perl-integer|
 
-.. highlight: bash
+   :versions: 1.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-integer
+   :required~by: |required_by_perl-integer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-integer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-integer
+
+   and update with::
+
+      conda update perl-integer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-integer
+
+
+.. |required_by_perl-integer| conda:required_by:: perl-integer
+.. |downloads_perl-integer| image:: https://img.shields.io/conda/dn/bioconda/perl-integer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-integer| image:: https://quay.io/repository/biocontainers/perl-integer/status
+   :target: https://quay.io/repository/biocontainers/perl-integer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-integer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-integer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-integer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-integer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-integer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-integer
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-integer/status
-                :target: https://quay.io/repository/biocontainers/perl-integer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-integer/README.html
 

@@ -1,56 +1,67 @@
-.. _`spydrpick`:
+.. title:: Package Recipe 'spydrpick'
+.. highlight: bash
+
 
 spydrpick
 =========
 
-|downloads|
+.. conda:recipe:: spydrpick
+   :replaces_section_title:
 
-Mutual information based detection of pairs of genomic loci co\-evolving under a shared selective pressure
+   Mutual information based detection of pairs of genomic loci co\-evolving under a shared selective pressure
 
-============= ===========
-Home          https://github.com/santeripuranen/SpydrPick
-Versions      1.0.0
-License       GNU Affero General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spydrpick/meta.yaml
+   :homepage: https://github.com/santeripuranen/SpydrPick
+   :license: GNU Affero General Public License
+   :recipe: /`spydrpick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spydrpick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spydrpick/meta.yaml>`_
+   :links: doi: :doi:`10.1101/523407`
 
-
-
-Links         doi: :doi:`10.1101/523407`
-
-============= ===========
+   
 
 
+.. conda:package:: spydrpick
 
-Installation
-------------
+   |downloads_spydrpick| |docker_spydrpick|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`pthread-stubs`  :conda:package:`tbb` >=2019.3 
 
-   conda install spydrpick
+   :required~by: |required_by_spydrpick|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update spydrpick
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install spydrpick
+
+   and update with::
+
+      conda update spydrpick
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/spydrpick
+
+
+.. |required_by_spydrpick| conda:required_by:: spydrpick
+.. |downloads_spydrpick| image:: https://img.shields.io/conda/dn/bioconda/spydrpick.svg?style=flat
+   :alt:   (downloads)
+.. |docker_spydrpick| image:: https://quay.io/repository/biocontainers/spydrpick/status
+   :target: https://quay.io/repository/biocontainers/spydrpick
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/spydrpick.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/spydrpick/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/spydrpick/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/spydrpick/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/spydrpick/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/spydrpick
-.. |docker| image:: https://quay.io/repository/biocontainers/spydrpick/status
-                :target: https://quay.io/repository/biocontainers/spydrpick
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/spydrpick/README.html
 

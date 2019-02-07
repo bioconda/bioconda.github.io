@@ -1,54 +1,66 @@
-.. _`bioconductor-mu19ksubccdf`:
+.. title:: Package Recipe 'bioconductor-mu19ksubccdf'
+.. highlight: bash
+
 
 bioconductor-mu19ksubccdf
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mu19ksubccdf
+   :replaces_section_title:
 
-A package containing an environment representing the Mu19KsubC.CDF file.
+   A package containing an environment representing the Mu19KsubC.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu19ksubccdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu19ksubccdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mu19ksubccdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-mu19ksubccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubccdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mu19ksubccdf
 
-Installation
-------------
+   |downloads_bioconductor-mu19ksubccdf| |docker_bioconductor-mu19ksubccdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mu19ksubccdf
+   :required~by: |required_by_bioconductor-mu19ksubccdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mu19ksubccdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mu19ksubccdf
+
+   and update with::
+
+      conda update bioconductor-mu19ksubccdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mu19ksubccdf
+
+
+.. |required_by_bioconductor-mu19ksubccdf| conda:required_by:: bioconductor-mu19ksubccdf
+.. |downloads_bioconductor-mu19ksubccdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu19ksubccdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mu19ksubccdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mu19ksubccdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mu19ksubccdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mu19ksubccdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mu19ksubccdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mu19ksubccdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mu19ksubccdf/README.html
 

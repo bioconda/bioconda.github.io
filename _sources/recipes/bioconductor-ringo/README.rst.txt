@@ -1,56 +1,67 @@
-.. _`bioconductor-ringo`:
+.. title:: Package Recipe 'bioconductor-ringo'
+.. highlight: bash
+
 
 bioconductor-ringo
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-ringo
+   :replaces_section_title:
 
-The package Ringo facilitates the primary analysis of ChIP\-chip data. The main functionalities of the package are data read\-in\, quality assessment\, data visualisation and identification of genomic regions showing enrichment in ChIP\-chip. The package has functions to deal with two\-color oligonucleotide microarrays from NimbleGen used in ChIP\-chip projects\, but also contains more general functions for ChIP\-chip data analysis\, given that the data is supplied as RGList \(raw\) or ExpressionSet \(pre\- processed\). The package employs functions from various other packages of the Bioconductor project and provides additional ChIP\-chip\-specific and NimbleGen\-specific functionalities.
+   The package Ringo facilitates the primary analysis of ChIP\-chip data. The main functionalities of the package are data read\-in\, quality assessment\, data visualisation and identification of genomic regions showing enrichment in ChIP\-chip. The package has functions to deal with two\-color oligonucleotide microarrays from NimbleGen used in ChIP\-chip projects\, but also contains more general functions for ChIP\-chip data analysis\, given that the data is supplied as RGList \(raw\) or ExpressionSet \(pre\- processed\). The package employs functions from various other packages of the Bioconductor project and provides additional ChIP\-chip\-specific and NimbleGen\-specific functionalities.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Ringo.html
-Versions      1.46.0, 1.44.0, 1.42.0, 1.40.0, 1.38.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ringo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Ringo.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ringo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo/meta.yaml>`_
+   :links: biotools: :biotools:`ringo`
 
-
-
-Links         biotools: :biotools:`ringo`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ringo
 
-Installation
-------------
+   |downloads_bioconductor-ringo| |docker_bioconductor-ringo|
 
-.. highlight: bash
+   :versions: 1.46.0, 1.44.0, 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-matrix`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-ringo
+   :required~by: |required_by_bioconductor-ringo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ringo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ringo
+
+   and update with::
+
+      conda update bioconductor-ringo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ringo
+
+
+.. |required_by_bioconductor-ringo| conda:required_by:: bioconductor-ringo
+.. |downloads_bioconductor-ringo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ringo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ringo| image:: https://quay.io/repository/biocontainers/bioconductor-ringo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ringo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ringo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ringo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ringo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ringo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ringo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ringo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ringo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ringo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ringo/README.html
 

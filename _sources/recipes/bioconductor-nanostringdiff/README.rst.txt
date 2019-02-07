@@ -1,54 +1,66 @@
-.. _`bioconductor-nanostringdiff`:
+.. title:: Package Recipe 'bioconductor-nanostringdiff'
+.. highlight: bash
+
 
 bioconductor-nanostringdiff
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-nanostringdiff
+   :replaces_section_title:
 
-This Package utilizes a generalized linear model\(GLM\) of the negative binomial family to characterize count data and allows for multi\-factor design. NanoStrongDiff incorporate size factors\, calculated from positive controls and housekeeping controls\, and background level\, obtained from negative controls\, in the model framework so that all the normalization information provided by NanoString nCounter Analyzer is fully utilized.
+   This Package utilizes a generalized linear model\(GLM\) of the negative binomial family to characterize count data and allows for multi\-factor design. NanoStrongDiff incorporate size factors\, calculated from positive controls and housekeeping controls\, and background level\, obtained from negative controls\, in the model framework so that all the normalization information provided by NanoString nCounter Analyzer is fully utilized.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/NanoStringDiff.html
-Versions      1.12.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nanostringdiff/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NanoStringDiff.html
+   :license: GPL
+   :recipe: /`bioconductor-nanostringdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-nanostringdiff
 
-Installation
-------------
+   |downloads_bioconductor-nanostringdiff| |docker_bioconductor-nanostringdiff|
 
-.. highlight: bash
+   :versions: 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrixstats`  :conda:package:`r-rcpp`  
 
-   conda install bioconductor-nanostringdiff
+   :required~by: |required_by_bioconductor-nanostringdiff|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-nanostringdiff
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-nanostringdiff
+
+   and update with::
+
+      conda update bioconductor-nanostringdiff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-nanostringdiff
+
+
+.. |required_by_bioconductor-nanostringdiff| conda:required_by:: bioconductor-nanostringdiff
+.. |downloads_bioconductor-nanostringdiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nanostringdiff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-nanostringdiff| image:: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-nanostringdiff.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-nanostringdiff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-nanostringdiff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-nanostringdiff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-nanostringdiff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-nanostringdiff
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-nanostringdiff/README.html
 

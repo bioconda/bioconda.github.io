@@ -1,56 +1,67 @@
-.. _`codingquarry`:
+.. title:: Package Recipe 'codingquarry'
+.. highlight: bash
+
 
 codingquarry
 ============
 
-|downloads|
+.. conda:recipe:: codingquarry
+   :replaces_section_title:
 
-CodingQuarry\: highly accurate hidden Markov model gene prediction in fungal genomes using RNA\-seq transcripts.
+   CodingQuarry\: highly accurate hidden Markov model gene prediction in fungal genomes using RNA\-seq transcripts.
 
-============= ===========
-Home          https://sourceforge.net/p/codingquarry/
-Versions      2.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//codingquarry/meta.yaml
+   :homepage: https://sourceforge.net/p/codingquarry/
+   :license: GPL / GPL-3
+   :recipe: /`codingquarry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codingquarry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codingquarry/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12864-015-1344-4`
 
-
-
-Links         doi: :doi:`10.1186/s12864-015-1344-4`
-
-============= ===========
+   
 
 
+.. conda:package:: codingquarry
 
-Installation
-------------
+   |downloads_codingquarry| |docker_codingquarry|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install codingquarry
+   :required~by: |required_by_codingquarry|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update codingquarry
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install codingquarry
+
+   and update with::
+
+      conda update codingquarry
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/codingquarry
+
+
+.. |required_by_codingquarry| conda:required_by:: codingquarry
+.. |downloads_codingquarry| image:: https://img.shields.io/conda/dn/bioconda/codingquarry.svg?style=flat
+   :alt:   (downloads)
+.. |docker_codingquarry| image:: https://quay.io/repository/biocontainers/codingquarry/status
+   :target: https://quay.io/repository/biocontainers/codingquarry
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/codingquarry.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/codingquarry/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/codingquarry/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/codingquarry/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/codingquarry/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/codingquarry
-.. |docker| image:: https://quay.io/repository/biocontainers/codingquarry/status
-                :target: https://quay.io/repository/biocontainers/codingquarry
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/codingquarry/README.html
 

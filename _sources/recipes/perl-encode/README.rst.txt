@@ -1,54 +1,66 @@
-.. _`perl-encode`:
+.. title:: Package Recipe 'perl-encode'
+.. highlight: bash
+
 
 perl-encode
 ===========
 
-|downloads|
+.. conda:recipe:: perl-encode/2.88
+   :replaces_section_title:
 
-allows you to write your script in non\-ASCII and non\-UTF\-8
+   allows you to write your script in non\-ASCII and non\-UTF\-8
 
-============= ===========
-Home          http://metacpan.org/pod/Encode
-Versions      2.88
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-encode/2.88/meta.yaml
+   :homepage: http://metacpan.org/pod/Encode
+   :license: perl_5
+   :recipe: /`perl-encode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode>`_/`2.88 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-encode
 
-Installation
-------------
+   |downloads_perl-encode| |docker_perl-encode|
 
-.. highlight: bash
+   :versions: 2.88
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-exporter`  :conda:package:`perl-parent`  
 
-   conda install perl-encode
+   :required~by: |required_by_perl-encode|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-encode
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-encode
+
+   and update with::
+
+      conda update perl-encode
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-encode
+
+
+.. |required_by_perl-encode| conda:required_by:: perl-encode
+.. |downloads_perl-encode| image:: https://img.shields.io/conda/dn/bioconda/perl-encode.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-encode| image:: https://quay.io/repository/biocontainers/perl-encode/status
+   :target: https://quay.io/repository/biocontainers/perl-encode
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-encode.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-encode/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-encode/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-encode/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-encode/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-encode
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-encode/status
-                :target: https://quay.io/repository/biocontainers/perl-encode
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-encode/README.html
 

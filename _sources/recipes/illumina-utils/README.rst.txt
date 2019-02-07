@@ -1,54 +1,66 @@
-.. _`illumina-utils`:
+.. title:: Package Recipe 'illumina-utils'
+.. highlight: bash
+
 
 illumina-utils
 ==============
 
-|downloads|
+.. conda:recipe:: illumina-utils
+   :replaces_section_title:
 
-A library and collection of scripts to work with Illumina paired\-end data \(for CASAVA 1.8\+\).
+   A library and collection of scripts to work with Illumina paired\-end data \(for CASAVA 1.8\+\).
 
-============= ===========
-Home          https://github.com/meren/illumina-utils
-Versions      2.6, 2.5, 2.4.1
-License       GNU General Public v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//illumina-utils/meta.yaml
+   :homepage: https://github.com/meren/illumina-utils
+   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :recipe: /`illumina-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-utils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: illumina-utils
 
-Installation
-------------
+   |downloads_illumina-utils| |docker_illumina-utils|
 
-.. highlight: bash
+   :versions: 2.6, 2.5, 2.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=3 :conda:package:`python-levenshtein`  
 
-   conda install illumina-utils
+   :required~by: |required_by_illumina-utils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update illumina-utils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install illumina-utils
+
+   and update with::
+
+      conda update illumina-utils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/illumina-utils
+
+
+.. |required_by_illumina-utils| conda:required_by:: illumina-utils
+.. |downloads_illumina-utils| image:: https://img.shields.io/conda/dn/bioconda/illumina-utils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_illumina-utils| image:: https://quay.io/repository/biocontainers/illumina-utils/status
+   :target: https://quay.io/repository/biocontainers/illumina-utils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/illumina-utils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/illumina-utils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/illumina-utils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/illumina-utils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/illumina-utils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/illumina-utils
-.. |docker| image:: https://quay.io/repository/biocontainers/illumina-utils/status
-                :target: https://quay.io/repository/biocontainers/illumina-utils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/illumina-utils/README.html
 

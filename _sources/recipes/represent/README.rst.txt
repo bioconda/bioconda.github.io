@@ -1,54 +1,66 @@
-.. _`represent`:
+.. title:: Package Recipe 'represent'
+.. highlight: bash
+
 
 represent
 =========
 
-|downloads|
+.. conda:recipe:: represent
+   :replaces_section_title:
 
-Create \_\_repr\_\_ automatically or declaratively.
+   Create \_\_repr\_\_ automatically or declaratively.
 
-============= ===========
-Home          https://github.com/RazerM/represent
-Versions      1.5.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//represent/meta.yaml
+   :homepage: https://github.com/RazerM/represent
+   :license: MIT / MIT License
+   :recipe: /`represent <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/represent>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/represent/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: represent
 
-Installation
-------------
+   |downloads_represent| |docker_represent|
 
-.. highlight: bash
+   :versions: 1.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`six` >=1.8.0 
 
-   conda install represent
+   :required~by: |required_by_represent|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update represent
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install represent
+
+   and update with::
+
+      conda update represent
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/represent
+
+
+.. |required_by_represent| conda:required_by:: represent
+.. |downloads_represent| image:: https://img.shields.io/conda/dn/bioconda/represent.svg?style=flat
+   :alt:   (downloads)
+.. |docker_represent| image:: https://quay.io/repository/biocontainers/represent/status
+   :target: https://quay.io/repository/biocontainers/represent
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/represent.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/represent/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/represent/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/represent/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/represent/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/represent
-.. |docker| image:: https://quay.io/repository/biocontainers/represent/status
-                :target: https://quay.io/repository/biocontainers/represent
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/represent/README.html
 

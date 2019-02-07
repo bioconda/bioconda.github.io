@@ -1,56 +1,67 @@
-.. _`megan`:
+.. title:: Package Recipe 'megan'
+.. highlight: bash
+
 
 megan
 =====
 
-|downloads|
+.. conda:recipe:: megan
+   :replaces_section_title:
 
-A tool for studying the taxonomic content of a set of DNA reads
+   A tool for studying the taxonomic content of a set of DNA reads
 
-============= ===========
-Home          http://ab.inf.uni-tuebingen.de/software/megan6/
-Versions      6.12.3
-License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//megan/meta.yaml
+   :homepage: http://ab.inf.uni-tuebingen.de/software/megan6/
+   :license: GPL >=3
+   :recipe: /`megan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megan/meta.yaml>`_
+   :links: biotools: :biotools:`megan`
 
-
-
-Links         biotools: :biotools:`megan`
-
-============= ===========
+   
 
 
+.. conda:package:: megan
 
-Installation
-------------
+   |downloads_megan| |docker_megan|
 
-.. highlight: bash
+   :versions: 6.12.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8.0.144 
 
-   conda install megan
+   :required~by: |required_by_megan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update megan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install megan
+
+   and update with::
+
+      conda update megan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/megan
+
+
+.. |required_by_megan| conda:required_by:: megan
+.. |downloads_megan| image:: https://img.shields.io/conda/dn/bioconda/megan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_megan| image:: https://quay.io/repository/biocontainers/megan/status
+   :target: https://quay.io/repository/biocontainers/megan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/megan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/megan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/megan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/megan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/megan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/megan
-.. |docker| image:: https://quay.io/repository/biocontainers/megan/status
-                :target: https://quay.io/repository/biocontainers/megan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/megan/README.html
 

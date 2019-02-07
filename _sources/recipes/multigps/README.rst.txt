@@ -1,54 +1,66 @@
-.. _`multigps`:
+.. title:: Package Recipe 'multigps'
+.. highlight: bash
+
 
 multigps
 ========
 
-|downloads|
+.. conda:recipe:: multigps/0.74
+   :replaces_section_title:
 
-MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions.
+   MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions.
 
-============= ===========
-Home          http://mahonylab.org/software/multigps/
-Versions      0.74, 0.73, 0.72, 0.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//multigps/0.74/meta.yaml
+   :homepage: http://mahonylab.org/software/multigps/
+   :license: MIT
+   :recipe: /`multigps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps>`_/`0.74 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.74>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.74/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: multigps
 
-Installation
-------------
+   |downloads_multigps| |docker_multigps|
 
-.. highlight: bash
+   :versions: 0.74, 0.73, 0.72, 0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-edger`  :conda:package:`meme` >=4.11.2 :conda:package:`openjdk` >=8 :conda:package:`r-base`  
 
-   conda install multigps
+   :required~by: |required_by_multigps|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update multigps
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install multigps
+
+   and update with::
+
+      conda update multigps
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/multigps
+
+
+.. |required_by_multigps| conda:required_by:: multigps
+.. |downloads_multigps| image:: https://img.shields.io/conda/dn/bioconda/multigps.svg?style=flat
+   :alt:   (downloads)
+.. |docker_multigps| image:: https://quay.io/repository/biocontainers/multigps/status
+   :target: https://quay.io/repository/biocontainers/multigps
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/multigps.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/multigps/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/multigps/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/multigps/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/multigps/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/multigps
-.. |docker| image:: https://quay.io/repository/biocontainers/multigps/status
-                :target: https://quay.io/repository/biocontainers/multigps
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/multigps/README.html
 

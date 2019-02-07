@@ -1,54 +1,66 @@
-.. _`perl-safe`:
+.. title:: Package Recipe 'perl-safe'
+.. highlight: bash
+
 
 perl-safe
 =========
 
-|downloads|
+.. conda:recipe:: perl-safe/2.37
+   :replaces_section_title:
 
-Compile and execute code in restricted compartments
+   Compile and execute code in restricted compartments
 
-============= ===========
-Home          http://metacpan.org/pod/Safe
-Versions      2.37
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-safe/2.37/meta.yaml
+   :homepage: http://metacpan.org/pod/Safe
+   :license: unknown
+   :recipe: /`perl-safe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-safe>`_/`2.37 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-safe/2.37>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-safe/2.37/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-safe
 
-Installation
-------------
+   |downloads_perl-safe| |docker_perl-safe|
 
-.. highlight: bash
+   :versions: 2.37
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-safe
+   :required~by: |required_by_perl-safe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-safe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-safe
+
+   and update with::
+
+      conda update perl-safe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-safe
+
+
+.. |required_by_perl-safe| conda:required_by:: perl-safe
+.. |downloads_perl-safe| image:: https://img.shields.io/conda/dn/bioconda/perl-safe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-safe| image:: https://quay.io/repository/biocontainers/perl-safe/status
+   :target: https://quay.io/repository/biocontainers/perl-safe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-safe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-safe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-safe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-safe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-safe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-safe
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-safe/status
-                :target: https://quay.io/repository/biocontainers/perl-safe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-safe/README.html
 

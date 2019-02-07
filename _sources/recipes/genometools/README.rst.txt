@@ -1,54 +1,66 @@
-.. _`genometools`:
+.. title:: Package Recipe 'genometools'
+.. highlight: bash
+
 
 genometools
 ===========
 
-|downloads|
+.. conda:recipe:: genometools
+   :replaces_section_title:
 
-GenomeTools\: Scripts and Classes For Working With Genomic Data.
+   GenomeTools\: Scripts and Classes For Working With Genomic Data.
 
-============= ===========
-Home          https://github.com/flo-compbio/genometools
-Versions      1.2.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genometools/meta.yaml
+   :homepage: https://github.com/flo-compbio/genometools
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`genometools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: genometools
 
-Installation
-------------
+   |downloads_genometools| |docker_genometools|
 
-.. highlight: bash
+   :versions: 1.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ftputil`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`requests`  :conda:package:`unicodecsv`  :conda:package:`xmltodict`  
 
-   conda install genometools
+   :required~by: |required_by_genometools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genometools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genometools
+
+   and update with::
+
+      conda update genometools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genometools
+
+
+.. |required_by_genometools| conda:required_by:: genometools
+.. |downloads_genometools| image:: https://img.shields.io/conda/dn/bioconda/genometools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genometools| image:: https://quay.io/repository/biocontainers/genometools/status
+   :target: https://quay.io/repository/biocontainers/genometools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genometools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genometools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genometools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genometools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genometools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genometools
-.. |docker| image:: https://quay.io/repository/biocontainers/genometools/status
-                :target: https://quay.io/repository/biocontainers/genometools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genometools/README.html
 

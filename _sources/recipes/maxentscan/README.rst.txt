@@ -1,36 +1,56 @@
-.. _`maxentscan`:
+.. title:: Package Recipe 'maxentscan'
+.. highlight: bash
+
 
 maxentscan
 ==========
 
-|downloads|
+.. conda:recipe:: maxentscan
+   :replaces_section_title:
 
-MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models.
+   MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models.
 
-============= ===========
-Home          http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
-Versions      0_2004.04.21
-License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//maxentscan/meta.yaml
+   :homepage: http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
+   :license: 
+   :recipe: /`maxentscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentscan/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: maxentscan
 
-Installation
-------------
+   |downloads_maxentscan| |docker_maxentscan|
 
-.. highlight: bash
+   :versions: 0_2004.04.21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install maxentscan
+   :required~by: |required_by_maxentscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update maxentscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install maxentscan
+
+   and update with::
+
+      conda update maxentscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/maxentscan
+
+
+.. |required_by_maxentscan| conda:required_by:: maxentscan
+.. |downloads_maxentscan| image:: https://img.shields.io/conda/dn/bioconda/maxentscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_maxentscan| image:: https://quay.io/repository/biocontainers/maxentscan/status
+   :target: https://quay.io/repository/biocontainers/maxentscan
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 Due to the generic name of the included scripts\, \"maxentscan\_\" has been prefixed all executables\, e.g. score3.pl can be called as maxentscan\_score3.pl.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/maxentscan.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/maxentscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/maxentscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/maxentscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/maxentscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/maxentscan
-.. |docker| image:: https://quay.io/repository/biocontainers/maxentscan/status
-                :target: https://quay.io/repository/biocontainers/maxentscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/maxentscan/README.html
 

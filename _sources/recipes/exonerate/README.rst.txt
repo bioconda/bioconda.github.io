@@ -1,56 +1,67 @@
-.. _`exonerate`:
+.. title:: Package Recipe 'exonerate'
+.. highlight: bash
+
 
 exonerate
 =========
 
-|downloads|
+.. conda:recipe:: exonerate
+   :replaces_section_title:
 
-Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
+   Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
 
-============= ===========
-Home          https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
-Versions      2.4.0, 2.2.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//exonerate/meta.yaml
+   :homepage: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
+   :license: GPL-3.0
+   :recipe: /`exonerate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate/meta.yaml>`_
+   :links: biotools: :biotools:`exonerate`
 
-
-
-Links         biotools: :biotools:`exonerate`
-
-============= ===========
+   
 
 
+.. conda:package:: exonerate
 
-Installation
-------------
+   |downloads_exonerate| |docker_exonerate|
 
-.. highlight: bash
+   :versions: 2.4.0, 2.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`glib`  :conda:package:`libgcc`  :conda:package:`pcre`  
 
-   conda install exonerate
+   :required~by: |required_by_exonerate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update exonerate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install exonerate
+
+   and update with::
+
+      conda update exonerate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/exonerate
+
+
+.. |required_by_exonerate| conda:required_by:: exonerate
+.. |downloads_exonerate| image:: https://img.shields.io/conda/dn/bioconda/exonerate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_exonerate| image:: https://quay.io/repository/biocontainers/exonerate/status
+   :target: https://quay.io/repository/biocontainers/exonerate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/exonerate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/exonerate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/exonerate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/exonerate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/exonerate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/exonerate
-.. |docker| image:: https://quay.io/repository/biocontainers/exonerate/status
-                :target: https://quay.io/repository/biocontainers/exonerate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/exonerate/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-seqcat`:
+.. title:: Package Recipe 'bioconductor-seqcat'
+.. highlight: bash
+
 
 bioconductor-seqcat
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-seqcat
+   :replaces_section_title:
 
-The seqCAT package uses variant calling data \(in the form of VCF files\) from high throughput sequencing technologies to authenticate and validate the source\, function and characteristics of biological samples used in scientific endeavours.
+   The seqCAT package uses variant calling data \(in the form of VCF files\) from high throughput sequencing technologies to authenticate and validate the source\, function and characteristics of biological samples used in scientific endeavours.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/seqCAT.html
-Versions      1.4.0
-License       MIT + file LICENCE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcat/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqCAT.html
+   :license: MIT + file LICENCE
+   :recipe: /`bioconductor-seqcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-seqcat
 
-Installation
-------------
+   |downloads_bioconductor-seqcat| |docker_bioconductor-seqcat|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.5.0 :conda:package:`r-ggplot2` >=2.2.1 :conda:package:`r-lazyeval` >=0.2.0 :conda:package:`r-scales` >=0.4.1 :conda:package:`r-tidyr` >=0.6.1 
 
-   conda install bioconductor-seqcat
+   :required~by: |required_by_bioconductor-seqcat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-seqcat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-seqcat
+
+   and update with::
+
+      conda update bioconductor-seqcat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-seqcat
+
+
+.. |required_by_bioconductor-seqcat| conda:required_by:: bioconductor-seqcat
+.. |downloads_bioconductor-seqcat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-seqcat| image:: https://quay.io/repository/biocontainers/bioconductor-seqcat/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-seqcat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-seqcat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-seqcat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-seqcat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-seqcat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-seqcat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-seqcat
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seqcat/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-seqcat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-seqcat/README.html
 

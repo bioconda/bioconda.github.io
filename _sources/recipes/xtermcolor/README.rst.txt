@@ -1,54 +1,66 @@
-.. _`xtermcolor`:
+.. title:: Package Recipe 'xtermcolor'
+.. highlight: bash
+
 
 xtermcolor
 ==========
 
-|downloads|
+.. conda:recipe:: xtermcolor
+   :replaces_section_title:
 
-Python library for terminal color support \(including 256\-color support
+   Python library for terminal color support \(including 256\-color support
 
-============= ===========
-Home          https://github.com/broadinstitute/xtermcolor
-Versions      1.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xtermcolor/meta.yaml
+   :homepage: https://github.com/broadinstitute/xtermcolor
+   :license: MIT
+   :recipe: /`xtermcolor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtermcolor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtermcolor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: xtermcolor
 
-Installation
-------------
+   |downloads_xtermcolor| |docker_xtermcolor|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install xtermcolor
+   :required~by: |required_by_xtermcolor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xtermcolor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xtermcolor
+
+   and update with::
+
+      conda update xtermcolor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xtermcolor
+
+
+.. |required_by_xtermcolor| conda:required_by:: xtermcolor
+.. |downloads_xtermcolor| image:: https://img.shields.io/conda/dn/bioconda/xtermcolor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xtermcolor| image:: https://quay.io/repository/biocontainers/xtermcolor/status
+   :target: https://quay.io/repository/biocontainers/xtermcolor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xtermcolor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xtermcolor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xtermcolor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xtermcolor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xtermcolor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xtermcolor
-.. |docker| image:: https://quay.io/repository/biocontainers/xtermcolor/status
-                :target: https://quay.io/repository/biocontainers/xtermcolor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xtermcolor/README.html
 

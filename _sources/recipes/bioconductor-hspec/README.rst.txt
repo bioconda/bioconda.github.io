@@ -1,54 +1,66 @@
-.. _`bioconductor-hspec`:
+.. title:: Package Recipe 'bioconductor-hspec'
+.. highlight: bash
+
 
 bioconductor-hspec
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-hspec
+   :replaces_section_title:
 
-A package containing an environment representing the HGU133Plus2\_Hs\_Hspec.cdf file.
+   A package containing an environment representing the HGU133Plus2\_Hs\_Hspec.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/Hspec.html
-Versions      0.99.1
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hspec/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/Hspec.html
+   :license: LGPL
+   :recipe: /`bioconductor-hspec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspec/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hspec
 
-Installation
-------------
+   |downloads_bioconductor-hspec| |docker_bioconductor-hspec|
 
-.. highlight: bash
+   :versions: 0.99.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hspec
+   :required~by: |required_by_bioconductor-hspec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hspec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hspec
+
+   and update with::
+
+      conda update bioconductor-hspec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hspec
+
+
+.. |required_by_bioconductor-hspec| conda:required_by:: bioconductor-hspec
+.. |downloads_bioconductor-hspec| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hspec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hspec| image:: https://quay.io/repository/biocontainers/bioconductor-hspec/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hspec
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hspec.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hspec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hspec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hspec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hspec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hspec
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hspec/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hspec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hspec/README.html
 

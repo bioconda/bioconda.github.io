@@ -1,56 +1,67 @@
-.. _`dsrc`:
+.. title:: Package Recipe 'dsrc'
+.. highlight: bash
+
 
 dsrc
 ====
 
-|downloads|
+.. conda:recipe:: dsrc
+   :replaces_section_title:
 
-high\-performance compression of sequencing reads stored in FASTQ format
+   high\-performance compression of sequencing reads stored in FASTQ format
 
-============= ===========
-Home          https://github.com/refresh-bio/DSRC
-Versions      2015.06.04, 2014.12.17
-License       GNU GPL 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dsrc/meta.yaml
+   :homepage: https://github.com/refresh-bio/DSRC
+   :license: GNU GPL 2
+   :recipe: /`dsrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc/meta.yaml>`_
+   :links: biotools: :biotools:`dsrc`
 
-
-
-Links         biotools: :biotools:`dsrc`
-
-============= ===========
+   
 
 
+.. conda:package:: dsrc
 
-Installation
-------------
+   |downloads_dsrc| |docker_dsrc|
 
-.. highlight: bash
+   :versions: 2015.06.04, 2014.12.17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install dsrc
+   :required~by: |required_by_dsrc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dsrc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dsrc
+
+   and update with::
+
+      conda update dsrc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dsrc
+
+
+.. |required_by_dsrc| conda:required_by:: dsrc
+.. |downloads_dsrc| image:: https://img.shields.io/conda/dn/bioconda/dsrc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dsrc| image:: https://quay.io/repository/biocontainers/dsrc/status
+   :target: https://quay.io/repository/biocontainers/dsrc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dsrc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dsrc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dsrc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dsrc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dsrc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dsrc
-.. |docker| image:: https://quay.io/repository/biocontainers/dsrc/status
-                :target: https://quay.io/repository/biocontainers/dsrc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dsrc/README.html
 

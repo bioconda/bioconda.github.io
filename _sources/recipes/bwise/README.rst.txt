@@ -1,54 +1,66 @@
-.. _`bwise`:
+.. title:: Package Recipe 'bwise'
+.. highlight: bash
+
 
 bwise
 =====
 
-|downloads|
+.. conda:recipe:: bwise
+   :replaces_section_title:
 
-BWISE is a de Bruijn assembly Workflow using Integral information of Short paired\-End reads
+   BWISE is a de Bruijn assembly Workflow using Integral information of Short paired\-End reads
 
-============= ===========
-Home          https://github.com/Malfoy/BWISE
-Versions      
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bwise/meta.yaml
+   :homepage: https://github.com/Malfoy/BWISE
+   :license: AGPL-3.0
+   :recipe: /`bwise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwise/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bwise
 
-Installation
-------------
+   |downloads_bwise| |docker_bwise|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bwise
+   :required~by: |required_by_bwise|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bwise
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bwise
+
+   and update with::
+
+      conda update bwise
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bwise
+
+
+.. |required_by_bwise| conda:required_by:: bwise
+.. |downloads_bwise| image:: https://img.shields.io/conda/dn/bioconda/bwise.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bwise| image:: https://quay.io/repository/biocontainers/bwise/status
+   :target: https://quay.io/repository/biocontainers/bwise
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bwise.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bwise/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bwise/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bwise/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bwise/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bwise
-.. |docker| image:: https://quay.io/repository/biocontainers/bwise/status
-                :target: https://quay.io/repository/biocontainers/bwise
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bwise/README.html
 

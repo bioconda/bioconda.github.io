@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu133aprobe`:
+.. title:: Package Recipe 'bioconductor-hgu133aprobe'
+.. highlight: bash
+
 
 bioconductor-hgu133aprobe
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu133aprobe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U133A\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U133A\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133aprobe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133aprobe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu133aprobe.html
+   :license: LGPL
+   :recipe: /`bioconductor-hgu133aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133aprobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu133aprobe
 
-Installation
-------------
+   |downloads_bioconductor-hgu133aprobe| |docker_bioconductor-hgu133aprobe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu133aprobe
+   :required~by: |required_by_bioconductor-hgu133aprobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu133aprobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu133aprobe
+
+   and update with::
+
+      conda update bioconductor-hgu133aprobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133aprobe
+
+
+.. |required_by_bioconductor-hgu133aprobe| conda:required_by:: bioconductor-hgu133aprobe
+.. |downloads_bioconductor-hgu133aprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133aprobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu133aprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133aprobe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu133aprobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu133aprobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu133aprobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu133aprobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu133aprobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu133aprobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu133aprobe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133aprobe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu133aprobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu133aprobe/README.html
 

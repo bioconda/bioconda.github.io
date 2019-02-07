@@ -1,56 +1,67 @@
-.. _`bioconductor-hilbertvis`:
+.. title:: Package Recipe 'bioconductor-hilbertvis'
+.. highlight: bash
+
 
 bioconductor-hilbertvis
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hilbertvis
+   :replaces_section_title:
 
-Functions to visualize long vectors of integer data by means of Hilbert curves
+   Functions to visualize long vectors of integer data by means of Hilbert curves
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HilbertVis.html
-Versions      1.40.0, 1.38.0, 1.36.0, 1.34.0, 1.32.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hilbertvis/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HilbertVis.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-hilbertvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis/meta.yaml>`_
+   :links: biotools: :biotools:`hilbertvis`, doi: :doi:`10.1093/bioinformatics/btp152`
 
-
-
-Links         biotools: :biotools:`hilbertvis`, doi: :doi:`10.1093/bioinformatics/btp152`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hilbertvis
 
-Installation
-------------
+   |downloads_bioconductor-hilbertvis| |docker_bioconductor-hilbertvis|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0, 1.32.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  
 
-   conda install bioconductor-hilbertvis
+   :required~by: |required_by_bioconductor-hilbertvis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hilbertvis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hilbertvis
+
+   and update with::
+
+      conda update bioconductor-hilbertvis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hilbertvis
+
+
+.. |required_by_bioconductor-hilbertvis| conda:required_by:: bioconductor-hilbertvis
+.. |downloads_bioconductor-hilbertvis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hilbertvis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hilbertvis| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvis/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hilbertvis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hilbertvis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hilbertvis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hilbertvis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hilbertvis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hilbertvis
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvis/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hilbertvis/README.html
 

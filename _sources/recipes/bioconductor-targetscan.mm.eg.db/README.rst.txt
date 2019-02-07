@@ -1,54 +1,66 @@
-.. _`bioconductor-targetscan.mm.eg.db`:
+.. title:: Package Recipe 'bioconductor-targetscan.mm.eg.db'
+.. highlight: bash
+
 
 bioconductor-targetscan.mm.eg.db
 ================================
 
-|downloads|
+.. conda:recipe:: bioconductor-targetscan.mm.eg.db
+   :replaces_section_title:
 
-TargetScan miRNA target predictions for mouse assembled using data from the TargetScan website. TargetScan predicts biological targets of miRNAs by searching for the presence of conserved 8mer and 7mer sites that match the seed region of each miRNA. Also identified are sites with mismatches in the seed region that are compensated by conserved 3\' pairing. In mammals\, predictions are ranked based on the predicted efficacy of targeting as calculated using the context scores of the sites.
+   TargetScan miRNA target predictions for mouse assembled using data from the TargetScan website. TargetScan predicts biological targets of miRNAs by searching for the presence of conserved 8mer and 7mer sites that match the seed region of each miRNA. Also identified are sites with mismatches in the seed region that are compensated by conserved 3\' pairing. In mammals\, predictions are ranked based on the predicted efficacy of targeting as calculated using the context scores of the sites.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/targetscan.Mm.eg.db.html
-Versions      0.6.1
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-targetscan.mm.eg.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/targetscan.Mm.eg.db.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-targetscan.mm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-targetscan.mm.eg.db
 
-Installation
-------------
+   |downloads_bioconductor-targetscan.mm.eg.db| |docker_bioconductor-targetscan.mm.eg.db|
 
-.. highlight: bash
+   :versions: 0.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-targetscan.mm.eg.db
+   :required~by: |required_by_bioconductor-targetscan.mm.eg.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-targetscan.mm.eg.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-targetscan.mm.eg.db
+
+   and update with::
+
+      conda update bioconductor-targetscan.mm.eg.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db
+
+
+.. |required_by_bioconductor-targetscan.mm.eg.db| conda:required_by:: bioconductor-targetscan.mm.eg.db
+.. |downloads_bioconductor-targetscan.mm.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-targetscan.mm.eg.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-targetscan.mm.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-targetscan.mm.eg.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-targetscan.mm.eg.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-targetscan.mm.eg.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-targetscan.mm.eg.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-targetscan.mm.eg.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-targetscan.mm.eg.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-targetscan.mm.eg.db/README.html
 

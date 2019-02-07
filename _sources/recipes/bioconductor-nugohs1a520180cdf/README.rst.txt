@@ -1,54 +1,66 @@
-.. _`bioconductor-nugohs1a520180cdf`:
+.. title:: Package Recipe 'bioconductor-nugohs1a520180cdf'
+.. highlight: bash
+
 
 bioconductor-nugohs1a520180cdf
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-nugohs1a520180cdf
+   :replaces_section_title:
 
-A package containing an environment representing the NuGO\_Hs1a520180.cdf file.
+   A package containing an environment representing the NuGO\_Hs1a520180.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180cdf.html
-Versions      3.4.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nugohs1a520180cdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180cdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-nugohs1a520180cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180cdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-nugohs1a520180cdf
 
-Installation
-------------
+   |downloads_bioconductor-nugohs1a520180cdf| |docker_bioconductor-nugohs1a520180cdf|
 
-.. highlight: bash
+   :versions: 3.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-nugohs1a520180cdf
+   :required~by: |required_by_bioconductor-nugohs1a520180cdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-nugohs1a520180cdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-nugohs1a520180cdf
+
+   and update with::
+
+      conda update bioconductor-nugohs1a520180cdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf
+
+
+.. |required_by_bioconductor-nugohs1a520180cdf| conda:required_by:: bioconductor-nugohs1a520180cdf
+.. |downloads_bioconductor-nugohs1a520180cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nugohs1a520180cdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-nugohs1a520180cdf| image:: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-nugohs1a520180cdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-nugohs1a520180cdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-nugohs1a520180cdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-nugohs1a520180cdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-nugohs1a520180cdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-nugohs1a520180cdf/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-onlinefdr`:
+.. title:: Package Recipe 'bioconductor-onlinefdr'
+.. highlight: bash
+
 
 bioconductor-onlinefdr
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-onlinefdr
+   :replaces_section_title:
 
-This package allows users to control the false discovery rate for online hypothesis testing\, where hypotheses arrive sequentially in a stream\, as presented by Javanmard and Montanari \(2015\, 2018\). In this framework\, a null hypothesis is rejected based only on the previous decisions\, as the future p\-values and the number of hypotheses to be tested are unknown.
+   This package allows users to control the false discovery rate for online hypothesis testing\, where hypotheses arrive sequentially in a stream\, as presented by Javanmard and Montanari \(2015\, 2018\). In this framework\, a null hypothesis is rejected based only on the previous decisions\, as the future p\-values and the number of hypotheses to be tested are unknown.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/onlineFDR.html
-Versions      1.0.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-onlinefdr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/onlineFDR.html
+   :license: GPL-3
+   :recipe: /`bioconductor-onlinefdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-onlinefdr
 
-Installation
-------------
+   |downloads_bioconductor-onlinefdr| |docker_bioconductor-onlinefdr|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-onlinefdr
+   :required~by: |required_by_bioconductor-onlinefdr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-onlinefdr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-onlinefdr
+
+   and update with::
+
+      conda update bioconductor-onlinefdr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-onlinefdr
+
+
+.. |required_by_bioconductor-onlinefdr| conda:required_by:: bioconductor-onlinefdr
+.. |downloads_bioconductor-onlinefdr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onlinefdr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-onlinefdr| image:: https://quay.io/repository/biocontainers/bioconductor-onlinefdr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-onlinefdr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-onlinefdr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-onlinefdr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-onlinefdr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-onlinefdr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-onlinefdr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-onlinefdr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-onlinefdr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-onlinefdr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-onlinefdr/README.html
 

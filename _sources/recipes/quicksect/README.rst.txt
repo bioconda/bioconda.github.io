@@ -1,54 +1,66 @@
-.. _`quicksect`:
+.. title:: Package Recipe 'quicksect'
+.. highlight: bash
+
 
 quicksect
 =========
 
-|downloads|
+.. conda:recipe:: quicksect
+   :replaces_section_title:
 
-A cythonized\, extended version of the interval search tree in bx
+   A cythonized\, extended version of the interval search tree in bx
 
-============= ===========
-Home          https://github.com/brentp/quicksect
-Versions      0.2.0, 0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quicksect/meta.yaml
+   :homepage: https://github.com/brentp/quicksect
+   :license: MIT / MIT
+   :recipe: /`quicksect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicksect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicksect/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: quicksect
 
-Installation
-------------
+   |downloads_quicksect| |docker_quicksect|
 
-.. highlight: bash
+   :versions: 0.2.0, 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install quicksect
+   :required~by: |required_by_quicksect|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update quicksect
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install quicksect
+
+   and update with::
+
+      conda update quicksect
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/quicksect
+
+
+.. |required_by_quicksect| conda:required_by:: quicksect
+.. |downloads_quicksect| image:: https://img.shields.io/conda/dn/bioconda/quicksect.svg?style=flat
+   :alt:   (downloads)
+.. |docker_quicksect| image:: https://quay.io/repository/biocontainers/quicksect/status
+   :target: https://quay.io/repository/biocontainers/quicksect
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/quicksect.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/quicksect/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/quicksect/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/quicksect/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/quicksect/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/quicksect
-.. |docker| image:: https://quay.io/repository/biocontainers/quicksect/status
-                :target: https://quay.io/repository/biocontainers/quicksect
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/quicksect/README.html
 

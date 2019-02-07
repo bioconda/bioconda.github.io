@@ -1,54 +1,66 @@
-.. _`nspdk`:
+.. title:: Package Recipe 'nspdk'
+.. highlight: bash
+
 
 nspdk
 =====
 
-|downloads|
+.. conda:recipe:: nspdk
+   :replaces_section_title:
 
-Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\).
+   Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\).
 
-============= ===========
-Home          http://dtai.cs.kuleuven.be/ml/systems/nspdk
-Versions      9.2
-License       GNUv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nspdk/meta.yaml
+   :homepage: http://dtai.cs.kuleuven.be/ml/systems/nspdk
+   :license: GNUv3
+   :recipe: /`nspdk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nspdk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nspdk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nspdk
 
-Installation
-------------
+   |downloads_nspdk| |docker_nspdk|
 
-.. highlight: bash
+   :versions: 9.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install nspdk
+   :required~by: |required_by_nspdk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nspdk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nspdk
+
+   and update with::
+
+      conda update nspdk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nspdk
+
+
+.. |required_by_nspdk| conda:required_by:: nspdk
+.. |downloads_nspdk| image:: https://img.shields.io/conda/dn/bioconda/nspdk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nspdk| image:: https://quay.io/repository/biocontainers/nspdk/status
+   :target: https://quay.io/repository/biocontainers/nspdk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nspdk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nspdk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nspdk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nspdk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nspdk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nspdk
-.. |docker| image:: https://quay.io/repository/biocontainers/nspdk/status
-                :target: https://quay.io/repository/biocontainers/nspdk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nspdk/README.html
 

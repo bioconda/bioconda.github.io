@@ -1,54 +1,66 @@
-.. _`lorma`:
+.. title:: Package Recipe 'lorma'
+.. highlight: bash
+
 
 lorma
 =====
 
-|downloads|
+.. conda:recipe:: lorma
+   :replaces_section_title:
 
-LoRMA is a tool for correcting sequencing errors in long reads.
+   LoRMA is a tool for correcting sequencing errors in long reads.
 
-============= ===========
-Home          https://www.cs.helsinki.fi/u/lmsalmel/LoRMA/
-Versions      0.4
-License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lorma/meta.yaml
+   :homepage: https://www.cs.helsinki.fi/u/lmsalmel/LoRMA/
+   :license: GNU Affero General Public License v3.0
+   :recipe: /`lorma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorma/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lorma
 
-Installation
-------------
+   |downloads_lorma| |docker_lorma|
 
-.. highlight: bash
+   :versions: 0.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`lordec`  :conda:package:`zlib` 1.2.8* 
 
-   conda install lorma
+   :required~by: |required_by_lorma|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lorma
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lorma
+
+   and update with::
+
+      conda update lorma
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lorma
+
+
+.. |required_by_lorma| conda:required_by:: lorma
+.. |downloads_lorma| image:: https://img.shields.io/conda/dn/bioconda/lorma.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lorma| image:: https://quay.io/repository/biocontainers/lorma/status
+   :target: https://quay.io/repository/biocontainers/lorma
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lorma.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lorma/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lorma/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lorma/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lorma/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lorma
-.. |docker| image:: https://quay.io/repository/biocontainers/lorma/status
-                :target: https://quay.io/repository/biocontainers/lorma
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lorma/README.html
 

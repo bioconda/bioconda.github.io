@@ -1,54 +1,66 @@
-.. _`perl-xml-xpathengine`:
+.. title:: Package Recipe 'perl-xml-xpathengine'
+.. highlight: bash
+
 
 perl-xml-xpathengine
 ====================
 
-|downloads|
+.. conda:recipe:: perl-xml-xpathengine
+   :replaces_section_title:
 
-a re\-usable XPath engine for DOM\-like trees
+   a re\-usable XPath engine for DOM\-like trees
 
-============= ===========
-Home          http://metacpan.org/pod/XML-XPathEngine
-Versions      0.14
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-xpathengine/meta.yaml
+   :homepage: http://metacpan.org/pod/XML-XPathEngine
+   :license: unknown
+   :recipe: /`perl-xml-xpathengine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-xpathengine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-xpathengine/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-xml-xpathengine
 
-Installation
-------------
+   |downloads_perl-xml-xpathengine| |docker_perl-xml-xpathengine|
 
-.. highlight: bash
+   :versions: 0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-xml-xpathengine
+   :required~by: |required_by_perl-xml-xpathengine|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-xml-xpathengine
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-xml-xpathengine
+
+   and update with::
+
+      conda update perl-xml-xpathengine
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-xml-xpathengine
+
+
+.. |required_by_perl-xml-xpathengine| conda:required_by:: perl-xml-xpathengine
+.. |downloads_perl-xml-xpathengine| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-xpathengine.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-xml-xpathengine| image:: https://quay.io/repository/biocontainers/perl-xml-xpathengine/status
+   :target: https://quay.io/repository/biocontainers/perl-xml-xpathengine
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-xml-xpathengine.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-xml-xpathengine/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-xml-xpathengine/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-xml-xpathengine/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-xml-xpathengine/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-xml-xpathengine
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-xpathengine/status
-                :target: https://quay.io/repository/biocontainers/perl-xml-xpathengine
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-xml-xpathengine/README.html
 

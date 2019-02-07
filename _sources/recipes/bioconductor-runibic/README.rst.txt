@@ -1,54 +1,66 @@
-.. _`bioconductor-runibic`:
+.. title:: Package Recipe 'bioconductor-runibic'
+.. highlight: bash
+
 
 bioconductor-runibic
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-runibic
+   :replaces_section_title:
 
-This package implements UbiBic algorithm in R. This biclustering algorithm for analysis of gene expression data was introduced by Zhenjia Wang et al. in 2016. It is currently considered the most promising biclustering method for identification of meaningful structures in complex and noisy data.
+   This package implements UbiBic algorithm in R. This biclustering algorithm for analysis of gene expression data was introduced by Zhenjia Wang et al. in 2016. It is currently considered the most promising biclustering method for identification of meaningful structures in complex and noisy data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/runibic.html
-Versions      1.4.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-runibic/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/runibic.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-runibic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-runibic
 
-Installation
-------------
+   |downloads_bioconductor-runibic| |docker_bioconductor-runibic|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biclust`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-testthat`  
 
-   conda install bioconductor-runibic
+   :required~by: |required_by_bioconductor-runibic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-runibic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-runibic
+
+   and update with::
+
+      conda update bioconductor-runibic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-runibic
+
+
+.. |required_by_bioconductor-runibic| conda:required_by:: bioconductor-runibic
+.. |downloads_bioconductor-runibic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-runibic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-runibic| image:: https://quay.io/repository/biocontainers/bioconductor-runibic/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-runibic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-runibic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-runibic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-runibic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-runibic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-runibic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-runibic
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-runibic/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-runibic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-runibic/README.html
 

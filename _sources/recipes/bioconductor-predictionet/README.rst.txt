@@ -1,54 +1,66 @@
-.. _`bioconductor-predictionet`:
+.. title:: Package Recipe 'bioconductor-predictionet'
+.. highlight: bash
+
 
 bioconductor-predictionet
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-predictionet
+   :replaces_section_title:
 
-This package contains a set of functions related to network inference combining genomic data and prior information extracted from biomedical literature and structured biological databases. The main function is able to generate networks using Bayesian or regression\-based inference methods\; while the former is limited to \< 100 of variables\, the latter may infer networks with hundreds of variables. Several statistics at the edge and node levels have been implemented \(edge stability\, predictive ability of each node\, ...\) in order to help the user to focus on high quality subnetworks. Ultimately\, this package is used in the \'Predictive Networks\' web application developed by the Dana\-Farber Cancer Institute in collaboration with Entagen.
+   This package contains a set of functions related to network inference combining genomic data and prior information extracted from biomedical literature and structured biological databases. The main function is able to generate networks using Bayesian or regression\-based inference methods\; while the former is limited to \< 100 of variables\, the latter may infer networks with hundreds of variables. Several statistics at the edge and node levels have been implemented \(edge stability\, predictive ability of each node\, ...\) in order to help the user to focus on high quality subnetworks. Ultimately\, this package is used in the \'Predictive Networks\' web application developed by the Dana\-Farber Cancer Institute in collaboration with Entagen.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/predictionet.html
-Versions      1.28.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-predictionet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/predictionet.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-predictionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-predictionet
 
-Installation
-------------
+   |downloads_bioconductor-predictionet| |docker_bioconductor-predictionet|
 
-.. highlight: bash
+   :versions: 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catnet`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-penalized`  
 
-   conda install bioconductor-predictionet
+   :required~by: |required_by_bioconductor-predictionet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-predictionet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-predictionet
+
+   and update with::
+
+      conda update bioconductor-predictionet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-predictionet
+
+
+.. |required_by_bioconductor-predictionet| conda:required_by:: bioconductor-predictionet
+.. |downloads_bioconductor-predictionet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-predictionet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-predictionet| image:: https://quay.io/repository/biocontainers/bioconductor-predictionet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-predictionet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-predictionet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-predictionet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-predictionet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-predictionet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-predictionet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-predictionet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-predictionet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-predictionet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-predictionet/README.html
 

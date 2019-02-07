@@ -1,54 +1,66 @@
-.. _`bioconductor-qvalue`:
+.. title:: Package Recipe 'bioconductor-qvalue'
+.. highlight: bash
+
 
 bioconductor-qvalue
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-qvalue
+   :replaces_section_title:
 
-This package takes a list of p\-values resulting from the simultaneous testing of many hypotheses and estimates their q\-values and local FDR values. The q\-value of a test measures the proportion of false positives incurred \(called the false discovery rate\) when that particular test is called significant. The local FDR measures the posterior probability the null hypothesis is true given the test\'s p\-value. Various plots are automatically generated\, allowing one to make sensible significance cut\-offs. Several mathematical results have recently been shown on the conservative accuracy of the estimated q\-values from this software. The software can be applied to problems in genomics\, brain imaging\, astrophysics\, and data mining.
+   This package takes a list of p\-values resulting from the simultaneous testing of many hypotheses and estimates their q\-values and local FDR values. The q\-value of a test measures the proportion of false positives incurred \(called the false discovery rate\) when that particular test is called significant. The local FDR measures the posterior probability the null hypothesis is true given the test\'s p\-value. Various plots are automatically generated\, allowing one to make sensible significance cut\-offs. Several mathematical results have recently been shown on the conservative accuracy of the estimated q\-values from this software. The software can be applied to problems in genomics\, brain imaging\, astrophysics\, and data mining.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/qvalue.html
-Versions      2.14.0, 2.12.0, 2.10.0, 2.8.0, 2.6.0, 2.4.2, 2.2.2
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-qvalue/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/qvalue.html
+   :license: LGPL
+   :recipe: /`bioconductor-qvalue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-qvalue
 
-Installation
-------------
+   |downloads_bioconductor-qvalue| |docker_bioconductor-qvalue|
 
-.. highlight: bash
+   :versions: 2.14.0, 2.12.0, 2.10.0, 2.8.0, 2.6.0, 2.4.2, 2.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-qvalue
+   :required~by: |required_by_bioconductor-qvalue|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-qvalue
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-qvalue
+
+   and update with::
+
+      conda update bioconductor-qvalue
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-qvalue
+
+
+.. |required_by_bioconductor-qvalue| conda:required_by:: bioconductor-qvalue
+.. |downloads_bioconductor-qvalue| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qvalue.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-qvalue| image:: https://quay.io/repository/biocontainers/bioconductor-qvalue/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-qvalue
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-qvalue.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-qvalue/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-qvalue/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-qvalue/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-qvalue/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-qvalue
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-qvalue/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-qvalue
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-qvalue/README.html
 

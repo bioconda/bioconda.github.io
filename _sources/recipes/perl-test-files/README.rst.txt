@@ -1,54 +1,66 @@
-.. _`perl-test-files`:
+.. title:: Package Recipe 'perl-test-files'
+.. highlight: bash
+
 
 perl-test-files
 ===============
 
-|downloads|
+.. conda:recipe:: perl-test-files
+   :replaces_section_title:
 
-A Test\:\:Builder based module to ease testing with files and dirs
+   A Test\:\:Builder based module to ease testing with files and dirs
 
-============= ===========
-Home          http://metacpan.org/pod/Test::Files
-Versions      0.14
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-files/meta.yaml
+   :homepage: http://metacpan.org/pod/Test::Files
+   :license: unknown
+   :recipe: /`perl-test-files <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-files>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-files/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-files
 
-Installation
-------------
+   |downloads_perl-test-files| |docker_perl-test-files|
 
-.. highlight: bash
+   :versions: 0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-algorithm-diff`  :conda:package:`perl-test-builder-tester`  :conda:package:`perl-test-simple`  :conda:package:`perl-text-diff`  :conda:package:`perl-threaded`  
 
-   conda install perl-test-files
+   :required~by: |required_by_perl-test-files|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-files
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-files
+
+   and update with::
+
+      conda update perl-test-files
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-files
+
+
+.. |required_by_perl-test-files| conda:required_by:: perl-test-files
+.. |downloads_perl-test-files| image:: https://img.shields.io/conda/dn/bioconda/perl-test-files.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-files| image:: https://quay.io/repository/biocontainers/perl-test-files/status
+   :target: https://quay.io/repository/biocontainers/perl-test-files
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-files.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-files/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-files/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-files/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-files/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-files
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-files/status
-                :target: https://quay.io/repository/biocontainers/perl-test-files
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-files/README.html
 

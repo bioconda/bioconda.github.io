@@ -1,54 +1,66 @@
-.. _`bioconductor-maizecdf`:
+.. title:: Package Recipe 'bioconductor-maizecdf'
+.. highlight: bash
+
 
 bioconductor-maizecdf
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-maizecdf
+   :replaces_section_title:
 
-A package containing an environment representing the Maize.cdf file.
+   A package containing an environment representing the Maize.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/maizecdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-maizecdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/maizecdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-maizecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-maizecdf
 
-Installation
-------------
+   |downloads_bioconductor-maizecdf| |docker_bioconductor-maizecdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-maizecdf
+   :required~by: |required_by_bioconductor-maizecdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-maizecdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-maizecdf
+
+   and update with::
+
+      conda update bioconductor-maizecdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-maizecdf
+
+
+.. |required_by_bioconductor-maizecdf| conda:required_by:: bioconductor-maizecdf
+.. |downloads_bioconductor-maizecdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maizecdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-maizecdf| image:: https://quay.io/repository/biocontainers/bioconductor-maizecdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-maizecdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-maizecdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-maizecdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-maizecdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-maizecdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-maizecdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-maizecdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-maizecdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-maizecdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-maizecdf/README.html
 

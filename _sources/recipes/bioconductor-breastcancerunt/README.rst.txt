@@ -1,54 +1,66 @@
-.. _`bioconductor-breastcancerunt`:
+.. title:: Package Recipe 'bioconductor-breastcancerunt'
+.. highlight: bash
+
 
 bioconductor-breastcancerunt
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-breastcancerunt
+   :replaces_section_title:
 
-Gene expression data from a breast cancer study published by Sotiriou et al. in 2007\, provided as an eSet.
+   Gene expression data from a breast cancer study published by Sotiriou et al. in 2007\, provided as an eSet.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerUNT.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-breastcancerunt/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerUNT.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-breastcancerunt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerunt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerunt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-breastcancerunt
 
-Installation
-------------
+   |downloads_bioconductor-breastcancerunt| |docker_bioconductor-breastcancerunt|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-breastcancerunt
+   :required~by: |required_by_bioconductor-breastcancerunt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-breastcancerunt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-breastcancerunt
+
+   and update with::
+
+      conda update bioconductor-breastcancerunt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-breastcancerunt
+
+
+.. |required_by_bioconductor-breastcancerunt| conda:required_by:: bioconductor-breastcancerunt
+.. |downloads_bioconductor-breastcancerunt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breastcancerunt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-breastcancerunt| image:: https://quay.io/repository/biocontainers/bioconductor-breastcancerunt/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-breastcancerunt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-breastcancerunt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-breastcancerunt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-breastcancerunt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-breastcancerunt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-breastcancerunt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-breastcancerunt
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-breastcancerunt/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-breastcancerunt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-breastcancerunt/README.html
 

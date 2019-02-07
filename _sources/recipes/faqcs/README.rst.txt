@@ -1,56 +1,67 @@
-.. _`faqcs`:
+.. title:: Package Recipe 'faqcs'
+.. highlight: bash
+
 
 faqcs
 =====
 
-|downloads|
+.. conda:recipe:: faqcs
+   :replaces_section_title:
 
-Quality Control of Next Generation Sequencing Data.
+   Quality Control of Next Generation Sequencing Data.
 
-============= ===========
-Home          https://github.com/LANL-Bioinformatics/FaQCs
-Versions      2.09, 2.08
-License       BSD 3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//faqcs/meta.yaml
+   :homepage: https://github.com/LANL-Bioinformatics/FaQCs
+   :license: BSD 3-Clause
+   :recipe: /`faqcs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs/meta.yaml>`_
+   :links: biotools: :biotools:`faqcs`
 
-
-
-Links         biotools: :biotools:`faqcs`
-
-============= ===========
+   
 
 
+.. conda:package:: faqcs
 
-Installation
-------------
+   |downloads_faqcs| |docker_faqcs|
 
-.. highlight: bash
+   :versions: 2.09, 2.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install faqcs
+   :required~by: |required_by_faqcs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update faqcs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install faqcs
+
+   and update with::
+
+      conda update faqcs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/faqcs
+
+
+.. |required_by_faqcs| conda:required_by:: faqcs
+.. |downloads_faqcs| image:: https://img.shields.io/conda/dn/bioconda/faqcs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_faqcs| image:: https://quay.io/repository/biocontainers/faqcs/status
+   :target: https://quay.io/repository/biocontainers/faqcs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/faqcs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/faqcs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/faqcs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/faqcs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/faqcs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/faqcs
-.. |docker| image:: https://quay.io/repository/biocontainers/faqcs/status
-                :target: https://quay.io/repository/biocontainers/faqcs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/faqcs/README.html
 

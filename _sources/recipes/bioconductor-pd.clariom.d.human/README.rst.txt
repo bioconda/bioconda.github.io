@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.clariom.d.human`:
+.. title:: Package Recipe 'bioconductor-pd.clariom.d.human'
+.. highlight: bash
+
 
 bioconductor-pd.clariom.d.human
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.clariom.d.human
+   :replaces_section_title:
 
-Platform Design Info for Affymetrix Clariom\_D\_Human
+   Platform Design Info for Affymetrix Clariom\_D\_Human
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.d.human.html
-Versions      3.14.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.clariom.d.human/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.d.human.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.clariom.d.human <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.d.human>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.d.human/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.clariom.d.human
 
-Installation
-------------
+   |downloads_bioconductor-pd.clariom.d.human| |docker_bioconductor-pd.clariom.d.human|
 
-.. highlight: bash
+   :versions: 3.14.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.clariom.d.human
+   :required~by: |required_by_bioconductor-pd.clariom.d.human|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.clariom.d.human
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.clariom.d.human
+
+   and update with::
+
+      conda update bioconductor-pd.clariom.d.human
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human
+
+
+.. |required_by_bioconductor-pd.clariom.d.human| conda:required_by:: bioconductor-pd.clariom.d.human
+.. |downloads_bioconductor-pd.clariom.d.human| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.clariom.d.human.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.clariom.d.human| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.clariom.d.human/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.clariom.d.human/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.clariom.d.human/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.clariom.d.human/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.clariom.d.human
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.d.human
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.clariom.d.human/README.html
 

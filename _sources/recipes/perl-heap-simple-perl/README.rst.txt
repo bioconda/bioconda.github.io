@@ -1,54 +1,66 @@
-.. _`perl-heap-simple-perl`:
+.. title:: Package Recipe 'perl-heap-simple-perl'
+.. highlight: bash
+
 
 perl-heap-simple-perl
 =====================
 
-|downloads|
+.. conda:recipe:: perl-heap-simple-perl
+   :replaces_section_title:
 
-A pure perl implementation of the Heap\:\:Simple interface
+   A pure perl implementation of the Heap\:\:Simple interface
 
-============= ===========
-Home          http://metacpan.org/pod/Heap::Simple::Perl
-Versions      0.14
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-heap-simple-perl/meta.yaml
+   :homepage: http://metacpan.org/pod/Heap::Simple::Perl
+   :license: unknown
+   :recipe: /`perl-heap-simple-perl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple-perl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple-perl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-heap-simple-perl
 
-Installation
-------------
+   |downloads_perl-heap-simple-perl| |docker_perl-heap-simple-perl|
 
-.. highlight: bash
+   :versions: 0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-heap-simple-perl
+   :required~by: |required_by_perl-heap-simple-perl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-heap-simple-perl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-heap-simple-perl
+
+   and update with::
+
+      conda update perl-heap-simple-perl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-heap-simple-perl
+
+
+.. |required_by_perl-heap-simple-perl| conda:required_by:: perl-heap-simple-perl
+.. |downloads_perl-heap-simple-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-heap-simple-perl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-heap-simple-perl| image:: https://quay.io/repository/biocontainers/perl-heap-simple-perl/status
+   :target: https://quay.io/repository/biocontainers/perl-heap-simple-perl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-heap-simple-perl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-heap-simple-perl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-heap-simple-perl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-heap-simple-perl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-heap-simple-perl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-heap-simple-perl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-heap-simple-perl/status
-                :target: https://quay.io/repository/biocontainers/perl-heap-simple-perl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-heap-simple-perl/README.html
 

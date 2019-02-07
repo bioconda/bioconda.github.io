@@ -1,54 +1,66 @@
-.. _`curlywhirly`:
+.. title:: Package Recipe 'curlywhirly'
+.. highlight: bash
+
 
 curlywhirly
 ===========
 
-|downloads|
+.. conda:recipe:: curlywhirly
+   :replaces_section_title:
 
-CurlyWhirly is an application for viewing multi\-dimensional data\, with a particular focus on the outputs of Principle Coordinate Analysis and Principal Components Analysis
+   CurlyWhirly is an application for viewing multi\-dimensional data\, with a particular focus on the outputs of Principle Coordinate Analysis and Principal Components Analysis
 
-============= ===========
-Home          https://ics.hutton.ac.uk/curlywhirly
-Versions      1.17.08.31
-License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//curlywhirly/meta.yaml
+   :homepage: https://ics.hutton.ac.uk/curlywhirly
+   :license: BSD-2-Clause
+   :recipe: /`curlywhirly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curlywhirly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curlywhirly/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: curlywhirly
 
-Installation
-------------
+   |downloads_curlywhirly| |docker_curlywhirly|
 
-.. highlight: bash
+   :versions: 1.17.08.31
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8,<9 
 
-   conda install curlywhirly
+   :required~by: |required_by_curlywhirly|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update curlywhirly
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install curlywhirly
+
+   and update with::
+
+      conda update curlywhirly
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/curlywhirly
+
+
+.. |required_by_curlywhirly| conda:required_by:: curlywhirly
+.. |downloads_curlywhirly| image:: https://img.shields.io/conda/dn/bioconda/curlywhirly.svg?style=flat
+   :alt:   (downloads)
+.. |docker_curlywhirly| image:: https://quay.io/repository/biocontainers/curlywhirly/status
+   :target: https://quay.io/repository/biocontainers/curlywhirly
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/curlywhirly.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/curlywhirly/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/curlywhirly/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/curlywhirly/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/curlywhirly/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/curlywhirly
-.. |docker| image:: https://quay.io/repository/biocontainers/curlywhirly/status
-                :target: https://quay.io/repository/biocontainers/curlywhirly
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/curlywhirly/README.html
 

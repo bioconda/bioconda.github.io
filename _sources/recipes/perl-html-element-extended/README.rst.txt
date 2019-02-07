@@ -1,54 +1,66 @@
-.. _`perl-html-element-extended`:
+.. title:: Package Recipe 'perl-html-element-extended'
+.. highlight: bash
+
 
 perl-html-element-extended
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-html-element-extended
+   :replaces_section_title:
 
-Perl extension for manipulating a table composed of HTML\:\:Element style components.
+   Perl extension for manipulating a table composed of HTML\:\:Element style components.
 
-============= ===========
-Home          http://metacpan.org/pod/HTML-Element-Extended
-Versions      1.18
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-element-extended/meta.yaml
+   :homepage: http://metacpan.org/pod/HTML-Element-Extended
+   :license: unknown
+   :recipe: /`perl-html-element-extended <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-element-extended>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-element-extended/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-html-element-extended
 
-Installation
-------------
+   |downloads_perl-html-element-extended| |docker_perl-html-element-extended|
 
-.. highlight: bash
+   :versions: 1.18
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-html-tree`  :conda:package:`perl-threaded`  
 
-   conda install perl-html-element-extended
+   :required~by: |required_by_perl-html-element-extended|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-html-element-extended
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-html-element-extended
+
+   and update with::
+
+      conda update perl-html-element-extended
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-html-element-extended
+
+
+.. |required_by_perl-html-element-extended| conda:required_by:: perl-html-element-extended
+.. |downloads_perl-html-element-extended| image:: https://img.shields.io/conda/dn/bioconda/perl-html-element-extended.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-html-element-extended| image:: https://quay.io/repository/biocontainers/perl-html-element-extended/status
+   :target: https://quay.io/repository/biocontainers/perl-html-element-extended
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-html-element-extended.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-html-element-extended/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-html-element-extended/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-html-element-extended/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-html-element-extended/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-html-element-extended
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-html-element-extended/status
-                :target: https://quay.io/repository/biocontainers/perl-html-element-extended
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-html-element-extended/README.html
 

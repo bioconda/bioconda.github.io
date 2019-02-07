@@ -1,54 +1,66 @@
-.. _`goalign`:
+.. title:: Package Recipe 'goalign'
+.. highlight: bash
+
 
 goalign
 =======
 
-|downloads|
+.. conda:recipe:: goalign
+   :replaces_section_title:
 
-goalign is a set of command line tools to manipulate multiple alignments
+   goalign is a set of command line tools to manipulate multiple alignments
 
-============= ===========
-Home          https://github.com/fredericlemoine/goalign
-Versions      0.2.9, 0.2.8
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//goalign/meta.yaml
+   :homepage: https://github.com/fredericlemoine/goalign
+   :license: GPL-2.0
+   :recipe: /`goalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goalign/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: goalign
 
-Installation
-------------
+   |downloads_goalign| |docker_goalign|
 
-.. highlight: bash
+   :versions: 0.2.9, 0.2.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install goalign
+   :required~by: |required_by_goalign|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update goalign
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install goalign
+
+   and update with::
+
+      conda update goalign
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/goalign
+
+
+.. |required_by_goalign| conda:required_by:: goalign
+.. |downloads_goalign| image:: https://img.shields.io/conda/dn/bioconda/goalign.svg?style=flat
+   :alt:   (downloads)
+.. |docker_goalign| image:: https://quay.io/repository/biocontainers/goalign/status
+   :target: https://quay.io/repository/biocontainers/goalign
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/goalign.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/goalign/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/goalign/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/goalign/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/goalign/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/goalign
-.. |docker| image:: https://quay.io/repository/biocontainers/goalign/status
-                :target: https://quay.io/repository/biocontainers/goalign
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/goalign/README.html
 

@@ -1,54 +1,66 @@
-.. _`nmrglue`:
+.. title:: Package Recipe 'nmrglue'
+.. highlight: bash
+
 
 nmrglue
 =======
 
-|downloads|
+.. conda:recipe:: nmrglue
+   :replaces_section_title:
 
-A module for working with NMR data in Python
+   A module for working with NMR data in Python
 
-============= ===========
-Home          http://www.nmrglue.com
-Versions      0.6, 0.5
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nmrglue/meta.yaml
+   :homepage: http://www.nmrglue.com
+   :license: BSD / BSD License
+   :recipe: /`nmrglue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrglue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrglue/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nmrglue
 
-Installation
-------------
+   |downloads_nmrglue| |docker_nmrglue|
 
-.. highlight: bash
+   :versions: 0.6, 0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
-   conda install nmrglue
+   :required~by: |required_by_nmrglue|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nmrglue
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nmrglue
+
+   and update with::
+
+      conda update nmrglue
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nmrglue
+
+
+.. |required_by_nmrglue| conda:required_by:: nmrglue
+.. |downloads_nmrglue| image:: https://img.shields.io/conda/dn/bioconda/nmrglue.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nmrglue| image:: https://quay.io/repository/biocontainers/nmrglue/status
+   :target: https://quay.io/repository/biocontainers/nmrglue
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nmrglue.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nmrglue/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nmrglue/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nmrglue/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nmrglue/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nmrglue
-.. |docker| image:: https://quay.io/repository/biocontainers/nmrglue/status
-                :target: https://quay.io/repository/biocontainers/nmrglue
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nmrglue/README.html
 

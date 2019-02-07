@@ -1,54 +1,66 @@
-.. _`colorbrewer`:
+.. title:: Package Recipe 'colorbrewer'
+.. highlight: bash
+
 
 colorbrewer
 ===========
 
-|downloads|
+.. conda:recipe:: colorbrewer
+   :replaces_section_title:
 
-An easy way to get access to ColorBrewer schemes from within a Python program
+   An easy way to get access to ColorBrewer schemes from within a Python program
 
-============= ===========
-Home          http://noble.gs.washington.edu/~mmh1/software/colorbrewer/
-Versions      0.2, 0.1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//colorbrewer/meta.yaml
+   :homepage: http://noble.gs.washington.edu/~mmh1/software/colorbrewer/
+   :license: MIT
+   :recipe: /`colorbrewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/colorbrewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/colorbrewer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: colorbrewer
 
-Installation
-------------
+   |downloads_colorbrewer| |docker_colorbrewer|
 
-.. highlight: bash
+   :versions: 0.2, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  :conda:package:`six`  
 
-   conda install colorbrewer
+   :required~by: |required_by_colorbrewer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update colorbrewer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install colorbrewer
+
+   and update with::
+
+      conda update colorbrewer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/colorbrewer
+
+
+.. |required_by_colorbrewer| conda:required_by:: colorbrewer
+.. |downloads_colorbrewer| image:: https://img.shields.io/conda/dn/bioconda/colorbrewer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_colorbrewer| image:: https://quay.io/repository/biocontainers/colorbrewer/status
+   :target: https://quay.io/repository/biocontainers/colorbrewer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/colorbrewer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/colorbrewer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/colorbrewer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/colorbrewer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/colorbrewer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/colorbrewer
-.. |docker| image:: https://quay.io/repository/biocontainers/colorbrewer/status
-                :target: https://quay.io/repository/biocontainers/colorbrewer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/colorbrewer/README.html
 

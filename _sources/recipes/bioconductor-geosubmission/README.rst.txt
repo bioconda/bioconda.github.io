@@ -1,56 +1,67 @@
-.. _`bioconductor-geosubmission`:
+.. title:: Package Recipe 'bioconductor-geosubmission'
+.. highlight: bash
+
 
 bioconductor-geosubmission
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-geosubmission
+   :replaces_section_title:
 
-Helps to easily submit a microarray dataset and the associated sample information to GEO by preparing a single file for upload \(direct deposit\).
+   Helps to easily submit a microarray dataset and the associated sample information to GEO by preparing a single file for upload \(direct deposit\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GEOsubmission.html
-Versions      1.34.0, 1.32.0, 1.30.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geosubmission/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GEOsubmission.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-geosubmission <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geosubmission>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geosubmission/meta.yaml>`_
+   :links: biotools: :biotools:`geosubmission`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`geosubmission`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geosubmission
 
-Installation
-------------
+   |downloads_bioconductor-geosubmission| |docker_bioconductor-geosubmission|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-geosubmission
+   :required~by: |required_by_bioconductor-geosubmission|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geosubmission
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geosubmission
+
+   and update with::
+
+      conda update bioconductor-geosubmission
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geosubmission
+
+
+.. |required_by_bioconductor-geosubmission| conda:required_by:: bioconductor-geosubmission
+.. |downloads_bioconductor-geosubmission| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geosubmission.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geosubmission| image:: https://quay.io/repository/biocontainers/bioconductor-geosubmission/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geosubmission
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geosubmission.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geosubmission/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geosubmission/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geosubmission/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geosubmission/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geosubmission
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geosubmission/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geosubmission
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geosubmission/README.html
 

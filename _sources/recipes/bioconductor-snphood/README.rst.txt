@@ -1,56 +1,67 @@
-.. _`bioconductor-snphood`:
+.. title:: Package Recipe 'bioconductor-snphood'
+.. highlight: bash
+
 
 bioconductor-snphood
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-snphood
+   :replaces_section_title:
 
-To date\, thousands of single nucleotide polymorphisms \(SNPs\) have been found to be associated with complex traits and diseases. However\, the vast majority of these disease\-associated SNPs lie in the non\-coding part of the genome\, and are likely to affect regulatory elements\, such as enhancers and promoters\, rather than function of a protein. Thus\, to understand the molecular mechanisms underlying genetic traits and diseases\, it becomes increasingly important to study the effect of a SNP on nearby molecular traits such as chromatin environment or transcription factor \(TF\) binding. Towards this aim\, we developed SNPhood\, a user\-friendly \*Bioconductor\* R package to investigate and visualize the local neighborhood of a set of SNPs of interest for NGS data such as chromatin marks or transcription factor binding sites from ChIP\-Seq or RNA\- Seq experiments. SNPhood comprises a set of easy\-to\-use functions to extract\, normalize and summarize reads for a genomic region\, perform various data quality checks\, normalize read counts using additional input files\, and to cluster and visualize the regions according to the binding pattern. The regions around each SNP can be binned in a user\-defined fashion to allow for analysis of very broad patterns as well as a detailed investigation of specific binding shapes. Furthermore\, SNPhood supports the integration with genotype information to investigate and visualize genotype\-specific binding patterns. Finally\, SNPhood can be employed for determining\, investigating\, and visualizing allele\-specific binding patterns around the SNPs of interest.
+   To date\, thousands of single nucleotide polymorphisms \(SNPs\) have been found to be associated with complex traits and diseases. However\, the vast majority of these disease\-associated SNPs lie in the non\-coding part of the genome\, and are likely to affect regulatory elements\, such as enhancers and promoters\, rather than function of a protein. Thus\, to understand the molecular mechanisms underlying genetic traits and diseases\, it becomes increasingly important to study the effect of a SNP on nearby molecular traits such as chromatin environment or transcription factor \(TF\) binding. Towards this aim\, we developed SNPhood\, a user\-friendly \*Bioconductor\* R package to investigate and visualize the local neighborhood of a set of SNPs of interest for NGS data such as chromatin marks or transcription factor binding sites from ChIP\-Seq or RNA\- Seq experiments. SNPhood comprises a set of easy\-to\-use functions to extract\, normalize and summarize reads for a genomic region\, perform various data quality checks\, normalize read counts using additional input files\, and to cluster and visualize the regions according to the binding pattern. The regions around each SNP can be binned in a user\-defined fashion to allow for analysis of very broad patterns as well as a detailed investigation of specific binding shapes. Furthermore\, SNPhood supports the integration with genotype information to investigate and visualize genotype\-specific binding patterns. Finally\, SNPhood can be employed for determining\, investigating\, and visualizing allele\-specific binding patterns around the SNPs of interest.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SNPhood.html
-Versions      1.12.0, 1.10.0, 1.8.0, 1.6.1
-License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snphood/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SNPhood.html
+   :license: LGPL (>= 3)
+   :recipe: /`bioconductor-snphood <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood/meta.yaml>`_
+   :links: biotools: :biotools:`snphood`, doi: :doi:`10.1093/bioinformatics/btw127`
 
-
-
-Links         biotools: :biotools:`snphood`, doi: :doi:`10.1093/bioinformatics/btw127`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-snphood
 
-Installation
-------------
+   |downloads_bioconductor-snphood| |docker_bioconductor-snphood|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-cluster`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-lattice`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-scales`  
 
-   conda install bioconductor-snphood
+   :required~by: |required_by_bioconductor-snphood|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-snphood
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-snphood
+
+   and update with::
+
+      conda update bioconductor-snphood
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-snphood
+
+
+.. |required_by_bioconductor-snphood| conda:required_by:: bioconductor-snphood
+.. |downloads_bioconductor-snphood| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snphood.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-snphood| image:: https://quay.io/repository/biocontainers/bioconductor-snphood/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-snphood
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-snphood.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-snphood/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-snphood/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-snphood/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-snphood/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-snphood
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snphood/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-snphood
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-snphood/README.html
 

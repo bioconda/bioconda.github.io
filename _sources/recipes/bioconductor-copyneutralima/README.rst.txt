@@ -1,54 +1,66 @@
-.. _`bioconductor-copyneutralima`:
+.. title:: Package Recipe 'bioconductor-copyneutralima'
+.. highlight: bash
+
 
 bioconductor-copyneutralima
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-copyneutralima
+   :replaces_section_title:
 
-Provides a set of genomic copy neutral samples hybridized using Illumina Methylation arrays \(450k and EPIC\).
+   Provides a set of genomic copy neutral samples hybridized using Illumina Methylation arrays \(450k and EPIC\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/CopyNeutralIMA.html
-Versions      1.0.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copyneutralima/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/CopyNeutralIMA.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-copyneutralima <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyneutralima>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyneutralima/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-copyneutralima
 
-Installation
-------------
+   |downloads_bioconductor-copyneutralima| |docker_bioconductor-copyneutralima|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-experimenthub` >=1.8.0,<1.9.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rdpack` >=0.8 :conda:package:`wget`  
 
-   conda install bioconductor-copyneutralima
+   :required~by: |required_by_bioconductor-copyneutralima|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-copyneutralima
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-copyneutralima
+
+   and update with::
+
+      conda update bioconductor-copyneutralima
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-copyneutralima
+
+
+.. |required_by_bioconductor-copyneutralima| conda:required_by:: bioconductor-copyneutralima
+.. |downloads_bioconductor-copyneutralima| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copyneutralima.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-copyneutralima| image:: https://quay.io/repository/biocontainers/bioconductor-copyneutralima/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-copyneutralima
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-copyneutralima.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-copyneutralima/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-copyneutralima/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-copyneutralima/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-copyneutralima/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-copyneutralima
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-copyneutralima/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-copyneutralima
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-copyneutralima/README.html
 

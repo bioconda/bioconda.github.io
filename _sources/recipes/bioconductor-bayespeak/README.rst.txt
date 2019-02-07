@@ -1,56 +1,67 @@
-.. _`bioconductor-bayespeak`:
+.. title:: Package Recipe 'bioconductor-bayespeak'
+.. highlight: bash
+
 
 bioconductor-bayespeak
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-bayespeak
+   :replaces_section_title:
 
-This package is an implementation of the BayesPeak algorithm for peak\-calling in ChIP\-seq data.
+   This package is an implementation of the BayesPeak algorithm for peak\-calling in ChIP\-seq data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BayesPeak.html
-Versions      1.34.0, 1.32.0, 1.30.0, 1.28.0, 1.24.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bayespeak/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BayesPeak.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-bayespeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak/meta.yaml>`_
+   :links: biotools: :biotools:`bayespeak`
 
-
-
-Links         biotools: :biotools:`bayespeak`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bayespeak
 
-Installation
-------------
+   |downloads_bioconductor-bayespeak| |docker_bioconductor-bayespeak|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0, 1.28.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-bayespeak
+   :required~by: |required_by_bioconductor-bayespeak|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bayespeak
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bayespeak
+
+   and update with::
+
+      conda update bioconductor-bayespeak
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bayespeak
+
+
+.. |required_by_bioconductor-bayespeak| conda:required_by:: bioconductor-bayespeak
+.. |downloads_bioconductor-bayespeak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bayespeak.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bayespeak| image:: https://quay.io/repository/biocontainers/bioconductor-bayespeak/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bayespeak
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bayespeak.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bayespeak/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bayespeak/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bayespeak/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bayespeak/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bayespeak
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bayespeak/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bayespeak
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bayespeak/README.html
 

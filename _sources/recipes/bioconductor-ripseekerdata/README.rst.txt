@@ -1,54 +1,66 @@
-.. _`bioconductor-ripseekerdata`:
+.. title:: Package Recipe 'bioconductor-ripseekerdata'
+.. highlight: bash
+
 
 bioconductor-ripseekerdata
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ripseekerdata
+   :replaces_section_title:
 
-The RIP\-seq data in BAM format are the test data for the package RIPSeeker. The data correspond to two RIP\-seq experiments\, namely PRC2 and CCNT1. Raw data from NCBI Gene Expression Omnibus under accession numbers GSE17064 for PRC2 and in\-house for CCNT1.
+   The RIP\-seq data in BAM format are the test data for the package RIPSeeker. The data correspond to two RIP\-seq experiments\, namely PRC2 and CCNT1. Raw data from NCBI Gene Expression Omnibus under accession numbers GSE17064 for PRC2 and in\-house for CCNT1.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RIPSeekerData.html
-Versions      1.18.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ripseekerdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RIPSeekerData.html
+   :license: GPL-2
+   :recipe: /`bioconductor-ripseekerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseekerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseekerdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ripseekerdata
 
-Installation
-------------
+   |downloads_bioconductor-ripseekerdata| |docker_bioconductor-ripseekerdata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-ripseeker` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ripseekerdata
+   :required~by: |required_by_bioconductor-ripseekerdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ripseekerdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ripseekerdata
+
+   and update with::
+
+      conda update bioconductor-ripseekerdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ripseekerdata
+
+
+.. |required_by_bioconductor-ripseekerdata| conda:required_by:: bioconductor-ripseekerdata
+.. |downloads_bioconductor-ripseekerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ripseekerdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ripseekerdata| image:: https://quay.io/repository/biocontainers/bioconductor-ripseekerdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ripseekerdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ripseekerdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ripseekerdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ripseekerdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ripseekerdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ripseekerdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ripseekerdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ripseekerdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ripseekerdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ripseekerdata/README.html
 

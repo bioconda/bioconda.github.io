@@ -1,54 +1,66 @@
-.. _`bx-python`:
+.. title:: Package Recipe 'bx-python'
+.. highlight: bash
+
 
 bx-python
 =========
 
-|downloads|
+.. conda:recipe:: bx-python
+   :replaces_section_title:
 
-Tools for manipulating biological data\, particularly multiple sequence alignments
+   Tools for manipulating biological data\, particularly multiple sequence alignments
 
-============= ===========
-Home          https://github.com/bxlab/bx-python
-Versions      0.8.2, 0.8.1, 0.7.4, 0.7.3, 0.7.2, 0.7.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bx-python/meta.yaml
+   :homepage: https://github.com/bxlab/bx-python
+   :license: MIT / MIT
+   :recipe: /`bx-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bx-python
 
-Installation
-------------
+   |downloads_bx-python| |docker_bx-python|
 
-.. highlight: bash
+   :versions: 0.8.2, 0.8.1, 0.7.4, 0.7.3, 0.7.2, 0.7.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-lzo`  :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install bx-python
+   :required~by: |required_by_bx-python|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bx-python
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bx-python
+
+   and update with::
+
+      conda update bx-python
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bx-python
+
+
+.. |required_by_bx-python| conda:required_by:: bx-python
+.. |downloads_bx-python| image:: https://img.shields.io/conda/dn/bioconda/bx-python.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bx-python| image:: https://quay.io/repository/biocontainers/bx-python/status
+   :target: https://quay.io/repository/biocontainers/bx-python
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bx-python.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bx-python/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bx-python/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bx-python/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bx-python/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bx-python
-.. |docker| image:: https://quay.io/repository/biocontainers/bx-python/status
-                :target: https://quay.io/repository/biocontainers/bx-python
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bx-python/README.html
 

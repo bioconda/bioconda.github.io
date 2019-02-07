@@ -1,57 +1,69 @@
-.. _`krocus`:
+.. title:: Package Recipe 'krocus'
+.. highlight: bash
+
 
 krocus
 ======
 
-|downloads|
+.. conda:recipe:: krocus
+   :replaces_section_title:
 
-krocus performs multi\-locus sequence typing from uncorrected long reads.
+   krocus performs multi\-locus sequence typing from uncorrected long reads.
 
-============= ===========
-Home          https://github.com/andrewjpage/krocus
-Versions      1.0.1, 1.0.0, 0.2.3, 0.2.2
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//krocus/meta.yaml
+   :homepage: https://github.com/andrewjpage/krocus
+   :license: GPL / GPL-3.0
+   :recipe: /`krocus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krocus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krocus/meta.yaml>`_
 
-
-
-============= ===========
-
-Krocus can predict a sequence type directly from uncorrected long reads\,
-and was designed to consume read data as it is produced\, providing results
-in minutes.
-
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install krocus
-
-and update with::
-
-   conda update krocus
+   Krocus can predict a sequence type directly from uncorrected long reads\, 
+   and was designed to consume read data as it is produced\, providing results 
+   in minutes.
 
 
 
-|docker|
+.. conda:package:: krocus
 
-A Docker container is available at https://quay.io/repository/biocontainers/krocus.
+   |downloads_krocus| |docker_krocus|
+
+   :versions: 1.0.1, 1.0.0, 0.2.3, 0.2.2
+
+   :depends: :conda:package:`biopython` >=1.68 :conda:package:`pyfastaq` >=3.14.0 :conda:package:`python` >=3 :conda:package:`setuptools`  
+
+   :required~by: |required_by_krocus|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install krocus
+
+   and update with::
+
+      conda update krocus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/krocus
+
+
+.. |required_by_krocus| conda:required_by:: krocus
+.. |downloads_krocus| image:: https://img.shields.io/conda/dn/bioconda/krocus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_krocus| image:: https://quay.io/repository/biocontainers/krocus/status
+   :target: https://quay.io/repository/biocontainers/krocus
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/krocus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/krocus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/krocus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/krocus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/krocus
-.. |docker| image:: https://quay.io/repository/biocontainers/krocus/status
-                :target: https://quay.io/repository/biocontainers/krocus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/krocus/README.html
 

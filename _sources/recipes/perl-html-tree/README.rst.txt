@@ -1,54 +1,66 @@
-.. _`perl-html-tree`:
+.. title:: Package Recipe 'perl-html-tree'
+.. highlight: bash
+
 
 perl-html-tree
 ==============
 
-|downloads|
+.. conda:recipe:: perl-html-tree
+   :replaces_section_title:
 
-Work with HTML in a DOM\-like tree structure
+   Work with HTML in a DOM\-like tree structure
 
-============= ===========
-Home          http://metacpan.org/pod/HTML::Tree
-Versions      5.07, 5.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-tree/meta.yaml
+   :homepage: http://metacpan.org/pod/HTML::Tree
+   :license: perl_5
+   :recipe: /`perl-html-tree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tree/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-html-tree
 
-Installation
-------------
+   |downloads_perl-html-tree| |docker_perl-html-tree|
 
-.. highlight: bash
+   :versions: 5.07, 5.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-html-parser`  :conda:package:`perl-html-tagset`  
 
-   conda install perl-html-tree
+   :required~by: |required_by_perl-html-tree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-html-tree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-html-tree
+
+   and update with::
+
+      conda update perl-html-tree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-html-tree
+
+
+.. |required_by_perl-html-tree| conda:required_by:: perl-html-tree
+.. |downloads_perl-html-tree| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-html-tree| image:: https://quay.io/repository/biocontainers/perl-html-tree/status
+   :target: https://quay.io/repository/biocontainers/perl-html-tree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-html-tree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-html-tree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-html-tree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-html-tree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-html-tree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-html-tree
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-html-tree/status
-                :target: https://quay.io/repository/biocontainers/perl-html-tree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-html-tree/README.html
 

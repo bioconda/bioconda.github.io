@@ -1,54 +1,66 @@
-.. _`bioconductor-tweedeseqcountdata`:
+.. title:: Package Recipe 'bioconductor-tweedeseqcountdata'
+.. highlight: bash
+
 
 bioconductor-tweedeseqcountdata
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-tweedeseqcountdata
+   :replaces_section_title:
 
-RNA\-seq count data from Pickrell et al. \(2010\) employed to illustrate the use of the Poisson\-Tweedie family of distributions with the tweeDEseq package.
+   RNA\-seq count data from Pickrell et al. \(2010\) employed to illustrate the use of the Poisson\-Tweedie family of distributions with the tweeDEseq package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/tweeDEseqCountData.html
-Versions      1.20.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tweedeseqcountdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/tweeDEseqCountData.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-tweedeseqcountdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tweedeseqcountdata
 
-Installation
-------------
+   |downloads_bioconductor-tweedeseqcountdata| |docker_bioconductor-tweedeseqcountdata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-tweedeseqcountdata
+   :required~by: |required_by_bioconductor-tweedeseqcountdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tweedeseqcountdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tweedeseqcountdata
+
+   and update with::
+
+      conda update bioconductor-tweedeseqcountdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata
+
+
+.. |required_by_bioconductor-tweedeseqcountdata| conda:required_by:: bioconductor-tweedeseqcountdata
+.. |downloads_bioconductor-tweedeseqcountdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tweedeseqcountdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tweedeseqcountdata| image:: https://quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tweedeseqcountdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tweedeseqcountdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tweedeseqcountdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tweedeseqcountdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tweedeseqcountdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tweedeseqcountdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tweedeseqcountdata/README.html
 

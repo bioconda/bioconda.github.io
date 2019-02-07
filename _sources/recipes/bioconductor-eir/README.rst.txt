@@ -1,54 +1,66 @@
-.. _`bioconductor-eir`:
+.. title:: Package Recipe 'bioconductor-eir'
+.. highlight: bash
+
 
 bioconductor-eir
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-eir
+   :replaces_section_title:
 
-The eiR package provides utilities for accelerated structure similarity searching of very large small molecule data sets using an embedding and indexing approach.
+   The eiR package provides utilities for accelerated structure similarity searching of very large small molecule data sets using an embedding and indexing approach.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/eiR.html
-Versions      1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-eir/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/eiR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-eir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-eir
 
-Installation
-------------
+   |downloads_bioconductor-eir| |docker_bioconductor-eir|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-chemminer` >=3.34.0,<3.35.0 :conda:package:`bioconductor-gesper` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-digest`  :conda:package:`r-rcppannoy` >=0.0.9 :conda:package:`r-rcurl`  :conda:package:`r-runit`  :conda:package:`r-snow`  :conda:package:`r-snowfall`  
 
-   conda install bioconductor-eir
+   :required~by: |required_by_bioconductor-eir|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-eir
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-eir
+
+   and update with::
+
+      conda update bioconductor-eir
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-eir
+
+
+.. |required_by_bioconductor-eir| conda:required_by:: bioconductor-eir
+.. |downloads_bioconductor-eir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eir.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-eir| image:: https://quay.io/repository/biocontainers/bioconductor-eir/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-eir
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-eir.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-eir/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-eir/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-eir/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-eir/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-eir
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-eir/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-eir
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-eir/README.html
 

@@ -1,54 +1,66 @@
-.. _`disty`:
+.. title:: Package Recipe 'disty'
+.. highlight: bash
+
 
 disty
 =====
 
-|downloads|
+.. conda:recipe:: disty
+   :replaces_section_title:
 
-Disty McMatrixface \- compute a distance matrix from a core genome alignment file.
+   Disty McMatrixface \- compute a distance matrix from a core genome alignment file.
 
-============= ===========
-Home          https://github.com/c2-d2/disty
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//disty/meta.yaml
+   :homepage: https://github.com/c2-d2/disty
+   :license: MIT
+   :recipe: /`disty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disty/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: disty
 
-Installation
-------------
+   |downloads_disty| |docker_disty|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` ==1.2.8 
 
-   conda install disty
+   :required~by: |required_by_disty|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update disty
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install disty
+
+   and update with::
+
+      conda update disty
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/disty
+
+
+.. |required_by_disty| conda:required_by:: disty
+.. |downloads_disty| image:: https://img.shields.io/conda/dn/bioconda/disty.svg?style=flat
+   :alt:   (downloads)
+.. |docker_disty| image:: https://quay.io/repository/biocontainers/disty/status
+   :target: https://quay.io/repository/biocontainers/disty
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/disty.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/disty/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/disty/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/disty/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/disty/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/disty
-.. |docker| image:: https://quay.io/repository/biocontainers/disty/status
-                :target: https://quay.io/repository/biocontainers/disty
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/disty/README.html
 

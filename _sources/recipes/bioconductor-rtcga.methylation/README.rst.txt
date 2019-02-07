@@ -1,54 +1,66 @@
-.. _`bioconductor-rtcga.methylation`:
+.. title:: Package Recipe 'bioconductor-rtcga.methylation'
+.. highlight: bash
+
 
 bioconductor-rtcga.methylation
 ==============================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtcga.methylation
+   :replaces_section_title:
 
-Package provides methylation \(humanmethylation27\) datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/DNA\+methylation Data from 2015\-11\-01 snapshot.
+   Package provides methylation \(humanmethylation27\) datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/DNA\+methylation Data from 2015\-11\-01 snapshot.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.methylation.html
-Versions      1.10.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.methylation/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.methylation.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rtcga.methylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtcga.methylation
 
-Installation
-------------
+   |downloads_bioconductor-rtcga.methylation| |docker_bioconductor-rtcga.methylation|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rtcga.methylation
+   :required~by: |required_by_bioconductor-rtcga.methylation|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtcga.methylation
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtcga.methylation
+
+   and update with::
+
+      conda update bioconductor-rtcga.methylation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.methylation
+
+
+.. |required_by_bioconductor-rtcga.methylation| conda:required_by:: bioconductor-rtcga.methylation
+.. |downloads_bioconductor-rtcga.methylation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.methylation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtcga.methylation| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtcga.methylation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtcga.methylation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtcga.methylation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtcga.methylation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtcga.methylation
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtcga.methylation/README.html
 

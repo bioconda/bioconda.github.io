@@ -1,56 +1,67 @@
-.. _`bioconductor-regioner`:
+.. title:: Package Recipe 'bioconductor-regioner'
+.. highlight: bash
+
 
 bioconductor-regioner
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-regioner
+   :replaces_section_title:
 
-regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features.
+   regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/regioneR.html
-Versions      1.14.0, 1.12.0, 1.10.0, 1.8.1, 1.6.2, 1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-regioner/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/regioneR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-regioner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner/meta.yaml>`_
+   :links: biotools: :biotools:`regioner`
 
-
-
-Links         biotools: :biotools:`regioner`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-regioner
 
-Installation
-------------
+   |downloads_bioconductor-regioner| |docker_bioconductor-regioner|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0, 1.10.0, 1.8.1, 1.6.2, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-memoise`  
 
-   conda install bioconductor-regioner
+   :required~by: |required_by_bioconductor-regioner|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-regioner
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-regioner
+
+   and update with::
+
+      conda update bioconductor-regioner
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-regioner
+
+
+.. |required_by_bioconductor-regioner| conda:required_by:: bioconductor-regioner
+.. |downloads_bioconductor-regioner| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-regioner.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-regioner| image:: https://quay.io/repository/biocontainers/bioconductor-regioner/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-regioner
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-regioner.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-regioner/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-regioner/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-regioner/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-regioner/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-regioner
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-regioner/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-regioner
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-regioner/README.html
 

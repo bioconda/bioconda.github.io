@@ -1,54 +1,66 @@
-.. _`metaphyler`:
+.. title:: Package Recipe 'metaphyler'
+.. highlight: bash
+
 
 metaphyler
 ==========
 
-|downloads|
+.. conda:recipe:: metaphyler
+   :replaces_section_title:
 
-Estimating Bacterial Composition from Metagenomic Sequences
+   Estimating Bacterial Composition from Metagenomic Sequences
 
-============= ===========
-Home          http://metaphyler.cbcb.umd.edu/
-Versions      1.25
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaphyler/meta.yaml
+   :homepage: http://metaphyler.cbcb.umd.edu/
+   :license: Artistic License 2.0
+   :recipe: /`metaphyler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphyler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphyler/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metaphyler
 
-Installation
-------------
+   |downloads_metaphyler| |docker_metaphyler|
 
-.. highlight: bash
+   :versions: 1.25
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast-legacy`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
-   conda install metaphyler
+   :required~by: |required_by_metaphyler|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metaphyler
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metaphyler
+
+   and update with::
+
+      conda update metaphyler
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metaphyler
+
+
+.. |required_by_metaphyler| conda:required_by:: metaphyler
+.. |downloads_metaphyler| image:: https://img.shields.io/conda/dn/bioconda/metaphyler.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metaphyler| image:: https://quay.io/repository/biocontainers/metaphyler/status
+   :target: https://quay.io/repository/biocontainers/metaphyler
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metaphyler.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metaphyler/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metaphyler/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metaphyler/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metaphyler/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metaphyler
-.. |docker| image:: https://quay.io/repository/biocontainers/metaphyler/status
-                :target: https://quay.io/repository/biocontainers/metaphyler
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metaphyler/README.html
 

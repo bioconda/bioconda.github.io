@@ -1,54 +1,66 @@
-.. _`ucsc-parahubstop`:
+.. title:: Package Recipe 'ucsc-parahubstop'
+.. highlight: bash
+
 
 ucsc-parahubstop
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-parahubstop
+   :replaces_section_title:
 
-version 12.18
+   version 12.18
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-parahubstop/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-parahubstop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-parahubstop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-parahubstop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-parahubstop
 
-Installation
-------------
+   |downloads_ucsc-parahubstop| |docker_ucsc-parahubstop|
 
-.. highlight: bash
+   :versions: 366
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-parahubstop
+   :required~by: |required_by_ucsc-parahubstop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-parahubstop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-parahubstop
+
+   and update with::
+
+      conda update ucsc-parahubstop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-parahubstop
+
+
+.. |required_by_ucsc-parahubstop| conda:required_by:: ucsc-parahubstop
+.. |downloads_ucsc-parahubstop| image:: https://img.shields.io/conda/dn/bioconda/ucsc-parahubstop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-parahubstop| image:: https://quay.io/repository/biocontainers/ucsc-parahubstop/status
+   :target: https://quay.io/repository/biocontainers/ucsc-parahubstop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-parahubstop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-parahubstop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-parahubstop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-parahubstop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-parahubstop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-parahubstop
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-parahubstop/status
-                :target: https://quay.io/repository/biocontainers/ucsc-parahubstop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-parahubstop/README.html
 

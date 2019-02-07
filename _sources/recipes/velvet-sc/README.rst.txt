@@ -1,54 +1,66 @@
-.. _`velvet-sc`:
+.. title:: Package Recipe 'velvet-sc'
+.. highlight: bash
+
 
 velvet-sc
 =========
 
-|downloads|
+.. conda:recipe:: velvet-sc
+   :replaces_section_title:
 
-Efficient de novo assembly of single\-cell bacterial genomes from short\-read data sets
+   Efficient de novo assembly of single\-cell bacterial genomes from short\-read data sets
 
-============= ===========
-Home          http://bix.ucsd.edu/projects/singlecell/
-Versions      0.7.62
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//velvet-sc/meta.yaml
+   :homepage: http://bix.ucsd.edu/projects/singlecell/
+   :license: GPL / GPL-2.0
+   :recipe: /`velvet-sc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet-sc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet-sc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: velvet-sc
 
-Installation
-------------
+   |downloads_velvet-sc| |docker_velvet-sc|
 
-.. highlight: bash
+   :versions: 0.7.62
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
 
-   conda install velvet-sc
+   :required~by: |required_by_velvet-sc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update velvet-sc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install velvet-sc
+
+   and update with::
+
+      conda update velvet-sc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/velvet-sc
+
+
+.. |required_by_velvet-sc| conda:required_by:: velvet-sc
+.. |downloads_velvet-sc| image:: https://img.shields.io/conda/dn/bioconda/velvet-sc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_velvet-sc| image:: https://quay.io/repository/biocontainers/velvet-sc/status
+   :target: https://quay.io/repository/biocontainers/velvet-sc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/velvet-sc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/velvet-sc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/velvet-sc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/velvet-sc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/velvet-sc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/velvet-sc
-.. |docker| image:: https://quay.io/repository/biocontainers/velvet-sc/status
-                :target: https://quay.io/repository/biocontainers/velvet-sc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/velvet-sc/README.html
 

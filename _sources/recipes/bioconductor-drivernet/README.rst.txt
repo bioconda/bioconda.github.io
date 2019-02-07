@@ -1,56 +1,67 @@
-.. _`bioconductor-drivernet`:
+.. title:: Package Recipe 'bioconductor-drivernet'
+.. highlight: bash
+
 
 bioconductor-drivernet
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-drivernet
+   :replaces_section_title:
 
-DriverNet is a package to predict functional important driver genes in cancer by integrating genome data \(mutation and copy number variation data\) and transcriptome data \(gene expression data\). The different kinds of data are combined by an influence graph\, which is a gene\-gene interaction network deduced from pathway data. A greedy algorithm is used to find the possible driver genes\, which may mutated in a larger number of patients and these mutations will push the gene expression values of the connected genes to some extreme values.
+   DriverNet is a package to predict functional important driver genes in cancer by integrating genome data \(mutation and copy number variation data\) and transcriptome data \(gene expression data\). The different kinds of data are combined by an influence graph\, which is a gene\-gene interaction network deduced from pathway data. A greedy algorithm is used to find the possible driver genes\, which may mutated in a larger number of patients and these mutations will push the gene expression values of the connected genes to some extreme values.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DriverNet.html
-Versions      1.22.0, 1.20.0, 1.18.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-drivernet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DriverNet.html
+   :license: GPL-3
+   :recipe: /`bioconductor-drivernet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet/meta.yaml>`_
+   :links: biotools: :biotools:`drivernet`, doi: :doi:`10.1186/gb-2012-13-12-r124`
 
-
-
-Links         biotools: :biotools:`drivernet`, doi: :doi:`10.1186/gb-2012-13-12-r124`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-drivernet
 
-Installation
-------------
+   |downloads_bioconductor-drivernet| |docker_bioconductor-drivernet|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.20.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-drivernet
+   :required~by: |required_by_bioconductor-drivernet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-drivernet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-drivernet
+
+   and update with::
+
+      conda update bioconductor-drivernet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-drivernet
+
+
+.. |required_by_bioconductor-drivernet| conda:required_by:: bioconductor-drivernet
+.. |downloads_bioconductor-drivernet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drivernet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-drivernet| image:: https://quay.io/repository/biocontainers/bioconductor-drivernet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-drivernet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-drivernet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-drivernet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-drivernet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-drivernet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-drivernet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-drivernet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-drivernet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-drivernet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-drivernet/README.html
 

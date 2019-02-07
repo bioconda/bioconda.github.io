@@ -1,54 +1,66 @@
-.. _`ghc`:
+.. title:: Package Recipe 'ghc'
+.. highlight: bash
+
 
 ghc
 ===
 
-|downloads|
+.. conda:recipe:: ghc/6.8.3
+   :replaces_section_title:
 
-GHC is a state\-of\-the\-art\, open source\, compiler and interactive environment for the functional language Haskell.
+   GHC is a state\-of\-the\-art\, open source\, compiler and interactive environment for the functional language Haskell.
 
-============= ===========
-Home          https://www.haskell.org/ghc/
-Versions      6.8.3
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ghc/6.8.3/meta.yaml
+   :homepage: https://www.haskell.org/ghc/
+   :license: BSD
+   :recipe: /`ghc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghc>`_/`6.8.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghc/6.8.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghc/6.8.3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ghc
 
-Installation
-------------
+   |downloads_ghc| |docker_ghc|
 
-.. highlight: bash
+   :versions: 6.8.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gmp`  
 
-   conda install ghc
+   :required~by: |required_by_ghc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ghc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ghc
+
+   and update with::
+
+      conda update ghc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ghc
+
+
+.. |required_by_ghc| conda:required_by:: ghc
+.. |downloads_ghc| image:: https://img.shields.io/conda/dn/bioconda/ghc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ghc| image:: https://quay.io/repository/biocontainers/ghc/status
+   :target: https://quay.io/repository/biocontainers/ghc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ghc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ghc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ghc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ghc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ghc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ghc
-.. |docker| image:: https://quay.io/repository/biocontainers/ghc/status
-                :target: https://quay.io/repository/biocontainers/ghc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ghc/README.html
 

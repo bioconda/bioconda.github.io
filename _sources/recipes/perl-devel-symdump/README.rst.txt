@@ -1,54 +1,66 @@
-.. _`perl-devel-symdump`:
+.. title:: Package Recipe 'perl-devel-symdump'
+.. highlight: bash
+
 
 perl-devel-symdump
 ==================
 
-|downloads|
+.. conda:recipe:: perl-devel-symdump/2.18
+   :replaces_section_title:
 
-dump symbol names or the symbol table
+   dump symbol names or the symbol table
 
-============= ===========
-Home          http://metacpan.org/pod/Devel::Symdump
-Versions      2.18
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-symdump/2.18/meta.yaml
+   :homepage: http://metacpan.org/pod/Devel::Symdump
+   :license: perl_5
+   :recipe: /`perl-devel-symdump <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-symdump>`_/`2.18 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-symdump/2.18>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-symdump/2.18/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-devel-symdump
 
-Installation
-------------
+   |downloads_perl-devel-symdump| |docker_perl-devel-symdump|
 
-.. highlight: bash
+   :versions: 2.18
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-devel-symdump
+   :required~by: |required_by_perl-devel-symdump|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-devel-symdump
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-devel-symdump
+
+   and update with::
+
+      conda update perl-devel-symdump
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-devel-symdump
+
+
+.. |required_by_perl-devel-symdump| conda:required_by:: perl-devel-symdump
+.. |downloads_perl-devel-symdump| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-symdump.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-devel-symdump| image:: https://quay.io/repository/biocontainers/perl-devel-symdump/status
+   :target: https://quay.io/repository/biocontainers/perl-devel-symdump
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-devel-symdump.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-devel-symdump/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-devel-symdump/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-devel-symdump/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-devel-symdump/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-devel-symdump
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-symdump/status
-                :target: https://quay.io/repository/biocontainers/perl-devel-symdump
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-devel-symdump/README.html
 

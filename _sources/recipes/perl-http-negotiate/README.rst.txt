@@ -1,54 +1,66 @@
-.. _`perl-http-negotiate`:
+.. title:: Package Recipe 'perl-http-negotiate'
+.. highlight: bash
+
 
 perl-http-negotiate
 ===================
 
-|downloads|
+.. conda:recipe:: perl-http-negotiate
+   :replaces_section_title:
 
-choose a variant to serve
+   choose a variant to serve
 
-============= ===========
-Home          http://metacpan.org/pod/HTTP::Negotiate
-Versions      6.01
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-http-negotiate/meta.yaml
+   :homepage: http://metacpan.org/pod/HTTP::Negotiate
+   :license: perl_5
+   :recipe: /`perl-http-negotiate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-negotiate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-negotiate/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-http-negotiate
 
-Installation
-------------
+   |downloads_perl-http-negotiate| |docker_perl-http-negotiate|
 
-.. highlight: bash
+   :versions: 6.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-http-message`  :conda:package:`perl-threaded`  
 
-   conda install perl-http-negotiate
+   :required~by: |required_by_perl-http-negotiate|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-http-negotiate
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-http-negotiate
+
+   and update with::
+
+      conda update perl-http-negotiate
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-http-negotiate
+
+
+.. |required_by_perl-http-negotiate| conda:required_by:: perl-http-negotiate
+.. |downloads_perl-http-negotiate| image:: https://img.shields.io/conda/dn/bioconda/perl-http-negotiate.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-http-negotiate| image:: https://quay.io/repository/biocontainers/perl-http-negotiate/status
+   :target: https://quay.io/repository/biocontainers/perl-http-negotiate
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-http-negotiate.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-http-negotiate/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-http-negotiate/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-http-negotiate/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-http-negotiate/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-http-negotiate
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-http-negotiate/status
-                :target: https://quay.io/repository/biocontainers/perl-http-negotiate
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-http-negotiate/README.html
 

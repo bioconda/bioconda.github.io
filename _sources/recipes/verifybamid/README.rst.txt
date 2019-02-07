@@ -1,56 +1,67 @@
-.. _`verifybamid`:
+.. title:: Package Recipe 'verifybamid'
+.. highlight: bash
+
 
 verifybamid
 ===========
 
-|downloads|
+.. conda:recipe:: verifybamid
+   :replaces_section_title:
 
-verifyBamID verifies identity and purity of sequence data
+   verifyBamID verifies identity and purity of sequence data
 
-============= ===========
-Home          http://genome.sph.umich.edu/wiki/VerifyBamID
-Versions      1.1.3
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//verifybamid/meta.yaml
+   :homepage: http://genome.sph.umich.edu/wiki/VerifyBamID
+   :license: GPL3
+   :recipe: /`verifybamid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid/meta.yaml>`_
+   :links: biotools: :biotools:`verifybamid`, doi: :doi:`10.1016/j.ajhg.2012.09.004`
 
-
-
-Links         biotools: :biotools:`verifybamid`, doi: :doi:`10.1016/j.ajhg.2012.09.004`
-
-============= ===========
+   
 
 
+.. conda:package:: verifybamid
 
-Installation
-------------
+   |downloads_verifybamid| |docker_verifybamid|
 
-.. highlight: bash
+   :versions: 1.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install verifybamid
+   :required~by: |required_by_verifybamid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update verifybamid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install verifybamid
+
+   and update with::
+
+      conda update verifybamid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/verifybamid
+
+
+.. |required_by_verifybamid| conda:required_by:: verifybamid
+.. |downloads_verifybamid| image:: https://img.shields.io/conda/dn/bioconda/verifybamid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_verifybamid| image:: https://quay.io/repository/biocontainers/verifybamid/status
+   :target: https://quay.io/repository/biocontainers/verifybamid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/verifybamid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/verifybamid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/verifybamid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/verifybamid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/verifybamid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/verifybamid
-.. |docker| image:: https://quay.io/repository/biocontainers/verifybamid/status
-                :target: https://quay.io/repository/biocontainers/verifybamid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/verifybamid/README.html
 

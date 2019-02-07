@@ -1,54 +1,66 @@
-.. _`ucsc-mafsplitpos`:
+.. title:: Package Recipe 'ucsc-mafsplitpos'
+.. highlight: bash
+
 
 ucsc-mafsplitpos
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-mafsplitpos
+   :replaces_section_title:
 
-Pick positions to split multiple alignment input files
+   Pick positions to split multiple alignment input files
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-mafsplitpos/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-mafsplitpos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafsplitpos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafsplitpos/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-mafsplitpos
 
-Installation
-------------
+   |downloads_ucsc-mafsplitpos| |docker_ucsc-mafsplitpos|
 
-.. highlight: bash
+   :versions: 366, 357, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-mafsplitpos
+   :required~by: |required_by_ucsc-mafsplitpos|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-mafsplitpos
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-mafsplitpos
+
+   and update with::
+
+      conda update ucsc-mafsplitpos
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-mafsplitpos
+
+
+.. |required_by_ucsc-mafsplitpos| conda:required_by:: ucsc-mafsplitpos
+.. |downloads_ucsc-mafsplitpos| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafsplitpos.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-mafsplitpos| image:: https://quay.io/repository/biocontainers/ucsc-mafsplitpos/status
+   :target: https://quay.io/repository/biocontainers/ucsc-mafsplitpos
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-mafsplitpos.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-mafsplitpos/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-mafsplitpos/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-mafsplitpos/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-mafsplitpos/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-mafsplitpos
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-mafsplitpos/status
-                :target: https://quay.io/repository/biocontainers/ucsc-mafsplitpos
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-mafsplitpos/README.html
 

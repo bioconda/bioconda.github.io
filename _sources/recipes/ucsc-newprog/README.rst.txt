@@ -1,54 +1,66 @@
-.. _`ucsc-newprog`:
+.. title:: Package Recipe 'ucsc-newprog'
+.. highlight: bash
+
 
 ucsc-newprog
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-newprog
+   :replaces_section_title:
 
-make a new C source skeleton.
+   make a new C source skeleton.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-newprog/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-newprog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-newprog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-newprog/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-newprog
 
-Installation
-------------
+   |downloads_ucsc-newprog| |docker_ucsc-newprog|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-newprog
+   :required~by: |required_by_ucsc-newprog|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-newprog
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-newprog
+
+   and update with::
+
+      conda update ucsc-newprog
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-newprog
+
+
+.. |required_by_ucsc-newprog| conda:required_by:: ucsc-newprog
+.. |downloads_ucsc-newprog| image:: https://img.shields.io/conda/dn/bioconda/ucsc-newprog.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-newprog| image:: https://quay.io/repository/biocontainers/ucsc-newprog/status
+   :target: https://quay.io/repository/biocontainers/ucsc-newprog
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-newprog.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-newprog/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-newprog/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-newprog/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-newprog/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-newprog
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-newprog/status
-                :target: https://quay.io/repository/biocontainers/ucsc-newprog
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-newprog/README.html
 

@@ -1,56 +1,67 @@
-.. _`impute2`:
+.. title:: Package Recipe 'impute2'
+.. highlight: bash
+
 
 impute2
 =======
 
-|downloads|
+.. conda:recipe:: impute2
+   :replaces_section_title:
 
-Genotype imputation and haplotype phasing
+   Genotype imputation and haplotype phasing
 
-============= ===========
-Home          https://mathgen.stats.ox.ac.uk/impute/impute_v2.html
-Versions      2.3.2
-License       Academic use, commerically restricted (http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//impute2/meta.yaml
+   :homepage: https://mathgen.stats.ox.ac.uk/impute/impute_v2.html
+   :license: Academic use, commerically restricted (http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence)
+   :recipe: /`impute2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impute2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impute2/meta.yaml>`_
+   :links: biotools: :biotools:`IMPUTE2`, doi: :doi:`10.1534/g3.111.001198`
 
-
-
-Links         biotools: :biotools:`IMPUTE2`, doi: :doi:`10.1534/g3.111.001198`
-
-============= ===========
+   
 
 
+.. conda:package:: impute2
 
-Installation
-------------
+   |downloads_impute2| |docker_impute2|
 
-.. highlight: bash
+   :versions: 2.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install impute2
+   :required~by: |required_by_impute2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update impute2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install impute2
+
+   and update with::
+
+      conda update impute2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/impute2
+
+
+.. |required_by_impute2| conda:required_by:: impute2
+.. |downloads_impute2| image:: https://img.shields.io/conda/dn/bioconda/impute2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_impute2| image:: https://quay.io/repository/biocontainers/impute2/status
+   :target: https://quay.io/repository/biocontainers/impute2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/impute2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/impute2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/impute2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/impute2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/impute2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/impute2
-.. |docker| image:: https://quay.io/repository/biocontainers/impute2/status
-                :target: https://quay.io/repository/biocontainers/impute2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/impute2/README.html
 

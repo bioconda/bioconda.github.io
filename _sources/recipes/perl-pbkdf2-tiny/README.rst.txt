@@ -1,54 +1,66 @@
-.. _`perl-pbkdf2-tiny`:
+.. title:: Package Recipe 'perl-pbkdf2-tiny'
+.. highlight: bash
+
 
 perl-pbkdf2-tiny
 ================
 
-|downloads|
+.. conda:recipe:: perl-pbkdf2-tiny
+   :replaces_section_title:
 
-Minimalist PBKDF2 \(RFC 2898\) with HMAC\-SHA1 or HMAC\-SHA2
+   Minimalist PBKDF2 \(RFC 2898\) with HMAC\-SHA1 or HMAC\-SHA2
 
-============= ===========
-Home          https://github.com/dagolden/PBKDF2-Tiny
-Versions      0.005
-License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pbkdf2-tiny/meta.yaml
+   :homepage: https://github.com/dagolden/PBKDF2-Tiny
+   :license: apache_2_0
+   :recipe: /`perl-pbkdf2-tiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pbkdf2-tiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pbkdf2-tiny/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pbkdf2-tiny
 
-Installation
-------------
+   |downloads_perl-pbkdf2-tiny| |docker_perl-pbkdf2-tiny|
 
-.. highlight: bash
+   :versions: 0.005
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-pbkdf2-tiny
+   :required~by: |required_by_perl-pbkdf2-tiny|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pbkdf2-tiny
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pbkdf2-tiny
+
+   and update with::
+
+      conda update perl-pbkdf2-tiny
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pbkdf2-tiny
+
+
+.. |required_by_perl-pbkdf2-tiny| conda:required_by:: perl-pbkdf2-tiny
+.. |downloads_perl-pbkdf2-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-pbkdf2-tiny.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pbkdf2-tiny| image:: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny/status
+   :target: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pbkdf2-tiny.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pbkdf2-tiny/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pbkdf2-tiny/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pbkdf2-tiny/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pbkdf2-tiny/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pbkdf2-tiny
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny/status
-                :target: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pbkdf2-tiny/README.html
 

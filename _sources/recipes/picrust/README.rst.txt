@@ -1,36 +1,56 @@
-.. _`picrust`:
+.. title:: Package Recipe 'picrust'
+.. highlight: bash
+
 
 picrust
 =======
 
-|downloads|
+.. conda:recipe:: picrust
+   :replaces_section_title:
 
-PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
+   PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 
-============= ===========
-Home          http://picrust.github.com
-Versions      1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//picrust/meta.yaml
+   :homepage: http://picrust.github.com
+   :license: GPL-3.0
+   :recipe: /`picrust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: picrust
 
-Installation
-------------
+   |downloads_picrust| |docker_picrust|
 
-.. highlight: bash
+   :versions: 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biom-format` >=2.1.4,<2.2.0 :conda:package:`cogent` >=1.5.3 :conda:package:`future` >=0.16 :conda:package:`h5py` >=1.7.0 :conda:package:`numpy` >=1.5.1 :conda:package:`python` 2.7* 
 
-   conda install picrust
+   :required~by: |required_by_picrust|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update picrust
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install picrust
+
+   and update with::
+
+      conda update picrust
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/picrust
+
+
+.. |required_by_picrust| conda:required_by:: picrust
+.. |downloads_picrust| image:: https://img.shields.io/conda/dn/bioconda/picrust.svg?style=flat
+   :alt:   (downloads)
+.. |docker_picrust| image:: https://quay.io/repository/biocontainers/picrust/status
+   :target: https://quay.io/repository/biocontainers/picrust
+
+
+
+
 
 
 Notes
@@ -38,21 +58,13 @@ Notes
 PICRUST requires a set of large pre\-calculated data files. PICRUST contains a script\, \"download\_picrust\_files.py\"\, which downloads the data in the proper location\, and which can be run after PICRUST has been installed.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/picrust.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/picrust/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/picrust/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/picrust/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/picrust/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/picrust
-.. |docker| image:: https://quay.io/repository/biocontainers/picrust/status
-                :target: https://quay.io/repository/biocontainers/picrust
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/picrust/README.html
 

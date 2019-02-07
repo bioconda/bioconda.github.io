@@ -1,54 +1,66 @@
-.. _`r-coenocliner`:
+.. title:: Package Recipe 'r-coenocliner'
+.. highlight: bash
+
 
 r-coenocliner
 =============
 
-|downloads|
+.. conda:recipe:: r-coenocliner
+   :replaces_section_title:
 
-Simulate species occurrence and abundances \(counts\) along gradients.
+   Simulate species occurrence and abundances \(counts\) along gradients.
 
-============= ===========
-Home          https://github.com/gavinsimpson/coenocliner/
-Versions      0.2_2
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-coenocliner/meta.yaml
+   :homepage: https://github.com/gavinsimpson/coenocliner/
+   :license: GPL2 / GPL-2
+   :recipe: /`r-coenocliner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coenocliner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coenocliner/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-coenocliner
 
-Installation
-------------
+   |downloads_r-coenocliner| |docker_r-coenocliner|
 
-.. highlight: bash
+   :versions: 0.2_2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install r-coenocliner
+   :required~by: |required_by_r-coenocliner|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-coenocliner
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-coenocliner
+
+   and update with::
+
+      conda update r-coenocliner
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-coenocliner
+
+
+.. |required_by_r-coenocliner| conda:required_by:: r-coenocliner
+.. |downloads_r-coenocliner| image:: https://img.shields.io/conda/dn/bioconda/r-coenocliner.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-coenocliner| image:: https://quay.io/repository/biocontainers/r-coenocliner/status
+   :target: https://quay.io/repository/biocontainers/r-coenocliner
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-coenocliner.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-coenocliner/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-coenocliner/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-coenocliner/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-coenocliner/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-coenocliner
-.. |docker| image:: https://quay.io/repository/biocontainers/r-coenocliner/status
-                :target: https://quay.io/repository/biocontainers/r-coenocliner
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-coenocliner/README.html
 

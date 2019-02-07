@@ -1,56 +1,67 @@
-.. _`mummer`:
+.. title:: Package Recipe 'mummer'
+.. highlight: bash
+
 
 mummer
 ======
 
-|downloads|
+.. conda:recipe:: mummer
+   :replaces_section_title:
 
-MUMmer is a system for rapidly aligning entire genomes
+   MUMmer is a system for rapidly aligning entire genomes
 
-============= ===========
-Home          http://mummer.sourceforge.net/
-Versions      3.23
-License       The Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mummer/meta.yaml
+   :homepage: http://mummer.sourceforge.net/
+   :license: The Artistic License
+   :recipe: /`mummer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer/meta.yaml>`_
+   :links: biotools: :biotools:`mummer`
 
-
-
-Links         biotools: :biotools:`mummer`
-
-============= ===========
+   
 
 
+.. conda:package:: mummer
 
-Installation
-------------
+   |downloads_mummer| |docker_mummer|
 
-.. highlight: bash
+   :versions: 3.23
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install mummer
+   :required~by: |required_by_mummer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mummer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mummer
+
+   and update with::
+
+      conda update mummer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mummer
+
+
+.. |required_by_mummer| conda:required_by:: mummer
+.. |downloads_mummer| image:: https://img.shields.io/conda/dn/bioconda/mummer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mummer| image:: https://quay.io/repository/biocontainers/mummer/status
+   :target: https://quay.io/repository/biocontainers/mummer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mummer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mummer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mummer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mummer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mummer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mummer
-.. |docker| image:: https://quay.io/repository/biocontainers/mummer/status
-                :target: https://quay.io/repository/biocontainers/mummer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mummer/README.html
 

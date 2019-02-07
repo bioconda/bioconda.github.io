@@ -1,54 +1,66 @@
-.. _`emmix`:
+.. title:: Package Recipe 'emmix'
+.. highlight: bash
+
 
 emmix
 =====
 
-|downloads|
+.. conda:recipe:: emmix/1.3
+   :replaces_section_title:
 
-A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set.
+   A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set.
 
-============= ===========
-Home          https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
-Versions      1.3
-License       Available freely for non-commercial use only
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//emmix/1.3/meta.yaml
+   :homepage: https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
+   :license: Available freely for non-commercial use only
+   :recipe: /`emmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix>`_/`1.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: emmix
 
-Installation
-------------
+   |downloads_emmix| |docker_emmix|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install emmix
+   :required~by: |required_by_emmix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update emmix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install emmix
+
+   and update with::
+
+      conda update emmix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/emmix
+
+
+.. |required_by_emmix| conda:required_by:: emmix
+.. |downloads_emmix| image:: https://img.shields.io/conda/dn/bioconda/emmix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_emmix| image:: https://quay.io/repository/biocontainers/emmix/status
+   :target: https://quay.io/repository/biocontainers/emmix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/emmix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/emmix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/emmix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/emmix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/emmix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/emmix
-.. |docker| image:: https://quay.io/repository/biocontainers/emmix/status
-                :target: https://quay.io/repository/biocontainers/emmix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/emmix/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-missrows`:
+.. title:: Package Recipe 'bioconductor-missrows'
+.. highlight: bash
+
 
 bioconductor-missrows
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-missrows
+   :replaces_section_title:
 
-The missRows package implements the MI\-MFA method to deal with missing individuals \(\'biological units\'\) in multi\-omics data integration. The MI\-MFA method generates multiple imputed datasets from a Multiple Factor Analysis model\, then the yield results are combined in a single consensus solution. The package provides functions for estimating coordinates of individuals and variables\, imputing missing individuals\, and various diagnostic plots to inspect the pattern of missingness and visualize the uncertainty due to missing values.
+   The missRows package implements the MI\-MFA method to deal with missing individuals \(\'biological units\'\) in multi\-omics data integration. The MI\-MFA method generates multiple imputed datasets from a Multiple Factor Analysis model\, then the yield results are combined in a single consensus solution. The package provides functions for estimating coordinates of individuals and variables\, imputing missing individuals\, and various diagnostic plots to inspect the pattern of missingness and visualize the uncertainty due to missing values.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/missRows.html
-Versions      1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-missrows/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/missRows.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-missrows <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-missrows
 
-Installation
-------------
+   |downloads_bioconductor-missrows| |docker_bioconductor-missrows|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-multiassayexperiment` >=1.8.0,<1.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gtools`  :conda:package:`r-plyr`  
 
-   conda install bioconductor-missrows
+   :required~by: |required_by_bioconductor-missrows|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-missrows
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-missrows
+
+   and update with::
+
+      conda update bioconductor-missrows
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-missrows
+
+
+.. |required_by_bioconductor-missrows| conda:required_by:: bioconductor-missrows
+.. |downloads_bioconductor-missrows| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-missrows.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-missrows| image:: https://quay.io/repository/biocontainers/bioconductor-missrows/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-missrows
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-missrows.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-missrows/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-missrows/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-missrows/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-missrows/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-missrows
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-missrows/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-missrows
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-missrows/README.html
 

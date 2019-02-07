@@ -1,56 +1,67 @@
-.. _`bioconductor-cpvsnp`:
+.. title:: Package Recipe 'bioconductor-cpvsnp'
+.. highlight: bash
+
 
 bioconductor-cpvsnp
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-cpvsnp
+   :replaces_section_title:
 
-Gene set analysis methods exist to combine SNP\-level association p\-values into gene sets\, calculating a single association p\-value for each gene set. This package implements two such methods that require only the calculated SNP p\-values\, the gene set\(s\) of interest\, and a correlation matrix \(if desired\). One method \(GLOSSI\) requires independent SNPs and the other \(VEGAS\) can take into account correlation \(LD\) among the SNPs. Built\-in plotting functions are available to help users visualize results.
+   Gene set analysis methods exist to combine SNP\-level association p\-values into gene sets\, calculating a single association p\-value for each gene set. This package implements two such methods that require only the calculated SNP p\-values\, the gene set\(s\) of interest\, and a correlation matrix \(if desired\). One method \(GLOSSI\) requires independent SNPs and the other \(VEGAS\) can take into account correlation \(LD\) among the SNPs. Built\-in plotting functions are available to help users visualize results.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/cpvSNP.html
-Versions      1.14.0, 1.12.0, 1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cpvsnp/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cpvSNP.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-cpvsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp/meta.yaml>`_
+   :links: biotools: :biotools:`cpvsnp`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`cpvsnp`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cpvsnp
 
-Installation
-------------
+   |downloads_bioconductor-cpvsnp| |docker_bioconductor-cpvsnp|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  
 
-   conda install bioconductor-cpvsnp
+   :required~by: |required_by_bioconductor-cpvsnp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cpvsnp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cpvsnp
+
+   and update with::
+
+      conda update bioconductor-cpvsnp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cpvsnp
+
+
+.. |required_by_bioconductor-cpvsnp| conda:required_by:: bioconductor-cpvsnp
+.. |downloads_bioconductor-cpvsnp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cpvsnp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cpvsnp| image:: https://quay.io/repository/biocontainers/bioconductor-cpvsnp/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cpvsnp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cpvsnp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cpvsnp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cpvsnp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cpvsnp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cpvsnp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cpvsnp
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cpvsnp/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cpvsnp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cpvsnp/README.html
 

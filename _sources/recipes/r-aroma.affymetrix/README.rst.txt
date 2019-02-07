@@ -1,54 +1,66 @@
-.. _`r-aroma.affymetrix`:
+.. title:: Package Recipe 'r-aroma.affymetrix'
+.. highlight: bash
+
 
 r-aroma.affymetrix
 ==================
 
-|downloads|
+.. conda:recipe:: r-aroma.affymetrix
+   :replaces_section_title:
 
-A cross\-platform R framework that facilitates processing of any number of Affymetrix microarray samples regardless of computer system.  The only parameter that limits the number of chips that can be processed is the amount of available disk space.  The Aroma Framework has successfully been used in studies to process tens of thousands of arrays.  This package has actively been used since 2006.
+   A cross\-platform R framework that facilitates processing of any number of Affymetrix microarray samples regardless of computer system.  The only parameter that limits the number of chips that can be processed is the amount of available disk space.  The Aroma Framework has successfully been used in studies to process tens of thousands of arrays.  This package has actively been used since 2006.
 
-============= ===========
-Home          http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
-Versions      3.1.1, 3.1.0, 3.0.0
-License       LGPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-aroma.affymetrix/meta.yaml
+   :homepage: http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
+   :license: LGPL / LGPL (>= 2.1)
+   :recipe: /`r-aroma.affymetrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.affymetrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.affymetrix/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-aroma.affymetrix
 
-Installation
-------------
+   |downloads_r-aroma.affymetrix| |docker_r-aroma.affymetrix|
 
-.. highlight: bash
+   :versions: 3.1.1, 3.1.0, 3.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-aroma.apd` >=0.6.0 :conda:package:`r-aroma.core` >=3.1.1 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-future`  :conda:package:`r-listenv`  :conda:package:`r-mass`  :conda:package:`r-matrixstats` >=0.52.2 :conda:package:`r-r.cache` >=0.13.0 :conda:package:`r-r.devices` >=2.15.1 :conda:package:`r-r.filesets` >=2.11.0 :conda:package:`r-r.methodss3` >=1.7.1 :conda:package:`r-r.oo` >=1.21.0 :conda:package:`r-r.utils` >=2.6.0 
 
-   conda install r-aroma.affymetrix
+   :required~by: |required_by_r-aroma.affymetrix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-aroma.affymetrix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-aroma.affymetrix
+
+   and update with::
+
+      conda update r-aroma.affymetrix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-aroma.affymetrix
+
+
+.. |required_by_r-aroma.affymetrix| conda:required_by:: r-aroma.affymetrix
+.. |downloads_r-aroma.affymetrix| image:: https://img.shields.io/conda/dn/bioconda/r-aroma.affymetrix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-aroma.affymetrix| image:: https://quay.io/repository/biocontainers/r-aroma.affymetrix/status
+   :target: https://quay.io/repository/biocontainers/r-aroma.affymetrix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-aroma.affymetrix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-aroma.affymetrix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-aroma.affymetrix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-aroma.affymetrix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-aroma.affymetrix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-aroma.affymetrix
-.. |docker| image:: https://quay.io/repository/biocontainers/r-aroma.affymetrix/status
-                :target: https://quay.io/repository/biocontainers/r-aroma.affymetrix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-aroma.affymetrix/README.html
 

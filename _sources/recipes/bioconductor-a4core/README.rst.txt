@@ -1,56 +1,67 @@
-.. _`bioconductor-a4core`:
+.. title:: Package Recipe 'bioconductor-a4core'
+.. highlight: bash
+
 
 bioconductor-a4core
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-a4core
+   :replaces_section_title:
 
-Automated Affymetrix Array Analysis Core Package
+   Automated Affymetrix Array Analysis Core Package
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/a4Core.html
-Versions      1.30.0, 1.28.0, 1.26.0, 1.24.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-a4core/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/a4Core.html
+   :license: GPL-3
+   :recipe: /`bioconductor-a4core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4core/meta.yaml>`_
+   :links: biotools: :biotools:`a4core`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`a4core`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-a4core
 
-Installation
-------------
+   |downloads_bioconductor-a4core| |docker_bioconductor-a4core|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  
 
-   conda install bioconductor-a4core
+   :required~by: |required_by_bioconductor-a4core|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-a4core
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-a4core
+
+   and update with::
+
+      conda update bioconductor-a4core
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-a4core
+
+
+.. |required_by_bioconductor-a4core| conda:required_by:: bioconductor-a4core
+.. |downloads_bioconductor-a4core| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4core.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-a4core| image:: https://quay.io/repository/biocontainers/bioconductor-a4core/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-a4core
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-a4core.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-a4core/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-a4core/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-a4core/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-a4core/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-a4core
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-a4core/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-a4core
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-a4core/README.html
 

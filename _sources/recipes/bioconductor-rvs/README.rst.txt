@@ -1,54 +1,66 @@
-.. _`bioconductor-rvs`:
+.. title:: Package Recipe 'bioconductor-rvs'
+.. highlight: bash
+
 
 bioconductor-rvs
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-rvs
+   :replaces_section_title:
 
-Rare Variant Sharing \(RVS\) implements tests of association and linkage between rare genetic variant genotypes and a dichotomous phenotype\, e.g. a disease status\, in family samples. The tests are based on probabilities of rare variant sharing by relatives under the null hypothesis of absence of linkage and association between the rare variants and the phenotype and apply to single variants or multiple variants in a region \(e.g. gene\-based test\).
+   Rare Variant Sharing \(RVS\) implements tests of association and linkage between rare genetic variant genotypes and a dichotomous phenotype\, e.g. a disease status\, in family samples. The tests are based on probabilities of rare variant sharing by relatives under the null hypothesis of absence of linkage and association between the rare variants and the phenotype and apply to single variants or multiple variants in a region \(e.g. gene\-based test\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RVS.html
-Versions      1.4.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rvs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RVS.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rvs
 
-Installation
-------------
+   |downloads_bioconductor-rvs| |docker_bioconductor-rvs|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grain`  :conda:package:`r-kinship2`  
 
-   conda install bioconductor-rvs
+   :required~by: |required_by_bioconductor-rvs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rvs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rvs
+
+   and update with::
+
+      conda update bioconductor-rvs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rvs
+
+
+.. |required_by_bioconductor-rvs| conda:required_by:: bioconductor-rvs
+.. |downloads_bioconductor-rvs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rvs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rvs| image:: https://quay.io/repository/biocontainers/bioconductor-rvs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rvs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rvs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rvs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rvs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rvs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rvs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rvs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rvs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rvs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rvs/README.html
 

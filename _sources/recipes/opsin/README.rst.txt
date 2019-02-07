@@ -1,36 +1,56 @@
-.. _`opsin`:
+.. title:: Package Recipe 'opsin'
+.. highlight: bash
+
 
 opsin
 =====
 
-|downloads|
+.. conda:recipe:: opsin/1.4.0
+   :replaces_section_title:
 
-OPSIN is a Java\(1.6\+\) library for IUPAC name\-to\-structure conversion offering high recall and precision on organic chemical nomenclature.
+   OPSIN is a Java\(1.6\+\) library for IUPAC name\-to\-structure conversion offering high recall and precision on organic chemical nomenclature.
 
-============= ===========
-Home          https://bitbucket.org/dan2097/opsin/
-Versions      2.1.0, 1.4.0
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//opsin/1.4.0/meta.yaml
+   :homepage: https://bitbucket.org/dan2097/opsin/
+   :license: Artistic License 2.0
+   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`1.4.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: opsin
 
-Installation
-------------
+   |downloads_opsin| |docker_opsin|
 
-.. highlight: bash
+   :versions: 2.1.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk` >=6 
 
-   conda install opsin
+   :required~by: |required_by_opsin|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update opsin
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install opsin
+
+   and update with::
+
+      conda update opsin
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/opsin
+
+
+.. |required_by_opsin| conda:required_by:: opsin
+.. |downloads_opsin| image:: https://img.shields.io/conda/dn/bioconda/opsin.svg?style=flat
+   :alt:   (downloads)
+.. |docker_opsin| image:: https://quay.io/repository/biocontainers/opsin/status
+   :target: https://quay.io/repository/biocontainers/opsin
+
+
+
+
 
 
 Notes
@@ -43,22 +63,13 @@ set globally this will take precedence.
 For example run opsin with \"opsin \-Xms512m \-Xmx1g \-\-help\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/opsin.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/opsin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/opsin/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/opsin/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/opsin/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/opsin
-.. |docker| image:: https://quay.io/repository/biocontainers/opsin/status
-                :target: https://quay.io/repository/biocontainers/opsin
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/opsin/README.html
 

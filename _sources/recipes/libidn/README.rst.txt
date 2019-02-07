@@ -1,54 +1,66 @@
-.. _`libidn`:
+.. title:: Package Recipe 'libidn'
+.. highlight: bash
+
 
 libidn
 ======
 
-|downloads|
+.. conda:recipe:: libidn
+   :replaces_section_title:
 
-Library for internationalized domain name support
+   Library for internationalized domain name support
 
-============= ===========
-Home          https://www.gnu.org/software/libidn/
-Versions      7.45.0
-License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libidn/meta.yaml
+   :homepage: https://www.gnu.org/software/libidn/
+   :license: LGPLv3
+   :recipe: /`libidn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libidn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libidn/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: libidn
 
-Installation
-------------
+   |downloads_libidn| |docker_libidn|
 
-.. highlight: bash
+   :versions: 7.45.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install libidn
+   :required~by: |required_by_libidn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update libidn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install libidn
+
+   and update with::
+
+      conda update libidn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/libidn
+
+
+.. |required_by_libidn| conda:required_by:: libidn
+.. |downloads_libidn| image:: https://img.shields.io/conda/dn/bioconda/libidn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_libidn| image:: https://quay.io/repository/biocontainers/libidn/status
+   :target: https://quay.io/repository/biocontainers/libidn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/libidn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/libidn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libidn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/libidn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/libidn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/libidn
-.. |docker| image:: https://quay.io/repository/biocontainers/libidn/status
-                :target: https://quay.io/repository/biocontainers/libidn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/libidn/README.html
 

@@ -1,54 +1,66 @@
-.. _`rnftools`:
+.. title:: Package Recipe 'rnftools'
+.. highlight: bash
+
 
 rnftools
 ========
 
-|downloads|
+.. conda:recipe:: rnftools
+   :replaces_section_title:
 
-RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data.
+   RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data.
 
-============= ===========
-Home          http://karel-brinda.github.io/rnftools
-Versions      0.3.1.3, 0.3.1.2, 0.3.1.1, 0.3.1.0, 0.3.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnftools/meta.yaml
+   :homepage: http://karel-brinda.github.io/rnftools
+   :license: MIT
+   :recipe: /`rnftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnftools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rnftools
 
-Installation
-------------
+   |downloads_rnftools| |docker_rnftools|
 
-.. highlight: bash
+   :versions: 0.3.1.3, 0.3.1.2, 0.3.1.1, 0.3.1.0, 0.3.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`art`  :conda:package:`beautifulsoup4`  :conda:package:`bwa`  :conda:package:`curesim`  :conda:package:`dwgsim`  :conda:package:`gnuplot` >=5.0 :conda:package:`mason`  :conda:package:`pyfaidx`  :conda:package:`pysam`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`reportlab` 3.3.0 :conda:package:`samtools`  :conda:package:`snakemake-minimal`  :conda:package:`svg42pdf` >=0.2.2 :conda:package:`wgsim`  
 
-   conda install rnftools
+   :required~by: |required_by_rnftools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rnftools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rnftools
+
+   and update with::
+
+      conda update rnftools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rnftools
+
+
+.. |required_by_rnftools| conda:required_by:: rnftools
+.. |downloads_rnftools| image:: https://img.shields.io/conda/dn/bioconda/rnftools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rnftools| image:: https://quay.io/repository/biocontainers/rnftools/status
+   :target: https://quay.io/repository/biocontainers/rnftools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rnftools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rnftools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rnftools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rnftools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rnftools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rnftools
-.. |docker| image:: https://quay.io/repository/biocontainers/rnftools/status
-                :target: https://quay.io/repository/biocontainers/rnftools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rnftools/README.html
 

@@ -1,54 +1,66 @@
-.. _`vnl`:
+.. title:: Package Recipe 'vnl'
+.. highlight: bash
+
 
 vnl
 ===
 
-|downloads|
+.. conda:recipe:: vnl
+   :replaces_section_title:
 
-A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding.
+   A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding.
 
-============= ===========
-Home          https://sf.net/projects/vxl/
-Versions      1.17.0
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vnl/meta.yaml
+   :homepage: https://sf.net/projects/vxl/
+   :license: BSD
+   :recipe: /`vnl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vnl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vnl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vnl
 
-Installation
-------------
+   |downloads_vnl| |docker_vnl|
 
-.. highlight: bash
+   :versions: 1.17.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install vnl
+   :required~by: |required_by_vnl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vnl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vnl
+
+   and update with::
+
+      conda update vnl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vnl
+
+
+.. |required_by_vnl| conda:required_by:: vnl
+.. |downloads_vnl| image:: https://img.shields.io/conda/dn/bioconda/vnl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vnl| image:: https://quay.io/repository/biocontainers/vnl/status
+   :target: https://quay.io/repository/biocontainers/vnl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vnl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vnl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vnl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vnl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vnl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vnl
-.. |docker| image:: https://quay.io/repository/biocontainers/vnl/status
-                :target: https://quay.io/repository/biocontainers/vnl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vnl/README.html
 

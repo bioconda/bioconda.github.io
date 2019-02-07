@@ -1,56 +1,67 @@
-.. _`bioconductor-bgmix`:
+.. title:: Package Recipe 'bioconductor-bgmix'
+.. highlight: bash
+
 
 bioconductor-bgmix
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-bgmix
+   :replaces_section_title:
 
-Fully Bayesian mixture models for differential gene expression
+   Fully Bayesian mixture models for differential gene expression
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BGmix.html
-Versions      1.42.0, 1.40.0, 1.38.0, 1.36.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bgmix/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BGmix.html
+   :license: GPL-2
+   :recipe: /`bioconductor-bgmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix/meta.yaml>`_
+   :links: biotools: :biotools:`bgmix`, doi: :doi:`10.2202/1544-6115.1314`
 
-
-
-Links         biotools: :biotools:`bgmix`, doi: :doi:`10.2202/1544-6115.1314`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bgmix
 
-Installation
-------------
+   |downloads_bioconductor-bgmix| |docker_bioconductor-bgmix|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  
 
-   conda install bioconductor-bgmix
+   :required~by: |required_by_bioconductor-bgmix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bgmix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bgmix
+
+   and update with::
+
+      conda update bioconductor-bgmix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bgmix
+
+
+.. |required_by_bioconductor-bgmix| conda:required_by:: bioconductor-bgmix
+.. |downloads_bioconductor-bgmix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgmix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bgmix| image:: https://quay.io/repository/biocontainers/bioconductor-bgmix/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bgmix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bgmix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bgmix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bgmix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bgmix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bgmix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bgmix
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bgmix/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bgmix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bgmix/README.html
 

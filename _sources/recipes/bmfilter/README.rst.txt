@@ -1,54 +1,66 @@
-.. _`bmfilter`:
+.. title:: Package Recipe 'bmfilter'
+.. highlight: bash
+
 
 bmfilter
 ========
 
-|downloads|
+.. conda:recipe:: bmfilter
+   :replaces_section_title:
 
-bmfilter is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
+   bmfilter is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
 
-============= ===========
-Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
-Versions      3.101
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bmfilter/meta.yaml
+   :homepage: ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+   :license: Public Domain
+   :recipe: /`bmfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmfilter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bmfilter
 
-Installation
-------------
+   |downloads_bmfilter| |docker_bmfilter|
 
-.. highlight: bash
+   :versions: 3.101
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bmfilter
+   :required~by: |required_by_bmfilter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bmfilter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bmfilter
+
+   and update with::
+
+      conda update bmfilter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bmfilter
+
+
+.. |required_by_bmfilter| conda:required_by:: bmfilter
+.. |downloads_bmfilter| image:: https://img.shields.io/conda/dn/bioconda/bmfilter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bmfilter| image:: https://quay.io/repository/biocontainers/bmfilter/status
+   :target: https://quay.io/repository/biocontainers/bmfilter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bmfilter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bmfilter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bmfilter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bmfilter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bmfilter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bmfilter
-.. |docker| image:: https://quay.io/repository/biocontainers/bmfilter/status
-                :target: https://quay.io/repository/biocontainers/bmfilter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bmfilter/README.html
 

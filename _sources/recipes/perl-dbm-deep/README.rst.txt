@@ -1,54 +1,66 @@
-.. _`perl-dbm-deep`:
+.. title:: Package Recipe 'perl-dbm-deep'
+.. highlight: bash
+
 
 perl-dbm-deep
 =============
 
-|downloads|
+.. conda:recipe:: perl-dbm-deep
+   :replaces_section_title:
 
-A pure perl multi\-level hash\/array DBM that supports transactions
+   A pure perl multi\-level hash\/array DBM that supports transactions
 
-============= ===========
-Home          http://metacpan.org/pod/DBM::Deep
-Versions      2.0013
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-dbm-deep/meta.yaml
+   :homepage: http://metacpan.org/pod/DBM::Deep
+   :license: perl_5
+   :recipe: /`perl-dbm-deep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbm-deep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbm-deep/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-dbm-deep
 
-Installation
-------------
+   |downloads_perl-dbm-deep| |docker_perl-dbm-deep|
 
-.. highlight: bash
+   :versions: 2.0013
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-dbi`  :conda:package:`perl-digest-md5`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-threaded`  
 
-   conda install perl-dbm-deep
+   :required~by: |required_by_perl-dbm-deep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-dbm-deep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-dbm-deep
+
+   and update with::
+
+      conda update perl-dbm-deep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-dbm-deep
+
+
+.. |required_by_perl-dbm-deep| conda:required_by:: perl-dbm-deep
+.. |downloads_perl-dbm-deep| image:: https://img.shields.io/conda/dn/bioconda/perl-dbm-deep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-dbm-deep| image:: https://quay.io/repository/biocontainers/perl-dbm-deep/status
+   :target: https://quay.io/repository/biocontainers/perl-dbm-deep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-dbm-deep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-dbm-deep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-dbm-deep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-dbm-deep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-dbm-deep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-dbm-deep
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-dbm-deep/status
-                :target: https://quay.io/repository/biocontainers/perl-dbm-deep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-dbm-deep/README.html
 

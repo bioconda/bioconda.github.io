@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.ecoli`:
+.. title:: Package Recipe 'bioconductor-pd.ecoli'
+.. highlight: bash
+
 
 bioconductor-pd.ecoli
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.ecoli
+   :replaces_section_title:
 
-Platform Design Info for The Manufacturer\'s Name Ecoli
+   Platform Design Info for The Manufacturer\'s Name Ecoli
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ecoli.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.ecoli/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.ecoli.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.ecoli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.ecoli
 
-Installation
-------------
+   |downloads_bioconductor-pd.ecoli| |docker_bioconductor-pd.ecoli|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.ecoli
+   :required~by: |required_by_bioconductor-pd.ecoli|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.ecoli
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.ecoli
+
+   and update with::
+
+      conda update bioconductor-pd.ecoli
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.ecoli
+
+
+.. |required_by_bioconductor-pd.ecoli| conda:required_by:: bioconductor-pd.ecoli
+.. |downloads_bioconductor-pd.ecoli| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.ecoli.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.ecoli| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.ecoli.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.ecoli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.ecoli/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.ecoli/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.ecoli/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.ecoli
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.ecoli/README.html
 

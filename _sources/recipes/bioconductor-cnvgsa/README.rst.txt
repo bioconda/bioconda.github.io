@@ -1,56 +1,67 @@
-.. _`bioconductor-cnvgsa`:
+.. title:: Package Recipe 'bioconductor-cnvgsa'
+.. highlight: bash
+
 
 bioconductor-cnvgsa
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-cnvgsa
+   :replaces_section_title:
 
-This package is intended to facilitate gene\-set association with rare CNVs in case\-control studies.
+   This package is intended to facilitate gene\-set association with rare CNVs in case\-control studies.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/cnvGSA.html
-Versions      1.26.0, 1.24.0, 1.22.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnvgsa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cnvGSA.html
+   :license: LGPL
+   :recipe: /`bioconductor-cnvgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa/meta.yaml>`_
+   :links: biotools: :biotools:`cnvgsa`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`cnvgsa`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cnvgsa
 
-Installation
-------------
+   |downloads_bioconductor-cnvgsa| |docker_bioconductor-cnvgsa|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-brglm`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-splitstackshape`  
 
-   conda install bioconductor-cnvgsa
+   :required~by: |required_by_bioconductor-cnvgsa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cnvgsa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cnvgsa
+
+   and update with::
+
+      conda update bioconductor-cnvgsa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cnvgsa
+
+
+.. |required_by_bioconductor-cnvgsa| conda:required_by:: bioconductor-cnvgsa
+.. |downloads_bioconductor-cnvgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvgsa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cnvgsa| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cnvgsa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cnvgsa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cnvgsa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cnvgsa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cnvgsa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cnvgsa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cnvgsa/README.html
 

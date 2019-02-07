@@ -1,56 +1,67 @@
-.. _`admixtools`:
+.. title:: Package Recipe 'admixtools'
+.. highlight: bash
+
 
 admixtools
 ==========
 
-|downloads|
+.. conda:recipe:: admixtools
+   :replaces_section_title:
 
-ADMIXTOOLS \(Patterson et al. 2012\) is a software package that supports formal tests of whether admixture occurred\, and makes it possible to infer admixture proportions and dates.
+   ADMIXTOOLS \(Patterson et al. 2012\) is a software package that supports formal tests of whether admixture occurred\, and makes it possible to infer admixture proportions and dates.
 
-============= ===========
-Home          https://github.com/DReichLab/AdmixTools
-Versions      5.1, 5.0
-License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//admixtools/meta.yaml
+   :homepage: https://github.com/DReichLab/AdmixTools
+   :license: Free for Academic Use
+   :recipe: /`admixtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixtools/meta.yaml>`_
+   :links: biotools: :biotools:`AdmixTools`, doi: :doi:`10.1534/genetics.112.145037`
 
-
-
-Links         biotools: :biotools:`AdmixTools`, doi: :doi:`10.1534/genetics.112.145037`
-
-============= ===========
+   
 
 
+.. conda:package:: admixtools
 
-Installation
-------------
+   |downloads_admixtools| |docker_admixtools|
 
-.. highlight: bash
+   :versions: 5.1, 5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
 
-   conda install admixtools
+   :required~by: |required_by_admixtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update admixtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install admixtools
+
+   and update with::
+
+      conda update admixtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/admixtools
+
+
+.. |required_by_admixtools| conda:required_by:: admixtools
+.. |downloads_admixtools| image:: https://img.shields.io/conda/dn/bioconda/admixtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_admixtools| image:: https://quay.io/repository/biocontainers/admixtools/status
+   :target: https://quay.io/repository/biocontainers/admixtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/admixtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/admixtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/admixtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/admixtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/admixtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/admixtools
-.. |docker| image:: https://quay.io/repository/biocontainers/admixtools/status
-                :target: https://quay.io/repository/biocontainers/admixtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/admixtools/README.html
 

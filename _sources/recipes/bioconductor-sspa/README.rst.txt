@@ -1,56 +1,67 @@
-.. _`bioconductor-sspa`:
+.. title:: Package Recipe 'bioconductor-sspa'
+.. highlight: bash
+
 
 bioconductor-sspa
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-sspa
+   :replaces_section_title:
 
-General Sample size and power analysis for microarray and next\-generation sequencing data.
+   General Sample size and power analysis for microarray and next\-generation sequencing data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SSPA.html
-Versions      2.22.0, 2.20.0, 2.18.0, 2.16.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sspa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SSPA.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-sspa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspa/meta.yaml>`_
+   :links: biotools: :biotools:`sspa`
 
-
-
-Links         biotools: :biotools:`sspa`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sspa
 
-Installation
-------------
+   |downloads_bioconductor-sspa| |docker_bioconductor-sspa|
 
-.. highlight: bash
+   :versions: 2.22.0, 2.20.0, 2.18.0, 2.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  
 
-   conda install bioconductor-sspa
+   :required~by: |required_by_bioconductor-sspa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sspa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sspa
+
+   and update with::
+
+      conda update bioconductor-sspa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sspa
+
+
+.. |required_by_bioconductor-sspa| conda:required_by:: bioconductor-sspa
+.. |downloads_bioconductor-sspa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sspa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sspa| image:: https://quay.io/repository/biocontainers/bioconductor-sspa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sspa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sspa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sspa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sspa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sspa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sspa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sspa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sspa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sspa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sspa/README.html
 

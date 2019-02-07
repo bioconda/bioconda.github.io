@@ -1,54 +1,66 @@
-.. _`bioconductor-tfea.chip`:
+.. title:: Package Recipe 'bioconductor-tfea.chip'
+.. highlight: bash
+
 
 bioconductor-tfea.chip
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-tfea.chip
+   :replaces_section_title:
 
-Package to analize transcription factor enrichment in a gene set using data from ChIP\-Seq experiments.
+   Package to analize transcription factor enrichment in a gene set using data from ChIP\-Seq experiments.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TFEA.ChIP.html
-Versions      1.2.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tfea.chip/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TFEA.ChIP.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-tfea.chip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tfea.chip
 
-Installation
-------------
+   |downloads_bioconductor-tfea.chip| |docker_bioconductor-tfea.chip|
 
-.. highlight: bash
+   :versions: 1.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-txdb.hsapiens.ucsc.hg19.knowngene` >=3.2.0,<3.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-r.utils`  
 
-   conda install bioconductor-tfea.chip
+   :required~by: |required_by_bioconductor-tfea.chip|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tfea.chip
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tfea.chip
+
+   and update with::
+
+      conda update bioconductor-tfea.chip
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tfea.chip
+
+
+.. |required_by_bioconductor-tfea.chip| conda:required_by:: bioconductor-tfea.chip
+.. |downloads_bioconductor-tfea.chip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfea.chip.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tfea.chip| image:: https://quay.io/repository/biocontainers/bioconductor-tfea.chip/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tfea.chip
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tfea.chip.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tfea.chip/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tfea.chip/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tfea.chip/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tfea.chip/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tfea.chip
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tfea.chip/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tfea.chip
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tfea.chip/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-orderedlist`:
+.. title:: Package Recipe 'bioconductor-orderedlist'
+.. highlight: bash
+
 
 bioconductor-orderedlist
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-orderedlist
+   :replaces_section_title:
 
-Detection of similarities between ordered lists of genes. Thereby\, either simple lists can be compared or gene expression data can be used to deduce the lists. Significance of similarities is evaluated by shuffling lists or by resampling in microarray data\, respectively.
+   Detection of similarities between ordered lists of genes. Thereby\, either simple lists can be compared or gene expression data can be used to deduce the lists. Significance of similarities is evaluated by shuffling lists or by resampling in microarray data\, respectively.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/OrderedList.html
-Versions      1.54.0, 1.52.0, 1.50.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-orderedlist/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OrderedList.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-orderedlist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist/meta.yaml>`_
+   :links: biotools: :biotools:`orderedlist`, doi: :doi:`10.1093/bioinformatics/btl385`
 
-
-
-Links         biotools: :biotools:`orderedlist`, doi: :doi:`10.1093/bioinformatics/btl385`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-orderedlist
 
-Installation
-------------
+   |downloads_bioconductor-orderedlist| |docker_bioconductor-orderedlist|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-twilight` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-orderedlist
+   :required~by: |required_by_bioconductor-orderedlist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-orderedlist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-orderedlist
+
+   and update with::
+
+      conda update bioconductor-orderedlist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-orderedlist
+
+
+.. |required_by_bioconductor-orderedlist| conda:required_by:: bioconductor-orderedlist
+.. |downloads_bioconductor-orderedlist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-orderedlist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-orderedlist| image:: https://quay.io/repository/biocontainers/bioconductor-orderedlist/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-orderedlist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-orderedlist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-orderedlist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-orderedlist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-orderedlist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-orderedlist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-orderedlist
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-orderedlist/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-orderedlist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-orderedlist/README.html
 

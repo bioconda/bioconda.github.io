@@ -1,56 +1,67 @@
-.. _`bioconductor-gaprediction`:
+.. title:: Package Recipe 'bioconductor-gaprediction'
+.. highlight: bash
+
 
 bioconductor-gaprediction
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-gaprediction
+   :replaces_section_title:
 
-\[GAprediction\] predicts gestational age using Illumina HumanMethylation450 CpG data.
+   \[GAprediction\] predicts gestational age using Illumina HumanMethylation450 CpG data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GAprediction.html
-Versions      1.8.1, 1.6.0, 1.4.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gaprediction/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GAprediction.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-gaprediction <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaprediction>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaprediction/meta.yaml>`_
+   :links: biotools: :biotools:`gaprediction`, doi: :doi:`10.1186/s13059-016-1063-4`
 
-
-
-Links         biotools: :biotools:`gaprediction`, doi: :doi:`10.1186/s13059-016-1063-4`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gaprediction
 
-Installation
-------------
+   |downloads_bioconductor-gaprediction| |docker_bioconductor-gaprediction|
 
-.. highlight: bash
+   :versions: 1.8.1, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-matrix`  
 
-   conda install bioconductor-gaprediction
+   :required~by: |required_by_bioconductor-gaprediction|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gaprediction
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gaprediction
+
+   and update with::
+
+      conda update bioconductor-gaprediction
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gaprediction
+
+
+.. |required_by_bioconductor-gaprediction| conda:required_by:: bioconductor-gaprediction
+.. |downloads_bioconductor-gaprediction| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaprediction.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gaprediction| image:: https://quay.io/repository/biocontainers/bioconductor-gaprediction/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gaprediction
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gaprediction.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gaprediction/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gaprediction/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gaprediction/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gaprediction/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gaprediction
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gaprediction/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gaprediction
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gaprediction/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-asgsca`:
+.. title:: Package Recipe 'bioconductor-asgsca'
+.. highlight: bash
+
 
 bioconductor-asgsca
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-asgsca
+   :replaces_section_title:
 
-The package provides tools to model and test the association between multiple genotypes and multiple traits\, taking into account the prior biological knowledge. Genes\, and clinical pathways are incorporated in the model as latent variables. The method is based on Generalized Structured Component Analysis \(GSCA\).
+   The package provides tools to model and test the association between multiple genotypes and multiple traits\, taking into account the prior biological knowledge. Genes\, and clinical pathways are incorporated in the model as latent variables. The method is based on Generalized Structured Component Analysis \(GSCA\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ASGSCA.html
-Versions      1.16.0, 1.14.0, 1.12.0, 1.10.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-asgsca/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ASGSCA.html
+   :license: GPL-3
+   :recipe: /`bioconductor-asgsca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asgsca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asgsca/meta.yaml>`_
+   :links: biotools: :biotools:`asgsca`, doi: :doi:`10.1002/gepi.21872`
 
-
-
-Links         biotools: :biotools:`asgsca`, doi: :doi:`10.1002/gepi.21872`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-asgsca
 
-Installation
-------------
+   |downloads_bioconductor-asgsca| |docker_bioconductor-asgsca|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  :conda:package:`r-matrix`  
 
-   conda install bioconductor-asgsca
+   :required~by: |required_by_bioconductor-asgsca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-asgsca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-asgsca
+
+   and update with::
+
+      conda update bioconductor-asgsca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-asgsca
+
+
+.. |required_by_bioconductor-asgsca| conda:required_by:: bioconductor-asgsca
+.. |downloads_bioconductor-asgsca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asgsca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-asgsca| image:: https://quay.io/repository/biocontainers/bioconductor-asgsca/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-asgsca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-asgsca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-asgsca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-asgsca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-asgsca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-asgsca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-asgsca
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-asgsca/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-asgsca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-asgsca/README.html
 

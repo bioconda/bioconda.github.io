@@ -1,54 +1,66 @@
-.. _`bcool`:
+.. title:: Package Recipe 'bcool'
+.. highlight: bash
+
 
 bcool
 =====
 
-|downloads|
+.. conda:recipe:: bcool
+   :replaces_section_title:
 
-BCOOL is a read corrector for NGS sequencing data that align reads on a de Bruijn graph. Version described at \(https\:\/\/arxiv.org\/abs\/1711.03336\) presented at RECOMB\-seq 2018
+   BCOOL is a read corrector for NGS sequencing data that align reads on a de Bruijn graph. Version described at \(https\:\/\/arxiv.org\/abs\/1711.03336\) presented at RECOMB\-seq 2018
 
-============= ===========
-Home          https://github.com/Malfoy/BCOOL
-Versions      1.0.0
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcool/meta.yaml
+   :homepage: https://github.com/Malfoy/BCOOL
+   :license: AGPL-3.0
+   :recipe: /`bcool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcool/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bcool
 
-Installation
-------------
+   |downloads_bcool| |docker_bcool|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcalm`  :conda:package:`bgreat`  :conda:package:`btrim`  :conda:package:`ntcard`  :conda:package:`python` >=3.5,<3.6.0a0 
 
-   conda install bcool
+   :required~by: |required_by_bcool|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bcool
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bcool
+
+   and update with::
+
+      conda update bcool
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bcool
+
+
+.. |required_by_bcool| conda:required_by:: bcool
+.. |downloads_bcool| image:: https://img.shields.io/conda/dn/bioconda/bcool.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bcool| image:: https://quay.io/repository/biocontainers/bcool/status
+   :target: https://quay.io/repository/biocontainers/bcool
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bcool.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bcool/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bcool/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bcool/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bcool/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bcool
-.. |docker| image:: https://quay.io/repository/biocontainers/bcool/status
-                :target: https://quay.io/repository/biocontainers/bcool
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bcool/README.html
 

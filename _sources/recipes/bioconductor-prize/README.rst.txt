@@ -1,56 +1,67 @@
-.. _`bioconductor-prize`:
+.. title:: Package Recipe 'bioconductor-prize'
+.. highlight: bash
+
 
 bioconductor-prize
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-prize
+   :replaces_section_title:
 
-The high throughput studies often produce large amounts of numerous genes and proteins of interest. While it is difficult to study and validate all of them. Analytic Hierarchy Process \(AHP\) offers a novel approach to narrowing down long lists of candidates by prioritizing them based on how well they meet the research goal. AHP is a mathematical technique for organizing and analyzing complex decisions where multiple criteria are involved. The technique structures problems into a hierarchy of elements\, and helps to specify numerical weights representing the relative importance of each element. Numerical weight or priority derived from each element allows users to find alternatives that best suit their goal and their understanding of the problem.
+   The high throughput studies often produce large amounts of numerous genes and proteins of interest. While it is difficult to study and validate all of them. Analytic Hierarchy Process \(AHP\) offers a novel approach to narrowing down long lists of candidates by prioritizing them based on how well they meet the research goal. AHP is a mathematical technique for organizing and analyzing complex decisions where multiple criteria are involved. The technique structures problems into a hierarchy of elements\, and helps to specify numerical weights representing the relative importance of each element. Numerical weight or priority derived from each element allows users to find alternatives that best suit their goal and their understanding of the problem.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Prize.html
-Versions      1.12.1, 1.10.0, 1.8.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prize/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Prize.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-prize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize/meta.yaml>`_
+   :links: biotools: :biotools:`prize`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`prize`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-prize
 
-Installation
-------------
+   |downloads_bioconductor-prize| |docker_bioconductor-prize|
 
-.. highlight: bash
+   :versions: 1.12.1, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-diagram`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-matrixcalc`  :conda:package:`r-reshape2`  :conda:package:`r-stringr`  
 
-   conda install bioconductor-prize
+   :required~by: |required_by_bioconductor-prize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-prize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-prize
+
+   and update with::
+
+      conda update bioconductor-prize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-prize
+
+
+.. |required_by_bioconductor-prize| conda:required_by:: bioconductor-prize
+.. |downloads_bioconductor-prize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-prize| image:: https://quay.io/repository/biocontainers/bioconductor-prize/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-prize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-prize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-prize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-prize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-prize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-prize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-prize
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prize/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-prize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-prize/README.html
 

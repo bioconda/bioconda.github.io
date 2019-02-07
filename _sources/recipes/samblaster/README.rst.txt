@@ -1,54 +1,66 @@
-.. _`samblaster`:
+.. title:: Package Recipe 'samblaster'
+.. highlight: bash
+
 
 samblaster
 ==========
 
-|downloads|
+.. conda:recipe:: samblaster
+   :replaces_section_title:
 
-A tool to mark duplicates and extract discordant and split reads from sam files.
+   A tool to mark duplicates and extract discordant and split reads from sam files.
 
-============= ===========
-Home          https://github.com/GregoryFaust/samblaster
-Versions      0.1.24, 0.1.23, 0.1.22
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//samblaster/meta.yaml
+   :homepage: https://github.com/GregoryFaust/samblaster
+   :license: MIT
+   :recipe: /`samblaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samblaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samblaster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: samblaster
 
-Installation
-------------
+   |downloads_samblaster| |docker_samblaster|
 
-.. highlight: bash
+   :versions: 0.1.24, 0.1.23, 0.1.22
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install samblaster
+   :required~by: |required_by_samblaster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update samblaster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install samblaster
+
+   and update with::
+
+      conda update samblaster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/samblaster
+
+
+.. |required_by_samblaster| conda:required_by:: samblaster
+.. |downloads_samblaster| image:: https://img.shields.io/conda/dn/bioconda/samblaster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_samblaster| image:: https://quay.io/repository/biocontainers/samblaster/status
+   :target: https://quay.io/repository/biocontainers/samblaster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/samblaster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/samblaster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/samblaster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/samblaster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/samblaster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/samblaster
-.. |docker| image:: https://quay.io/repository/biocontainers/samblaster/status
-                :target: https://quay.io/repository/biocontainers/samblaster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/samblaster/README.html
 

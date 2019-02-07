@@ -1,56 +1,67 @@
-.. _`bioconductor-tscan`:
+.. title:: Package Recipe 'bioconductor-tscan'
+.. highlight: bash
+
 
 bioconductor-tscan
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-tscan
+   :replaces_section_title:
 
-TSCAN enables users to easily construct and tune pseudotemporal cell ordering as well as analyzing differentially expressed genes. TSCAN comes with a user\-friendly GUI written in shiny. More features will come in the future.
+   TSCAN enables users to easily construct and tune pseudotemporal cell ordering as well as analyzing differentially expressed genes. TSCAN comes with a user\-friendly GUI written in shiny. More features will come in the future.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TSCAN.html
-Versions      1.20.0, 1.18.0, 1.16.0, 1.14.0
-License       GPL(>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tscan/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TSCAN.html
+   :license: GPL(>=2)
+   :recipe: /`bioconductor-tscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan/meta.yaml>`_
+   :links: biotools: :biotools:`tscan`, doi: :doi:`10.1093/nar/gkw430`
 
-
-
-Links         biotools: :biotools:`tscan`, doi: :doi:`10.1093/nar/gkw430`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tscan
 
-Installation
-------------
+   |downloads_bioconductor-tscan| |docker_bioconductor-tscan|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-combinat`  :conda:package:`r-fastica`  :conda:package:`r-ggplot2`  :conda:package:`r-gplots`  :conda:package:`r-igraph`  :conda:package:`r-mclust`  :conda:package:`r-mgcv`  :conda:package:`r-plyr`  :conda:package:`r-shiny`  
 
-   conda install bioconductor-tscan
+   :required~by: |required_by_bioconductor-tscan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tscan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tscan
+
+   and update with::
+
+      conda update bioconductor-tscan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tscan
+
+
+.. |required_by_bioconductor-tscan| conda:required_by:: bioconductor-tscan
+.. |downloads_bioconductor-tscan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tscan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tscan| image:: https://quay.io/repository/biocontainers/bioconductor-tscan/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tscan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tscan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tscan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tscan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tscan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tscan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tscan
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tscan/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tscan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tscan/README.html
 

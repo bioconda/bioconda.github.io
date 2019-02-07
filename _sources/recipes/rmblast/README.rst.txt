@@ -1,54 +1,66 @@
-.. _`rmblast`:
+.. title:: Package Recipe 'rmblast'
+.. highlight: bash
+
 
 rmblast
 =======
 
-|downloads|
+.. conda:recipe:: rmblast
+   :replaces_section_title:
 
-RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
+   RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 
-============= ===========
-Home          http://www.repeatmasker.org/RMBlast.html
-Versions      2.6.0, 2.2.28
-License       OSL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rmblast/meta.yaml
+   :homepage: http://www.repeatmasker.org/RMBlast.html
+   :license: OSL-2.1
+   :recipe: /`rmblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rmblast
 
-Installation
-------------
+   |downloads_rmblast| |docker_rmblast|
 
-.. highlight: bash
+   :versions: 2.6.0, 2.2.28
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gnutls` >=3.5.19,<3.6.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`nettle` >=3.3,<3.4.0a0 :conda:package:`pcre` >=8.41,<9.0a0 :conda:package:`perl`  :conda:package:`perl-archive-tar`  :conda:package:`perl-list-moreutils`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install rmblast
+   :required~by: |required_by_rmblast|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rmblast
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rmblast
+
+   and update with::
+
+      conda update rmblast
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rmblast
+
+
+.. |required_by_rmblast| conda:required_by:: rmblast
+.. |downloads_rmblast| image:: https://img.shields.io/conda/dn/bioconda/rmblast.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rmblast| image:: https://quay.io/repository/biocontainers/rmblast/status
+   :target: https://quay.io/repository/biocontainers/rmblast
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rmblast.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rmblast/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rmblast/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rmblast/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rmblast/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rmblast
-.. |docker| image:: https://quay.io/repository/biocontainers/rmblast/status
-                :target: https://quay.io/repository/biocontainers/rmblast
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rmblast/README.html
 

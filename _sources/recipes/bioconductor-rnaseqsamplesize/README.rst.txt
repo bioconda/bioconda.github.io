@@ -1,54 +1,66 @@
-.. _`bioconductor-rnaseqsamplesize`:
+.. title:: Package Recipe 'bioconductor-rnaseqsamplesize'
+.. highlight: bash
+
 
 bioconductor-rnaseqsamplesize
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-rnaseqsamplesize
+   :replaces_section_title:
 
-RnaSeqSampleSize package provides a sample size calculation method based on negative binomial model and the exact test for assessing differential expression analysis of RNA\-seq data
+   RnaSeqSampleSize package provides a sample size calculation method based on negative binomial model and the exact test for assessing differential expression analysis of RNA\-seq data
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RnaSeqSampleSize.html
-Versions      1.14.0, 1.12.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaseqsamplesize/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RnaSeqSampleSize.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-rnaseqsamplesize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rnaseqsamplesize
 
-Installation
-------------
+   |downloads_bioconductor-rnaseqsamplesize| |docker_bioconductor-rnaseqsamplesize|
 
-.. highlight: bash
+   :versions: 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-keggrest` >=1.22.0,<1.23.0 :conda:package:`bioconductor-rnaseqsamplesizedata` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-heatmap3`  :conda:package:`r-matlab`  :conda:package:`r-rcpp` >=0.11.2 
 
-   conda install bioconductor-rnaseqsamplesize
+   :required~by: |required_by_bioconductor-rnaseqsamplesize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rnaseqsamplesize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rnaseqsamplesize
+
+   and update with::
+
+      conda update bioconductor-rnaseqsamplesize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize
+
+
+.. |required_by_bioconductor-rnaseqsamplesize| conda:required_by:: bioconductor-rnaseqsamplesize
+.. |downloads_bioconductor-rnaseqsamplesize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqsamplesize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rnaseqsamplesize| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rnaseqsamplesize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rnaseqsamplesize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rnaseqsamplesize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rnaseqsamplesize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rnaseqsamplesize
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rnaseqsamplesize/README.html
 

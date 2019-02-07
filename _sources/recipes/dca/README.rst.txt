@@ -1,56 +1,67 @@
-.. _`dca`:
+.. title:: Package Recipe 'dca'
+.. highlight: bash
+
 
 dca
 ===
 
-|downloads|
+.. conda:recipe:: dca
+   :replaces_section_title:
 
-Count autoencoder for scRNA\-seq denoising
+   Count autoencoder for scRNA\-seq denoising
 
-============= ===========
-Home          https://github.com/theislab/dca
-Versions      0.2.2
-License       Apache Software
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dca/meta.yaml
+   :homepage: https://github.com/theislab/dca
+   :license: APACHE / Apache Software
+   :recipe: /`dca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dca/meta.yaml>`_
+   :links: doi: :doi:`10.1101/300681`
 
-
-
-Links         doi: :doi:`10.1101/300681`
-
-============= ===========
+   
 
 
+.. conda:package:: dca
 
-Installation
-------------
+   |downloads_dca| |docker_dca|
 
-.. highlight: bash
+   :versions: 0.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`h5py`  :conda:package:`keras` >=2.0.8 :conda:package:`kopt`  :conda:package:`numpy` >=1.7 :conda:package:`pandas`  :conda:package:`python` >=3.6 :conda:package:`scanpy`  :conda:package:`scikit-learn`  :conda:package:`six` >=1.10.0 
 
-   conda install dca
+   :required~by: |required_by_dca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dca
+
+   and update with::
+
+      conda update dca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dca
+
+
+.. |required_by_dca| conda:required_by:: dca
+.. |downloads_dca| image:: https://img.shields.io/conda/dn/bioconda/dca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dca| image:: https://quay.io/repository/biocontainers/dca/status
+   :target: https://quay.io/repository/biocontainers/dca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dca
-.. |docker| image:: https://quay.io/repository/biocontainers/dca/status
-                :target: https://quay.io/repository/biocontainers/dca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dca/README.html
 

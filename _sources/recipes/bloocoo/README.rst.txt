@@ -1,54 +1,66 @@
-.. _`bloocoo`:
+.. title:: Package Recipe 'bloocoo'
+.. highlight: bash
+
 
 bloocoo
 =======
 
-|downloads|
+.. conda:recipe:: bloocoo
+   :replaces_section_title:
 
-Bloocoo is a k\-mer spectrum\-based read error corrector\, designed to correct large datasets with a very low memory footprint. As an example\, it can correct whole human genome re\-sequencing reads at 70 x coverage with less than 4GB of memory.
+   Bloocoo is a k\-mer spectrum\-based read error corrector\, designed to correct large datasets with a very low memory footprint. As an example\, it can correct whole human genome re\-sequencing reads at 70 x coverage with less than 4GB of memory.
 
-============= ===========
-Home          http://gatb.inria.fr/software/bloocoo/
-Versions      1.0.7
-License       aGPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bloocoo/meta.yaml
+   :homepage: http://gatb.inria.fr/software/bloocoo/
+   :license: aGPL v3
+   :recipe: /`bloocoo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloocoo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloocoo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bloocoo
 
-Installation
-------------
+   |downloads_bloocoo| |docker_bloocoo|
 
-.. highlight: bash
+   :versions: 1.0.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install bloocoo
+   :required~by: |required_by_bloocoo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bloocoo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bloocoo
+
+   and update with::
+
+      conda update bloocoo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bloocoo
+
+
+.. |required_by_bloocoo| conda:required_by:: bloocoo
+.. |downloads_bloocoo| image:: https://img.shields.io/conda/dn/bioconda/bloocoo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bloocoo| image:: https://quay.io/repository/biocontainers/bloocoo/status
+   :target: https://quay.io/repository/biocontainers/bloocoo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bloocoo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bloocoo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bloocoo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bloocoo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bloocoo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bloocoo
-.. |docker| image:: https://quay.io/repository/biocontainers/bloocoo/status
-                :target: https://quay.io/repository/biocontainers/bloocoo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bloocoo/README.html
 

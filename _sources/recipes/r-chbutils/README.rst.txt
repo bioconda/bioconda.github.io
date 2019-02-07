@@ -1,54 +1,66 @@
-.. _`r-chbutils`:
+.. title:: Package Recipe 'r-chbutils'
+.. highlight: bash
+
 
 r-chbutils
 ==========
 
-|downloads|
+.. conda:recipe:: r-chbutils
+   :replaces_section_title:
 
-Useful utility functions used at the Harvard Chan School Bioinformatics core
+   Useful utility functions used at the Harvard Chan School Bioinformatics core
 
-============= ===========
-Home          https://github.com/hbc/CHBUtils
-Versions      0.1_2015_12_21
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-chbutils/meta.yaml
+   :homepage: https://github.com/hbc/CHBUtils
+   :license: MIT
+   :recipe: /`r-chbutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chbutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chbutils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-chbutils
 
-Installation
-------------
+   |downloads_r-chbutils| |docker_r-chbutils|
 
-.. highlight: bash
+   :versions: 0.1_2015_12_21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r` 3.2.2* :conda:package:`r-mvtnorm`  :conda:package:`r-rcolorbrewer`  
 
-   conda install r-chbutils
+   :required~by: |required_by_r-chbutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-chbutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-chbutils
+
+   and update with::
+
+      conda update r-chbutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-chbutils
+
+
+.. |required_by_r-chbutils| conda:required_by:: r-chbutils
+.. |downloads_r-chbutils| image:: https://img.shields.io/conda/dn/bioconda/r-chbutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-chbutils| image:: https://quay.io/repository/biocontainers/r-chbutils/status
+   :target: https://quay.io/repository/biocontainers/r-chbutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-chbutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-chbutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-chbutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-chbutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-chbutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-chbutils
-.. |docker| image:: https://quay.io/repository/biocontainers/r-chbutils/status
-                :target: https://quay.io/repository/biocontainers/r-chbutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-chbutils/README.html
 

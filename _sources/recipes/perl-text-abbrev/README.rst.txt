@@ -1,54 +1,66 @@
-.. _`perl-text-abbrev`:
+.. title:: Package Recipe 'perl-text-abbrev'
+.. highlight: bash
+
 
 perl-text-abbrev
 ================
 
-|downloads|
+.. conda:recipe:: perl-text-abbrev
+   :replaces_section_title:
 
-abbrev \- create an abbreviation table from a list
+   abbrev \- create an abbreviation table from a list
 
-============= ===========
-Home          http://search.cpan.org/dist/Text-Abbrev
-Versions      1.02
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-abbrev/meta.yaml
+   :homepage: http://search.cpan.org/dist/Text-Abbrev
+   :license: perl_5
+   :recipe: /`perl-text-abbrev <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-abbrev>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-abbrev/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-text-abbrev
 
-Installation
-------------
+   |downloads_perl-text-abbrev| |docker_perl-text-abbrev|
 
-.. highlight: bash
+   :versions: 1.02
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-exporter`  
 
-   conda install perl-text-abbrev
+   :required~by: |required_by_perl-text-abbrev|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-text-abbrev
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-text-abbrev
+
+   and update with::
+
+      conda update perl-text-abbrev
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-text-abbrev
+
+
+.. |required_by_perl-text-abbrev| conda:required_by:: perl-text-abbrev
+.. |downloads_perl-text-abbrev| image:: https://img.shields.io/conda/dn/bioconda/perl-text-abbrev.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-text-abbrev| image:: https://quay.io/repository/biocontainers/perl-text-abbrev/status
+   :target: https://quay.io/repository/biocontainers/perl-text-abbrev
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-text-abbrev.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-text-abbrev/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-text-abbrev/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-text-abbrev/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-text-abbrev/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-text-abbrev
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-text-abbrev/status
-                :target: https://quay.io/repository/biocontainers/perl-text-abbrev
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-text-abbrev/README.html
 

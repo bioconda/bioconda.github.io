@@ -1,54 +1,66 @@
-.. _`bioconductor-ritandata`:
+.. title:: Package Recipe 'bioconductor-ritandata'
+.. highlight: bash
+
 
 bioconductor-ritandata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-ritandata
+   :replaces_section_title:
 
-Data such as is contained in these two R data files in this package are required for the RITAN package. Users may use their own or additional resources in conjunction with RITANdata. See the RITAN vignettes for more information.
+   Data such as is contained in these two R data files in this package are required for the RITAN package. Users may use their own or additional resources in conjunction with RITANdata. See the RITAN vignettes for more information.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RITANdata.html
-Versions      1.6.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ritandata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RITANdata.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-ritandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ritandata
 
-Installation
-------------
+   |downloads_bioconductor-ritandata| |docker_bioconductor-ritandata|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ritandata
+   :required~by: |required_by_bioconductor-ritandata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ritandata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ritandata
+
+   and update with::
+
+      conda update bioconductor-ritandata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ritandata
+
+
+.. |required_by_bioconductor-ritandata| conda:required_by:: bioconductor-ritandata
+.. |downloads_bioconductor-ritandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ritandata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ritandata| image:: https://quay.io/repository/biocontainers/bioconductor-ritandata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ritandata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ritandata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ritandata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ritandata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ritandata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ritandata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ritandata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ritandata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ritandata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ritandata/README.html
 

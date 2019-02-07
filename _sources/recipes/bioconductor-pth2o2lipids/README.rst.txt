@@ -1,54 +1,66 @@
-.. _`bioconductor-pth2o2lipids`:
+.. title:: Package Recipe 'bioconductor-pth2o2lipids'
+.. highlight: bash
+
 
 bioconductor-pth2o2lipids
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pth2o2lipids
+   :replaces_section_title:
 
-Annotated HPLC\-ESI\-MS lipid data in positive ionization mode from an experiment in which cultures of the marine diatom Phaeodactylum tricornutum were treated with various concentrations of hydrogen peroxide \(H2O2\) to induce oxidative stress. The experiment is described in Graff van Creveld\, et al.\, 2015\, \"Early perturbation in mitochondria redox homeostasis in response to environmental stress predicts cell fate in diatoms\,\" ISME Journal 9\:385\-395. PtH2O2lipids consists of two objects\: A CAMERA xsAnnotate object \(ptH2O2lipids\$xsAnnotate\) and LOBSTAHS LOBSet object \(ptH2O2lipids\$xsAnnotate\$LOBSet\). The LOBSet includes putative compound assignments from the default LOBSTAHS database. Isomer annotation is recorded in three other LOBSet slots.
+   Annotated HPLC\-ESI\-MS lipid data in positive ionization mode from an experiment in which cultures of the marine diatom Phaeodactylum tricornutum were treated with various concentrations of hydrogen peroxide \(H2O2\) to induce oxidative stress. The experiment is described in Graff van Creveld\, et al.\, 2015\, \"Early perturbation in mitochondria redox homeostasis in response to environmental stress predicts cell fate in diatoms\,\" ISME Journal 9\:385\-395. PtH2O2lipids consists of two objects\: A CAMERA xsAnnotate object \(ptH2O2lipids\$xsAnnotate\) and LOBSTAHS LOBSet object \(ptH2O2lipids\$xsAnnotate\$LOBSet\). The LOBSet includes putative compound assignments from the default LOBSTAHS database. Isomer annotation is recorded in three other LOBSet slots.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/PtH2O2lipids.html
-Versions      1.8.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pth2o2lipids/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PtH2O2lipids.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-pth2o2lipids <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pth2o2lipids
 
-Installation
-------------
+   |downloads_bioconductor-pth2o2lipids| |docker_bioconductor-pth2o2lipids|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-camera` >=1.38.0,<1.39.0 :conda:package:`bioconductor-lobstahs` >=1.8.0,<1.9.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pth2o2lipids
+   :required~by: |required_by_bioconductor-pth2o2lipids|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pth2o2lipids
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pth2o2lipids
+
+   and update with::
+
+      conda update bioconductor-pth2o2lipids
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pth2o2lipids
+
+
+.. |required_by_bioconductor-pth2o2lipids| conda:required_by:: bioconductor-pth2o2lipids
+.. |downloads_bioconductor-pth2o2lipids| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pth2o2lipids.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pth2o2lipids| image:: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pth2o2lipids/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pth2o2lipids/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pth2o2lipids/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pth2o2lipids/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pth2o2lipids
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pth2o2lipids/README.html
 

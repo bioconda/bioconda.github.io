@@ -1,56 +1,67 @@
-.. _`hisat2`:
+.. title:: Package Recipe 'hisat2'
+.. highlight: bash
+
 
 hisat2
 ======
 
-|downloads|
+.. conda:recipe:: hisat2
+   :replaces_section_title:
 
-graph\-based alignment of next generation sequencing reads to a population of genomes
+   graph\-based alignment of next generation sequencing reads to a population of genomes
 
-============= ===========
-Home          https://ccb.jhu.edu/software/hisat2/index.shtml
-Versions      2.1.0, 2.0.5, 2.0.4, 2.0.3beta, 2.0.2beta, 2.0.1beta, 2.0.0beta
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hisat2/meta.yaml
+   :homepage: https://ccb.jhu.edu/software/hisat2/index.shtml
+   :license: GPLv3
+   :recipe: /`hisat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2/meta.yaml>`_
+   :links: biotools: :biotools:`HISAT2`, doi: :doi:`10.1038/nmeth.3317`
 
-
-
-Links         biotools: :biotools:`HISAT2`, doi: :doi:`10.1038/nmeth.3317`
-
-============= ===========
+   
 
 
+.. conda:package:: hisat2
 
-Installation
-------------
+   |downloads_hisat2| |docker_hisat2|
 
-.. highlight: bash
+   :versions: 2.1.0, 2.0.5, 2.0.4, 2.0.3beta, 2.0.2beta, 2.0.1beta, 2.0.0beta
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install hisat2
+   :required~by: |required_by_hisat2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hisat2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hisat2
+
+   and update with::
+
+      conda update hisat2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hisat2
+
+
+.. |required_by_hisat2| conda:required_by:: hisat2
+.. |downloads_hisat2| image:: https://img.shields.io/conda/dn/bioconda/hisat2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hisat2| image:: https://quay.io/repository/biocontainers/hisat2/status
+   :target: https://quay.io/repository/biocontainers/hisat2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hisat2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hisat2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hisat2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hisat2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hisat2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hisat2
-.. |docker| image:: https://quay.io/repository/biocontainers/hisat2/status
-                :target: https://quay.io/repository/biocontainers/hisat2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hisat2/README.html
 

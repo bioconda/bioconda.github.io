@@ -1,54 +1,66 @@
-.. _`perl-svg`:
+.. title:: Package Recipe 'perl-svg'
+.. highlight: bash
+
 
 perl-svg
 ========
 
-|downloads|
+.. conda:recipe:: perl-svg
+   :replaces_section_title:
 
-Perl extension for generating Scalable Vector Graphics \(SVG\) documents
+   Perl extension for generating Scalable Vector Graphics \(SVG\) documents
 
-============= ===========
-Home          http://metacpan.org/pod/SVG
-Versions      2.84, 2.64
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-svg/meta.yaml
+   :homepage: http://metacpan.org/pod/SVG
+   :license: perl_5
+   :recipe: /`perl-svg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-svg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-svg/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-svg
 
-Installation
-------------
+   |downloads_perl-svg| |docker_perl-svg|
 
-.. highlight: bash
+   :versions: 2.84, 2.64
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-svg
+   :required~by: |required_by_perl-svg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-svg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-svg
+
+   and update with::
+
+      conda update perl-svg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-svg
+
+
+.. |required_by_perl-svg| conda:required_by:: perl-svg
+.. |downloads_perl-svg| image:: https://img.shields.io/conda/dn/bioconda/perl-svg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-svg| image:: https://quay.io/repository/biocontainers/perl-svg/status
+   :target: https://quay.io/repository/biocontainers/perl-svg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-svg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-svg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-svg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-svg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-svg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-svg
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-svg/status
-                :target: https://quay.io/repository/biocontainers/perl-svg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-svg/README.html
 

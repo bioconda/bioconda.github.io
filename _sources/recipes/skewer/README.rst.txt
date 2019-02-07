@@ -1,56 +1,67 @@
-.. _`skewer`:
+.. title:: Package Recipe 'skewer'
+.. highlight: bash
+
 
 skewer
 ======
 
-|downloads|
+.. conda:recipe:: skewer
+   :replaces_section_title:
 
-A fast and accurate adapter trimmer for paired\-end reads.
+   A fast and accurate adapter trimmer for paired\-end reads.
 
-============= ===========
-Home          https://github.com/relipmoc/skewer.git
-Versions      0.2.2, 0.1.126
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//skewer/meta.yaml
+   :homepage: https://github.com/relipmoc/skewer.git
+   :license: MIT
+   :recipe: /`skewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer/meta.yaml>`_
+   :links: biotools: :biotools:`skewer`
 
-
-
-Links         biotools: :biotools:`skewer`
-
-============= ===========
+   
 
 
+.. conda:package:: skewer
 
-Installation
-------------
+   |downloads_skewer| |docker_skewer|
 
-.. highlight: bash
+   :versions: 0.2.2, 0.1.126
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install skewer
+   :required~by: |required_by_skewer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update skewer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install skewer
+
+   and update with::
+
+      conda update skewer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/skewer
+
+
+.. |required_by_skewer| conda:required_by:: skewer
+.. |downloads_skewer| image:: https://img.shields.io/conda/dn/bioconda/skewer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_skewer| image:: https://quay.io/repository/biocontainers/skewer/status
+   :target: https://quay.io/repository/biocontainers/skewer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/skewer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/skewer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/skewer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/skewer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/skewer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/skewer
-.. |docker| image:: https://quay.io/repository/biocontainers/skewer/status
-                :target: https://quay.io/repository/biocontainers/skewer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/skewer/README.html
 

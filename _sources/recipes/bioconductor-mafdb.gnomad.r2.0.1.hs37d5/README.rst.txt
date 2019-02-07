@@ -1,54 +1,66 @@
-.. _`bioconductor-mafdb.gnomad.r2.0.1.hs37d5`:
+.. title:: Package Recipe 'bioconductor-mafdb.gnomad.r2.0.1.hs37d5'
+.. highlight: bash
+
 
 bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 =======================================
 
-|downloads|
+.. conda:recipe:: bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+   :replaces_section_title:
 
-Store minor allele frequency data from the Genome Aggregation Database \(gnomAD release 2.0.1\) for the human genome version hs37d5.
+   Store minor allele frequency data from the Genome Aggregation Database \(gnomAD release 2.0.1\) for the human genome version hs37d5.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.gnomAD.r2.0.1.hs37d5.html
-Versions      3.8.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mafdb.gnomad.r2.0.1.hs37d5/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.gnomAD.r2.0.1.hs37d5.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mafdb.gnomad.r2.0.1.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 
-Installation
-------------
+   |downloads_bioconductor-mafdb.gnomad.r2.0.1.hs37d5| |docker_bioconductor-mafdb.gnomad.r2.0.1.hs37d5|
 
-.. highlight: bash
+   :versions: 3.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicscores` >=1.6.0,<1.7.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+   :required~by: |required_by_bioconductor-mafdb.gnomad.r2.0.1.hs37d5|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+
+   and update with::
+
+      conda update bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+
+
+.. |required_by_bioconductor-mafdb.gnomad.r2.0.1.hs37d5| conda:required_by:: bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+.. |downloads_bioconductor-mafdb.gnomad.r2.0.1.hs37d5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mafdb.gnomad.r2.0.1.hs37d5.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mafdb.gnomad.r2.0.1.hs37d5| image:: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mafdb.gnomad.r2.0.1.hs37d5/README.html
 

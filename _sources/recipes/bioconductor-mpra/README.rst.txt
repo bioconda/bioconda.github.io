@@ -1,54 +1,66 @@
-.. _`bioconductor-mpra`:
+.. title:: Package Recipe 'bioconductor-mpra'
+.. highlight: bash
+
 
 bioconductor-mpra
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-mpra
+   :replaces_section_title:
 
-Tools for data management\, count preprocessing\, and differential analysis in massively parallel report assays \(MPRA\).
+   Tools for data management\, count preprocessing\, and differential analysis in massively parallel report assays \(MPRA\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/mpra.html
-Versions      1.4.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mpra/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mpra.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mpra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mpra
 
-Installation
-------------
+   |downloads_bioconductor-mpra| |docker_bioconductor-mpra|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-scales`  :conda:package:`r-statmod`  
 
-   conda install bioconductor-mpra
+   :required~by: |required_by_bioconductor-mpra|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mpra
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mpra
+
+   and update with::
+
+      conda update bioconductor-mpra
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mpra
+
+
+.. |required_by_bioconductor-mpra| conda:required_by:: bioconductor-mpra
+.. |downloads_bioconductor-mpra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mpra.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mpra| image:: https://quay.io/repository/biocontainers/bioconductor-mpra/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mpra
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mpra.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mpra/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mpra/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mpra/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mpra/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mpra
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mpra/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mpra
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mpra/README.html
 

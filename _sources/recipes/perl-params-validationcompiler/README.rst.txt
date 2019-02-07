@@ -1,54 +1,66 @@
-.. _`perl-params-validationcompiler`:
+.. title:: Package Recipe 'perl-params-validationcompiler'
+.. highlight: bash
+
 
 perl-params-validationcompiler
 ==============================
 
-|downloads|
+.. conda:recipe:: perl-params-validationcompiler/0.23
+   :replaces_section_title:
 
-Build an optimized subroutine parameter validator once\, use it forever
+   Build an optimized subroutine parameter validator once\, use it forever
 
-============= ===========
-Home          http://metacpan.org/release/Params-ValidationCompiler
-Versions      0.23
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-params-validationcompiler/0.23/meta.yaml
+   :homepage: http://metacpan.org/release/Params-ValidationCompiler
+   :license: artistic_2
+   :recipe: /`perl-params-validationcompiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler>`_/`0.23 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/0.23>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/0.23/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-params-validationcompiler
 
-Installation
-------------
+   |downloads_perl-params-validationcompiler| |docker_perl-params-validationcompiler|
 
-.. highlight: bash
+   :versions: 0.23
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  :conda:package:`perl-b`  :conda:package:`perl-devel-stacktrace`  :conda:package:`perl-eval-closure`  :conda:package:`perl-exception-class`  :conda:package:`perl-variable-magic`  
 
-   conda install perl-params-validationcompiler
+   :required~by: |required_by_perl-params-validationcompiler|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-params-validationcompiler
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-params-validationcompiler
+
+   and update with::
+
+      conda update perl-params-validationcompiler
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-params-validationcompiler
+
+
+.. |required_by_perl-params-validationcompiler| conda:required_by:: perl-params-validationcompiler
+.. |downloads_perl-params-validationcompiler| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validationcompiler.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-params-validationcompiler| image:: https://quay.io/repository/biocontainers/perl-params-validationcompiler/status
+   :target: https://quay.io/repository/biocontainers/perl-params-validationcompiler
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-params-validationcompiler.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-params-validationcompiler/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-params-validationcompiler/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-params-validationcompiler/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-params-validationcompiler/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-params-validationcompiler
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-params-validationcompiler/status
-                :target: https://quay.io/repository/biocontainers/perl-params-validationcompiler
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-params-validationcompiler/README.html
 

@@ -1,54 +1,66 @@
-.. _`pbsv`:
+.. title:: Package Recipe 'pbsv'
+.. highlight: bash
+
 
 pbsv
 ====
 
-|downloads|
+.. conda:recipe:: pbsv
+   :replaces_section_title:
 
-pbsv \- Calling All Variants\: Fast\, Accurate\, Population\-Scale Structural Variant Analysis from Single\-Molecule PacBio Reads
+   pbsv \- Calling All Variants\: Fast\, Accurate\, Population\-Scale Structural Variant Analysis from Single\-Molecule PacBio Reads
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbsv/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbbioconda
+   :license: BSD-3-Clause-Clear
+   :recipe: /`pbsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsv/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbsv
 
-Installation
-------------
+   |downloads_pbsv| |docker_pbsv|
 
-.. highlight: bash
+   :versions: 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install pbsv
+   :required~by: |required_by_pbsv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbsv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbsv
+
+   and update with::
+
+      conda update pbsv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbsv
+
+
+.. |required_by_pbsv| conda:required_by:: pbsv
+.. |downloads_pbsv| image:: https://img.shields.io/conda/dn/bioconda/pbsv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbsv| image:: https://quay.io/repository/biocontainers/pbsv/status
+   :target: https://quay.io/repository/biocontainers/pbsv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbsv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbsv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbsv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbsv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbsv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbsv
-.. |docker| image:: https://quay.io/repository/biocontainers/pbsv/status
-                :target: https://quay.io/repository/biocontainers/pbsv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbsv/README.html
 

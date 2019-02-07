@@ -1,54 +1,66 @@
-.. _`pybamtools`:
+.. title:: Package Recipe 'pybamtools'
+.. highlight: bash
+
 
 pybamtools
 ==========
 
-|downloads|
+.. conda:recipe:: pybamtools
+   :replaces_section_title:
 
-Tools for working on BAM data
+   Tools for working on BAM data
 
-============= ===========
-Home          https://github.com/blankenberg/pyBamTools
-Versions      0.0.4, 0.0.3
-License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pybamtools/meta.yaml
+   :homepage: https://github.com/blankenberg/pyBamTools
+   :license: GPL2 / GNU General Public License v2 (GPLv2)
+   :recipe: /`pybamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybamtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pybamtools
 
-Installation
-------------
+   |downloads_pybamtools| |docker_pybamtools|
 
-.. highlight: bash
+   :versions: 0.0.4, 0.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`pybamparser` ==0.0.3 :conda:package:`python` 2.7* 
 
-   conda install pybamtools
+   :required~by: |required_by_pybamtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pybamtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pybamtools
+
+   and update with::
+
+      conda update pybamtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pybamtools
+
+
+.. |required_by_pybamtools| conda:required_by:: pybamtools
+.. |downloads_pybamtools| image:: https://img.shields.io/conda/dn/bioconda/pybamtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pybamtools| image:: https://quay.io/repository/biocontainers/pybamtools/status
+   :target: https://quay.io/repository/biocontainers/pybamtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pybamtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pybamtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pybamtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pybamtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pybamtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pybamtools
-.. |docker| image:: https://quay.io/repository/biocontainers/pybamtools/status
-                :target: https://quay.io/repository/biocontainers/pybamtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pybamtools/README.html
 

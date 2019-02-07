@@ -1,54 +1,66 @@
-.. _`bioconductor-ragene20sttranscriptcluster.db`:
+.. title:: Package Recipe 'bioconductor-ragene20sttranscriptcluster.db'
+.. highlight: bash
+
 
 bioconductor-ragene20sttranscriptcluster.db
 ===========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-ragene20sttranscriptcluster.db
+   :replaces_section_title:
 
-Affymetrix ragene20 annotation data \(chip ragene20sttranscriptcluster\) assembled using data from public repositories
+   Affymetrix ragene20 annotation data \(chip ragene20sttranscriptcluster\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/ragene20sttranscriptcluster.db.html
-Versions      8.7.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ragene20sttranscriptcluster.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ragene20sttranscriptcluster.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ragene20sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene20sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene20sttranscriptcluster.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ragene20sttranscriptcluster.db
 
-Installation
-------------
+   |downloads_bioconductor-ragene20sttranscriptcluster.db| |docker_bioconductor-ragene20sttranscriptcluster.db|
 
-.. highlight: bash
+   :versions: 8.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.rn.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ragene20sttranscriptcluster.db
+   :required~by: |required_by_bioconductor-ragene20sttranscriptcluster.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ragene20sttranscriptcluster.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ragene20sttranscriptcluster.db
+
+   and update with::
+
+      conda update bioconductor-ragene20sttranscriptcluster.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db
+
+
+.. |required_by_bioconductor-ragene20sttranscriptcluster.db| conda:required_by:: bioconductor-ragene20sttranscriptcluster.db
+.. |downloads_bioconductor-ragene20sttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ragene20sttranscriptcluster.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ragene20sttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ragene20sttranscriptcluster.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ragene20sttranscriptcluster.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ragene20sttranscriptcluster.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ragene20sttranscriptcluster.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ragene20sttranscriptcluster.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ragene20sttranscriptcluster.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ragene20sttranscriptcluster.db/README.html
 

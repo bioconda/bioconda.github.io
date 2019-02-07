@@ -1,54 +1,66 @@
-.. _`rabix-bunny`:
+.. title:: Package Recipe 'rabix-bunny'
+.. highlight: bash
+
 
 rabix-bunny
 ===========
 
-|downloads|
+.. conda:recipe:: rabix-bunny
+   :replaces_section_title:
 
-Open\-source development kit for the Common Workflow Language from Seven Bridges. The Rabix executor Bunny\, which can be used to execute apps locally from the command line.
+   Open\-source development kit for the Common Workflow Language from Seven Bridges. The Rabix executor Bunny\, which can be used to execute apps locally from the command line.
 
-============= ===========
-Home          https://github.com/rabix/bunny
-Versions      1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0rc5, 1.0.0rc4
-License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rabix-bunny/meta.yaml
+   :homepage: https://github.com/rabix/bunny
+   :license: Apache v2
+   :recipe: /`rabix-bunny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rabix-bunny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rabix-bunny/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rabix-bunny
 
-Installation
-------------
+   |downloads_rabix-bunny| |docker_rabix-bunny|
 
-.. highlight: bash
+   :versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0rc5, 1.0.0rc4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8,<9 
 
-   conda install rabix-bunny
+   :required~by: |required_by_rabix-bunny|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rabix-bunny
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rabix-bunny
+
+   and update with::
+
+      conda update rabix-bunny
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rabix-bunny
+
+
+.. |required_by_rabix-bunny| conda:required_by:: rabix-bunny
+.. |downloads_rabix-bunny| image:: https://img.shields.io/conda/dn/bioconda/rabix-bunny.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rabix-bunny| image:: https://quay.io/repository/biocontainers/rabix-bunny/status
+   :target: https://quay.io/repository/biocontainers/rabix-bunny
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rabix-bunny.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rabix-bunny/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rabix-bunny/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rabix-bunny/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rabix-bunny/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rabix-bunny
-.. |docker| image:: https://quay.io/repository/biocontainers/rabix-bunny/status
-                :target: https://quay.io/repository/biocontainers/rabix-bunny
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rabix-bunny/README.html
 

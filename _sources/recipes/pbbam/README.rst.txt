@@ -1,54 +1,66 @@
-.. _`pbbam`:
+.. title:: Package Recipe 'pbbam'
+.. highlight: bash
+
 
 pbbam
 =====
 
-|downloads|
+.. conda:recipe:: pbbam
+   :replaces_section_title:
 
-PacBio BAM C\+\+ library
+   PacBio BAM C\+\+ library
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbbam
-Versions      0.19.0, 0.18.0, 0.1
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbbam/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbbam
+   :license: BSD-3-Clause-Clear
+   :recipe: /`pbbam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbbam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbbam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbbam
 
-Installation
-------------
+   |downloads_pbbam| |docker_pbbam|
 
-.. highlight: bash
+   :versions: 0.19.0, 0.18.0, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pbbam
+   :required~by: |required_by_pbbam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbbam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbbam
+
+   and update with::
+
+      conda update pbbam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbbam
+
+
+.. |required_by_pbbam| conda:required_by:: pbbam
+.. |downloads_pbbam| image:: https://img.shields.io/conda/dn/bioconda/pbbam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbbam| image:: https://quay.io/repository/biocontainers/pbbam/status
+   :target: https://quay.io/repository/biocontainers/pbbam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbbam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbbam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbbam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbbam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbbam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbbam
-.. |docker| image:: https://quay.io/repository/biocontainers/pbbam/status
-                :target: https://quay.io/repository/biocontainers/pbbam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbbam/README.html
 

@@ -1,54 +1,66 @@
-.. _`pysftp`:
+.. title:: Package Recipe 'pysftp'
+.. highlight: bash
+
 
 pysftp
 ======
 
-|downloads|
+.. conda:recipe:: pysftp
+   :replaces_section_title:
 
-A friendly face on SFTP
+   A friendly face on SFTP
 
-============= ===========
-Home          https://bitbucket.org/dundeemt/pysftp
-Versions      0.2.9, 0.2.8
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysftp/meta.yaml
+   :homepage: https://bitbucket.org/dundeemt/pysftp
+   :license: BSD License
+   :recipe: /`pysftp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pysftp
 
-Installation
-------------
+   |downloads_pysftp| |docker_pysftp|
 
-.. highlight: bash
+   :versions: 0.2.9, 0.2.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`paramiko` >=1.17.0 :conda:package:`python`  
 
-   conda install pysftp
+   :required~by: |required_by_pysftp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pysftp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pysftp
+
+   and update with::
+
+      conda update pysftp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pysftp
+
+
+.. |required_by_pysftp| conda:required_by:: pysftp
+.. |downloads_pysftp| image:: https://img.shields.io/conda/dn/bioconda/pysftp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pysftp| image:: https://quay.io/repository/biocontainers/pysftp/status
+   :target: https://quay.io/repository/biocontainers/pysftp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pysftp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pysftp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pysftp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pysftp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pysftp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pysftp
-.. |docker| image:: https://quay.io/repository/biocontainers/pysftp/status
-                :target: https://quay.io/repository/biocontainers/pysftp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pysftp/README.html
 

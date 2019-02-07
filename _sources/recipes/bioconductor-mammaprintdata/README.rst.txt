@@ -1,54 +1,66 @@
-.. _`bioconductor-mammaprintdata`:
+.. title:: Package Recipe 'bioconductor-mammaprintdata'
+.. highlight: bash
+
 
 bioconductor-mammaprintdata
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mammaprintdata
+   :replaces_section_title:
 
-Gene expression data for the two breast cancer cohorts published by Glas and Buyse in 2006. This cohorts were used to implement and validate the mammaPrint breast cancer test.
+   Gene expression data for the two breast cancer cohorts published by Glas and Buyse in 2006. This cohorts were used to implement and validate the mammaPrint breast cancer test.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/mammaPrintData.html
-Versions      1.18.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mammaprintdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mammaPrintData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mammaprintdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mammaprintdata
 
-Installation
-------------
+   |downloads_bioconductor-mammaprintdata| |docker_bioconductor-mammaprintdata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mammaprintdata
+   :required~by: |required_by_bioconductor-mammaprintdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mammaprintdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mammaprintdata
+
+   and update with::
+
+      conda update bioconductor-mammaprintdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mammaprintdata
+
+
+.. |required_by_bioconductor-mammaprintdata| conda:required_by:: bioconductor-mammaprintdata
+.. |downloads_bioconductor-mammaprintdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mammaprintdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mammaprintdata| image:: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mammaprintdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mammaprintdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mammaprintdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mammaprintdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mammaprintdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mammaprintdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mammaprintdata/README.html
 

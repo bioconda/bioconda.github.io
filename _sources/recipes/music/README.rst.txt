@@ -1,54 +1,66 @@
-.. _`music`:
+.. title:: Package Recipe 'music'
+.. highlight: bash
+
 
 music
 =====
 
-|downloads|
+.. conda:recipe:: music
+   :replaces_section_title:
 
-MUltiScale enrIchment Calling for ChIP\-Seq Datasets
+   MUltiScale enrIchment Calling for ChIP\-Seq Datasets
 
-============= ===========
-Home          http://music.gersteinlab.org
-Versions      1.0.0
-License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//music/meta.yaml
+   :homepage: http://music.gersteinlab.org
+   :license: academic
+   :recipe: /`music <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/music>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/music/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: music
 
-Installation
-------------
+   |downloads_music| |docker_music|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install music
+   :required~by: |required_by_music|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update music
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install music
+
+   and update with::
+
+      conda update music
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/music
+
+
+.. |required_by_music| conda:required_by:: music
+.. |downloads_music| image:: https://img.shields.io/conda/dn/bioconda/music.svg?style=flat
+   :alt:   (downloads)
+.. |docker_music| image:: https://quay.io/repository/biocontainers/music/status
+   :target: https://quay.io/repository/biocontainers/music
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/music.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/music/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/music/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/music/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/music/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/music
-.. |docker| image:: https://quay.io/repository/biocontainers/music/status
-                :target: https://quay.io/repository/biocontainers/music
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/music/README.html
 

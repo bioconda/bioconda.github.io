@@ -1,54 +1,66 @@
-.. _`bioconductor-pwmenrich.hsapiens.background`:
+.. title:: Package Recipe 'bioconductor-pwmenrich.hsapiens.background'
+.. highlight: bash
+
 
 bioconductor-pwmenrich.hsapiens.background
 ==========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-pwmenrich.hsapiens.background
+   :replaces_section_title:
 
-PWMEnrich pre\-compiled background objects for H. sapiens \(human\) and MotifDb H. sapiens motifs.
+   PWMEnrich pre\-compiled background objects for H. sapiens \(human\) and MotifDb H. sapiens motifs.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/PWMEnrich.Hsapiens.background.html
-Versions      4.16.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pwmenrich.hsapiens.background/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PWMEnrich.Hsapiens.background.html
+   :license: GPL-3
+   :recipe: /`bioconductor-pwmenrich.hsapiens.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pwmenrich.hsapiens.background
 
-Installation
-------------
+   |downloads_bioconductor-pwmenrich.hsapiens.background| |docker_bioconductor-pwmenrich.hsapiens.background|
 
-.. highlight: bash
+   :versions: 4.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-pwmenrich` >=4.18.0,<4.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pwmenrich.hsapiens.background
+   :required~by: |required_by_bioconductor-pwmenrich.hsapiens.background|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pwmenrich.hsapiens.background
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pwmenrich.hsapiens.background
+
+   and update with::
+
+      conda update bioconductor-pwmenrich.hsapiens.background
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background
+
+
+.. |required_by_bioconductor-pwmenrich.hsapiens.background| conda:required_by:: bioconductor-pwmenrich.hsapiens.background
+.. |downloads_bioconductor-pwmenrich.hsapiens.background| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.hsapiens.background.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pwmenrich.hsapiens.background| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pwmenrich.hsapiens.background/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pwmenrich.hsapiens.background/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pwmenrich.hsapiens.background/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pwmenrich.hsapiens.background/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pwmenrich.hsapiens.background
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pwmenrich.hsapiens.background/README.html
 

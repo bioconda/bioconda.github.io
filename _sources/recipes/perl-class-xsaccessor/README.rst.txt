@@ -1,54 +1,66 @@
-.. _`perl-class-xsaccessor`:
+.. title:: Package Recipe 'perl-class-xsaccessor'
+.. highlight: bash
+
 
 perl-class-xsaccessor
 =====================
 
-|downloads|
+.. conda:recipe:: perl-class-xsaccessor/1.19
+   :replaces_section_title:
 
-Generate fast XS accessors without runtime compilation
+   Generate fast XS accessors without runtime compilation
 
-============= ===========
-Home          http://metacpan.org/pod/Class::XSAccessor
-Versions      1.19
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-xsaccessor/1.19/meta.yaml
+   :homepage: http://metacpan.org/pod/Class::XSAccessor
+   :license: perl_5
+   :recipe: /`perl-class-xsaccessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor>`_/`1.19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-class-xsaccessor
 
-Installation
-------------
+   |downloads_perl-class-xsaccessor| |docker_perl-class-xsaccessor|
 
-.. highlight: bash
+   :versions: 1.19
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-time-hires`  :conda:package:`perl-xsloader`  
 
-   conda install perl-class-xsaccessor
+   :required~by: |required_by_perl-class-xsaccessor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-class-xsaccessor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-class-xsaccessor
+
+   and update with::
+
+      conda update perl-class-xsaccessor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-class-xsaccessor
+
+
+.. |required_by_perl-class-xsaccessor| conda:required_by:: perl-class-xsaccessor
+.. |downloads_perl-class-xsaccessor| image:: https://img.shields.io/conda/dn/bioconda/perl-class-xsaccessor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-class-xsaccessor| image:: https://quay.io/repository/biocontainers/perl-class-xsaccessor/status
+   :target: https://quay.io/repository/biocontainers/perl-class-xsaccessor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-class-xsaccessor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-class-xsaccessor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-class-xsaccessor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-class-xsaccessor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-class-xsaccessor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-class-xsaccessor
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-class-xsaccessor/status
-                :target: https://quay.io/repository/biocontainers/perl-class-xsaccessor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-class-xsaccessor/README.html
 

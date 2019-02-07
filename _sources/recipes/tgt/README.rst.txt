@@ -1,54 +1,66 @@
-.. _`tgt`:
+.. title:: Package Recipe 'tgt'
+.. highlight: bash
+
 
 tgt
 ===
 
-|downloads|
+.. conda:recipe:: tgt
+   :replaces_section_title:
 
-TextGridTools \-\- Read\, write\, and manipulate Praat TextGrid files
+   TextGridTools \-\- Read\, write\, and manipulate Praat TextGrid files
 
-============= ===========
-Home          https://github.com/hbuschme/TextGridTools/
-Versions      1.4.3, 1.4.2
-License       GPL-3.0+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tgt/meta.yaml
+   :homepage: https://github.com/hbuschme/TextGridTools/
+   :license: GPL / GPL-3.0+
+   :recipe: /`tgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tgt
 
-Installation
-------------
+   |downloads_tgt| |docker_tgt|
 
-.. highlight: bash
+   :versions: 1.4.3, 1.4.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install tgt
+   :required~by: |required_by_tgt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tgt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tgt
+
+   and update with::
+
+      conda update tgt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tgt
+
+
+.. |required_by_tgt| conda:required_by:: tgt
+.. |downloads_tgt| image:: https://img.shields.io/conda/dn/bioconda/tgt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tgt| image:: https://quay.io/repository/biocontainers/tgt/status
+   :target: https://quay.io/repository/biocontainers/tgt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tgt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tgt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tgt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tgt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tgt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tgt
-.. |docker| image:: https://quay.io/repository/biocontainers/tgt/status
-                :target: https://quay.io/repository/biocontainers/tgt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tgt/README.html
 

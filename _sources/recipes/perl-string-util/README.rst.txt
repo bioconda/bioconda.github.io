@@ -1,54 +1,66 @@
-.. _`perl-string-util`:
+.. title:: Package Recipe 'perl-string-util'
+.. highlight: bash
+
 
 perl-string-util
 ================
 
-|downloads|
+.. conda:recipe:: perl-string-util/1.26
+   :replaces_section_title:
 
-String\:\:Util \-\- String processing utilities
+   String\:\:Util \-\- String processing utilities
 
-============= ===========
-Home          http://metacpan.org/pod/String::Util
-Versions      1.26
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-string-util/1.26/meta.yaml
+   :homepage: http://metacpan.org/pod/String::Util
+   :license: perl_5
+   :recipe: /`perl-string-util <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-util>`_/`1.26 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-util/1.26>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-util/1.26/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-string-util
 
-Installation
-------------
+   |downloads_perl-string-util| |docker_perl-string-util|
 
-.. highlight: bash
+   :versions: 1.26
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-number-misc`  :conda:package:`perl-test-toolbox`  
 
-   conda install perl-string-util
+   :required~by: |required_by_perl-string-util|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-string-util
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-string-util
+
+   and update with::
+
+      conda update perl-string-util
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-string-util
+
+
+.. |required_by_perl-string-util| conda:required_by:: perl-string-util
+.. |downloads_perl-string-util| image:: https://img.shields.io/conda/dn/bioconda/perl-string-util.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-string-util| image:: https://quay.io/repository/biocontainers/perl-string-util/status
+   :target: https://quay.io/repository/biocontainers/perl-string-util
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-string-util.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-string-util/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-string-util/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-string-util/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-string-util/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-string-util
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-string-util/status
-                :target: https://quay.io/repository/biocontainers/perl-string-util
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-string-util/README.html
 

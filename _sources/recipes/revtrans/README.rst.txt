@@ -1,38 +1,57 @@
-.. _`revtrans`:
+.. title:: Package Recipe 'revtrans'
+.. highlight: bash
+
 
 revtrans
 ========
 
-|downloads|
+.. conda:recipe:: revtrans
+   :replaces_section_title:
 
-revtrans \- performs a reverse translation of a peptide alignment.
+   revtrans \- performs a reverse translation of a peptide alignment.
 
-============= ===========
-Home          http://www.cbs.dtu.dk/services/RevTrans-2.0/web/download.php
-Versions      1.4
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//revtrans/meta.yaml
+   :homepage: http://www.cbs.dtu.dk/services/RevTrans-2.0/web/download.php
+   :license: GPL / GPLv2
+   :recipe: /`revtrans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/revtrans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/revtrans/meta.yaml>`_
+   :links: biotools: :biotools:`revtrans`
 
-
-
-Links         biotools: :biotools:`revtrans`
-
-============= ===========
+   
 
 
+.. conda:package:: revtrans
 
-Installation
-------------
+   |downloads_revtrans| |docker_revtrans|
 
-.. highlight: bash
+   :versions: 1.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install revtrans
+   :required~by: |required_by_revtrans|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update revtrans
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install revtrans
+
+   and update with::
+
+      conda update revtrans
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/revtrans
+
+
+.. |required_by_revtrans| conda:required_by:: revtrans
+.. |downloads_revtrans| image:: https://img.shields.io/conda/dn/bioconda/revtrans.svg?style=flat
+   :alt:   (downloads)
+.. |docker_revtrans| image:: https://quay.io/repository/biocontainers/revtrans/status
+   :target: https://quay.io/repository/biocontainers/revtrans
+
+
+
+
 
 
 Notes
@@ -40,21 +59,13 @@ Notes
 This package includes a modified version of the program named \'revtrans\_jarmo.py\' that works with peptide fragments instead of full length sequences.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/revtrans.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/revtrans/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/revtrans/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/revtrans/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/revtrans/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/revtrans
-.. |docker| image:: https://quay.io/repository/biocontainers/revtrans/status
-                :target: https://quay.io/repository/biocontainers/revtrans
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/revtrans/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-xhybcasneuf`:
+.. title:: Package Recipe 'bioconductor-xhybcasneuf'
+.. highlight: bash
+
 
 bioconductor-xhybcasneuf
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-xhybcasneuf
+   :replaces_section_title:
 
-Cross\-hybridisation study on the ATH1 Affymetrix GeneChip
+   Cross\-hybridisation study on the ATH1 Affymetrix GeneChip
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/XhybCasneuf.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xhybcasneuf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/XhybCasneuf.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-xhybcasneuf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-xhybcasneuf
 
-Installation
-------------
+   |downloads_bioconductor-xhybcasneuf| |docker_bioconductor-xhybcasneuf|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-ath1121501cdf` >=2.18.0,<2.19.0 :conda:package:`bioconductor-tinesath1cdf` >=1.20.0,<1.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcolorbrewer`  :conda:package:`wget`  
 
-   conda install bioconductor-xhybcasneuf
+   :required~by: |required_by_bioconductor-xhybcasneuf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-xhybcasneuf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-xhybcasneuf
+
+   and update with::
+
+      conda update bioconductor-xhybcasneuf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-xhybcasneuf
+
+
+.. |required_by_bioconductor-xhybcasneuf| conda:required_by:: bioconductor-xhybcasneuf
+.. |downloads_bioconductor-xhybcasneuf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xhybcasneuf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-xhybcasneuf| image:: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-xhybcasneuf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-xhybcasneuf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-xhybcasneuf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-xhybcasneuf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-xhybcasneuf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-xhybcasneuf/README.html
 

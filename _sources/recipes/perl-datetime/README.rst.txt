@@ -1,54 +1,66 @@
-.. _`perl-datetime`:
+.. title:: Package Recipe 'perl-datetime'
+.. highlight: bash
+
 
 perl-datetime
 =============
 
-|downloads|
+.. conda:recipe:: perl-datetime/1.42
+   :replaces_section_title:
 
-A date and time object for Perl
+   A date and time object for Perl
 
-============= ===========
-Home          http://metacpan.org/release/DateTime
-Versions      1.42
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-datetime/1.42/meta.yaml
+   :homepage: http://metacpan.org/release/DateTime
+   :license: artistic_2
+   :recipe: /`perl-datetime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime>`_/`1.42 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-datetime
 
-Installation
-------------
+   |downloads_perl-datetime| |docker_perl-datetime|
 
-.. highlight: bash
+   :versions: 1.42
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-cpan-meta-check`  :conda:package:`perl-datetime-locale`  :conda:package:`perl-datetime-timezone`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-specio-exporter`  :conda:package:`perl-test-fatal`  :conda:package:`perl-try-tiny`  :conda:package:`perl-warnings-register`  :conda:package:`perl-xsloader`  
 
-   conda install perl-datetime
+   :required~by: |required_by_perl-datetime|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-datetime
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-datetime
+
+   and update with::
+
+      conda update perl-datetime
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-datetime
+
+
+.. |required_by_perl-datetime| conda:required_by:: perl-datetime
+.. |downloads_perl-datetime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-datetime| image:: https://quay.io/repository/biocontainers/perl-datetime/status
+   :target: https://quay.io/repository/biocontainers/perl-datetime
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-datetime.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-datetime/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-datetime/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-datetime/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-datetime/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-datetime
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-datetime/status
-                :target: https://quay.io/repository/biocontainers/perl-datetime
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-datetime/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-hash-merge`:
+.. title:: Package Recipe 'perl-hash-merge'
+.. highlight: bash
+
 
 perl-hash-merge
 ===============
 
-|downloads|
+.. conda:recipe:: perl-hash-merge
+   :replaces_section_title:
 
-Merges arbitrarily deep hashes into a single hash
+   Merges arbitrarily deep hashes into a single hash
 
-============= ===========
-Home          http://metacpan.org/pod/Hash::Merge
-Versions      0.300, 0.200
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-hash-merge/meta.yaml
+   :homepage: http://metacpan.org/pod/Hash::Merge
+   :license: perl_5
+   :recipe: /`perl-hash-merge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-merge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-merge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-hash-merge
 
-Installation
-------------
+   |downloads_perl-hash-merge| |docker_perl-hash-merge|
 
-.. highlight: bash
+   :versions: 0.300, 0.200
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-clone-choose`  
 
-   conda install perl-hash-merge
+   :required~by: |required_by_perl-hash-merge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-hash-merge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-hash-merge
+
+   and update with::
+
+      conda update perl-hash-merge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-hash-merge
+
+
+.. |required_by_perl-hash-merge| conda:required_by:: perl-hash-merge
+.. |downloads_perl-hash-merge| image:: https://img.shields.io/conda/dn/bioconda/perl-hash-merge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-hash-merge| image:: https://quay.io/repository/biocontainers/perl-hash-merge/status
+   :target: https://quay.io/repository/biocontainers/perl-hash-merge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-hash-merge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-hash-merge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-hash-merge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-hash-merge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-hash-merge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-hash-merge
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-hash-merge/status
-                :target: https://quay.io/repository/biocontainers/perl-hash-merge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-hash-merge/README.html
 

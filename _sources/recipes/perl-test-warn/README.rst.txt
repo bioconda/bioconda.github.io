@@ -1,54 +1,66 @@
-.. _`perl-test-warn`:
+.. title:: Package Recipe 'perl-test-warn'
+.. highlight: bash
+
 
 perl-test-warn
 ==============
 
-|downloads|
+.. conda:recipe:: perl-test-warn
+   :replaces_section_title:
 
-Perl extension to test methods for warnings
+   Perl extension to test methods for warnings
 
-============= ===========
-Home          http://metacpan.org/pod/Test-Warn
-Versions      0.36, 0.30
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-warn/meta.yaml
+   :homepage: http://metacpan.org/pod/Test-Warn
+   :license: perl_5
+   :recipe: /`perl-test-warn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warn/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-warn
 
-Installation
-------------
+   |downloads_perl-test-warn| |docker_perl-test-warn|
 
-.. highlight: bash
+   :versions: 0.36, 0.30
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sub-uplevel`  
 
-   conda install perl-test-warn
+   :required~by: |required_by_perl-test-warn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-warn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-warn
+
+   and update with::
+
+      conda update perl-test-warn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-warn
+
+
+.. |required_by_perl-test-warn| conda:required_by:: perl-test-warn
+.. |downloads_perl-test-warn| image:: https://img.shields.io/conda/dn/bioconda/perl-test-warn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-warn| image:: https://quay.io/repository/biocontainers/perl-test-warn/status
+   :target: https://quay.io/repository/biocontainers/perl-test-warn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-warn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-warn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-warn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-warn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-warn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-warn
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-warn/status
-                :target: https://quay.io/repository/biocontainers/perl-test-warn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-warn/README.html
 

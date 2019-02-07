@@ -1,55 +1,67 @@
-.. _`megahit`:
+.. title:: Package Recipe 'megahit'
+.. highlight: bash
+
 
 megahit
 =======
 
-|downloads|
+.. conda:recipe:: megahit
+   :replaces_section_title:
 
-MEGAHIT\: An ultra\-fast single\-node solution for large and complex
-metagenomics assembly via succinct de Bruijn graph
+   MEGAHIT\: An ultra\-fast single\-node solution for large and complex
+   metagenomics assembly via succinct de Bruijn graph
 
-============= ===========
-Home          https://github.com/voutcn/megahit
-Versions      1.1.3, 1.1.2, 1.1.1, 1.0.6, 1.0.3
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//megahit/meta.yaml
+   :homepage: https://github.com/voutcn/megahit
+   :license: GPL / GPL-3.0
+   :recipe: /`megahit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: megahit
 
-Installation
-------------
+   |downloads_megahit| |docker_megahit|
 
-.. highlight: bash
+   :versions: 1.1.3, 1.1.2, 1.1.1, 1.0.6, 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
 
-   conda install megahit
+   :required~by: |required_by_megahit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update megahit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install megahit
+
+   and update with::
+
+      conda update megahit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/megahit
+
+
+.. |required_by_megahit| conda:required_by:: megahit
+.. |downloads_megahit| image:: https://img.shields.io/conda/dn/bioconda/megahit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_megahit| image:: https://quay.io/repository/biocontainers/megahit/status
+   :target: https://quay.io/repository/biocontainers/megahit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/megahit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/megahit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/megahit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/megahit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/megahit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/megahit
-.. |docker| image:: https://quay.io/repository/biocontainers/megahit/status
-                :target: https://quay.io/repository/biocontainers/megahit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/megahit/README.html
 

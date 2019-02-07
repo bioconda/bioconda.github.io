@@ -1,56 +1,67 @@
-.. _`bioconductor-deepsnv`:
+.. title:: Package Recipe 'bioconductor-deepsnv'
+.. highlight: bash
+
 
 bioconductor-deepsnv
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-deepsnv
+   :replaces_section_title:
 
-This package provides provides quantitative variant callers for detecting subclonal mutations in ultra\-deep \(\>\=100x coverage\) sequencing experiments. The deepSNV algorithm is used for a comparative setup with a control experiment of the same loci and uses a beta\-binomial model and a likelihood ratio test to discriminate sequencing errors and subclonal SNVs. The shearwater algorithm computes a Bayes classifier based on a beta\-binomial model for variant calling with multiple samples for precisely estimating model parameters \- such as local error rates and dispersion \- and prior knowledge\, e.g. from variation data bases such as COSMIC.
+   This package provides provides quantitative variant callers for detecting subclonal mutations in ultra\-deep \(\>\=100x coverage\) sequencing experiments. The deepSNV algorithm is used for a comparative setup with a control experiment of the same loci and uses a beta\-binomial model and a likelihood ratio test to discriminate sequencing errors and subclonal SNVs. The shearwater algorithm computes a Bayes classifier based on a beta\-binomial model for variant calling with multiple samples for precisely estimating model parameters \- such as local error rates and dispersion \- and prior knowledge\, e.g. from variation data bases such as COSMIC.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/deepSNV.html
-Versions      1.28.0, 1.26.1, 1.24.0, 1.22.0, 1.20.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-deepsnv/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/deepSNV.html
+   :license: GPL-3
+   :recipe: /`bioconductor-deepsnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepsnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepsnv/meta.yaml>`_
+   :links: biotools: :biotools:`deepsnv`
 
-
-
-Links         biotools: :biotools:`deepsnv`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-deepsnv
 
-Installation
-------------
+   |downloads_bioconductor-deepsnv| |docker_bioconductor-deepsnv|
 
-.. highlight: bash
+   :versions: 1.28.0, 1.26.1, 1.24.0, 1.22.0, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rhtslib` >=1.14.0,<1.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-vgam`  
 
-   conda install bioconductor-deepsnv
+   :required~by: |required_by_bioconductor-deepsnv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-deepsnv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-deepsnv
+
+   and update with::
+
+      conda update bioconductor-deepsnv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-deepsnv
+
+
+.. |required_by_bioconductor-deepsnv| conda:required_by:: bioconductor-deepsnv
+.. |downloads_bioconductor-deepsnv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deepsnv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-deepsnv| image:: https://quay.io/repository/biocontainers/bioconductor-deepsnv/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-deepsnv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-deepsnv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-deepsnv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-deepsnv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-deepsnv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-deepsnv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-deepsnv
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-deepsnv/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-deepsnv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-deepsnv/README.html
 

@@ -1,37 +1,57 @@
-.. _`pathwaymatcher`:
+.. title:: Package Recipe 'pathwaymatcher'
+.. highlight: bash
+
 
 pathwaymatcher
 ==============
 
-|downloads|
+.. conda:recipe:: pathwaymatcher
+   :replaces_section_title:
 
-PathwayMatcher is a software tool writen in Java to search for pathways related to a list of proteins in Reactome.
-
-
-============= ===========
-Home          https://github.com/PathwayAnalysisPlatform/PathwayMatcher
-Versions      1.8.1, 1.8, 1.7
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pathwaymatcher/meta.yaml
+   PathwayMatcher is a software tool writen in Java to search for pathways related to a list of proteins in Reactome.
 
 
+   :homepage: https://github.com/PathwayAnalysisPlatform/PathwayMatcher
+   :license: Apache License, Version 2.0
+   :recipe: /`pathwaymatcher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathwaymatcher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathwaymatcher/meta.yaml>`_
 
-============= ===========
+   
+
+
+.. conda:package:: pathwaymatcher
+
+   |downloads_pathwaymatcher| |docker_pathwaymatcher|
+
+   :versions: 1.8.1, 1.8, 1.7
+
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
+
+   :required~by: |required_by_pathwaymatcher|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pathwaymatcher
+
+   and update with::
+
+      conda update pathwaymatcher
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pathwaymatcher
+
+
+.. |required_by_pathwaymatcher| conda:required_by:: pathwaymatcher
+.. |downloads_pathwaymatcher| image:: https://img.shields.io/conda/dn/bioconda/pathwaymatcher.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pathwaymatcher| image:: https://quay.io/repository/biocontainers/pathwaymatcher/status
+   :target: https://quay.io/repository/biocontainers/pathwaymatcher
 
 
 
-Installation
-------------
 
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install pathwaymatcher
-
-and update with::
-
-   conda update pathwaymatcher
 
 
 Notes
@@ -44,22 +64,13 @@ set globally this will take precedence.
 For example run it with \"java \-Xms512m \-Xmx1g \-jar PathwayMatcher.jar\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/pathwaymatcher.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pathwaymatcher/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pathwaymatcher/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pathwaymatcher/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pathwaymatcher/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pathwaymatcher
-.. |docker| image:: https://quay.io/repository/biocontainers/pathwaymatcher/status
-                :target: https://quay.io/repository/biocontainers/pathwaymatcher
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pathwaymatcher/README.html
 

@@ -1,54 +1,66 @@
-.. _`avro-python2`:
+.. title:: Package Recipe 'avro-python2'
+.. highlight: bash
+
 
 avro-python2
 ============
 
-|downloads|
+.. conda:recipe:: avro-python2
+   :replaces_section_title:
 
-Avro is a serialization and RPC framework.
+   Avro is a serialization and RPC framework.
 
-============= ===========
-Home          http://avro.apache.org/
-Versions      1.8.2, 1.8.1
-License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//avro-python2/meta.yaml
+   :homepage: http://avro.apache.org/
+   :license: Apache License 2.0
+   :recipe: /`avro-python2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: avro-python2
 
-Installation
-------------
+   |downloads_avro-python2| |docker_avro-python2|
 
-.. highlight: bash
+   :versions: 1.8.2, 1.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install avro-python2
+   :required~by: |required_by_avro-python2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update avro-python2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install avro-python2
+
+   and update with::
+
+      conda update avro-python2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/avro-python2
+
+
+.. |required_by_avro-python2| conda:required_by:: avro-python2
+.. |downloads_avro-python2| image:: https://img.shields.io/conda/dn/bioconda/avro-python2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_avro-python2| image:: https://quay.io/repository/biocontainers/avro-python2/status
+   :target: https://quay.io/repository/biocontainers/avro-python2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/avro-python2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/avro-python2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/avro-python2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/avro-python2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/avro-python2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/avro-python2
-.. |docker| image:: https://quay.io/repository/biocontainers/avro-python2/status
-                :target: https://quay.io/repository/biocontainers/avro-python2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/avro-python2/README.html
 

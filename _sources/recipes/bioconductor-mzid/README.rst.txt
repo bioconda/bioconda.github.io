@@ -1,56 +1,67 @@
-.. _`bioconductor-mzid`:
+.. title:: Package Recipe 'bioconductor-mzid'
+.. highlight: bash
+
 
 bioconductor-mzid
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-mzid
+   :replaces_section_title:
 
-A parser for mzIdentML files implemented using the XML package. The parser tries to be general and able to handle all types of mzIdentML files with the drawback of having less \'pretty\' output than a vendor specific parser. Please contact the maintainer with any problems and supply an mzIdentML file so the problems can be fixed quickly.
+   A parser for mzIdentML files implemented using the XML package. The parser tries to be general and able to handle all types of mzIdentML files with the drawback of having less \'pretty\' output than a vendor specific parser. Please contact the maintainer with any problems and supply an mzIdentML file so the problems can be fixed quickly.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/mzID.html
-Versions      1.20.0, 1.18.0, 1.16.0, 1.14.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mzid/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mzID.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-mzid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid/meta.yaml>`_
+   :links: biotools: :biotools:`mzid`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`mzid`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mzid
 
-Installation
-------------
+   |downloads_bioconductor-mzid| |docker_bioconductor-mzid|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-plyr`  :conda:package:`r-xml`  
 
-   conda install bioconductor-mzid
+   :required~by: |required_by_bioconductor-mzid|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mzid
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mzid
+
+   and update with::
+
+      conda update bioconductor-mzid
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mzid
+
+
+.. |required_by_bioconductor-mzid| conda:required_by:: bioconductor-mzid
+.. |downloads_bioconductor-mzid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzid.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mzid| image:: https://quay.io/repository/biocontainers/bioconductor-mzid/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mzid
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mzid.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mzid/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mzid/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mzid/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mzid/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mzid
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mzid/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mzid
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mzid/README.html
 

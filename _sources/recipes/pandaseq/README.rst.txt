@@ -1,54 +1,66 @@
-.. _`pandaseq`:
+.. title:: Package Recipe 'pandaseq'
+.. highlight: bash
+
 
 pandaseq
 ========
 
-|downloads|
+.. conda:recipe:: pandaseq
+   :replaces_section_title:
 
-PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence.
+   PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence.
 
-============= ===========
-Home          https://github.com/neufeld/pandaseq
-Versions      2.11, 2.10, 2.8.1
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pandaseq/meta.yaml
+   :homepage: https://github.com/neufeld/pandaseq
+   :license: GPL3
+   :recipe: /`pandaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pandaseq
 
-Installation
-------------
+   |downloads_pandaseq| |docker_pandaseq|
 
-.. highlight: bash
+   :versions: 2.11, 2.10, 2.8.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`libtool`  
 
-   conda install pandaseq
+   :required~by: |required_by_pandaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pandaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pandaseq
+
+   and update with::
+
+      conda update pandaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pandaseq
+
+
+.. |required_by_pandaseq| conda:required_by:: pandaseq
+.. |downloads_pandaseq| image:: https://img.shields.io/conda/dn/bioconda/pandaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pandaseq| image:: https://quay.io/repository/biocontainers/pandaseq/status
+   :target: https://quay.io/repository/biocontainers/pandaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pandaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pandaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pandaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pandaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pandaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pandaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/pandaseq/status
-                :target: https://quay.io/repository/biocontainers/pandaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pandaseq/README.html
 

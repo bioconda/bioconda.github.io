@@ -1,56 +1,67 @@
-.. _`bioconductor-crisprvariants`:
+.. title:: Package Recipe 'bioconductor-crisprvariants'
+.. highlight: bash
+
 
 bioconductor-crisprvariants
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-crisprvariants
+   :replaces_section_title:
 
-CrispRVariants provides tools for analysing the results of a CRISPR\-Cas9 mutagenesis sequencing experiment\, or other sequencing experiments where variants within a given region are of interest. These tools allow users to localize variant allele combinations with respect to any genomic location \(e.g. the Cas9 cut site\)\, plot allele combinations and calculate mutation rates with flexible filtering of unrelated variants.
+   CrispRVariants provides tools for analysing the results of a CRISPR\-Cas9 mutagenesis sequencing experiment\, or other sequencing experiments where variants within a given region are of interest. These tools allow users to localize variant allele combinations with respect to any genomic location \(e.g. the Cas9 cut site\)\, plot allele combinations and calculate mutation rates with flexible filtering of unrelated variants.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CrispRVariants.html
-Versions      1.10.0, 1.8.0, 1.6.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-crisprvariants/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CrispRVariants.html
+   :license: GPL-2
+   :recipe: /`bioconductor-crisprvariants <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprvariants>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprvariants/meta.yaml>`_
+   :links: biotools: :biotools:`crisprvariants`
 
-
-
-Links         biotools: :biotools:`crisprvariants`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-crisprvariants
 
-Installation
-------------
+   |downloads_bioconductor-crisprvariants| |docker_bioconductor-crisprvariants|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=2.2.0 :conda:package:`r-gridextra`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-crisprvariants
+   :required~by: |required_by_bioconductor-crisprvariants|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-crisprvariants
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-crisprvariants
+
+   and update with::
+
+      conda update bioconductor-crisprvariants
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-crisprvariants
+
+
+.. |required_by_bioconductor-crisprvariants| conda:required_by:: bioconductor-crisprvariants
+.. |downloads_bioconductor-crisprvariants| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crisprvariants.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-crisprvariants| image:: https://quay.io/repository/biocontainers/bioconductor-crisprvariants/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-crisprvariants
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-crisprvariants.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-crisprvariants/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-crisprvariants/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-crisprvariants/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-crisprvariants/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-crisprvariants
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-crisprvariants/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-crisprvariants
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-crisprvariants/README.html
 

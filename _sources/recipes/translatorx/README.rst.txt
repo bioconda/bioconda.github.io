@@ -1,56 +1,67 @@
-.. _`translatorx`:
+.. title:: Package Recipe 'translatorx'
+.. highlight: bash
+
 
 translatorx
 ===========
 
-|downloads|
+.. conda:recipe:: translatorx
+   :replaces_section_title:
 
-Multiple alignment of nucleotide sequences guided by amino acid information
+   Multiple alignment of nucleotide sequences guided by amino acid information
 
-============= ===========
-Home          http://pc16141.mncn.csic.es/
-Versions      1.1
-License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//translatorx/meta.yaml
+   :homepage: http://pc16141.mncn.csic.es/
+   :license: None
+   :recipe: /`translatorx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/translatorx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/translatorx/meta.yaml>`_
+   :links: biotools: :biotools:`translatorx`
 
-
-
-Links         biotools: :biotools:`translatorx`
-
-============= ===========
+   
 
 
+.. conda:package:: translatorx
 
-Installation
-------------
+   |downloads_translatorx| |docker_translatorx|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`muscle`  :conda:package:`perl`  
 
-   conda install translatorx
+   :required~by: |required_by_translatorx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update translatorx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install translatorx
+
+   and update with::
+
+      conda update translatorx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/translatorx
+
+
+.. |required_by_translatorx| conda:required_by:: translatorx
+.. |downloads_translatorx| image:: https://img.shields.io/conda/dn/bioconda/translatorx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_translatorx| image:: https://quay.io/repository/biocontainers/translatorx/status
+   :target: https://quay.io/repository/biocontainers/translatorx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/translatorx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/translatorx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/translatorx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/translatorx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/translatorx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/translatorx
-.. |docker| image:: https://quay.io/repository/biocontainers/translatorx/status
-                :target: https://quay.io/repository/biocontainers/translatorx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/translatorx/README.html
 

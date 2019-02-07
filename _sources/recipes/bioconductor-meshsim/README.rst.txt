@@ -1,56 +1,67 @@
-.. _`bioconductor-meshsim`:
+.. title:: Package Recipe 'bioconductor-meshsim'
+.. highlight: bash
+
 
 bioconductor-meshsim
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-meshsim
+   :replaces_section_title:
 
-Provide for measuring semantic similarity over MeSH headings and MEDLINE documents
+   Provide for measuring semantic similarity over MeSH headings and MEDLINE documents
 
-============= ===========
-Home          http://bioconductor.org/packages/3.5/bioc/html/MeSHSim.html
-Versions      1.7.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-meshsim/meta.yaml
+   :homepage: http://bioconductor.org/packages/3.5/bioc/html/MeSHSim.html
+   :license: GPL-2
+   :recipe: /`bioconductor-meshsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshsim/meta.yaml>`_
+   :links: biotools: :biotools:`meshsim`, doi: :doi:`10.1142/S0219720015420020`
 
-
-
-Links         biotools: :biotools:`meshsim`, doi: :doi:`10.1142/S0219720015420020`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-meshsim
 
-Installation
-------------
+   |downloads_bioconductor-meshsim| |docker_bioconductor-meshsim|
 
-.. highlight: bash
+   :versions: 1.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-rcurl`  :conda:package:`r-xml`  
 
-   conda install bioconductor-meshsim
+   :required~by: |required_by_bioconductor-meshsim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-meshsim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-meshsim
+
+   and update with::
+
+      conda update bioconductor-meshsim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-meshsim
+
+
+.. |required_by_bioconductor-meshsim| conda:required_by:: bioconductor-meshsim
+.. |downloads_bioconductor-meshsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshsim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-meshsim| image:: https://quay.io/repository/biocontainers/bioconductor-meshsim/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-meshsim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-meshsim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-meshsim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-meshsim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-meshsim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-meshsim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-meshsim
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-meshsim/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-meshsim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-meshsim/README.html
 

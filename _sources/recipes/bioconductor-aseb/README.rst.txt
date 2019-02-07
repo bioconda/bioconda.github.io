@@ -1,56 +1,67 @@
-.. _`bioconductor-aseb`:
+.. title:: Package Recipe 'bioconductor-aseb'
+.. highlight: bash
+
 
 bioconductor-aseb
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-aseb
+   :replaces_section_title:
 
-ASEB is an R package to predict lysine sites that can be acetylated by a specific KAT\-family.
+   ASEB is an R package to predict lysine sites that can be acetylated by a specific KAT\-family.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ASEB.html
-Versions      1.26.0, 1.24.0, 1.22.0, 1.20.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aseb/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ASEB.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-aseb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aseb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aseb/meta.yaml>`_
+   :links: biotools: :biotools:`aseb`, doi: :doi:`10.1093/nar/gks437`
 
-
-
-Links         biotools: :biotools:`aseb`, doi: :doi:`10.1093/nar/gks437`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-aseb
 
-Installation
-------------
+   |downloads_bioconductor-aseb| |docker_bioconductor-aseb|
 
-.. highlight: bash
+   :versions: 1.26.0, 1.24.0, 1.22.0, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-aseb
+   :required~by: |required_by_bioconductor-aseb|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-aseb
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-aseb
+
+   and update with::
+
+      conda update bioconductor-aseb
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-aseb
+
+
+.. |required_by_bioconductor-aseb| conda:required_by:: bioconductor-aseb
+.. |downloads_bioconductor-aseb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aseb.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-aseb| image:: https://quay.io/repository/biocontainers/bioconductor-aseb/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-aseb
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-aseb.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-aseb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-aseb/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-aseb/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-aseb/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-aseb
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-aseb/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-aseb
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-aseb/README.html
 

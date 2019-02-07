@@ -1,54 +1,66 @@
-.. _`bioconductor-tcgaworkflowdata`:
+.. title:: Package Recipe 'bioconductor-tcgaworkflowdata'
+.. highlight: bash
+
 
 bioconductor-tcgaworkflowdata
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-tcgaworkflowdata
+   :replaces_section_title:
 
-This experimental data package contains 11 data sets necessary to follow the \"TCGA Workflow\: Analyze cancer genomics and epigenomics data using Bioconductor packages\".
+   This experimental data package contains 11 data sets necessary to follow the \"TCGA Workflow\: Analyze cancer genomics and epigenomics data using Bioconductor packages\".
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/TCGAWorkflowData.html
-Versions      1.6.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tcgaworkflowdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TCGAWorkflowData.html
+   :license: GPL-3
+   :recipe: /`bioconductor-tcgaworkflowdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tcgaworkflowdata
 
-Installation
-------------
+   |downloads_bioconductor-tcgaworkflowdata| |docker_bioconductor-tcgaworkflowdata|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-tcgaworkflowdata
+   :required~by: |required_by_bioconductor-tcgaworkflowdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tcgaworkflowdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tcgaworkflowdata
+
+   and update with::
+
+      conda update bioconductor-tcgaworkflowdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata
+
+
+.. |required_by_bioconductor-tcgaworkflowdata| conda:required_by:: bioconductor-tcgaworkflowdata
+.. |downloads_bioconductor-tcgaworkflowdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgaworkflowdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tcgaworkflowdata| image:: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tcgaworkflowdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tcgaworkflowdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tcgaworkflowdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tcgaworkflowdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tcgaworkflowdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tcgaworkflowdata/README.html
 

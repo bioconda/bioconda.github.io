@@ -1,54 +1,66 @@
-.. _`xcftools`:
+.. title:: Package Recipe 'xcftools'
+.. highlight: bash
+
 
 xcftools
 ========
 
-|downloads|
+.. conda:recipe:: xcftools
+   :replaces_section_title:
 
-Provides xcf2pnm\, xcf2png\, and xcfinfo binaries
+   Provides xcf2pnm\, xcf2png\, and xcfinfo binaries
 
-============= ===========
-Home          https://github.com/j-jorge/xcftools
-Versions      1.0.7
-License       GPL v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xcftools/meta.yaml
+   :homepage: https://github.com/j-jorge/xcftools
+   :license: GPL v2
+   :recipe: /`xcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xcftools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: xcftools
 
-Installation
-------------
+   |downloads_xcftools| |docker_xcftools|
 
-.. highlight: bash
+   :versions: 1.0.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gettext`  :conda:package:`libgcc`  :conda:package:`libpng` >=1.6.28,<1.7 
 
-   conda install xcftools
+   :required~by: |required_by_xcftools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xcftools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xcftools
+
+   and update with::
+
+      conda update xcftools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xcftools
+
+
+.. |required_by_xcftools| conda:required_by:: xcftools
+.. |downloads_xcftools| image:: https://img.shields.io/conda/dn/bioconda/xcftools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xcftools| image:: https://quay.io/repository/biocontainers/xcftools/status
+   :target: https://quay.io/repository/biocontainers/xcftools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xcftools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xcftools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xcftools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xcftools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xcftools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xcftools
-.. |docker| image:: https://quay.io/repository/biocontainers/xcftools/status
-                :target: https://quay.io/repository/biocontainers/xcftools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xcftools/README.html
 

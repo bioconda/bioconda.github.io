@@ -1,56 +1,67 @@
-.. _`bioconductor-epivizrserver`:
+.. title:: Package Recipe 'bioconductor-epivizrserver'
+.. highlight: bash
+
 
 bioconductor-epivizrserver
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-epivizrserver
+   :replaces_section_title:
 
-This package provides objects to manage WebSocket connections to epiviz apps. Other epivizr package use this infrastructure.
+   This package provides objects to manage WebSocket connections to epiviz apps. Other epivizr package use this infrastructure.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/epivizrServer.html
-Versions      1.10.0, 1.8.1, 1.6.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-epivizrserver/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epivizrServer.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-epivizrserver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrserver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrserver/meta.yaml>`_
+   :links: biotools: :biotools:`epivizrserver`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`epivizrserver`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-epivizrserver
 
-Installation
-------------
+   |downloads_bioconductor-epivizrserver| |docker_bioconductor-epivizrserver|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.1, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httpuv` >=1.3.0 :conda:package:`r-mime` >=0.2 :conda:package:`r-r6` >=2.0.0 :conda:package:`r-rjson`  
 
-   conda install bioconductor-epivizrserver
+   :required~by: |required_by_bioconductor-epivizrserver|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-epivizrserver
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-epivizrserver
+
+   and update with::
+
+      conda update bioconductor-epivizrserver
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-epivizrserver
+
+
+.. |required_by_bioconductor-epivizrserver| conda:required_by:: bioconductor-epivizrserver
+.. |downloads_bioconductor-epivizrserver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epivizrserver.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-epivizrserver| image:: https://quay.io/repository/biocontainers/bioconductor-epivizrserver/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-epivizrserver
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-epivizrserver.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-epivizrserver/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-epivizrserver/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-epivizrserver/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-epivizrserver/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-epivizrserver
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-epivizrserver/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-epivizrserver
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-epivizrserver/README.html
 

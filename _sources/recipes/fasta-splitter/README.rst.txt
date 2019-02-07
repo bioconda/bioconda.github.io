@@ -1,54 +1,66 @@
-.. _`fasta-splitter`:
+.. title:: Package Recipe 'fasta-splitter'
+.. highlight: bash
+
 
 fasta-splitter
 ==============
 
-|downloads|
+.. conda:recipe:: fasta-splitter/0.2.4
+   :replaces_section_title:
 
-Divides a large FASTA file into a set of smaller\, approximately equally sized files
+   Divides a large FASTA file into a set of smaller\, approximately equally sized files
 
-============= ===========
-Home          http://kirill-kryukov.com/study/tools/fasta-splitter/
-Versions      0.2.4
-License       zlib/libpng
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fasta-splitter/0.2.4/meta.yaml
+   :homepage: http://kirill-kryukov.com/study/tools/fasta-splitter/
+   :license: zlib/libpng
+   :recipe: /`fasta-splitter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter>`_/`0.2.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/0.2.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/0.2.4/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fasta-splitter
 
-Installation
-------------
+   |downloads_fasta-splitter| |docker_fasta-splitter|
 
-.. highlight: bash
+   :versions: 0.2.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl`  :conda:package:`perl-file-util`  
 
-   conda install fasta-splitter
+   :required~by: |required_by_fasta-splitter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fasta-splitter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fasta-splitter
+
+   and update with::
+
+      conda update fasta-splitter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fasta-splitter
+
+
+.. |required_by_fasta-splitter| conda:required_by:: fasta-splitter
+.. |downloads_fasta-splitter| image:: https://img.shields.io/conda/dn/bioconda/fasta-splitter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fasta-splitter| image:: https://quay.io/repository/biocontainers/fasta-splitter/status
+   :target: https://quay.io/repository/biocontainers/fasta-splitter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fasta-splitter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fasta-splitter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fasta-splitter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fasta-splitter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fasta-splitter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fasta-splitter
-.. |docker| image:: https://quay.io/repository/biocontainers/fasta-splitter/status
-                :target: https://quay.io/repository/biocontainers/fasta-splitter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fasta-splitter/README.html
 

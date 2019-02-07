@@ -1,54 +1,66 @@
-.. _`tn93`:
+.. title:: Package Recipe 'tn93'
+.. highlight: bash
+
 
 tn93
 ====
 
-|downloads|
+.. conda:recipe:: tn93
+   :replaces_section_title:
 
-This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
+   This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
 
-============= ===========
-Home          https://github.com/veg/tn93
-Versions      1.0.6, 1.0.4, 1.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tn93/meta.yaml
+   :homepage: https://github.com/veg/tn93
+   :license: MIT
+   :recipe: /`tn93 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tn93
 
-Installation
-------------
+   |downloads_tn93| |docker_tn93|
 
-.. highlight: bash
+   :versions: 1.0.6, 1.0.4, 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install tn93
+   :required~by: |required_by_tn93|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tn93
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tn93
+
+   and update with::
+
+      conda update tn93
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tn93
+
+
+.. |required_by_tn93| conda:required_by:: tn93
+.. |downloads_tn93| image:: https://img.shields.io/conda/dn/bioconda/tn93.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tn93| image:: https://quay.io/repository/biocontainers/tn93/status
+   :target: https://quay.io/repository/biocontainers/tn93
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tn93.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tn93/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tn93/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tn93/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tn93/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tn93
-.. |docker| image:: https://quay.io/repository/biocontainers/tn93/status
-                :target: https://quay.io/repository/biocontainers/tn93
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tn93/README.html
 

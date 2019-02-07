@@ -1,54 +1,66 @@
-.. _`xyalign`:
+.. title:: Package Recipe 'xyalign'
+.. highlight: bash
+
 
 xyalign
 =======
 
-|downloads|
+.. conda:recipe:: xyalign
+   :replaces_section_title:
 
-Command line tools and python library to infer ploidy\, correct for sex chromosome complement\, and work with NGS data
+   Command line tools and python library to infer ploidy\, correct for sex chromosome complement\, and work with NGS data
 
-============= ===========
-Home          https://github.com/WilsonSayresLab/XYalign
-Versions      1.1.5, 1.1.4, 1.1.3, 1.0.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xyalign/meta.yaml
+   :homepage: https://github.com/WilsonSayresLab/XYalign
+   :license: GPL / GPL-3.0
+   :recipe: /`xyalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xyalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xyalign/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: xyalign
 
-Installation
-------------
+   |downloads_xyalign| |docker_xyalign|
 
-.. highlight: bash
+   :versions: 1.1.5, 1.1.4, 1.1.3, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bbmap`  :conda:package:`bedtools`  :conda:package:`bwa`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`platypus-variant`  :conda:package:`pybedtools`  :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`sambamba`  :conda:package:`samtools`  :conda:package:`scipy`  
 
-   conda install xyalign
+   :required~by: |required_by_xyalign|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xyalign
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xyalign
+
+   and update with::
+
+      conda update xyalign
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xyalign
+
+
+.. |required_by_xyalign| conda:required_by:: xyalign
+.. |downloads_xyalign| image:: https://img.shields.io/conda/dn/bioconda/xyalign.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xyalign| image:: https://quay.io/repository/biocontainers/xyalign/status
+   :target: https://quay.io/repository/biocontainers/xyalign
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xyalign.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xyalign/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xyalign/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xyalign/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xyalign/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xyalign
-.. |docker| image:: https://quay.io/repository/biocontainers/xyalign/status
-                :target: https://quay.io/repository/biocontainers/xyalign
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xyalign/README.html
 

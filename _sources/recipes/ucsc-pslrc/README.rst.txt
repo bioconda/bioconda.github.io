@@ -1,54 +1,66 @@
-.. _`ucsc-pslrc`:
+.. title:: Package Recipe 'ucsc-pslrc'
+.. highlight: bash
+
 
 ucsc-pslrc
 ==========
 
-|downloads|
+.. conda:recipe:: ucsc-pslrc
+   :replaces_section_title:
 
-reverse\-complement psl
+   reverse\-complement psl
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-pslrc/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-pslrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslrc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-pslrc
 
-Installation
-------------
+   |downloads_ucsc-pslrc| |docker_ucsc-pslrc|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-pslrc
+   :required~by: |required_by_ucsc-pslrc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-pslrc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-pslrc
+
+   and update with::
+
+      conda update ucsc-pslrc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-pslrc
+
+
+.. |required_by_ucsc-pslrc| conda:required_by:: ucsc-pslrc
+.. |downloads_ucsc-pslrc| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslrc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-pslrc| image:: https://quay.io/repository/biocontainers/ucsc-pslrc/status
+   :target: https://quay.io/repository/biocontainers/ucsc-pslrc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-pslrc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-pslrc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-pslrc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-pslrc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-pslrc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-pslrc
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslrc/status
-                :target: https://quay.io/repository/biocontainers/ucsc-pslrc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-pslrc/README.html
 

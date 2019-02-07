@@ -1,54 +1,66 @@
-.. _`ont-fast5-api`:
+.. title:: Package Recipe 'ont-fast5-api'
+.. highlight: bash
+
 
 ont-fast5-api
 =============
 
-|downloads|
+.. conda:recipe:: ont-fast5-api
+   :replaces_section_title:
 
-Oxford Nanopore Technologies fast5 API software
+   Oxford Nanopore Technologies fast5 API software
 
-============= ===========
-Home          https://github.com/nanoporetech/ont_fast5_api
-Versions      1.2.0, 1.1.0, 1.0.1, 0.4.1
-License       Mozilla Public 2.0 (MPL 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ont-fast5-api/meta.yaml
+   :homepage: https://github.com/nanoporetech/ont_fast5_api
+   :license: OTHER / Mozilla Public 2.0 (MPL 2.0)
+   :recipe: /`ont-fast5-api <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ont-fast5-api
 
-Installation
-------------
+   |downloads_ont-fast5-api| |docker_ont-fast5-api|
 
-.. highlight: bash
+   :versions: 1.2.0, 1.1.0, 1.0.1, 0.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`h5py` >=2.2.1 :conda:package:`numpy` >=1.8.1 :conda:package:`progressbar33` >=2.3.1 :conda:package:`python`  :conda:package:`six` >=1.9 
 
-   conda install ont-fast5-api
+   :required~by: |required_by_ont-fast5-api|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ont-fast5-api
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ont-fast5-api
+
+   and update with::
+
+      conda update ont-fast5-api
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ont-fast5-api
+
+
+.. |required_by_ont-fast5-api| conda:required_by:: ont-fast5-api
+.. |downloads_ont-fast5-api| image:: https://img.shields.io/conda/dn/bioconda/ont-fast5-api.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ont-fast5-api| image:: https://quay.io/repository/biocontainers/ont-fast5-api/status
+   :target: https://quay.io/repository/biocontainers/ont-fast5-api
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ont-fast5-api.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ont-fast5-api/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ont-fast5-api/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ont-fast5-api/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ont-fast5-api/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ont-fast5-api
-.. |docker| image:: https://quay.io/repository/biocontainers/ont-fast5-api/status
-                :target: https://quay.io/repository/biocontainers/ont-fast5-api
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ont-fast5-api/README.html
 

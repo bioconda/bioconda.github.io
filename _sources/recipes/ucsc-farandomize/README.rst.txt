@@ -1,54 +1,66 @@
-.. _`ucsc-farandomize`:
+.. title:: Package Recipe 'ucsc-farandomize'
+.. highlight: bash
+
 
 ucsc-farandomize
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-farandomize
+   :replaces_section_title:
 
-Program to create random fasta records
+   Program to create random fasta records
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-farandomize/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-farandomize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-farandomize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-farandomize/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-farandomize
 
-Installation
-------------
+   |downloads_ucsc-farandomize| |docker_ucsc-farandomize|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-farandomize
+   :required~by: |required_by_ucsc-farandomize|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-farandomize
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-farandomize
+
+   and update with::
+
+      conda update ucsc-farandomize
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-farandomize
+
+
+.. |required_by_ucsc-farandomize| conda:required_by:: ucsc-farandomize
+.. |downloads_ucsc-farandomize| image:: https://img.shields.io/conda/dn/bioconda/ucsc-farandomize.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-farandomize| image:: https://quay.io/repository/biocontainers/ucsc-farandomize/status
+   :target: https://quay.io/repository/biocontainers/ucsc-farandomize
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-farandomize.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-farandomize/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-farandomize/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-farandomize/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-farandomize/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-farandomize
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-farandomize/status
-                :target: https://quay.io/repository/biocontainers/ucsc-farandomize
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-farandomize/README.html
 

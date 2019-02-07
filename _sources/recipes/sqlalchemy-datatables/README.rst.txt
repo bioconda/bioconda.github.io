@@ -1,54 +1,66 @@
-.. _`sqlalchemy-datatables`:
+.. title:: Package Recipe 'sqlalchemy-datatables'
+.. highlight: bash
+
 
 sqlalchemy-datatables
 =====================
 
-|downloads|
+.. conda:recipe:: sqlalchemy-datatables
+   :replaces_section_title:
 
-SQLAlchemy integration of jQuery DataTables
+   SQLAlchemy integration of jQuery DataTables
 
-============= ===========
-Home          https://github.com/pegase745/sqlalchemy-datatables
-Versions      0.3.0, 0.2.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sqlalchemy-datatables/meta.yaml
+   :homepage: https://github.com/pegase745/sqlalchemy-datatables
+   :license: MIT License
+   :recipe: /`sqlalchemy-datatables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-datatables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-datatables/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sqlalchemy-datatables
 
-Installation
-------------
+   |downloads_sqlalchemy-datatables| |docker_sqlalchemy-datatables|
 
-.. highlight: bash
+   :versions: 0.3.0, 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`sqlalchemy`  
 
-   conda install sqlalchemy-datatables
+   :required~by: |required_by_sqlalchemy-datatables|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sqlalchemy-datatables
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sqlalchemy-datatables
+
+   and update with::
+
+      conda update sqlalchemy-datatables
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sqlalchemy-datatables
+
+
+.. |required_by_sqlalchemy-datatables| conda:required_by:: sqlalchemy-datatables
+.. |downloads_sqlalchemy-datatables| image:: https://img.shields.io/conda/dn/bioconda/sqlalchemy-datatables.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sqlalchemy-datatables| image:: https://quay.io/repository/biocontainers/sqlalchemy-datatables/status
+   :target: https://quay.io/repository/biocontainers/sqlalchemy-datatables
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sqlalchemy-datatables.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sqlalchemy-datatables/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sqlalchemy-datatables/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sqlalchemy-datatables/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sqlalchemy-datatables/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sqlalchemy-datatables
-.. |docker| image:: https://quay.io/repository/biocontainers/sqlalchemy-datatables/status
-                :target: https://quay.io/repository/biocontainers/sqlalchemy-datatables
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sqlalchemy-datatables/README.html
 

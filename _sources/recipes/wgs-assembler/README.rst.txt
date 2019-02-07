@@ -1,54 +1,66 @@
-.. _`wgs-assembler`:
+.. title:: Package Recipe 'wgs-assembler'
+.. highlight: bash
+
 
 wgs-assembler
 =============
 
-|downloads|
+.. conda:recipe:: wgs-assembler
+   :replaces_section_title:
 
-Celera Assembler \(wgs\-assembler\) is a de novo whole\-genome shotgun \(WGS\) DNA sequence assembler
+   Celera Assembler \(wgs\-assembler\) is a de novo whole\-genome shotgun \(WGS\) DNA sequence assembler
 
-============= ===========
-Home          http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page
-Versions      8.3
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wgs-assembler/meta.yaml
+   :homepage: http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page
+   :license: MIT
+   :recipe: /`wgs-assembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgs-assembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgs-assembler/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: wgs-assembler
 
-Installation
-------------
+   |downloads_wgs-assembler| |docker_wgs-assembler|
 
-.. highlight: bash
+   :versions: 8.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`atac`  :conda:package:`blasr`  :conda:package:`estmapper`  :conda:package:`falcon`  :conda:package:`jellyfish`  :conda:package:`libgcc`  :conda:package:`meryl`  :conda:package:`pbdagcon`  :conda:package:`perl` 5.22.0* :conda:package:`samtools`  :conda:package:`sim4db`  
 
-   conda install wgs-assembler
+   :required~by: |required_by_wgs-assembler|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update wgs-assembler
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install wgs-assembler
+
+   and update with::
+
+      conda update wgs-assembler
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/wgs-assembler
+
+
+.. |required_by_wgs-assembler| conda:required_by:: wgs-assembler
+.. |downloads_wgs-assembler| image:: https://img.shields.io/conda/dn/bioconda/wgs-assembler.svg?style=flat
+   :alt:   (downloads)
+.. |docker_wgs-assembler| image:: https://quay.io/repository/biocontainers/wgs-assembler/status
+   :target: https://quay.io/repository/biocontainers/wgs-assembler
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/wgs-assembler.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/wgs-assembler/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/wgs-assembler/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/wgs-assembler/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/wgs-assembler/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/wgs-assembler
-.. |docker| image:: https://quay.io/repository/biocontainers/wgs-assembler/status
-                :target: https://quay.io/repository/biocontainers/wgs-assembler
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/wgs-assembler/README.html
 

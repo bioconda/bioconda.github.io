@@ -1,54 +1,66 @@
-.. _`perl-config-simple`:
+.. title:: Package Recipe 'perl-config-simple'
+.. highlight: bash
+
 
 perl-config-simple
 ==================
 
-|downloads|
+.. conda:recipe:: perl-config-simple
+   :replaces_section_title:
 
-simple configuration file class
+   simple configuration file class
 
-============= ===========
-Home          http://metacpan.org/pod/Config::Simple
-Versions      4.58
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-config-simple/meta.yaml
+   :homepage: http://metacpan.org/pod/Config::Simple
+   :license: unknown
+   :recipe: /`perl-config-simple <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-simple>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-simple/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-config-simple
 
-Installation
-------------
+   |downloads_perl-config-simple| |docker_perl-config-simple|
 
-.. highlight: bash
+   :versions: 4.58
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-config-simple
+   :required~by: |required_by_perl-config-simple|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-config-simple
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-config-simple
+
+   and update with::
+
+      conda update perl-config-simple
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-config-simple
+
+
+.. |required_by_perl-config-simple| conda:required_by:: perl-config-simple
+.. |downloads_perl-config-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-config-simple.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-config-simple| image:: https://quay.io/repository/biocontainers/perl-config-simple/status
+   :target: https://quay.io/repository/biocontainers/perl-config-simple
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-config-simple.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-config-simple/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-config-simple/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-config-simple/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-config-simple/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-config-simple
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-config-simple/status
-                :target: https://quay.io/repository/biocontainers/perl-config-simple
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-config-simple/README.html
 

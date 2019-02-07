@@ -1,56 +1,67 @@
-.. _`bioconductor-tximport`:
+.. title:: Package Recipe 'bioconductor-tximport'
+.. highlight: bash
+
 
 bioconductor-tximport
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-tximport
+   :replaces_section_title:
 
-Imports transcript\-level abundance\, estimated counts and transcript lengths\, and summarizes into matrices for use with downstream gene\-level analysis packages. Average transcript length\, weighted by sample\-specific transcript abundance estimates\, is provided as a matrix which can be used as an offset for different expression of gene\-level counts.
+   Imports transcript\-level abundance\, estimated counts and transcript lengths\, and summarizes into matrices for use with downstream gene\-level analysis packages. Average transcript length\, weighted by sample\-specific transcript abundance estimates\, is provided as a matrix which can be used as an offset for different expression of gene\-level counts.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/tximport.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.0.3
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tximport/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tximport.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-tximport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport/meta.yaml>`_
+   :links: biotools: :biotools:`tximport`
 
-
-
-Links         biotools: :biotools:`tximport`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tximport
 
-Installation
-------------
+   |downloads_bioconductor-tximport| |docker_bioconductor-tximport|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-tximport
+   :required~by: |required_by_bioconductor-tximport|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tximport
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tximport
+
+   and update with::
+
+      conda update bioconductor-tximport
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tximport
+
+
+.. |required_by_bioconductor-tximport| conda:required_by:: bioconductor-tximport
+.. |downloads_bioconductor-tximport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tximport.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tximport| image:: https://quay.io/repository/biocontainers/bioconductor-tximport/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tximport
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tximport.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tximport/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tximport/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tximport/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tximport/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tximport
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tximport/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tximport
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tximport/README.html
 

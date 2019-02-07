@@ -1,54 +1,66 @@
-.. _`bioconductor-genarise`:
+.. title:: Package Recipe 'bioconductor-genarise'
+.. highlight: bash
+
 
 bioconductor-genarise
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-genarise
+   :replaces_section_title:
 
-genArise is an easy to use tool for dual color microarray data. Its GUI\-Tk based environment let any non\-experienced user performs a basic\, but not simple\, data analysis just following a wizard. In addition it provides some tools for the developer.
+   genArise is an easy to use tool for dual color microarray data. Its GUI\-Tk based environment let any non\-experienced user performs a basic\, but not simple\, data analysis just following a wizard. In addition it provides some tools for the developer.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/genArise.html
-Versions      1.58.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genarise/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genArise.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-genarise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genarise
 
-Installation
-------------
+   |downloads_bioconductor-genarise| |docker_bioconductor-genarise|
 
-.. highlight: bash
+   :versions: 1.58.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-tkrplot`  :conda:package:`r-xtable`  
 
-   conda install bioconductor-genarise
+   :required~by: |required_by_bioconductor-genarise|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genarise
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genarise
+
+   and update with::
+
+      conda update bioconductor-genarise
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genarise
+
+
+.. |required_by_bioconductor-genarise| conda:required_by:: bioconductor-genarise
+.. |downloads_bioconductor-genarise| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genarise.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genarise| image:: https://quay.io/repository/biocontainers/bioconductor-genarise/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genarise
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genarise.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genarise/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genarise/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genarise/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genarise/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genarise
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genarise/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genarise
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genarise/README.html
 

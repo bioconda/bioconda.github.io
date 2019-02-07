@@ -1,54 +1,66 @@
-.. _`r-qqman`:
+.. title:: Package Recipe 'r-qqman'
+.. highlight: bash
+
 
 r-qqman
 =======
 
-|downloads|
+.. conda:recipe:: r-qqman
+   :replaces_section_title:
 
-Create Q\-Q and manhattan plots for GWAS data from PLINK results.
+   Create Q\-Q and manhattan plots for GWAS data from PLINK results.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=qqman
-Versions      0.1.4, 0.1.2
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-qqman/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=qqman
+   :license: GPL3 / GPL-3
+   :recipe: /`r-qqman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-qqman
 
-Installation
-------------
+   |downloads_r-qqman| |docker_r-qqman|
 
-.. highlight: bash
+   :versions: 0.1.4, 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-calibrate`  
 
-   conda install r-qqman
+   :required~by: |required_by_r-qqman|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-qqman
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-qqman
+
+   and update with::
+
+      conda update r-qqman
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-qqman
+
+
+.. |required_by_r-qqman| conda:required_by:: r-qqman
+.. |downloads_r-qqman| image:: https://img.shields.io/conda/dn/bioconda/r-qqman.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-qqman| image:: https://quay.io/repository/biocontainers/r-qqman/status
+   :target: https://quay.io/repository/biocontainers/r-qqman
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-qqman.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-qqman/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-qqman/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-qqman/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-qqman/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-qqman
-.. |docker| image:: https://quay.io/repository/biocontainers/r-qqman/status
-                :target: https://quay.io/repository/biocontainers/r-qqman
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-qqman/README.html
 

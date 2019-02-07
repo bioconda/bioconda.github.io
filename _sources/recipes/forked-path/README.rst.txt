@@ -1,54 +1,66 @@
-.. _`forked-path`:
+.. title:: Package Recipe 'forked-path'
+.. highlight: bash
+
 
 forked-path
 ===========
 
-|downloads|
+.. conda:recipe:: forked-path
+   :replaces_section_title:
 
-An object oriented file path module
+   An object oriented file path module
 
-============= ===========
-Home          http://github.com/Singletoned/forked-path
-Versions      0.2.3
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//forked-path/meta.yaml
+   :homepage: http://github.com/Singletoned/forked-path
+   :license: Public Domain
+   :recipe: /`forked-path <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forked-path>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forked-path/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: forked-path
 
-Installation
-------------
+   |downloads_forked-path| |docker_forked-path|
 
-.. highlight: bash
+   :versions: 0.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install forked-path
+   :required~by: |required_by_forked-path|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update forked-path
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install forked-path
+
+   and update with::
+
+      conda update forked-path
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/forked-path
+
+
+.. |required_by_forked-path| conda:required_by:: forked-path
+.. |downloads_forked-path| image:: https://img.shields.io/conda/dn/bioconda/forked-path.svg?style=flat
+   :alt:   (downloads)
+.. |docker_forked-path| image:: https://quay.io/repository/biocontainers/forked-path/status
+   :target: https://quay.io/repository/biocontainers/forked-path
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/forked-path.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/forked-path/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/forked-path/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/forked-path/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/forked-path/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/forked-path
-.. |docker| image:: https://quay.io/repository/biocontainers/forked-path/status
-                :target: https://quay.io/repository/biocontainers/forked-path
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/forked-path/README.html
 

@@ -1,58 +1,68 @@
-.. _`swipe`:
+.. title:: Package Recipe 'swipe'
+.. highlight: bash
+
 
 swipe
 =====
 
-|downloads|
+.. conda:recipe:: swipe
+   :replaces_section_title:
 
-Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith\-Waterman algoritm using SIMD parallel computing technology available on common CPUs.
+   Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith\-Waterman algoritm using SIMD parallel computing technology available on common CPUs.
 
-============= ===========
-Home          http://dna.uio.no/swipe
-Versions      2.1.0, 2.0.12
-License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//swipe/meta.yaml
+   :homepage: http://dna.uio.no/swipe
+   :developer docs: https://github.com/torognes/swipe
+   :license: GPL / AGPL-3.0
+   :recipe: /`swipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe/meta.yaml>`_
+   :links: biotools: :biotools:`swipe`, doi: :doi:`10.1186/1471-2105-12-221`
 
-
-Development   https://github.com/torognes/swipe
-
-
-Links         biotools: :biotools:`swipe`, doi: :doi:`10.1186/1471-2105-12-221`
-
-============= ===========
+   
 
 
+.. conda:package:: swipe
 
-Installation
-------------
+   |downloads_swipe| |docker_swipe|
 
-.. highlight: bash
+   :versions: 2.1.0, 2.0.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi`  :conda:package:`tbb`  
 
-   conda install swipe
+   :required~by: |required_by_swipe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update swipe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install swipe
+
+   and update with::
+
+      conda update swipe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/swipe
+
+
+.. |required_by_swipe| conda:required_by:: swipe
+.. |downloads_swipe| image:: https://img.shields.io/conda/dn/bioconda/swipe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_swipe| image:: https://quay.io/repository/biocontainers/swipe/status
+   :target: https://quay.io/repository/biocontainers/swipe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/swipe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/swipe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/swipe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/swipe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/swipe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/swipe
-.. |docker| image:: https://quay.io/repository/biocontainers/swipe/status
-                :target: https://quay.io/repository/biocontainers/swipe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/swipe/README.html
 

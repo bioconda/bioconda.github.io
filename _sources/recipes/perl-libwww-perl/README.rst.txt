@@ -1,54 +1,66 @@
-.. _`perl-libwww-perl`:
+.. title:: Package Recipe 'perl-libwww-perl'
+.. highlight: bash
+
 
 perl-libwww-perl
 ================
 
-|downloads|
+.. conda:recipe:: perl-libwww-perl
+   :replaces_section_title:
 
-The World\-Wide Web library for Perl
+   The World\-Wide Web library for Perl
 
-============= ===========
-Home          http://metacpan.org/pod/libwww-perl
-Versions      6.36, 6.15
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-libwww-perl/meta.yaml
+   :homepage: http://metacpan.org/pod/libwww-perl
+   :license: perl_5
+   :recipe: /`perl-libwww-perl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-libwww-perl
 
-Installation
-------------
+   |downloads_perl-libwww-perl| |docker_perl-libwww-perl|
 
-.. highlight: bash
+   :versions: 6.36, 6.15
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-digest-md5`  :conda:package:`perl-encode`  :conda:package:`perl-encode-locale`  :conda:package:`perl-file-listing`  :conda:package:`perl-html-parser`  :conda:package:`perl-http-cookies`  :conda:package:`perl-http-daemon`  :conda:package:`perl-http-date`  :conda:package:`perl-http-negotiate`  :conda:package:`perl-lwp-mediatypes`  :conda:package:`perl-mime-base64`  :conda:package:`perl-net-http` >=6.07 :conda:package:`perl-ntlm`  :conda:package:`perl-try-tiny`  :conda:package:`perl-uri`  :conda:package:`perl-www-robotrules`  
 
-   conda install perl-libwww-perl
+   :required~by: |required_by_perl-libwww-perl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-libwww-perl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-libwww-perl
+
+   and update with::
+
+      conda update perl-libwww-perl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-libwww-perl
+
+
+.. |required_by_perl-libwww-perl| conda:required_by:: perl-libwww-perl
+.. |downloads_perl-libwww-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-libwww-perl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-libwww-perl| image:: https://quay.io/repository/biocontainers/perl-libwww-perl/status
+   :target: https://quay.io/repository/biocontainers/perl-libwww-perl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-libwww-perl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-libwww-perl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-libwww-perl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-libwww-perl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-libwww-perl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-libwww-perl
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-libwww-perl/status
-                :target: https://quay.io/repository/biocontainers/perl-libwww-perl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-libwww-perl/README.html
 

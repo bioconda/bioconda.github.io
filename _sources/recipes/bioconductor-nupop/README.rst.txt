@@ -1,54 +1,66 @@
-.. _`bioconductor-nupop`:
+.. title:: Package Recipe 'bioconductor-nupop'
+.. highlight: bash
+
 
 bioconductor-nupop
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-nupop
+   :replaces_section_title:
 
-NuPoP is an R package for Nucleosome Positioning Prediction.This package is built upon a duration hidden Markov model proposed in Xi et al\, 2010\; Wang et al\, 2008. The core of the package was written in Fotran. In addition to the R package\, a stand\-alone Fortran software tool is also available at http\:\/\/nucleosome.stats.northwestern.edu.
+   NuPoP is an R package for Nucleosome Positioning Prediction.This package is built upon a duration hidden Markov model proposed in Xi et al\, 2010\; Wang et al\, 2008. The core of the package was written in Fotran. In addition to the R package\, a stand\-alone Fortran software tool is also available at http\:\/\/nucleosome.stats.northwestern.edu.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/NuPoP.html
-Versions      1.32.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nupop/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NuPoP.html
+   :license: GPL-2
+   :recipe: /`bioconductor-nupop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-nupop
 
-Installation
-------------
+   |downloads_bioconductor-nupop| |docker_bioconductor-nupop|
 
-.. highlight: bash
+   :versions: 1.32.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-nupop
+   :required~by: |required_by_bioconductor-nupop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-nupop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-nupop
+
+   and update with::
+
+      conda update bioconductor-nupop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-nupop
+
+
+.. |required_by_bioconductor-nupop| conda:required_by:: bioconductor-nupop
+.. |downloads_bioconductor-nupop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nupop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-nupop| image:: https://quay.io/repository/biocontainers/bioconductor-nupop/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-nupop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-nupop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-nupop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-nupop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-nupop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-nupop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-nupop
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nupop/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-nupop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-nupop/README.html
 

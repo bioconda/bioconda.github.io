@@ -1,54 +1,66 @@
-.. _`break-point-inspector`:
+.. title:: Package Recipe 'break-point-inspector'
+.. highlight: bash
+
 
 break-point-inspector
 =====================
 
-|downloads|
+.. conda:recipe:: break-point-inspector
+   :replaces_section_title:
 
-BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls.
+   BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls.
 
-============= ===========
-Home          https://github.com/hartwigmedical/hmftools/tree/master/break-point-inspector
-Versions      1.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//break-point-inspector/meta.yaml
+   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/break-point-inspector
+   :license: MIT
+   :recipe: /`break-point-inspector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/break-point-inspector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/break-point-inspector/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: break-point-inspector
 
-Installation
-------------
+   |downloads_break-point-inspector| |docker_break-point-inspector|
 
-.. highlight: bash
+   :versions: 1.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install break-point-inspector
+   :required~by: |required_by_break-point-inspector|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update break-point-inspector
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install break-point-inspector
+
+   and update with::
+
+      conda update break-point-inspector
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/break-point-inspector
+
+
+.. |required_by_break-point-inspector| conda:required_by:: break-point-inspector
+.. |downloads_break-point-inspector| image:: https://img.shields.io/conda/dn/bioconda/break-point-inspector.svg?style=flat
+   :alt:   (downloads)
+.. |docker_break-point-inspector| image:: https://quay.io/repository/biocontainers/break-point-inspector/status
+   :target: https://quay.io/repository/biocontainers/break-point-inspector
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/break-point-inspector.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/break-point-inspector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/break-point-inspector/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/break-point-inspector/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/break-point-inspector/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/break-point-inspector
-.. |docker| image:: https://quay.io/repository/biocontainers/break-point-inspector/status
-                :target: https://quay.io/repository/biocontainers/break-point-inspector
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/break-point-inspector/README.html
 

@@ -1,56 +1,67 @@
-.. _`shannon`:
+.. title:: Package Recipe 'shannon'
+.. highlight: bash
+
 
 shannon
 =======
 
-|downloads|
+.. conda:recipe:: shannon
+   :replaces_section_title:
 
-A program for assembling transcripts from RNA\-Seq data.
+   A program for assembling transcripts from RNA\-Seq data.
 
-============= ===========
-Home          http://sreeramkannan.github.io/Shannon/
-Versions      0.0.2
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//shannon/meta.yaml
+   :homepage: http://sreeramkannan.github.io/Shannon/
+   :developer docs: https://github.com/sreeramkannan/Shannon
+   :license: GPL3 / GPLv3
+   :recipe: /`shannon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shannon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shannon/meta.yaml>`_
 
-
-Development   https://github.com/sreeramkannan/Shannon
-
-
-============= ===========
+   
 
 
+.. conda:package:: shannon
 
-Installation
-------------
+   |downloads_shannon| |docker_shannon|
 
-.. highlight: bash
+   :versions: 0.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cvxopt`  :conda:package:`jellyfish`  :conda:package:`metis`  :conda:package:`numpy`  :conda:package:`parallel`  :conda:package:`python` <3 :conda:package:`quorum`  
 
-   conda install shannon
+   :required~by: |required_by_shannon|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update shannon
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install shannon
+
+   and update with::
+
+      conda update shannon
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/shannon
+
+
+.. |required_by_shannon| conda:required_by:: shannon
+.. |downloads_shannon| image:: https://img.shields.io/conda/dn/bioconda/shannon.svg?style=flat
+   :alt:   (downloads)
+.. |docker_shannon| image:: https://quay.io/repository/biocontainers/shannon/status
+   :target: https://quay.io/repository/biocontainers/shannon
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/shannon.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/shannon/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shannon/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/shannon/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/shannon/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/shannon
-.. |docker| image:: https://quay.io/repository/biocontainers/shannon/status
-                :target: https://quay.io/repository/biocontainers/shannon
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/shannon/README.html
 

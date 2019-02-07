@@ -1,56 +1,67 @@
-.. _`bioconductor-dchiprep`:
+.. title:: Package Recipe 'bioconductor-dchiprep'
+.. highlight: bash
+
 
 bioconductor-dchiprep
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-dchiprep
+   :replaces_section_title:
 
-The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et. al \- http\:\/\/www.dx.doi.org\/10.15252\/msb.20145776. A detailed description of the method is given in the software paper at https\:\/\/doi.org\/10.7717\/peerj.1981
+   The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et. al \- http\:\/\/www.dx.doi.org\/10.15252\/msb.20145776. A detailed description of the method is given in the software paper at https\:\/\/doi.org\/10.7717\/peerj.1981
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DChIPRep.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       MIT + file LICENCE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dchiprep/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DChIPRep.html
+   :license: MIT + file LICENCE
+   :recipe: /`bioconductor-dchiprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep/meta.yaml>`_
+   :links: biotools: :biotools:`dchiprep`
 
-
-
-Links         biotools: :biotools:`dchiprep`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dchiprep
 
-Installation
-------------
+   |downloads_bioconductor-dchiprep| |docker_bioconductor-dchiprep|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-chippeakanno` >=3.16.0,<3.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-soggi` >=1.14.0,<1.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-assertthat`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fdrtool`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-purrr`  :conda:package:`r-reshape2`  :conda:package:`r-smoothmest`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-dchiprep
+   :required~by: |required_by_bioconductor-dchiprep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dchiprep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dchiprep
+
+   and update with::
+
+      conda update bioconductor-dchiprep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dchiprep
+
+
+.. |required_by_bioconductor-dchiprep| conda:required_by:: bioconductor-dchiprep
+.. |downloads_bioconductor-dchiprep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dchiprep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dchiprep| image:: https://quay.io/repository/biocontainers/bioconductor-dchiprep/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dchiprep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dchiprep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dchiprep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dchiprep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dchiprep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dchiprep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dchiprep
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dchiprep/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dchiprep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dchiprep/README.html
 

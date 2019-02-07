@@ -1,54 +1,66 @@
-.. _`perl-number-misc`:
+.. title:: Package Recipe 'perl-number-misc'
+.. highlight: bash
+
 
 perl-number-misc
 ================
 
-|downloads|
+.. conda:recipe:: perl-number-misc/1.2
+   :replaces_section_title:
 
-Number\:\:Misc \- handy utilities for numbers
+   Number\:\:Misc \- handy utilities for numbers
 
-============= ===========
-Home          http://metacpan.org/pod/Number::Misc
-Versions      1.2
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-number-misc/1.2/meta.yaml
+   :homepage: http://metacpan.org/pod/Number::Misc
+   :license: perl_5
+   :recipe: /`perl-number-misc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc>`_/`1.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc/1.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc/1.2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-number-misc
 
-Installation
-------------
+   |downloads_perl-number-misc| |docker_perl-number-misc|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-number-misc
+   :required~by: |required_by_perl-number-misc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-number-misc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-number-misc
+
+   and update with::
+
+      conda update perl-number-misc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-number-misc
+
+
+.. |required_by_perl-number-misc| conda:required_by:: perl-number-misc
+.. |downloads_perl-number-misc| image:: https://img.shields.io/conda/dn/bioconda/perl-number-misc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-number-misc| image:: https://quay.io/repository/biocontainers/perl-number-misc/status
+   :target: https://quay.io/repository/biocontainers/perl-number-misc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-number-misc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-number-misc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-number-misc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-number-misc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-number-misc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-number-misc
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-number-misc/status
-                :target: https://quay.io/repository/biocontainers/perl-number-misc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-number-misc/README.html
 

@@ -1,54 +1,66 @@
-.. _`slclust`:
+.. title:: Package Recipe 'slclust'
+.. highlight: bash
+
 
 slclust
 =======
 
-|downloads|
+.. conda:recipe:: slclust
+   :replaces_section_title:
 
-A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
+   A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
 
-============= ===========
-Home          https://sourceforge.net/projects/slclust/
-Versions      02022010
-License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//slclust/meta.yaml
+   :homepage: https://sourceforge.net/projects/slclust/
+   :license: Artistic License
+   :recipe: /`slclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slclust/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: slclust
 
-Installation
-------------
+   |downloads_slclust| |docker_slclust|
 
-.. highlight: bash
+   :versions: 02022010
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install slclust
+   :required~by: |required_by_slclust|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update slclust
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install slclust
+
+   and update with::
+
+      conda update slclust
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/slclust
+
+
+.. |required_by_slclust| conda:required_by:: slclust
+.. |downloads_slclust| image:: https://img.shields.io/conda/dn/bioconda/slclust.svg?style=flat
+   :alt:   (downloads)
+.. |docker_slclust| image:: https://quay.io/repository/biocontainers/slclust/status
+   :target: https://quay.io/repository/biocontainers/slclust
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/slclust.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/slclust/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/slclust/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/slclust/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/slclust/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/slclust
-.. |docker| image:: https://quay.io/repository/biocontainers/slclust/status
-                :target: https://quay.io/repository/biocontainers/slclust
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/slclust/README.html
 

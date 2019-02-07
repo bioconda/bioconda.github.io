@@ -1,56 +1,67 @@
-.. _`bioconductor-genomicfeatures`:
+.. title:: Package Recipe 'bioconductor-genomicfeatures'
+.. highlight: bash
+
 
 bioconductor-genomicfeatures
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-genomicfeatures
+   :replaces_section_title:
 
-A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts\, exons and cds of a given organism\, from either the UCSC Genome Browser or a BioMart database \(more sources will be supported in the future\). This information is then stored in a local database that keeps track of the relationship between transcripts\, exons\, cds and genes. Flexible methods are provided for extracting the desired features in a convenient format.
+   A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts\, exons and cds of a given organism\, from either the UCSC Genome Browser or a BioMart database \(more sources will be supported in the future\). This information is then stored in a local database that keeps track of the relationship between transcripts\, exons\, cds and genes. Flexible methods are provided for extracting the desired features in a convenient format.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GenomicFeatures.html
-Versions      1.34.1, 1.32.3, 1.30.3, 1.30.0, 1.28.5, 1.26.4, 1.26.0, 1.24.5, 1.22.13, 1.22.6, 1.22.4, 1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomicfeatures/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenomicFeatures.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-genomicfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures/meta.yaml>`_
+   :links: biotools: :biotools:`genomicfeatures`
 
-
-
-Links         biotools: :biotools:`genomicfeatures`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genomicfeatures
 
-Installation
-------------
+   |downloads_bioconductor-genomicfeatures| |docker_bioconductor-genomicfeatures|
 
-.. highlight: bash
+   :versions: 1.34.1, 1.32.3, 1.30.3, 1.30.0, 1.28.5, 1.26.4, 1.26.0, 1.24.5, 1.22.13, 1.22.6, 1.22.4, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rtracklayer` >=1.42.0,<1.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rcurl`  :conda:package:`r-rsqlite` >=2.0 
 
-   conda install bioconductor-genomicfeatures
+   :required~by: |required_by_bioconductor-genomicfeatures|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genomicfeatures
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genomicfeatures
+
+   and update with::
+
+      conda update bioconductor-genomicfeatures
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genomicfeatures
+
+
+.. |required_by_bioconductor-genomicfeatures| conda:required_by:: bioconductor-genomicfeatures
+.. |downloads_bioconductor-genomicfeatures| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicfeatures.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genomicfeatures| image:: https://quay.io/repository/biocontainers/bioconductor-genomicfeatures/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genomicfeatures
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genomicfeatures.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genomicfeatures/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genomicfeatures/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genomicfeatures/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genomicfeatures/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genomicfeatures
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomicfeatures/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genomicfeatures
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genomicfeatures/README.html
 

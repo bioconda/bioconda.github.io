@@ -1,54 +1,66 @@
-.. _`pbcore`:
+.. title:: Package Recipe 'pbcore'
+.. highlight: bash
+
 
 pbcore
 ======
 
-|downloads|
+.. conda:recipe:: pbcore
+   :replaces_section_title:
 
-A Python library for reading and writing PacBio data files
+   A Python library for reading and writing PacBio data files
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      1.6.5, 1.5.1, 1.2.10
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbcore/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbbioconda
+   :license: BSD-3-Clause-Clear
+   :recipe: /`pbcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbcore
 
-Installation
-------------
+   |downloads_pbcore| |docker_pbcore|
 
-.. highlight: bash
+   :versions: 1.6.5, 1.5.1, 1.2.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`h5py` >=2.7.0 :conda:package:`numpy` >=1.15 :conda:package:`pysam` >=0.13 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install pbcore
+   :required~by: |required_by_pbcore|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbcore
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbcore
+
+   and update with::
+
+      conda update pbcore
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbcore
+
+
+.. |required_by_pbcore| conda:required_by:: pbcore
+.. |downloads_pbcore| image:: https://img.shields.io/conda/dn/bioconda/pbcore.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbcore| image:: https://quay.io/repository/biocontainers/pbcore/status
+   :target: https://quay.io/repository/biocontainers/pbcore
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbcore.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbcore/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbcore/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbcore/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbcore/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbcore
-.. |docker| image:: https://quay.io/repository/biocontainers/pbcore/status
-                :target: https://quay.io/repository/biocontainers/pbcore
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbcore/README.html
 

@@ -1,56 +1,67 @@
-.. _`snippy`:
+.. title:: Package Recipe 'snippy'
+.. highlight: bash
+
 
 snippy
 ======
 
-|downloads|
+.. conda:recipe:: snippy
+   :replaces_section_title:
 
-Rapid bacterial SNP calling and core genome alignments
+   Rapid bacterial SNP calling and core genome alignments
 
-============= ===========
-Home          https://github.com/tseemann/snippy
-Versions      4.3.6, 4.3.5, 4.3.3, 4.2.3, 4.1.0, 4.0.7, 4.0.5, 4.0.2, 3.2, 3.1, 3.0, 2.9
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snippy/meta.yaml
+   :homepage: https://github.com/tseemann/snippy
+   :license: GPL / GPL-2.0
+   :recipe: /`snippy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy/meta.yaml>`_
+   :links: biotools: :biotools:`snippy`
 
-
-
-Links         biotools: :biotools:`snippy`
-
-============= ===========
+   
 
 
+.. conda:package:: snippy
 
-Installation
-------------
+   |downloads_snippy| |docker_snippy|
 
-.. highlight: bash
+   :versions: 4.3.6, 4.3.5, 4.3.3, 4.2.3, 4.1.0, 4.0.7, 4.0.5, 4.0.2, 3.2, 3.1, 3.0, 2.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcftools` >=1.8 :conda:package:`bedtools`  :conda:package:`bwa` >=0.7.17 :conda:package:`emboss` >=6.0 :conda:package:`freebayes` >=1.1 :conda:package:`minimap2` >=2.10 :conda:package:`parallel` >=20170422 :conda:package:`perl`  :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-time-piece`  :conda:package:`samclip` >=0.2 :conda:package:`samtools` >=1.8 :conda:package:`seqtk` >=1.2 :conda:package:`snp-sites` >=2.4 :conda:package:`snpeff` >=4.3 :conda:package:`vcflib`  :conda:package:`vt` >=0.5772 
 
-   conda install snippy
+   :required~by: |required_by_snippy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snippy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snippy
+
+   and update with::
+
+      conda update snippy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snippy
+
+
+.. |required_by_snippy| conda:required_by:: snippy
+.. |downloads_snippy| image:: https://img.shields.io/conda/dn/bioconda/snippy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snippy| image:: https://quay.io/repository/biocontainers/snippy/status
+   :target: https://quay.io/repository/biocontainers/snippy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snippy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snippy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snippy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snippy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snippy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snippy
-.. |docker| image:: https://quay.io/repository/biocontainers/snippy/status
-                :target: https://quay.io/repository/biocontainers/snippy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snippy/README.html
 

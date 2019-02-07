@@ -1,56 +1,67 @@
-.. _`bioconductor-asafe`:
+.. title:: Package Recipe 'bioconductor-asafe'
+.. highlight: bash
+
 
 bioconductor-asafe
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-asafe
+   :replaces_section_title:
 
-Given admixed individuals\' bi\-allelic SNP genotypes and ancestry pairs \(where each ancestry can take one of three values\) for multiple SNPs\, perform an EM algorithm to deal with the fact that SNP genotypes are unphased with respect to ancestry pairs\, in order to estimate ancestry\-specific allele frequencies for all SNPs.
+   Given admixed individuals\' bi\-allelic SNP genotypes and ancestry pairs \(where each ancestry can take one of three values\) for multiple SNPs\, perform an EM algorithm to deal with the fact that SNP genotypes are unphased with respect to ancestry pairs\, in order to estimate ancestry\-specific allele frequencies for all SNPs.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ASAFE.html
-Versions      1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-asafe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ASAFE.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-asafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe/meta.yaml>`_
+   :links: biotools: :biotools:`asafe`, doi: :doi:`10.1093/bioinformatics/btw220`
 
-
-
-Links         biotools: :biotools:`asafe`, doi: :doi:`10.1093/bioinformatics/btw220`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-asafe
 
-Installation
-------------
+   |downloads_bioconductor-asafe| |docker_bioconductor-asafe|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-asafe
+   :required~by: |required_by_bioconductor-asafe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-asafe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-asafe
+
+   and update with::
+
+      conda update bioconductor-asafe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-asafe
+
+
+.. |required_by_bioconductor-asafe| conda:required_by:: bioconductor-asafe
+.. |downloads_bioconductor-asafe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asafe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-asafe| image:: https://quay.io/repository/biocontainers/bioconductor-asafe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-asafe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-asafe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-asafe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-asafe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-asafe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-asafe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-asafe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-asafe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-asafe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-asafe/README.html
 

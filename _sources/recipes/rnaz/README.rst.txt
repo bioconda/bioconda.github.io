@@ -1,56 +1,67 @@
-.. _`rnaz`:
+.. title:: Package Recipe 'rnaz'
+.. highlight: bash
+
 
 rnaz
 ====
 
-|downloads|
+.. conda:recipe:: rnaz
+   :replaces_section_title:
 
-predicting structural noncoding RNAs
+   predicting structural noncoding RNAs
 
-============= ===========
-Home          https://www.tbi.univie.ac.at/~wash/RNAz/
-Versions      2.1
-License       MIT-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnaz/meta.yaml
+   :homepage: https://www.tbi.univie.ac.at/~wash/RNAz/
+   :license: MIT-like
+   :recipe: /`rnaz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaz/meta.yaml>`_
+   :links: biotools: :biotools:`rnaz`
 
-
-
-Links         biotools: :biotools:`rnaz`
-
-============= ===========
+   
 
 
+.. conda:package:: rnaz
 
-Installation
-------------
+   |downloads_rnaz| |docker_rnaz|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install rnaz
+   :required~by: |required_by_rnaz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rnaz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rnaz
+
+   and update with::
+
+      conda update rnaz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rnaz
+
+
+.. |required_by_rnaz| conda:required_by:: rnaz
+.. |downloads_rnaz| image:: https://img.shields.io/conda/dn/bioconda/rnaz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rnaz| image:: https://quay.io/repository/biocontainers/rnaz/status
+   :target: https://quay.io/repository/biocontainers/rnaz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rnaz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rnaz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rnaz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rnaz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rnaz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rnaz
-.. |docker| image:: https://quay.io/repository/biocontainers/rnaz/status
-                :target: https://quay.io/repository/biocontainers/rnaz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rnaz/README.html
 

@@ -1,54 +1,66 @@
-.. _`deap`:
+.. title:: Package Recipe 'deap'
+.. highlight: bash
+
 
 deap
 ====
 
-|downloads|
+.. conda:recipe:: deap
+   :replaces_section_title:
 
-Distributed Evolutionary Algorithms in Python
+   Distributed Evolutionary Algorithms in Python
 
-============= ===========
-Home          https://www.github.com/deap
-Versions      1.0.2
-License       GNU Library or Lesser General Public License (LGPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deap/meta.yaml
+   :homepage: https://www.github.com/deap
+   :license: GNU Library or Lesser General Public License (LGPL)
+   :recipe: /`deap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: deap
 
-Installation
-------------
+   |downloads_deap| |docker_deap|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scoop`  
 
-   conda install deap
+   :required~by: |required_by_deap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update deap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install deap
+
+   and update with::
+
+      conda update deap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/deap
+
+
+.. |required_by_deap| conda:required_by:: deap
+.. |downloads_deap| image:: https://img.shields.io/conda/dn/bioconda/deap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_deap| image:: https://quay.io/repository/biocontainers/deap/status
+   :target: https://quay.io/repository/biocontainers/deap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/deap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/deap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/deap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/deap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/deap
-.. |docker| image:: https://quay.io/repository/biocontainers/deap/status
-                :target: https://quay.io/repository/biocontainers/deap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/deap/README.html
 

@@ -1,56 +1,67 @@
-.. _`glimmer`:
+.. title:: Package Recipe 'glimmer'
+.. highlight: bash
+
 
 glimmer
 =======
 
-|downloads|
+.. conda:recipe:: glimmer
+   :replaces_section_title:
 
-Glimmer is a system for finding genes in microbial DNA
+   Glimmer is a system for finding genes in microbial DNA
 
-============= ===========
-Home          https://ccb.jhu.edu/software/glimmer/index.shtml
-Versions      3.02
-License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//glimmer/meta.yaml
+   :homepage: https://ccb.jhu.edu/software/glimmer/index.shtml
+   :license: Custom
+   :recipe: /`glimmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmer/meta.yaml>`_
+   :links: biotools: :biotools:`glimmer`, doi: :doi:`10.1093/bioinformatics/btm009`
 
-
-
-Links         biotools: :biotools:`glimmer`, doi: :doi:`10.1093/bioinformatics/btm009`
-
-============= ===========
+   
 
 
+.. conda:package:: glimmer
 
-Installation
-------------
+   |downloads_glimmer| |docker_glimmer|
 
-.. highlight: bash
+   :versions: 3.02
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install glimmer
+   :required~by: |required_by_glimmer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update glimmer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install glimmer
+
+   and update with::
+
+      conda update glimmer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/glimmer
+
+
+.. |required_by_glimmer| conda:required_by:: glimmer
+.. |downloads_glimmer| image:: https://img.shields.io/conda/dn/bioconda/glimmer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_glimmer| image:: https://quay.io/repository/biocontainers/glimmer/status
+   :target: https://quay.io/repository/biocontainers/glimmer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/glimmer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/glimmer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/glimmer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/glimmer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/glimmer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/glimmer
-.. |docker| image:: https://quay.io/repository/biocontainers/glimmer/status
-                :target: https://quay.io/repository/biocontainers/glimmer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/glimmer/README.html
 

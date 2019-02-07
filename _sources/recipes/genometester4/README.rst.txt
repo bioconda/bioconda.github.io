@@ -1,56 +1,67 @@
-.. _`genometester4`:
+.. title:: Package Recipe 'genometester4'
+.. highlight: bash
+
 
 genometester4
 =============
 
-|downloads|
+.. conda:recipe:: genometester4
+   :replaces_section_title:
 
-A toolkit for performing set operations \- union\, intersection and complement \- on k\-mer lists.
+   A toolkit for performing set operations \- union\, intersection and complement \- on k\-mer lists.
 
-============= ===========
-Home          https://github.com/bioinfo-ut/GenomeTester4
-Versions      4.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genometester4/meta.yaml
+   :homepage: https://github.com/bioinfo-ut/GenomeTester4
+   :license: GPL3
+   :recipe: /`genometester4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometester4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometester4/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13742-015-0097-y`
 
-
-
-Links         doi: :doi:`10.1186/s13742-015-0097-y`
-
-============= ===========
+   
 
 
+.. conda:package:: genometester4
 
-Installation
-------------
+   |downloads_genometester4| |docker_genometester4|
 
-.. highlight: bash
+   :versions: 4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install genometester4
+   :required~by: |required_by_genometester4|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genometester4
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genometester4
+
+   and update with::
+
+      conda update genometester4
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genometester4
+
+
+.. |required_by_genometester4| conda:required_by:: genometester4
+.. |downloads_genometester4| image:: https://img.shields.io/conda/dn/bioconda/genometester4.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genometester4| image:: https://quay.io/repository/biocontainers/genometester4/status
+   :target: https://quay.io/repository/biocontainers/genometester4
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genometester4.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genometester4/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genometester4/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genometester4/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genometester4/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genometester4
-.. |docker| image:: https://quay.io/repository/biocontainers/genometester4/status
-                :target: https://quay.io/repository/biocontainers/genometester4
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genometester4/README.html
 

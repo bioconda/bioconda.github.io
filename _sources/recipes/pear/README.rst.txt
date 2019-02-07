@@ -1,56 +1,67 @@
-.. _`pear`:
+.. title:: Package Recipe 'pear'
+.. highlight: bash
+
 
 pear
 ====
 
-|downloads|
+.. conda:recipe:: pear
+   :replaces_section_title:
 
-paired\-end read merger
+   paired\-end read merger
 
-============= ===========
-Home          http://sco.h-its.org/exelixis/web/software/pear/
-Versions      0.9.6
-License       Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pear/meta.yaml
+   :homepage: http://sco.h-its.org/exelixis/web/software/pear/
+   :license: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+   :recipe: /`pear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pear/meta.yaml>`_
+   :links: biotools: :biotools:`PEAR`
 
-
-
-Links         biotools: :biotools:`PEAR`
-
-============= ===========
+   
 
 
+.. conda:package:: pear
 
-Installation
-------------
+   |downloads_pear| |docker_pear|
 
-.. highlight: bash
+   :versions: 0.9.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib`  
 
-   conda install pear
+   :required~by: |required_by_pear|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pear
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pear
+
+   and update with::
+
+      conda update pear
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pear
+
+
+.. |required_by_pear| conda:required_by:: pear
+.. |downloads_pear| image:: https://img.shields.io/conda/dn/bioconda/pear.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pear| image:: https://quay.io/repository/biocontainers/pear/status
+   :target: https://quay.io/repository/biocontainers/pear
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pear.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pear/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pear/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pear/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pear/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pear
-.. |docker| image:: https://quay.io/repository/biocontainers/pear/status
-                :target: https://quay.io/repository/biocontainers/pear
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pear/README.html
 

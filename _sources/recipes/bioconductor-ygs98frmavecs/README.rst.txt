@@ -1,54 +1,66 @@
-.. _`bioconductor-ygs98frmavecs`:
+.. title:: Package Recipe 'bioconductor-ygs98frmavecs'
+.. highlight: bash
+
 
 bioconductor-ygs98frmavecs
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ygs98frmavecs
+   :replaces_section_title:
 
-This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
+   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/ygs98frmavecs.html
-Versions      1.3.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ygs98frmavecs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ygs98frmavecs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-ygs98frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ygs98frmavecs
 
-Installation
-------------
+   |downloads_bioconductor-ygs98frmavecs| |docker_bioconductor-ygs98frmavecs|
 
-.. highlight: bash
+   :versions: 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ygs98frmavecs
+   :required~by: |required_by_bioconductor-ygs98frmavecs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ygs98frmavecs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ygs98frmavecs
+
+   and update with::
+
+      conda update bioconductor-ygs98frmavecs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ygs98frmavecs
+
+
+.. |required_by_bioconductor-ygs98frmavecs| conda:required_by:: bioconductor-ygs98frmavecs
+.. |downloads_bioconductor-ygs98frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ygs98frmavecs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ygs98frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ygs98frmavecs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ygs98frmavecs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ygs98frmavecs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ygs98frmavecs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ygs98frmavecs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ygs98frmavecs/README.html
 

@@ -1,54 +1,66 @@
-.. _`r-gam`:
+.. title:: Package Recipe 'r-gam'
+.. highlight: bash
+
 
 r-gam
 =====
 
-|downloads|
+.. conda:recipe:: r-gam
+   :replaces_section_title:
 
-Functions for fitting and working with generalized additive models\, as described in chapter 7 of \"Statistical Models in S\" \(Chambers and Hastie \(eds\)\, 1991\)\, and \"Generalized Additive Models\" \(Hastie and Tibshirani\, 1990\).
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=gam
-Versions      1.14_4, 1.14
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gam/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-gam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-gam
 
-Installation
-------------
+   |downloads_r-gam| |docker_r-gam|
 
-.. highlight: bash
+   :versions: 1.14_4, 1.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-foreach`  
 
-   conda install r-gam
+   :required~by: |required_by_r-gam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gam
+
+   and update with::
+
+      conda update r-gam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gam
+
+
+.. |required_by_r-gam| conda:required_by:: r-gam
+.. |downloads_r-gam| image:: https://img.shields.io/conda/dn/bioconda/r-gam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gam| image:: https://quay.io/repository/biocontainers/r-gam/status
+   :target: https://quay.io/repository/biocontainers/r-gam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gam
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gam/status
-                :target: https://quay.io/repository/biocontainers/r-gam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gam/README.html
 

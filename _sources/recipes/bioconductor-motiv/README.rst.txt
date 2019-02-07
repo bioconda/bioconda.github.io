@@ -1,56 +1,67 @@
-.. _`bioconductor-motiv`:
+.. title:: Package Recipe 'bioconductor-motiv'
+.. highlight: bash
+
 
 bioconductor-motiv
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-motiv
+   :replaces_section_title:
 
-This package makes use of STAMP for comparing a set of motifs to a given database \(e.g. JASPAR\). It can also be used to visualize motifs\, motif distributions\, modules and filter motifs.
+   This package makes use of STAMP for comparing a set of motifs to a given database \(e.g. JASPAR\). It can also be used to visualize motifs\, motif distributions\, modules and filter motifs.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MotIV.html
-Versions      1.38.0, 1.36.0, 1.34.0, 1.32.0, 1.30.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-motiv/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MotIV.html
+   :license: GPL-2
+   :recipe: /`bioconductor-motiv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv/meta.yaml>`_
+   :links: biotools: :biotools:`motiv`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`motiv`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-motiv
 
-Installation
-------------
+   |downloads_bioconductor-motiv| |docker_bioconductor-motiv|
 
-.. highlight: bash
+   :versions: 1.38.0, 1.36.0, 1.34.0, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rgadem` >=2.30.0,<2.31.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  
 
-   conda install bioconductor-motiv
+   :required~by: |required_by_bioconductor-motiv|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-motiv
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-motiv
+
+   and update with::
+
+      conda update bioconductor-motiv
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-motiv
+
+
+.. |required_by_bioconductor-motiv| conda:required_by:: bioconductor-motiv
+.. |downloads_bioconductor-motiv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motiv.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-motiv| image:: https://quay.io/repository/biocontainers/bioconductor-motiv/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-motiv
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-motiv.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-motiv/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-motiv/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-motiv/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-motiv/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-motiv
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-motiv/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-motiv
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-motiv/README.html
 

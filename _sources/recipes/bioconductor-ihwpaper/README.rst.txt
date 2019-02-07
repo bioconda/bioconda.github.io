@@ -1,54 +1,66 @@
-.. _`bioconductor-ihwpaper`:
+.. title:: Package Recipe 'bioconductor-ihwpaper'
+.. highlight: bash
+
 
 bioconductor-ihwpaper
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ihwpaper
+   :replaces_section_title:
 
-This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the latest arXiv preprint available under http\:\/\/arxiv.org\/abs\/1701.05179. Thus it is a companion package to the Bioconductor IHW package.
+   This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the latest arXiv preprint available under http\:\/\/arxiv.org\/abs\/1701.05179. Thus it is a companion package to the Bioconductor IHW package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/IHWpaper.html
-Versions      1.10.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ihwpaper/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/IHWpaper.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ihwpaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ihwpaper
 
-Installation
-------------
+   |downloads_bioconductor-ihwpaper| |docker_bioconductor-ihwpaper|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-ihw` >=1.10.0,<1.11.0 :conda:package:`bioconductor-qvalue` >=2.14.0,<2.15.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-dplyr`  :conda:package:`r-fdrtool`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp`  :conda:package:`wget`  
 
-   conda install bioconductor-ihwpaper
+   :required~by: |required_by_bioconductor-ihwpaper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ihwpaper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ihwpaper
+
+   and update with::
+
+      conda update bioconductor-ihwpaper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ihwpaper
+
+
+.. |required_by_bioconductor-ihwpaper| conda:required_by:: bioconductor-ihwpaper
+.. |downloads_bioconductor-ihwpaper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ihwpaper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ihwpaper| image:: https://quay.io/repository/biocontainers/bioconductor-ihwpaper/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ihwpaper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ihwpaper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ihwpaper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ihwpaper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ihwpaper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ihwpaper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ihwpaper
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ihwpaper/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ihwpaper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ihwpaper/README.html
 

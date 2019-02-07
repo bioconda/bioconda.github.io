@@ -1,54 +1,66 @@
-.. _`riborex`:
+.. title:: Package Recipe 'riborex'
+.. highlight: bash
+
 
 riborex
 =======
 
-|downloads|
+.. conda:recipe:: riborex
+   :replaces_section_title:
 
-Riborex is a R package for identification of differential translation from Ribo\-seq data.
+   Riborex is a R package for identification of differential translation from Ribo\-seq data.
 
-============= ===========
-Home          https://github.com/smithlabcode/riborex
-Versions      2.3.4
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//riborex/meta.yaml
+   :homepage: https://github.com/smithlabcode/riborex
+   :license: GPL-3
+   :recipe: /`riborex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riborex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riborex/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: riborex
 
-Installation
-------------
+   |downloads_riborex| |docker_riborex|
 
-.. highlight: bash
+   :versions: 2.3.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-deseq2`  :conda:package:`bioconductor-edger`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-fdrtool`  
 
-   conda install riborex
+   :required~by: |required_by_riborex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update riborex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install riborex
+
+   and update with::
+
+      conda update riborex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/riborex
+
+
+.. |required_by_riborex| conda:required_by:: riborex
+.. |downloads_riborex| image:: https://img.shields.io/conda/dn/bioconda/riborex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_riborex| image:: https://quay.io/repository/biocontainers/riborex/status
+   :target: https://quay.io/repository/biocontainers/riborex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/riborex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/riborex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/riborex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/riborex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/riborex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/riborex
-.. |docker| image:: https://quay.io/repository/biocontainers/riborex/status
-                :target: https://quay.io/repository/biocontainers/riborex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/riborex/README.html
 

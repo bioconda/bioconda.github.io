@@ -1,54 +1,66 @@
-.. _`r-taxonomizr`:
+.. title:: Package Recipe 'r-taxonomizr'
+.. highlight: bash
+
 
 r-taxonomizr
 ============
 
-|downloads|
+.. conda:recipe:: r-taxonomizr
+   :replaces_section_title:
 
-Functions for assigning taxonomy to NCBI accession numbers and taxon IDs based on NCBI\'s accession2taxid and taxdump files. This package allows the user to downloads NCBI data dumps and create a local database for fast and local taxonomic assignment.
+   Functions for assigning taxonomy to NCBI accession numbers and taxon IDs based on NCBI\'s accession2taxid and taxdump files. This package allows the user to downloads NCBI data dumps and create a local database for fast and local taxonomic assignment.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=taxonomizr
-Versions      0.5.1
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-taxonomizr/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=taxonomizr
+   :license: GPL / GPL (>=2)
+   :recipe: /`r-taxonomizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxonomizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxonomizr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-taxonomizr
 
-Installation
-------------
+   |downloads_r-taxonomizr| |docker_r-taxonomizr|
 
-.. highlight: bash
+   :versions: 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`parallel`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-knitr`  :conda:package:`r-markdown`  :conda:package:`r-r.utils`  :conda:package:`r-rsqlite`  :conda:package:`r-testthat`  
 
-   conda install r-taxonomizr
+   :required~by: |required_by_r-taxonomizr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-taxonomizr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-taxonomizr
+
+   and update with::
+
+      conda update r-taxonomizr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-taxonomizr
+
+
+.. |required_by_r-taxonomizr| conda:required_by:: r-taxonomizr
+.. |downloads_r-taxonomizr| image:: https://img.shields.io/conda/dn/bioconda/r-taxonomizr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-taxonomizr| image:: https://quay.io/repository/biocontainers/r-taxonomizr/status
+   :target: https://quay.io/repository/biocontainers/r-taxonomizr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-taxonomizr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-taxonomizr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-taxonomizr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-taxonomizr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-taxonomizr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-taxonomizr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-taxonomizr/status
-                :target: https://quay.io/repository/biocontainers/r-taxonomizr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-taxonomizr/README.html
 

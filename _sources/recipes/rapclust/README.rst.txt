@@ -1,54 +1,66 @@
-.. _`rapclust`:
+.. title:: Package Recipe 'rapclust'
+.. highlight: bash
+
 
 rapclust
 ========
 
-|downloads|
+.. conda:recipe:: rapclust
+   :replaces_section_title:
 
-Accurate\, Fast and Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes
+   Accurate\, Fast and Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes
 
-============= ===========
-Home          https://github.com/COMBINE-lab/RapClust
-Versions      0.1.2, 0.1.1
-License       BSD with attribution
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rapclust/meta.yaml
+   :homepage: https://github.com/COMBINE-lab/RapClust
+   :license: BSD / BSD with attribution
+   :recipe: /`rapclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapclust/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: rapclust
 
-Installation
-------------
+   |downloads_rapclust| |docker_rapclust|
 
-.. highlight: bash
+   :versions: 0.1.2, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`coloredlogs`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`tqdm`  
 
-   conda install rapclust
+   :required~by: |required_by_rapclust|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rapclust
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rapclust
+
+   and update with::
+
+      conda update rapclust
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rapclust
+
+
+.. |required_by_rapclust| conda:required_by:: rapclust
+.. |downloads_rapclust| image:: https://img.shields.io/conda/dn/bioconda/rapclust.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rapclust| image:: https://quay.io/repository/biocontainers/rapclust/status
+   :target: https://quay.io/repository/biocontainers/rapclust
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rapclust.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rapclust/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rapclust/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rapclust/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rapclust/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rapclust
-.. |docker| image:: https://quay.io/repository/biocontainers/rapclust/status
-                :target: https://quay.io/repository/biocontainers/rapclust
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rapclust/README.html
 

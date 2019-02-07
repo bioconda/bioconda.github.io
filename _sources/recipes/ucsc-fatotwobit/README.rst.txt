@@ -1,54 +1,66 @@
-.. _`ucsc-fatotwobit`:
+.. title:: Package Recipe 'ucsc-fatotwobit'
+.. highlight: bash
+
 
 ucsc-fatotwobit
 ===============
 
-|downloads|
+.. conda:recipe:: ucsc-fatotwobit
+   :replaces_section_title:
 
-Convert DNA from fasta to 2bit format
+   Convert DNA from fasta to 2bit format
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 353, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-fatotwobit/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-fatotwobit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-fatotwobit
 
-Installation
-------------
+   |downloads_ucsc-fatotwobit| |docker_ucsc-fatotwobit|
 
-.. highlight: bash
+   :versions: 366, 357, 353, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-fatotwobit
+   :required~by: |required_by_ucsc-fatotwobit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-fatotwobit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-fatotwobit
+
+   and update with::
+
+      conda update ucsc-fatotwobit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-fatotwobit
+
+
+.. |required_by_ucsc-fatotwobit| conda:required_by:: ucsc-fatotwobit
+.. |downloads_ucsc-fatotwobit| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fatotwobit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-fatotwobit| image:: https://quay.io/repository/biocontainers/ucsc-fatotwobit/status
+   :target: https://quay.io/repository/biocontainers/ucsc-fatotwobit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-fatotwobit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-fatotwobit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-fatotwobit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-fatotwobit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-fatotwobit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-fatotwobit
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fatotwobit/status
-                :target: https://quay.io/repository/biocontainers/ucsc-fatotwobit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-fatotwobit/README.html
 

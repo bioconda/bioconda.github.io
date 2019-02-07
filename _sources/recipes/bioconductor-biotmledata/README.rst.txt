@@ -1,54 +1,66 @@
-.. _`bioconductor-biotmledata`:
+.. title:: Package Recipe 'bioconductor-biotmledata'
+.. highlight: bash
+
 
 bioconductor-biotmledata
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-biotmledata
+   :replaces_section_title:
 
-Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-level data from an epidemiological investigation of benzene exposure\, packaged using \"SummarizedExperiemnt\"\, for use as an example with the \"biotmle\" R package.
+   Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-level data from an epidemiological investigation of benzene exposure\, packaged using \"SummarizedExperiemnt\"\, for use as an example with the \"biotmle\" R package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/biotmleData.html
-Versions      1.6.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biotmledata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/biotmleData.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-biotmledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biotmledata
 
-Installation
-------------
+   |downloads_bioconductor-biotmledata| |docker_bioconductor-biotmledata|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-biotmledata
+   :required~by: |required_by_bioconductor-biotmledata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biotmledata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biotmledata
+
+   and update with::
+
+      conda update bioconductor-biotmledata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biotmledata
+
+
+.. |required_by_bioconductor-biotmledata| conda:required_by:: bioconductor-biotmledata
+.. |downloads_bioconductor-biotmledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biotmledata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biotmledata| image:: https://quay.io/repository/biocontainers/bioconductor-biotmledata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biotmledata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biotmledata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biotmledata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biotmledata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biotmledata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biotmledata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biotmledata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biotmledata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biotmledata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biotmledata/README.html
 

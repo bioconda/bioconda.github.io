@@ -1,54 +1,66 @@
-.. _`bioconductor-txdb.mmusculus.ucsc.mm10.ensgene`:
+.. title:: Package Recipe 'bioconductor-txdb.mmusculus.ucsc.mm10.ensgene'
+.. highlight: bash
+
 
 bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 =============================================
 
-|downloads|
+.. conda:recipe:: bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+   :replaces_section_title:
 
-Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.ensGene.html
-Versions      3.4.0, 3.2.2
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.ensGene.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-txdb.mmusculus.ucsc.mm10.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
-Installation
-------------
+   |downloads_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| |docker_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene|
 
-.. highlight: bash
+   :versions: 3.4.0, 3.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`bioconductor-genomicfeatures` >=1.25.17 :conda:package:`r-base` 3.4.1* :conda:package:`wget`  
 
-   conda install bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+   :required~by: |required_by_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+
+   and update with::
+
+      conda update bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+
+
+.. |required_by_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| conda:required_by:: bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+.. |downloads_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/README.html
 

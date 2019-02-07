@@ -1,54 +1,66 @@
-.. _`svim`:
+.. title:: Package Recipe 'svim'
+.. highlight: bash
+
 
 svim
 ====
 
-|downloads|
+.. conda:recipe:: svim
+   :replaces_section_title:
 
-SVIM is a structural variant caller for long reads.
+   SVIM is a structural variant caller for long reads.
 
-============= ===========
-Home          https://github.com/eldariont/svim
-Versions      0.4.3, 0.4.2, 0.4.1
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//svim/meta.yaml
+   :homepage: https://github.com/eldariont/svim
+   :license: GPL / GPL-3.0
+   :recipe: /`svim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: svim
 
-Installation
-------------
+   |downloads_svim| |docker_svim|
 
-.. highlight: bash
+   :versions: 0.4.3, 0.4.2, 0.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`matplotlib`  :conda:package:`minimap2`  :conda:package:`networkx`  :conda:package:`ngmlr`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 3.6.* :conda:package:`samtools`  :conda:package:`scipy`  
 
-   conda install svim
+   :required~by: |required_by_svim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update svim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install svim
+
+   and update with::
+
+      conda update svim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/svim
+
+
+.. |required_by_svim| conda:required_by:: svim
+.. |downloads_svim| image:: https://img.shields.io/conda/dn/bioconda/svim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_svim| image:: https://quay.io/repository/biocontainers/svim/status
+   :target: https://quay.io/repository/biocontainers/svim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/svim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/svim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/svim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/svim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/svim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/svim
-.. |docker| image:: https://quay.io/repository/biocontainers/svim/status
-                :target: https://quay.io/repository/biocontainers/svim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/svim/README.html
 

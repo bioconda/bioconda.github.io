@@ -1,54 +1,66 @@
-.. _`pymummer`:
+.. title:: Package Recipe 'pymummer'
+.. highlight: bash
+
 
 pymummer
 ========
 
-|downloads|
+.. conda:recipe:: pymummer
+   :replaces_section_title:
 
-Wrapper for MUMmer
+   Wrapper for MUMmer
 
-============= ===========
-Home          https://github.com/sanger-pathogens/pymummer
-Versions      0.10.3, 0.10.2, 0.10.1, 0.9.0, 0.8.1, 0.6.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pymummer/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/pymummer
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`pymummer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pymummer
 
-Installation
-------------
+   |downloads_pymummer| |docker_pymummer|
 
-.. highlight: bash
+   :versions: 0.10.3, 0.10.2, 0.10.1, 0.9.0, 0.8.1, 0.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`mummer`  :conda:package:`pyfastaq` >=3.10.0 :conda:package:`python` 3.5* 
 
-   conda install pymummer
+   :required~by: |required_by_pymummer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pymummer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pymummer
+
+   and update with::
+
+      conda update pymummer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pymummer
+
+
+.. |required_by_pymummer| conda:required_by:: pymummer
+.. |downloads_pymummer| image:: https://img.shields.io/conda/dn/bioconda/pymummer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pymummer| image:: https://quay.io/repository/biocontainers/pymummer/status
+   :target: https://quay.io/repository/biocontainers/pymummer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pymummer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pymummer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pymummer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pymummer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pymummer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pymummer
-.. |docker| image:: https://quay.io/repository/biocontainers/pymummer/status
-                :target: https://quay.io/repository/biocontainers/pymummer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pymummer/README.html
 

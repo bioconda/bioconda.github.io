@@ -1,54 +1,66 @@
-.. _`workspace`:
+.. title:: Package Recipe 'workspace'
+.. highlight: bash
+
 
 workspace
 =========
 
-|downloads|
+.. conda:recipe:: workspace
+   :replaces_section_title:
 
-Workspace Overmind
+   Workspace Overmind
 
-============= ===========
-Home          http://an9.org/w/WorkspacePy
-Versions      0.3.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//workspace/meta.yaml
+   :homepage: http://an9.org/w/WorkspacePy
+   :license: MIT License
+   :recipe: /`workspace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/workspace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/workspace/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: workspace
 
-Installation
-------------
+   |downloads_workspace| |docker_workspace|
 
-.. highlight: bash
+   :versions: 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`sprinkles` >=0.4.4 
 
-   conda install workspace
+   :required~by: |required_by_workspace|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update workspace
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install workspace
+
+   and update with::
+
+      conda update workspace
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/workspace
+
+
+.. |required_by_workspace| conda:required_by:: workspace
+.. |downloads_workspace| image:: https://img.shields.io/conda/dn/bioconda/workspace.svg?style=flat
+   :alt:   (downloads)
+.. |docker_workspace| image:: https://quay.io/repository/biocontainers/workspace/status
+   :target: https://quay.io/repository/biocontainers/workspace
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/workspace.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/workspace/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/workspace/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/workspace/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/workspace/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/workspace
-.. |docker| image:: https://quay.io/repository/biocontainers/workspace/status
-                :target: https://quay.io/repository/biocontainers/workspace
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/workspace/README.html
 

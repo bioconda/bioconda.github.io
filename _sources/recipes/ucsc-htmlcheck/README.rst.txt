@@ -1,54 +1,66 @@
-.. _`ucsc-htmlcheck`:
+.. title:: Package Recipe 'ucsc-htmlcheck'
+.. highlight: bash
+
 
 ucsc-htmlcheck
 ==============
 
-|downloads|
+.. conda:recipe:: ucsc-htmlcheck
+   :replaces_section_title:
 
-Do a little reading and verification of html file
+   Do a little reading and verification of html file
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-htmlcheck/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-htmlcheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-htmlcheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-htmlcheck/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-htmlcheck
 
-Installation
-------------
+   |downloads_ucsc-htmlcheck| |docker_ucsc-htmlcheck|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-htmlcheck
+   :required~by: |required_by_ucsc-htmlcheck|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-htmlcheck
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-htmlcheck
+
+   and update with::
+
+      conda update ucsc-htmlcheck
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-htmlcheck
+
+
+.. |required_by_ucsc-htmlcheck| conda:required_by:: ucsc-htmlcheck
+.. |downloads_ucsc-htmlcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-htmlcheck.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-htmlcheck| image:: https://quay.io/repository/biocontainers/ucsc-htmlcheck/status
+   :target: https://quay.io/repository/biocontainers/ucsc-htmlcheck
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-htmlcheck.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-htmlcheck/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-htmlcheck/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-htmlcheck/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-htmlcheck/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-htmlcheck
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-htmlcheck/status
-                :target: https://quay.io/repository/biocontainers/ucsc-htmlcheck
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-htmlcheck/README.html
 

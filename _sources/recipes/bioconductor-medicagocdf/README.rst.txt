@@ -1,54 +1,66 @@
-.. _`bioconductor-medicagocdf`:
+.. title:: Package Recipe 'bioconductor-medicagocdf'
+.. highlight: bash
+
 
 bioconductor-medicagocdf
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-medicagocdf
+   :replaces_section_title:
 
-A package containing an environment representing the Medicago.cdf file.
+   A package containing an environment representing the Medicago.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/medicagocdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-medicagocdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/medicagocdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-medicagocdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagocdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medicagocdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-medicagocdf
 
-Installation
-------------
+   |downloads_bioconductor-medicagocdf| |docker_bioconductor-medicagocdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-medicagocdf
+   :required~by: |required_by_bioconductor-medicagocdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-medicagocdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-medicagocdf
+
+   and update with::
+
+      conda update bioconductor-medicagocdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-medicagocdf
+
+
+.. |required_by_bioconductor-medicagocdf| conda:required_by:: bioconductor-medicagocdf
+.. |downloads_bioconductor-medicagocdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-medicagocdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-medicagocdf| image:: https://quay.io/repository/biocontainers/bioconductor-medicagocdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-medicagocdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-medicagocdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-medicagocdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-medicagocdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-medicagocdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-medicagocdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-medicagocdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-medicagocdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-medicagocdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-medicagocdf/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-rsbml`:
+.. title:: Package Recipe 'bioconductor-rsbml'
+.. highlight: bash
+
 
 bioconductor-rsbml
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-rsbml
+   :replaces_section_title:
 
-Links R to libsbml for SBML parsing\, validating output\, provides an S4 SBML DOM\, converts SBML to R graph objects. Optionally links to the SBML ODE Solver Library \(SOSLib\) for simulating models.
+   Links R to libsbml for SBML parsing\, validating output\, provides an S4 SBML DOM\, converts SBML to R graph objects. Optionally links to the SBML ODE Solver Library \(SOSLib\) for simulating models.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rsbml.html
-Versions      
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rsbml/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rsbml.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-rsbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rsbml
 
-Installation
-------------
+   |downloads_bioconductor-rsbml| |docker_bioconductor-rsbml|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-rsbml
+   :required~by: |required_by_bioconductor-rsbml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rsbml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rsbml
+
+   and update with::
+
+      conda update bioconductor-rsbml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rsbml
+
+
+.. |required_by_bioconductor-rsbml| conda:required_by:: bioconductor-rsbml
+.. |downloads_bioconductor-rsbml| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsbml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rsbml| image:: https://quay.io/repository/biocontainers/bioconductor-rsbml/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rsbml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rsbml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rsbml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rsbml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rsbml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rsbml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rsbml
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rsbml/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rsbml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rsbml/README.html
 

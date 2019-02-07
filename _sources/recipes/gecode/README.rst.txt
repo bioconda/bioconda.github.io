@@ -1,54 +1,66 @@
-.. _`gecode`:
+.. title:: Package Recipe 'gecode'
+.. highlight: bash
+
 
 gecode
 ======
 
-|downloads|
+.. conda:recipe:: gecode
+   :replaces_section_title:
 
-Generic constraint development environment
+   Generic constraint development environment
 
-============= ===========
-Home          http://www.gecode.org/
-Versions      5.1.0, 5.0.0, 4.4.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gecode/meta.yaml
+   :homepage: http://www.gecode.org/
+   :license: MIT
+   :recipe: /`gecode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecode/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gecode
 
-Installation
-------------
+   |downloads_gecode| |docker_gecode|
 
-.. highlight: bash
+   :versions: 5.1.0, 5.0.0, 4.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gmp` 5.1* :conda:package:`libgcc`  :conda:package:`mpfr`  
 
-   conda install gecode
+   :required~by: |required_by_gecode|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gecode
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gecode
+
+   and update with::
+
+      conda update gecode
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gecode
+
+
+.. |required_by_gecode| conda:required_by:: gecode
+.. |downloads_gecode| image:: https://img.shields.io/conda/dn/bioconda/gecode.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gecode| image:: https://quay.io/repository/biocontainers/gecode/status
+   :target: https://quay.io/repository/biocontainers/gecode
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gecode.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gecode/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gecode/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gecode/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gecode/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gecode
-.. |docker| image:: https://quay.io/repository/biocontainers/gecode/status
-                :target: https://quay.io/repository/biocontainers/gecode
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gecode/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-snadata`:
+.. title:: Package Recipe 'bioconductor-snadata'
+.. highlight: bash
+
 
 bioconductor-snadata
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-snadata
+   :replaces_section_title:
 
-Data from Wasserman \& Faust \(1999\) \"Social Network Analysis\"
+   Data from Wasserman \& Faust \(1999\) \"Social Network Analysis\"
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/SNAData.html
-Versions      1.28.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SNAData.html
+   :license: LGPL
+   :recipe: /`bioconductor-snadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-snadata
 
-Installation
-------------
+   |downloads_bioconductor-snadata| |docker_bioconductor-snadata|
 
-.. highlight: bash
+   :versions: 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-snadata
+   :required~by: |required_by_bioconductor-snadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-snadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-snadata
+
+   and update with::
+
+      conda update bioconductor-snadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-snadata
+
+
+.. |required_by_bioconductor-snadata| conda:required_by:: bioconductor-snadata
+.. |downloads_bioconductor-snadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-snadata| image:: https://quay.io/repository/biocontainers/bioconductor-snadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-snadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-snadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-snadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-snadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-snadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-snadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-snadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-snadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-snadata/README.html
 

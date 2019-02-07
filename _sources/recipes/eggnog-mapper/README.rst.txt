@@ -1,54 +1,66 @@
-.. _`eggnog-mapper`:
+.. title:: Package Recipe 'eggnog-mapper'
+.. highlight: bash
+
 
 eggnog-mapper
 =============
 
-|downloads|
+.. conda:recipe:: eggnog-mapper
+   :replaces_section_title:
 
-Fast genome\-wide functional annotation through orthology assignment
+   Fast genome\-wide functional annotation through orthology assignment
 
-============= ===========
-Home          https://github.com/jhcepas/eggnog-mapper
-Versions      1.0.3, 1.0.2, 1.0.1, 1.0.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eggnog-mapper/meta.yaml
+   :homepage: https://github.com/jhcepas/eggnog-mapper
+   :license: GPL
+   :recipe: /`eggnog-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: eggnog-mapper
 
-Installation
-------------
+   |downloads_eggnog-mapper| |docker_eggnog-mapper|
 
-.. highlight: bash
+   :versions: 1.0.3, 1.0.2, 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`diamond` 0.8.22 :conda:package:`hmmer` 3.1b2 :conda:package:`python` 2.7* 
 
-   conda install eggnog-mapper
+   :required~by: |required_by_eggnog-mapper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update eggnog-mapper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install eggnog-mapper
+
+   and update with::
+
+      conda update eggnog-mapper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/eggnog-mapper
+
+
+.. |required_by_eggnog-mapper| conda:required_by:: eggnog-mapper
+.. |downloads_eggnog-mapper| image:: https://img.shields.io/conda/dn/bioconda/eggnog-mapper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_eggnog-mapper| image:: https://quay.io/repository/biocontainers/eggnog-mapper/status
+   :target: https://quay.io/repository/biocontainers/eggnog-mapper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/eggnog-mapper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/eggnog-mapper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/eggnog-mapper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/eggnog-mapper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/eggnog-mapper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/eggnog-mapper
-.. |docker| image:: https://quay.io/repository/biocontainers/eggnog-mapper/status
-                :target: https://quay.io/repository/biocontainers/eggnog-mapper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/eggnog-mapper/README.html
 

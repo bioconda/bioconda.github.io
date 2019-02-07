@@ -1,56 +1,67 @@
-.. _`bioconductor-ebsea`:
+.. title:: Package Recipe 'bioconductor-ebsea'
+.. highlight: bash
+
 
 bioconductor-ebsea
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-ebsea
+   :replaces_section_title:
 
-Calculates differential expression of genes based on exon counts of genes obtained from RNA\-seq sequencing data.
+   Calculates differential expression of genes based on exon counts of genes obtained from RNA\-seq sequencing data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/EBSEA.html
-Versions      1.10.0, 1.8.0, 1.6.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ebsea/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EBSEA.html
+   :license: GPL-2
+   :recipe: /`bioconductor-ebsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea/meta.yaml>`_
+   :links: biotools: :biotools:`ebsea`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`ebsea`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ebsea
 
-Installation
-------------
+   |downloads_bioconductor-ebsea| |docker_bioconductor-ebsea|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-plyr`  
 
-   conda install bioconductor-ebsea
+   :required~by: |required_by_bioconductor-ebsea|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ebsea
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ebsea
+
+   and update with::
+
+      conda update bioconductor-ebsea
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ebsea
+
+
+.. |required_by_bioconductor-ebsea| conda:required_by:: bioconductor-ebsea
+.. |downloads_bioconductor-ebsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebsea.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ebsea| image:: https://quay.io/repository/biocontainers/bioconductor-ebsea/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ebsea
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ebsea.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ebsea/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ebsea/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ebsea/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ebsea/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ebsea
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ebsea/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ebsea
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ebsea/README.html
 

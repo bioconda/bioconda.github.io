@@ -1,54 +1,66 @@
-.. _`pepr`:
+.. title:: Package Recipe 'pepr'
+.. highlight: bash
+
 
 pepr
 ====
 
-|downloads|
+.. conda:recipe:: pepr
+   :replaces_section_title:
 
-Peak\-calling and Prioritization pipeline for replicated ChIP\-Seq data
+   Peak\-calling and Prioritization pipeline for replicated ChIP\-Seq data
 
-============= ===========
-Home          https://github.com/shawnzhangyx/PePr/
-Versions      1.1.24, 1.1.18, 1.0.9
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pepr/meta.yaml
+   :homepage: https://github.com/shawnzhangyx/PePr/
+   :license: GPL / GNU General Public License v3 (GPLv3)
+   :recipe: /`pepr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pepr
 
-Installation
-------------
+   |downloads_pepr| |docker_pepr|
 
-.. highlight: bash
+   :versions: 1.1.24, 1.1.18, 1.0.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy` >=1.6.0 :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`scipy` >=0.14.0 :conda:package:`sharedmem`  
 
-   conda install pepr
+   :required~by: |required_by_pepr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pepr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pepr
+
+   and update with::
+
+      conda update pepr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pepr
+
+
+.. |required_by_pepr| conda:required_by:: pepr
+.. |downloads_pepr| image:: https://img.shields.io/conda/dn/bioconda/pepr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pepr| image:: https://quay.io/repository/biocontainers/pepr/status
+   :target: https://quay.io/repository/biocontainers/pepr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pepr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pepr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pepr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pepr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pepr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pepr
-.. |docker| image:: https://quay.io/repository/biocontainers/pepr/status
-                :target: https://quay.io/repository/biocontainers/pepr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pepr/README.html
 

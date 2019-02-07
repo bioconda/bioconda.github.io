@@ -1,56 +1,67 @@
-.. _`muscle`:
+.. title:: Package Recipe 'muscle'
+.. highlight: bash
+
 
 muscle
 ======
 
-|downloads|
+.. conda:recipe:: muscle
+   :replaces_section_title:
 
-MUSCLE\: multiple sequence alignment with high accuracy and high throughput
+   MUSCLE\: multiple sequence alignment with high accuracy and high throughput
 
-============= ===========
-Home          http://www.drive5.com/muscle/
-Versions      3.8.1551, 3.8.31
-License       http://www.drive5.com/muscle/manual/license.html
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//muscle/meta.yaml
+   :homepage: http://www.drive5.com/muscle/
+   :license: http://www.drive5.com/muscle/manual/license.html
+   :recipe: /`muscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle/meta.yaml>`_
+   :links: biotools: :biotools:`muscle`
 
-
-
-Links         biotools: :biotools:`muscle`
-
-============= ===========
+   
 
 
+.. conda:package:: muscle
 
-Installation
-------------
+   |downloads_muscle| |docker_muscle|
 
-.. highlight: bash
+   :versions: 3.8.1551, 3.8.31
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install muscle
+   :required~by: |required_by_muscle|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update muscle
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install muscle
+
+   and update with::
+
+      conda update muscle
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/muscle
+
+
+.. |required_by_muscle| conda:required_by:: muscle
+.. |downloads_muscle| image:: https://img.shields.io/conda/dn/bioconda/muscle.svg?style=flat
+   :alt:   (downloads)
+.. |docker_muscle| image:: https://quay.io/repository/biocontainers/muscle/status
+   :target: https://quay.io/repository/biocontainers/muscle
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/muscle.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/muscle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/muscle/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/muscle/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/muscle/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/muscle
-.. |docker| image:: https://quay.io/repository/biocontainers/muscle/status
-                :target: https://quay.io/repository/biocontainers/muscle
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/muscle/README.html
 

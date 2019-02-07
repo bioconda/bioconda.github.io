@@ -1,54 +1,66 @@
-.. _`smoove`:
+.. title:: Package Recipe 'smoove'
+.. highlight: bash
+
 
 smoove
 ======
 
-|downloads|
+.. conda:recipe:: smoove
+   :replaces_section_title:
 
-structural variant calling and genotyping with existing tools\, but\, smoothly
+   structural variant calling and genotyping with existing tools\, but\, smoothly
 
-============= ===========
-Home          https://github.com/brentp/smoove
-Versions      0.2.3, 0.1.9, 0.1.6, 0.1.5, 0.1.4, 0.1.3, 0.1.1
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//smoove/meta.yaml
+   :homepage: https://github.com/brentp/smoove
+   :license: Apache / Apache-2.0
+   :recipe: /`smoove <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoove>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoove/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: smoove
 
-Installation
-------------
+   |downloads_smoove| |docker_smoove|
 
-.. highlight: bash
+   :versions: 0.2.3, 0.1.9, 0.1.6, 0.1.5, 0.1.4, 0.1.3, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcftools`  :conda:package:`duphold`  :conda:package:`gsort`  :conda:package:`htslib`  :conda:package:`lumpy-sv`  :conda:package:`mosdepth`  :conda:package:`samtools`  :conda:package:`svtools`  :conda:package:`svtyper`  :conda:package:`tabix`  
 
-   conda install smoove
+   :required~by: |required_by_smoove|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update smoove
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install smoove
+
+   and update with::
+
+      conda update smoove
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/smoove
+
+
+.. |required_by_smoove| conda:required_by:: smoove
+.. |downloads_smoove| image:: https://img.shields.io/conda/dn/bioconda/smoove.svg?style=flat
+   :alt:   (downloads)
+.. |docker_smoove| image:: https://quay.io/repository/biocontainers/smoove/status
+   :target: https://quay.io/repository/biocontainers/smoove
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/smoove.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/smoove/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/smoove/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/smoove/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/smoove/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/smoove
-.. |docker| image:: https://quay.io/repository/biocontainers/smoove/status
-                :target: https://quay.io/repository/biocontainers/smoove
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/smoove/README.html
 

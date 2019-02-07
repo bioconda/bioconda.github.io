@@ -1,54 +1,66 @@
-.. _`bioconductor-glad`:
+.. title:: Package Recipe 'bioconductor-glad'
+.. highlight: bash
+
 
 bioconductor-glad
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-glad
+   :replaces_section_title:
 
-Analysis of array CGH data \: detection of breakpoints in genomic profiles and assignment of a status \(gain\, normal or loss\) to each chromosomal regions identified.
+   Analysis of array CGH data \: detection of breakpoints in genomic profiles and assignment of a status \(gain\, normal or loss\) to each chromosomal regions identified.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GLAD.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-glad/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GLAD.html
+   :license: GPL-2
+   :recipe: /`bioconductor-glad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glad/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-glad
 
-Installation
-------------
+   |downloads_bioconductor-glad| |docker_bioconductor-glad|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-glad
+   :required~by: |required_by_bioconductor-glad|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-glad
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-glad
+
+   and update with::
+
+      conda update bioconductor-glad
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-glad
+
+
+.. |required_by_bioconductor-glad| conda:required_by:: bioconductor-glad
+.. |downloads_bioconductor-glad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glad.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-glad| image:: https://quay.io/repository/biocontainers/bioconductor-glad/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-glad
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-glad.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-glad/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-glad/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-glad/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-glad/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-glad
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-glad/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-glad
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-glad/README.html
 

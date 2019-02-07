@@ -1,54 +1,66 @@
-.. _`perl-test-cpan-meta`:
+.. title:: Package Recipe 'perl-test-cpan-meta'
+.. highlight: bash
+
 
 perl-test-cpan-meta
 ===================
 
-|downloads|
+.. conda:recipe:: perl-test-cpan-meta
+   :replaces_section_title:
 
-Validate your CPAN META.json files
+   Validate your CPAN META.json files
 
-============= ===========
-Home          http://metacpan.org/pod/Test-CPAN-Meta
-Versions      0.25
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-cpan-meta/meta.yaml
+   :homepage: http://metacpan.org/pod/Test-CPAN-Meta
+   :license: artistic_2
+   :recipe: /`perl-test-cpan-meta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cpan-meta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cpan-meta/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-cpan-meta
 
-Installation
-------------
+   |downloads_perl-test-cpan-meta| |docker_perl-test-cpan-meta|
 
-.. highlight: bash
+   :versions: 0.25
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-test-cpan-meta
+   :required~by: |required_by_perl-test-cpan-meta|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-cpan-meta
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-cpan-meta
+
+   and update with::
+
+      conda update perl-test-cpan-meta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-cpan-meta
+
+
+.. |required_by_perl-test-cpan-meta| conda:required_by:: perl-test-cpan-meta
+.. |downloads_perl-test-cpan-meta| image:: https://img.shields.io/conda/dn/bioconda/perl-test-cpan-meta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-cpan-meta| image:: https://quay.io/repository/biocontainers/perl-test-cpan-meta/status
+   :target: https://quay.io/repository/biocontainers/perl-test-cpan-meta
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-cpan-meta.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-cpan-meta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-cpan-meta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-cpan-meta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-cpan-meta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-cpan-meta
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-cpan-meta/status
-                :target: https://quay.io/repository/biocontainers/perl-test-cpan-meta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-cpan-meta/README.html
 

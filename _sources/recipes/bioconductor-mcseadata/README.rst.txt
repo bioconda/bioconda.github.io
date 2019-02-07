@@ -1,54 +1,66 @@
-.. _`bioconductor-mcseadata`:
+.. title:: Package Recipe 'bioconductor-mcseadata'
+.. highlight: bash
+
 
 bioconductor-mcseadata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-mcseadata
+   :replaces_section_title:
 
-Data objects necessary to some mCSEA package functions. There are also example data objects to illustrate mCSEA package functionality.
+   Data objects necessary to some mCSEA package functions. There are also example data objects to illustrate mCSEA package functionality.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/mCSEAdata.html
-Versions      1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mcseadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mCSEAdata.html
+   :license: GPL-2
+   :recipe: /`bioconductor-mcseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mcseadata
 
-Installation
-------------
+   |downloads_bioconductor-mcseadata| |docker_bioconductor-mcseadata|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mcseadata
+   :required~by: |required_by_bioconductor-mcseadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mcseadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mcseadata
+
+   and update with::
+
+      conda update bioconductor-mcseadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mcseadata
+
+
+.. |required_by_bioconductor-mcseadata| conda:required_by:: bioconductor-mcseadata
+.. |downloads_bioconductor-mcseadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcseadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mcseadata| image:: https://quay.io/repository/biocontainers/bioconductor-mcseadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mcseadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mcseadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mcseadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mcseadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mcseadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mcseadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mcseadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mcseadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mcseadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mcseadata/README.html
 

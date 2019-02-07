@@ -1,56 +1,67 @@
-.. _`gffutils`:
+.. title:: Package Recipe 'gffutils'
+.. highlight: bash
+
 
 gffutils
 ========
 
-|downloads|
+.. conda:recipe:: gffutils
+   :replaces_section_title:
 
-Work with GFF and GTF files in a flexible database framework
+   Work with GFF and GTF files in a flexible database framework
 
-============= ===========
-Home          https://github.com/daler/gffutils
-Versions      0.9, 0.8.7.1, 0.8.7, 0.8.6.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gffutils/meta.yaml
+   :homepage: https://github.com/daler/gffutils
+   :license: MIT
+   :recipe: /`gffutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils/meta.yaml>`_
+   :links: biotools: :biotools:`GFFutils`
 
-
-
-Links         biotools: :biotools:`GFFutils`
-
-============= ===========
+   
 
 
+.. conda:package:: gffutils
 
-Installation
-------------
+   |downloads_gffutils| |docker_gffutils|
 
-.. highlight: bash
+   :versions: 0.9, 0.8.7.1, 0.8.7, 0.8.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argcomplete`  :conda:package:`argh`  :conda:package:`pyfaidx`  :conda:package:`python` 2.7* :conda:package:`simplejson`  :conda:package:`six`  
 
-   conda install gffutils
+   :required~by: |required_by_gffutils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gffutils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gffutils
+
+   and update with::
+
+      conda update gffutils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gffutils
+
+
+.. |required_by_gffutils| conda:required_by:: gffutils
+.. |downloads_gffutils| image:: https://img.shields.io/conda/dn/bioconda/gffutils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gffutils| image:: https://quay.io/repository/biocontainers/gffutils/status
+   :target: https://quay.io/repository/biocontainers/gffutils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gffutils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gffutils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gffutils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gffutils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gffutils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gffutils
-.. |docker| image:: https://quay.io/repository/biocontainers/gffutils/status
-                :target: https://quay.io/repository/biocontainers/gffutils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gffutils/README.html
 

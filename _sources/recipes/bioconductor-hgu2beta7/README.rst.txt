@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu2beta7`:
+.. title:: Package Recipe 'bioconductor-hgu2beta7'
+.. highlight: bash
+
 
 bioconductor-hgu2beta7
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu2beta7
+   :replaces_section_title:
 
-Annotation data file for hgu2beta7 assembled using data from public data repositories
+   Annotation data file for hgu2beta7 assembled using data from public data repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/hgu2beta7.html
-Versions      1.22.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu2beta7/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hgu2beta7.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-hgu2beta7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu2beta7
 
-Installation
-------------
+   |downloads_bioconductor-hgu2beta7| |docker_bioconductor-hgu2beta7|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu2beta7
+   :required~by: |required_by_bioconductor-hgu2beta7|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu2beta7
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu2beta7
+
+   and update with::
+
+      conda update bioconductor-hgu2beta7
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu2beta7
+
+
+.. |required_by_bioconductor-hgu2beta7| conda:required_by:: bioconductor-hgu2beta7
+.. |downloads_bioconductor-hgu2beta7| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu2beta7.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu2beta7| image:: https://quay.io/repository/biocontainers/bioconductor-hgu2beta7/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu2beta7
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu2beta7.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu2beta7/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu2beta7/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu2beta7/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu2beta7/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu2beta7
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu2beta7/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu2beta7
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu2beta7/README.html
 

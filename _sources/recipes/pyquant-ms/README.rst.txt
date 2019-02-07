@@ -1,54 +1,66 @@
-.. _`pyquant-ms`:
+.. title:: Package Recipe 'pyquant-ms'
+.. highlight: bash
+
 
 pyquant-ms
 ==========
 
-|downloads|
+.. conda:recipe:: pyquant-ms
+   :replaces_section_title:
 
-A framework for the analysis of quantitative mass spectrometry data
+   A framework for the analysis of quantitative mass spectrometry data
 
-============= ===========
-Home          https://chris7.github.io/pyquant/
-Versions      0.2.3, 0.2.1, 0.1.43rc3, 0.1.42
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyquant-ms/meta.yaml
+   :homepage: https://chris7.github.io/pyquant/
+   :license: MIT / MIT
+   :recipe: /`pyquant-ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquant-ms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquant-ms/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pyquant-ms
 
-Installation
-------------
+   |downloads_pyquant-ms| |docker_pyquant-ms|
 
-.. highlight: bash
+   :versions: 0.2.3, 0.2.1, 0.1.43rc3, 0.1.42
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`lxml`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`patsy`  :conda:package:`pythomics` >=0.3.41 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy` >=0.18.* :conda:package:`simplejson`  
 
-   conda install pyquant-ms
+   :required~by: |required_by_pyquant-ms|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyquant-ms
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyquant-ms
+
+   and update with::
+
+      conda update pyquant-ms
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyquant-ms
+
+
+.. |required_by_pyquant-ms| conda:required_by:: pyquant-ms
+.. |downloads_pyquant-ms| image:: https://img.shields.io/conda/dn/bioconda/pyquant-ms.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyquant-ms| image:: https://quay.io/repository/biocontainers/pyquant-ms/status
+   :target: https://quay.io/repository/biocontainers/pyquant-ms
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyquant-ms.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyquant-ms/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyquant-ms/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyquant-ms/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyquant-ms/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyquant-ms
-.. |docker| image:: https://quay.io/repository/biocontainers/pyquant-ms/status
-                :target: https://quay.io/repository/biocontainers/pyquant-ms
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyquant-ms/README.html
 

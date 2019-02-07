@@ -1,56 +1,67 @@
-.. _`trimal`:
+.. title:: Package Recipe 'trimal'
+.. highlight: bash
+
 
 trimal
 ======
 
-|downloads|
+.. conda:recipe:: trimal
+   :replaces_section_title:
 
-A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
+   A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
 
-============= ===========
-Home          http://trimal.cgenomics.org
-Versions      1.4.1
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trimal/meta.yaml
+   :homepage: http://trimal.cgenomics.org
+   :license: GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`trimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal/meta.yaml>`_
+   :links: biotools: :biotools:`trimAl`
 
-
-
-Links         biotools: :biotools:`trimAl`
-
-============= ===========
+   
 
 
+.. conda:package:: trimal
 
-Installation
-------------
+   |downloads_trimal| |docker_trimal|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install trimal
+   :required~by: |required_by_trimal|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update trimal
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trimal
+
+   and update with::
+
+      conda update trimal
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/trimal
+
+
+.. |required_by_trimal| conda:required_by:: trimal
+.. |downloads_trimal| image:: https://img.shields.io/conda/dn/bioconda/trimal.svg?style=flat
+   :alt:   (downloads)
+.. |docker_trimal| image:: https://quay.io/repository/biocontainers/trimal/status
+   :target: https://quay.io/repository/biocontainers/trimal
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/trimal.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/trimal/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trimal/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/trimal/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/trimal/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/trimal
-.. |docker| image:: https://quay.io/repository/biocontainers/trimal/status
-                :target: https://quay.io/repository/biocontainers/trimal
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trimal/README.html
 

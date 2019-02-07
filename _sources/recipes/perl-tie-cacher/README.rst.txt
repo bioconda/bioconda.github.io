@@ -1,54 +1,66 @@
-.. _`perl-tie-cacher`:
+.. title:: Package Recipe 'perl-tie-cacher'
+.. highlight: bash
+
 
 perl-tie-cacher
 ===============
 
-|downloads|
+.. conda:recipe:: perl-tie-cacher
+   :replaces_section_title:
 
-Cache a \(sub\)set of key\/value pairs. Tie and OO interface.
+   Cache a \(sub\)set of key\/value pairs. Tie and OO interface.
 
-============= ===========
-Home          http://metacpan.org/pod/Tie::Cacher
-Versions      0.09
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tie-cacher/meta.yaml
+   :homepage: http://metacpan.org/pod/Tie::Cacher
+   :license: perl_5
+   :recipe: /`perl-tie-cacher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-cacher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-cacher/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-tie-cacher
 
-Installation
-------------
+   |downloads_perl-tie-cacher| |docker_perl-tie-cacher|
 
-.. highlight: bash
+   :versions: 0.09
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-test-simple`  :conda:package:`perl-threaded`  
 
-   conda install perl-tie-cacher
+   :required~by: |required_by_perl-tie-cacher|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-tie-cacher
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-tie-cacher
+
+   and update with::
+
+      conda update perl-tie-cacher
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-tie-cacher
+
+
+.. |required_by_perl-tie-cacher| conda:required_by:: perl-tie-cacher
+.. |downloads_perl-tie-cacher| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-cacher.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-tie-cacher| image:: https://quay.io/repository/biocontainers/perl-tie-cacher/status
+   :target: https://quay.io/repository/biocontainers/perl-tie-cacher
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-tie-cacher.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-tie-cacher/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-tie-cacher/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-tie-cacher/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-tie-cacher/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-tie-cacher
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-cacher/status
-                :target: https://quay.io/repository/biocontainers/perl-tie-cacher
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-tie-cacher/README.html
 

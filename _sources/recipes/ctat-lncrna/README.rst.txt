@@ -1,54 +1,66 @@
-.. _`ctat-lncrna`:
+.. title:: Package Recipe 'ctat-lncrna'
+.. highlight: bash
+
 
 ctat-lncrna
 ===========
 
-|downloads|
+.. conda:recipe:: ctat-lncrna
+   :replaces_section_title:
 
-ctat\-lncrna uses slncky
+   ctat\-lncrna uses slncky
 
-============= ===========
-Home          https://github.com/NCIP/ctat-lncrna
-Versions      1.0.1, 1.0
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ctat-lncrna/meta.yaml
+   :homepage: https://github.com/NCIP/ctat-lncrna
+   :license: BSD / BSD-3-Clause
+   :recipe: /`ctat-lncrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-lncrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-lncrna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ctat-lncrna
 
-Installation
-------------
+   |downloads_ctat-lncrna| |docker_ctat-lncrna|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bedtools`  :conda:package:`lastz`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`slncky`  :conda:package:`ucsc-liftover`  
 
-   conda install ctat-lncrna
+   :required~by: |required_by_ctat-lncrna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ctat-lncrna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ctat-lncrna
+
+   and update with::
+
+      conda update ctat-lncrna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ctat-lncrna
+
+
+.. |required_by_ctat-lncrna| conda:required_by:: ctat-lncrna
+.. |downloads_ctat-lncrna| image:: https://img.shields.io/conda/dn/bioconda/ctat-lncrna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ctat-lncrna| image:: https://quay.io/repository/biocontainers/ctat-lncrna/status
+   :target: https://quay.io/repository/biocontainers/ctat-lncrna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ctat-lncrna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ctat-lncrna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ctat-lncrna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ctat-lncrna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ctat-lncrna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ctat-lncrna
-.. |docker| image:: https://quay.io/repository/biocontainers/ctat-lncrna/status
-                :target: https://quay.io/repository/biocontainers/ctat-lncrna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ctat-lncrna/README.html
 

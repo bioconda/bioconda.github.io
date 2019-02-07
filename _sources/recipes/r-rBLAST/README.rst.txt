@@ -1,54 +1,66 @@
-.. _`r-rblast`:
+.. title:: Package Recipe 'r-rblast'
+.. highlight: bash
+
 
 r-rblast
 ========
 
-|downloads|
+.. conda:recipe:: r-rBLAST
+   :replaces_section_title:
 
-Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
+   Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
 
-============= ===========
-Home          https://github.com/mhahsler/rBLAST
-Versions      0.99.1
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rBLAST/meta.yaml
+   :homepage: https://github.com/mhahsler/rBLAST
+   :license: GPL3
+   :recipe: /`r-rBLAST <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rBLAST>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rBLAST/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rblast
 
-Installation
-------------
+   |downloads_r-rblast| |docker_r-rblast|
 
-.. highlight: bash
+   :versions: 0.99.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`blast`  :conda:package:`r` 3.2.2* 
 
-   conda install r-rblast
+   :required~by: |required_by_r-rblast|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rblast
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rblast
+
+   and update with::
+
+      conda update r-rblast
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rblast
+
+
+.. |required_by_r-rblast| conda:required_by:: r-rblast
+.. |downloads_r-rblast| image:: https://img.shields.io/conda/dn/bioconda/r-rblast.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rblast| image:: https://quay.io/repository/biocontainers/r-rblast/status
+   :target: https://quay.io/repository/biocontainers/r-rblast
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rblast.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rblast/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rblast/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rblast/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rblast/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rblast
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rblast/status
-                :target: https://quay.io/repository/biocontainers/r-rblast
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rblast/README.html
 

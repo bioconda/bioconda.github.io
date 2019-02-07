@@ -1,56 +1,67 @@
-.. _`erne`:
+.. title:: Package Recipe 'erne'
+.. highlight: bash
+
 
 erne
 ====
 
-|downloads|
+.. conda:recipe:: erne
+   :replaces_section_title:
 
-ERNE \- Extended Randomized Numerical alignEr
+   ERNE \- Extended Randomized Numerical alignEr
 
-============= ===========
-Home          http://erne.sourceforge.net
-Versions      2.1.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//erne/meta.yaml
+   :homepage: http://erne.sourceforge.net
+   :license: GPLv3
+   :recipe: /`erne <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/erne>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/erne/meta.yaml>`_
+   :links: biotools: :biotools:`erne`
 
-
-
-Links         biotools: :biotools:`erne`
-
-============= ===========
+   
 
 
+.. conda:package:: erne
 
-Installation
-------------
+   |downloads_erne| |docker_erne|
 
-.. highlight: bash
+   :versions: 2.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` 1.61* :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install erne
+   :required~by: |required_by_erne|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update erne
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install erne
+
+   and update with::
+
+      conda update erne
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/erne
+
+
+.. |required_by_erne| conda:required_by:: erne
+.. |downloads_erne| image:: https://img.shields.io/conda/dn/bioconda/erne.svg?style=flat
+   :alt:   (downloads)
+.. |docker_erne| image:: https://quay.io/repository/biocontainers/erne/status
+   :target: https://quay.io/repository/biocontainers/erne
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/erne.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/erne/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/erne/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/erne/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/erne/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/erne
-.. |docker| image:: https://quay.io/repository/biocontainers/erne/status
-                :target: https://quay.io/repository/biocontainers/erne
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/erne/README.html
 

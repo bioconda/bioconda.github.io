@@ -1,54 +1,66 @@
-.. _`yacrd`:
+.. title:: Package Recipe 'yacrd'
+.. highlight: bash
+
 
 yacrd
 =====
 
-|downloads|
+.. conda:recipe:: yacrd
+   :replaces_section_title:
 
-Yet Another Chimeric Read Detector\, with long\-read mapper result as input.
+   Yet Another Chimeric Read Detector\, with long\-read mapper result as input.
 
-============= ===========
-Home          https://github.com/natir/yacrd
-Versions      0.4.1, 0.4, 0.3, 0.2.1, 0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//yacrd/meta.yaml
+   :homepage: https://github.com/natir/yacrd
+   :license: MIT / MIT
+   :recipe: /`yacrd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: yacrd
 
-Installation
-------------
+   |downloads_yacrd| |docker_yacrd|
 
-.. highlight: bash
+   :versions: 0.4.1, 0.4, 0.3, 0.2.1, 0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install yacrd
+   :required~by: |required_by_yacrd|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update yacrd
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install yacrd
+
+   and update with::
+
+      conda update yacrd
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/yacrd
+
+
+.. |required_by_yacrd| conda:required_by:: yacrd
+.. |downloads_yacrd| image:: https://img.shields.io/conda/dn/bioconda/yacrd.svg?style=flat
+   :alt:   (downloads)
+.. |docker_yacrd| image:: https://quay.io/repository/biocontainers/yacrd/status
+   :target: https://quay.io/repository/biocontainers/yacrd
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/yacrd.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/yacrd/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/yacrd/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/yacrd/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/yacrd/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/yacrd
-.. |docker| image:: https://quay.io/repository/biocontainers/yacrd/status
-                :target: https://quay.io/repository/biocontainers/yacrd
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/yacrd/README.html
 

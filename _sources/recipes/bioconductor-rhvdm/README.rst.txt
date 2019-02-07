@@ -1,54 +1,66 @@
-.. _`bioconductor-rhvdm`:
+.. title:: Package Recipe 'bioconductor-rhvdm'
+.. highlight: bash
+
 
 bioconductor-rhvdm
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-rhvdm
+   :replaces_section_title:
 
-A R implementation of HVDM \(Genome Biol 2006\, V7\(3\) R25\)
+   A R implementation of HVDM \(Genome Biol 2006\, V7\(3\) R25\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rHVDM.html
-Versions      1.48.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rhvdm/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rHVDM.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rhvdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhvdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhvdm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rhvdm
 
-Installation
-------------
+   |downloads_bioconductor-rhvdm| |docker_bioconductor-rhvdm|
 
-.. highlight: bash
+   :versions: 1.48.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-minpack.lm` >=1.0-5 :conda:package:`r-r2html` >=1.5 
 
-   conda install bioconductor-rhvdm
+   :required~by: |required_by_bioconductor-rhvdm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rhvdm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rhvdm
+
+   and update with::
+
+      conda update bioconductor-rhvdm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rhvdm
+
+
+.. |required_by_bioconductor-rhvdm| conda:required_by:: bioconductor-rhvdm
+.. |downloads_bioconductor-rhvdm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhvdm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rhvdm| image:: https://quay.io/repository/biocontainers/bioconductor-rhvdm/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rhvdm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rhvdm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rhvdm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rhvdm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rhvdm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rhvdm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rhvdm
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rhvdm/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rhvdm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rhvdm/README.html
 

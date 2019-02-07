@@ -1,54 +1,66 @@
-.. _`mykrobe`:
+.. title:: Package Recipe 'mykrobe'
+.. highlight: bash
+
 
 mykrobe
 =======
 
-|downloads|
+.. conda:recipe:: mykrobe
+   :replaces_section_title:
 
-Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
+   Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
 
-============= ===========
-Home          https://github.com/iqbal-lab/Mykrobe-predictor
-Versions      0.5.6
-License       Custom non-commercial license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mykrobe/meta.yaml
+   :homepage: https://github.com/iqbal-lab/Mykrobe-predictor
+   :license: Custom non-commercial license
+   :recipe: /`mykrobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mykrobe
 
-Installation
-------------
+   |downloads_mykrobe| |docker_mykrobe|
 
-.. highlight: bash
+   :versions: 0.5.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`ga4ghmongo`  :conda:package:`mongoengine`  :conda:package:`mykatlas`  :conda:package:`python` 2.7* 
 
-   conda install mykrobe
+   :required~by: |required_by_mykrobe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mykrobe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mykrobe
+
+   and update with::
+
+      conda update mykrobe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mykrobe
+
+
+.. |required_by_mykrobe| conda:required_by:: mykrobe
+.. |downloads_mykrobe| image:: https://img.shields.io/conda/dn/bioconda/mykrobe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mykrobe| image:: https://quay.io/repository/biocontainers/mykrobe/status
+   :target: https://quay.io/repository/biocontainers/mykrobe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mykrobe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mykrobe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mykrobe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mykrobe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mykrobe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mykrobe
-.. |docker| image:: https://quay.io/repository/biocontainers/mykrobe/status
-                :target: https://quay.io/repository/biocontainers/mykrobe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mykrobe/README.html
 

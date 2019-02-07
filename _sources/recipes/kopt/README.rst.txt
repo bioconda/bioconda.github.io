@@ -1,54 +1,66 @@
-.. _`kopt`:
+.. title:: Package Recipe 'kopt'
+.. highlight: bash
+
 
 kopt
 ====
 
-|downloads|
+.. conda:recipe:: kopt
+   :replaces_section_title:
 
-Keras\-hyperopt \(kopt\)\; Hyper\-parameter tuning for Keras using hyperopt.
+   Keras\-hyperopt \(kopt\)\; Hyper\-parameter tuning for Keras using hyperopt.
 
-============= ===========
-Home          https://github.com/avsecz/keras-hyperopt
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kopt/meta.yaml
+   :homepage: https://github.com/avsecz/keras-hyperopt
+   :license: MIT / MIT
+   :recipe: /`kopt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kopt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kopt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kopt
 
-Installation
-------------
+   |downloads_kopt| |docker_kopt|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`hyperopt`  :conda:package:`keras` >=2.0.4 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`scikit-learn` >=0.18 :conda:package:`scipy`  
 
-   conda install kopt
+   :required~by: |required_by_kopt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kopt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kopt
+
+   and update with::
+
+      conda update kopt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kopt
+
+
+.. |required_by_kopt| conda:required_by:: kopt
+.. |downloads_kopt| image:: https://img.shields.io/conda/dn/bioconda/kopt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kopt| image:: https://quay.io/repository/biocontainers/kopt/status
+   :target: https://quay.io/repository/biocontainers/kopt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kopt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kopt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kopt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kopt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kopt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kopt
-.. |docker| image:: https://quay.io/repository/biocontainers/kopt/status
-                :target: https://quay.io/repository/biocontainers/kopt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kopt/README.html
 

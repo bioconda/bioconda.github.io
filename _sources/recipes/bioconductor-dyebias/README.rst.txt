@@ -1,56 +1,67 @@
-.. _`bioconductor-dyebias`:
+.. title:: Package Recipe 'bioconductor-dyebias'
+.. highlight: bash
+
 
 bioconductor-dyebias
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-dyebias
+   :replaces_section_title:
 
-Many two\-colour hybridizations suffer from a dye bias that is both gene\-specific and slide\-specific. The former depends on the content of the nucleotide used for labeling\; the latter depends on the labeling percentage. The slide\-dependency was hitherto not recognized\, and made addressing the artefact impossible.  Given a reasonable number of dye\-swapped pairs of hybridizations\, or of same vs. same hybridizations\, both the gene\- and slide\-biases can be estimated and corrected using the GASSCO method \(Margaritis et al.\, Mol. Sys. Biol. 5\:266 \(2009\)\, doi\:10.1038\/msb.2009.21\)
+   Many two\-colour hybridizations suffer from a dye bias that is both gene\-specific and slide\-specific. The former depends on the content of the nucleotide used for labeling\; the latter depends on the labeling percentage. The slide\-dependency was hitherto not recognized\, and made addressing the artefact impossible.  Given a reasonable number of dye\-swapped pairs of hybridizations\, or of same vs. same hybridizations\, both the gene\- and slide\-biases can be estimated and corrected using the GASSCO method \(Margaritis et al.\, Mol. Sys. Biol. 5\:266 \(2009\)\, doi\:10.1038\/msb.2009.21\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/dyebias.html
-Versions      1.42.0, 1.40.0, 1.38.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dyebias/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/dyebias.html
+   :license: GPL-3
+   :recipe: /`bioconductor-dyebias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias/meta.yaml>`_
+   :links: biotools: :biotools:`dyebias`
 
-
-
-Links         biotools: :biotools:`dyebias`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dyebias
 
-Installation
-------------
+   |downloads_bioconductor-dyebias| |docker_bioconductor-dyebias|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-marray` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-dyebias
+   :required~by: |required_by_bioconductor-dyebias|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dyebias
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dyebias
+
+   and update with::
+
+      conda update bioconductor-dyebias
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dyebias
+
+
+.. |required_by_bioconductor-dyebias| conda:required_by:: bioconductor-dyebias
+.. |downloads_bioconductor-dyebias| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dyebias.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dyebias| image:: https://quay.io/repository/biocontainers/bioconductor-dyebias/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dyebias
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dyebias.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dyebias/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dyebias/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dyebias/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dyebias/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dyebias
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dyebias/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dyebias
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dyebias/README.html
 

@@ -1,54 +1,66 @@
-.. _`biotradis`:
+.. title:: Package Recipe 'biotradis'
+.. highlight: bash
+
 
 biotradis
 =========
 
-|downloads|
+.. conda:recipe:: biotradis
+   :replaces_section_title:
 
-A set of tools to analyse the output from TraDIS analyses
+   A set of tools to analyse the output from TraDIS analyses
 
-============= ===========
-Home          https://github.com/sanger-pathogens/Bio-Tradis
-Versions      1.4.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biotradis/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/Bio-Tradis
+   :license: GPLv3
+   :recipe: /`biotradis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotradis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotradis/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: biotradis
 
-Installation
-------------
+   |downloads_biotradis| |docker_biotradis|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-edger`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pathtools`  :conda:package:`perl-scalar-util-numeric`  :conda:package:`r-getopt`  :conda:package:`r-mass`  :conda:package:`samtools`  :conda:package:`smalt`  
 
-   conda install biotradis
+   :required~by: |required_by_biotradis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update biotradis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biotradis
+
+   and update with::
+
+      conda update biotradis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/biotradis
+
+
+.. |required_by_biotradis| conda:required_by:: biotradis
+.. |downloads_biotradis| image:: https://img.shields.io/conda/dn/bioconda/biotradis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biotradis| image:: https://quay.io/repository/biocontainers/biotradis/status
+   :target: https://quay.io/repository/biocontainers/biotradis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/biotradis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biotradis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biotradis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/biotradis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/biotradis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/biotradis
-.. |docker| image:: https://quay.io/repository/biocontainers/biotradis/status
-                :target: https://quay.io/repository/biocontainers/biotradis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biotradis/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-explorase`:
+.. title:: Package Recipe 'bioconductor-explorase'
+.. highlight: bash
+
 
 bioconductor-explorase
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-explorase
+   :replaces_section_title:
 
-explore and analyze \*omics data with R and GGobi
+   explore and analyze \*omics data with R and GGobi
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/explorase.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-explorase/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/explorase.html
+   :license: GPL-2
+   :recipe: /`bioconductor-explorase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-explorase
 
-Installation
-------------
+   |downloads_bioconductor-explorase| |docker_bioconductor-explorase|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-explorase
+   :required~by: |required_by_bioconductor-explorase|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-explorase
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-explorase
+
+   and update with::
+
+      conda update bioconductor-explorase
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-explorase
+
+
+.. |required_by_bioconductor-explorase| conda:required_by:: bioconductor-explorase
+.. |downloads_bioconductor-explorase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-explorase.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-explorase| image:: https://quay.io/repository/biocontainers/bioconductor-explorase/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-explorase
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-explorase.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-explorase/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-explorase/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-explorase/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-explorase/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-explorase
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-explorase/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-explorase
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-explorase/README.html
 

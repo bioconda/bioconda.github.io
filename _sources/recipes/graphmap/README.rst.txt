@@ -1,54 +1,66 @@
-.. _`graphmap`:
+.. title:: Package Recipe 'graphmap'
+.. highlight: bash
+
 
 graphmap
 ========
 
-|downloads|
+.. conda:recipe:: graphmap
+   :replaces_section_title:
 
-A highly sensitive and accurate mapper for long\, error\-prone reads.
+   A highly sensitive and accurate mapper for long\, error\-prone reads.
 
-============= ===========
-Home          https://github.com/isovic/graphmap
-Versions      0.5.2, 0.4.0, 0.3.1p1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//graphmap/meta.yaml
+   :homepage: https://github.com/isovic/graphmap
+   :license: MIT
+   :recipe: /`graphmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: graphmap
 
-Installation
-------------
+   |downloads_graphmap| |docker_graphmap|
 
-.. highlight: bash
+   :versions: 0.5.2, 0.4.0, 0.3.1p1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install graphmap
+   :required~by: |required_by_graphmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update graphmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install graphmap
+
+   and update with::
+
+      conda update graphmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/graphmap
+
+
+.. |required_by_graphmap| conda:required_by:: graphmap
+.. |downloads_graphmap| image:: https://img.shields.io/conda/dn/bioconda/graphmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_graphmap| image:: https://quay.io/repository/biocontainers/graphmap/status
+   :target: https://quay.io/repository/biocontainers/graphmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/graphmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/graphmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/graphmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/graphmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/graphmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/graphmap
-.. |docker| image:: https://quay.io/repository/biocontainers/graphmap/status
-                :target: https://quay.io/repository/biocontainers/graphmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/graphmap/README.html
 

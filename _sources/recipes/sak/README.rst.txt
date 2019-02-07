@@ -1,54 +1,66 @@
-.. _`sak`:
+.. title:: Package Recipe 'sak'
+.. highlight: bash
+
 
 sak
 ===
 
-|downloads|
+.. conda:recipe:: sak
+   :replaces_section_title:
 
-This tool allows one to cut sequences and parts of sequences out of sequence files.
+   This tool allows one to cut sequences and parts of sequences out of sequence files.
 
-============= ===========
-Home          https://github.com/seqan/seqan/tree/master/apps/sak/README
-Versions      0.4.6
-License       https://github.com/seqan/seqan/tree/master/apps/sak/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sak/meta.yaml
+   :homepage: https://github.com/seqan/seqan/tree/master/apps/sak/README
+   :license: https://github.com/seqan/seqan/tree/master/apps/sak/LICENSE
+   :recipe: /`sak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sak
 
-Installation
-------------
+   |downloads_sak| |docker_sak|
 
-.. highlight: bash
+   :versions: 0.4.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install sak
+   :required~by: |required_by_sak|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sak
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sak
+
+   and update with::
+
+      conda update sak
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sak
+
+
+.. |required_by_sak| conda:required_by:: sak
+.. |downloads_sak| image:: https://img.shields.io/conda/dn/bioconda/sak.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sak| image:: https://quay.io/repository/biocontainers/sak/status
+   :target: https://quay.io/repository/biocontainers/sak
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sak.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sak/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sak/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sak/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sak/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sak
-.. |docker| image:: https://quay.io/repository/biocontainers/sak/status
-                :target: https://quay.io/repository/biocontainers/sak
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sak/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-metavizr`:
+.. title:: Package Recipe 'bioconductor-metavizr'
+.. highlight: bash
+
 
 bioconductor-metavizr
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-metavizr
+   :replaces_section_title:
 
-This package provides Websocket communication to the metaviz web app \(http\:\/\/metaviz.cbcb.umd.edu\) for interactive visualization of metagenomics data. Objects in R\/bioc interactive sessions can be displayed in plots and data can be explored using a facetzoom visualization. Fundamental Bioconductor data structures are supported \(e.g.\, MRexperiment objects\)\, while providing an easy mechanism to support other data structures. Visualizations \(using d3.js\) can be easily added to the web app as well.
+   This package provides Websocket communication to the metaviz web app \(http\:\/\/metaviz.cbcb.umd.edu\) for interactive visualization of metagenomics data. Objects in R\/bioc interactive sessions can be displayed in plots and data can be explored using a facetzoom visualization. Fundamental Bioconductor data structures are supported \(e.g.\, MRexperiment objects\)\, while providing an easy mechanism to support other data structures. Visualizations \(using d3.js\) can be easily added to the web app as well.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/metavizr.html
-Versions      1.6.1, 1.2.1
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metavizr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/metavizr.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-metavizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-metavizr
 
-Installation
-------------
+   |downloads_bioconductor-metavizr| |docker_bioconductor-metavizr|
 
-.. highlight: bash
+   :versions: 1.6.1, 1.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-epivizr` >=2.12.0,<2.13.0 :conda:package:`bioconductor-epivizrdata` >=1.10.0,<1.11.0 :conda:package:`bioconductor-epivizrserver` >=1.10.0,<1.11.0 :conda:package:`bioconductor-epivizrstandalone` >=1.10.0,<1.11.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-metagenomeseq` >=1.24.0,<1.25.0 :conda:package:`bioconductor-phyloseq` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-digest`  :conda:package:`r-httr`  :conda:package:`r-vegan`  
 
-   conda install bioconductor-metavizr
+   :required~by: |required_by_bioconductor-metavizr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-metavizr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-metavizr
+
+   and update with::
+
+      conda update bioconductor-metavizr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-metavizr
+
+
+.. |required_by_bioconductor-metavizr| conda:required_by:: bioconductor-metavizr
+.. |downloads_bioconductor-metavizr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metavizr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-metavizr| image:: https://quay.io/repository/biocontainers/bioconductor-metavizr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-metavizr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-metavizr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metavizr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-metavizr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-metavizr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-metavizr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-metavizr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metavizr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-metavizr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-metavizr/README.html
 

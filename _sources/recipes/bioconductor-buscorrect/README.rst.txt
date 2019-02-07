@@ -1,54 +1,66 @@
-.. _`bioconductor-buscorrect`:
+.. title:: Package Recipe 'bioconductor-buscorrect'
+.. highlight: bash
+
 
 bioconductor-buscorrect
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-buscorrect
+   :replaces_section_title:
 
-High\-throughput experimental data are accumulating exponentially in public databases. However\, mining valid scientific discoveries from these abundant resources is hampered by technical artifacts and inherent biological heterogeneity. The former are usually termed \"batch effects\,\" and the latter is often modelled by \"subtypes.\" The R package BUScorrect fits a Bayesian hierarchical model\, the Batch\-effects\-correction\-with\-Unknown\-Subtypes model \(BUS\)\, to correct batch effects in the presence of unknown subtypes. BUS is capable of \(a\) correcting batch effects explicitly\, \(b\) grouping samples that share similar characteristics into subtypes\, \(c\) identifying features that distinguish subtypes\, and \(d\) enjoying a linear\-order computation complexity.
+   High\-throughput experimental data are accumulating exponentially in public databases. However\, mining valid scientific discoveries from these abundant resources is hampered by technical artifacts and inherent biological heterogeneity. The former are usually termed \"batch effects\,\" and the latter is often modelled by \"subtypes.\" The R package BUScorrect fits a Bayesian hierarchical model\, the Batch\-effects\-correction\-with\-Unknown\-Subtypes model \(BUS\)\, to correct batch effects in the presence of unknown subtypes. BUS is capable of \(a\) correcting batch effects explicitly\, \(b\) grouping samples that share similar characteristics into subtypes\, \(c\) identifying features that distinguish subtypes\, and \(d\) enjoying a linear\-order computation complexity.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BUScorrect.html
-Versions      1.0.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-buscorrect/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BUScorrect.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-buscorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-buscorrect
 
-Installation
-------------
+   |downloads_bioconductor-buscorrect| |docker_bioconductor-buscorrect|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  
 
-   conda install bioconductor-buscorrect
+   :required~by: |required_by_bioconductor-buscorrect|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-buscorrect
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-buscorrect
+
+   and update with::
+
+      conda update bioconductor-buscorrect
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-buscorrect
+
+
+.. |required_by_bioconductor-buscorrect| conda:required_by:: bioconductor-buscorrect
+.. |downloads_bioconductor-buscorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-buscorrect.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-buscorrect| image:: https://quay.io/repository/biocontainers/bioconductor-buscorrect/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-buscorrect
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-buscorrect.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-buscorrect/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-buscorrect/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-buscorrect/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-buscorrect/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-buscorrect
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-buscorrect/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-buscorrect
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-buscorrect/README.html
 

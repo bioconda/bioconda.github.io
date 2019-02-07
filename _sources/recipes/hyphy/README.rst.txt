@@ -1,58 +1,69 @@
-.. _`hyphy`:
+.. title:: Package Recipe 'hyphy'
+.. highlight: bash
+
 
 hyphy
 =====
 
-|downloads|
+.. conda:recipe:: hyphy
+   :replaces_section_title:
 
-HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences
-\(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
-
-
-============= ===========
-Home          http://hyphy.org/
-Versions      2.3.14, 2.3.12
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hyphy/meta.yaml
+   HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences
+   \(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
 
 
-Development   https://github.com/veg/hyphy
+   :homepage: http://hyphy.org/
+   :developer docs: https://github.com/veg/hyphy
+   :license: MIT / MIT
+   :recipe: /`hyphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphy/meta.yaml>`_
+
+   
 
 
-============= ===========
+.. conda:package:: hyphy
+
+   |downloads_hyphy| |docker_hyphy|
+
+   :versions: 2.3.14, 2.3.12
+
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=7.2.0 :conda:package:`libstdcxx-ng` >=7.2.0 :conda:package:`openmpi` >=3.1,<3.2.0a0 
+
+   :required~by: |required_by_hyphy|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hyphy
+
+   and update with::
+
+      conda update hyphy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hyphy
+
+
+.. |required_by_hyphy| conda:required_by:: hyphy
+.. |downloads_hyphy| image:: https://img.shields.io/conda/dn/bioconda/hyphy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hyphy| image:: https://quay.io/repository/biocontainers/hyphy/status
+   :target: https://quay.io/repository/biocontainers/hyphy
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install hyphy
-
-and update with::
-
-   conda update hyphy
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/hyphy.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hyphy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hyphy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hyphy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hyphy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hyphy
-.. |docker| image:: https://quay.io/repository/biocontainers/hyphy/status
-                :target: https://quay.io/repository/biocontainers/hyphy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hyphy/README.html
 

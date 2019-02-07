@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.genomewidesnp.5`:
+.. title:: Package Recipe 'bioconductor-pd.genomewidesnp.5'
+.. highlight: bash
+
 
 bioconductor-pd.genomewidesnp.5
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.genomewidesnp.5
+   :replaces_section_title:
 
-Platform Design Info for Affymetrix GenomeWideSNP\_5
+   Platform Design Info for Affymetrix GenomeWideSNP\_5
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.genomewidesnp.5.html
-Versions      3.14.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.genomewidesnp.5/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.genomewidesnp.5.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.genomewidesnp.5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.genomewidesnp.5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.genomewidesnp.5/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.genomewidesnp.5
 
-Installation
-------------
+   |downloads_bioconductor-pd.genomewidesnp.5| |docker_bioconductor-pd.genomewidesnp.5|
 
-.. highlight: bash
+   :versions: 3.14.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.genomewidesnp.5
+   :required~by: |required_by_bioconductor-pd.genomewidesnp.5|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.genomewidesnp.5
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.genomewidesnp.5
+
+   and update with::
+
+      conda update bioconductor-pd.genomewidesnp.5
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5
+
+
+.. |required_by_bioconductor-pd.genomewidesnp.5| conda:required_by:: bioconductor-pd.genomewidesnp.5
+.. |downloads_bioconductor-pd.genomewidesnp.5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.genomewidesnp.5.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.genomewidesnp.5| image:: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.genomewidesnp.5/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.genomewidesnp.5/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.genomewidesnp.5/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.genomewidesnp.5/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.genomewidesnp.5
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.genomewidesnp.5/README.html
 

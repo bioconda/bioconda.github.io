@@ -1,54 +1,66 @@
-.. _`fastaindex`:
+.. title:: Package Recipe 'fastaindex'
+.. highlight: bash
+
 
 fastaindex
 ==========
 
-|downloads|
+.. conda:recipe:: fastaindex
+   :replaces_section_title:
 
-FastA indexing and sequence retrival.
+   FastA indexing and sequence retrival.
 
-============= ===========
-Home          https://github.com/lpryszcz/FastaIndex
-Versions      0.11c
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastaindex/meta.yaml
+   :homepage: https://github.com/lpryszcz/FastaIndex
+   :license: GPLv3
+   :recipe: /`fastaindex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaindex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaindex/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastaindex
 
-Installation
-------------
+   |downloads_fastaindex| |docker_fastaindex|
 
-.. highlight: bash
+   :versions: 0.11c
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`setuptools`  
 
-   conda install fastaindex
+   :required~by: |required_by_fastaindex|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastaindex
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastaindex
+
+   and update with::
+
+      conda update fastaindex
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastaindex
+
+
+.. |required_by_fastaindex| conda:required_by:: fastaindex
+.. |downloads_fastaindex| image:: https://img.shields.io/conda/dn/bioconda/fastaindex.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastaindex| image:: https://quay.io/repository/biocontainers/fastaindex/status
+   :target: https://quay.io/repository/biocontainers/fastaindex
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastaindex.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastaindex/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastaindex/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastaindex/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastaindex/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastaindex
-.. |docker| image:: https://quay.io/repository/biocontainers/fastaindex/status
-                :target: https://quay.io/repository/biocontainers/fastaindex
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastaindex/README.html
 

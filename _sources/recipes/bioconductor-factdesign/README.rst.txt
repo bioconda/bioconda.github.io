@@ -1,54 +1,66 @@
-.. _`bioconductor-factdesign`:
+.. title:: Package Recipe 'bioconductor-factdesign'
+.. highlight: bash
+
 
 bioconductor-factdesign
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-factdesign
+   :replaces_section_title:
 
-This package provides a set of tools for analyzing data from a factorial designed microarray experiment\, or any microarray experiment for which a linear model is appropriate. The functions can be used to evaluate tests of contrast of biological interest and perform single outlier detection.
+   This package provides a set of tools for analyzing data from a factorial designed microarray experiment\, or any microarray experiment for which a linear model is appropriate. The functions can be used to evaluate tests of contrast of biological interest and perform single outlier detection.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/factDesign.html
-Versions      1.58.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-factdesign/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/factDesign.html
+   :license: LGPL
+   :recipe: /`bioconductor-factdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-factdesign
 
-Installation
-------------
+   |downloads_bioconductor-factdesign| |docker_bioconductor-factdesign|
 
-.. highlight: bash
+   :versions: 1.58.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-factdesign
+   :required~by: |required_by_bioconductor-factdesign|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-factdesign
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-factdesign
+
+   and update with::
+
+      conda update bioconductor-factdesign
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-factdesign
+
+
+.. |required_by_bioconductor-factdesign| conda:required_by:: bioconductor-factdesign
+.. |downloads_bioconductor-factdesign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-factdesign.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-factdesign| image:: https://quay.io/repository/biocontainers/bioconductor-factdesign/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-factdesign
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-factdesign.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-factdesign/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-factdesign/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-factdesign/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-factdesign/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-factdesign
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-factdesign/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-factdesign
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-factdesign/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-clone-pp`:
+.. title:: Package Recipe 'perl-clone-pp'
+.. highlight: bash
+
 
 perl-clone-pp
 =============
 
-|downloads|
+.. conda:recipe:: perl-clone-pp
+   :replaces_section_title:
 
-Recursively copy Perl datatypes
+   Recursively copy Perl datatypes
 
-============= ===========
-Home          http://metacpan.org/pod/Clone::PP
-Versions      1.07, 1.06
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-clone-pp/meta.yaml
+   :homepage: http://metacpan.org/pod/Clone::PP
+   :license: perl_5
+   :recipe: /`perl-clone-pp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone-pp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone-pp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-clone-pp
 
-Installation
-------------
+   |downloads_perl-clone-pp| |docker_perl-clone-pp|
 
-.. highlight: bash
+   :versions: 1.07, 1.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-apache-test`  
 
-   conda install perl-clone-pp
+   :required~by: |required_by_perl-clone-pp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-clone-pp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-clone-pp
+
+   and update with::
+
+      conda update perl-clone-pp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-clone-pp
+
+
+.. |required_by_perl-clone-pp| conda:required_by:: perl-clone-pp
+.. |downloads_perl-clone-pp| image:: https://img.shields.io/conda/dn/bioconda/perl-clone-pp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-clone-pp| image:: https://quay.io/repository/biocontainers/perl-clone-pp/status
+   :target: https://quay.io/repository/biocontainers/perl-clone-pp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-clone-pp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-clone-pp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-clone-pp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-clone-pp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-clone-pp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-clone-pp
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-clone-pp/status
-                :target: https://quay.io/repository/biocontainers/perl-clone-pp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-clone-pp/README.html
 

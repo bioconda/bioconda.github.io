@@ -1,56 +1,67 @@
-.. _`bioconductor-uniquorn`:
+.. title:: Package Recipe 'bioconductor-uniquorn'
+.. highlight: bash
+
 
 bioconductor-uniquorn
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-uniquorn
+   :replaces_section_title:
 
-This packages enables users to identify cancer cell lines. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers. The identification is vital and in the frame of this package based on the locations\/ loci of somatic and germline mutations\/ variations. The input format is vcf\/ vcf.gz and the files have to contain a single cancer cell line sample \(i.e. a single member\/genotype\/gt column in the vcf file\). The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet. Panel\-seq will require manual adjustment of thresholds
+   This packages enables users to identify cancer cell lines. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers. The identification is vital and in the frame of this package based on the locations\/ loci of somatic and germline mutations\/ variations. The input format is vcf\/ vcf.gz and the files have to contain a single cancer cell line sample \(i.e. a single member\/genotype\/gt column in the vcf file\). The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet. Panel\-seq will require manual adjustment of thresholds
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Uniquorn.html
-Versions      2.2.0, 2.0.0, 1.6.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-uniquorn/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Uniquorn.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-uniquorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn/meta.yaml>`_
+   :links: biotools: :biotools:`uniquorn`, doi: :doi:`10.18632/oncotarget.16110`
 
-
-
-Links         biotools: :biotools:`uniquorn`, doi: :doi:`10.18632/oncotarget.16110`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-uniquorn
 
-Installation
-------------
+   |downloads_bioconductor-uniquorn| |docker_bioconductor-uniquorn|
 
-.. highlight: bash
+   :versions: 2.2.0, 2.0.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-r.utils`  :conda:package:`r-stringr`  :conda:package:`r-writexls`  
 
-   conda install bioconductor-uniquorn
+   :required~by: |required_by_bioconductor-uniquorn|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-uniquorn
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-uniquorn
+
+   and update with::
+
+      conda update bioconductor-uniquorn
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-uniquorn
+
+
+.. |required_by_bioconductor-uniquorn| conda:required_by:: bioconductor-uniquorn
+.. |downloads_bioconductor-uniquorn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-uniquorn.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-uniquorn| image:: https://quay.io/repository/biocontainers/bioconductor-uniquorn/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-uniquorn
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-uniquorn.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-uniquorn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-uniquorn/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-uniquorn/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-uniquorn/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-uniquorn
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-uniquorn/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-uniquorn
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-uniquorn/README.html
 

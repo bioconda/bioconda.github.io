@@ -1,54 +1,66 @@
-.. _`2pg_cartesian`:
+.. title:: Package Recipe '2pg_cartesian'
+.. highlight: bash
+
 
 2pg_cartesian
 =============
 
-|downloads|
+.. conda:recipe:: 2pg_cartesian
+   :replaces_section_title:
 
-2pg cartesian is a framework of optimization algorithms for protein structure prediction.
+   2pg cartesian is a framework of optimization algorithms for protein structure prediction.
 
-============= ===========
-Home          https://github.com/rodrigofaccioli/2pg_cartesian
-Versions      1.0.1
-License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//2pg_cartesian/meta.yaml
+   :homepage: https://github.com/rodrigofaccioli/2pg_cartesian
+   :license: Apache License, Version 2.0
+   :recipe: /`2pg_cartesian <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/2pg_cartesian>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/2pg_cartesian/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: 2pg_cartesian
 
-Installation
-------------
+   |downloads_2pg_cartesian| |docker_2pg_cartesian|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gromacs`  :conda:package:`libgcc`  
 
-   conda install 2pg_cartesian
+   :required~by: |required_by_2pg_cartesian|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update 2pg_cartesian
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install 2pg_cartesian
+
+   and update with::
+
+      conda update 2pg_cartesian
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/2pg_cartesian
+
+
+.. |required_by_2pg_cartesian| conda:required_by:: 2pg_cartesian
+.. |downloads_2pg_cartesian| image:: https://img.shields.io/conda/dn/bioconda/2pg_cartesian.svg?style=flat
+   :alt:   (downloads)
+.. |docker_2pg_cartesian| image:: https://quay.io/repository/biocontainers/2pg_cartesian/status
+   :target: https://quay.io/repository/biocontainers/2pg_cartesian
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/2pg_cartesian.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/2pg_cartesian/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/2pg_cartesian/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/2pg_cartesian/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/2pg_cartesian/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/2pg_cartesian
-.. |docker| image:: https://quay.io/repository/biocontainers/2pg_cartesian/status
-                :target: https://quay.io/repository/biocontainers/2pg_cartesian
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/2pg_cartesian/README.html
 

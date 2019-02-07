@@ -1,54 +1,66 @@
-.. _`bioconductor-rrbsdata`:
+.. title:: Package Recipe 'bioconductor-rrbsdata'
+.. highlight: bash
+
 
 bioconductor-rrbsdata
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-rrbsdata
+   :replaces_section_title:
 
-RRBS data set comprising 12 samples with simulated differentially methylated regions \(DMRs\).
+   RRBS data set comprising 12 samples with simulated differentially methylated regions \(DMRs\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RRBSdata.html
-Versions      1.2.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rrbsdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RRBSdata.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-rrbsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rrbsdata
 
-Installation
-------------
+   |downloads_bioconductor-rrbsdata| |docker_bioconductor-rrbsdata|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biseq` >=1.22.0,<1.23.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rrbsdata
+   :required~by: |required_by_bioconductor-rrbsdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rrbsdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rrbsdata
+
+   and update with::
+
+      conda update bioconductor-rrbsdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rrbsdata
+
+
+.. |required_by_bioconductor-rrbsdata| conda:required_by:: bioconductor-rrbsdata
+.. |downloads_bioconductor-rrbsdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rrbsdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rrbsdata| image:: https://quay.io/repository/biocontainers/bioconductor-rrbsdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rrbsdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rrbsdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rrbsdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rrbsdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rrbsdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rrbsdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rrbsdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rrbsdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rrbsdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rrbsdata/README.html
 

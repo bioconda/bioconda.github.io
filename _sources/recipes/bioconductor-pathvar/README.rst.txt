@@ -1,56 +1,67 @@
-.. _`bioconductor-pathvar`:
+.. title:: Package Recipe 'bioconductor-pathvar'
+.. highlight: bash
+
 
 bioconductor-pathvar
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-pathvar
+   :replaces_section_title:
 
-This package contains the functions to find the pathways that have significantly different variability than a reference gene set. It also finds the categories from this pathway that are significant where each category is a cluster of genes. The genes are separated into clusters by their level of variability.
+   This package contains the functions to find the pathways that have significantly different variability than a reference gene set. It also finds the categories from this pathway that are significant where each category is a cluster of genes. The genes are separated into clusters by their level of variability.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pathVar.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathvar/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pathVar.html
+   :license: LGPL (>= 2.0)
+   :recipe: /`bioconductor-pathvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar/meta.yaml>`_
+   :links: biotools: :biotools:`pathvar`, doi: :doi:`10.7717/peerj.3334`
 
-
-
-Links         biotools: :biotools:`pathvar`, doi: :doi:`10.7717/peerj.3334`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pathvar
 
-Installation
-------------
+   |downloads_bioconductor-pathvar| |docker_bioconductor-pathvar|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-emt`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-matching`  :conda:package:`r-mclust`  
 
-   conda install bioconductor-pathvar
+   :required~by: |required_by_bioconductor-pathvar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pathvar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pathvar
+
+   and update with::
+
+      conda update bioconductor-pathvar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pathvar
+
+
+.. |required_by_bioconductor-pathvar| conda:required_by:: bioconductor-pathvar
+.. |downloads_bioconductor-pathvar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathvar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pathvar| image:: https://quay.io/repository/biocontainers/bioconductor-pathvar/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pathvar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pathvar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pathvar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pathvar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pathvar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pathvar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pathvar
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pathvar/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pathvar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pathvar/README.html
 

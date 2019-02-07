@@ -1,54 +1,66 @@
-.. _`bioconductor-colonca`:
+.. title:: Package Recipe 'bioconductor-colonca'
+.. highlight: bash
+
 
 bioconductor-colonca
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-colonca
+   :replaces_section_title:
 
-exprSet for Alon et al. \(1999\) colon cancer data
+   exprSet for Alon et al. \(1999\) colon cancer data
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/colonCA.html
-Versions      1.24.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-colonca/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/colonCA.html
+   :license: LGPL
+   :recipe: /`bioconductor-colonca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-colonca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-colonca/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-colonca
 
-Installation
-------------
+   |downloads_bioconductor-colonca| |docker_bioconductor-colonca|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-colonca
+   :required~by: |required_by_bioconductor-colonca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-colonca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-colonca
+
+   and update with::
+
+      conda update bioconductor-colonca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-colonca
+
+
+.. |required_by_bioconductor-colonca| conda:required_by:: bioconductor-colonca
+.. |downloads_bioconductor-colonca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-colonca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-colonca| image:: https://quay.io/repository/biocontainers/bioconductor-colonca/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-colonca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-colonca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-colonca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-colonca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-colonca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-colonca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-colonca
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-colonca/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-colonca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-colonca/README.html
 

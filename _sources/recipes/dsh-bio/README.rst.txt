@@ -1,54 +1,66 @@
-.. _`dsh-bio`:
+.. title:: Package Recipe 'dsh-bio'
+.. highlight: bash
+
 
 dsh-bio
 =======
 
-|downloads|
+.. conda:recipe:: dsh-bio
+   :replaces_section_title:
 
-Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, and VCF files
+   Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, and VCF files
 
-============= ===========
-Home          https://github.com/heuermh/dishevelled-bio
-Versions      1.0.1, 1.0
-License       LGPL version 3 or later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dsh-bio/meta.yaml
+   :homepage: https://github.com/heuermh/dishevelled-bio
+   :license: LGPL version 3 or later
+   :recipe: /`dsh-bio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsh-bio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsh-bio/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dsh-bio
 
-Installation
-------------
+   |downloads_dsh-bio| |docker_dsh-bio|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 
 
-   conda install dsh-bio
+   :required~by: |required_by_dsh-bio|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dsh-bio
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dsh-bio
+
+   and update with::
+
+      conda update dsh-bio
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dsh-bio
+
+
+.. |required_by_dsh-bio| conda:required_by:: dsh-bio
+.. |downloads_dsh-bio| image:: https://img.shields.io/conda/dn/bioconda/dsh-bio.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dsh-bio| image:: https://quay.io/repository/biocontainers/dsh-bio/status
+   :target: https://quay.io/repository/biocontainers/dsh-bio
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dsh-bio.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dsh-bio/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dsh-bio/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dsh-bio/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dsh-bio/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dsh-bio
-.. |docker| image:: https://quay.io/repository/biocontainers/dsh-bio/status
-                :target: https://quay.io/repository/biocontainers/dsh-bio
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dsh-bio/README.html
 

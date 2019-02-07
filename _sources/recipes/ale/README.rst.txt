@@ -1,54 +1,66 @@
-.. _`ale`:
+.. title:: Package Recipe 'ale'
+.. highlight: bash
+
 
 ale
 ===
 
-|downloads|
+.. conda:recipe:: ale
+   :replaces_section_title:
 
-ALE\: Assembly Likelihood Estimator
+   ALE\: Assembly Likelihood Estimator
 
-============= ===========
-Home          https://github.com/sc932/ALE
-Versions      20180904, 20160127
-License       NCSA
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ale/meta.yaml
+   :homepage: https://github.com/sc932/ALE
+   :license: NCSA
+   :recipe: /`ale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ale/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ale
 
-Installation
-------------
+   |downloads_ale| |docker_ale|
 
-.. highlight: bash
+   :versions: 20180904, 20160127
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`mpmath`  :conda:package:`pymix`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ale
+   :required~by: |required_by_ale|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ale
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ale
+
+   and update with::
+
+      conda update ale
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ale
+
+
+.. |required_by_ale| conda:required_by:: ale
+.. |downloads_ale| image:: https://img.shields.io/conda/dn/bioconda/ale.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ale| image:: https://quay.io/repository/biocontainers/ale/status
+   :target: https://quay.io/repository/biocontainers/ale
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ale.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ale/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ale/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ale/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ale/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ale
-.. |docker| image:: https://quay.io/repository/biocontainers/ale/status
-                :target: https://quay.io/repository/biocontainers/ale
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ale/README.html
 

@@ -1,56 +1,67 @@
-.. _`r-cnogpro`:
+.. title:: Package Recipe 'r-cnogpro'
+.. highlight: bash
+
 
 r-cnogpro
 =========
 
-|downloads|
+.. conda:recipe:: r-cnogpro
+   :replaces_section_title:
 
-Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=CNOGpro
-Versions      1.1
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cnogpro/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-cnogpro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro/meta.yaml>`_
+   :links: biotools: :biotools:`cnogpro`, doi: :doi:`10.1093/bioinformatics/btv070`
 
-
-
-Links         biotools: :biotools:`cnogpro`, doi: :doi:`10.1093/bioinformatics/btv070`
-
-============= ===========
+   
 
 
+.. conda:package:: r-cnogpro
 
-Installation
-------------
+   |downloads_r-cnogpro| |docker_r-cnogpro|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-seqinr`  
 
-   conda install r-cnogpro
+   :required~by: |required_by_r-cnogpro|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-cnogpro
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-cnogpro
+
+   and update with::
+
+      conda update r-cnogpro
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-cnogpro
+
+
+.. |required_by_r-cnogpro| conda:required_by:: r-cnogpro
+.. |downloads_r-cnogpro| image:: https://img.shields.io/conda/dn/bioconda/r-cnogpro.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-cnogpro| image:: https://quay.io/repository/biocontainers/r-cnogpro/status
+   :target: https://quay.io/repository/biocontainers/r-cnogpro
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-cnogpro.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-cnogpro/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-cnogpro/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-cnogpro/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-cnogpro/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-cnogpro
-.. |docker| image:: https://quay.io/repository/biocontainers/r-cnogpro/status
-                :target: https://quay.io/repository/biocontainers/r-cnogpro
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-cnogpro/README.html
 

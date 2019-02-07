@@ -1,38 +1,57 @@
-.. _`snpeff`:
+.. title:: Package Recipe 'snpeff'
+.. highlight: bash
+
 
 snpeff
 ======
 
-|downloads|
+.. conda:recipe:: snpeff
+   :replaces_section_title:
 
-Genetic variant annotation and effect prediction toolbox
+   Genetic variant annotation and effect prediction toolbox
 
-============= ===========
-Home          http://snpeff.sourceforge.net/
-Versions      4.3.1t, 4.3.1r, 4.3.1q, 4.3.1p, 4.3.1o, 4.3.1m, 4.3.1k, 4.3, 4.3k, 4.3i, 4.3g, 4.3b, 4.2, 4.1l
-License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpeff/meta.yaml
+   :homepage: http://snpeff.sourceforge.net/
+   :license: LGPLv3
+   :recipe: /`snpeff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpeff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpeff/meta.yaml>`_
+   :links: biotools: :biotools:`snpeff`
 
-
-
-Links         biotools: :biotools:`snpeff`
-
-============= ===========
+   
 
 
+.. conda:package:: snpeff
 
-Installation
-------------
+   |downloads_snpeff| |docker_snpeff|
 
-.. highlight: bash
+   :versions: 4.3.1t, 4.3.1r, 4.3.1q, 4.3.1p, 4.3.1o, 4.3.1m, 4.3.1k, 4.3, 4.3k, 4.3i, 4.3g, 4.3b, 4.2, 4.1l
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install snpeff
+   :required~by: |required_by_snpeff|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snpeff
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snpeff
+
+   and update with::
+
+      conda update snpeff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snpeff
+
+
+.. |required_by_snpeff| conda:required_by:: snpeff
+.. |downloads_snpeff| image:: https://img.shields.io/conda/dn/bioconda/snpeff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snpeff| image:: https://quay.io/repository/biocontainers/snpeff/status
+   :target: https://quay.io/repository/biocontainers/snpeff
+
+
+
+
 
 
 Notes
@@ -40,21 +59,13 @@ Notes
 Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/snpeff.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snpeff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snpeff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snpeff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snpeff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snpeff
-.. |docker| image:: https://quay.io/repository/biocontainers/snpeff/status
-                :target: https://quay.io/repository/biocontainers/snpeff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snpeff/README.html
 

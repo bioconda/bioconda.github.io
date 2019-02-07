@@ -1,54 +1,66 @@
-.. _`r-seqinr`:
+.. title:: Package Recipe 'r-seqinr'
+.. highlight: bash
+
 
 r-seqinr
 ========
 
-|downloads|
+.. conda:recipe:: r-seqinr
+   :replaces_section_title:
 
-Exploratory data analysis and data visualization for biological sequence \(DNA and protein\) data. Seqinr includes  utilities for sequence data management under the ACNUC system described in Gouy\, M. et al. \(1984\) Nucleic Acids Res. 12\:121\-127 \<doi\:10.1093\/nar\/12.1Part1.121\>.
+   
 
-============= ===========
-Home          http://seqinr.r-forge.r-project.org/
-Versions      3.4_5, 3.1_3
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-seqinr/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-seqinr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqinr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqinr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-seqinr
 
-Installation
-------------
+   |downloads_r-seqinr| |docker_r-seqinr|
 
-.. highlight: bash
+   :versions: 3.4_5, 3.1_3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`r-ade4`  :conda:package:`r-base` 3.4.1* :conda:package:`r-segmented`  
 
-   conda install r-seqinr
+   :required~by: |required_by_r-seqinr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-seqinr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-seqinr
+
+   and update with::
+
+      conda update r-seqinr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-seqinr
+
+
+.. |required_by_r-seqinr| conda:required_by:: r-seqinr
+.. |downloads_r-seqinr| image:: https://img.shields.io/conda/dn/bioconda/r-seqinr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-seqinr| image:: https://quay.io/repository/biocontainers/r-seqinr/status
+   :target: https://quay.io/repository/biocontainers/r-seqinr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-seqinr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-seqinr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-seqinr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-seqinr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-seqinr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-seqinr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-seqinr/status
-                :target: https://quay.io/repository/biocontainers/r-seqinr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-seqinr/README.html
 

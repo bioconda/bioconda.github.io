@@ -1,56 +1,67 @@
-.. _`bioconductor-beadarray`:
+.. title:: Package Recipe 'bioconductor-beadarray'
+.. highlight: bash
+
 
 bioconductor-beadarray
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-beadarray
+   :replaces_section_title:
 
-The package is able to read bead\-level data \(raw TIFFs and text files\) output by BeadScan as well as bead\-summary data from BeadStudio.  Methods for quality assessment and low\-level analysis are provided.
+   The package is able to read bead\-level data \(raw TIFFs and text files\) output by BeadScan as well as bead\-summary data from BeadStudio.  Methods for quality assessment and low\-level analysis are provided.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/beadarray.html
-Versions      2.32.0, 2.30.0, 2.28.0, 2.26.1
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-beadarray/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/beadarray.html
+   :license: GPL-2
+   :recipe: /`bioconductor-beadarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarray/meta.yaml>`_
+   :links: biotools: :biotools:`beadarray`
 
-
-
-Links         biotools: :biotools:`beadarray`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-beadarray
 
-Installation
-------------
+   |downloads_bioconductor-beadarray| |docker_bioconductor-beadarray|
 
-.. highlight: bash
+   :versions: 2.32.0, 2.30.0, 2.28.0, 2.26.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-beaddatapackr` >=1.34.0,<1.35.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-illuminaio` >=0.24.0,<0.25.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-reshape2`  
 
-   conda install bioconductor-beadarray
+   :required~by: |required_by_bioconductor-beadarray|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-beadarray
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-beadarray
+
+   and update with::
+
+      conda update bioconductor-beadarray
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-beadarray
+
+
+.. |required_by_bioconductor-beadarray| conda:required_by:: bioconductor-beadarray
+.. |downloads_bioconductor-beadarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beadarray.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-beadarray| image:: https://quay.io/repository/biocontainers/bioconductor-beadarray/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-beadarray
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-beadarray.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-beadarray/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-beadarray/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-beadarray/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-beadarray/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-beadarray
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-beadarray/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-beadarray
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-beadarray/README.html
 

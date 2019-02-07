@@ -1,54 +1,66 @@
-.. _`extractpirs`:
+.. title:: Package Recipe 'extractpirs'
+.. highlight: bash
+
 
 extractpirs
 ===========
 
-|downloads|
+.. conda:recipe:: extractpirs
+   :replaces_section_title:
 
-A phase informative read \(PIR\) is a sequencing read that span at least 2 heterozyguous sites. In the following\, we require first that the sequence data is stored in BAM files and second that the genotype data to be phased is in VCF format. We developed a small tool\, extractPIRs\, to extract the PIRs from BAM files that relies on the samtools API for efficiency
+   A phase informative read \(PIR\) is a sequencing read that span at least 2 heterozyguous sites. In the following\, we require first that the sequence data is stored in BAM files and second that the genotype data to be phased is in VCF format. We developed a small tool\, extractPIRs\, to extract the PIRs from BAM files that relies on the samtools API for efficiency
 
-============= ===========
-Home          https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
-Versions      1.0
-License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//extractpirs/meta.yaml
+   :homepage: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+   :license: Free for Academic Use
+   :recipe: /`extractpirs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extractpirs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extractpirs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: extractpirs
 
-Installation
-------------
+   |downloads_extractpirs| |docker_extractpirs|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install extractpirs
+   :required~by: |required_by_extractpirs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update extractpirs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install extractpirs
+
+   and update with::
+
+      conda update extractpirs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/extractpirs
+
+
+.. |required_by_extractpirs| conda:required_by:: extractpirs
+.. |downloads_extractpirs| image:: https://img.shields.io/conda/dn/bioconda/extractpirs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_extractpirs| image:: https://quay.io/repository/biocontainers/extractpirs/status
+   :target: https://quay.io/repository/biocontainers/extractpirs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/extractpirs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/extractpirs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/extractpirs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/extractpirs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/extractpirs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/extractpirs
-.. |docker| image:: https://quay.io/repository/biocontainers/extractpirs/status
-                :target: https://quay.io/repository/biocontainers/extractpirs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/extractpirs/README.html
 

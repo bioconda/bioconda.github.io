@@ -1,54 +1,66 @@
-.. _`bioconductor-meebodata`:
+.. title:: Package Recipe 'bioconductor-meebodata'
+.. highlight: bash
+
 
 bioconductor-meebodata
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-meebodata
+   :replaces_section_title:
 
-R objects describing the MEEBO set.
+   R objects describing the MEEBO set.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/MEEBOdata.html
-Versions      1.20.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-meebodata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MEEBOdata.html
+   :license: LGPL
+   :recipe: /`bioconductor-meebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-meebodata
 
-Installation
-------------
+   |downloads_bioconductor-meebodata| |docker_bioconductor-meebodata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-meebodata
+   :required~by: |required_by_bioconductor-meebodata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-meebodata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-meebodata
+
+   and update with::
+
+      conda update bioconductor-meebodata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-meebodata
+
+
+.. |required_by_bioconductor-meebodata| conda:required_by:: bioconductor-meebodata
+.. |downloads_bioconductor-meebodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meebodata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-meebodata| image:: https://quay.io/repository/biocontainers/bioconductor-meebodata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-meebodata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-meebodata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-meebodata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-meebodata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-meebodata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-meebodata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-meebodata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-meebodata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-meebodata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-meebodata/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-dbsnoop`:
+.. title:: Package Recipe 'ucsc-dbsnoop'
+.. highlight: bash
+
 
 ucsc-dbsnoop
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-dbsnoop
+   :replaces_section_title:
 
-Produce an overview of a database.
+   Produce an overview of a database.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-dbsnoop/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-dbsnoop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbsnoop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbsnoop/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-dbsnoop
 
-Installation
-------------
+   |downloads_ucsc-dbsnoop| |docker_ucsc-dbsnoop|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-dbsnoop
+   :required~by: |required_by_ucsc-dbsnoop|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-dbsnoop
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-dbsnoop
+
+   and update with::
+
+      conda update ucsc-dbsnoop
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-dbsnoop
+
+
+.. |required_by_ucsc-dbsnoop| conda:required_by:: ucsc-dbsnoop
+.. |downloads_ucsc-dbsnoop| image:: https://img.shields.io/conda/dn/bioconda/ucsc-dbsnoop.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-dbsnoop| image:: https://quay.io/repository/biocontainers/ucsc-dbsnoop/status
+   :target: https://quay.io/repository/biocontainers/ucsc-dbsnoop
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-dbsnoop.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-dbsnoop/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-dbsnoop/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-dbsnoop/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-dbsnoop/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-dbsnoop
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-dbsnoop/status
-                :target: https://quay.io/repository/biocontainers/ucsc-dbsnoop
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-dbsnoop/README.html
 

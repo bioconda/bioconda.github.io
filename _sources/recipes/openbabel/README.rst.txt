@@ -1,54 +1,66 @@
-.. _`openbabel`:
+.. title:: Package Recipe 'openbabel'
+.. highlight: bash
+
 
 openbabel
 =========
 
-|downloads|
+.. conda:recipe:: openbabel/2.3.2
+   :replaces_section_title:
 
-Open Babel is a chemical toolbox designed to speak the many languages of chemical data. It\'s an open\, collaborative project allowing anyone to search\, convert\, analyze\, or store data from molecular modeling\, chemistry\, solid\-state materials\, biochemistry\, or related areas.
+   Open Babel is a chemical toolbox designed to speak the many languages of chemical data. It\'s an open\, collaborative project allowing anyone to search\, convert\, analyze\, or store data from molecular modeling\, chemistry\, solid\-state materials\, biochemistry\, or related areas.
 
-============= ===========
-Home          http://openbabel.org
-Versions      2.4.1, 2.3.90dev7d621d9, 2.3.2
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openbabel/2.3.2/meta.yaml
+   :homepage: http://openbabel.org
+   :license: GPL
+   :recipe: /`openbabel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openbabel>`_/`2.3.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openbabel/2.3.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openbabel/2.3.2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: openbabel
 
-Installation
-------------
+   |downloads_openbabel| |docker_openbabel|
 
-.. highlight: bash
+   :versions: 2.4.1, 2.3.90dev7d621d9, 2.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cairo`  :conda:package:`libgcc`  :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`zlib`  
 
-   conda install openbabel
+   :required~by: |required_by_openbabel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update openbabel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install openbabel
+
+   and update with::
+
+      conda update openbabel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/openbabel
+
+
+.. |required_by_openbabel| conda:required_by:: openbabel
+.. |downloads_openbabel| image:: https://img.shields.io/conda/dn/bioconda/openbabel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_openbabel| image:: https://quay.io/repository/biocontainers/openbabel/status
+   :target: https://quay.io/repository/biocontainers/openbabel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/openbabel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/openbabel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/openbabel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/openbabel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/openbabel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/openbabel
-.. |docker| image:: https://quay.io/repository/biocontainers/openbabel/status
-                :target: https://quay.io/repository/biocontainers/openbabel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/openbabel/README.html
 

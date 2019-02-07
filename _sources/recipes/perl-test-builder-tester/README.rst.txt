@@ -1,54 +1,66 @@
-.. _`perl-test-builder-tester`:
+.. title:: Package Recipe 'perl-test-builder-tester'
+.. highlight: bash
+
 
 perl-test-builder-tester
 ========================
 
-|downloads|
+.. conda:recipe:: perl-test-builder-tester
+   :replaces_section_title:
 
-test testsuites that have been built with Test\:\:Builder
+   test testsuites that have been built with Test\:\:Builder
 
-============= ===========
-Home          http://metacpan.org/pod/Test::Builder::Tester
-Versions      1.23_002
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-builder-tester/meta.yaml
+   :homepage: http://metacpan.org/pod/Test::Builder::Tester
+   :license: unknown
+   :recipe: /`perl-test-builder-tester <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-builder-tester>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-builder-tester/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-builder-tester
 
-Installation
-------------
+   |downloads_perl-test-builder-tester| |docker_perl-test-builder-tester|
 
-.. highlight: bash
+   :versions: 1.23_002
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-test-builder-tester
+   :required~by: |required_by_perl-test-builder-tester|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-builder-tester
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-builder-tester
+
+   and update with::
+
+      conda update perl-test-builder-tester
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-builder-tester
+
+
+.. |required_by_perl-test-builder-tester| conda:required_by:: perl-test-builder-tester
+.. |downloads_perl-test-builder-tester| image:: https://img.shields.io/conda/dn/bioconda/perl-test-builder-tester.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-builder-tester| image:: https://quay.io/repository/biocontainers/perl-test-builder-tester/status
+   :target: https://quay.io/repository/biocontainers/perl-test-builder-tester
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-builder-tester.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-builder-tester/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-builder-tester/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-builder-tester/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-builder-tester/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-builder-tester
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-builder-tester/status
-                :target: https://quay.io/repository/biocontainers/perl-test-builder-tester
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-builder-tester/README.html
 

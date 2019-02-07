@@ -1,54 +1,66 @@
-.. _`r-htscluster`:
+.. title:: Package Recipe 'r-htscluster'
+.. highlight: bash
+
 
 r-htscluster
 ============
 
-|downloads|
+.. conda:recipe:: r-htscluster
+   :replaces_section_title:
 
-A Poisson mixture model is implemented to cluster genes from high\- throughput transcriptome sequencing \(RNA\-seq\) data. Parameter estimation is performed using either the EM or CEM algorithm\, and the slope heuristics are used for model selection \(i.e.\, to choose the number of clusters\).
+   A Poisson mixture model is implemented to cluster genes from high\- throughput transcriptome sequencing \(RNA\-seq\) data. Parameter estimation is performed using either the EM or CEM algorithm\, and the slope heuristics are used for model selection \(i.e.\, to choose the number of clusters\).
 
-============= ===========
-Home          https://CRAN.R-project.org/package=HTSCluster
-Versions      2.0.8
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-htscluster/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=HTSCluster
+   :license: GPL3 / GPL (>= 3)
+   :recipe: /`r-htscluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-htscluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-htscluster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-htscluster
 
-Installation
-------------
+   |downloads_r-htscluster| |docker_r-htscluster|
 
-.. highlight: bash
+   :versions: 2.0.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-edger`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-capushe`  :conda:package:`r-plotrix`  
 
-   conda install r-htscluster
+   :required~by: |required_by_r-htscluster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-htscluster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-htscluster
+
+   and update with::
+
+      conda update r-htscluster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-htscluster
+
+
+.. |required_by_r-htscluster| conda:required_by:: r-htscluster
+.. |downloads_r-htscluster| image:: https://img.shields.io/conda/dn/bioconda/r-htscluster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-htscluster| image:: https://quay.io/repository/biocontainers/r-htscluster/status
+   :target: https://quay.io/repository/biocontainers/r-htscluster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-htscluster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-htscluster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-htscluster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-htscluster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-htscluster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-htscluster
-.. |docker| image:: https://quay.io/repository/biocontainers/r-htscluster/status
-                :target: https://quay.io/repository/biocontainers/r-htscluster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-htscluster/README.html
 

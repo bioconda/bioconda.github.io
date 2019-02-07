@@ -1,56 +1,67 @@
-.. _`abawaca`:
+.. title:: Package Recipe 'abawaca'
+.. highlight: bash
+
 
 abawaca
 =======
 
-|downloads|
+.. conda:recipe:: abawaca
+   :replaces_section_title:
 
-abawaca is a binning program for metagenomics
+   abawaca is a binning program for metagenomics
 
-============= ===========
-Home          https://github.com/CK7/abawaca
-Versions      1.00
-License       open source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//abawaca/meta.yaml
+   :homepage: https://github.com/CK7/abawaca
+   :license: open source
+   :recipe: /`abawaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abawaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abawaca/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nature14486`
 
-
-
-Links         doi: :doi:`10.1038/nature14486`
-
-============= ===========
+   
 
 
+.. conda:package:: abawaca
 
-Installation
-------------
+   |downloads_abawaca| |docker_abawaca|
 
-.. highlight: bash
+   :versions: 1.00
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install abawaca
+   :required~by: |required_by_abawaca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update abawaca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install abawaca
+
+   and update with::
+
+      conda update abawaca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/abawaca
+
+
+.. |required_by_abawaca| conda:required_by:: abawaca
+.. |downloads_abawaca| image:: https://img.shields.io/conda/dn/bioconda/abawaca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_abawaca| image:: https://quay.io/repository/biocontainers/abawaca/status
+   :target: https://quay.io/repository/biocontainers/abawaca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/abawaca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/abawaca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/abawaca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/abawaca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/abawaca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/abawaca
-.. |docker| image:: https://quay.io/repository/biocontainers/abawaca/status
-                :target: https://quay.io/repository/biocontainers/abawaca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/abawaca/README.html
 

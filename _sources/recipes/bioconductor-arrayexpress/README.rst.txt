@@ -1,54 +1,66 @@
-.. _`bioconductor-arrayexpress`:
+.. title:: Package Recipe 'bioconductor-arrayexpress'
+.. highlight: bash
+
 
 bioconductor-arrayexpress
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-arrayexpress
+   :replaces_section_title:
 
-Access the ArrayExpress Repository at EBI and build Bioconductor data structures\: ExpressionSet\, AffyBatch\, NChannelSet
+   Access the ArrayExpress Repository at EBI and build Bioconductor data structures\: ExpressionSet\, AffyBatch\, NChannelSet
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ArrayExpress.html
-Versions      1.42.0, 1.40.0, 1.38.0, 1.36.1
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-arrayexpress/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ArrayExpress.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-arrayexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-arrayexpress
 
-Installation
-------------
+   |downloads_bioconductor-arrayexpress| |docker_bioconductor-arrayexpress|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-xml`  
 
-   conda install bioconductor-arrayexpress
+   :required~by: |required_by_bioconductor-arrayexpress|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-arrayexpress
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-arrayexpress
+
+   and update with::
+
+      conda update bioconductor-arrayexpress
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-arrayexpress
+
+
+.. |required_by_bioconductor-arrayexpress| conda:required_by:: bioconductor-arrayexpress
+.. |downloads_bioconductor-arrayexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayexpress.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-arrayexpress| image:: https://quay.io/repository/biocontainers/bioconductor-arrayexpress/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-arrayexpress
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-arrayexpress.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-arrayexpress/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-arrayexpress/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-arrayexpress/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-arrayexpress/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-arrayexpress
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-arrayexpress/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-arrayexpress
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-arrayexpress/README.html
 

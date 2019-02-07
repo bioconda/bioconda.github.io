@@ -1,54 +1,66 @@
-.. _`gnuplot-py`:
+.. title:: Package Recipe 'gnuplot-py'
+.. highlight: bash
+
 
 gnuplot-py
 ==========
 
-|downloads|
+.. conda:recipe:: gnuplot-py
+   :replaces_section_title:
 
-A Python interface to the gnuplot plotting program.
+   A Python interface to the gnuplot plotting program.
 
-============= ===========
-Home          http://gnuplot-py.sourceforge.net
-Versions      1.8
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gnuplot-py/meta.yaml
+   :homepage: http://gnuplot-py.sourceforge.net
+   :license: LGPL / LGPL
+   :recipe: /`gnuplot-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnuplot-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnuplot-py/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gnuplot-py
 
-Installation
-------------
+   |downloads_gnuplot-py| |docker_gnuplot-py|
 
-.. highlight: bash
+   :versions: 1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gnuplot`  :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install gnuplot-py
+   :required~by: |required_by_gnuplot-py|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gnuplot-py
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gnuplot-py
+
+   and update with::
+
+      conda update gnuplot-py
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gnuplot-py
+
+
+.. |required_by_gnuplot-py| conda:required_by:: gnuplot-py
+.. |downloads_gnuplot-py| image:: https://img.shields.io/conda/dn/bioconda/gnuplot-py.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gnuplot-py| image:: https://quay.io/repository/biocontainers/gnuplot-py/status
+   :target: https://quay.io/repository/biocontainers/gnuplot-py
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gnuplot-py.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gnuplot-py/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gnuplot-py/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gnuplot-py/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gnuplot-py/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gnuplot-py
-.. |docker| image:: https://quay.io/repository/biocontainers/gnuplot-py/status
-                :target: https://quay.io/repository/biocontainers/gnuplot-py
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gnuplot-py/README.html
 

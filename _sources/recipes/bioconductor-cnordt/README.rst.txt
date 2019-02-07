@@ -1,54 +1,66 @@
-.. _`bioconductor-cnordt`:
+.. title:: Package Recipe 'bioconductor-cnordt'
+.. highlight: bash
+
 
 bioconductor-cnordt
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-cnordt
+   :replaces_section_title:
 
-This add\-on to the package CellNOptR handles time\-course data\, as opposed to steady state data in CellNOptR. It scales the simulation step to allow comparison and model fitting for time\-course data. Future versions will optimize delays and strengths for each edge.
+   This add\-on to the package CellNOptR handles time\-course data\, as opposed to steady state data in CellNOptR. It scales the simulation step to allow comparison and model fitting for time\-course data. Future versions will optimize delays and strengths for each edge.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CNORdt.html
-Versions      1.24.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnordt/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CNORdt.html
+   :license: GPL-2
+   :recipe: /`bioconductor-cnordt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cnordt
 
-Installation
-------------
+   |downloads_bioconductor-cnordt| |docker_bioconductor-cnordt|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-cellnoptr` >=1.28.0,<1.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-cnordt
+   :required~by: |required_by_bioconductor-cnordt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cnordt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cnordt
+
+   and update with::
+
+      conda update bioconductor-cnordt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cnordt
+
+
+.. |required_by_bioconductor-cnordt| conda:required_by:: bioconductor-cnordt
+.. |downloads_bioconductor-cnordt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnordt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cnordt| image:: https://quay.io/repository/biocontainers/bioconductor-cnordt/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cnordt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cnordt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cnordt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cnordt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cnordt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cnordt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cnordt
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cnordt/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cnordt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cnordt/README.html
 

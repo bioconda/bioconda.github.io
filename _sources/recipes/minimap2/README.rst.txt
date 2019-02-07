@@ -1,54 +1,66 @@
-.. _`minimap2`:
+.. title:: Package Recipe 'minimap2'
+.. highlight: bash
+
 
 minimap2
 ========
 
-|downloads|
+.. conda:recipe:: minimap2
+   :replaces_section_title:
 
-A versatile pairwise aligner for genomic and spliced nucleotide sequences.
+   A versatile pairwise aligner for genomic and spliced nucleotide sequences.
 
-============= ===========
-Home          https://github.com/lh3/minimap2
-Versions      2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6.1, 2.6, 2.5, 2.4, 2.3, 2.1.1, 2.1.r311, 2.0.r191
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//minimap2/meta.yaml
+   :homepage: https://github.com/lh3/minimap2
+   :license: MIT
+   :recipe: /`minimap2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: minimap2
 
-Installation
-------------
+   |downloads_minimap2| |docker_minimap2|
 
-.. highlight: bash
+   :versions: 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6.1, 2.6, 2.5, 2.4, 2.3, 2.1.1, 2.1.r311, 2.0.r191
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install minimap2
+   :required~by: |required_by_minimap2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update minimap2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install minimap2
+
+   and update with::
+
+      conda update minimap2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/minimap2
+
+
+.. |required_by_minimap2| conda:required_by:: minimap2
+.. |downloads_minimap2| image:: https://img.shields.io/conda/dn/bioconda/minimap2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_minimap2| image:: https://quay.io/repository/biocontainers/minimap2/status
+   :target: https://quay.io/repository/biocontainers/minimap2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/minimap2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/minimap2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/minimap2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/minimap2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/minimap2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/minimap2
-.. |docker| image:: https://quay.io/repository/biocontainers/minimap2/status
-                :target: https://quay.io/repository/biocontainers/minimap2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/minimap2/README.html
 

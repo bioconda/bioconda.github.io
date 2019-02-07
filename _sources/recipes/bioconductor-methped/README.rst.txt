@@ -1,56 +1,67 @@
-.. _`bioconductor-methped`:
+.. title:: Package Recipe 'bioconductor-methped'
+.. highlight: bash
+
 
 bioconductor-methped
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-methped
+   :replaces_section_title:
 
-Classification of pediatric tumors into biologically defined subtypes is challenging and multifaceted approaches are needed. For this aim\, we developed a diagnostic classifier based on DNA methylation profiles. We offer MethPed as an easy\-to\-use toolbox that allows researchers and clinical diagnosticians to test single samples as well as large cohorts for subclass prediction of pediatric brain tumors.  The current version of MethPed can classify the following tumor diagnoses\/subgroups\: Diffuse Intrinsic Pontine Glioma \(DIPG\)\, Ependymoma\, Embryonal tumors with multilayered rosettes \(ETMR\)\, Glioblastoma \(GBM\)\, Medulloblastoma \(MB\) \- Group 3 \(MB\_Gr3\)\, Group 4 \(MB\_Gr3\)\, Group WNT \(MB\_WNT\)\, Group SHH \(MB\_SHH\) and Pilocytic Astrocytoma \(PiloAstro\).
+   Classification of pediatric tumors into biologically defined subtypes is challenging and multifaceted approaches are needed. For this aim\, we developed a diagnostic classifier based on DNA methylation profiles. We offer MethPed as an easy\-to\-use toolbox that allows researchers and clinical diagnosticians to test single samples as well as large cohorts for subclass prediction of pediatric brain tumors.  The current version of MethPed can classify the following tumor diagnoses\/subgroups\: Diffuse Intrinsic Pontine Glioma \(DIPG\)\, Ependymoma\, Embryonal tumors with multilayered rosettes \(ETMR\)\, Glioblastoma \(GBM\)\, Medulloblastoma \(MB\) \- Group 3 \(MB\_Gr3\)\, Group 4 \(MB\_Gr3\)\, Group WNT \(MB\_WNT\)\, Group SHH \(MB\_SHH\) and Pilocytic Astrocytoma \(PiloAstro\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MethPed.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methped/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MethPed.html
+   :license: GPL-2
+   :recipe: /`bioconductor-methped <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methped>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methped/meta.yaml>`_
+   :links: biotools: :biotools:`methped`, doi: :doi:`10.1186/s13148-015-0103-3`
 
-
-
-Links         biotools: :biotools:`methped`, doi: :doi:`10.1186/s13148-015-0103-3`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-methped
 
-Installation
-------------
+   |downloads_bioconductor-methped| |docker_bioconductor-methped|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-randomforest`  
 
-   conda install bioconductor-methped
+   :required~by: |required_by_bioconductor-methped|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-methped
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-methped
+
+   and update with::
+
+      conda update bioconductor-methped
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-methped
+
+
+.. |required_by_bioconductor-methped| conda:required_by:: bioconductor-methped
+.. |downloads_bioconductor-methped| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methped.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-methped| image:: https://quay.io/repository/biocontainers/bioconductor-methped/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-methped
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-methped.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-methped/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-methped/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-methped/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-methped/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-methped
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-methped/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-methped
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-methped/README.html
 

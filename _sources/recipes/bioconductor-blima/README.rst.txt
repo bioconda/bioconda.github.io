@@ -1,56 +1,67 @@
-.. _`bioconductor-blima`:
+.. title:: Package Recipe 'bioconductor-blima'
+.. highlight: bash
+
 
 bioconductor-blima
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-blima
+   :replaces_section_title:
 
-Package blima includes several algorithms for the preprocessing of Illumina microarray data. It focuses to the bead level analysis and provides novel approach to the quantile normalization of the vectors of unequal lengths. It provides variety of the methods for background correction including background subtraction\, RMA like convolution and background outlier removal. It also implements variance stabilizing transformation on the bead level. There are also implemented methods for data summarization. It also provides the methods for performing T\-tests on the detector \(bead\) level and on the probe level for differential expression testing.
+   Package blima includes several algorithms for the preprocessing of Illumina microarray data. It focuses to the bead level analysis and provides novel approach to the quantile normalization of the vectors of unequal lengths. It provides variety of the methods for background correction including background subtraction\, RMA like convolution and background outlier removal. It also implements variance stabilizing transformation on the bead level. There are also implemented methods for data summarization. It also provides the methods for performing T\-tests on the detector \(bead\) level and on the probe level for differential expression testing.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/blima.html
-Versions      1.16.0, 1.14.0, 1.12.0, 1.10.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-blima/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/blima.html
+   :license: GPL-3
+   :recipe: /`bioconductor-blima <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima/meta.yaml>`_
+   :links: biotools: :biotools:`blima`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`blima`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-blima
 
-Installation
-------------
+   |downloads_bioconductor-blima| |docker_bioconductor-blima|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-beadarray` >=2.32.0,<2.33.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.12.8 
 
-   conda install bioconductor-blima
+   :required~by: |required_by_bioconductor-blima|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-blima
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-blima
+
+   and update with::
+
+      conda update bioconductor-blima
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-blima
+
+
+.. |required_by_bioconductor-blima| conda:required_by:: bioconductor-blima
+.. |downloads_bioconductor-blima| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-blima.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-blima| image:: https://quay.io/repository/biocontainers/bioconductor-blima/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-blima
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-blima.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-blima/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-blima/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-blima/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-blima/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-blima
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-blima/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-blima
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-blima/README.html
 

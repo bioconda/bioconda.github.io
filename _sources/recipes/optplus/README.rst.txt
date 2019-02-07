@@ -1,54 +1,66 @@
-.. _`optplus`:
+.. title:: Package Recipe 'optplus'
+.. highlight: bash
+
 
 optplus
 =======
 
-|downloads|
+.. conda:recipe:: optplus
+   :replaces_section_title:
 
-additional options for optparse
+   additional options for optparse
 
-============= ===========
-Home          http://noble.gs.washington.edu/~mmh1/software/optplus/
-Versions      0.2, 0.1.1
-License       UNKNOWN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//optplus/meta.yaml
+   :homepage: http://noble.gs.washington.edu/~mmh1/software/optplus/
+   :license: UNKNOWN
+   :recipe: /`optplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: optplus
 
-Installation
-------------
+   |downloads_optplus| |docker_optplus|
 
-.. highlight: bash
+   :versions: 0.2, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  :conda:package:`six`  
 
-   conda install optplus
+   :required~by: |required_by_optplus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update optplus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install optplus
+
+   and update with::
+
+      conda update optplus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/optplus
+
+
+.. |required_by_optplus| conda:required_by:: optplus
+.. |downloads_optplus| image:: https://img.shields.io/conda/dn/bioconda/optplus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_optplus| image:: https://quay.io/repository/biocontainers/optplus/status
+   :target: https://quay.io/repository/biocontainers/optplus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/optplus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/optplus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/optplus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/optplus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/optplus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/optplus
-.. |docker| image:: https://quay.io/repository/biocontainers/optplus/status
-                :target: https://quay.io/repository/biocontainers/optplus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/optplus/README.html
 

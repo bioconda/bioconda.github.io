@@ -1,54 +1,66 @@
-.. _`lordec`:
+.. title:: Package Recipe 'lordec'
+.. highlight: bash
+
 
 lordec
 ======
 
-|downloads|
+.. conda:recipe:: lordec
+   :replaces_section_title:
 
-A hybrid error correction program for long\, PacBio reads
+   A hybrid error correction program for long\, PacBio reads
 
-============= ===========
-Home          http://www.atgc-montpellier.fr/lordec/
-Versions      0.9, 0.6
-License       CeCILL A license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lordec/meta.yaml
+   :homepage: http://www.atgc-montpellier.fr/lordec/
+   :license: CeCILL A license
+   :recipe: /`lordec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lordec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lordec/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lordec
 
-Installation
-------------
+   |downloads_lordec| |docker_lordec|
 
-.. highlight: bash
+   :versions: 0.9, 0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`gatb` 1.4.1.* :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install lordec
+   :required~by: |required_by_lordec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lordec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lordec
+
+   and update with::
+
+      conda update lordec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lordec
+
+
+.. |required_by_lordec| conda:required_by:: lordec
+.. |downloads_lordec| image:: https://img.shields.io/conda/dn/bioconda/lordec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lordec| image:: https://quay.io/repository/biocontainers/lordec/status
+   :target: https://quay.io/repository/biocontainers/lordec
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lordec.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lordec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lordec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lordec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lordec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lordec
-.. |docker| image:: https://quay.io/repository/biocontainers/lordec/status
-                :target: https://quay.io/repository/biocontainers/lordec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lordec/README.html
 

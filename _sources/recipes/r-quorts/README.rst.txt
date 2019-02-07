@@ -1,36 +1,56 @@
-.. _`r-quorts`:
+.. title:: Package Recipe 'r-quorts'
+.. highlight: bash
+
 
 r-quorts
 ========
 
-|downloads|
+.. conda:recipe:: r-quorts
+   :replaces_section_title:
 
-The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets.
+   The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets.
 
-============= ===========
-Home          https://github.com/hartleys/QoRTs
-Versions      1.3.0
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-quorts/meta.yaml
+   :homepage: https://github.com/hartleys/QoRTs
+   :license: Public Domain
+   :recipe: /`r-quorts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-quorts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-quorts/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-quorts
 
-Installation
-------------
+   |downloads_r-quorts| |docker_r-quorts|
 
-.. highlight: bash
+   :versions: 1.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.0.2 
 
-   conda install r-quorts
+   :required~by: |required_by_r-quorts|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-quorts
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-quorts
+
+   and update with::
+
+      conda update r-quorts
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-quorts
+
+
+.. |required_by_r-quorts| conda:required_by:: r-quorts
+.. |downloads_r-quorts| image:: https://img.shields.io/conda/dn/bioconda/r-quorts.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-quorts| image:: https://quay.io/repository/biocontainers/r-quorts/status
+   :target: https://quay.io/repository/biocontainers/r-quorts
+
+
+
+
 
 
 Notes
@@ -39,21 +59,13 @@ This package is a requirement of the main QoRTs package\; \"qorts\".
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/r-quorts.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-quorts/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-quorts/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-quorts/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-quorts/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-quorts
-.. |docker| image:: https://quay.io/repository/biocontainers/r-quorts/status
-                :target: https://quay.io/repository/biocontainers/r-quorts
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-quorts/README.html
 

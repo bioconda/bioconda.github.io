@@ -1,54 +1,66 @@
-.. _`nucdiff`:
+.. title:: Package Recipe 'nucdiff'
+.. highlight: bash
+
 
 nucdiff
 =======
 
-|downloads|
+.. conda:recipe:: nucdiff
+   :replaces_section_title:
 
-NucDiff locates and categorizes differences between two closely related nucleotide sequences.
+   NucDiff locates and categorizes differences between two closely related nucleotide sequences.
 
-============= ===========
-Home          https://github.com/uio-cels/NucDiff
-Versions      2.0.2, 0.1.1
-License       MPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nucdiff/meta.yaml
+   :homepage: https://github.com/uio-cels/NucDiff
+   :license: MPL-2.0
+   :recipe: /`nucdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucdiff/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nucdiff
 
-Installation
-------------
+   |downloads_nucdiff| |docker_nucdiff|
 
-.. highlight: bash
+   :versions: 2.0.2, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`mummer`  :conda:package:`python` 2.7* 
 
-   conda install nucdiff
+   :required~by: |required_by_nucdiff|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nucdiff
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nucdiff
+
+   and update with::
+
+      conda update nucdiff
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nucdiff
+
+
+.. |required_by_nucdiff| conda:required_by:: nucdiff
+.. |downloads_nucdiff| image:: https://img.shields.io/conda/dn/bioconda/nucdiff.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nucdiff| image:: https://quay.io/repository/biocontainers/nucdiff/status
+   :target: https://quay.io/repository/biocontainers/nucdiff
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nucdiff.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nucdiff/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nucdiff/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nucdiff/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nucdiff/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nucdiff
-.. |docker| image:: https://quay.io/repository/biocontainers/nucdiff/status
-                :target: https://quay.io/repository/biocontainers/nucdiff
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nucdiff/README.html
 

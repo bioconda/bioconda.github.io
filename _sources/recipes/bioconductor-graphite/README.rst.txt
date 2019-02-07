@@ -1,56 +1,67 @@
-.. _`bioconductor-graphite`:
+.. title:: Package Recipe 'bioconductor-graphite'
+.. highlight: bash
+
 
 bioconductor-graphite
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-graphite
+   :replaces_section_title:
 
-Graph objects from pathway topology derived from Biocarta\, HumanCyc\, KEGG\, NCI\, Panther\, PathBank\, PharmGKB\, Reactome and SMPDB databases.
+   Graph objects from pathway topology derived from Biocarta\, HumanCyc\, KEGG\, NCI\, Panther\, PathBank\, PharmGKB\, Reactome and SMPDB databases.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/graphite.html
-Versions      1.28.1, 1.26.3, 1.24.0, 1.22.0, 1.16.0
-License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-graphite/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/graphite.html
+   :license: AGPL-3
+   :recipe: /`bioconductor-graphite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphite/meta.yaml>`_
+   :links: biotools: :biotools:`graphite`
 
-
-
-Links         biotools: :biotools:`graphite`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-graphite
 
-Installation
-------------
+   |downloads_bioconductor-graphite| |docker_bioconductor-graphite|
 
-.. highlight: bash
+   :versions: 1.28.1, 1.26.3, 1.24.0, 1.22.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-checkmate`  :conda:package:`r-httr`  :conda:package:`r-rappdirs`  
 
-   conda install bioconductor-graphite
+   :required~by: |required_by_bioconductor-graphite|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-graphite
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-graphite
+
+   and update with::
+
+      conda update bioconductor-graphite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-graphite
+
+
+.. |required_by_bioconductor-graphite| conda:required_by:: bioconductor-graphite
+.. |downloads_bioconductor-graphite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-graphite| image:: https://quay.io/repository/biocontainers/bioconductor-graphite/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-graphite
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-graphite.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-graphite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-graphite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-graphite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-graphite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-graphite
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-graphite/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-graphite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-graphite/README.html
 

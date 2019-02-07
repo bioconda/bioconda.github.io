@@ -1,54 +1,66 @@
-.. _`bioconductor-flowtime`:
+.. title:: Package Recipe 'bioconductor-flowtime'
+.. highlight: bash
+
 
 bioconductor-flowtime
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-flowtime
+   :replaces_section_title:
 
-This package was developed for analysis of both dynamic and steady state experiments examining the function of gene regulatory networks in yeast \(strain W303\) expressing fluorescent reporter proteins using a BD Accuri C6 and SORP cytometers. However\, the functions are for the most part general and may be adapted for analysis of other organisms using other flow cytometers. Functions in this package facilitate the annotation of flow cytometry data with experimental metadata\, as is requisite for dissemination and general ease\-of\-use. Functions for creating\, saving and loading gate sets are also included. In the past\, we have typically generated summary statistics for each flowset for each timepoint and then annotated and analyzed these summary statistics. This method loses a great deal of the power that comes from the large amounts of individual cell data generated in flow cytometry\, by essentially collapsing this data into a bulk measurement after subsetting. In addition to these summary functions\, this package also contains functions to facilitate annotation and analysis of steady\-state or time\-lapse data utilizing all of the data collected from the thousands of individual cells in each sample.
+   This package was developed for analysis of both dynamic and steady state experiments examining the function of gene regulatory networks in yeast \(strain W303\) expressing fluorescent reporter proteins using a BD Accuri C6 and SORP cytometers. However\, the functions are for the most part general and may be adapted for analysis of other organisms using other flow cytometers. Functions in this package facilitate the annotation of flow cytometry data with experimental metadata\, as is requisite for dissemination and general ease\-of\-use. Functions for creating\, saving and loading gate sets are also included. In the past\, we have typically generated summary statistics for each flowset for each timepoint and then annotated and analyzed these summary statistics. This method loses a great deal of the power that comes from the large amounts of individual cell data generated in flow cytometry\, by essentially collapsing this data into a bulk measurement after subsetting. In addition to these summary functions\, this package also contains functions to facilitate annotation and analysis of steady\-state or time\-lapse data utilizing all of the data collected from the thousands of individual cells in each sample.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/flowTime.html
-Versions      1.6.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowtime/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowTime.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-flowtime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-flowtime
 
-Installation
-------------
+   |downloads_bioconductor-flowtime| |docker_bioconductor-flowtime|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-flowcore` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-plyr`  
 
-   conda install bioconductor-flowtime
+   :required~by: |required_by_bioconductor-flowtime|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-flowtime
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-flowtime
+
+   and update with::
+
+      conda update bioconductor-flowtime
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-flowtime
+
+
+.. |required_by_bioconductor-flowtime| conda:required_by:: bioconductor-flowtime
+.. |downloads_bioconductor-flowtime| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtime.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-flowtime| image:: https://quay.io/repository/biocontainers/bioconductor-flowtime/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-flowtime
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-flowtime.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-flowtime/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-flowtime/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-flowtime/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-flowtime/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-flowtime
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowtime/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-flowtime
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-flowtime/README.html
 

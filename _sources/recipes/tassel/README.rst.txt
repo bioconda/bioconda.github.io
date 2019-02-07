@@ -1,54 +1,66 @@
-.. _`tassel`:
+.. title:: Package Recipe 'tassel'
+.. highlight: bash
+
 
 tassel
 ======
 
-|downloads|
+.. conda:recipe:: tassel
+   :replaces_section_title:
 
-TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium.
+   TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium.
 
-============= ===========
-Home          http://www.maizegenetics.net/tassel
-Versions      5.2.40, 4.3.15, 3.0.174
-License       LGPL V2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tassel/meta.yaml
+   :homepage: http://www.maizegenetics.net/tassel
+   :license: LGPL V2.1
+   :recipe: /`tassel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tassel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tassel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tassel
 
-Installation
-------------
+   |downloads_tassel| |docker_tassel|
 
-.. highlight: bash
+   :versions: 5.2.40, 4.3.15, 3.0.174
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8.0 :conda:package:`perl`  
 
-   conda install tassel
+   :required~by: |required_by_tassel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tassel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tassel
+
+   and update with::
+
+      conda update tassel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tassel
+
+
+.. |required_by_tassel| conda:required_by:: tassel
+.. |downloads_tassel| image:: https://img.shields.io/conda/dn/bioconda/tassel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tassel| image:: https://quay.io/repository/biocontainers/tassel/status
+   :target: https://quay.io/repository/biocontainers/tassel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tassel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tassel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tassel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tassel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tassel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tassel
-.. |docker| image:: https://quay.io/repository/biocontainers/tassel/status
-                :target: https://quay.io/repository/biocontainers/tassel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tassel/README.html
 

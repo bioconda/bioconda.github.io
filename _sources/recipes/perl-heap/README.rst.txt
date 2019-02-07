@@ -1,54 +1,66 @@
-.. _`perl-heap`:
+.. title:: Package Recipe 'perl-heap'
+.. highlight: bash
+
 
 perl-heap
 =========
 
-|downloads|
+.. conda:recipe:: perl-heap
+   :replaces_section_title:
 
-Perl extensions for keeping data partially sorted
+   Perl extensions for keeping data partially sorted
 
-============= ===========
-Home          http://metacpan.org/pod/Heap
-Versions      0.80
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-heap/meta.yaml
+   :homepage: http://metacpan.org/pod/Heap
+   :license: perl_5
+   :recipe: /`perl-heap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-heap
 
-Installation
-------------
+   |downloads_perl-heap| |docker_perl-heap|
 
-.. highlight: bash
+   :versions: 0.80
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-heap
+   :required~by: |required_by_perl-heap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-heap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-heap
+
+   and update with::
+
+      conda update perl-heap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-heap
+
+
+.. |required_by_perl-heap| conda:required_by:: perl-heap
+.. |downloads_perl-heap| image:: https://img.shields.io/conda/dn/bioconda/perl-heap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-heap| image:: https://quay.io/repository/biocontainers/perl-heap/status
+   :target: https://quay.io/repository/biocontainers/perl-heap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-heap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-heap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-heap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-heap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-heap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-heap
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-heap/status
-                :target: https://quay.io/repository/biocontainers/perl-heap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-heap/README.html
 

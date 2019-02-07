@@ -1,54 +1,66 @@
-.. _`perl-bio-samtools`:
+.. title:: Package Recipe 'perl-bio-samtools'
+.. highlight: bash
+
 
 perl-bio-samtools
 =================
 
-|downloads|
+.. conda:recipe:: perl-bio-samtools
+   :replaces_section_title:
 
-Read SAM\/BAM files
+   Read SAM\/BAM files
 
-============= ===========
-Home          http://search.cpan.org/~lds/Bio-SamTools-1.43/
-Versions      1.43
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-samtools/meta.yaml
+   :homepage: http://search.cpan.org/~lds/Bio-SamTools-1.43/
+   :license: perl_5
+   :recipe: /`perl-bio-samtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-samtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-samtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-samtools
 
-Installation
-------------
+   |downloads_perl-bio-samtools| |docker_perl-bio-samtools|
 
-.. highlight: bash
+   :versions: 1.43
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-bioperl-core`  :conda:package:`perl-threaded`  :conda:package:`zlib`  
 
-   conda install perl-bio-samtools
+   :required~by: |required_by_perl-bio-samtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-samtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-samtools
+
+   and update with::
+
+      conda update perl-bio-samtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-samtools
+
+
+.. |required_by_perl-bio-samtools| conda:required_by:: perl-bio-samtools
+.. |downloads_perl-bio-samtools| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-samtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-samtools| image:: https://quay.io/repository/biocontainers/perl-bio-samtools/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-samtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-samtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-samtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-samtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-samtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-samtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-samtools
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-samtools/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-samtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-samtools/README.html
 

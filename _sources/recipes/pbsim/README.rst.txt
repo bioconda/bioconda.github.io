@@ -1,54 +1,66 @@
-.. _`pbsim`:
+.. title:: Package Recipe 'pbsim'
+.. highlight: bash
+
 
 pbsim
 =====
 
-|downloads|
+.. conda:recipe:: pbsim
+   :replaces_section_title:
 
-PBSIM simulates PacBio reads
+   PBSIM simulates PacBio reads
 
-============= ===========
-Home          https://code.google.com/archive/p/pbsim/
-Versions      1.0.3
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbsim/meta.yaml
+   :homepage: https://code.google.com/archive/p/pbsim/
+   :license: GPLv2
+   :recipe: /`pbsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pbsim
 
-Installation
-------------
+   |downloads_pbsim| |docker_pbsim|
 
-.. highlight: bash
+   :versions: 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install pbsim
+   :required~by: |required_by_pbsim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pbsim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pbsim
+
+   and update with::
+
+      conda update pbsim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pbsim
+
+
+.. |required_by_pbsim| conda:required_by:: pbsim
+.. |downloads_pbsim| image:: https://img.shields.io/conda/dn/bioconda/pbsim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pbsim| image:: https://quay.io/repository/biocontainers/pbsim/status
+   :target: https://quay.io/repository/biocontainers/pbsim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pbsim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pbsim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pbsim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pbsim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pbsim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pbsim
-.. |docker| image:: https://quay.io/repository/biocontainers/pbsim/status
-                :target: https://quay.io/repository/biocontainers/pbsim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pbsim/README.html
 

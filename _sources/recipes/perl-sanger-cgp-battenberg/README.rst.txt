@@ -1,54 +1,66 @@
-.. _`perl-sanger-cgp-battenberg`:
+.. title:: Package Recipe 'perl-sanger-cgp-battenberg'
+.. highlight: bash
+
 
 perl-sanger-cgp-battenberg
 ==========================
 
-|downloads|
+.. conda:recipe:: perl-sanger-cgp-battenberg
+   :replaces_section_title:
 
-detect subclonality and copy number in matched NGS data
+   detect subclonality and copy number in matched NGS data
 
-============= ===========
-Home          https://github.com/cancerit/cgpBattenberg
-Versions      1.4.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sanger-cgp-battenberg/meta.yaml
+   :homepage: https://github.com/cancerit/cgpBattenberg
+   :license: GPLv3
+   :recipe: /`perl-sanger-cgp-battenberg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-battenberg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-battenberg/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-sanger-cgp-battenberg
 
-Installation
-------------
+   |downloads_perl-sanger-cgp-battenberg| |docker_perl-sanger-cgp-battenberg|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cancerit-allelecount`  :conda:package:`perl-file-sharedir`  :conda:package:`perl-file-sharedir-install`  :conda:package:`perl-pcap`  :conda:package:`perl-sanger-cgp-allelecount`  :conda:package:`perl-threaded`  
 
-   conda install perl-sanger-cgp-battenberg
+   :required~by: |required_by_perl-sanger-cgp-battenberg|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-sanger-cgp-battenberg
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-sanger-cgp-battenberg
+
+   and update with::
+
+      conda update perl-sanger-cgp-battenberg
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
+
+
+.. |required_by_perl-sanger-cgp-battenberg| conda:required_by:: perl-sanger-cgp-battenberg
+.. |downloads_perl-sanger-cgp-battenberg| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-battenberg.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-sanger-cgp-battenberg| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg/status
+   :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-sanger-cgp-battenberg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-sanger-cgp-battenberg/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-sanger-cgp-battenberg/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-sanger-cgp-battenberg/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-sanger-cgp-battenberg
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg/status
-                :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-sanger-cgp-battenberg/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-net-netrc`:
+.. title:: Package Recipe 'perl-net-netrc'
+.. highlight: bash
+
 
 perl-net-netrc
 ==============
 
-|downloads|
+.. conda:recipe:: perl-net-netrc/2.14
+   :replaces_section_title:
 
-OO interface to users netrc file
+   OO interface to users netrc file
 
-============= ===========
-Home          http://metacpan.org/pod/Net::Netrc
-Versions      2.14
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-net-netrc/2.14/meta.yaml
+   :homepage: http://metacpan.org/pod/Net::Netrc
+   :license: perl_5
+   :recipe: /`perl-net-netrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc>`_/`2.14 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc/2.14>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc/2.14/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-net-netrc
 
-Installation
-------------
+   |downloads_perl-net-netrc| |docker_perl-net-netrc|
 
-.. highlight: bash
+   :versions: 2.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-net-netrc
+   :required~by: |required_by_perl-net-netrc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-net-netrc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-net-netrc
+
+   and update with::
+
+      conda update perl-net-netrc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-net-netrc
+
+
+.. |required_by_perl-net-netrc| conda:required_by:: perl-net-netrc
+.. |downloads_perl-net-netrc| image:: https://img.shields.io/conda/dn/bioconda/perl-net-netrc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-net-netrc| image:: https://quay.io/repository/biocontainers/perl-net-netrc/status
+   :target: https://quay.io/repository/biocontainers/perl-net-netrc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-net-netrc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-net-netrc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-net-netrc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-net-netrc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-net-netrc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-net-netrc
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-net-netrc/status
-                :target: https://quay.io/repository/biocontainers/perl-net-netrc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-net-netrc/README.html
 

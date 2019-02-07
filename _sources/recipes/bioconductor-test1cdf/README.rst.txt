@@ -1,54 +1,66 @@
-.. _`bioconductor-test1cdf`:
+.. title:: Package Recipe 'bioconductor-test1cdf'
+.. highlight: bash
+
 
 bioconductor-test1cdf
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-test1cdf
+   :replaces_section_title:
 
-A package containing an environment representing the Test1.CDF file.
+   A package containing an environment representing the Test1.CDF file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/test1cdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-test1cdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/test1cdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-test1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test1cdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-test1cdf
 
-Installation
-------------
+   |downloads_bioconductor-test1cdf| |docker_bioconductor-test1cdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-test1cdf
+   :required~by: |required_by_bioconductor-test1cdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-test1cdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-test1cdf
+
+   and update with::
+
+      conda update bioconductor-test1cdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-test1cdf
+
+
+.. |required_by_bioconductor-test1cdf| conda:required_by:: bioconductor-test1cdf
+.. |downloads_bioconductor-test1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-test1cdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-test1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-test1cdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-test1cdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-test1cdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-test1cdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-test1cdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-test1cdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-test1cdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-test1cdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-test1cdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-test1cdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-test1cdf/README.html
 

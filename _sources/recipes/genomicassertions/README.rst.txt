@@ -1,54 +1,66 @@
-.. _`genomicassertions`:
+.. title:: Package Recipe 'genomicassertions'
+.. highlight: bash
+
 
 genomicassertions
 =================
 
-|downloads|
+.. conda:recipe:: genomicassertions
+   :replaces_section_title:
 
-A package to test common files in genomics \(.vcf.gz\, .bam\)
+   A package to test common files in genomics \(.vcf.gz\, .bam\)
 
-============= ===========
-Home          https://github.com/dakl/genomicassertions
-Versions      0.2.5
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genomicassertions/meta.yaml
+   :homepage: https://github.com/dakl/genomicassertions
+   :license: MIT
+   :recipe: /`genomicassertions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicassertions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicassertions/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: genomicassertions
 
-Installation
-------------
+   |downloads_genomicassertions| |docker_genomicassertions|
 
-.. highlight: bash
+   :versions: 0.2.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`pyvcf`  
 
-   conda install genomicassertions
+   :required~by: |required_by_genomicassertions|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update genomicassertions
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install genomicassertions
+
+   and update with::
+
+      conda update genomicassertions
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/genomicassertions
+
+
+.. |required_by_genomicassertions| conda:required_by:: genomicassertions
+.. |downloads_genomicassertions| image:: https://img.shields.io/conda/dn/bioconda/genomicassertions.svg?style=flat
+   :alt:   (downloads)
+.. |docker_genomicassertions| image:: https://quay.io/repository/biocontainers/genomicassertions/status
+   :target: https://quay.io/repository/biocontainers/genomicassertions
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/genomicassertions.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/genomicassertions/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genomicassertions/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/genomicassertions/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/genomicassertions/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/genomicassertions
-.. |docker| image:: https://quay.io/repository/biocontainers/genomicassertions/status
-                :target: https://quay.io/repository/biocontainers/genomicassertions
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/genomicassertions/README.html
 

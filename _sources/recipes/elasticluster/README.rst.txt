@@ -1,54 +1,66 @@
-.. _`elasticluster`:
+.. title:: Package Recipe 'elasticluster'
+.. highlight: bash
+
 
 elasticluster
 =============
 
-|downloads|
+.. conda:recipe:: elasticluster
+   :replaces_section_title:
 
-Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure.
+   Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure.
 
-============= ===========
-Home          https://github.com/gc3-uzh-ch/elasticluster
-Versions      0.1.3bcbio
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//elasticluster/meta.yaml
+   :homepage: https://github.com/gc3-uzh-ch/elasticluster
+   :license: GPL
+   :recipe: /`elasticluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elasticluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elasticluster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: elasticluster
 
-Installation
-------------
+   |downloads_elasticluster| |docker_elasticluster|
 
-.. highlight: bash
+   :versions: 0.1.3bcbio
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ansible`  :conda:package:`azure`  :conda:package:`boto`  :conda:package:`configobj`  :conda:package:`google-api-python-client`  :conda:package:`oauth2client`  :conda:package:`paramiko`  :conda:package:`pycli`  :conda:package:`python` 2.7* :conda:package:`python-gflags`  :conda:package:`voluptuous`  
 
-   conda install elasticluster
+   :required~by: |required_by_elasticluster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update elasticluster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install elasticluster
+
+   and update with::
+
+      conda update elasticluster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/elasticluster
+
+
+.. |required_by_elasticluster| conda:required_by:: elasticluster
+.. |downloads_elasticluster| image:: https://img.shields.io/conda/dn/bioconda/elasticluster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_elasticluster| image:: https://quay.io/repository/biocontainers/elasticluster/status
+   :target: https://quay.io/repository/biocontainers/elasticluster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/elasticluster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/elasticluster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/elasticluster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/elasticluster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/elasticluster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/elasticluster
-.. |docker| image:: https://quay.io/repository/biocontainers/elasticluster/status
-                :target: https://quay.io/repository/biocontainers/elasticluster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/elasticluster/README.html
 

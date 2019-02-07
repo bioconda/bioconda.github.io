@@ -1,54 +1,66 @@
-.. _`bioconductor-gwasdata`:
+.. title:: Package Recipe 'bioconductor-gwasdata'
+.. highlight: bash
+
 
 bioconductor-gwasdata
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-gwasdata
+   :replaces_section_title:
 
-Selected Affymetrix and Illlumina SNP data for HapMap subjects.  Data provided by the Center for Inherited Disease Research at Johns Hopkins University and the Broad Institute of MIT and Harvard University.
+   Selected Affymetrix and Illlumina SNP data for HapMap subjects.  Data provided by the Center for Inherited Disease Research at Johns Hopkins University and the Broad Institute of MIT and Harvard University.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/GWASdata.html
-Versions      1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gwasdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/GWASdata.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-gwasdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gwasdata
 
-Installation
-------------
+   |downloads_bioconductor-gwasdata| |docker_bioconductor-gwasdata|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-gwastools` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-gwasdata
+   :required~by: |required_by_bioconductor-gwasdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gwasdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gwasdata
+
+   and update with::
+
+      conda update bioconductor-gwasdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gwasdata
+
+
+.. |required_by_bioconductor-gwasdata| conda:required_by:: bioconductor-gwasdata
+.. |downloads_bioconductor-gwasdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gwasdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gwasdata| image:: https://quay.io/repository/biocontainers/bioconductor-gwasdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gwasdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gwasdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gwasdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gwasdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gwasdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gwasdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gwasdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gwasdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gwasdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gwasdata/README.html
 

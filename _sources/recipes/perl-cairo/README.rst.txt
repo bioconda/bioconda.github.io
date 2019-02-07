@@ -1,54 +1,66 @@
-.. _`perl-cairo`:
+.. title:: Package Recipe 'perl-cairo'
+.. highlight: bash
+
 
 perl-cairo
 ==========
 
-|downloads|
+.. conda:recipe:: perl-cairo
+   :replaces_section_title:
 
-Perl interface to the cairo 2d vector graphics library
+   Perl interface to the cairo 2d vector graphics library
 
-============= ===========
-Home          http://gtk2-perl.sourceforge.net
-Versions      1.106
-License       lgpl_2_1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cairo/meta.yaml
+   :homepage: http://gtk2-perl.sourceforge.net
+   :license: lgpl_2_1
+   :recipe: /`perl-cairo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cairo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cairo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-cairo
 
-Installation
-------------
+   |downloads_perl-cairo| |docker_perl-cairo|
 
-.. highlight: bash
+   :versions: 1.106
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cairo`  :conda:package:`perl` 5.22.0* :conda:package:`perl-extutils-depends`  :conda:package:`perl-extutils-pkgconfig`  :conda:package:`xorg-libsm`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  
 
-   conda install perl-cairo
+   :required~by: |required_by_perl-cairo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-cairo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-cairo
+
+   and update with::
+
+      conda update perl-cairo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-cairo
+
+
+.. |required_by_perl-cairo| conda:required_by:: perl-cairo
+.. |downloads_perl-cairo| image:: https://img.shields.io/conda/dn/bioconda/perl-cairo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-cairo| image:: https://quay.io/repository/biocontainers/perl-cairo/status
+   :target: https://quay.io/repository/biocontainers/perl-cairo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-cairo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-cairo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-cairo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-cairo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-cairo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-cairo
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-cairo/status
-                :target: https://quay.io/repository/biocontainers/perl-cairo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-cairo/README.html
 

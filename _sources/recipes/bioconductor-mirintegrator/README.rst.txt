@@ -1,56 +1,67 @@
-.. _`bioconductor-mirintegrator`:
+.. title:: Package Recipe 'bioconductor-mirintegrator'
+.. highlight: bash
+
 
 bioconductor-mirintegrator
 ==========================
 
-|downloads|
+.. conda:recipe:: bioconductor-mirintegrator
+   :replaces_section_title:
 
-Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
+   Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/mirIntegrator.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirintegrator/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mirIntegrator.html
+   :license: GPL (>=3)
+   :recipe: /`bioconductor-mirintegrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator/meta.yaml>`_
+   :links: biotools: :biotools:`mirintegrator`, doi: :doi:`10.1038/srep29251`
 
-
-
-Links         biotools: :biotools:`mirintegrator`, doi: :doi:`10.1038/srep29251`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mirintegrator
 
-Installation
-------------
+   |downloads_bioconductor-mirintegrator| |docker_bioconductor-mirintegrator|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`bioconductor-rontotools` >=2.10.0,<2.11.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  
 
-   conda install bioconductor-mirintegrator
+   :required~by: |required_by_bioconductor-mirintegrator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mirintegrator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mirintegrator
+
+   and update with::
+
+      conda update bioconductor-mirintegrator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mirintegrator
+
+
+.. |required_by_bioconductor-mirintegrator| conda:required_by:: bioconductor-mirintegrator
+.. |downloads_bioconductor-mirintegrator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirintegrator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mirintegrator| image:: https://quay.io/repository/biocontainers/bioconductor-mirintegrator/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mirintegrator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mirintegrator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirintegrator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirintegrator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mirintegrator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mirintegrator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mirintegrator
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirintegrator/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mirintegrator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mirintegrator/README.html
 

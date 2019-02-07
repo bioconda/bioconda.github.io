@@ -1,56 +1,67 @@
-.. _`bioconductor-pwmenrich`:
+.. title:: Package Recipe 'bioconductor-pwmenrich'
+.. highlight: bash
+
 
 bioconductor-pwmenrich
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-pwmenrich
+   :replaces_section_title:
 
-A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs \(e.g. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.
+   A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs \(e.g. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/PWMEnrich.html
-Versions      4.18.0, 4.16.0, 4.14.0
-License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pwmenrich/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PWMEnrich.html
+   :license: LGPL (>= 2)
+   :recipe: /`bioconductor-pwmenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich/meta.yaml>`_
+   :links: biotools: :biotools:`pwmenrich`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`pwmenrich`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pwmenrich
 
-Installation
-------------
+   |downloads_bioconductor-pwmenrich| |docker_bioconductor-pwmenrich|
 
-.. highlight: bash
+   :versions: 4.18.0, 4.16.0, 4.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-seqlogo` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-evd`  :conda:package:`r-gdata`  
 
-   conda install bioconductor-pwmenrich
+   :required~by: |required_by_bioconductor-pwmenrich|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pwmenrich
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pwmenrich
+
+   and update with::
+
+      conda update bioconductor-pwmenrich
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pwmenrich
+
+
+.. |required_by_bioconductor-pwmenrich| conda:required_by:: bioconductor-pwmenrich
+.. |downloads_bioconductor-pwmenrich| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pwmenrich| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pwmenrich.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pwmenrich/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pwmenrich/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pwmenrich/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pwmenrich/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pwmenrich
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pwmenrich/README.html
 

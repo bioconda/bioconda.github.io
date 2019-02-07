@@ -1,54 +1,66 @@
-.. _`perl-want`:
+.. title:: Package Recipe 'perl-want'
+.. highlight: bash
+
 
 perl-want
 =========
 
-|downloads|
+.. conda:recipe:: perl-want
+   :replaces_section_title:
 
-This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used.
+   This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used.
 
-============= ===========
-Home          http://search.cpan.org/~robin/Want-0.29/Want.pm
-Versions      0.29
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-want/meta.yaml
+   :homepage: http://search.cpan.org/~robin/Want-0.29/Want.pm
+   :license: perl_5
+   :recipe: /`perl-want <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-want>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-want/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-want
 
-Installation
-------------
+   |downloads_perl-want| |docker_perl-want|
 
-.. highlight: bash
+   :versions: 0.29
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-want
+   :required~by: |required_by_perl-want|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-want
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-want
+
+   and update with::
+
+      conda update perl-want
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-want
+
+
+.. |required_by_perl-want| conda:required_by:: perl-want
+.. |downloads_perl-want| image:: https://img.shields.io/conda/dn/bioconda/perl-want.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-want| image:: https://quay.io/repository/biocontainers/perl-want/status
+   :target: https://quay.io/repository/biocontainers/perl-want
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-want.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-want/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-want/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-want/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-want/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-want
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-want/status
-                :target: https://quay.io/repository/biocontainers/perl-want
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-want/README.html
 

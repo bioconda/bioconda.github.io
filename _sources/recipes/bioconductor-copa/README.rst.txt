@@ -1,54 +1,66 @@
-.. _`bioconductor-copa`:
+.. title:: Package Recipe 'bioconductor-copa'
+.. highlight: bash
+
 
 bioconductor-copa
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-copa
+   :replaces_section_title:
 
-COPA is a method to find genes that undergo recurrent fusion in a given cancer type by finding pairs of genes that have mutually exclusive outlier profiles.
+   COPA is a method to find genes that undergo recurrent fusion in a given cancer type by finding pairs of genes that have mutually exclusive outlier profiles.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/copa.html
-Versions      1.50.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/copa.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-copa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-copa
 
-Installation
-------------
+   |downloads_bioconductor-copa| |docker_bioconductor-copa|
 
-.. highlight: bash
+   :versions: 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-copa
+   :required~by: |required_by_bioconductor-copa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-copa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-copa
+
+   and update with::
+
+      conda update bioconductor-copa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-copa
+
+
+.. |required_by_bioconductor-copa| conda:required_by:: bioconductor-copa
+.. |downloads_bioconductor-copa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-copa| image:: https://quay.io/repository/biocontainers/bioconductor-copa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-copa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-copa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-copa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-copa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-copa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-copa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-copa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-copa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-copa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-copa/README.html
 

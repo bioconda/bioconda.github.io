@@ -1,54 +1,66 @@
-.. _`perl-bio-tools-run-alignment-tcoffee`:
+.. title:: Package Recipe 'perl-bio-tools-run-alignment-tcoffee'
+.. highlight: bash
+
 
 perl-bio-tools-run-alignment-tcoffee
 ====================================
 
-|downloads|
+.. conda:recipe:: perl-bio-tools-run-alignment-tcoffee
+   :replaces_section_title:
 
-Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the TCoffee program
+   Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the TCoffee program
 
-============= ===========
-Home          https://metacpan.org/release/Bio-Tools-Run-Alignment-TCoffee
-Versions      1.7.4
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-tools-run-alignment-tcoffee/meta.yaml
+   :homepage: https://metacpan.org/release/Bio-Tools-Run-Alignment-TCoffee
+   :license: perl_5
+   :recipe: /`perl-bio-tools-run-alignment-tcoffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-tools-run-alignment-tcoffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-tools-run-alignment-tcoffee/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-tools-run-alignment-tcoffee
 
-Installation
-------------
+   |downloads_perl-bio-tools-run-alignment-tcoffee| |docker_perl-bio-tools-run-alignment-tcoffee|
 
-.. highlight: bash
+   :versions: 1.7.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl-run`  :conda:package:`t_coffee`  
 
-   conda install perl-bio-tools-run-alignment-tcoffee
+   :required~by: |required_by_perl-bio-tools-run-alignment-tcoffee|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-tools-run-alignment-tcoffee
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-tools-run-alignment-tcoffee
+
+   and update with::
+
+      conda update perl-bio-tools-run-alignment-tcoffee
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee
+
+
+.. |required_by_perl-bio-tools-run-alignment-tcoffee| conda:required_by:: perl-bio-tools-run-alignment-tcoffee
+.. |downloads_perl-bio-tools-run-alignment-tcoffee| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-tcoffee.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-tools-run-alignment-tcoffee| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-tcoffee/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-tcoffee/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-tcoffee/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-tcoffee/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-tcoffee
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-tcoffee/README.html
 

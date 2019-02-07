@@ -1,54 +1,66 @@
-.. _`perl-env-path`:
+.. title:: Package Recipe 'perl-env-path'
+.. highlight: bash
+
 
 perl-env-path
 =============
 
-|downloads|
+.. conda:recipe:: perl-env-path
+   :replaces_section_title:
 
-Advanced operations on path variables
+   Advanced operations on path variables
 
-============= ===========
-Home          http://metacpan.org/pod/Env::Path
-Versions      0.19
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-env-path/meta.yaml
+   :homepage: http://metacpan.org/pod/Env::Path
+   :license: unknown
+   :recipe: /`perl-env-path <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-env-path>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-env-path/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-env-path
 
-Installation
-------------
+   |downloads_perl-env-path| |docker_perl-env-path|
 
-.. highlight: bash
+   :versions: 0.19
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-env-path
+   :required~by: |required_by_perl-env-path|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-env-path
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-env-path
+
+   and update with::
+
+      conda update perl-env-path
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-env-path
+
+
+.. |required_by_perl-env-path| conda:required_by:: perl-env-path
+.. |downloads_perl-env-path| image:: https://img.shields.io/conda/dn/bioconda/perl-env-path.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-env-path| image:: https://quay.io/repository/biocontainers/perl-env-path/status
+   :target: https://quay.io/repository/biocontainers/perl-env-path
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-env-path.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-env-path/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-env-path/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-env-path/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-env-path/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-env-path
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-env-path/status
-                :target: https://quay.io/repository/biocontainers/perl-env-path
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-env-path/README.html
 

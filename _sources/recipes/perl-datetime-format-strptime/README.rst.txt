@@ -1,54 +1,66 @@
-.. _`perl-datetime-format-strptime`:
+.. title:: Package Recipe 'perl-datetime-format-strptime'
+.. highlight: bash
+
 
 perl-datetime-format-strptime
 =============================
 
-|downloads|
+.. conda:recipe:: perl-datetime-format-strptime
+   :replaces_section_title:
 
-Parse and format strp and strf time patterns
+   Parse and format strp and strf time patterns
 
-============= ===========
-Home          http://metacpan.org/release/DateTime-Format-Strptime
-Versions      1.75, 1.73
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-datetime-format-strptime/meta.yaml
+   :homepage: http://metacpan.org/release/DateTime-Format-Strptime
+   :license: artistic_2
+   :recipe: /`perl-datetime-format-strptime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-datetime-format-strptime
 
-Installation
-------------
+   |downloads_perl-datetime-format-strptime| |docker_perl-datetime-format-strptime|
 
-.. highlight: bash
+   :versions: 1.75, 1.73
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-datetime`  :conda:package:`perl-datetime-locale` >=1.05 :conda:package:`perl-datetime-timezone`  :conda:package:`perl-exporter`  :conda:package:`perl-package-deprecationmanager`  :conda:package:`perl-params-validationcompiler`  :conda:package:`perl-parent`  :conda:package:`perl-specio`  :conda:package:`perl-try-tiny`  
 
-   conda install perl-datetime-format-strptime
+   :required~by: |required_by_perl-datetime-format-strptime|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-datetime-format-strptime
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-datetime-format-strptime
+
+   and update with::
+
+      conda update perl-datetime-format-strptime
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-datetime-format-strptime
+
+
+.. |required_by_perl-datetime-format-strptime| conda:required_by:: perl-datetime-format-strptime
+.. |downloads_perl-datetime-format-strptime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-format-strptime.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-datetime-format-strptime| image:: https://quay.io/repository/biocontainers/perl-datetime-format-strptime/status
+   :target: https://quay.io/repository/biocontainers/perl-datetime-format-strptime
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-datetime-format-strptime.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-datetime-format-strptime/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-datetime-format-strptime/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-datetime-format-strptime/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-datetime-format-strptime/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-datetime-format-strptime
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-datetime-format-strptime/status
-                :target: https://quay.io/repository/biocontainers/perl-datetime-format-strptime
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-datetime-format-strptime/README.html
 

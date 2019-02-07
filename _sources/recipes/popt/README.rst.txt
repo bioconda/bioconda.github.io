@@ -1,54 +1,66 @@
-.. _`popt`:
+.. title:: Package Recipe 'popt'
+.. highlight: bash
+
 
 popt
 ====
 
-|downloads|
+.. conda:recipe:: popt
+   :replaces_section_title:
 
-Popt is a C library for parsing command line parameters.
+   Popt is a C library for parsing command line parameters.
 
-============= ===========
-Home          http://rpm5.org/
-Versions      1.16
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//popt/meta.yaml
+   :homepage: http://rpm5.org/
+   :license: MIT
+   :recipe: /`popt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: popt
 
-Installation
-------------
+   |downloads_popt| |docker_popt|
 
-.. highlight: bash
+   :versions: 1.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install popt
+   :required~by: |required_by_popt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update popt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install popt
+
+   and update with::
+
+      conda update popt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/popt
+
+
+.. |required_by_popt| conda:required_by:: popt
+.. |downloads_popt| image:: https://img.shields.io/conda/dn/bioconda/popt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_popt| image:: https://quay.io/repository/biocontainers/popt/status
+   :target: https://quay.io/repository/biocontainers/popt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/popt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/popt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/popt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/popt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/popt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/popt
-.. |docker| image:: https://quay.io/repository/biocontainers/popt/status
-                :target: https://quay.io/repository/biocontainers/popt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/popt/README.html
 

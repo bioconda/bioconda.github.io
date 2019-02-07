@@ -1,56 +1,67 @@
-.. _`igvtools`:
+.. title:: Package Recipe 'igvtools'
+.. highlight: bash
+
 
 igvtools
 ========
 
-|downloads|
+.. conda:recipe:: igvtools
+   :replaces_section_title:
 
-command line tools for IGV
+   command line tools for IGV
 
-============= ===========
-Home          http://www.broadinstitute.org/igv/
-Versions      2.3.93, 2.3.75, 2.3.48, 2.3.16
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//igvtools/meta.yaml
+   :homepage: http://www.broadinstitute.org/igv/
+   :license: MIT / MIT License
+   :recipe: /`igvtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools/meta.yaml>`_
+   :links: biotools: :biotools:`IGVtools`
 
-
-
-Links         biotools: :biotools:`IGVtools`
-
-============= ===========
+   
 
 
+.. conda:package:: igvtools
 
-Installation
-------------
+   |downloads_igvtools| |docker_igvtools|
 
-.. highlight: bash
+   :versions: 2.3.93, 2.3.75, 2.3.48, 2.3.16
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  
 
-   conda install igvtools
+   :required~by: |required_by_igvtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update igvtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install igvtools
+
+   and update with::
+
+      conda update igvtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/igvtools
+
+
+.. |required_by_igvtools| conda:required_by:: igvtools
+.. |downloads_igvtools| image:: https://img.shields.io/conda/dn/bioconda/igvtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_igvtools| image:: https://quay.io/repository/biocontainers/igvtools/status
+   :target: https://quay.io/repository/biocontainers/igvtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/igvtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/igvtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/igvtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/igvtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/igvtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/igvtools
-.. |docker| image:: https://quay.io/repository/biocontainers/igvtools/status
-                :target: https://quay.io/repository/biocontainers/igvtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/igvtools/README.html
 

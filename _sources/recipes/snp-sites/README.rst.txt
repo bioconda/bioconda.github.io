@@ -1,54 +1,66 @@
-.. _`snp-sites`:
+.. title:: Package Recipe 'snp-sites'
+.. highlight: bash
+
 
 snp-sites
 =========
 
-|downloads|
+.. conda:recipe:: snp-sites
+   :replaces_section_title:
 
-Finds SNP sites from a multi\-FASTA alignment file.
+   Finds SNP sites from a multi\-FASTA alignment file.
 
-============= ===========
-Home          https://github.com/sanger-pathogens/snp-sites
-Versions      2.4.1, 2.4.0, 2.3.3, 2.3.2
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snp-sites/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/snp-sites
+   :license: GPL / GPL-3.0
+   :recipe: /`snp-sites <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: snp-sites
 
-Installation
-------------
+   |downloads_snp-sites| |docker_snp-sites|
 
-.. highlight: bash
+   :versions: 2.4.1, 2.4.0, 2.3.3, 2.3.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install snp-sites
+   :required~by: |required_by_snp-sites|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snp-sites
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snp-sites
+
+   and update with::
+
+      conda update snp-sites
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snp-sites
+
+
+.. |required_by_snp-sites| conda:required_by:: snp-sites
+.. |downloads_snp-sites| image:: https://img.shields.io/conda/dn/bioconda/snp-sites.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snp-sites| image:: https://quay.io/repository/biocontainers/snp-sites/status
+   :target: https://quay.io/repository/biocontainers/snp-sites
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snp-sites.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snp-sites/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snp-sites/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snp-sites/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snp-sites/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snp-sites
-.. |docker| image:: https://quay.io/repository/biocontainers/snp-sites/status
-                :target: https://quay.io/repository/biocontainers/snp-sites
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snp-sites/README.html
 

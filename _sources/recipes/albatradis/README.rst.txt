@@ -1,54 +1,66 @@
-.. _`albatradis`:
+.. title:: Package Recipe 'albatradis'
+.. highlight: bash
+
 
 albatradis
 ==========
 
-|downloads|
+.. conda:recipe:: albatradis
+   :replaces_section_title:
 
-Comparative TraDIS analysis
+   Comparative TraDIS analysis
 
-============= ===========
-Home          https://github.com/quadram-institute-bioscience/albatradis
-Versions      0.0.5
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//albatradis/meta.yaml
+   :homepage: https://github.com/quadram-institute-bioscience/albatradis
+   :license: GPLv3
+   :recipe: /`albatradis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/albatradis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/albatradis/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: albatradis
 
-Installation
-------------
+   |downloads_albatradis| |docker_albatradis|
 
-.. highlight: bash
+   :versions: 0.0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.68 :conda:package:`biotradis`  :conda:package:`cython`  :conda:package:`dendropy`  :conda:package:`graphviz` >=2.38.0,<3.0a0 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-moose`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`perl-pathtools`  :conda:package:`perl-scalar-util-numeric`  :conda:package:`pyfastaq` >=3.12.0 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`scipy`  :conda:package:`seaborn`  
 
-   conda install albatradis
+   :required~by: |required_by_albatradis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update albatradis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install albatradis
+
+   and update with::
+
+      conda update albatradis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/albatradis
+
+
+.. |required_by_albatradis| conda:required_by:: albatradis
+.. |downloads_albatradis| image:: https://img.shields.io/conda/dn/bioconda/albatradis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_albatradis| image:: https://quay.io/repository/biocontainers/albatradis/status
+   :target: https://quay.io/repository/biocontainers/albatradis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/albatradis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/albatradis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/albatradis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/albatradis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/albatradis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/albatradis
-.. |docker| image:: https://quay.io/repository/biocontainers/albatradis/status
-                :target: https://quay.io/repository/biocontainers/albatradis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/albatradis/README.html
 

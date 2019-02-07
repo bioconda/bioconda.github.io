@@ -1,54 +1,66 @@
-.. _`bioconductor-daglogo`:
+.. title:: Package Recipe 'bioconductor-daglogo'
+.. highlight: bash
+
 
 bioconductor-daglogo
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-daglogo
+   :replaces_section_title:
 
-Visualize significant conserved amino acid sequence pattern in groups based on probability theory.
+   Visualize significant conserved amino acid sequence pattern in groups based on probability theory.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/dagLogo.html
-Versions      1.20.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-daglogo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/dagLogo.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-daglogo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-daglogo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-daglogo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-daglogo
 
-Installation
-------------
+   |downloads_bioconductor-daglogo| |docker_bioconductor-daglogo|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-motifstack` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-grimport`  :conda:package:`r-pheatmap`  
 
-   conda install bioconductor-daglogo
+   :required~by: |required_by_bioconductor-daglogo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-daglogo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-daglogo
+
+   and update with::
+
+      conda update bioconductor-daglogo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-daglogo
+
+
+.. |required_by_bioconductor-daglogo| conda:required_by:: bioconductor-daglogo
+.. |downloads_bioconductor-daglogo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-daglogo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-daglogo| image:: https://quay.io/repository/biocontainers/bioconductor-daglogo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-daglogo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-daglogo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-daglogo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-daglogo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-daglogo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-daglogo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-daglogo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-daglogo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-daglogo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-daglogo/README.html
 

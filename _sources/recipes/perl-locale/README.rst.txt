@@ -1,54 +1,66 @@
-.. _`perl-locale`:
+.. title:: Package Recipe 'perl-locale'
+.. highlight: bash
+
 
 perl-locale
 ===========
 
-|downloads|
+.. conda:recipe:: perl-locale/1.03
+   :replaces_section_title:
 
-Perl pragma to use or avoid POSIX locales for built\-in operations
+   Perl pragma to use or avoid POSIX locales for built\-in operations
 
-============= ===========
-Home          http://metacpan.org/pod/locale
-Versions      1.03
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-locale/1.03/meta.yaml
+   :homepage: http://metacpan.org/pod/locale
+   :license: perl_5
+   :recipe: /`perl-locale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale>`_/`1.03 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale/1.03>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale/1.03/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-locale
 
-Installation
-------------
+   |downloads_perl-locale| |docker_perl-locale|
 
-.. highlight: bash
+   :versions: 1.03
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-locale
+   :required~by: |required_by_perl-locale|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-locale
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-locale
+
+   and update with::
+
+      conda update perl-locale
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-locale
+
+
+.. |required_by_perl-locale| conda:required_by:: perl-locale
+.. |downloads_perl-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-locale.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-locale| image:: https://quay.io/repository/biocontainers/perl-locale/status
+   :target: https://quay.io/repository/biocontainers/perl-locale
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-locale.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-locale/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-locale/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-locale/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-locale/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-locale
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-locale/status
-                :target: https://quay.io/repository/biocontainers/perl-locale
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-locale/README.html
 

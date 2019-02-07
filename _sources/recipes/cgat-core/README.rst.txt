@@ -1,54 +1,66 @@
-.. _`cgatcore`:
+.. title:: Package Recipe 'cgatcore'
+.. highlight: bash
+
 
 cgatcore
 ========
 
-|downloads|
+.. conda:recipe:: cgat-core
+   :replaces_section_title:
 
-CGAT \: the Computational Genomics Analysis Toolkit
+   CGAT \: the Computational Genomics Analysis Toolkit
 
-============= ===========
-Home          https://github.com/cgat-developers/cgat-core
-Versions      0.5.6, 0.5.4, 0.5.2, 0.5.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cgat-core/meta.yaml
+   :homepage: https://github.com/cgat-developers/cgat-core
+   :license: MIT / MIT
+   :recipe: /`cgat-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-core/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cgatcore
 
-Installation
-------------
+   |downloads_cgatcore| |docker_cgatcore|
 
-.. highlight: bash
+   :versions: 0.5.6, 0.5.4, 0.5.2, 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`coreutils`  :conda:package:`gevent`  :conda:package:`pandas`  :conda:package:`paramiko`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-drmaa`  :conda:package:`pyyaml`  :conda:package:`ruffus`  :conda:package:`setuptools`  :conda:package:`six`  :conda:package:`sqlalchemy`  :conda:package:`time`  
 
-   conda install cgatcore
+   :required~by: |required_by_cgatcore|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cgatcore
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cgatcore
+
+   and update with::
+
+      conda update cgatcore
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cgatcore
+
+
+.. |required_by_cgatcore| conda:required_by:: cgatcore
+.. |downloads_cgatcore| image:: https://img.shields.io/conda/dn/bioconda/cgatcore.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cgatcore| image:: https://quay.io/repository/biocontainers/cgatcore/status
+   :target: https://quay.io/repository/biocontainers/cgatcore
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cgatcore.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cgatcore/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cgatcore/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cgatcore/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cgatcore/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cgatcore
-.. |docker| image:: https://quay.io/repository/biocontainers/cgatcore/status
-                :target: https://quay.io/repository/biocontainers/cgatcore
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cgatcore/README.html
 

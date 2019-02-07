@@ -1,54 +1,66 @@
-.. _`kodoja`:
+.. title:: Package Recipe 'kodoja'
+.. highlight: bash
+
 
 kodoja
 ======
 
-|downloads|
+.. conda:recipe:: kodoja
+   :replaces_section_title:
 
-Kodoja\: identifying viruses from plant RNA sequencing data
+   Kodoja\: identifying viruses from plant RNA sequencing data
 
-============= ===========
-Home          https://github.com/abaizan/kodoja/
-Versions      0.0.9, 0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kodoja/meta.yaml
+   :homepage: https://github.com/abaizan/kodoja/
+   :license: MIT
+   :recipe: /`kodoja <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kodoja>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kodoja/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kodoja
 
-Installation
-------------
+   |downloads_kodoja| |docker_kodoja|
 
-.. highlight: bash
+   :versions: 0.0.9, 0.0.8, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`fastqc`  :conda:package:`kaiju`  :conda:package:`kraken`  :conda:package:`ncbi-genome-download`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  :conda:package:`trimmomatic`  
 
-   conda install kodoja
+   :required~by: |required_by_kodoja|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kodoja
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kodoja
+
+   and update with::
+
+      conda update kodoja
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kodoja
+
+
+.. |required_by_kodoja| conda:required_by:: kodoja
+.. |downloads_kodoja| image:: https://img.shields.io/conda/dn/bioconda/kodoja.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kodoja| image:: https://quay.io/repository/biocontainers/kodoja/status
+   :target: https://quay.io/repository/biocontainers/kodoja
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kodoja.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kodoja/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kodoja/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kodoja/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kodoja/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kodoja
-.. |docker| image:: https://quay.io/repository/biocontainers/kodoja/status
-                :target: https://quay.io/repository/biocontainers/kodoja
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kodoja/README.html
 

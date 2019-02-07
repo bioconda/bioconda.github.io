@@ -1,54 +1,66 @@
-.. _`ucsc-headrest`:
+.. title:: Package Recipe 'ucsc-headrest'
+.. highlight: bash
+
 
 ucsc-headrest
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-headrest
+   :replaces_section_title:
 
-Return all \*but\* the first N lines of a file.
+   Return all \*but\* the first N lines of a file.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-headrest/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-headrest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-headrest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-headrest/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-headrest
 
-Installation
-------------
+   |downloads_ucsc-headrest| |docker_ucsc-headrest|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-headrest
+   :required~by: |required_by_ucsc-headrest|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-headrest
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-headrest
+
+   and update with::
+
+      conda update ucsc-headrest
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-headrest
+
+
+.. |required_by_ucsc-headrest| conda:required_by:: ucsc-headrest
+.. |downloads_ucsc-headrest| image:: https://img.shields.io/conda/dn/bioconda/ucsc-headrest.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-headrest| image:: https://quay.io/repository/biocontainers/ucsc-headrest/status
+   :target: https://quay.io/repository/biocontainers/ucsc-headrest
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-headrest.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-headrest/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-headrest/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-headrest/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-headrest/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-headrest
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-headrest/status
-                :target: https://quay.io/repository/biocontainers/ucsc-headrest
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-headrest/README.html
 

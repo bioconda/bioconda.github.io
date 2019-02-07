@@ -1,56 +1,67 @@
-.. _`oases`:
+.. title:: Package Recipe 'oases'
+.. highlight: bash
+
 
 oases
 =====
 
-|downloads|
+.. conda:recipe:: oases
+   :replaces_section_title:
 
-De novo transcriptome assembler for short reads
+   De novo transcriptome assembler for short reads
 
-============= ===========
-Home          http://www.ebi.ac.uk/~zerbino/oases/
-Versions      0.2.09
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//oases/meta.yaml
+   :homepage: http://www.ebi.ac.uk/~zerbino/oases/
+   :license: GPL
+   :recipe: /`oases <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases/meta.yaml>`_
+   :links: biotools: :biotools:`oases`
 
-
-
-Links         biotools: :biotools:`oases`
-
-============= ===========
+   
 
 
+.. conda:package:: oases
 
-Installation
-------------
+   |downloads_oases| |docker_oases|
 
-.. highlight: bash
+   :versions: 0.2.09
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`velvet`  
 
-   conda install oases
+   :required~by: |required_by_oases|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update oases
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install oases
+
+   and update with::
+
+      conda update oases
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/oases
+
+
+.. |required_by_oases| conda:required_by:: oases
+.. |downloads_oases| image:: https://img.shields.io/conda/dn/bioconda/oases.svg?style=flat
+   :alt:   (downloads)
+.. |docker_oases| image:: https://quay.io/repository/biocontainers/oases/status
+   :target: https://quay.io/repository/biocontainers/oases
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/oases.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/oases/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/oases/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/oases/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/oases/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/oases
-.. |docker| image:: https://quay.io/repository/biocontainers/oases/status
-                :target: https://quay.io/repository/biocontainers/oases
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/oases/README.html
 

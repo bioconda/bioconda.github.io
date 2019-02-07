@@ -1,36 +1,56 @@
-.. _`qorts`:
+.. title:: Package Recipe 'qorts'
+.. highlight: bash
+
 
 qorts
 =====
 
-|downloads|
+.. conda:recipe:: qorts
+   :replaces_section_title:
 
-The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets.
+   The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets.
 
-============= ===========
-Home          http://hartleys.github.io/QoRTs/
-Versions      1.3.0, 1.1.8
-License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qorts/meta.yaml
+   :homepage: http://hartleys.github.io/QoRTs/
+   :license: Public Domain
+   :recipe: /`qorts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qorts
 
-Installation
-------------
+   |downloads_qorts| |docker_qorts|
 
-.. highlight: bash
+   :versions: 1.3.0, 1.1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* :conda:package:`r-qorts` ==1.3.0 
 
-   conda install qorts
+   :required~by: |required_by_qorts|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qorts
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qorts
+
+   and update with::
+
+      conda update qorts
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qorts
+
+
+.. |required_by_qorts| conda:required_by:: qorts
+.. |downloads_qorts| image:: https://img.shields.io/conda/dn/bioconda/qorts.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qorts| image:: https://quay.io/repository/biocontainers/qorts/status
+   :target: https://quay.io/repository/biocontainers/qorts
+
+
+
+
 
 
 Notes
@@ -43,22 +63,13 @@ set globally this will take precedence.
 For example run it with \"qorts \-Xms512m \-Xmx1g\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/qorts.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qorts/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qorts/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qorts/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qorts/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qorts
-.. |docker| image:: https://quay.io/repository/biocontainers/qorts/status
-                :target: https://quay.io/repository/biocontainers/qorts
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qorts/README.html
 

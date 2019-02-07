@@ -1,56 +1,67 @@
-.. _`pyfasta`:
+.. title:: Package Recipe 'pyfasta'
+.. highlight: bash
+
 
 pyfasta
 =======
 
-|downloads|
+.. conda:recipe:: pyfasta
+   :replaces_section_title:
 
-fast\, memory\-efficient\, pythonic \(and command\-line\) access to fasta sequence files
+   fast\, memory\-efficient\, pythonic \(and command\-line\) access to fasta sequence files
 
-============= ===========
-Home          http://github.com/brentp/pyfasta/
-Versions      0.5.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyfasta/meta.yaml
+   :homepage: http://github.com/brentp/pyfasta/
+   :license: MIT
+   :recipe: /`pyfasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfasta/meta.yaml>`_
+   :links: biotools: :biotools:`pyfasta`
 
-
-
-Links         biotools: :biotools:`pyfasta`
-
-============= ===========
+   
 
 
+.. conda:package:: pyfasta
 
-Installation
-------------
+   |downloads_pyfasta| |docker_pyfasta|
 
-.. highlight: bash
+   :versions: 0.5.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* 
 
-   conda install pyfasta
+   :required~by: |required_by_pyfasta|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyfasta
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyfasta
+
+   and update with::
+
+      conda update pyfasta
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyfasta
+
+
+.. |required_by_pyfasta| conda:required_by:: pyfasta
+.. |downloads_pyfasta| image:: https://img.shields.io/conda/dn/bioconda/pyfasta.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyfasta| image:: https://quay.io/repository/biocontainers/pyfasta/status
+   :target: https://quay.io/repository/biocontainers/pyfasta
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyfasta.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyfasta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyfasta/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyfasta/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyfasta/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyfasta
-.. |docker| image:: https://quay.io/repository/biocontainers/pyfasta/status
-                :target: https://quay.io/repository/biocontainers/pyfasta
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyfasta/README.html
 

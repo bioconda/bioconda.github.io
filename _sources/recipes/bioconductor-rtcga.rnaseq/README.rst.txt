@@ -1,54 +1,66 @@
-.. _`bioconductor-rtcga.rnaseq`:
+.. title:: Package Recipe 'bioconductor-rtcga.rnaseq'
+.. highlight: bash
+
 
 bioconductor-rtcga.rnaseq
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtcga.rnaseq
+   :replaces_section_title:
 
-Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Rna\-seq data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/RNASeq\+Version\+2. Data source is illumina hiseq Level 3 RSEM normalized expression data. Data from 2015\-11\-01 snapshot.
+   Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Rna\-seq data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/RNASeq\+Version\+2. Data source is illumina hiseq Level 3 RSEM normalized expression data. Data from 2015\-11\-01 snapshot.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.rnaseq.html
-Versions      20151101.12.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.rnaseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.rnaseq.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rtcga.rnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtcga.rnaseq
 
-Installation
-------------
+   |downloads_bioconductor-rtcga.rnaseq| |docker_bioconductor-rtcga.rnaseq|
 
-.. highlight: bash
+   :versions: 20151101.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rtcga.rnaseq
+   :required~by: |required_by_bioconductor-rtcga.rnaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtcga.rnaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtcga.rnaseq
+
+   and update with::
+
+      conda update bioconductor-rtcga.rnaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq
+
+
+.. |required_by_bioconductor-rtcga.rnaseq| conda:required_by:: bioconductor-rtcga.rnaseq
+.. |downloads_bioconductor-rtcga.rnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.rnaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtcga.rnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtcga.rnaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtcga.rnaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtcga.rnaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtcga.rnaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtcga.rnaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtcga.rnaseq/README.html
 

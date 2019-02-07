@@ -1,54 +1,66 @@
-.. _`tadarida-d`:
+.. title:: Package Recipe 'tadarida-d'
+.. highlight: bash
+
 
 tadarida-d
 ==========
 
-|downloads|
+.. conda:recipe:: tadarida-d
+   :replaces_section_title:
 
-Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use.
+   Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use.
 
-============= ===========
-Home          https://github.com/YvesBas/Tadarida-D
-Versions      1.03, 1.02, 1.01, 1.0
-License       LGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tadarida-d/meta.yaml
+   :homepage: https://github.com/YvesBas/Tadarida-D
+   :license: LGPL / LGPL-3.0
+   :recipe: /`tadarida-d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-d/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tadarida-d
 
-Installation
-------------
+   |downloads_tadarida-d| |docker_tadarida-d|
 
-.. highlight: bash
+   :versions: 1.03, 1.02, 1.01, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`fftw` 3.3.4 :conda:package:`libgcc`  :conda:package:`libsndfile` 1.0.27 :conda:package:`qt` 4.8.7 :conda:package:`xorg-libsm`  :conda:package:`xorg-libx11`  :conda:package:`xorg-libxau`  :conda:package:`xorg-libxdmcp`  :conda:package:`xorg-libxext`  :conda:package:`xorg-libxrender`  :conda:package:`zlib`  
 
-   conda install tadarida-d
+   :required~by: |required_by_tadarida-d|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tadarida-d
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tadarida-d
+
+   and update with::
+
+      conda update tadarida-d
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tadarida-d
+
+
+.. |required_by_tadarida-d| conda:required_by:: tadarida-d
+.. |downloads_tadarida-d| image:: https://img.shields.io/conda/dn/bioconda/tadarida-d.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tadarida-d| image:: https://quay.io/repository/biocontainers/tadarida-d/status
+   :target: https://quay.io/repository/biocontainers/tadarida-d
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tadarida-d.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tadarida-d/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tadarida-d/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tadarida-d/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tadarida-d/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tadarida-d
-.. |docker| image:: https://quay.io/repository/biocontainers/tadarida-d/status
-                :target: https://quay.io/repository/biocontainers/tadarida-d
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tadarida-d/README.html
 

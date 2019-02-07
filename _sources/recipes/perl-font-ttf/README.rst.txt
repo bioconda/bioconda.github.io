@@ -1,54 +1,66 @@
-.. _`perl-font-ttf`:
+.. title:: Package Recipe 'perl-font-ttf'
+.. highlight: bash
+
 
 perl-font-ttf
 =============
 
-|downloads|
+.. conda:recipe:: perl-font-ttf
+   :replaces_section_title:
 
-TTF font support for Perl
+   TTF font support for Perl
 
-============= ===========
-Home          http://metacpan.org/pod/Font-TTF
-Versions      1.06, 1.05
-License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-font-ttf/meta.yaml
+   :homepage: http://metacpan.org/pod/Font-TTF
+   :license: artistic_2
+   :recipe: /`perl-font-ttf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-ttf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-ttf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-font-ttf
 
-Installation
-------------
+   |downloads_perl-font-ttf| |docker_perl-font-ttf|
 
-.. highlight: bash
+   :versions: 1.06, 1.05
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-io-string`  :conda:package:`perl-xml-parser`  
 
-   conda install perl-font-ttf
+   :required~by: |required_by_perl-font-ttf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-font-ttf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-font-ttf
+
+   and update with::
+
+      conda update perl-font-ttf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-font-ttf
+
+
+.. |required_by_perl-font-ttf| conda:required_by:: perl-font-ttf
+.. |downloads_perl-font-ttf| image:: https://img.shields.io/conda/dn/bioconda/perl-font-ttf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-font-ttf| image:: https://quay.io/repository/biocontainers/perl-font-ttf/status
+   :target: https://quay.io/repository/biocontainers/perl-font-ttf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-font-ttf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-font-ttf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-font-ttf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-font-ttf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-font-ttf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-font-ttf
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-font-ttf/status
-                :target: https://quay.io/repository/biocontainers/perl-font-ttf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-font-ttf/README.html
 

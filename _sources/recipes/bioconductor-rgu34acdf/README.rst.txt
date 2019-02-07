@@ -1,54 +1,66 @@
-.. _`bioconductor-rgu34acdf`:
+.. title:: Package Recipe 'bioconductor-rgu34acdf'
+.. highlight: bash
+
 
 bioconductor-rgu34acdf
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-rgu34acdf
+   :replaces_section_title:
 
-A package containing an environment representing the RG\_U34A.cdf file.
+   A package containing an environment representing the RG\_U34A.cdf file.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/rgu34acdf.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgu34acdf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rgu34acdf.html
+   :license: LGPL
+   :recipe: /`bioconductor-rgu34acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rgu34acdf
 
-Installation
-------------
+   |downloads_bioconductor-rgu34acdf| |docker_bioconductor-rgu34acdf|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rgu34acdf
+   :required~by: |required_by_bioconductor-rgu34acdf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rgu34acdf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rgu34acdf
+
+   and update with::
+
+      conda update bioconductor-rgu34acdf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rgu34acdf
+
+
+.. |required_by_bioconductor-rgu34acdf| conda:required_by:: bioconductor-rgu34acdf
+.. |downloads_bioconductor-rgu34acdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgu34acdf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rgu34acdf| image:: https://quay.io/repository/biocontainers/bioconductor-rgu34acdf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rgu34acdf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rgu34acdf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rgu34acdf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rgu34acdf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rgu34acdf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rgu34acdf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rgu34acdf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rgu34acdf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rgu34acdf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rgu34acdf/README.html
 

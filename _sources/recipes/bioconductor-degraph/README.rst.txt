@@ -1,56 +1,67 @@
-.. _`bioconductor-degraph`:
+.. title:: Package Recipe 'bioconductor-degraph'
+.. highlight: bash
+
 
 bioconductor-degraph
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-degraph
+   :replaces_section_title:
 
-DEGraph implements recent hypothesis testing methods which directly assess whether a particular gene network is differentially expressed between two conditions. This is to be contrasted with the more classical two\-step approaches which first test individual genes\, then test gene sets for enrichment in differentially expressed genes. These recent methods take into account the topology of the network to yield more powerful detection procedures. DEGraph provides methods to easily test all KEGG pathways for differential expression on any gene expression data set and tools to visualize the results.
+   DEGraph implements recent hypothesis testing methods which directly assess whether a particular gene network is differentially expressed between two conditions. This is to be contrasted with the more classical two\-step approaches which first test individual genes\, then test gene sets for enrichment in differentially expressed genes. These recent methods take into account the topology of the network to yield more powerful detection procedures. DEGraph provides methods to easily test all KEGG pathways for differential expression on any gene expression data set and tools to visualize the results.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DEGraph.html
-Versions      1.34.0, 1.32.0, 1.30.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-degraph/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DEGraph.html
+   :license: GPL-3
+   :recipe: /`bioconductor-degraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph/meta.yaml>`_
+   :links: biotools: :biotools:`degraph`, doi: :doi:`10.1214/11-AOAS528`
 
-
-
-Links         biotools: :biotools:`degraph`, doi: :doi:`10.1214/11-AOAS528`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-degraph
 
-Installation
-------------
+   |downloads_bioconductor-degraph| |docker_bioconductor-degraph|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-ncigraph` >=1.30.0,<1.31.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  :conda:package:`r-mvtnorm`  :conda:package:`r-r.methodss3`  :conda:package:`r-r.utils`  :conda:package:`r-rrcov`  
 
-   conda install bioconductor-degraph
+   :required~by: |required_by_bioconductor-degraph|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-degraph
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-degraph
+
+   and update with::
+
+      conda update bioconductor-degraph
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-degraph
+
+
+.. |required_by_bioconductor-degraph| conda:required_by:: bioconductor-degraph
+.. |downloads_bioconductor-degraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degraph.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-degraph| image:: https://quay.io/repository/biocontainers/bioconductor-degraph/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-degraph
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-degraph.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-degraph/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-degraph/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-degraph/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-degraph/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-degraph
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-degraph/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-degraph
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-degraph/README.html
 

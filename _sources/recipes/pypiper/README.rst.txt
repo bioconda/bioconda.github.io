@@ -1,56 +1,67 @@
-.. _`pypiper`:
+.. title:: Package Recipe 'pypiper'
+.. highlight: bash
+
 
 pypiper
 =======
 
-|downloads|
+.. conda:recipe:: pypiper
+   :replaces_section_title:
 
-Pypiper is a lightweight python toolkit that helps you write slick pipelines in python.
+   Pypiper is a lightweight python toolkit that helps you write slick pipelines in python.
 
-============= ===========
-Home          http://pypiper.readthedocs.io/en/latest/
-Versions      0.8, 0.7.2, 0.6
-License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pypiper/meta.yaml
+   :homepage: http://pypiper.readthedocs.io/en/latest/
+   :developer docs: https://github.com/epigen/pypiper
+   :license: BSD / BSD-2-Clause
+   :recipe: /`pypiper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypiper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypiper/meta.yaml>`_
 
-
-Development   https://github.com/epigen/pypiper
-
-
-============= ===========
+   
 
 
+.. conda:package:: pypiper
 
-Installation
-------------
+   |downloads_pypiper| |docker_pypiper|
 
-.. highlight: bash
+   :versions: 0.8, 0.7.2, 0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` <3 
 
-   conda install pypiper
+   :required~by: |required_by_pypiper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pypiper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pypiper
+
+   and update with::
+
+      conda update pypiper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pypiper
+
+
+.. |required_by_pypiper| conda:required_by:: pypiper
+.. |downloads_pypiper| image:: https://img.shields.io/conda/dn/bioconda/pypiper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pypiper| image:: https://quay.io/repository/biocontainers/pypiper/status
+   :target: https://quay.io/repository/biocontainers/pypiper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pypiper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pypiper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pypiper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pypiper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pypiper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pypiper
-.. |docker| image:: https://quay.io/repository/biocontainers/pypiper/status
-                :target: https://quay.io/repository/biocontainers/pypiper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pypiper/README.html
 

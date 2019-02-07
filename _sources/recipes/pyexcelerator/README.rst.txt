@@ -1,54 +1,66 @@
-.. _`pyexcelerator`:
+.. title:: Package Recipe 'pyexcelerator'
+.. highlight: bash
+
 
 pyexcelerator
 =============
 
-|downloads|
+.. conda:recipe:: pyexcelerator
+   :replaces_section_title:
 
-generating Excel 97\+ files\; importing Excel 95\+ files\; Excel files dumper\; OLE2 files dumper\; xls2txt\, xls2csv\, xls2html
+   generating Excel 97\+ files\; importing Excel 95\+ files\; Excel files dumper\; OLE2 files dumper\; xls2txt\, xls2csv\, xls2html
 
-============= ===========
-Home          http://sourceforge.net/projects/pyexcelerator/
-Versions      0.6.4a
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyexcelerator/meta.yaml
+   :homepage: http://sourceforge.net/projects/pyexcelerator/
+   :license: BSD / BSD License
+   :recipe: /`pyexcelerator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyexcelerator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyexcelerator/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pyexcelerator
 
-Installation
-------------
+   |downloads_pyexcelerator| |docker_pyexcelerator|
 
-.. highlight: bash
+   :versions: 0.6.4a
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install pyexcelerator
+   :required~by: |required_by_pyexcelerator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyexcelerator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyexcelerator
+
+   and update with::
+
+      conda update pyexcelerator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyexcelerator
+
+
+.. |required_by_pyexcelerator| conda:required_by:: pyexcelerator
+.. |downloads_pyexcelerator| image:: https://img.shields.io/conda/dn/bioconda/pyexcelerator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyexcelerator| image:: https://quay.io/repository/biocontainers/pyexcelerator/status
+   :target: https://quay.io/repository/biocontainers/pyexcelerator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyexcelerator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyexcelerator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyexcelerator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyexcelerator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyexcelerator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyexcelerator
-.. |docker| image:: https://quay.io/repository/biocontainers/pyexcelerator/status
-                :target: https://quay.io/repository/biocontainers/pyexcelerator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyexcelerator/README.html
 

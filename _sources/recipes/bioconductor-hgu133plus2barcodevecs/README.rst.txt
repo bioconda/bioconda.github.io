@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu133plus2barcodevecs`:
+.. title:: Package Recipe 'bioconductor-hgu133plus2barcodevecs'
+.. highlight: bash
+
 
 bioconductor-hgu133plus2barcodevecs
 ===================================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu133plus2barcodevecs
+   :replaces_section_title:
 
-Data used by the barcode package for microarrays of type hgu133plus2.
+   Data used by the barcode package for microarrays of type hgu133plus2.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/hgu133plus2barcodevecs.html
-Versions      1.20.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133plus2barcodevecs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hgu133plus2barcodevecs.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hgu133plus2barcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2barcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2barcodevecs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu133plus2barcodevecs
 
-Installation
-------------
+   |downloads_bioconductor-hgu133plus2barcodevecs| |docker_bioconductor-hgu133plus2barcodevecs|
 
-.. highlight: bash
+   :versions: 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hgu133plus2barcodevecs
+   :required~by: |required_by_bioconductor-hgu133plus2barcodevecs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu133plus2barcodevecs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu133plus2barcodevecs
+
+   and update with::
+
+      conda update bioconductor-hgu133plus2barcodevecs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs
+
+
+.. |required_by_bioconductor-hgu133plus2barcodevecs| conda:required_by:: bioconductor-hgu133plus2barcodevecs
+.. |downloads_bioconductor-hgu133plus2barcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133plus2barcodevecs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu133plus2barcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu133plus2barcodevecs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu133plus2barcodevecs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu133plus2barcodevecs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu133plus2barcodevecs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu133plus2barcodevecs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2barcodevecs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu133plus2barcodevecs/README.html
 

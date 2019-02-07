@@ -1,54 +1,66 @@
-.. _`bioconductor-logolas`:
+.. title:: Package Recipe 'bioconductor-logolas'
+.. highlight: bash
+
 
 bioconductor-logolas
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-logolas
+   :replaces_section_title:
 
-Produces logo plots highlighting both enrichment and depletion of characters\, allows for plotting of string symbols\, and performs scaling of position\-weights adaptively\, along with several fun stylizations.
+   Produces logo plots highlighting both enrichment and depletion of characters\, allows for plotting of string symbols\, and performs scaling of position\-weights adaptively\, along with several fun stylizations.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Logolas.html
-Versions      1.6.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-logolas/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Logolas.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-logolas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-logolas
 
-Installation
-------------
+   |downloads_bioconductor-logolas| |docker_bioconductor-logolas|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridbase`  :conda:package:`r-laplacesdemon`  :conda:package:`r-squarem`  
 
-   conda install bioconductor-logolas
+   :required~by: |required_by_bioconductor-logolas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-logolas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-logolas
+
+   and update with::
+
+      conda update bioconductor-logolas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-logolas
+
+
+.. |required_by_bioconductor-logolas| conda:required_by:: bioconductor-logolas
+.. |downloads_bioconductor-logolas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-logolas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-logolas| image:: https://quay.io/repository/biocontainers/bioconductor-logolas/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-logolas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-logolas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-logolas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-logolas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-logolas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-logolas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-logolas
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-logolas/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-logolas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-logolas/README.html
 

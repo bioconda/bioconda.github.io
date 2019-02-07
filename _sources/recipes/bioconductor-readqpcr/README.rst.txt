@@ -1,56 +1,67 @@
-.. _`bioconductor-readqpcr`:
+.. title:: Package Recipe 'bioconductor-readqpcr'
+.. highlight: bash
+
 
 bioconductor-readqpcr
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-readqpcr
+   :replaces_section_title:
 
-The package provides functions to read raw RT\-qPCR data of different platforms.
+   The package provides functions to read raw RT\-qPCR data of different platforms.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ReadqPCR.html
-Versions      1.28.0, 1.26.0, 1.24.0, 1.22.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-readqpcr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ReadqPCR.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-readqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr/meta.yaml>`_
+   :links: biotools: :biotools:`readqpcr`
 
-
-
-Links         biotools: :biotools:`readqpcr`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-readqpcr
 
-Installation
-------------
+   |downloads_bioconductor-readqpcr| |docker_bioconductor-readqpcr|
 
-.. highlight: bash
+   :versions: 1.28.0, 1.26.0, 1.24.0, 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-readqpcr
+   :required~by: |required_by_bioconductor-readqpcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-readqpcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-readqpcr
+
+   and update with::
+
+      conda update bioconductor-readqpcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-readqpcr
+
+
+.. |required_by_bioconductor-readqpcr| conda:required_by:: bioconductor-readqpcr
+.. |downloads_bioconductor-readqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-readqpcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-readqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-readqpcr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-readqpcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-readqpcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-readqpcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-readqpcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-readqpcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-readqpcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-readqpcr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-readqpcr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-readqpcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-readqpcr/README.html
 

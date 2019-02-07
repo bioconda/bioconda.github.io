@@ -1,54 +1,66 @@
-.. _`r-maldirppa`:
+.. title:: Package Recipe 'r-maldirppa'
+.. highlight: bash
+
 
 r-maldirppa
 ===========
 
-|downloads|
+.. conda:recipe:: r-maldirppa
+   :replaces_section_title:
 
-Provides methods for quality control and robust pre\-processing and analysis of MALDI mass spectrometry data.
+   Provides methods for quality control and robust pre\-processing and analysis of MALDI mass spectrometry data.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=MALDIrppa
-Versions      1.0.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-maldirppa/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=MALDIrppa
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-maldirppa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldirppa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldirppa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-maldirppa
 
-Installation
-------------
+   |downloads_r-maldirppa| |docker_r-maldirppa|
 
-.. highlight: bash
+   :versions: 1.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-lattice`  :conda:package:`r-maldiquant`  :conda:package:`r-robustbase`  :conda:package:`r-signal`  :conda:package:`r-wmtsa`  
 
-   conda install r-maldirppa
+   :required~by: |required_by_r-maldirppa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-maldirppa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-maldirppa
+
+   and update with::
+
+      conda update r-maldirppa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-maldirppa
+
+
+.. |required_by_r-maldirppa| conda:required_by:: r-maldirppa
+.. |downloads_r-maldirppa| image:: https://img.shields.io/conda/dn/bioconda/r-maldirppa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-maldirppa| image:: https://quay.io/repository/biocontainers/r-maldirppa/status
+   :target: https://quay.io/repository/biocontainers/r-maldirppa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-maldirppa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-maldirppa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-maldirppa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-maldirppa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-maldirppa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-maldirppa
-.. |docker| image:: https://quay.io/repository/biocontainers/r-maldirppa/status
-                :target: https://quay.io/repository/biocontainers/r-maldirppa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-maldirppa/README.html
 

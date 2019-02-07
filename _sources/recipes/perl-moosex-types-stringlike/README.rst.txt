@@ -1,54 +1,66 @@
-.. _`perl-moosex-types-stringlike`:
+.. title:: Package Recipe 'perl-moosex-types-stringlike'
+.. highlight: bash
+
 
 perl-moosex-types-stringlike
 ============================
 
-|downloads|
+.. conda:recipe:: perl-moosex-types-stringlike
+   :replaces_section_title:
 
-Moose type constraints for strings or string\-like objects
+   Moose type constraints for strings or string\-like objects
 
-============= ===========
-Home          https://github.com/dagolden/MooseX-Types-Stringlike
-Versions      0.003
-License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-types-stringlike/meta.yaml
+   :homepage: https://github.com/dagolden/MooseX-Types-Stringlike
+   :license: apache_2_0
+   :recipe: /`perl-moosex-types-stringlike <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-stringlike>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-stringlike/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-moosex-types-stringlike
 
-Installation
-------------
+   |downloads_perl-moosex-types-stringlike| |docker_perl-moosex-types-stringlike|
 
-.. highlight: bash
+   :versions: 0.003
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-moosex-types`  
 
-   conda install perl-moosex-types-stringlike
+   :required~by: |required_by_perl-moosex-types-stringlike|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-moosex-types-stringlike
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-moosex-types-stringlike
+
+   and update with::
+
+      conda update perl-moosex-types-stringlike
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-moosex-types-stringlike
+
+
+.. |required_by_perl-moosex-types-stringlike| conda:required_by:: perl-moosex-types-stringlike
+.. |downloads_perl-moosex-types-stringlike| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types-stringlike.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-moosex-types-stringlike| image:: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike/status
+   :target: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-moosex-types-stringlike.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-moosex-types-stringlike/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-moosex-types-stringlike/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-moosex-types-stringlike/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-moosex-types-stringlike/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-moosex-types-stringlike
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike/status
-                :target: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-moosex-types-stringlike/README.html
 

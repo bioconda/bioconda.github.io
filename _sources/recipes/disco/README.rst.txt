@@ -1,54 +1,66 @@
-.. _`disco`:
+.. title:: Package Recipe 'disco'
+.. highlight: bash
+
 
 disco
 =====
 
-|downloads|
+.. conda:recipe:: disco/1.0
+   :replaces_section_title:
 
-Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler
+   Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler
 
-============= ===========
-Home          http://disco.omicsbio.org/
-Versions      1.2, 1.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//disco/1.0/meta.yaml
+   :homepage: http://disco.omicsbio.org/
+   :license: GPL-3.0
+   :recipe: /`disco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: disco
 
-Installation
-------------
+   |downloads_disco| |docker_disco|
 
-.. highlight: bash
+   :versions: 1.2, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bbmap`  :conda:package:`biopython`  :conda:package:`libgcc`  :conda:package:`openmpi` >=1.8 :conda:package:`zlib` 1.2.8* 
 
-   conda install disco
+   :required~by: |required_by_disco|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update disco
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install disco
+
+   and update with::
+
+      conda update disco
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/disco
+
+
+.. |required_by_disco| conda:required_by:: disco
+.. |downloads_disco| image:: https://img.shields.io/conda/dn/bioconda/disco.svg?style=flat
+   :alt:   (downloads)
+.. |docker_disco| image:: https://quay.io/repository/biocontainers/disco/status
+   :target: https://quay.io/repository/biocontainers/disco
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/disco.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/disco/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/disco/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/disco/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/disco/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/disco
-.. |docker| image:: https://quay.io/repository/biocontainers/disco/status
-                :target: https://quay.io/repository/biocontainers/disco
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/disco/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-cosmic.67`:
+.. title:: Package Recipe 'bioconductor-cosmic.67'
+.. highlight: bash
+
 
 bioconductor-cosmic.67
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cosmic.67
+   :replaces_section_title:
 
-COSMIC\: Catalogue Of Somatic Mutations In Cancer\, version 67 \(2013\-10\-24\)
+   COSMIC\: Catalogue Of Somatic Mutations In Cancer\, version 67 \(2013\-10\-24\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/COSMIC.67.html
-Versions      1.18.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cosmic.67/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/COSMIC.67.html
+   :license: GPL-3
+   :recipe: /`bioconductor-cosmic.67 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmic.67>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmic.67/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cosmic.67
 
-Installation
-------------
+   |downloads_bioconductor-cosmic.67| |docker_bioconductor-cosmic.67|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-cosmic.67
+   :required~by: |required_by_bioconductor-cosmic.67|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cosmic.67
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cosmic.67
+
+   and update with::
+
+      conda update bioconductor-cosmic.67
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cosmic.67
+
+
+.. |required_by_bioconductor-cosmic.67| conda:required_by:: bioconductor-cosmic.67
+.. |downloads_bioconductor-cosmic.67| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosmic.67.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cosmic.67| image:: https://quay.io/repository/biocontainers/bioconductor-cosmic.67/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cosmic.67
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cosmic.67.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cosmic.67/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cosmic.67/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cosmic.67/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cosmic.67/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cosmic.67
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cosmic.67/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cosmic.67
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cosmic.67/README.html
 

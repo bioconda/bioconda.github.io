@@ -1,54 +1,66 @@
-.. _`r-gsalib`:
+.. title:: Package Recipe 'r-gsalib'
+.. highlight: bash
+
 
 r-gsalib
 ========
 
-|downloads|
+.. conda:recipe:: r-gsalib
+   :replaces_section_title:
 
-This package contains utility functions used by the Genome Analysis Toolkit \(GATK\) to load tables and plot data. The GATK is a toolkit for variant discovery in high\-throughput sequencing data.
+   This package contains utility functions used by the Genome Analysis Toolkit \(GATK\) to load tables and plot data. The GATK is a toolkit for variant discovery in high\-throughput sequencing data.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=gsalib
-Versions      2.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gsalib/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=gsalib
+   :license: MIT / MIT
+   :recipe: /`r-gsalib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsalib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsalib/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-gsalib
 
-Installation
-------------
+   |downloads_r-gsalib| |docker_r-gsalib|
 
-.. highlight: bash
+   :versions: 2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-gsalib
+   :required~by: |required_by_r-gsalib|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gsalib
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gsalib
+
+   and update with::
+
+      conda update r-gsalib
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gsalib
+
+
+.. |required_by_r-gsalib| conda:required_by:: r-gsalib
+.. |downloads_r-gsalib| image:: https://img.shields.io/conda/dn/bioconda/r-gsalib.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gsalib| image:: https://quay.io/repository/biocontainers/r-gsalib/status
+   :target: https://quay.io/repository/biocontainers/r-gsalib
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gsalib.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gsalib/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gsalib/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gsalib/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gsalib/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gsalib
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gsalib/status
-                :target: https://quay.io/repository/biocontainers/r-gsalib
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gsalib/README.html
 

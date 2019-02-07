@@ -1,42 +1,61 @@
-.. _`cistrome-ceas`:
+.. title:: Package Recipe 'cistrome-ceas'
+.. highlight: bash
+
 
 cistrome-ceas
 =============
 
-|downloads|
+.. conda:recipe:: cistrome-ceas
+   :replaces_section_title:
 
-Cistrome\-CEAS \-\- Cis\-regulatory Element Annotation System
+   Cistrome\-CEAS \-\- Cis\-regulatory Element Annotation System
 
-============= ===========
-Home          https://bitbucket.org/cistrome/cistrome-applications-harvard/overview
-Versions      1.0.2b1
-License       Artistic Licence
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cistrome-ceas/meta.yaml
+   :homepage: https://bitbucket.org/cistrome/cistrome-applications-harvard/overview
+   :documentation: http://liulab.dfci.harvard.edu/CEAS/
+   
+   :developer docs: https://bitbucket.org/cistrome/cistrome-applications-harvard
+   :license: Artistic Licence
+   :recipe: /`cistrome-ceas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cistrome-ceas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cistrome-ceas/meta.yaml>`_
 
-Documentation http://liulab.dfci.harvard.edu/CEAS/
-
-
-Development   https://bitbucket.org/cistrome/cistrome-applications-harvard
-
-
-============= ===========
-
-Tool to characterize genome\-wide protein\-DNA interaction patterns
-from ChIP\-chip and ChIP\-Seq of both sharp and broad binding factors
+   Tool to characterize genome\-wide protein\-DNA interaction patterns
+   from ChIP\-chip and ChIP\-Seq of both sharp and broad binding factors
 
 
-Installation
-------------
 
-.. highlight: bash
+.. conda:package:: cistrome-ceas
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   |downloads_cistrome-ceas| |docker_cistrome-ceas|
 
-   conda install cistrome-ceas
+   :versions: 1.0.2b1
 
-and update with::
+   :depends: :conda:package:`bx-python`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`r-base`  
 
-   conda update cistrome-ceas
+   :required~by: |required_by_cistrome-ceas|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cistrome-ceas
+
+   and update with::
+
+      conda update cistrome-ceas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cistrome-ceas
+
+
+.. |required_by_cistrome-ceas| conda:required_by:: cistrome-ceas
+.. |downloads_cistrome-ceas| image:: https://img.shields.io/conda/dn/bioconda/cistrome-ceas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cistrome-ceas| image:: https://quay.io/repository/biocontainers/cistrome-ceas/status
+   :target: https://quay.io/repository/biocontainers/cistrome-ceas
+
+
+
+
 
 
 Notes
@@ -53,22 +72,13 @@ Cistrome data files and documentation can be found at
 http\:\/\/liulab.dfci.harvard.edu\/CEAS\/index.html
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/cistrome-ceas.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cistrome-ceas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cistrome-ceas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cistrome-ceas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cistrome-ceas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cistrome-ceas
-.. |docker| image:: https://quay.io/repository/biocontainers/cistrome-ceas/status
-                :target: https://quay.io/repository/biocontainers/cistrome-ceas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cistrome-ceas/README.html
 

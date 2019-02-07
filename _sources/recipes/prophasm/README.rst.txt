@@ -1,54 +1,66 @@
-.. _`prophasm`:
+.. title:: Package Recipe 'prophasm'
+.. highlight: bash
+
 
 prophasm
 ========
 
-|downloads|
+.. conda:recipe:: prophasm
+   :replaces_section_title:
 
-ProPhasm – ProPhyle Assembler. Compressing k\-mer sets via assembling contigs.
+   ProPhasm – ProPhyle Assembler. Compressing k\-mer sets via assembling contigs.
 
-============= ===========
-Home          https://github.com/prophyle/prophasm
-Versions      0.1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prophasm/meta.yaml
+   :homepage: https://github.com/prophyle/prophasm
+   :license: MIT
+   :recipe: /`prophasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophasm/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: prophasm
 
-Installation
-------------
+   |downloads_prophasm| |docker_prophasm|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install prophasm
+   :required~by: |required_by_prophasm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update prophasm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install prophasm
+
+   and update with::
+
+      conda update prophasm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/prophasm
+
+
+.. |required_by_prophasm| conda:required_by:: prophasm
+.. |downloads_prophasm| image:: https://img.shields.io/conda/dn/bioconda/prophasm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_prophasm| image:: https://quay.io/repository/biocontainers/prophasm/status
+   :target: https://quay.io/repository/biocontainers/prophasm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/prophasm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/prophasm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/prophasm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/prophasm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/prophasm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/prophasm
-.. |docker| image:: https://quay.io/repository/biocontainers/prophasm/status
-                :target: https://quay.io/repository/biocontainers/prophasm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/prophasm/README.html
 

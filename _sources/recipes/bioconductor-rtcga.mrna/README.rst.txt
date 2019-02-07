@@ -1,54 +1,66 @@
-.. _`bioconductor-rtcga.mrna`:
+.. title:: Package Recipe 'bioconductor-rtcga.mrna'
+.. highlight: bash
+
 
 bioconductor-rtcga.mrna
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtcga.mrna
+   :replaces_section_title:
 
-Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Gene\+expression\+data Data from 2015\-11\-01 snapshot.
+   Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Gene\+expression\+data Data from 2015\-11\-01 snapshot.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.mRNA.html
-Versions      1.10.0, 1.8.0, 1.6.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.mrna/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.mRNA.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rtcga.mrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mrna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtcga.mrna
 
-Installation
-------------
+   |downloads_bioconductor-rtcga.mrna| |docker_bioconductor-rtcga.mrna|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rtcga.mrna
+   :required~by: |required_by_bioconductor-rtcga.mrna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtcga.mrna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtcga.mrna
+
+   and update with::
+
+      conda update bioconductor-rtcga.mrna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mrna
+
+
+.. |required_by_bioconductor-rtcga.mrna| conda:required_by:: bioconductor-rtcga.mrna
+.. |downloads_bioconductor-rtcga.mrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mrna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtcga.mrna| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtcga.mrna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtcga.mrna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtcga.mrna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtcga.mrna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtcga.mrna
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtcga.mrna/README.html
 

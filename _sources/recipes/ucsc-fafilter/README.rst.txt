@@ -1,54 +1,66 @@
-.. _`ucsc-fafilter`:
+.. title:: Package Recipe 'ucsc-fafilter'
+.. highlight: bash
+
 
 ucsc-fafilter
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-fafilter
+   :replaces_section_title:
 
-Filter fa records\, selecting ones that match the specified conditions
+   Filter fa records\, selecting ones that match the specified conditions
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-fafilter/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-fafilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafilter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-fafilter
 
-Installation
-------------
+   |downloads_ucsc-fafilter| |docker_ucsc-fafilter|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-fafilter
+   :required~by: |required_by_ucsc-fafilter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-fafilter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-fafilter
+
+   and update with::
+
+      conda update ucsc-fafilter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-fafilter
+
+
+.. |required_by_ucsc-fafilter| conda:required_by:: ucsc-fafilter
+.. |downloads_ucsc-fafilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fafilter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-fafilter| image:: https://quay.io/repository/biocontainers/ucsc-fafilter/status
+   :target: https://quay.io/repository/biocontainers/ucsc-fafilter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-fafilter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-fafilter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-fafilter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-fafilter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-fafilter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-fafilter
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fafilter/status
-                :target: https://quay.io/repository/biocontainers/ucsc-fafilter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-fafilter/README.html
 

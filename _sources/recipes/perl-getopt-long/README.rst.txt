@@ -1,54 +1,66 @@
-.. _`perl-getopt-long`:
+.. title:: Package Recipe 'perl-getopt-long'
+.. highlight: bash
+
 
 perl-getopt-long
 ================
 
-|downloads|
+.. conda:recipe:: perl-getopt-long
+   :replaces_section_title:
 
-Module to handle parsing command line options
+   Module to handle parsing command line options
 
-============= ===========
-Home          http://metacpan.org/pod/Getopt::Long
-Versions      2.50, 2.49
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-getopt-long/meta.yaml
+   :homepage: http://metacpan.org/pod/Getopt::Long
+   :license: unknown
+   :recipe: /`perl-getopt-long <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-long>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-long/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-getopt-long
 
-Installation
-------------
+   |downloads_perl-getopt-long| |docker_perl-getopt-long|
 
-.. highlight: bash
+   :versions: 2.50, 2.49
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-getopt-long
+   :required~by: |required_by_perl-getopt-long|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-getopt-long
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-getopt-long
+
+   and update with::
+
+      conda update perl-getopt-long
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-getopt-long
+
+
+.. |required_by_perl-getopt-long| conda:required_by:: perl-getopt-long
+.. |downloads_perl-getopt-long| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-long.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-getopt-long| image:: https://quay.io/repository/biocontainers/perl-getopt-long/status
+   :target: https://quay.io/repository/biocontainers/perl-getopt-long
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-getopt-long.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-getopt-long/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-getopt-long/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-getopt-long/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-getopt-long/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-getopt-long
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-getopt-long/status
-                :target: https://quay.io/repository/biocontainers/perl-getopt-long
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-getopt-long/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-rmir`:
+.. title:: Package Recipe 'bioconductor-rmir'
+.. highlight: bash
+
 
 bioconductor-rmir
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-rmir
+   :replaces_section_title:
 
-Useful functions to merge microRNA and respective targets using differents databases
+   Useful functions to merge microRNA and respective targets using differents databases
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RmiR.html
-Versions      1.38.0, 1.36.0, 1.34.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmir/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RmiR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-rmir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir/meta.yaml>`_
+   :links: biotools: :biotools:`rmir`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`rmir`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rmir
 
-Installation
-------------
+   |downloads_bioconductor-rmir| |docker_bioconductor-rmir|
 
-.. highlight: bash
+   :versions: 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rmir.hs.mirna` >=1.0.0,<1.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsvgtipsdevice`  
 
-   conda install bioconductor-rmir
+   :required~by: |required_by_bioconductor-rmir|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rmir
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rmir
+
+   and update with::
+
+      conda update bioconductor-rmir
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rmir
+
+
+.. |required_by_bioconductor-rmir| conda:required_by:: bioconductor-rmir
+.. |downloads_bioconductor-rmir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmir.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rmir| image:: https://quay.io/repository/biocontainers/bioconductor-rmir/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rmir
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rmir.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rmir/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rmir/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rmir/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rmir/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rmir
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rmir/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rmir
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rmir/README.html
 

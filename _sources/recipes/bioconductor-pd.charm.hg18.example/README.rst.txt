@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.charm.hg18.example`:
+.. title:: Package Recipe 'bioconductor-pd.charm.hg18.example'
+.. highlight: bash
+
 
 bioconductor-pd.charm.hg18.example
 ==================================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.charm.hg18.example
+   :replaces_section_title:
 
-Platform Design Info for NimbleGen charm\_hg18\_example
+   Platform Design Info for NimbleGen charm\_hg18\_example
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.charm.hg18.example.html
-Versions      0.99.4
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.charm.hg18.example/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.charm.hg18.example.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.charm.hg18.example <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.charm.hg18.example>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.charm.hg18.example/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.charm.hg18.example
 
-Installation
-------------
+   |downloads_bioconductor-pd.charm.hg18.example| |docker_bioconductor-pd.charm.hg18.example|
 
-.. highlight: bash
+   :versions: 0.99.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-rsqlite` >=0.7-1 :conda:package:`wget`  
 
-   conda install bioconductor-pd.charm.hg18.example
+   :required~by: |required_by_bioconductor-pd.charm.hg18.example|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.charm.hg18.example
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.charm.hg18.example
+
+   and update with::
+
+      conda update bioconductor-pd.charm.hg18.example
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example
+
+
+.. |required_by_bioconductor-pd.charm.hg18.example| conda:required_by:: bioconductor-pd.charm.hg18.example
+.. |downloads_bioconductor-pd.charm.hg18.example| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.charm.hg18.example.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.charm.hg18.example| image:: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.charm.hg18.example/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.charm.hg18.example/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.charm.hg18.example/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.charm.hg18.example/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.charm.hg18.example
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.charm.hg18.example/README.html
 

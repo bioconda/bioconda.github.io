@@ -1,54 +1,66 @@
-.. _`reveal`:
+.. title:: Package Recipe 'reveal'
+.. highlight: bash
+
 
 reveal
 ======
 
-|downloads|
+.. conda:recipe:: reveal
+   :replaces_section_title:
 
-Graph based multi genome aligner
+   Graph based multi genome aligner
 
-============= ===========
-Home          https://github.com/jasperlinthorst/reveal
-Versions      0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//reveal/meta.yaml
+   :homepage: https://github.com/jasperlinthorst/reveal
+   :license: MIT
+   :recipe: /`reveal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reveal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reveal/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: reveal
 
-Installation
-------------
+   |downloads_reveal| |docker_reveal|
 
-.. highlight: bash
+   :versions: 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`intervaltree`  :conda:package:`libdivsufsort`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`python` 2.7* 
 
-   conda install reveal
+   :required~by: |required_by_reveal|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update reveal
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install reveal
+
+   and update with::
+
+      conda update reveal
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/reveal
+
+
+.. |required_by_reveal| conda:required_by:: reveal
+.. |downloads_reveal| image:: https://img.shields.io/conda/dn/bioconda/reveal.svg?style=flat
+   :alt:   (downloads)
+.. |docker_reveal| image:: https://quay.io/repository/biocontainers/reveal/status
+   :target: https://quay.io/repository/biocontainers/reveal
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/reveal.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/reveal/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/reveal/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/reveal/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/reveal/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/reveal
-.. |docker| image:: https://quay.io/repository/biocontainers/reveal/status
-                :target: https://quay.io/repository/biocontainers/reveal
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/reveal/README.html
 

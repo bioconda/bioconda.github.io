@@ -1,56 +1,67 @@
-.. _`discovar`:
+.. title:: Package Recipe 'discovar'
+.. highlight: bash
+
 
 discovar
 ========
 
-|downloads|
+.. conda:recipe:: discovar
+   :replaces_section_title:
 
-Suitable for variant calling with reference and de novo assembly of small genomes.
+   Suitable for variant calling with reference and de novo assembly of small genomes.
 
-============= ===========
-Home          https://www.broadinstitute.org/software/discovar
-Versions      52488
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discovar/meta.yaml
+   :homepage: https://www.broadinstitute.org/software/discovar
+   :license: MIT
+   :recipe: /`discovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar/meta.yaml>`_
+   :links: biotools: :biotools:`discovar`, doi: :doi:`10.1038/ng.3121`
 
-
-
-Links         biotools: :biotools:`discovar`, doi: :doi:`10.1038/ng.3121`
-
-============= ===========
+   
 
 
+.. conda:package:: discovar
 
-Installation
-------------
+   |downloads_discovar| |docker_discovar|
 
-.. highlight: bash
+   :versions: 52488
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install discovar
+   :required~by: |required_by_discovar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update discovar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install discovar
+
+   and update with::
+
+      conda update discovar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/discovar
+
+
+.. |required_by_discovar| conda:required_by:: discovar
+.. |downloads_discovar| image:: https://img.shields.io/conda/dn/bioconda/discovar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_discovar| image:: https://quay.io/repository/biocontainers/discovar/status
+   :target: https://quay.io/repository/biocontainers/discovar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/discovar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/discovar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/discovar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/discovar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/discovar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/discovar
-.. |docker| image:: https://quay.io/repository/biocontainers/discovar/status
-                :target: https://quay.io/repository/biocontainers/discovar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/discovar/README.html
 

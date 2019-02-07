@@ -1,54 +1,66 @@
-.. _`perl-pod-plaintext`:
+.. title:: Package Recipe 'perl-pod-plaintext'
+.. highlight: bash
+
 
 perl-pod-plaintext
 ==================
 
-|downloads|
+.. conda:recipe:: perl-pod-plaintext/2.07
+   :replaces_section_title:
 
-Convert POD data to formatted ASCII text
+   Convert POD data to formatted ASCII text
 
-============= ===========
-Home          http://metacpan.org/pod/Pod::PlainText
-Versions      2.07
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-plaintext/2.07/meta.yaml
+   :homepage: http://metacpan.org/pod/Pod::PlainText
+   :license: perl_5
+   :recipe: /`perl-pod-plaintext <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext>`_/`2.07 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext/2.07>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext/2.07/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-pod-plaintext
 
-Installation
-------------
+   |downloads_perl-pod-plaintext| |docker_perl-pod-plaintext|
 
-.. highlight: bash
+   :versions: 2.07
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-pod-plaintext
+   :required~by: |required_by_perl-pod-plaintext|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-pod-plaintext
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-pod-plaintext
+
+   and update with::
+
+      conda update perl-pod-plaintext
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-pod-plaintext
+
+
+.. |required_by_perl-pod-plaintext| conda:required_by:: perl-pod-plaintext
+.. |downloads_perl-pod-plaintext| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-plaintext.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-pod-plaintext| image:: https://quay.io/repository/biocontainers/perl-pod-plaintext/status
+   :target: https://quay.io/repository/biocontainers/perl-pod-plaintext
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-pod-plaintext.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-pod-plaintext/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-pod-plaintext/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-pod-plaintext/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-pod-plaintext/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-pod-plaintext
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-plaintext/status
-                :target: https://quay.io/repository/biocontainers/perl-pod-plaintext
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-pod-plaintext/README.html
 

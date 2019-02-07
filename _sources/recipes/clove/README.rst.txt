@@ -1,36 +1,56 @@
-.. _`clove`:
+.. title:: Package Recipe 'clove'
+.. highlight: bash
+
 
 clove
 =====
 
-|downloads|
+.. conda:recipe:: clove
+   :replaces_section_title:
 
-CLOVE\: Classification of genomic fusions into structural variation events.
+   CLOVE\: Classification of genomic fusions into structural variation events.
 
-============= ===========
-Home          https://github.com/PapenfussLab/clove
-Versions      0.17
-License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clove/meta.yaml
+   :homepage: https://github.com/PapenfussLab/clove
+   :license: GPL-2.0
+   :recipe: /`clove <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clove>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clove/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: clove
 
-Installation
-------------
+   |downloads_clove| |docker_clove|
 
-.. highlight: bash
+   :versions: 0.17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 :conda:package:`python` 2.7* 
 
-   conda install clove
+   :required~by: |required_by_clove|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update clove
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install clove
+
+   and update with::
+
+      conda update clove
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/clove
+
+
+.. |required_by_clove| conda:required_by:: clove
+.. |downloads_clove| image:: https://img.shields.io/conda/dn/bioconda/clove.svg?style=flat
+   :alt:   (downloads)
+.. |docker_clove| image:: https://quay.io/repository/biocontainers/clove/status
+   :target: https://quay.io/repository/biocontainers/clove
+
+
+
+
 
 
 Notes
@@ -43,22 +63,13 @@ set globally this will take precedence.
 For example run it with \"clove \-Xms512m \-Xmx1g\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/clove.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/clove/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clove/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/clove/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/clove/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/clove
-.. |docker| image:: https://quay.io/repository/biocontainers/clove/status
-                :target: https://quay.io/repository/biocontainers/clove
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/clove/README.html
 

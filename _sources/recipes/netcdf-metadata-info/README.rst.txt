@@ -1,54 +1,66 @@
-.. _`netcdf-metadata-info`:
+.. title:: Package Recipe 'netcdf-metadata-info'
+.. highlight: bash
+
 
 netcdf-metadata-info
 ====================
 
-|downloads|
+.. conda:recipe:: netcdf-metadata-info
+   :replaces_section_title:
 
-Metadata information from netcdf file for Galaxy use.
+   Metadata information from netcdf file for Galaxy use.
 
-============= ===========
-Home          https://github.com/Alanamosse/Netcdf-Metadata-Info/
-Versions      1.1.6
-License       GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//netcdf-metadata-info/meta.yaml
+   :homepage: https://github.com/Alanamosse/Netcdf-Metadata-Info/
+   :license: GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+   :recipe: /`netcdf-metadata-info <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netcdf-metadata-info>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netcdf-metadata-info/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: netcdf-metadata-info
 
-Installation
-------------
+   |downloads_netcdf-metadata-info| |docker_netcdf-metadata-info|
 
-.. highlight: bash
+   :versions: 1.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`libnetcdf` 4.4.* 
 
-   conda install netcdf-metadata-info
+   :required~by: |required_by_netcdf-metadata-info|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update netcdf-metadata-info
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install netcdf-metadata-info
+
+   and update with::
+
+      conda update netcdf-metadata-info
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/netcdf-metadata-info
+
+
+.. |required_by_netcdf-metadata-info| conda:required_by:: netcdf-metadata-info
+.. |downloads_netcdf-metadata-info| image:: https://img.shields.io/conda/dn/bioconda/netcdf-metadata-info.svg?style=flat
+   :alt:   (downloads)
+.. |docker_netcdf-metadata-info| image:: https://quay.io/repository/biocontainers/netcdf-metadata-info/status
+   :target: https://quay.io/repository/biocontainers/netcdf-metadata-info
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/netcdf-metadata-info.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/netcdf-metadata-info/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/netcdf-metadata-info/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/netcdf-metadata-info/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/netcdf-metadata-info/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/netcdf-metadata-info
-.. |docker| image:: https://quay.io/repository/biocontainers/netcdf-metadata-info/status
-                :target: https://quay.io/repository/biocontainers/netcdf-metadata-info
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/netcdf-metadata-info/README.html
 

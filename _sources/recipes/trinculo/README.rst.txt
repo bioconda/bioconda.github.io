@@ -1,58 +1,69 @@
-.. _`trinculo`:
+.. title:: Package Recipe 'trinculo'
+.. highlight: bash
+
 
 trinculo
 ========
 
-|downloads|
+.. conda:recipe:: trinculo
+   :replaces_section_title:
 
-A toolkit for carrying out genetic association for
-multi\-category phenotypes. Implements multinomial and ordinal
-association incorporating covariates\, conditional analysis\,
-empirical and non\-emperical priors and fine\-mapping.
+   A toolkit for carrying out genetic association for
+   multi\-category phenotypes. Implements multinomial and ordinal
+   association incorporating covariates\, conditional analysis\,
+   empirical and non\-emperical priors and fine\-mapping.
 
+   :homepage: https://sourceforge.net/projects/trinculo/
+   :license: MIT
+   :recipe: /`trinculo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinculo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinculo/meta.yaml>`_
 
-============= ===========
-Home          https://sourceforge.net/projects/trinculo/
-Versions      0.96
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trinculo/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: trinculo
 
-Installation
-------------
+   |downloads_trinculo| |docker_trinculo|
 
-.. highlight: bash
+   :versions: 0.96
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`lapack`  :conda:package:`libgcc`  
 
-   conda install trinculo
+   :required~by: |required_by_trinculo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update trinculo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install trinculo
+
+   and update with::
+
+      conda update trinculo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/trinculo
+
+
+.. |required_by_trinculo| conda:required_by:: trinculo
+.. |downloads_trinculo| image:: https://img.shields.io/conda/dn/bioconda/trinculo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_trinculo| image:: https://quay.io/repository/biocontainers/trinculo/status
+   :target: https://quay.io/repository/biocontainers/trinculo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/trinculo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/trinculo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trinculo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/trinculo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/trinculo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/trinculo
-.. |docker| image:: https://quay.io/repository/biocontainers/trinculo/status
-                :target: https://quay.io/repository/biocontainers/trinculo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/trinculo/README.html
 

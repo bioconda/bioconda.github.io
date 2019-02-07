@@ -1,54 +1,66 @@
-.. _`pisces`:
+.. title:: Package Recipe 'pisces'
+.. highlight: bash
+
 
 pisces
 ======
 
-|downloads|
+.. conda:recipe:: pisces
+   :replaces_section_title:
 
-Somatic and germline variant caller for amplicon data. Recommended caller for tumor\-only workflows.
+   Somatic and germline variant caller for amplicon data. Recommended caller for tumor\-only workflows.
 
-============= ===========
-Home          https://github.com/Illumina/Pisces
-Versions      5.2.9.122, 5.2.7.47
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pisces/meta.yaml
+   :homepage: https://github.com/Illumina/Pisces
+   :license: GPLv3
+   :recipe: /`pisces <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pisces>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pisces/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pisces
 
-Installation
-------------
+   |downloads_pisces| |docker_pisces|
 
-.. highlight: bash
+   :versions: 5.2.9.122, 5.2.7.47
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install pisces
+   :required~by: |required_by_pisces|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pisces
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pisces
+
+   and update with::
+
+      conda update pisces
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pisces
+
+
+.. |required_by_pisces| conda:required_by:: pisces
+.. |downloads_pisces| image:: https://img.shields.io/conda/dn/bioconda/pisces.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pisces| image:: https://quay.io/repository/biocontainers/pisces/status
+   :target: https://quay.io/repository/biocontainers/pisces
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pisces.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pisces/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pisces/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pisces/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pisces/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pisces
-.. |docker| image:: https://quay.io/repository/biocontainers/pisces/status
-                :target: https://quay.io/repository/biocontainers/pisces
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pisces/README.html
 

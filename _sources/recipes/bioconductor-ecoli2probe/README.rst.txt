@@ -1,54 +1,66 @@
-.. _`bioconductor-ecoli2probe`:
+.. title:: Package Recipe 'bioconductor-ecoli2probe'
+.. highlight: bash
+
 
 bioconductor-ecoli2probe
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ecoli2probe
+   :replaces_section_title:
 
-This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was E\\\_coli\\\_2\\\_probe\\\_tab.
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was E\\\_coli\\\_2\\\_probe\\\_tab.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/ecoli2probe.html
-Versions      2.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ecoli2probe/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ecoli2probe.html
+   :license: LGPL
+   :recipe: /`bioconductor-ecoli2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2probe/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ecoli2probe
 
-Installation
-------------
+   |downloads_bioconductor-ecoli2probe| |docker_bioconductor-ecoli2probe|
 
-.. highlight: bash
+   :versions: 2.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ecoli2probe
+   :required~by: |required_by_bioconductor-ecoli2probe|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ecoli2probe
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ecoli2probe
+
+   and update with::
+
+      conda update bioconductor-ecoli2probe
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ecoli2probe
+
+
+.. |required_by_bioconductor-ecoli2probe| conda:required_by:: bioconductor-ecoli2probe
+.. |downloads_bioconductor-ecoli2probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecoli2probe.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ecoli2probe| image:: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ecoli2probe.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ecoli2probe/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ecoli2probe/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ecoli2probe/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ecoli2probe/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ecoli2probe
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ecoli2probe/README.html
 

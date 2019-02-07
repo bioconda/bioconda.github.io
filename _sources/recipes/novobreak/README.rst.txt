@@ -1,54 +1,66 @@
-.. _`novobreak`:
+.. title:: Package Recipe 'novobreak'
+.. highlight: bash
+
 
 novobreak
 =========
 
-|downloads|
+.. conda:recipe:: novobreak
+   :replaces_section_title:
 
-local assembly for breakpoint detection in cancer genomes
+   local assembly for breakpoint detection in cancer genomes
 
-============= ===========
-Home          https://github.com/czc/nb_distribution
-Versions      1.1.3rc
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//novobreak/meta.yaml
+   :homepage: https://github.com/czc/nb_distribution
+   :license: MIT
+   :recipe: /`novobreak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novobreak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novobreak/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: novobreak
 
-Installation
-------------
+   |downloads_novobreak| |docker_novobreak|
 
-.. highlight: bash
+   :versions: 1.1.3rc
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bwa` >=0.7.10 :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install novobreak
+   :required~by: |required_by_novobreak|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update novobreak
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install novobreak
+
+   and update with::
+
+      conda update novobreak
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/novobreak
+
+
+.. |required_by_novobreak| conda:required_by:: novobreak
+.. |downloads_novobreak| image:: https://img.shields.io/conda/dn/bioconda/novobreak.svg?style=flat
+   :alt:   (downloads)
+.. |docker_novobreak| image:: https://quay.io/repository/biocontainers/novobreak/status
+   :target: https://quay.io/repository/biocontainers/novobreak
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/novobreak.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/novobreak/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/novobreak/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/novobreak/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/novobreak/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/novobreak
-.. |docker| image:: https://quay.io/repository/biocontainers/novobreak/status
-                :target: https://quay.io/repository/biocontainers/novobreak
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/novobreak/README.html
 

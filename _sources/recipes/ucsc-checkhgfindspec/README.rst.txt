@@ -1,54 +1,66 @@
-.. _`ucsc-checkhgfindspec`:
+.. title:: Package Recipe 'ucsc-checkhgfindspec'
+.. highlight: bash
+
 
 ucsc-checkhgfindspec
 ====================
 
-|downloads|
+.. conda:recipe:: ucsc-checkhgfindspec
+   :replaces_section_title:
 
-test and describe search specs in hgFindSpec tables.
+   test and describe search specs in hgFindSpec tables.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-checkhgfindspec/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-checkhgfindspec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checkhgfindspec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checkhgfindspec/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-checkhgfindspec
 
-Installation
-------------
+   |downloads_ucsc-checkhgfindspec| |docker_ucsc-checkhgfindspec|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-checkhgfindspec
+   :required~by: |required_by_ucsc-checkhgfindspec|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-checkhgfindspec
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-checkhgfindspec
+
+   and update with::
+
+      conda update ucsc-checkhgfindspec
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-checkhgfindspec
+
+
+.. |required_by_ucsc-checkhgfindspec| conda:required_by:: ucsc-checkhgfindspec
+.. |downloads_ucsc-checkhgfindspec| image:: https://img.shields.io/conda/dn/bioconda/ucsc-checkhgfindspec.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-checkhgfindspec| image:: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec/status
+   :target: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-checkhgfindspec.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-checkhgfindspec/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-checkhgfindspec/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-checkhgfindspec/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-checkhgfindspec/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-checkhgfindspec
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec/status
-                :target: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-checkhgfindspec/README.html
 

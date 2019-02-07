@@ -1,56 +1,67 @@
-.. _`bioconductor-sincell`:
+.. title:: Package Recipe 'bioconductor-sincell'
+.. highlight: bash
+
 
 bioconductor-sincell
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-sincell
+   :replaces_section_title:
 
-Cell differentiation processes are achieved through a continuum of hierarchical intermediate cell\-states that might be captured by single\-cell RNA seq. Existing computational approaches for the assessment of cell\-state hierarchies from single\-cell data might be formalized under a general workflow composed of i\) a metric to assess cell\-to\-cell similarities \(combined or not with a dimensionality reduction step\)\, and ii\) a graph\-building algorithm \(optionally making use of a cells\-clustering step\). Sincell R package implements a methodological toolbox allowing flexible workflows under such framework. Furthermore\, Sincell contributes new algorithms to provide cell\-state hierarchies with statistical support while accounting for stochastic factors in single\-cell RNA seq. Graphical representations and functional association tests are provided to interpret hierarchies.
+   Cell differentiation processes are achieved through a continuum of hierarchical intermediate cell\-states that might be captured by single\-cell RNA seq. Existing computational approaches for the assessment of cell\-state hierarchies from single\-cell data might be formalized under a general workflow composed of i\) a metric to assess cell\-to\-cell similarities \(combined or not with a dimensionality reduction step\)\, and ii\) a graph\-building algorithm \(optionally making use of a cells\-clustering step\). Sincell R package implements a methodological toolbox allowing flexible workflows under such framework. Furthermore\, Sincell contributes new algorithms to provide cell\-state hierarchies with statistical support while accounting for stochastic factors in single\-cell RNA seq. Graphical representations and functional association tests are provided to interpret hierarchies.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/sincell.html
-Versions      1.14.1, 1.14.0, 1.12.0, 1.10.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sincell/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sincell.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-sincell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell/meta.yaml>`_
+   :links: biotools: :biotools:`sincell`
 
-
-
-Links         biotools: :biotools:`sincell`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-sincell
 
-Installation
-------------
+   |downloads_bioconductor-sincell| |docker_bioconductor-sincell|
 
-.. highlight: bash
+   :versions: 1.14.1, 1.14.0, 1.12.0, 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-entropy`  :conda:package:`r-fastica`  :conda:package:`r-fields`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-reshape2`  :conda:package:`r-rtsne`  :conda:package:`r-scatterplot3d`  :conda:package:`r-statmod`  :conda:package:`r-tsp`  
 
-   conda install bioconductor-sincell
+   :required~by: |required_by_bioconductor-sincell|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-sincell
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-sincell
+
+   and update with::
+
+      conda update bioconductor-sincell
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-sincell
+
+
+.. |required_by_bioconductor-sincell| conda:required_by:: bioconductor-sincell
+.. |downloads_bioconductor-sincell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sincell.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-sincell| image:: https://quay.io/repository/biocontainers/bioconductor-sincell/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-sincell
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-sincell.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-sincell/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-sincell/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-sincell/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-sincell/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-sincell
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sincell/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-sincell
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-sincell/README.html
 

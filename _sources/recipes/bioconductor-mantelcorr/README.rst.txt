@@ -1,56 +1,67 @@
-.. _`bioconductor-mantelcorr`:
+.. title:: Package Recipe 'bioconductor-mantelcorr'
+.. highlight: bash
+
 
 bioconductor-mantelcorr
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-mantelcorr
+   :replaces_section_title:
 
-Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e.g. microarray gene\-expression data\).
+   Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e.g. microarray gene\-expression data\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/MantelCorr.html
-Versions      1.52.0, 1.50.0, 1.48.0, 1.46.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mantelcorr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MantelCorr.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-mantelcorr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mantelcorr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mantelcorr/meta.yaml>`_
+   :links: biotools: :biotools:`mantelcorr`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`mantelcorr`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mantelcorr
 
-Installation
-------------
+   |downloads_bioconductor-mantelcorr| |docker_bioconductor-mantelcorr|
 
-.. highlight: bash
+   :versions: 1.52.0, 1.50.0, 1.48.0, 1.46.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-mantelcorr
+   :required~by: |required_by_bioconductor-mantelcorr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mantelcorr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mantelcorr
+
+   and update with::
+
+      conda update bioconductor-mantelcorr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mantelcorr
+
+
+.. |required_by_bioconductor-mantelcorr| conda:required_by:: bioconductor-mantelcorr
+.. |downloads_bioconductor-mantelcorr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mantelcorr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mantelcorr| image:: https://quay.io/repository/biocontainers/bioconductor-mantelcorr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mantelcorr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mantelcorr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mantelcorr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mantelcorr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mantelcorr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mantelcorr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mantelcorr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mantelcorr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mantelcorr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mantelcorr/README.html
 

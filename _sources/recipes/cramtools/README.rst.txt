@@ -1,56 +1,67 @@
-.. _`cramtools`:
+.. title:: Package Recipe 'cramtools'
+.. highlight: bash
+
 
 cramtools
 =========
 
-|downloads|
+.. conda:recipe:: cramtools
+   :replaces_section_title:
 
-A set of Java tools and APIs for efficient compression of sequence read data
+   A set of Java tools and APIs for efficient compression of sequence read data
 
-============= ===========
-Home          http://www.ebi.ac.uk/ena/software/cram-toolkit
-Versions      3.0.b127, 3.0.b47
-License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cramtools/meta.yaml
+   :homepage: http://www.ebi.ac.uk/ena/software/cram-toolkit
+   :license: Apache v2.0
+   :recipe: /`cramtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramtools/meta.yaml>`_
+   :links: biotools: :biotools:`CRAMTools`
 
-
-
-Links         biotools: :biotools:`CRAMTools`
-
-============= ===========
+   
 
 
+.. conda:package:: cramtools
 
-Installation
-------------
+   |downloads_cramtools| |docker_cramtools|
 
-.. highlight: bash
+   :versions: 3.0.b127, 3.0.b47
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`java-jdk`  
 
-   conda install cramtools
+   :required~by: |required_by_cramtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cramtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cramtools
+
+   and update with::
+
+      conda update cramtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cramtools
+
+
+.. |required_by_cramtools| conda:required_by:: cramtools
+.. |downloads_cramtools| image:: https://img.shields.io/conda/dn/bioconda/cramtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cramtools| image:: https://quay.io/repository/biocontainers/cramtools/status
+   :target: https://quay.io/repository/biocontainers/cramtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cramtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cramtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cramtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cramtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cramtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cramtools
-.. |docker| image:: https://quay.io/repository/biocontainers/cramtools/status
-                :target: https://quay.io/repository/biocontainers/cramtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cramtools/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-faahko`:
+.. title:: Package Recipe 'bioconductor-faahko'
+.. highlight: bash
+
 
 bioconductor-faahko
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-faahko
+   :replaces_section_title:
 
-Positive ionization mode data in NetCDF file format. Centroided subset from 200\-600 m\/z and 2500\-4500 seconds. Data originally reported in \"Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling\" Biochemistry\; 2004\; 43\(45\). Also includes detected peaks in an xcmsSet.
+   Positive ionization mode data in NetCDF file format. Centroided subset from 200\-600 m\/z and 2500\-4500 seconds. Data originally reported in \"Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling\" Biochemistry\; 2004\; 43\(45\). Also includes detected peaks in an xcmsSet.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/faahKO.html
-Versions      1.22.0, 1.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-faahko/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/faahKO.html
+   :license: LGPL
+   :recipe: /`bioconductor-faahko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-faahko
 
-Installation
-------------
+   |downloads_bioconductor-faahko| |docker_bioconductor-faahko|
 
-.. highlight: bash
+   :versions: 1.22.0, 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-faahko
+   :required~by: |required_by_bioconductor-faahko|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-faahko
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-faahko
+
+   and update with::
+
+      conda update bioconductor-faahko
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-faahko
+
+
+.. |required_by_bioconductor-faahko| conda:required_by:: bioconductor-faahko
+.. |downloads_bioconductor-faahko| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-faahko.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-faahko| image:: https://quay.io/repository/biocontainers/bioconductor-faahko/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-faahko
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-faahko.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-faahko/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-faahko/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-faahko/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-faahko/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-faahko
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-faahko/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-faahko
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-faahko/README.html
 

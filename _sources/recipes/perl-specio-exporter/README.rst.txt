@@ -1,54 +1,66 @@
-.. _`perl-specio-exporter`:
+.. title:: Package Recipe 'perl-specio-exporter'
+.. highlight: bash
+
 
 perl-specio-exporter
 ====================
 
-|downloads|
+.. conda:recipe:: perl-specio-exporter/0.36
+   :replaces_section_title:
 
-Base class for type libraries
+   Base class for type libraries
 
-============= ===========
-Home          http://metacpan.org/pod/Specio::Exporter
-Versions      0.36
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-specio-exporter/0.36/meta.yaml
+   :homepage: http://metacpan.org/pod/Specio::Exporter
+   :license: perl_5
+   :recipe: /`perl-specio-exporter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter>`_/`0.36 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter/0.36>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter/0.36/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-specio-exporter
 
-Installation
-------------
+   |downloads_perl-specio-exporter| |docker_perl-specio-exporter|
 
-.. highlight: bash
+   :versions: 0.36
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-app-cpanminus`  
 
-   conda install perl-specio-exporter
+   :required~by: |required_by_perl-specio-exporter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-specio-exporter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-specio-exporter
+
+   and update with::
+
+      conda update perl-specio-exporter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-specio-exporter
+
+
+.. |required_by_perl-specio-exporter| conda:required_by:: perl-specio-exporter
+.. |downloads_perl-specio-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-specio-exporter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-specio-exporter| image:: https://quay.io/repository/biocontainers/perl-specio-exporter/status
+   :target: https://quay.io/repository/biocontainers/perl-specio-exporter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-specio-exporter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-specio-exporter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-specio-exporter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-specio-exporter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-specio-exporter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-specio-exporter
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-specio-exporter/status
-                :target: https://quay.io/repository/biocontainers/perl-specio-exporter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-specio-exporter/README.html
 

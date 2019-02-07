@@ -1,56 +1,67 @@
-.. _`bioconductor-hem`:
+.. title:: Package Recipe 'bioconductor-hem'
+.. highlight: bash
+
 
 bioconductor-hem
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-hem
+   :replaces_section_title:
 
-This package fits heterogeneous error models for analysis of microarray data
+   This package fits heterogeneous error models for analysis of microarray data
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HEM.html
-Versions      1.54.0, 1.52.0, 1.50.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hem/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HEM.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem/meta.yaml>`_
+   :links: biotools: :biotools:`hem`, doi: :doi:`10.1093/bioinformatics/bth192`
 
-
-
-Links         biotools: :biotools:`hem`, doi: :doi:`10.1093/bioinformatics/bth192`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hem
 
-Installation
-------------
+   |downloads_bioconductor-hem| |docker_bioconductor-hem|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-hem
+   :required~by: |required_by_bioconductor-hem|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hem
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hem
+
+   and update with::
+
+      conda update bioconductor-hem
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hem
+
+
+.. |required_by_bioconductor-hem| conda:required_by:: bioconductor-hem
+.. |downloads_bioconductor-hem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hem.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hem| image:: https://quay.io/repository/biocontainers/bioconductor-hem/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hem
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hem.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hem/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hem/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hem/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hem/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hem
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hem/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hem
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hem/README.html
 

@@ -1,54 +1,66 @@
-.. _`dnapi`:
+.. title:: Package Recipe 'dnapi'
+.. highlight: bash
+
 
 dnapi
 =====
 
-|downloads|
+.. conda:recipe:: dnapi
+   :replaces_section_title:
 
-De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data.
+   De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data.
 
-============= ===========
-Home          https://github.com/jnktsj/DNApi
-Versions      1.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dnapi/meta.yaml
+   :homepage: https://github.com/jnktsj/DNApi
+   :license: MIT License
+   :recipe: /`dnapi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnapi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnapi/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dnapi
 
-Installation
-------------
+   |downloads_dnapi| |docker_dnapi|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install dnapi
+   :required~by: |required_by_dnapi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dnapi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dnapi
+
+   and update with::
+
+      conda update dnapi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dnapi
+
+
+.. |required_by_dnapi| conda:required_by:: dnapi
+.. |downloads_dnapi| image:: https://img.shields.io/conda/dn/bioconda/dnapi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dnapi| image:: https://quay.io/repository/biocontainers/dnapi/status
+   :target: https://quay.io/repository/biocontainers/dnapi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dnapi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dnapi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dnapi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dnapi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dnapi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dnapi
-.. |docker| image:: https://quay.io/repository/biocontainers/dnapi/status
-                :target: https://quay.io/repository/biocontainers/dnapi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dnapi/README.html
 

@@ -1,56 +1,67 @@
-.. _`t-coffee`:
+.. title:: Package Recipe 't-coffee'
+.. highlight: bash
+
 
 t-coffee
 ========
 
-|downloads|
+.. conda:recipe:: t-coffee
+   :replaces_section_title:
 
-A collection of tools for Multiple Alignments of DNA\, RNA\, Protein Sequence
+   A collection of tools for Multiple Alignments of DNA\, RNA\, Protein Sequence
 
-============= ===========
-Home          https://github.com/cbcrg/tcoffee
-Versions      12.00.7fb08c2, 11.00.8cbe486
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//t-coffee/meta.yaml
+   :homepage: https://github.com/cbcrg/tcoffee
+   :license: GPL
+   :recipe: /`t-coffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t-coffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t-coffee/meta.yaml>`_
+   :links: doi: :doi:`10.1006/jmbi.2000.4042`
 
-
-
-Links         doi: :doi:`10.1006/jmbi.2000.4042`
-
-============= ===========
+   
 
 
+.. conda:package:: t-coffee
 
-Installation
-------------
+   |downloads_t-coffee| |docker_t-coffee|
 
-.. highlight: bash
+   :versions: 12.00.7fb08c2, 11.00.8cbe486
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blast`  :conda:package:`clustalo`  :conda:package:`clustalw`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`poa`  :conda:package:`viennarna`  
 
-   conda install t-coffee
+   :required~by: |required_by_t-coffee|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update t-coffee
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install t-coffee
+
+   and update with::
+
+      conda update t-coffee
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/t-coffee
+
+
+.. |required_by_t-coffee| conda:required_by:: t-coffee
+.. |downloads_t-coffee| image:: https://img.shields.io/conda/dn/bioconda/t-coffee.svg?style=flat
+   :alt:   (downloads)
+.. |docker_t-coffee| image:: https://quay.io/repository/biocontainers/t-coffee/status
+   :target: https://quay.io/repository/biocontainers/t-coffee
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/t-coffee.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/t-coffee/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/t-coffee/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/t-coffee/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/t-coffee/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/t-coffee
-.. |docker| image:: https://quay.io/repository/biocontainers/t-coffee/status
-                :target: https://quay.io/repository/biocontainers/t-coffee
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/t-coffee/README.html
 

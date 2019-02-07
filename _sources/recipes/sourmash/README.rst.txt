@@ -1,58 +1,67 @@
-.. _`sourmash`:
+.. title:: Package Recipe 'sourmash'
+.. highlight: bash
+
 
 sourmash
 ========
 
-|downloads|
+.. conda:recipe:: sourmash
+   :replaces_section_title:
 
-Compute and compare MinHash signatures for DNA data sets.
+   Compute and compare MinHash signatures for DNA data sets.
 
-============= ===========
-Home          https://github.com/dib-lab/sourmash
-Versions      2.0.0a11, 2.0.0a10, 2.0.0a9, 2.0.0a8, 2.0.0a7, 2.0.0a6, 2.0.0a5, 2.0.0a4, 2.0.0a3, 2.0.0a2, 2.0.0a1, 1.0
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sourmash/meta.yaml
+   :homepage: https://github.com/dib-lab/sourmash
+   :license: BSD / BSD License
+   :recipe: /`sourmash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.00027`
 
-
-Development   https://github.com/dib-lab/sourmash
-
-
-Links         doi: :doi:`10.21105/joss.00027`
-
-============= ===========
+   
 
 
+.. conda:package:: sourmash
 
-Installation
-------------
+   |downloads_sourmash| |docker_sourmash|
 
-.. highlight: bash
+   :versions: 2.0.0a11, 2.0.0a10, 2.0.0a9, 2.0.0a8, 2.0.0a7, 2.0.0a6, 2.0.0a5, 2.0.0a4, 2.0.0a3, 2.0.0a2, 2.0.0a1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ijson`  :conda:package:`khmer` >=2.1 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  :conda:package:`screed` >=0.9 
 
-   conda install sourmash
+   :required~by: |required_by_sourmash|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sourmash
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sourmash
+
+   and update with::
+
+      conda update sourmash
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sourmash
+
+
+.. |required_by_sourmash| conda:required_by:: sourmash
+.. |downloads_sourmash| image:: https://img.shields.io/conda/dn/bioconda/sourmash.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sourmash| image:: https://quay.io/repository/biocontainers/sourmash/status
+   :target: https://quay.io/repository/biocontainers/sourmash
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sourmash.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sourmash/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sourmash/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sourmash/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sourmash/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sourmash
-.. |docker| image:: https://quay.io/repository/biocontainers/sourmash/status
-                :target: https://quay.io/repository/biocontainers/sourmash
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sourmash/README.html
 

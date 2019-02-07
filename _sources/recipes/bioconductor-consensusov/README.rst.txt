@@ -1,54 +1,66 @@
-.. _`bioconductor-consensusov`:
+.. title:: Package Recipe 'bioconductor-consensusov'
+.. highlight: bash
+
 
 bioconductor-consensusov
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-consensusov
+   :replaces_section_title:
 
-This package implements four major subtype classifiers for high\-grade serous \(HGS\) ovarian cancer as described by Helland et al. \(PLoS One\, 2011\)\, Bentink et al. \(PLoS One\, 2012\)\, Verhaak et al. \(J Clin Invest\, 2013\)\, and Konecny et al. \(J Natl Cancer Inst\, 2014\). In addition\, the package implements a consensus classifier\, which consolidates and improves on the robustness of the proposed subtype classifiers\, thereby providing reliable stratification of patients with HGS ovarian tumors of clearly defined subtype.
+   This package implements four major subtype classifiers for high\-grade serous \(HGS\) ovarian cancer as described by Helland et al. \(PLoS One\, 2011\)\, Bentink et al. \(PLoS One\, 2012\)\, Verhaak et al. \(J Clin Invest\, 2013\)\, and Konecny et al. \(J Natl Cancer Inst\, 2014\). In addition\, the package implements a consensus classifier\, which consolidates and improves on the robustness of the proposed subtype classifiers\, thereby providing reliable stratification of patients with HGS ovarian tumors of clearly defined subtype.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/consensusOV.html
-Versions      1.4.1, 1.2.0, 1.0.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-consensusov/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/consensusOV.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-consensusov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-consensusov
 
-Installation
-------------
+   |downloads_bioconductor-consensusov| |docker_bioconductor-consensusov|
 
-.. highlight: bash
+   :versions: 1.4.1, 1.2.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefu` >=2.14.0,<2.15.0 :conda:package:`bioconductor-gsva` >=1.30.0,<1.31.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-matrixstats`  :conda:package:`r-randomforest`  
 
-   conda install bioconductor-consensusov
+   :required~by: |required_by_bioconductor-consensusov|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-consensusov
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-consensusov
+
+   and update with::
+
+      conda update bioconductor-consensusov
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-consensusov
+
+
+.. |required_by_bioconductor-consensusov| conda:required_by:: bioconductor-consensusov
+.. |downloads_bioconductor-consensusov| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusov.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-consensusov| image:: https://quay.io/repository/biocontainers/bioconductor-consensusov/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-consensusov
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-consensusov.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-consensusov/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-consensusov/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-consensusov/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-consensusov/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-consensusov
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-consensusov/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-consensusov
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-consensusov/README.html
 

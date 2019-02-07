@@ -1,54 +1,66 @@
-.. _`ucsc-bigwigtowig`:
+.. title:: Package Recipe 'ucsc-bigwigtowig'
+.. highlight: bash
+
 
 ucsc-bigwigtowig
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-bigwigtowig
+   :replaces_section_title:
 
-Convert bigWig to wig.  This will keep more of the same structure of the
+   Convert bigWig to wig.  This will keep more of the same structure of the
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bigwigtowig/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-bigwigtowig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigtowig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigtowig/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-bigwigtowig
 
-Installation
-------------
+   |downloads_ucsc-bigwigtowig| |docker_ucsc-bigwigtowig|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-bigwigtowig
+   :required~by: |required_by_ucsc-bigwigtowig|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-bigwigtowig
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-bigwigtowig
+
+   and update with::
+
+      conda update ucsc-bigwigtowig
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-bigwigtowig
+
+
+.. |required_by_ucsc-bigwigtowig| conda:required_by:: ucsc-bigwigtowig
+.. |downloads_ucsc-bigwigtowig| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigtowig.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-bigwigtowig| image:: https://quay.io/repository/biocontainers/ucsc-bigwigtowig/status
+   :target: https://quay.io/repository/biocontainers/ucsc-bigwigtowig
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-bigwigtowig.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-bigwigtowig/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-bigwigtowig/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-bigwigtowig/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-bigwigtowig/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-bigwigtowig
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bigwigtowig/status
-                :target: https://quay.io/repository/biocontainers/ucsc-bigwigtowig
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-bigwigtowig/README.html
 

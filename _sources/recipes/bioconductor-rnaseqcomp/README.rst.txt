@@ -1,56 +1,67 @@
-.. _`bioconductor-rnaseqcomp`:
+.. title:: Package Recipe 'bioconductor-rnaseqcomp'
+.. highlight: bash
+
 
 bioconductor-rnaseqcomp
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-rnaseqcomp
+   :replaces_section_title:
 
-Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation.
+   Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rnaseqcomp.html
-Versions      1.12.0, 1.10.0, 1.8.0, 1.6.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaseqcomp/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rnaseqcomp.html
+   :license: GPL-3
+   :recipe: /`bioconductor-rnaseqcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp/meta.yaml>`_
+   :links: biotools: :biotools:`rnaseqcomp`
 
-
-
-Links         biotools: :biotools:`rnaseqcomp`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rnaseqcomp
 
-Installation
-------------
+   |downloads_bioconductor-rnaseqcomp| |docker_bioconductor-rnaseqcomp|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-rnaseqcomp
+   :required~by: |required_by_bioconductor-rnaseqcomp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rnaseqcomp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rnaseqcomp
+
+   and update with::
+
+      conda update bioconductor-rnaseqcomp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqcomp
+
+
+.. |required_by_bioconductor-rnaseqcomp| conda:required_by:: bioconductor-rnaseqcomp
+.. |downloads_bioconductor-rnaseqcomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqcomp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rnaseqcomp| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rnaseqcomp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rnaseqcomp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rnaseqcomp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rnaseqcomp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rnaseqcomp
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rnaseqcomp/README.html
 

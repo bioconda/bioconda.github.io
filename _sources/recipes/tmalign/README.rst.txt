@@ -1,56 +1,67 @@
-.. _`tmalign`:
+.. title:: Package Recipe 'tmalign'
+.. highlight: bash
+
 
 tmalign
 =======
 
-|downloads|
+.. conda:recipe:: tmalign
+   :replaces_section_title:
 
-TM\-align sequence\-order independent protein structure alignment
+   TM\-align sequence\-order independent protein structure alignment
 
-============= ===========
-Home          https://zhanglab.ccmb.med.umich.edu/TM-align/
-Versions      20170708
-License       BSD-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tmalign/meta.yaml
+   :homepage: https://zhanglab.ccmb.med.umich.edu/TM-align/
+   :license: BSD-like
+   :recipe: /`tmalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gki524`, doi: :doi:`10.1002/prot.20264`
 
-
-
-Links         doi: :doi:`10.1093/nar/gki524`, doi: :doi:`10.1002/prot.20264`
-
-============= ===========
+   
 
 
+.. conda:package:: tmalign
 
-Installation
-------------
+   |downloads_tmalign| |docker_tmalign|
 
-.. highlight: bash
+   :versions: 20170708
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgfortran` >=3.0 
 
-   conda install tmalign
+   :required~by: |required_by_tmalign|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tmalign
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tmalign
+
+   and update with::
+
+      conda update tmalign
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tmalign
+
+
+.. |required_by_tmalign| conda:required_by:: tmalign
+.. |downloads_tmalign| image:: https://img.shields.io/conda/dn/bioconda/tmalign.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tmalign| image:: https://quay.io/repository/biocontainers/tmalign/status
+   :target: https://quay.io/repository/biocontainers/tmalign
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tmalign.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tmalign/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tmalign/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tmalign/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tmalign/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tmalign
-.. |docker| image:: https://quay.io/repository/biocontainers/tmalign/status
-                :target: https://quay.io/repository/biocontainers/tmalign
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tmalign/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-gdtextutil`:
+.. title:: Package Recipe 'perl-gdtextutil'
+.. highlight: bash
+
 
 perl-gdtextutil
 ===============
 
-|downloads|
+.. conda:recipe:: perl-gdtextutil
+   :replaces_section_title:
 
-Text utilities for use with GD
+   Text utilities for use with GD
 
-============= ===========
-Home          http://metacpan.org/pod/GDTextUtil
-Versions      0.86
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-gdtextutil/meta.yaml
+   :homepage: http://metacpan.org/pod/GDTextUtil
+   :license: unknown
+   :recipe: /`perl-gdtextutil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdtextutil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdtextutil/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-gdtextutil
 
-Installation
-------------
+   |downloads_perl-gdtextutil| |docker_perl-gdtextutil|
 
-.. highlight: bash
+   :versions: 0.86
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22.0 :conda:package:`perl-gd`  
 
-   conda install perl-gdtextutil
+   :required~by: |required_by_perl-gdtextutil|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-gdtextutil
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-gdtextutil
+
+   and update with::
+
+      conda update perl-gdtextutil
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-gdtextutil
+
+
+.. |required_by_perl-gdtextutil| conda:required_by:: perl-gdtextutil
+.. |downloads_perl-gdtextutil| image:: https://img.shields.io/conda/dn/bioconda/perl-gdtextutil.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-gdtextutil| image:: https://quay.io/repository/biocontainers/perl-gdtextutil/status
+   :target: https://quay.io/repository/biocontainers/perl-gdtextutil
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-gdtextutil.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-gdtextutil/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-gdtextutil/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-gdtextutil/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-gdtextutil/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-gdtextutil
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-gdtextutil/status
-                :target: https://quay.io/repository/biocontainers/perl-gdtextutil
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-gdtextutil/README.html
 

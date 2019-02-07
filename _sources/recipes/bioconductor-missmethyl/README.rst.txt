@@ -1,56 +1,67 @@
-.. _`bioconductor-missmethyl`:
+.. title:: Package Recipe 'bioconductor-missmethyl'
+.. highlight: bash
+
 
 bioconductor-missmethyl
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-missmethyl
+   :replaces_section_title:
 
-Normalisation and testing for differential variability and differential methylation for data from Illumina\'s Infinium HumanMethylation450 array. The normalisation procedure is subset\-quantile within\-array normalisation \(SWAN\)\, which allows Infinium I and II type probes on a single array to be normalised together. The test for differential variability is based on an empirical Bayes version of Levene\'s test. Differential methylation testing is performed using RUV\, which can adjust for systematic errors of unknown origin in high\-dimensional data by using negative control probes. Gene ontology analysis is performed by taking into account the number of probes per gene on the array.
+   Normalisation and testing for differential variability and differential methylation for data from Illumina\'s Infinium HumanMethylation450 array. The normalisation procedure is subset\-quantile within\-array normalisation \(SWAN\)\, which allows Infinium I and II type probes on a single array to be normalised together. The test for differential variability is based on an empirical Bayes version of Levene\'s test. Differential methylation testing is performed using RUV\, which can adjust for systematic errors of unknown origin in high\-dimensional data by using negative control probes. Gene ontology analysis is performed by taking into account the number of probes per gene on the array.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/missMethyl.html
-Versions      1.16.0, 1.14.0, 1.12.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-missmethyl/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/missMethyl.html
+   :license: GPL-2
+   :recipe: /`bioconductor-missmethyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl/meta.yaml>`_
+   :links: biotools: :biotools:`missmethyl`
 
-
-
-Links         biotools: :biotools:`missmethyl`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-missmethyl
 
-Installation
-------------
+   |downloads_bioconductor-missmethyl| |docker_bioconductor-missmethyl|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylation450kmanifest` >=0.4.0,<0.5.0 :conda:package:`bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19` >=0.6.0,<0.7.0 :conda:package:`bioconductor-illuminahumanmethylationepicmanifest` >=0.3.0,<0.4.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-methylumi` >=2.28.0,<2.29.0 :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-biasedurn`  :conda:package:`r-ruv`  :conda:package:`r-statmod`  :conda:package:`r-stringr`  
 
-   conda install bioconductor-missmethyl
+   :required~by: |required_by_bioconductor-missmethyl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-missmethyl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-missmethyl
+
+   and update with::
+
+      conda update bioconductor-missmethyl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-missmethyl
+
+
+.. |required_by_bioconductor-missmethyl| conda:required_by:: bioconductor-missmethyl
+.. |downloads_bioconductor-missmethyl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-missmethyl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-missmethyl| image:: https://quay.io/repository/biocontainers/bioconductor-missmethyl/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-missmethyl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-missmethyl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-missmethyl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-missmethyl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-missmethyl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-missmethyl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-missmethyl
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-missmethyl/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-missmethyl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-missmethyl/README.html
 

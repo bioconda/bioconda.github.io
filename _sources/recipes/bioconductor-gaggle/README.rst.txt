@@ -1,54 +1,66 @@
-.. _`bioconductor-gaggle`:
+.. title:: Package Recipe 'bioconductor-gaggle'
+.. highlight: bash
+
 
 bioconductor-gaggle
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-gaggle
+   :replaces_section_title:
 
-This package contains functions enabling data exchange between R and Gaggle enabled bioinformatics software\, including Cytoscape\, Firegoose and Gaggle Genome Browser.
+   This package contains functions enabling data exchange between R and Gaggle enabled bioinformatics software\, including Cytoscape\, Firegoose and Gaggle Genome Browser.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/gaggle.html
-Versions      
-License       GPL version 2 or newer
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gaggle/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gaggle.html
+   :license: GPL version 2 or newer
+   :recipe: /`bioconductor-gaggle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-gaggle
 
-Installation
-------------
+   |downloads_bioconductor-gaggle| |docker_bioconductor-gaggle|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-gaggle
+   :required~by: |required_by_bioconductor-gaggle|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-gaggle
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-gaggle
+
+   and update with::
+
+      conda update bioconductor-gaggle
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-gaggle
+
+
+.. |required_by_bioconductor-gaggle| conda:required_by:: bioconductor-gaggle
+.. |downloads_bioconductor-gaggle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaggle.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-gaggle| image:: https://quay.io/repository/biocontainers/bioconductor-gaggle/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-gaggle
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-gaggle.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-gaggle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-gaggle/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-gaggle/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-gaggle/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-gaggle
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gaggle/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-gaggle
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-gaggle/README.html
 

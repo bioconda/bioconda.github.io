@@ -1,54 +1,66 @@
-.. _`metavelvet`:
+.. title:: Package Recipe 'metavelvet'
+.. highlight: bash
+
 
 metavelvet
 ==========
 
-|downloads|
+.. conda:recipe:: metavelvet
+   :replaces_section_title:
 
-MetaVelvet \: An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
+   MetaVelvet \: An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
-============= ===========
-Home          http://metavelvet.dna.bio.keio.ac.jp
-Versions      1.2.02, 1.1.01
-License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metavelvet/meta.yaml
+   :homepage: http://metavelvet.dna.bio.keio.ac.jp
+   :license: GNU General Public License
+   :recipe: /`metavelvet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: metavelvet
 
-Installation
-------------
+   |downloads_metavelvet| |docker_metavelvet|
 
-.. highlight: bash
+   :versions: 1.2.02, 1.1.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-module-build`  :conda:package:`perl-threaded`  :conda:package:`velvet`  :conda:package:`zlib`  
 
-   conda install metavelvet
+   :required~by: |required_by_metavelvet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metavelvet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metavelvet
+
+   and update with::
+
+      conda update metavelvet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metavelvet
+
+
+.. |required_by_metavelvet| conda:required_by:: metavelvet
+.. |downloads_metavelvet| image:: https://img.shields.io/conda/dn/bioconda/metavelvet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metavelvet| image:: https://quay.io/repository/biocontainers/metavelvet/status
+   :target: https://quay.io/repository/biocontainers/metavelvet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metavelvet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metavelvet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metavelvet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metavelvet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metavelvet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metavelvet
-.. |docker| image:: https://quay.io/repository/biocontainers/metavelvet/status
-                :target: https://quay.io/repository/biocontainers/metavelvet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metavelvet/README.html
 

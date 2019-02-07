@@ -1,54 +1,66 @@
-.. _`perl-bio-tools-run-alignment-clustalw`:
+.. title:: Package Recipe 'perl-bio-tools-run-alignment-clustalw'
+.. highlight: bash
+
 
 perl-bio-tools-run-alignment-clustalw
 =====================================
 
-|downloads|
+.. conda:recipe:: perl-bio-tools-run-alignment-clustalw
+   :replaces_section_title:
 
-Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the Clustalw program
+   Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the Clustalw program
 
-============= ===========
-Home          https://metacpan.org/release/Bio-Tools-Run-Alignment-Clustalw
-Versions      1.7.4
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-tools-run-alignment-clustalw/meta.yaml
+   :homepage: https://metacpan.org/release/Bio-Tools-Run-Alignment-Clustalw
+   :license: perl_5
+   :recipe: /`perl-bio-tools-run-alignment-clustalw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-tools-run-alignment-clustalw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-tools-run-alignment-clustalw/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-tools-run-alignment-clustalw
 
-Installation
-------------
+   |downloads_perl-bio-tools-run-alignment-clustalw| |docker_perl-bio-tools-run-alignment-clustalw|
 
-.. highlight: bash
+   :versions: 1.7.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`clustalw`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-base`  :conda:package:`perl-bioperl-run`  
 
-   conda install perl-bio-tools-run-alignment-clustalw
+   :required~by: |required_by_perl-bio-tools-run-alignment-clustalw|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-tools-run-alignment-clustalw
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-tools-run-alignment-clustalw
+
+   and update with::
+
+      conda update perl-bio-tools-run-alignment-clustalw
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw
+
+
+.. |required_by_perl-bio-tools-run-alignment-clustalw| conda:required_by:: perl-bio-tools-run-alignment-clustalw
+.. |downloads_perl-bio-tools-run-alignment-clustalw| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-clustalw.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-tools-run-alignment-clustalw| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-clustalw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-clustalw/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-clustalw/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-clustalw/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-clustalw
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-tools-run-alignment-clustalw/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-path-class`:
+.. title:: Package Recipe 'perl-path-class'
+.. highlight: bash
+
 
 perl-path-class
 ===============
 
-|downloads|
+.. conda:recipe:: perl-path-class
+   :replaces_section_title:
 
-Cross\-platform path specification manipulation
+   Cross\-platform path specification manipulation
 
-============= ===========
-Home          http://metacpan.org/pod/Path::Class
-Versions      0.37, 0.36
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-path-class/meta.yaml
+   :homepage: http://metacpan.org/pod/Path::Class
+   :license: perl_5
+   :recipe: /`perl-path-class <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-path-class
 
-Installation
-------------
+   |downloads_perl-path-class| |docker_perl-path-class|
 
-.. highlight: bash
+   :versions: 0.37, 0.36
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.27.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-file-path`  :conda:package:`perl-file-temp`  :conda:package:`perl-parent`  :conda:package:`perl-perl-ostype`  
 
-   conda install perl-path-class
+   :required~by: |required_by_perl-path-class|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-path-class
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-path-class
+
+   and update with::
+
+      conda update perl-path-class
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-path-class
+
+
+.. |required_by_perl-path-class| conda:required_by:: perl-path-class
+.. |downloads_perl-path-class| image:: https://img.shields.io/conda/dn/bioconda/perl-path-class.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-path-class| image:: https://quay.io/repository/biocontainers/perl-path-class/status
+   :target: https://quay.io/repository/biocontainers/perl-path-class
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-path-class.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-path-class/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-path-class/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-path-class/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-path-class/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-path-class
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-path-class/status
-                :target: https://quay.io/repository/biocontainers/perl-path-class
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-path-class/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-importer`:
+.. title:: Package Recipe 'perl-importer'
+.. highlight: bash
+
 
 perl-importer
 =============
 
-|downloads|
+.. conda:recipe:: perl-importer
+   :replaces_section_title:
 
-Alternative but compatible interface to modules that export symbols.
+   Alternative but compatible interface to modules that export symbols.
 
-============= ===========
-Home          http://metacpan.org/pod/Importer
-Versions      0.025, 0.024
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-importer/meta.yaml
+   :homepage: http://metacpan.org/pod/Importer
+   :license: perl_5
+   :recipe: /`perl-importer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-importer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-importer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-importer
 
-Installation
-------------
+   |downloads_perl-importer| |docker_perl-importer|
 
-.. highlight: bash
+   :versions: 0.025, 0.024
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-importer
+   :required~by: |required_by_perl-importer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-importer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-importer
+
+   and update with::
+
+      conda update perl-importer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-importer
+
+
+.. |required_by_perl-importer| conda:required_by:: perl-importer
+.. |downloads_perl-importer| image:: https://img.shields.io/conda/dn/bioconda/perl-importer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-importer| image:: https://quay.io/repository/biocontainers/perl-importer/status
+   :target: https://quay.io/repository/biocontainers/perl-importer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-importer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-importer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-importer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-importer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-importer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-importer
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-importer/status
-                :target: https://quay.io/repository/biocontainers/perl-importer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-importer/README.html
 

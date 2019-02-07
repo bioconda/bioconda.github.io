@@ -1,54 +1,66 @@
-.. _`tabix`:
+.. title:: Package Recipe 'tabix'
+.. highlight: bash
+
 
 tabix
 =====
 
-|downloads|
+.. conda:recipe:: tabix/0.2.5
+   :replaces_section_title:
 
-A set of tools written in Perl and C\+\+ for working with VCF files.
+   A set of tools written in Perl and C\+\+ for working with VCF files.
 
-============= ===========
-Home          https://sourceforge.net/projects/samtools
-Versions      0.2.6, 0.2.5
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tabix/0.2.5/meta.yaml
+   :homepage: https://sourceforge.net/projects/samtools
+   :license: BSD
+   :recipe: /`tabix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix>`_/`0.2.5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: tabix
 
-Installation
-------------
+   |downloads_tabix| |docker_tabix|
 
-.. highlight: bash
+   :versions: 0.2.6, 0.2.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install tabix
+   :required~by: |required_by_tabix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update tabix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install tabix
+
+   and update with::
+
+      conda update tabix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/tabix
+
+
+.. |required_by_tabix| conda:required_by:: tabix
+.. |downloads_tabix| image:: https://img.shields.io/conda/dn/bioconda/tabix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_tabix| image:: https://quay.io/repository/biocontainers/tabix/status
+   :target: https://quay.io/repository/biocontainers/tabix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/tabix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tabix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tabix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/tabix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/tabix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/tabix
-.. |docker| image:: https://quay.io/repository/biocontainers/tabix/status
-                :target: https://quay.io/repository/biocontainers/tabix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/tabix/README.html
 

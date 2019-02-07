@@ -1,54 +1,66 @@
-.. _`pauvre`:
+.. title:: Package Recipe 'pauvre'
+.. highlight: bash
+
 
 pauvre
 ======
 
-|downloads|
+.. conda:recipe:: pauvre
+   :replaces_section_title:
 
-Tools for plotting Oxford Nanopore and other long\-read data.
+   Tools for plotting Oxford Nanopore and other long\-read data.
 
-============= ===========
-Home          https://github.com/conchoecia/pauvre
-Versions      0.1.86, 0.1.85, 0.1.3
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pauvre/meta.yaml
+   :homepage: https://github.com/conchoecia/pauvre
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :recipe: /`pauvre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pauvre
 
-Installation
-------------
+   |downloads_pauvre| |docker_pauvre|
 
-.. highlight: bash
+   :versions: 0.1.86, 0.1.85, 0.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.68 :conda:package:`matplotlib` >=2.0.2 :conda:package:`numpy` >=1.12.1 :conda:package:`pandas` >=0.20.1 :conda:package:`python` 2.7* 
 
-   conda install pauvre
+   :required~by: |required_by_pauvre|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pauvre
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pauvre
+
+   and update with::
+
+      conda update pauvre
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pauvre
+
+
+.. |required_by_pauvre| conda:required_by:: pauvre
+.. |downloads_pauvre| image:: https://img.shields.io/conda/dn/bioconda/pauvre.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pauvre| image:: https://quay.io/repository/biocontainers/pauvre/status
+   :target: https://quay.io/repository/biocontainers/pauvre
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pauvre.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pauvre/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pauvre/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pauvre/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pauvre/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pauvre
-.. |docker| image:: https://quay.io/repository/biocontainers/pauvre/status
-                :target: https://quay.io/repository/biocontainers/pauvre
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pauvre/README.html
 

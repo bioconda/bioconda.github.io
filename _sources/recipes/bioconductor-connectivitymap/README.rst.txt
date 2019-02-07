@@ -1,54 +1,66 @@
-.. _`bioconductor-connectivitymap`:
+.. title:: Package Recipe 'bioconductor-connectivitymap'
+.. highlight: bash
+
 
 bioconductor-connectivitymap
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-connectivitymap
+   :replaces_section_title:
 
-The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalogue of gene\-expression data from cultured human cells perturbed with many chemicals and genetic reagents\"\, containing more than 7000 gene expression profiles and 1300 small molecules.
+   The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalogue of gene\-expression data from cultured human cells perturbed with many chemicals and genetic reagents\"\, containing more than 7000 gene expression profiles and 1300 small molecules.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/ConnectivityMap.html
-Versions      1.18.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-connectivitymap/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ConnectivityMap.html
+   :license: GPL-3
+   :recipe: /`bioconductor-connectivitymap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-connectivitymap
 
-Installation
-------------
+   |downloads_bioconductor-connectivitymap| |docker_bioconductor-connectivitymap|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-connectivitymap
+   :required~by: |required_by_bioconductor-connectivitymap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-connectivitymap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-connectivitymap
+
+   and update with::
+
+      conda update bioconductor-connectivitymap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-connectivitymap
+
+
+.. |required_by_bioconductor-connectivitymap| conda:required_by:: bioconductor-connectivitymap
+.. |downloads_bioconductor-connectivitymap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-connectivitymap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-connectivitymap| image:: https://quay.io/repository/biocontainers/bioconductor-connectivitymap/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-connectivitymap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-connectivitymap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-connectivitymap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-connectivitymap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-connectivitymap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-connectivitymap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-connectivitymap
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-connectivitymap/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-connectivitymap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-connectivitymap/README.html
 

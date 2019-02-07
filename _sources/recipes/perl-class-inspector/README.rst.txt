@@ -1,54 +1,66 @@
-.. _`perl-class-inspector`:
+.. title:: Package Recipe 'perl-class-inspector'
+.. highlight: bash
+
 
 perl-class-inspector
 ====================
 
-|downloads|
+.. conda:recipe:: perl-class-inspector
+   :replaces_section_title:
 
-Get information about a class and its structure
+   Get information about a class and its structure
 
-============= ===========
-Home          http://metacpan.org/pod/Class-Inspector
-Versions      1.32, 1.28
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-inspector/meta.yaml
+   :homepage: http://metacpan.org/pod/Class-Inspector
+   :license: perl_5
+   :recipe: /`perl-class-inspector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-inspector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-inspector/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-class-inspector
 
-Installation
-------------
+   |downloads_perl-class-inspector| |docker_perl-class-inspector|
 
-.. highlight: bash
+   :versions: 1.32, 1.28
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-class-inspector
+   :required~by: |required_by_perl-class-inspector|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-class-inspector
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-class-inspector
+
+   and update with::
+
+      conda update perl-class-inspector
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-class-inspector
+
+
+.. |required_by_perl-class-inspector| conda:required_by:: perl-class-inspector
+.. |downloads_perl-class-inspector| image:: https://img.shields.io/conda/dn/bioconda/perl-class-inspector.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-class-inspector| image:: https://quay.io/repository/biocontainers/perl-class-inspector/status
+   :target: https://quay.io/repository/biocontainers/perl-class-inspector
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-class-inspector.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-class-inspector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-class-inspector/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-class-inspector/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-class-inspector/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-class-inspector
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-class-inspector/status
-                :target: https://quay.io/repository/biocontainers/perl-class-inspector
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-class-inspector/README.html
 

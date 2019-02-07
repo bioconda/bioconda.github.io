@@ -1,56 +1,67 @@
-.. _`bioconductor-bionet`:
+.. title:: Package Recipe 'bioconductor-bionet'
+.. highlight: bash
+
 
 bioconductor-bionet
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-bionet
+   :replaces_section_title:
 
-This package provides functions for the integrated analysis of protein\-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p\-values of statistical tests to the nodes of the network. E.g. p\-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta\-uniform mixture model and calculating scores from the p\-values\, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.
+   This package provides functions for the integrated analysis of protein\-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p\-values of statistical tests to the nodes of the network. E.g. p\-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta\-uniform mixture model and calculating scores from the p\-values\, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BioNet.html
-Versions      1.42.0, 1.40.0, 1.38.0, 1.36.0, 1.34.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bionet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BioNet.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-bionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet/meta.yaml>`_
+   :links: biotools: :biotools:`bionet`
 
-
-
-Links         biotools: :biotools:`bionet`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bionet
 
-Installation
-------------
+   |downloads_bioconductor-bionet| |docker_bioconductor-bionet|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 
 
-   conda install bioconductor-bionet
+   :required~by: |required_by_bioconductor-bionet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bionet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bionet
+
+   and update with::
+
+      conda update bioconductor-bionet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bionet
+
+
+.. |required_by_bioconductor-bionet| conda:required_by:: bioconductor-bionet
+.. |downloads_bioconductor-bionet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bionet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bionet| image:: https://quay.io/repository/biocontainers/bioconductor-bionet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bionet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bionet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bionet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bionet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bionet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bionet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bionet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bionet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bionet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bionet/README.html
 

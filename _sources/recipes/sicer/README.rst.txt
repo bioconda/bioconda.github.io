@@ -1,54 +1,66 @@
-.. _`sicer`:
+.. title:: Package Recipe 'sicer'
+.. highlight: bash
+
 
 sicer
 =====
 
-|downloads|
+.. conda:recipe:: sicer
+   :replaces_section_title:
 
-A clustering approach for identification of enriched domains from histone modification ChIP\-Seq data
+   A clustering approach for identification of enriched domains from histone modification ChIP\-Seq data
 
-============= ===========
-Home          http://home.gwu.edu/~wpeng/Software.htm
-Versions      1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sicer/meta.yaml
+   :homepage: http://home.gwu.edu/~wpeng/Software.htm
+   :license: MIT / MIT
+   :recipe: /`sicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: sicer
 
-Installation
-------------
+   |downloads_sicer| |docker_sicer|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy` 1.9.* :conda:package:`python` 2.6.* :conda:package:`scipy` 0.16.* 
 
-   conda install sicer
+   :required~by: |required_by_sicer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sicer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sicer
+
+   and update with::
+
+      conda update sicer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sicer
+
+
+.. |required_by_sicer| conda:required_by:: sicer
+.. |downloads_sicer| image:: https://img.shields.io/conda/dn/bioconda/sicer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sicer| image:: https://quay.io/repository/biocontainers/sicer/status
+   :target: https://quay.io/repository/biocontainers/sicer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sicer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sicer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sicer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sicer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sicer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sicer
-.. |docker| image:: https://quay.io/repository/biocontainers/sicer/status
-                :target: https://quay.io/repository/biocontainers/sicer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sicer/README.html
 

@@ -1,55 +1,66 @@
-.. _`digestiflow-cli`:
+.. title:: Package Recipe 'digestiflow-cli'
+.. highlight: bash
+
 
 digestiflow-cli
 ===============
 
-|downloads|
+.. conda:recipe:: digestiflow-cli
+   :replaces_section_title:
 
-Command line client for Digestiflow.
+   Command line client for Digestiflow.
 
+   :homepage: https://github.com/bihealth/digestiflow-cli
+   :license: MIT
+   :recipe: /`digestiflow-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/digestiflow-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/digestiflow-cli/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/bihealth/digestiflow-cli
-Versions      0.4.0, 0.3.0, 0.2.0, 0.1.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//digestiflow-cli/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: digestiflow-cli
 
-Installation
-------------
+   |downloads_digestiflow-cli| |docker_digestiflow-cli|
 
-.. highlight: bash
+   :versions: 0.4.0, 0.3.0, 0.2.0, 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openssl` >=1.0.2p,<1.0.3a 
 
-   conda install digestiflow-cli
+   :required~by: |required_by_digestiflow-cli|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update digestiflow-cli
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install digestiflow-cli
+
+   and update with::
+
+      conda update digestiflow-cli
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/digestiflow-cli
+
+
+.. |required_by_digestiflow-cli| conda:required_by:: digestiflow-cli
+.. |downloads_digestiflow-cli| image:: https://img.shields.io/conda/dn/bioconda/digestiflow-cli.svg?style=flat
+   :alt:   (downloads)
+.. |docker_digestiflow-cli| image:: https://quay.io/repository/biocontainers/digestiflow-cli/status
+   :target: https://quay.io/repository/biocontainers/digestiflow-cli
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/digestiflow-cli.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/digestiflow-cli/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/digestiflow-cli/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/digestiflow-cli/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/digestiflow-cli/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/digestiflow-cli
-.. |docker| image:: https://quay.io/repository/biocontainers/digestiflow-cli/status
-                :target: https://quay.io/repository/biocontainers/digestiflow-cli
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/digestiflow-cli/README.html
 

@@ -1,54 +1,66 @@
-.. _`connor`:
+.. title:: Package Recipe 'connor'
+.. highlight: bash
+
 
 connor
 ======
 
-|downloads|
+.. conda:recipe:: connor
+   :replaces_section_title:
 
-A command\-line tool to deduplicate bam files based on custom\, inline barcoding.
+   A command\-line tool to deduplicate bam files based on custom\, inline barcoding.
 
-============= ===========
-Home          https://github.com/umich-brcf-bioinf/Connor
-Versions      0.6.1, 0.6, 0.5.1
-License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//connor/meta.yaml
+   :homepage: https://github.com/umich-brcf-bioinf/Connor
+   :license: Apache / Apache-2.0
+   :recipe: /`connor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/connor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/connor/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: connor
 
-Installation
-------------
+   |downloads_connor| |docker_connor|
 
-.. highlight: bash
+   :versions: 0.6.1, 0.6, 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`pysam` >0.8.3,<=0.12 :conda:package:`python`  :conda:package:`sortedcontainers`  
 
-   conda install connor
+   :required~by: |required_by_connor|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update connor
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install connor
+
+   and update with::
+
+      conda update connor
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/connor
+
+
+.. |required_by_connor| conda:required_by:: connor
+.. |downloads_connor| image:: https://img.shields.io/conda/dn/bioconda/connor.svg?style=flat
+   :alt:   (downloads)
+.. |docker_connor| image:: https://quay.io/repository/biocontainers/connor/status
+   :target: https://quay.io/repository/biocontainers/connor
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/connor.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/connor/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/connor/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/connor/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/connor/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/connor
-.. |docker| image:: https://quay.io/repository/biocontainers/connor/status
-                :target: https://quay.io/repository/biocontainers/connor
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/connor/README.html
 

@@ -1,54 +1,66 @@
-.. _`progressivemauve`:
+.. title:: Package Recipe 'progressivemauve'
+.. highlight: bash
+
 
 progressivemauve
 ================
 
-|downloads|
+.. conda:recipe:: progressivemauve
+   :replaces_section_title:
 
-progressiveMauve computes multiple genome alignment with gene gain\, loss and rearrangement
+   progressiveMauve computes multiple genome alignment with gene gain\, loss and rearrangement
 
-============= ===========
-Home          http://darlinglab.org/mauve/user-guide/progressivemauve.html
-Versions      snapshot_2015_02_13
-License       GNU General Public License version 2.0 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//progressivemauve/meta.yaml
+   :homepage: http://darlinglab.org/mauve/user-guide/progressivemauve.html
+   :license: GNU General Public License version 2.0 (GPLv2)
+   :recipe: /`progressivemauve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/progressivemauve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/progressivemauve/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: progressivemauve
 
-Installation
-------------
+   |downloads_progressivemauve| |docker_progressivemauve|
 
-.. highlight: bash
+   :versions: snapshot_2015_02_13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install progressivemauve
+   :required~by: |required_by_progressivemauve|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update progressivemauve
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install progressivemauve
+
+   and update with::
+
+      conda update progressivemauve
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/progressivemauve
+
+
+.. |required_by_progressivemauve| conda:required_by:: progressivemauve
+.. |downloads_progressivemauve| image:: https://img.shields.io/conda/dn/bioconda/progressivemauve.svg?style=flat
+   :alt:   (downloads)
+.. |docker_progressivemauve| image:: https://quay.io/repository/biocontainers/progressivemauve/status
+   :target: https://quay.io/repository/biocontainers/progressivemauve
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/progressivemauve.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/progressivemauve/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/progressivemauve/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/progressivemauve/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/progressivemauve/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/progressivemauve
-.. |docker| image:: https://quay.io/repository/biocontainers/progressivemauve/status
-                :target: https://quay.io/repository/biocontainers/progressivemauve
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/progressivemauve/README.html
 

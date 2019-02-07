@@ -1,54 +1,66 @@
-.. _`r-airr`:
+.. title:: Package Recipe 'r-airr'
+.. highlight: bash
+
 
 r-airr
 ======
 
-|downloads|
+.. conda:recipe:: r-airr
+   :replaces_section_title:
 
-Schema definitions and read\, write and validation tools for data  formatted in accordance with the AIRR Data Representation schemas defined  by the AIRR Community \<http\:\/\/docs.airr\-community.org\>.
+   Schema definitions and read\, write and validation tools for data  formatted in accordance with the AIRR Data Representation schemas defined  by the AIRR Community \<http\:\/\/docs.airr\-community.org\>.
 
-============= ===========
-Home          http://docs.airr-community.org
-Versions      1.2.0
-License       CC BY 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-airr/meta.yaml
+   :homepage: http://docs.airr-community.org
+   :license: CC / CC BY 4.0
+   :recipe: /`r-airr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-airr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-airr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-airr
 
-Installation
-------------
+   |downloads_r-airr| |docker_r-airr|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-readr`  :conda:package:`r-stringi`  :conda:package:`r-yaml`  
 
-   conda install r-airr
+   :required~by: |required_by_r-airr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-airr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-airr
+
+   and update with::
+
+      conda update r-airr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-airr
+
+
+.. |required_by_r-airr| conda:required_by:: r-airr
+.. |downloads_r-airr| image:: https://img.shields.io/conda/dn/bioconda/r-airr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-airr| image:: https://quay.io/repository/biocontainers/r-airr/status
+   :target: https://quay.io/repository/biocontainers/r-airr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-airr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-airr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-airr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-airr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-airr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-airr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-airr/status
-                :target: https://quay.io/repository/biocontainers/r-airr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-airr/README.html
 

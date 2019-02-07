@@ -1,54 +1,66 @@
-.. _`mdust`:
+.. title:: Package Recipe 'mdust'
+.. highlight: bash
+
 
 mdust
 =====
 
-|downloads|
+.. conda:recipe:: mdust
+   :replaces_section_title:
 
-mdust from DFCI Gene Indices Software Tools
+   mdust from DFCI Gene Indices Software Tools
 
-============= ===========
-Home          http://compbio.dfci.harvard.edu/tgi/
-Versions      2006.10.17
-License       The Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mdust/meta.yaml
+   :homepage: http://compbio.dfci.harvard.edu/tgi/
+   :license: The Artistic License
+   :recipe: /`mdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mdust
 
-Installation
-------------
+   |downloads_mdust| |docker_mdust|
 
-.. highlight: bash
+   :versions: 2006.10.17
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install mdust
+   :required~by: |required_by_mdust|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mdust
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mdust
+
+   and update with::
+
+      conda update mdust
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mdust
+
+
+.. |required_by_mdust| conda:required_by:: mdust
+.. |downloads_mdust| image:: https://img.shields.io/conda/dn/bioconda/mdust.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mdust| image:: https://quay.io/repository/biocontainers/mdust/status
+   :target: https://quay.io/repository/biocontainers/mdust
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mdust.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mdust/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mdust/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mdust/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mdust/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mdust
-.. |docker| image:: https://quay.io/repository/biocontainers/mdust/status
-                :target: https://quay.io/repository/biocontainers/mdust
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mdust/README.html
 

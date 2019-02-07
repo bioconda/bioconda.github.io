@@ -1,54 +1,66 @@
-.. _`shiver`:
+.. title:: Package Recipe 'shiver'
+.. highlight: bash
+
 
 shiver
 ======
 
-|downloads|
+.. conda:recipe:: shiver
+   :replaces_section_title:
 
-SHIVER \- Sequences from HIV Easily Reconstructed
+   SHIVER \- Sequences from HIV Easily Reconstructed
 
-============= ===========
-Home          https://github.com/ChrisHIV/shiver
-Versions      1.3.5, 1.2.1, 1.1.0, 1.0.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//shiver/meta.yaml
+   :homepage: https://github.com/ChrisHIV/shiver
+   :license: GPL / GPL-3.0
+   :recipe: /`shiver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shiver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shiver/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: shiver
 
-Installation
-------------
+   |downloads_shiver| |docker_shiver|
 
-.. highlight: bash
+   :versions: 1.3.5, 1.2.1, 1.1.0, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`blast` >=2.2.28 :conda:package:`mafft`  :conda:package:`picard`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`smalt`  :conda:package:`trimmomatic`  
 
-   conda install shiver
+   :required~by: |required_by_shiver|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update shiver
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install shiver
+
+   and update with::
+
+      conda update shiver
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/shiver
+
+
+.. |required_by_shiver| conda:required_by:: shiver
+.. |downloads_shiver| image:: https://img.shields.io/conda/dn/bioconda/shiver.svg?style=flat
+   :alt:   (downloads)
+.. |docker_shiver| image:: https://quay.io/repository/biocontainers/shiver/status
+   :target: https://quay.io/repository/biocontainers/shiver
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/shiver.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/shiver/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shiver/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/shiver/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/shiver/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/shiver
-.. |docker| image:: https://quay.io/repository/biocontainers/shiver/status
-                :target: https://quay.io/repository/biocontainers/shiver
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/shiver/README.html
 

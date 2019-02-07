@@ -1,56 +1,67 @@
-.. _`bioconductor-dama`:
+.. title:: Package Recipe 'bioconductor-dama'
+.. highlight: bash
+
 
 bioconductor-dama
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-dama
+   :replaces_section_title:
 
-This package contains functions for the efficient design of factorial two\-colour microarray experiments and for the statistical analysis of factorial microarray data. Statistical details are described in Bretz et al. \(2003\, submitted\)
+   This package contains functions for the efficient design of factorial two\-colour microarray experiments and for the statistical analysis of factorial microarray data. Statistical details are described in Bretz et al. \(2003\, submitted\)
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/daMA.html
-Versions      1.54.0, 1.52.0, 1.50.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dama/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/daMA.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-dama <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dama>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dama/meta.yaml>`_
+   :links: biotools: :biotools:`dama`, doi: :doi:`10.1016/j.csda.2004.08.014`
 
-
-
-Links         biotools: :biotools:`dama`, doi: :doi:`10.1016/j.csda.2004.08.014`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dama
 
-Installation
-------------
+   |downloads_bioconductor-dama| |docker_bioconductor-dama|
 
-.. highlight: bash
+   :versions: 1.54.0, 1.52.0, 1.50.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-mass`  
 
-   conda install bioconductor-dama
+   :required~by: |required_by_bioconductor-dama|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dama
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dama
+
+   and update with::
+
+      conda update bioconductor-dama
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dama
+
+
+.. |required_by_bioconductor-dama| conda:required_by:: bioconductor-dama
+.. |downloads_bioconductor-dama| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dama.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dama| image:: https://quay.io/repository/biocontainers/bioconductor-dama/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dama
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dama.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dama/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dama/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dama/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dama/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dama
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dama/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dama
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dama/README.html
 

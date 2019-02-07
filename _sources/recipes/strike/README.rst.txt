@@ -1,56 +1,67 @@
-.. _`strike`:
+.. title:: Package Recipe 'strike'
+.. highlight: bash
+
 
 strike
 ======
 
-|downloads|
+.. conda:recipe:: strike
+   :replaces_section_title:
 
-A program to evaluate protein multiple sequence alignments using a single protein structure.
+   A program to evaluate protein multiple sequence alignments using a single protein structure.
 
-============= ===========
-Home          http://www.tcoffee.org/Projects/strike/index.html
-Versions      1.2
-License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//strike/meta.yaml
+   :homepage: http://www.tcoffee.org/Projects/strike/index.html
+   :license: file
+   :recipe: /`strike <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strike>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strike/meta.yaml>`_
+   :links: biotools: :biotools:`STRIKE`, doi: :doi:`10.1093/bioinformatics/btr587`
 
-
-
-Links         biotools: :biotools:`STRIKE`, doi: :doi:`10.1093/bioinformatics/btr587`
-
-============= ===========
+   
 
 
+.. conda:package:: strike
 
-Installation
-------------
+   |downloads_strike| |docker_strike|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install strike
+   :required~by: |required_by_strike|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update strike
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install strike
+
+   and update with::
+
+      conda update strike
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/strike
+
+
+.. |required_by_strike| conda:required_by:: strike
+.. |downloads_strike| image:: https://img.shields.io/conda/dn/bioconda/strike.svg?style=flat
+   :alt:   (downloads)
+.. |docker_strike| image:: https://quay.io/repository/biocontainers/strike/status
+   :target: https://quay.io/repository/biocontainers/strike
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/strike.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/strike/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/strike/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/strike/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/strike/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/strike
-.. |docker| image:: https://quay.io/repository/biocontainers/strike/status
-                :target: https://quay.io/repository/biocontainers/strike
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/strike/README.html
 

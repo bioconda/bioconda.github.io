@@ -1,56 +1,67 @@
-.. _`bioconductor-swimr`:
+.. title:: Package Recipe 'bioconductor-swimr'
+.. highlight: bash
+
 
 bioconductor-swimr
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-swimr
+   :replaces_section_title:
 
-SwimR is an R\-based suite that calculates\, analyses\, and plots the frequency of C. elegans swimming behavior over time. It places a particular emphasis on identifying paralysis and quantifying the kinetic elements of paralysis during swimming. Data is input to SwipR from a custom built program that fits a 5 point morphometric spine to videos of single worms swimming in a buffer called Worm Tracker.
+   SwimR is an R\-based suite that calculates\, analyses\, and plots the frequency of C. elegans swimming behavior over time. It places a particular emphasis on identifying paralysis and quantifying the kinetic elements of paralysis during swimming. Data is input to SwipR from a custom built program that fits a 5 point morphometric spine to videos of single worms swimming in a buffer called Worm Tracker.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SwimR.html
-Versions      1.20.0, 1.18.0, 1.16.0
-License       LGPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-swimr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SwimR.html
+   :license: LGPL-2
+   :recipe: /`bioconductor-swimr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr/meta.yaml>`_
+   :links: biotools: :biotools:`swimr`, doi: :doi:`10.1016/j.jneumeth.2014.04.024`
 
-
-
-Links         biotools: :biotools:`swimr`, doi: :doi:`10.1016/j.jneumeth.2014.04.024`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-swimr
 
-Installation
-------------
+   |downloads_bioconductor-swimr| |docker_bioconductor-swimr|
 
-.. highlight: bash
+   :versions: 1.20.0, 1.18.0, 1.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots` >=2.10.1 :conda:package:`r-heatmap.plus` >=1.3 :conda:package:`r-r2html` >=2.2.1 :conda:package:`r-signal` >=0.7 
 
-   conda install bioconductor-swimr
+   :required~by: |required_by_bioconductor-swimr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-swimr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-swimr
+
+   and update with::
+
+      conda update bioconductor-swimr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-swimr
+
+
+.. |required_by_bioconductor-swimr| conda:required_by:: bioconductor-swimr
+.. |downloads_bioconductor-swimr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swimr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-swimr| image:: https://quay.io/repository/biocontainers/bioconductor-swimr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-swimr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-swimr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-swimr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-swimr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-swimr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-swimr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-swimr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-swimr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-swimr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-swimr/README.html
 

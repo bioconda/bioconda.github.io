@@ -1,54 +1,66 @@
-.. _`bucketcache`:
+.. title:: Package Recipe 'bucketcache'
+.. highlight: bash
+
 
 bucketcache
 ===========
 
-|downloads|
+.. conda:recipe:: bucketcache
+   :replaces_section_title:
 
-Versatile persisent file cache.
+   Versatile persisent file cache.
 
-============= ===========
-Home          https://github.com/RazerM/bucketcache
-Versions      0.12.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bucketcache/meta.yaml
+   :homepage: https://github.com/RazerM/bucketcache
+   :license: MIT / MIT License
+   :recipe: /`bucketcache <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bucketcache>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bucketcache/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bucketcache
 
-Installation
-------------
+   |downloads_bucketcache| |docker_bucketcache|
 
-.. highlight: bash
+   :versions: 0.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boltons`  :conda:package:`decorator` >=4.0.2 :conda:package:`logbook` >=0.12.5 :conda:package:`pathlib`  :conda:package:`python` 2.7* :conda:package:`python-dateutil`  :conda:package:`represent` >=1.5.1 :conda:package:`six` >=1.9.0 
 
-   conda install bucketcache
+   :required~by: |required_by_bucketcache|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bucketcache
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bucketcache
+
+   and update with::
+
+      conda update bucketcache
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bucketcache
+
+
+.. |required_by_bucketcache| conda:required_by:: bucketcache
+.. |downloads_bucketcache| image:: https://img.shields.io/conda/dn/bioconda/bucketcache.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bucketcache| image:: https://quay.io/repository/biocontainers/bucketcache/status
+   :target: https://quay.io/repository/biocontainers/bucketcache
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bucketcache.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bucketcache/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bucketcache/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bucketcache/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bucketcache/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bucketcache
-.. |docker| image:: https://quay.io/repository/biocontainers/bucketcache/status
-                :target: https://quay.io/repository/biocontainers/bucketcache
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bucketcache/README.html
 

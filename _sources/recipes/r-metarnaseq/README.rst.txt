@@ -1,54 +1,66 @@
-.. _`r-metarnaseq`:
+.. title:: Package Recipe 'r-metarnaseq'
+.. highlight: bash
+
 
 r-metarnaseq
 ============
 
-|downloads|
+.. conda:recipe:: r-metarnaseq
+   :replaces_section_title:
 
-Implementation of two p\-value combination techniques \(inverse normal and Fisher methods\). A vignette is provided to explain how to perform a meta\-analysis from two independent RNA\-seq experiments.
+   Implementation of two p\-value combination techniques \(inverse normal and Fisher methods\). A vignette is provided to explain how to perform a meta\-analysis from two independent RNA\-seq experiments.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=metaRNASeq
-Versions      1.0.2
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-metarnaseq/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=metaRNASeq
+   :license: GPL / GPL
+   :recipe: /`r-metarnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-metarnaseq
 
-Installation
-------------
+   |downloads_r-metarnaseq| |docker_r-metarnaseq|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-metarnaseq
+   :required~by: |required_by_r-metarnaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-metarnaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-metarnaseq
+
+   and update with::
+
+      conda update r-metarnaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-metarnaseq
+
+
+.. |required_by_r-metarnaseq| conda:required_by:: r-metarnaseq
+.. |downloads_r-metarnaseq| image:: https://img.shields.io/conda/dn/bioconda/r-metarnaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-metarnaseq| image:: https://quay.io/repository/biocontainers/r-metarnaseq/status
+   :target: https://quay.io/repository/biocontainers/r-metarnaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-metarnaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-metarnaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-metarnaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-metarnaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-metarnaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-metarnaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/r-metarnaseq/status
-                :target: https://quay.io/repository/biocontainers/r-metarnaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-metarnaseq/README.html
 

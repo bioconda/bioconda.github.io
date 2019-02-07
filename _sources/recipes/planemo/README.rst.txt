@@ -1,54 +1,66 @@
-.. _`planemo`:
+.. title:: Package Recipe 'planemo'
+.. highlight: bash
+
 
 planemo
 =======
 
-|downloads|
+.. conda:recipe:: planemo
+   :replaces_section_title:
 
-Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
+   Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
 
-============= ===========
-Home          https://github.com/galaxyproject/planemo
-Versions      0.57.1, 0.57.0, 0.56.0, 0.55.0, 0.54.0, 0.48.0, 0.46.1, 0.40.1, 0.38.1, 0.34.1, 0.33.2, 0.29.1, 0.23.0
-License       Academic Free License (AFL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//planemo/meta.yaml
+   :homepage: https://github.com/galaxyproject/planemo
+   :license: Apache / Academic Free License (AFL)
+   :recipe: /`planemo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: planemo
 
-Installation
-------------
+   |downloads_planemo| |docker_planemo|
 
-.. highlight: bash
+   :versions: 0.57.1, 0.57.0, 0.56.0, 0.55.0, 0.54.0, 0.48.0, 0.46.1, 0.40.1, 0.38.1, 0.34.1, 0.33.2, 0.29.1, 0.23.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`aenum`  :conda:package:`bioblend` >=0.10.0 :conda:package:`click`  :conda:package:`docutils`  :conda:package:`ephemeris`  :conda:package:`galaxy-lib` >=18.5.15 :conda:package:`glob2`  :conda:package:`gxformat2`  :conda:package:`jinja2`  :conda:package:`lxml`  :conda:package:`oyaml`  :conda:package:`pyaml`  :conda:package:`python`  :conda:package:`pyyaml`  :conda:package:`six` >=1.7.0 :conda:package:`virtualenv`  
 
-   conda install planemo
+   :required~by: |required_by_planemo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update planemo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install planemo
+
+   and update with::
+
+      conda update planemo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/planemo
+
+
+.. |required_by_planemo| conda:required_by:: planemo
+.. |downloads_planemo| image:: https://img.shields.io/conda/dn/bioconda/planemo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_planemo| image:: https://quay.io/repository/biocontainers/planemo/status
+   :target: https://quay.io/repository/biocontainers/planemo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/planemo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/planemo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/planemo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/planemo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/planemo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/planemo
-.. |docker| image:: https://quay.io/repository/biocontainers/planemo/status
-                :target: https://quay.io/repository/biocontainers/planemo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/planemo/README.html
 

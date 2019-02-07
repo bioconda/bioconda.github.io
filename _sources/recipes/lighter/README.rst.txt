@@ -1,56 +1,67 @@
-.. _`lighter`:
+.. title:: Package Recipe 'lighter'
+.. highlight: bash
+
 
 lighter
 =======
 
-|downloads|
+.. conda:recipe:: lighter
+   :replaces_section_title:
 
-Lighter is a kmer\-based error correction method for whole genome sequencing data
+   Lighter is a kmer\-based error correction method for whole genome sequencing data
 
-============= ===========
-Home          https://github.com/mourisl/Lighter
-Versions      1.1.2, 1.1.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lighter/meta.yaml
+   :homepage: https://github.com/mourisl/Lighter
+   :license: GPLv3
+   :recipe: /`lighter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter/meta.yaml>`_
+   :links: biotools: :biotools:`Lighter`
 
-
-
-Links         biotools: :biotools:`Lighter`
-
-============= ===========
+   
 
 
+.. conda:package:: lighter
 
-Installation
-------------
+   |downloads_lighter| |docker_lighter|
 
-.. highlight: bash
+   :versions: 1.1.2, 1.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install lighter
+   :required~by: |required_by_lighter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lighter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lighter
+
+   and update with::
+
+      conda update lighter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lighter
+
+
+.. |required_by_lighter| conda:required_by:: lighter
+.. |downloads_lighter| image:: https://img.shields.io/conda/dn/bioconda/lighter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lighter| image:: https://quay.io/repository/biocontainers/lighter/status
+   :target: https://quay.io/repository/biocontainers/lighter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lighter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lighter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lighter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lighter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lighter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lighter
-.. |docker| image:: https://quay.io/repository/biocontainers/lighter/status
-                :target: https://quay.io/repository/biocontainers/lighter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lighter/README.html
 

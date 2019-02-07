@@ -1,56 +1,67 @@
-.. _`focus`:
+.. title:: Package Recipe 'focus'
+.. highlight: bash
+
 
 focus
 =====
 
-|downloads|
+.. conda:recipe:: focus
+   :replaces_section_title:
 
-FOCUS is an innovative and agile model to profile and report organisms present in metagenomic samples based on composition usage without sequence length dependencies.
+   FOCUS is an innovative and agile model to profile and report organisms present in metagenomic samples based on composition usage without sequence length dependencies.
 
-============= ===========
-Home          https://edwards.sdsu.edu/FOCUS
-Versions      1.4, 1.3
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//focus/meta.yaml
+   :homepage: https://edwards.sdsu.edu/FOCUS
+   :developer docs: https://github.com/metageni/FOCUS
+   :license: GPL / GPL-3.0
+   :recipe: /`focus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/focus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/focus/meta.yaml>`_
 
-
-Development   https://github.com/metageni/FOCUS
-
-
-============= ===========
+   
 
 
+.. conda:package:: focus
 
-Installation
-------------
+   |downloads_focus| |docker_focus|
 
-.. highlight: bash
+   :versions: 1.4, 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`jellyfish`  :conda:package:`numpy` >=1.12.1 :conda:package:`python` >=3 :conda:package:`scipy` >=0.19.0 :conda:package:`unzip`  
 
-   conda install focus
+   :required~by: |required_by_focus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update focus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install focus
+
+   and update with::
+
+      conda update focus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/focus
+
+
+.. |required_by_focus| conda:required_by:: focus
+.. |downloads_focus| image:: https://img.shields.io/conda/dn/bioconda/focus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_focus| image:: https://quay.io/repository/biocontainers/focus/status
+   :target: https://quay.io/repository/biocontainers/focus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/focus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/focus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/focus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/focus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/focus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/focus
-.. |docker| image:: https://quay.io/repository/biocontainers/focus/status
-                :target: https://quay.io/repository/biocontainers/focus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/focus/README.html
 

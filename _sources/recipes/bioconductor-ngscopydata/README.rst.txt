@@ -1,54 +1,66 @@
-.. _`bioconductor-ngscopydata`:
+.. title:: Package Recipe 'bioconductor-ngscopydata'
+.. highlight: bash
+
 
 bioconductor-ngscopydata
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-ngscopydata
+   :replaces_section_title:
 
-Subset of BAM files of human lung tumor and pooled normal samples by targeted panel sequencing. \[Zhao et al 2014. Targeted Sequencing in Non\-Small Cell Lung Cancer \(NSCLC\) Using the University of North Carolina \(UNC\) Sequencing Assay Captures Most Previously Described Genetic Aberrations in NSCLC. In preparation.\] Each sample is a 10 percent random subsample drawn from the original sequencing data. The pooled normal sample has been rescaled accroding to the total number of normal samples in the \"pool\". Here provided is the subsampled data on chr6 \(hg19\).
+   Subset of BAM files of human lung tumor and pooled normal samples by targeted panel sequencing. \[Zhao et al 2014. Targeted Sequencing in Non\-Small Cell Lung Cancer \(NSCLC\) Using the University of North Carolina \(UNC\) Sequencing Assay Captures Most Previously Described Genetic Aberrations in NSCLC. In preparation.\] Each sample is a 10 percent random subsample drawn from the original sequencing data. The pooled normal sample has been rescaled accroding to the total number of normal samples in the \"pool\". Here provided is the subsampled data on chr6 \(hg19\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/NGScopyData.html
-Versions      1.2.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ngscopydata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/NGScopyData.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-ngscopydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopydata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ngscopydata
 
-Installation
-------------
+   |downloads_bioconductor-ngscopydata| |docker_bioconductor-ngscopydata|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-ngscopydata
+   :required~by: |required_by_bioconductor-ngscopydata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ngscopydata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ngscopydata
+
+   and update with::
+
+      conda update bioconductor-ngscopydata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ngscopydata
+
+
+.. |required_by_bioconductor-ngscopydata| conda:required_by:: bioconductor-ngscopydata
+.. |downloads_bioconductor-ngscopydata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ngscopydata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ngscopydata| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopydata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ngscopydata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ngscopydata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ngscopydata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ngscopydata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ngscopydata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ngscopydata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ngscopydata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopydata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ngscopydata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ngscopydata/README.html
 

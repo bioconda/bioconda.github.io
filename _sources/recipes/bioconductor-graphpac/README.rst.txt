@@ -1,56 +1,67 @@
-.. _`bioconductor-graphpac`:
+.. title:: Package Recipe 'bioconductor-graphpac'
+.. highlight: bash
+
 
 bioconductor-graphpac
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-graphpac
+   :replaces_section_title:
 
-Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model.
+   Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GraphPAC.html
-Versions      1.24.0, 1.22.1, 1.20.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-graphpac/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GraphPAC.html
+   :license: GPL-2
+   :recipe: /`bioconductor-graphpac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac/meta.yaml>`_
+   :links: biotools: :biotools:`graphpac`, doi: :doi:`10.1186/1471-2105-15-86`
 
-
-
-Links         biotools: :biotools:`graphpac`, doi: :doi:`10.1186/1471-2105-15-86`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-graphpac
 
-Installation
-------------
+   |downloads_bioconductor-graphpac| |docker_bioconductor-graphpac|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.1, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-ipac` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-rmallow`  :conda:package:`r-tsp`  
 
-   conda install bioconductor-graphpac
+   :required~by: |required_by_bioconductor-graphpac|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-graphpac
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-graphpac
+
+   and update with::
+
+      conda update bioconductor-graphpac
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-graphpac
+
+
+.. |required_by_bioconductor-graphpac| conda:required_by:: bioconductor-graphpac
+.. |downloads_bioconductor-graphpac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphpac.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-graphpac| image:: https://quay.io/repository/biocontainers/bioconductor-graphpac/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-graphpac
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-graphpac.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-graphpac/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-graphpac/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-graphpac/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-graphpac/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-graphpac
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-graphpac/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-graphpac
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-graphpac/README.html
 

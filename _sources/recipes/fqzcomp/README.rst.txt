@@ -1,54 +1,66 @@
-.. _`fqzcomp`:
+.. title:: Package Recipe 'fqzcomp'
+.. highlight: bash
+
 
 fqzcomp
 =======
 
-|downloads|
+.. conda:recipe:: fqzcomp
+   :replaces_section_title:
 
-Fqzcomp is a basic fastq compressor\, designed primarily for high performance.
+   Fqzcomp is a basic fastq compressor\, designed primarily for high performance.
 
-============= ===========
-Home          https://sourceforge.net/projects/fqzcomp/
-Versions      4.6
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fqzcomp/meta.yaml
+   :homepage: https://sourceforge.net/projects/fqzcomp/
+   :license: BSD / BSD License
+   :recipe: /`fqzcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqzcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqzcomp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fqzcomp
 
-Installation
-------------
+   |downloads_fqzcomp| |docker_fqzcomp|
 
-.. highlight: bash
+   :versions: 4.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install fqzcomp
+   :required~by: |required_by_fqzcomp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fqzcomp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fqzcomp
+
+   and update with::
+
+      conda update fqzcomp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fqzcomp
+
+
+.. |required_by_fqzcomp| conda:required_by:: fqzcomp
+.. |downloads_fqzcomp| image:: https://img.shields.io/conda/dn/bioconda/fqzcomp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fqzcomp| image:: https://quay.io/repository/biocontainers/fqzcomp/status
+   :target: https://quay.io/repository/biocontainers/fqzcomp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fqzcomp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fqzcomp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fqzcomp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fqzcomp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fqzcomp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fqzcomp
-.. |docker| image:: https://quay.io/repository/biocontainers/fqzcomp/status
-                :target: https://quay.io/repository/biocontainers/fqzcomp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fqzcomp/README.html
 

@@ -1,60 +1,71 @@
-.. _`metaphlan2`:
+.. title:: Package Recipe 'metaphlan2'
+.. highlight: bash
+
 
 metaphlan2
 ==========
 
-|downloads|
+.. conda:recipe:: metaphlan2/2.7.7
+   :replaces_section_title:
 
-MetaPhlAn is a computational tool for profiling the composition of microbial
-communities \(Bacteria\, Archaea\, Eukaryotes and Viruses\) from metagenomic
-shotgun sequencing data with species level resolution. From version 2.0
-MetaPhlAn is also able to identify specific strains \(in the not\-so\-frequent
-cases in which the sample contains a previously sequenced strains\) and to
-track strains across samples for all species.
+   MetaPhlAn is a computational tool for profiling the composition of microbial
+   communities \(Bacteria\, Archaea\, Eukaryotes and Viruses\) from metagenomic
+   shotgun sequencing data with species level resolution. From version 2.0
+   MetaPhlAn is also able to identify specific strains \(in the not\-so\-frequent
+   cases in which the sample contains a previously sequenced strains\) and to
+   track strains across samples for all species.
 
+   :homepage: https://bitbucket.org/biobakery/metaphlan2
+   :license: MIT / MIT License
+   :recipe: /`metaphlan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2>`_/`2.7.7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7/meta.yaml>`_
 
-============= ===========
-Home          https://bitbucket.org/biobakery/metaphlan2
-Versions      2.7.8, 2.7.7, 2.7.5, 2.6.0, 2.5.0, 2.2.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaphlan2/2.7.7/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: metaphlan2
 
-Installation
-------------
+   |downloads_metaphlan2| |docker_metaphlan2|
 
-.. highlight: bash
+   :versions: 2.7.8, 2.7.7, 2.7.5, 2.6.0, 2.5.0, 2.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biom-format`  :conda:package:`biopython`  :conda:package:`blast` >=2.6.0 :conda:package:`bowtie2` >=2.0.0 :conda:package:`dendropy` >=3.12.3 :conda:package:`matplotlib` 1.5.2.* :conda:package:`msgpack-python`  :conda:package:`muscle` >=3.8.1551 :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam` >=0.8.3 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`raxml` >=8.2.10 :conda:package:`requests`  :conda:package:`samtools` >=0.1.19,<1.0 :conda:package:`scipy`  :conda:package:`setuptools`  
 
-   conda install metaphlan2
+   :required~by: |required_by_metaphlan2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update metaphlan2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install metaphlan2
+
+   and update with::
+
+      conda update metaphlan2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/metaphlan2
+
+
+.. |required_by_metaphlan2| conda:required_by:: metaphlan2
+.. |downloads_metaphlan2| image:: https://img.shields.io/conda/dn/bioconda/metaphlan2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_metaphlan2| image:: https://quay.io/repository/biocontainers/metaphlan2/status
+   :target: https://quay.io/repository/biocontainers/metaphlan2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/metaphlan2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/metaphlan2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/metaphlan2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/metaphlan2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/metaphlan2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/metaphlan2
-.. |docker| image:: https://quay.io/repository/biocontainers/metaphlan2/status
-                :target: https://quay.io/repository/biocontainers/metaphlan2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/metaphlan2/README.html
 

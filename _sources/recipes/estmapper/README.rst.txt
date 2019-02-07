@@ -1,54 +1,66 @@
-.. _`estmapper`:
+.. title:: Package Recipe 'estmapper'
+.. highlight: bash
+
 
 estmapper
 =========
 
-|downloads|
+.. conda:recipe:: estmapper
+   :replaces_section_title:
 
-Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species.
+   Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species.
 
-============= ===========
-Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
-Versions      2008
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//estmapper/meta.yaml
+   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
+   :license: GPL
+   :recipe: /`estmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estmapper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: estmapper
 
-Installation
-------------
+   |downloads_estmapper| |docker_estmapper|
 
-.. highlight: bash
+   :versions: 2008
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* 
 
-   conda install estmapper
+   :required~by: |required_by_estmapper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update estmapper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install estmapper
+
+   and update with::
+
+      conda update estmapper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/estmapper
+
+
+.. |required_by_estmapper| conda:required_by:: estmapper
+.. |downloads_estmapper| image:: https://img.shields.io/conda/dn/bioconda/estmapper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_estmapper| image:: https://quay.io/repository/biocontainers/estmapper/status
+   :target: https://quay.io/repository/biocontainers/estmapper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/estmapper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/estmapper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/estmapper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/estmapper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/estmapper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/estmapper
-.. |docker| image:: https://quay.io/repository/biocontainers/estmapper/status
-                :target: https://quay.io/repository/biocontainers/estmapper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/estmapper/README.html
 

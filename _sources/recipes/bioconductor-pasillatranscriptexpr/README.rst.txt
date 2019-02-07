@@ -1,54 +1,66 @@
-.. _`bioconductor-pasillatranscriptexpr`:
+.. title:: Package Recipe 'bioconductor-pasillatranscriptexpr'
+.. highlight: bash
+
 
 bioconductor-pasillatranscriptexpr
 ==================================
 
-|downloads|
+.. conda:recipe:: bioconductor-pasillatranscriptexpr
+   :replaces_section_title:
 
-Provides kallisto workflow and transcript expression of RNA\-Seq data from Brooks et al.
+   Provides kallisto workflow and transcript expression of RNA\-Seq data from Brooks et al.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/PasillaTranscriptExpr.html
-Versions      1.10.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pasillatranscriptexpr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PasillaTranscriptExpr.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-pasillatranscriptexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pasillatranscriptexpr
 
-Installation
-------------
+   |downloads_bioconductor-pasillatranscriptexpr| |docker_bioconductor-pasillatranscriptexpr|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-pasillatranscriptexpr
+   :required~by: |required_by_bioconductor-pasillatranscriptexpr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pasillatranscriptexpr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pasillatranscriptexpr
+
+   and update with::
+
+      conda update bioconductor-pasillatranscriptexpr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr
+
+
+.. |required_by_bioconductor-pasillatranscriptexpr| conda:required_by:: bioconductor-pasillatranscriptexpr
+.. |downloads_bioconductor-pasillatranscriptexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pasillatranscriptexpr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pasillatranscriptexpr| image:: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pasillatranscriptexpr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pasillatranscriptexpr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pasillatranscriptexpr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pasillatranscriptexpr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pasillatranscriptexpr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pasillatranscriptexpr/README.html
 

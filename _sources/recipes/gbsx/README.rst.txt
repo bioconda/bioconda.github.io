@@ -1,43 +1,62 @@
-.. _`gbsx`:
+.. title:: Package Recipe 'gbsx'
+.. highlight: bash
+
 
 gbsx
 ====
 
-|downloads|
+.. conda:recipe:: gbsx
+   :replaces_section_title:
 
-Toolkit for experimental design and demultiplexing genotyping by sequencing experiments
+   Toolkit for experimental design and demultiplexing genotyping by sequencing experiments
 
-============= ===========
-Home          https://github.com/GenomicsCoreLeuven/GBSX
-Versions      1.3
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gbsx/meta.yaml
+   :homepage: https://github.com/GenomicsCoreLeuven/GBSX
+   :license: GPL / GPL-3.0
+   :recipe: /`gbsx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gbsx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gbsx/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-015-0514-3`
 
-
-
-Links         doi: :doi:`10.1186/s12859-015-0514-3`
-
-============= ===========
-
-Genotyping By Sequencing demultipleXing toolkit \(GBSX\) is a toolkit with an
-inline barcode demultiplexer for usage in the analysis of single read or
-paired\-end genotyping by sequence \(GBS\) data\, a barcode generator\, a barcode
-discovery tool\, and a restriction enzyme predictor. GBSX can easily be
-incorperated as a preceding analysis step for already deployed SNP pipelines.
+   Genotyping By Sequencing demultipleXing toolkit \(GBSX\) is a toolkit with an
+   inline barcode demultiplexer for usage in the analysis of single read or
+   paired\-end genotyping by sequence \(GBS\) data\, a barcode generator\, a barcode
+   discovery tool\, and a restriction enzyme predictor. GBSX can easily be
+   incorperated as a preceding analysis step for already deployed SNP pipelines.
 
 
-Installation
-------------
 
-.. highlight: bash
+.. conda:package:: gbsx
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   |downloads_gbsx| |docker_gbsx|
 
-   conda install gbsx
+   :versions: 1.3
 
-and update with::
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  
 
-   conda update gbsx
+   :required~by: |required_by_gbsx|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gbsx
+
+   and update with::
+
+      conda update gbsx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gbsx
+
+
+.. |required_by_gbsx| conda:required_by:: gbsx
+.. |downloads_gbsx| image:: https://img.shields.io/conda/dn/bioconda/gbsx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gbsx| image:: https://quay.io/repository/biocontainers/gbsx/status
+   :target: https://quay.io/repository/biocontainers/gbsx
+
+
+
+
 
 
 Notes
@@ -51,21 +70,13 @@ For example run it with \"gbsx \-Xms512m \-Xmx1g\"
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/gbsx.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gbsx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gbsx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gbsx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gbsx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gbsx
-.. |docker| image:: https://quay.io/repository/biocontainers/gbsx/status
-                :target: https://quay.io/repository/biocontainers/gbsx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gbsx/README.html
 

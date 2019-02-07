@@ -1,56 +1,67 @@
-.. _`rapsearch`:
+.. title:: Package Recipe 'rapsearch'
+.. highlight: bash
+
 
 rapsearch
 =========
 
-|downloads|
+.. conda:recipe:: rapsearch
+   :replaces_section_title:
 
-RAPSearch2 is a tool for fast protein similarity searches.
+   RAPSearch2 is a tool for fast protein similarity searches.
 
-============= ===========
-Home          http://omics.informatics.indiana.edu/mg/RAPSearch2/
-Versions      2.24
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rapsearch/meta.yaml
+   :homepage: http://omics.informatics.indiana.edu/mg/RAPSearch2/
+   :license: GNU General Public License v3 (GPLv3)
+   :recipe: /`rapsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapsearch/meta.yaml>`_
+   :links: biotools: :biotools:`rapsearch`
 
-
-
-Links         biotools: :biotools:`rapsearch`
-
-============= ===========
+   
 
 
+.. conda:package:: rapsearch
 
-Installation
-------------
+   |downloads_rapsearch| |docker_rapsearch|
 
-.. highlight: bash
+   :versions: 2.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install rapsearch
+   :required~by: |required_by_rapsearch|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update rapsearch
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rapsearch
+
+   and update with::
+
+      conda update rapsearch
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/rapsearch
+
+
+.. |required_by_rapsearch| conda:required_by:: rapsearch
+.. |downloads_rapsearch| image:: https://img.shields.io/conda/dn/bioconda/rapsearch.svg?style=flat
+   :alt:   (downloads)
+.. |docker_rapsearch| image:: https://quay.io/repository/biocontainers/rapsearch/status
+   :target: https://quay.io/repository/biocontainers/rapsearch
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/rapsearch.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/rapsearch/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rapsearch/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/rapsearch/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/rapsearch/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/rapsearch
-.. |docker| image:: https://quay.io/repository/biocontainers/rapsearch/status
-                :target: https://quay.io/repository/biocontainers/rapsearch
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rapsearch/README.html
 

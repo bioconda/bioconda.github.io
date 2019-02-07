@@ -1,54 +1,66 @@
-.. _`ucsc-ratotab`:
+.. title:: Package Recipe 'ucsc-ratotab'
+.. highlight: bash
+
 
 ucsc-ratotab
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-ratotab
+   :replaces_section_title:
 
-Convert ra file to table.
+   Convert ra file to table.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-ratotab/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-ratotab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ratotab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ratotab/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-ratotab
 
-Installation
-------------
+   |downloads_ucsc-ratotab| |docker_ucsc-ratotab|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-ratotab
+   :required~by: |required_by_ucsc-ratotab|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-ratotab
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-ratotab
+
+   and update with::
+
+      conda update ucsc-ratotab
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-ratotab
+
+
+.. |required_by_ucsc-ratotab| conda:required_by:: ucsc-ratotab
+.. |downloads_ucsc-ratotab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ratotab.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-ratotab| image:: https://quay.io/repository/biocontainers/ucsc-ratotab/status
+   :target: https://quay.io/repository/biocontainers/ucsc-ratotab
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-ratotab.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-ratotab/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-ratotab/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-ratotab/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-ratotab/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-ratotab
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-ratotab/status
-                :target: https://quay.io/repository/biocontainers/ucsc-ratotab
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-ratotab/README.html
 

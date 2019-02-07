@@ -1,54 +1,66 @@
-.. _`bioconductor-tnt`:
+.. title:: Package Recipe 'bioconductor-tnt'
+.. highlight: bash
+
 
 bioconductor-tnt
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-tnt
+   :replaces_section_title:
 
-A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) to provide interactive and flexible visualization of track\-based genomic data.
+   A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) to provide interactive and flexible visualization of track\-based genomic data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/TnT.html
-Versions      1.4.0
-License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tnt/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TnT.html
+   :license: AGPL-3
+   :recipe: /`bioconductor-tnt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tnt
 
-Installation
-------------
+   |downloads_bioconductor-tnt| |docker_bioconductor-tnt|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-htmlwidgets`  :conda:package:`r-jsonlite`  :conda:package:`r-knitr`  
 
-   conda install bioconductor-tnt
+   :required~by: |required_by_bioconductor-tnt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tnt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tnt
+
+   and update with::
+
+      conda update bioconductor-tnt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tnt
+
+
+.. |required_by_bioconductor-tnt| conda:required_by:: bioconductor-tnt
+.. |downloads_bioconductor-tnt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tnt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tnt| image:: https://quay.io/repository/biocontainers/bioconductor-tnt/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tnt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tnt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tnt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tnt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tnt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tnt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tnt
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tnt/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tnt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tnt/README.html
 

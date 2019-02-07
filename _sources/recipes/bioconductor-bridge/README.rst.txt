@@ -1,56 +1,67 @@
-.. _`bioconductor-bridge`:
+.. title:: Package Recipe 'bioconductor-bridge'
+.. highlight: bash
+
 
 bioconductor-bridge
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-bridge
+   :replaces_section_title:
 
-Test for differentially expressed genes with microarray data. This package can be used with both cDNA microarrays or Affymetrix chip. The packge fits a robust Bayesian hierarchical model for testing for differential expression. Outliers are modeled explicitly using a \$t\$\-distribution. The model includes an exchangeable prior for the variances which allow different variances for the genes but still shrink extreme empirical variances. Our model can be used for testing for differentially expressed genes among multiple samples\, and can distinguish between the different possible patterns of differential expression when there are three or more samples. Parameter estimation is carried out using a novel version of Markov Chain Monte Carlo that is appropriate when the model puts mass on subspaces of the full parameter space.
+   Test for differentially expressed genes with microarray data. This package can be used with both cDNA microarrays or Affymetrix chip. The packge fits a robust Bayesian hierarchical model for testing for differential expression. Outliers are modeled explicitly using a \$t\$\-distribution. The model includes an exchangeable prior for the variances which allow different variances for the genes but still shrink extreme empirical variances. Our model can be used for testing for differentially expressed genes among multiple samples\, and can distinguish between the different possible patterns of differential expression when there are three or more samples. Parameter estimation is carried out using a novel version of Markov Chain Monte Carlo that is appropriate when the model puts mass on subspaces of the full parameter space.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/bridge.html
-Versions      1.46.0, 1.44.0, 1.42.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bridge/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bridge.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-bridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge/meta.yaml>`_
+   :links: biotools: :biotools:`bridge`, doi: :doi:`10.1111/j.1541-0420.2005.00397.x`
 
-
-
-Links         biotools: :biotools:`bridge`, doi: :doi:`10.1111/j.1541-0420.2005.00397.x`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bridge
 
-Installation
-------------
+   |downloads_bioconductor-bridge| |docker_bioconductor-bridge|
 
-.. highlight: bash
+   :versions: 1.46.0, 1.44.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rama` >=1.56.0,<1.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-bridge
+   :required~by: |required_by_bioconductor-bridge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bridge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bridge
+
+   and update with::
+
+      conda update bioconductor-bridge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bridge
+
+
+.. |required_by_bioconductor-bridge| conda:required_by:: bioconductor-bridge
+.. |downloads_bioconductor-bridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bridge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bridge| image:: https://quay.io/repository/biocontainers/bioconductor-bridge/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bridge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bridge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bridge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bridge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bridge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bridge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bridge
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bridge/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bridge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bridge/README.html
 

@@ -1,54 +1,66 @@
-.. _`lsc`:
+.. title:: Package Recipe 'lsc'
+.. highlight: bash
+
 
 lsc
 ===
 
-|downloads|
+.. conda:recipe:: lsc
+   :replaces_section_title:
 
-LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy.
+   LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy.
 
-============= ===========
-Home          https://www.healthcare.uiowa.edu/labs/au/LSC/
-Versions      2.0
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lsc/meta.yaml
+   :homepage: https://www.healthcare.uiowa.edu/labs/au/LSC/
+   :license: Apache 2.0
+   :recipe: /`lsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: lsc
 
-Installation
-------------
+   |downloads_lsc| |docker_lsc|
 
-.. highlight: bash
+   :versions: 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bowtie2`  :conda:package:`perl` 5.22.0* :conda:package:`python` 2.7* :conda:package:`samtools`  
 
-   conda install lsc
+   :required~by: |required_by_lsc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lsc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lsc
+
+   and update with::
+
+      conda update lsc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lsc
+
+
+.. |required_by_lsc| conda:required_by:: lsc
+.. |downloads_lsc| image:: https://img.shields.io/conda/dn/bioconda/lsc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lsc| image:: https://quay.io/repository/biocontainers/lsc/status
+   :target: https://quay.io/repository/biocontainers/lsc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lsc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lsc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lsc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lsc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lsc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lsc
-.. |docker| image:: https://quay.io/repository/biocontainers/lsc/status
-                :target: https://quay.io/repository/biocontainers/lsc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lsc/README.html
 

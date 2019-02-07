@@ -1,56 +1,67 @@
-.. _`bioconductor-rpx`:
+.. title:: Package Recipe 'bioconductor-rpx'
+.. highlight: bash
+
 
 bioconductor-rpx
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-rpx
+   :replaces_section_title:
 
-The rpx package implements an interface to proteomics data submitted to the ProteomeXchange consortium.
+   The rpx package implements an interface to proteomics data submitted to the ProteomeXchange consortium.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rpx.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.1
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rpx/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rpx.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rpx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpx/meta.yaml>`_
+   :links: biotools: :biotools:`rpx`, doi: :doi:`10.1038/nbt.2839`
 
-
-
-Links         biotools: :biotools:`rpx`, doi: :doi:`10.1038/nbt.2839`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rpx
 
-Installation
-------------
+   |downloads_bioconductor-rpx| |docker_bioconductor-rpx|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcurl`  :conda:package:`r-xml2`  
 
-   conda install bioconductor-rpx
+   :required~by: |required_by_bioconductor-rpx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rpx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rpx
+
+   and update with::
+
+      conda update bioconductor-rpx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rpx
+
+
+.. |required_by_bioconductor-rpx| conda:required_by:: bioconductor-rpx
+.. |downloads_bioconductor-rpx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rpx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rpx| image:: https://quay.io/repository/biocontainers/bioconductor-rpx/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rpx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rpx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rpx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rpx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rpx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rpx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rpx
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rpx/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rpx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rpx/README.html
 

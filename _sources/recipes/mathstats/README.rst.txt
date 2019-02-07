@@ -1,54 +1,66 @@
-.. _`mathstats`:
+.. title:: Package Recipe 'mathstats'
+.. highlight: bash
+
 
 mathstats
 =========
 
-|downloads|
+.. conda:recipe:: mathstats
+   :replaces_section_title:
 
-Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy .
+   Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy .
 
-============= ===========
-Home          https://github.com/ksahlin/mathstats
-Versions      0.2.6.5, 0.2.6, 0.2.4
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mathstats/meta.yaml
+   :homepage: https://github.com/ksahlin/mathstats
+   :license: GPLv3
+   :recipe: /`mathstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mathstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mathstats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mathstats
 
-Installation
-------------
+   |downloads_mathstats| |docker_mathstats|
 
-.. highlight: bash
+   :versions: 0.2.6.5, 0.2.6, 0.2.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  :conda:package:`scipy` >=0.9 
 
-   conda install mathstats
+   :required~by: |required_by_mathstats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mathstats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mathstats
+
+   and update with::
+
+      conda update mathstats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mathstats
+
+
+.. |required_by_mathstats| conda:required_by:: mathstats
+.. |downloads_mathstats| image:: https://img.shields.io/conda/dn/bioconda/mathstats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mathstats| image:: https://quay.io/repository/biocontainers/mathstats/status
+   :target: https://quay.io/repository/biocontainers/mathstats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mathstats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mathstats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mathstats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mathstats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mathstats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mathstats
-.. |docker| image:: https://quay.io/repository/biocontainers/mathstats/status
-                :target: https://quay.io/repository/biocontainers/mathstats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mathstats/README.html
 

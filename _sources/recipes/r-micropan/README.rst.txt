@@ -1,56 +1,67 @@
-.. _`r-micropan`:
+.. title:: Package Recipe 'r-micropan'
+.. highlight: bash
+
 
 r-micropan
 ==========
 
-|downloads|
+.. conda:recipe:: r-micropan
+   :replaces_section_title:
 
-A collection of functions for computations and visualizations of microbial pan\-genomes.
+   A collection of functions for computations and visualizations of microbial pan\-genomes.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=micropan
-Versions      1.2, 1.1.2
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-micropan/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=micropan
+   :license: GPL2 / GPL-2
+   :recipe: /`r-micropan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan/meta.yaml>`_
+   :links: biotools: :biotools:`micropan`, doi: :doi:`10.1186/s12859-015-0517-0`
 
-
-
-Links         biotools: :biotools:`micropan`, doi: :doi:`10.1186/s12859-015-0517-0`
-
-============= ===========
+   
 
 
+.. conda:package:: r-micropan
 
-Installation
-------------
+   |downloads_r-micropan| |docker_r-micropan|
 
-.. highlight: bash
+   :versions: 1.2, 1.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh`  :conda:package:`r-igraph`  :conda:package:`r-microseq`  :conda:package:`r-rcpp` >=0.12.0 
 
-   conda install r-micropan
+   :required~by: |required_by_r-micropan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-micropan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-micropan
+
+   and update with::
+
+      conda update r-micropan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-micropan
+
+
+.. |required_by_r-micropan| conda:required_by:: r-micropan
+.. |downloads_r-micropan| image:: https://img.shields.io/conda/dn/bioconda/r-micropan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-micropan| image:: https://quay.io/repository/biocontainers/r-micropan/status
+   :target: https://quay.io/repository/biocontainers/r-micropan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-micropan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-micropan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-micropan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-micropan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-micropan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-micropan
-.. |docker| image:: https://quay.io/repository/biocontainers/r-micropan/status
-                :target: https://quay.io/repository/biocontainers/r-micropan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-micropan/README.html
 

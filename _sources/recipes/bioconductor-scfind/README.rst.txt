@@ -1,54 +1,66 @@
-.. _`bioconductor-scfind`:
+.. title:: Package Recipe 'bioconductor-scfind'
+.. highlight: bash
+
 
 bioconductor-scfind
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-scfind
+   :replaces_section_title:
 
-Recently a very large collection of single\-cell RNA\-seq \(scRNA\-seq\) datasets has been generated and publicly released. For the collection to be useful\, the information must be organized in a way that supports queries that are relevant to researchers. \`scfind\` builds an index from scRNA\-seq datasets which organizes the information in a suitable and compact manner so that the datasets can be very efficiently searched for either cells or cell types in which a given list of genes is expressed.
+   Recently a very large collection of single\-cell RNA\-seq \(scRNA\-seq\) datasets has been generated and publicly released. For the collection to be useful\, the information must be organized in a way that supports queries that are relevant to researchers. \`scfind\` builds an index from scRNA\-seq datasets which organizes the information in a suitable and compact manner so that the datasets can be very efficiently searched for either cells or cell types in which a given list of genes is expressed.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/scfind.html
-Versions      1.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scfind/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scfind.html
+   :license: GPL-3
+   :recipe: /`bioconductor-scfind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-scfind
 
-Installation
-------------
+   |downloads_bioconductor-scfind| |docker_bioconductor-scfind|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bit`  :conda:package:`r-dplyr`  :conda:package:`r-hash`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-reshape2`  
 
-   conda install bioconductor-scfind
+   :required~by: |required_by_bioconductor-scfind|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-scfind
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scfind
+
+   and update with::
+
+      conda update bioconductor-scfind
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-scfind
+
+
+.. |required_by_bioconductor-scfind| conda:required_by:: bioconductor-scfind
+.. |downloads_bioconductor-scfind| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfind.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-scfind| image:: https://quay.io/repository/biocontainers/bioconductor-scfind/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scfind
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-scfind.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scfind/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scfind/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-scfind/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-scfind/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-scfind
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scfind/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-scfind
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scfind/README.html
 

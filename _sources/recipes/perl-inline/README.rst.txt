@@ -1,54 +1,66 @@
-.. _`perl-inline`:
+.. title:: Package Recipe 'perl-inline'
+.. highlight: bash
+
 
 perl-inline
 ===========
 
-|downloads|
+.. conda:recipe:: perl-inline
+   :replaces_section_title:
 
-Write Perl Subroutines in Other Programming Languages
+   Write Perl Subroutines in Other Programming Languages
 
-============= ===========
-Home          https://github.com/ingydotnet/inline-pm
-Versions      0.80
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-inline/meta.yaml
+   :homepage: https://github.com/ingydotnet/inline-pm
+   :license: perl_5
+   :recipe: /`perl-inline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-inline
 
-Installation
-------------
+   |downloads_perl-inline| |docker_perl-inline|
 
-.. highlight: bash
+   :versions: 0.80
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-inline
+   :required~by: |required_by_perl-inline|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-inline
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-inline
+
+   and update with::
+
+      conda update perl-inline
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-inline
+
+
+.. |required_by_perl-inline| conda:required_by:: perl-inline
+.. |downloads_perl-inline| image:: https://img.shields.io/conda/dn/bioconda/perl-inline.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-inline| image:: https://quay.io/repository/biocontainers/perl-inline/status
+   :target: https://quay.io/repository/biocontainers/perl-inline
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-inline.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-inline/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-inline/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-inline/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-inline/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-inline
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-inline/status
-                :target: https://quay.io/repository/biocontainers/perl-inline
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-inline/README.html
 

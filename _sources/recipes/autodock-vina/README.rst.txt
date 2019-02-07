@@ -1,54 +1,66 @@
-.. _`autodock-vina`:
+.. title:: Package Recipe 'autodock-vina'
+.. highlight: bash
+
 
 autodock-vina
 =============
 
-|downloads|
+.. conda:recipe:: autodock-vina
+   :replaces_section_title:
 
-AutoDock Vina is an open\-source program for doing molecular docking
+   AutoDock Vina is an open\-source program for doing molecular docking
 
-============= ===========
-Home          http://vina.scripps.edu/
-Versions      1.1.2
-License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//autodock-vina/meta.yaml
+   :homepage: http://vina.scripps.edu/
+   :license: Apache License 2.0
+   :recipe: /`autodock-vina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autodock-vina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autodock-vina/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: autodock-vina
 
-Installation
-------------
+   |downloads_autodock-vina| |docker_autodock-vina|
 
-.. highlight: bash
+   :versions: 1.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install autodock-vina
+   :required~by: |required_by_autodock-vina|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update autodock-vina
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install autodock-vina
+
+   and update with::
+
+      conda update autodock-vina
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/autodock-vina
+
+
+.. |required_by_autodock-vina| conda:required_by:: autodock-vina
+.. |downloads_autodock-vina| image:: https://img.shields.io/conda/dn/bioconda/autodock-vina.svg?style=flat
+   :alt:   (downloads)
+.. |docker_autodock-vina| image:: https://quay.io/repository/biocontainers/autodock-vina/status
+   :target: https://quay.io/repository/biocontainers/autodock-vina
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/autodock-vina.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/autodock-vina/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/autodock-vina/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/autodock-vina/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/autodock-vina/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/autodock-vina
-.. |docker| image:: https://quay.io/repository/biocontainers/autodock-vina/status
-                :target: https://quay.io/repository/biocontainers/autodock-vina
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/autodock-vina/README.html
 

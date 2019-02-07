@@ -1,54 +1,66 @@
-.. _`perl-scalar-util-numeric`:
+.. title:: Package Recipe 'perl-scalar-util-numeric'
+.. highlight: bash
+
 
 perl-scalar-util-numeric
 ========================
 
-|downloads|
+.. conda:recipe:: perl-scalar-util-numeric
+   :replaces_section_title:
 
-numeric tests for perl scalars
+   numeric tests for perl scalars
 
-============= ===========
-Home          http://metacpan.org/pod/Scalar-Util-Numeric
-Versions      0.40
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-scalar-util-numeric/meta.yaml
+   :homepage: http://metacpan.org/pod/Scalar-Util-Numeric
+   :license: perl_5
+   :recipe: /`perl-scalar-util-numeric <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-util-numeric>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-util-numeric/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-scalar-util-numeric
 
-Installation
-------------
+   |downloads_perl-scalar-util-numeric| |docker_perl-scalar-util-numeric|
 
-.. highlight: bash
+   :versions: 0.40
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-scalar-util-numeric
+   :required~by: |required_by_perl-scalar-util-numeric|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-scalar-util-numeric
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-scalar-util-numeric
+
+   and update with::
+
+      conda update perl-scalar-util-numeric
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-scalar-util-numeric
+
+
+.. |required_by_perl-scalar-util-numeric| conda:required_by:: perl-scalar-util-numeric
+.. |downloads_perl-scalar-util-numeric| image:: https://img.shields.io/conda/dn/bioconda/perl-scalar-util-numeric.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-scalar-util-numeric| image:: https://quay.io/repository/biocontainers/perl-scalar-util-numeric/status
+   :target: https://quay.io/repository/biocontainers/perl-scalar-util-numeric
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-scalar-util-numeric.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-scalar-util-numeric/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-scalar-util-numeric/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-scalar-util-numeric/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-scalar-util-numeric/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-scalar-util-numeric
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-scalar-util-numeric/status
-                :target: https://quay.io/repository/biocontainers/perl-scalar-util-numeric
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-scalar-util-numeric/README.html
 

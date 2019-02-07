@@ -1,56 +1,67 @@
-.. _`bioconductor-bicare`:
+.. title:: Package Recipe 'bioconductor-bicare'
+.. highlight: bash
+
 
 bioconductor-bicare
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-bicare
+   :replaces_section_title:
 
-Biclustering Analysis and Results Exploration
+   Biclustering Analysis and Results Exploration
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BicARE.html
-Versions      1.40.0, 1.38.0, 1.36.0, 1.34.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bicare/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BicARE.html
+   :license: GPL-2
+   :recipe: /`bioconductor-bicare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare/meta.yaml>`_
+   :links: biotools: :biotools:`bicare`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`bicare`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-bicare
 
-Installation
-------------
+   |downloads_bioconductor-bicare| |docker_bioconductor-bicare|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0, 1.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-bicare
+   :required~by: |required_by_bioconductor-bicare|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-bicare
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-bicare
+
+   and update with::
+
+      conda update bioconductor-bicare
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-bicare
+
+
+.. |required_by_bioconductor-bicare| conda:required_by:: bioconductor-bicare
+.. |downloads_bioconductor-bicare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bicare.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-bicare| image:: https://quay.io/repository/biocontainers/bioconductor-bicare/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-bicare
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-bicare.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-bicare/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-bicare/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-bicare/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-bicare/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-bicare
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bicare/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-bicare
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-bicare/README.html
 

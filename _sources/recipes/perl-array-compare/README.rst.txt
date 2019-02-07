@@ -1,54 +1,66 @@
-.. _`perl-array-compare`:
+.. title:: Package Recipe 'perl-array-compare'
+.. highlight: bash
+
 
 perl-array-compare
 ==================
 
-|downloads|
+.. conda:recipe:: perl-array-compare
+   :replaces_section_title:
 
-Perl extension for comparing arrays.
+   Perl extension for comparing arrays.
 
-============= ===========
-Home          http://metacpan.org/pod/Array::Compare
-Versions      3.0.1, 2.11
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-array-compare/meta.yaml
+   :homepage: http://metacpan.org/pod/Array::Compare
+   :license: perl_5
+   :recipe: /`perl-array-compare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-compare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-compare/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-array-compare
 
-Installation
-------------
+   |downloads_perl-array-compare| |docker_perl-array-compare|
 
-.. highlight: bash
+   :versions: 3.0.1, 2.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-moo`  :conda:package:`perl-types-standard`  
 
-   conda install perl-array-compare
+   :required~by: |required_by_perl-array-compare|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-array-compare
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-array-compare
+
+   and update with::
+
+      conda update perl-array-compare
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-array-compare
+
+
+.. |required_by_perl-array-compare| conda:required_by:: perl-array-compare
+.. |downloads_perl-array-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-array-compare.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-array-compare| image:: https://quay.io/repository/biocontainers/perl-array-compare/status
+   :target: https://quay.io/repository/biocontainers/perl-array-compare
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-array-compare.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-array-compare/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-array-compare/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-array-compare/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-array-compare/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-array-compare
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-array-compare/status
-                :target: https://quay.io/repository/biocontainers/perl-array-compare
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-array-compare/README.html
 

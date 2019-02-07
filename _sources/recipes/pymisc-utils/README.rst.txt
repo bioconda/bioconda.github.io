@@ -1,54 +1,66 @@
-.. _`pymisc-utils`:
+.. title:: Package Recipe 'pymisc-utils'
+.. highlight: bash
+
 
 pymisc-utils
 ============
 
-|downloads|
+.. conda:recipe:: pymisc-utils
+   :replaces_section_title:
 
-Utility library for rp\-bp
+   Utility library for rp\-bp
 
-============= ===========
-Home          https://github.com/dieterich-lab/pymisc-utils
-Versions      0.2.11, 0.2.10
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pymisc-utils/meta.yaml
+   :homepage: https://github.com/dieterich-lab/pymisc-utils
+   :license: MIT
+   :recipe: /`pymisc-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymisc-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymisc-utils/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pymisc-utils
 
-Installation
-------------
+   |downloads_pymisc-utils| |docker_pymisc-utils|
 
-.. highlight: bash
+   :versions: 0.2.11, 0.2.10
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`cython`  :conda:package:`dask`  :conda:package:`docopt`  :conda:package:`fastparquet`  :conda:package:`graphviz` >=2.38.0,<3.0a0 :conda:package:`joblib`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`nltk`  :conda:package:`numpy`  :conda:package:`openpyxl`  :conda:package:`pandas`  :conda:package:`paramiko`  :conda:package:`pydot`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`scikit-learn`  :conda:package:`scipy`  :conda:package:`six`  :conda:package:`statsmodels`  :conda:package:`tqdm`  :conda:package:`xlrd`  
 
-   conda install pymisc-utils
+   :required~by: |required_by_pymisc-utils|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pymisc-utils
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pymisc-utils
+
+   and update with::
+
+      conda update pymisc-utils
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pymisc-utils
+
+
+.. |required_by_pymisc-utils| conda:required_by:: pymisc-utils
+.. |downloads_pymisc-utils| image:: https://img.shields.io/conda/dn/bioconda/pymisc-utils.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pymisc-utils| image:: https://quay.io/repository/biocontainers/pymisc-utils/status
+   :target: https://quay.io/repository/biocontainers/pymisc-utils
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pymisc-utils.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pymisc-utils/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pymisc-utils/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pymisc-utils/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pymisc-utils/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pymisc-utils
-.. |docker| image:: https://quay.io/repository/biocontainers/pymisc-utils/status
-                :target: https://quay.io/repository/biocontainers/pymisc-utils
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pymisc-utils/README.html
 

@@ -1,54 +1,66 @@
-.. _`cobra`:
+.. title:: Package Recipe 'cobra'
+.. highlight: bash
+
 
 cobra
 =====
 
-|downloads|
+.. conda:recipe:: cobra
+   :replaces_section_title:
 
-COBRApy is a package for constraint\-based modeling of biological networks
+   COBRApy is a package for constraint\-based modeling of biological networks
 
-============= ===========
-Home          https://opencobra.github.io/cobrapy
-Versions      0.10.1, 0.4.0, 0.4.0b6
-License       GNU Lesser General Public License v2 or later (LGPLv2+) or GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cobra/meta.yaml
+   :homepage: https://opencobra.github.io/cobrapy
+   :license: GNU Lesser General Public License v2 or later (LGPLv2+) or GNU General Public License v2 or later (GPLv2+)
+   :recipe: /`cobra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cobra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cobra/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cobra
 
-Installation
-------------
+   |downloads_cobra| |docker_cobra|
 
-.. highlight: bash
+   :versions: 0.10.1, 0.4.0, 0.4.0b6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`future`  :conda:package:`numpy` >=1.6 :conda:package:`optlang` >=1.2.5 :conda:package:`pandas` >=0.17.0 :conda:package:`python` 2.7* :conda:package:`ruamel.yaml` <0.15 :conda:package:`six`  :conda:package:`swiglpk`  :conda:package:`tabulate`  
 
-   conda install cobra
+   :required~by: |required_by_cobra|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cobra
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cobra
+
+   and update with::
+
+      conda update cobra
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cobra
+
+
+.. |required_by_cobra| conda:required_by:: cobra
+.. |downloads_cobra| image:: https://img.shields.io/conda/dn/bioconda/cobra.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cobra| image:: https://quay.io/repository/biocontainers/cobra/status
+   :target: https://quay.io/repository/biocontainers/cobra
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cobra.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cobra/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cobra/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cobra/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cobra/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cobra
-.. |docker| image:: https://quay.io/repository/biocontainers/cobra/status
-                :target: https://quay.io/repository/biocontainers/cobra
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cobra/README.html
 

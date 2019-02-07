@@ -1,54 +1,66 @@
-.. _`perl-bio-db-sam`:
+.. title:: Package Recipe 'perl-bio-db-sam'
+.. highlight: bash
+
 
 perl-bio-db-sam
 ===============
 
-|downloads|
+.. conda:recipe:: perl-bio-db-sam
+   :replaces_section_title:
 
-Read SAM\/BAM database files
+   Read SAM\/BAM database files
 
-============= ===========
-Home          https://metacpan.org/pod/Bio::DB::Sam
-Versions      1.41
-License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-db-sam/meta.yaml
+   :homepage: https://metacpan.org/pod/Bio::DB::Sam
+   :license: Perl
+   :recipe: /`perl-bio-db-sam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-sam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-sam/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-db-sam
 
-Installation
-------------
+   |downloads_perl-bio-db-sam| |docker_perl-bio-db-sam|
 
-.. highlight: bash
+   :versions: 1.41
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-bioperl`  :conda:package:`perl-threaded`  
 
-   conda install perl-bio-db-sam
+   :required~by: |required_by_perl-bio-db-sam|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-db-sam
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-db-sam
+
+   and update with::
+
+      conda update perl-bio-db-sam
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-db-sam
+
+
+.. |required_by_perl-bio-db-sam| conda:required_by:: perl-bio-db-sam
+.. |downloads_perl-bio-db-sam| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-sam.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-db-sam| image:: https://quay.io/repository/biocontainers/perl-bio-db-sam/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-db-sam
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-db-sam.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-db-sam/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-db-sam/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-db-sam/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-db-sam/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-db-sam
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-db-sam/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-db-sam
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-db-sam/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-test-without-module`:
+.. title:: Package Recipe 'perl-test-without-module'
+.. highlight: bash
+
 
 perl-test-without-module
 ========================
 
-|downloads|
+.. conda:recipe:: perl-test-without-module
+   :replaces_section_title:
 
-Test fallback behaviour in absence of modules
+   Test fallback behaviour in absence of modules
 
-============= ===========
-Home          http://metacpan.org/pod/Test-Without-Module
-Versions      0.20
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-without-module/meta.yaml
+   :homepage: http://metacpan.org/pod/Test-Without-Module
+   :license: perl_5
+   :recipe: /`perl-test-without-module <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-without-module>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-without-module/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-without-module
 
-Installation
-------------
+   |downloads_perl-test-without-module| |docker_perl-test-without-module|
 
-.. highlight: bash
+   :versions: 0.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-test-without-module
+   :required~by: |required_by_perl-test-without-module|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-without-module
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-without-module
+
+   and update with::
+
+      conda update perl-test-without-module
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-without-module
+
+
+.. |required_by_perl-test-without-module| conda:required_by:: perl-test-without-module
+.. |downloads_perl-test-without-module| image:: https://img.shields.io/conda/dn/bioconda/perl-test-without-module.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-without-module| image:: https://quay.io/repository/biocontainers/perl-test-without-module/status
+   :target: https://quay.io/repository/biocontainers/perl-test-without-module
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-without-module.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-without-module/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-without-module/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-without-module/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-without-module/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-without-module
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-without-module/status
-                :target: https://quay.io/repository/biocontainers/perl-test-without-module
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-without-module/README.html
 

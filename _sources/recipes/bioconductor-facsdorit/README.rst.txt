@@ -1,54 +1,66 @@
-.. _`bioconductor-facsdorit`:
+.. title:: Package Recipe 'bioconductor-facsdorit'
+.. highlight: bash
+
 
 bioconductor-facsdorit
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-facsdorit
+   :replaces_section_title:
 
-FACS example data for cell\-based assays. This data is used in the examples and vignettes of the package prada.
+   FACS example data for cell\-based assays. This data is used in the examples and vignettes of the package prada.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/facsDorit.html
-Versions      1.24.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-facsdorit/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/facsDorit.html
+   :license: GPL-2
+   :recipe: /`bioconductor-facsdorit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facsdorit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facsdorit/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-facsdorit
 
-Installation
-------------
+   |downloads_bioconductor-facsdorit| |docker_bioconductor-facsdorit|
 
-.. highlight: bash
+   :versions: 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-prada` >=1.58.0,<1.59.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-facsdorit
+   :required~by: |required_by_bioconductor-facsdorit|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-facsdorit
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-facsdorit
+
+   and update with::
+
+      conda update bioconductor-facsdorit
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-facsdorit
+
+
+.. |required_by_bioconductor-facsdorit| conda:required_by:: bioconductor-facsdorit
+.. |downloads_bioconductor-facsdorit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-facsdorit.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-facsdorit| image:: https://quay.io/repository/biocontainers/bioconductor-facsdorit/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-facsdorit
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-facsdorit.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-facsdorit/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-facsdorit/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-facsdorit/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-facsdorit/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-facsdorit
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-facsdorit/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-facsdorit
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-facsdorit/README.html
 

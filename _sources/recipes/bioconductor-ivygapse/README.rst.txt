@@ -1,54 +1,66 @@
-.. _`bioconductor-ivygapse`:
+.. title:: Package Recipe 'bioconductor-ivygapse'
+.. highlight: bash
+
 
 bioconductor-ivygapse
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ivygapse
+   :replaces_section_title:
 
-Define a SummarizedExperiment and exploratory app for Ivy\-GAP glioblastoma image\, expression\, and clinical data.
+   Define a SummarizedExperiment and exploratory app for Ivy\-GAP glioblastoma image\, expression\, and clinical data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ivygapSE.html
-Versions      1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ivygapse/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ivygapSE.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ivygapse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ivygapse
 
-Installation
-------------
+   |downloads_bioconductor-ivygapse| |docker_bioconductor-ivygapse|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-hwriter`  :conda:package:`r-plotly`  :conda:package:`r-shiny`  :conda:package:`r-survival`  :conda:package:`r-survminer`  :conda:package:`r-upsetr`  
 
-   conda install bioconductor-ivygapse
+   :required~by: |required_by_bioconductor-ivygapse|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ivygapse
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ivygapse
+
+   and update with::
+
+      conda update bioconductor-ivygapse
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ivygapse
+
+
+.. |required_by_bioconductor-ivygapse| conda:required_by:: bioconductor-ivygapse
+.. |downloads_bioconductor-ivygapse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ivygapse.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ivygapse| image:: https://quay.io/repository/biocontainers/bioconductor-ivygapse/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ivygapse
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ivygapse.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ivygapse/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ivygapse/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ivygapse/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ivygapse/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ivygapse
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ivygapse/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ivygapse
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ivygapse/README.html
 

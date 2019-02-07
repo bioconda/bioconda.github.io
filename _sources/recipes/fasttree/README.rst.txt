@@ -1,56 +1,67 @@
-.. _`fasttree`:
+.. title:: Package Recipe 'fasttree'
+.. highlight: bash
+
 
 fasttree
 ========
 
-|downloads|
+.. conda:recipe:: fasttree
+   :replaces_section_title:
 
-FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
+   FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
 
-============= ===========
-Home          http://www.microbesonline.org/fasttree/
-Versions      2.1.10, 2.1.9, 2.1.8, 2.1.3
-License       GPL v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fasttree/meta.yaml
+   :homepage: http://www.microbesonline.org/fasttree/
+   :license: GPL v2
+   :recipe: /`fasttree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree/meta.yaml>`_
+   :links: biotools: :biotools:`fasttree`, doi: :doi:`10.1093/molbev/msp077`
 
-
-
-Links         biotools: :biotools:`fasttree`, doi: :doi:`10.1093/molbev/msp077`
-
-============= ===========
+   
 
 
+.. conda:package:: fasttree
 
-Installation
-------------
+   |downloads_fasttree| |docker_fasttree|
 
-.. highlight: bash
+   :versions: 2.1.10, 2.1.9, 2.1.8, 2.1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install fasttree
+   :required~by: |required_by_fasttree|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fasttree
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fasttree
+
+   and update with::
+
+      conda update fasttree
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fasttree
+
+
+.. |required_by_fasttree| conda:required_by:: fasttree
+.. |downloads_fasttree| image:: https://img.shields.io/conda/dn/bioconda/fasttree.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fasttree| image:: https://quay.io/repository/biocontainers/fasttree/status
+   :target: https://quay.io/repository/biocontainers/fasttree
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fasttree.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fasttree/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fasttree/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fasttree/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fasttree/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fasttree
-.. |docker| image:: https://quay.io/repository/biocontainers/fasttree/status
-                :target: https://quay.io/repository/biocontainers/fasttree
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fasttree/README.html
 

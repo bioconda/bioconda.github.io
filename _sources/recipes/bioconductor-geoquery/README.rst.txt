@@ -1,56 +1,67 @@
-.. _`bioconductor-geoquery`:
+.. title:: Package Recipe 'bioconductor-geoquery'
+.. highlight: bash
+
 
 bioconductor-geoquery
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-geoquery
+   :replaces_section_title:
 
-The NCBI Gene Expression Omnibus \(GEO\) is a public repository of microarray data.  Given the rich and varied nature of this resource\, it is only natural to want to apply BioConductor tools to these data.  GEOquery is the bridge between GEO and BioConductor.
+   The NCBI Gene Expression Omnibus \(GEO\) is a public repository of microarray data.  Given the rich and varied nature of this resource\, it is only natural to want to apply BioConductor tools to these data.  GEOquery is the bridge between GEO and BioConductor.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GEOquery.html
-Versions      2.50.0, 2.48.0, 2.46.3, 2.46.0, 2.42.0, 2.38.4, 2.36.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geoquery/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GEOquery.html
+   :license: GPL-2
+   :recipe: /`bioconductor-geoquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery/meta.yaml>`_
+   :links: biotools: :biotools:`geoquery`
 
-
-
-Links         biotools: :biotools:`geoquery`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geoquery
 
-Installation
-------------
+   |downloads_bioconductor-geoquery| |docker_bioconductor-geoquery|
 
-.. highlight: bash
+   :versions: 2.50.0, 2.48.0, 2.46.3, 2.46.0, 2.42.0, 2.38.4, 2.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-httr`  :conda:package:`r-magrittr`  :conda:package:`r-readr`  :conda:package:`r-tidyr`  :conda:package:`r-xml2`  
 
-   conda install bioconductor-geoquery
+   :required~by: |required_by_bioconductor-geoquery|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geoquery
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geoquery
+
+   and update with::
+
+      conda update bioconductor-geoquery
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geoquery
+
+
+.. |required_by_bioconductor-geoquery| conda:required_by:: bioconductor-geoquery
+.. |downloads_bioconductor-geoquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geoquery.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geoquery| image:: https://quay.io/repository/biocontainers/bioconductor-geoquery/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geoquery
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geoquery.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geoquery/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geoquery/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geoquery/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geoquery/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geoquery
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geoquery/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geoquery
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geoquery/README.html
 

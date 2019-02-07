@@ -1,56 +1,67 @@
-.. _`flexbar`:
+.. title:: Package Recipe 'flexbar'
+.. highlight: bash
+
 
 flexbar
 =======
 
-|downloads|
+.. conda:recipe:: flexbar/2.5.0
+   :replaces_section_title:
 
-Flexible barcode and adapter removal
+   Flexible barcode and adapter removal
 
-============= ===========
-Home          https://github.com/seqan/flexbar
-Versions      3.3.0, 2.5.0
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flexbar/2.5.0/meta.yaml
+   :homepage: https://github.com/seqan/flexbar
+   :license: BSD-3-Clause
+   :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`2.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0/meta.yaml>`_
+   :links: biotools: :biotools:`flexbar`
 
-
-
-Links         biotools: :biotools:`flexbar`
-
-============= ===========
+   
 
 
+.. conda:package:: flexbar
 
-Installation
-------------
+   |downloads_flexbar| |docker_flexbar|
 
-.. highlight: bash
+   :versions: 3.3.0, 2.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` 1.0* :conda:package:`libcxx`  :conda:package:`libgcc`  :conda:package:`seqan-library` ==2.4.0 :conda:package:`tbb`  :conda:package:`zlib` 1.2.11* 
 
-   conda install flexbar
+   :required~by: |required_by_flexbar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flexbar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flexbar
+
+   and update with::
+
+      conda update flexbar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flexbar
+
+
+.. |required_by_flexbar| conda:required_by:: flexbar
+.. |downloads_flexbar| image:: https://img.shields.io/conda/dn/bioconda/flexbar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flexbar| image:: https://quay.io/repository/biocontainers/flexbar/status
+   :target: https://quay.io/repository/biocontainers/flexbar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flexbar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flexbar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flexbar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flexbar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flexbar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flexbar
-.. |docker| image:: https://quay.io/repository/biocontainers/flexbar/status
-                :target: https://quay.io/repository/biocontainers/flexbar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flexbar/README.html
 

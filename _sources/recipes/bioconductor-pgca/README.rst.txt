@@ -1,54 +1,66 @@
-.. _`bioconductor-pgca`:
+.. title:: Package Recipe 'bioconductor-pgca'
+.. highlight: bash
+
 
 bioconductor-pgca
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-pgca
+   :replaces_section_title:
 
-Protein Group Code Algorithm \(PGCA\) is a computationally inexpensive algorithm to merge protein summaries from multiple experimental quantitative proteomics data. The algorithm connects two or more groups with overlapping accession numbers. In some cases\, pairwise groups are mutually exclusive but they may still be connected by another group \(or set of groups\) with overlapping accession numbers. Thus\, groups created by PGCA from multiple experimental runs \(i.e.\, global groups\) are called \"connected\" groups. These identified global protein groups enable the analysis of quantitative data available for protein groups instead of unique protein identifiers.
+   Protein Group Code Algorithm \(PGCA\) is a computationally inexpensive algorithm to merge protein summaries from multiple experimental quantitative proteomics data. The algorithm connects two or more groups with overlapping accession numbers. In some cases\, pairwise groups are mutually exclusive but they may still be connected by another group \(or set of groups\) with overlapping accession numbers. Thus\, groups created by PGCA from multiple experimental runs \(i.e.\, global groups\) are called \"connected\" groups. These identified global protein groups enable the analysis of quantitative data available for protein groups instead of unique protein identifiers.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/pgca.html
-Versions      1.6.1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pgca/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pgca.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-pgca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgca/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pgca
 
-Installation
-------------
+   |downloads_bioconductor-pgca| |docker_bioconductor-pgca|
 
-.. highlight: bash
+   :versions: 1.6.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-pgca
+   :required~by: |required_by_bioconductor-pgca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pgca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pgca
+
+   and update with::
+
+      conda update bioconductor-pgca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pgca
+
+
+.. |required_by_bioconductor-pgca| conda:required_by:: bioconductor-pgca
+.. |downloads_bioconductor-pgca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pgca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pgca| image:: https://quay.io/repository/biocontainers/bioconductor-pgca/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pgca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pgca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pgca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pgca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pgca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pgca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pgca
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pgca/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pgca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pgca/README.html
 

@@ -1,54 +1,66 @@
-.. _`mysql-connector-c`:
+.. title:: Package Recipe 'mysql-connector-c'
+.. highlight: bash
+
 
 mysql-connector-c
 =================
 
-|downloads|
+.. conda:recipe:: mysql-connector-c
+   :replaces_section_title:
 
-MySQL Connector\/C\, the C interface for communicating with MySQL servers.
+   MySQL Connector\/C\, the C interface for communicating with MySQL servers.
 
-============= ===========
-Home          https://dev.mysql.com/downloads/connector/c/
-Versions      6.1.6
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mysql-connector-c/meta.yaml
+   :homepage: https://dev.mysql.com/downloads/connector/c/
+   :license: LGPL
+   :recipe: /`mysql-connector-c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysql-connector-c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysql-connector-c/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mysql-connector-c
 
-Installation
-------------
+   |downloads_mysql-connector-c| |docker_mysql-connector-c|
 
-.. highlight: bash
+   :versions: 6.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install mysql-connector-c
+   :required~by: |required_by_mysql-connector-c|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mysql-connector-c
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mysql-connector-c
+
+   and update with::
+
+      conda update mysql-connector-c
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mysql-connector-c
+
+
+.. |required_by_mysql-connector-c| conda:required_by:: mysql-connector-c
+.. |downloads_mysql-connector-c| image:: https://img.shields.io/conda/dn/bioconda/mysql-connector-c.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mysql-connector-c| image:: https://quay.io/repository/biocontainers/mysql-connector-c/status
+   :target: https://quay.io/repository/biocontainers/mysql-connector-c
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mysql-connector-c.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mysql-connector-c/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mysql-connector-c/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mysql-connector-c/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mysql-connector-c/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mysql-connector-c
-.. |docker| image:: https://quay.io/repository/biocontainers/mysql-connector-c/status
-                :target: https://quay.io/repository/biocontainers/mysql-connector-c
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mysql-connector-c/README.html
 

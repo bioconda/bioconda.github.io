@@ -1,54 +1,66 @@
-.. _`perl-io-handle`:
+.. title:: Package Recipe 'perl-io-handle'
+.. highlight: bash
+
 
 perl-io-handle
 ==============
 
-|downloads|
+.. conda:recipe:: perl-io-handle/1.35
+   :replaces_section_title:
 
-supply object methods for I\/O handles
+   supply object methods for I\/O handles
 
-============= ===========
-Home          http://metacpan.org/pod/IO::Handle
-Versions      1.36, 1.35
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-handle/1.35/meta.yaml
+   :homepage: http://metacpan.org/pod/IO::Handle
+   :license: perl_5
+   :recipe: /`perl-io-handle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-handle>`_/`1.35 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-handle/1.35>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-handle/1.35/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-handle
 
-Installation
-------------
+   |downloads_perl-io-handle| |docker_perl-io-handle|
 
-.. highlight: bash
+   :versions: 1.36, 1.35
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-io-handle
+   :required~by: |required_by_perl-io-handle|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-handle
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-handle
+
+   and update with::
+
+      conda update perl-io-handle
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-handle
+
+
+.. |required_by_perl-io-handle| conda:required_by:: perl-io-handle
+.. |downloads_perl-io-handle| image:: https://img.shields.io/conda/dn/bioconda/perl-io-handle.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-handle| image:: https://quay.io/repository/biocontainers/perl-io-handle/status
+   :target: https://quay.io/repository/biocontainers/perl-io-handle
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-handle.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-handle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-handle/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-handle/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-handle/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-handle
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-handle/status
-                :target: https://quay.io/repository/biocontainers/perl-io-handle
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-handle/README.html
 

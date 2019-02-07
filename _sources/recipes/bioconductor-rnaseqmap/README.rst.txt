@@ -1,56 +1,67 @@
-.. _`bioconductor-rnaseqmap`:
+.. title:: Package Recipe 'bioconductor-rnaseqmap'
+.. highlight: bash
+
 
 bioconductor-rnaseqmap
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-rnaseqmap
+   :replaces_section_title:
 
-The rnaSeqMap library provides classes and functions to analyze the RNA\-sequencing data using the coverage profiles in multiple samples at a time
+   The rnaSeqMap library provides classes and functions to analyze the RNA\-sequencing data using the coverage profiles in multiple samples at a time
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/rnaSeqMap.html
-Versions      2.40.0, 2.38.0, 2.36.0, 2.34.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaseqmap/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rnaSeqMap.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rnaseqmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqmap/meta.yaml>`_
+   :links: biotools: :biotools:`rnaseqmap`, doi: :doi:`10.1186/1471-2105-12-200`
 
-
-
-Links         biotools: :biotools:`rnaseqmap`, doi: :doi:`10.1186/1471-2105-12-200`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rnaseqmap
 
-Installation
-------------
+   |downloads_bioconductor-rnaseqmap| |docker_bioconductor-rnaseqmap|
 
-.. highlight: bash
+   :versions: 2.40.0, 2.38.0, 2.36.0, 2.34.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-deseq` >=1.34.0,<1.35.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi`  
 
-   conda install bioconductor-rnaseqmap
+   :required~by: |required_by_bioconductor-rnaseqmap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rnaseqmap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rnaseqmap
+
+   and update with::
+
+      conda update bioconductor-rnaseqmap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rnaseqmap
+
+
+.. |required_by_bioconductor-rnaseqmap| conda:required_by:: bioconductor-rnaseqmap
+.. |downloads_bioconductor-rnaseqmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqmap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rnaseqmap| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rnaseqmap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rnaseqmap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rnaseqmap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rnaseqmap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rnaseqmap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rnaseqmap
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rnaseqmap/README.html
 

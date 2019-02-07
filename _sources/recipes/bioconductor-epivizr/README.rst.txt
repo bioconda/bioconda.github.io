@@ -1,56 +1,67 @@
-.. _`bioconductor-epivizr`:
+.. title:: Package Recipe 'bioconductor-epivizr'
+.. highlight: bash
+
 
 bioconductor-epivizr
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-epivizr
+   :replaces_section_title:
 
-This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.umd.edu\) for interactive visualization of genomic data. Objects in R\/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions. Fundamental Bioconductor data structures are supported \(e.g.\, GenomicRanges and RangedSummarizedExperiment objects\)\, while providing an easy mechanism to support other data structures \(through package epivizrData\). Visualizations \(using d3.js\) can be easily added to the web app as well.
+   This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.umd.edu\) for interactive visualization of genomic data. Objects in R\/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions. Fundamental Bioconductor data structures are supported \(e.g.\, GenomicRanges and RangedSummarizedExperiment objects\)\, while providing an easy mechanism to support other data structures \(through package epivizrData\). Visualizations \(using d3.js\) can be easily added to the web app as well.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/epivizr.html
-Versions      2.12.0, 2.10.0, 2.8.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-epivizr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epivizr.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-epivizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr/meta.yaml>`_
+   :links: biotools: :biotools:`epivizr`, doi: :doi:`10.1038/nmeth.3038`
 
-
-
-Links         biotools: :biotools:`epivizr`, doi: :doi:`10.1038/nmeth.3038`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-epivizr
 
-Installation
-------------
+   |downloads_bioconductor-epivizr| |docker_bioconductor-epivizr|
 
-.. highlight: bash
+   :versions: 2.12.0, 2.10.0, 2.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-epivizrdata` >=1.10.0,<1.11.0 :conda:package:`bioconductor-epivizrserver` >=1.10.0,<1.11.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-epivizr
+   :required~by: |required_by_bioconductor-epivizr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-epivizr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-epivizr
+
+   and update with::
+
+      conda update bioconductor-epivizr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-epivizr
+
+
+.. |required_by_bioconductor-epivizr| conda:required_by:: bioconductor-epivizr
+.. |downloads_bioconductor-epivizr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epivizr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-epivizr| image:: https://quay.io/repository/biocontainers/bioconductor-epivizr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-epivizr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-epivizr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-epivizr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-epivizr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-epivizr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-epivizr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-epivizr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-epivizr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-epivizr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-epivizr/README.html
 

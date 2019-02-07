@@ -1,54 +1,66 @@
-.. _`ucsc-hgspeciesrna`:
+.. title:: Package Recipe 'ucsc-hgspeciesrna'
+.. highlight: bash
+
 
 ucsc-hgspeciesrna
 =================
 
-|downloads|
+.. conda:recipe:: ucsc-hgspeciesrna
+   :replaces_section_title:
 
-Create fasta file with RNA from one species
+   Create fasta file with RNA from one species
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-hgspeciesrna/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-hgspeciesrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgspeciesrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgspeciesrna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-hgspeciesrna
 
-Installation
-------------
+   |downloads_ucsc-hgspeciesrna| |docker_ucsc-hgspeciesrna|
 
-.. highlight: bash
+   :versions: 366, 357
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-hgspeciesrna
+   :required~by: |required_by_ucsc-hgspeciesrna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-hgspeciesrna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-hgspeciesrna
+
+   and update with::
+
+      conda update ucsc-hgspeciesrna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-hgspeciesrna
+
+
+.. |required_by_ucsc-hgspeciesrna| conda:required_by:: ucsc-hgspeciesrna
+.. |downloads_ucsc-hgspeciesrna| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgspeciesrna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-hgspeciesrna| image:: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna/status
+   :target: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-hgspeciesrna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-hgspeciesrna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-hgspeciesrna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-hgspeciesrna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-hgspeciesrna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-hgspeciesrna
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna/status
-                :target: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-hgspeciesrna/README.html
 

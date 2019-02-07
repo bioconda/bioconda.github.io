@@ -1,54 +1,66 @@
-.. _`bioconductor-fgnet`:
+.. title:: Package Recipe 'bioconductor-fgnet'
+.. highlight: bash
+
 
 bioconductor-fgnet
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-fgnet
+   :replaces_section_title:
 
-Build and visualize functional gene and term networks from clustering of enrichment analyses in multiple annotation spaces. The package includes a graphical user interface \(GUI\) and functions to perform the functional enrichment analysis through DAVID\, GeneTerm Linker\, gage \(GSEA\) and topGO.
+   Build and visualize functional gene and term networks from clustering of enrichment analyses in multiple annotation spaces. The package includes a graphical user interface \(GUI\) and functions to perform the functional enrichment analysis through DAVID\, GeneTerm Linker\, gage \(GSEA\) and topGO.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FGNet.html
-Versions      3.16.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fgnet/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FGNet.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-fgnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fgnet
 
-Installation
-------------
+   |downloads_bioconductor-fgnet| |docker_bioconductor-fgnet|
 
-.. highlight: bash
+   :versions: 3.16.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hwriter`  :conda:package:`r-igraph` >=0.6 :conda:package:`r-plotrix`  :conda:package:`r-png`  :conda:package:`r-r.utils`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-xml`  
 
-   conda install bioconductor-fgnet
+   :required~by: |required_by_bioconductor-fgnet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fgnet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fgnet
+
+   and update with::
+
+      conda update bioconductor-fgnet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fgnet
+
+
+.. |required_by_bioconductor-fgnet| conda:required_by:: bioconductor-fgnet
+.. |downloads_bioconductor-fgnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fgnet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fgnet| image:: https://quay.io/repository/biocontainers/bioconductor-fgnet/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fgnet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fgnet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fgnet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fgnet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fgnet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fgnet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fgnet
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fgnet/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fgnet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fgnet/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-help`:
+.. title:: Package Recipe 'bioconductor-help'
+.. highlight: bash
+
 
 bioconductor-help
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-help
+   :replaces_section_title:
 
-The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications.
+   The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/HELP.html
-Versions      1.40.0, 1.38.0, 1.36.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-help/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HELP.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-help <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-help>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-help/meta.yaml>`_
+   :links: biotools: :biotools:`help`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`help`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-help
 
-Installation
-------------
+   |downloads_bioconductor-help| |docker_bioconductor-help|
 
-.. highlight: bash
+   :versions: 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-help
+   :required~by: |required_by_bioconductor-help|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-help
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-help
+
+   and update with::
+
+      conda update bioconductor-help
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-help
+
+
+.. |required_by_bioconductor-help| conda:required_by:: bioconductor-help
+.. |downloads_bioconductor-help| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-help.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-help| image:: https://quay.io/repository/biocontainers/bioconductor-help/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-help
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-help.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-help/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-help/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-help/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-help/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-help
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-help/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-help
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-help/README.html
 

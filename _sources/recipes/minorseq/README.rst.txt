@@ -1,54 +1,66 @@
-.. _`minorseq`:
+.. title:: Package Recipe 'minorseq'
+.. highlight: bash
+
 
 minorseq
 ========
 
-|downloads|
+.. conda:recipe:: minorseq
+   :replaces_section_title:
 
-Minor Variant Calling and Phasing Tools
+   Minor Variant Calling and Phasing Tools
 
-============= ===========
-Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      1.11.0
-License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//minorseq/meta.yaml
+   :homepage: https://github.com/PacificBiosciences/pbbioconda
+   :license: BSD-3-Clause-Clear
+   :recipe: /`minorseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minorseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minorseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: minorseq
 
-Installation
-------------
+   |downloads_minorseq| |docker_minorseq|
 
-.. highlight: bash
+   :versions: 1.11.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blasr`  :conda:package:`pbccs`  :conda:package:`samtools`  
 
-   conda install minorseq
+   :required~by: |required_by_minorseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update minorseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install minorseq
+
+   and update with::
+
+      conda update minorseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/minorseq
+
+
+.. |required_by_minorseq| conda:required_by:: minorseq
+.. |downloads_minorseq| image:: https://img.shields.io/conda/dn/bioconda/minorseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_minorseq| image:: https://quay.io/repository/biocontainers/minorseq/status
+   :target: https://quay.io/repository/biocontainers/minorseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/minorseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/minorseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/minorseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/minorseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/minorseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/minorseq
-.. |docker| image:: https://quay.io/repository/biocontainers/minorseq/status
-                :target: https://quay.io/repository/biocontainers/minorseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/minorseq/README.html
 

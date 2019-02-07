@@ -1,54 +1,66 @@
-.. _`parafly`:
+.. title:: Package Recipe 'parafly'
+.. highlight: bash
+
 
 parafly
 =======
 
-|downloads|
+.. conda:recipe:: parafly
+   :replaces_section_title:
 
-Given a file containing a list of unix commands\, multithreading is used to process the commands in parallel on a single server. Success\/failure is captured\, and failed commands are retained and reported.
+   Given a file containing a list of unix commands\, multithreading is used to process the commands in parallel on a single server. Success\/failure is captured\, and failed commands are retained and reported.
 
-============= ===========
-Home          http://parafly.sourceforge.net/
-Versions      r2013_01_21
-License       The Broad Institute (own license thingy)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parafly/meta.yaml
+   :homepage: http://parafly.sourceforge.net/
+   :license: The Broad Institute (own license thingy)
+   :recipe: /`parafly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parafly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parafly/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: parafly
 
-Installation
-------------
+   |downloads_parafly| |docker_parafly|
 
-.. highlight: bash
+   :versions: r2013_01_21
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install parafly
+   :required~by: |required_by_parafly|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update parafly
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install parafly
+
+   and update with::
+
+      conda update parafly
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/parafly
+
+
+.. |required_by_parafly| conda:required_by:: parafly
+.. |downloads_parafly| image:: https://img.shields.io/conda/dn/bioconda/parafly.svg?style=flat
+   :alt:   (downloads)
+.. |docker_parafly| image:: https://quay.io/repository/biocontainers/parafly/status
+   :target: https://quay.io/repository/biocontainers/parafly
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/parafly.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/parafly/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/parafly/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/parafly/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/parafly/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/parafly
-.. |docker| image:: https://quay.io/repository/biocontainers/parafly/status
-                :target: https://quay.io/repository/biocontainers/parafly
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/parafly/README.html
 

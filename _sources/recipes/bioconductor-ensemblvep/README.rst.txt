@@ -1,56 +1,67 @@
-.. _`bioconductor-ensemblvep`:
+.. title:: Package Recipe 'bioconductor-ensemblvep'
+.. highlight: bash
+
 
 bioconductor-ensemblvep
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-ensemblvep
+   :replaces_section_title:
 
-Query the Ensembl Variant Effect Predictor via the perl API.
+   Query the Ensembl Variant Effect Predictor via the perl API.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ensemblVEP.html
-Versions      1.24.0, 1.22.1, 1.20.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ensemblvep/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ensemblVEP.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ensemblvep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep/meta.yaml>`_
+   :links: biotools: :biotools:`ensemblvep`, doi: :doi:`10.1186/s13059-016-0974-4`
 
-
-
-Links         biotools: :biotools:`ensemblvep`, doi: :doi:`10.1186/s13059-016-0974-4`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ensemblvep
 
-Installation
-------------
+   |downloads_bioconductor-ensemblvep| |docker_bioconductor-ensemblvep|
 
-.. highlight: bash
+   :versions: 1.24.0, 1.22.1, 1.20.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`bioconductor-variantannotation` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-ensemblvep
+   :required~by: |required_by_bioconductor-ensemblvep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ensemblvep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ensemblvep
+
+   and update with::
+
+      conda update bioconductor-ensemblvep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ensemblvep
+
+
+.. |required_by_bioconductor-ensemblvep| conda:required_by:: bioconductor-ensemblvep
+.. |downloads_bioconductor-ensemblvep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ensemblvep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ensemblvep| image:: https://quay.io/repository/biocontainers/bioconductor-ensemblvep/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ensemblvep
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ensemblvep.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ensemblvep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ensemblvep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ensemblvep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ensemblvep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ensemblvep
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ensemblvep/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ensemblvep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ensemblvep/README.html
 

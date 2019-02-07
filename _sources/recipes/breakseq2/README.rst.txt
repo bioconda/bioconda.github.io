@@ -1,54 +1,66 @@
-.. _`breakseq2`:
+.. title:: Package Recipe 'breakseq2'
+.. highlight: bash
+
 
 breakseq2
 =========
 
-|downloads|
+.. conda:recipe:: breakseq2
+   :replaces_section_title:
 
-BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants.
+   BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants.
 
-============= ===========
-Home          http://bioinform.github.io/breakseq2
-Versions      2.2
-License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//breakseq2/meta.yaml
+   :homepage: http://bioinform.github.io/breakseq2
+   :license: BSD-2-Clause
+   :recipe: /`breakseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakseq2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: breakseq2
 
-Installation
-------------
+   |downloads_breakseq2| |docker_breakseq2|
 
-.. highlight: bash
+   :versions: 2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` ==1.65 :conda:package:`bwa`  :conda:package:`cython`  :conda:package:`pysam` ==0.7.7 :conda:package:`python` 2.7* :conda:package:`samtools` ==0.1.19 
 
-   conda install breakseq2
+   :required~by: |required_by_breakseq2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update breakseq2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install breakseq2
+
+   and update with::
+
+      conda update breakseq2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/breakseq2
+
+
+.. |required_by_breakseq2| conda:required_by:: breakseq2
+.. |downloads_breakseq2| image:: https://img.shields.io/conda/dn/bioconda/breakseq2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_breakseq2| image:: https://quay.io/repository/biocontainers/breakseq2/status
+   :target: https://quay.io/repository/biocontainers/breakseq2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/breakseq2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/breakseq2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/breakseq2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/breakseq2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/breakseq2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/breakseq2
-.. |docker| image:: https://quay.io/repository/biocontainers/breakseq2/status
-                :target: https://quay.io/repository/biocontainers/breakseq2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/breakseq2/README.html
 

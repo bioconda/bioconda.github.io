@@ -1,54 +1,66 @@
-.. _`libbambamc`:
+.. title:: Package Recipe 'libbambamc'
+.. highlight: bash
+
 
 libbambamc
 ==========
 
-|downloads|
+.. conda:recipe:: libbambamc/0.5.00
+   :replaces_section_title:
 
-lightweight C implementation of name collating BAM file input and BAM file output
+   lightweight C implementation of name collating BAM file input and BAM file output
 
-============= ===========
-Home          https://github.com/gt1/bambamc
-Versions      0.0.50
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libbambamc/0.5.00/meta.yaml
+   :homepage: https://github.com/gt1/bambamc
+   :license: GPLv3
+   :recipe: /`libbambamc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc>`_/`0.5.00 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc/0.5.00>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc/0.5.00/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: libbambamc
 
-Installation
-------------
+   |downloads_libbambamc| |docker_libbambamc|
 
-.. highlight: bash
+   :versions: 0.0.50
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install libbambamc
+   :required~by: |required_by_libbambamc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update libbambamc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install libbambamc
+
+   and update with::
+
+      conda update libbambamc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/libbambamc
+
+
+.. |required_by_libbambamc| conda:required_by:: libbambamc
+.. |downloads_libbambamc| image:: https://img.shields.io/conda/dn/bioconda/libbambamc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_libbambamc| image:: https://quay.io/repository/biocontainers/libbambamc/status
+   :target: https://quay.io/repository/biocontainers/libbambamc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/libbambamc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/libbambamc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libbambamc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/libbambamc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/libbambamc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/libbambamc
-.. |docker| image:: https://quay.io/repository/biocontainers/libbambamc/status
-                :target: https://quay.io/repository/biocontainers/libbambamc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/libbambamc/README.html
 

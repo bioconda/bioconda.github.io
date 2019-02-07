@@ -1,54 +1,66 @@
-.. _`snpiphy`:
+.. title:: Package Recipe 'snpiphy'
+.. highlight: bash
+
 
 snpiphy
 =======
 
-|downloads|
+.. conda:recipe:: snpiphy
+   :replaces_section_title:
 
-An automated snp phylogeny pipeline
+   An automated snp phylogeny pipeline
 
-============= ===========
-Home          https://github.com/bogemad/snpiphy
-Versions      0.3, 0.2, 0.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpiphy/meta.yaml
+   :homepage: https://github.com/bogemad/snpiphy
+   :license: GPL / GPLv3
+   :recipe: /`snpiphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpiphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpiphy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: snpiphy
 
-Installation
-------------
+   |downloads_snpiphy| |docker_snpiphy|
 
-.. highlight: bash
+   :versions: 0.3, 0.2, 0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`gubbins`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`snippy`  
 
-   conda install snpiphy
+   :required~by: |required_by_snpiphy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update snpiphy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snpiphy
+
+   and update with::
+
+      conda update snpiphy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/snpiphy
+
+
+.. |required_by_snpiphy| conda:required_by:: snpiphy
+.. |downloads_snpiphy| image:: https://img.shields.io/conda/dn/bioconda/snpiphy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_snpiphy| image:: https://quay.io/repository/biocontainers/snpiphy/status
+   :target: https://quay.io/repository/biocontainers/snpiphy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/snpiphy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/snpiphy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/snpiphy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/snpiphy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/snpiphy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/snpiphy
-.. |docker| image:: https://quay.io/repository/biocontainers/snpiphy/status
-                :target: https://quay.io/repository/biocontainers/snpiphy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/snpiphy/README.html
 

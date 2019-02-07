@@ -1,54 +1,66 @@
-.. _`ngs-bits`:
+.. title:: Package Recipe 'ngs-bits'
+.. highlight: bash
+
 
 ngs-bits
 ========
 
-|downloads|
+.. conda:recipe:: ngs-bits
+   :replaces_section_title:
 
-Short\-read sequencing tools
+   Short\-read sequencing tools
 
-============= ===========
-Home          https://github.com/imgag/ngs-bits
-Versions      2018_11, 2018_10, 2018_06, 2018_04
-License       MIT license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ngs-bits/meta.yaml
+   :homepage: https://github.com/imgag/ngs-bits
+   :license: MIT license
+   :recipe: /`ngs-bits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-bits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-bits/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ngs-bits
 
-Installation
-------------
+   |downloads_ngs-bits| |docker_ngs-bits|
 
-.. highlight: bash
+   :versions: 2018_11, 2018_10, 2018_06, 2018_04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`python`  :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ngs-bits
+   :required~by: |required_by_ngs-bits|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ngs-bits
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ngs-bits
+
+   and update with::
+
+      conda update ngs-bits
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ngs-bits
+
+
+.. |required_by_ngs-bits| conda:required_by:: ngs-bits
+.. |downloads_ngs-bits| image:: https://img.shields.io/conda/dn/bioconda/ngs-bits.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ngs-bits| image:: https://quay.io/repository/biocontainers/ngs-bits/status
+   :target: https://quay.io/repository/biocontainers/ngs-bits
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ngs-bits.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngs-bits/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ngs-bits/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ngs-bits/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ngs-bits/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ngs-bits
-.. |docker| image:: https://quay.io/repository/biocontainers/ngs-bits/status
-                :target: https://quay.io/repository/biocontainers/ngs-bits
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ngs-bits/README.html
 

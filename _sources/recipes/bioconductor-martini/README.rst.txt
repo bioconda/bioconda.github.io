@@ -1,54 +1,66 @@
-.. _`bioconductor-martini`:
+.. title:: Package Recipe 'bioconductor-martini'
+.. highlight: bash
+
 
 bioconductor-martini
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-martini
+   :replaces_section_title:
 
-martini deals with the low power inherent to GWAS studies by using prior knowledge represented as a network. SNPs are the vertices of the network\, and the edges represent biological relationships between them \(genomic adjacency\, belonging to the same gene\, physical interaction between protein products\). The network is scanned using SConES\, which looks for groups of SNPs maximally associated with the phenotype\, that form a close subnetwork.
+   martini deals with the low power inherent to GWAS studies by using prior knowledge represented as a network. SNPs are the vertices of the network\, and the edges represent biological relationships between them \(genomic adjacency\, belonging to the same gene\, physical interaction between protein products\). The network is scanned using SConES\, which looks for groups of SNPs maximally associated with the phenotype\, that form a close subnetwork.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/martini.html
-Versions      1.2.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-martini/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/martini.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-martini <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-martini
 
-Installation
-------------
+   |downloads_bioconductor-martini| |docker_bioconductor-martini|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rgin` >=1.2.0,<1.3.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
 
-   conda install bioconductor-martini
+   :required~by: |required_by_bioconductor-martini|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-martini
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-martini
+
+   and update with::
+
+      conda update bioconductor-martini
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-martini
+
+
+.. |required_by_bioconductor-martini| conda:required_by:: bioconductor-martini
+.. |downloads_bioconductor-martini| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-martini.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-martini| image:: https://quay.io/repository/biocontainers/bioconductor-martini/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-martini
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-martini.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-martini/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-martini/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-martini/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-martini/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-martini
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-martini/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-martini
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-martini/README.html
 

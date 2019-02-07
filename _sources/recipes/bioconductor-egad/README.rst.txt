@@ -1,54 +1,66 @@
-.. _`bioconductor-egad`:
+.. title:: Package Recipe 'bioconductor-egad'
+.. highlight: bash
+
 
 bioconductor-egad
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-egad
+   :replaces_section_title:
 
-The package implements a series of highly efficient tools to calculate functional properties of networks based on guilt by association methods.
+   The package implements a series of highly efficient tools to calculate functional properties of networks based on guilt by association methods.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/EGAD.html
-Versions      1.10.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-egad/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EGAD.html
+   :license: GPL-2
+   :recipe: /`bioconductor-egad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-egad
 
-Installation
-------------
+   |downloads_bioconductor-egad| |docker_bioconductor-egad|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-arrayqualitymetrics` >=3.38.0,<3.39.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-geoquery` >=2.50.0,<2.51.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcurl`  :conda:package:`r-zoo`  
 
-   conda install bioconductor-egad
+   :required~by: |required_by_bioconductor-egad|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-egad
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-egad
+
+   and update with::
+
+      conda update bioconductor-egad
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-egad
+
+
+.. |required_by_bioconductor-egad| conda:required_by:: bioconductor-egad
+.. |downloads_bioconductor-egad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-egad.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-egad| image:: https://quay.io/repository/biocontainers/bioconductor-egad/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-egad
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-egad.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-egad/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-egad/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-egad/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-egad/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-egad
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-egad/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-egad
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-egad/README.html
 

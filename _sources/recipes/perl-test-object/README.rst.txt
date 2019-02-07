@@ -1,54 +1,66 @@
-.. _`perl-test-object`:
+.. title:: Package Recipe 'perl-test-object'
+.. highlight: bash
+
 
 perl-test-object
 ================
 
-|downloads|
+.. conda:recipe:: perl-test-object/0.08
+   :replaces_section_title:
 
-Thoroughly testing objects via registered handlers
+   Thoroughly testing objects via registered handlers
 
-============= ===========
-Home          https://github.com/karenetheridge/Test-Object
-Versions      0.08
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-object/0.08/meta.yaml
+   :homepage: https://github.com/karenetheridge/Test-Object
+   :license: perl_5
+   :recipe: /`perl-test-object <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-object>`_/`0.08 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-object/0.08>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-object/0.08/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-object
 
-Installation
-------------
+   |downloads_perl-test-object| |docker_perl-test-object|
 
-.. highlight: bash
+   :versions: 0.08
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.22,<6.0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-test-more`  
 
-   conda install perl-test-object
+   :required~by: |required_by_perl-test-object|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-object
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-object
+
+   and update with::
+
+      conda update perl-test-object
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-object
+
+
+.. |required_by_perl-test-object| conda:required_by:: perl-test-object
+.. |downloads_perl-test-object| image:: https://img.shields.io/conda/dn/bioconda/perl-test-object.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-object| image:: https://quay.io/repository/biocontainers/perl-test-object/status
+   :target: https://quay.io/repository/biocontainers/perl-test-object
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-object.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-object/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-object/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-object/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-object/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-object
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-object/status
-                :target: https://quay.io/repository/biocontainers/perl-test-object
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-object/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-cellscore`:
+.. title:: Package Recipe 'bioconductor-cellscore'
+.. highlight: bash
+
 
 bioconductor-cellscore
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cellscore
+   :replaces_section_title:
 
-The CellScore package contains functions to evaluate the cell identity of a test sample\, given a cell transition defined with a starting \(donor\) cell type and a desired target cell type. The evaluation is based upon a scoring system\, which uses a set of standard samples of known cell types\, as the reference set. The functions have been carried out on a large set of microarray data from one platform \(Affymetrix Human Genome U133 Plus 2.0\). In principle\, the method could be applied to any expression dataset\, provided that there are a sufficient number of standard samples and that the data are normalized.
+   The CellScore package contains functions to evaluate the cell identity of a test sample\, given a cell transition defined with a starting \(donor\) cell type and a desired target cell type. The evaluation is based upon a scoring system\, which uses a set of standard samples of known cell types\, as the reference set. The functions have been carried out on a large set of microarray data from one platform \(Affymetrix Human Genome U133 Plus 2.0\). In principle\, the method could be applied to any expression dataset\, provided that there are a sufficient number of standard samples and that the data are normalized.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CellScore.html
-Versions      1.2.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellscore/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CellScore.html
+   :license: GPL-3
+   :recipe: /`bioconductor-cellscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cellscore
 
-Installation
-------------
+   |downloads_bioconductor-cellscore| |docker_bioconductor-cellscore|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots` >=3.0.1 :conda:package:`r-lsa` >=0.73.1 :conda:package:`r-rcolorbrewer` >=1.1-2 :conda:package:`r-squash` >=1.0.8 
 
-   conda install bioconductor-cellscore
+   :required~by: |required_by_bioconductor-cellscore|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cellscore
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cellscore
+
+   and update with::
+
+      conda update bioconductor-cellscore
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cellscore
+
+
+.. |required_by_bioconductor-cellscore| conda:required_by:: bioconductor-cellscore
+.. |downloads_bioconductor-cellscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellscore.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cellscore| image:: https://quay.io/repository/biocontainers/bioconductor-cellscore/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cellscore
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cellscore.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cellscore/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cellscore/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cellscore/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cellscore/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cellscore
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cellscore/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cellscore
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cellscore/README.html
 

@@ -1,56 +1,67 @@
-.. _`sga`:
+.. title:: Package Recipe 'sga'
+.. highlight: bash
+
 
 sga
 ===
 
-|downloads|
+.. conda:recipe:: sga
+   :replaces_section_title:
 
-SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads.
+   SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads.
 
-============= ===========
-Home          https://github.com/jts/sga
-Versions      0.10.15, 0.10.13
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sga/meta.yaml
+   :homepage: https://github.com/jts/sga
+   :license: GPLv3
+   :recipe: /`sga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sga/meta.yaml>`_
+   :links: biotools: :biotools:`sga`
 
-
-
-Links         biotools: :biotools:`sga`
-
-============= ===========
+   
 
 
+.. conda:package:: sga
 
-Installation
-------------
+   |downloads_sga| |docker_sga|
 
-.. highlight: bash
+   :versions: 0.10.15, 0.10.13
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bamtools`  :conda:package:`libgcc`  :conda:package:`sparsehash`  :conda:package:`zlib` 1.2.8* 
 
-   conda install sga
+   :required~by: |required_by_sga|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update sga
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sga
+
+   and update with::
+
+      conda update sga
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sga
+
+
+.. |required_by_sga| conda:required_by:: sga
+.. |downloads_sga| image:: https://img.shields.io/conda/dn/bioconda/sga.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sga| image:: https://quay.io/repository/biocontainers/sga/status
+   :target: https://quay.io/repository/biocontainers/sga
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/sga.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sga/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sga/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sga/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sga/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sga
-.. |docker| image:: https://quay.io/repository/biocontainers/sga/status
-                :target: https://quay.io/repository/biocontainers/sga
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sga/README.html
 

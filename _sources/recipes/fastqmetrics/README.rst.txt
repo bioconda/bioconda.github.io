@@ -1,54 +1,66 @@
-.. _`fastqmetrics`:
+.. title:: Package Recipe 'fastqmetrics'
+.. highlight: bash
+
 
 fastqmetrics
 ============
 
-|downloads|
+.. conda:recipe:: fastqmetrics
+   :replaces_section_title:
 
-Extract metrics from a fastq file\, streaming
+   Extract metrics from a fastq file\, streaming
 
-============= ===========
-Home          https://github.com/wdecoster/fastqmetrics
-Versions      0.1.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastqmetrics/meta.yaml
+   :homepage: https://github.com/wdecoster/fastqmetrics
+   :license: MIT / MIT License
+   :recipe: /`fastqmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqmetrics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastqmetrics
 
-Installation
-------------
+   |downloads_fastqmetrics| |docker_fastqmetrics|
 
-.. highlight: bash
+   :versions: 0.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`nanoget` >=0.14.0 :conda:package:`python` 3.5* 
 
-   conda install fastqmetrics
+   :required~by: |required_by_fastqmetrics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastqmetrics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastqmetrics
+
+   and update with::
+
+      conda update fastqmetrics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastqmetrics
+
+
+.. |required_by_fastqmetrics| conda:required_by:: fastqmetrics
+.. |downloads_fastqmetrics| image:: https://img.shields.io/conda/dn/bioconda/fastqmetrics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastqmetrics| image:: https://quay.io/repository/biocontainers/fastqmetrics/status
+   :target: https://quay.io/repository/biocontainers/fastqmetrics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastqmetrics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastqmetrics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastqmetrics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastqmetrics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastqmetrics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastqmetrics
-.. |docker| image:: https://quay.io/repository/biocontainers/fastqmetrics/status
-                :target: https://quay.io/repository/biocontainers/fastqmetrics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastqmetrics/README.html
 

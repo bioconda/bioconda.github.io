@@ -1,56 +1,67 @@
-.. _`nlstradamus`:
+.. title:: Package Recipe 'nlstradamus'
+.. highlight: bash
+
 
 nlstradamus
 ===========
 
-|downloads|
+.. conda:recipe:: nlstradamus
+   :replaces_section_title:
 
-NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction.
+   NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction.
 
-============= ===========
-Home          http://www.moseslab.csb.utoronto.ca/NLStradamus/
-Versions      1.8
-License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nlstradamus/meta.yaml
+   :homepage: http://www.moseslab.csb.utoronto.ca/NLStradamus/
+   :license: GNU General Public License v3 or later (GPLv3+)
+   :recipe: /`nlstradamus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nlstradamus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nlstradamus/meta.yaml>`_
+   :links: biotools: :biotools:`NLStradamus`
 
-
-
-Links         biotools: :biotools:`NLStradamus`
-
-============= ===========
+   
 
 
+.. conda:package:: nlstradamus
 
-Installation
-------------
+   |downloads_nlstradamus| |docker_nlstradamus|
 
-.. highlight: bash
+   :versions: 1.8
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install nlstradamus
+   :required~by: |required_by_nlstradamus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nlstradamus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nlstradamus
+
+   and update with::
+
+      conda update nlstradamus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nlstradamus
+
+
+.. |required_by_nlstradamus| conda:required_by:: nlstradamus
+.. |downloads_nlstradamus| image:: https://img.shields.io/conda/dn/bioconda/nlstradamus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nlstradamus| image:: https://quay.io/repository/biocontainers/nlstradamus/status
+   :target: https://quay.io/repository/biocontainers/nlstradamus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nlstradamus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nlstradamus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nlstradamus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nlstradamus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nlstradamus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nlstradamus
-.. |docker| image:: https://quay.io/repository/biocontainers/nlstradamus/status
-                :target: https://quay.io/repository/biocontainers/nlstradamus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nlstradamus/README.html
 

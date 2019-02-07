@@ -1,54 +1,66 @@
-.. _`mageck`:
+.. title:: Package Recipe 'mageck'
+.. highlight: bash
+
 
 mageck
 ======
 
-|downloads|
+.. conda:recipe:: mageck
+   :replaces_section_title:
 
-MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
+   MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
 
-============= ===========
-Home          http://mageck.sourceforge.net
-Versions      0.5.8, 0.5.8a, 0.5.7, 0.5.7a, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mageck/meta.yaml
+   :homepage: http://mageck.sourceforge.net
+   :license: BSD License
+   :recipe: /`mageck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mageck
 
-Installation
-------------
+   |downloads_mageck| |docker_mageck|
 
-.. highlight: bash
+   :versions: 0.5.8, 0.5.8a, 0.5.7, 0.5.7a, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`ipython`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
-   conda install mageck
+   :required~by: |required_by_mageck|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mageck
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mageck
+
+   and update with::
+
+      conda update mageck
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mageck
+
+
+.. |required_by_mageck| conda:required_by:: mageck
+.. |downloads_mageck| image:: https://img.shields.io/conda/dn/bioconda/mageck.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mageck| image:: https://quay.io/repository/biocontainers/mageck/status
+   :target: https://quay.io/repository/biocontainers/mageck
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mageck.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mageck/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mageck/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mageck/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mageck/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mageck
-.. |docker| image:: https://quay.io/repository/biocontainers/mageck/status
-                :target: https://quay.io/repository/biocontainers/mageck
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mageck/README.html
 

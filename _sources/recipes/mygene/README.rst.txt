@@ -1,54 +1,66 @@
-.. _`mygene`:
+.. title:: Package Recipe 'mygene'
+.. highlight: bash
+
 
 mygene
 ======
 
-|downloads|
+.. conda:recipe:: mygene
+   :replaces_section_title:
 
-Python Client for MyGene.Info services.
+   Python Client for MyGene.Info services.
 
-============= ===========
-Home          https://github.com/suLab/mygene.py
-Versions      3.1.0, 3.0.0, 2.2.0
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mygene/meta.yaml
+   :homepage: https://github.com/suLab/mygene.py
+   :license: BSD / BSD License
+   :recipe: /`mygene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mygene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mygene/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mygene
 
-Installation
-------------
+   |downloads_mygene| |docker_mygene|
 
-.. highlight: bash
+   :versions: 3.1.0, 3.0.0, 2.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biothings_client` >=0.2.0 :conda:package:`python`  
 
-   conda install mygene
+   :required~by: |required_by_mygene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mygene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mygene
+
+   and update with::
+
+      conda update mygene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mygene
+
+
+.. |required_by_mygene| conda:required_by:: mygene
+.. |downloads_mygene| image:: https://img.shields.io/conda/dn/bioconda/mygene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mygene| image:: https://quay.io/repository/biocontainers/mygene/status
+   :target: https://quay.io/repository/biocontainers/mygene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mygene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mygene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mygene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mygene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mygene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mygene
-.. |docker| image:: https://quay.io/repository/biocontainers/mygene/status
-                :target: https://quay.io/repository/biocontainers/mygene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mygene/README.html
 

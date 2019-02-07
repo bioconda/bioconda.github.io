@@ -1,54 +1,66 @@
-.. _`percolator`:
+.. title:: Package Recipe 'percolator'
+.. highlight: bash
+
 
 percolator
 ==========
 
-|downloads|
+.. conda:recipe:: percolator
+   :replaces_section_title:
 
-Semi\-supervised learning for peptide identification from shotgun proteomics datasets
+   Semi\-supervised learning for peptide identification from shotgun proteomics datasets
 
-============= ===========
-Home          https://github.com/percolator/percolator
-Versions      3.1, 3.0
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//percolator/meta.yaml
+   :homepage: https://github.com/percolator/percolator
+   :license: Apache 2.0
+   :recipe: /`percolator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: percolator
 
-Installation
-------------
+   |downloads_percolator| |docker_percolator|
 
-.. highlight: bash
+   :versions: 3.1, 3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2`  :conda:package:`libgcc`  :conda:package:`sqlite`  :conda:package:`tokyocabinet`  :conda:package:`xerces-c` ==3.1.2 :conda:package:`xsd`  :conda:package:`zlib`  
 
-   conda install percolator
+   :required~by: |required_by_percolator|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update percolator
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install percolator
+
+   and update with::
+
+      conda update percolator
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/percolator
+
+
+.. |required_by_percolator| conda:required_by:: percolator
+.. |downloads_percolator| image:: https://img.shields.io/conda/dn/bioconda/percolator.svg?style=flat
+   :alt:   (downloads)
+.. |docker_percolator| image:: https://quay.io/repository/biocontainers/percolator/status
+   :target: https://quay.io/repository/biocontainers/percolator
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/percolator.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/percolator/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/percolator/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/percolator/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/percolator/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/percolator
-.. |docker| image:: https://quay.io/repository/biocontainers/percolator/status
-                :target: https://quay.io/repository/biocontainers/percolator
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/percolator/README.html
 

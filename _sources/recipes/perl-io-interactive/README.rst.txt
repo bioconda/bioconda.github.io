@@ -1,54 +1,66 @@
-.. _`perl-io-interactive`:
+.. title:: Package Recipe 'perl-io-interactive'
+.. highlight: bash
+
 
 perl-io-interactive
 ===================
 
-|downloads|
+.. conda:recipe:: perl-io-interactive
+   :replaces_section_title:
 
-Utilities for interactive I\/O
+   Utilities for interactive I\/O
 
-============= ===========
-Home          https://github.com/briandfoy/io-interactive
-Versions      1.022, 1.021
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-interactive/meta.yaml
+   :homepage: https://github.com/briandfoy/io-interactive
+   :license: perl_5
+   :recipe: /`perl-io-interactive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-interactive
 
-Installation
-------------
+   |downloads_perl-io-interactive| |docker_perl-io-interactive|
 
-.. highlight: bash
+   :versions: 1.022, 1.021
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-io-interactive
+   :required~by: |required_by_perl-io-interactive|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-interactive
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-interactive
+
+   and update with::
+
+      conda update perl-io-interactive
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-interactive
+
+
+.. |required_by_perl-io-interactive| conda:required_by:: perl-io-interactive
+.. |downloads_perl-io-interactive| image:: https://img.shields.io/conda/dn/bioconda/perl-io-interactive.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-interactive| image:: https://quay.io/repository/biocontainers/perl-io-interactive/status
+   :target: https://quay.io/repository/biocontainers/perl-io-interactive
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-interactive.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-interactive/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-interactive/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-interactive/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-interactive/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-interactive
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-interactive/status
-                :target: https://quay.io/repository/biocontainers/perl-io-interactive
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-interactive/README.html
 

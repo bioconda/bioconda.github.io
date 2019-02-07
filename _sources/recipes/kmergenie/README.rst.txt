@@ -1,56 +1,67 @@
-.. _`kmergenie`:
+.. title:: Package Recipe 'kmergenie'
+.. highlight: bash
+
 
 kmergenie
 =========
 
-|downloads|
+.. conda:recipe:: kmergenie
+   :replaces_section_title:
 
-KmerGenie estimates the best k\-mer length for genome de novo assembly
+   KmerGenie estimates the best k\-mer length for genome de novo assembly
 
-============= ===========
-Home          http://kmergenie.bx.psu.edu/
-Versions      1.7016
-License       free software license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kmergenie/meta.yaml
+   :homepage: http://kmergenie.bx.psu.edu/
+   :license: free software license
+   :recipe: /`kmergenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie/meta.yaml>`_
+   :links: biotools: :biotools:`kmergenie`, doi: :doi:`10.1093/bioinformatics/btt310`
 
-
-
-Links         biotools: :biotools:`kmergenie`, doi: :doi:`10.1093/bioinformatics/btt310`
-
-============= ===========
+   
 
 
+.. conda:package:: kmergenie
 
-Installation
-------------
+   |downloads_kmergenie| |docker_kmergenie|
 
-.. highlight: bash
+   :versions: 1.7016
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`r-base` 3.2.2* :conda:package:`r-essentials`  :conda:package:`zlib`  
 
-   conda install kmergenie
+   :required~by: |required_by_kmergenie|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kmergenie
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kmergenie
+
+   and update with::
+
+      conda update kmergenie
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kmergenie
+
+
+.. |required_by_kmergenie| conda:required_by:: kmergenie
+.. |downloads_kmergenie| image:: https://img.shields.io/conda/dn/bioconda/kmergenie.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kmergenie| image:: https://quay.io/repository/biocontainers/kmergenie/status
+   :target: https://quay.io/repository/biocontainers/kmergenie
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kmergenie.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kmergenie/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kmergenie/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kmergenie/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kmergenie/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kmergenie
-.. |docker| image:: https://quay.io/repository/biocontainers/kmergenie/status
-                :target: https://quay.io/repository/biocontainers/kmergenie
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kmergenie/README.html
 

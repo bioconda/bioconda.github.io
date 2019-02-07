@@ -1,56 +1,67 @@
-.. _`bioconductor-ncigraph`:
+.. title:: Package Recipe 'bioconductor-ncigraph'
+.. highlight: bash
+
 
 bioconductor-ncigraph
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ncigraph
+   :replaces_section_title:
 
-Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them.
+   Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/NCIgraph.html
-Versions      1.30.0, 1.28.0, 1.26.0, 1.24.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ncigraph/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NCIgraph.html
+   :license: GPL-3
+   :recipe: /`bioconductor-ncigraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph/meta.yaml>`_
+   :links: biotools: :biotools:`ncigraph`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`ncigraph`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ncigraph
 
-Installation
-------------
+   |downloads_bioconductor-ncigraph| |docker_bioconductor-ncigraph|
 
-.. highlight: bash
+   :versions: 1.30.0, 1.28.0, 1.26.0, 1.24.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rcy3` >=2.2.0,<2.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-r.methodss3`  
 
-   conda install bioconductor-ncigraph
+   :required~by: |required_by_bioconductor-ncigraph|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ncigraph
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ncigraph
+
+   and update with::
+
+      conda update bioconductor-ncigraph
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ncigraph
+
+
+.. |required_by_bioconductor-ncigraph| conda:required_by:: bioconductor-ncigraph
+.. |downloads_bioconductor-ncigraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ncigraph.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ncigraph| image:: https://quay.io/repository/biocontainers/bioconductor-ncigraph/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ncigraph
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ncigraph.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ncigraph/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ncigraph/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ncigraph/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ncigraph/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ncigraph
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ncigraph/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ncigraph
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ncigraph/README.html
 

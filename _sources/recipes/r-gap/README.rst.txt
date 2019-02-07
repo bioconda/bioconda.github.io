@@ -1,54 +1,66 @@
-.. _`r-gap`:
+.. title:: Package Recipe 'r-gap'
+.. highlight: bash
+
 
 r-gap
 =====
 
-|downloads|
+.. conda:recipe:: r-gap
+   :replaces_section_title:
 
-It is designed as an integrated package for genetic data analysis of both population and family data. Currently\, it contains functions for sample size calculations of both population\-based and family\-based designs\, probability of familial disease aggregation\, kinship calculation\, statistics in linkage analysis\, and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.
+   It is designed as an integrated package for genetic data analysis of both population and family data. Currently\, it contains functions for sample size calculations of both population\-based and family\-based designs\, probability of familial disease aggregation\, kinship calculation\, statistics in linkage analysis\, and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.
 
-============= ===========
-Home          https://jinghuazhao.github.io
-Versions      1.1_22
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gap/meta.yaml
+   :homepage: https://jinghuazhao.github.io
+   :license: GPL3 / GPL (>= 2)
+   :recipe: /`r-gap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-gap
 
-Installation
-------------
+   |downloads_r-gap| |docker_r-gap|
 
-.. highlight: bash
+   :versions: 1.1_22
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-gap
+   :required~by: |required_by_r-gap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-gap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-gap
+
+   and update with::
+
+      conda update r-gap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-gap
+
+
+.. |required_by_r-gap| conda:required_by:: r-gap
+.. |downloads_r-gap| image:: https://img.shields.io/conda/dn/bioconda/r-gap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-gap| image:: https://quay.io/repository/biocontainers/r-gap/status
+   :target: https://quay.io/repository/biocontainers/r-gap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-gap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-gap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-gap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-gap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-gap
-.. |docker| image:: https://quay.io/repository/biocontainers/r-gap/status
-                :target: https://quay.io/repository/biocontainers/r-gap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-gap/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-data-optlist`:
+.. title:: Package Recipe 'perl-data-optlist'
+.. highlight: bash
+
 
 perl-data-optlist
 =================
 
-|downloads|
+.. conda:recipe:: perl-data-optlist
+   :replaces_section_title:
 
-parse and validate simple name\/value option pairs
+   parse and validate simple name\/value option pairs
 
-============= ===========
-Home          https://github.com/rjbs/Data-OptList
-Versions      0.110
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-optlist/meta.yaml
+   :homepage: https://github.com/rjbs/Data-OptList
+   :license: perl_5
+   :recipe: /`perl-data-optlist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-data-optlist
 
-Installation
-------------
+   |downloads_perl-data-optlist| |docker_perl-data-optlist|
 
-.. highlight: bash
+   :versions: 0.110
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-apache-test`  :conda:package:`perl-params-util`  :conda:package:`perl-scalar-list-utils`  :conda:package:`perl-sub-install`  :conda:package:`perl-threaded`  
 
-   conda install perl-data-optlist
+   :required~by: |required_by_perl-data-optlist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-data-optlist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-data-optlist
+
+   and update with::
+
+      conda update perl-data-optlist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-data-optlist
+
+
+.. |required_by_perl-data-optlist| conda:required_by:: perl-data-optlist
+.. |downloads_perl-data-optlist| image:: https://img.shields.io/conda/dn/bioconda/perl-data-optlist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-data-optlist| image:: https://quay.io/repository/biocontainers/perl-data-optlist/status
+   :target: https://quay.io/repository/biocontainers/perl-data-optlist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-data-optlist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-data-optlist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-data-optlist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-data-optlist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-data-optlist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-data-optlist
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-data-optlist/status
-                :target: https://quay.io/repository/biocontainers/perl-data-optlist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-data-optlist/README.html
 

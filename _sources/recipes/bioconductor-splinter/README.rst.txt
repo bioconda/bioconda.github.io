@@ -1,56 +1,67 @@
-.. _`bioconductor-splinter`:
+.. title:: Package Recipe 'bioconductor-splinter'
+.. highlight: bash
+
 
 bioconductor-splinter
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-splinter
+   :replaces_section_title:
 
-SPLINTER provides tools to analyze alternative splicing sites\, interpret outcomes based on sequence information\, select and design primers for site validiation and give visual representation of the event to guide downstream experiments.
+   SPLINTER provides tools to analyze alternative splicing sites\, interpret outcomes based on sequence information\, select and design primers for site validiation and give visual representation of the event to guide downstream experiments.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SPLINTER.html
-Versions      1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-splinter/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SPLINTER.html
+   :license: GPL-2
+   :recipe: /`bioconductor-splinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinter/meta.yaml>`_
+   :links: biotools: :biotools:`splinter`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`splinter`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-splinter
 
-Installation
-------------
+   |downloads_bioconductor-splinter| |docker_bioconductor-splinter|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome.mmusculus.ucsc.mm9` >=1.4.0,<1.5.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-gviz` >=1.26.0,<1.27.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-seqlogo` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-googlevis`  :conda:package:`r-plyr`  :conda:package:`r-stringr`  
 
-   conda install bioconductor-splinter
+   :required~by: |required_by_bioconductor-splinter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-splinter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-splinter
+
+   and update with::
+
+      conda update bioconductor-splinter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-splinter
+
+
+.. |required_by_bioconductor-splinter| conda:required_by:: bioconductor-splinter
+.. |downloads_bioconductor-splinter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splinter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-splinter| image:: https://quay.io/repository/biocontainers/bioconductor-splinter/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-splinter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-splinter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-splinter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-splinter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-splinter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-splinter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-splinter
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-splinter/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-splinter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-splinter/README.html
 

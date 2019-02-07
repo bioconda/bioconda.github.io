@@ -1,56 +1,67 @@
-.. _`bioconductor-chopsticks`:
+.. title:: Package Recipe 'bioconductor-chopsticks'
+.. highlight: bash
+
 
 bioconductor-chopsticks
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-chopsticks
+   :replaces_section_title:
 
-Implements classes and methods for large\-scale SNP association studies
+   Implements classes and methods for large\-scale SNP association studies
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/chopsticks.html
-Versions      1.48.0, 1.46.0, 1.42.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chopsticks/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chopsticks.html
+   :license: GPL-3
+   :recipe: /`bioconductor-chopsticks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks/meta.yaml>`_
+   :links: biotools: :biotools:`chopsticks`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`chopsticks`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-chopsticks
 
-Installation
-------------
+   |downloads_bioconductor-chopsticks| |docker_bioconductor-chopsticks|
 
-.. highlight: bash
+   :versions: 1.48.0, 1.46.0, 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-survival`  
 
-   conda install bioconductor-chopsticks
+   :required~by: |required_by_bioconductor-chopsticks|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-chopsticks
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-chopsticks
+
+   and update with::
+
+      conda update bioconductor-chopsticks
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-chopsticks
+
+
+.. |required_by_bioconductor-chopsticks| conda:required_by:: bioconductor-chopsticks
+.. |downloads_bioconductor-chopsticks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chopsticks.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-chopsticks| image:: https://quay.io/repository/biocontainers/bioconductor-chopsticks/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-chopsticks
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-chopsticks.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-chopsticks/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-chopsticks/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-chopsticks/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-chopsticks/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-chopsticks
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-chopsticks/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-chopsticks
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-chopsticks/README.html
 

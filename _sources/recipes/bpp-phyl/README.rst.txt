@@ -1,54 +1,66 @@
-.. _`bpp-phyl`:
+.. title:: Package Recipe 'bpp-phyl'
+.. highlight: bash
+
 
 bpp-phyl
 ========
 
-|downloads|
+.. conda:recipe:: bpp-phyl
+   :replaces_section_title:
 
-Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
+   Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
-============= ===========
-Home          https://github.com/BioPP/bpp-phyl
-Versions      2.4.1, 2.2.0
-License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bpp-phyl/meta.yaml
+   :homepage: https://github.com/BioPP/bpp-phyl
+   :license: CeCILL
+   :recipe: /`bpp-phyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-phyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-phyl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bpp-phyl
 
-Installation
-------------
+   |downloads_bpp-phyl| |docker_bpp-phyl|
 
-.. highlight: bash
+   :versions: 2.4.1, 2.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
 
-   conda install bpp-phyl
+   :required~by: |required_by_bpp-phyl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bpp-phyl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bpp-phyl
+
+   and update with::
+
+      conda update bpp-phyl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bpp-phyl
+
+
+.. |required_by_bpp-phyl| conda:required_by:: bpp-phyl
+.. |downloads_bpp-phyl| image:: https://img.shields.io/conda/dn/bioconda/bpp-phyl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bpp-phyl| image:: https://quay.io/repository/biocontainers/bpp-phyl/status
+   :target: https://quay.io/repository/biocontainers/bpp-phyl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bpp-phyl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bpp-phyl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bpp-phyl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bpp-phyl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bpp-phyl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bpp-phyl
-.. |docker| image:: https://quay.io/repository/biocontainers/bpp-phyl/status
-                :target: https://quay.io/repository/biocontainers/bpp-phyl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bpp-phyl/README.html
 

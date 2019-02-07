@@ -1,54 +1,66 @@
-.. _`bioconductor-scrnaseq`:
+.. title:: Package Recipe 'bioconductor-scrnaseq'
+.. highlight: bash
+
 
 bioconductor-scrnaseq
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-scrnaseq
+   :replaces_section_title:
 
-Gene\-level read counts of three public scRNA\-seq datasets. See vignette for details.
+   Gene\-level read counts of three public scRNA\-seq datasets. See vignette for details.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/scRNAseq.html
-Versions      1.8.0, 1.6.0
-License       CC0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scrnaseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/scRNAseq.html
+   :license: CC0
+   :recipe: /`bioconductor-scrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-scrnaseq
 
-Installation
-------------
+   |downloads_bioconductor-scrnaseq| |docker_bioconductor-scrnaseq|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-scrnaseq
+   :required~by: |required_by_bioconductor-scrnaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-scrnaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scrnaseq
+
+   and update with::
+
+      conda update bioconductor-scrnaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-scrnaseq
+
+
+.. |required_by_bioconductor-scrnaseq| conda:required_by:: bioconductor-scrnaseq
+.. |downloads_bioconductor-scrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scrnaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-scrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-scrnaseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scrnaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-scrnaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scrnaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scrnaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-scrnaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-scrnaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-scrnaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scrnaseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-scrnaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scrnaseq/README.html
 

@@ -1,56 +1,67 @@
-.. _`ccat`:
+.. title:: Package Recipe 'ccat'
+.. highlight: bash
+
 
 ccat
 ====
 
-|downloads|
+.. conda:recipe:: ccat/3.0
+   :replaces_section_title:
 
-CCAT is a software package for the analysis of ChIP\-seq data with negative control.
+   CCAT is a software package for the analysis of ChIP\-seq data with negative control.
 
-============= ===========
-Home          http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
-Versions      3.0
-License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ccat/3.0/meta.yaml
+   :homepage: http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
+   :license: None
+   :recipe: /`ccat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat>`_/`3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0/meta.yaml>`_
+   :links: biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`
 
-
-
-Links         biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`
-
-============= ===========
+   
 
 
+.. conda:package:: ccat
 
-Installation
-------------
+   |downloads_ccat| |docker_ccat|
 
-.. highlight: bash
+   :versions: 3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install ccat
+   :required~by: |required_by_ccat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ccat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ccat
+
+   and update with::
+
+      conda update ccat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ccat
+
+
+.. |required_by_ccat| conda:required_by:: ccat
+.. |downloads_ccat| image:: https://img.shields.io/conda/dn/bioconda/ccat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ccat| image:: https://quay.io/repository/biocontainers/ccat/status
+   :target: https://quay.io/repository/biocontainers/ccat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ccat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ccat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ccat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ccat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ccat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ccat
-.. |docker| image:: https://quay.io/repository/biocontainers/ccat/status
-                :target: https://quay.io/repository/biocontainers/ccat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ccat/README.html
 

@@ -1,54 +1,66 @@
-.. _`fqtrim`:
+.. title:: Package Recipe 'fqtrim'
+.. highlight: bash
+
 
 fqtrim
 ======
 
-|downloads|
+.. conda:recipe:: fqtrim
+   :replaces_section_title:
 
-fqtrim is a versatile stand\-alone utility that can be used to trim adapters\, poly\-A tails\, terminal unknown bases \(Ns\) and low quality 3\' regions in reads from high\-throughput next\-generation sequencing machines.
+   fqtrim is a versatile stand\-alone utility that can be used to trim adapters\, poly\-A tails\, terminal unknown bases \(Ns\) and low quality 3\' regions in reads from high\-throughput next\-generation sequencing machines.
 
-============= ===========
-Home          https://ccb.jhu.edu/software/fqtrim/
-Versions      0.9.7
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fqtrim/meta.yaml
+   :homepage: https://ccb.jhu.edu/software/fqtrim/
+   :license: Artistic License 2.0
+   :recipe: /`fqtrim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtrim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtrim/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fqtrim
 
-Installation
-------------
+   |downloads_fqtrim| |docker_fqtrim|
 
-.. highlight: bash
+   :versions: 0.9.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`gclib`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
 
-   conda install fqtrim
+   :required~by: |required_by_fqtrim|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fqtrim
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fqtrim
+
+   and update with::
+
+      conda update fqtrim
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fqtrim
+
+
+.. |required_by_fqtrim| conda:required_by:: fqtrim
+.. |downloads_fqtrim| image:: https://img.shields.io/conda/dn/bioconda/fqtrim.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fqtrim| image:: https://quay.io/repository/biocontainers/fqtrim/status
+   :target: https://quay.io/repository/biocontainers/fqtrim
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fqtrim.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fqtrim/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fqtrim/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fqtrim/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fqtrim/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fqtrim
-.. |docker| image:: https://quay.io/repository/biocontainers/fqtrim/status
-                :target: https://quay.io/repository/biocontainers/fqtrim
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fqtrim/README.html
 

@@ -1,56 +1,67 @@
-.. _`cortex_con`:
+.. title:: Package Recipe 'cortex_con'
+.. highlight: bash
+
 
 cortex_con
 ==========
 
-|downloads|
+.. conda:recipe:: cortex_con
+   :replaces_section_title:
 
-cortex\_con \(primary contact Mario Caccamo\) is for consensus genome assembly
+   cortex\_con \(primary contact Mario Caccamo\) is for consensus genome assembly
 
-============= ===========
-Home          http://cortexassembler.sourceforge.net/index.html
-Versions      0.04c
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cortex_con/meta.yaml
+   :homepage: http://cortexassembler.sourceforge.net/index.html
+   :license: GPL3
+   :recipe: /`cortex_con <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortex_con>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortex_con/meta.yaml>`_
+   :links: biotools: :biotools:`cortex`, doi: :doi:`10.1038/ng.1028`
 
-
-
-Links         biotools: :biotools:`cortex`, doi: :doi:`10.1038/ng.1028`
-
-============= ===========
+   
 
 
+.. conda:package:: cortex_con
 
-Installation
-------------
+   |downloads_cortex_con| |docker_cortex_con|
 
-.. highlight: bash
+   :versions: 0.04c
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install cortex_con
+   :required~by: |required_by_cortex_con|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cortex_con
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cortex_con
+
+   and update with::
+
+      conda update cortex_con
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cortex_con
+
+
+.. |required_by_cortex_con| conda:required_by:: cortex_con
+.. |downloads_cortex_con| image:: https://img.shields.io/conda/dn/bioconda/cortex_con.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cortex_con| image:: https://quay.io/repository/biocontainers/cortex_con/status
+   :target: https://quay.io/repository/biocontainers/cortex_con
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cortex_con.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cortex_con/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cortex_con/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cortex_con/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cortex_con/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cortex_con
-.. |docker| image:: https://quay.io/repository/biocontainers/cortex_con/status
-                :target: https://quay.io/repository/biocontainers/cortex_con
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cortex_con/README.html
 

@@ -1,54 +1,66 @@
-.. _`bgt`:
+.. title:: Package Recipe 'bgt'
+.. highlight: bash
+
 
 bgt
 ===
 
-|downloads|
+.. conda:recipe:: bgt
+   :replaces_section_title:
 
-Flexible genotype query among 30\,000\+ samples whole\-genome.
+   Flexible genotype query among 30\,000\+ samples whole\-genome.
 
-============= ===========
-Home          https://github.com/lh3/bgt
-Versions      r283, r277
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bgt/meta.yaml
+   :homepage: https://github.com/lh3/bgt
+   :license: MIT
+   :recipe: /`bgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bgt
 
-Installation
-------------
+   |downloads_bgt| |docker_bgt|
 
-.. highlight: bash
+   :versions: r283, r277
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install bgt
+   :required~by: |required_by_bgt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bgt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bgt
+
+   and update with::
+
+      conda update bgt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bgt
+
+
+.. |required_by_bgt| conda:required_by:: bgt
+.. |downloads_bgt| image:: https://img.shields.io/conda/dn/bioconda/bgt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bgt| image:: https://quay.io/repository/biocontainers/bgt/status
+   :target: https://quay.io/repository/biocontainers/bgt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bgt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bgt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bgt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bgt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bgt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bgt
-.. |docker| image:: https://quay.io/repository/biocontainers/bgt/status
-                :target: https://quay.io/repository/biocontainers/bgt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bgt/README.html
 

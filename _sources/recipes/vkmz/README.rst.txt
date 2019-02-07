@@ -1,54 +1,66 @@
-.. _`vkmz`:
+.. title:: Package Recipe 'vkmz'
+.. highlight: bash
+
 
 vkmz
 ====
 
-|downloads|
+.. conda:recipe:: vkmz
+   :replaces_section_title:
 
-metabolomics formula prediction and van Krevelen diagram generation
+   metabolomics formula prediction and van Krevelen diagram generation
 
-============= ===========
-Home          https://github.com/HegemanLab/vkmz
-Versions      1.4dev2, v1.4dev1, v1.3.1
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vkmz/meta.yaml
+   :homepage: https://github.com/HegemanLab/vkmz
+   :license: MIT / MIT License
+   :recipe: /`vkmz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vkmz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vkmz/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vkmz
 
-Installation
-------------
+   |downloads_vkmz| |docker_vkmz|
 
-.. highlight: bash
+   :versions: 1.4dev2, v1.4dev1, v1.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` >=3.6 
 
-   conda install vkmz
+   :required~by: |required_by_vkmz|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vkmz
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vkmz
+
+   and update with::
+
+      conda update vkmz
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vkmz
+
+
+.. |required_by_vkmz| conda:required_by:: vkmz
+.. |downloads_vkmz| image:: https://img.shields.io/conda/dn/bioconda/vkmz.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vkmz| image:: https://quay.io/repository/biocontainers/vkmz/status
+   :target: https://quay.io/repository/biocontainers/vkmz
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vkmz.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vkmz/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vkmz/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vkmz/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vkmz/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vkmz
-.. |docker| image:: https://quay.io/repository/biocontainers/vkmz/status
-                :target: https://quay.io/repository/biocontainers/vkmz
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vkmz/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-autoxml`:
+.. title:: Package Recipe 'ucsc-autoxml'
+.. highlight: bash
+
 
 ucsc-autoxml
 ============
 
-|downloads|
+.. conda:recipe:: ucsc-autoxml
+   :replaces_section_title:
 
-Generate structures code and parser for XML file from DTD\-like spec
+   Generate structures code and parser for XML file from DTD\-like spec
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-autoxml/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-autoxml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-autoxml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-autoxml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-autoxml
 
-Installation
-------------
+   |downloads_ucsc-autoxml| |docker_ucsc-autoxml|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-autoxml
+   :required~by: |required_by_ucsc-autoxml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-autoxml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-autoxml
+
+   and update with::
+
+      conda update ucsc-autoxml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-autoxml
+
+
+.. |required_by_ucsc-autoxml| conda:required_by:: ucsc-autoxml
+.. |downloads_ucsc-autoxml| image:: https://img.shields.io/conda/dn/bioconda/ucsc-autoxml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-autoxml| image:: https://quay.io/repository/biocontainers/ucsc-autoxml/status
+   :target: https://quay.io/repository/biocontainers/ucsc-autoxml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-autoxml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-autoxml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-autoxml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-autoxml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-autoxml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-autoxml
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-autoxml/status
-                :target: https://quay.io/repository/biocontainers/ucsc-autoxml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-autoxml/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-xmlcat`:
+.. title:: Package Recipe 'ucsc-xmlcat'
+.. highlight: bash
+
 
 ucsc-xmlcat
 ===========
 
-|downloads|
+.. conda:recipe:: ucsc-xmlcat
+   :replaces_section_title:
 
-Concatenate xml files together\, stuffing all records inside a single outer tag. 
+   Concatenate xml files together\, stuffing all records inside a single outer tag. 
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-xmlcat/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-xmlcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-xmlcat
 
-Installation
-------------
+   |downloads_ucsc-xmlcat| |docker_ucsc-xmlcat|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-xmlcat
+   :required~by: |required_by_ucsc-xmlcat|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-xmlcat
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-xmlcat
+
+   and update with::
+
+      conda update ucsc-xmlcat
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-xmlcat
+
+
+.. |required_by_ucsc-xmlcat| conda:required_by:: ucsc-xmlcat
+.. |downloads_ucsc-xmlcat| image:: https://img.shields.io/conda/dn/bioconda/ucsc-xmlcat.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-xmlcat| image:: https://quay.io/repository/biocontainers/ucsc-xmlcat/status
+   :target: https://quay.io/repository/biocontainers/ucsc-xmlcat
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-xmlcat.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-xmlcat/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-xmlcat/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-xmlcat/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-xmlcat/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-xmlcat
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-xmlcat/status
-                :target: https://quay.io/repository/biocontainers/ucsc-xmlcat
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-xmlcat/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-rtcga.mirnaseq`:
+.. title:: Package Recipe 'bioconductor-rtcga.mirnaseq'
+.. highlight: bash
+
 
 bioconductor-rtcga.mirnaseq
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtcga.mirnaseq
+   :replaces_section_title:
 
-Package provides miRNASeq datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/miRNASeq\#miRNASeq\-DataOverview Data from 2015\-11\-01 snapshot.
+   Package provides miRNASeq datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/miRNASeq\#miRNASeq\-DataOverview Data from 2015\-11\-01 snapshot.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.miRNASeq.html
-Versions      1.10.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.mirnaseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.miRNASeq.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rtcga.mirnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mirnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mirnaseq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtcga.mirnaseq
 
-Installation
-------------
+   |downloads_bioconductor-rtcga.mirnaseq| |docker_bioconductor-rtcga.mirnaseq|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rtcga.mirnaseq
+   :required~by: |required_by_bioconductor-rtcga.mirnaseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtcga.mirnaseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtcga.mirnaseq
+
+   and update with::
+
+      conda update bioconductor-rtcga.mirnaseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq
+
+
+.. |required_by_bioconductor-rtcga.mirnaseq| conda:required_by:: bioconductor-rtcga.mirnaseq
+.. |downloads_bioconductor-rtcga.mirnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mirnaseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtcga.mirnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtcga.mirnaseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtcga.mirnaseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtcga.mirnaseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtcga.mirnaseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtcga.mirnaseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtcga.mirnaseq/README.html
 

@@ -1,54 +1,66 @@
-.. _`dialign-tx`:
+.. title:: Package Recipe 'dialign-tx'
+.. highlight: bash
+
 
 dialign-tx
 ==========
 
-|downloads|
+.. conda:recipe:: dialign-tx
+   :replaces_section_title:
 
-DIALIGN\-TX is a greedy and progressive approaches for segment\-based multiple sequence alignment
+   DIALIGN\-TX is a greedy and progressive approaches for segment\-based multiple sequence alignment
 
-============= ===========
-Home          https://dialign-tx.gobics.de
-Versions      1.0.2
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dialign-tx/meta.yaml
+   :homepage: https://dialign-tx.gobics.de
+   :license: LGPL
+   :recipe: /`dialign-tx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dialign-tx
 
-Installation
-------------
+   |downloads_dialign-tx| |docker_dialign-tx|
 
-.. highlight: bash
+   :versions: 1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install dialign-tx
+   :required~by: |required_by_dialign-tx|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dialign-tx
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dialign-tx
+
+   and update with::
+
+      conda update dialign-tx
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dialign-tx
+
+
+.. |required_by_dialign-tx| conda:required_by:: dialign-tx
+.. |downloads_dialign-tx| image:: https://img.shields.io/conda/dn/bioconda/dialign-tx.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dialign-tx| image:: https://quay.io/repository/biocontainers/dialign-tx/status
+   :target: https://quay.io/repository/biocontainers/dialign-tx
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dialign-tx.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dialign-tx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dialign-tx/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dialign-tx/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dialign-tx/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dialign-tx
-.. |docker| image:: https://quay.io/repository/biocontainers/dialign-tx/status
-                :target: https://quay.io/repository/biocontainers/dialign-tx
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dialign-tx/README.html
 

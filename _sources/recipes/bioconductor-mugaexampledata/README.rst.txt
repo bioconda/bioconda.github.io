@@ -1,54 +1,66 @@
-.. _`bioconductor-mugaexampledata`:
+.. title:: Package Recipe 'bioconductor-mugaexampledata'
+.. highlight: bash
+
 
 bioconductor-mugaexampledata
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-mugaexampledata
+   :replaces_section_title:
 
-This package contains example data for the MUGA array that is used by the R package DOQTL.
+   This package contains example data for the MUGA array that is used by the R package DOQTL.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/MUGAExampleData.html
-Versions      1.2.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mugaexampledata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MUGAExampleData.html
+   :license: GPL-3
+   :recipe: /`bioconductor-mugaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mugaexampledata
 
-Installation
-------------
+   |downloads_bioconductor-mugaexampledata| |docker_bioconductor-mugaexampledata|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-mugaexampledata
+   :required~by: |required_by_bioconductor-mugaexampledata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mugaexampledata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mugaexampledata
+
+   and update with::
+
+      conda update bioconductor-mugaexampledata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mugaexampledata
+
+
+.. |required_by_bioconductor-mugaexampledata| conda:required_by:: bioconductor-mugaexampledata
+.. |downloads_bioconductor-mugaexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mugaexampledata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mugaexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mugaexampledata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mugaexampledata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mugaexampledata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mugaexampledata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mugaexampledata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mugaexampledata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mugaexampledata/README.html
 

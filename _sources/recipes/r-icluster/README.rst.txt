@@ -1,54 +1,66 @@
-.. _`r-icluster`:
+.. title:: Package Recipe 'r-icluster'
+.. highlight: bash
+
 
 r-icluster
 ==========
 
-|downloads|
+.. conda:recipe:: r-icluster
+   :replaces_section_title:
 
-Integrative clustering of multiple genomic data types using a joint latent variable model.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=iCluster
-Versions      2.1.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-icluster/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-icluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-icluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-icluster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-icluster
 
-Installation
-------------
+   |downloads_r-icluster| |docker_r-icluster|
 
-.. highlight: bash
+   :versions: 2.1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-gdata`  :conda:package:`r-gplots`  :conda:package:`r-gtools`  :conda:package:`r-lattice`  
 
-   conda install r-icluster
+   :required~by: |required_by_r-icluster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-icluster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-icluster
+
+   and update with::
+
+      conda update r-icluster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-icluster
+
+
+.. |required_by_r-icluster| conda:required_by:: r-icluster
+.. |downloads_r-icluster| image:: https://img.shields.io/conda/dn/bioconda/r-icluster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-icluster| image:: https://quay.io/repository/biocontainers/r-icluster/status
+   :target: https://quay.io/repository/biocontainers/r-icluster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-icluster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-icluster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-icluster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-icluster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-icluster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-icluster
-.. |docker| image:: https://quay.io/repository/biocontainers/r-icluster/status
-                :target: https://quay.io/repository/biocontainers/r-icluster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-icluster/README.html
 

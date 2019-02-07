@@ -1,54 +1,66 @@
-.. _`perl-text-parsewords`:
+.. title:: Package Recipe 'perl-text-parsewords'
+.. highlight: bash
+
 
 perl-text-parsewords
 ====================
 
-|downloads|
+.. conda:recipe:: perl-text-parsewords
+   :replaces_section_title:
 
-parse text into an array of tokens or array of arrays
+   parse text into an array of tokens or array of arrays
 
-============= ===========
-Home          http://metacpan.org/pod/Text::ParseWords
-Versions      3.30, 3.29
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-parsewords/meta.yaml
+   :homepage: http://metacpan.org/pod/Text::ParseWords
+   :license: perl_5
+   :recipe: /`perl-text-parsewords <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-parsewords>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-parsewords/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-text-parsewords
 
-Installation
-------------
+   |downloads_perl-text-parsewords| |docker_perl-text-parsewords|
 
-.. highlight: bash
+   :versions: 3.30, 3.29
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-scalar-list-utils`  
 
-   conda install perl-text-parsewords
+   :required~by: |required_by_perl-text-parsewords|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-text-parsewords
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-text-parsewords
+
+   and update with::
+
+      conda update perl-text-parsewords
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-text-parsewords
+
+
+.. |required_by_perl-text-parsewords| conda:required_by:: perl-text-parsewords
+.. |downloads_perl-text-parsewords| image:: https://img.shields.io/conda/dn/bioconda/perl-text-parsewords.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-text-parsewords| image:: https://quay.io/repository/biocontainers/perl-text-parsewords/status
+   :target: https://quay.io/repository/biocontainers/perl-text-parsewords
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-text-parsewords.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-text-parsewords/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-text-parsewords/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-text-parsewords/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-text-parsewords/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-text-parsewords
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-text-parsewords/status
-                :target: https://quay.io/repository/biocontainers/perl-text-parsewords
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-text-parsewords/README.html
 

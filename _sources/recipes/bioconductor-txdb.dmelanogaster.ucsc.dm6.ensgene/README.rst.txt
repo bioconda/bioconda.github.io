@@ -1,54 +1,66 @@
-.. _`bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene`:
+.. title:: Package Recipe 'bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene'
+.. highlight: bash
+
 
 bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
 ================================================
 
-|downloads|
+.. conda:recipe:: bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+   :replaces_section_title:
 
-Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Dmelanogaster.UCSC.dm6.ensGene.html
-Versions      3.4.4, 3.4.1, 3.3.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Dmelanogaster.UCSC.dm6.ensGene.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
 
-Installation
-------------
+   |downloads_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene| |docker_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene|
 
-.. highlight: bash
+   :versions: 3.4.4, 3.4.1, 3.3.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-genomicfeatures` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+   :required~by: |required_by_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+
+   and update with::
+
+      conda update bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+
+
+.. |required_by_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene| conda:required_by:: bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+.. |downloads_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/README.html
 

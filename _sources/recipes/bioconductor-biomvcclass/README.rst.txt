@@ -1,56 +1,67 @@
-.. _`bioconductor-biomvcclass`:
+.. title:: Package Recipe 'bioconductor-biomvcclass'
+.. highlight: bash
+
 
 bioconductor-biomvcclass
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-biomvcclass
+   :replaces_section_title:
 
-Creates classes used in model\-view\-controller \(MVC\) design
+   Creates classes used in model\-view\-controller \(MVC\) design
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/BioMVCClass.html
-Versions      1.50.0, 1.48.0, 1.46.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biomvcclass/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BioMVCClass.html
+   :license: LGPL
+   :recipe: /`bioconductor-biomvcclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass/meta.yaml>`_
+   :links: biotools: :biotools:`biomvcclass`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`biomvcclass`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biomvcclass
 
-Installation
-------------
+   |downloads_bioconductor-biomvcclass| |docker_bioconductor-biomvcclass|
 
-.. highlight: bash
+   :versions: 1.50.0, 1.48.0, 1.46.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-mvcclass` >=1.56.0,<1.57.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-biomvcclass
+   :required~by: |required_by_bioconductor-biomvcclass|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biomvcclass
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biomvcclass
+
+   and update with::
+
+      conda update bioconductor-biomvcclass
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biomvcclass
+
+
+.. |required_by_bioconductor-biomvcclass| conda:required_by:: bioconductor-biomvcclass
+.. |downloads_bioconductor-biomvcclass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomvcclass.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biomvcclass| image:: https://quay.io/repository/biocontainers/bioconductor-biomvcclass/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biomvcclass
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biomvcclass.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biomvcclass/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biomvcclass/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biomvcclass/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biomvcclass/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biomvcclass
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biomvcclass/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biomvcclass
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biomvcclass/README.html
 

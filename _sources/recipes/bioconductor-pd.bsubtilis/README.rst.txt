@@ -1,54 +1,66 @@
-.. _`bioconductor-pd.bsubtilis`:
+.. title:: Package Recipe 'bioconductor-pd.bsubtilis'
+.. highlight: bash
+
 
 bioconductor-pd.bsubtilis
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-pd.bsubtilis
+   :replaces_section_title:
 
-Platform Design Info for The Manufacturer\'s Name Bsubtilis
+   Platform Design Info for The Manufacturer\'s Name Bsubtilis
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.bsubtilis.html
-Versions      3.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.bsubtilis/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.bsubtilis.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-pd.bsubtilis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bsubtilis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bsubtilis/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pd.bsubtilis
 
-Installation
-------------
+   |downloads_bioconductor-pd.bsubtilis| |docker_bioconductor-pd.bsubtilis|
 
-.. highlight: bash
+   :versions: 3.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-oligo` >=1.46.0,<1.47.0 :conda:package:`bioconductor-oligoclasses` >=1.44.0,<1.45.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dbi` >=0.3.1 :conda:package:`r-rsqlite` >=1.0.0 :conda:package:`wget`  
 
-   conda install bioconductor-pd.bsubtilis
+   :required~by: |required_by_bioconductor-pd.bsubtilis|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pd.bsubtilis
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pd.bsubtilis
+
+   and update with::
+
+      conda update bioconductor-pd.bsubtilis
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pd.bsubtilis
+
+
+.. |required_by_bioconductor-pd.bsubtilis| conda:required_by:: bioconductor-pd.bsubtilis
+.. |downloads_bioconductor-pd.bsubtilis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.bsubtilis.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pd.bsubtilis| image:: https://quay.io/repository/biocontainers/bioconductor-pd.bsubtilis/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pd.bsubtilis
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pd.bsubtilis.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pd.bsubtilis/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pd.bsubtilis/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pd.bsubtilis/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pd.bsubtilis/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pd.bsubtilis
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pd.bsubtilis/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pd.bsubtilis
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pd.bsubtilis/README.html
 

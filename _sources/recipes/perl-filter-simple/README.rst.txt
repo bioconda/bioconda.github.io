@@ -1,54 +1,66 @@
-.. _`perl-filter-simple`:
+.. title:: Package Recipe 'perl-filter-simple'
+.. highlight: bash
+
 
 perl-filter-simple
 ==================
 
-|downloads|
+.. conda:recipe:: perl-filter-simple/0.91
+   :replaces_section_title:
 
-Simplified source filtering
+   Simplified source filtering
 
-============= ===========
-Home          http://metacpan.org/pod/Filter::Simple
-Versions      0.91
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-filter-simple/0.91/meta.yaml
+   :homepage: http://metacpan.org/pod/Filter::Simple
+   :license: perl_5
+   :recipe: /`perl-filter-simple <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filter-simple>`_/`0.91 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filter-simple/0.91>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filter-simple/0.91/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-filter-simple
 
-Installation
-------------
+   |downloads_perl-filter-simple| |docker_perl-filter-simple|
 
-.. highlight: bash
+   :versions: 0.91
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-filter-simple
+   :required~by: |required_by_perl-filter-simple|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-filter-simple
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-filter-simple
+
+   and update with::
+
+      conda update perl-filter-simple
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-filter-simple
+
+
+.. |required_by_perl-filter-simple| conda:required_by:: perl-filter-simple
+.. |downloads_perl-filter-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-filter-simple.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-filter-simple| image:: https://quay.io/repository/biocontainers/perl-filter-simple/status
+   :target: https://quay.io/repository/biocontainers/perl-filter-simple
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-filter-simple.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-filter-simple/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-filter-simple/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-filter-simple/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-filter-simple/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-filter-simple
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-filter-simple/status
-                :target: https://quay.io/repository/biocontainers/perl-filter-simple
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-filter-simple/README.html
 

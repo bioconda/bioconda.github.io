@@ -1,54 +1,66 @@
-.. _`ucsc-bedtobigbed`:
+.. title:: Package Recipe 'ucsc-bedtobigbed'
+.. highlight: bash
+
 
 ucsc-bedtobigbed
 ================
 
-|downloads|
+.. conda:recipe:: ucsc-bedtobigbed
+   :replaces_section_title:
 
-Convert bed file to bigBed. \(BigBed version\: 4\)
+   Convert bed file to bigBed. \(BigBed version\: 4\)
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324, 323
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bedtobigbed/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-bedtobigbed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtobigbed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtobigbed/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-bedtobigbed
 
-Installation
-------------
+   |downloads_ucsc-bedtobigbed| |docker_ucsc-bedtobigbed|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324, 323
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-bedtobigbed
+   :required~by: |required_by_ucsc-bedtobigbed|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-bedtobigbed
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-bedtobigbed
+
+   and update with::
+
+      conda update ucsc-bedtobigbed
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-bedtobigbed
+
+
+.. |required_by_ucsc-bedtobigbed| conda:required_by:: ucsc-bedtobigbed
+.. |downloads_ucsc-bedtobigbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedtobigbed.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-bedtobigbed| image:: https://quay.io/repository/biocontainers/ucsc-bedtobigbed/status
+   :target: https://quay.io/repository/biocontainers/ucsc-bedtobigbed
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-bedtobigbed.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-bedtobigbed/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-bedtobigbed/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-bedtobigbed/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-bedtobigbed/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-bedtobigbed
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedtobigbed/status
-                :target: https://quay.io/repository/biocontainers/ucsc-bedtobigbed
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-bedtobigbed/README.html
 

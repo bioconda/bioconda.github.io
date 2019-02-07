@@ -1,54 +1,66 @@
-.. _`r-biomark`:
+.. title:: Package Recipe 'r-biomark'
+.. highlight: bash
+
 
 r-biomark
 =========
 
-|downloads|
+.. conda:recipe:: r-biomark
+   :replaces_section_title:
 
-Variable selection methods are provided for several classification methods\: the lasso\/elastic net\, PCLDA\, PLSDA\, and several t\-tests. Two approaches for selecting cutoffs can be used\, one based on the stability of model coefficients under perturbation\, and the other on higher criticism.
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=BioMark
-Versions      0.4.5
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-biomark/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-biomark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biomark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biomark/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-biomark
 
-Installation
-------------
+   |downloads_r-biomark| |docker_r-biomark|
 
-.. highlight: bash
+   :versions: 0.4.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-mass`  :conda:package:`r-pls`  :conda:package:`r-st` >=1.1.6 
 
-   conda install r-biomark
+   :required~by: |required_by_r-biomark|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-biomark
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-biomark
+
+   and update with::
+
+      conda update r-biomark
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-biomark
+
+
+.. |required_by_r-biomark| conda:required_by:: r-biomark
+.. |downloads_r-biomark| image:: https://img.shields.io/conda/dn/bioconda/r-biomark.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-biomark| image:: https://quay.io/repository/biocontainers/r-biomark/status
+   :target: https://quay.io/repository/biocontainers/r-biomark
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-biomark.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-biomark/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-biomark/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-biomark/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-biomark/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-biomark
-.. |docker| image:: https://quay.io/repository/biocontainers/r-biomark/status
-                :target: https://quay.io/repository/biocontainers/r-biomark
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-biomark/README.html
 

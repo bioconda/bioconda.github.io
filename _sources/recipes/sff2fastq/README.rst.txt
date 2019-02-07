@@ -1,59 +1,70 @@
-.. _`sff2fastq`:
+.. title:: Package Recipe 'sff2fastq'
+.. highlight: bash
+
 
 sff2fastq
 =========
 
-|downloads|
+.. conda:recipe:: sff2fastq
+   :replaces_section_title:
 
-Extract 454 Genome Sequencer reads from a SFF file and convert them into a FASTQ formatted output
+   Extract 454 Genome Sequencer reads from a SFF file and convert them into a FASTQ formatted output
 
-============= ===========
-Home          https://github.com/indraniel/sff2fastq
-Versions      0.9.2
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sff2fastq/meta.yaml
+   :homepage: https://github.com/indraniel/sff2fastq
+   :license: GPL / GPL-3
+   :recipe: /`sff2fastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sff2fastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sff2fastq/meta.yaml>`_
+   :links: biotools: :biotools:`sff2fastq`
 
-
-
-Links         biotools: :biotools:`sff2fastq`
-
-============= ===========
-
-The program sff2fastq extracts read information from a SFF file\, produced by
-the 454 genome sequencer\, and outputs the sequences and quality scores in a
-FASTQ format.
-
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install sff2fastq
-
-and update with::
-
-   conda update sff2fastq
+   The program sff2fastq extracts read information from a SFF file\, produced by
+   the 454 genome sequencer\, and outputs the sequences and quality scores in a
+   FASTQ format.
 
 
 
-|docker|
+.. conda:package:: sff2fastq
 
-A Docker container is available at https://quay.io/repository/biocontainers/sff2fastq.
+   |downloads_sff2fastq| |docker_sff2fastq|
+
+   :versions: 0.9.2
+
+   :depends: :conda:package:`libgcc`  
+
+   :required~by: |required_by_sff2fastq|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install sff2fastq
+
+   and update with::
+
+      conda update sff2fastq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/sff2fastq
+
+
+.. |required_by_sff2fastq| conda:required_by:: sff2fastq
+.. |downloads_sff2fastq| image:: https://img.shields.io/conda/dn/bioconda/sff2fastq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_sff2fastq| image:: https://quay.io/repository/biocontainers/sff2fastq/status
+   :target: https://quay.io/repository/biocontainers/sff2fastq
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sff2fastq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sff2fastq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/sff2fastq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/sff2fastq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/sff2fastq
-.. |docker| image:: https://quay.io/repository/biocontainers/sff2fastq/status
-                :target: https://quay.io/repository/biocontainers/sff2fastq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/sff2fastq/README.html
 

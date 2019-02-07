@@ -1,54 +1,66 @@
-.. _`perl-moosex-getopt`:
+.. title:: Package Recipe 'perl-moosex-getopt'
+.. highlight: bash
+
 
 perl-moosex-getopt
 ==================
 
-|downloads|
+.. conda:recipe:: perl-moosex-getopt
+   :replaces_section_title:
 
-A Moose role for processing command line options
+   A Moose role for processing command line options
 
-============= ===========
-Home          https://github.com/moose/MooseX-Getopt
-Versions      0.74, 0.72, 0.71
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-getopt/meta.yaml
+   :homepage: https://github.com/moose/MooseX-Getopt
+   :license: perl_5
+   :recipe: /`perl-moosex-getopt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-moosex-getopt
 
-Installation
-------------
+   |downloads_perl-moosex-getopt| |docker_perl-moosex-getopt|
 
-.. highlight: bash
+   :versions: 0.74, 0.72, 0.71
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-getopt-long`  :conda:package:`perl-getopt-long-descriptive`  :conda:package:`perl-moose`  :conda:package:`perl-moosex-role-parameterized`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-try-tiny`  
 
-   conda install perl-moosex-getopt
+   :required~by: |required_by_perl-moosex-getopt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-moosex-getopt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-moosex-getopt
+
+   and update with::
+
+      conda update perl-moosex-getopt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-moosex-getopt
+
+
+.. |required_by_perl-moosex-getopt| conda:required_by:: perl-moosex-getopt
+.. |downloads_perl-moosex-getopt| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-getopt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-moosex-getopt| image:: https://quay.io/repository/biocontainers/perl-moosex-getopt/status
+   :target: https://quay.io/repository/biocontainers/perl-moosex-getopt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-moosex-getopt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-moosex-getopt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-moosex-getopt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-moosex-getopt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-moosex-getopt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-moosex-getopt
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-getopt/status
-                :target: https://quay.io/repository/biocontainers/perl-moosex-getopt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-moosex-getopt/README.html
 

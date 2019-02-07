@@ -1,54 +1,66 @@
-.. _`feelnc`:
+.. title:: Package Recipe 'feelnc'
+.. highlight: bash
+
 
 feelnc
 ======
 
-|downloads|
+.. conda:recipe:: feelnc
+   :replaces_section_title:
 
-FlExible Extraction of LncRNA
+   FlExible Extraction of LncRNA
 
-============= ===========
-Home          https://github.com/tderrien/FEELnc
-Versions      0.1.1
-License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//feelnc/meta.yaml
+   :homepage: https://github.com/tderrien/FEELnc
+   :license: GNU General Public License v3.0
+   :recipe: /`feelnc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feelnc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feelnc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: feelnc
 
-Installation
-------------
+   |downloads_feelnc| |docker_feelnc|
 
-.. highlight: bash
+   :versions: 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`fasta_ushuffle`  :conda:package:`kmerinshort`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-featureio`  :conda:package:`perl-bioperl`  :conda:package:`perl-db-file`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`r-base`  :conda:package:`r-randomforest`  :conda:package:`r-rocr`  
 
-   conda install feelnc
+   :required~by: |required_by_feelnc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update feelnc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install feelnc
+
+   and update with::
+
+      conda update feelnc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/feelnc
+
+
+.. |required_by_feelnc| conda:required_by:: feelnc
+.. |downloads_feelnc| image:: https://img.shields.io/conda/dn/bioconda/feelnc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_feelnc| image:: https://quay.io/repository/biocontainers/feelnc/status
+   :target: https://quay.io/repository/biocontainers/feelnc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/feelnc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/feelnc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/feelnc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/feelnc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/feelnc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/feelnc
-.. |docker| image:: https://quay.io/repository/biocontainers/feelnc/status
-                :target: https://quay.io/repository/biocontainers/feelnc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/feelnc/README.html
 

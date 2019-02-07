@@ -1,54 +1,66 @@
-.. _`hichipper`:
+.. title:: Package Recipe 'hichipper'
+.. highlight: bash
+
 
 hichipper
 =========
 
-|downloads|
+.. conda:recipe:: hichipper
+   :replaces_section_title:
 
-Processing HiChIP data into loops.
+   Processing HiChIP data into loops.
 
-============= ===========
-Home          https://github.com/aryeelab/hichipper
-Versions      0.7.0
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hichipper/meta.yaml
+   :homepage: https://github.com/aryeelab/hichipper
+   :license: BSD / BSD License
+   :recipe: /`hichipper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hichipper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hichipper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: hichipper
 
-Installation
-------------
+   |downloads_hichipper| |docker_hichipper|
 
-.. highlight: bash
+   :versions: 0.7.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`click`  :conda:package:`macs2`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
 
-   conda install hichipper
+   :required~by: |required_by_hichipper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update hichipper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hichipper
+
+   and update with::
+
+      conda update hichipper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/hichipper
+
+
+.. |required_by_hichipper| conda:required_by:: hichipper
+.. |downloads_hichipper| image:: https://img.shields.io/conda/dn/bioconda/hichipper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_hichipper| image:: https://quay.io/repository/biocontainers/hichipper/status
+   :target: https://quay.io/repository/biocontainers/hichipper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/hichipper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/hichipper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hichipper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/hichipper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/hichipper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/hichipper
-.. |docker| image:: https://quay.io/repository/biocontainers/hichipper/status
-                :target: https://quay.io/repository/biocontainers/hichipper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hichipper/README.html
 

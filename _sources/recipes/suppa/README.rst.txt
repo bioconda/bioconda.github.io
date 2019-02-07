@@ -1,54 +1,66 @@
-.. _`suppa`:
+.. title:: Package Recipe 'suppa'
+.. highlight: bash
+
 
 suppa
 =====
 
-|downloads|
+.. conda:recipe:: suppa
+   :replaces_section_title:
 
-A tool to study splicing across multiple conditions at high speed and accuracy.
+   A tool to study splicing across multiple conditions at high speed and accuracy.
 
-============= ===========
-Home          https://github.com/comprna/SUPPA
-Versions      2.3
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//suppa/meta.yaml
+   :homepage: https://github.com/comprna/SUPPA
+   :license: MIT / MIT License
+   :recipe: /`suppa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suppa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suppa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: suppa
 
-Installation
-------------
+   |downloads_suppa| |docker_suppa|
 
-.. highlight: bash
+   :versions: 2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy` >=1.11.0 :conda:package:`pandas` >=0.18.0 :conda:package:`python` 3.5* :conda:package:`scikit-learn` >=0.16.1 :conda:package:`scipy` >=0.15.1 :conda:package:`statsmodels` >=0.6.1 
 
-   conda install suppa
+   :required~by: |required_by_suppa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update suppa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install suppa
+
+   and update with::
+
+      conda update suppa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/suppa
+
+
+.. |required_by_suppa| conda:required_by:: suppa
+.. |downloads_suppa| image:: https://img.shields.io/conda/dn/bioconda/suppa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_suppa| image:: https://quay.io/repository/biocontainers/suppa/status
+   :target: https://quay.io/repository/biocontainers/suppa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/suppa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/suppa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/suppa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/suppa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/suppa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/suppa
-.. |docker| image:: https://quay.io/repository/biocontainers/suppa/status
-                :target: https://quay.io/repository/biocontainers/suppa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/suppa/README.html
 

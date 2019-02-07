@@ -1,54 +1,66 @@
-.. _`mirge`:
+.. title:: Package Recipe 'mirge'
+.. highlight: bash
+
 
 mirge
 =====
 
-|downloads|
+.. conda:recipe:: mirge
+   :replaces_section_title:
 
-comprehensive analysis of miRNA sequencing data
+   comprehensive analysis of miRNA sequencing data
 
-============= ===========
-Home          https://github.com/mhalushka/miRge
-Versions      2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mirge/meta.yaml
+   :homepage: https://github.com/mhalushka/miRge
+   :license: MIT License
+   :recipe: /`mirge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirge/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mirge
 
-Installation
-------------
+   |downloads_mirge| |docker_mirge|
 
-.. highlight: bash
+   :versions: 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython` >=1.68 :conda:package:`cutadapt` >=1.11 :conda:package:`matplotlib` >=2.1.1 :conda:package:`numpy` >=1.11.3 :conda:package:`pandas` >=0.21.1 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`reportlab` >=3.3.0 :conda:package:`scikit-learn` >=0.18.1 :conda:package:`scipy` >=0.17.0 :conda:package:`setuptools`  
 
-   conda install mirge
+   :required~by: |required_by_mirge|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mirge
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mirge
+
+   and update with::
+
+      conda update mirge
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mirge
+
+
+.. |required_by_mirge| conda:required_by:: mirge
+.. |downloads_mirge| image:: https://img.shields.io/conda/dn/bioconda/mirge.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mirge| image:: https://quay.io/repository/biocontainers/mirge/status
+   :target: https://quay.io/repository/biocontainers/mirge
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mirge.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mirge/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mirge/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mirge/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mirge/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mirge
-.. |docker| image:: https://quay.io/repository/biocontainers/mirge/status
-                :target: https://quay.io/repository/biocontainers/mirge
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mirge/README.html
 

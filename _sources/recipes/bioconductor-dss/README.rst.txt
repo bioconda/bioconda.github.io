@@ -1,56 +1,67 @@
-.. _`bioconductor-dss`:
+.. title:: Package Recipe 'bioconductor-dss'
+.. highlight: bash
+
 
 bioconductor-dss
 ================
 
-|downloads|
+.. conda:recipe:: bioconductor-dss
+   :replaces_section_title:
 
-DSS is an R library performing differntial analysis for count\-based sequencing data. It detectes differentially expressed genes \(DEGs\) from RNA\-seq\, and differentially methylated loci or regions \(DML\/DMRs\) from bisulfite sequencing \(BS\-seq\). The core of DSS is a new dispersion shrinkage method for estimating the dispersion parameter from Gamma\-Poisson or Beta\-Binomial distributions.
+   DSS is an R library performing differntial analysis for count\-based sequencing data. It detectes differentially expressed genes \(DEGs\) from RNA\-seq\, and differentially methylated loci or regions \(DML\/DMRs\) from bisulfite sequencing \(BS\-seq\). The core of DSS is a new dispersion shrinkage method for estimating the dispersion parameter from Gamma\-Poisson or Beta\-Binomial distributions.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/DSS.html
-Versions      2.30.0, 2.28.0, 2.26.0
-License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dss/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DSS.html
+   :license: GPL
+   :recipe: /`bioconductor-dss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss/meta.yaml>`_
+   :links: biotools: :biotools:`dss`
 
-
-
-Links         biotools: :biotools:`dss`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dss
 
-Installation
-------------
+   |downloads_bioconductor-dss| |docker_bioconductor-dss|
 
-.. highlight: bash
+   :versions: 2.30.0, 2.28.0, 2.26.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-bsseq` >=1.18.0,<1.19.0 :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-dss
+   :required~by: |required_by_bioconductor-dss|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dss
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dss
+
+   and update with::
+
+      conda update bioconductor-dss
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dss
+
+
+.. |required_by_bioconductor-dss| conda:required_by:: bioconductor-dss
+.. |downloads_bioconductor-dss| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dss.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dss| image:: https://quay.io/repository/biocontainers/bioconductor-dss/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dss
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dss.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dss/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dss/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dss/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dss/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dss
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dss/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dss
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dss/README.html
 

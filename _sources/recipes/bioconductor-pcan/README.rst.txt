@@ -1,56 +1,67 @@
-.. _`bioconductor-pcan`:
+.. title:: Package Recipe 'bioconductor-pcan'
+.. highlight: bash
+
 
 bioconductor-pcan
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-pcan
+   :replaces_section_title:
 
-Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e.g. Pathways or network neighbors\).
+   Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e.g. Pathways or network neighbors\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/PCAN.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       CC BY-NC-ND 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcan/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PCAN.html
+   :license: CC BY-NC-ND 4.0
+   :recipe: /`bioconductor-pcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan/meta.yaml>`_
+   :links: biotools: :biotools:`pcan`
 
-
-
-Links         biotools: :biotools:`pcan`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-pcan
 
-Installation
-------------
+   |downloads_bioconductor-pcan| |docker_bioconductor-pcan|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-pcan
+   :required~by: |required_by_bioconductor-pcan|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-pcan
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-pcan
+
+   and update with::
+
+      conda update bioconductor-pcan
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-pcan
+
+
+.. |required_by_bioconductor-pcan| conda:required_by:: bioconductor-pcan
+.. |downloads_bioconductor-pcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcan.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-pcan| image:: https://quay.io/repository/biocontainers/bioconductor-pcan/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-pcan
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-pcan.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pcan/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-pcan/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-pcan/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-pcan/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-pcan
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pcan/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-pcan
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-pcan/README.html
 

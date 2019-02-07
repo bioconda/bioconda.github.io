@@ -1,54 +1,66 @@
-.. _`bioconductor-openprimerui`:
+.. title:: Package Recipe 'bioconductor-openprimerui'
+.. highlight: bash
+
 
 bioconductor-openprimerui
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-openprimerui
+   :replaces_section_title:
 
-A Shiny application providing methods for designing\, evaluating\, and comparing primer sets for multiplex polymerase chain reaction. Primers are designed by solving a set cover problem such that the number of covered template sequences is maximized with the smallest possible set of primers. To guarantee that high\-quality primers are generated\, only primers fulfilling constraints on their physicochemical properties are selected.
+   A Shiny application providing methods for designing\, evaluating\, and comparing primer sets for multiplex polymerase chain reaction. Primers are designed by solving a set cover problem such that the number of covered template sequences is maximized with the smallest possible set of primers. To guarantee that high\-quality primers are generated\, only primers fulfilling constraints on their physicochemical properties are selected.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/openPrimeRui.html
-Versions      1.4.1
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-openprimerui/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/openPrimeRui.html
+   :license: GPL-2
+   :recipe: /`bioconductor-openprimerui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-openprimerui
 
-Installation
-------------
+   |downloads_bioconductor-openprimerui| |docker_bioconductor-openprimerui|
 
-.. highlight: bash
+   :versions: 1.4.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-openprimer` >=1.4.0,<1.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dt` >=0.2 :conda:package:`r-rmarkdown` >=1.0 :conda:package:`r-shiny` >=1.0.2 :conda:package:`r-shinybs` >=0.61 :conda:package:`r-shinyjs` >=0.9 
 
-   conda install bioconductor-openprimerui
+   :required~by: |required_by_bioconductor-openprimerui|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-openprimerui
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-openprimerui
+
+   and update with::
+
+      conda update bioconductor-openprimerui
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-openprimerui
+
+
+.. |required_by_bioconductor-openprimerui| conda:required_by:: bioconductor-openprimerui
+.. |downloads_bioconductor-openprimerui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-openprimerui.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-openprimerui| image:: https://quay.io/repository/biocontainers/bioconductor-openprimerui/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-openprimerui
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-openprimerui.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-openprimerui/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-openprimerui/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-openprimerui/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-openprimerui/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-openprimerui
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-openprimerui/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-openprimerui
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-openprimerui/README.html
 

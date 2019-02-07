@@ -1,54 +1,66 @@
-.. _`bioconductor-topdownrdata`:
+.. title:: Package Recipe 'bioconductor-topdownrdata'
+.. highlight: bash
+
 
 bioconductor-topdownrdata
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-topdownrdata
+   :replaces_section_title:
 
-Example data for the topdownr package generated on a Thermo Orbitrap Fusion Lumos MS device.
+   Example data for the topdownr package generated on a Thermo Orbitrap Fusion Lumos MS device.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/topdownrdata.html
-Versions      1.4.0
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-topdownrdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/topdownrdata.html
+   :license: GPL (>= 3)
+   :recipe: /`bioconductor-topdownrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topdownrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topdownrdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-topdownrdata
 
-Installation
-------------
+   |downloads_bioconductor-topdownrdata| |docker_bioconductor-topdownrdata|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-topdownr` >=1.4.0,<1.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-topdownrdata
+   :required~by: |required_by_bioconductor-topdownrdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-topdownrdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-topdownrdata
+
+   and update with::
+
+      conda update bioconductor-topdownrdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-topdownrdata
+
+
+.. |required_by_bioconductor-topdownrdata| conda:required_by:: bioconductor-topdownrdata
+.. |downloads_bioconductor-topdownrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-topdownrdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-topdownrdata| image:: https://quay.io/repository/biocontainers/bioconductor-topdownrdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-topdownrdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-topdownrdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-topdownrdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-topdownrdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-topdownrdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-topdownrdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-topdownrdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-topdownrdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-topdownrdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-topdownrdata/README.html
 

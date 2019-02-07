@@ -1,56 +1,67 @@
-.. _`bioconductor-interactionset`:
+.. title:: Package Recipe 'bioconductor-interactionset'
+.. highlight: bash
+
 
 bioconductor-interactionset
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-interactionset
+   :replaces_section_title:
 
-Provides the GInteractions\, InteractionSet and ContactMatrix objects and associated methods for storing and manipulating genomic interaction data from Hi\-C and ChIA\-PET experiments.
+   Provides the GInteractions\, InteractionSet and ContactMatrix objects and associated methods for storing and manipulating genomic interaction data from Hi\-C and ChIA\-PET experiments.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/InteractionSet.html
-Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-interactionset/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/InteractionSet.html
+   :license: GPL-3
+   :recipe: /`bioconductor-interactionset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset/meta.yaml>`_
+   :links: biotools: :biotools:`interactionset`
 
-
-
-Links         biotools: :biotools:`interactionset`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-interactionset
 
-Installation
-------------
+   |downloads_bioconductor-interactionset| |docker_bioconductor-interactionset|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-matrix`  :conda:package:`r-rcpp`  
 
-   conda install bioconductor-interactionset
+   :required~by: |required_by_bioconductor-interactionset|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-interactionset
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-interactionset
+
+   and update with::
+
+      conda update bioconductor-interactionset
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-interactionset
+
+
+.. |required_by_bioconductor-interactionset| conda:required_by:: bioconductor-interactionset
+.. |downloads_bioconductor-interactionset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-interactionset.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-interactionset| image:: https://quay.io/repository/biocontainers/bioconductor-interactionset/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-interactionset
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-interactionset.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-interactionset/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-interactionset/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-interactionset/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-interactionset/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-interactionset
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-interactionset/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-interactionset
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-interactionset/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-switchde`:
+.. title:: Package Recipe 'bioconductor-switchde'
+.. highlight: bash
+
 
 bioconductor-switchde
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-switchde
+   :replaces_section_title:
 
-Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories.
+   Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/switchde.html
-Versions      1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-switchde/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/switchde.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-switchde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde/meta.yaml>`_
+   :links: biotools: :biotools:`switchde`, doi: :doi:`10.1093/bioinformatics/btw798`
 
-
-
-Links         biotools: :biotools:`switchde`, doi: :doi:`10.1093/bioinformatics/btw798`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-switchde
 
-Installation
-------------
+   |downloads_bioconductor-switchde| |docker_bioconductor-switchde|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  
 
-   conda install bioconductor-switchde
+   :required~by: |required_by_bioconductor-switchde|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-switchde
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-switchde
+
+   and update with::
+
+      conda update bioconductor-switchde
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-switchde
+
+
+.. |required_by_bioconductor-switchde| conda:required_by:: bioconductor-switchde
+.. |downloads_bioconductor-switchde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-switchde.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-switchde| image:: https://quay.io/repository/biocontainers/bioconductor-switchde/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-switchde
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-switchde.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-switchde/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-switchde/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-switchde/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-switchde/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-switchde
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-switchde/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-switchde
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-switchde/README.html
 

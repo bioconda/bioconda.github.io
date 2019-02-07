@@ -1,54 +1,66 @@
-.. _`bioconductor-snplocs.hsapiens.dbsnp141.grch38`:
+.. title:: Package Recipe 'bioconductor-snplocs.hsapiens.dbsnp141.grch38'
+.. highlight: bash
+
 
 bioconductor-snplocs.hsapiens.dbsnp141.grch38
 =============================================
 
-|downloads|
+.. conda:recipe:: bioconductor-snplocs.hsapiens.dbsnp141.grch38
+   :replaces_section_title:
 
-SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 141. The source data files used for this package were created by NCBI on May 1st\, 2014\, and contain SNPs mapped to reference genome GRCh38. Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38. IMPORTANT NOTE\: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead \(e.g. BUILD 144 or BUILD 149\). You can call BSgenome\:\:available.SNPs\(\) from R to get the list of available SNPlocs data packages.
+   SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 141. The source data files used for this package were created by NCBI on May 1st\, 2014\, and contain SNPs mapped to reference genome GRCh38. Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38. IMPORTANT NOTE\: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead \(e.g. BUILD 144 or BUILD 149\). You can call BSgenome\:\:available.SNPs\(\) from R to get the list of available SNPlocs data packages.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/SNPlocs.Hsapiens.dbSNP141.GRCh38.html
-Versions      0.99.11
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snplocs.hsapiens.dbsnp141.grch38/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/SNPlocs.Hsapiens.dbSNP141.GRCh38.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-snplocs.hsapiens.dbsnp141.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-snplocs.hsapiens.dbsnp141.grch38
 
-Installation
-------------
+   |downloads_bioconductor-snplocs.hsapiens.dbsnp141.grch38| |docker_bioconductor-snplocs.hsapiens.dbsnp141.grch38|
 
-.. highlight: bash
+   :versions: 0.99.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-bsgenome` >=1.50.0,<1.51.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-snplocs.hsapiens.dbsnp141.grch38
+   :required~by: |required_by_bioconductor-snplocs.hsapiens.dbsnp141.grch38|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-snplocs.hsapiens.dbsnp141.grch38
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-snplocs.hsapiens.dbsnp141.grch38
+
+   and update with::
+
+      conda update bioconductor-snplocs.hsapiens.dbsnp141.grch38
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38
+
+
+.. |required_by_bioconductor-snplocs.hsapiens.dbsnp141.grch38| conda:required_by:: bioconductor-snplocs.hsapiens.dbsnp141.grch38
+.. |downloads_bioconductor-snplocs.hsapiens.dbsnp141.grch38| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snplocs.hsapiens.dbsnp141.grch38.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-snplocs.hsapiens.dbsnp141.grch38| image:: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-snplocs.hsapiens.dbsnp141.grch38/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-snplocs.hsapiens.dbsnp141.grch38
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp141.grch38
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-snplocs.hsapiens.dbsnp141.grch38/README.html
 

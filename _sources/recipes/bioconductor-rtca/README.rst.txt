@@ -1,56 +1,67 @@
-.. _`bioconductor-rtca`:
+.. title:: Package Recipe 'bioconductor-rtca'
+.. highlight: bash
+
 
 bioconductor-rtca
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtca
+   :replaces_section_title:
 
-Import\, analyze and visualize data from Roche\(R\) xCELLigence RTCA systems. The package imports real\-time cell electrical impedance data into R. As an alternative to commercial software shipped along the system\, the Bioconductor package RTCA provides several unique transformation \(normalization\) strategies and various visualization tools.
+   Import\, analyze and visualize data from Roche\(R\) xCELLigence RTCA systems. The package imports real\-time cell electrical impedance data into R. As an alternative to commercial software shipped along the system\, the Bioconductor package RTCA provides several unique transformation \(normalization\) strategies and various visualization tools.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/RTCA.html
-Versions      1.34.0, 1.32.0, 1.30.0, 1.28.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtca/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RTCA.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-rtca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtca/meta.yaml>`_
+   :links: biotools: :biotools:`rtca`, doi: :doi:`10.1016/j.compbiolchem.2013.12.004`
 
-
-
-Links         biotools: :biotools:`rtca`, doi: :doi:`10.1016/j.compbiolchem.2013.12.004`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtca
 
-Installation
-------------
+   |downloads_bioconductor-rtca| |docker_bioconductor-rtca|
 
-.. highlight: bash
+   :versions: 1.34.0, 1.32.0, 1.30.0, 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-rcolorbrewer`  
 
-   conda install bioconductor-rtca
+   :required~by: |required_by_bioconductor-rtca|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtca
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtca
+
+   and update with::
+
+      conda update bioconductor-rtca
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtca
+
+
+.. |required_by_bioconductor-rtca| conda:required_by:: bioconductor-rtca
+.. |downloads_bioconductor-rtca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtca.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtca| image:: https://quay.io/repository/biocontainers/bioconductor-rtca/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtca
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtca.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtca/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtca/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtca/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtca/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtca
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtca/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtca
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtca/README.html
 

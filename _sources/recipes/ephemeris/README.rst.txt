@@ -1,54 +1,66 @@
-.. _`ephemeris`:
+.. title:: Package Recipe 'ephemeris'
+.. highlight: bash
+
 
 ephemeris
 =========
 
-|downloads|
+.. conda:recipe:: ephemeris
+   :replaces_section_title:
 
-Ephemeris is an opinionated library and set of scripts for managing the bootstrapping of Galaxy project plugins \- tools\, index data\, and workflows.
+   Ephemeris is an opinionated library and set of scripts for managing the bootstrapping of Galaxy project plugins \- tools\, index data\, and workflows.
 
-============= ===========
-Home          https://github.com/galaxyproject/ephemeris
-Versions      0.8.0
-License       Academic Free License (AFL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ephemeris/meta.yaml
+   :homepage: https://github.com/galaxyproject/ephemeris
+   :license: OTHER / Academic Free License (AFL)
+   :recipe: /`ephemeris <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ephemeris>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ephemeris/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ephemeris
 
-Installation
-------------
+   |downloads_ephemeris| |docker_ephemeris|
 
-.. highlight: bash
+   :versions: 0.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioblend`  :conda:package:`jinja2`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
 
-   conda install ephemeris
+   :required~by: |required_by_ephemeris|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ephemeris
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ephemeris
+
+   and update with::
+
+      conda update ephemeris
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ephemeris
+
+
+.. |required_by_ephemeris| conda:required_by:: ephemeris
+.. |downloads_ephemeris| image:: https://img.shields.io/conda/dn/bioconda/ephemeris.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ephemeris| image:: https://quay.io/repository/biocontainers/ephemeris/status
+   :target: https://quay.io/repository/biocontainers/ephemeris
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ephemeris.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ephemeris/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ephemeris/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ephemeris/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ephemeris/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ephemeris
-.. |docker| image:: https://quay.io/repository/biocontainers/ephemeris/status
-                :target: https://quay.io/repository/biocontainers/ephemeris
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ephemeris/README.html
 

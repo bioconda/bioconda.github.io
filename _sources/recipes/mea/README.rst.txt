@@ -1,54 +1,66 @@
-.. _`mea`:
+.. title:: Package Recipe 'mea'
+.. highlight: bash
+
 
 mea
 ===
 
-|downloads|
+.. conda:recipe:: mea
+   :replaces_section_title:
 
-Mea was developed as part of the lab class \"Bioinformatik von RNA\- und Proteinstrukturen \(Praktikum\, Modul 10\-202\-2208\)\". The package predicts maximum expected accuracy \(MEA\) RNA secondary structures from dot plots of RNAs while correcting the score in dependence of base pair span. Furthermore\, it provides tools to evaluate predictions and optimize parameters.
+   Mea was developed as part of the lab class \"Bioinformatik von RNA\- und Proteinstrukturen \(Praktikum\, Modul 10\-202\-2208\)\". The package predicts maximum expected accuracy \(MEA\) RNA secondary structures from dot plots of RNAs while correcting the score in dependence of base pair span. Furthermore\, it provides tools to evaluate predictions and optimize parameters.
 
-============= ===========
-Home          http://www.bioinf.uni-leipzig.de/Software/mea/
-Versions      0.6.4
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mea/meta.yaml
+   :homepage: http://www.bioinf.uni-leipzig.de/Software/mea/
+   :license: GPLv3
+   :recipe: /`mea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mea/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mea
 
-Installation
-------------
+   |downloads_mea| |docker_mea|
 
-.. highlight: bash
+   :versions: 0.6.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install mea
+   :required~by: |required_by_mea|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mea
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mea
+
+   and update with::
+
+      conda update mea
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mea
+
+
+.. |required_by_mea| conda:required_by:: mea
+.. |downloads_mea| image:: https://img.shields.io/conda/dn/bioconda/mea.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mea| image:: https://quay.io/repository/biocontainers/mea/status
+   :target: https://quay.io/repository/biocontainers/mea
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mea.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mea/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mea/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mea/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mea/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mea
-.. |docker| image:: https://quay.io/repository/biocontainers/mea/status
-                :target: https://quay.io/repository/biocontainers/mea
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mea/README.html
 

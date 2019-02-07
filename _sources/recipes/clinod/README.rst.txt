@@ -1,36 +1,56 @@
-.. _`clinod`:
+.. title:: Package Recipe 'clinod'
+.. highlight: bash
+
 
 clinod
 ======
 
-|downloads|
+.. conda:recipe:: clinod
+   :replaces_section_title:
 
-Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences.
+   Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences.
 
-============= ===========
-Home          http://www.compbio.dundee.ac.uk/nod
-Versions      1.3
-License       Apache License, Version 2.0 + others used internally
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clinod/meta.yaml
+   :homepage: http://www.compbio.dundee.ac.uk/nod
+   :license: Apache License, Version 2.0 + others used internally
+   :recipe: /`clinod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinod/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: clinod
 
-Installation
-------------
+   |downloads_clinod| |docker_clinod|
 
-.. highlight: bash
+   :versions: 1.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=6 :conda:package:`python`  :conda:package:`snns`  
 
-   conda install clinod
+   :required~by: |required_by_clinod|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update clinod
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install clinod
+
+   and update with::
+
+      conda update clinod
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/clinod
+
+
+.. |required_by_clinod| conda:required_by:: clinod
+.. |downloads_clinod| image:: https://img.shields.io/conda/dn/bioconda/clinod.svg?style=flat
+   :alt:   (downloads)
+.. |docker_clinod| image:: https://quay.io/repository/biocontainers/clinod/status
+   :target: https://quay.io/repository/biocontainers/clinod
+
+
+
+
 
 
 Notes
@@ -43,22 +63,13 @@ If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \"clinod \-Xms512m \-Xmx1g ...\"
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/clinod.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/clinod/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clinod/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/clinod/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/clinod/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/clinod
-.. |docker| image:: https://quay.io/repository/biocontainers/clinod/status
-                :target: https://quay.io/repository/biocontainers/clinod
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/clinod/README.html
 

@@ -1,54 +1,66 @@
-.. _`parsnp`:
+.. title:: Package Recipe 'parsnp'
+.. highlight: bash
+
 
 parsnp
 ======
 
-|downloads|
+.. conda:recipe:: parsnp
+   :replaces_section_title:
 
-Parsnp is a command\-line\-tool for efficient microbial core genome alignment and SNP detection.
+   Parsnp is a command\-line\-tool for efficient microbial core genome alignment and SNP detection.
 
-============= ===========
-Home          https://github.com/marbl/parsnp
-Versions      1.2
-License       custom; see https://raw.githubusercontent.com/marbl/parsnp/master/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parsnp/meta.yaml
+   :homepage: https://github.com/marbl/parsnp
+   :license: custom; see https://raw.githubusercontent.com/marbl/parsnp/master/LICENSE
+   :recipe: /`parsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parsnp/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: parsnp
 
-Installation
-------------
+   |downloads_parsnp| |docker_parsnp|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install parsnp
+   :required~by: |required_by_parsnp|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update parsnp
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install parsnp
+
+   and update with::
+
+      conda update parsnp
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/parsnp
+
+
+.. |required_by_parsnp| conda:required_by:: parsnp
+.. |downloads_parsnp| image:: https://img.shields.io/conda/dn/bioconda/parsnp.svg?style=flat
+   :alt:   (downloads)
+.. |docker_parsnp| image:: https://quay.io/repository/biocontainers/parsnp/status
+   :target: https://quay.io/repository/biocontainers/parsnp
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/parsnp.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/parsnp/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/parsnp/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/parsnp/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/parsnp/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/parsnp
-.. |docker| image:: https://quay.io/repository/biocontainers/parsnp/status
-                :target: https://quay.io/repository/biocontainers/parsnp
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/parsnp/README.html
 

@@ -1,54 +1,66 @@
-.. _`r-ebimetagenomics`:
+.. title:: Package Recipe 'r-ebimetagenomics'
+.. highlight: bash
+
 
 r-ebimetagenomics
 =================
 
-|downloads|
+.. conda:recipe:: r-ebimetagenomics
+   :replaces_section_title:
 
-Functions for querying the EBI Metagenomics Portal \<https\:\/\/www.ebi.ac.uk\/metagenomics\/\>. The current main focus is on taxa abundance data\, but the intention is that this package should evolve into a general purpose package for working with EBI Metagenomics data using R. 
+   Functions for querying the EBI Metagenomics Portal \<https\:\/\/www.ebi.ac.uk\/metagenomics\/\>. The current main focus is on taxa abundance data\, but the intention is that this package should evolve into a general purpose package for working with EBI Metagenomics data using R. 
 
-============= ===========
-Home          https://CRAN.R-project.org/package=ebimetagenomics
-Versions      0.6
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ebimetagenomics/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=ebimetagenomics
+   :license: LGPL / LGPL-3
+   :recipe: /`r-ebimetagenomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ebimetagenomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ebimetagenomics/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-ebimetagenomics
 
-Installation
-------------
+   |downloads_r-ebimetagenomics| |docker_r-ebimetagenomics|
 
-.. highlight: bash
+   :versions: 0.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-breakaway`  :conda:package:`r-sads`  :conda:package:`r-vegan`  
 
-   conda install r-ebimetagenomics
+   :required~by: |required_by_r-ebimetagenomics|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-ebimetagenomics
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-ebimetagenomics
+
+   and update with::
+
+      conda update r-ebimetagenomics
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-ebimetagenomics
+
+
+.. |required_by_r-ebimetagenomics| conda:required_by:: r-ebimetagenomics
+.. |downloads_r-ebimetagenomics| image:: https://img.shields.io/conda/dn/bioconda/r-ebimetagenomics.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-ebimetagenomics| image:: https://quay.io/repository/biocontainers/r-ebimetagenomics/status
+   :target: https://quay.io/repository/biocontainers/r-ebimetagenomics
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-ebimetagenomics.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ebimetagenomics/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ebimetagenomics/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-ebimetagenomics/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-ebimetagenomics/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-ebimetagenomics
-.. |docker| image:: https://quay.io/repository/biocontainers/r-ebimetagenomics/status
-                :target: https://quay.io/repository/biocontainers/r-ebimetagenomics
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-ebimetagenomics/README.html
 

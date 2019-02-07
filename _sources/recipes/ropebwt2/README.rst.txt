@@ -1,54 +1,66 @@
-.. _`ropebwt2`:
+.. title:: Package Recipe 'ropebwt2'
+.. highlight: bash
+
 
 ropebwt2
 ========
 
-|downloads|
+.. conda:recipe:: ropebwt2
+   :replaces_section_title:
 
-Incremental construction of FM\-index for DNA sequences
+   Incremental construction of FM\-index for DNA sequences
 
-============= ===========
-Home          https://github.com/lh3/ropebwt2
-Versions      r187
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ropebwt2/meta.yaml
+   :homepage: https://github.com/lh3/ropebwt2
+   :license: MIT
+   :recipe: /`ropebwt2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ropebwt2
 
-Installation
-------------
+   |downloads_ropebwt2| |docker_ropebwt2|
 
-.. highlight: bash
+   :versions: r187
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install ropebwt2
+   :required~by: |required_by_ropebwt2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ropebwt2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ropebwt2
+
+   and update with::
+
+      conda update ropebwt2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ropebwt2
+
+
+.. |required_by_ropebwt2| conda:required_by:: ropebwt2
+.. |downloads_ropebwt2| image:: https://img.shields.io/conda/dn/bioconda/ropebwt2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ropebwt2| image:: https://quay.io/repository/biocontainers/ropebwt2/status
+   :target: https://quay.io/repository/biocontainers/ropebwt2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ropebwt2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ropebwt2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ropebwt2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ropebwt2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ropebwt2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ropebwt2
-.. |docker| image:: https://quay.io/repository/biocontainers/ropebwt2/status
-                :target: https://quay.io/repository/biocontainers/ropebwt2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ropebwt2/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-crcl18`:
+.. title:: Package Recipe 'bioconductor-crcl18'
+.. highlight: bash
+
 
 bioconductor-crcl18
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-crcl18
+   :replaces_section_title:
 
-colorectal cancer mRNA and miRNA on 18 cell lines
+   colorectal cancer mRNA and miRNA on 18 cell lines
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/CRCL18.html
-Versions      1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-crcl18/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/CRCL18.html
+   :license: GPL-2
+   :recipe: /`bioconductor-crcl18 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crcl18>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crcl18/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-crcl18
 
-Installation
-------------
+   |downloads_bioconductor-crcl18| |docker_bioconductor-crcl18|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-crcl18
+   :required~by: |required_by_bioconductor-crcl18|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-crcl18
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-crcl18
+
+   and update with::
+
+      conda update bioconductor-crcl18
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-crcl18
+
+
+.. |required_by_bioconductor-crcl18| conda:required_by:: bioconductor-crcl18
+.. |downloads_bioconductor-crcl18| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crcl18.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-crcl18| image:: https://quay.io/repository/biocontainers/bioconductor-crcl18/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-crcl18
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-crcl18.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-crcl18/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-crcl18/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-crcl18/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-crcl18/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-crcl18
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-crcl18/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-crcl18
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-crcl18/README.html
 

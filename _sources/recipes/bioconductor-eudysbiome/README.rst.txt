@@ -1,56 +1,67 @@
-.. _`bioconductor-eudysbiome`:
+.. title:: Package Recipe 'bioconductor-eudysbiome'
+.. highlight: bash
+
 
 bioconductor-eudysbiome
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-eudysbiome
+   :replaces_section_title:
 
-eudysbiome a package that permits to annotate the differential genera as harmful\/harmless based on their ability to contribute to host diseases \(as indicated in literature\) or unknown based on their ambiguous genus classification. Further\, the package statistically measures the eubiotic \(harmless genera increase or harmful genera decrease\) or dysbiotic\(harmless genera decrease or harmful genera increase\) impact of a given treatment or environmental change on the \(gut\-intestinal\, GI\) microbiome in comparison to the microbiome of the reference condition.
+   eudysbiome a package that permits to annotate the differential genera as harmful\/harmless based on their ability to contribute to host diseases \(as indicated in literature\) or unknown based on their ambiguous genus classification. Further\, the package statistically measures the eubiotic \(harmless genera increase or harmful genera decrease\) or dysbiotic\(harmless genera decrease or harmful genera increase\) impact of a given treatment or environmental change on the \(gut\-intestinal\, GI\) microbiome in comparison to the microbiome of the reference condition.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/eudysbiome.html
-Versions      1.12.0, 1.10.0, 1.8.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-eudysbiome/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/eudysbiome.html
+   :license: GPL-2
+   :recipe: /`bioconductor-eudysbiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome/meta.yaml>`_
+   :links: biotools: :biotools:`eudysbiome`, doi: :doi:`10.1186/s12918-016-0344-6`
 
-
-
-Links         biotools: :biotools:`eudysbiome`, doi: :doi:`10.1186/s12918-016-0344-6`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-eudysbiome
 
-Installation
-------------
+   |downloads_bioconductor-eudysbiome| |docker_bioconductor-eudysbiome|
 
-.. highlight: bash
+   :versions: 1.12.0, 1.10.0, 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-plyr`  :conda:package:`r-r.utils`  
 
-   conda install bioconductor-eudysbiome
+   :required~by: |required_by_bioconductor-eudysbiome|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-eudysbiome
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-eudysbiome
+
+   and update with::
+
+      conda update bioconductor-eudysbiome
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-eudysbiome
+
+
+.. |required_by_bioconductor-eudysbiome| conda:required_by:: bioconductor-eudysbiome
+.. |downloads_bioconductor-eudysbiome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eudysbiome.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-eudysbiome| image:: https://quay.io/repository/biocontainers/bioconductor-eudysbiome/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-eudysbiome
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-eudysbiome.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-eudysbiome/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-eudysbiome/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-eudysbiome/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-eudysbiome/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-eudysbiome
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-eudysbiome/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-eudysbiome
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-eudysbiome/README.html
 

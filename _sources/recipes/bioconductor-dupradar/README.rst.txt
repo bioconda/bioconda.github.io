@@ -1,56 +1,67 @@
-.. _`bioconductor-dupradar`:
+.. title:: Package Recipe 'bioconductor-dupradar'
+.. highlight: bash
+
 
 bioconductor-dupradar
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-dupradar
+   :replaces_section_title:
 
-Duplication rate quality control for RNA\-Seq datasets.
+   Duplication rate quality control for RNA\-Seq datasets.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/dupRadar.html
-Versions      1.12.1, 1.10.0, 1.8.0, 1.6.0, 1.2.2
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dupradar/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/dupRadar.html
+   :license: GPL-3
+   :recipe: /`bioconductor-dupradar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar/meta.yaml>`_
+   :links: biotools: :biotools:`dupradar`
 
-
-
-Links         biotools: :biotools:`dupradar`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dupradar
 
-Installation
-------------
+   |downloads_bioconductor-dupradar| |docker_bioconductor-dupradar|
 
-.. highlight: bash
+   :versions: 1.12.1, 1.10.0, 1.8.0, 1.6.0, 1.2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rsubread` >=1.32.0,<1.33.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-dupradar
+   :required~by: |required_by_bioconductor-dupradar|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dupradar
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dupradar
+
+   and update with::
+
+      conda update bioconductor-dupradar
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dupradar
+
+
+.. |required_by_bioconductor-dupradar| conda:required_by:: bioconductor-dupradar
+.. |downloads_bioconductor-dupradar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dupradar.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dupradar| image:: https://quay.io/repository/biocontainers/bioconductor-dupradar/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dupradar
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dupradar.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dupradar/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dupradar/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dupradar/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dupradar/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dupradar
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dupradar/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dupradar
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dupradar/README.html
 

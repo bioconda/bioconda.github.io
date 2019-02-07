@@ -1,54 +1,66 @@
-.. _`ebfilter`:
+.. title:: Package Recipe 'ebfilter'
+.. highlight: bash
+
 
 ebfilter
 ========
 
-|downloads|
+.. conda:recipe:: ebfilter
+   :replaces_section_title:
 
-EBFilter \(Empirical Bayesian Mutation Filtering\)
+   EBFilter \(Empirical Bayesian Mutation Filtering\)
 
-============= ===========
-Home          https://github.com/Genomon-Project/EBFilter
-Versions      0.2.1
-License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ebfilter/meta.yaml
+   :homepage: https://github.com/Genomon-Project/EBFilter
+   :license: GPL / GNU General Public License v3 (GPLv3)
+   :recipe: /`ebfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebfilter/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ebfilter
 
-Installation
-------------
+   |downloads_ebfilter| |docker_ebfilter|
 
-.. highlight: bash
+   :versions: 0.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` <3 :conda:package:`pyvcf`  :conda:package:`scipy`  
 
-   conda install ebfilter
+   :required~by: |required_by_ebfilter|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ebfilter
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ebfilter
+
+   and update with::
+
+      conda update ebfilter
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ebfilter
+
+
+.. |required_by_ebfilter| conda:required_by:: ebfilter
+.. |downloads_ebfilter| image:: https://img.shields.io/conda/dn/bioconda/ebfilter.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ebfilter| image:: https://quay.io/repository/biocontainers/ebfilter/status
+   :target: https://quay.io/repository/biocontainers/ebfilter
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ebfilter.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ebfilter/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ebfilter/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ebfilter/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ebfilter/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ebfilter
-.. |docker| image:: https://quay.io/repository/biocontainers/ebfilter/status
-                :target: https://quay.io/repository/biocontainers/ebfilter
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ebfilter/README.html
 

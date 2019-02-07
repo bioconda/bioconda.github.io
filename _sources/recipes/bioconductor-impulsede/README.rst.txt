@@ -1,56 +1,67 @@
-.. _`bioconductor-impulsede`:
+.. title:: Package Recipe 'bioconductor-impulsede'
+.. highlight: bash
+
 
 bioconductor-impulsede
 ======================
 
-|downloads|
+.. conda:recipe:: bioconductor-impulsede
+   :replaces_section_title:
 
-ImpulseDE is suited to capture single impulse\-like patterns in high throughput time series datasets. By fitting a representative impulse model to each gene\, it reports differentially expressed genes whether across time points in a single experiment or between two time courses from two experiments. To optimize the running time\, the code makes use of clustering steps and multi\-threading.
+   ImpulseDE is suited to capture single impulse\-like patterns in high throughput time series datasets. By fitting a representative impulse model to each gene\, it reports differentially expressed genes whether across time points in a single experiment or between two time courses from two experiments. To optimize the running time\, the code makes use of clustering steps and multi\-threading.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE.html
-Versions      1.8.0, 1.6.0, 1.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-impulsede/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE.html
+   :license: GPL-3
+   :recipe: /`bioconductor-impulsede <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede/meta.yaml>`_
+   :links: biotools: :biotools:`impulsede`, doi: :doi:`10.1093/bioinformatics/btw665`
 
-
-
-Links         biotools: :biotools:`impulsede`, doi: :doi:`10.1093/bioinformatics/btw665`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-impulsede
 
-Installation
-------------
+   |downloads_bioconductor-impulsede| |docker_bioconductor-impulsede|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-amap`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  
 
-   conda install bioconductor-impulsede
+   :required~by: |required_by_bioconductor-impulsede|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-impulsede
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-impulsede
+
+   and update with::
+
+      conda update bioconductor-impulsede
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-impulsede
+
+
+.. |required_by_bioconductor-impulsede| conda:required_by:: bioconductor-impulsede
+.. |downloads_bioconductor-impulsede| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impulsede.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-impulsede| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-impulsede
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-impulsede.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-impulsede/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-impulsede/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-impulsede/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-impulsede/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-impulsede
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-impulsede
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-impulsede/README.html
 

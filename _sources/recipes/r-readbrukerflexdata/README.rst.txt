@@ -1,54 +1,66 @@
-.. _`r-readbrukerflexdata`:
+.. title:: Package Recipe 'r-readbrukerflexdata'
+.. highlight: bash
+
 
 r-readbrukerflexdata
 ====================
 
-|downloads|
+.. conda:recipe:: r-readbrukerflexdata
+   :replaces_section_title:
 
-Reads data files acquired by Bruker Daltonics\' matrix\-assisted laser desorption\/ionization\-time\-of\-flight mass spectrometer of the \*flex series.
+   
 
-============= ===========
-Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
-Versions      1.8.5, 1.8.2
-License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-readbrukerflexdata/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-readbrukerflexdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readbrukerflexdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readbrukerflexdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-readbrukerflexdata
 
-Installation
-------------
+   |downloads_r-readbrukerflexdata| |docker_r-readbrukerflexdata|
 
-.. highlight: bash
+   :versions: 1.8.5, 1.8.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-readbrukerflexdata
+   :required~by: |required_by_r-readbrukerflexdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-readbrukerflexdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-readbrukerflexdata
+
+   and update with::
+
+      conda update r-readbrukerflexdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-readbrukerflexdata
+
+
+.. |required_by_r-readbrukerflexdata| conda:required_by:: r-readbrukerflexdata
+.. |downloads_r-readbrukerflexdata| image:: https://img.shields.io/conda/dn/bioconda/r-readbrukerflexdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-readbrukerflexdata| image:: https://quay.io/repository/biocontainers/r-readbrukerflexdata/status
+   :target: https://quay.io/repository/biocontainers/r-readbrukerflexdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-readbrukerflexdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-readbrukerflexdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-readbrukerflexdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-readbrukerflexdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-readbrukerflexdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-readbrukerflexdata
-.. |docker| image:: https://quay.io/repository/biocontainers/r-readbrukerflexdata/status
-                :target: https://quay.io/repository/biocontainers/r-readbrukerflexdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-readbrukerflexdata/README.html
 

@@ -1,54 +1,66 @@
-.. _`ucsc-genepredcheck`:
+.. title:: Package Recipe 'ucsc-genepredcheck'
+.. highlight: bash
+
 
 ucsc-genepredcheck
 ==================
 
-|downloads|
+.. conda:recipe:: ucsc-genepredcheck
+   :replaces_section_title:
 
-validate genePred files or tables
+   validate genePred files or tables
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-genepredcheck/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-genepredcheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredcheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredcheck/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-genepredcheck
 
-Installation
-------------
+   |downloads_ucsc-genepredcheck| |docker_ucsc-genepredcheck|
 
-.. highlight: bash
+   :versions: 366, 357, 332
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-genepredcheck
+   :required~by: |required_by_ucsc-genepredcheck|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-genepredcheck
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-genepredcheck
+
+   and update with::
+
+      conda update ucsc-genepredcheck
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-genepredcheck
+
+
+.. |required_by_ucsc-genepredcheck| conda:required_by:: ucsc-genepredcheck
+.. |downloads_ucsc-genepredcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredcheck.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-genepredcheck| image:: https://quay.io/repository/biocontainers/ucsc-genepredcheck/status
+   :target: https://quay.io/repository/biocontainers/ucsc-genepredcheck
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-genepredcheck.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-genepredcheck/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-genepredcheck/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-genepredcheck/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-genepredcheck/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-genepredcheck
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-genepredcheck/status
-                :target: https://quay.io/repository/biocontainers/ucsc-genepredcheck
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-genepredcheck/README.html
 

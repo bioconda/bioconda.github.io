@@ -1,54 +1,66 @@
-.. _`bioconductor-ontoproc`:
+.. title:: Package Recipe 'bioconductor-ontoproc'
+.. highlight: bash
+
 
 bioconductor-ontoproc
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ontoproc
+   :replaces_section_title:
 
-Support harvesting of diverse bioinformatic ontologies\, making particular use of the ontologyIndex package on CRAN. We provide snapshots of key ontologies for terms about cells\, cell lines\, chemical compounds\, and anatomy\, to help analyze genome\-scale experiments\, particularly cell x compound screens. Another purpose is to strengthen development of compelling use cases for richer interfaces to emerging ontologies.
+   Support harvesting of diverse bioinformatic ontologies\, making particular use of the ontologyIndex package on CRAN. We provide snapshots of key ontologies for terms about cells\, cell lines\, chemical compounds\, and anatomy\, to help analyze genome\-scale experiments\, particularly cell x compound screens. Another purpose is to strengthen development of compelling use cases for richer interfaces to emerging ontologies.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ontoProc.html
-Versions      1.4.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ontoproc/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ontoProc.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-ontoproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ontoproc
 
-Installation
-------------
+   |downloads_bioconductor-ontoproc| |docker_bioconductor-ontoproc|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ontologyindex`  :conda:package:`r-shiny`  
 
-   conda install bioconductor-ontoproc
+   :required~by: |required_by_bioconductor-ontoproc|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ontoproc
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ontoproc
+
+   and update with::
+
+      conda update bioconductor-ontoproc
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ontoproc
+
+
+.. |required_by_bioconductor-ontoproc| conda:required_by:: bioconductor-ontoproc
+.. |downloads_bioconductor-ontoproc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ontoproc.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ontoproc| image:: https://quay.io/repository/biocontainers/bioconductor-ontoproc/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ontoproc
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ontoproc.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ontoproc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ontoproc/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ontoproc/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ontoproc/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ontoproc
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ontoproc/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ontoproc
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ontoproc/README.html
 

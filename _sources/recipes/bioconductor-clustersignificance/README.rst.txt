@@ -1,56 +1,67 @@
-.. _`bioconductor-clustersignificance`:
+.. title:: Package Recipe 'bioconductor-clustersignificance'
+.. highlight: bash
+
 
 bioconductor-clustersignificance
 ================================
 
-|downloads|
+.. conda:recipe:: bioconductor-clustersignificance
+   :replaces_section_title:
 
-The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to\, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables\, e.g. genes in a specific pathway\, alone can separate samples into these established classes. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
+   The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to\, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables\, e.g. genes in a specific pathway\, alone can separate samples into these established classes. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ClusterSignificance.html
-Versions      1.10.0, 1.8.2, 1.6.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clustersignificance/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ClusterSignificance.html
+   :license: GPL-3
+   :recipe: /`bioconductor-clustersignificance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance/meta.yaml>`_
+   :links: biotools: :biotools:`clustersignificance`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`clustersignificance`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-clustersignificance
 
-Installation
-------------
+   |downloads_bioconductor-clustersignificance| |docker_bioconductor-clustersignificance|
 
-.. highlight: bash
+   :versions: 1.10.0, 1.8.2, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pracma`  :conda:package:`r-princurve` >=2.0.5 :conda:package:`r-rcolorbrewer`  :conda:package:`r-scatterplot3d`  
 
-   conda install bioconductor-clustersignificance
+   :required~by: |required_by_bioconductor-clustersignificance|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-clustersignificance
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-clustersignificance
+
+   and update with::
+
+      conda update bioconductor-clustersignificance
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-clustersignificance
+
+
+.. |required_by_bioconductor-clustersignificance| conda:required_by:: bioconductor-clustersignificance
+.. |downloads_bioconductor-clustersignificance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clustersignificance.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-clustersignificance| image:: https://quay.io/repository/biocontainers/bioconductor-clustersignificance/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-clustersignificance
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-clustersignificance.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-clustersignificance/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-clustersignificance/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-clustersignificance/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-clustersignificance/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-clustersignificance
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clustersignificance/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-clustersignificance
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-clustersignificance/README.html
 

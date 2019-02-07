@@ -1,56 +1,67 @@
-.. _`find_differential_primers`:
+.. title:: Package Recipe 'find_differential_primers'
+.. highlight: bash
+
 
 find_differential_primers
 =========================
 
-|downloads|
+.. conda:recipe:: find_differential_primers
+   :replaces_section_title:
 
-Scripts to aid the design of differential primers for diagnostic PCR.
+   Scripts to aid the design of differential primers for diagnostic PCR.
 
-============= ===========
-Home          https://github.com/widdowquinn/find_differential_primers
-Versions      0.1.3, 0.1.3.p1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//find_differential_primers/meta.yaml
+   :homepage: https://github.com/widdowquinn/find_differential_primers
+   :license: MIT / MIT
+   :recipe: /`find_differential_primers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/find_differential_primers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/find_differential_primers/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.9861`
 
-
-
-Links         doi: :doi:`10.5281/zenodo.9861`
-
-============= ===========
+   
 
 
+.. conda:package:: find_differential_primers
 
-Installation
-------------
+   |downloads_find_differential_primers| |docker_find_differential_primers|
 
-.. highlight: bash
+   :versions: 0.1.3, 0.1.3.p1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`bx-python`  :conda:package:`emboss`  :conda:package:`primer3`  :conda:package:`prodigal`  :conda:package:`python` 2.7* 
 
-   conda install find_differential_primers
+   :required~by: |required_by_find_differential_primers|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update find_differential_primers
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install find_differential_primers
+
+   and update with::
+
+      conda update find_differential_primers
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/find_differential_primers
+
+
+.. |required_by_find_differential_primers| conda:required_by:: find_differential_primers
+.. |downloads_find_differential_primers| image:: https://img.shields.io/conda/dn/bioconda/find_differential_primers.svg?style=flat
+   :alt:   (downloads)
+.. |docker_find_differential_primers| image:: https://quay.io/repository/biocontainers/find_differential_primers/status
+   :target: https://quay.io/repository/biocontainers/find_differential_primers
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/find_differential_primers.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/find_differential_primers/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/find_differential_primers/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/find_differential_primers/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/find_differential_primers/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/find_differential_primers
-.. |docker| image:: https://quay.io/repository/biocontainers/find_differential_primers/status
-                :target: https://quay.io/repository/biocontainers/find_differential_primers
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/find_differential_primers/README.html
 

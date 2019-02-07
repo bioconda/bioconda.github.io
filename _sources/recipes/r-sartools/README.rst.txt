@@ -1,56 +1,67 @@
-.. _`r-sartools`:
+.. title:: Package Recipe 'r-sartools'
+.. highlight: bash
+
 
 r-sartools
 ==========
 
-|downloads|
+.. conda:recipe:: r-sartools
+   :replaces_section_title:
 
-SARTools provides R tools and an environment for the statistical analysis of RNA\-Seq projects load and clean data\, produce figures\, perform statistical analysis\/testing with DESeq2 or edgeR\, export results and create final report.
+   SARTools provides R tools and an environment for the statistical analysis of RNA\-Seq projects load and clean data\, produce figures\, perform statistical analysis\/testing with DESeq2 or edgeR\, export results and create final report.
 
-============= ===========
-Home          https://github.com/PF2-pasteur-fr/SARTools
-Versions      1.6.6, 1.6.3, 1.6.0, 1.5.1, 1.4.1, 1.3.2, 1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-sartools/meta.yaml
+   :homepage: https://github.com/PF2-pasteur-fr/SARTools
+   :license: GPL-2
+   :recipe: /`r-sartools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sartools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sartools/meta.yaml>`_
+   :links: biotools: :biotools:`sartools`
 
-
-
-Links         biotools: :biotools:`sartools`
-
-============= ===========
+   
 
 
+.. conda:package:: r-sartools
 
-Installation
-------------
+   |downloads_r-sartools| |docker_r-sartools|
 
-.. highlight: bash
+   :versions: 1.6.6, 1.6.3, 1.6.0, 1.5.1, 1.4.1, 1.3.2, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-deseq2` >=1.12.0 :conda:package:`bioconductor-edger` >=3.12.0 :conda:package:`bioconductor-summarizedexperiment` >=1.6 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bit64`  :conda:package:`r-blob`  :conda:package:`r-knitr`  :conda:package:`r-rmarkdown` >=1.4 
 
-   conda install r-sartools
+   :required~by: |required_by_r-sartools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-sartools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-sartools
+
+   and update with::
+
+      conda update r-sartools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-sartools
+
+
+.. |required_by_r-sartools| conda:required_by:: r-sartools
+.. |downloads_r-sartools| image:: https://img.shields.io/conda/dn/bioconda/r-sartools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-sartools| image:: https://quay.io/repository/biocontainers/r-sartools/status
+   :target: https://quay.io/repository/biocontainers/r-sartools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-sartools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-sartools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-sartools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-sartools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-sartools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-sartools
-.. |docker| image:: https://quay.io/repository/biocontainers/r-sartools/status
-                :target: https://quay.io/repository/biocontainers/r-sartools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-sartools/README.html
 

@@ -1,54 +1,66 @@
-.. _`qsignature`:
+.. title:: Package Recipe 'qsignature'
+.. highlight: bash
+
 
 qsignature
 ==========
 
-|downloads|
+.. conda:recipe:: qsignature
+   :replaces_section_title:
 
-qsignature is a simple and highly effective method for detecting potential sample mix\-ups using distance measurements between SNP
+   qsignature is a simple and highly effective method for detecting potential sample mix\-ups using distance measurements between SNP
 
-============= ===========
-Home          http://sourceforge.net/p/adamajava/wiki/Home/
-Versions      0.1pre
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qsignature/meta.yaml
+   :homepage: http://sourceforge.net/p/adamajava/wiki/Home/
+   :license: GPLv3
+   :recipe: /`qsignature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: qsignature
 
-Installation
-------------
+   |downloads_qsignature| |docker_qsignature|
 
-.. highlight: bash
+   :versions: 0.1pre
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install qsignature
+   :required~by: |required_by_qsignature|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update qsignature
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install qsignature
+
+   and update with::
+
+      conda update qsignature
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/qsignature
+
+
+.. |required_by_qsignature| conda:required_by:: qsignature
+.. |downloads_qsignature| image:: https://img.shields.io/conda/dn/bioconda/qsignature.svg?style=flat
+   :alt:   (downloads)
+.. |docker_qsignature| image:: https://quay.io/repository/biocontainers/qsignature/status
+   :target: https://quay.io/repository/biocontainers/qsignature
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/qsignature.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/qsignature/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qsignature/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/qsignature/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/qsignature/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/qsignature
-.. |docker| image:: https://quay.io/repository/biocontainers/qsignature/status
-                :target: https://quay.io/repository/biocontainers/qsignature
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/qsignature/README.html
 

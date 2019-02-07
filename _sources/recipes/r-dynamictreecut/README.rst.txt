@@ -1,54 +1,66 @@
-.. _`r-dynamictreecut`:
+.. title:: Package Recipe 'r-dynamictreecut'
+.. highlight: bash
+
 
 r-dynamictreecut
 ================
 
-|downloads|
+.. conda:recipe:: r-dynamictreecut
+   :replaces_section_title:
 
-Contains methods for detection of clusters in hierarchical clustering dendrograms.
+   
 
-============= ===========
-Home          http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/
-Versions      1.63_1
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-dynamictreecut/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-dynamictreecut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dynamictreecut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dynamictreecut/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-dynamictreecut
 
-Installation
-------------
+   |downloads_r-dynamictreecut| |docker_r-dynamictreecut|
 
-.. highlight: bash
+   :versions: 1.63_1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-dynamictreecut
+   :required~by: |required_by_r-dynamictreecut|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-dynamictreecut
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-dynamictreecut
+
+   and update with::
+
+      conda update r-dynamictreecut
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-dynamictreecut
+
+
+.. |required_by_r-dynamictreecut| conda:required_by:: r-dynamictreecut
+.. |downloads_r-dynamictreecut| image:: https://img.shields.io/conda/dn/bioconda/r-dynamictreecut.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-dynamictreecut| image:: https://quay.io/repository/biocontainers/r-dynamictreecut/status
+   :target: https://quay.io/repository/biocontainers/r-dynamictreecut
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-dynamictreecut.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-dynamictreecut/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-dynamictreecut/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-dynamictreecut/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-dynamictreecut/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-dynamictreecut
-.. |docker| image:: https://quay.io/repository/biocontainers/r-dynamictreecut/status
-                :target: https://quay.io/repository/biocontainers/r-dynamictreecut
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-dynamictreecut/README.html
 

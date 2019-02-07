@@ -1,54 +1,66 @@
-.. _`perl-data-dumper`:
+.. title:: Package Recipe 'perl-data-dumper'
+.. highlight: bash
+
 
 perl-data-dumper
 ================
 
-|downloads|
+.. conda:recipe:: perl-data-dumper
+   :replaces_section_title:
 
-seeds germane\, yet not germinated
+   seeds germane\, yet not germinated
 
-============= ===========
-Home          http://metacpan.org/pod/Data::Dumper
-Versions      2.173, 2.161
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-dumper/meta.yaml
+   :homepage: http://metacpan.org/pod/Data::Dumper
+   :license: unknown
+   :recipe: /`perl-data-dumper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-data-dumper
 
-Installation
-------------
+   |downloads_perl-data-dumper| |docker_perl-data-dumper|
 
-.. highlight: bash
+   :versions: 2.173, 2.161
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-data-dumper
+   :required~by: |required_by_perl-data-dumper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-data-dumper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-data-dumper
+
+   and update with::
+
+      conda update perl-data-dumper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-data-dumper
+
+
+.. |required_by_perl-data-dumper| conda:required_by:: perl-data-dumper
+.. |downloads_perl-data-dumper| image:: https://img.shields.io/conda/dn/bioconda/perl-data-dumper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-data-dumper| image:: https://quay.io/repository/biocontainers/perl-data-dumper/status
+   :target: https://quay.io/repository/biocontainers/perl-data-dumper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-data-dumper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-data-dumper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-data-dumper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-data-dumper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-data-dumper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-data-dumper
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-data-dumper/status
-                :target: https://quay.io/repository/biocontainers/perl-data-dumper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-data-dumper/README.html
 

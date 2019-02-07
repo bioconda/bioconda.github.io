@@ -1,54 +1,66 @@
-.. _`r-rapidr`:
+.. title:: Package Recipe 'r-rapidr'
+.. highlight: bash
+
 
 r-rapidr
 ========
 
-|downloads|
+.. conda:recipe:: r-rapidr
+   :replaces_section_title:
 
-Package to perform non\-invasive fetal testing for aneuploidies using sequencing count data from cell\-free DNA
+   Package to perform non\-invasive fetal testing for aneuploidies using sequencing count data from cell\-free DNA
 
-============= ===========
-Home          https://CRAN.R-project.org/package=RAPIDR
-Versions      0.1.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rapidr/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=RAPIDR
+   :license: GPL3 / GPL-3
+   :recipe: /`r-rapidr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rapidr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rapidr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rapidr
 
-Installation
-------------
+   |downloads_r-rapidr| |docker_r-rapidr|
 
-.. highlight: bash
+   :versions: 0.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-genomicalignments`  :conda:package:`bioconductor-genomicranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r-base` 3.4.1* :conda:package:`r-data.table`  :conda:package:`r-propcis`  
 
-   conda install r-rapidr
+   :required~by: |required_by_r-rapidr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rapidr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rapidr
+
+   and update with::
+
+      conda update r-rapidr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rapidr
+
+
+.. |required_by_r-rapidr| conda:required_by:: r-rapidr
+.. |downloads_r-rapidr| image:: https://img.shields.io/conda/dn/bioconda/r-rapidr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rapidr| image:: https://quay.io/repository/biocontainers/r-rapidr/status
+   :target: https://quay.io/repository/biocontainers/r-rapidr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rapidr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rapidr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rapidr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rapidr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rapidr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rapidr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rapidr/status
-                :target: https://quay.io/repository/biocontainers/r-rapidr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rapidr/README.html
 

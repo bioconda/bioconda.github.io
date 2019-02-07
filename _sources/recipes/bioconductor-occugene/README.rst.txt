@@ -1,56 +1,67 @@
-.. _`bioconductor-occugene`:
+.. title:: Package Recipe 'bioconductor-occugene'
+.. highlight: bash
+
 
 bioconductor-occugene
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-occugene
+   :replaces_section_title:
 
-Statistical tools for building random mutagenesis libraries for prokaryotes. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries.
+   Statistical tools for building random mutagenesis libraries for prokaryotes. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/occugene.html
-Versions      1.42.0, 1.40.0, 1.38.0, 1.36.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-occugene/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/occugene.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-occugene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene/meta.yaml>`_
+   :links: biotools: :biotools:`occugene`, doi: :doi:`10.1007/978-1-59745-321-9_22`
 
-
-
-Links         biotools: :biotools:`occugene`, doi: :doi:`10.1007/978-1-59745-321-9_22`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-occugene
 
-Installation
-------------
+   |downloads_bioconductor-occugene| |docker_bioconductor-occugene|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0, 1.36.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-occugene
+   :required~by: |required_by_bioconductor-occugene|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-occugene
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-occugene
+
+   and update with::
+
+      conda update bioconductor-occugene
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-occugene
+
+
+.. |required_by_bioconductor-occugene| conda:required_by:: bioconductor-occugene
+.. |downloads_bioconductor-occugene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-occugene.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-occugene| image:: https://quay.io/repository/biocontainers/bioconductor-occugene/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-occugene
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-occugene.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-occugene/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-occugene/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-occugene/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-occugene/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-occugene
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-occugene/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-occugene
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-occugene/README.html
 

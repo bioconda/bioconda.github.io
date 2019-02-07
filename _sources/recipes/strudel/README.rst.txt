@@ -1,54 +1,66 @@
-.. _`strudel`:
+.. title:: Package Recipe 'strudel'
+.. highlight: bash
+
 
 strudel
 =======
 
-|downloads|
+.. conda:recipe:: strudel
+   :replaces_section_title:
 
-Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes.
+   Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes.
 
-============= ===========
-Home          https://ics.hutton.ac.uk/strudel
-Versions      1.15.08.25
-License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//strudel/meta.yaml
+   :homepage: https://ics.hutton.ac.uk/strudel
+   :license: BSD-2-Clause
+   :recipe: /`strudel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strudel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strudel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: strudel
 
-Installation
-------------
+   |downloads_strudel| |docker_strudel|
 
-.. highlight: bash
+   :versions: 1.15.08.25
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=6,<9 
 
-   conda install strudel
+   :required~by: |required_by_strudel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update strudel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install strudel
+
+   and update with::
+
+      conda update strudel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/strudel
+
+
+.. |required_by_strudel| conda:required_by:: strudel
+.. |downloads_strudel| image:: https://img.shields.io/conda/dn/bioconda/strudel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_strudel| image:: https://quay.io/repository/biocontainers/strudel/status
+   :target: https://quay.io/repository/biocontainers/strudel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/strudel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/strudel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/strudel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/strudel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/strudel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/strudel
-.. |docker| image:: https://quay.io/repository/biocontainers/strudel/status
-                :target: https://quay.io/repository/biocontainers/strudel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/strudel/README.html
 

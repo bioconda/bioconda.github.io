@@ -1,56 +1,67 @@
-.. _`r-blockfest`:
+.. title:: Package Recipe 'r-blockfest'
+.. highlight: bash
+
 
 r-blockfest
 ===========
 
-|downloads|
+.. conda:recipe:: r-blockfest
+   :replaces_section_title:
 
-An R implementation of an extension of the \'BayeScan\' software \(Foll\, 2008\) \<DOI\:10.1534\/genetics.108.092221\> for codominant markers\, adding the option to group individual SNPs into pre\-defined blocks. A typical application of this new approach is the identification of genomic regions\, genes\, or gene sets containing one or more SNPs that evolved under directional selection.
+   An R implementation of an extension of the \'BayeScan\' software \(Foll\, 2008\) \<DOI\:10.1534\/genetics.108.092221\> for codominant markers\, adding the option to group individual SNPs into pre\-defined blocks. A typical application of this new approach is the identification of genomic regions\, genes\, or gene sets containing one or more SNPs that evolved under directional selection.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=BlockFeST
-Versions      1.6
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-blockfest/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=BlockFeST
+   :license: GPL2 / GPL-2
+   :recipe: /`r-blockfest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest/meta.yaml>`_
+   :links: doi: :doi:`10.1534/genetics.108.092221`
 
-
-
-Links         doi: :doi:`10.1534/genetics.108.092221`
-
-============= ===========
+   
 
 
+.. conda:package:: r-blockfest
 
-Installation
-------------
+   |downloads_r-blockfest| |docker_r-blockfest|
 
-.. highlight: bash
+   :versions: 1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-basix`  
 
-   conda install r-blockfest
+   :required~by: |required_by_r-blockfest|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-blockfest
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-blockfest
+
+   and update with::
+
+      conda update r-blockfest
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-blockfest
+
+
+.. |required_by_r-blockfest| conda:required_by:: r-blockfest
+.. |downloads_r-blockfest| image:: https://img.shields.io/conda/dn/bioconda/r-blockfest.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-blockfest| image:: https://quay.io/repository/biocontainers/r-blockfest/status
+   :target: https://quay.io/repository/biocontainers/r-blockfest
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-blockfest.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-blockfest/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-blockfest/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-blockfest/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-blockfest/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-blockfest
-.. |docker| image:: https://quay.io/repository/biocontainers/r-blockfest/status
-                :target: https://quay.io/repository/biocontainers/r-blockfest
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-blockfest/README.html
 

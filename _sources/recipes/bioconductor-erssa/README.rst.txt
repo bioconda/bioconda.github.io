@@ -1,54 +1,66 @@
-.. _`bioconductor-erssa`:
+.. title:: Package Recipe 'bioconductor-erssa'
+.. highlight: bash
+
 
 bioconductor-erssa
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-erssa
+   :replaces_section_title:
 
-The ERSSA package takes user supplied RNA\-seq differential expression dataset and calculates the number of differentially expressed genes at varying biological replicate levels. This allows the user to determine\, without relying on any a priori assumptions\, whether sufficient differential detection has been acheived with their RNA\-seq dataset.
+   The ERSSA package takes user supplied RNA\-seq differential expression dataset and calculates the number of differentially expressed genes at varying biological replicate levels. This allows the user to determine\, without relying on any a priori assumptions\, whether sufficient differential detection has been acheived with their RNA\-seq dataset.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ERSSA.html
-Versions      1.0.0
-License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-erssa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ERSSA.html
+   :license: GPL-3 | file LICENSE
+   :recipe: /`bioconductor-erssa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-erssa
 
-Installation
-------------
+   |downloads_bioconductor-erssa| |docker_bioconductor-erssa|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-deseq2` >=1.22.0,<1.23.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2` >=3.0.0 :conda:package:`r-plyr` >=1.8.4 :conda:package:`r-rcolorbrewer` >=1.1-2 
 
-   conda install bioconductor-erssa
+   :required~by: |required_by_bioconductor-erssa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-erssa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-erssa
+
+   and update with::
+
+      conda update bioconductor-erssa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-erssa
+
+
+.. |required_by_bioconductor-erssa| conda:required_by:: bioconductor-erssa
+.. |downloads_bioconductor-erssa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-erssa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-erssa| image:: https://quay.io/repository/biocontainers/bioconductor-erssa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-erssa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-erssa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-erssa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-erssa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-erssa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-erssa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-erssa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-erssa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-erssa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-erssa/README.html
 

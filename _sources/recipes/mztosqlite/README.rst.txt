@@ -1,55 +1,66 @@
-.. _`mztosqlite`:
+.. title:: Package Recipe 'mztosqlite'
+.. highlight: bash
+
 
 mztosqlite
 ==========
 
-|downloads|
+.. conda:recipe:: mztosqlite
+   :replaces_section_title:
 
-Convert proteomics data files into a SQLite database.
+   Convert proteomics data files into a SQLite database.
 
+   :homepage: https://github.com/galaxyproteomics/mzToSQLite
+   :license: GPL, Version 2.0
+   :recipe: /`mztosqlite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mztosqlite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mztosqlite/meta.yaml>`_
 
-============= ===========
-Home          https://github.com/galaxyproteomics/mzToSQLite
-Versions      2.0.0, 1.2.0
-License       GPL, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mztosqlite/meta.yaml
-
-
-
-============= ===========
+   
 
 
+.. conda:package:: mztosqlite
 
-Installation
-------------
+   |downloads_mztosqlite| |docker_mztosqlite|
 
-.. highlight: bash
+   :versions: 2.0.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk` >=8 :conda:package:`python` 2.7* 
 
-   conda install mztosqlite
+   :required~by: |required_by_mztosqlite|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mztosqlite
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mztosqlite
+
+   and update with::
+
+      conda update mztosqlite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mztosqlite
+
+
+.. |required_by_mztosqlite| conda:required_by:: mztosqlite
+.. |downloads_mztosqlite| image:: https://img.shields.io/conda/dn/bioconda/mztosqlite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mztosqlite| image:: https://quay.io/repository/biocontainers/mztosqlite/status
+   :target: https://quay.io/repository/biocontainers/mztosqlite
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mztosqlite.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mztosqlite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mztosqlite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mztosqlite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mztosqlite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mztosqlite
-.. |docker| image:: https://quay.io/repository/biocontainers/mztosqlite/status
-                :target: https://quay.io/repository/biocontainers/mztosqlite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mztosqlite/README.html
 

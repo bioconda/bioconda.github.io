@@ -1,56 +1,67 @@
-.. _`perl-dbd-mysql`:
+.. title:: Package Recipe 'perl-dbd-mysql'
+.. highlight: bash
+
 
 perl-dbd-mysql
 ==============
 
-|downloads|
+.. conda:recipe:: perl-dbd-mysql
+   :replaces_section_title:
 
-A MySQL driver for the Perl5 Database Interface \(DBI\)
+   A MySQL driver for the Perl5 Database Interface \(DBI\)
 
-============= ===========
-Home          http://dbi.perl.org/
-Versions      4.046, 4.033
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-dbd-mysql/meta.yaml
+   :homepage: http://dbi.perl.org/
+   :license: perl_5
+   :recipe: /`perl-dbd-mysql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql/meta.yaml>`_
+   :links: biotools: :biotools:`dbd`, doi: :doi:`10.1093/nar/gkm964`
 
-
-
-Links         biotools: :biotools:`dbd`, doi: :doi:`10.1093/nar/gkm964`
-
-============= ===========
+   
 
 
+.. conda:package:: perl-dbd-mysql
 
-Installation
-------------
+   |downloads_perl-dbd-mysql| |docker_perl-dbd-mysql|
 
-.. highlight: bash
+   :versions: 4.046, 4.033
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mysql-connector-c`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
 
-   conda install perl-dbd-mysql
+   :required~by: |required_by_perl-dbd-mysql|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-dbd-mysql
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-dbd-mysql
+
+   and update with::
+
+      conda update perl-dbd-mysql
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-dbd-mysql
+
+
+.. |required_by_perl-dbd-mysql| conda:required_by:: perl-dbd-mysql
+.. |downloads_perl-dbd-mysql| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-mysql.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-dbd-mysql| image:: https://quay.io/repository/biocontainers/perl-dbd-mysql/status
+   :target: https://quay.io/repository/biocontainers/perl-dbd-mysql
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-dbd-mysql.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-dbd-mysql/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-dbd-mysql/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-dbd-mysql/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-dbd-mysql/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-dbd-mysql
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-dbd-mysql/status
-                :target: https://quay.io/repository/biocontainers/perl-dbd-mysql
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-dbd-mysql/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-biostrings`:
+.. title:: Package Recipe 'bioconductor-biostrings'
+.. highlight: bash
+
 
 bioconductor-biostrings
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-biostrings
+   :replaces_section_title:
 
-Memory efficient string containers\, string matching algorithms\, and other utilities\, for fast manipulation of large biological sequences or sets of sequences.
+   Memory efficient string containers\, string matching algorithms\, and other utilities\, for fast manipulation of large biological sequences or sets of sequences.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Biostrings.html
-Versions      2.50.1, 2.48.0, 2.46.0, 2.44.2, 2.42.1, 2.40.2, 2.40.0, 2.38.4, 2.38.3, 2.38.2, 2.38.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biostrings/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Biostrings.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-biostrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings/meta.yaml>`_
+   :links: biotools: :biotools:`biostrings`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`biostrings`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-biostrings
 
-Installation
-------------
+   |downloads_bioconductor-biostrings| |docker_bioconductor-biostrings|
 
-.. highlight: bash
+   :versions: 2.50.1, 2.48.0, 2.46.0, 2.44.2, 2.42.1, 2.40.2, 2.40.0, 2.38.4, 2.38.3, 2.38.2, 2.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-biostrings
+   :required~by: |required_by_bioconductor-biostrings|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-biostrings
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-biostrings
+
+   and update with::
+
+      conda update bioconductor-biostrings
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-biostrings
+
+
+.. |required_by_bioconductor-biostrings| conda:required_by:: bioconductor-biostrings
+.. |downloads_bioconductor-biostrings| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biostrings.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-biostrings| image:: https://quay.io/repository/biocontainers/bioconductor-biostrings/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-biostrings
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-biostrings.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-biostrings/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-biostrings/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-biostrings/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-biostrings/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-biostrings
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biostrings/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-biostrings
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-biostrings/README.html
 

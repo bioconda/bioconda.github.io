@@ -1,54 +1,66 @@
-.. _`fadapa`:
+.. title:: Package Recipe 'fadapa'
+.. highlight: bash
+
 
 fadapa
 ======
 
-|downloads|
+.. conda:recipe:: fadapa
+   :replaces_section_title:
 
-FAstqc DAta PArser \- A minimal parser to parse FastQC output data
+   FAstqc DAta PArser \- A minimal parser to parse FastQC output data
 
-============= ===========
-Home          https://github.com/fadapa/fadapa
-Versions      0.3.1
-License       uncopyrighted
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fadapa/meta.yaml
+   :homepage: https://github.com/fadapa/fadapa
+   :license: uncopyrighted
+   :recipe: /`fadapa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fadapa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fadapa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fadapa
 
-Installation
-------------
+   |downloads_fadapa| |docker_fadapa|
 
-.. highlight: bash
+   :versions: 0.3.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* 
 
-   conda install fadapa
+   :required~by: |required_by_fadapa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fadapa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fadapa
+
+   and update with::
+
+      conda update fadapa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fadapa
+
+
+.. |required_by_fadapa| conda:required_by:: fadapa
+.. |downloads_fadapa| image:: https://img.shields.io/conda/dn/bioconda/fadapa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fadapa| image:: https://quay.io/repository/biocontainers/fadapa/status
+   :target: https://quay.io/repository/biocontainers/fadapa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fadapa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fadapa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fadapa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fadapa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fadapa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fadapa
-.. |docker| image:: https://quay.io/repository/biocontainers/fadapa/status
-                :target: https://quay.io/repository/biocontainers/fadapa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fadapa/README.html
 

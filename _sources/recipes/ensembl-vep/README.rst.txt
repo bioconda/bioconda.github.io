@@ -1,36 +1,56 @@
-.. _`ensembl-vep`:
+.. title:: Package Recipe 'ensembl-vep'
+.. highlight: bash
+
 
 ensembl-vep
 ===========
 
-|downloads|
+.. conda:recipe:: ensembl-vep
+   :replaces_section_title:
 
-The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\, CNVs or structural variants\) on genes\, transcripts\, and protein sequence\, as well as regulatory regions.
+   The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\, CNVs or structural variants\) on genes\, transcripts\, and protein sequence\, as well as regulatory regions.
 
-============= ===========
-Home          http://www.ensembl.org/info/docs/tools/vep/index.html
-Versions      95.1, 95.0, 94.5, 94.4, 94.0, 93.4, 93.2, 92.4, 92.3, 92.0, 91.3, 91.2, 91.1, 91.0, 90.10, 90.9, 90.7, 90.6, 90.5, 90.3, 90.1, 89.7, 89.4, 89.1, 88.10, 88.9, 88.8, 88
-License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ensembl-vep/meta.yaml
+   :homepage: http://www.ensembl.org/info/docs/tools/vep/index.html
+   :license: Apache 2.0
+   :recipe: /`ensembl-vep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ensembl-vep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ensembl-vep/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ensembl-vep
 
-Installation
-------------
+   |downloads_ensembl-vep| |docker_ensembl-vep|
 
-.. highlight: bash
+   :versions: 95.1, 95.0, 94.5, 94.4, 94.0, 93.4, 93.2, 92.4, 92.3, 92.0, 91.3, 91.2, 91.1, 91.0, 90.10, 90.9, 90.7, 90.6, 90.5, 90.3, 90.1, 89.7, 89.4, 89.1, 88.10, 88.9, 88.8, 88
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`htslib`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-db-hts` >=2.7 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-mysql`  :conda:package:`perl-dbi`  :conda:package:`perl-io-compress`  :conda:package:`perl-json`  :conda:package:`perl-perlio-gzip`  :conda:package:`perl-sereal`  :conda:package:`perl-set-intervaltree`  :conda:package:`perl-text-csv`  :conda:package:`unzip`  
 
-   conda install ensembl-vep
+   :required~by: |required_by_ensembl-vep|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ensembl-vep
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ensembl-vep
+
+   and update with::
+
+      conda update ensembl-vep
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ensembl-vep
+
+
+.. |required_by_ensembl-vep| conda:required_by:: ensembl-vep
+.. |downloads_ensembl-vep| image:: https://img.shields.io/conda/dn/bioconda/ensembl-vep.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ensembl-vep| image:: https://quay.io/repository/biocontainers/ensembl-vep/status
+   :target: https://quay.io/repository/biocontainers/ensembl-vep
+
+
+
+
 
 
 Notes
@@ -51,22 +71,13 @@ runs. See the VEP documentation for more details
 http\:\/\/www.ensembl.org\/info\/docs\/tools\/vep\/script\/vep\_cache.html
 
 
-
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/ensembl-vep.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ensembl-vep/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ensembl-vep/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ensembl-vep/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ensembl-vep/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ensembl-vep
-.. |docker| image:: https://quay.io/repository/biocontainers/ensembl-vep/status
-                :target: https://quay.io/repository/biocontainers/ensembl-vep
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ensembl-vep/README.html
 

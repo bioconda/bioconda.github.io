@@ -1,54 +1,66 @@
-.. _`bioconductor-scale4c`:
+.. title:: Package Recipe 'bioconductor-scale4c'
+.. highlight: bash
+
 
 bioconductor-scale4c
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-scale4c
+   :replaces_section_title:
 
-Scale4C is an R\/Bioconductor package for scale\-space transformation and visualization of 4C\-seq data. The scale\-space transformation is a multi\-scale visualization technique to transform a 2D signal \(e.g. 4C\-seq reads on a genomic interval of choice\) into a tesselation in the scale space \(2D\, genomic position x scale factor\) by applying different smoothing kernels \(Gauss\, with increasing sigma\). This transformation allows for explorative analysis and comparisons of the data\'s structure with other samples.
+   Scale4C is an R\/Bioconductor package for scale\-space transformation and visualization of 4C\-seq data. The scale\-space transformation is a multi\-scale visualization technique to transform a 2D signal \(e.g. 4C\-seq reads on a genomic interval of choice\) into a tesselation in the scale space \(2D\, genomic position x scale factor\) by applying different smoothing kernels \(Gauss\, with increasing sigma\). This transformation allows for explorative analysis and comparisons of the data\'s structure with other samples.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Scale4C.html
-Versions      1.4.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scale4c/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Scale4C.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-scale4c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-scale4c
 
-Installation
-------------
+   |downloads_bioconductor-scale4c| |docker_bioconductor-scale4c|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-smoothie`  
 
-   conda install bioconductor-scale4c
+   :required~by: |required_by_bioconductor-scale4c|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-scale4c
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-scale4c
+
+   and update with::
+
+      conda update bioconductor-scale4c
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-scale4c
+
+
+.. |required_by_bioconductor-scale4c| conda:required_by:: bioconductor-scale4c
+.. |downloads_bioconductor-scale4c| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scale4c.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-scale4c| image:: https://quay.io/repository/biocontainers/bioconductor-scale4c/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-scale4c
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-scale4c.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scale4c/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-scale4c/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-scale4c/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-scale4c/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-scale4c
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scale4c/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-scale4c
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-scale4c/README.html
 

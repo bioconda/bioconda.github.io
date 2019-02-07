@@ -1,54 +1,66 @@
-.. _`bioconductor-mirbaseversions.db`:
+.. title:: Package Recipe 'bioconductor-mirbaseversions.db'
+.. highlight: bash
+
 
 bioconductor-mirbaseversions.db
 ===============================
 
-|downloads|
+.. conda:recipe:: bioconductor-mirbaseversions.db
+   :replaces_section_title:
 
-Annotation package containing all available miRNA names from 22 versions \(data from http\:\/\/www.mirbase.org\/\).
+   Annotation package containing all available miRNA names from 22 versions \(data from http\:\/\/www.mirbase.org\/\).
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/miRBaseVersions.db.html
-Versions      1.1.0, 0.99.5
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirbaseversions.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/miRBaseVersions.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-mirbaseversions.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mirbaseversions.db
 
-Installation
-------------
+   |downloads_bioconductor-mirbaseversions.db| |docker_bioconductor-mirbaseversions.db|
 
-.. highlight: bash
+   :versions: 1.1.0, 0.99.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.42.1,<1.44.0 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-dbi`  :conda:package:`r-gtools`  :conda:package:`r-rsqlite`  :conda:package:`wget`  
 
-   conda install bioconductor-mirbaseversions.db
+   :required~by: |required_by_bioconductor-mirbaseversions.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mirbaseversions.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mirbaseversions.db
+
+   and update with::
+
+      conda update bioconductor-mirbaseversions.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mirbaseversions.db
+
+
+.. |required_by_bioconductor-mirbaseversions.db| conda:required_by:: bioconductor-mirbaseversions.db
+.. |downloads_bioconductor-mirbaseversions.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirbaseversions.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mirbaseversions.db| image:: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirbaseversions.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirbaseversions.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mirbaseversions.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mirbaseversions.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mirbaseversions.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mirbaseversions.db/README.html
 

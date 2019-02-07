@@ -1,54 +1,66 @@
-.. _`bioconductor-powertcr`:
+.. title:: Package Recipe 'bioconductor-powertcr'
+.. highlight: bash
+
 
 bioconductor-powertcr
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-powertcr
+   :replaces_section_title:
 
-This package provides a model for the clone size distribution of the TCR repertoire. Further\, it permits comparative analysis of TCR repertoire libraries based on theoretical model fits.
+   This package provides a model for the clone size distribution of the TCR repertoire. Further\, it permits comparative analysis of TCR repertoire libraries based on theoretical model fits.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/powerTCR.html
-Versions      
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-powertcr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/powerTCR.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-powertcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-powertcr
 
-Installation
-------------
+   |downloads_bioconductor-powertcr| |docker_bioconductor-powertcr|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-powertcr
+   :required~by: |required_by_bioconductor-powertcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-powertcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-powertcr
+
+   and update with::
+
+      conda update bioconductor-powertcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-powertcr
+
+
+.. |required_by_bioconductor-powertcr| conda:required_by:: bioconductor-powertcr
+.. |downloads_bioconductor-powertcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-powertcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-powertcr| image:: https://quay.io/repository/biocontainers/bioconductor-powertcr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-powertcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-powertcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-powertcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-powertcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-powertcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-powertcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-powertcr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-powertcr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-powertcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-powertcr/README.html
 

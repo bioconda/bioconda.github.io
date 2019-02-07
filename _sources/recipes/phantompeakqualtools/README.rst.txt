@@ -1,56 +1,67 @@
-.. _`phantompeakqualtools`:
+.. title:: Package Recipe 'phantompeakqualtools'
+.. highlight: bash
+
 
 phantompeakqualtools
 ====================
 
-|downloads|
+.. conda:recipe:: phantompeakqualtools
+   :replaces_section_title:
 
-This package computes informative enrichment and quality measures for ChIP\-seq\/DNase\-seq\/FAIRE\-seq\/MNase\-seq data. It can also be used to obtain robust estimates of the predominant fragment length or characteristic tag shift values in these assays.
+   This package computes informative enrichment and quality measures for ChIP\-seq\/DNase\-seq\/FAIRE\-seq\/MNase\-seq data. It can also be used to obtain robust estimates of the predominant fragment length or characteristic tag shift values in these assays.
 
-============= ===========
-Home          https://github.com/kundajelab/phantompeakqualtools
-Versions      1.2
-License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phantompeakqualtools/meta.yaml
+   :homepage: https://github.com/kundajelab/phantompeakqualtools
+   :license: BSD-3-Clause
+   :recipe: /`phantompeakqualtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phantompeakqualtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phantompeakqualtools/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.136184.111`, doi: :doi:`10.1038/nbt.1508`
 
-
-
-Links         doi: :doi:`10.1101/gr.136184.111`, doi: :doi:`10.1038/nbt.1508`
-
-============= ===========
+   
 
 
+.. conda:package:: phantompeakqualtools
 
-Installation
-------------
+   |downloads_phantompeakqualtools| |docker_phantompeakqualtools|
 
-.. highlight: bash
+   :versions: 1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rsamtools`  :conda:package:`boost`  :conda:package:`r-base` >=3.1 :conda:package:`r-bitops`  :conda:package:`r-catools`  :conda:package:`r-snow`  :conda:package:`r-snowfall`  :conda:package:`r-spp` >=1.13 :conda:package:`samtools`  
 
-   conda install phantompeakqualtools
+   :required~by: |required_by_phantompeakqualtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update phantompeakqualtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install phantompeakqualtools
+
+   and update with::
+
+      conda update phantompeakqualtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/phantompeakqualtools
+
+
+.. |required_by_phantompeakqualtools| conda:required_by:: phantompeakqualtools
+.. |downloads_phantompeakqualtools| image:: https://img.shields.io/conda/dn/bioconda/phantompeakqualtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_phantompeakqualtools| image:: https://quay.io/repository/biocontainers/phantompeakqualtools/status
+   :target: https://quay.io/repository/biocontainers/phantompeakqualtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/phantompeakqualtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/phantompeakqualtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/phantompeakqualtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/phantompeakqualtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/phantompeakqualtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/phantompeakqualtools
-.. |docker| image:: https://quay.io/repository/biocontainers/phantompeakqualtools/status
-                :target: https://quay.io/repository/biocontainers/phantompeakqualtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/phantompeakqualtools/README.html
 

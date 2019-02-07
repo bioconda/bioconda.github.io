@@ -1,54 +1,66 @@
-.. _`mappy`:
+.. title:: Package Recipe 'mappy'
+.. highlight: bash
+
 
 mappy
 =====
 
-|downloads|
+.. conda:recipe:: mappy
+   :replaces_section_title:
 
-Minimap2 Python binding
+   Minimap2 Python binding
 
-============= ===========
-Home          https://github.com/lh3/minimap2
-Versions      2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.2
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mappy/meta.yaml
+   :homepage: https://github.com/lh3/minimap2
+   :license: MIT
+   :recipe: /`mappy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mappy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mappy/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mappy
 
-Installation
-------------
+   |downloads_mappy| |docker_mappy|
 
-.. highlight: bash
+   :versions: 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install mappy
+   :required~by: |required_by_mappy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mappy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mappy
+
+   and update with::
+
+      conda update mappy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mappy
+
+
+.. |required_by_mappy| conda:required_by:: mappy
+.. |downloads_mappy| image:: https://img.shields.io/conda/dn/bioconda/mappy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mappy| image:: https://quay.io/repository/biocontainers/mappy/status
+   :target: https://quay.io/repository/biocontainers/mappy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mappy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mappy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mappy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mappy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mappy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mappy
-.. |docker| image:: https://quay.io/repository/biocontainers/mappy/status
-                :target: https://quay.io/repository/biocontainers/mappy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mappy/README.html
 

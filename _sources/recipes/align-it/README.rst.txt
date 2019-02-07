@@ -1,54 +1,66 @@
-.. _`align_it`:
+.. title:: Package Recipe 'align_it'
+.. highlight: bash
+
 
 align_it
 ========
 
-|downloads|
+.. conda:recipe:: align-it/1.0.3
+   :replaces_section_title:
 
-Align\-it is a tool to align molecules according to their pharmacophores. A pharmacophore is an abstract concept based on the specific interactions observed in drug\-receptor interactions\: hydrogen bonding\, charge transfer\, electrostatic and hydrophobic interactions.
+   Align\-it is a tool to align molecules according to their pharmacophores. A pharmacophore is an abstract concept based on the specific interactions observed in drug\-receptor interactions\: hydrogen bonding\, charge transfer\, electrostatic and hydrophobic interactions.
 
-============= ===========
-Home          http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/align-it/1.0.4/align-it.html
-Versions      1.0.3
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//align-it/1.0.3/meta.yaml
+   :homepage: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/align-it/1.0.4/align-it.html
+   :license: LGPL
+   :recipe: /`align-it <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/align-it>`_/`1.0.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/align-it/1.0.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/align-it/1.0.3/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: align_it
 
-Installation
-------------
+   |downloads_align_it| |docker_align_it|
 
-.. highlight: bash
+   :versions: 1.0.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`openbabel`  
 
-   conda install align_it
+   :required~by: |required_by_align_it|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update align_it
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install align_it
+
+   and update with::
+
+      conda update align_it
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/align_it
+
+
+.. |required_by_align_it| conda:required_by:: align_it
+.. |downloads_align_it| image:: https://img.shields.io/conda/dn/bioconda/align_it.svg?style=flat
+   :alt:   (downloads)
+.. |docker_align_it| image:: https://quay.io/repository/biocontainers/align_it/status
+   :target: https://quay.io/repository/biocontainers/align_it
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/align_it.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/align_it/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/align_it/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/align_it/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/align_it/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/align_it
-.. |docker| image:: https://quay.io/repository/biocontainers/align_it/status
-                :target: https://quay.io/repository/biocontainers/align_it
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/align_it/README.html
 

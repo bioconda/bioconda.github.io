@@ -1,56 +1,67 @@
-.. _`kalign2`:
+.. title:: Package Recipe 'kalign2'
+.. highlight: bash
+
 
 kalign2
 =======
 
-|downloads|
+.. conda:recipe:: kalign
+   :replaces_section_title:
 
-Kalign is a fast and accurate multiple sequence alignment algorithm designed to align large numbers of protein sequences.
+   Kalign is a fast and accurate multiple sequence alignment algorithm designed to align large numbers of protein sequences.
 
-============= ===========
-Home          http://msa.sbc.su.se/cgi-bin/msa.cgi
-Versions      2.04
-License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kalign/meta.yaml
+   :homepage: http://msa.sbc.su.se/cgi-bin/msa.cgi
+   :license: GPLv2
+   :recipe: /`kalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-6-298`
 
-
-
-Links         doi: :doi:`10.1186/1471-2105-6-298`
-
-============= ===========
+   
 
 
+.. conda:package:: kalign2
 
-Installation
-------------
+   |downloads_kalign2| |docker_kalign2|
 
-.. highlight: bash
+   :versions: 2.04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 
 
-   conda install kalign2
+   :required~by: |required_by_kalign2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kalign2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kalign2
+
+   and update with::
+
+      conda update kalign2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kalign2
+
+
+.. |required_by_kalign2| conda:required_by:: kalign2
+.. |downloads_kalign2| image:: https://img.shields.io/conda/dn/bioconda/kalign2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kalign2| image:: https://quay.io/repository/biocontainers/kalign2/status
+   :target: https://quay.io/repository/biocontainers/kalign2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kalign2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kalign2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kalign2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kalign2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kalign2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kalign2
-.. |docker| image:: https://quay.io/repository/biocontainers/kalign2/status
-                :target: https://quay.io/repository/biocontainers/kalign2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kalign2/README.html
 

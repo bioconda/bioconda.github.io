@@ -1,54 +1,66 @@
-.. _`kiwidist`:
+.. title:: Package Recipe 'kiwidist'
+.. highlight: bash
+
 
 kiwidist
 ========
 
-|downloads|
+.. conda:recipe:: kiwidist
+   :replaces_section_title:
 
-Combining gene\-set analysis with network properties
+   Combining gene\-set analysis with network properties
 
-============= ===========
-Home          
-Versions      0.3.6, 0.3.5, 0.3.4
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kiwidist/meta.yaml
+   :homepage: 
+   :license: MIT
+   :recipe: /`kiwidist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: kiwidist
 
-Installation
-------------
+   |downloads_kiwidist| |docker_kiwidist|
 
-.. highlight: bash
+   :versions: 0.3.6, 0.3.5, 0.3.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`matplotlib` >=1.3.1,<=1.4.3 :conda:package:`mygene` >=2.1.0 :conda:package:`networkx` >=1.8.1 :conda:package:`numpy` >=1.8.0 :conda:package:`pandas` >=0.13.1 :conda:package:`python` 2.7* :conda:package:`scipy` >=0.13.3,<=0.16.0 :conda:package:`six` >=1.5 
 
-   conda install kiwidist
+   :required~by: |required_by_kiwidist|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update kiwidist
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kiwidist
+
+   and update with::
+
+      conda update kiwidist
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/kiwidist
+
+
+.. |required_by_kiwidist| conda:required_by:: kiwidist
+.. |downloads_kiwidist| image:: https://img.shields.io/conda/dn/bioconda/kiwidist.svg?style=flat
+   :alt:   (downloads)
+.. |docker_kiwidist| image:: https://quay.io/repository/biocontainers/kiwidist/status
+   :target: https://quay.io/repository/biocontainers/kiwidist
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/kiwidist.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kiwidist/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kiwidist/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/kiwidist/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/kiwidist/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/kiwidist
-.. |docker| image:: https://quay.io/repository/biocontainers/kiwidist/status
-                :target: https://quay.io/repository/biocontainers/kiwidist
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kiwidist/README.html
 

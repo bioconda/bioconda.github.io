@@ -1,54 +1,66 @@
-.. _`vdjer`:
+.. title:: Package Recipe 'vdjer'
+.. highlight: bash
+
 
 vdjer
 =====
 
-|downloads|
+.. conda:recipe:: vdjer
+   :replaces_section_title:
 
-B Cell Receptor Repertoire Reconstruction from short read mRNA\-Seq data
+   B Cell Receptor Repertoire Reconstruction from short read mRNA\-Seq data
 
-============= ===========
-Home          https://github.com/mozack/vdjer
-Versions      0.12
-License       https://github.com/mozack/vdjer/blob/master/LICENSE.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vdjer/meta.yaml
+   :homepage: https://github.com/mozack/vdjer
+   :license: https://github.com/mozack/vdjer/blob/master/LICENSE.txt
+   :recipe: /`vdjer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vdjer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vdjer/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: vdjer
 
-Installation
-------------
+   |downloads_vdjer| |docker_vdjer|
 
-.. highlight: bash
+   :versions: 0.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install vdjer
+   :required~by: |required_by_vdjer|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update vdjer
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install vdjer
+
+   and update with::
+
+      conda update vdjer
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/vdjer
+
+
+.. |required_by_vdjer| conda:required_by:: vdjer
+.. |downloads_vdjer| image:: https://img.shields.io/conda/dn/bioconda/vdjer.svg?style=flat
+   :alt:   (downloads)
+.. |docker_vdjer| image:: https://quay.io/repository/biocontainers/vdjer/status
+   :target: https://quay.io/repository/biocontainers/vdjer
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/vdjer.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/vdjer/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/vdjer/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/vdjer/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/vdjer/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/vdjer
-.. |docker| image:: https://quay.io/repository/biocontainers/vdjer/status
-                :target: https://quay.io/repository/biocontainers/vdjer
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/vdjer/README.html
 

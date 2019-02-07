@@ -1,54 +1,66 @@
-.. _`bioconductor-ramwas`:
+.. title:: Package Recipe 'bioconductor-ramwas'
+.. highlight: bash
+
 
 bioconductor-ramwas
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-ramwas
+   :replaces_section_title:
 
-A complete toolset for methylome\-wide association studies \(MWAS\). It is specifically designed for data from enrichment based methylation assays\, but can be applied to other data as well. The analysis pipeline includes seven steps\: \(1\) scanning aligned reads from BAM files\, \(2\) calculation of quality control measures\, \(3\) creation of methylation score \(coverage\) matrix\, \(4\) principal component analysis for capturing batch effects and detection of outliers\, \(5\) association analysis with respect to phenotypes of interest while correcting for top PCs and known covariates\, \(6\) annotation of significant findings\, and \(7\) multi\-marker analysis \(methylation risk score\) using elastic net. Additionally\, RaMWAS include tools for joint analysis of methlyation and genotype data. This work is published in Bioinformatics\, Shabalin et al. \(2018\) \<doi\:10.1093\/bioinformatics\/bty069\>.
+   A complete toolset for methylome\-wide association studies \(MWAS\). It is specifically designed for data from enrichment based methylation assays\, but can be applied to other data as well. The analysis pipeline includes seven steps\: \(1\) scanning aligned reads from BAM files\, \(2\) calculation of quality control measures\, \(3\) creation of methylation score \(coverage\) matrix\, \(4\) principal component analysis for capturing batch effects and detection of outliers\, \(5\) association analysis with respect to phenotypes of interest while correcting for top PCs and known covariates\, \(6\) annotation of significant findings\, and \(7\) multi\-marker analysis \(methylation risk score\) using elastic net. Additionally\, RaMWAS include tools for joint analysis of methlyation and genotype data. This work is published in Bioinformatics\, Shabalin et al. \(2018\) \<doi\:10.1093\/bioinformatics\/bty069\>.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ramwas.html
-Versions      1.6.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ramwas/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ramwas.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-ramwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramwas/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ramwas
 
-Installation
-------------
+   |downloads_bioconductor-ramwas| |docker_bioconductor-ramwas|
 
-.. highlight: bash
+   :versions: 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biomart` >=2.38.0,<2.39.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-digest`  :conda:package:`r-filematrix`  :conda:package:`r-glmnet`  :conda:package:`r-kernsmooth`  
 
-   conda install bioconductor-ramwas
+   :required~by: |required_by_bioconductor-ramwas|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ramwas
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ramwas
+
+   and update with::
+
+      conda update bioconductor-ramwas
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ramwas
+
+
+.. |required_by_bioconductor-ramwas| conda:required_by:: bioconductor-ramwas
+.. |downloads_bioconductor-ramwas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ramwas.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ramwas| image:: https://quay.io/repository/biocontainers/bioconductor-ramwas/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ramwas
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ramwas.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ramwas/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ramwas/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ramwas/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ramwas/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ramwas
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ramwas/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ramwas
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ramwas/README.html
 

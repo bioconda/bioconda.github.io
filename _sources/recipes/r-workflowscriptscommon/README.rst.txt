@@ -1,56 +1,66 @@
-.. _`r-workflowscriptscommon`:
+.. title:: Package Recipe 'r-workflowscriptscommon'
+.. highlight: bash
+
 
 r-workflowscriptscommon
 =======================
 
-|downloads|
+.. conda:recipe:: r-workflowscriptscommon
+   :replaces_section_title:
 
-Common functions for making R function wapper scripts. Functions in R packages are hard to call when building workflows outside of R\, so this package is used by other packages \(e.g. r\-seurat\-scripts\) to add sets of simple wrappers with robust argument parsing.
+   Common functions for making R function wapper scripts. Functions in R packages are hard to call when building workflows outside of R\, so this package is used by other packages \(e.g. r\-seurat\-scripts\) to add sets of simple wrappers with robust argument parsing.
 
-============= ===========
-Home          https://github.com/ebi-gene-expression-group/workflowscriptscommon
-Versions      0.0.2, 0.0.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-workflowscriptscommon/meta.yaml
+   :homepage: https://github.com/ebi-gene-expression-group/workflowscriptscommon
+   :license: GPL / GPL-3
+   :recipe: /`r-workflowscriptscommon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-workflowscriptscommon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-workflowscriptscommon/meta.yaml>`_
 
-
-Development   https://github.com/ebi-gene-expression-group/workflowscriptscommon
+   
 
 
-============= ===========
+.. conda:package:: r-workflowscriptscommon
+
+   |downloads_r-workflowscriptscommon| |docker_r-workflowscriptscommon|
+
+   :versions: 0.0.4, 0.0.2, 0.0.1
+
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-optparse`  
+
+   :required~by: |required_by_r-workflowscriptscommon|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-workflowscriptscommon
+
+   and update with::
+
+      conda update r-workflowscriptscommon
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-workflowscriptscommon
+
+
+.. |required_by_r-workflowscriptscommon| conda:required_by:: r-workflowscriptscommon
+.. |downloads_r-workflowscriptscommon| image:: https://img.shields.io/conda/dn/bioconda/r-workflowscriptscommon.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-workflowscriptscommon| image:: https://quay.io/repository/biocontainers/r-workflowscriptscommon/status
+   :target: https://quay.io/repository/biocontainers/r-workflowscriptscommon
 
 
 
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install r-workflowscriptscommon
-
-and update with::
-
-   conda update r-workflowscriptscommon
 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/r-workflowscriptscommon.
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-workflowscriptscommon/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-workflowscriptscommon/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-workflowscriptscommon/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-workflowscriptscommon/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-workflowscriptscommon
-.. |docker| image:: https://quay.io/repository/biocontainers/r-workflowscriptscommon/status
-                :target: https://quay.io/repository/biocontainers/r-workflowscriptscommon
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-workflowscriptscommon/README.html
 

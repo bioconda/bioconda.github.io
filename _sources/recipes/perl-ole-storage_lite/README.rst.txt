@@ -1,54 +1,66 @@
-.. _`perl-ole-storage_lite`:
+.. title:: Package Recipe 'perl-ole-storage_lite'
+.. highlight: bash
+
 
 perl-ole-storage_lite
 =====================
 
-|downloads|
+.. conda:recipe:: perl-ole-storage_lite
+   :replaces_section_title:
 
-Read and write OLE storage files.
+   Read and write OLE storage files.
 
-============= ===========
-Home          http://metacpan.org/pod/OLE-Storage_Lite
-Versions      0.19
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ole-storage_lite/meta.yaml
+   :homepage: http://metacpan.org/pod/OLE-Storage_Lite
+   :license: unknown
+   :recipe: /`perl-ole-storage_lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ole-storage_lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ole-storage_lite/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-ole-storage_lite
 
-Installation
-------------
+   |downloads_perl-ole-storage_lite| |docker_perl-ole-storage_lite|
 
-.. highlight: bash
+   :versions: 0.19
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-ole-storage_lite
+   :required~by: |required_by_perl-ole-storage_lite|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-ole-storage_lite
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-ole-storage_lite
+
+   and update with::
+
+      conda update perl-ole-storage_lite
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-ole-storage_lite
+
+
+.. |required_by_perl-ole-storage_lite| conda:required_by:: perl-ole-storage_lite
+.. |downloads_perl-ole-storage_lite| image:: https://img.shields.io/conda/dn/bioconda/perl-ole-storage_lite.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-ole-storage_lite| image:: https://quay.io/repository/biocontainers/perl-ole-storage_lite/status
+   :target: https://quay.io/repository/biocontainers/perl-ole-storage_lite
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-ole-storage_lite.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-ole-storage_lite/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-ole-storage_lite/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-ole-storage_lite/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-ole-storage_lite/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-ole-storage_lite
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-ole-storage_lite/status
-                :target: https://quay.io/repository/biocontainers/perl-ole-storage_lite
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-ole-storage_lite/README.html
 

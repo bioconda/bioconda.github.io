@@ -1,54 +1,66 @@
-.. _`gsort`:
+.. title:: Package Recipe 'gsort'
+.. highlight: bash
+
 
 gsort
 =====
 
-|downloads|
+.. conda:recipe:: gsort
+   :replaces_section_title:
 
-sort genomic files according to a genomefile
+   sort genomic files according to a genomefile
 
-============= ===========
-Home          https://github.com/brentp/gsort
-Versions      0.0.6, 0.0.2, 0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gsort/meta.yaml
+   :homepage: https://github.com/brentp/gsort
+   :license: MIT
+   :recipe: /`gsort <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: gsort
 
-Installation
-------------
+   |downloads_gsort| |docker_gsort|
 
-.. highlight: bash
+   :versions: 0.0.6, 0.0.2, 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install gsort
+   :required~by: |required_by_gsort|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update gsort
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install gsort
+
+   and update with::
+
+      conda update gsort
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/gsort
+
+
+.. |required_by_gsort| conda:required_by:: gsort
+.. |downloads_gsort| image:: https://img.shields.io/conda/dn/bioconda/gsort.svg?style=flat
+   :alt:   (downloads)
+.. |docker_gsort| image:: https://quay.io/repository/biocontainers/gsort/status
+   :target: https://quay.io/repository/biocontainers/gsort
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/gsort.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gsort/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/gsort/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/gsort/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/gsort/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/gsort
-.. |docker| image:: https://quay.io/repository/biocontainers/gsort/status
-                :target: https://quay.io/repository/biocontainers/gsort
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/gsort/README.html
 

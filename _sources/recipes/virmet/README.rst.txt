@@ -1,56 +1,67 @@
-.. _`virmet`:
+.. title:: Package Recipe 'virmet'
+.. highlight: bash
+
 
 virmet
 ======
 
-|downloads|
+.. conda:recipe:: virmet
+   :replaces_section_title:
 
-A pipeline for viral metagenomics
+   A pipeline for viral metagenomics
 
-============= ===========
-Home          http://virmet.readthedocs.io
-Versions      v1.1.1, v1.1, v1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//virmet/meta.yaml
+   :homepage: http://virmet.readthedocs.io
+   :developer docs: https://github.com/ozagordi/VirMet
+   :license: MIT / MIT
+   :recipe: /`virmet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virmet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virmet/meta.yaml>`_
 
-
-Development   https://github.com/ozagordi/VirMet
-
-
-============= ===========
+   
 
 
+.. conda:package:: virmet
 
-Installation
-------------
+   |downloads_virmet| |docker_virmet|
 
-.. highlight: bash
+   :versions: v1.1.1, v1.1, v1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`blast` >=2.3 :conda:package:`bwa`  :conda:package:`entrez-direct`  :conda:package:`htslib`  :conda:package:`pandas`  :conda:package:`prinseq`  :conda:package:`python` 3.5* :conda:package:`r-ggplot2`  :conda:package:`samtools` >=1.3 :conda:package:`seqtk`  
 
-   conda install virmet
+   :required~by: |required_by_virmet|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update virmet
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install virmet
+
+   and update with::
+
+      conda update virmet
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/virmet
+
+
+.. |required_by_virmet| conda:required_by:: virmet
+.. |downloads_virmet| image:: https://img.shields.io/conda/dn/bioconda/virmet.svg?style=flat
+   :alt:   (downloads)
+.. |docker_virmet| image:: https://quay.io/repository/biocontainers/virmet/status
+   :target: https://quay.io/repository/biocontainers/virmet
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/virmet.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/virmet/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/virmet/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/virmet/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/virmet/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/virmet
-.. |docker| image:: https://quay.io/repository/biocontainers/virmet/status
-                :target: https://quay.io/repository/biocontainers/virmet
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/virmet/README.html
 

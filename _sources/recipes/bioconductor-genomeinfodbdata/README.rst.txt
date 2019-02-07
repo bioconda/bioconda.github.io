@@ -1,54 +1,66 @@
-.. _`bioconductor-genomeinfodbdata`:
+.. title:: Package Recipe 'bioconductor-genomeinfodbdata'
+.. highlight: bash
+
 
 bioconductor-genomeinfodbdata
 =============================
 
-|downloads|
+.. conda:recipe:: bioconductor-genomeinfodbdata
+   :replaces_section_title:
 
-Files for mapping between NCBI taxonomy ID and species. Used by functions in the GenomeInfoDb package.
+   Files for mapping between NCBI taxonomy ID and species. Used by functions in the GenomeInfoDb package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/GenomeInfoDbData.html
-Versions      1.2.0, 1.1.0, 1.0.0, 0.99.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomeinfodbdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/GenomeInfoDbData.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-genomeinfodbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genomeinfodbdata
 
-Installation
-------------
+   |downloads_bioconductor-genomeinfodbdata| |docker_bioconductor-genomeinfodbdata|
 
-.. highlight: bash
+   :versions: 1.2.0, 1.1.0, 1.0.0, 0.99.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-genomeinfodbdata
+   :required~by: |required_by_bioconductor-genomeinfodbdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genomeinfodbdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genomeinfodbdata
+
+   and update with::
+
+      conda update bioconductor-genomeinfodbdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genomeinfodbdata
+
+
+.. |required_by_bioconductor-genomeinfodbdata| conda:required_by:: bioconductor-genomeinfodbdata
+.. |downloads_bioconductor-genomeinfodbdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomeinfodbdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genomeinfodbdata| image:: https://quay.io/repository/biocontainers/bioconductor-genomeinfodbdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genomeinfodbdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genomeinfodbdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genomeinfodbdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genomeinfodbdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genomeinfodbdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genomeinfodbdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genomeinfodbdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomeinfodbdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genomeinfodbdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genomeinfodbdata/README.html
 

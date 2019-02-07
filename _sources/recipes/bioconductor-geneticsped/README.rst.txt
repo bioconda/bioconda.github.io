@@ -1,54 +1,66 @@
-.. _`bioconductor-geneticsped`:
+.. title:: Package Recipe 'bioconductor-geneticsped'
+.. highlight: bash
+
 
 bioconductor-geneticsped
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-geneticsped
+   :replaces_section_title:
 
-Classes and methods for handling pedigree data. It also includes functions to calculate genetic relationship measures as relationship and inbreeding coefficients and other utilities. Note that package is not yet stable. Use it with care\!
+   Classes and methods for handling pedigree data. It also includes functions to calculate genetic relationship measures as relationship and inbreeding coefficients and other utilities. Note that package is not yet stable. Use it with care\!
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneticsPed.html
-Versions      1.44.0
-License       LGPL (>= 2.1) | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneticsped/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneticsPed.html
+   :license: LGPL (>= 2.1) | file LICENSE
+   :recipe: /`bioconductor-geneticsped <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geneticsped
 
-Installation
-------------
+   |downloads_bioconductor-geneticsped| |docker_bioconductor-geneticsped|
 
-.. highlight: bash
+   :versions: 1.44.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gdata`  :conda:package:`r-genetics`  :conda:package:`r-mass`  
 
-   conda install bioconductor-geneticsped
+   :required~by: |required_by_bioconductor-geneticsped|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geneticsped
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geneticsped
+
+   and update with::
+
+      conda update bioconductor-geneticsped
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geneticsped
+
+
+.. |required_by_bioconductor-geneticsped| conda:required_by:: bioconductor-geneticsped
+.. |downloads_bioconductor-geneticsped| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneticsped.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geneticsped| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsped/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geneticsped
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geneticsped.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geneticsped/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geneticsped/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geneticsped/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geneticsped/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geneticsped
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsped/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geneticsped
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geneticsped/README.html
 

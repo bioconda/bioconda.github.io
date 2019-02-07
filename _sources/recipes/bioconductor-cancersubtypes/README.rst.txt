@@ -1,56 +1,67 @@
-.. _`bioconductor-cancersubtypes`:
+.. title:: Package Recipe 'bioconductor-cancersubtypes'
+.. highlight: bash
+
 
 bioconductor-cancersubtypes
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-cancersubtypes
+   :replaces_section_title:
 
-CancerSubtypes integrates the current common computational biology methods for cancer subtypes identification and provides a standardized framework for cancer subtype analysis based multi\-omics data\, such as gene expression\, miRNA expression\, DNA methylation and others.
+   CancerSubtypes integrates the current common computational biology methods for cancer subtypes identification and provides a standardized framework for cancer subtype analysis based multi\-omics data\, such as gene expression\, miRNA expression\, DNA methylation and others.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/CancerSubtypes.html
-Versions      1.8.0, 1.6.0, 1.4.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cancersubtypes/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CancerSubtypes.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-cancersubtypes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancersubtypes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancersubtypes/meta.yaml>`_
+   :links: biotools: :biotools:`cancersubtypes`, doi: :doi:`10.1038/nmeth.3252`
 
-
-
-Links         biotools: :biotools:`cancersubtypes`, doi: :doi:`10.1038/nmeth.3252`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cancersubtypes
 
-Installation
-------------
+   |downloads_bioconductor-cancersubtypes| |docker_bioconductor-cancersubtypes|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-consensusclusterplus` >=1.46.0,<1.47.0 :conda:package:`bioconductor-impute` >=1.56.0,<1.57.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-icluster`  :conda:package:`r-nmf`  :conda:package:`r-sigclust`  :conda:package:`r-snftool`  :conda:package:`r-survival`  
 
-   conda install bioconductor-cancersubtypes
+   :required~by: |required_by_bioconductor-cancersubtypes|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cancersubtypes
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cancersubtypes
+
+   and update with::
+
+      conda update bioconductor-cancersubtypes
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cancersubtypes
+
+
+.. |required_by_bioconductor-cancersubtypes| conda:required_by:: bioconductor-cancersubtypes
+.. |downloads_bioconductor-cancersubtypes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancersubtypes.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cancersubtypes| image:: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cancersubtypes.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cancersubtypes/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cancersubtypes/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cancersubtypes/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cancersubtypes/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cancersubtypes
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cancersubtypes/README.html
 

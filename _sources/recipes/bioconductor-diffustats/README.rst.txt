@@ -1,56 +1,67 @@
-.. _`bioconductor-diffustats`:
+.. title:: Package Recipe 'bioconductor-diffustats'
+.. highlight: bash
+
 
 bioconductor-diffustats
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-diffustats
+   :replaces_section_title:
 
-Label propagation approaches are a widely used procedure in computational biology for giving context to molecular entities using network data. Node labels\, which can derive from gene expression\, genome\-wide association studies\, protein domains or metabolomics profiling\, are propagated to their neighbours in the network\, effectively smoothing the scores through prior annotated knowledge and prioritising novel candidates. The R package diffuStats contains a collection of diffusion kernels and scoring approaches that facilitates their computation and benchmarking.
+   Label propagation approaches are a widely used procedure in computational biology for giving context to molecular entities using network data. Node labels\, which can derive from gene expression\, genome\-wide association studies\, protein domains or metabolomics profiling\, are propagated to their neighbours in the network\, effectively smoothing the scores through prior annotated knowledge and prioritising novel candidates. The R package diffuStats contains a collection of diffusion kernels and scoring approaches that facilitates their computation and benchmarking.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/diffuStats.html
-Versions      1.2.0, 0.104.0, 0.102.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diffustats/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/diffuStats.html
+   :license: GPL-3
+   :recipe: /`bioconductor-diffustats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats/meta.yaml>`_
+   :links: biotools: :biotools:`diffuStats`, doi: :doi:`10.1093/bioinformatics/btx632`
 
-
-
-Links         biotools: :biotools:`diffuStats`, doi: :doi:`10.1093/bioinformatics/btx632`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-diffustats
 
-Installation
-------------
+   |downloads_bioconductor-diffustats| |docker_bioconductor-diffustats|
 
-.. highlight: bash
+   :versions: 1.2.0, 0.104.0, 0.102.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-expm`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-plyr`  :conda:package:`r-precrec`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppparallel`  
 
-   conda install bioconductor-diffustats
+   :required~by: |required_by_bioconductor-diffustats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-diffustats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-diffustats
+
+   and update with::
+
+      conda update bioconductor-diffustats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-diffustats
+
+
+.. |required_by_bioconductor-diffustats| conda:required_by:: bioconductor-diffustats
+.. |downloads_bioconductor-diffustats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffustats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-diffustats| image:: https://quay.io/repository/biocontainers/bioconductor-diffustats/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-diffustats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-diffustats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-diffustats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-diffustats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-diffustats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-diffustats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-diffustats
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-diffustats/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-diffustats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-diffustats/README.html
 

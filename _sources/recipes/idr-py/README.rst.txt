@@ -1,92 +1,104 @@
-.. _`idr-py`:
+.. title:: Package Recipe 'idr-py'
+.. highlight: bash
+
 
 idr-py
 ======
 
-|downloads|
+.. conda:recipe:: idr-py
+   :replaces_section_title:
 
-Helper methods for accessing the Image Data Resource \(IDR\)
+   Helper methods for accessing the Image Data Resource \(IDR\)
 
-============= ===========
-Home          https://github.com/IDR/idr-py
-Versions      0.3.0, 0.2.1, 0.2.0
-License       GPL-2.0+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//idr-py/meta.yaml
+   :homepage: https://github.com/IDR/idr-py
+   :license: GPL2 / GPL-2.0+
+   :recipe: /`idr-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr-py/meta.yaml>`_
 
+   \.. image\:\: https\:\/\/travis\-ci.org\/IDR\/idr\-py.svg\?branch\=master
+       \:target\: https\:\/\/travis\-ci.org\/IDR\/idr\-py
 
+   .. image\:\: https\:\/\/badge.fury.io\/py\/idr\-py.svg
+       \:target\: https\:\/\/badge.fury.io\/py\/idr\-py
 
-============= ===========
+   IDR\-PY
+   \=\=\=\=\=\=
 
-\.. image\:\: https\:\/\/travis\-ci.org\/IDR\/idr\-py.svg\?branch\=master
-    \:target\: https\:\/\/travis\-ci.org\/IDR\/idr\-py
+   Library with helper methods for accessing the Image Data Resource \(IDR\).
 
-.. image\:\: https\:\/\/badge.fury.io\/py\/idr\-py.svg
-    \:target\: https\:\/\/badge.fury.io\/py\/idr\-py
+   Requirements
+   \=\=\=\=\=\=\=\=\=\=\=\=
 
-IDR\-PY
-\=\=\=\=\=\=
+    \* OMERO.py 5.3.x
+    \* Python 2.6\+
 
-Library with helper methods for accessing the Image Data Resource \(IDR\).
+   Installing from PyPI
+   \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
 
-Requirements
-\=\=\=\=\=\=\=\=\=\=\=\=
-
- \* OMERO.py 5.3.x
- \* Python 2.6\+
-
-Installing from PyPI
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
-
-This section assumes that an OMERO.web is already installed.
+   This section assumes that an OMERO.web is already installed.
 
 
-Install the app using \`pip \<https\:\/\/pip.pypa.io\/en\/stable\/\>\`\_\:
+   Install the app using \`pip \<https\:\/\/pip.pypa.io\/en\/stable\/\>\`\_\:
 
-\:\:
+   \:\:
 
-    \$ pip install \-U idr\-py
-
-
-License
-\-\-\-\-\-\-\-
-
-This project\, similar to many Open Microscopy Environment \(OME\) projects\, is licensed under the terms of the GNU General Public License \(GPL\) v2 or later.
-
-Copyright
-\-\-\-\-\-\-\-\-\-
-
-2017\, The Open Microscopy Environment
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install idr-py
-
-and update with::
-
-   conda update idr-py
+       \$ pip install \-U idr\-py
 
 
+   License
+   \-\-\-\-\-\-\-
 
-|docker|
+   This project\, similar to many Open Microscopy Environment \(OME\) projects\, is licensed under the terms of the GNU General Public License \(GPL\) v2 or later.
 
-A Docker container is available at https://quay.io/repository/biocontainers/idr-py.
+   Copyright
+   \-\-\-\-\-\-\-\-\-
+
+   2017\, The Open Microscopy Environment
+
+
+.. conda:package:: idr-py
+
+   |downloads_idr-py| |docker_idr-py|
+
+   :versions: 0.3.0, 0.2.1, 0.2.0
+
+   :depends: :conda:package:`ipython`  :conda:package:`ipywidgets`  :conda:package:`matplotlib`  :conda:package:`pandas`  :conda:package:`python` 2.7* :conda:package:`python-omero` <5.5 :conda:package:`requests`  :conda:package:`seaborn`  
+
+   :required~by: |required_by_idr-py|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install idr-py
+
+   and update with::
+
+      conda update idr-py
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/idr-py
+
+
+.. |required_by_idr-py| conda:required_by:: idr-py
+.. |downloads_idr-py| image:: https://img.shields.io/conda/dn/bioconda/idr-py.svg?style=flat
+   :alt:   (downloads)
+.. |docker_idr-py| image:: https://quay.io/repository/biocontainers/idr-py/status
+   :target: https://quay.io/repository/biocontainers/idr-py
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/idr-py/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/idr-py/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/idr-py/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/idr-py/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/idr-py
-.. |docker| image:: https://quay.io/repository/biocontainers/idr-py/status
-                :target: https://quay.io/repository/biocontainers/idr-py
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/idr-py/README.html
 

@@ -1,54 +1,66 @@
-.. _`msgf_plus`:
+.. title:: Package Recipe 'msgf_plus'
+.. highlight: bash
+
 
 msgf_plus
 =========
 
-|downloads|
+.. conda:recipe:: msgf_plus
+   :replaces_section_title:
 
-MS\-GF\+ is a new MS\/MS database search tool that is sensitive \(it identifies more peptides than other database search tools and as many peptides as spectral library search tools\) and universal \(works well for diverse types of spectra\, different configurations of MS instruments and different experimental protocols\).
+   MS\-GF\+ is a new MS\/MS database search tool that is sensitive \(it identifies more peptides than other database search tools and as many peptides as spectral library search tools\) and universal \(works well for diverse types of spectra\, different configurations of MS instruments and different experimental protocols\).
 
-============= ===========
-Home          https://omics.pnl.gov/software/ms-gf
-Versions      2017.07.21, 2016.10.26, 1.0.0
-License       https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//msgf_plus/meta.yaml
+   :homepage: https://omics.pnl.gov/software/ms-gf
+   :license: https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
+   :recipe: /`msgf_plus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: msgf_plus
 
-Installation
-------------
+   |downloads_msgf_plus| |docker_msgf_plus|
 
-.. highlight: bash
+   :versions: 2017.07.21, 2016.10.26, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`openjdk`  :conda:package:`python` 2.7* 
 
-   conda install msgf_plus
+   :required~by: |required_by_msgf_plus|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update msgf_plus
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install msgf_plus
+
+   and update with::
+
+      conda update msgf_plus
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/msgf_plus
+
+
+.. |required_by_msgf_plus| conda:required_by:: msgf_plus
+.. |downloads_msgf_plus| image:: https://img.shields.io/conda/dn/bioconda/msgf_plus.svg?style=flat
+   :alt:   (downloads)
+.. |docker_msgf_plus| image:: https://quay.io/repository/biocontainers/msgf_plus/status
+   :target: https://quay.io/repository/biocontainers/msgf_plus
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/msgf_plus.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/msgf_plus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/msgf_plus/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/msgf_plus/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/msgf_plus/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/msgf_plus
-.. |docker| image:: https://quay.io/repository/biocontainers/msgf_plus/status
-                :target: https://quay.io/repository/biocontainers/msgf_plus
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/msgf_plus/README.html
 

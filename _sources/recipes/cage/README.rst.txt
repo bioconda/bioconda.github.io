@@ -1,54 +1,66 @@
-.. _`cage`:
+.. title:: Package Recipe 'cage'
+.. highlight: bash
+
 
 cage
 ====
 
-|downloads|
+.. conda:recipe:: cage
+   :replaces_section_title:
 
-Changepoint Analysis for Efficient Variant Calling
+   Changepoint Analysis for Efficient Variant Calling
 
-============= ===========
-Home          https://github.com/adambloniarz/CAGe
-Versions      2016.05.13, 2016.01.24
-License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cage/meta.yaml
+   :homepage: https://github.com/adambloniarz/CAGe
+   :license: Apache v2
+   :recipe: /`cage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: cage
 
-Installation
-------------
+   |downloads_cage| |docker_cage|
 
-.. highlight: bash
+   :versions: 2016.05.13, 2016.01.24
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`python`  :conda:package:`sqlite` >=3.24.0,<4.0a0 
 
-   conda install cage
+   :required~by: |required_by_cage|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update cage
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cage
+
+   and update with::
+
+      conda update cage
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/cage
+
+
+.. |required_by_cage| conda:required_by:: cage
+.. |downloads_cage| image:: https://img.shields.io/conda/dn/bioconda/cage.svg?style=flat
+   :alt:   (downloads)
+.. |docker_cage| image:: https://quay.io/repository/biocontainers/cage/status
+   :target: https://quay.io/repository/biocontainers/cage
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/cage.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/cage/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cage/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/cage/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/cage/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/cage
-.. |docker| image:: https://quay.io/repository/biocontainers/cage/status
-                :target: https://quay.io/repository/biocontainers/cage
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cage/README.html
 

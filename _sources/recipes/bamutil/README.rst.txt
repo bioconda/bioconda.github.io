@@ -1,56 +1,67 @@
-.. _`bamutil`:
+.. title:: Package Recipe 'bamutil'
+.. highlight: bash
+
 
 bamutil
 =======
 
-|downloads|
+.. conda:recipe:: bamutil
+   :replaces_section_title:
 
-Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam.
+   Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam.
 
-============= ===========
-Home          http://genome.sph.umich.edu/wiki/BamUtil
-Versions      1.0.14
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bamutil/meta.yaml
+   :homepage: http://genome.sph.umich.edu/wiki/BamUtil
+   :license: GPLv3
+   :recipe: /`bamutil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamutil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamutil/meta.yaml>`_
+   :links: biotools: :biotools:`Bamutil`
 
-
-
-Links         biotools: :biotools:`Bamutil`
-
-============= ===========
+   
 
 
+.. conda:package:: bamutil
 
-Installation
-------------
+   |downloads_bamutil| |docker_bamutil|
 
-.. highlight: bash
+   :versions: 1.0.14
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install bamutil
+   :required~by: |required_by_bamutil|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bamutil
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bamutil
+
+   and update with::
+
+      conda update bamutil
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bamutil
+
+
+.. |required_by_bamutil| conda:required_by:: bamutil
+.. |downloads_bamutil| image:: https://img.shields.io/conda/dn/bioconda/bamutil.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bamutil| image:: https://quay.io/repository/biocontainers/bamutil/status
+   :target: https://quay.io/repository/biocontainers/bamutil
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bamutil.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bamutil/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bamutil/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bamutil/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bamutil/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bamutil
-.. |docker| image:: https://quay.io/repository/biocontainers/bamutil/status
-                :target: https://quay.io/repository/biocontainers/bamutil
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bamutil/README.html
 

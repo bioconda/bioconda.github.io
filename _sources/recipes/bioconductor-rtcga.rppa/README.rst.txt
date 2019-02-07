@@ -1,54 +1,66 @@
-.. _`bioconductor-rtcga.rppa`:
+.. title:: Package Recipe 'bioconductor-rtcga.rppa'
+.. highlight: bash
+
 
 bioconductor-rtcga.rppa
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-rtcga.rppa
+   :replaces_section_title:
 
-Package provides RPPA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Protein\+Array \+Data\+Format\+Specification\?src\=search
+   Package provides RPPA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Protein\+Array \+Data\+Format\+Specification\?src\=search
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.RPPA.html
-Versions      1.10.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.rppa/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.RPPA.html
+   :license: GPL-2
+   :recipe: /`bioconductor-rtcga.rppa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rppa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rppa/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-rtcga.rppa
 
-Installation
-------------
+   |downloads_bioconductor-rtcga.rppa| |docker_bioconductor-rtcga.rppa|
 
-.. highlight: bash
+   :versions: 1.10.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-rtcga` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-rtcga.rppa
+   :required~by: |required_by_bioconductor-rtcga.rppa|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-rtcga.rppa
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-rtcga.rppa
+
+   and update with::
+
+      conda update bioconductor-rtcga.rppa
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-rtcga.rppa
+
+
+.. |required_by_bioconductor-rtcga.rppa| conda:required_by:: bioconductor-rtcga.rppa
+.. |downloads_bioconductor-rtcga.rppa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.rppa.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-rtcga.rppa| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.rppa/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.rppa
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-rtcga.rppa.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-rtcga.rppa/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-rtcga.rppa/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-rtcga.rppa/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-rtcga.rppa/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-rtcga.rppa
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.rppa/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.rppa
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-rtcga.rppa/README.html
 

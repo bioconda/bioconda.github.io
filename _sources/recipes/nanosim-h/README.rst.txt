@@ -1,54 +1,66 @@
-.. _`nanosim-h`:
+.. title:: Package Recipe 'nanosim-h'
+.. highlight: bash
+
 
 nanosim-h
 =========
 
-|downloads|
+.. conda:recipe:: nanosim-h
+   :replaces_section_title:
 
-NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology.
+   NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology.
 
-============= ===========
-Home          https://github.com/karel-brinda/NanoSim-H
-Versions      1.1.0.4, 1.1.0.3, 1.1.0.2
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanosim-h/meta.yaml
+   :homepage: https://github.com/karel-brinda/NanoSim-H
+   :license: GPLv3
+   :recipe: /`nanosim-h <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim-h>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim-h/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: nanosim-h
 
-Installation
-------------
+   |downloads_nanosim-h| |docker_nanosim-h|
 
-.. highlight: bash
+   :versions: 1.1.0.4, 1.1.0.3, 1.1.0.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`last`  :conda:package:`numpy`  :conda:package:`progressbar2`  :conda:package:`python`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
-   conda install nanosim-h
+   :required~by: |required_by_nanosim-h|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update nanosim-h
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install nanosim-h
+
+   and update with::
+
+      conda update nanosim-h
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/nanosim-h
+
+
+.. |required_by_nanosim-h| conda:required_by:: nanosim-h
+.. |downloads_nanosim-h| image:: https://img.shields.io/conda/dn/bioconda/nanosim-h.svg?style=flat
+   :alt:   (downloads)
+.. |docker_nanosim-h| image:: https://quay.io/repository/biocontainers/nanosim-h/status
+   :target: https://quay.io/repository/biocontainers/nanosim-h
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/nanosim-h.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/nanosim-h/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanosim-h/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/nanosim-h/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/nanosim-h/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/nanosim-h
-.. |docker| image:: https://quay.io/repository/biocontainers/nanosim-h/status
-                :target: https://quay.io/repository/biocontainers/nanosim-h
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/nanosim-h/README.html
 

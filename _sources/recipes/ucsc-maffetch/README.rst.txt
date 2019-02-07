@@ -1,54 +1,66 @@
-.. _`ucsc-maffetch`:
+.. title:: Package Recipe 'ucsc-maffetch'
+.. highlight: bash
+
 
 ucsc-maffetch
 =============
 
-|downloads|
+.. conda:recipe:: ucsc-maffetch
+   :replaces_section_title:
 
-get overlapping records from an MAF using an index table
+   get overlapping records from an MAF using an index table
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-maffetch/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-maffetch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maffetch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maffetch/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-maffetch
 
-Installation
-------------
+   |downloads_ucsc-maffetch| |docker_ucsc-maffetch|
 
-.. highlight: bash
+   :versions: 366, 357, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-maffetch
+   :required~by: |required_by_ucsc-maffetch|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-maffetch
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-maffetch
+
+   and update with::
+
+      conda update ucsc-maffetch
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-maffetch
+
+
+.. |required_by_ucsc-maffetch| conda:required_by:: ucsc-maffetch
+.. |downloads_ucsc-maffetch| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maffetch.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-maffetch| image:: https://quay.io/repository/biocontainers/ucsc-maffetch/status
+   :target: https://quay.io/repository/biocontainers/ucsc-maffetch
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-maffetch.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-maffetch/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-maffetch/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-maffetch/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-maffetch/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-maffetch
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-maffetch/status
-                :target: https://quay.io/repository/biocontainers/ucsc-maffetch
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-maffetch/README.html
 

@@ -1,56 +1,67 @@
-.. _`bioconductor-basic4cseq`:
+.. title:: Package Recipe 'bioconductor-basic4cseq'
+.. highlight: bash
+
 
 bioconductor-basic4cseq
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-basic4cseq
+   :replaces_section_title:
 
-Basic4Cseq is an R\/Bioconductor package for basic filtering\, analysis and subsequent visualization of 4C\-seq data. Virtual fragment libraries can be created for any BSGenome package\, and filter functions for both reads and fragments and basic quality controls are included. Fragment data in the vicinity of the experiment\'s viewpoint can be visualized as a coverage plot based on a running median approach and a multi\-scale contact profile.
+   Basic4Cseq is an R\/Bioconductor package for basic filtering\, analysis and subsequent visualization of 4C\-seq data. Virtual fragment libraries can be created for any BSGenome package\, and filter functions for both reads and fragments and basic quality controls are included. Fragment data in the vicinity of the experiment\'s viewpoint can be visualized as a coverage plot based on a running median approach and a multi\-scale contact profile.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Basic4Cseq.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.6.0
-License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-basic4cseq/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Basic4Cseq.html
+   :license: LGPL-3
+   :recipe: /`bioconductor-basic4cseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq/meta.yaml>`_
+   :links: biotools: :biotools:`basic4cseq`, doi: :doi:`10.1093/bioinformatics/btu497`
 
-
-
-Links         biotools: :biotools:`basic4cseq`, doi: :doi:`10.1093/bioinformatics/btu497`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-basic4cseq
 
-Installation
-------------
+   |downloads_bioconductor-basic4cseq| |docker_bioconductor-basic4cseq|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.6.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-bsgenome.ecoli.ncbi.20080805` >=1.3.0,<1.4.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catools`  :conda:package:`r-rcircos`  
 
-   conda install bioconductor-basic4cseq
+   :required~by: |required_by_bioconductor-basic4cseq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-basic4cseq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-basic4cseq
+
+   and update with::
+
+      conda update bioconductor-basic4cseq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-basic4cseq
+
+
+.. |required_by_bioconductor-basic4cseq| conda:required_by:: bioconductor-basic4cseq
+.. |downloads_bioconductor-basic4cseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basic4cseq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-basic4cseq| image:: https://quay.io/repository/biocontainers/bioconductor-basic4cseq/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-basic4cseq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-basic4cseq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-basic4cseq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-basic4cseq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-basic4cseq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-basic4cseq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-basic4cseq
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-basic4cseq/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-basic4cseq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-basic4cseq/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-tcgamethylation450k`:
+.. title:: Package Recipe 'bioconductor-tcgamethylation450k'
+.. highlight: bash
+
 
 bioconductor-tcgamethylation450k
 ================================
 
-|downloads|
+.. conda:recipe:: bioconductor-tcgamethylation450k
+   :replaces_section_title:
 
-The Cancer Genome Atlas \(TCGA\) is applying genomics technologies to over 20 different types of cancer.  This package contains a small set of 450k array data in idat format.
+   The Cancer Genome Atlas \(TCGA\) is applying genomics technologies to over 20 different types of cancer.  This package contains a small set of 450k array data in idat format.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/TCGAMethylation450k.html
-Versions      1.18.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tcgamethylation450k/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TCGAMethylation450k.html
+   :license: GPL-2
+   :recipe: /`bioconductor-tcgamethylation450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-tcgamethylation450k
 
-Installation
-------------
+   |downloads_bioconductor-tcgamethylation450k| |docker_bioconductor-tcgamethylation450k|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-tcgamethylation450k
+   :required~by: |required_by_bioconductor-tcgamethylation450k|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-tcgamethylation450k
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-tcgamethylation450k
+
+   and update with::
+
+      conda update bioconductor-tcgamethylation450k
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-tcgamethylation450k
+
+
+.. |required_by_bioconductor-tcgamethylation450k| conda:required_by:: bioconductor-tcgamethylation450k
+.. |downloads_bioconductor-tcgamethylation450k| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgamethylation450k.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-tcgamethylation450k| image:: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-tcgamethylation450k/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-tcgamethylation450k/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-tcgamethylation450k/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-tcgamethylation450k/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-tcgamethylation450k
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-tcgamethylation450k/README.html
 

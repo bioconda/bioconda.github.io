@@ -1,56 +1,67 @@
-.. _`biomaj`:
+.. title:: Package Recipe 'biomaj'
+.. highlight: bash
+
 
 biomaj
 ======
 
-|downloads|
+.. conda:recipe:: biomaj
+   :replaces_section_title:
 
-Automates the update cycle and the supervision of the locally mirrored databank repository
+   Automates the update cycle and the supervision of the locally mirrored databank repository
 
-============= ===========
-Home          http://biomaj.genouest.org
-Versions      3.0.19
-License       GNU Affero General Public License v3 or later (AGPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biomaj/meta.yaml
+   :homepage: http://biomaj.genouest.org
+   :license: AGPL / GNU Affero General Public License v3 or later (AGPLv3+)
+   :recipe: /`biomaj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biomaj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biomaj/meta.yaml>`_
+   :links: biotools: :biotools:`biomaj`, doi: :doi:`10.1093/bioinformatics/btn325`
 
-
-
-Links         biotools: :biotools:`biomaj`, doi: :doi:`10.1093/bioinformatics/btn325`
-
-============= ===========
+   
 
 
+.. conda:package:: biomaj
 
-Installation
-------------
+   |downloads_biomaj| |docker_biomaj|
 
-.. highlight: bash
+   :versions: 3.0.19
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bcrypt`  :conda:package:`drmaa`  :conda:package:`elasticsearch`  :conda:package:`future`  :conda:package:`ldap3`  :conda:package:`pycurl`  :conda:package:`pymongo`  :conda:package:`python` 2.7* :conda:package:`tabulate`  
 
-   conda install biomaj
+   :required~by: |required_by_biomaj|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update biomaj
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biomaj
+
+   and update with::
+
+      conda update biomaj
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/biomaj
+
+
+.. |required_by_biomaj| conda:required_by:: biomaj
+.. |downloads_biomaj| image:: https://img.shields.io/conda/dn/bioconda/biomaj.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biomaj| image:: https://quay.io/repository/biocontainers/biomaj/status
+   :target: https://quay.io/repository/biocontainers/biomaj
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/biomaj.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biomaj/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biomaj/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/biomaj/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/biomaj/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/biomaj
-.. |docker| image:: https://quay.io/repository/biocontainers/biomaj/status
-                :target: https://quay.io/repository/biocontainers/biomaj
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biomaj/README.html
 

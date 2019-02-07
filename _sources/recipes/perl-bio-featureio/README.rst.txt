@@ -1,54 +1,66 @@
-.. _`perl-bio-featureio`:
+.. title:: Package Recipe 'perl-bio-featureio'
+.. highlight: bash
+
 
 perl-bio-featureio
 ==================
 
-|downloads|
+.. conda:recipe:: perl-bio-featureio
+   :replaces_section_title:
 
-Modules for reading\, writing\, and manipulating sequence features
+   Modules for reading\, writing\, and manipulating sequence features
 
-============= ===========
-Home          https://metacpan.org/release/Bio-FeatureIO
-Versions      1.6.905
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-featureio/meta.yaml
+   :homepage: https://metacpan.org/release/Bio-FeatureIO
+   :license: perl_5
+   :recipe: /`perl-bio-featureio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-featureio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-featureio/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-bio-featureio
 
-Installation
-------------
+   |downloads_perl-bio-featureio| |docker_perl-bio-featureio|
 
-.. highlight: bash
+   :versions: 1.6.905
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-bioperl-core`  :conda:package:`perl-threaded`  :conda:package:`perl-tree-dag_node`  :conda:package:`perl-uri`  :conda:package:`perl-xml-dom`  :conda:package:`perl-xml-dom-xpath`  
 
-   conda install perl-bio-featureio
+   :required~by: |required_by_perl-bio-featureio|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-bio-featureio
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-bio-featureio
+
+   and update with::
+
+      conda update perl-bio-featureio
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-bio-featureio
+
+
+.. |required_by_perl-bio-featureio| conda:required_by:: perl-bio-featureio
+.. |downloads_perl-bio-featureio| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-featureio.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-bio-featureio| image:: https://quay.io/repository/biocontainers/perl-bio-featureio/status
+   :target: https://quay.io/repository/biocontainers/perl-bio-featureio
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-bio-featureio.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-bio-featureio/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-bio-featureio/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-bio-featureio/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-bio-featureio/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-bio-featureio
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-featureio/status
-                :target: https://quay.io/repository/biocontainers/perl-bio-featureio
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-bio-featureio/README.html
 

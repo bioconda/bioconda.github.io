@@ -1,54 +1,66 @@
-.. _`intemap`:
+.. title:: Package Recipe 'intemap'
+.. highlight: bash
+
 
 intemap
 =======
 
-|downloads|
+.. conda:recipe:: intemap
+   :replaces_section_title:
 
-Integrated metagenomic assembly pipeline for short reads
+   Integrated metagenomic assembly pipeline for short reads
 
-============= ===========
-Home          http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html
-Versions      1.0
-License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//intemap/meta.yaml
+   :homepage: http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html
+   :license: 
+   :recipe: /`intemap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intemap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intemap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: intemap
 
-Installation
-------------
+   |downloads_intemap| |docker_intemap|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`abyss`  :conda:package:`bowtie2`  :conda:package:`idba`  :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`quake`  :conda:package:`wgs-assembler`  
 
-   conda install intemap
+   :required~by: |required_by_intemap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update intemap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install intemap
+
+   and update with::
+
+      conda update intemap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/intemap
+
+
+.. |required_by_intemap| conda:required_by:: intemap
+.. |downloads_intemap| image:: https://img.shields.io/conda/dn/bioconda/intemap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_intemap| image:: https://quay.io/repository/biocontainers/intemap/status
+   :target: https://quay.io/repository/biocontainers/intemap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/intemap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/intemap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/intemap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/intemap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/intemap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/intemap
-.. |docker| image:: https://quay.io/repository/biocontainers/intemap/status
-                :target: https://quay.io/repository/biocontainers/intemap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/intemap/README.html
 

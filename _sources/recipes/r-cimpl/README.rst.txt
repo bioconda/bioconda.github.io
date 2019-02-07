@@ -1,54 +1,66 @@
-.. _`r-cimpl`:
+.. title:: Package Recipe 'r-cimpl'
+.. highlight: bash
+
 
 r-cimpl
 =======
 
-|downloads|
+.. conda:recipe:: r-cimpl
+   :replaces_section_title:
 
-An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites.
+   An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites.
 
-============= ===========
-Home          http://ccb.nki.nl/software/
-Versions      1.1
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cimpl/meta.yaml
+   :homepage: http://ccb.nki.nl/software/
+   :license: GPL-3
+   :recipe: /`r-cimpl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cimpl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cimpl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-cimpl
 
-Installation
-------------
+   |downloads_r-cimpl| |docker_r-cimpl|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biomart`  :conda:package:`bioconductor-biostrings`  :conda:package:`r` 3.3.1* :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-xtable`  
 
-   conda install r-cimpl
+   :required~by: |required_by_r-cimpl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-cimpl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-cimpl
+
+   and update with::
+
+      conda update r-cimpl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-cimpl
+
+
+.. |required_by_r-cimpl| conda:required_by:: r-cimpl
+.. |downloads_r-cimpl| image:: https://img.shields.io/conda/dn/bioconda/r-cimpl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-cimpl| image:: https://quay.io/repository/biocontainers/r-cimpl/status
+   :target: https://quay.io/repository/biocontainers/r-cimpl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-cimpl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-cimpl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-cimpl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-cimpl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-cimpl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-cimpl
-.. |docker| image:: https://quay.io/repository/biocontainers/r-cimpl/status
-                :target: https://quay.io/repository/biocontainers/r-cimpl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-cimpl/README.html
 

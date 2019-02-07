@@ -1,56 +1,67 @@
-.. _`lightstringgraph`:
+.. title:: Package Recipe 'lightstringgraph'
+.. highlight: bash
+
 
 lightstringgraph
 ================
 
-|downloads|
+.. conda:recipe:: lightstringgraph
+   :replaces_section_title:
 
-LightStringGraphs \(LSG\) is an external memory string graph construction tool.
+   LightStringGraphs \(LSG\) is an external memory string graph construction tool.
 
-============= ===========
-Home          http://lsg.algolab.eu
-Versions      0.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lightstringgraph/meta.yaml
+   :homepage: http://lsg.algolab.eu
+   :license: GPL-3
+   :recipe: /`lightstringgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightstringgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightstringgraph/meta.yaml>`_
+   :links: biotools: :biotools:`lightstringgraph`, doi: :doi:`10.1007/978-3-662-44753-6_23`
 
-
-
-Links         biotools: :biotools:`lightstringgraph`, doi: :doi:`10.1007/978-3-662-44753-6_23`
-
-============= ===========
+   
 
 
+.. conda:package:: lightstringgraph
 
-Installation
-------------
+   |downloads_lightstringgraph| |docker_lightstringgraph|
 
-.. highlight: bash
+   :versions: 0.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.66.0,<1.66.1.0a0 :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install lightstringgraph
+   :required~by: |required_by_lightstringgraph|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update lightstringgraph
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install lightstringgraph
+
+   and update with::
+
+      conda update lightstringgraph
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/lightstringgraph
+
+
+.. |required_by_lightstringgraph| conda:required_by:: lightstringgraph
+.. |downloads_lightstringgraph| image:: https://img.shields.io/conda/dn/bioconda/lightstringgraph.svg?style=flat
+   :alt:   (downloads)
+.. |docker_lightstringgraph| image:: https://quay.io/repository/biocontainers/lightstringgraph/status
+   :target: https://quay.io/repository/biocontainers/lightstringgraph
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/lightstringgraph.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lightstringgraph/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lightstringgraph/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/lightstringgraph/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/lightstringgraph/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/lightstringgraph
-.. |docker| image:: https://quay.io/repository/biocontainers/lightstringgraph/status
-                :target: https://quay.io/repository/biocontainers/lightstringgraph
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/lightstringgraph/README.html
 

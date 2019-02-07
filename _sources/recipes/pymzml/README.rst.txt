@@ -1,56 +1,67 @@
-.. _`pymzml`:
+.. title:: Package Recipe 'pymzml'
+.. highlight: bash
+
 
 pymzml
 ======
 
-|downloads|
+.. conda:recipe:: pymzml
+   :replaces_section_title:
 
-high\-throughput mzML parsing
+   high\-throughput mzML parsing
 
-============= ===========
-Home          http://pymzml.github.com
-Versions      2.0.6, 2.0.5, 0.7.10, 0.7.8, 0.7.7, 0.7.5
-License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pymzml/meta.yaml
+   :homepage: http://pymzml.github.com
+   :license: LGPL / GNU General Public License (GPL)
+   :recipe: /`pymzml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymzml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymzml/meta.yaml>`_
+   :links: biotools: :biotools:`pymzml`
 
-
-
-Links         biotools: :biotools:`pymzml`
-
-============= ===========
+   
 
 
+.. conda:package:: pymzml
 
-Installation
-------------
+   |downloads_pymzml| |docker_pymzml|
 
-.. highlight: bash
+   :versions: 2.0.6, 2.0.5, 0.7.10, 0.7.8, 0.7.7, 0.7.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`plotly`  :conda:package:`python`  
 
-   conda install pymzml
+   :required~by: |required_by_pymzml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pymzml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pymzml
+
+   and update with::
+
+      conda update pymzml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pymzml
+
+
+.. |required_by_pymzml| conda:required_by:: pymzml
+.. |downloads_pymzml| image:: https://img.shields.io/conda/dn/bioconda/pymzml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pymzml| image:: https://quay.io/repository/biocontainers/pymzml/status
+   :target: https://quay.io/repository/biocontainers/pymzml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pymzml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pymzml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pymzml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pymzml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pymzml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pymzml
-.. |docker| image:: https://quay.io/repository/biocontainers/pymzml/status
-                :target: https://quay.io/repository/biocontainers/pymzml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pymzml/README.html
 

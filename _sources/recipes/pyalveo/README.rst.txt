@@ -1,54 +1,66 @@
-.. _`pyalveo`:
+.. title:: Package Recipe 'pyalveo'
+.. highlight: bash
+
 
 pyalveo
 =======
 
-|downloads|
+.. conda:recipe:: pyalveo
+   :replaces_section_title:
 
-A Python library for interfacing with the Alveo API
+   A Python library for interfacing with the Alveo API
 
-============= ===========
-Home          https://github.com/Alveo/pyalveo
-Versions      1.0.3, 0.7, 0.6, 0.5
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyalveo/meta.yaml
+   :homepage: https://github.com/Alveo/pyalveo
+   :license: BSD
+   :recipe: /`pyalveo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyalveo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyalveo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pyalveo
 
-Installation
-------------
+   |downloads_pyalveo| |docker_pyalveo|
 
-.. highlight: bash
+   :versions: 1.0.3, 0.7, 0.6, 0.5
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 2.7* :conda:package:`python-dateutil`  :conda:package:`requests`  :conda:package:`requests-oauthlib`  
 
-   conda install pyalveo
+   :required~by: |required_by_pyalveo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pyalveo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyalveo
+
+   and update with::
+
+      conda update pyalveo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pyalveo
+
+
+.. |required_by_pyalveo| conda:required_by:: pyalveo
+.. |downloads_pyalveo| image:: https://img.shields.io/conda/dn/bioconda/pyalveo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyalveo| image:: https://quay.io/repository/biocontainers/pyalveo/status
+   :target: https://quay.io/repository/biocontainers/pyalveo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pyalveo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pyalveo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyalveo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pyalveo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pyalveo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pyalveo
-.. |docker| image:: https://quay.io/repository/biocontainers/pyalveo/status
-                :target: https://quay.io/repository/biocontainers/pyalveo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyalveo/README.html
 

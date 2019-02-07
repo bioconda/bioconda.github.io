@@ -1,54 +1,66 @@
-.. _`ra`:
+.. title:: Package Recipe 'ra'
+.. highlight: bash
+
 
 ra
 ==
 
-|downloads|
+.. conda:recipe:: ra
+   :replaces_section_title:
 
-Ra is short for RNA Assembler and it is a C\+\+ implementation of an overlap\-layout\-consensus transcriptome assembler.
+   Ra is short for RNA Assembler and it is a C\+\+ implementation of an overlap\-layout\-consensus transcriptome assembler.
 
-============= ===========
-Home          https://github.com/mariokostelac/ra
-Versions      0.9
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ra/meta.yaml
+   :homepage: https://github.com/mariokostelac/ra
+   :license: GPL3
+   :recipe: /`ra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ra
 
-Installation
-------------
+   |downloads_ra| |docker_ra|
 
-.. highlight: bash
+   :versions: 0.9
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install ra
+   :required~by: |required_by_ra|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ra
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ra
+
+   and update with::
+
+      conda update ra
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ra
+
+
+.. |required_by_ra| conda:required_by:: ra
+.. |downloads_ra| image:: https://img.shields.io/conda/dn/bioconda/ra.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ra| image:: https://quay.io/repository/biocontainers/ra/status
+   :target: https://quay.io/repository/biocontainers/ra
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ra.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ra/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ra/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ra/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ra/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ra
-.. |docker| image:: https://quay.io/repository/biocontainers/ra/status
-                :target: https://quay.io/repository/biocontainers/ra
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ra/README.html
 

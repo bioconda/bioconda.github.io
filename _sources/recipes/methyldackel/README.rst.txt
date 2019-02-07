@@ -1,54 +1,66 @@
-.. _`methyldackel`:
+.. title:: Package Recipe 'methyldackel'
+.. highlight: bash
+
 
 methyldackel
 ============
 
-|downloads|
+.. conda:recipe:: methyldackel
+   :replaces_section_title:
 
-A \(mostly\) universal methylation extractor for BS\-seq experiments. Formerly named PileOMeth.
+   A \(mostly\) universal methylation extractor for BS\-seq experiments. Formerly named PileOMeth.
 
-============= ===========
-Home          https://github.com/dpryan79/MethylDackel
-Versions      0.3.0, 0.2.1, 0.2.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//methyldackel/meta.yaml
+   :homepage: https://github.com/dpryan79/MethylDackel
+   :license: MIT
+   :recipe: /`methyldackel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methyldackel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methyldackel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: methyldackel
 
-Installation
-------------
+   |downloads_methyldackel| |docker_methyldackel|
 
-.. highlight: bash
+   :versions: 0.3.0, 0.2.1, 0.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
 
-   conda install methyldackel
+   :required~by: |required_by_methyldackel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update methyldackel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install methyldackel
+
+   and update with::
+
+      conda update methyldackel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/methyldackel
+
+
+.. |required_by_methyldackel| conda:required_by:: methyldackel
+.. |downloads_methyldackel| image:: https://img.shields.io/conda/dn/bioconda/methyldackel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_methyldackel| image:: https://quay.io/repository/biocontainers/methyldackel/status
+   :target: https://quay.io/repository/biocontainers/methyldackel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/methyldackel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/methyldackel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/methyldackel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/methyldackel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/methyldackel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/methyldackel
-.. |docker| image:: https://quay.io/repository/biocontainers/methyldackel/status
-                :target: https://quay.io/repository/biocontainers/methyldackel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/methyldackel/README.html
 

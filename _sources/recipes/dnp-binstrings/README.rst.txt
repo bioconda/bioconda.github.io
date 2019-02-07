@@ -1,54 +1,66 @@
-.. _`dnp-binstrings`:
+.. title:: Package Recipe 'dnp-binstrings'
+.. highlight: bash
+
 
 dnp-binstrings
 ==============
 
-|downloads|
+.. conda:recipe:: dnp-binstrings
+   :replaces_section_title:
 
-Convert fasta strings into dinucleotide binary indicator string as 00101...
+   Convert fasta strings into dinucleotide binary indicator string as 00101...
 
-============= ===========
-Home          https://github.com/erinijapranckeviciene/dnpatterntools
-Versions      1.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dnp-binstrings/meta.yaml
+   :homepage: https://github.com/erinijapranckeviciene/dnpatterntools
+   :license: MIT
+   :recipe: /`dnp-binstrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-binstrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-binstrings/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dnp-binstrings
 
-Installation
-------------
+   |downloads_dnp-binstrings| |docker_dnp-binstrings|
 
-.. highlight: bash
+   :versions: 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install dnp-binstrings
+   :required~by: |required_by_dnp-binstrings|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dnp-binstrings
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dnp-binstrings
+
+   and update with::
+
+      conda update dnp-binstrings
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dnp-binstrings
+
+
+.. |required_by_dnp-binstrings| conda:required_by:: dnp-binstrings
+.. |downloads_dnp-binstrings| image:: https://img.shields.io/conda/dn/bioconda/dnp-binstrings.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dnp-binstrings| image:: https://quay.io/repository/biocontainers/dnp-binstrings/status
+   :target: https://quay.io/repository/biocontainers/dnp-binstrings
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dnp-binstrings.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dnp-binstrings/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dnp-binstrings/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dnp-binstrings/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dnp-binstrings/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dnp-binstrings
-.. |docker| image:: https://quay.io/repository/biocontainers/dnp-binstrings/status
-                :target: https://quay.io/repository/biocontainers/dnp-binstrings
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dnp-binstrings/README.html
 

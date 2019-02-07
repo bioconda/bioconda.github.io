@@ -1,54 +1,66 @@
-.. _`swga`:
+.. title:: Package Recipe 'swga'
+.. highlight: bash
+
 
 swga
 ====
 
-|downloads|
+.. conda:recipe:: swga
+   :replaces_section_title:
 
-Select primer sets for selective whole genome amplification \(SWGA\)
+   Select primer sets for selective whole genome amplification \(SWGA\)
 
-============= ===========
-Home          https://github.com/eclarke/swga
-Versions      0.4.4, 0.4.3.p1, 0.4.2
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//swga/meta.yaml
+   :homepage: https://github.com/eclarke/swga
+   :license: GPL / GPL-3.0
+   :recipe: /`swga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swga/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: swga
 
-Installation
-------------
+   |downloads_swga| |docker_swga|
 
-.. highlight: bash
+   :versions: 0.4.4, 0.4.3.p1, 0.4.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argutils`  :conda:package:`click`  :conda:package:`libgcc`  :conda:package:`melt`  :conda:package:`peewee` >=2.7.3,<3.0 :conda:package:`pyfaidx` >0.4.5.2 :conda:package:`pytest`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  :conda:package:`semantic_version`  :conda:package:`setuptools`  :conda:package:`workspace`  
 
-   conda install swga
+   :required~by: |required_by_swga|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update swga
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install swga
+
+   and update with::
+
+      conda update swga
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/swga
+
+
+.. |required_by_swga| conda:required_by:: swga
+.. |downloads_swga| image:: https://img.shields.io/conda/dn/bioconda/swga.svg?style=flat
+   :alt:   (downloads)
+.. |docker_swga| image:: https://quay.io/repository/biocontainers/swga/status
+   :target: https://quay.io/repository/biocontainers/swga
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/swga.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/swga/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/swga/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/swga/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/swga/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/swga
-.. |docker| image:: https://quay.io/repository/biocontainers/swga/status
-                :target: https://quay.io/repository/biocontainers/swga
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/swga/README.html
 

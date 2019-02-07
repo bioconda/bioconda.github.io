@@ -1,58 +1,69 @@
-.. _`flowcraft`:
+.. title:: Package Recipe 'flowcraft'
+.. highlight: bash
+
 
 flowcraft
 =========
 
-|downloads|
+.. conda:recipe:: flowcraft
+   :replaces_section_title:
 
-A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Run the pipeline.
+   A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Run the pipeline.
 
-============= ===========
-Home          https://github.com/assemblerflow/flowcraft
-Versions      1.4.0, 1.3.1, 1.3.0, 1.2.2, 1.2.1, 1.2.0.post1, 1.2.0
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flowcraft/meta.yaml
+   :homepage: https://github.com/assemblerflow/flowcraft
+   :documentation: http://assemblerflow.readthedocs.io/en/latest/
+   
+   :developer docs: http://assemblerflow.readthedocs.io/en/latest/
+   :license: GPL3 / GPL3
+   :recipe: /`flowcraft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flowcraft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flowcraft/meta.yaml>`_
 
-Documentation http://assemblerflow.readthedocs.io/en/latest/
-
-
-Development   http://assemblerflow.readthedocs.io/en/latest/
-
-
-============= ===========
+   
 
 
+.. conda:package:: flowcraft
 
-Installation
-------------
+   |downloads_flowcraft| |docker_flowcraft|
 
-.. highlight: bash
+   :versions: 1.4.0, 1.3.1, 1.3.0, 1.2.2, 1.2.1, 1.2.0.post1, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argparse`  :conda:package:`jinja2`  :conda:package:`nextflow` >=0.28 :conda:package:`pympler`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`python-dateutil`  :conda:package:`requests`  
 
-   conda install flowcraft
+   :required~by: |required_by_flowcraft|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update flowcraft
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install flowcraft
+
+   and update with::
+
+      conda update flowcraft
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/flowcraft
+
+
+.. |required_by_flowcraft| conda:required_by:: flowcraft
+.. |downloads_flowcraft| image:: https://img.shields.io/conda/dn/bioconda/flowcraft.svg?style=flat
+   :alt:   (downloads)
+.. |docker_flowcraft| image:: https://quay.io/repository/biocontainers/flowcraft/status
+   :target: https://quay.io/repository/biocontainers/flowcraft
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/flowcraft.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/flowcraft/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/flowcraft/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/flowcraft/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/flowcraft/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/flowcraft
-.. |docker| image:: https://quay.io/repository/biocontainers/flowcraft/status
-                :target: https://quay.io/repository/biocontainers/flowcraft
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/flowcraft/README.html
 

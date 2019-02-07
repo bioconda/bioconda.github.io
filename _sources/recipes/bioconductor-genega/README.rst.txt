@@ -1,56 +1,67 @@
-.. _`bioconductor-genega`:
+.. title:: Package Recipe 'bioconductor-genega'
+.. highlight: bash
+
 
 bioconductor-genega
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-genega
+   :replaces_section_title:
 
-R based Genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias\, GeneGA includes the information of highly expressed genes of almost 200 genomes. Meanwhile\, Vienna RNA Package is needed to ensure GeneGA to function properly.
+   R based Genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias\, GeneGA includes the information of highly expressed genes of almost 200 genomes. Meanwhile\, Vienna RNA Package is needed to ensure GeneGA to function properly.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneGA.html
-Versions      1.32.0, 1.30.0, 1.28.0
-License       GPL version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genega/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneGA.html
+   :license: GPL version 2
+   :recipe: /`bioconductor-genega <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega/meta.yaml>`_
+   :links: biotools: :biotools:`genega`, doi: :doi:`10.1186/1748-7188-6-26`
 
-
-
-Links         biotools: :biotools:`genega`, doi: :doi:`10.1186/1748-7188-6-26`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-genega
 
-Installation
-------------
+   |downloads_bioconductor-genega| |docker_bioconductor-genega|
 
-.. highlight: bash
+   :versions: 1.32.0, 1.30.0, 1.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-hash`  :conda:package:`r-seqinr`  
 
-   conda install bioconductor-genega
+   :required~by: |required_by_bioconductor-genega|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-genega
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-genega
+
+   and update with::
+
+      conda update bioconductor-genega
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-genega
+
+
+.. |required_by_bioconductor-genega| conda:required_by:: bioconductor-genega
+.. |downloads_bioconductor-genega| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genega.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-genega| image:: https://quay.io/repository/biocontainers/bioconductor-genega/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-genega
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-genega.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-genega/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-genega/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-genega/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-genega/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-genega
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genega/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-genega
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-genega/README.html
 

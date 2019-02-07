@@ -1,54 +1,66 @@
-.. _`bioconductor-keggandmetacoredzpathwaysgeo`:
+.. title:: Package Recipe 'bioconductor-keggandmetacoredzpathwaysgeo'
+.. highlight: bash
+
 
 bioconductor-keggandmetacoredzpathwaysgeo
 =========================================
 
-|downloads|
+.. conda:recipe:: bioconductor-keggandmetacoredzpathwaysgeo
+   :replaces_section_title:
 
-This is a collection of 18 data sets for which the phenotype is a disease with a corresponding pathway in either KEGG or metacore database.This collection of datasets were used as gold standard in comparing gene set analysis methods.
+   This is a collection of 18 data sets for which the phenotype is a disease with a corresponding pathway in either KEGG or metacore database.This collection of datasets were used as gold standard in comparing gene set analysis methods.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
-Versions      1.2.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
+   :license: GPL-2
+   :recipe: /`bioconductor-keggandmetacoredzpathwaysgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-keggandmetacoredzpathwaysgeo
 
-Installation
-------------
+   |downloads_bioconductor-keggandmetacoredzpathwaysgeo| |docker_bioconductor-keggandmetacoredzpathwaysgeo|
 
-.. highlight: bash
+   :versions: 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-keggandmetacoredzpathwaysgeo
+   :required~by: |required_by_bioconductor-keggandmetacoredzpathwaysgeo|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-keggandmetacoredzpathwaysgeo
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-keggandmetacoredzpathwaysgeo
+
+   and update with::
+
+      conda update bioconductor-keggandmetacoredzpathwaysgeo
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
+
+
+.. |required_by_bioconductor-keggandmetacoredzpathwaysgeo| conda:required_by:: bioconductor-keggandmetacoredzpathwaysgeo
+.. |downloads_bioconductor-keggandmetacoredzpathwaysgeo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggandmetacoredzpathwaysgeo.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-keggandmetacoredzpathwaysgeo| image:: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-keggandmetacoredzpathwaysgeo/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-keggandmetacoredzpathwaysgeo/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-keggandmetacoredzpathwaysgeo/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-keggandmetacoredzpathwaysgeo/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-keggandmetacoredzpathwaysgeo
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-keggandmetacoredzpathwaysgeo/README.html
 

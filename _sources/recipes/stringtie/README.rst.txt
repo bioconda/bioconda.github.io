@@ -1,56 +1,67 @@
-.. _`stringtie`:
+.. title:: Package Recipe 'stringtie'
+.. highlight: bash
+
 
 stringtie
 =========
 
-|downloads|
+.. conda:recipe:: stringtie
+   :replaces_section_title:
 
-Transcriptome assembly and quantification for RNA\-seq
+   Transcriptome assembly and quantification for RNA\-seq
 
-============= ===========
-Home          http://ccb.jhu.edu/software/stringtie/
-Versions      1.3.4, 1.3.3, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3, 1.0.1, 0.97
-License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stringtie/meta.yaml
+   :homepage: http://ccb.jhu.edu/software/stringtie/
+   :license: Artistic License 2.0
+   :recipe: /`stringtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie/meta.yaml>`_
+   :links: biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`
 
-
-
-Links         biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`
-
-============= ===========
+   
 
 
+.. conda:package:: stringtie
 
-Installation
-------------
+   |downloads_stringtie| |docker_stringtie|
 
-.. highlight: bash
+   :versions: 1.3.4, 1.3.3, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3, 1.0.1, 0.97
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`zlib` 1.2.11* 
 
-   conda install stringtie
+   :required~by: |required_by_stringtie|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update stringtie
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install stringtie
+
+   and update with::
+
+      conda update stringtie
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/stringtie
+
+
+.. |required_by_stringtie| conda:required_by:: stringtie
+.. |downloads_stringtie| image:: https://img.shields.io/conda/dn/bioconda/stringtie.svg?style=flat
+   :alt:   (downloads)
+.. |docker_stringtie| image:: https://quay.io/repository/biocontainers/stringtie/status
+   :target: https://quay.io/repository/biocontainers/stringtie
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/stringtie.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/stringtie/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/stringtie/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/stringtie/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/stringtie/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/stringtie
-.. |docker| image:: https://quay.io/repository/biocontainers/stringtie/status
-                :target: https://quay.io/repository/biocontainers/stringtie
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/stringtie/README.html
 

@@ -1,54 +1,66 @@
-.. _`dicey`:
+.. title:: Package Recipe 'dicey'
+.. highlight: bash
+
 
 dicey
 =====
 
-|downloads|
+.. conda:recipe:: dicey
+   :replaces_section_title:
 
-In\-silico PCR and variant primer design
+   In\-silico PCR and variant primer design
 
-============= ===========
-Home          https://github.com/gear-genomics/dicey
-Versions      0.1.6
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dicey/meta.yaml
+   :homepage: https://github.com/gear-genomics/dicey
+   :license: GPL / GPL-3.0
+   :recipe: /`dicey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: dicey
 
-Installation
-------------
+   |downloads_dicey| |docker_dicey|
 
-.. highlight: bash
+   :versions: 0.1.6
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`sdsl-lite`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install dicey
+   :required~by: |required_by_dicey|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dicey
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dicey
+
+   and update with::
+
+      conda update dicey
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dicey
+
+
+.. |required_by_dicey| conda:required_by:: dicey
+.. |downloads_dicey| image:: https://img.shields.io/conda/dn/bioconda/dicey.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dicey| image:: https://quay.io/repository/biocontainers/dicey/status
+   :target: https://quay.io/repository/biocontainers/dicey
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dicey.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dicey/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dicey/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dicey/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dicey/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dicey
-.. |docker| image:: https://quay.io/repository/biocontainers/dicey/status
-                :target: https://quay.io/repository/biocontainers/dicey
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dicey/README.html
 

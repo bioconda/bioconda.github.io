@@ -1,56 +1,67 @@
-.. _`bioconductor-unifiedwmwqpcr`:
+.. title:: Package Recipe 'bioconductor-unifiedwmwqpcr'
+.. highlight: bash
+
 
 bioconductor-unifiedwmwqpcr
 ===========================
 
-|downloads|
+.. conda:recipe:: bioconductor-unifiedwmwqpcr
+   :replaces_section_title:
 
-This packages implements the unified Wilcoxon\-Mann\-Whitney Test for qPCR data. This modified test allows for testing differential expression in qPCR data.
+   This packages implements the unified Wilcoxon\-Mann\-Whitney Test for qPCR data. This modified test allows for testing differential expression in qPCR data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/unifiedWMWqPCR.html
-Versions      1.18.0, 1.16.0, 1.14.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-unifiedwmwqpcr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/unifiedWMWqPCR.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-unifiedwmwqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-unifiedwmwqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-unifiedwmwqpcr/meta.yaml>`_
+   :links: biotools: :biotools:`unifiedwmwqpcr`
 
-
-
-Links         biotools: :biotools:`unifiedwmwqpcr`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-unifiedwmwqpcr
 
-Installation
-------------
+   |downloads_bioconductor-unifiedwmwqpcr| |docker_bioconductor-unifiedwmwqpcr|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-htqpcr` >=1.36.0,<1.37.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-unifiedwmwqpcr
+   :required~by: |required_by_bioconductor-unifiedwmwqpcr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-unifiedwmwqpcr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-unifiedwmwqpcr
+
+   and update with::
+
+      conda update bioconductor-unifiedwmwqpcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr
+
+
+.. |required_by_bioconductor-unifiedwmwqpcr| conda:required_by:: bioconductor-unifiedwmwqpcr
+.. |downloads_bioconductor-unifiedwmwqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-unifiedwmwqpcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-unifiedwmwqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-unifiedwmwqpcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-unifiedwmwqpcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-unifiedwmwqpcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-unifiedwmwqpcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-unifiedwmwqpcr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-unifiedwmwqpcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-unifiedwmwqpcr/README.html
 

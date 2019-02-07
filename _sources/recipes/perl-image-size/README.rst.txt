@@ -1,54 +1,66 @@
-.. _`perl-image-size`:
+.. title:: Package Recipe 'perl-image-size'
+.. highlight: bash
+
 
 perl-image-size
 ===============
 
-|downloads|
+.. conda:recipe:: perl-image-size
+   :replaces_section_title:
 
-A library to extract height\/width from images
+   A library to extract height\/width from images
 
-============= ===========
-Home          http://search.cpan.org/dist/Image-Size
-Versions      3.300
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-image-size/meta.yaml
+   :homepage: http://search.cpan.org/dist/Image-Size
+   :license: perl_5
+   :recipe: /`perl-image-size <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-size>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-size/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-image-size
 
-Installation
-------------
+   |downloads_perl-image-size| |docker_perl-image-size|
 
-.. highlight: bash
+   :versions: 3.300
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-image-size
+   :required~by: |required_by_perl-image-size|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-image-size
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-image-size
+
+   and update with::
+
+      conda update perl-image-size
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-image-size
+
+
+.. |required_by_perl-image-size| conda:required_by:: perl-image-size
+.. |downloads_perl-image-size| image:: https://img.shields.io/conda/dn/bioconda/perl-image-size.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-image-size| image:: https://quay.io/repository/biocontainers/perl-image-size/status
+   :target: https://quay.io/repository/biocontainers/perl-image-size
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-image-size.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-image-size/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-image-size/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-image-size/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-image-size/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-image-size
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-image-size/status
-                :target: https://quay.io/repository/biocontainers/perl-image-size
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-image-size/README.html
 

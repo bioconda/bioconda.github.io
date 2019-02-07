@@ -1,54 +1,66 @@
-.. _`pybigwig`:
+.. title:: Package Recipe 'pybigwig'
+.. highlight: bash
+
 
 pybigwig
 ========
 
-|downloads|
+.. conda:recipe:: pybigwig
+   :replaces_section_title:
 
-A python extension written in C for quick access to bigWig files.
+   A python extension written in C for quick access to bigWig files.
 
-============= ===========
-Home          https://github.com/dpryan79/pyBigWig
-Versions      0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.7, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.1b, 0.1.11
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pybigwig/meta.yaml
+   :homepage: https://github.com/dpryan79/pyBigWig
+   :license: MIT
+   :recipe: /`pybigwig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: pybigwig
 
-Installation
-------------
+   |downloads_pybigwig| |docker_pybigwig|
 
-.. highlight: bash
+   :versions: 0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.7, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.2.8, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.1b, 0.1.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libcurl` >=7.61.1,<8.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`numpy` >=1.16.1,<2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install pybigwig
+   :required~by: |required_by_pybigwig|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update pybigwig
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pybigwig
+
+   and update with::
+
+      conda update pybigwig
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/pybigwig
+
+
+.. |required_by_pybigwig| conda:required_by:: pybigwig
+.. |downloads_pybigwig| image:: https://img.shields.io/conda/dn/bioconda/pybigwig.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pybigwig| image:: https://quay.io/repository/biocontainers/pybigwig/status
+   :target: https://quay.io/repository/biocontainers/pybigwig
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/pybigwig.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pybigwig/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pybigwig/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/pybigwig/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/pybigwig/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/pybigwig
-.. |docker| image:: https://quay.io/repository/biocontainers/pybigwig/status
-                :target: https://quay.io/repository/biocontainers/pybigwig
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pybigwig/README.html
 

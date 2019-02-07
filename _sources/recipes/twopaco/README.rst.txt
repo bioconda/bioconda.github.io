@@ -1,54 +1,66 @@
-.. _`twopaco`:
+.. title:: Package Recipe 'twopaco'
+.. highlight: bash
+
 
 twopaco
 =======
 
-|downloads|
+.. conda:recipe:: twopaco
+   :replaces_section_title:
 
-A fast constructor of the compressed de Bruijn graph from many genomes.
+   A fast constructor of the compressed de Bruijn graph from many genomes.
 
-============= ===========
-Home          https://github.com/medvedevgroup/TwoPaCo
-Versions      0.9.2
-License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//twopaco/meta.yaml
+   :homepage: https://github.com/medvedevgroup/TwoPaCo
+   :license: Custom OSS
+   :recipe: /`twopaco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twopaco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twopaco/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: twopaco
 
-Installation
-------------
+   |downloads_twopaco| |docker_twopaco|
 
-.. highlight: bash
+   :versions: 0.9.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`tbb`  
 
-   conda install twopaco
+   :required~by: |required_by_twopaco|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update twopaco
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install twopaco
+
+   and update with::
+
+      conda update twopaco
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/twopaco
+
+
+.. |required_by_twopaco| conda:required_by:: twopaco
+.. |downloads_twopaco| image:: https://img.shields.io/conda/dn/bioconda/twopaco.svg?style=flat
+   :alt:   (downloads)
+.. |docker_twopaco| image:: https://quay.io/repository/biocontainers/twopaco/status
+   :target: https://quay.io/repository/biocontainers/twopaco
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/twopaco.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/twopaco/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/twopaco/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/twopaco/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/twopaco/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/twopaco
-.. |docker| image:: https://quay.io/repository/biocontainers/twopaco/status
-                :target: https://quay.io/repository/biocontainers/twopaco
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/twopaco/README.html
 

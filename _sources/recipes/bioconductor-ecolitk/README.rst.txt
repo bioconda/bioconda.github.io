@@ -1,54 +1,66 @@
-.. _`bioconductor-ecolitk`:
+.. title:: Package Recipe 'bioconductor-ecolitk'
+.. highlight: bash
+
 
 bioconductor-ecolitk
 ====================
 
-|downloads|
+.. conda:recipe:: bioconductor-ecolitk
+   :replaces_section_title:
 
-Meta\-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes\/plasmids.
+   Meta\-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes\/plasmids.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/ecolitk.html
-Versions      1.54.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ecolitk/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ecolitk.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-ecolitk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-ecolitk
 
-Installation
-------------
+   |downloads_bioconductor-ecolitk| |docker_bioconductor-ecolitk|
 
-.. highlight: bash
+   :versions: 1.54.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-ecolitk
+   :required~by: |required_by_bioconductor-ecolitk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-ecolitk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-ecolitk
+
+   and update with::
+
+      conda update bioconductor-ecolitk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-ecolitk
+
+
+.. |required_by_bioconductor-ecolitk| conda:required_by:: bioconductor-ecolitk
+.. |downloads_bioconductor-ecolitk| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecolitk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-ecolitk| image:: https://quay.io/repository/biocontainers/bioconductor-ecolitk/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-ecolitk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-ecolitk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ecolitk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-ecolitk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-ecolitk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-ecolitk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-ecolitk
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ecolitk/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-ecolitk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-ecolitk/README.html
 

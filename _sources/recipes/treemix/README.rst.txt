@@ -1,56 +1,67 @@
-.. _`treemix`:
+.. title:: Package Recipe 'treemix'
+.. highlight: bash
+
 
 treemix
 =======
 
-|downloads|
+.. conda:recipe:: treemix
+   :replaces_section_title:
 
-TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations.
+   TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations.
 
-============= ===========
-Home          http://pritchardlab.stanford.edu/software.html
-Versions      1.13, 1.12
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//treemix/meta.yaml
+   :homepage: http://pritchardlab.stanford.edu/software.html
+   :license: GPL / GPLv3
+   :recipe: /`treemix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemix/meta.yaml>`_
+   :links: biotools: :biotools:`TreeMix`, doi: :doi:`10.1371/journal.pgen.1002967`
 
-
-
-Links         biotools: :biotools:`TreeMix`, doi: :doi:`10.1371/journal.pgen.1002967`
-
-============= ===========
+   
 
 
+.. conda:package:: treemix
 
-Installation
-------------
+   |downloads_treemix| |docker_treemix|
 
-.. highlight: bash
+   :versions: 1.13, 1.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`blas`  :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`r-rcolorbrewer`  :conda:package:`zlib` 1.2.11* 
 
-   conda install treemix
+   :required~by: |required_by_treemix|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update treemix
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install treemix
+
+   and update with::
+
+      conda update treemix
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/treemix
+
+
+.. |required_by_treemix| conda:required_by:: treemix
+.. |downloads_treemix| image:: https://img.shields.io/conda/dn/bioconda/treemix.svg?style=flat
+   :alt:   (downloads)
+.. |docker_treemix| image:: https://quay.io/repository/biocontainers/treemix/status
+   :target: https://quay.io/repository/biocontainers/treemix
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/treemix.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/treemix/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/treemix/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/treemix/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/treemix/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/treemix
-.. |docker| image:: https://quay.io/repository/biocontainers/treemix/status
-                :target: https://quay.io/repository/biocontainers/treemix
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/treemix/README.html
 

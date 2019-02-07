@@ -1,54 +1,66 @@
-.. _`bioconductor-lapointe.db`:
+.. title:: Package Recipe 'bioconductor-lapointe.db'
+.. highlight: bash
+
 
 bioconductor-lapointe.db
 ========================
 
-|downloads|
+.. conda:recipe:: bioconductor-lapointe.db
+   :replaces_section_title:
 
-A package containing metadata for LAPOINTE arrays assembled using data from public repositories
+   A package containing metadata for LAPOINTE arrays assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/LAPOINTE.db.html
-Versions      3.2.3
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lapointe.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LAPOINTE.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-lapointe.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapointe.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapointe.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-lapointe.db
 
-Installation
-------------
+   |downloads_bioconductor-lapointe.db| |docker_bioconductor-lapointe.db|
 
-.. highlight: bash
+   :versions: 3.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-lapointe.db
+   :required~by: |required_by_bioconductor-lapointe.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-lapointe.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-lapointe.db
+
+   and update with::
+
+      conda update bioconductor-lapointe.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-lapointe.db
+
+
+.. |required_by_bioconductor-lapointe.db| conda:required_by:: bioconductor-lapointe.db
+.. |downloads_bioconductor-lapointe.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lapointe.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-lapointe.db| image:: https://quay.io/repository/biocontainers/bioconductor-lapointe.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-lapointe.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-lapointe.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-lapointe.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-lapointe.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-lapointe.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-lapointe.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-lapointe.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lapointe.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-lapointe.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-lapointe.db/README.html
 

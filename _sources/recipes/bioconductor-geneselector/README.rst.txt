@@ -1,56 +1,67 @@
-.. _`bioconductor-geneselector`:
+.. title:: Package Recipe 'bioconductor-geneselector'
+.. highlight: bash
+
 
 bioconductor-geneselector
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-geneselector
+   :replaces_section_title:
 
-The term \'GeneSelector\' refers to a filter selecting those genes which are consistently identified as differentially expressed using various statistical procedures. \'Selected\' genes are those present at the top of the list in various ranking methods \(currently 14\). In addition\, the stability of the findings can be taken into account in the final ranking by examining perturbed versions of the original data set\, e.g. by leaving samples\, swapping class labels\, generating bootstrap replicates or adding noise. Given multiple ranked lists\, one can use aggregation methods in order to find a synthesis.
+   The term \'GeneSelector\' refers to a filter selecting those genes which are consistently identified as differentially expressed using various statistical procedures. \'Selected\' genes are those present at the top of the list in various ranking methods \(currently 14\). In addition\, the stability of the findings can be taken into account in the final ranking by examining perturbed versions of the original data set\, e.g. by leaving samples\, swapping class labels\, generating bootstrap replicates or adding noise. Given multiple ranked lists\, one can use aggregation methods in order to find a synthesis.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/GeneSelector.html
-Versions      2.32.0, 2.30.0, 2.28.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneselector/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneSelector.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-geneselector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselector/meta.yaml>`_
+   :links: biotools: :biotools:`geneselector`, doi: :doi:`10.1093/bib/bbp034`
 
-
-
-Links         biotools: :biotools:`geneselector`, doi: :doi:`10.1093/bib/bbp034`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-geneselector
 
-Installation
-------------
+   |downloads_bioconductor-geneselector| |docker_bioconductor-geneselector|
 
-.. highlight: bash
+   :versions: 2.32.0, 2.30.0, 2.28.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-multtest` >=2.38.0,<2.39.0 :conda:package:`bioconductor-siggenes` >=1.56.0,<1.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-samr`  
 
-   conda install bioconductor-geneselector
+   :required~by: |required_by_bioconductor-geneselector|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-geneselector
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-geneselector
+
+   and update with::
+
+      conda update bioconductor-geneselector
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-geneselector
+
+
+.. |required_by_bioconductor-geneselector| conda:required_by:: bioconductor-geneselector
+.. |downloads_bioconductor-geneselector| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneselector.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-geneselector| image:: https://quay.io/repository/biocontainers/bioconductor-geneselector/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-geneselector
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-geneselector.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-geneselector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-geneselector/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-geneselector/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-geneselector/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-geneselector
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneselector/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-geneselector
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-geneselector/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-dlbcl`:
+.. title:: Package Recipe 'bioconductor-dlbcl'
+.. highlight: bash
+
 
 bioconductor-dlbcl
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-dlbcl
+   :replaces_section_title:
 
-This package provides additional expression data on diffuse large B\-cell lymphomas for the BioNet package.
+   This package provides additional expression data on diffuse large B\-cell lymphomas for the BioNet package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/DLBCL.html
-Versions      1.22.0
-License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dlbcl/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DLBCL.html
+   :license: GPL (>=2)
+   :recipe: /`bioconductor-dlbcl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dlbcl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dlbcl/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-dlbcl
 
-Installation
-------------
+   |downloads_bioconductor-dlbcl| |docker_bioconductor-dlbcl|
 
-.. highlight: bash
+   :versions: 1.22.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-dlbcl
+   :required~by: |required_by_bioconductor-dlbcl|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-dlbcl
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-dlbcl
+
+   and update with::
+
+      conda update bioconductor-dlbcl
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-dlbcl
+
+
+.. |required_by_bioconductor-dlbcl| conda:required_by:: bioconductor-dlbcl
+.. |downloads_bioconductor-dlbcl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dlbcl.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-dlbcl| image:: https://quay.io/repository/biocontainers/bioconductor-dlbcl/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-dlbcl
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-dlbcl.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-dlbcl/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-dlbcl/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-dlbcl/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-dlbcl/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-dlbcl
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dlbcl/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-dlbcl
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-dlbcl/README.html
 

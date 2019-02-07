@@ -1,54 +1,66 @@
-.. _`perl-spreadsheet-parseexcel`:
+.. title:: Package Recipe 'perl-spreadsheet-parseexcel'
+.. highlight: bash
+
 
 perl-spreadsheet-parseexcel
 ===========================
 
-|downloads|
+.. conda:recipe:: perl-spreadsheet-parseexcel
+   :replaces_section_title:
 
-Read information from an Excel file.
+   Read information from an Excel file.
 
-============= ===========
-Home          http://github.com/runrig/spreadsheet-parseexcel/
-Versions      0.65
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-spreadsheet-parseexcel/meta.yaml
+   :homepage: http://github.com/runrig/spreadsheet-parseexcel/
+   :license: perl_5
+   :recipe: /`perl-spreadsheet-parseexcel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-parseexcel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-parseexcel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-spreadsheet-parseexcel
 
-Installation
-------------
+   |downloads_perl-spreadsheet-parseexcel| |docker_perl-spreadsheet-parseexcel|
 
-.. highlight: bash
+   :versions: 0.65
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-crypt-rc4`  :conda:package:`perl-digest-perl-md5`  :conda:package:`perl-io-stringy`  :conda:package:`perl-jcode`  :conda:package:`perl-ole-storage_lite`  :conda:package:`perl-spreadsheet-writeexcel`  :conda:package:`perl-threaded`  :conda:package:`perl-unicode-map`  
 
-   conda install perl-spreadsheet-parseexcel
+   :required~by: |required_by_perl-spreadsheet-parseexcel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-spreadsheet-parseexcel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-spreadsheet-parseexcel
+
+   and update with::
+
+      conda update perl-spreadsheet-parseexcel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
+
+
+.. |required_by_perl-spreadsheet-parseexcel| conda:required_by:: perl-spreadsheet-parseexcel
+.. |downloads_perl-spreadsheet-parseexcel| image:: https://img.shields.io/conda/dn/bioconda/perl-spreadsheet-parseexcel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-spreadsheet-parseexcel| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel/status
+   :target: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-spreadsheet-parseexcel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-spreadsheet-parseexcel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-spreadsheet-parseexcel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-spreadsheet-parseexcel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-spreadsheet-parseexcel
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel/status
-                :target: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-spreadsheet-parseexcel/README.html
 

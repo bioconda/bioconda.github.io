@@ -1,54 +1,66 @@
-.. _`perl-test-yaml`:
+.. title:: Package Recipe 'perl-test-yaml'
+.. highlight: bash
+
 
 perl-test-yaml
 ==============
 
-|downloads|
+.. conda:recipe:: perl-test-yaml
+   :replaces_section_title:
 
-Testing Module for YAML Implementations
+   Testing Module for YAML Implementations
 
-============= ===========
-Home          https://github.com/ingydotnet/test-yaml-pm
-Versions      1.07, 1.06
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-yaml/meta.yaml
+   :homepage: https://github.com/ingydotnet/test-yaml-pm
+   :license: perl_5
+   :recipe: /`perl-test-yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-yaml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-yaml/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-test-yaml
 
-Installation
-------------
+   |downloads_perl-test-yaml| |docker_perl-test-yaml|
 
-.. highlight: bash
+   :versions: 1.07, 1.06
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-test-base` >=0.89 
 
-   conda install perl-test-yaml
+   :required~by: |required_by_perl-test-yaml|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-test-yaml
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-test-yaml
+
+   and update with::
+
+      conda update perl-test-yaml
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-test-yaml
+
+
+.. |required_by_perl-test-yaml| conda:required_by:: perl-test-yaml
+.. |downloads_perl-test-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-test-yaml.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-test-yaml| image:: https://quay.io/repository/biocontainers/perl-test-yaml/status
+   :target: https://quay.io/repository/biocontainers/perl-test-yaml
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-test-yaml.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-test-yaml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-test-yaml/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-test-yaml/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-test-yaml/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-test-yaml
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-test-yaml/status
-                :target: https://quay.io/repository/biocontainers/perl-test-yaml
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-test-yaml/README.html
 

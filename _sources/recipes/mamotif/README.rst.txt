@@ -1,54 +1,66 @@
-.. _`mamotif`:
+.. title:: Package Recipe 'mamotif'
+.. highlight: bash
+
 
 mamotif
 =======
 
-|downloads|
+.. conda:recipe:: mamotif
+   :replaces_section_title:
 
-An integrative toolkit for searching cell type\-specific co\-factors associated with differential binding.
+   An integrative toolkit for searching cell type\-specific co\-factors associated with differential binding.
 
-============= ===========
-Home          https://github.com/shao-lab/MAmotif
-Versions      1.0.1, 1.0
-License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mamotif/meta.yaml
+   :homepage: https://github.com/shao-lab/MAmotif
+   :license: BSD / BSD License
+   :recipe: /`mamotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mamotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mamotif/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: mamotif
 
-Installation
-------------
+   |downloads_mamotif| |docker_mamotif|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`manorm` >=1.1.4 :conda:package:`motifscan` >=1.1.2 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install mamotif
+   :required~by: |required_by_mamotif|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mamotif
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mamotif
+
+   and update with::
+
+      conda update mamotif
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mamotif
+
+
+.. |required_by_mamotif| conda:required_by:: mamotif
+.. |downloads_mamotif| image:: https://img.shields.io/conda/dn/bioconda/mamotif.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mamotif| image:: https://quay.io/repository/biocontainers/mamotif/status
+   :target: https://quay.io/repository/biocontainers/mamotif
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mamotif.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mamotif/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mamotif/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mamotif/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mamotif/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mamotif
-.. |docker| image:: https://quay.io/repository/biocontainers/mamotif/status
-                :target: https://quay.io/repository/biocontainers/mamotif
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mamotif/README.html
 

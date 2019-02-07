@@ -1,54 +1,66 @@
-.. _`perl-json-parse`:
+.. title:: Package Recipe 'perl-json-parse'
+.. highlight: bash
+
 
 perl-json-parse
 ===============
 
-|downloads|
+.. conda:recipe:: perl-json-parse
+   :replaces_section_title:
 
-Read JSON into a Perl variable
+   Read JSON into a Perl variable
 
-============= ===========
-Home          http://metacpan.org/pod/JSON::Parse
-Versions      0.55, 0.49
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json-parse/meta.yaml
+   :homepage: http://metacpan.org/pod/JSON::Parse
+   :license: perl_5
+   :recipe: /`perl-json-parse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-parse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-parse/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-json-parse
 
-Installation
-------------
+   |downloads_perl-json-parse| |docker_perl-json-parse|
 
-.. highlight: bash
+   :versions: 0.55, 0.49
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-json-parse
+   :required~by: |required_by_perl-json-parse|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-json-parse
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-json-parse
+
+   and update with::
+
+      conda update perl-json-parse
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-json-parse
+
+
+.. |required_by_perl-json-parse| conda:required_by:: perl-json-parse
+.. |downloads_perl-json-parse| image:: https://img.shields.io/conda/dn/bioconda/perl-json-parse.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-json-parse| image:: https://quay.io/repository/biocontainers/perl-json-parse/status
+   :target: https://quay.io/repository/biocontainers/perl-json-parse
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-json-parse.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-json-parse/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-json-parse/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-json-parse/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-json-parse/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-json-parse
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-json-parse/status
-                :target: https://quay.io/repository/biocontainers/perl-json-parse
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-json-parse/README.html
 

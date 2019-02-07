@@ -1,54 +1,66 @@
-.. _`bioconductor-hgu133a.db`:
+.. title:: Package Recipe 'bioconductor-hgu133a.db'
+.. highlight: bash
+
 
 bioconductor-hgu133a.db
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-hgu133a.db
+   :replaces_section_title:
 
-Affymetrix Human Genome U133 Set annotation data \(chip hgu133a\) assembled using data from public repositories
+   Affymetrix Human Genome U133 Set annotation data \(chip hgu133a\) assembled using data from public repositories
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a.db.html
-Versions      3.2.3
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133a.db/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a.db.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-hgu133a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a.db/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hgu133a.db
 
-Installation
-------------
+   |downloads_bioconductor-hgu133a.db| |docker_bioconductor-hgu133a.db|
 
-.. highlight: bash
+   :versions: 3.2.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.34.3 :conda:package:`bioconductor-org.hs.eg.db` >=3.3.0 :conda:package:`r-base` 3.4.1* :conda:package:`wget`  
 
-   conda install bioconductor-hgu133a.db
+   :required~by: |required_by_bioconductor-hgu133a.db|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hgu133a.db
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hgu133a.db
+
+   and update with::
+
+      conda update bioconductor-hgu133a.db
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hgu133a.db
+
+
+.. |required_by_bioconductor-hgu133a.db| conda:required_by:: bioconductor-hgu133a.db
+.. |downloads_bioconductor-hgu133a.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133a.db.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hgu133a.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hgu133a.db.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hgu133a.db/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hgu133a.db/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hgu133a.db/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hgu133a.db/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hgu133a.db
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hgu133a.db/README.html
 

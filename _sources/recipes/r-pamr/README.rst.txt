@@ -1,54 +1,66 @@
-.. _`r-pamr`:
+.. title:: Package Recipe 'r-pamr'
+.. highlight: bash
+
 
 r-pamr
 ======
 
-|downloads|
+.. conda:recipe:: r-pamr
+   :replaces_section_title:
 
-Some functions for sample classification in microarrays
+   
 
-============= ===========
-Home          https://CRAN.R-project.org/package=pamr
-Versions      1.55
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pamr/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-pamr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pamr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pamr/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-pamr
 
-Installation
-------------
+   |downloads_r-pamr| |docker_r-pamr|
 
-.. highlight: bash
+   :versions: 1.55
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-cluster`  :conda:package:`r-survival`  
 
-   conda install r-pamr
+   :required~by: |required_by_r-pamr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-pamr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-pamr
+
+   and update with::
+
+      conda update r-pamr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-pamr
+
+
+.. |required_by_r-pamr| conda:required_by:: r-pamr
+.. |downloads_r-pamr| image:: https://img.shields.io/conda/dn/bioconda/r-pamr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-pamr| image:: https://quay.io/repository/biocontainers/r-pamr/status
+   :target: https://quay.io/repository/biocontainers/r-pamr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-pamr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-pamr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-pamr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-pamr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-pamr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-pamr
-.. |docker| image:: https://quay.io/repository/biocontainers/r-pamr/status
-                :target: https://quay.io/repository/biocontainers/r-pamr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-pamr/README.html
 

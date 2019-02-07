@@ -1,54 +1,66 @@
-.. _`logbook`:
+.. title:: Package Recipe 'logbook'
+.. highlight: bash
+
 
 logbook
 =======
 
-|downloads|
+.. conda:recipe:: logbook
+   :replaces_section_title:
 
-A logging replacement for Python
+   A logging replacement for Python
 
-============= ===========
-Home          http://logbook.pocoo.org/
-Versions      1.4.1, 1.0.0, 0.12.2
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//logbook/meta.yaml
+   :homepage: http://logbook.pocoo.org/
+   :license: BSD
+   :recipe: /`logbook <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logbook>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logbook/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: logbook
 
-Installation
-------------
+   |downloads_logbook| |docker_logbook|
 
-.. highlight: bash
+   :versions: 1.4.1, 1.0.0, 0.12.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
 
-   conda install logbook
+   :required~by: |required_by_logbook|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update logbook
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install logbook
+
+   and update with::
+
+      conda update logbook
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/logbook
+
+
+.. |required_by_logbook| conda:required_by:: logbook
+.. |downloads_logbook| image:: https://img.shields.io/conda/dn/bioconda/logbook.svg?style=flat
+   :alt:   (downloads)
+.. |docker_logbook| image:: https://quay.io/repository/biocontainers/logbook/status
+   :target: https://quay.io/repository/biocontainers/logbook
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/logbook.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/logbook/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logbook/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/logbook/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/logbook/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/logbook
-.. |docker| image:: https://quay.io/repository/biocontainers/logbook/status
-                :target: https://quay.io/repository/biocontainers/logbook
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/logbook/README.html
 

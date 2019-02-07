@@ -1,54 +1,66 @@
-.. _`itero`:
+.. title:: Package Recipe 'itero'
+.. highlight: bash
+
 
 itero
 =====
 
-|downloads|
+.. conda:recipe:: itero
+   :replaces_section_title:
 
-A pipeline for iterative\, guided contig assembly that integrates spades\, bwa\, and samtools to produce assembled contigs.
+   A pipeline for iterative\, guided contig assembly that integrates spades\, bwa\, and samtools to produce assembled contigs.
 
-============= ===========
-Home          https://github.com/faircloth-lab/itero
-Versions      1.1.2, 1.1.1, 1.1.0, 1.0.1, 1.0.0
-License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//itero/meta.yaml
+   :homepage: https://github.com/faircloth-lab/itero
+   :license: BSD
+   :recipe: /`itero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itero/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: itero
 
-Installation
-------------
+   |downloads_itero| |docker_itero|
 
-.. highlight: bash
+   :versions: 1.1.2, 1.1.1, 1.1.0, 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`argcomplete`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`bwa`  :conda:package:`gawk`  :conda:package:`grep`  :conda:package:`mpi4py`  :conda:package:`nomkl`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`schwimmbad`  :conda:package:`six`  :conda:package:`spades` 3.12.* 
 
-   conda install itero
+   :required~by: |required_by_itero|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update itero
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install itero
+
+   and update with::
+
+      conda update itero
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/itero
+
+
+.. |required_by_itero| conda:required_by:: itero
+.. |downloads_itero| image:: https://img.shields.io/conda/dn/bioconda/itero.svg?style=flat
+   :alt:   (downloads)
+.. |docker_itero| image:: https://quay.io/repository/biocontainers/itero/status
+   :target: https://quay.io/repository/biocontainers/itero
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/itero.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/itero/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/itero/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/itero/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/itero/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/itero
-.. |docker| image:: https://quay.io/repository/biocontainers/itero/status
-                :target: https://quay.io/repository/biocontainers/itero
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/itero/README.html
 

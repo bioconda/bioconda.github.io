@@ -1,54 +1,66 @@
-.. _`bioconductor-seqcna`:
+.. title:: Package Recipe 'bioconductor-seqcna'
+.. highlight: bash
+
 
 bioconductor-seqcna
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-seqcna
+   :replaces_section_title:
 
-Copy number analysis of high\-throughput sequencing cancer data with fast summarization\, extensive filtering and improved normalization
+   Copy number analysis of high\-throughput sequencing cancer data with fast summarization\, extensive filtering and improved normalization
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/seqCNA.html
-Versions      
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcna/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqCNA.html
+   :license: GPL-3
+   :recipe: /`bioconductor-seqcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-seqcna
 
-Installation
-------------
+   |downloads_bioconductor-seqcna| |docker_bioconductor-seqcna|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-seqcna
+   :required~by: |required_by_bioconductor-seqcna|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-seqcna
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-seqcna
+
+   and update with::
+
+      conda update bioconductor-seqcna
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-seqcna
+
+
+.. |required_by_bioconductor-seqcna| conda:required_by:: bioconductor-seqcna
+.. |downloads_bioconductor-seqcna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcna.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-seqcna| image:: https://quay.io/repository/biocontainers/bioconductor-seqcna/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-seqcna
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-seqcna.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-seqcna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-seqcna/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-seqcna/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-seqcna/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-seqcna
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seqcna/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-seqcna
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-seqcna/README.html
 

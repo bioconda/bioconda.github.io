@@ -1,56 +1,67 @@
-.. _`bioconductor-mirsynergy`:
+.. title:: Package Recipe 'bioconductor-mirsynergy'
+.. highlight: bash
+
 
 bioconductor-mirsynergy
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-mirsynergy
+   :replaces_section_title:
 
-Detect synergistic miRNA regulatory modules by overlapping neighbourhood expansion.
+   Detect synergistic miRNA regulatory modules by overlapping neighbourhood expansion.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/Mirsynergy.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirsynergy/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Mirsynergy.html
+   :license: GPL-2
+   :recipe: /`bioconductor-mirsynergy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy/meta.yaml>`_
+   :links: biotools: :biotools:`mirsynergy`
 
-
-
-Links         biotools: :biotools:`mirsynergy`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-mirsynergy
 
-Installation
-------------
+   |downloads_bioconductor-mirsynergy| |docker_bioconductor-mirsynergy|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape`  :conda:package:`r-scales`  
 
-   conda install bioconductor-mirsynergy
+   :required~by: |required_by_bioconductor-mirsynergy|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-mirsynergy
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-mirsynergy
+
+   and update with::
+
+      conda update bioconductor-mirsynergy
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-mirsynergy
+
+
+.. |required_by_bioconductor-mirsynergy| conda:required_by:: bioconductor-mirsynergy
+.. |downloads_bioconductor-mirsynergy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirsynergy.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-mirsynergy| image:: https://quay.io/repository/biocontainers/bioconductor-mirsynergy/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-mirsynergy
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-mirsynergy.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirsynergy/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirsynergy/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-mirsynergy/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-mirsynergy/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-mirsynergy
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirsynergy/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-mirsynergy
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-mirsynergy/README.html
 

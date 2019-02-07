@@ -1,54 +1,66 @@
-.. _`r-rematch2`:
+.. title:: Package Recipe 'r-rematch2'
+.. highlight: bash
+
 
 r-rematch2
 ==========
 
-|downloads|
+.. conda:recipe:: r-rematch2
+   :replaces_section_title:
 
-Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames.
+   Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames.
 
-============= ===========
-Home          https://github.com/r-lib/rematch2#readme
-Versions      2.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rematch2/meta.yaml
+   :homepage: https://github.com/r-lib/rematch2#readme
+   :license: MIT / MIT
+   :recipe: /`r-rematch2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rematch2
 
-Installation
-------------
+   |downloads_r-rematch2| |docker_r-rematch2|
 
-.. highlight: bash
+   :versions: 2.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-tibble`  
 
-   conda install r-rematch2
+   :required~by: |required_by_r-rematch2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rematch2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rematch2
+
+   and update with::
+
+      conda update r-rematch2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rematch2
+
+
+.. |required_by_r-rematch2| conda:required_by:: r-rematch2
+.. |downloads_r-rematch2| image:: https://img.shields.io/conda/dn/bioconda/r-rematch2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rematch2| image:: https://quay.io/repository/biocontainers/r-rematch2/status
+   :target: https://quay.io/repository/biocontainers/r-rematch2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rematch2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rematch2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rematch2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rematch2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rematch2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rematch2
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rematch2/status
-                :target: https://quay.io/repository/biocontainers/r-rematch2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rematch2/README.html
 

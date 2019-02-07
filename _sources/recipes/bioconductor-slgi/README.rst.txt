@@ -1,56 +1,67 @@
-.. _`bioconductor-slgi`:
+.. title:: Package Recipe 'bioconductor-slgi'
+.. highlight: bash
+
 
 bioconductor-slgi
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-slgi
+   :replaces_section_title:
 
-A variety of data files and functions for the analysis of genetic interactions
+   A variety of data files and functions for the analysis of genetic interactions
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/SLGI.html
-Versions      1.42.0, 1.40.0, 1.38.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-slgi/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SLGI.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-slgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi/meta.yaml>`_
+   :links: biotools: :biotools:`slgi`, doi: :doi:`10.1186/gb-2008-9-9-r135`
 
-
-
-Links         biotools: :biotools:`slgi`, doi: :doi:`10.1186/gb-2008-9-9-r135`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-slgi
 
-Installation
-------------
+   |downloads_bioconductor-slgi| |docker_bioconductor-slgi|
 
-.. highlight: bash
+   :versions: 1.42.0, 1.40.0, 1.38.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-annotationdbi` >=1.44.0,<1.45.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-go.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-scisi` >=1.54.0,<1.55.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-lattice`  
 
-   conda install bioconductor-slgi
+   :required~by: |required_by_bioconductor-slgi|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-slgi
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-slgi
+
+   and update with::
+
+      conda update bioconductor-slgi
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-slgi
+
+
+.. |required_by_bioconductor-slgi| conda:required_by:: bioconductor-slgi
+.. |downloads_bioconductor-slgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slgi.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-slgi| image:: https://quay.io/repository/biocontainers/bioconductor-slgi/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-slgi
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-slgi.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-slgi/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-slgi/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-slgi/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-slgi/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-slgi
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-slgi/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-slgi
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-slgi/README.html
 

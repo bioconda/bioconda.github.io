@@ -1,54 +1,66 @@
-.. _`python-cluster`:
+.. title:: Package Recipe 'python-cluster'
+.. highlight: bash
+
 
 python-cluster
 ==============
 
-|downloads|
+.. conda:recipe:: python-cluster
+   :replaces_section_title:
 
-python\-cluster is a \"simple\" package that allows to create several groups \(clusters\) of objects from a list
+   python\-cluster is a \"simple\" package that allows to create several groups \(clusters\) of objects from a list
 
-============= ===========
-Home          https://github.com/exhuma/python-cluster
-Versions      1.4.1.post1, 1.4.1, 1.3.3
-License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-cluster/meta.yaml
+   :homepage: https://github.com/exhuma/python-cluster
+   :license: GPL / LGPL-2.1
+   :recipe: /`python-cluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: python-cluster
 
-Installation
-------------
+   |downloads_python-cluster| |docker_python-cluster|
 
-.. highlight: bash
+   :versions: 1.4.1.post1, 1.4.1, 1.3.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python`  
 
-   conda install python-cluster
+   :required~by: |required_by_python-cluster|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update python-cluster
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install python-cluster
+
+   and update with::
+
+      conda update python-cluster
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/python-cluster
+
+
+.. |required_by_python-cluster| conda:required_by:: python-cluster
+.. |downloads_python-cluster| image:: https://img.shields.io/conda/dn/bioconda/python-cluster.svg?style=flat
+   :alt:   (downloads)
+.. |docker_python-cluster| image:: https://quay.io/repository/biocontainers/python-cluster/status
+   :target: https://quay.io/repository/biocontainers/python-cluster
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/python-cluster.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-cluster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-cluster/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/python-cluster/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/python-cluster/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/python-cluster
-.. |docker| image:: https://quay.io/repository/biocontainers/python-cluster/status
-                :target: https://quay.io/repository/biocontainers/python-cluster
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/python-cluster/README.html
 

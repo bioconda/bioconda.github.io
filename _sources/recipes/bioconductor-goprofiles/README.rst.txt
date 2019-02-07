@@ -1,54 +1,66 @@
-.. _`bioconductor-goprofiles`:
+.. title:: Package Recipe 'bioconductor-goprofiles'
+.. highlight: bash
+
 
 bioconductor-goprofiles
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-goprofiles
+   :replaces_section_title:
 
-The package implements methods to compare lists of genes based on comparing the corresponding \'functional profiles\'.
+   The package implements methods to compare lists of genes based on comparing the corresponding \'functional profiles\'.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/goProfiles.html
-Versions      
-License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-goprofiles/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/goProfiles.html
+   :license: GPL-2
+   :recipe: /`bioconductor-goprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-goprofiles
 
-Installation
-------------
+   |downloads_bioconductor-goprofiles| |docker_bioconductor-goprofiles|
 
-.. highlight: bash
+   :versions: 
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install bioconductor-goprofiles
+   :required~by: |required_by_bioconductor-goprofiles|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-goprofiles
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-goprofiles
+
+   and update with::
+
+      conda update bioconductor-goprofiles
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-goprofiles
+
+
+.. |required_by_bioconductor-goprofiles| conda:required_by:: bioconductor-goprofiles
+.. |downloads_bioconductor-goprofiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goprofiles.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-goprofiles| image:: https://quay.io/repository/biocontainers/bioconductor-goprofiles/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-goprofiles
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-goprofiles.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-goprofiles/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-goprofiles/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-goprofiles/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-goprofiles/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-goprofiles
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-goprofiles/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-goprofiles
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-goprofiles/README.html
 

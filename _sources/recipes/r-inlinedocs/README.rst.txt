@@ -1,54 +1,66 @@
-.. _`r-inlinedocs`:
+.. title:: Package Recipe 'r-inlinedocs'
+.. highlight: bash
+
 
 r-inlinedocs
 ============
 
-|downloads|
+.. conda:recipe:: r-inlinedocs
+   :replaces_section_title:
 
-Generates Rd files from R source code with comments. The main features of the default syntax are that \(1\) docs are defined in comments near the relevant code\, \(2\) function argument names are not repeated in comments\, and \(3\) examples are defined in R code\, not comments. It is also easy to define a new syntax.
+   
 
-============= ===========
-Home          http://inlinedocs.r-forge.r-project.org
-Versions      2013.9.3
-License       GPL-2 | GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-inlinedocs/meta.yaml
+   :homepage: 
+   :license: 
+   :recipe: /`r-inlinedocs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-inlinedocs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-inlinedocs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-inlinedocs
 
-Installation
-------------
+   |downloads_r-inlinedocs| |docker_r-inlinedocs|
 
-.. highlight: bash
+   :versions: 2013.9.3
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install r-inlinedocs
+   :required~by: |required_by_r-inlinedocs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-inlinedocs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-inlinedocs
+
+   and update with::
+
+      conda update r-inlinedocs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-inlinedocs
+
+
+.. |required_by_r-inlinedocs| conda:required_by:: r-inlinedocs
+.. |downloads_r-inlinedocs| image:: https://img.shields.io/conda/dn/bioconda/r-inlinedocs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-inlinedocs| image:: https://quay.io/repository/biocontainers/r-inlinedocs/status
+   :target: https://quay.io/repository/biocontainers/r-inlinedocs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-inlinedocs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-inlinedocs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-inlinedocs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-inlinedocs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-inlinedocs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-inlinedocs
-.. |docker| image:: https://quay.io/repository/biocontainers/r-inlinedocs/status
-                :target: https://quay.io/repository/biocontainers/r-inlinedocs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-inlinedocs/README.html
 

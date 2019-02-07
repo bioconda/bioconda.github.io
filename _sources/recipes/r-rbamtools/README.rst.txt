@@ -1,54 +1,66 @@
-.. _`r-rbamtools`:
+.. title:: Package Recipe 'r-rbamtools'
+.. highlight: bash
+
 
 r-rbamtools
 ===========
 
-|downloads|
+.. conda:recipe:: r-rbamtools
+   :replaces_section_title:
 
-Provides an R interface to functions of the \'SAMtools\' C\-Library by Heng Li \<http\:\/\/www.htslib.org\/\>.
+   Provides an R interface to functions of the \'SAMtools\' C\-Library by Heng Li \<http\:\/\/www.htslib.org\/\>.
 
-============= ===========
-Home          https://CRAN.R-project.org/package=rbamtools
-Versions      2.16.11
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rbamtools/meta.yaml
+   :homepage: https://CRAN.R-project.org/package=rbamtools
+   :license: OTHER / Artistic-2.0
+   :recipe: /`r-rbamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rbamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rbamtools/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: r-rbamtools
 
-Installation
-------------
+   |downloads_r-rbamtools| |docker_r-rbamtools|
 
-.. highlight: bash
+   :versions: 2.16.11
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-refgenome` >=1.6.1 
 
-   conda install r-rbamtools
+   :required~by: |required_by_r-rbamtools|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update r-rbamtools
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-rbamtools
+
+   and update with::
+
+      conda update r-rbamtools
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/r-rbamtools
+
+
+.. |required_by_r-rbamtools| conda:required_by:: r-rbamtools
+.. |downloads_r-rbamtools| image:: https://img.shields.io/conda/dn/bioconda/r-rbamtools.svg?style=flat
+   :alt:   (downloads)
+.. |docker_r-rbamtools| image:: https://quay.io/repository/biocontainers/r-rbamtools/status
+   :target: https://quay.io/repository/biocontainers/r-rbamtools
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/r-rbamtools.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rbamtools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-rbamtools/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/r-rbamtools/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/r-rbamtools/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/r-rbamtools
-.. |docker| image:: https://quay.io/repository/biocontainers/r-rbamtools/status
-                :target: https://quay.io/repository/biocontainers/r-rbamtools
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-rbamtools/README.html
 

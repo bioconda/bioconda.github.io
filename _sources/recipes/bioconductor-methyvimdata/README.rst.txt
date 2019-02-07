@@ -1,54 +1,66 @@
-.. _`bioconductor-methyvimdata`:
+.. title:: Package Recipe 'bioconductor-methyvimdata'
+.. highlight: bash
+
 
 bioconductor-methyvimdata
 =========================
 
-|downloads|
+.. conda:recipe:: bioconductor-methyvimdata
+   :replaces_section_title:
 
-Contains a reduced set of simulated data inspired by data produced by the Infinium EPIC BeadChip assays by Illumina. The example data set is made available to highlight many of the key procedures that are available within the core functions of the methyvim package.
+   Contains a reduced set of simulated data inspired by data produced by the Infinium EPIC BeadChip assays by Illumina. The example data set is made available to highlight many of the key procedures that are available within the core functions of the methyvim package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/methyvimData.html
-Versions      1.4.0
-License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methyvimdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/methyvimData.html
+   :license: file LICENSE
+   :recipe: /`bioconductor-methyvimdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-methyvimdata
 
-Installation
-------------
+   |downloads_bioconductor-methyvimdata| |docker_bioconductor-methyvimdata|
 
-.. highlight: bash
+   :versions: 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-minfi` >=1.28.0,<1.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-methyvimdata
+   :required~by: |required_by_bioconductor-methyvimdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-methyvimdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-methyvimdata
+
+   and update with::
+
+      conda update bioconductor-methyvimdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-methyvimdata
+
+
+.. |required_by_bioconductor-methyvimdata| conda:required_by:: bioconductor-methyvimdata
+.. |downloads_bioconductor-methyvimdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methyvimdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-methyvimdata| image:: https://quay.io/repository/biocontainers/bioconductor-methyvimdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-methyvimdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-methyvimdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-methyvimdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-methyvimdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-methyvimdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-methyvimdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-methyvimdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-methyvimdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-methyvimdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-methyvimdata/README.html
 

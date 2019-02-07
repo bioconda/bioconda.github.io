@@ -1,54 +1,66 @@
-.. _`perl-object-insideout`:
+.. title:: Package Recipe 'perl-object-insideout'
+.. highlight: bash
+
 
 perl-object-insideout
 =====================
 
-|downloads|
+.. conda:recipe:: perl-object-insideout
+   :replaces_section_title:
 
-Comprehensive inside\-out object support module
+   Comprehensive inside\-out object support module
 
-============= ===========
-Home          http://metacpan.org/pod/Object::InsideOut
-Versions      4.05, 4.04
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-object-insideout/meta.yaml
+   :homepage: http://metacpan.org/pod/Object::InsideOut
+   :license: perl_5
+   :recipe: /`perl-object-insideout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-object-insideout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-object-insideout/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-object-insideout
 
-Installation
-------------
+   |downloads_perl-object-insideout| |docker_perl-object-insideout|
 
-.. highlight: bash
+   :versions: 4.05, 4.04
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-data-dumper`  :conda:package:`perl-exception-class`  
 
-   conda install perl-object-insideout
+   :required~by: |required_by_perl-object-insideout|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-object-insideout
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-object-insideout
+
+   and update with::
+
+      conda update perl-object-insideout
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-object-insideout
+
+
+.. |required_by_perl-object-insideout| conda:required_by:: perl-object-insideout
+.. |downloads_perl-object-insideout| image:: https://img.shields.io/conda/dn/bioconda/perl-object-insideout.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-object-insideout| image:: https://quay.io/repository/biocontainers/perl-object-insideout/status
+   :target: https://quay.io/repository/biocontainers/perl-object-insideout
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-object-insideout.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-object-insideout/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-object-insideout/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-object-insideout/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-object-insideout/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-object-insideout
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-object-insideout/status
-                :target: https://quay.io/repository/biocontainers/perl-object-insideout
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-object-insideout/README.html
 

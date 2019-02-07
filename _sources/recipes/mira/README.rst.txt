@@ -1,56 +1,67 @@
-.. _`mira`:
+.. title:: Package Recipe 'mira'
+.. highlight: bash
+
 
 mira
 ====
 
-|downloads|
+.. conda:recipe:: mira
+   :replaces_section_title:
 
-MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\)
+   MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\)
 
-============= ===========
-Home          https://sourceforge.net/p/mira-assembler/wiki/Home/
-Versions      4.9.6, 4.9.5, 4.0.2, 3.4.1.1
-License       GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mira/meta.yaml
+   :homepage: https://sourceforge.net/p/mira-assembler/wiki/Home/
+   :license: GNU General Public License v2 or later (GPLv2+)
+   :recipe: /`mira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira/meta.yaml>`_
+   :links: biotools: :biotools:`mira`
 
-
-
-Links         biotools: :biotools:`mira`
-
-============= ===========
+   
 
 
+.. conda:package:: mira
 
-Installation
-------------
+   |downloads_mira| |docker_mira|
 
-.. highlight: bash
+   :versions: 4.9.6, 4.9.5, 4.0.2, 3.4.1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install mira
+   :required~by: |required_by_mira|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mira
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mira
+
+   and update with::
+
+      conda update mira
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mira
+
+
+.. |required_by_mira| conda:required_by:: mira
+.. |downloads_mira| image:: https://img.shields.io/conda/dn/bioconda/mira.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mira| image:: https://quay.io/repository/biocontainers/mira/status
+   :target: https://quay.io/repository/biocontainers/mira
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mira.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mira/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mira/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mira/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mira/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mira
-.. |docker| image:: https://quay.io/repository/biocontainers/mira/status
-                :target: https://quay.io/repository/biocontainers/mira
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mira/README.html
 

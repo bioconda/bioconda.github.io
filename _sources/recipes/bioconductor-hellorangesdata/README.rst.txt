@@ -1,54 +1,66 @@
-.. _`bioconductor-hellorangesdata`:
+.. title:: Package Recipe 'bioconductor-hellorangesdata'
+.. highlight: bash
+
 
 bioconductor-hellorangesdata
 ============================
 
-|downloads|
+.. conda:recipe:: bioconductor-hellorangesdata
+   :replaces_section_title:
 
-Provides the data that were used in the bedtools tutorial by Aaron Quinlan \(http\:\/\/quinlanlab.org\/tutorials\/bedtools\/bedtools.html\). Includes a subset of the DnaseI hypersensitivity data from \"Maurano et al. Systematic Localization of Common Disease\-Associated Variation in Regulatory DNA. Science. 2012. Vol. 337 no. 6099 pp. 1190\-1195.\" The rest of the tracks were originally downloaded from the UCSC table browser. See the HelloRanges vignette for a port of the bedtools tutorial to R.
+   Provides the data that were used in the bedtools tutorial by Aaron Quinlan \(http\:\/\/quinlanlab.org\/tutorials\/bedtools\/bedtools.html\). Includes a subset of the DnaseI hypersensitivity data from \"Maurano et al. Systematic Localization of Common Disease\-Associated Variation in Regulatory DNA. Science. 2012. Vol. 337 no. 6099 pp. 1190\-1195.\" The rest of the tracks were originally downloaded from the UCSC table browser. See the HelloRanges vignette for a port of the bedtools tutorial to R.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/HelloRangesData.html
-Versions      1.8.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hellorangesdata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HelloRangesData.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-hellorangesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-hellorangesdata
 
-Installation
-------------
+   |downloads_bioconductor-hellorangesdata| |docker_bioconductor-hellorangesdata|
 
-.. highlight: bash
+   :versions: 1.8.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-hellorangesdata
+   :required~by: |required_by_bioconductor-hellorangesdata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-hellorangesdata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-hellorangesdata
+
+   and update with::
+
+      conda update bioconductor-hellorangesdata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-hellorangesdata
+
+
+.. |required_by_bioconductor-hellorangesdata| conda:required_by:: bioconductor-hellorangesdata
+.. |downloads_bioconductor-hellorangesdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hellorangesdata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-hellorangesdata| image:: https://quay.io/repository/biocontainers/bioconductor-hellorangesdata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-hellorangesdata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-hellorangesdata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-hellorangesdata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-hellorangesdata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-hellorangesdata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-hellorangesdata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-hellorangesdata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hellorangesdata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-hellorangesdata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-hellorangesdata/README.html
 

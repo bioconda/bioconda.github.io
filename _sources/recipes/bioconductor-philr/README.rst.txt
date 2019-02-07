@@ -1,56 +1,67 @@
-.. _`bioconductor-philr`:
+.. title:: Package Recipe 'bioconductor-philr'
+.. highlight: bash
+
 
 bioconductor-philr
 ==================
 
-|downloads|
+.. conda:recipe:: bioconductor-philr
+   :replaces_section_title:
 
-PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package provides functions for the analysis of compositional data \(e.g.\, data representing proportions of different variables\/parts\). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.
+   PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package provides functions for the analysis of compositional data \(e.g.\, data representing proportions of different variables\/parts\). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/philr.html
-Versions      1.8.1, 1.6.0, 1.4.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-philr/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/philr.html
+   :license: GPL-3
+   :recipe: /`bioconductor-philr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr/meta.yaml>`_
+   :links: biotools: :biotools:`philr`
 
-
-
-Links         biotools: :biotools:`philr`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-philr
 
-Installation
-------------
+   |downloads_bioconductor-philr| |docker_bioconductor-philr|
 
-.. highlight: bash
+   :versions: 1.8.1, 1.6.0, 1.4.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-phangorn`  :conda:package:`r-tidyr`  
 
-   conda install bioconductor-philr
+   :required~by: |required_by_bioconductor-philr|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-philr
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-philr
+
+   and update with::
+
+      conda update bioconductor-philr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-philr
+
+
+.. |required_by_bioconductor-philr| conda:required_by:: bioconductor-philr
+.. |downloads_bioconductor-philr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-philr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-philr| image:: https://quay.io/repository/biocontainers/bioconductor-philr/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-philr
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-philr.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-philr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-philr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-philr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-philr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-philr
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-philr/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-philr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-philr/README.html
 

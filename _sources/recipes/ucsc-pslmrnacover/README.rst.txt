@@ -1,54 +1,66 @@
-.. _`ucsc-pslmrnacover`:
+.. title:: Package Recipe 'ucsc-pslmrnacover'
+.. highlight: bash
+
 
 ucsc-pslmrnacover
 =================
 
-|downloads|
+.. conda:recipe:: ucsc-pslmrnacover
+   :replaces_section_title:
 
-Make histogram of coverage percentage of mRNA in psl.
+   Make histogram of coverage percentage of mRNA in psl.
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-pslmrnacover/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-pslmrnacover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-pslmrnacover
 
-Installation
-------------
+   |downloads_ucsc-pslmrnacover| |docker_ucsc-pslmrnacover|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-pslmrnacover
+   :required~by: |required_by_ucsc-pslmrnacover|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-pslmrnacover
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-pslmrnacover
+
+   and update with::
+
+      conda update ucsc-pslmrnacover
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-pslmrnacover
+
+
+.. |required_by_ucsc-pslmrnacover| conda:required_by:: ucsc-pslmrnacover
+.. |downloads_ucsc-pslmrnacover| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslmrnacover.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-pslmrnacover| image:: https://quay.io/repository/biocontainers/ucsc-pslmrnacover/status
+   :target: https://quay.io/repository/biocontainers/ucsc-pslmrnacover
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-pslmrnacover.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-pslmrnacover/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-pslmrnacover/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-pslmrnacover/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-pslmrnacover/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-pslmrnacover
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslmrnacover/status
-                :target: https://quay.io/repository/biocontainers/ucsc-pslmrnacover
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-pslmrnacover/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-b`:
+.. title:: Package Recipe 'perl-b'
+.. highlight: bash
+
 
 perl-b
 ======
 
-|downloads|
+.. conda:recipe:: perl-b/1.48
+   :replaces_section_title:
 
-The Perl Compiler Backend
+   The Perl Compiler Backend
 
-============= ===========
-Home          http://metacpan.org/pod/B
-Versions      1.48
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-b/1.48/meta.yaml
+   :homepage: http://metacpan.org/pod/B
+   :license: perl_5
+   :recipe: /`perl-b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b>`_/`1.48 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-b
 
-Installation
-------------
+   |downloads_perl-b| |docker_perl-b|
 
-.. highlight: bash
+   :versions: 1.48
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-b
+   :required~by: |required_by_perl-b|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-b
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-b
+
+   and update with::
+
+      conda update perl-b
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-b
+
+
+.. |required_by_perl-b| conda:required_by:: perl-b
+.. |downloads_perl-b| image:: https://img.shields.io/conda/dn/bioconda/perl-b.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-b| image:: https://quay.io/repository/biocontainers/perl-b/status
+   :target: https://quay.io/repository/biocontainers/perl-b
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-b.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-b/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-b/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-b/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-b/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-b
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-b/status
-                :target: https://quay.io/repository/biocontainers/perl-b
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-b/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-term-encoding`:
+.. title:: Package Recipe 'perl-term-encoding'
+.. highlight: bash
+
 
 perl-term-encoding
 ==================
 
-|downloads|
+.. conda:recipe:: perl-term-encoding
+   :replaces_section_title:
 
-Detect encoding of the current terminal
+   Detect encoding of the current terminal
 
-============= ===========
-Home          http://metacpan.org/pod/Term::Encoding
-Versions      0.02
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-term-encoding/meta.yaml
+   :homepage: http://metacpan.org/pod/Term::Encoding
+   :license: perl_5
+   :recipe: /`perl-term-encoding <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-encoding>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-encoding/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-term-encoding
 
-Installation
-------------
+   |downloads_perl-term-encoding| |docker_perl-term-encoding|
 
-.. highlight: bash
+   :versions: 0.02
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl-threaded`  
 
-   conda install perl-term-encoding
+   :required~by: |required_by_perl-term-encoding|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-term-encoding
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-term-encoding
+
+   and update with::
+
+      conda update perl-term-encoding
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-term-encoding
+
+
+.. |required_by_perl-term-encoding| conda:required_by:: perl-term-encoding
+.. |downloads_perl-term-encoding| image:: https://img.shields.io/conda/dn/bioconda/perl-term-encoding.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-term-encoding| image:: https://quay.io/repository/biocontainers/perl-term-encoding/status
+   :target: https://quay.io/repository/biocontainers/perl-term-encoding
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-term-encoding.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-term-encoding/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-term-encoding/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-term-encoding/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-term-encoding/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-term-encoding
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-term-encoding/status
-                :target: https://quay.io/repository/biocontainers/perl-term-encoding
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-term-encoding/README.html
 

@@ -1,54 +1,66 @@
-.. _`perl-data-walk`:
+.. title:: Package Recipe 'perl-data-walk'
+.. highlight: bash
+
 
 perl-data-walk
 ==============
 
-|downloads|
+.. conda:recipe:: perl-data-walk/2.01
+   :replaces_section_title:
 
-Traverse Perl data structures.
+   Traverse Perl data structures.
 
-============= ===========
-Home          http://metacpan.org/pod/Data::Walk
-Versions      2.01
-License       open_source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-walk/2.01/meta.yaml
+   :homepage: http://metacpan.org/pod/Data::Walk
+   :license: open_source
+   :recipe: /`perl-data-walk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-walk>`_/`2.01 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-walk/2.01>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-walk/2.01/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-data-walk
 
-Installation
-------------
+   |downloads_perl-data-walk| |docker_perl-data-walk|
 
-.. highlight: bash
+   :versions: 2.01
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* 
 
-   conda install perl-data-walk
+   :required~by: |required_by_perl-data-walk|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-data-walk
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-data-walk
+
+   and update with::
+
+      conda update perl-data-walk
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-data-walk
+
+
+.. |required_by_perl-data-walk| conda:required_by:: perl-data-walk
+.. |downloads_perl-data-walk| image:: https://img.shields.io/conda/dn/bioconda/perl-data-walk.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-data-walk| image:: https://quay.io/repository/biocontainers/perl-data-walk/status
+   :target: https://quay.io/repository/biocontainers/perl-data-walk
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-data-walk.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-data-walk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-data-walk/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-data-walk/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-data-walk/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-data-walk
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-data-walk/status
-                :target: https://quay.io/repository/biocontainers/perl-data-walk
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-data-walk/README.html
 

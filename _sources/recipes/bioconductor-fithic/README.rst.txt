@@ -1,56 +1,67 @@
-.. _`bioconductor-fithic`:
+.. title:: Package Recipe 'bioconductor-fithic'
+.. highlight: bash
+
 
 bioconductor-fithic
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-fithic
+   :replaces_section_title:
 
-Fit\-Hi\-C is a tool for assigning statistical confidence estimates to intra\-chromosomal contact maps produced by genome\-wide genome architecture assays such as Hi\-C.
+   Fit\-Hi\-C is a tool for assigning statistical confidence estimates to intra\-chromosomal contact maps produced by genome\-wide genome architecture assays such as Hi\-C.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FitHiC.html
-Versions      1.8.0, 1.6.0, 1.4.0, 1.2.0
-License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fithic/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FitHiC.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-fithic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fithic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fithic/meta.yaml>`_
+   :links: biotools: :biotools:`fithic`, doi: :doi:`10.1101/gr.160374`
 
-
-
-Links         biotools: :biotools:`fithic`, doi: :doi:`10.1101/gr.160374`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fithic
 
-Installation
-------------
+   |downloads_bioconductor-fithic| |docker_bioconductor-fithic|
 
-.. highlight: bash
+   :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-fdrtool`  :conda:package:`r-rcpp`  
 
-   conda install bioconductor-fithic
+   :required~by: |required_by_bioconductor-fithic|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fithic
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fithic
+
+   and update with::
+
+      conda update bioconductor-fithic
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fithic
+
+
+.. |required_by_bioconductor-fithic| conda:required_by:: bioconductor-fithic
+.. |downloads_bioconductor-fithic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fithic.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fithic| image:: https://quay.io/repository/biocontainers/bioconductor-fithic/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fithic
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fithic.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fithic/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fithic/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fithic/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fithic/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fithic
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fithic/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fithic
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fithic/README.html
 

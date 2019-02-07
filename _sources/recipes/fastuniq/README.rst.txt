@@ -1,54 +1,66 @@
-.. _`fastuniq`:
+.. title:: Package Recipe 'fastuniq'
+.. highlight: bash
+
 
 fastuniq
 ========
 
-|downloads|
+.. conda:recipe:: fastuniq
+   :replaces_section_title:
 
-FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
+   FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
 
-============= ===========
-Home          https://sourceforge.net/projects/fastuniq/
-Versions      1.1
-License       Creative Commons Attribution License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastuniq/meta.yaml
+   :homepage: https://sourceforge.net/projects/fastuniq/
+   :license: Creative Commons Attribution License
+   :recipe: /`fastuniq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastuniq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastuniq/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: fastuniq
 
-Installation
-------------
+   |downloads_fastuniq| |docker_fastuniq|
 
-.. highlight: bash
+   :versions: 1.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install fastuniq
+   :required~by: |required_by_fastuniq|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update fastuniq
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install fastuniq
+
+   and update with::
+
+      conda update fastuniq
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/fastuniq
+
+
+.. |required_by_fastuniq| conda:required_by:: fastuniq
+.. |downloads_fastuniq| image:: https://img.shields.io/conda/dn/bioconda/fastuniq.svg?style=flat
+   :alt:   (downloads)
+.. |docker_fastuniq| image:: https://quay.io/repository/biocontainers/fastuniq/status
+   :target: https://quay.io/repository/biocontainers/fastuniq
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/fastuniq.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastuniq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastuniq/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/fastuniq/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/fastuniq/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/fastuniq
-.. |docker| image:: https://quay.io/repository/biocontainers/fastuniq/status
-                :target: https://quay.io/repository/biocontainers/fastuniq
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/fastuniq/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-affypara`:
+.. title:: Package Recipe 'bioconductor-affypara'
+.. highlight: bash
+
 
 bioconductor-affypara
 =====================
 
-|downloads|
+.. conda:recipe:: bioconductor-affypara
+   :replaces_section_title:
 
-The package contains parallelized functions for exploratory oligonucleotide array analysis. The package is designed for large numbers of microarray data.
+   The package contains parallelized functions for exploratory oligonucleotide array analysis. The package is designed for large numbers of microarray data.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/affyPara.html
-Versions      1.42.0
-License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affypara/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affyPara.html
+   :license: GPL-3
+   :recipe: /`bioconductor-affypara <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-affypara
 
-Installation
-------------
+   |downloads_bioconductor-affypara| |docker_bioconductor-affypara|
 
-.. highlight: bash
+   :versions: 1.42.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-affyio` >=1.52.0,<1.53.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-aplpack` >=1.1.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-snow` >=0.2-3 
 
-   conda install bioconductor-affypara
+   :required~by: |required_by_bioconductor-affypara|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-affypara
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-affypara
+
+   and update with::
+
+      conda update bioconductor-affypara
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-affypara
+
+
+.. |required_by_bioconductor-affypara| conda:required_by:: bioconductor-affypara
+.. |downloads_bioconductor-affypara| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affypara.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-affypara| image:: https://quay.io/repository/biocontainers/bioconductor-affypara/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-affypara
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-affypara.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-affypara/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-affypara/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-affypara/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-affypara/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-affypara
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-affypara/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-affypara
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-affypara/README.html
 

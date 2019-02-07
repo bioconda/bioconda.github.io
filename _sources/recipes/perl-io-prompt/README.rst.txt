@@ -1,54 +1,66 @@
-.. _`perl-io-prompt`:
+.. title:: Package Recipe 'perl-io-prompt'
+.. highlight: bash
+
 
 perl-io-prompt
 ==============
 
-|downloads|
+.. conda:recipe:: perl-io-prompt
+   :replaces_section_title:
 
-Interactively prompt for user input
+   Interactively prompt for user input
 
-============= ===========
-Home          http://search.cpan.org/dist/IO-Prompt/lib/IO/Prompt.pm
-Versions      0.997004
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-prompt/meta.yaml
+   :homepage: http://search.cpan.org/dist/IO-Prompt/lib/IO/Prompt.pm
+   :license: perl_5
+   :recipe: /`perl-io-prompt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-prompt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-prompt/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-io-prompt
 
-Installation
-------------
+   |downloads_perl-io-prompt| |docker_perl-io-prompt|
 
-.. highlight: bash
+   :versions: 0.997004
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-termreadkey`  :conda:package:`perl-want`  
 
-   conda install perl-io-prompt
+   :required~by: |required_by_perl-io-prompt|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-io-prompt
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-io-prompt
+
+   and update with::
+
+      conda update perl-io-prompt
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-io-prompt
+
+
+.. |required_by_perl-io-prompt| conda:required_by:: perl-io-prompt
+.. |downloads_perl-io-prompt| image:: https://img.shields.io/conda/dn/bioconda/perl-io-prompt.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-io-prompt| image:: https://quay.io/repository/biocontainers/perl-io-prompt/status
+   :target: https://quay.io/repository/biocontainers/perl-io-prompt
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-io-prompt.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-io-prompt/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-io-prompt/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-io-prompt/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-io-prompt/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-io-prompt
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-io-prompt/status
-                :target: https://quay.io/repository/biocontainers/perl-io-prompt
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-io-prompt/README.html
 

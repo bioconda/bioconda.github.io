@@ -1,54 +1,66 @@
-.. _`bioconductor-kebabs`:
+.. title:: Package Recipe 'bioconductor-kebabs'
+.. highlight: bash
+
 
 bioconductor-kebabs
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-kebabs
+   :replaces_section_title:
 
-The package provides functionality for kernel\-based analysis of DNA\, RNA\, and amino acid sequences via SVM\-based methods. As core functionality\, kebabs implements following sequence kernels\: spectrum kernel\, mismatch kernel\, gappy pair kernel\, and motif kernel. Apart from an efficient implementation of standard position\-independent functionality\, the kernels are extended in a novel way to take the position of patterns into account for the similarity measure. Because of the flexibility of the kernel formulation\, other kernels like the weighted degree kernel or the shifted weighted degree kernel with constant weighting of positions are included as special cases. An annotation\-specific variant of the kernels uses annotation information placed along the sequence together with the patterns in the sequence. The package allows for the generation of a kernel matrix or an explicit feature representation in dense or sparse format for all available kernels which can be used with methods implemented in other R packages. With focus on SVM\-based methods\, kebabs provides a framework which simplifies the usage of existing SVM implementations in kernlab\, e1071\, and LiblineaR. Binary and multi\-class classification as well as regression tasks can be used in a unified way without having to deal with the different functions\, parameters\, and formats of the selected SVM. As support for choosing hyperparameters\, the package provides cross validation \- including grouped cross validation\, grid search and model selection functions. For easier biological interpretation of the results\, the package computes feature weights for all SVMs and prediction profiles which show the contribution of individual sequence positions to the prediction result and indicate the relevance of sequence sections for the learning result and the underlying biological functions.
+   The package provides functionality for kernel\-based analysis of DNA\, RNA\, and amino acid sequences via SVM\-based methods. As core functionality\, kebabs implements following sequence kernels\: spectrum kernel\, mismatch kernel\, gappy pair kernel\, and motif kernel. Apart from an efficient implementation of standard position\-independent functionality\, the kernels are extended in a novel way to take the position of patterns into account for the similarity measure. Because of the flexibility of the kernel formulation\, other kernels like the weighted degree kernel or the shifted weighted degree kernel with constant weighting of positions are included as special cases. An annotation\-specific variant of the kernels uses annotation information placed along the sequence together with the patterns in the sequence. The package allows for the generation of a kernel matrix or an explicit feature representation in dense or sparse format for all available kernels which can be used with methods implemented in other R packages. With focus on SVM\-based methods\, kebabs provides a framework which simplifies the usage of existing SVM implementations in kernlab\, e1071\, and LiblineaR. Binary and multi\-class classification as well as regression tasks can be used in a unified way without having to deal with the different functions\, parameters\, and formats of the selected SVM. As support for choosing hyperparameters\, the package provides cross validation \- including grouped cross validation\, grid search and model selection functions. For easier biological interpretation of the results\, the package computes feature weights for all SVMs and prediction profiles which show the contribution of individual sequence positions to the prediction result and indicate the relevance of sequence sections for the learning result and the underlying biological functions.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/kebabs.html
-Versions      1.16.0, 1.14.0, 1.12.0
-License       GPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-kebabs/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/kebabs.html
+   :license: GPL (>= 2.1)
+   :recipe: /`bioconductor-kebabs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kebabs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kebabs/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-kebabs
 
-Installation
-------------
+   |downloads_bioconductor-kebabs| |docker_bioconductor-kebabs|
 
-.. highlight: bash
+   :versions: 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-apcluster`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-e1071`  :conda:package:`r-kernlab`  :conda:package:`r-liblinear`  :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.11.2 
 
-   conda install bioconductor-kebabs
+   :required~by: |required_by_bioconductor-kebabs|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-kebabs
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-kebabs
+
+   and update with::
+
+      conda update bioconductor-kebabs
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-kebabs
+
+
+.. |required_by_bioconductor-kebabs| conda:required_by:: bioconductor-kebabs
+.. |downloads_bioconductor-kebabs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kebabs.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-kebabs| image:: https://quay.io/repository/biocontainers/bioconductor-kebabs/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-kebabs
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-kebabs.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-kebabs/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-kebabs/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-kebabs/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-kebabs/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-kebabs
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-kebabs/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-kebabs
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-kebabs/README.html
 

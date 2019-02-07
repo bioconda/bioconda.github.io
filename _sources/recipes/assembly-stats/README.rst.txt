@@ -1,54 +1,66 @@
-.. _`assembly-stats`:
+.. title:: Package Recipe 'assembly-stats'
+.. highlight: bash
+
 
 assembly-stats
 ==============
 
-|downloads|
+.. conda:recipe:: assembly-stats
+   :replaces_section_title:
 
-Get assembly statistics from FASTA and FASTQ files
+   Get assembly statistics from FASTA and FASTQ files
 
-============= ===========
-Home          https://github.com/sanger-pathogens/assembly-stats
-Versions      1.0.1, 1.0.0
-License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//assembly-stats/meta.yaml
+   :homepage: https://github.com/sanger-pathogens/assembly-stats
+   :license: GPL-3.0
+   :recipe: /`assembly-stats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: assembly-stats
 
-Installation
-------------
+   |downloads_assembly-stats| |docker_assembly-stats|
 
-.. highlight: bash
+   :versions: 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  
 
-   conda install assembly-stats
+   :required~by: |required_by_assembly-stats|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update assembly-stats
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install assembly-stats
+
+   and update with::
+
+      conda update assembly-stats
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/assembly-stats
+
+
+.. |required_by_assembly-stats| conda:required_by:: assembly-stats
+.. |downloads_assembly-stats| image:: https://img.shields.io/conda/dn/bioconda/assembly-stats.svg?style=flat
+   :alt:   (downloads)
+.. |docker_assembly-stats| image:: https://quay.io/repository/biocontainers/assembly-stats/status
+   :target: https://quay.io/repository/biocontainers/assembly-stats
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/assembly-stats.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/assembly-stats/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/assembly-stats/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/assembly-stats/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/assembly-stats/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/assembly-stats
-.. |docker| image:: https://quay.io/repository/biocontainers/assembly-stats/status
-                :target: https://quay.io/repository/biocontainers/assembly-stats
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/assembly-stats/README.html
 

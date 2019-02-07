@@ -1,54 +1,66 @@
-.. _`parallel-fastq-dump`:
+.. title:: Package Recipe 'parallel-fastq-dump'
+.. highlight: bash
+
 
 parallel-fastq-dump
 ===================
 
-|downloads|
+.. conda:recipe:: parallel-fastq-dump
+   :replaces_section_title:
 
-parallel fastq\-dump wrapper
+   parallel fastq\-dump wrapper
 
-============= ===========
-Home          https://github.com/rvalieris/parallel-fastq-dump
-Versions      0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.4
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parallel-fastq-dump/meta.yaml
+   :homepage: https://github.com/rvalieris/parallel-fastq-dump
+   :license: MIT / MIT License
+   :recipe: /`parallel-fastq-dump <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-fastq-dump>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-fastq-dump/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: parallel-fastq-dump
 
-Installation
-------------
+   |downloads_parallel-fastq-dump| |docker_parallel-fastq-dump|
 
-.. highlight: bash
+   :versions: 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.4
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`python` 3.5* :conda:package:`sra-tools`  
 
-   conda install parallel-fastq-dump
+   :required~by: |required_by_parallel-fastq-dump|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update parallel-fastq-dump
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install parallel-fastq-dump
+
+   and update with::
+
+      conda update parallel-fastq-dump
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/parallel-fastq-dump
+
+
+.. |required_by_parallel-fastq-dump| conda:required_by:: parallel-fastq-dump
+.. |downloads_parallel-fastq-dump| image:: https://img.shields.io/conda/dn/bioconda/parallel-fastq-dump.svg?style=flat
+   :alt:   (downloads)
+.. |docker_parallel-fastq-dump| image:: https://quay.io/repository/biocontainers/parallel-fastq-dump/status
+   :target: https://quay.io/repository/biocontainers/parallel-fastq-dump
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/parallel-fastq-dump.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/parallel-fastq-dump/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/parallel-fastq-dump/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/parallel-fastq-dump/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/parallel-fastq-dump/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/parallel-fastq-dump
-.. |docker| image:: https://quay.io/repository/biocontainers/parallel-fastq-dump/status
-                :target: https://quay.io/repository/biocontainers/parallel-fastq-dump
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/parallel-fastq-dump/README.html
 

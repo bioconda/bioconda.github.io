@@ -1,54 +1,66 @@
-.. _`slicedimage`:
+.. title:: Package Recipe 'slicedimage'
+.. highlight: bash
+
 
 slicedimage
 ===========
 
-|downloads|
+.. conda:recipe:: slicedimage
+   :replaces_section_title:
 
-sliced imaging data
+   sliced imaging data
 
-============= ===========
-Home          https://github.com/spacetx/slicedimage
-Versions      1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.0, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2, 0.0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//slicedimage/meta.yaml
+   :homepage: https://github.com/spacetx/slicedimage
+   :license: MIT
+   :recipe: /`slicedimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slicedimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slicedimage/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: slicedimage
 
-Installation
-------------
+   |downloads_slicedimage| |docker_slicedimage|
 
-.. highlight: bash
+   :versions: 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.0, 0.0.7, 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2, 0.0.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`diskcache`  :conda:package:`numpy` !=1.13.0 :conda:package:`packaging`  :conda:package:`python` >=3.6 :conda:package:`requests`  :conda:package:`scikit-image`  :conda:package:`six`  
 
-   conda install slicedimage
+   :required~by: |required_by_slicedimage|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update slicedimage
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install slicedimage
+
+   and update with::
+
+      conda update slicedimage
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/slicedimage
+
+
+.. |required_by_slicedimage| conda:required_by:: slicedimage
+.. |downloads_slicedimage| image:: https://img.shields.io/conda/dn/bioconda/slicedimage.svg?style=flat
+   :alt:   (downloads)
+.. |docker_slicedimage| image:: https://quay.io/repository/biocontainers/slicedimage/status
+   :target: https://quay.io/repository/biocontainers/slicedimage
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/slicedimage.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/slicedimage/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/slicedimage/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/slicedimage/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/slicedimage/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/slicedimage
-.. |docker| image:: https://quay.io/repository/biocontainers/slicedimage/status
-                :target: https://quay.io/repository/biocontainers/slicedimage
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/slicedimage/README.html
 

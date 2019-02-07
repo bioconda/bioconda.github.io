@@ -1,54 +1,66 @@
-.. _`funnel`:
+.. title:: Package Recipe 'funnel'
+.. highlight: bash
+
 
 funnel
 ======
 
-|downloads|
+.. conda:recipe:: funnel
+   :replaces_section_title:
 
-Funnel is a toolkit for distributed task execution via a simple\, standard API
+   Funnel is a toolkit for distributed task execution via a simple\, standard API
 
-============= ===========
-Home          https://ohsu-comp-bio.github.io/funnel/
-Versions      0.5.0
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//funnel/meta.yaml
+   :homepage: https://ohsu-comp-bio.github.io/funnel/
+   :license: MIT
+   :recipe: /`funnel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funnel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funnel/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: funnel
 
-Installation
-------------
+   |downloads_funnel| |docker_funnel|
 
-.. highlight: bash
+   :versions: 0.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install funnel
+   :required~by: |required_by_funnel|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update funnel
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install funnel
+
+   and update with::
+
+      conda update funnel
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/funnel
+
+
+.. |required_by_funnel| conda:required_by:: funnel
+.. |downloads_funnel| image:: https://img.shields.io/conda/dn/bioconda/funnel.svg?style=flat
+   :alt:   (downloads)
+.. |docker_funnel| image:: https://quay.io/repository/biocontainers/funnel/status
+   :target: https://quay.io/repository/biocontainers/funnel
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/funnel.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/funnel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/funnel/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/funnel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/funnel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/funnel
-.. |docker| image:: https://quay.io/repository/biocontainers/funnel/status
-                :target: https://quay.io/repository/biocontainers/funnel
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/funnel/README.html
 

@@ -1,54 +1,66 @@
-.. _`bioconductor-fcbf`:
+.. title:: Package Recipe 'bioconductor-fcbf'
+.. highlight: bash
+
 
 bioconductor-fcbf
 =================
 
-|downloads|
+.. conda:recipe:: bioconductor-fcbf
+   :replaces_section_title:
 
-This package provides a simple R implementation for the Fast Correlation Based Filter described in Yu\, L. and Liu\, H.\; Feature Selection for High\-Dimensional Data\: A Fast Correlation Based Filter Solution\,Proc. 20th Intl. Conf. Mach. Learn. \(ICML\-2003\)\, Washington DC\, 2003 The current package is an intent to make easier for bioinformaticians to use FCBF for feature selection\, especially regarding transcriptomic data.This implies discretizing expression \(function discretize\_exprs\) before calculating the features that explain the class\, but are not predictable by other features. The functions are implemented based on the algorithm of Yu and Liu\, 2003 and Rajarshi Guha\'s implementation from 13\/05\/2005 available \(as of 26\/08\/2018\) at http\:\/\/www.rguha.net\/code\/R\/fcbf.R .
+   This package provides a simple R implementation for the Fast Correlation Based Filter described in Yu\, L. and Liu\, H.\; Feature Selection for High\-Dimensional Data\: A Fast Correlation Based Filter Solution\,Proc. 20th Intl. Conf. Mach. Learn. \(ICML\-2003\)\, Washington DC\, 2003 The current package is an intent to make easier for bioinformaticians to use FCBF for feature selection\, especially regarding transcriptomic data.This implies discretizing expression \(function discretize\_exprs\) before calculating the features that explain the class\, but are not predictable by other features. The functions are implemented based on the algorithm of Yu and Liu\, 2003 and Rajarshi Guha\'s implementation from 13\/05\/2005 available \(as of 26\/08\/2018\) at http\:\/\/www.rguha.net\/code\/R\/fcbf.R .
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/FCBF.html
-Versions      1.0.0
-License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fcbf/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FCBF.html
+   :license: MIT + file LICENSE
+   :recipe: /`bioconductor-fcbf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-fcbf
 
-Installation
-------------
+   |downloads_bioconductor-fcbf| |docker_bioconductor-fcbf|
 
-.. highlight: bash
+   :versions: 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  
 
-   conda install bioconductor-fcbf
+   :required~by: |required_by_bioconductor-fcbf|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-fcbf
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-fcbf
+
+   and update with::
+
+      conda update bioconductor-fcbf
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-fcbf
+
+
+.. |required_by_bioconductor-fcbf| conda:required_by:: bioconductor-fcbf
+.. |downloads_bioconductor-fcbf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fcbf.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-fcbf| image:: https://quay.io/repository/biocontainers/bioconductor-fcbf/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-fcbf
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-fcbf.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-fcbf/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-fcbf/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-fcbf/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-fcbf/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-fcbf
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fcbf/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-fcbf
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-fcbf/README.html
 

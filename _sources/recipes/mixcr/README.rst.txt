@@ -1,55 +1,67 @@
-.. _`mixcr`:
+.. title:: Package Recipe 'mixcr'
+.. highlight: bash
+
 
 mixcr
 =====
 
-|downloads|
+.. conda:recipe:: mixcr
+   :replaces_section_title:
 
-MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- cell receptor repertoire sequencing data.
-
-
-============= ===========
-Home          https://github.com/milaboratory/mixcr
-Versions      2.1.10, 2.1.3
-License       https://github.com/milaboratory/mixcr/blob/develop/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mixcr/meta.yaml
+   MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- cell receptor repertoire sequencing data.
 
 
+   :homepage: https://github.com/milaboratory/mixcr
+   :license: https://github.com/milaboratory/mixcr/blob/develop/LICENSE
+   :recipe: /`mixcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr/meta.yaml>`_
 
-============= ===========
-
-
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install mixcr
-
-and update with::
-
-   conda update mixcr
+   
 
 
+.. conda:package:: mixcr
 
-|docker|
+   |downloads_mixcr| |docker_mixcr|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mixcr.
+   :versions: 2.1.10, 2.1.3
+
+   :depends: :conda:package:`openjdk`  
+
+   :required~by: |required_by_mixcr|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mixcr
+
+   and update with::
+
+      conda update mixcr
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mixcr
+
+
+.. |required_by_mixcr| conda:required_by:: mixcr
+.. |downloads_mixcr| image:: https://img.shields.io/conda/dn/bioconda/mixcr.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mixcr| image:: https://quay.io/repository/biocontainers/mixcr/status
+   :target: https://quay.io/repository/biocontainers/mixcr
+
+
+
+
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mixcr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mixcr/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mixcr/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mixcr/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mixcr
-.. |docker| image:: https://quay.io/repository/biocontainers/mixcr/status
-                :target: https://quay.io/repository/biocontainers/mixcr
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mixcr/README.html
 

@@ -1,54 +1,66 @@
-.. _`reaper`:
+.. title:: Package Recipe 'reaper'
+.. highlight: bash
+
 
 reaper
 ======
 
-|downloads|
+.. conda:recipe:: reaper
+   :replaces_section_title:
 
-Tool for demultiplexing\, trimming and filtering sequencing data.
+   Tool for demultiplexing\, trimming and filtering sequencing data.
 
-============= ===========
-Home          https://www.ebi.ac.uk/~stijn/reaper/reaper.html
-Versions      16.098
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//reaper/meta.yaml
+   :homepage: https://www.ebi.ac.uk/~stijn/reaper/reaper.html
+   :license: GPL3
+   :recipe: /`reaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: reaper
 
-Installation
-------------
+   |downloads_reaper| |docker_reaper|
 
-.. highlight: bash
+   :versions: 16.098
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
 
-   conda install reaper
+   :required~by: |required_by_reaper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update reaper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install reaper
+
+   and update with::
+
+      conda update reaper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/reaper
+
+
+.. |required_by_reaper| conda:required_by:: reaper
+.. |downloads_reaper| image:: https://img.shields.io/conda/dn/bioconda/reaper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_reaper| image:: https://quay.io/repository/biocontainers/reaper/status
+   :target: https://quay.io/repository/biocontainers/reaper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/reaper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/reaper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/reaper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/reaper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/reaper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/reaper
-.. |docker| image:: https://quay.io/repository/biocontainers/reaper/status
-                :target: https://quay.io/repository/biocontainers/reaper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/reaper/README.html
 

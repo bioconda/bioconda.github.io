@@ -1,56 +1,67 @@
-.. _`dialign2`:
+.. title:: Package Recipe 'dialign2'
+.. highlight: bash
+
 
 dialign2
 ========
 
-|downloads|
+.. conda:recipe:: dialign2
+   :replaces_section_title:
 
-DIALIGN multiple sequence alignment using various sources of external information
+   DIALIGN multiple sequence alignment using various sources of external information
 
-============= ===========
-Home          http://dialign.gobics.de
-Versions      2.2.1
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dialign2/meta.yaml
+   :homepage: http://dialign.gobics.de
+   :license: LGPL
+   :recipe: /`dialign2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign2/meta.yaml>`_
+   :links: DOI: :DOI:`10.1093/nar/gkt283`
 
-
-
-Links         DOI: :DOI:`10.1093/nar/gkt283`
-
-============= ===========
+   
 
 
+.. conda:package:: dialign2
 
-Installation
-------------
+   |downloads_dialign2| |docker_dialign2|
 
-.. highlight: bash
+   :versions: 2.2.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install dialign2
+   :required~by: |required_by_dialign2|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update dialign2
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install dialign2
+
+   and update with::
+
+      conda update dialign2
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/dialign2
+
+
+.. |required_by_dialign2| conda:required_by:: dialign2
+.. |downloads_dialign2| image:: https://img.shields.io/conda/dn/bioconda/dialign2.svg?style=flat
+   :alt:   (downloads)
+.. |docker_dialign2| image:: https://quay.io/repository/biocontainers/dialign2/status
+   :target: https://quay.io/repository/biocontainers/dialign2
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/dialign2.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dialign2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dialign2/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/dialign2/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/dialign2/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/dialign2
-.. |docker| image:: https://quay.io/repository/biocontainers/dialign2/status
-                :target: https://quay.io/repository/biocontainers/dialign2
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/dialign2/README.html
 

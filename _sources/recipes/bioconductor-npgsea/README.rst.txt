@@ -1,56 +1,67 @@
-.. _`bioconductor-npgsea`:
+.. title:: Package Recipe 'bioconductor-npgsea'
+.. highlight: bash
+
 
 bioconductor-npgsea
 ===================
 
-|downloads|
+.. conda:recipe:: bioconductor-npgsea
+   :replaces_section_title:
 
-Current gene set enrichment methods rely upon permutations for inference.  These approaches are computationally expensive and have minimum achievable p\-values based on the number of permutations\, not on the actual observed statistics.  We have derived three parametric approximations to the permutation distributions of two gene set enrichment test statistics.  We are able to reduce the computational burden and granularity issues of permutation testing with our method\, which is implemented in this package. npGSEA calculates gene set enrichment statistics and p\-values without the computational cost of permutations.  It is applicable in settings where one or many gene sets are of interest.  There are also built\-in plotting functions to help users visualize results.
+   Current gene set enrichment methods rely upon permutations for inference.  These approaches are computationally expensive and have minimum achievable p\-values based on the number of permutations\, not on the actual observed statistics.  We have derived three parametric approximations to the permutation distributions of two gene set enrichment test statistics.  We are able to reduce the computational burden and granularity issues of permutation testing with our method\, which is implemented in this package. npGSEA calculates gene set enrichment statistics and p\-values without the computational cost of permutations.  It is applicable in settings where one or many gene sets are of interest.  There are also built\-in plotting functions to help users visualize results.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/bioc/html/npGSEA.html
-Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
-License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-npgsea/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/bioc/html/npGSEA.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-npgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-npgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-npgsea/meta.yaml>`_
+   :links: biotools: :biotools:`npgsea`
 
-
-
-Links         biotools: :biotools:`npgsea`
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-npgsea
 
-Installation
-------------
+   |downloads_bioconductor-npgsea| |docker_bioconductor-npgsea|
 
-.. highlight: bash
+   :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
-   conda install bioconductor-npgsea
+   :required~by: |required_by_bioconductor-npgsea|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-npgsea
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-npgsea
+
+   and update with::
+
+      conda update bioconductor-npgsea
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-npgsea
+
+
+.. |required_by_bioconductor-npgsea| conda:required_by:: bioconductor-npgsea
+.. |downloads_bioconductor-npgsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-npgsea.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-npgsea| image:: https://quay.io/repository/biocontainers/bioconductor-npgsea/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-npgsea
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-npgsea.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-npgsea/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-npgsea/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-npgsea/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-npgsea/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-npgsea
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-npgsea/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-npgsea
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-npgsea/README.html
 

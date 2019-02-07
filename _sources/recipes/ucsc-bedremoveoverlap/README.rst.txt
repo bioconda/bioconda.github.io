@@ -1,54 +1,66 @@
-.. _`ucsc-bedremoveoverlap`:
+.. title:: Package Recipe 'ucsc-bedremoveoverlap'
+.. highlight: bash
+
 
 ucsc-bedremoveoverlap
 =====================
 
-|downloads|
+.. conda:recipe:: ucsc-bedremoveoverlap
+   :replaces_section_title:
 
-Remove overlapping records from a \(sorted\) bed file.  Gets rid of
+   Remove overlapping records from a \(sorted\) bed file.  Gets rid of
 
-============= ===========
-Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      366, 357, 332, 324
-License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bedremoveoverlap/meta.yaml
+   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
+   :license: varies; see http://genome.ucsc.edu/license
+   :recipe: /`ucsc-bedremoveoverlap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: ucsc-bedremoveoverlap
 
-Installation
-------------
+   |downloads_ucsc-bedremoveoverlap| |docker_ucsc-bedremoveoverlap|
 
-.. highlight: bash
+   :versions: 366, 357, 332, 324
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libpng` >=1.6.34,<1.7.0a0 :conda:package:`libuuid`  :conda:package:`mysql-connector-c`  :conda:package:`openssl` >=1.0.2o,<1.0.3a :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
-   conda install ucsc-bedremoveoverlap
+   :required~by: |required_by_ucsc-bedremoveoverlap|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update ucsc-bedremoveoverlap
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install ucsc-bedremoveoverlap
+
+   and update with::
+
+      conda update ucsc-bedremoveoverlap
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/ucsc-bedremoveoverlap
+
+
+.. |required_by_ucsc-bedremoveoverlap| conda:required_by:: ucsc-bedremoveoverlap
+.. |downloads_ucsc-bedremoveoverlap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedremoveoverlap.svg?style=flat
+   :alt:   (downloads)
+.. |docker_ucsc-bedremoveoverlap| image:: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap/status
+   :target: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-bedremoveoverlap/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ucsc-bedremoveoverlap/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/ucsc-bedremoveoverlap/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/ucsc-bedremoveoverlap/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/ucsc-bedremoveoverlap
-.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap/status
-                :target: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/ucsc-bedremoveoverlap/README.html
 

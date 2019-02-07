@@ -1,42 +1,62 @@
-.. _`biopet-validateannotation`:
+.. title:: Package Recipe 'biopet-validateannotation'
+.. highlight: bash
+
 
 biopet-validateannotation
 =========================
 
-|downloads|
+.. conda:recipe:: biopet-validateannotation
+   :replaces_section_title:
 
-ValidateAnnotationvalidates whether an annotation file is correct.
+   ValidateAnnotationvalidates whether an annotation file is correct.
 
-============= ===========
-Home          https://github.com/biopet/validateannotation
-Versions      0.1
-License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet-validateannotation/meta.yaml
+   :homepage: https://github.com/biopet/validateannotation
+   :license: MIT
+   :recipe: /`biopet-validateannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validateannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validateannotation/meta.yaml>`_
+
+   ValidateAnnotationvalidates whether an annotation file is correct.
+   It checks whether all the annotated contigs are present on the reference.
+   It can check gtf or refflat files. It can also check both\,
+   in which case it will also check for dissimilarities between the refflat and
+   GTF files.
+
+   For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/validateannotation
+
+
+.. conda:package:: biopet-validateannotation
+
+   |downloads_biopet-validateannotation| |docker_biopet-validateannotation|
+
+   :versions: 0.1
+
+   :depends: :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
+
+   :required~by: |required_by_biopet-validateannotation|
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install biopet-validateannotation
+
+   and update with::
+
+      conda update biopet-validateannotation
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/biopet-validateannotation
+
+
+.. |required_by_biopet-validateannotation| conda:required_by:: biopet-validateannotation
+.. |downloads_biopet-validateannotation| image:: https://img.shields.io/conda/dn/bioconda/biopet-validateannotation.svg?style=flat
+   :alt:   (downloads)
+.. |docker_biopet-validateannotation| image:: https://quay.io/repository/biocontainers/biopet-validateannotation/status
+   :target: https://quay.io/repository/biocontainers/biopet-validateannotation
 
 
 
-============= ===========
 
-ValidateAnnotationvalidates whether an annotation file is correct.
-It checks whether all the annotated contigs are present on the reference.
-It can check gtf or refflat files. It can also check both\,
-in which case it will also check for dissimilarities between the refflat and
-GTF files.
-
-For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/validateannotation
-
-Installation
-------------
-
-.. highlight: bash
-
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
-
-   conda install biopet-validateannotation
-
-and update with::
-
-   conda update biopet-validateannotation
 
 
 Notes
@@ -44,21 +64,13 @@ Notes
 biopet\-validateannotation is a Java program that comes with a custom wrapper shell script. By default \'no default java option\' is set in the wrapper. The command that runs the program is \'biopet\-validateannotation\'. If you want to overwrite it you can specify memory options directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \'biopet\-validateannotation \-Xms512m \-Xmx1g\'. 
 
 
-|docker|
-
-A Docker container is available at https://quay.io/repository/biocontainers/biopet-validateannotation.
-
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biopet-validateannotation/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biopet-validateannotation/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/biopet-validateannotation/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/biopet-validateannotation/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/biopet-validateannotation
-.. |docker| image:: https://quay.io/repository/biocontainers/biopet-validateannotation/status
-                :target: https://quay.io/repository/biocontainers/biopet-validateannotation
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/biopet-validateannotation/README.html
 

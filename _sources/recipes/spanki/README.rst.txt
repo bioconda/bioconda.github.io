@@ -1,54 +1,66 @@
-.. _`spanki`:
+.. title:: Package Recipe 'spanki'
+.. highlight: bash
+
 
 spanki
 ======
 
-|downloads|
+.. conda:recipe:: spanki
+   :replaces_section_title:
 
-Spanki is a set of tools to facilitate analysis of alternative splicing from RNA\-Seq data. Spanki compiles quantitative and qualitative information about junction alignments from input BAM files\, and analyzes junction\-level splicing along with pairwise\-defined splicing events. A simulator is also included to evaluate junction detection performance.
+   Spanki is a set of tools to facilitate analysis of alternative splicing from RNA\-Seq data. Spanki compiles quantitative and qualitative information about junction alignments from input BAM files\, and analyzes junction\-level splicing along with pairwise\-defined splicing events. A simulator is also included to evaluate junction detection performance.
 
-============= ===========
-Home          http://www.cbcb.umd.edu/software/spanki/
-Versions      0.5.1
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spanki/meta.yaml
+   :homepage: http://www.cbcb.umd.edu/software/spanki/
+   :license: GPLv3
+   :recipe: /`spanki <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spanki>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spanki/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: spanki
 
-Installation
-------------
+   |downloads_spanki| |docker_spanki|
 
-.. highlight: bash
+   :versions: 0.5.1
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`biopython`  :conda:package:`cufflinks`  :conda:package:`fisher`  :conda:package:`numpy`  :conda:package:`pyfasta`  :conda:package:`pysam`  :conda:package:`python` 2.7* :conda:package:`samtools`  :conda:package:`statsmodels`  
 
-   conda install spanki
+   :required~by: |required_by_spanki|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update spanki
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install spanki
+
+   and update with::
+
+      conda update spanki
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/spanki
+
+
+.. |required_by_spanki| conda:required_by:: spanki
+.. |downloads_spanki| image:: https://img.shields.io/conda/dn/bioconda/spanki.svg?style=flat
+   :alt:   (downloads)
+.. |docker_spanki| image:: https://quay.io/repository/biocontainers/spanki/status
+   :target: https://quay.io/repository/biocontainers/spanki
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/spanki.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/spanki/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/spanki/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/spanki/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/spanki/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/spanki
-.. |docker| image:: https://quay.io/repository/biocontainers/spanki/status
-                :target: https://quay.io/repository/biocontainers/spanki
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/spanki/README.html
 

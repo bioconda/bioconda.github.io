@@ -1,54 +1,66 @@
-.. _`perl-devel-cycle`:
+.. title:: Package Recipe 'perl-devel-cycle'
+.. highlight: bash
+
 
 perl-devel-cycle
 ================
 
-|downloads|
+.. conda:recipe:: perl-devel-cycle
+   :replaces_section_title:
 
-Find memory cycles in objects
+   Find memory cycles in objects
 
-============= ===========
-Home          http://metacpan.org/pod/Devel::Cycle
-Versions      1.12
-License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-cycle/meta.yaml
+   :homepage: http://metacpan.org/pod/Devel::Cycle
+   :license: unknown
+   :recipe: /`perl-devel-cycle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-cycle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-cycle/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-devel-cycle
 
-Installation
-------------
+   |downloads_perl-devel-cycle| |docker_perl-devel-cycle|
 
-.. highlight: bash
+   :versions: 1.12
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-devel-cycle
+   :required~by: |required_by_perl-devel-cycle|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-devel-cycle
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-devel-cycle
+
+   and update with::
+
+      conda update perl-devel-cycle
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-devel-cycle
+
+
+.. |required_by_perl-devel-cycle| conda:required_by:: perl-devel-cycle
+.. |downloads_perl-devel-cycle| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-cycle.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-devel-cycle| image:: https://quay.io/repository/biocontainers/perl-devel-cycle/status
+   :target: https://quay.io/repository/biocontainers/perl-devel-cycle
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-devel-cycle.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-devel-cycle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-devel-cycle/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-devel-cycle/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-devel-cycle/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-devel-cycle
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-cycle/status
-                :target: https://quay.io/repository/biocontainers/perl-devel-cycle
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-devel-cycle/README.html
 

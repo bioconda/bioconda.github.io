@@ -1,54 +1,66 @@
-.. _`bio_assembly_refinement`:
+.. title:: Package Recipe 'bio_assembly_refinement'
+.. highlight: bash
+
 
 bio_assembly_refinement
 =======================
 
-|downloads|
+.. conda:recipe:: bio_assembly_refinement
+   :replaces_section_title:
 
-Assembly refinement tools\, mostly useful for \(but not limited to\) pacbio bacterial assemblies
+   Assembly refinement tools\, mostly useful for \(but not limited to\) pacbio bacterial assemblies
 
-============= ===========
-Home          https://github.com/nds/bio_assembly_refinement
-Versions      0.5.1, 0.5.0
-License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bio_assembly_refinement/meta.yaml
+   :homepage: https://github.com/nds/bio_assembly_refinement
+   :license: GPLv3
+   :recipe: /`bio_assembly_refinement <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_assembly_refinement>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_assembly_refinement/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bio_assembly_refinement
 
-Installation
-------------
+   |downloads_bio_assembly_refinement| |docker_bio_assembly_refinement|
 
-.. highlight: bash
+   :versions: 0.5.1, 0.5.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`pyfastaq` >=3.10.0 :conda:package:`pymummer`  :conda:package:`python` 3.5* 
 
-   conda install bio_assembly_refinement
+   :required~by: |required_by_bio_assembly_refinement|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bio_assembly_refinement
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bio_assembly_refinement
+
+   and update with::
+
+      conda update bio_assembly_refinement
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bio_assembly_refinement
+
+
+.. |required_by_bio_assembly_refinement| conda:required_by:: bio_assembly_refinement
+.. |downloads_bio_assembly_refinement| image:: https://img.shields.io/conda/dn/bioconda/bio_assembly_refinement.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bio_assembly_refinement| image:: https://quay.io/repository/biocontainers/bio_assembly_refinement/status
+   :target: https://quay.io/repository/biocontainers/bio_assembly_refinement
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bio_assembly_refinement.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bio_assembly_refinement/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bio_assembly_refinement/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bio_assembly_refinement/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bio_assembly_refinement/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bio_assembly_refinement
-.. |docker| image:: https://quay.io/repository/biocontainers/bio_assembly_refinement/status
-                :target: https://quay.io/repository/biocontainers/bio_assembly_refinement
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bio_assembly_refinement/README.html
 

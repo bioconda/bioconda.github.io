@@ -1,56 +1,67 @@
-.. _`mason`:
+.. title:: Package Recipe 'mason'
+.. highlight: bash
+
 
 mason
 =====
 
-|downloads|
+.. conda:recipe:: mason
+   :replaces_section_title:
 
-Mason is a collection of tools for the simulation of biological sequences.
+   Mason is a collection of tools for the simulation of biological sequences.
 
-============= ===========
-Home          https://github.com/seqan/seqan/tree/master/apps/mason2/README
-Versions      2.0.8, 2.0.7
-License       https://github.com/seqan/seqan/tree/master/apps/mason2/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mason/meta.yaml
+   :homepage: https://github.com/seqan/seqan/tree/master/apps/mason2/README
+   :license: https://github.com/seqan/seqan/tree/master/apps/mason2/LICENSE
+   :recipe: /`mason <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason/meta.yaml>`_
+   :links: biotools: :biotools:`mason`, doi: :doi:`10.1371/journal.pone.0049110`
 
-
-
-Links         biotools: :biotools:`mason`, doi: :doi:`10.1371/journal.pone.0049110`
-
-============= ===========
+   
 
 
+.. conda:package:: mason
 
-Installation
-------------
+   |downloads_mason| |docker_mason|
 
-.. highlight: bash
+   :versions: 2.0.8, 2.0.7
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: 
 
-   conda install mason
+   :required~by: |required_by_mason|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update mason
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install mason
+
+   and update with::
+
+      conda update mason
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/mason
+
+
+.. |required_by_mason| conda:required_by:: mason
+.. |downloads_mason| image:: https://img.shields.io/conda/dn/bioconda/mason.svg?style=flat
+   :alt:   (downloads)
+.. |docker_mason| image:: https://quay.io/repository/biocontainers/mason/status
+   :target: https://quay.io/repository/biocontainers/mason
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/mason.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mason/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mason/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/mason/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/mason/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/mason
-.. |docker| image:: https://quay.io/repository/biocontainers/mason/status
-                :target: https://quay.io/repository/biocontainers/mason
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/mason/README.html
 

@@ -1,54 +1,66 @@
-.. _`norns`:
+.. title:: Package Recipe 'norns'
+.. highlight: bash
+
 
 norns
 =====
 
-|downloads|
+.. conda:recipe:: norns
+   :replaces_section_title:
 
-Simple yaml\-based config module
+   Simple yaml\-based config module
 
-============= ===========
-Home          https://github.com/simonvh/norns
-Versions      0.1.2
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//norns/meta.yaml
+   :homepage: https://github.com/simonvh/norns
+   :license: MIT / MIT License
+   :recipe: /`norns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/norns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/norns/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: norns
 
-Installation
-------------
+   |downloads_norns| |docker_norns|
 
-.. highlight: bash
+   :versions: 0.1.2
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`appdirs`  :conda:package:`nose`  :conda:package:`python` 2.7* :conda:package:`pyyaml`  
 
-   conda install norns
+   :required~by: |required_by_norns|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update norns
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install norns
+
+   and update with::
+
+      conda update norns
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/norns
+
+
+.. |required_by_norns| conda:required_by:: norns
+.. |downloads_norns| image:: https://img.shields.io/conda/dn/bioconda/norns.svg?style=flat
+   :alt:   (downloads)
+.. |docker_norns| image:: https://quay.io/repository/biocontainers/norns/status
+   :target: https://quay.io/repository/biocontainers/norns
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/norns.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/norns/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/norns/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/norns/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/norns/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/norns
-.. |docker| image:: https://quay.io/repository/biocontainers/norns/status
-                :target: https://quay.io/repository/biocontainers/norns
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/norns/README.html
 

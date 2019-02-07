@@ -1,54 +1,66 @@
-.. _`perl-file-which`:
+.. title:: Package Recipe 'perl-file-which'
+.. highlight: bash
+
 
 perl-file-which
 ===============
 
-|downloads|
+.. conda:recipe:: perl-file-which
+   :replaces_section_title:
 
-Perl implementation of the which utility as an API
+   Perl implementation of the which utility as an API
 
-============= ===========
-Home          https://metacpan.org/pod/File::Which
-Versions      1.23, 1.22, 1.20
-License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-which/meta.yaml
+   :homepage: https://metacpan.org/pod/File::Which
+   :license: perl_5
+   :recipe: /`perl-file-which <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-which>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-which/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: perl-file-which
 
-Installation
-------------
+   |downloads_perl-file-which| |docker_perl-file-which|
 
-.. highlight: bash
+   :versions: 1.23, 1.22, 1.20
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
-   conda install perl-file-which
+   :required~by: |required_by_perl-file-which|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update perl-file-which
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install perl-file-which
+
+   and update with::
+
+      conda update perl-file-which
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/perl-file-which
+
+
+.. |required_by_perl-file-which| conda:required_by:: perl-file-which
+.. |downloads_perl-file-which| image:: https://img.shields.io/conda/dn/bioconda/perl-file-which.svg?style=flat
+   :alt:   (downloads)
+.. |docker_perl-file-which| image:: https://quay.io/repository/biocontainers/perl-file-which/status
+   :target: https://quay.io/repository/biocontainers/perl-file-which
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/perl-file-which.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-file-which/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/perl-file-which/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/perl-file-which/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/perl-file-which/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/perl-file-which
-.. |docker| image:: https://quay.io/repository/biocontainers/perl-file-which/status
-                :target: https://quay.io/repository/biocontainers/perl-file-which
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/perl-file-which/README.html
 

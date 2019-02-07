@@ -1,54 +1,66 @@
-.. _`taxmapper`:
+.. title:: Package Recipe 'taxmapper'
+.. highlight: bash
+
 
 taxmapper
 =========
 
-|downloads|
+.. conda:recipe:: taxmapper
+   :replaces_section_title:
 
-Analysis pipeline for metagenomic\, microeukaryotic sequencing data.
+   Analysis pipeline for metagenomic\, microeukaryotic sequencing data.
 
-============= ===========
-Home          https://bitbucket.org/dbeisser/taxmapper
-Versions      1.0.2, 1.0.1, 1.0.0
-License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//taxmapper/meta.yaml
+   :homepage: https://bitbucket.org/dbeisser/taxmapper
+   :license: MIT / MIT License
+   :recipe: /`taxmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxmapper/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: taxmapper
 
-Installation
-------------
+   |downloads_taxmapper| |docker_taxmapper|
 
-.. highlight: bash
+   :versions: 1.0.2, 1.0.1, 1.0.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`deepdish`  :conda:package:`libgcc`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* 
 
-   conda install taxmapper
+   :required~by: |required_by_taxmapper|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update taxmapper
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install taxmapper
+
+   and update with::
+
+      conda update taxmapper
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/taxmapper
+
+
+.. |required_by_taxmapper| conda:required_by:: taxmapper
+.. |downloads_taxmapper| image:: https://img.shields.io/conda/dn/bioconda/taxmapper.svg?style=flat
+   :alt:   (downloads)
+.. |docker_taxmapper| image:: https://quay.io/repository/biocontainers/taxmapper/status
+   :target: https://quay.io/repository/biocontainers/taxmapper
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/taxmapper.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/taxmapper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/taxmapper/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/taxmapper/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/taxmapper/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/taxmapper
-.. |docker| image:: https://quay.io/repository/biocontainers/taxmapper/status
-                :target: https://quay.io/repository/biocontainers/taxmapper
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/taxmapper/README.html
 

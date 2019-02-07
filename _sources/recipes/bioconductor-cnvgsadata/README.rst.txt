@@ -1,54 +1,66 @@
-.. _`bioconductor-cnvgsadata`:
+.. title:: Package Recipe 'bioconductor-cnvgsadata'
+.. highlight: bash
+
 
 bioconductor-cnvgsadata
 =======================
 
-|downloads|
+.. conda:recipe:: bioconductor-cnvgsadata
+   :replaces_section_title:
 
-This package contains the data used in the vignette of the cnvGSA package.
+   This package contains the data used in the vignette of the cnvGSA package.
 
-============= ===========
-Home          https://bioconductor.org/packages/3.8/data/experiment/html/cnvGSAdata.html
-Versions      1.18.0
-License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnvgsadata/meta.yaml
+   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/cnvGSAdata.html
+   :license: LGPL
+   :recipe: /`bioconductor-cnvgsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata/meta.yaml>`_
 
-
-
-============= ===========
+   
 
 
+.. conda:package:: bioconductor-cnvgsadata
 
-Installation
-------------
+   |downloads_bioconductor-cnvgsadata| |docker_bioconductor-cnvgsadata|
 
-.. highlight: bash
+   :versions: 1.18.0
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`bioconductor-cnvgsa` >=1.26.0,<1.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`wget`  
 
-   conda install bioconductor-cnvgsadata
+   :required~by: |required_by_bioconductor-cnvgsadata|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update bioconductor-cnvgsadata
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-cnvgsadata
+
+   and update with::
+
+      conda update bioconductor-cnvgsadata
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/bioconductor-cnvgsadata
+
+
+.. |required_by_bioconductor-cnvgsadata| conda:required_by:: bioconductor-cnvgsadata
+.. |downloads_bioconductor-cnvgsadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvgsadata.svg?style=flat
+   :alt:   (downloads)
+.. |docker_bioconductor-cnvgsadata| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-cnvgsadata.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-cnvgsadata/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-cnvgsadata/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bioconductor-cnvgsadata/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-cnvgsadata/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bioconductor-cnvgsadata
-.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata/status
-                :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-cnvgsadata/README.html
 

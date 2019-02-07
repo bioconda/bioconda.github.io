@@ -1,56 +1,67 @@
-.. _`xhmm`:
+.. title:: Package Recipe 'xhmm'
+.. highlight: bash
+
 
 xhmm
 ====
 
-|downloads|
+.. conda:recipe:: xhmm
+   :replaces_section_title:
 
-XHMM \(eXome\-Hidden Markov Model\).
+   XHMM \(eXome\-Hidden Markov Model\).
 
-============= ===========
-Home          http://atgu.mgh.harvard.edu/xhmm/index.shtml
-Versions      0.0.0.2016_01_04.cc14e52
-License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xhmm/meta.yaml
+   :homepage: http://atgu.mgh.harvard.edu/xhmm/index.shtml
+   :license: GPL3
+   :recipe: /`xhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xhmm/meta.yaml>`_
+   :links: biotools: :biotools:`xhmm`, doi: :doi:`10.1016/j.ajhg.2012.08.005`, doi: :doi:`10.1002/0471142905.hg0723s81`
 
-
-
-Links         biotools: :biotools:`xhmm`, doi: :doi:`10.1016/j.ajhg.2012.08.005`, doi: :doi:`10.1002/0471142905.hg0723s81`
-
-============= ===========
+   
 
 
+.. conda:package:: xhmm
 
-Installation
-------------
+   |downloads_xhmm| |docker_xhmm|
 
-.. highlight: bash
+   :versions: 0.0.0.2016_01_04.cc14e52
 
-With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+   :depends: :conda:package:`lapack`  :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 
 
-   conda install xhmm
+   :required~by: |required_by_xhmm|
 
-and update with::
+   .. rubric:: Installation
 
-   conda update xhmm
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install xhmm
+
+   and update with::
+
+      conda update xhmm
+
+   or use the docker container::
+
+      docker pull quay.io/repository/biocontainers/xhmm
+
+
+.. |required_by_xhmm| conda:required_by:: xhmm
+.. |downloads_xhmm| image:: https://img.shields.io/conda/dn/bioconda/xhmm.svg?style=flat
+   :alt:   (downloads)
+.. |docker_xhmm| image:: https://quay.io/repository/biocontainers/xhmm/status
+   :target: https://quay.io/repository/biocontainers/xhmm
 
 
 
-|docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/xhmm.
+
+
 
 Link to this page
 -----------------
 
-Render an |badge| badge with the following Markdown::
+Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/xhmm/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xhmm/README.html)
 
-.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/xhmm/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/xhmm/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/xhmm
-.. |docker| image:: https://quay.io/repository/biocontainers/xhmm/status
-                :target: https://quay.io/repository/biocontainers/xhmm
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/xhmm/README.html
 
