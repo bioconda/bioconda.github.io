@@ -9,7 +9,7 @@ Biobb\_analysis is the Biobb module collection to perform analysis of molecular 
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_analysis
-Versions      0.0.9, 0.0.8, 0.0.4
+Versions      0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.9, 0.0.8, 0.0.4
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biobb_analysis/meta.yaml
 
