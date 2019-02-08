@@ -22,7 +22,7 @@ phame
 
    |downloads_phame| |docker_phame|
 
-   :versions: 1.0.3, 1.0.2, 1.0.1, 1.0, 1.0.0
+   :versions: 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0
 
    :depends: :conda:package:`bbmap` >=37.62 :conda:package:`bcftools` >=1.7 :conda:package:`bowtie2` >=2.3.4.1 :conda:package:`bwa` >=0.7.12 :conda:package:`cmake` >=3.0.1 :conda:package:`curl` >=7.60.0 :conda:package:`fasttree` >=2.1.9 :conda:package:`hyphy` >=2.3.12 :conda:package:`iqtree` >=1.6.7 :conda:package:`mafft` >=7.313 :conda:package:`mummer` >=3.23 :conda:package:`muscle` >=3.8.31 :conda:package:`openmpi` >=3.1.0 :conda:package:`paml` >=4.9 :conda:package:`perl`  :conda:package:`perl-app-cpanminus` >=1.7039 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-file-path` >=2.12 :conda:package:`perl-getopt-long` >=2.50 :conda:package:`perl-io-handle` >=1.28 :conda:package:`perl-io-handle` >=1.35 :conda:package:`perl-parallel-forkmanager` >=1.17 :conda:package:`perl-statistics-distributions` >=1.02 :conda:package:`raxml` >=8.2.10 :conda:package:`samtools` >=1.7 
 

@@ -21,9 +21,9 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 0.0.5
+   :versions: 1.0.0, 0.0.5
 
-   :depends: :conda:package:`barrnap`  :conda:package:`biopython` >=1.68 :conda:package:`blast`  :conda:package:`numpy`  :conda:package:`pip`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`pyyaml`  
+   :depends: :conda:package:`barrnap`  :conda:package:`biopython` >=1.68 :conda:package:`blast`  :conda:package:`numpy`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`pyyaml`  
 
    :required~by: |required_by_socru|
 

@@ -25,7 +25,7 @@ plantcv
 
    |downloads_plantcv| |docker_plantcv|
 
-   :versions: 3.0.5, 3.0.3
+   :versions: 3.1.0, 3.0.5, 3.0.3
 
    :depends: :conda:package:`matplotlib` >=1.5 :conda:package:`numpy` >=1.11 :conda:package:`opencv` <4 :conda:package:`pandas`  :conda:package:`plotnine`  :conda:package:`python`  :conda:package:`python-dateutil`  :conda:package:`scikit-image`  :conda:package:`scipy`  
 
