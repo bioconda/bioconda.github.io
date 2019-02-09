@@ -24,7 +24,7 @@ vcftools
 
    :versions: 0.1.16, 0.1.15, 0.1.14, 0.1.11, 0.1.10
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_vcftools|
 

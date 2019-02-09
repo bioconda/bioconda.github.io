@@ -23,7 +23,7 @@ perl-lwp-simple
 
    :versions: 6.15
 
-   :depends: :conda:package:`perl-encode-locale`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-encode-locale`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-lwp-simple|
 

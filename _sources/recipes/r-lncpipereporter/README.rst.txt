@@ -23,7 +23,7 @@ r-lncpipereporter
 
    :versions: 0.1.1
 
-   :depends: :conda:package:`bioconductor-deseq2` 1.20.0.* :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-noiseq`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-data.table`  :conda:package:`r-devtools`  :conda:package:`r-dt`  :conda:package:`r-flexdashboard`  :conda:package:`r-ggbiplot`  :conda:package:`r-ggplot2`  :conda:package:`r-ggsci`  :conda:package:`r-heatmaply`  :conda:package:`r-htmlwidgets`  :conda:package:`r-knitr`  :conda:package:`r-plotly`  :conda:package:`r-rmarkdown`  
+   :depends: :conda:package:`bioconductor-deseq2` 1.20.0.* :conda:package:`bioconductor-edger`  :conda:package:`bioconductor-noiseq`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-cowplot`  :conda:package:`r-data.table`  :conda:package:`r-devtools`  :conda:package:`r-dt`  :conda:package:`r-flexdashboard`  :conda:package:`r-ggbiplot`  :conda:package:`r-ggplot2`  :conda:package:`r-ggsci`  :conda:package:`r-heatmaply`  :conda:package:`r-htmlwidgets`  :conda:package:`r-knitr`  :conda:package:`r-plotly`  :conda:package:`r-rmarkdown`  
 
    :required~by: |required_by_r-lncpipereporter|
 

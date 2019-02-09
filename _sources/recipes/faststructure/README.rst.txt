@@ -23,7 +23,7 @@ faststructure
 
    :versions: 1.0
 
-   :depends: :conda:package:`cython` <0.28 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
+   :depends: :conda:package:`cython` <0.28 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
    :required~by: |required_by_faststructure|
 

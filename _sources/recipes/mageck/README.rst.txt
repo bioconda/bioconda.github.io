@@ -23,7 +23,7 @@ mageck
 
    :versions: 0.5.8, 0.5.8a, 0.5.7, 0.5.7a, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2
 
-   :depends: :conda:package:`ipython`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
+   :depends: :conda:package:`ipython`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
    :required~by: |required_by_mageck|
 

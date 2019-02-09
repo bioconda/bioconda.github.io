@@ -23,7 +23,7 @@ damasker
 
    :versions: 1.0p1
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_damasker|
 

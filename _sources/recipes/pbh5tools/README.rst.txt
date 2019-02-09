@@ -23,7 +23,7 @@ pbh5tools
 
    :versions: 0.8.0
 
-   :depends: :conda:package:`h5py` >=1.3.0 :conda:package:`libgcc`  :conda:package:`numpy` >=1.6.0 :conda:package:`pbcore` >=0.8.0 :conda:package:`python` 2.7* 
+   :depends: :conda:package:`h5py` >=1.3.0 :conda:package:`numpy` >=1.6.0 :conda:package:`pbcore` >=0.8.0 :conda:package:`python` 2.7* 
 
    :required~by: |required_by_pbh5tools|
 

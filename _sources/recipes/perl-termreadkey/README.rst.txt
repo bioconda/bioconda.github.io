@@ -23,7 +23,7 @@ perl-termreadkey
 
    :versions: 2.38, 2.37, 2.32
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_perl-termreadkey|
 

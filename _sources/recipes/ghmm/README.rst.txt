@@ -23,7 +23,7 @@ ghmm
 
    :versions: 0.9
 
-   :depends: :conda:package:`libgcc`  :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`swig`  
+   :depends: :conda:package:`libxml2`  :conda:package:`python` 2.7* :conda:package:`swig`  
 
    :required~by: |required_by_ghmm|
 

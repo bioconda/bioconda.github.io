@@ -23,7 +23,7 @@ bioconductor-scmap
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-e1071`  :conda:package:`r-ggplot2`  :conda:package:`r-googlevis`  :conda:package:`r-matrixstats`  :conda:package:`r-proxy`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-e1071`  :conda:package:`r-ggplot2`  :conda:package:`r-googlevis`  :conda:package:`r-matrixstats`  :conda:package:`r-proxy`  :conda:package:`r-randomforest`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-scmap|
 

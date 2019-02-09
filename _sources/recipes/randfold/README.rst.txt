@@ -24,7 +24,7 @@ randfold
 
    :versions: 2.0.1
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_randfold|
 

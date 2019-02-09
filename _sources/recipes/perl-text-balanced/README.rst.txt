@@ -23,7 +23,7 @@ perl-text-balanced
 
    :versions: 2.03
 
-   :depends: :conda:package:`gcc`  :conda:package:`libgcc`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`llvm`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-text-balanced|
 

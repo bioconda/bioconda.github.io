@@ -23,7 +23,7 @@ lace
 
    :versions: 1.00, 0.99, 0.80
 
-   :depends: :conda:package:`blat`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  
+   :depends: :conda:package:`blat`  :conda:package:`matplotlib`  :conda:package:`networkx`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python`  
 
    :required~by: |required_by_lace|
 

@@ -23,7 +23,7 @@ glimmerhmm
 
    :versions: 3.0.4
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_glimmerhmm|
 

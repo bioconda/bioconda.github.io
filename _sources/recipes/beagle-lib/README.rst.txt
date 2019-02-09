@@ -23,7 +23,7 @@ beagle-lib
 
    :versions: 3.1.2, 3.1.1, 3.1.0, 3.0.2, 2.1.2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libtool`  :conda:package:`openjdk`  
+   :depends: :conda:package:`libtool`  :conda:package:`openjdk`  
 
    :required~by: |required_by_beagle-lib|
 

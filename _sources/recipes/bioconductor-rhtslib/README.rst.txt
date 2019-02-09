@@ -24,7 +24,7 @@ bioconductor-rhtslib
 
    :versions: 1.14.0, 1.12.1, 1.10.0, 1.8.0, 1.6.0
 
-   :depends: :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bioconductor-zlibbioc` >=1.28.0,<1.29.0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_bioconductor-rhtslib|
 

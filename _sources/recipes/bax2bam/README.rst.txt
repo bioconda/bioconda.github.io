@@ -23,7 +23,7 @@ bax2bam
 
    :versions: 0.0.9
 
-   :depends: :conda:package:`blasr_libcpp` >=5.3.1 :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 
+   :depends: :conda:package:`blasr_libcpp` >=5.3.1 :conda:package:`hdf5` 1.8.17* :conda:package:`pbbam` >=0.18.0 
 
    :required~by: |required_by_bax2bam|
 

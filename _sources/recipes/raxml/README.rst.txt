@@ -24,7 +24,7 @@ raxml
 
    :versions: 8.2.12, 8.2.10, 8.2.9, 8.2.4, 7.3.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_raxml|
 

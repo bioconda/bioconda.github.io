@@ -23,7 +23,7 @@ bx-python
 
    :versions: 0.8.2, 0.8.1, 0.7.4, 0.7.3, 0.7.2, 0.7.1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-lzo`  :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`python-lzo`  :conda:package:`six`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_bx-python|
 

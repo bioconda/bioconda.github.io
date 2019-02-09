@@ -23,7 +23,7 @@ bioconductor-r3cpet
 
    :versions: 1.14.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-ggbio` >=1.30.0,<1.31.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-clues`  :conda:package:`r-clvalid`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-hmisc`  :conda:package:`r-igraph`  :conda:package:`r-pheatmap`  :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rcurl`  :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-ggbio` >=1.30.0,<1.31.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-clues`  :conda:package:`r-clvalid`  :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-hmisc`  :conda:package:`r-igraph`  :conda:package:`r-pheatmap`  :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rcurl`  :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-r3cpet|
 

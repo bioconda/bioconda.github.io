@@ -26,7 +26,7 @@ ataqv
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`coreutils`  :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`coreutils`  :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`ncurses` >=6.1,<6.2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ataqv|
 

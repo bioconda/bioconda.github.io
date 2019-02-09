@@ -24,7 +24,7 @@ bioconductor-atlasrdf
 
    :versions: 1.12.0, 1.11.0
 
-   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-hash`  :conda:package:`r-sparql`  
+   :depends: :conda:package:`r-base` >=2.10 :conda:package:`r-hash`  :conda:package:`r-sparql`  
 
    :required~by: |required_by_bioconductor-atlasrdf|
 

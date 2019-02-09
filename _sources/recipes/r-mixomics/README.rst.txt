@@ -23,7 +23,7 @@ r-mixomics
 
    :versions: 6.3.1, 6.2.0, 6.1.1, 5.2.0
 
-   :depends: :conda:package:`libglu`  :conda:package:`r-base` 3.4.1* :conda:package:`r-corpcor`  :conda:package:`r-dplyr`  :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-matrixstats`  :conda:package:`r-plyr`  :conda:package:`r-rarpack`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-rgl`  :conda:package:`r-tidyr`  
+   :depends: :conda:package:`r-base` 3.3.2* :conda:package:`r-corpcor`  :conda:package:`r-dplyr`  :conda:package:`r-ellipse`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-igraph`  :conda:package:`r-lattice`  :conda:package:`r-mass`  :conda:package:`r-matrixstats`  :conda:package:`r-plyr`  :conda:package:`r-rarpack`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-reshape2`  :conda:package:`r-rgl`  :conda:package:`r-tidyr`  
 
    :required~by: |required_by_r-mixomics|
 

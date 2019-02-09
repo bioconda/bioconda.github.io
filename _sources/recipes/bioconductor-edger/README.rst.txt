@@ -24,7 +24,7 @@ bioconductor-edger
 
    :versions: 3.24.1, 3.22.5, 3.20.7, 3.20.1, 3.20.0, 3.18.1, 3.16.5, 3.14.0, 3.12.1, 3.12.0, 3.10.5
 
-   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-locfit`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_bioconductor-edger|
 

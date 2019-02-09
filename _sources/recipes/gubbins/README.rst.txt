@@ -23,7 +23,7 @@ gubbins
 
    :versions: 2.3.4, 2.3.2, 2.3.1, 2.2.1
 
-   :depends: :conda:package:`biopython` >=1.59 :conda:package:`dendropy` >=4.0.2 :conda:package:`fasttree`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`nose` >=1.3 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`raxml`  :conda:package:`reportlab` >=3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`biopython` >=1.59 :conda:package:`dendropy` >=4.0.2 :conda:package:`fasttree`  :conda:package:`nose` >=1.3 :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`raxml`  :conda:package:`reportlab` >=3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_gubbins|
 

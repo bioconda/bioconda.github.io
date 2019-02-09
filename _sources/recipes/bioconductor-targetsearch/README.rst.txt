@@ -23,7 +23,7 @@ bioconductor-targetsearch
 
    :versions: 1.38.1
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ncdf4`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ncdf4`  
 
    :required~by: |required_by_bioconductor-targetsearch|
 

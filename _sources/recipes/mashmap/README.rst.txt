@@ -23,7 +23,7 @@ mashmap
 
    :versions: 2.0, 1.0
 
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_mashmap|
 

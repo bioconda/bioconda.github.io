@@ -23,7 +23,7 @@ gecode
 
    :versions: 5.1.0, 5.0.0, 4.4.0
 
-   :depends: :conda:package:`gmp` 5.1* :conda:package:`libgcc`  :conda:package:`mpfr`  
+   :depends: :conda:package:`gmp` 5.1* :conda:package:`mpfr`  
 
    :required~by: |required_by_gecode|
 

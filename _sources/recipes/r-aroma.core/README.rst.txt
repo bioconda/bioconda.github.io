@@ -23,7 +23,7 @@ r-aroma.core
 
    :versions: 3.1.3, 3.1.1, 3.0.0
 
-   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-future`  :conda:package:`r-listenv`  :conda:package:`r-matrixstats` >=0.53.1 :conda:package:`r-pscbs` >=0.63.0 :conda:package:`r-r.cache` >=0.13.0 :conda:package:`r-r.devices` >=2.15.1 :conda:package:`r-r.filesets` >=2.12.1 :conda:package:`r-r.methodss3` >=1.7.1 :conda:package:`r-r.oo` >=1.22.0 :conda:package:`r-r.rsp` >=0.42.0 :conda:package:`r-r.utils` >=2.6.0 :conda:package:`r-rcolorbrewer` >=1.1_2 
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-future`  :conda:package:`r-listenv`  :conda:package:`r-matrixstats` >=0.53.1 :conda:package:`r-pscbs` >=0.63.0 :conda:package:`r-r.cache` >=0.13.0 :conda:package:`r-r.devices` >=2.15.1 :conda:package:`r-r.filesets` >=2.12.1 :conda:package:`r-r.methodss3` >=1.7.1 :conda:package:`r-r.oo` >=1.22.0 :conda:package:`r-r.rsp` >=0.42.0 :conda:package:`r-r.utils` >=2.6.0 :conda:package:`r-rcolorbrewer` >=1.1_2 
 
    :required~by: |required_by_r-aroma.core|
 

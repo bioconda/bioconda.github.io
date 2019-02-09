@@ -24,7 +24,7 @@ edena
 
    :versions: 3.131028
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_edena|
 

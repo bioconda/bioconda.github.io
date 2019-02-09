@@ -23,7 +23,7 @@ bioconductor-martini
 
    :versions: 1.2.0
 
-   :depends: :conda:package:`bioconductor-rgin` >=1.2.0,<1.3.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
+   :depends: :conda:package:`bioconductor-rgin` >=1.2.0,<1.3.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`bioconductor-snpstats` >=1.32.0,<1.33.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph` >=1.0.1 :conda:package:`r-matrix`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcppeigen` >=0.3.3.3.0 
 
    :required~by: |required_by_bioconductor-martini|
 

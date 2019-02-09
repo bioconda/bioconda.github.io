@@ -23,7 +23,7 @@ hmmer
 
    :versions: 3.2.1, 3.2, 3.1b2, 2.3.2
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 
+   :depends: :conda:package:`libcxx` >=4.0.1 
 
    :required~by: |required_by_hmmer|
 

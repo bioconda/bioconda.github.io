@@ -23,7 +23,7 @@ meryl
 
    :versions: 2013
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_meryl|
 

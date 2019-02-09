@@ -24,7 +24,7 @@ bioconductor-quaternaryprod
 
    :versions: 1.16.0, 1.14.0, 1.6.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-yaml` >=2.1.18 
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr`  :conda:package:`r-rcpp` >=0.11.3 :conda:package:`r-yaml` >=2.1.18 
 
    :required~by: |required_by_bioconductor-quaternaryprod|
 

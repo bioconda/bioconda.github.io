@@ -23,7 +23,7 @@ funcannot
 
    :versions: v2.8
 
-   :depends: :conda:package:`libgcc`  :conda:package:`qt` 4.8.7 
+   :depends: :conda:package:`qt` 4.8.7 
 
    :required~by: |required_by_funcannot|
 

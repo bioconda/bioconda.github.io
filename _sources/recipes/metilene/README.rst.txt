@@ -23,7 +23,7 @@ metilene
 
    :versions: 0.2.6
 
-   :depends: :conda:package:`bedtools` >=2.24 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  :conda:package:`r-ggplot2` >=2.0.0 
+   :depends: :conda:package:`bedtools` >=2.24 :conda:package:`perl-threaded`  :conda:package:`r` 3.2.2* :conda:package:`r-ggplot2` >=2.0.0 
 
    :required~by: |required_by_metilene|
 

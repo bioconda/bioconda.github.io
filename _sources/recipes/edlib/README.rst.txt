@@ -23,7 +23,7 @@ edlib
 
    :versions: 1.2.3, 1.2.1, 1.2.0, 1.1.2, 1.0.0
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_edlib|
 

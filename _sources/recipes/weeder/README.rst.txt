@@ -24,7 +24,7 @@ weeder
 
    :versions: 2.0
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  
+   :depends: :conda:package:`python`  
 
    :required~by: |required_by_weeder|
 

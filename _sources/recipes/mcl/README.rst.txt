@@ -23,7 +23,7 @@ mcl
 
    :versions: 14.137
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_mcl|
 

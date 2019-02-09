@@ -23,7 +23,7 @@ barriers
 
    :versions: 1.7.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`viennarna`  
+   :depends: :conda:package:`viennarna`  
 
    :required~by: |required_by_barriers|
 

@@ -24,7 +24,7 @@ locarna
 
    :versions: 1.9.2, 1.9.1, 1.9.0, 1.8.12, 1.8.11, 1.8.10, 1.8.9, 1.8.7
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`viennarna` 2.3.5 
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`viennarna` ==2.3.5 
 
    :required~by: |required_by_locarna|
 

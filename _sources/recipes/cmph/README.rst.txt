@@ -23,7 +23,7 @@ cmph
 
    :versions: 2.0
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_cmph|
 

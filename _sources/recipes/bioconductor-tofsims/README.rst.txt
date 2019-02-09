@@ -23,7 +23,7 @@ bioconductor-tofsims
 
    :versions: 1.10.0
 
-   :depends: :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-als`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-chemometricswithr`  :conda:package:`r-kernsmooth`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-rcpparmadillo`  :conda:package:`r-signal`  
+   :depends: :conda:package:`bioconductor-protgenerics` >=1.14.0,<1.15.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-als`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-chemometricswithr`  :conda:package:`r-kernsmooth`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-rcpparmadillo`  :conda:package:`r-signal`  
 
    :required~by: |required_by_bioconductor-tofsims|
 

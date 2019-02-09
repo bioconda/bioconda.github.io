@@ -23,7 +23,7 @@ bpp-popgen
 
    :versions: 2.4.1
 
-   :depends: :conda:package:`bpp-seq`  :conda:package:`libgcc-ng` >=4.9 
+   :depends: :conda:package:`bpp-seq`  
 
    :required~by: |required_by_bpp-popgen|
 

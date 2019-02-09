@@ -24,7 +24,7 @@ r-micropan
 
    :versions: 1.2, 1.1.2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh`  :conda:package:`r-igraph`  :conda:package:`r-microseq`  :conda:package:`r-rcpp` >=0.12.0 
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-bh`  :conda:package:`r-igraph`  :conda:package:`r-microseq`  :conda:package:`r-rcpp` >=0.12.0 
 
    :required~by: |required_by_r-micropan|
 

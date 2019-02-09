@@ -23,7 +23,7 @@ r-aroma.affymetrix
 
    :versions: 3.1.1, 3.1.0, 3.0.0
 
-   :depends: :conda:package:`r-aroma.apd` >=0.6.0 :conda:package:`r-aroma.core` >=3.1.1 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-future`  :conda:package:`r-listenv`  :conda:package:`r-mass`  :conda:package:`r-matrixstats` >=0.52.2 :conda:package:`r-r.cache` >=0.13.0 :conda:package:`r-r.devices` >=2.15.1 :conda:package:`r-r.filesets` >=2.11.0 :conda:package:`r-r.methodss3` >=1.7.1 :conda:package:`r-r.oo` >=1.21.0 :conda:package:`r-r.utils` >=2.6.0 
+   :depends: :conda:package:`r-aroma.apd` >=0.6.0 :conda:package:`r-aroma.core` >=3.1.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-future`  :conda:package:`r-listenv`  :conda:package:`r-mass`  :conda:package:`r-matrixstats` >=0.52.2 :conda:package:`r-r.cache` >=0.13.0 :conda:package:`r-r.devices` >=2.15.1 :conda:package:`r-r.filesets` >=2.11.0 :conda:package:`r-r.methodss3` >=1.7.1 :conda:package:`r-r.oo` >=1.21.0 :conda:package:`r-r.utils` >=2.6.0 
 
    :required~by: |required_by_r-aroma.affymetrix|
 

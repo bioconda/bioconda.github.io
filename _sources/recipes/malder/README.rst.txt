@@ -24,7 +24,7 @@ malder
 
    :versions: 1.0.1e83d4e
 
-   :depends: :conda:package:`fftw`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`lapack`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 
+   :depends: :conda:package:`fftw`  :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`lapack`  :conda:package:`libcxx` 4.0.* :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`openmp` 4.0.* 
 
    :required~by: |required_by_malder|
 

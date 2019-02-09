@@ -21,7 +21,7 @@ hicmatrix
 
    |downloads_hicmatrix| |docker_hicmatrix|
 
-   :versions: 6, 5, 4, 3, 2.2
+   :versions: 7, 6, 5, 4, 3, 2.2
 
    :depends: :conda:package:`cooler` 0.8.2.* :conda:package:`future`  :conda:package:`intervaltree`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pytables`  :conda:package:`python`  :conda:package:`scipy`  
 

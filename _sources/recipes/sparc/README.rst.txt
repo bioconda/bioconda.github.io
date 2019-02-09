@@ -23,7 +23,7 @@ sparc
 
    :versions: 20160205
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_sparc|
 

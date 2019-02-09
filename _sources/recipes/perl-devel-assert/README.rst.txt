@@ -23,7 +23,7 @@ perl-devel-assert
 
    :versions: 1.06
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_perl-devel-assert|
 

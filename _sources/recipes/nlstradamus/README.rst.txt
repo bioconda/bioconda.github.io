@@ -24,7 +24,7 @@ nlstradamus
 
    :versions: 1.8
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_nlstradamus|
 

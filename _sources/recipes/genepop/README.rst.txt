@@ -23,7 +23,7 @@ genepop
 
    :versions: 4.6, 4.5.1
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_genepop|
 

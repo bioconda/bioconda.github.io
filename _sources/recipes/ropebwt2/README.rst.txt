@@ -23,7 +23,7 @@ ropebwt2
 
    :versions: r187
 
-   :depends: :conda:package:`libgcc`  
+   :depends: :conda:package:`llvm`  :conda:package:`zlib`  
 
    :required~by: |required_by_ropebwt2|
 

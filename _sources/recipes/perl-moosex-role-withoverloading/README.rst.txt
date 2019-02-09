@@ -23,7 +23,7 @@ perl-moosex-role-withoverloading
 
    :versions: 0.17
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-aliased`  :conda:package:`perl-moose`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-namespace-clean`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-aliased`  :conda:package:`perl-moose`  :conda:package:`perl-namespace-autoclean`  :conda:package:`perl-namespace-clean`  
 
    :required~by: |required_by_perl-moosex-role-withoverloading|
 

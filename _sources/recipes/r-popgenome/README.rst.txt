@@ -24,7 +24,7 @@ r-popgenome
 
    :versions: 2.6.1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ff`  
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-ff`  
 
    :required~by: |required_by_r-popgenome|
 

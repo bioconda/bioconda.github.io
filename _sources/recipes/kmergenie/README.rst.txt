@@ -24,7 +24,7 @@ kmergenie
 
    :versions: 1.7016
 
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* :conda:package:`r-base` 3.2.2* :conda:package:`r-essentials`  :conda:package:`zlib`  
+   :depends: :conda:package:`python` 2.7* :conda:package:`r-base` 3.2.2* :conda:package:`r-essentials`  :conda:package:`zlib`  
 
    :required~by: |required_by_kmergenie|
 

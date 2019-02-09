@@ -23,7 +23,7 @@ svdb
 
    :versions: 1.3.0, 1.1.2, 1.0.7
 
-   :depends: :conda:package:`cython`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
+   :depends: :conda:package:`cython`  :conda:package:`numpy`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 
    :required~by: |required_by_svdb|
 

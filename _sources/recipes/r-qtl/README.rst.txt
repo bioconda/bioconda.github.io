@@ -23,7 +23,7 @@ r-qtl
 
    :versions: 1.41_6
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
+   :depends: :conda:package:`r-base` 3.4.1* 
 
    :required~by: |required_by_r-qtl|
 

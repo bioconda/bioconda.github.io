@@ -24,7 +24,7 @@ bioconductor-s4vectors
 
    :versions: 0.20.1, 0.18.3, 0.16.0, 0.14.7, 0.12.2, 0.12.0, 0.10.3, 0.9.0, 0.8.11, 0.8.7, 0.8.5, 0.8.1, 0.8.0, 0.6.6
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-s4vectors|
 

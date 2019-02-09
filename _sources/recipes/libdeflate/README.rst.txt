@@ -23,7 +23,7 @@ libdeflate
 
    :versions: 1.0, 0.8
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 
+   :depends: 
 
    :required~by: |required_by_libdeflate|
 

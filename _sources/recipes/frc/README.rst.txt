@@ -23,7 +23,7 @@ frc
 
    :versions: 5b3f53e
 
-   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.61* :conda:package:`libgcc`  :conda:package:`samtools`  
+   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.61* :conda:package:`samtools`  
 
    :required~by: |required_by_frc|
 

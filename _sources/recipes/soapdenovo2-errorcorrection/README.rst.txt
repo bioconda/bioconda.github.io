@@ -23,7 +23,7 @@ soapdenovo2-errorcorrection
 
    :versions: 2.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_soapdenovo2-errorcorrection|
 

@@ -25,7 +25,7 @@ swipe
 
    :versions: 2.1.0, 2.0.12
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi`  :conda:package:`tbb`  
+   :depends: :conda:package:`openmpi`  :conda:package:`tbb`  
 
    :required~by: |required_by_swipe|
 

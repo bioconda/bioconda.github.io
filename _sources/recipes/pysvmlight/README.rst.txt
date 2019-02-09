@@ -23,7 +23,7 @@ pysvmlight
 
    :versions: 0.4
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_pysvmlight|
 

@@ -24,7 +24,7 @@ prank
 
    :versions: v.170427, v.150803
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_prank|
 

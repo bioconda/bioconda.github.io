@@ -23,7 +23,7 @@ minepy
 
    :versions: 1.2.2, 1.2.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy` >=1.3.0 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`numpy` >=1.3.0 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_minepy|
 

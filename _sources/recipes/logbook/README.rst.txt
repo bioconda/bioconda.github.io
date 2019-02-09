@@ -23,7 +23,7 @@ logbook
 
    :versions: 1.4.1, 1.0.0, 0.12.2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_logbook|
 

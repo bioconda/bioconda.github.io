@@ -23,7 +23,7 @@ bloocoo
 
    :versions: 1.0.7
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_bloocoo|
 

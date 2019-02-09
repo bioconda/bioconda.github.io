@@ -24,7 +24,7 @@ seqtk
 
    :versions: 1.3, 1.2, r93, r82, r75
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_seqtk|
 

@@ -24,7 +24,7 @@ phyluce
 
    :versions: 1.6.7, 1.6.6, 1.6.5, 1.6.4, 1.6.3, 1.6.2
 
-   :depends: :conda:package:`abyss` 1.5.* :conda:package:`bcftools`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`bwa`  :conda:package:`bx-python`  :conda:package:`dendropy` 3.* :conda:package:`gatk` 3.8.* :conda:package:`gblocks`  :conda:package:`illumiprocessor`  :conda:package:`itero`  :conda:package:`lastz`  :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`pandas`  :conda:package:`picard`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyvcf`  :conda:package:`raxml`  :conda:package:`samtools`  :conda:package:`seqtk`  :conda:package:`spades` 3.12.* :conda:package:`trimal`  :conda:package:`trinity` 2.1.* :conda:package:`velvet` 1.2.* 
+   :depends: :conda:package:`abyss` 1.5.* :conda:package:`bcftools`  :conda:package:`bedtools`  :conda:package:`biopython`  :conda:package:`bowtie`  :conda:package:`bwa`  :conda:package:`bx-python`  :conda:package:`dendropy` 3.* :conda:package:`gatk` 3.8.* :conda:package:`gblocks`  :conda:package:`illumiprocessor`  :conda:package:`itero`  :conda:package:`lastz`  :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`pandas`  :conda:package:`picard`  :conda:package:`pysam`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`pyvcf`  :conda:package:`raxml`  :conda:package:`samtools`  :conda:package:`seqtk`  :conda:package:`spades` 3.12.* :conda:package:`trimal`  :conda:package:`velvet` 1.2.* 
 
    :required~by: |required_by_phyluce|
 

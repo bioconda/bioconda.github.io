@@ -23,7 +23,7 @@ bioconductor-baynorm
 
    :versions: 1.0.6
 
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bb`  :conda:package:`r-dosnow`  :conda:package:`r-fitdistrplus`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-locfit`  :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppprogress`  
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bb`  :conda:package:`r-dosnow`  :conda:package:`r-fitdistrplus`  :conda:package:`r-foreach`  :conda:package:`r-iterators`  :conda:package:`r-locfit`  :conda:package:`r-mass`  :conda:package:`r-rcpp` >=0.12.12 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppprogress`  
 
    :required~by: |required_by_bioconductor-baynorm|
 

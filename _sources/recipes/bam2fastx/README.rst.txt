@@ -23,7 +23,7 @@ bam2fastx
 
    :versions: 1.3.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`pbbam` >=0.18.0 :conda:package:`pbcopper` >=0.4.1 :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`pbbam` >=0.18.0 :conda:package:`pbcopper` >=0.4.1 :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_bam2fastx|
 

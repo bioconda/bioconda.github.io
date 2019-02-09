@@ -24,7 +24,7 @@ diamond
 
    :versions: 0.9.24, 0.9.22, 0.9.21, 0.9.19, 0.9.14, 0.9.10, 0.8.36, 0.8.31, 0.8.30, 0.8.29, 0.8.28, 0.8.27, 0.8.26, 0.8.24, 0.8.22, 0.8.9, 0.7.12, 0.7.10
 
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_diamond|
 

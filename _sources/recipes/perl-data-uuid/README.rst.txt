@@ -23,7 +23,7 @@ perl-data-uuid
 
    :versions: 1.221
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-data-uuid|
 

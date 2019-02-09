@@ -23,7 +23,7 @@ mawk
 
    :versions: 1.3.4
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_mawk|
 

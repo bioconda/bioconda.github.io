@@ -23,7 +23,7 @@ bio_hansel
 
    :versions: 2.1.0, 2.0.0, 1.3.2, 1.3.1, 1.3.0, 1.2.0, 1.1.3, 1.1.1, 1.1.0, 0.2.0, 0.1.0
 
-   :depends: :conda:package:`attrs`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy` >=1.12.1 :conda:package:`pandas` >=0.20.1 :conda:package:`pyahocorasick` >=1.1.6 :conda:package:`python` >=3.6,<3.7.0a0 
+   :depends: :conda:package:`attrs`  :conda:package:`numpy` >=1.12.1 :conda:package:`pandas` >=0.20.1 :conda:package:`pyahocorasick` >=1.1.6 :conda:package:`python` >=3.6,<3.7.0a0 
 
    :required~by: |required_by_bio_hansel|
 

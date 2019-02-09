@@ -23,7 +23,7 @@ perl-sys-info
 
    :versions: 0.7811, 0.78
 
-   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sys-info-base`  :conda:package:`perl-sys-info-driver-linux`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-sys-info-base`  :conda:package:`perl-sys-info-driver-osx`  
 
    :required~by: |required_by_perl-sys-info|
 

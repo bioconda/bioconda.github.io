@@ -23,7 +23,7 @@ sumaclust
 
    :versions: 1.0.31
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 
+   :depends: :conda:package:`libgcc`  
 
    :required~by: |required_by_sumaclust|
 

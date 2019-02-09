@@ -23,7 +23,7 @@ r-haplo.stats
 
    :versions: 1.7.7
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rms`  
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-rms`  
 
    :required~by: |required_by_r-haplo.stats|
 

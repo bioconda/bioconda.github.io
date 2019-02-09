@@ -23,7 +23,7 @@ wiggletools
 
    :versions: 1.2.2, 1.2.1
 
-   :depends: :conda:package:`gsl` 1.16* :conda:package:`htslib` 1.5* :conda:package:`libbigwig`  :conda:package:`libgcc`  
+   :depends: :conda:package:`gsl` 1.16* :conda:package:`htslib` 1.5* :conda:package:`libbigwig`  
 
    :required~by: |required_by_wiggletools|
 

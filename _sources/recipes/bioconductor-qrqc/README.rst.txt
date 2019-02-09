@@ -24,7 +24,7 @@ bioconductor-qrqc
 
    :versions: 1.36.0, 1.34.0, 1.32.0, 1.30.0
 
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-biovizbase` >=1.30.0,<1.31.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-brew`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-reshape`  :conda:package:`r-testthat`  :conda:package:`r-xtable`  
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-biovizbase` >=1.30.0,<1.31.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-brew`  :conda:package:`r-ggplot2`  :conda:package:`r-plyr`  :conda:package:`r-reshape`  :conda:package:`r-testthat`  :conda:package:`r-xtable`  
 
    :required~by: |required_by_bioconductor-qrqc|
 

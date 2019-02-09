@@ -23,7 +23,7 @@ dawg
 
    :versions: 2.0.beta1
 
-   :depends: :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
+   :depends: :conda:package:`boost` 1.64* :conda:package:`gsl` 1.16* 
 
    :required~by: |required_by_dawg|
 

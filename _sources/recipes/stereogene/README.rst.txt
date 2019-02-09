@@ -24,7 +24,7 @@ stereogene
 
    :versions: 2.20
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_stereogene|
 

@@ -23,7 +23,7 @@ gerp
 
    :versions: 2.1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_gerp|
 

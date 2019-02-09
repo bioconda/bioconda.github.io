@@ -23,7 +23,7 @@ bioconductor-slalom
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rsvd`  
+   :depends: :conda:package:`bioconductor-gseabase` >=1.44.0,<1.45.0 :conda:package:`bioconductor-singlecellexperiment` >=1.4.0,<1.5.0 :conda:package:`bioconductor-summarizedexperiment` >=1.12.0,<1.13.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-ggplot2`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rsvd`  
 
    :required~by: |required_by_bioconductor-slalom|
 

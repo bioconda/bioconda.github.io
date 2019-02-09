@@ -23,7 +23,7 @@ fann
 
    :versions: 2.2.0
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_fann|
 

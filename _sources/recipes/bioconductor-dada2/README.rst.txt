@@ -22,9 +22,9 @@ bioconductor-dada2
 
    |downloads_bioconductor-dada2| |docker_bioconductor-dada2|
 
-   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4, 1.4.0, 1.2, 1.0.3, 0.99.10, 0.10.4, 0.10.3, 0.10.1, 0.10.0
+   :versions: 1.10.0, 1.8.0, 1.6.0, 1.4.0, 1.4, 1.2, 1.0.3, 0.99.10, 0.10.4, 0.10.3, 0.10.1, 0.10.0
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.9.4 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-rcppparallel` >=4.3.0 :conda:package:`r-reshape2` >=1.4.1 
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-shortread` >=1.40.0,<1.41.0 :conda:package:`bioconductor-xvector` >=0.22.0,<0.23.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.9.4 :conda:package:`r-ggplot2` >=2.1.0 :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-rcppparallel` >=4.3.0 :conda:package:`r-reshape2` >=1.4.1 
 
    :required~by: |required_by_bioconductor-dada2|
 

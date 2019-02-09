@@ -24,7 +24,7 @@ strike
 
    :versions: 1.2
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_strike|
 

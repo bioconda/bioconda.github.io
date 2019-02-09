@@ -23,7 +23,7 @@ pandaseq
 
    :versions: 2.11, 2.10, 2.8.1
 
-   :depends: :conda:package:`libgcc`  :conda:package:`libtool`  
+   :depends: 
 
    :required~by: |required_by_pandaseq|
 

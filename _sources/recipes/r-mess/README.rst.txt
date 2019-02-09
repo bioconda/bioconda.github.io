@@ -23,7 +23,7 @@ r-mess
 
    :versions: 0.5.4
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geem`  :conda:package:`r-geepack`  :conda:package:`r-glmnet`  :conda:package:`r-kinship2`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-geem`  :conda:package:`r-geepack`  :conda:package:`r-glmnet`  :conda:package:`r-kinship2`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-mvtnorm`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  
 
    :required~by: |required_by_r-mess|
 

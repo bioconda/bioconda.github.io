@@ -23,7 +23,7 @@ r-traminer
 
    :versions: 2.0_9, 2.0_8
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cluster`  :conda:package:`r-hmisc`  :conda:package:`r-rcolorbrewer`  
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-boot`  :conda:package:`r-cluster`  :conda:package:`r-hmisc`  :conda:package:`r-rcolorbrewer`  
 
    :required~by: |required_by_r-traminer|
 

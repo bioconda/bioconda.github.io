@@ -23,7 +23,7 @@ perl-params-validate
 
    :versions: 1.29, 1.26, 1.08
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  :conda:package:`perl-xsloader`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-module-implementation`  :conda:package:`perl-xsloader`  
 
    :required~by: |required_by_perl-params-validate|
 

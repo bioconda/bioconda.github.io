@@ -23,7 +23,7 @@ fwdpp
 
    :versions: 0.5.7, 0.5.5, 0.5.4, 0.5.3
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_fwdpp|
 

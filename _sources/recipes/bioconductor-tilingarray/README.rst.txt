@@ -23,7 +23,7 @@ bioconductor-tilingarray
 
    :versions: 1.60.0
 
-   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pixmap`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-strucchange`  
+   :depends: :conda:package:`bioconductor-affy` >=1.60.0,<1.61.0 :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-genefilter` >=1.64.0,<1.65.0 :conda:package:`bioconductor-vsn` >=3.50.0,<3.51.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pixmap`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-strucchange`  
 
    :required~by: |required_by_bioconductor-tilingarray|
 

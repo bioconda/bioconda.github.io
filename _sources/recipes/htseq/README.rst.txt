@@ -24,7 +24,7 @@ htseq
 
    :versions: 0.11.2, 0.11.1, 0.11.0, 0.9.1, 0.7.2, 0.6.1.post1, 0.6.1, 0.6.1p1
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`matplotlib` >=1.4 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pysam` >=0.9.0 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`matplotlib` >=1.4 :conda:package:`numpy` >=1.9.3,<2.0a0 :conda:package:`pysam` >=0.9.0 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_htseq|
 

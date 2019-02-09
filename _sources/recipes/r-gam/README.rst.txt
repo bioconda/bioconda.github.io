@@ -23,7 +23,7 @@ r-gam
 
    :versions: 1.14_4, 1.14
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-foreach`  
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-foreach`  
 
    :required~by: |required_by_r-gam|
 

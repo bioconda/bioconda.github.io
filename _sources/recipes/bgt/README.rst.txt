@@ -23,7 +23,7 @@ bgt
 
    :versions: r283, r277
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_bgt|
 

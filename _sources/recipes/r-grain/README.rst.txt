@@ -23,7 +23,7 @@ r-grain
 
    :versions: 1.3_0
 
-   :depends: :conda:package:`bioconductor-graph`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-functional`  :conda:package:`r-grbase` >=1.7_2 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
+   :depends: :conda:package:`bioconductor-graph`  :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-functional`  :conda:package:`r-grbase` >=1.7_2 :conda:package:`r-igraph`  :conda:package:`r-magrittr`  :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-rcpparmadillo`  :conda:package:`r-rcppeigen`  
 
    :required~by: |required_by_r-grain|
 

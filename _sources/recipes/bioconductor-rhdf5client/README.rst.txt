@@ -23,7 +23,7 @@ bioconductor-rhdf5client
 
    :versions: 1.4.0
 
-   :depends: :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-r6`  :conda:package:`r-rjson`  
+   :depends: :conda:package:`bioconductor-delayedarray` >=0.8.0,<0.9.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-httr`  :conda:package:`r-r6`  :conda:package:`r-rjson`  
 
    :required~by: |required_by_bioconductor-rhdf5client|
 

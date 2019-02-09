@@ -23,7 +23,7 @@ squizz
 
    :versions: 0.99d
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_squizz|
 

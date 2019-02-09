@@ -24,7 +24,7 @@ bioconductor-santa
 
    :versions: 2.20.0, 2.18.0, 2.16.0, 2.14.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-snow`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-snow`  
 
    :required~by: |required_by_bioconductor-santa|
 

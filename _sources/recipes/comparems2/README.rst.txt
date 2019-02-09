@@ -24,7 +24,7 @@ comparems2
 
    :versions: 1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_comparems2|
 

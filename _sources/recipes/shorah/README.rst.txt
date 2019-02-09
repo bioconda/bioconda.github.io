@@ -24,7 +24,7 @@ shorah
 
    :versions: 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.0
 
-   :depends: :conda:package:`biopython`  :conda:package:`blas` 1.1 openblas :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`biopython`  :conda:package:`blas` 1.1 openblas :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`numpy`  :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_shorah|
 

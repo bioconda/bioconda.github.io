@@ -24,7 +24,7 @@ pheniqs
 
    :versions: 2.0.6, 2.0.3
 
-   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`rapidjson`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`rapidjson`  :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_pheniqs|
 

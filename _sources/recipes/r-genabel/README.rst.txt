@@ -23,7 +23,7 @@ r-genabel
 
    :versions: 1.8_0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-genabel.data`  :conda:package:`r-mass`  
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-genabel.data`  :conda:package:`r-mass`  
 
    :required~by: |required_by_r-genabel|
 

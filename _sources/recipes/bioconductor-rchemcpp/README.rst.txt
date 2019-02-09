@@ -24,7 +24,7 @@ bioconductor-rchemcpp
 
    :versions: 2.20.0, 2.18.0, 2.16.0, 2.14.0
 
-   :depends: :conda:package:`bioconductor-chemminer` >=3.34.0,<3.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.1 
+   :depends: :conda:package:`bioconductor-chemminer` >=3.34.0,<3.35.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp` >=0.11.1 
 
    :required~by: |required_by_bioconductor-rchemcpp|
 

@@ -23,7 +23,7 @@ libbigwig
 
    :versions: 0.4.2, 0.4.1, 0.3.0
 
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_libbigwig|
 

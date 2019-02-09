@@ -24,7 +24,7 @@ bioconductor-cosmiq
 
    :versions: 1.16.1, 1.16.0, 1.12.0
 
-   :depends: :conda:package:`bioconductor-faahko` >=1.22.0,<1.23.0 :conda:package:`bioconductor-massspecwavelet` >=1.48.0,<1.49.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pracma`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`bioconductor-faahko` >=1.22.0,<1.23.0 :conda:package:`bioconductor-massspecwavelet` >=1.48.0,<1.49.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-pracma`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_bioconductor-cosmiq|
 

@@ -23,7 +23,7 @@ unicycler
 
    :versions: 0.4.7, 0.4.6, 0.4.4, 0.4.1, 0.3.0b, 0.2.0
 
-   :depends: :conda:package:`blast`  :conda:package:`bowtie2`  :conda:package:`freebayes`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`miniasm`  :conda:package:`openjdk`  :conda:package:`pilon`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`racon`  :conda:package:`samtools` >=1.0 :conda:package:`spades` >=3.6.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`blast`  :conda:package:`bowtie2`  :conda:package:`freebayes`  :conda:package:`libcxx` >=4.0.1 :conda:package:`miniasm`  :conda:package:`openjdk`  :conda:package:`pilon`  :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`racon`  :conda:package:`samtools` >=1.0 :conda:package:`spades` >=3.6.2 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_unicycler|
 

@@ -25,7 +25,7 @@ jellyfish
 
    :versions: 2.2.10, 2.2.6, 2.2.3, 1.1.12, 1.1.11
 
-   :depends: :conda:package:`jemalloc`  :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: :conda:package:`jemalloc`  
 
    :required~by: |required_by_jellyfish|
 

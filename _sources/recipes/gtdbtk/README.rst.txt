@@ -21,7 +21,7 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 0.1.5, 0.1.3
+   :versions: 0.1.6, 0.1.5, 0.1.3
 
    :depends: :conda:package:`biolib` >=0.0.43 :conda:package:`dendropy` >=4.1.0 :conda:package:`fastani`  :conda:package:`fasttree`  :conda:package:`hmmer`  :conda:package:`jinja2` >=2.7.3 :conda:package:`mpld3` >=0.2 :conda:package:`perl-gtdbtk`  :conda:package:`pplacer`  :conda:package:`prodigal`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`scipy`  
 

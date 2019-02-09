@@ -24,7 +24,7 @@ bioconductor-methylmnm
 
    :versions: 1.20.0, 1.18.0, 1.16.0, 1.14.0
 
-   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-statmod`  
+   :depends: :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-statmod`  
 
    :required~by: |required_by_bioconductor-methylmnm|
 

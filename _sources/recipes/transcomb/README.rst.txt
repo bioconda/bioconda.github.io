@@ -23,7 +23,7 @@ transcomb
 
    :versions: 1.0
 
-   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.60* :conda:package:`icu` ==56.1 :conda:package:`libgcc`  :conda:package:`samtools`  :conda:package:`zlib`  
+   :depends: :conda:package:`bamtools`  :conda:package:`boost` 1.60* :conda:package:`icu` ==56.1 :conda:package:`samtools`  :conda:package:`zlib`  
 
    :required~by: |required_by_transcomb|
 

@@ -23,7 +23,7 @@ perl-package-stash
 
    :versions: 0.38, 0.37
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-apache-test`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dist-checkconflicts`  :conda:package:`perl-getopt-long`  :conda:package:`perl-module-implementation`  :conda:package:`perl-package-stash-xs`  :conda:package:`perl-scalar-list-utils`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-apache-test`  :conda:package:`perl-app-cpanminus`  :conda:package:`perl-dist-checkconflicts`  :conda:package:`perl-getopt-long`  :conda:package:`perl-module-implementation`  :conda:package:`perl-package-stash-xs`  :conda:package:`perl-scalar-list-utils`  
 
    :required~by: |required_by_perl-package-stash|
 

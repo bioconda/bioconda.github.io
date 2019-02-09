@@ -23,7 +23,7 @@ prinseq
 
    :versions: 0.20.4
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: 
 
    :required~by: |required_by_prinseq|
 

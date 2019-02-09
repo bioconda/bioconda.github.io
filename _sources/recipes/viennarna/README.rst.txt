@@ -23,7 +23,7 @@ viennarna
 
    :versions: 2.4.11, 2.4.9, 2.4.8, 2.4.7, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.3.5, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.5, 2.1.9, 2.1.8, 2.1.5, 1.8.5
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_viennarna|
 

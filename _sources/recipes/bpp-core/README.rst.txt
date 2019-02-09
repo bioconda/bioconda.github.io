@@ -23,7 +23,7 @@ bpp-core
 
    :versions: 2.4.1, 2.2.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_bpp-core|
 

@@ -24,7 +24,7 @@ bioconductor-ippd
 
    :versions: 1.30.0, 1.28.0, 1.26.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-xml`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-mass`  :conda:package:`r-matrix`  :conda:package:`r-xml`  
 
    :required~by: |required_by_bioconductor-ippd|
 

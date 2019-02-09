@@ -23,7 +23,7 @@ pyani
 
    :versions: 0.2.7, 0.2.3, 0.2.0
 
-   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`blast-legacy`  :conda:package:`matplotlib`  :conda:package:`mummer`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`scipy`  :conda:package:`seaborn`  
+   :depends: :conda:package:`biopython`  :conda:package:`blast`  :conda:package:`matplotlib`  :conda:package:`mummer`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`python` 3.5* :conda:package:`scipy`  :conda:package:`seaborn`  
 
    :required~by: |required_by_pyani|
 

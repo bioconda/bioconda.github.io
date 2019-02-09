@@ -39,7 +39,7 @@ fastx_toolkit
 
    :versions: 0.0.14
 
-   :depends: :conda:package:`cython`  :conda:package:`libgtextutils`  :conda:package:`nose`  
+   :depends: :conda:package:`cython`  :conda:package:`gnuplot`  :conda:package:`libgtextutils`  :conda:package:`nose`  
 
    :required~by: |required_by_fastx_toolkit|
 

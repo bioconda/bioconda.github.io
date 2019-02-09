@@ -23,7 +23,7 @@ bioconductor-snprelate
 
    :versions: 1.16.0, 1.14.0, 1.12.2
 
-   :depends: :conda:package:`bioconductor-gdsfmt` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-gdsfmt` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-snprelate|
 

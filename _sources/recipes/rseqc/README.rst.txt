@@ -24,7 +24,7 @@ rseqc
 
    :versions: 3.0.0, 2.6.4, 2.6.2
 
-   :depends: :conda:package:`bx-python`  :conda:package:`cython` >=0.17 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-base`  
+   :depends: :conda:package:`bx-python`  :conda:package:`cython` >=0.17 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`r-base`  
 
    :required~by: |required_by_rseqc|
 

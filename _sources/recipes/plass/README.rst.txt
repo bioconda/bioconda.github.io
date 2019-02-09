@@ -23,7 +23,7 @@ plass
 
    :versions: 2.c7e35
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gawk`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`gawk`  :conda:package:`openmp`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_plass|
 

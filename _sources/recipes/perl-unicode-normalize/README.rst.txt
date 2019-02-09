@@ -23,7 +23,7 @@ perl-unicode-normalize
 
    :versions: 1.26, 1.25, 1.18
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-exporter`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-constant`  :conda:package:`perl-exporter`  
 
    :required~by: |required_by_perl-unicode-normalize|
 

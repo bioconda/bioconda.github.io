@@ -26,7 +26,7 @@ minialign
 
    :versions: 0.5.3, 0.5.2, 0.4.2, 0.4.0, 0.3.1
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_minialign|
 

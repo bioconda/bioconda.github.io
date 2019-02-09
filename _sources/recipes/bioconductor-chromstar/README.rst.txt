@@ -24,7 +24,7 @@ bioconductor-chromstar
 
    :versions: 1.8.1, 1.8.0, 1.6.2, 1.4.0
 
-   :depends: :conda:package:`bioconductor-bamsignals` >=1.14.0,<1.15.0 :conda:package:`bioconductor-chromstardata` >=1.8.0,<1.9.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-mvtnorm`  :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-bamsignals` >=1.14.0,<1.15.0 :conda:package:`bioconductor-chromstardata` >=1.8.0,<1.9.0 :conda:package:`bioconductor-genomeinfodb` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicalignments` >=1.18.0,<1.19.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`bioconductor-iranges` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rsamtools` >=1.34.0,<1.35.0 :conda:package:`bioconductor-s4vectors` >=0.20.0,<0.21.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-foreach`  :conda:package:`r-ggplot2`  :conda:package:`r-mvtnorm`  :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-chromstar|
 

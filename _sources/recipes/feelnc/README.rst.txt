@@ -23,7 +23,7 @@ feelnc
 
    :versions: 0.1.1
 
-   :depends: :conda:package:`fasta_ushuffle`  :conda:package:`kmerinshort`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bio-featureio`  :conda:package:`perl-bioperl`  :conda:package:`perl-db-file`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`r-base`  :conda:package:`r-randomforest`  :conda:package:`r-rocr`  
+   :depends: :conda:package:`fasta_ushuffle`  :conda:package:`kmerinshort`  :conda:package:`perl-bio-featureio`  :conda:package:`perl-bioperl`  :conda:package:`perl-db-file`  :conda:package:`perl-parallel-forkmanager`  :conda:package:`r-base`  :conda:package:`r-randomforest`  :conda:package:`r-rocr`  
 
    :required~by: |required_by_feelnc|
 

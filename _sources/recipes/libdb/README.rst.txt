@@ -23,7 +23,7 @@ libdb
 
    :versions: 6.1.26
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 
+   :depends: :conda:package:`libcxx` >=4.0.1 
 
    :required~by: |required_by_libdb|
 

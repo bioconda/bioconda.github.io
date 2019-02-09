@@ -24,7 +24,7 @@ kallisto
 
    :versions: 0.45.0, 0.44.0, 0.43.1, 0.43.0, 0.42.4, 0.42.3
 
-   :depends: :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`hdf5` >=1.10.3,<1.10.4.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_kallisto|
 

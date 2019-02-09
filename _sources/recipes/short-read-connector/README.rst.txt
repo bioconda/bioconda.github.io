@@ -23,7 +23,7 @@ shortreadconnector
 
    :versions: 1.1.3
 
-   :depends: :conda:package:`dsk`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`dsk`  :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_shortreadconnector|
 

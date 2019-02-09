@@ -23,7 +23,7 @@ r-exomedepth
 
    :versions: 1.1.10
 
-   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-genomicalignments`  :conda:package:`bioconductor-genomicranges` >=1.23.0 :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc`  :conda:package:`r` 3.3.1* :conda:package:`r-aod`  :conda:package:`r-vgam` >=0.8.4 
+   :depends: :conda:package:`bioconductor-biostrings`  :conda:package:`bioconductor-genomicalignments`  :conda:package:`bioconductor-genomicranges` >=1.23.0 :conda:package:`bioconductor-iranges`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r` 3.3.1* :conda:package:`r-aod`  :conda:package:`r-vgam` >=0.8.4 
 
    :required~by: |required_by_r-exomedepth|
 

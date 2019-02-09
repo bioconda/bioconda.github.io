@@ -23,7 +23,7 @@ irfinder
 
    :versions: 1.2.5, 1.2.4, 1.2.3, 1.2.2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`r-base`  
+   :depends: :conda:package:`perl`  :conda:package:`r-base`  
 
    :required~by: |required_by_irfinder|
 

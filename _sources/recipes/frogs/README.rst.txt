@@ -23,7 +23,7 @@ frogs
 
    :versions: 2.0.1
 
-   :depends: :conda:package:`bioconductor-phyloseq` >=1.20.0 :conda:package:`blast` >=2.2.31 :conda:package:`cutadapt` >=1.8.3 :conda:package:`fasttree` >=2.1.9 :conda:package:`flash` >=1.2.11 :conda:package:`mafft` >=7.310 :conda:package:`pandoc` <2.0 :conda:package:`perl` >=5.22.0 :conda:package:`perl-io-gzip` >=0.20 :conda:package:`pynast` >=1.2.2 :conda:package:`python` 2.7* :conda:package:`r-base` >=3.4.1 :conda:package:`r-gridextra` >=2.2.1 :conda:package:`r-phangorn` >=2.2.0 :conda:package:`r-plotly` >=4.7.1 :conda:package:`r-rmarkdown` >=1.5 :conda:package:`rdptools` >=2.0.2 :conda:package:`scipy` >=0.17.1 :conda:package:`swarm` >=2.1.13 :conda:package:`util-linux`  :conda:package:`vsearch` >=2.4.3 
+   :depends: :conda:package:`bioconductor-phyloseq` >=1.20.0 :conda:package:`blast` >=2.2.31 :conda:package:`cutadapt` >=1.8.3 :conda:package:`fasttree` >=2.1.9 :conda:package:`flash` >=1.2.11 :conda:package:`mafft` >=7.310 :conda:package:`pandoc` <2.0 :conda:package:`perl` >=5.22.0 :conda:package:`perl-io-gzip` >=0.20 :conda:package:`pynast` >=1.2.2 :conda:package:`python` 2.7* :conda:package:`r-base` >=3.4.1 :conda:package:`r-gridextra` >=2.2.1 :conda:package:`r-phangorn` >=2.2.0 :conda:package:`r-plotly` >=4.7.1 :conda:package:`r-rmarkdown` >=1.5 :conda:package:`rdptools` >=2.0.2 :conda:package:`scipy` >=0.17.1 :conda:package:`swarm` >=2.1.13 :conda:package:`vsearch` >=2.4.3 
 
    :required~by: |required_by_frogs|
 

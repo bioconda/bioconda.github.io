@@ -23,7 +23,7 @@ art
 
    :versions: 2016.06.05, 3.19.15, 3.11.14
 
-   :depends: :conda:package:`blas`  :conda:package:`gsl` 1.16* :conda:package:`libgcc`  
+   :depends: :conda:package:`blas`  :conda:package:`gsl` 1.16* 
 
    :required~by: |required_by_art|
 

@@ -24,7 +24,7 @@ seqmap
 
    :versions: 1.0.13
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_seqmap|
 

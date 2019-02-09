@@ -23,7 +23,7 @@ infernal
 
    :versions: 1.1.2, 1.1.1, 1.0.2
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_infernal|
 

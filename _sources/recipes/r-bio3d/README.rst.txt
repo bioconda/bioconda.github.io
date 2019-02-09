@@ -23,7 +23,7 @@ r-bio3d
 
    :versions: 2.3_3, 2.2_3
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* :conda:package:`r-rcpp`  
+   :depends: :conda:package:`r-base` 3.4.1* :conda:package:`r-rcpp`  
 
    :required~by: |required_by_r-bio3d|
 

@@ -23,7 +23,7 @@ zeroc-ice
 
    :versions: 3.7.1, 3.6.3
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_zeroc-ice|
 

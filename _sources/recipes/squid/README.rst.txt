@@ -24,7 +24,7 @@ squid
 
    :versions: 1.5, 1.4
 
-   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bamtools` >=2.4.1,<2.4.2.0a0 :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_squid|
 

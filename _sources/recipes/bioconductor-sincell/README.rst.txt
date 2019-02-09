@@ -24,7 +24,7 @@ bioconductor-sincell
 
    :versions: 1.14.1, 1.14.0, 1.12.0, 1.10.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-entropy`  :conda:package:`r-fastica`  :conda:package:`r-fields`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-reshape2`  :conda:package:`r-rtsne`  :conda:package:`r-scatterplot3d`  :conda:package:`r-statmod`  :conda:package:`r-tsp`  
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cluster`  :conda:package:`r-entropy`  :conda:package:`r-fastica`  :conda:package:`r-fields`  :conda:package:`r-ggplot2`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-proxy`  :conda:package:`r-rcpp` >=0.11.2 :conda:package:`r-reshape2`  :conda:package:`r-rtsne`  :conda:package:`r-scatterplot3d`  :conda:package:`r-statmod`  :conda:package:`r-tsp`  
 
    :required~by: |required_by_bioconductor-sincell|
 

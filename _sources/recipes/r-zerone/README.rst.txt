@@ -23,7 +23,7 @@ r-zerone
 
    :versions: 1.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`r-base` 3.4.1* 
+   :depends: :conda:package:`r-base` 3.4.1* 
 
    :required~by: |required_by_r-zerone|
 

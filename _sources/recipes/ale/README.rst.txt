@@ -23,7 +23,7 @@ ale
 
    :versions: 20180904, 20160127
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`mpmath`  :conda:package:`pymix`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`matplotlib`  :conda:package:`mpmath`  :conda:package:`pymix`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ale|
 

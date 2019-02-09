@@ -24,7 +24,7 @@ gmap
 
    :versions: 2018.07.04, 2018.03.25, 2017.11.15, 2017.10.30, 2017.09.30, 2017.05.08, 2017.02.15, 2016.09.23, 2015.12.31, 2015.09.10, 2014.12.28, 2014.12.23
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_gmap|
 

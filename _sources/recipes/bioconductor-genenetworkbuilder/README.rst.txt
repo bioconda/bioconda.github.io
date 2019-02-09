@@ -23,7 +23,7 @@ bioconductor-genenetworkbuilder
 
    :versions: 1.24.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-htmlwidgets`  :conda:package:`r-plyr`  :conda:package:`r-rcpp` >=0.9.13 :conda:package:`r-rjson`  :conda:package:`r-xml`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-htmlwidgets`  :conda:package:`r-plyr`  :conda:package:`r-rcpp` >=0.9.13 :conda:package:`r-rjson`  :conda:package:`r-xml`  
 
    :required~by: |required_by_bioconductor-genenetworkbuilder|
 

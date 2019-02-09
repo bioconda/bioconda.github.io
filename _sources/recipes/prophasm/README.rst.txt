@@ -23,7 +23,7 @@ prophasm
 
    :versions: 0.1.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_prophasm|
 

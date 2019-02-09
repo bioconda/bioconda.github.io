@@ -23,7 +23,7 @@ r-pegas
 
    :versions: 0.11, 0.10
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-adegenet`  :conda:package:`r-ape` >=2.4 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
+   :depends: :conda:package:`r-adegenet`  :conda:package:`r-ape` >=2.4 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
    :required~by: |required_by_r-pegas|
 

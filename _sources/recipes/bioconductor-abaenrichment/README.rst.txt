@@ -24,7 +24,7 @@ bioconductor-abaenrichment
 
    :versions: 1.12.0, 1.10.0, 1.8.0
 
-   :depends: :conda:package:`bioconductor-abadata` >=1.12.0,<1.13.0 :conda:package:`bioconductor-gofuncr` >=1.2.0,<1.3.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-gplots` >=2.14.2 :conda:package:`r-gtools` >=3.5.0 :conda:package:`r-rcpp` >=0.11.5 
+   :depends: :conda:package:`bioconductor-abadata` >=1.12.0,<1.13.0 :conda:package:`bioconductor-gofuncr` >=1.2.0,<1.3.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.10.4 :conda:package:`r-gplots` >=2.14.2 :conda:package:`r-gtools` >=3.5.0 :conda:package:`r-rcpp` >=0.11.5 
 
    :required~by: |required_by_bioconductor-abaenrichment|
 

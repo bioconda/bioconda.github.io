@@ -23,7 +23,7 @@ bioconductor-mimosa
 
    :versions: 1.20.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-data.table`  :conda:package:`r-formula`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-mcmcpack`  :conda:package:`r-modeest`  :conda:package:`r-plyr`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape`  :conda:package:`r-scales`  :conda:package:`r-testthat`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-coda`  :conda:package:`r-data.table`  :conda:package:`r-formula`  :conda:package:`r-ggplot2`  :conda:package:`r-mass`  :conda:package:`r-mcmcpack`  :conda:package:`r-modeest`  :conda:package:`r-plyr`  :conda:package:`r-pracma`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-reshape`  :conda:package:`r-scales`  :conda:package:`r-testthat`  
 
    :required~by: |required_by_bioconductor-mimosa|
 

@@ -24,7 +24,7 @@ bioconductor-sim
 
    :versions: 1.52.0, 1.50.0, 1.48.0
 
-   :depends: :conda:package:`bioconductor-globaltest` >=5.36.0,<5.37.0 :conda:package:`bioconductor-quantsmooth` >=1.48.0,<1.49.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
+   :depends: :conda:package:`bioconductor-globaltest` >=5.36.0,<5.37.0 :conda:package:`bioconductor-quantsmooth` >=1.48.0,<1.49.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-quantreg`  
 
    :required~by: |required_by_bioconductor-sim|
 

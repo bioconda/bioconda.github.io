@@ -24,7 +24,7 @@ yass
 
    :versions: 1.14
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_yass|
 

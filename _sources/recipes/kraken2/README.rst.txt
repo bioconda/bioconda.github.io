@@ -24,7 +24,7 @@ kraken2
 
    :versions: 2.0.7_beta
 
-   :depends: :conda:package:`blast`  :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
+   :depends: :conda:package:`blast`  :conda:package:`libcxx` >=4.0 :conda:package:`openmp` >=4.0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_kraken2|
 

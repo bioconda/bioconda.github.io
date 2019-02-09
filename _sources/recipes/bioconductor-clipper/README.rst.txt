@@ -23,7 +23,7 @@ bioconductor-clipper
 
    :versions: 1.22.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-qpgraph` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-grbase` >=1.6.6 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcpp`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-kegggraph` >=1.42.0,<1.43.0 :conda:package:`bioconductor-qpgraph` >=2.16.0,<2.17.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-corpcor`  :conda:package:`r-grbase` >=1.6.6 :conda:package:`r-igraph`  :conda:package:`r-matrix`  :conda:package:`r-rcpp`  
 
    :required~by: |required_by_bioconductor-clipper|
 

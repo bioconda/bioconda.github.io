@@ -23,7 +23,7 @@ r-whopgenome
 
    :versions: 0.9.7
 
-   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.3.2,<3.3.3.0a0 :conda:package:`r-dbi`  :conda:package:`r-rmysql`  
+   :depends: :conda:package:`bioconductor-annotationdbi`  :conda:package:`r-base` >=3.3.2,<3.3.3.0a0 :conda:package:`r-dbi`  :conda:package:`r-rmysql`  
 
    :required~by: |required_by_r-whopgenome|
 

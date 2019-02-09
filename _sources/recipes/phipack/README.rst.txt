@@ -23,7 +23,7 @@ phipack
 
    :versions: 1.0
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_phipack|
 

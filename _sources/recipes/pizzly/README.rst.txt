@@ -23,7 +23,7 @@ pizzly
 
    :versions: 0.37.3, 0.37.1
 
-   :depends: :conda:package:`h5py`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`python`  
+   :depends: :conda:package:`h5py`  :conda:package:`numpy`  :conda:package:`python`  
 
    :required~by: |required_by_pizzly|
 

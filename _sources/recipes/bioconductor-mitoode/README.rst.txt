@@ -23,7 +23,7 @@ bioconductor-mitoode
 
    :versions: 1.20.1, 1.20.0
 
-   :depends: :conda:package:`bioconductor-mitoodedata` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-minpack.lm`  
+   :depends: :conda:package:`bioconductor-mitoodedata` >=1.18.0,<1.19.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-kernsmooth`  :conda:package:`r-mass`  :conda:package:`r-minpack.lm`  
 
    :required~by: |required_by_bioconductor-mitoode|
 

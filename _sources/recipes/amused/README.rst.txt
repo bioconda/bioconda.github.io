@@ -23,7 +23,7 @@ amused
 
    :versions: 1.0
 
-   :depends: :conda:package:`jemalloc`  :conda:package:`libgcc`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`jemalloc`  :conda:package:`ruby` >=2.4 :conda:package:`ruby-dna-tools`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_amused|
 

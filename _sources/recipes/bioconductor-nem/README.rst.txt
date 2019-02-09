@@ -24,7 +24,7 @@ bioconductor-nem
 
    :versions: 2.56.0, 2.54.0, 2.52.0, 2.50.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-e1071`  :conda:package:`r-plotrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-statmod`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-boot`  :conda:package:`r-e1071`  :conda:package:`r-plotrix`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-statmod`  
 
    :required~by: |required_by_bioconductor-nem|
 

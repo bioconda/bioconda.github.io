@@ -23,7 +23,7 @@ lumpy-sv
 
    :versions: 0.2.14a, 0.2.13, 0.2.12, 0.2.11
 
-   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`gawk`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7.* :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`curl` >=7.59.0,<8.0a0 :conda:package:`gawk`  :conda:package:`numpy`  :conda:package:`pysam`  :conda:package:`python` 2.7.* :conda:package:`samtools`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_lumpy-sv|
 

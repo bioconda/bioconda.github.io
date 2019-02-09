@@ -23,7 +23,7 @@ sloika
 
    :versions: 2.0.1
 
-   :depends: :conda:package:`biopython` >=1.63 :conda:package:`h5py` >=2.2.1,<=2.6.0 :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  :conda:package:`numpy` 1.12* :conda:package:`theano` 0.8.2 
+   :depends: :conda:package:`biopython` >=1.63 :conda:package:`h5py` >=2.2.1,<=2.6.0 :conda:package:`hdf5` 1.8.17* :conda:package:`numpy` 1.12* :conda:package:`theano` 0.8.2 
 
    :required~by: |required_by_sloika|
 

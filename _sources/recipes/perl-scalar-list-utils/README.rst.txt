@@ -23,7 +23,7 @@ perl-scalar-list-utils
 
    :versions: 1.45, 1.42
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-scalar-list-utils|
 

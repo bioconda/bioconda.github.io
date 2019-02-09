@@ -23,7 +23,7 @@ bioconductor-predictionet
 
    :versions: 1.28.0
 
-   :depends: :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catnet`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-penalized`  
+   :depends: :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-catnet`  :conda:package:`r-igraph`  :conda:package:`r-mass`  :conda:package:`r-penalized`  
 
    :required~by: |required_by_bioconductor-predictionet|
 

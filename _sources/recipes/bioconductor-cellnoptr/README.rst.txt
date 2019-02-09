@@ -24,7 +24,7 @@ bioconductor-cellnoptr
 
    :versions: 1.28.0, 1.26.0, 1.24.1, 1.23.0, 1.22.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-hash`  :conda:package:`r-rcurl`  :conda:package:`r-xml`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-rbgl` >=1.58.0,<1.59.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-hash`  :conda:package:`r-rcurl`  :conda:package:`r-xml`  
 
    :required~by: |required_by_bioconductor-cellnoptr|
 

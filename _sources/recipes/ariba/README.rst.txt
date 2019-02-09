@@ -23,7 +23,7 @@ ariba
 
    :versions: 2.13.3, 2.13.2, 2.12.1, 2.12.0, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.5.1, 0.6.0
 
-   :depends: :conda:package:`bcftools` >=1.2 :conda:package:`beautifulsoup4` >=4.1.0 :conda:package:`biopython`  :conda:package:`bowtie2` >=2.3.1 :conda:package:`cd-hit` >=4.6.5 :conda:package:`dendropy` >=4.2.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`mummer` >=3.23 :conda:package:`pyfastaq` >=3.12.0 :conda:package:`pymummer` >=0.10.2 :conda:package:`pysam` >=0.9.1 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`samtools` >=1.2 :conda:package:`spades` >=3.5.0 :conda:package:`wget`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bcftools` >=1.2 :conda:package:`beautifulsoup4` >=4.1.0 :conda:package:`biopython`  :conda:package:`bowtie2` >=2.3.1 :conda:package:`cd-hit` >=4.6.5 :conda:package:`dendropy` >=4.2.0 :conda:package:`matplotlib`  :conda:package:`mummer` >=3.23 :conda:package:`pyfastaq` >=3.12.0 :conda:package:`pymummer` >=0.10.2 :conda:package:`pysam` >=0.9.1 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`samtools` >=1.2 :conda:package:`spades` >=3.5.0 :conda:package:`wget`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ariba|
 

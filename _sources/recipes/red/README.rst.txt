@@ -24,7 +24,7 @@ red
 
    :versions: 2015.05.22
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_red|
 

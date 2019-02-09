@@ -24,7 +24,7 @@ swarm
 
    :versions: 2.2.2, 2.1.13, 2.1.10, 2.1.5, 1.2.19
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`python`  :conda:package:`python-igraph`  
+   :depends: :conda:package:`python`  :conda:package:`python-igraph`  
 
    :required~by: |required_by_swarm|
 

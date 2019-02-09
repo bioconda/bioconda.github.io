@@ -24,7 +24,7 @@ bioconductor-metaseq
 
    :versions: 1.22.1, 1.20.0, 1.18.0, 1.16.0
 
-   :depends: :conda:package:`bioconductor-noiseq` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-snow`  
+   :depends: :conda:package:`bioconductor-noiseq` >=2.26.0,<2.27.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-rcpp`  :conda:package:`r-snow`  
 
    :required~by: |required_by_bioconductor-metaseq|
 

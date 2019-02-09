@@ -24,7 +24,7 @@ sonicparanoid
 
    :versions: 1.0.14, 1.0.13
 
-   :depends: :conda:package:`biopython` >=1.67 :conda:package:`cython` >=0.27.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`make`  :conda:package:`mmseqs2` 6.f5a1c :conda:package:`numpy` >=1.13.0 :conda:package:`pandas` >=0.22.0 :conda:package:`pip` >=9.0.1 :conda:package:`python` >=3.7,<3.8.0a0 :conda:package:`setuptools` >=24.2.0 :conda:package:`sh` >=1.12.14 
+   :depends: :conda:package:`biopython` >=1.67 :conda:package:`cython` >=0.27.0 :conda:package:`make`  :conda:package:`mmseqs2` 6.f5a1c :conda:package:`numpy` >=1.13.0 :conda:package:`pandas` >=0.22.0 :conda:package:`pip` >=9.0.1 :conda:package:`python` >=3.7,<3.8.0a0 :conda:package:`setuptools` >=24.2.0 :conda:package:`sh` >=1.12.14 
 
    :required~by: |required_by_sonicparanoid|
 

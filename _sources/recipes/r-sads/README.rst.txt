@@ -23,7 +23,7 @@ r-sads
 
    :versions: 0.4.2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmle` >=1.0.19 :conda:package:`r-guilds`  :conda:package:`r-mass`  :conda:package:`r-poilog`  :conda:package:`r-vgam`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bbmle` >=1.0.19 :conda:package:`r-guilds`  :conda:package:`r-mass`  :conda:package:`r-poilog`  :conda:package:`r-vgam`  
 
    :required~by: |required_by_r-sads|
 

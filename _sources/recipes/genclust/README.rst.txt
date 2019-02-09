@@ -24,7 +24,7 @@ genclust
 
    :versions: 1.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_genclust|
 

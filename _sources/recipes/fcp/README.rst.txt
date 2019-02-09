@@ -23,7 +23,7 @@ fcp
 
    :versions: 1.0.7
 
-   :depends: :conda:package:`blast`  :conda:package:`libgcc`  :conda:package:`python` 2.7* 
+   :depends: :conda:package:`blast`  :conda:package:`python` 2.7* 
 
    :required~by: |required_by_fcp|
 

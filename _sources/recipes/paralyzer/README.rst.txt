@@ -24,7 +24,7 @@ paralyzer
 
    :versions: 1.5
 
-   :depends: :conda:package:`java-jdk`  
+   :depends: :conda:package:`openjdk`  
 
    :required~by: |required_by_paralyzer|
 

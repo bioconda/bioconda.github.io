@@ -24,7 +24,7 @@ t-coffee
 
    :versions: 12.00.7fb08c2, 11.00.8cbe486
 
-   :depends: :conda:package:`blast`  :conda:package:`clustalo`  :conda:package:`clustalw`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`poa`  :conda:package:`viennarna`  
+   :depends: :conda:package:`blast`  :conda:package:`clustalo`  :conda:package:`clustalw`  :conda:package:`libgfortran` >=3.0 :conda:package:`mafft`  :conda:package:`muscle`  :conda:package:`viennarna`  
 
    :required~by: |required_by_t-coffee|
 

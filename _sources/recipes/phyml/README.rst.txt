@@ -35,7 +35,7 @@ phyml
 
    :versions: 3.3.20180621, 3.3.20170530, 3.2.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`openmpi` >=3.1,<3.2.0a0 
+   :depends: :conda:package:`openmpi` >=3.1,<3.2.0a0 
 
    :required~by: |required_by_phyml|
 

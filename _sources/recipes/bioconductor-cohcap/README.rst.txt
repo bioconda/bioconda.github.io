@@ -24,7 +24,7 @@ bioconductor-cohcap
 
    :versions: 1.28.1, 1.26.0, 1.24.0
 
-   :depends: :conda:package:`bioconductor-cohcapanno` >=1.18.0,<1.19.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-writexls`  
+   :depends: :conda:package:`bioconductor-cohcapanno` >=1.18.0,<1.19.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bh`  :conda:package:`r-gplots`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo`  :conda:package:`r-writexls`  
 
    :required~by: |required_by_bioconductor-cohcap|
 

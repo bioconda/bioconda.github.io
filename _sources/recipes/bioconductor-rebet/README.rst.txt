@@ -23,7 +23,7 @@ bioconductor-rebet
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`bioconductor-asset` >=2.0.0,<2.1.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`bioconductor-asset` >=2.0.0,<2.1.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-rebet|
 

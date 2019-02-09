@@ -23,7 +23,7 @@ pytest-timeout
 
    :versions: 1.0.0
 
-   :depends: :conda:package:`pytest` >=2.8.0 :conda:package:`python` 2.7* :conda:package:`setuptools`  
+   :depends: :conda:package:`pytest` >=2.8.0 :conda:package:`python` 2.7* 
 
    :required~by: |required_by_pytest-timeout|
 

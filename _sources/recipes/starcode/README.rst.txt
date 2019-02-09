@@ -23,7 +23,7 @@ starcode
 
    :versions: 1.3, 1.1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_starcode|
 

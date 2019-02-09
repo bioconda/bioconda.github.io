@@ -23,7 +23,7 @@ perl-math-cdf
 
    :versions: 0.1
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-math-cdf|
 

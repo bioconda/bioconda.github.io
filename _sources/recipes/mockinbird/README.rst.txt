@@ -25,7 +25,7 @@ mockinbird
 
    :versions: 1.0.0a1
 
-   :depends: :conda:package:`bowtie`  :conda:package:`fastqc`  :conda:package:`jinja2`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml`  :conda:package:`r-base`  :conda:package:`r-lsd`  :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`star`  :conda:package:`xxmotif`  
+   :depends: :conda:package:`bowtie`  :conda:package:`fastqc`  :conda:package:`jinja2`  :conda:package:`matplotlib`  :conda:package:`numpy`  :conda:package:`pandas`  :conda:package:`pysam`  :conda:package:`python` >=3.5,<3.6.0a0 :conda:package:`pyyaml`  :conda:package:`r-base`  :conda:package:`r-lsd`  :conda:package:`samtools`  :conda:package:`scipy`  :conda:package:`seaborn`  :conda:package:`star`  :conda:package:`xxmotif`  
 
    :required~by: |required_by_mockinbird|
 

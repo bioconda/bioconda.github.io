@@ -23,7 +23,7 @@ lz4-bin
 
    :versions: 131
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_lz4-bin|
 

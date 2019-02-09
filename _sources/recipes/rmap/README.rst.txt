@@ -24,7 +24,7 @@ rmap
 
    :versions: 2.1
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_rmap|
 

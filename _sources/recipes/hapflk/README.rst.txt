@@ -23,7 +23,7 @@ hapflk
 
    :versions: 1.3.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
+   :depends: :conda:package:`numpy`  :conda:package:`python` 2.7* :conda:package:`scipy`  
 
    :required~by: |required_by_hapflk|
 

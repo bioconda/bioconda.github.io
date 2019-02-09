@@ -23,7 +23,7 @@ ncbi-vdb
 
    :versions: 2.9.3, 2.9.1, 2.9.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_ncbi-vdb|
 

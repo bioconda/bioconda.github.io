@@ -23,7 +23,7 @@ python-edlib
 
    :versions: 1.2.3.post1, 1.2.3
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`python` >=2.7,<2.8.0a0 
+   :depends: :conda:package:`python` >=2.7,<2.8.0a0 
 
    :required~by: |required_by_python-edlib|
 

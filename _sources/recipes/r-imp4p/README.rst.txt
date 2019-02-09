@@ -23,7 +23,7 @@ r-imp4p
 
    :versions: 0.7
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-iso`  :conda:package:`r-norm`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-truncnorm`  
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-iso`  :conda:package:`r-norm`  :conda:package:`r-rcpp` >=0.12.8 :conda:package:`r-truncnorm`  
 
    :required~by: |required_by_r-imp4p|
 

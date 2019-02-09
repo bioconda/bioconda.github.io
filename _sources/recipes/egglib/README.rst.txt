@@ -23,7 +23,7 @@ egglib
 
    :versions: 3.0.0b21
 
-   :depends: :conda:package:`libgcc` >=7.2.0 :conda:package:`python` <3 
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`python` <3 
 
    :required~by: |required_by_egglib|
 

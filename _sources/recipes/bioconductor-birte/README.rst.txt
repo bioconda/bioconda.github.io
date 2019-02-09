@@ -24,7 +24,7 @@ bioconductor-birte
 
    :versions: 1.18.0, 1.16.0, 1.14.0, 1.12.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-mass`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo` >=0.3.6.1 
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-limma` >=3.38.0,<3.39.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-glmnet`  :conda:package:`r-mass`  :conda:package:`r-rcpp`  :conda:package:`r-rcpparmadillo` >=0.3.6.1 
 
    :required~by: |required_by_bioconductor-birte|
 

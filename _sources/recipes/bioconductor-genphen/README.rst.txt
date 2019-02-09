@@ -23,7 +23,7 @@ bioconductor-genphen
 
    :versions: 1.10.0
 
-   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-e1071`  :conda:package:`r-foreach`  :conda:package:`r-ranger`  :conda:package:`r-rstan`  
+   :depends: :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-doparallel`  :conda:package:`r-e1071`  :conda:package:`r-foreach`  :conda:package:`r-ranger`  :conda:package:`r-rstan`  
 
    :required~by: |required_by_bioconductor-genphen|
 

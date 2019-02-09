@@ -23,7 +23,7 @@ stream_atac
 
    :versions: 0.2.0, 0.1.0
 
-   :depends: :conda:package:`anndata`  :conda:package:`bioconductor-bsgenome.hsapiens.ucsc.hg19`  :conda:package:`bioconductor-chromvar` 1.4.1.* :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libgfortran-ng` >=7,<8.0a0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`r-essentials`  :conda:package:`rpy2`  :conda:package:`scikit-learn`  :conda:package:`setuptools`  :conda:package:`unzip`  :conda:package:`wget`  :conda:package:`zip`  
+   :depends: :conda:package:`anndata`  :conda:package:`bioconductor-bsgenome.hsapiens.ucsc.hg19`  :conda:package:`bioconductor-chromvar` 1.4.1.* :conda:package:`libcxx` >=4.0.1 :conda:package:`libgfortran` >=3.0.1,<4.0.0.a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`r-essentials`  :conda:package:`rpy2`  :conda:package:`scikit-learn`  :conda:package:`setuptools`  :conda:package:`unzip`  :conda:package:`wget`  :conda:package:`zip`  
 
    :required~by: |required_by_stream_atac|
 

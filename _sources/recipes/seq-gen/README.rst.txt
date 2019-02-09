@@ -24,7 +24,7 @@ seq-gen
 
    :versions: 1.3.4, 1.3.3
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_seq-gen|
 

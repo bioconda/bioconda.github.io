@@ -26,7 +26,7 @@ fsm-lite
 
    :versions: 1.0
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`sdsl-lite`  
+   :depends: :conda:package:`sdsl-lite`  
 
    :required~by: |required_by_fsm-lite|
 

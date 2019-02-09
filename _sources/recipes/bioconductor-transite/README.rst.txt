@@ -23,7 +23,7 @@ bioconductor-transite
 
    :versions: 1.0.1
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.6 :conda:package:`r-ggplot2` >=3.0.0 :conda:package:`r-ggseqlogo` >=0.1 :conda:package:`r-gridextra` >=2.3 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-scales` >=1.0.0 :conda:package:`r-tfmpvalue` >=0.0.8 
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`bioconductor-biostrings` >=2.50.0,<2.51.0 :conda:package:`bioconductor-genomicranges` >=1.34.0,<1.35.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-dplyr` >=0.7.6 :conda:package:`r-ggplot2` >=3.0.0 :conda:package:`r-ggseqlogo` >=0.1 :conda:package:`r-gridextra` >=2.3 :conda:package:`r-rcpp` >=0.12.18 :conda:package:`r-scales` >=1.0.0 :conda:package:`r-tfmpvalue` >=0.0.8 
 
    :required~by: |required_by_bioconductor-transite|
 

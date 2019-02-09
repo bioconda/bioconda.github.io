@@ -24,7 +24,7 @@ bioconductor-scde
 
    :versions: 2.10.0, 2.8.0, 2.6.0
 
-   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cairo`  :conda:package:`r-extremes`  :conda:package:`r-flexmix`  :conda:package:`r-mass`  :conda:package:`r-mgcv`  :conda:package:`r-nnet`  :conda:package:`r-quantreg`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rcpparmadillo` >=0.5.400.2.0 :conda:package:`r-rjson`  :conda:package:`r-rmtstat`  :conda:package:`r-rook`  
+   :depends: :conda:package:`bioconductor-biocparallel` >=1.16.0,<1.17.0 :conda:package:`bioconductor-edger` >=3.24.0,<3.25.0 :conda:package:`bioconductor-pcamethods` >=1.74.0,<1.75.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-cairo`  :conda:package:`r-extremes`  :conda:package:`r-flexmix`  :conda:package:`r-mass`  :conda:package:`r-mgcv`  :conda:package:`r-nnet`  :conda:package:`r-quantreg`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.10.4 :conda:package:`r-rcpparmadillo` >=0.5.400.2.0 :conda:package:`r-rjson`  :conda:package:`r-rmtstat`  :conda:package:`r-rook`  
 
    :required~by: |required_by_bioconductor-scde|
 

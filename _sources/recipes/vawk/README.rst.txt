@@ -23,7 +23,7 @@ vawk
 
    :versions: 0.0.2
 
-   :depends: :conda:package:`python` 2.7* 
+   :depends: :conda:package:`gawk`  :conda:package:`python` <3 
 
    :required~by: |required_by_vawk|
 

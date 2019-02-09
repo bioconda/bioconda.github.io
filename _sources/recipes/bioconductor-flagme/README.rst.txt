@@ -24,7 +24,7 @@ bioconductor-flagme
 
    :versions: 1.38.1, 1.38.0, 1.34.0
 
-   :depends: :conda:package:`bioconductor-camera` >=1.38.0,<1.39.0 :conda:package:`bioconductor-gcspikelite` >=1.20.0,<1.21.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-mass`  :conda:package:`r-sparsem`  
+   :depends: :conda:package:`bioconductor-camera` >=1.38.0,<1.39.0 :conda:package:`bioconductor-gcspikelite` >=1.20.0,<1.21.0 :conda:package:`bioconductor-xcms` >=3.4.0,<3.5.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gplots`  :conda:package:`r-mass`  :conda:package:`r-sparsem`  
 
    :required~by: |required_by_bioconductor-flagme|
 

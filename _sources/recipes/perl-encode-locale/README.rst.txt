@@ -23,7 +23,7 @@ perl-encode-locale
 
    :versions: 1.05
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl-threaded`  
 
    :required~by: |required_by_perl-encode-locale|
 

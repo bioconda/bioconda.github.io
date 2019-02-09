@@ -24,7 +24,7 @@ bioconductor-rama
 
    :versions: 1.56.0, 1.54.0, 1.52.0, 1.50.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-rama|
 

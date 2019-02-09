@@ -24,7 +24,7 @@ bioconductor-ebimage
 
    :versions: 4.24.0, 4.22.1, 4.20.0, 4.18.3, 4.13.0, 4.12.2
 
-   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fftwtools` >=0.9-7 :conda:package:`r-htmltools`  :conda:package:`r-htmlwidgets`  :conda:package:`r-jpeg`  :conda:package:`r-locfit`  :conda:package:`r-png`  :conda:package:`r-rcurl`  :conda:package:`r-tiff`  
+   :depends: :conda:package:`bioconductor-biocgenerics` >=0.28.0,<0.29.0 :conda:package:`r-abind`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-fftwtools` >=0.9-7 :conda:package:`r-htmltools`  :conda:package:`r-htmlwidgets`  :conda:package:`r-jpeg`  :conda:package:`r-locfit`  :conda:package:`r-png`  :conda:package:`r-rcurl`  :conda:package:`r-tiff`  
 
    :required~by: |required_by_bioconductor-ebimage|
 

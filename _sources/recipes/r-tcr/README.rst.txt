@@ -23,7 +23,7 @@ r-tcr
 
    :versions: 2.2.2
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.9.0 :conda:package:`r-dplyr` >=0.4.0 :conda:package:`r-ggplot2` >=1.0.0 :conda:package:`r-gridextra` >=0.9.0 :conda:package:`r-gtable` >=0.1.2 :conda:package:`r-igraph` >=0.7.1 :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-reshape2` >=1.2.0 :conda:package:`r-scales` >=0.3.0 :conda:package:`r-stringdist` >=0.7.3 
+   :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table` >=1.9.0 :conda:package:`r-dplyr` >=0.4.0 :conda:package:`r-ggplot2` >=1.0.0 :conda:package:`r-gridextra` >=0.9.0 :conda:package:`r-gtable` >=0.1.2 :conda:package:`r-igraph` >=0.7.1 :conda:package:`r-rcpp` >=0.11.1 :conda:package:`r-reshape2` >=1.2.0 :conda:package:`r-scales` >=0.3.0 :conda:package:`r-stringdist` >=0.7.3 
 
    :required~by: |required_by_r-tcr|
 

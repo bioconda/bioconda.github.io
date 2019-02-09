@@ -23,7 +23,7 @@ ddocent
 
    :versions: 2.6.0, 2.5.6, 2.5.5, 2.5.2, 2.5.1, 2.3.8, 2.2.25, 2.2.20, 2.2.19, 2.2.16, 2.2.15, 2.2.13, 2.2.8, 2.2.7, 2.2.4, 2.1
 
-   :depends: :conda:package:`bedtools` >=2.26.0 :conda:package:`bwa`  :conda:package:`cd-hit`  :conda:package:`coreutils` >=8.22 :conda:package:`curl`  :conda:package:`freebayes`  :conda:package:`gnuplot`  :conda:package:`grep`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`mawk`  :conda:package:`openjdk`  :conda:package:`parallel`  :conda:package:`pear`  :conda:package:`rainbow`  :conda:package:`samtools`  :conda:package:`seqtk` >=1.3 :conda:package:`stacks` >=2.0 :conda:package:`trimmomatic`  :conda:package:`unzip`  :conda:package:`vcflib`  :conda:package:`vcftools` >=0.1.15 
+   :depends: :conda:package:`bedtools` >=2.26.0 :conda:package:`bwa`  :conda:package:`cd-hit`  :conda:package:`coreutils` >=8.22 :conda:package:`curl`  :conda:package:`freebayes`  :conda:package:`gnuplot`  :conda:package:`grep`  :conda:package:`mawk`  :conda:package:`openjdk`  :conda:package:`parallel`  :conda:package:`pear`  :conda:package:`rainbow`  :conda:package:`samtools`  :conda:package:`seqtk` >=1.3 :conda:package:`stacks` >=2.0 :conda:package:`trimmomatic`  :conda:package:`unzip`  :conda:package:`vcflib`  :conda:package:`vcftools` >=0.1.15 
 
    :required~by: |required_by_ddocent|
 

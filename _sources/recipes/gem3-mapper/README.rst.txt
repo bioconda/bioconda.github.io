@@ -24,7 +24,7 @@ gem3-mapper
 
    :versions: 3.6.1
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_gem3-mapper|
 

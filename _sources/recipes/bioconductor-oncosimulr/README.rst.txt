@@ -24,7 +24,7 @@ bioconductor-oncosimulr
 
    :versions: 2.12.0, 2.10.0, 2.8.0
 
-   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.12.4 :conda:package:`r-smatr`  
+   :depends: :conda:package:`bioconductor-graph` >=1.60.0,<1.61.0 :conda:package:`bioconductor-nem` >=2.56.0,<2.57.0 :conda:package:`bioconductor-rgraphviz` >=2.26.0,<2.27.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-car`  :conda:package:`r-data.table`  :conda:package:`r-dplyr`  :conda:package:`r-ggplot2`  :conda:package:`r-ggrepel`  :conda:package:`r-gtools`  :conda:package:`r-igraph`  :conda:package:`r-rcolorbrewer`  :conda:package:`r-rcpp` >=0.12.4 :conda:package:`r-smatr`  
 
    :required~by: |required_by_bioconductor-oncosimulr|
 

@@ -23,7 +23,7 @@ c-ares
 
    :versions: 1.11.0
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_c-ares|
 

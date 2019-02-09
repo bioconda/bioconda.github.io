@@ -23,7 +23,7 @@ pb-dazzler
 
    :versions: 0.0.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_pb-dazzler|
 

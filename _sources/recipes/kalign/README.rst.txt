@@ -24,7 +24,7 @@ kalign2
 
    :versions: 2.04
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_kalign2|
 

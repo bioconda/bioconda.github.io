@@ -24,7 +24,7 @@ bioconductor-iseq
 
    :versions: 1.34.0, 1.32.0, 1.30.0
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-iseq|
 

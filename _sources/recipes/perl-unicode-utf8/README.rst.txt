@@ -23,7 +23,7 @@ perl-unicode-utf8
 
    :versions: 0.62
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-xsloader`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-carp`  :conda:package:`perl-exporter`  :conda:package:`perl-xsloader`  
 
    :required~by: |required_by_perl-unicode-utf8|
 

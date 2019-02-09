@@ -24,7 +24,7 @@ bowtie
 
    :versions: 1.2.2, 1.2.1.1, 1.2.0, 1.1.2, 1.1.1, 1.0.0
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`tbb`  
+   :depends: :conda:package:`perl`  :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`tbb`  
 
    :required~by: |required_by_bowtie|
 

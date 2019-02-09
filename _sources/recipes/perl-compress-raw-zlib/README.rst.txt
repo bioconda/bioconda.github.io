@@ -23,7 +23,7 @@ perl-compress-raw-zlib
 
    :versions: 2.084, 2.083, 2.081, 2.069
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_perl-compress-raw-zlib|
 

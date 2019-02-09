@@ -23,7 +23,7 @@ perl-statistics-r
 
    :versions: 0.34
 
-   :depends: :conda:package:`gcc`  :conda:package:`libgcc`  :conda:package:`perl-ipc-run`  :conda:package:`perl-regexp-common`  :conda:package:`perl-text-balanced` >=1.97 :conda:package:`perl-text-wrap` >=0.77 :conda:package:`perl-threaded`  :conda:package:`r-essentials`  
+   :depends: :conda:package:`perl` 5.22.0* :conda:package:`perl-ipc-run`  :conda:package:`perl-regexp-common`  :conda:package:`perl-text-balanced` >=1.97 :conda:package:`perl-text-wrap`  :conda:package:`r-base` 3.4.1* 
 
    :required~by: |required_by_perl-statistics-r|
 

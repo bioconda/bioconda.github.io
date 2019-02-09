@@ -23,7 +23,7 @@ disco
 
    :versions: 1.2, 1.0
 
-   :depends: :conda:package:`bbmap`  :conda:package:`biopython`  :conda:package:`libgcc`  :conda:package:`openmpi` >=1.8 :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`bbmap`  :conda:package:`biopython`  :conda:package:`openmpi` >=1.8 :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_disco|
 

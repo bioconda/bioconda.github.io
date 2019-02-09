@@ -23,7 +23,7 @@ r-scrm
 
    :versions: 1.7.2_4, 1.7.2_0, 1.6.0_2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp` >=0.11.2 
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`r-rcpp` >=0.11.2 
 
    :required~by: |required_by_r-scrm|
 

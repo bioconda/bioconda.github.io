@@ -24,7 +24,7 @@ nonpareil
 
    :versions: 3.3.3, 3.3.1, 3.2, 3.1.1, 2.4.01, 2.4
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
+   :depends: :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 
 
    :required~by: |required_by_nonpareil|
 

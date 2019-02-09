@@ -24,7 +24,7 @@ bioconductor-amountain
 
    :versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0
 
-   :depends: :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`openblas` >=0.3.3,<0.3.4.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
+   :depends: :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 
 
    :required~by: |required_by_bioconductor-amountain|
 

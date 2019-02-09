@@ -24,7 +24,7 @@ bedtools
 
    :versions: 2.27.1, 2.27.0, 2.26.0, 2.26.0gx, 2.25.0, 2.24.0, 2.23.0, 2.22, 2.20.1, 2.19.1, 2.17.0, 2.16.2
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_bedtools|
 

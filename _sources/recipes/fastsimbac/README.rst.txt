@@ -23,7 +23,7 @@ fastsimbac
 
    :versions: 1.0.1_bd3ad13d8f79
 
-   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: :conda:package:`boost` >=1.67.0,<1.67.1.0a0 
 
    :required~by: |required_by_fastsimbac|
 

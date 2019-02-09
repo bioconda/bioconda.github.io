@@ -23,7 +23,7 @@ reaper
 
    :versions: 16.098
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib` 1.2.8* 
+   :depends: :conda:package:`zlib` 1.2.8* 
 
    :required~by: |required_by_reaper|
 

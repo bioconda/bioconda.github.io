@@ -23,7 +23,7 @@ r-biodb
 
    :versions: 1.2.2, 1.2.1, 1.2.0, 1.2.0rc2, 1.2.0a, 1.1.0, 1.0.2
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  :conda:package:`r-r.utils`  :conda:package:`r-rcpp`  :conda:package:`r-rcurl`  :conda:package:`r-stringr`  :conda:package:`r-xml`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-bitops`  :conda:package:`r-digest`  :conda:package:`r-jsonlite`  :conda:package:`r-plyr`  :conda:package:`r-r.utils`  :conda:package:`r-rcpp`  :conda:package:`r-rcurl`  :conda:package:`r-stringr`  :conda:package:`r-xml`  
 
    :required~by: |required_by_r-biodb|
 

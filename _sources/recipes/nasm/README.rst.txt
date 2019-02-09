@@ -23,7 +23,7 @@ nasm
 
    :versions: 2.11.08
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_nasm|
 

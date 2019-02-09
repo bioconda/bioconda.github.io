@@ -23,7 +23,7 @@ newick_utils
 
    :versions: 1.6
 
-   :depends: :conda:package:`libgcc`  :conda:package:`libxml2` 2.9.* 
+   :depends: :conda:package:`libxml2` 2.9.* 
 
    :required~by: |required_by_newick_utils|
 

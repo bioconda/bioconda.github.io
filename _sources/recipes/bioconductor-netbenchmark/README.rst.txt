@@ -23,7 +23,7 @@ bioconductor-netbenchmark
 
    :versions: 1.14.0
 
-   :depends: :conda:package:`bioconductor-genie3` >=1.4.0,<1.5.0 :conda:package:`bioconductor-grndata` >=1.14.0,<1.15.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-c3net`  :conda:package:`r-corpcor`  :conda:package:`r-fdrtool`  :conda:package:`r-genenet`  :conda:package:`r-matrix`  :conda:package:`r-pcit`  :conda:package:`r-pracma`  :conda:package:`r-rcpp` >=0.11.0 
+   :depends: :conda:package:`bioconductor-genie3` >=1.4.0,<1.5.0 :conda:package:`bioconductor-grndata` >=1.14.0,<1.15.0 :conda:package:`bioconductor-minet` >=3.40.0,<3.41.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-c3net`  :conda:package:`r-corpcor`  :conda:package:`r-fdrtool`  :conda:package:`r-genenet`  :conda:package:`r-matrix`  :conda:package:`r-pcit`  :conda:package:`r-pracma`  :conda:package:`r-rcpp` >=0.11.0 
 
    :required~by: |required_by_bioconductor-netbenchmark|
 

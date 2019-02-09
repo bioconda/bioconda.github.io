@@ -24,7 +24,7 @@ merlin
 
    :versions: 1.1.2
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_merlin|
 

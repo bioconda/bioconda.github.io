@@ -23,7 +23,7 @@ dextractor
 
    :versions: 1.0p2, 1.0p1
 
-   :depends: :conda:package:`hdf5` 1.8.17* :conda:package:`libgcc`  
+   :depends: :conda:package:`hdf5` 1.8.17* 
 
    :required~by: |required_by_dextractor|
 

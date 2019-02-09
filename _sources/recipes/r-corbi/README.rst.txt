@@ -23,7 +23,7 @@ r-corbi
 
    :versions: 0.4_2
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libgfortran` >=3.0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-crf`  :conda:package:`r-matrix`  :conda:package:`r-mpmi`  
+   :depends: :conda:package:`libgfortran` >=3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-crf`  :conda:package:`r-matrix`  :conda:package:`r-mpmi`  
 
    :required~by: |required_by_r-corbi|
 

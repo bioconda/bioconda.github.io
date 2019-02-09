@@ -23,7 +23,7 @@ ngs-bits
 
    :versions: 2018_11, 2018_10, 2018_06, 2018_04
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib`  :conda:package:`python`  :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`matplotlib`  :conda:package:`python`  :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_ngs-bits|
 

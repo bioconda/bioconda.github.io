@@ -23,7 +23,7 @@ perl-db-file
 
    :versions: 1.843, 1.835
 
-   :depends: :conda:package:`libdb`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
+   :depends: :conda:package:`libdb`  :conda:package:`perl` >=5.26.2,<5.26.3.0a0 
 
    :required~by: |required_by_perl-db-file|
 

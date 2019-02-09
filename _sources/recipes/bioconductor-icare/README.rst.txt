@@ -23,7 +23,7 @@ bioconductor-icare
 
    :versions: 1.10.3, 1.10.2
 
-   :depends: :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-hmisc`  :conda:package:`r-plotrix`  
+   :depends: :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-gtools`  :conda:package:`r-hmisc`  :conda:package:`r-plotrix`  
 
    :required~by: |required_by_bioconductor-icare|
 

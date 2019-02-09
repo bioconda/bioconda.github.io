@@ -24,7 +24,7 @@ rsem
 
    :versions: 1.3.1, 1.3.0, 1.2.28, 1.2.22, 1.2.21
 
-   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-ebseq`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-module-build`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`samtools` 1.3.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bioconductor-biobase`  :conda:package:`bioconductor-ebseq`  :conda:package:`boost` >=1.67.0,<1.67.1.0a0 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-module-build`  :conda:package:`r-base` >=3.4.1,<3.4.2.0a0 :conda:package:`samtools` 1.3.* :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_rsem|
 

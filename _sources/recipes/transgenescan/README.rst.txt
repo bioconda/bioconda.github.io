@@ -24,7 +24,7 @@ transgenescan
 
    :versions: 1.2.1
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_transgenescan|
 

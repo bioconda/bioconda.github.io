@@ -23,7 +23,7 @@ domclust
 
    :versions: 1.2.8a, 1.0
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
+   :depends: :conda:package:`libcxx`  :conda:package:`perl` 5.22.0* 
 
    :required~by: |required_by_domclust|
 

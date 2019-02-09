@@ -24,7 +24,7 @@ verifybamid
 
    :versions: 1.1.3
 
-   :depends: :conda:package:`libgcc`  :conda:package:`zlib`  
+   :depends: :conda:package:`zlib`  
 
    :required~by: |required_by_verifybamid|
 

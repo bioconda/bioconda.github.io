@@ -23,7 +23,7 @@ perl-number-format
 
    :versions: 1.75
 
-   :depends: :conda:package:`perl-threaded`  
+   :depends: :conda:package:`perl` 5.22.0* 
 
    :required~by: |required_by_perl-number-format|
 

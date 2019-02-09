@@ -24,7 +24,7 @@ dsrc
 
    :versions: 2015.06.04, 2014.12.17
 
-   :depends: :conda:package:`boost` 1.64* :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_dsrc|
 

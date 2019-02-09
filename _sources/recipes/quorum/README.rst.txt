@@ -23,7 +23,7 @@ quorum
 
    :versions: 1.1.1
 
-   :depends: :conda:package:`jellyfish` >=2.0 :conda:package:`libgcc`  :conda:package:`perl-threaded`  
+   :depends: :conda:package:`jellyfish` >=2.0 :conda:package:`perl-threaded`  
 
    :required~by: |required_by_quorum|
 

@@ -23,7 +23,7 @@ alignlib-lite
 
    :versions: 0.3, 0.2.3
 
-   :depends: :conda:package:`libgcc`  :conda:package:`python` 2.7* 
+   :depends: :conda:package:`python` 2.7* 
 
    :required~by: |required_by_alignlib-lite|
 

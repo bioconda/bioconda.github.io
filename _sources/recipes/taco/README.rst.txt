@@ -23,7 +23,7 @@ taco
 
    :versions: 0.7.3, v0.7.0
 
-   :depends: :conda:package:`libgcc`  :conda:package:`pyinstaller`  :conda:package:`python` 2.7* 
+   :depends: :conda:package:`pyinstaller`  :conda:package:`python` 2.7* 
 
    :required~by: |required_by_taco|
 

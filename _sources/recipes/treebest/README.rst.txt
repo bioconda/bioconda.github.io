@@ -23,7 +23,7 @@ treebest
 
    :versions: 1.9.2.post0, 1.9.2_ep78
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_treebest|
 

@@ -23,7 +23,7 @@ mashtree
 
    :versions: 0.37, 0.36, 0.35.4, 0.30, 0.28, 0.26, 0.25, 0.21, 0.20, 0.12
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`mash` >=1.1 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-sqlite` >=1.58 :conda:package:`quicktree`  :conda:package:`sqlite` >=3.26.0,<4.0a0 
+   :depends: :conda:package:`mash` >=1.1 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-bioperl` >=1.7.2 :conda:package:`perl-dbd-sqlite` >=1.58 :conda:package:`quicktree`  :conda:package:`sqlite`  
 
    :required~by: |required_by_mashtree|
 

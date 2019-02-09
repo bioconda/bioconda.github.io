@@ -24,7 +24,7 @@ anvio-minimal
 
    :versions: 5.2.0
 
-   :depends: :conda:package:`bottle` 0.12.13 :conda:package:`cherrypy` >=8,<9 :conda:package:`django` 2.0.2 :conda:package:`ete3` 3.1.1 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`h5py` >=2.8.0 :conda:package:`libgcc-ng` >=4.9 :conda:package:`matplotlib` >=2.2.3 :conda:package:`mistune` 0.7.4 :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`pandas` >=0.23.1 :conda:package:`psutil` >=5.4.3 :conda:package:`pyani` 0.2.7 :conda:package:`pysam` 0.15.1 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.19.1 :conda:package:`scikit-learn` 0.19.2 :conda:package:`scipy` >=0.13.3 :conda:package:`six` 1.11.0 :conda:package:`snakemake-minimal` 5.2.4 :conda:package:`statsmodels` 0.9.0 
+   :depends: :conda:package:`bottle` 0.12.13 :conda:package:`cherrypy` >=8,<9 :conda:package:`django` 2.0.2 :conda:package:`ete3` 3.1.1 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`h5py` >=2.8.0 :conda:package:`matplotlib` >=2.2.3 :conda:package:`mistune` 0.7.4 :conda:package:`numpy`  :conda:package:`openblas` >=0.2.20,<0.2.21.0a0 :conda:package:`pandas` >=0.23.1 :conda:package:`psutil` >=5.4.3 :conda:package:`pyani` 0.2.7 :conda:package:`pysam` 0.15.1 :conda:package:`python` >=3.6,<3.7.0a0 :conda:package:`requests` >=2.19.1 :conda:package:`scikit-learn` 0.19.2 :conda:package:`scipy` >=0.13.3 :conda:package:`six` 1.11.0 :conda:package:`snakemake-minimal` 5.2.4 :conda:package:`statsmodels` 0.9.0 
 
    :required~by: |required_by_anvio-minimal|
 

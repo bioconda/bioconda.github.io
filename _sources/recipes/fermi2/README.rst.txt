@@ -23,7 +23,7 @@ fermi2
 
    :versions: r193, r188
 
-   :depends: :conda:package:`bfc`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  :conda:package:`ropebwt2`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bfc`  :conda:package:`perl`  :conda:package:`ropebwt2`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_fermi2|
 

@@ -23,7 +23,7 @@ fqtrim
 
    :versions: 0.9.7
 
-   :depends: :conda:package:`gclib`  :conda:package:`libgcc`  :conda:package:`zlib` 1.2.11* 
+   :depends: :conda:package:`gclib`  :conda:package:`zlib` 1.2.11* 
 
    :required~by: |required_by_fqtrim|
 

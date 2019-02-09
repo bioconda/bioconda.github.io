@@ -23,7 +23,7 @@ soapdenovo2
 
    :versions: 2.40
 
-   :depends: :conda:package:`libgcc`  :conda:package:`samtools` ==0.1.19 :conda:package:`zlib`  
+   :depends: :conda:package:`samtools` ==0.1.19 :conda:package:`zlib`  
 
    :required~by: |required_by_soapdenovo2|
 

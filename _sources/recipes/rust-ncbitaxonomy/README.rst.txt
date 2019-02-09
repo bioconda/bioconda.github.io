@@ -25,7 +25,7 @@ rust-ncbitaxonomy
 
    :versions: 0.1.5, 0.1.4, 0.1.3
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 
+   :depends: 
 
    :required~by: |required_by_rust-ncbitaxonomy|
 

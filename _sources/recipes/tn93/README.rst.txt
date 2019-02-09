@@ -23,7 +23,7 @@ tn93
 
    :versions: 1.0.6, 1.0.4, 1.0.2
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_tn93|
 

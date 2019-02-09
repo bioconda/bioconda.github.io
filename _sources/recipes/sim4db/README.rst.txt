@@ -23,7 +23,7 @@ sim4db
 
    :versions: 2008
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_sim4db|
 

@@ -23,7 +23,7 @@ perl-dbd-sqlite
 
    :versions: 1.60, 1.58, 1.50
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-dbi`  
 
    :required~by: |required_by_perl-dbd-sqlite|
 

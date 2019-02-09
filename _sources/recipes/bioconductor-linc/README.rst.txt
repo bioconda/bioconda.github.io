@@ -24,7 +24,7 @@ bioconductor-linc
 
    :versions: 1.10.0, 1.8.0, 1.6.0
 
-   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-reactomepa` >=1.26.0,<1.27.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`libstdcxx-ng` >=7.3.0 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  
+   :depends: :conda:package:`bioconductor-biobase` >=2.42.0,<2.43.0 :conda:package:`bioconductor-clusterprofiler` >=3.10.0,<3.11.0 :conda:package:`bioconductor-dose` >=3.8.0,<3.9.0 :conda:package:`bioconductor-ggtree` >=1.14.0,<1.15.0 :conda:package:`bioconductor-org.hs.eg.db` >=3.7.0,<3.8.0 :conda:package:`bioconductor-reactomepa` >=1.26.0,<1.27.0 :conda:package:`bioconductor-sva` >=3.30.0,<3.31.0 :conda:package:`libcxx` >=4.0.1 :conda:package:`r-ape`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-png`  :conda:package:`r-rcpp` >=0.11.0 :conda:package:`r-reshape2`  
 
    :required~by: |required_by_bioconductor-linc|
 

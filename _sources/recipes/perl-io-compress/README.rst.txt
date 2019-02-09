@@ -23,7 +23,7 @@ perl-io-compress
 
    :versions: 2.084, 2.083, 2.081, 2.069
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-compress-raw-bzip2` >=2.084 :conda:package:`perl-compress-raw-zlib` >=2.084 :conda:package:`perl-scalar-list-utils`  
+   :depends: :conda:package:`perl` >=5.26.2,<5.26.3.0a0 :conda:package:`perl-compress-raw-bzip2` >=2.084 :conda:package:`perl-compress-raw-zlib` >=2.084 :conda:package:`perl-scalar-list-utils`  
 
    :required~by: |required_by_perl-io-compress|
 

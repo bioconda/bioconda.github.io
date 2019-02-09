@@ -24,7 +24,7 @@ openms
 
    :versions: 2.4.0, 2.3.0, 2.2.0, 2.1.0
 
-   :depends: :conda:package:`boost` >=1.64.0,<1.64.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`coinmp`  :conda:package:`eigen`  :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`gsl` >=2.2.1,<2.3.0a0 :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`libsvm` >=323,<324.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xerces-c` >=3.2.0,<3.2.1.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`boost` >=1.68.0,<1.68.1.0a0 :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`coinmp`  :conda:package:`eigen`  :conda:package:`glpk` >=4.65,<4.66.0a0 :conda:package:`gsl` >=2.4,<2.5.0a0 :conda:package:`libcxx` >=4.0.1 :conda:package:`libsvm` >=3.21,<3.22.0a0 :conda:package:`python` >=2.7,<2.8.0a0 :conda:package:`qt` >=5.6.2,<5.7.0a0 :conda:package:`xerces-c` >=3.2.2,<3.2.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_openms|
 

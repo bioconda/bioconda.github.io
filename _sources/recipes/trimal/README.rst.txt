@@ -24,7 +24,7 @@ trimal
 
    :versions: 1.4.1
 
-   :depends: :conda:package:`libgcc`  
+   :depends: 
 
    :required~by: |required_by_trimal|
 

@@ -23,7 +23,7 @@ gvcftools
 
    :versions: 0.17.0
 
-   :depends: :conda:package:`libstdcxx-ng` >=4.9 :conda:package:`perl`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`boost` 1.60* :conda:package:`perl` 5.22.0* :conda:package:`zlib`  
 
    :required~by: |required_by_gvcftools|
 

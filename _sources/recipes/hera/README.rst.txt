@@ -23,7 +23,7 @@ hera
 
    :versions: 1.1, 1.0.1, 1.0
 
-   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`hdf5` >=1.10.2,<1.10.3.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`jemalloc` >=4.5.0 :conda:package:`libdivsufsort`  :conda:package:`libgcc-ng` >=4.9 :conda:package:`python`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
+   :depends: :conda:package:`bzip2` >=1.0.6,<2.0a0 :conda:package:`hdf5` >=1.10.2,<1.10.3.0a0 :conda:package:`htslib` >=1.9,<1.10.0a0 :conda:package:`jemalloc` >=4.5.0 :conda:package:`libdivsufsort`  :conda:package:`python`  :conda:package:`xz` >=5.2.4,<5.3.0a0 :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
    :required~by: |required_by_hera|
 

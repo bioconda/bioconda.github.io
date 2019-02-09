@@ -23,7 +23,7 @@ velvet-sc
 
    :versions: 0.7.62
 
-   :depends: :conda:package:`libgcc-ng` >=4.9 :conda:package:`perl`  
+   :depends: :conda:package:`libgcc`  :conda:package:`perl` 5.22.0* 
 
    :required~by: |required_by_velvet-sc|
 

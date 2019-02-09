@@ -23,7 +23,7 @@ perl-gdtextutil
 
    :versions: 0.86
 
-   :depends: :conda:package:`perl` >=5.22.0 :conda:package:`perl-gd`  
+   :depends: :conda:package:`perl-gd`  :conda:package:`perl-threaded` >=5.22.0 
 
    :required~by: |required_by_perl-gdtextutil|
 
