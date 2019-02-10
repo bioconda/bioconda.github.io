@@ -21,9 +21,9 @@ cnv_facets
 
    |downloads_cnv_facets| |docker_cnv_facets|
 
-   :versions: 0.12.1, 0.12.0, v0.11.3, v0.11.2
+   :versions: 0.13.0, 0.12.1, 0.12.0, v0.11.3, v0.11.2
 
-   :depends: :conda:package:`bcftools`  :conda:package:`bioconductor-rsamtools`  :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-jsonlite`  :conda:package:`samtools`  :conda:package:`snp-pileup`  
+   :depends: :conda:package:`bcftools`  :conda:package:`bioconductor-rsamtools`  :conda:package:`libgcc-ng` >=7.3.0 :conda:package:`r-base` >=3.5.1,<3.5.2.0a0 :conda:package:`r-data.table`  :conda:package:`r-ggplot2`  :conda:package:`r-gridextra`  :conda:package:`r-jsonlite`  :conda:package:`samtools`  :conda:package:`snp-pileup`  
 
    :required~by: |required_by_cnv_facets|
 

@@ -22,7 +22,7 @@ stacks
 
    |downloads_stacks| |docker_stacks|
 
-   :versions: 2.3, 2.2, 2.1, 2.0, 2.0Beta10a, 2.0Beta9, 2.0Beta8, 2.0Beta8c, 2.0Beta7c, 1.47, 1.46, 1.44, 1.43, 1.42, 1.40, 1.37
+   :versions: 2.3, 2.3b, 2.2, 2.1, 2.0, 2.0Beta10a, 2.0Beta9, 2.0Beta8, 2.0Beta8c, 2.0Beta7c, 1.47, 1.46, 1.44, 1.43, 1.42, 1.40, 1.37
 
    :depends: :conda:package:`libcxx` >=4.0.1 :conda:package:`perl`  :conda:package:`perl-bioperl-core`  :conda:package:`perl-file-spec`  :conda:package:`perl-file-temp`  :conda:package:`perl-posix`  :conda:package:`python` >=3 :conda:package:`samtools`  :conda:package:`velvet`  :conda:package:`zlib` >=1.2.11,<1.3.0a0 
 
