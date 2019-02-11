@@ -22,7 +22,7 @@ cromwell
 
    |downloads_cromwell| |docker_cromwell|
 
-   :versions: 0.37a, 0.36, 0.35, 0.34, 0.32, 0.32a, 0.30, 0.29, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.19.4
+   :versions: 0.37, 0.37a, 0.36, 0.35, 0.34, 0.32, 0.32a, 0.30, 0.29, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.19.4
 
    :depends: :conda:package:`findutils`  :conda:package:`openjdk` >=8,<9 :conda:package:`python`  
 
